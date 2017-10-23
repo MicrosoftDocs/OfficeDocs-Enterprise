@@ -1,3 +1,4 @@
-	- name: Office 365 for the Enterprise
-	  tocHref: /
-    topicHref: /Office365/Enterprise/index
+- name: Office 365 for the Enterprise
+	tocHref: /
+	topicHref: /Office365/Enterprise/index
+	
