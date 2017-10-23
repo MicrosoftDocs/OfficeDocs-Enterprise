@@ -30,7 +30,8 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {      
+    "globalMetadata": {   
+      "layout": "Conceptual",      
       "breadcrumb_path": "/office365/enterprise/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "searchScope": ["Office 365 Enterprise"]
