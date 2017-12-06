@@ -36,7 +36,7 @@ Microsoft hybrid cloud is a set of business scenarios that combine a Microsoft c
     
 **Figure 1: Components of the Microsoft hybrid cloud**
 
-![Components of the Microsoft hybrid cloud](images/65dfb1c6-26be-45c2-ab3d-6d1cd4a0f823.png)
+![Components of the Microsoft hybrid cloud](images/Hybrid_Poster/MS_Hybrid_Cloud.png)
   
 Figure 1 shows the components of the Microsoft hybrid cloud, from an on-premises network to the set of Office 365, Azure Platform as a Service (PaaS), and Azure Infrastructure as a Service (IaaS) services available across the Internet or an ExpressRoute connection.
   

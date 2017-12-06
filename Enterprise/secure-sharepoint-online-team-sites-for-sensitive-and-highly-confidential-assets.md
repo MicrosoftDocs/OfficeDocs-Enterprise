@@ -15,12 +15,12 @@ ms.custom:
 - DecEntMigration
 - Ent_Architecture
 ms.assetid: 8c088e88-a9ba-4044-bced-722196f4496d
-description: "Summary: How Contoso implemented sensitive protection and highly confidential SharePoint Online team sites for easier, yet secure, collaboration for executives and its research centers.."
+description: "Summary: How Contoso implemented sensitive protection and highly confidential SharePoint Online team sites for easier, yet secure, collaboration for executives and its research centers."
 ---
 
 # Secure SharePoint Online team sites for sensitive and highly confidential assets
 
- **Summary:** How Contoso implemented sensitive protection and highly confidential SharePoint Online team sites for easier, yet secure, collaboration for executives and its research centers..
+ **Summary:** How Contoso implemented sensitive protection and highly confidential SharePoint Online team sites for easier, yet secure, collaboration for executives and its research centers.
   
 The executive leadership of Contoso want to use Office 365 and store their files in a single location for collaboration, regardless of where an executive might be. Similarly, Contoso's research departments—with divisions in Paris, Moscow, New York, Beijing, and Bangalore—would like to transition their on-premises digital assets to the cloud for easier access and more open collaboration across teams.
   
@@ -30,7 +30,7 @@ Security and SharePoint administrators in Contoso's IT department decided to use
   
 **Figure 1: Comparison of sensitive protection and highly confidential SharePoint Online team sites**
 
-![Sensitive protection and highly confidential SharePoint Online team sites](images/ed73bd84-47af-4a90-8b82-6adab9419b9a.png)
+![Sensitive protection and highly confidential SharePoint Online team sites](images/Contoso_Poster/SP_Solution.png)
   
 Contoso used these steps to create secure SharePoint Online team sites for their executives and research teams:
   
@@ -54,7 +54,7 @@ The result is two collaboration sites whose access is tightly controlled by secu
   
 For more information, see [Secure SharePoint Online sites and files](https://docs.microsoft.com/microsoft-365-enterprise/secure-sharepoint-online-sites-and-files).
   
- To set this up for demonstration, proof-of-concept, or dev/test, see[Secure SharePoint Online sites in a dev/test environment](https://docs.microsoft.com/microsoft-365-enterprise/secure-sharepoint-online-sites-dev-test).
+ To set this up for demonstration, proof-of-concept, or dev/test, see [Secure SharePoint Online sites in a dev/test environment](https://docs.microsoft.com/microsoft-365-enterprise/secure-sharepoint-online-sites-dev-test).
   
 ## See Also
 

@@ -30,7 +30,7 @@ Figure 1 shows the architecture of Microsoft SaaS-based hybrid scenarios for Off
   
 **Figure 1: Microsoft SaaS-based hybrid scenarios for Office 365**
 
-![Microsoft SaaS-based hybrid scenarios for Office 365](images/ada13ea7-2e52-447f-a521-c2a75a91eeba.png)
+![Microsoft SaaS-based hybrid scenarios for Office 365](images/Hybrid_Poster/Hybrid_Cloud_Stack_SaaS.png)
   
 For each layer of the architecture:
   
@@ -66,7 +66,7 @@ Skype for Business 2015 Hybrid allows you to combine an existing on-premises dep
   
 **Figure 2: The Skype for Business 2015 hybrid configuration**
 
-![The Skype for Business 2015 hybrid configuration](images/8db6c235-fba9-44c5-81bd-0bce00572c1a.png)
+![The Skype for Business 2015 hybrid configuration](images/Hybrid_Poster/Hybrid_Cloud_Stack_SaaS_SfB.png)
   
 Figure 2 shows the Skype for Business 2015 hybrid configuration, consisting of an on-premises Skype for Business 2015 front end pool and edge server communicating with Skype for Business Online in Office 365.
   
@@ -84,7 +84,7 @@ Cloud PBX with Skype for Business Server allows you to transition an existing Sk
   
 **Figure 3: Cloud PBX with Skype for Business Server**
 
-![Cloud PBX with Skype for Business Server](images/c69fd31d-a3f3-476e-8ee0-6456c4a8b517.png)
+![Cloud PBX with Skype for Business Server](images/Hybrid_Poster/Hybrid_Cloud_Stack_SaaS_SfB_CloudPBX.png)
   
 Figure 3 shows the Cloud PBX with Skype for Business Server configuration, consisting of an on-premises existing PBX or Telco gateway, a Skype for Business Server, and the PSTN connected to the Microsoft Cloud PBX in Office 365, which includes Skype for Business Online.
   
@@ -104,7 +104,7 @@ SharePoint hybrid combines SharePoint Online in Office 365 with your on-premises
   
 **Figure 4: The SharePoint hybrid configuration**
 
-![The SharePoint hybrid configuration](images/f6a81cba-b2b6-4c98-8f2f-290254538deb.png)
+![The SharePoint hybrid configuration](images/Hybrid_Poster/Hybrid_Cloud_Stack_SaaS_SP.png)
   
 Figure 4 shows the SharePoint hybrid configuration, consisting of an on-premises SharePoint farm communicating with SharePoint Online in Office 365.
   
@@ -138,7 +138,7 @@ With Exchange Server 2016 Hybrid, you can realize the benefits of Exchange Onlin
   
 **Figure 5: The Exchange 2016 hybrid configuration**
 
-![The Exchange 2016 hybrid configuration](images/eab64653-b064-41e0-8e1b-1410c46b4e3a.png)
+![The Exchange 2016 hybrid configuration](images/Hybrid_Poster/Hybrid_Cloud_Stack_SaaS_EX.png)
   
 Figure 5 shows the Exchange 2016 hybrid configuration, consisting of on-premises Exchange mailbox servers communicating with Exchange Online Protection and mailboxes in Office 365.
   

@@ -28,7 +28,8 @@ Contoso's worldwide organization has offices in the following locations:
   
 **Figure 1: Contoso's offices around the world**
 
-![The offices of the Contoso Corporation around the world](images/7b23913e-6db5-4f0d-afd8-58a2d1a0922d.png)
+![The offices of the Contoso Corporation around the world](images/Contoso_Poster/Contoso_WW_Org.png)
+
   
 Figure 1 shows the headquarters office in Paris and regional hub and satellite offices in various continents.
   
@@ -63,7 +64,7 @@ Contoso's IT architects have identified the following elements when planning for
     Networking includes the connectivity to Microsoft's cloud offerings and enough bandwidth to be performant under peak loads. Some connectivity will be over local Internet connections and some will be across Contoso's private network infrastructure.
     
     For more information, see the [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md) poster.
-    
+   
 - Identity
     
     Contoso uses a Windows Server AD forest for its internal identity provider and also federates with third-party providers for customer and partners. Contoso must leverage the internal set of accounts for Microsoft's cloud offerings. Access to cloud-based apps for customers and partners must leverage third-party identity providers as well.
