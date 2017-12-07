@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/16/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: Office 365
 localization_priority: Normal
 ms.assetid: d78983fa-0951-49b8-b890-d76a44c70035
 description: "This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online."

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/16/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: Office 365
 localization_priority: None
 ms.custom:
 - DecEntMigration

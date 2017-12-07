@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/16/2014
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: Office 365
 localization_priority: Normal
 ms.assetid: 71636974-fb99-487c-ac67-f15e9401acba
 description: "This article is an accessible text version of the diagram named Internet sites in Microsoft Azure for SharePoint 2013."

@@ -5,8 +5,8 @@ author: bcarter
 manager: laurawi
 ms.date: 12/16/2016
 ms.audience: ITPro
-ms.topic: concetpual
-ms.prod: office-online-server
+ms.topic: conceptual
+ms.service: Office 365
 localization_priority: Normal
 ms.collection:
 - Ent_O365

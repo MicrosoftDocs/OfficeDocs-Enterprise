@@ -5,8 +5,8 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 8/30/2017
 ms.audience: ITPro
-ms.topic: concetpual
-ms.prod: office-online-server
+ms.topic: conceptual
+ms.service: Office 365
 localization_priority: Normal
 ms.collection:
 - Ent_O365
