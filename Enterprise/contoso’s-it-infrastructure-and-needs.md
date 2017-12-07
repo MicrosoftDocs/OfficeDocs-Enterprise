@@ -28,7 +28,7 @@ Contoso uses a mostly centralized on-premises IT infrastructure, with applicatio
   
 **Figure 1: Contoso's existing IT infrastructure**
 
-![Contoso's existing IT infrastructure](images/25069364-faeb-4c82-88c4-ef578c6b4e93.png)
+![Contoso's existing IT infrastructure](images/Contoso_Poster/Existing_IT.png)
   
 Figure 1 shows a headquarters office with application datacenters, a DMZ, and the Internet.
   

@@ -44,7 +44,7 @@ Contoso determined the following structure for the organization and its subscrip
   
 **Figure 1: Contoso's organization, subscriptions, licenses, user accounts and tenants**
 
-![Contoso's organization, subscriptions, licenses, user accounts and tenants](images/2d882ac3-befa-4572-bdbc-2eb84c562cf7.png)
+![Contoso's organization, subscriptions, licenses, user accounts and tenants](images/Contoso_Poster/Subscriptions.png)
   
 Figure 1 shows how the Contoso organization includes multiple subscriptions and is tied to a common Azure AD tenant that contains the user accounts synchronized from the contoso.com Windows Server AD forest.
   
@@ -80,7 +80,7 @@ Figure 2 shows the hierarchical design of Contoso's Azure subscriptions:
   
 **Figure 2: Contoso's structure for Azure subscriptions**
 
-![Contoso's structure for Azure subscriptions](images/eb6ecfd1-0483-4f4c-97c8-adac1dac9c80.png)
+![Contoso's structure for Azure subscriptions](images/Contoso_Poster/Subscriptions_Nested.png)
   
 - Contoso is at the top, based on its Enterprise Agreement with Microsoft.
     
