@@ -46,7 +46,7 @@ Organization applications hosted in Azure PaaS require Internet bandwidth for in
     
 **Figure 1: Connection options for connecting the Azure PaaS services**
 
-![Figure 1: Connection options for Azure PaaS services](images/fe802311-8687-44a7-ad58-bdf55d901d8b.png)
+![Figure 1: Connection options for Azure PaaS services](images/Network_Poster/PaaS1.png)
   
 Figure 1 shows an on-premises network connecting to Azure PaaS services over an Internet pipe or ExpressRoute.
   
@@ -56,7 +56,7 @@ Application-level routing and load balancing services that let you build a scala
   
 **Figure 2: Azure Application Gateway**
 
-![Figure 2: Azure Application Gateway Service](images/69b3ce25-f1f1-46c8-8c02-4726d7a7b81c.png)
+![Figure 2: Azure Application Gateway Service](images/Network_Poster/PaaS2.png)
   
 Figure 2 shows the Azure Application Gateway and how user requests from the Internet can be routed to Azure web apps, cloud services, or virtual machines.
   
@@ -86,7 +86,7 @@ Here is an example for three geographically-distributed web apps.
   
 **Figure 3: Azure Traffic Manager**
 
-![Figure 3: Azure Traffic Manager](images/c8c6164b-670b-4638-be06-7be27c3e1997.png)
+![Figure 3: Azure Traffic Manager](images/Network_Poster/PaaS3.png)
   
 Figure 3 shows the basic process that Traffic Manager uses to route requests to three different Azure web apps in United States, Europe, and Asia. In the example:
   
@@ -94,7 +94,7 @@ Figure 3 shows the basic process that Traffic Manager uses to route requests to 
     
 2. The user initiates traffic with the regional web app in Europe.
     
-For more information, see [Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview)
+For more information, see [Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview).
   
 ## See Also
 

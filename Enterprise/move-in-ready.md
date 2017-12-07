@@ -196,9 +196,9 @@ For additional information, click [here](http://www.microsoft.com/dynamics/defau
 
 ### Features
 
-- All software that you deploy is packaged and uploaded to Microsoft Intune cloud storage
+- All software that you deploy is packaged and uploaded to Microsoft Intune cloud storage.
     
-- Subscription includes 20 GB of storage with the option to purchase additional space, various software and hardware inventory reports, policy management, mobile app publishing, alerts, monitoring, and 99.99% uptime SLA
+- Subscription includes 20 GB of storage with the option to purchase additional space, various software and hardware inventory reports, policy management, mobile app publishing, alerts, monitoring, and 99.99% uptime SLA.
     
 ### Common uses
 
@@ -210,9 +210,9 @@ For additional information, click [here](http://www.microsoft.com/dynamics/defau
     
 ### Resources
 
-For additional information, click [here](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/).
+For additional information, click [here](https://www.microsoft.com/server-cloud/products/microsoft-intune/).
   
-For cost information, click [here](https://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx).
+For cost information, click [here](https://www.microsoft.com/cloud-platform/microsoft-intune-pricing).
   
 ## Azure Site Recovery
 

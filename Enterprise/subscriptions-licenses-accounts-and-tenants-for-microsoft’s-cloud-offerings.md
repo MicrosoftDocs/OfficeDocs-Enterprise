@@ -25,21 +25,21 @@ description: "Summary: Understand the relationships of organizations, subscripti
   
 Microsoft provides a hierarchy of organizations, subscriptions, licenses, and user accounts for consistent use of identities and billing across its cloud offerings:
   
-- **Microsoft Office 365**
+- Microsoft Office 365
     
     See [business plans and pricing](https://products.office.com/business/compare-office-365-for-business-plans) for more information.
     
-- **Microsoft Azure**
+- Microsoft Azure
     
     See [Azure pricing](https://azure.microsoft.com/pricing/) for more information.
     
-- **Microsoft Intune and the Enterprise Mobility + Security (EMS)**
+- Microsoft Intune and the Enterprise Mobility + Security (EMS)
     
-    See [Intune pricing](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-pricing) for more information.
+    See [Intune pricing](https://www.microsoft.com/cloud-platform/microsoft-intune-pricing) for more information.
     
-- **Microsoft Dynamics 365**
+- Microsoft Dynamics 365
     
-    See [Dynamics 365 pricing](https://www.microsoft.com/en-us/dynamics/dynamics-365) for more information.
+    See [Dynamics 365 pricing](https://dynamics.microsoft.com/) for more information.
     
 ## Elements of the hierarchy
 
@@ -59,7 +59,8 @@ Organizations can have multiple subscriptions for Microsoft's cloud offerings. F
   
 **Figure 1: Example of multiple subscriptions for an organization**
 
-![An example organization with multiple subscriptions for Microsoft's cloud offerings.](images/c2947949-bf0b-4b37-b967-bd44b5ef738e.png)
+![An example organization with multiple subscriptions for Microsoft's cloud offerings.](images/Subscriptions/Subscriptions_Fig1.png)
+
   
 Figure 1 shows a single organization that has multiple Office 365 subscriptions, an Intune subscription, a Dynamics 365 subscription, and multiple Azure subscriptions.
   
@@ -69,9 +70,7 @@ For Microsoft's SaaS cloud offerings, a license allows a specific user account t
   
 **Figure 2: Licenses within the SaaS-based subscriptions for an organization**
 
-![An example of multiple licenses within subscriptions for Microsoft's SaaS-based cloud offerings.](images/449ce774-86d2-4ea8-9a93-49799adff544.png)
-  
-Figure 2 shows a single organization that has an Office 365 E3 subscription with 100 licenses, an Office 365 E5 subscription with 100 licenses, an Intune subscription with 50 licenses, a Dynamics 365 subscription with 50 licenses, and multiple Azure subscriptions.
+![An example of multiple licenses within subscriptions for Microsoft's SaaS-based cloud offerings.](images/Subscriptions/Subscriptions_Fig2.png)
   
 For Azure PaaS-based cloud services, software licenses are built into the service pricing.
   
@@ -87,7 +86,7 @@ Figure 3 shows an example of multiple subscriptions of an organization using a c
   
 **Figure 3: Multiple subscriptions of an organization that use the same Azure AD tenant**
 
-![An example organization with multiple subscriptions all using the same Azure AD tenant.](images/e4cf15a0-b908-4389-9165-ef441a6af494.png)
+![An example organization with multiple subscriptions all using the same Azure AD tenant.](images/Subscriptions/Subscriptions_Fig3.png)
   
 ### Tenants
 
@@ -129,7 +128,7 @@ Multiple Microsoft cloud offering subscriptions can use the same Azure AD tenant
   
 **Figure 4: Synchronized on-premises accounts and IDaaS for an organization**
 
-![Identity as a Service (IaaS) IDaaS for your organization.](images/f1c6f4d1-ed28-4bf0-b730-2196dce3ed53.png)
+![Identity as a Service (IaaS) IDaaS for your organization.](images/Subscriptions/Subscriptions_Fig4.png)
   
 Figure 4 shows how a common Azure AD tenant is utilized by Microsoft's SaaS cloud offerings, Azure PaaS apps, and virtual machines in Azure IaaS that use Azure AD Domain Services. Azure AD Connect synchronizes the on-premises Windows Server AD forest with the Azure AD tenant.
   

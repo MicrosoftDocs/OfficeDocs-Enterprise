@@ -28,7 +28,7 @@ Optimizing your network for Microsoft SaaS services requires careful analysis of
 
 Follow these steps to optimize your network for Microsoft SaaS services:
   
-1. Go through the **Steps to prepare your network for Microsoft cloud services** section in[Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
+1. Go through the **Steps to prepare your network for Microsoft cloud services** section in [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
     
 2. Optimize your Internet egress for Microsoft SaaS services using the proxy server recommendations.
     
@@ -44,7 +44,7 @@ Here are some things to consider optimize your Internet edge and throughput to M
   
 **Figure 1: Connection options for Microsoft SaaS services**
 
-![Figure 1: Connection options for Microsoft SaaS services](images/d05df7d5-f9d5-4f12-8505-58e7a37483de.png)
+![Figure 1: Connection options for Microsoft SaaS services](images/Network_Poster/SaaS1.png)
   
 Figure 1 shows an on-premises network connecting to Microsoft SaaS services over an Internet pipe or ExpressRoute.
   

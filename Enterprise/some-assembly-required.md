@@ -24,13 +24,13 @@ description: "Summary: Get the details on the set of cloud storage options that 
   
 "Some assembly required " storage solutions:
   
-- Use existing services as a starting point for your storage solution
+- Use existing services as a starting point for your storage solution.
     
-- Requires some configuration or coding
+- Require some configuration or coding.
     
-- Can be customized to fit your needs
+- Can be customized to fit your needs.
     
-The following sections describe the details of each Some assembly required storage solution.
+The following sections describe the details of each "Some assembly required" storage solution.
   
 ## Azure Content Delivery Network
 
@@ -138,11 +138,11 @@ Use the virtually unlimited resources of Azure SQL Database when:
     
 With vertical scaling, you can change Azure database performance level/edition or by using elastic database pools.
   
-![Vertical scaling provided by Azure SQL Database.](images/6417c8f2-bd63-4574-a0b3-927a1a2a6e7d.png)
+![Vertical scaling provided by Azure SQL Database.](images/Storage_Poster/CloudStor-VertScale.png)
   
 With horizontal scaling, you can add new databases as needed.
   
-![Horizontal scaling provided by Azure SQL Database.](images/9b72c009-7691-4349-ba56-4c705a84568d.png)
+![Horizontal scaling provided by Azure SQL Database.](images/Storage_Poster/CloudStor-HorizScale.png)
   
 Click [here](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-scale-introduction) for more information.
   
@@ -150,7 +150,7 @@ Click [here](https://docs.microsoft.com/azure/sql-database/sql-database-elastic-
 
 Stretch database is a feature of SQL Server 2016 that allows you to transparently and securely move cold data, such as closed business data in a large table that contains customer order information, to a SQL Stretch database in Azure. When stretched, the contents of a SQL Server instance, a database, or even a single table is the combination of local data in SQL Server 2016 server and remote data in Azure. Data that becomes eligible for stretch is automatically moved to Azure by SQL Server 2016.
   
-![Stretch Database with SQL Server 2016.](images/b5360311-8100-42e9-ac62-9b611294a34d.png)
+![Stretch Database with SQL Server 2016.](images/Storage_Poster/CloudStor-Stretch.png)
   
 User queries that include the historical data are transparently forwarded to Azure SQL Stretch database. The queries do not need to be re-written, even though the table is stretched.
   
@@ -202,7 +202,7 @@ Common attributes of Cosmos DB, Azure Table Storage, and Azure SQL Database:
     
 The following table shows the uncommon attributes of Azure Cosmos DB, Azure Table Storage, and Azure SQL Database.
   
-![Uncommon attributes of Cosmos DB vs. Azure Tables vs. Azure SQL Database](images/cfc81464-6583-44f1-b33e-ceb5549387b4.png)
+![Uncommon attributes of Cosmos DB vs. Azure Tables vs. Azure SQL Database](images/Storage_Poster/CloudStor-Table.png)
   
 ### Resources
 

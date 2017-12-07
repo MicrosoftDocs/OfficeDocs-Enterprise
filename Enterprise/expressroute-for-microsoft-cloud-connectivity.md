@@ -28,7 +28,7 @@ Here is the networking path to the Microsoft cloud without an ExpressRoute conne
   
 **Figure 1: The networking path without ExpressRoute**
 
-![Figure 1: The networking path without ExpressRoute](images/27796846-3b0a-4bbc-8b39-22552d037fba.png)
+![Figure 1: The networking path without ExpressRoute](images/Network_Poster/ExpressRoute.png)
   
 Figure 1 shows the typical path between an on-premises network and the Microsoft cloud. The on-premises network edge connects to the Internet through a WAN link to an ISP. The traffic then travels across the Internet to the edge of the Microsoft cloud. Cloud offerings within the Microsoft cloud include Office 365, Microsoft Azure, Microsoft Intune, and Dynamics 365. Users of an organization can be located on the on-premises network or on the Internet.
   
@@ -42,7 +42,7 @@ Here are the networking paths to the Microsoft cloud with an ExpressRoute connec
   
 **Figure 2: The networking paths with ExpressRoute**
 
-![Figure 2: The networking paths with ExpressRoute](images/a22eccb1-e3d2-4c69-a751-6539ffc0d8c2.png)
+![Figure 2: The networking paths with ExpressRoute](images/Network_Poster/ExpressRoute_post.png)
   
 Figure 2 shows two networking paths. Traffic to Microsoft Intune travels the same path as normal Internet traffic. Traffic to Office 365, Microsoft Azure, and Dynamics 365 travels across the ExpressRoute connection, a dedicated path between the edge of the on-premises network and the edge of the Microsoft cloud.
   
@@ -84,7 +84,7 @@ Table 1 shows the three primary connectivity models for ExpressRoute connections
   
 |**Co-located at a cloud exchange**|**Point-to-point Ethernet**|**Any-to-any (IP VPN) connection**|
 |:-----|:-----|:-----|
-|![ExpressRoute connectivity model: Co-located at a cloud exchange](images/415cd5b2-2b5a-4aeb-8018-8af61d9f9ab6.png)|![ExpressRoute connectivity model: Point-to-point Ethernet](images/0582afa7-b46d-4da9-80ff-f0553ac93676.png)|![ExpressRoute connectivity model: Any-to-any (IP VPN) connection](images/2884618e-ff38-471a-a1e0-fd55483938e5.png)|
+|![ExpressRoute connectivity model: Co-located at a cloud exchange](images/Network_Poster/ER_Conn1.png)|![ExpressRoute connectivity model: Point-to-point Ethernet](images/Network_Poster/ER_Conn2.png)|![ExpressRoute connectivity model: Any-to-any (IP VPN) connection](images/Network_Poster/ER_Conn3.png)|
 |If your datacenter is co-located in a facility with a cloud exchange, you can order a virtual cross-connection to the Microsoft cloud through the co-location provider's Ethernet exchange.  <br/> |If your datacenter is located on your premises, you can use a point-to-point Ethernet link to connect to the Microsoft cloud.  <br/> |If you are already using an IP VPN (MPLS) provider to connect the sites of your organization, an ExpressRoute connection to the Microsoft cloud acts like another location on your private WAN.  <br/> |
    
  **Table 1: ExpressRoute connectivity models**
@@ -95,7 +95,7 @@ A single ExpressRoute connection supports up to three different Border Gateway P
   
 **Figure 3: The three different BGP relationships in a single ExpressRoute connection**
 
-![Figure 3: The three different BGP relationships in a single ExpressRoute connection](images/f16e3eaf-9fd5-4513-9a15-dcf66f07756f.png)
+![Figure 3: The three different BGP relationships in a single ExpressRoute connection](images/Network_Poster/ERPeering.png)
   
 Figure 3 shows an ExpressRoute connection from an on-premises network. The ExpressRoute connection contains three logical peering relationships. A Microsoft peering relationship goes to Microsoft SaaS services, including Office 365 and Dynamcs CRM Online. A public peering relationship goes to Azure PaaS services. A private peering relationship goes to Azure IaaS and to a virtual network gateway that hosts virtual machines.
   
@@ -125,7 +125,8 @@ How traffic travels across ExpressRoute connections and within the Microsoft clo
   
 **Figure 4: An application on an Azure virtual machine accessing an on-premises SharePoint farm**
 
-![Figure 4: An application on an Azure virtual machine accessing an on-premises SharePoint farm](images/293dbdb7-e8f6-4399-8fdd-b7e4d0b33e66.png)
+![Figure 4: An application on an Azure virtual machine accessing an on-premises SharePoint farm](images/Network_Poster/ER_App_Flow1.png)
+
   
 Figure 4 shows an on-premises SharePoint farm, a site-to-site VPN connection between the on-premises network and a virtual network in Azure IaaS, an application server running as an Azure IaaS virtual machine, and the traffic flow between the application server and the SharePoint farm.
   
@@ -135,13 +136,13 @@ This organization migrated their on-premises SharePoint farm to SharePoint Onlin
   
 **Figure 5: Moving the on-premises SharePoint farm to SharePoint Online**
 
-![Figure 5: Moving the on-premises SharePoint farm to SharePoint Online](images/d2140875-5fd3-44ce-b863-e93ad8680038.png)
+![Figure 5: Moving the on-premises SharePoint farm to SharePoint Online](images/Network_Poster/Hairpin1.png)
   
 Figure 5 shows the addition of an ExpressRoute connection with peering relationships to Microsoft SaaS and Office 365 and to Azure IaaS containing the application server on a virtual network. The SharePoint on-premises farm has been migrated to Office 365.
   
 With the Microsoft and private peering relationships:
   
-- From the Azure virtual network gateway, on-premises locations are available across the ExpressRoute connection.
+- From the Azure virtual network gateway, on-premises locations are available across the ExpressRoute connection.
     
 - From the Office 365 subscription, public IP addresses of edge devices, such as proxy servers, are available across the ExpressRoute connection.
     
@@ -153,7 +154,8 @@ When the proxy server locates the IP address of SharePoint Online, it forwards t
   
 **Figure 6: Traffic flow when the SharePoint farm has been migrated to SharePoint Online in Office 365**
 
-![Figure 6: Traffic flow when the SharePoint farm has been migrated to SharePoint Online in Office 365](images/30623d29-a9e6-4d38-bb7a-683adcea3395.png)
+![Figure 6: Traffic flow when the SharePoint farm has been migrated to SharePoint Online in Office 365](images/Network_Poster/Hairpin2.png)
+
   
 Figure 6 shows how the traffic between the application server and SharePoint Online in Office 365 flows over the private peering relationship from the application server to the on-premises network edge, and then from the edge over the Microsoft peering relationship to Office 365.
   
@@ -181,7 +183,7 @@ This can result in non-optimal delivery to local Microsoft datacenters for the a
   
 **Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection**
 
-![Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection](images/f0c19a74-d67c-42de-8b1a-a122729b4abb.png)
+![Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection](images/Network_Poster/MSNet1.png)
   
 Figure 7 shows an organization with two locations, Location 1 in the northwest of the United States and Location 2 in the northeast. They are connected by an any-to-any WAN provider. This organization also has an ExpressRoute connection to a Microsoft peering location on the west coast. Traffic from Location 2 in the northeast destined for an east coast datacenter must travel all the way across the organization's WAN to the west coast, to the Microsoft peering location, and then back across the country over the Microsoft cloud network to the east coast datacenter.
   
@@ -189,7 +191,7 @@ For optimal delivery, use multiple ExpressRoute connections to regional Microsof
   
 **Figure 8: The use of multiple ExpressRoute connections for optimal delivery to regional datacenters**
 
-![Figure 8: The use of multiple ExpressRoute connections for optimal delivery to regional datacenters](images/e6980050-48ee-41f7-9f81-7953e783ee1b.png)
+![Figure 8: The use of multiple ExpressRoute connections for optimal delivery to regional datacenters](images/Network_Poster/MSNet2.png)
   
 Figure 8 shows the same organization with two ExpressRoute connections, one for each location, to regionally local Microsoft peering locations. In this configuration, traffic from Location 2 in the northeast destined for an east coast datacenter goes directly to an east coast peering location, to the Microsoft cloud network, and then to the east coast datacenter.
   
@@ -219,7 +221,7 @@ ExpressRoute Premium is required for Office 365-based ExpressRoute connections. 
   
 **Figure 9: The world-wide Microsoft cloud network**
 
-![Figure 9: The world-wide  Microsoft cloud network](images/c65c740a-f20c-4c77-b3b2-624b39ef0aa3.png)
+![Figure 9: The world-wide  Microsoft cloud network](images/Network_Poster/MSNet3.png)
   
 Figure 9 shows a logical diagram of the worldwide Microsoft cloud network, with networks that span the continents and regions of the world and their interconnections. With a portion of the Microsoft cloud network in each continent, a global enterprise creates ExpressRoute Premium connections from its regional hub offices to local Microsoft peering locations.
   
@@ -243,7 +245,7 @@ You can also incorporate the following options into your ExpressRoute deployment
   
 - **Security at your edge:** To provide advanced security for the traffic sent and received over the ExpressRoute connection, such as traffic inspection or intrusion/malware detection, place your security appliances in the traffic path within your DMZ or at the border of your intranet.
     
-- Internet traffic for VMs To prevent Azure VMs from initiating traffic directly with Internet locations, advertise the default route to Microsoft. Traffic to the Internet is routed across the ExpressRoute connection and through your on-premises proxy servers. Traffic from Azure VMs to Azure PaaS services or Office 365 is routed back across the ExpressRoute connection.
+    Internet traffic for VMs To prevent Azure VMs from initiating traffic directly with Internet locations, advertise the default route to Microsoft. Traffic to the Internet is routed across the ExpressRoute connection and through your on-premises proxy servers. Traffic from Azure VMs to Azure PaaS services or Office 365 is routed back across the ExpressRoute connection.
     
 - **WAN optimizers:** You can deploy WAN optimizers on both sides of a private peering connection for a cross-premises Azure virtual network (VNet). Inside the Azure VNet, use a WAN optimizer network appliance from the Azure marketplace and user-defined routing to route the traffic through the appliance.
     

@@ -24,15 +24,15 @@ description: "Summary: Get the details on the set of cloud storage building bloc
   
 "Build from the ground up" storage solutions:
   
-- Allow you to create your own storage solution from scratch 
+- Allow you to create your own storage solution from scratch. 
     
-- Requires programming using the REST APIs
+- Requires programming using the REST APIs.
     
-- Provide the ultimate in customization and flexibility
+- Provide the ultimate in customization and flexibility.
     
 The following sections describe the details of each "Build from the ground up" storage option.
   
-## Azure Storage (files)
+## Azure Storage (files)
 
 ### Features
 
@@ -66,7 +66,7 @@ For additional information, click [here](https://msdn.microsoft.com/library/azur
   
 For cost information, click [here](http://azure.microsoft.com/pricing/details/storage/).
   
-## Azure Storage (blobs)
+## Azure Storage (blobs)
 
 ### Features
 
@@ -102,7 +102,7 @@ For additional information, click [here](https://msdn.microsoft.com/library/azur
   
 For cost information, click [here](http://azure.microsoft.com/pricing/details/storage/).
   
-## Azure Storage (queues)
+## Azure Storage (queues)
 
 ### Features
 
@@ -136,7 +136,7 @@ For additional information, click [here](https://msdn.microsoft.com/library/azur
   
 For cost information, click [here](http://azure.microsoft.com/pricing/details/storage/).
   
-## Azure Storage (tables)
+## Azure Storage (tables)
 
 ### Features
 
