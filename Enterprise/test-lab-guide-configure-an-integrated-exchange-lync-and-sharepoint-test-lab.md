@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/16/2016
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: Office 365
 localization_priority: Normal
 ms.assetid: 48e16935-3429-456a-8fe6-50afa257924c
 description: "Summary: Learn how to create an integrated test lab that contains a server that runs Exchange Server 2013, a server that runs Lync Server 2013, and a server that runs SharePoint Server 2013."

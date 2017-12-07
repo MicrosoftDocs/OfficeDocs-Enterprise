@@ -6,7 +6,7 @@ manager: scotv
 ms.date: 11/19/2015
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: Office 365
 localization_priority: Normal
 ms.assetid: b18f4ae4-cd83-4a66-8e33-a7d5a4c06659
 description: "This article is an accessible text version of the diagram named Yammer features on mobile devices."
