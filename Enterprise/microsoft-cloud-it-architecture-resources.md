@@ -31,9 +31,22 @@ These architecture tools and posters give you information about Microsoft cloud 
   
 - **[Microsoft's Enterprise Cloud Roadmap](microsoft-cloud-it-architecture-resources.md#roadmap)** (Sway)
     
-- **[Microsoft Cloud for Enterprise Architects Series](microsoft-cloud-it-architecture-resources.md#cloudarch)** which includes [Microsoft Cloud Services and Platform Options](microsoft-cloud-it-architecture-resources.md#platformoptions), [Microsoft Cloud Identity for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#identity), [Microsoft Cloud Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#security), [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#networking), [Microsoft Mobility and Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#mobility), [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#storage), [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#hybrid), and [Contoso in the Microsoft Cloud](microsoft-cloud-it-architecture-resources.md#contoso) posters.
+- **[Microsoft Cloud for Enterprise Architects Series](microsoft-cloud-it-architecture-resources.md#cloudarch)** 
+    - [Microsoft Cloud Services and Platform Options](microsoft-cloud-it-architecture-resources.md#platformoptions)
+    - [Microsoft Cloud Identity for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#identity)
+    - [Microsoft Cloud Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#security)
+    - [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#networking)
+    - [Microsoft Mobility and Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#mobility)
+    - [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#storage)
+    - [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#hybrid)
+    - [Contoso in the Microsoft Cloud](microsoft-cloud-it-architecture-resources.md#contoso)
     
-- **[Office 365 Enterprise Solution Series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)** which includes [Information Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_infoprotect), [Identity and Device Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP), [File Protection Solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect), [Change Management for Office 365 Clients](microsoft-cloud-it-architecture-resources.md#changemgmt), and [Deploy a modern and secure desktop with Microsoft](microsoft-cloud-it-architecture-resources.md#msd).
+- **[Office 365 Enterprise Solution Series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
+    - [Information Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_infoprotect)
+    - [Identity and Device Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP)
+    - [File Protection Solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect)
+    - [Change Management for Office 365 Clients](microsoft-cloud-it-architecture-resources.md#changemgmt)
+    - [Deploy a modern and secure desktop with Microsoft](microsoft-cloud-it-architecture-resources.md#msd)
     
 > [!TIP]
 > Most of the posters on this page are available in multiple languages, including Chinese, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, and Spanish. To download a poster in one of these languages, click the **More languages** link for that poster.
