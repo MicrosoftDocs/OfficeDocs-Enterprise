@@ -15,7 +15,7 @@ description: "Summary: Use Office 365 PowerShell to manage your Skype for Busine
 ---
 
 # Manage Skype for Business Online policies with Office 365 PowerShell
-[]
+
  **Summary:** Use Office 365 PowerShell to manage your Skype for Business Online user account properties with policies.
   
 To manage many properties of user account for Skype for Business Online, you must specify them as properties of policies with Office 365 PowerShell.
