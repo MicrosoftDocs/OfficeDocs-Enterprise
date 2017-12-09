@@ -17,7 +17,7 @@ description: "Summary: Use Office 365 PowerShell to create reports that you cann
 ---
 
 # Use Windows PowerShell to create reports in Office 365
-[]
+
  **Summary:** Use Office 365 PowerShell to create reports that you cannot produce in the Office 365 Admin center.
   
 There are many different reports available in the Office 365 Admin center. However, these reports only provide so much information and sometimes you need more. That's when you need Office 365 PowerShell

@@ -19,7 +19,7 @@ description: "Summary: Use Office 365 PowerShell and the Add-MsolRoleMember cmdl
 ---
 
 # Assign roles to user accounts with Office 365 PowerShell
-[]
+
  **Summary:** Use Office 365 PowerShell and the **Add-MsolRoleMember** cmdlet to assign roles to user accounts.
   
 You can quickly and easily assign roles to user accounts using Office 365 PowerShell by identifying the user account's Display Name and the role's Name.
