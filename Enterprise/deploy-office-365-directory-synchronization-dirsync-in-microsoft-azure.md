@@ -210,11 +210,13 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Connect an on-premises network to a Microsoft Azure virtual network](81190961-5454-4a5c-8b0e-6ae75b9fb035.md)
-#### 
 
 [Download Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)
   
 [Set up directory synchronization in Office 365](https://support.office.com/article/Set-up-directory-synchronization-in-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)
   
 [DirSync Server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded)
+
+#### 
+
 

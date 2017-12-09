@@ -82,7 +82,8 @@ You need to consider these areas of networking when adopting any of Microsoft's 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+#### 
 

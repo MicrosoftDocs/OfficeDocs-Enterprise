@@ -138,7 +138,9 @@ When you are ready to create and configure an isolated site in production, see [
 [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
   
 [Security solutions](security-solutions.md)
-#### 
 
 [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
+
+#### 
+
 
