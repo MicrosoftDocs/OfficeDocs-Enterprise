@@ -25,13 +25,10 @@ description: "Summary: What IT architects need to know about hybrid scenarios us
   
 This article links you to a set of articles that describe what IT architects need to know about hybrid architecture and configurations with Microsoft cloud services and platforms. You can also view this article as a 7-page poster and print it in tabloid format (also known as ledger, 11 x 17, or A3).
   
-[![Thumb image for the Microsoft hybrid cloud model](images/Hybrid_Poster/Hybrid_Cloud_Thumbnail.png)
-
-  
-](https://www.microsoft.com/download/details.aspx?id=54424
+[![Thumb image for the Microsoft hybrid cloud model](images/Hybrid_Poster/Hybrid_Cloud_Thumbnail.png)](https://www.microsoft.com/download/details.aspx?id=54424
 )
   
-![PDF file](images/Common_Images/PDFIcon.png)[PDF](https://go.microsoft.com/fwlink/p/?linkid=842082) |![Visio file](images/Common_Images/VisioIcon.png)[Visio](https://go.microsoft.com/fwlink/p/?linkid=842083) |![See a page with versions in additional languages](images/Common_Images/GlobeIcon.png)
+![PDF file](images/Common_Images/PDFIcon.png)[PDF](https://go.microsoft.com/fwlink/p/?linkid=842082)  | ![Visio file](images/Common_Images/VisioIcon.png)[Visio](https://go.microsoft.com/fwlink/p/?linkid=842083)  | s![See a page with versions in additional languages](images/Common_Images/GlobeIcon.png)
 [More languages](https://www.microsoft.com/download/details.aspx?id=54424)
   
 You can also see all of the models in the [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md) and swipe through [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://aka.ms/cloudarchitecture).
@@ -66,7 +63,9 @@ See the following sections:
 #### 
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+#### 
+
 
