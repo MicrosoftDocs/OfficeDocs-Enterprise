@@ -85,7 +85,9 @@ Based on an analysis of Microsoft's cloud offerings, Contoso's IT department det
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+#### 
+
 

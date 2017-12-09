@@ -137,9 +137,12 @@ In accordance with Office 365 security best practices, Contoso's security admini
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
   
 [Security best practices for Office 365](https://support.office.com/article/Security-best-practices-for-Office-365-9295e396-e53d-49b9-ae9b-0b5828cdedc3)
+
+#### 
+
+
 

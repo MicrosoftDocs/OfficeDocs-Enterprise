@@ -123,11 +123,13 @@ To switch over and switch back, Contoso updates the Azure Traffic Manager profil
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft Cloud Identity for Enterprise Architects](http://aka.ms/cloudarchidentity)
   
 [Identity and Device Protection for Office 365](http://aka.ms/o365protect_device)
   
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+#### 
+
 
