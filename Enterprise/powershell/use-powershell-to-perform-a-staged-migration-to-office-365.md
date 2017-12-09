@@ -16,7 +16,7 @@ description: "Summary: Learn how to use Windows PowerShell to perform a staged m
 ---
 
 # Use PowerShell to perform a staged migration to Office 365
-[]
+
  **Summary:** Learn how to use Windows PowerShell to perform a staged migration to Office 365.
   
 You can migrate the contents of user mailboxes from a source email system to Office 365 over time using a staged migration.

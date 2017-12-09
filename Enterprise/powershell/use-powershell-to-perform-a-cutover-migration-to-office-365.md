@@ -15,7 +15,7 @@ description: "Summary: Learn how to use Windows PowerShell to perform a cutover 
 ---
 
 # Use PowerShell to perform a cutover migration to Office 365
-[]
+
  **Summary:** Learn how to use Windows PowerShell to perform a cutover migration to Office 365.
   
 You can migrate the contents of user mailboxes from a source email system to Office 365 all at once by using a cutover migration. This article walks you through the tasks for an email cutover migration by using Exchange Online PowerShell. 

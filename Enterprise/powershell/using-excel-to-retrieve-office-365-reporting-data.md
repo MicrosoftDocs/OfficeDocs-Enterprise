@@ -18,7 +18,7 @@ description: "Summary: Use the oData feature in Microsoft Excel to retrieve deta
 ---
 
 # Using Excel to Retrieve Office 365 Reporting Data
-[]
+
  **Summary:** Use the oData feature in Microsoft Excel to retrieve detailed reporting information for your deployment of Office 365
   
 Reporting is a key part of system administration. The Office 365 Admin center includes a number of predefined reports, which you can access from the **Reports** section of the left navigation. There are usage reports and security and compliance reports.

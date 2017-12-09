@@ -15,7 +15,7 @@ description: "Summary: Use remote Windows PowerShell to connect to Exchange Onli
 ---
 
 # Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners
-[]
+
  **Summary:** Use remote Windows PowerShell to connect to Exchange Online by using the _DelegatedOrg_ parameter.
   
 Remote Windows PowerShell lets you manage your Exchange Online settings from the command line. You use Windows PowerShell on your local computer to create a remote session to Exchange Online. It's a three-step process where you enter your Exchange Online credentials, provide the required connection settings, and then import the Exchange Online cmdlets into your local Windows PowerShell session so that you can use them.
