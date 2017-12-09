@@ -106,17 +106,8 @@ Here is an example of defining the address prefix for the gateway subnet: The ad
 |**Step**|**Results**|
 |:-----|:-----|
 |1. Decide on the size of the gateway subnet.  <br/> |/28  <br/> |
-|2. Set the bits in the variable portion of the VNet address space (b): 0 for the gateway subnet bits (G), otherwise 1 (V).  <br/> |
-```
-10.119. bbbbbbbb . bbbbbbbb
-
-10.119. VVVVVVVV . VVVVGGGG
-10.119. 11111111 . 11110000
-
-```
-
-|
-|3. Convert the result from step 2 to decimal and   express as an address space.  <br/> |10.119.255.240/28  <br/> |
+|2. Set the bits in the variable portion of the VNet address space (b): 0 for the gateway subnet bits (G), otherwise 1 (V).  <br/> | 10.119. bbbbbbbb . bbbbbbbb <br/><br/>10.119. VVVVVVVV . VVVVGGGG<br/>10.119. 11111111 . 11110000<br/>|
+|3. Convert the result from step 2 to decimal and express as an address space.  <br/> |10.119.255.240/28  <br/> |
    
  **Table 2: An example of determining the gateway subnet address prefix**
   
