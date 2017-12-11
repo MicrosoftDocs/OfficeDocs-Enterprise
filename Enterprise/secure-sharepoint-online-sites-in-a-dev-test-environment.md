@@ -29,7 +29,7 @@ Use this dev/test environment to experiment with the information protection beha
 
 In this phase, you obtain trial subscriptions for Office 365 and Enterprise Mobility + Security for a fictional organization.
   
-First, follow the instructions in **Phase 2** of the[Office 365 dev/test environment](office-365-dev-test-environment.md).
+First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](office-365-dev-test-environment.md).
   
 Next, sign up for the EMS trial subscription and add it to the same organization as your Office 365 trial subscription.
   
@@ -588,8 +588,6 @@ When you are ready for production deployment of secure SharePoint Online sites, 
   
 ## See Also
 
-#### 
-
 [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
   
 [Security solutions](security-solutions.md)
@@ -597,4 +595,8 @@ When you are ready for production deployment of secure SharePoint Online sites, 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+
+#### 
+
+
 

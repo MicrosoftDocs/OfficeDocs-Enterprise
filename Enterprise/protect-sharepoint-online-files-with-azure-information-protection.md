@@ -93,8 +93,6 @@ Once installed, your users run and then sign-in from an Office application (such
   
 ## See Also
 
-#### 
-
 [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
   
 [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
@@ -102,4 +100,8 @@ Once installed, your users run and then sign-in from an Office application (such
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+#### 
+
+
 

@@ -183,8 +183,6 @@ For the steps to configure Azure Information Protection in this solution, see [P
   
 ## See Also
 
-#### 
-
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Security solutions](security-solutions.md)
@@ -192,4 +190,7 @@ For the steps to configure Azure Information Protection in this solution, see [P
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
+
+#### 
+
 
