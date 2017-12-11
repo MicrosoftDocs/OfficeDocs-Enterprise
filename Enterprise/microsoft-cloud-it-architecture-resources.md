@@ -201,8 +201,6 @@ What IT architects need to know about deploying and managing updates for Office 
 ## See Also
 <a name="BKMK_o365solutions"></a>
 
-#### 
-
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
   
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
@@ -210,4 +208,6 @@ What IT architects need to know about deploying and managing updates for Office 
 [Security solutions](security-solutions.md)
   
 [Hybrid solutions](hybrid-solutions.md)
+
+####
 

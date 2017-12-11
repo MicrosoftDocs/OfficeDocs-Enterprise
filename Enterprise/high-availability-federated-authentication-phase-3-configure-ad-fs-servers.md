@@ -154,9 +154,9 @@ Use [High availability federated authentication Phase 4: Configure web applicati
   
 ## See Also
 
-#### 
-
 [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
 [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+
+####
 

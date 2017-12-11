@@ -369,11 +369,13 @@ Here is your resulting configuration.
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
-#### 
 
 [How to create the virtual machine](https://go.microsoft.com/fwlink/p/?LinkId=393098)
   
 [About VPN Devices for site-to-site Azure Virtual Network connections](https://azure.microsoft.com/documentation/articles/vpn-gateway-about-vpn-devices/)
   
 [How to install and configure Azure PowerShell](https://azure.microsoft.com/documentation/articles/powershell-install-configure/#how-to-install-azure-powershell)
+
+#### 
+
 

@@ -167,8 +167,6 @@ If you purchased Azure and Office 365 subscriptions separately and want to acces
   
 ## See Also
 
-#### 
-
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
@@ -178,4 +176,6 @@ If you purchased Azure and Office 365 subscriptions separately and want to acces
 [Hybrid solutions](hybrid-solutions.md)
   
 [Subscriptions, licenses, and user accounts for the Contoso Corporation](subscriptions-licenses-and-user-accounts-for-the-contoso-corporation.md)
+
+####
 

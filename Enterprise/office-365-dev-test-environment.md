@@ -297,11 +297,11 @@ Extend your Office 365 dev/test environment to include additional Microsoft clou
     
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+####
 

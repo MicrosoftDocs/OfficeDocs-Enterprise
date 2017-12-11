@@ -58,7 +58,8 @@ The following technical illustrations and articles provide information about how
    
 ## See Also
 
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
 #### 
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 

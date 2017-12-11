@@ -92,8 +92,6 @@ Each Azure subscription can be associated with a single Azure AD tenant that con
   
 ## See Also
 
-#### 
-
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

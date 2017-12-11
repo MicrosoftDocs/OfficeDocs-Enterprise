@@ -50,7 +50,8 @@ For information about how to configure this test lab in Hyper-V, see [Hosting th
   
 ## See Also
 
+[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
+
 #### 
 
-[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
 

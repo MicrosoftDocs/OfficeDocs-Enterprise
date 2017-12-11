@@ -67,8 +67,6 @@ After implementing Stretch Database, Contoso:
     
 ## See Also
 
-#### 
-
 [Enterprise scenarios for the Contoso Corporation](enterprise-scenarios-for-the-contoso-corporation.md)
   
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
@@ -78,6 +76,7 @@ After implementing Stretch Database, Contoso:
 [Stretch Database](https://msdn.microsoft.com/library/dn935011.aspx)
   
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
 #### 
 
 

@@ -115,8 +115,6 @@ This configuration consists of:
     
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -128,4 +126,8 @@ This configuration consists of:
 [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+#### 
+
+
 

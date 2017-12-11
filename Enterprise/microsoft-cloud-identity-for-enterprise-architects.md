@@ -360,10 +360,9 @@ For more information, see [Integrating your on-premises identities with Azure Ac
   
 ## See Also
 
-#### 
-
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+####
 
