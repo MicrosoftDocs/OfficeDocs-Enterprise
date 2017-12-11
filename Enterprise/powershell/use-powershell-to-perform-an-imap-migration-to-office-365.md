@@ -15,7 +15,7 @@ description: "Summary: Learn how to use Windows PowerShell to perform an IMAP mi
 ---
 
 # Use PowerShell to perform an IMAP migration to Office 365
-[]
+
  **Summary:** Learn how to use Windows PowerShell to perform an IMAP migration to Office 365.
   
 As part of the process of deploying Office 365, you can choose to migrate the contents of user mailboxes from an Internet Mail Access Protocol (IMAP) email service to Office 365. This article walks you through the tasks for an email IMAP migration by using Exchange Online PowerShell. 

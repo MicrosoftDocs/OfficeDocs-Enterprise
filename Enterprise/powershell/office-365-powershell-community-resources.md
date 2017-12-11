@@ -17,7 +17,7 @@ description: "Summary: Get help for Office 365 PowerShell from these community v
 ---
 
 # Office 365 PowerShell community resources
-[]
+
  **Summary:** Get help for Office 365 PowerShell from these community venues.
   
 Use these Yammer networks, community forums, and Wikis to get you connected to your peers and get your Office 365 PowerShell questions answered quickly and correctly. 

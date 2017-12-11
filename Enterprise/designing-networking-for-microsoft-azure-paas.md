@@ -26,9 +26,9 @@ Optimizing networking for Azure PaaS apps requires adequate Internet bandwidth a
 
 Insert section body here.
   
-1. Go through the **Steps to prepare your network for Microsoft cloud services** section in[Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
+1. Go through the **Steps to prepare your network for Microsoft cloud services** section in [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
     
-2. Optimize your Internet bandwidth using steps 2 - 4 of the **Steps to prepare your network for Microsoft SaaS services** section in[Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md).
+2. Optimize your Internet bandwidth using steps 2 - 4 of the **Steps to prepare your network for Microsoft SaaS services** section in [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md).
     
 3. Determine whether you need an ExpressRoute connection to Azure.
     
@@ -103,7 +103,9 @@ For more information, see [Traffic Manager](https://docs.microsoft.com/azure/tra
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+#### 
+
 

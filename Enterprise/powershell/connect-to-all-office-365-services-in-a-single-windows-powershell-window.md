@@ -21,7 +21,7 @@ description: "Summary: Connect Windows PowerShell to all Office 365 services in 
 ---
 
 # Connect to all Office 365 services in a single Windows PowerShell window
-[]
+
  **Summary:** Connect Windows PowerShell to all Office 365 services in a single Windows PowerShell window.
   
 When you use PowerShell to manage Office 365, it is possible to have up to five different Windows PowerShell sessions open at the same time corresponding to Office 365 admin center, SharePoint Online, Exchange Online, Skype for Business Online, and the Security &amp; Compliance Center). With five different connection methods in separate Windows PowerShell sessions, your desktop could look like this:

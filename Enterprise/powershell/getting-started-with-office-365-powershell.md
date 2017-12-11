@@ -18,7 +18,7 @@ description: "Summary: Understand the importance of Office 365 PowerShell, get c
 ---
 
 # Getting started with Office 365 PowerShell
-[]
+
  **Summary:** Understand the importance of Office 365 PowerShell, get connected to your Office 365 tenant, and get help.
   
 With Office 365 PowerShell, you can manage Office 365 with commands and scripts to streamline your daily work. Learn why Office 365 PowerShell skills are crucial to managing Office 365, how to connect to your Office 365 subscription, create reports, and get additional information and help from the Office 365 community.

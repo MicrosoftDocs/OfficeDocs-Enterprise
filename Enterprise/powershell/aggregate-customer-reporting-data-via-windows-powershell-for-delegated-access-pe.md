@@ -15,7 +15,7 @@ description: "Summary: Use Windows PowerShell for Office 365 to retrieve reports
 ---
 
 # Aggregate customer reporting data via Windows PowerShell for Delegated Access Permission (DAP) partners
-[]
+
  **Summary:** Use Windows PowerShell for Office 365 to retrieve reports on all customer tenancies and aggregate the data into a single location.
   
 By default, Windows PowerShell for Office 365 does not have a built-in aggregation of reporting data from multiple customer tenancies. However, you can use this sample Windows PowerShell for Office 365 script to iterate through all your customer tenancies to retrieve a single report for each of your customers and then aggregate the reporting data into a single location. The result is that you'll have a single report for all your customer tenants. 

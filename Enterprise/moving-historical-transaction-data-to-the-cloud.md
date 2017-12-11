@@ -74,9 +74,11 @@ After implementing Stretch Database, Contoso:
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Stretch Database](https://msdn.microsoft.com/library/dn935011.aspx)
   
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+#### 
+
+
 
