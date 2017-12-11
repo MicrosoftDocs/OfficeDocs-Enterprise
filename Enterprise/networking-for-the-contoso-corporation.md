@@ -126,8 +126,6 @@ Contoso uses the following steps to ready their network for the Microsoft cloud:
     
 ## See Also
 
-#### 
-
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

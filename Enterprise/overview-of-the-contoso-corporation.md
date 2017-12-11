@@ -83,8 +83,6 @@ Contoso's IT architects have identified the following elements when planning for
     
 ## See Also
 
-#### 
-
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

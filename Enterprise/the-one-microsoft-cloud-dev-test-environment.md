@@ -183,8 +183,6 @@ You can now experiment with your One Microsoft Cloud dev/test environment. Here 
     
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
@@ -192,4 +190,8 @@ You can now experiment with your One Microsoft Cloud dev/test environment. Here 
 [Hybrid solutions](hybrid-solutions.md)
   
 [Security solutions](security-solutions.md)
+
+#### 
+
+
 

@@ -116,8 +116,6 @@ For more information, see [Stretch Database](https://msdn.microsoft.com/library/
   
 ## See Also
 
-#### 
-
 [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

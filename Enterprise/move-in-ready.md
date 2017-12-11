@@ -274,8 +274,6 @@ Review the [Some assembly required](some-assembly-required.md) cloud storage opt
   
 ## See Also
 
-#### 
-
 [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-storage-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

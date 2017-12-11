@@ -687,7 +687,8 @@ Ipconfig /flushdns
 ## See Also
 <a name="Troubleshooting"> </a>
 
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
 #### 
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
