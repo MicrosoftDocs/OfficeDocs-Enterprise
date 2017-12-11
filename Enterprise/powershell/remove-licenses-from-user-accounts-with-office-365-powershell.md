@@ -21,8 +21,8 @@ description: "Explains how to use Office 365 PowerShell to remove Office 365 lic
 ---
 
 # Remove licenses from user accounts with Office 365 PowerShell
-[]
-Explains how to use Office 365 PowerShell to remove Office 365 licenses that were previously assigned to users.
+
+**Summary:** Explains how to use Office 365 PowerShell to remove Office 365 licenses that were previously assigned to users.
   
 ## Before you begin
 

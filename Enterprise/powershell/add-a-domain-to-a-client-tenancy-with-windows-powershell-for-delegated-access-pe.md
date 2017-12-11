@@ -15,7 +15,7 @@ description: "Summary: Use Windows PowerShell for Office 365 to add an alternate
 ---
 
 # Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners
-[]
+
  **Summary:** Use Windows PowerShell for Office 365 to add an alternate domain name to an existing customer tenant.
   
 You can create and associate new domains with your customer's tenancy with Windows PowerShell for Office 365 faster than using the Office 365 admin center.

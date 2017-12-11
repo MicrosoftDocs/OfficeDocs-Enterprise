@@ -15,7 +15,7 @@ description: "Summary: Use Office 365 PowerShell to assign per-user communicatio
 ---
 
 # Assign per-user Skype for Business Online policies with Office 365 PowerShell
-[]
+
  **Summary:** Use Office 365 PowerShell to assign per-user communication settings with Skype for Business Online policies.
   
 Using Office 365 PowerShell is an efficient way to assign per-user communication settings with Skype for Business Online policies.

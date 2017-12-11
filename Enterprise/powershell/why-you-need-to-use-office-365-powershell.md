@@ -17,7 +17,7 @@ description: "Summary: Understand why you must use Office 365 PowerShell to mana
 ---
 
 # Why you need to use Office 365 PowerShell
-[]
+
  **Summary:** Understand why you must use Office 365 PowerShell to manage Office 365, in some cases more efficiently and in other cases by necessity.
   
 With the Office 365 admin center, you can not only manage your Office 365 user accounts and licenses, but you can also manage your Office 365 server products: Exchange, Skype for Business Online, and SharePoint Online. However, you can also manage these elements with Office 365 PowerShell commands, taking advantage of a command-line and scripting language environment for speed, automation, and additional capability.

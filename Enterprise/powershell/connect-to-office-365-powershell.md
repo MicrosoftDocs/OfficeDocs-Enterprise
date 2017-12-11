@@ -20,7 +20,7 @@ description: "Summary: Connect to your Office 365 organization using Office 365 
 ---
 
 # Connect to Office 365 PowerShell
-[]
+
  **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform Office 365 admin center tasks from the command line.
   
 Office 365 PowerShell lets you to manage your Office 365 admin center settings from the command line. Connecting to Office 365 PowerShell is a simple three-step process where you install the required software, run the required software, and then connect to your Office 365 organization. Note that these connection instructions are the same as those in the topic [Azure ActiveDirectory (MSOnline)](https://go.microsoft.com/fwlink/p/?LinkId=528113).
