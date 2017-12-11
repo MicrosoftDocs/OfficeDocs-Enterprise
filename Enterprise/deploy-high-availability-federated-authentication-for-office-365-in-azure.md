@@ -35,10 +35,6 @@ This article contains links to the step-by-step instructions for deploying high 
     
 - One directory synchronization (DirSync) server running Azure AD Connect
     
-Watch this short video for a quick overview of federated authentication infrastructure, the steps for building the set of servers in Azure, and an example of the authentication process.
-  
-![Video (play button) icon](images/mod_icon_video_M.png)
-  
 Here is the configuration, with placeholder names for each server.
   
 **A high availability federated authentication for Office 365 infrastructure in Azure**
