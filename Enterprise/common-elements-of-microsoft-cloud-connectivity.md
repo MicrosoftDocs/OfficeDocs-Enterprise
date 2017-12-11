@@ -5,7 +5,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 1/10/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.service: Office 365
 localization_priority: Normal
 ms.collection: Ent_O365
@@ -75,9 +75,8 @@ You need to consider these areas of networking when adopting any of Microsoft's 
 - **Internet DNS:** A, AAAA, CNAME, MX, PTR and other records to locate Microsoft cloud or your services hosted in the cloud. For example, you might need a CNAME record for your app hosted in Azure PaaS.
     
 ## See Also
-<a name="steps"> </a>
 
-#### 
+<a name="steps"> </a>
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   

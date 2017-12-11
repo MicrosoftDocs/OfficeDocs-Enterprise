@@ -98,8 +98,6 @@ For more information, see [Traffic Manager](https://docs.microsoft.com/azure/tra
   
 ## See Also
 
-#### 
-
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

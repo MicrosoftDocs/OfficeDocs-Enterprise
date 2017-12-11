@@ -103,8 +103,6 @@ Complete the configuration for the User 2 account to use a text message for vali
     
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -112,7 +110,8 @@ Complete the configuration for the User 2 account to use a text message for vali
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
-#### 
 
 [Plan for multi-factor authentication for Office 365 Deployments](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)
+
+####
 

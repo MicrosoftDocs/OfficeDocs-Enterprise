@@ -207,8 +207,6 @@ Use this dev/test environment to simulate a [SharePoint Server 2016 intranet far
   
 ## See Also
 
-#### 
-
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
   
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
@@ -220,4 +218,6 @@ Use this dev/test environment to simulate a [SharePoint Server 2016 intranet far
 [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+####
 

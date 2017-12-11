@@ -105,8 +105,6 @@ Use these steps to install the Dynamics 365 App for Outlook and demonstrate Dyna
     
 ## See Also
 
-#### 
-
 [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
@@ -116,9 +114,10 @@ Use these steps to install the Dynamics 365 App for Outlook and demonstrate Dyna
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-#### 
 
 [Subscription Management for Dynamics 365 (online)](https://technet.microsoft.com/library/jj679903.aspx)
   
 [Administering Dynamics 365](https://technet.microsoft.com/library/dn531101.aspx)
+
+####
 

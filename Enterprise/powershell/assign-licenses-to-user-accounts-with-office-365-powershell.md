@@ -22,7 +22,11 @@ description: "Explains how to use Office 365 PowerShell assign an Office 365 lic
 
 # Assign licenses to user accounts with Office 365 PowerShell
 
+<<<<<<< HEAD
 Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users.
+=======
+**Summary:**  Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users.
+>>>>>>> deniseb-working
   
 Licensing user accounts in Office 365 is important, because users can't use any Office 365 services until their account has been licensed. You can use Office 365 PowerShell to efficiently assign licenses to unlicensed accounts, especially multiple accounts. **Contents:**[The short version (instructions without explanations)](assign-licenses-to-user-accounts-with-office-365-powershell.md#ShortVersion)[The long version (instructions with detailed explanations)](assign-licenses-to-user-accounts-with-office-365-powershell.md#LongVersion)[See also](assign-licenses-to-user-accounts-with-office-365-powershell.md#SeeAlso)
 ## Before you begin

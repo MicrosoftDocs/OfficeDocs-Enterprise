@@ -427,9 +427,8 @@ Figure 19 shows the nine servers of a SharePoint Server 2016 farm deployed in a 
 For additional examples of IT workloads deployed on virtual machines in a cross-premises Azure virtual network, see [Hybrid cloud scenarios for Azure IaaS](https://technet.microsoft.com/library/mt750502.aspx).
   
 ## See Also
-<a name="cross_prem"> </a>
 
-#### 
+<a name="cross_prem"> </a>
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   

@@ -329,8 +329,6 @@ Another way to see the IRM protection is to look at the files in your local fold
   
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -338,4 +336,6 @@ Another way to see the IRM protection is to look at the files in your local fold
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+####
 

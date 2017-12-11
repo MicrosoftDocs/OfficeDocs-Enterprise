@@ -156,12 +156,11 @@ Review the [Move-in ready](move-in-ready.md) cloud storage options.
   
 ## See Also
 
-#### 
-
 [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-storage-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-#### 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
+
+####
 

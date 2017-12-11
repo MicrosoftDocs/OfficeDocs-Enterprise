@@ -58,8 +58,6 @@ For more information, see [Secure SharePoint Online sites and files](https://doc
   
 ## See Also
 
-#### 
-
 [Enterprise scenarios for the Contoso Corporation](enterprise-scenarios-for-the-contoso-corporation.md)
   
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)

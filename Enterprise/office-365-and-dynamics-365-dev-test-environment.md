@@ -134,8 +134,6 @@ Configure and then demonstrate how Office 365 and Dynamics 365 work together in 
   
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -143,9 +141,10 @@ Configure and then demonstrate how Office 365 and Dynamics 365 work together in 
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-#### 
 
 [Subscription Management for Dynamics 365 (online)](https://technet.microsoft.com/library/jj679903.aspx)
   
 [Administering Dynamics 365](https://technet.microsoft.com/library/dn531101.aspx)
+
+####
 

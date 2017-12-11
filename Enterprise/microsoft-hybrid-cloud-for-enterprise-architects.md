@@ -7,7 +7,7 @@ ms.date: 7/19/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: Office 365
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Ent_O365_Visuals
@@ -59,8 +59,6 @@ See the following sections:
 > These articles reflect the **June 2017** release of the Microsoft Hybrid Cloud for Enterprise Architects poster.
   
 ## See Also
-
-#### 
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
 

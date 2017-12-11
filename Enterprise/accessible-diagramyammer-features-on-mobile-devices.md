@@ -1,8 +1,8 @@
 ---
 title: "Accessible diagram - Yammer features on mobile devices"
-ms.author: samanro
-author: samanro
-manager: scotv
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
 ms.date: 11/19/2015
 ms.audience: ITPro
 ms.topic: article

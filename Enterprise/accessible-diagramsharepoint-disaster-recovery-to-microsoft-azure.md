@@ -1,7 +1,7 @@
 ---
 title: "Accessible diagram - SharePoint Disaster Recovery to Microsoft Azure"
-ms.author: adammil
-author: adammil
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/16/2014
 ms.audience: ITPro

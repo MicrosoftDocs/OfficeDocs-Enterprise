@@ -118,8 +118,6 @@ To switch over and switch back, Contoso updates the Azure Traffic Manager profil
     
 ## See Also
 
-#### 
-
 [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

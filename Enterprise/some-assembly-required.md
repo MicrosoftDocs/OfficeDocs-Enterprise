@@ -406,8 +406,6 @@ Review the [Build from the ground up](build-from-the-ground-up.md) cloud storage
   
 ## See Also
 
-#### 
-
 [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-storage-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

@@ -1,7 +1,7 @@
 ---
 title: "Accessible diagram - Microsoft Lync 2013 Platform Options"
-ms.author: v-suboh
-author: v-suboh
+ms.author: josephd
+author: JoeDavies-MSFT
 ms.date: 1/27/2015
 ms.audience: ITPro
 ms.topic: article

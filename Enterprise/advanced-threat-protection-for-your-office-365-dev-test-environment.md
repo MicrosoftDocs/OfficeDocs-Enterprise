@@ -156,8 +156,6 @@ You can now use this environment to create new policies and experiment with ATP.
   
 ## See Also
 
-#### 
-
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -168,8 +166,9 @@ You can now use this environment to create new policies and experiment with ATP.
   
 [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
-#### 
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md) 
 
-[Advanced threat protection for safe attachments and safe links](https://technet.microsoft.com/library/mt148491%28v=exchg.150%29.aspx)
+[Advanced threat protection for safe attachments and safe links](https://support.office.com/en-us/article/Office-365-Advanced-Threat-Protection-E100FE7C-F2A1-4B7D-9E08-622330B83653
+
+####
 

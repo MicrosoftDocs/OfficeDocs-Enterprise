@@ -184,14 +184,14 @@ To create a documents subfolder with custom permissions, do the following:
     
 ## See Also
 
-#### 
-
 [Isolated SharePoint Online team sites](isolated-sharepoint-online-team-sites.md)
   
 [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md)
   
 [Security solutions](security-solutions.md)
-#### 
 
 [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
+
+#### 
+
 
