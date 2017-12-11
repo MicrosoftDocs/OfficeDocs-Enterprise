@@ -36,7 +36,7 @@ There are two phases to setting up multi-factor authentication for Office 365 in
 2. Enable and test multi-factor authentication for the User 2 account.
     
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Build out your lightweight or simulated enterprise Office 365 dev/test environment
 
@@ -75,7 +75,7 @@ Complete the configuration for the User 2 account to use a text message for vali
   
 1. Open a new instance of your browser.
     
-2. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in with the User 2 account (user2@<organization name>.onmicrosoft.com) and password.
+2. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in with the User 2 account (user2@\<organization name>.onmicrosoft.com) and password.
     
 3. After signing in, you are prompted to set up the account for additional security validation. Click **Set it up now**.
     

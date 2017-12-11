@@ -39,13 +39,13 @@ You can use an Office 365 trial subscription and create an Office 365 dev/test e
 ![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Create the base configuration in Azure
 
 Follow the instructions in [Base Configuration dev/test environment](base-configuration-dev-test-environment.md).
   
-You will need an Azure subscription. You can use the [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/) for this configuration. If you have an MSDN or Visual Studio subscription, see[Monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).
+You will need an Azure subscription. You can use the [Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/) for this configuration. If you have an MSDN or Visual Studio subscription, see [Monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).
   
 Here is the resulting configuration.
   
@@ -84,7 +84,7 @@ Stop-Process -Name Explorer -Force
     > [!TIP]
     > Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that contains all the PowerShell commands in this article.
   
-  - From the Start screen, click **Internet Explorer** and go to[https://aka.ms/e5trial](https://aka.ms/e5trial).
+  - From the Start screen, click **Internet Explorer** and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).
     
 2. On the **Welcome, let's get to know you** page, specify:
     
@@ -198,16 +198,15 @@ Next, you create three new SharePoint Online team sites for the Sales, Productio
 2. Click **Start**, type **sharepoint**, and then click **SharePoint Online Management Shell**.
     
 3. Fill in your organization name (example: contosotoycompany), and then run the following commands from the SharePoint Online Management Shell prompt to connect to the SharePoint Online service
-    
-  ```
-  $orgName="<organization name>"
+```
+$orgName="<organization name>"
 $spURL="https://" + $orgName + "-admin.sharepoint.com"
 Connect-SPOService -Url $spURL
-  ```
+```
 
-    In the **Microsoft SharePoint Online Management Shell** dialog box, type the Office 365 global administrator name (example: jdoe@contosotoycompany.onmicrosoft.com) and password, and then click **Sign in**.
+4. In the **Microsoft SharePoint Online Management Shell** dialog box, type the Office 365 global administrator name (example: jdoe@contosotoycompany.onmicrosoft.com) and password, and then click **Sign in**.
     
-4. To create three new team sites (Sales, Production, and Support), fill in the Office 365 global administrator name, and then run the following commands from the SharePoint Online Management Shell prompt:
+5. To create three new team sites (Sales, Production, and Support), fill in the Office 365 global administrator name, and then run the following commands from the SharePoint Online Management Shell prompt:
     
   ```
   $owner = "<global administrator account name>"
@@ -219,13 +218,13 @@ $siteURL = "https://" + $orgName + ".sharepoint.com/sites/support"
 New-SPOSite -Url $siteURL -Owner $owner -StorageQuota 1000 -Title "Support site collection" -Template "STS#0"
   ```
 
-5. Run this command to list the URLs of these new sites:
+6. Run this command to list the URLs of these new sites:
     
   ```
   Get-SPOSite | Where URL -like "*/sites/*" | Sort URL | Select URL
   ```
 
-6. In Internet Explorer, enter the URL of the Production site to see the default SharePoint Online team site for the Production department.
+7. In Internet Explorer, enter the URL of the Production site to see the default SharePoint Online team site for the Production department.
     
 ## Record values for future reference
 

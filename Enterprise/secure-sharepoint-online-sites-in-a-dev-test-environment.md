@@ -29,7 +29,7 @@ Use this dev/test environment to experiment with the information protection beha
 
 In this phase, you obtain trial subscriptions for Office 365 and Enterprise Mobility + Security for a fictional organization.
   
-First, follow the instructions in **Phase 2** of the[Office 365 dev/test environment](office-365-dev-test-environment.md).
+First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](office-365-dev-test-environment.md).
   
 Next, sign up for the EMS trial subscription and add it to the same organization as your Office 365 trial subscription.
   
@@ -326,7 +326,7 @@ To create a sensitive-level isolated SharePoint Online team site for marketing c
     
 11. In the new **Permissions** tab in your browser, click **Access Request Settings**.
     
-12. In the **Access Request Settings** dialog box, clear the **Allow members to share the site and individual files and folders** and **Allow members to invite others to the site members group** check boxes, type **ITAdmin1@**<your organization name> **.onmicrosoft.com** in **Send all requests for access**, and then click **OK**.
+12. In the **Access Request Settings** dialog box, clear the **Allow members to share the site and individual files and folders** and **Allow members to invite others to the site members group** check boxes, type **ITAdmin1@**\<your organization name>**.onmicrosoft.com** in **Send all requests for access**, and then click **OK**.
     
 13. Click **Marketing campaigns Members** in the list.
     
