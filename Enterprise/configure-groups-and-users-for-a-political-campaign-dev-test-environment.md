@@ -193,8 +193,6 @@ Build the four different types of SharePoint Online team sites in this dev/test 
   
 ## See Also
 
-#### 
-
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Create team sites in a political campaign dev/test environment](create-team-sites-in-a-political-campaign-dev-test-environment.md)
@@ -202,4 +200,8 @@ Build the four different types of SharePoint Online team sites in this dev/test 
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+#### 
+
+
 

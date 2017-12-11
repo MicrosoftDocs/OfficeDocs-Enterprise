@@ -263,8 +263,6 @@ The members of the site, through group membership in one of the access groups, c
     
 ## See Also
 
-#### 
-
 [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
   
 [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
@@ -272,4 +270,8 @@ The members of the site, through group membership in one of the access groups, c
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+#### 
+
+
 
