@@ -7,7 +7,7 @@ ms.date: 7/19/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: Office 365
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Ent_O365_Visuals
