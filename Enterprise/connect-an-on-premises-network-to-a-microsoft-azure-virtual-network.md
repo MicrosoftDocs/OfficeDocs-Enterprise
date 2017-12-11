@@ -362,9 +362,8 @@ Here is your resulting configuration.
 ![The virtual network now hosts virtual machines that are accessible from the on-premises network.](images/86ab63a6-bfae-4f75-8470-bd40dff123ac.png)
   
 ## See Also
-<a name="DeploymentRoadmap"> </a>
 
-#### 
+<a name="DeploymentRoadmap"> </a>
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   

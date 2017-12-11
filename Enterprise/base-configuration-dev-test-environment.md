@@ -394,9 +394,8 @@ Start-AzureRMVM -ResourceGroupName $rgName -Name "CLIENT1"
 ```
 
 ## See Also
-<a name="mincost"> </a>
 
-#### 
+<a name="mincost"> </a>
 
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
@@ -407,4 +406,6 @@ Start-AzureRMVM -ResourceGroupName $rgName -Name "CLIENT1"
 [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+####
 

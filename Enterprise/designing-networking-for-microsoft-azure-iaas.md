@@ -425,8 +425,6 @@ For additional examples of IT workloads deployed on virtual machines in a cross-
 ## See Also
 <a name="cross_prem"> </a>
 
-#### 
-
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

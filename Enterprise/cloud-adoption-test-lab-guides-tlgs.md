@@ -161,9 +161,8 @@ Here are additional cloud-based dev/test environments that you can create in Azu
 |**Get the art you see here** <br/> |If you want an editable copy of the art you see in this article, we'll be glad to send it to you. Email your request, including the URL and title of the art, to [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com?subject=[Art%20Request]:%20).  <br/> |
    
 ## See Also
-<a name="ADD_TLGs"> </a>
 
-#### 
+<a name="ADD_TLGs"> </a>
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
@@ -172,4 +171,6 @@ Here are additional cloud-based dev/test environments that you can create in Azu
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
   
 [Hybrid solutions](hybrid-solutions.md)
+
+####
 
