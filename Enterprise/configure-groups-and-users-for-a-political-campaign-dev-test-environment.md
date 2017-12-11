@@ -25,7 +25,7 @@ Use the instructions in this article to create a dev/test environment that inclu
 
 In this phase, you obtain trial subscriptions for Office 365 E5 and Enterprise Mobility + Security (EMS) E5 for a fictional organization that represents a political campaign.
   
-First, follow the instructions in **Phase 2** of the[Office 365 dev/test environment](office-365-dev-test-environment.md).
+First, follow the instructions in **Phase 2** of the [Office 365 dev/test environment](office-365-dev-test-environment.md).
   
 Next, sign up for the EMS E5 trial subscription and add it to the same organization as your Office 365 trial subscription.
   

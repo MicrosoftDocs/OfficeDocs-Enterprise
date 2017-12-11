@@ -42,7 +42,7 @@ Use the instructions in [Office 365 and Dynamics 365 dev/test environment](offic
 
 Use these steps to configure the global administrator's mailbox for Dynamics 365 and Exchange Online integration:
   
-1. Using a private session of your browser, go to http://portal.office.com and sign in using your Office 365 global administrator account.
+1. Using a private session of your browser, go to [http://portal.office.com](http://portal.office.com) and sign in using your Office 365 global administrator account.
     
 2. On the **Microsoft Office Home** page, click the **Mail** tile.
     
@@ -99,6 +99,9 @@ Use these steps to install the Dynamics 365 App for Outlook and demonstrate Dyna
      ![The Dynamics 365 information pane for a sales contact stored in Dynamics 365.](images/a010fa5f-3f1b-47d4-ab5e-d00d85a24a3f.png)
   
 9. Click **Discard**.
+
+> [!TIP]
+> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
     
 ## See Also
 

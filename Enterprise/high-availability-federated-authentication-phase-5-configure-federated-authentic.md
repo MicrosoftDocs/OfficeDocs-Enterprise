@@ -22,7 +22,7 @@ description: "Summary: Configure Azure AD Connect for your high availability fed
 # High availability federated authentication Phase 5: Configure federated authentication for Office 365
 
  **Summary:** Configure Azure AD Connect for your high availability federated authentication for Office 365 in Microsoft Azure.
-  
+ 
 In this final phase of deploying high availability federated authentication for Office 365 in Azure infrastructure services, you get and install a certificate issued by a public certification authority, verify your configuration, and then install and run Azure AD Connect on the DirSync server. Azure AD Connect configures your Office 365 subscription and your Active Directory Federation Services (AD FS) and web application proxy servers for federated authentication.
   
 See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.

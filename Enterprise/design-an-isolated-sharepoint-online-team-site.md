@@ -28,11 +28,11 @@ This article takes you through the key design decisions you must make before cre
 
 Every SharePoint Online team site by default is created with the following SharePoint groups:
   
-- <site name> Members
+- \<site name> Members
     
-- <site name> Visitors
+- \<site name> Visitors
     
-- <site name> Owners
+- \<site name> Owners
     
 These groups are separate from Office 365 and Azure Active Directory (AD) groups and are the basis for assigning permissions for the resources of the site.
   
@@ -40,9 +40,9 @@ The set of specific permissions that determines what a member of a SharePoint gr
   
 |**SharePoint group**|**Permission level**|
 |:-----|:-----|
-|<site name> Members  <br/> |Edit  <br/> |
-|<site name> Visitors  <br/> |Read  <br/> |
-|<site name> Owners  <br/> |Full control  <br/> |
+|\<site name> Members  <br/> |Edit  <br/> |
+|\<site name> Visitors  <br/> |Read  <br/> |
+|\<site name> Owners  <br/> |Full control  <br/> |
    
  **Best practice:** You can create additional SharePoint groups and permission levels. However, we recommend using the default SharePoint groups and permission levels for your isolated SharePoint Online site.
   
@@ -56,11 +56,11 @@ You can assign permissions to users by adding their user account, or an Office 3
   
 Using the default SharePoint groups as an example:
   
-- Members of the **<site name> Members** SharePoint group, which can include both user accounts and groups, are assigned the **Edit** permission level
+- Members of the **\<site name> Members** SharePoint group, which can include both user accounts and groups, are assigned the **Edit** permission level
     
-- Members of the **<site name> Visitors** SharePoint group, which can include both user accounts and groups, are assigned the **Read** permission level
+- Members of the **\<site name> Visitors** SharePoint group, which can include both user accounts and groups, are assigned the **Read** permission level
     
-- Members of the **<site name> Owners** SharePoint group, which can include both user accounts and groups, are assigned the **Full control** permission level
+- Members of the **\<site name> Owners** SharePoint group, which can include both user accounts and groups, are assigned the **Full control** permission level
     
  **Best practice:** Although you can manage permissions through individual user accounts, we recommend that you use a single Azure AD group, known as an access group, instead. This simplifies the management of permissions through membership in the access group, rather than managing the list of user accounts for each SharePoint group.
   
@@ -80,9 +80,9 @@ For isolated SharePoint Online team sites, the recommended group structure looks
   
 |**SharePoint group**|**Azure AD-based access group**|**Permission level**|
 |:-----|:-----|:-----|
-|<site name> Members  <br/> |<site name> Members  <br/> |Edit  <br/> |
-|<site name> Visitors  <br/> |<site name> Viewers  <br/> |Read  <br/> |
-|<site name> Owners  <br/> |<site name> Admins  <br/> |Full control  <br/> |
+|\<site name> Members  <br/> |\<site name> Members  <br/> |Edit  <br/> |
+|\<site name> Visitors  <br/> |\<site name> Viewers  <br/> |Read  <br/> |
+|\<site name> Owners  <br/> |\<site name> Admins  <br/> |Full control  <br/> |
    
  **Best practice:** Although you can use either Office 365 or Azure AD groups as members of SharePoint groups, we recommend that you use Azure AD groups. Azure AD groups, managed either through Windows Server AD or Office 365, give you more flexibility to use nested groups to assign permissions.
   
@@ -92,9 +92,9 @@ Here are the default SharePoint groups configured to use Azure AD-based access g
   
 When designing the three access groups, keep the following in mind:
   
-- There should be only a few members in the **<site name> Admins** access group, corresponding to a small number of SharePoint Online administrators who are managing the team site.
+- There should be only a few members in the **\<site name> Admins** access group, corresponding to a small number of SharePoint Online administrators who are managing the team site.
     
-- Most of your site members are in the **<site name> Members** or **<site name> Viewers** access groups. Because site members in the **<site name> Members** access group have the ability to delete or modify resources in the site, carefully consider its membership. When in doubt, add the site member to the **<site name> Viewers** access group.
+- Most of your site members are in the **\<site name> Members** or **\<site name> Viewers** access groups. Because site members in the **\<site name> Members** access group have the ability to delete or modify resources in the site, carefully consider its membership. When in doubt, add the site member to the **\<site name> Viewers** access group.
     
 Here is an example of the SharePoint groups and access groups for an isolated site named ProjectX.
   

@@ -61,12 +61,12 @@ There are four phases to setting up the Base Configuration test environment in A
 If you do not already have an Azure subscription, you can sign up for a free trial at [Try Azure](https://azure.microsoft.com/pricing/free-trial/). If you have an MSDN or Visual Studio subscription, see [Monthly Azure credit for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).
   
 > [!NOTE]
-> Virtual machines in Azure incur an ongoing monetary cost when they are running. This cost is billed against your free trial, MSDN subscription, or paid subscription. For more information about the costs of running Azure virtual machines, see [Virtual Machines Pricing Details](https://azure.microsoft.com/pricing/details/virtual-machines/) and[Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/). To keep costs down, see [Minimizing the costs of test environment virtual machines in Azure](base-configuration-dev-test-environment.md#mincost). 
+> Virtual machines in Azure incur an ongoing monetary cost when they are running. This cost is billed against your free trial, MSDN subscription, or paid subscription. For more information about the costs of running Azure virtual machines, see [Virtual Machines Pricing Details](https://azure.microsoft.com/pricing/details/virtual-machines/) and [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/). To keep costs down, see [Minimizing the costs of test environment virtual machines in Azure](base-configuration-dev-test-environment.md#mincost). 
   
 ![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Create the virtual network
 
@@ -167,11 +167,11 @@ Next, connect to the DC1 virtual machine.
     
   - For Windows 7:
     
-    In the **Windows Security** dialog box, click **Use another account**. In **User name**, type **DC1\\**[Local administrator account name]
+    In the **Windows Security** dialog box, click **Use another account**. In **User name**, type **DC1\\**[Local administrator account name].
     
   - For Windows 8 or Windows 10:
     
-    In the **Windows Security** dialog box, click **More choices**, and then click **Use a different account**. In **User name**, type **DC1\\**[Local administrator account name]
+    In the **Windows Security** dialog box, click **More choices**, and then click **Use a different account**. In **User name**, type **DC1\\**[Local administrator account name].
     
 4. In **Password**, type the password of the local administrator account, and then click **OK**.
     
@@ -356,7 +356,7 @@ This is your final configuration.
 Your Base Configuration in Azure is now ready for application development and testing or for building additional test environments. 
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Minimizing the costs of test environment virtual machines in Azure
 <a name="mincost"> </a>

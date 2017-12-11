@@ -77,7 +77,7 @@ You need to create the following access groups in Azure AD:
     
 5. Click **Create**, and then close the **Group** blade.
     
-6. Repeat steps 3-5 for you additional groups.
+6. Repeat steps 3-5 for your additional groups.
     
 > [!NOTE]
 > You need to use the Azure portal to create the groups so that they have Office features enabled. If a SharePoint Online isolated site is later configured as a Highly Confidential site with an Azure Information Protection (AIP) label to encrypt files and assign permission to specific groups, the permitted groups must have been created with Office features enabled. You cannot change the Office features setting of an Azure AD group after it has been created. 
@@ -184,7 +184,7 @@ Next, from the new SharePoint Online team site, configure permissions.
     
 4. In the **Access Requests Settings** dialog box, clear **Allow member to share the site and individual files and folders** and **Allow access requests** (so that all three check boxes are cleared), and then click **OK**.
     
-5. On the **Permissions** tab of your browser, click **<site name> Members** in the list.
+5. On the **Permissions** tab of your browser, click **\<site name> Members** in the list.
     
 6. In **People and Groups**, click **New**.
     
@@ -192,7 +192,7 @@ Next, from the new SharePoint Online team site, configure permissions.
     
 8. Click the back button on your browser.
     
-9. Click **<site name> Owners** in the list.
+9. Click **\<site name> Owners** in the list.
     
 10. In **People and Groups**, click **New**.
     
@@ -200,7 +200,7 @@ Next, from the new SharePoint Online team site, configure permissions.
     
 12. Click the back button on your browser.
     
-13. Click **<site name> Visitors** in the list.
+13. Click **\<site name> Visitors** in the list.
     
 14. In **People and Groups**, click **New**.
     
@@ -210,11 +210,11 @@ Next, from the new SharePoint Online team site, configure permissions.
     
 The results of these permission settings are:
   
-- The **<site name> Owners** SharePoint group contains the site admins access group, in which all the members have the **Full control** permission level.
+- The **\<site name> Owners** SharePoint group contains the site admins access group, in which all the members have the **Full control** permission level.
     
-- The **<site name> Members** SharePoint group contains the site members access group, in which all the members have the **Edit** permission level.
+- The **\<site name> Members** SharePoint group contains the site members access group, in which all the members have the **Edit** permission level.
     
-- The **<site name> Visitors** SharePoint group contains the site viewers access group, in which all the members have the **Read** permission level.
+- The **\<site name> Visitors** SharePoint group contains the site viewers access group, in which all the members have the **Read** permission level.
     
 - The ability for members to invite other members or for non-members to request access is disabled.
     
@@ -230,7 +230,7 @@ When you need to change site access group membership or create a document folder
   
 ## See Also
 
-#### 
+####
 
 [Isolated SharePoint Online team sites](isolated-sharepoint-online-team-sites.md)
   

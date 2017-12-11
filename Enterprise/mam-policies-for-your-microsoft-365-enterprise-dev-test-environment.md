@@ -137,7 +137,7 @@ In this phase, you create and deploy two different MAM policies: one for iOS dev
 You now have two MAM policies, one for iOS devices and one for Android devices, and are ready to experiment with testing settings for the selected apps.
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## See Also
 

@@ -57,13 +57,13 @@ To step through a production deployment of federated authentication for Office 3
 > You cannot configure this dev/test environment with an Azure Trial subscription. 
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Create the simulated enterprise Office 365 dev/test environment with DirSync
 
 Follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md) to create the simulated enterprise Office 365 dev/test environment with APP1 as the DirSync server and synchronized identity between Office 365 and the Windows Server AD accounts on DC1.
   
-Next, create a new public DNS domain name based on your current domain name and add it to your Office 365 subscription. We recommend using the name **testlab.**<your public domain>. For example, if your public domain name is contoso.com, add the public domain name testlab.contoso.com.
+Next, create a new public DNS domain name based on your current domain name and add it to your Office 365 subscription. We recommend using the name **testlab.**\<your public domain>. For example, if your public domain name is contoso.com, add the public domain name testlab.contoso.com.
   
 For instructions on how to create the correct DNS records in your DNS provider and add the domain to your Office 365 trial subscription, see [Add users and domain to Office 365](https://support.office.com/article/Add-users-and-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611). 
   
@@ -173,7 +173,7 @@ Display the public IP address of PROXY1 with these Azure PowerShell commands on 
 Write-Host (Get-AzureRMPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPAddress
 ```
 
-Next, work with your public DNS provider and create a new public DNS A record for **fs.testlab.**<your DNS domain name> that resolves to the IP address displayed by the **Write-Host** command. The **fs.testlab.**<your DNS domain name> is hereafter referred to as the  *federation service FQDN*  .
+Next, work with your public DNS provider and create a new public DNS A record for **fs.testlab.**\<your DNS domain name> that resolves to the IP address displayed by the **Write-Host** command. The **fs.testlab.**\<your DNS domain name> is hereafter referred to as the  *federation service FQDN*  .
   
 Next, use the [Azure portal](http://portal.azure.com) to connect to the DC1 virtual machine using the CORP\\User1 credentials, and then run the following commands at an administrator-level Windows PowerShell command prompt:
   
@@ -221,7 +221,7 @@ Next, use these steps to save the new self-signed certificate as a file.
   
 1. Click **Start**, type **mmc.exe**, and then press **Enter**.
     
-2. Click ** File > Add/Remove Snap-in**.
+2. Click **File > Add/Remove Snap-in**.
     
 3. In **Add or Remove Snap-ins**, double-click **Certificates** in the list of available snap-ins, click **Computer account**, and then click **Next**.
     
@@ -401,13 +401,13 @@ To demonstrate that federated authentication is working, do the following:
   
 1. Open a new private instance of your browser on your local computer and go to [https://portal.office.com](https://portal.office.com).
     
-2. For the sign-in credentials, type **user1@**<the domain created in Phase 1>. 
+2. For the sign-in credentials, type **user1@**\<the domain created in Phase 1>. 
     
     For example, if your test domain is **testlab.contoso.com**, you would type **user1@testlab.contoso.com**. Press TAB or allow Office 365 to automatically redirect you.
     
     You should now see a **Your connection is not private** page. You are seeing this because you installed a self-signed certificate on ADFS1 that your desktop computer cannot validate. In a production deployment of federated authentication, you would use a certificate from a trusted certification authority and your users would not see this page.
     
-3. On the **Your connection is not private** page, click **Advanced**, and then click **Proceed to <your federation service FQDN>**. 
+3. On the **Your connection is not private** page, click **Advanced**, and then click **Proceed to \<your federation service FQDN>**. 
     
 4. On the page with the name of your fictional organization, sign in with the following:
     
@@ -433,7 +433,7 @@ This procedure demonstrates that your Office 365 trial subscription is federated
     
 Your Office 365 trial subscription is now configured with federated authentication. You can use this dev/test environment for advanced authentication scenarios.
   
-## Next step
+## Next Step
 
 When you are ready to deploy production-ready, high availability federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md).
   

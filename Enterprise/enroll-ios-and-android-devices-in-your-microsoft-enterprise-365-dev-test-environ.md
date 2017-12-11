@@ -44,15 +44,15 @@ Use these steps to customize the Microsoft Intune Company Portal app for your fi
     
 4. In the **Administration** pane, click **Company Portal**.
     
-5. In the ** Company Portal** pane, configure the following settings:
+5. In the **Company Portal** pane, configure the following settings:
     
-  - Company name: <your fictional company name>
+  - Company name: \<your fictional company name>
     
   - IT department contact name: **User5**
     
   - IT department phone number: **555-1234**
     
-  - IT department e-mail address: **User5@**<fictional organization name> **.onmicrosoft.com** (the email address of the User5 account)
+  - IT department e-mail address: **User5@**\<fictional organization name> **.onmicrosoft.com** (the email address of the User5 account)
     
 6. In **Customization**, select **Green** in **Theme color**.
     
@@ -90,9 +90,9 @@ To get an Apple Push Notification service certificate:
     
 4. On the **Create a New Push Certificate** page, click **Browse** and select the **dev-test.csr** file saved in the previous procedure, and then click **Upload**. When prompted to open a json file, save it to the same folder where the dev-test.csr file is stored.
     
-5. Open the [Apple Push Certificates Portal](https://idmsa.apple.com/IDMSWebAuth/login?appIdKey=3fbfc9ad8dfedeb78be1d37f6458e72adc3160d1ad5b323a9e5c5eb2f8e7e3e2&amp;rv=2)in a different tab and for **Certificates for Third-Party Servers**, click **Download**.
+5. Open the [Apple Push Certificates Portal](https://idmsa.apple.com/IDMSWebAuth/login?appIdKey=3fbfc9ad8dfedeb78be1d37f6458e72adc3160d1ad5b323a9e5c5eb2f8e7e3e2&amp;rv=2) in a different tab and for **Certificates for Third-Party Servers**, click **Download**.
     
-6. When prompted to open a .pem file, save it with the name ** dev-test.pem** to the same folder where the dev-test.csr file is stored. This is your APNs certificate.
+6. When prompted to open a .pem file, save it with the name **dev-test.pem** to the same folder where the dev-test.csr file is stored. This is your APNs certificate.
     
 To upload the APNs certificate into Intune:
   
@@ -251,7 +251,7 @@ To reset the passcode remotely:
 7. To change the passcode back, go into **Settings**, tap **Device**, tap **Lock screen**, enter the new passcode again, tap **Screen lock**, and then your choice for the passcode.
     
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## See Also
 
