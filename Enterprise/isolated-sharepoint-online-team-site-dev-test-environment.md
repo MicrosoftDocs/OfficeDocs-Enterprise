@@ -283,8 +283,6 @@ When you are ready to deploy an isolated SharePoint Online team site in producti
   
 ## See Also
 
-#### 
-
 [Isolated SharePoint Online team sites](isolated-sharepoint-online-team-sites.md)
   
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
@@ -294,4 +292,8 @@ When you are ready to deploy an isolated SharePoint Online team site in producti
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+
+#### 
+
+
 
