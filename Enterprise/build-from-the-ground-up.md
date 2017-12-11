@@ -192,8 +192,6 @@ When designing your custom storage solution with Azure Storage, keep the followi
     
 ## See Also
 
-#### 
-
 [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-storage-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

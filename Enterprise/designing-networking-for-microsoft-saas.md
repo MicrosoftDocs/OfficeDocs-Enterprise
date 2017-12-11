@@ -188,8 +188,6 @@ For more information, see:
     
 ## See Also
 
-#### 
-
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
