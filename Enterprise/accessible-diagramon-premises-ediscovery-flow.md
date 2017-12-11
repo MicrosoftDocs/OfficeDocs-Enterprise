@@ -1,7 +1,7 @@
 ---
 title: "Accessible diagram - On-premises eDiscovery Flow"
-ms.author: adammil
-author: adammil
+ms.author: josephd
+author: josephd
 manager: laurawi
 ms.date: 11/16/2014
 ms.audience: ITPro

@@ -1,7 +1,7 @@
 ---
 title: "Accessible diagram - Microsoft Exchange 2013 Platform Options"
-ms.author: v-suboh
-author: v-suboh
+ms.author: josephd
+author: josephd
 ms.date: 12/16/2016
 ms.audience: ITPro
 ms.topic: article
