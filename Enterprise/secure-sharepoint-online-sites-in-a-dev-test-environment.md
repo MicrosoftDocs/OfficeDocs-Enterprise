@@ -326,7 +326,7 @@ To create a sensitive-level isolated SharePoint Online team site for marketing c
     
 11. In the new **Permissions** tab in your browser, click **Access Request Settings**.
     
-12. In the **Access Request Settings** dialog box, clear the **Allow members to share the site and individual files and folders** and **Allow members to invite others to the site members group** check boxes, type **ITAdmin1@**<your organization name> **.onmicrosoft.com** in **Send all requests for access**, and then click **OK**.
+12. In the **Access Request Settings** dialog box, clear the **Allow members to share the site and individual files and folders** and **Allow members to invite others to the site members group** check boxes, type **ITAdmin1@**\<your organization name>**.onmicrosoft.com** in **Send all requests for access**, and then click **OK**.
     
 13. Click **Marketing campaigns Members** in the list.
     

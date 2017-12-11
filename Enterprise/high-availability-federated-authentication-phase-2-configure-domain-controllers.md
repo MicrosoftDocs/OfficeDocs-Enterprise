@@ -48,7 +48,7 @@ First, you need to fill out the **Virtual machine name** column of Table M and m
   
 For the complete list of virtual machine sizes, see [Sizes for virtual machines](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes).
   
-The following Azure PowerShell command block creates the virtual machines for the two domain controllers. Specify the values for the variables, removing the < and > characters. Note that this Azure PowerShell command block uses values from the following tables:
+The following Azure PowerShell command block creates the virtual machines for the two domain controllers. Specify the values for the variables, removing the \< and > characters. Note that this Azure PowerShell command block uses values from the following tables:
   
 - Table M, for your virtual machines
     

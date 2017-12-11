@@ -101,9 +101,9 @@ For example, the recommended group structure and permission levels look like thi
   
 |**SharePoint group**|**Permission level**|**Access group (examples)**|
 |:-----|:-----|:-----|
-|<site name> Members  <br/> |Edit  <br/> |<site name> Members  <br/> |
-|<site name> Visitors  <br/> |Read  <br/> |<site name> Viewers  <br/> |
-|<site name> Owners  <br/> |Full control  <br/> |<site name> Admins  <br/> |
+|[site name] Members  <br/> |Edit  <br/> |[site name] Members  <br/> |
+|[site name] Visitors  <br/> |Read  <br/> |[site name] Viewers  <br/> |
+|[site name] Owners  <br/> |Full control  <br/> |[site name] Admins  <br/> |
    
 The SharePoint groups and permission levels are created by default for a team site. You need to determine the names of your access groups.
   
@@ -117,7 +117,7 @@ To deploy your isolated site, you first need to:
     
 - Create the access groups and add the user and group members.
     
-For the detailed steps, see **Phase 1** of[Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md).
+For the detailed steps, see **Phase 1** of [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md).
   
 Next, you create the SharePoint Online team site with these steps.
   
@@ -155,7 +155,7 @@ Next, from the new SharePoint Online team site, configure permissions with these
     
   - Click **OK**.
     
-6. On the **Permissions** tab of your browser, click **<site name> Members** in the list.
+6. On the **Permissions** tab of your browser, click **[site name] Members** in the list.
     
 7. In **People and Groups**, click **New**.
     
@@ -163,7 +163,7 @@ Next, from the new SharePoint Online team site, configure permissions with these
     
 9. Click the back button on your browser.
     
-10. Click **<site name> Owners** in the list.
+10. Click **[site name] Owners** in the list.
     
 11. In **People and Groups**, click **New**.
     
@@ -171,7 +171,7 @@ Next, from the new SharePoint Online team site, configure permissions with these
     
 13. Click the back button on your browser.
     
-14. Click **<site name> Visitors** in the list.
+14. Click **[site name] Visitors** in the list.
     
 15. In **People and Groups**, click **New**.
     
@@ -181,11 +181,11 @@ Next, from the new SharePoint Online team site, configure permissions with these
     
 The results of these permission settings are:
   
-- The **<site name> Owners** SharePoint group contains the site administrators access group, in which all the members have the **Full control** permission level.
+- The **[site name] Owners** SharePoint group contains the site administrators access group, in which all the members have the **Full control** permission level.
     
-- The **<site name> Members** SharePoint group contains the site members access group, in which all the members have the **Edit** permission level.
+- The **[site name] Members** SharePoint group contains the site members access group, in which all the members have the **Edit** permission level.
     
-- The **<site name> Visitors** SharePoint group contains the site viewers access group, in which all the members have the **Read** permission level.
+- The **[site name] Visitors** SharePoint group contains the site viewers access group, in which all the members have the **Read** permission level.
     
 - The ability for members to invite other members is disabled.
     
@@ -219,9 +219,9 @@ For example, the recommended group structure and permission levels look like thi
   
 |**SharePoint group**|**Permission level**|**Access group (examples)**|
 |:-----|:-----|:-----|
-|<site name> Members  <br/> |Edit  <br/> |<site name> Members  <br/> |
-|<site name> Visitors  <br/> |Read  <br/> |<site name> Viewers  <br/> |
-|<site name> Owners  <br/> |Full control  <br/> |<site name> Admins  <br/> |
+|[site name] Members  <br/> |Edit  <br/> |[site name] Members  <br/> |
+|[site name] Visitors  <br/> |Read  <br/> |[site name] Viewers  <br/> |
+|[site name] Owners  <br/> |Full control  <br/> |[site name] Admins  <br/> |
    
 The SharePoint groups and permission levels are created by default for a team site. You need to determine the names of your access groups.
   
@@ -241,11 +241,11 @@ For the detailed steps, see [Deploy an isolated SharePoint Online team site](dep
   
 The results of the permission settings are:
   
-- The **<site name> Owners** SharePoint group contains the site administrators access group, in which all the members have the **Full control** permission level.
+- The **[site name] Owners** SharePoint group contains the site administrators access group, in which all the members have the **Full control** permission level.
     
-- The **<site name> Members** SharePoint group contains the site members access group, in which all the members have the **Edit** permission level.
+- The **[site name] Members** SharePoint group contains the site members access group, in which all the members have the **Edit** permission level.
     
-- The **<site name> Visitors** SharePoint group contains the site viewers access group, in which all the members have the **Read** permission level.
+- The **[site name] Visitors** SharePoint group contains the site viewers access group, in which all the members have the **Read** permission level.
     
 - The ability for members to invite other members is disabled.
     
@@ -259,7 +259,7 @@ The members of the site, through group membership in one of the access groups, c
   
 ## Next step
 
-- [Protect SharePoint Online files with Office 365 labels and DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
+[Protect SharePoint Online files with Office 365 labels and DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
     
 ## See Also
 

@@ -28,7 +28,7 @@ Office 365 Advanced eDiscovery allows you to quickly find and analyze relevant i
 With the instructions in this article, you create a small set of data for a fictional contract dispute and analyze it with Advanced eDiscovery.
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Create your Office 365 dev/test environment
 
@@ -37,7 +37,7 @@ If you just want to test Advanced eDiscovery in a lightweight way with the minim
 If you want to test Advanced eDiscovery in a simulated enterprise, follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
   
 > [!NOTE]
-> Testing Advanced eDiscovery does not require the simulated enterprise environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can perform testing and experimentation an environment that represents a typical organization. 
+> Testing Advanced eDiscovery does not require the simulated enterprise environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can perform testing and experimentation in an environment that represents a typical organization. 
   
 ## Phase 2: Create example data for Advanced eDiscovery
 
@@ -175,12 +175,9 @@ In this procedure, you create a new case for Advanced eDiscovery and analyze the
     
 9. On the **Setup** page, under **Themes**, type **3** in **Max number of themes**.
     
-10. Click **Analyze** and wait for the analysis to complete. You should see a series of pie charts with analysis of the target population, documents, emails, and attachments. For more information, see[Viewing Analyze results](https://support.office.com/article/Viewing-Analyze-results-5974f3c2-89fe-4c5f-ac7b-57f214437f7e).
+10. Click **Analyze** and wait for the analysis to complete. You should see a series of pie charts with analysis of the target population, documents, emails, and attachments. For more information, see [Viewing Analyze results](https://support.office.com/article/Viewing-Analyze-results-5974f3c2-89fe-4c5f-ac7b-57f214437f7e).
     
 You can now use this environment to create new content, new searches and cases, and experiment further with Advanced eDiscovery in Office 365.
-  
-> [!TIP]
-> Click [here](https://docs.com/officeitpro/8923/office-365-and-ems-test-lab-guides?c=ca4UTZ) for a visual map to all of the articles in the Office 365 and EMS Test Lab Guide stack.
   
 ## See Also
 

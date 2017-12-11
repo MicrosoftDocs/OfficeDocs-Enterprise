@@ -14,7 +14,7 @@ description: "Summary: Learn how to create an integrated test lab that contains 
 
 # Test Lab Guide: Configure an integrated Exchange, Lync, and SharePoint test lab
 
- **Summary: ** Learn how to create an integrated test lab that contains a server that runs Exchange Server 2013, a server that runs Lync Server 2013, and a server that runs SharePoint Server 2013.
+ **Summary:** Learn how to create an integrated test lab that contains a server that runs Exchange Server 2013, a server that runs Lync Server 2013, and a server that runs SharePoint Server 2013.
   
 The test lab that results from this configuration, which includes server-to-server authentication between all three types of servers, can be used to build out and demonstrate multi-product scenarios and solutions that use a server that runs Exchange Server 2013, a server that runs Lync Server 2013, and a server that runs SharePoint Server 2013.
   

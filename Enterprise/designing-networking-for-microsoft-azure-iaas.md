@@ -28,11 +28,11 @@ Follow these steps for any type of VNet.
   
 ### Step 1: Prepare your intranet for Microsoft cloud services.
 
-Go through the **Steps to prepare your network for Microsoft cloud services** section in[Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
+Go through the **Steps to prepare your network for Microsoft cloud services** section in [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
   
 ### Step 2: Optimize your Internet bandwidth.
 
-Optimize your Internet bandwidth using steps 2 - 4 of the **Steps to prepare your network for Microsoft SaaS services** section in[Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md).
+Optimize your Internet bandwidth using steps 2 - 4 of the **Steps to prepare your network for Microsoft SaaS services** section in [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md).
   
 ### Step 3: Determine the type of VNet (cloud-only or cross-premises).
 
@@ -61,7 +61,7 @@ Table 1 shows the address spaces for the different types of VNets.
 |**Type of VNet**|**Virtual network address space**|
 |:-----|:-----|
 |Cloud-only  <br/> |Arbitrary private address space  <br/> |
-|Interconnected cloud-only  <br/> |Arbitrary private, but not overlapping with  other connected VNets  <br/> |
+|Interconnected cloud-only  <br/> |Arbitrary private, but not overlapping with other connected VNets  <br/> |
 |Cross-premises  <br/> |Private, but not overlapping with on-premises  <br/> |
 |Interconnected cross-premises  <br/> |Private, but not overlapping with on-premises and other connected VNets  <br/> |
    
@@ -102,20 +102,24 @@ A best practice for determining the address space of the Azure gateway subnet is
 With this method, the address space for the gateway subnet is always at the farthest end of the VNet address space.
   
 Here is an example of defining the address prefix for the gateway subnet: The address space of the VNet is 10.119.0.0/16. The organization will initially use a site-to-site VPN connection, but will eventually get ExpressRoute. Table 2 shows the steps and results of determining the gateway subnet address prefix in network prefix notation (also known as CIDR).
-  
-|**Step**|**Results**|
-|:-----|:-----|
-|1. Decide on the size of the gateway subnet.  <br/> |/28  <br/> |
-|2. Set the bits in the variable portion of the VNet address space (b): 0 for the gateway subnet bits (G), otherwise 1 (V).  <br/> | 10.119. bbbbbbbb . bbbbbbbb <br/><br/>10.119. VVVVVVVV . VVVVGGGG<br/>10.119. 11111111 . 11110000<br/>|
-|3. Convert the result from step 2 to decimal and express as an address space.  <br/> |10.119.255.240/28  <br/> |
-   
- **Table 2: An example of determining the gateway subnet address prefix**
+
+Here are the steps and example of determining the gateway subnet address prefix:
+
+1. Decide on the size of the gateway subnet. For our example, we chose /28.
+2. Set the bits in the variable portion of the VNet address space (b) to 0 for the gateway subnet bits (G), otherwise 1 (V). For our example, we are using the 10.119.0.0/16 address space for the VNet.
+```
+10.119. bbbbbbbb . bbbbbbbb
+
+10.119. VVVVVVVV . VVVVGGGG
+10.119. 11111111 . 11110000
+```
+3. Convert the result from step 2 to decimal and express as an address space. For our example, 10.119. 11111111 . 11110000 is 10.119.255.240, and with the prefix lenght from step 1, (28 in our example), the resulting gateway subnet address prefix is 10.119.255.240/28.
   
 See [Address space calculator for Azure gateway subnets](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) for more information.
   
 Virtual machine-hosting subnets are where you place Azure virtual machines, which you can do according to typical on-premises guidelines, such as a common role or tier of an application or for subnet isolation.
   
-Azure uses the first 3 addresses on each subnet. Therefore, the number of possible addresses on an Azure subnet is 2n - 5, where n is the number of host bits. Table 3 shows the range of virtual machines required, the number of hosts bits needed, and the corresponding subnet size.
+Azure uses the first 3 addresses on each subnet. Therefore, the number of possible addresses on an Azure subnet is 2<sup>n</sup> - 5, where n is the number of host bits. Table 3 shows the range of virtual machines required, the number of hosts bits needed, and the corresponding subnet size.
   
 |**Virtual machines required**|**Host bits**|**Subnet size**|
 |:-----|:-----|:-----|
@@ -139,7 +143,7 @@ Azure assigns virtual machines the addresses of DNS servers by DHCP. DNS servers
     
 - Provided by you: Provides local or intranet name registration and either intranet or Internet name resolution
     
-    Table 4 shows the different configurations of DNS servers for each type of VNet.
+Table 4 shows the different configurations of DNS servers for each type of VNet.
     
 |**Type of VNet**|**DNS server**|
 |:-----|:-----|
@@ -215,7 +219,7 @@ Additional security is provided by:
     
 - Azure DDOS protection, which helps prevent external and internal attacks
     
-For more information, see [Microsoft Cloud Security for Enterprise Architects](https://aka.ms/cloudarchsecurity) and[Azure Network Security](https://azure.microsoft.com/blog/azure-network-security/).
+For more information, see [Microsoft Cloud Security for Enterprise Architects](https://aka.ms/cloudarchsecurity) and [Azure Network Security](https://azure.microsoft.com/blog/azure-network-security/).
   
 ### Step 10: For multiple VNets, determine the VNet-to-VNet connection topology.
 
@@ -294,7 +298,7 @@ Security for connections is provided by the following:
     
 - ExpressRoute is a private WAN connection
     
-For more information, see [Microsoft Cloud Security for Enterprise Architects](https://aka.ms/cloudarchsecurity) and[Azure Network Security](https://azure.microsoft.com/blog/azure-network-security/).
+For more information, see [Microsoft Cloud Security for Enterprise Architects](https://aka.ms/cloudarchsecurity) and [Azure Network Security](https://azure.microsoft.com/blog/azure-network-security/).
   
 ### Step 2: Determine the on-premises VPN device or router.
 
@@ -423,6 +427,7 @@ Figure 19 shows the nine servers of a SharePoint Server 2016 farm deployed in a 
 For additional examples of IT workloads deployed on virtual machines in a cross-premises Azure virtual network, see [Hybrid cloud scenarios for Azure IaaS](https://technet.microsoft.com/library/mt750502.aspx).
   
 ## See Also
+
 <a name="cross_prem"> </a>
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)

@@ -25,9 +25,10 @@ description: "Summary: Design your networking for Microsoft cloud services and p
   
 This article links you to a set of articles that describe what IT architects need to know about designing networking for organizations using Microsoft cloud services and platforms. You can also view this information as a 12-page poster and print it in tabloid format (also known as ledger, 11 x 17, or A3).
   
-[![Thumb image for Microsoft cloud networking model](images/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)          ](https://go.microsoft.com/fwlink/p/?linkid=842073)
+[![Thumb image for Microsoft cloud networking model](images/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)  
+](https://go.microsoft.com/fwlink/p/?linkid=842073)
   
-![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?linkid=842073)  | ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?linkid=842074)  | ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=54425)
+![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=54425)
   
 You can also see all of the models in the [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md) and swipe through [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://aka.ms/cloudarchitecture).
   
@@ -57,7 +58,7 @@ See the following sections:
     
     Step through the design process to create an optimal Azure virtual network (VNet) for hosting server-based IT workloads, including subnets, address spaces, routing, DNS, load balancing, and connectivity to your on-premises network, other VNets, and the Internet.
     
-For a 30-minute summary of the key points of this poster see the [Optimize Your Network for Microsoft Cloud Offerings](https://mva.microsoft.com/en-US/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743) Microsoft Virtual Academy course.
+For a 30-minute summary of the key points of this poster, see the [Optimize Your Network for Microsoft Cloud Offerings](https://mva.microsoft.com/en-US/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743) Microsoft Virtual Academy course.
   
 > [!NOTE]
 > These articles reflect the **June 2017** release of the Microsoft Cloud Networking for Enterprise Architects poster.

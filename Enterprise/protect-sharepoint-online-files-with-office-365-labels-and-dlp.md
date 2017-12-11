@@ -219,7 +219,7 @@ Here is your resulting configuration for high confidentiality SharePoint Online 
   
 ## Next step
 
-- [Protect SharePoint Online files with Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
+[Protect SharePoint Online files with Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
     
 ## See Also
 

@@ -41,7 +41,7 @@ You can use the resulting configuration to:
 
 Follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
   
-Figure 1 shows your resulting configuration, which includes a simulated intranet running in Azure infrastructure services and directory synchronization from an on-premises Windows Server Active Directory (AD) forest.
+Figure 1 shows your resulting configuration, which includes Office 365 and a simulated intranet running in Azure infrastructure services and directory synchronization from an on-premises Windows Server Active Directory (AD) forest.
   
 **Figure 1: The simulated intranet in Azure with Office 365**
 

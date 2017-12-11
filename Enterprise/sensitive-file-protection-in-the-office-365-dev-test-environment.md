@@ -139,7 +139,7 @@ Next, you create an Executives site collection and allow just the members of the
     
 9. On the **People and Groups** page, click **New**.
     
-10. In **Share 'Executives'**, type ** Executives**, click the **Executives** group, and then click **Share**.
+10. In **Share 'Executives'**, type **Executives**, click the **Executives** group, and then click **Share**.
     
 11. Close the **People and groups** tab.
     
@@ -169,7 +169,7 @@ Next, you sign in with an executive account and create a document in the Executi
     
 4. Type the **CEO** account name and its password, and then click **Sign in**.
     
-5. On a new tab of your browser, type the URL to the Executives site collection ( **https://**<organization name> **.sharepoint.com/sites/executives**).
+5. On a new tab of your browser, type the URL to the Executives site collection ( **https://**\<organization name>**.sharepoint.com/sites/executives**).
     
 6. Click **Documents**, click **New,** and then click **Word Document**.
     
@@ -187,7 +187,7 @@ Next, you download a local copy of the SensitiveData-BeforeIRM.docx document and
     
 3. Store the **SensitiveData-BeforeIRM.docx** document in the folder created in step 1.
     
-4. On a new tab of your browser, type the URL to the Sales site collection ( **https://**<organization name> **.sharepoint.com/sites/sales**).
+4. On a new tab of your browser, type the URL to the Sales site collection ( **https://**\<organization name>**.sharepoint.com/sites/sales**).
     
 5. Click the **Documents** folder of the **Sales site collection**.
     

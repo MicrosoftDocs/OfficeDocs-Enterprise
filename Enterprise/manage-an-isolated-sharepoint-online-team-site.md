@@ -40,26 +40,24 @@ If you are managing user accounts and groups through Office 365, you can use the
   
 - For the Office Admin center, sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to add the appropriate users to the appropriate access groups.
     
-- For PowerShell, first [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+- For PowerShell, first [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218). To add a user account to an access group with its user principal name (UPN), use the following PowerShell command block:
     
-    To add a user account to an access group with its user principal name (UPN), use the following PowerShell command block:
-    
-  ```
-  $userUPN="<UPN of the user account>"
+```
+$userUPN="<UPN of the user account>"
 $grpName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
-  ```
+```
 
-    > [!TIP]
-    > For a text file that contains all the PowerShell commands and an Excel configuration worksheet that generates PowerShell commands based on your group and user account names, download the [Isolated SharePoint Online Team Site Deployment Kit](https://gallery.technet.microsoft.com/Isolated-SharePoint-Online-0b364907). 
-  
-    To add a user account to an access group with its display name, use the following PowerShell command block:
-    
-  ```
-  $userDisplayName="<display name of the user account>"
+> [!TIP]
+> For a text file that contains all the PowerShell commands and an Excel configuration worksheet that generates PowerShell commands based on your group and user account names, download the [Isolated SharePoint Online Team Site Deployment Kit](https://gallery.technet.microsoft.com/Isolated-SharePoint-Online-0b364907). 
+
+To add a user account to an access group with its display name, use the following PowerShell command block:
+
+```
+$userDisplayName="<display name of the user account>"
 $grpName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -eq $userDisplayName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
-  ```
+```
 
 ## Add a new group
 
@@ -78,14 +76,13 @@ If you are managing user accounts and groups through Office 365, you can use the
 - For the Office Admin center, sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to add the appropriate groups to the appropriate access groups.
     
 - For PowerShell, first [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
-    
-    Then, use the following PowerShell commands:
-    
-  ```
-  $newGroupName="<display name of the new group to add>"
+ Then, use the following PowerShell commands:
+ 
+```
+$newGroupName="<display name of the new group to add>"
 $siteGrpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $newGroupName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $siteGrpName }).ObjectID
-  ```
+```
 
 ## Remove a user
 
@@ -104,22 +101,21 @@ If you are managing user accounts and groups through Office 365, you can use the
 - For the Office Admin center, sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to remove the appropriate users from the appropriate access groups.
     
 - For PowerShell, first [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+To remove a user account from an access group with its UPN, use the following PowerShell command block:
     
-    To remove a user account from an access group with its UPN, use the following PowerShell command block:
-    
-  ```
-  $userUPN="<UPN of the user account>"
+```
+$userUPN="<UPN of the user account>"
 $grpName="<display name of the access group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
-  ```
+```
 
-    To remove a user account from an access group with its display name, use the following PowerShell command block:
+To remove a user account from an access group with its display name, use the following PowerShell command block:
     
-  ```
-  $userDisplayName="<display name of the user account>"
+```
+$userDisplayName="<display name of the user account>"
 $grpName="<display name of the access group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -eq $userDisplayName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
-  ```
+```
 
 ## Remove a group
 
@@ -137,15 +133,14 @@ If you are managing user accounts and groups through Office 365, you can use the
   
 - For the Office Admin center, sign in with a user account that has been assigned the User Account Administrator or Company Administrator role and use Groups to remove the appropriate groups from the appropriate access groups.
     
-- For PowerShell, first [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+- For PowerShell, first [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).    
+To remove a group from an access group using their display names, use the following PowerShell command block:
     
-    To remove a group from an access group using their display names, use the following PowerShell command block:
-    
-  ```
-  $groupMemberName="<display name of the group to remove>"
+```
+$groupMemberName="<display name of the group to remove>"
 $grpName="<display name of the access group>"
 Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -eq $groupMemberName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
-  ```
+```
 
 ## Create a documents subfolder with custom permissions
 
@@ -171,9 +166,9 @@ To create a documents subfolder with custom permissions, do the following:
     
 9. Click **Grant Permissions > Shared with > Advanced**.
     
-10. On the permissions page, click **<site name> Members in the list**.
+10. On the permissions page, click **\<site name> Members in the list**.
     
-11. On the **<site name> Members** page, select the checkmark next to the site members access group, click **Actions**, click **Remove users from group**, and then click **OK**.
+11. On the **\<site name> Members** page, select the checkmark next to the site members access group, click **Actions**, click **Remove users from group**, and then click **OK**.
     
 12. To add specific members to this subfolder, click **New > Add users**.
     
@@ -181,9 +176,9 @@ To create a documents subfolder with custom permissions, do the following:
     
 14. Refresh the web page to see the new results.
     
-15. Under **Groups** in the left navigation, click the **<site name> Visitors** group and use steps 11-14 to specify the set of user accounts that can view the files in the subfolder (as needed).
+15. Under **Groups** in the left navigation, click the **\<site name> Visitors** group and use steps 11-14 to specify the set of user accounts that can view the files in the subfolder (as needed).
     
-16. Under **Groups** in the left navigation, click the **<site name> Owners** group and use steps 11-14 to specify the set of user accounts that can administer the permissions in the subfolder (as needed).
+16. Under **Groups** in the left navigation, click the **\<site name> Owners** group and use steps 11-14 to specify the set of user accounts that can administer the permissions in the subfolder (as needed).
     
 17. Close the **People and Groups** tab in your browser.
     

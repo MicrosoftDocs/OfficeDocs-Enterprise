@@ -33,7 +33,7 @@ Access to SharePoint Online team sites and what users can do is controlled by Sh
     
 - **Visitors**, who only can view resources on the site.
     
-This article steps you through the configuration of an isolated SharePoint Online team site for a secret research project named ProjectX. The access requirements are the following:
+This article steps you through the configuration of an isolated SharePoint Online team site for a secret research project named ProjectX. The access requirements are:
   
 - Only members of the project can access the site and its contents (documents, OneNote Notebook, Pages), with edit and view SharePoint permission levels controlled through group membership.
     
@@ -48,7 +48,7 @@ There are three phases to setting up an isolated SharePoint Online team site in 
 3. Create a new ProjectX SharePoint Online team site and isolate it.
     
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Build out your lightweight or simulated enterprise Office 365 dev/test environment
 
@@ -249,7 +249,7 @@ Now let's demonstrate access using the Development VP user account:
     
 2. In the list of tiles, click **SharePoint**.
     
-3. On the new ** SharePoint** tab in your browser, type **ProjectX** in the search box, activate the search, and then click the **ProjectX** team site. You should see a new tab in your browser for the ProjectX team site.
+3. On the new **SharePoint** tab in your browser, type **ProjectX** in the search box, activate the search, and then click the **ProjectX** team site. You should see a new tab in your browser for the ProjectX team site.
     
 4. Click **Documents**, and then click the **Document.docx** file.
     
@@ -275,9 +275,9 @@ Now let's demonstrate access with a user account that has no permissions:
     
 7. Close the **SharePoint** tab in your browser, click the **Microsoft Office Home** tab, click the **User 3** name, and then click **Sign out**.
     
-Your isolated SharePoint Online site is now ready for your further experimentation.
+Your isolated SharePoint Online site is now ready for your additional experimentation.
   
-## Next step
+## Next Steps
 
 When you are ready to deploy an isolated SharePoint Online team site in production, see the step-by-step design considerations in [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md).
   

@@ -60,7 +60,7 @@ First, add the EMS E5 trial subscription and assign an EMS license to your globa
 > [!NOTE]
 > The Enterprise Mobility + Security E5 trial subscription is 90 days. For a permanent dev/test environment, create a new paid subscription with a small number of licenses. 
   
- ** *If you completed Phase 3 of* **[Office 365 dev/test environment](office-365-dev-test-environment.md) , repeat steps 8 and 9 of the previous procedure for all of your other accounts (User 2, User 3, User 4, and User 5).
+ ***If you completed Phase 3 of*** [Office 365 dev/test environment](office-365-dev-test-environment.md) , repeat steps 8 and 9 of the previous procedure for all of your other accounts (User 2, User 3, User 4, and User 5).
   
 Your dev/test environment now has:
   
@@ -88,7 +88,7 @@ Create a virtual machine using the hypervisor of your choice and install Windows
   
 ### Virtual machine in Azure
 
-To create a Windows 10 virtual machine in Microsoft Azure, ** *you must have a Visual Studio-based subscription* **, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image.
+To create a Windows 10 virtual machine in Microsoft Azure, ***you must have a Visual Studio-based subscription***, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image.
   
 > [!NOTE]
 > The following command sets use te latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). These command sets build a Windows 10 Enterprise virtual machine named WIN10 and all of its required infrastructure, including a resource group, a storage account, and a virtual network. If you are already familiar with Azure infrastructure services, please adapt these instructions to suit your currently deployed infrastructure. 
@@ -107,7 +107,7 @@ Get your subscription name using the following command.
 Get-AzureRMSubscription | Sort Name | Select Name
 ```
 
-Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct name.
+Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct name.
   
 ```
 $subscr="<subscription name>"
@@ -120,7 +120,7 @@ Next, create a new resource group. To determine a unique resource group name, us
 Get-AzureRMResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-Create your new resource group with these commands. Replace everything within the quotes, including the < and > characters, with the correct names.
+Create your new resource group with these commands. Replace everything within the quotes, including the \< and > characters, with the correct names.
   
 ```
 $rgName="<resource group name>"

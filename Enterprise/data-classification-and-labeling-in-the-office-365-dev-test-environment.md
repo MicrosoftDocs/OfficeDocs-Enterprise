@@ -27,7 +27,7 @@ description: "Summary: Configure and demonstrate data classification and labelin
 The Azure Information Protection client allows you to classify a document before you upload it to a SharePoint Online folder in Office 365. With the instructions in this article, you install the Azure Information Protection client and demonstrate data classification. For more information, see [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection).
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Build out your Office 365 dev/test environment
 
@@ -87,7 +87,7 @@ If you are using the simulated enterprise Office 365 dev/test environment, you m
     
 Next, you install the Azure Information Protection client.
   
-1. In your browser or Internet Explorer, go to [https://www.microsoft.com/download/details.aspx?id=53018](https://www.microsoft.com/download/details.aspx?id=53018).
+1. In your browser or Internet Explorer, go to the [Microsoft Azure Information Protection download page](https://www.microsoft.com/download/details.aspx?id=53018).
     
   - If you are using the lightweight version of the Office 365 dev/test environment, use the browser on your local computer.
     

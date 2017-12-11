@@ -48,7 +48,7 @@ To set up the VPN connection between your Azure virtual network and your on-prem
   
 1. **On-premises:** Define and create an on-premises network route for the address space of the Azure virtual network that points to your on-premises VPN device.
     
-2. **Microsoft Azure:** Create an Azure virtual network with a site-to-site VPN connection. This article does not describe the use of[ExpressRoute](https://azure.microsoft.com/services/expressroute/).
+2. **Microsoft Azure:** Create an Azure virtual network with a site-to-site VPN connection. This article does not describe the use of [ExpressRoute](https://azure.microsoft.com/services/expressroute/).
     
 3. **On premises:** Configure your on-premises hardware or software VPN device to terminate the VPN connection, which uses Internet Protocol security (IPsec).
     

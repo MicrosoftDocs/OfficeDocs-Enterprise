@@ -73,7 +73,7 @@ Stop-Process -Name Explorer -Force
 
   ```
 
-3. From the task bar, click **Internet Explorer** and go to[https://aka.ms/aadconnect](https://aka.ms/aadconnect).
+3. From the task bar, click **Internet Explorer** and go to [https://aka.ms/aadconnect](https://aka.ms/aadconnect).
     
 4. On the Microsoft Azure Active Directory Connect page, click **Download**, and then click **Run**.
     
@@ -113,6 +113,10 @@ This configuration consists of:
     
 - A simplified organization intranet connected to the Internet, consisting of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network. Azure AD Connect runs on APP1 to synchronize the CORP Windows Server AD domain to Office 365 every 30 minutes.
     
+## Next Step
+
+When you are ready to deploy DirSync for your organization, see [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md).
+
 ## See Also
 
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)

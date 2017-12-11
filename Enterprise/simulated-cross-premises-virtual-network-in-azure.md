@@ -58,7 +58,7 @@ There are three major phases to setting up this dev/test environment:
 ![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Configure the TestLab virtual network
 
@@ -92,7 +92,7 @@ Get your subscription name using the following command.
 Get-AzureRMSubscription | Sort Name | Select Name
 ```
 
-Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct names.
+Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct names.
   
 ```
 $subscrName="<subscription name>"

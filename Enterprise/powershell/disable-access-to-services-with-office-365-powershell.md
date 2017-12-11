@@ -21,7 +21,11 @@ description: "Explains how to use Office 365 PowerShell to add or remove access 
 
 # Disable access to services with Office 365 PowerShell
 
+<<<<<<< HEAD
+Explains how to use Office 365 PowerShell to add or remove access to Office 365 services for users in your organization.
+=======
 **Summary:** Explains how to use Office 365 PowerShell to add or remove access to Office 365 services for users in your organization.
+>>>>>>> deniseb-working
   
 When an Office 365 account is assigned a license from a licensing plan, Office 365 services are made available to the user from that license. However, you can control the Office 365 services that the user can access. For example, even though the license allows access to SharePoint Online, you can disable access to it. In fact, you can use Office 365 PowerShell to disable access to any number of services for:
 - An individual account.
