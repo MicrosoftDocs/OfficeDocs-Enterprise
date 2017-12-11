@@ -1,7 +1,7 @@
 ---
 title: "Accessible diagram - Microsoft SharePoint 2013 Platform Options"
 ms.author: josephd
-author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/16/2014
 ms.audience: ITPro

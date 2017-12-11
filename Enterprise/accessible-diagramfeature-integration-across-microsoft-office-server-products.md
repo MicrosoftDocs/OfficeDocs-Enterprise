@@ -1,7 +1,7 @@
 ---
 title: "Accessible diagram - Feature Integration Across Microsoft Office Server Products"
 ms.author: josephd
-author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/16/2016
 ms.audience: ITPro
