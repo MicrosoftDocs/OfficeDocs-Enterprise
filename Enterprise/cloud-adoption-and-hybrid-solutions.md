@@ -38,7 +38,7 @@ The technical solutions to today's business problems often involve multiple prod
     
 - **[Security solutions](security-solutions.md)** - Learn how to deploy security solutions with Microsoft's cloud services and platforms.
 
-<br/><br/>
+<br/>
 
 **Join the discussion**
 
