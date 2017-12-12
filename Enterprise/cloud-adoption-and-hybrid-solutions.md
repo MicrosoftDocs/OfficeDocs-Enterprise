@@ -37,7 +37,8 @@ The technical solutions to today's business problems often involve multiple prod
 - **[Hybrid solutions](hybrid-solutions.md)** - Learn how to deploy Office Server workloads in Azure infrastructure services.
     
 - **[Security solutions](security-solutions.md)** - Learn how to deploy security solutions with Microsoft's cloud services and platforms.
-    
+
+
 **Join the discussion**
 
 |**Contact us**|**Description**|
