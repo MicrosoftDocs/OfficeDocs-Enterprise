@@ -42,7 +42,7 @@ There are two phases to setting up this dev/test environment:
 2. Install and configure Azure AD Connect on APP1.
     
 > [!TIP]
-> Click [here](https://docs.com/officeitpro/4355/pdf-portal-ca-tlg-stack?c=ca4UTZ) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
 ## Phase 1: Create an Office 365 dev/test environment
 
