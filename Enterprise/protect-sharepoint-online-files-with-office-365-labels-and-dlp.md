@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/16/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
