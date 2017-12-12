@@ -39,37 +39,37 @@ Set-MsolUser -UserPrincipalName "BelindaN@litwareinc.onmicosoft.com" -UsageLocat
 
 You identify the account with the **-UserPrincipalName** parameter and set or change specific properties with additional parameters. Here is a list of the most common parameters.
   
-- -City "<city name>"
+- -City "\<city name>"
     
-- -Country "<country name>"
+- -Country "\<country name>"
     
-- -Department "<department name>"
+- -Department "\<department name>"
     
-- -DisplayName "<full user name>"
+- -DisplayName "\<full user name>"
     
-- -Fax "<fax number>"
+- -Fax "\<fax number>"
     
-- -FirstName "<user first name>"
+- -FirstName "\<user first name>"
     
-- -LastName "<user last name>"
+- -LastName "\<user last name>"
     
-- -MobilePhone "<mobile phone number>"
+- -MobilePhone "\<mobile phone number>"
     
-- -Office "<office location>"
+- -Office "\<office location>"
     
-- -PhoneNumber "<office phone number>"
+- -PhoneNumber "\<office phone number>"
     
-- -PostalCode "<postal code>"
+- -PostalCode "\<postal code>"
     
-- -PreferredLanguage "<language>"
+- -PreferredLanguage "\<language>"
     
-- -State "<state name>"
+- -State "\<state name>"
     
-- -StreetAddress "<street address>"
+- -StreetAddress "\<street address>"
     
-- -Title "<title name>"
+- -Title "\<title name>"
     
-- -UsageLocation "<2-character country or region code>"
+- -UsageLocation "\<2-character country or region code>"
     
     This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.
     
@@ -83,20 +83,19 @@ Get-MSolUser | Sort-Object UserPrincipalName | Select-Object UserPrincipalName |
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
     
-- Sort the list of User Principal Names alphabetically ( **Sort-Object UserPrincipalName** ) and send it to the next command ( ** |**).
+- Sort the list of User Principal Names alphabetically ( **Sort-Object UserPrincipalName** ) and send it to the next command ( **|** ).
     
 - Display just the User Principal Name property for each account ( **Select-Object UserPrincipalName** ).
     
 - Display them one screen at a time ( **More** ).
     
-This command will list all of your accounts. If you want to display the User Principal Name for an account based on its display name (first and last name), fill in the **$userName** variable below (removing the < and > characters), and then run the following commands:
+This command will list all of your accounts. If you want to display the User Principal Name for an account based on its display name (first and last name), fill in the **$userName** variable below (removing the \< and > characters), and then run the following commands:
   
 ```
 $userName="<Display name>"
 Write-Host (Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
-
 ```
 
 This example displays the User Principal Name for the user named Caleb Sills.
@@ -112,7 +111,6 @@ By using a **$upn** variable, you can make changes to individual accounts based 
 $userName="<Display name>"
 $upn=(Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 Set-MsolUser -UserPrincipalName $upn -UsageLocation "FR"
-
 ```
 
 ## Change properties for all user accounts
@@ -125,7 +123,7 @@ Get-MsolUser | Set-MsolUser -UsageLocation "FR"
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
     
 - Set the user location to France ( **Set-MsolUser -UsageLocation "FR"** ).
     
@@ -139,9 +137,9 @@ Get-MsolUser | Where-Object {$_.Department -eq "Accounting"} | Set-MsolUser -Usa
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
     
-- Find all of the user accounts that have their Department property set to "Accounting" ( **Where-Object {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( ** |**).
+- Find all of the user accounts that have their Department property set to "Accounting" ( **Where-Object {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( **|** ).
     
 - Set the user location to France ( **Set-MsolUser -UsageLocation "FR"** ).
     
@@ -149,7 +147,7 @@ This command instructs Office 365 PowerShell to:
     
 ## Use the Azure Active Directory V2 PowerShell module to configure user account properties
 
-To configure properties for user accounts with the Azure Active Directory V2 PowerShell module, you use the [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) cmdlet and specify the properties to set or change. But first, you must connect to your subscription. For the instructions, see[Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+To configure properties for user accounts with the Azure Active Directory V2 PowerShell module, you use the [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) cmdlet and specify the properties to set or change. But first, you must connect to your subscription. For the instructions, see [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
   
 ### Change properties for a specific user account
 
@@ -161,41 +159,41 @@ Set-AzureADUser -ObjectID "BelindaN@litwareinc.onmicosoft.com" -UsageLocation "F
 
 You identify the account with the **-ObjectID** parameter and set or change specific properties with additional parameters. Here is a list of the most common parameters.
   
-- -Department "<department name>"
+- -Department "\<department name>"
     
-- -DisplayName "<full user name>"
+- -DisplayName "\<full user name>"
     
-- -FacsimilieTelephoneNumber "<fax number>"
+- -FacsimilieTelephoneNumber "\<fax number>"
     
-- -GivenName "<user first name>"
+- -GivenName "\<user first name>"
     
-- -Surname "<user last name>"
+- -Surname "\<user last name>"
     
-- -Mobile "<mobile phone number>"
+- -Mobile "\<mobile phone number>"
     
-- -JobTitle "<job title>"
+- -JobTitle "\<job title>"
     
-- -PreferredLanguage "<language>"
+- -PreferredLanguage "\<language>"
     
-- -StreetAddress "<street address>"
+- -StreetAddress "\<street address>"
     
-- -City "<city name>"
+- -City "\<city name>"
     
-- -State "<state name>"
+- -State "\<state name>"
     
-- -PostalCode "<postal code>"
+- -PostalCode "\<postal code>"
     
-- -Country "<country name>"
+- -Country "\<country name>"
     
-- -TelephoneNumber "<office phone number>"
+- -TelephoneNumber "\<office phone number>"
     
-- -UsageLocation "<2-character country or region code>"
+- -UsageLocation "\<2-character country or region code>"
     
     This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.
     
 See [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) for additional parameters.
   
-To obtain the User Principal Name of a specific user, run the following command.
+To display the User Principal Name for your user accounts, run the following command.
   
 ```
 Get-AzureADUser | Sort-Object UserPrincipalName | Select-Object UserPrincipalName | More
@@ -203,18 +201,18 @@ Get-AzureADUser | Sort-Object UserPrincipalName | Select-Object UserPrincipalNam
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
     
-- Sort the list of User Principal Names alphabetically ( **Sort-Object UserPrincipalName** ) and send it to the next command ( ** |**).
+- Sort the list of User Principal Names alphabetically ( **Sort-Object UserPrincipalName** ) and send it to the next command ( **|** ).
     
 - Display just the User Principal Name property for each account ( **Select-Object UserPrincipalName** ).
+- Display them one screen at a time ( **More** ).
     
-This command will list all of your accounts. If you want to display the User Principal Name for an account based on its display name (first and last name), fill in the **$userName** variable below (removing the < and > characters), and then run the following commands:
+This command will list all of your accounts. If you want to display the User Principal Name for an account based on its display name (first and last name), fill in the **$userName** variable below (removing the \< and > characters), and then run the following commands:
   
 ```
 $userName="<Display name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
-
 ```
 
 This example displays the User Principal Name for the user named Caleb Sills.
@@ -227,10 +225,9 @@ Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipa
 By using a **$upn** variable, you can make changes to individual accounts based on their display name. Here is an example of setting Belinda Newman's usage location to France, but specifying her display name rather than her User Principal Name:
   
 ```
-$userName="<Display name>"
+$userName="Belinda Newman"
 $upn=(Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 Set-AzureADUser -ObjectID $upn -UsageLocation "FR"
-
 ```
 
 ### Change properties for all user accounts
@@ -243,13 +240,13 @@ Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
     
 - Set the user location to France ( **Set-AzureADUser -UsageLocation "FR"** ).
     
 ### Change properties for a specific set of user accounts
 
-To change properties for a specific set of user account, you can use the combination of the **Get-AzureADUser**, **Where-Object**, and **Set-AzureADUser** cmdlets. The following example changes the usage location for all the users in the Accounting department to France:
+To change properties for a specific set of user account, you can use the combination of the **Get-AzureADUser**, **Where**, and **Set-AzureADUser** cmdlets. The following example changes the usage location for all the users in the Accounting department to France:
   
 ```
 Get-AzureADUser | Where-Object {$_.Department -eq "Accounting"} | Set-AzureADUser -UsageLocation "FR"
@@ -257,9 +254,9 @@ Get-AzureADUser | Where-Object {$_.Department -eq "Accounting"} | Set-AzureADUse
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
     
-- Find all of the user accounts that have their Department property set to "Accounting" ( **Where-Object {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( ** |**).
+- Find all of the user accounts that have their Department property set to "Accounting" ( **Where {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( **|** ).
     
 - Set the user location to France ( **Set-AzureADUser -UsageLocation "FR"** ).
     

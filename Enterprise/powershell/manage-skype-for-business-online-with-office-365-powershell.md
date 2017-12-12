@@ -18,7 +18,7 @@ description: "Summary: Use Office 365 PowerShell to manage Skype for Business On
 
  **Summary:** Use Office 365 PowerShell to manage Skype for Business Online policies, per-user policies, and meeting settings.
   
-One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Office 365 admin center, other tasks are much quicker and easier in Office 365 PowerShell. For more information, see the following topics:
+One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Office 365 Admin center, other tasks are much quicker and easier in Office 365 PowerShell. For more information, see the following topics:
   
 - [Manage Skype for Business Online policies with Office 365 PowerShell](manage-skype-for-business-online-policies-with-office-365-powershell.md)
     

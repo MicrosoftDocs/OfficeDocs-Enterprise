@@ -76,9 +76,9 @@ Get-MsolUser | Where-Object {$_.UsageLocation -eq $Null}
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
     
-- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$_.UsageLocation -eq $Null}** ). Inside the braces, the command instructs Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$_.UsageLocation** ) is not specified ( **-eq $Null** ).
+- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$\_.UsageLocation -eq $Null}** ). Inside the braces, the command instructs Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$\_.UsageLocation** ) is not specified ( **-eq $Null** ).
     
 You should see information similar to this:
   
@@ -103,7 +103,7 @@ Get-MsolUser | Where-Object {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  The syntax for the **Where-Object** cmdlet shown in these examples is **Where-Object {$_.** [user account property name] [comparison operator] [value] **}**.>  [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others>  [value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified>  See[Where-Object](https://technet.microsoft.com/en-us/library/hh849715.aspx) for more information.
+>  The syntax for the **Where-Object** cmdlet shown in these examples is **Where-Object {$\_.** [user account property name] [comparison operator] [value] **}**.>  [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others>  [value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified>  See [Where-Object](https://technet.microsoft.com/en-us/library/hh849715.aspx) for more information.
   
 You can check the blocked status of a user account with the following command:
   
@@ -129,7 +129,7 @@ Get-MsolUser | Select-Object DisplayName, Department, UsageLocation
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
     
 - Display only the user account name, department, and usage location ( **Select-Object DisplayName, Department, UsageLocation** ).
     
@@ -138,13 +138,13 @@ You should see information similar to this:
 ```
 DisplayName             Department                       UsageLocation
 -----------             ----------                       -------------
-Zrinka Makovac          Sales &amp; Marketing                US
-Bonnie Kearney          Sales &amp; Marketing                US
-Fabrice Canel           Legal                            US
+Zrinka Makovac          Sales & Marketing                    US
+Bonnie Kearney          Sales & Marketing                    US
+Fabrice Canel           Legal                                US
 Brian Johnson
-Anne Wallace            Executive Management             US
-Alex Darrow             Sales &amp; Marketing                US
-David Longmuir          Operations                       US
+Anne Wallace            Executive Management                 US
+Alex Darrow             Sales & Marketing                    US
+David Longmuir      Operations                               US
 Scott Wallace            Operations
 ```
 
@@ -162,9 +162,9 @@ Get-MsolUser | Where-Object {$_.UsageLocation -eq $Null} | Select-Object Display
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
     
-- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$_.UsageLocation -eq $Null}** ) and send the resulting information to the next command ( ** |**). Inside the braces, the command is instructing Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$_.UsageLocation** ) is not specified ( **-eq $Null** ).
+- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$\_.UsageLocation -eq $Null}** ) and send the resulting information to the next command ( **|** ). Inside the braces, the command is instructing Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$\_.UsageLocation** ) is not specified ( **-eq $Null** ).
     
 - Display only the user account name, department, and usage location ( **Select-Object DisplayName, Department, UsageLocation** ).
     
@@ -205,9 +205,9 @@ Get-AzureADUser | Where-Object {$_.UsageLocation -eq $Null}
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
     
-- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$_.UsageLocation -eq $Null}** ). Inside the braces, the command instructs Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$_.UsageLocation** ) is not specified ( **-eq $Null** ).
+- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$\_.UsageLocation -eq $Null}** ). Inside the braces, the command instructs Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$\_.UsageLocation** ) is not specified ( **-eq $Null** ).
     
 The **UsageLocation** property is only one of many properties associated with a user account. To see all of the properties for user accounts, use the **Select-Object** cmdlet and the wildcard character (*) to display them all for a specific user account, one page at a time ( **More** ). Here is an example:
   
@@ -222,19 +222,19 @@ Get-AzureADUser | Where-Object {$_.City -eq "London"}
 ```
 
 > [!TIP]
->  The syntax for the **Where-Object** cmdlet shown in these examples is **Where-Object {$_.** [user account property name] [comparison operator] [value] **}**.>  [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others>  [value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified>  See[Where-Object](https://technet.microsoft.com/en-us/library/hh849715.aspx) for more information.
+>  The syntax for the **Where-Object** cmdlet shown in these examples is **Where-Object {$\_.** [user account property name] [comparison operator] [value] **}**.>  [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others>  [value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified>  See[Where-Object](https://technet.microsoft.com/en-us/library/hh849715.aspx) for more information.
   
 ### Select the user account properties to display
 
 The **Get-AzureADUser** cmdlet by default displays the ObjectID, DisplayName, and UserPrincipalName properties of user accounts. If you need additional properties, such as the department the user works for and the country/region where the user uses Office 365 services, you can run **Get-AzureADUser** in combination with the **Select-Object** cmdlet to specify the list of user account properties. Here is an example:
   
 ```
-Get-AzureADUser | Select-Object DisplayName, Department, UsageLocation
+Get-AzureADUser | Select-Object DisplayName,Department,UsageLocation
 ```
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
     
 - Display only the user account name, department, and usage location ( **Select-Object DisplayName, Department, UsageLocation** ).
     
@@ -246,9 +246,9 @@ Get-AzureADUser | Where-Object {$_.UsageLocation -eq $Null} | Select-Object Disp
 
 This command instructs Office 365 PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( ** |**).
+- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
     
-- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$_.UsageLocation -eq $Null}** ) and send the resulting information to the next command ( ** |**). Inside the braces, the command is instructing Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$_.UsageLocation** ) is not specified ( **-eq $Null** ).
+- Find all of the user accounts that have an unspecified usage location ( **Where-Object {$\_.UsageLocation -eq $Null}** ) and send the resulting information to the next command ( **|** ). Inside the braces, the command is instructing Office 365 PowerShell to only find the set of accounts in which the UsageLocation user account property ( **$\_.UsageLocation** ) is not specified ( **-eq $Null** ).
     
 - Display only the user account name, department, and usage location ( **Select-Object DisplayName, Department, UsageLocation** ).
     
@@ -256,7 +256,7 @@ This command instructs Office 365 PowerShell to:
 
 ||
 |:-----|
-|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/article/Office-365-admin-and-IT-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
    
 ## See also
 

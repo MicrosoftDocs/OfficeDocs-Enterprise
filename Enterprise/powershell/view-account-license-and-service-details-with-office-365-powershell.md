@@ -23,7 +23,8 @@ description: "Explains how to use Office 365 PowerShell to determine the Office 
 
 Explains how to use Office 365 PowerShell to determine the Office 365 services that have been assigned to users.
   
-In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use Office 365 PowerShell to view the status of services on user accounts. **Contents:**[The short version (instructions without explanations)](view-account-license-and-service-details-with-office-365-powershell.md#ShortVersion)[The long version (instructions with detailed explanations)](view-account-license-and-service-details-with-office-365-powershell.md#LongVersion)[See also](view-account-license-and-service-details-with-office-365-powershell.md#SeeAlso)
+In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use Office 365 PowerShell to view the status of services on user accounts. 
+
 ## Before you begin
 <a name="RTT"> </a>
 
@@ -35,7 +36,7 @@ In Office 365, licenses from licensing plans (also called SKUs or Office 365 pla
     
   - The services that are available in each licensing plan, and the order in which they are listed (the index number).
     
-     For more information about licensing plans, license, and services, see[View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
+     For more information about licensing plans, license, and services, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
     
 - Use the command  `Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Licenses` to find the licenses that are assigned to a user, and the order in which they are listed (the index number).
     
@@ -47,7 +48,7 @@ In Office 365, licenses from licensing plans (also called SKUs or Office 365 pla
 To view all the Office 365 PowerShell services that a user has access to, use the following syntax:
   
 ```
-(Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber> ].ServiceStatus
+(Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber>].ServiceStatus
 ```
 
 This example shows the services to which the user BelindaN@litwareinc.com has access. This shows the services that are associated with all licenses that are assigned to her account.
@@ -86,8 +87,6 @@ This example returns all licensed users who aren't enabled for Skype for Busines
 Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[0].ServiceStatus[5].ProvisioningStatus -eq "Disabled" -and $_.Licenses[0].ServiceStatus[8].ProvisioningStatus -eq "Disabled"}
 ```
 
-[Return to top](view-account-license-and-service-details-with-office-365-powershell.md#RTT)
-  
 ## The long version (instructions with detailed explanations)
 <a name="LongVersion"> </a>
 
@@ -182,8 +181,7 @@ But wait: there's more. As we learned in the article [View licenses and services
   
 And, needless to say, is a service is set to  `Disabled` that means that the service in question is not available to the user.
   
-[Return to top](view-account-license-and-service-details-with-office-365-powershell.md#RTT)
-  
+
 ### Find users that have access to specific Office 365 PowerShell services
 
 In a separate article, we saw how you can use Office 365 PowerShell to disable user access to services. (If you missed that article, see [Disable access to services with Office 365 PowerShell](disable-access-to-services-with-office-365-powershell.md)). That leads to an obvious question: is there any way to determine which  *users*  (that is, more than one user) have which services enabled or disabled?
@@ -289,8 +287,7 @@ Get-MsolUser | Select-Object DisplayName, @{Name="Sway";Expression={$_.Licenses[
 ```
 
 And yes, that's a very crazy-looking command. But it creates a CSV file showing all of your users and all of their service statuses.
-  
-[Return to top](view-account-license-and-service-details-with-office-365-powershell.md#RTT)
+
   
 ## See also
 <a name="SeeAlso"> </a>
@@ -319,13 +316,13 @@ For more information about the cmdlets that are used in these procedures, see th
     
 - [Where-Object](https://go.microsoft.com/fwlink/p/?LinkId=113423)
     
-[Return to top](view-account-license-and-service-details-with-office-365-powershell.md#RTT)
+
   
 ## New to Office 365?
-<a name="SeeAlso"> </a>
+
 
 ||
 |:-----|
-|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/article/Office-365-admin-and-IT-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
    
 

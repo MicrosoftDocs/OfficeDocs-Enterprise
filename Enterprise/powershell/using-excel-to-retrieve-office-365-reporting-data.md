@@ -76,17 +76,17 @@ DataFeed_2_reports-office365-com MailTrafficTop.odc
 DataFeed_3_reports-office365-com ClientSoftwareBrowserDetail.odc
   ```
 
-    If you select the checkbox **Save password in file**, you'll be able to reuse these data feeds. For example, suppose you save a data connection as **Client Browser Report**. The next time you want information about the web browsers being used to access your Office 365 domain you don't have to walk through the data connection wizard. Instead, all you need to do is open Excel, click **Data**, and then click **Existing Sources**. Select the desired data connection in the **Existing Connections** dialog box and then click **OK**:
+If you select the checkbox **Save password in file**, you'll be able to reuse these data feeds. For example, suppose you save a data connection as **Client Browser Report**. The next time you want information about the web browsers being used to access your Office 365 domain you don't have to walk through the data connection wizard. Instead, all you need to do is open Excel, click **Data**, and then click **Existing Sources**. Select the desired data connection in the **Existing Connections** dialog box and then click **OK**:
     
-     ![Example of selecting the desired data connection in the Existing Connections dialog box.](images/o365_reporting_select_connection.png)
+![Example of selecting the desired data connection in the Existing Connections dialog box.](images/o365_reporting_select_connection.png)
   
-    At that point, Excel will make the connection for you and retrieve the data.
+At that point, Excel will make the connection for you and retrieve the data.
     
-    Note that these .ODC files are plain-text XML files. Included in these plain-text XML files are your Office 365 user name and password:
+Note that these .ODC files are plain-text XML files. Included in these plain-text XML files are your Office 365 user name and password:
     
-    <odc:ConnectionString>Data Source=https://reports.office365.com/ecp/reportingwebservice/reporting.svc/;Namespaces to Include=*;Max Received Message Size=4398046511104;Integrated Security=Basic; **User ID=admin@litwareinc.onmicrosoft.com;Password=MYpassw0rd!**;Persist Security Info=false;Service Document Url=https://reports.office365.com/ecp/reportingwebservice/reporting.svc/</odc:ConnectionString>
+\<odc:ConnectionString>Data Source=https://reports.office365.com/ecp/reportingwebservice/reporting.svc/;Namespaces to Include=*;Max Received Message Size=4398046511104;Integrated Security=Basic; **User ID=admin@litwareinc.onmicrosoft.com;Password=MYpassw0rd!**;Persist Security Info=false;Service Document Url=https://reports.office365.com/ecp/reportingwebservice/reporting.svc/\</odc:ConnectionString>
     
-    If you don't like the idea of saving your user name and password in a plain-text file, then don't check the box labeled **Save password in file**. If you do that, however, keep in mind that you won't be able to reuse these data connections. That's because, without the user name and password, Office 365 will not be able to authenticate your attempt to log on to the service.
+If you don't like the idea of saving your user name and password in a plain-text file, then don't check the box labeled **Save password in file**. If you do that, however, keep in mind that you won't be able to reuse these data connections. That's because, without the user name and password, Office 365 will not be able to authenticate your attempt to log on to the service.
     
 6. Click **Finish** on the **Save Data Connection File and Finish** page you'll be presented with the **Import Data** dialog box:
     

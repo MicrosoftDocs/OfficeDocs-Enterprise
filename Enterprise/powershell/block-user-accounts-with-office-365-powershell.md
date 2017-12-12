@@ -19,11 +19,7 @@ description: "Explains how to use Office 365 PowerShell to block and unblock acc
 
 # Block user accounts with Office 365 PowerShell
 
-<<<<<<< HEAD
-Explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts.
-=======
 **Summary:**  Explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts.
->>>>>>> deniseb-working
   
 Blocking access to an Office 365 account prevents anyone from using the account to sign in and access the services and data in your Office 365 organization. When you block access to the account, the user receives the following error message when they attempt to sign in:
   
@@ -65,26 +61,24 @@ Get-MolUser -UserPrincipalName <UPN of user account> | Select DisplayName,BlockC
 
 ## Use Office 365 PowerShell to block access to multiple user accounts
 
-1. Create a text file that contains one account on each line like this:
+First, create a text file that contains one account on each line like this:
     
   ```
-  akol@contoso.com
+akol@contoso.com
 tjohnston@contoso.com
 kakers@contoso.com
   ```
-
-    In this example, the text file is C:\\My Documents\\Accounts.txt.
+In the following commands, the example text file is C:\My Documents\Accounts.txt. Replace this with the path and file name of your text file.
     
-2. To block access to the accounts listed in the text file, run the following command:
-    
-  ```
-  Get-Content "C:\\My Documents\\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $true
-  ```
-
-    To unblock the accounts listed in the text file, run the following command:
+To block access to the accounts listed in the text file, run the following command:
     
   ```
-  Get-Content "C:\\My Documents\\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $false
+  Get-Content "C:\My Documents\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $true
+  ```
+To unblock the accounts listed in the text file, run the following command:
+    
+  ```
+  Get-Content "C:\My Documents\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $false
   ```
 
 ## Use the Azure Active Directory V2 PowerShell module to block access to user accounts
@@ -141,29 +135,27 @@ At any time, you can check the blocked status of a user account with the followi
 Get-AzureADUser -UserPrincipalName <UPN of user account> | Select DisplayName,AccountEnabled
 ```
 
-To block access to multiple user accounts:
-  
-1. Create a text file that contains one account name on each line like this:
+To block access to multiple user accounts, create a text file that contains one account name on each line like this:
     
   ```
-  akol@contoso.com
+akol@contoso.com
 tjohnston@contoso.com
 kakers@contoso.com
   ```
 
-    In this example, the text file is C:\\My Documents\\Accounts.txt.
+In the following commands, the example text file is C:\My Documents\Accounts.txt. Replace this with the path and file name of your text file.
     
-2. To block access to the accounts listed in the text file, run the following command:
+To block access to the accounts listed in the text file, run the following command:
     
-  ```
-  Get-Content "C:\\My Documents\\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $true
-  ```
+```
+Get-Content "C:\My Documents\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $true
+```
 
-    To unblock the accounts listed in the text file, run the following command:
+To unblock the accounts listed in the text file, run the following command:
     
-  ```
-  Get-Content "C:\\My Documents\\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $false
-  ```
+```
+Get-Content "C:\My Documents\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $false
+```
 
 ## See also
 <a name="SeeAlso"> </a>

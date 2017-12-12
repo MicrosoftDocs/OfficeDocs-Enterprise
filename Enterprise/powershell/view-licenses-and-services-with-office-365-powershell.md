@@ -50,13 +50,13 @@ Get-MsolAccountSku
 
 The results contain the following information:
   
-- **AccountSkuId** Show the available licensing plans for your organization by using the syntax `<CompanyName>:<LicensingPlan>`.  _<CompanyName>_ is the value that you provided when you enrolled in Office 365, and is unique for your organization. The _<LicensingPlan>_ value is the same for everyone. For example, in the value `litwareinc:ENTERPRISEPACK`, the company name is  `litwareinc`, and the licensing plan name  `ENTERPRISEPACK`, which is the system name for Office 365 Enterprise E3.
+- **AccountSkuId:** Show the available licensing plans for your organization by using the syntax `<CompanyName>:<LicensingPlan>`.  _<CompanyName>_ is the value that you provided when you enrolled in Office 365, and is unique for your organization. The _<LicensingPlan>_ value is the same for everyone. For example, in the value `litwareinc:ENTERPRISEPACK`, the company name is  `litwareinc`, and the licensing plan name  `ENTERPRISEPACK`, which is the system name for Office 365 Enterprise E3.
     
-- **ActiveUnits** Number of licenses that you've purchases for a specific licensing plan.
+- **ActiveUnits:** Number of licenses that you've purchases for a specific licensing plan.
     
-- **WarningUnits** Number of licenses in a licensing plan that you haven't renewed, and that will expire after the 30-day grace period.
+- **WarningUnits:** Number of licenses in a licensing plan that you haven't renewed, and that will expire after the 30-day grace period.
     
-- **ConsumedUnits** Number of licenses that you've assigned to users from a specific licensing plan.
+- **ConsumedUnits:** Number of licenses that you've assigned to users from a specific licensing plan.
     
 To view details about the Office 365 services that are available in all of your license plans, run the following command:
   
@@ -81,13 +81,13 @@ The following table shows the Office 365 service plans and their friendly names 
 To view details about the Office 365 services that are available in a specific licensing plan, use the following syntax.
   
 ```
-(Get-MsolAccountSku | where {$_.AccountSkuId -eq '<AccountSkuId>'}).ServiceStatus
+(Get-MsolAccountSku | where {$_.AccountSkuId -eq " <AccountSkuId>"}).ServiceStatus
 ```
 
-This example shows the Office 365 services that are available in the  `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) licensing plan.
+This example shows the Office 365 services that are available in the  litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) licensing plan.
   
 ```
-(Get-MsolAccountSku | where {$_.AccountSkuId -eq 'litwareinc:ENTERPRISEPACK'}).ServiceStatus
+(Get-MsolAccountSku | where {$_.AccountSkuId -eq "litwareinc:ENTERPRISEPACK"}).ServiceStatus
 ```
 
 ## New to Office 365?
@@ -95,7 +95,7 @@ This example shows the Office 365 services that are available in the  `litwarein
 
 ||
 |:-----|
-|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/article/Office-365-admin-and-IT-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
    
 ## See also
 <a name="ShortVersion"> </a>

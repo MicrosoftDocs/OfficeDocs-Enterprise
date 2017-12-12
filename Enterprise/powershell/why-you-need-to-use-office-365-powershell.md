@@ -62,10 +62,6 @@ Please note that Office 365 PowerShell is designed to augment and enhance your a
     
 After learning these basic skills, you are not required to list your mailbox users with **Get-Mailbox** command, nor are you required to understand how to create a new command like the previous one to count all the items in all the lists for all of the sites for all of your web apps. Microsoft and the community of Office 365 administrators can help you with that as needed.
   
-Before you continue with this article, have a look at the following video.
-  
-![Your browser does not support video. Install Microsoft Silverlight, Adobe Flash Player, or Internet Explorer 9.](images/MSN_Video_Widget.gif)
-  
 ## Office 365 PowerShell can reveal additional information that you cannot see with the Office 365 admin center
 <a name="reveal"> </a>
 
@@ -111,7 +107,7 @@ David Longmuir                            BR
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the users in the current Office 365 subscription ( **Get-MsolUser** ), but only display the name and location for each user ( **Select DisplayName, UsageLocation** ).
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription ( **Get-MsolUser** ), but only display the name and location for each user ( **Select DisplayName, UsageLocation** ).
   
 Because Office 365 PowerShell supports a command shell language, you can further manipulate the information obtained from the **Get-MSolUser** command. For example, maybe you'd like to sort these users by their location, grouping all the Brazilian users together, all the United States users together, etc. Here is the command:
   
@@ -134,7 +130,7 @@ Zrinka Makovac                              US
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the users in the current Office 365 subscription, but only display the name and location for each user and sort them first by their location, and then their names ( **Sort UsageLocation, DisplayName** ).
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription, but only display the name and location for each user and sort them first by their location, and then their names ( **Sort UsageLocation, DisplayName** ).
   
 You can also employ additional filtering. For example, if you only want to see information about users based in Brazil, use this command:
   
@@ -152,7 +148,7 @@ Fabrice Canel                                         BR
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the users in the current Office 365 subscription whose location is Brazil ( **Where {$_.UsageLocation -eq "BR"}** ), then display the name and location for each user.
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription whose location is Brazil ( **Where {$\_.UsageLocation -eq "BR"}** ), then display the name and location for each user.
   
  **A Quick Note Regarding Larger Domains**
   
@@ -169,8 +165,10 @@ $x = Get-MsolUser
 $x | Select DisplayName, UsageLocation
 ```
 
-> [!TIP]
->  The interpretation of this set of Office 365 PowerShell commands is:>  Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).>  Display the contents of the variable $x, but only include the name and location for each user ( **$x | Select DisplayName, UsageLocation** ).
+
+The interpretation of this set of Office 365 PowerShell commands is:
+- Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).
+- Display the contents of the variable $x, but only include the name and location for each user ( **$x | Select DisplayName, UsageLocation** ).
   
 ## Office 365 has features that you can only configure with Office 365 PowerShell
 <a name="only"> </a>
@@ -199,7 +197,7 @@ Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False -AllowConference
 > This command requires that you install the [Skype for Business Online PowerShell Module ](https://www.microsoft.com/download/details.aspx?id=39366). 
   
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  For the settings for new Skype for Business Online meetings ( **Set-CsMeetingConfiguration** ), disable allowing anonymous users to gain automatic entrance to meetings ( **-AdmitAnonymousUsersByDefault $False** ), disable the ability for attendees to record meetings ( **-AllowConferenceRecording $False** ), and do not designate all users from your organization as presenters ( **-DesignateAsPresenter "None"** ).
+>  The interpretation of this Office 365 PowerShell command is: For the settings for new Skype for Business Online meetings ( **Set-CsMeetingConfiguration** ), disable allowing anonymous users to gain automatic entrance to meetings ( **-AdmitAnonymousUsersByDefault $False** ), disable the ability for attendees to record meetings ( **-AllowConferenceRecording $False** ), and do not designate all users from your organization as presenters ( **-DesignateAsPresenter "None"** ).
   
 If you change your mind and want to restore these default settings (all of them enabled), run this command:
   
@@ -244,7 +242,7 @@ Get-SPOSite | ForEach {Remove-SPOUser -Site $_.Url -LoginName "kenmyer@litwarein
 > This command requires that you install the [Connect to SharePoint Online PowerShell](https://technet.microsoft.com/library/fp161372.aspx). 
   
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the SharePoint sites in the current Office 365 subscription ( **Get-SPOSite** ) and for each site, remove Ken Meyer from the list of users who can access it ( **ForEach {Remove-SPOUser -Site $_.Url -LoginName "kenmyer@litwareinc.com"}** ).
+>  The interpretation of this Office 365 PowerShell command is:  Get all of the SharePoint sites in the current Office 365 subscription ( **Get-SPOSite** ) and for each site, remove Ken Meyer from the list of users who can access it ( **ForEach {Remove-SPOUser -Site $\_.Url -LoginName "kenmyer@litwareinc.com"}** ).
   
 Because we are telling Office 365 to remove Ken Meyer from every site, including those in which he does not have access, the display of this command will show errors for those sites in which he does not currently have access. We can use an additional condition on this command to remove Key Meyer only from the sites that have him in their login list, but the listed errors cause no harm to the sites themselves. This command might take a few minutes to run against hundreds of sites, rather than hours of working through the Office 365 admin center.
   
@@ -255,7 +253,7 @@ Get-SPOSite | ForEach {Add-SPOUser -Site $_.Url -LoginName "bkearney@litwareinc.
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the SharePoint sites in the current Office 365 subscription and for each site, allow Bonnie Kearney access by adding her login name to the Members group of the site ( **ForEach {Add-SPOUser -Site $_.Url -LoginName "bkearney@litwareinc.com" -Group "Members"}** ).
+>  The interpretation of this Office 365 PowerShell command is:  Get all of the SharePoint sites in the current Office 365 subscription and for each site, allow Bonnie Kearney access by adding her login name to the Members group of the site ( **ForEach {Add-SPOUser -Site $\_.Url -LoginName "bkearney@litwareinc.com" -Group "Members"}** ).
   
 ## Office 365 PowerShell is great at filtering data
 <a name="filter"> </a>
@@ -287,7 +285,7 @@ Zrinka Makovac                           San Diego
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the users in the current Office 365 subscription who have a mailbox in the cities of either San Diego or Bloomington ( **Where {$_.RecipientTypeDetails -eq "UserMailbox" -and ($_.City -eq "San Diego" -or $_.City -eq "Bloomington")}** ), then display the name and city for each ( **Select DisplayName, City** ).
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription who have a mailbox in the cities of either San Diego or Bloomington ( **Where {$\_.RecipientTypeDetails -eq "UserMailbox" -and ($\_.City -eq "San Diego" -or $\_.City -eq "Bloomington")}** ), then display the name and city for each ( **Select DisplayName, City** ).
   
 To list all the mailboxes for people who live anywhere except Bloomington, here is the command:
   
@@ -315,7 +313,7 @@ Janet Schorr                              Bellevue
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the users in the current Office 365 subscription who have a mailbox not located in the city of Bloomington ( **Where {$_.RecipientTypeDetails -eq "UserMailbox" -and $_.City -ne "Bloomington"}** ), then display the name and city for each.
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription who have a mailbox not located in the city of Bloomington ( **Where {$\_.RecipientTypeDetails -eq "UserMailbox" -and $\_.City -ne "Bloomington"}** ), then display the name and city for each.
   
 You can also use wildcard characters in your Office 365 PowerShell filters to match part of a name. For example, suppose you're looking for a user account, and all you can remember is that their last name was Anderson, or maybe Henderson, or maybe it was Jorgenson.
   
@@ -334,7 +332,7 @@ Get-User -Filter '{LastName -like "*son"}'
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the users in the current Office 365 subscription, but use a filter that only lists the users whose last names end in "son" ( **-Filter '{LastName -like "*son"}'** ). The ***** stands for any set of characters, which are letters in the case of the user's last name.
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription, but use a filter that only lists the users whose last names end in "son" ( **-Filter '{LastName -like "\*son"}'** ). The \* stands for any set of characters, which are letters in the case of the user's last name.
   
 ## Office 365 PowerShell makes it easy to print or save data
 <a name="printsave"> </a>
@@ -356,7 +354,7 @@ Here is an example of the display:
 ![Example of a table imported into an Excel worksheet for Skype for Business Online user data that was saved to a comma-separated values (CSV) file.](images/o365_powershell_data_in_excel.png)
   
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the Skype for Business Online users in the current Office 365 subscription ( **Get-CsOnlineUser** ), obtain only the user name, UPN, and location ( **Select DisplayName, UserPrincipalName, UsageLocation** ), and then save that information in CSV file named C:\\Logs\\SfBUsers.csv ( **Export-Csv -Path "C:\\Logs\\SfBUsers.csv" -NoTypeInformation** ).
+>  The interpretation of this Office 365 PowerShell command is: Get all of the Skype for Business Online users in the current Office 365 subscription ( **Get-CsOnlineUser** ), obtain only the user name, UPN, and location ( **Select DisplayName, UserPrincipalName, UsageLocation** ), and then save that information in CSV file named C:\\Logs\\SfBUsers.csv ( **Export-Csv -Path "C:\\Logs\\SfBUsers.csv" -NoTypeInformation** ).
   
 You can also use options to save this list as an XML file or as an HTML page. In fact, with additional PowerShell commands, you could save it directly as an Excel file, with any custom formatting you desire. 
   
@@ -371,9 +369,9 @@ Here's what your printed document will look like:
 ![Example of a printed document that was the output of an Office 365 PowerShell command listed directly to the default printer in Windows.](images/o365_powershell_printed_data.png)
   
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is:>  Get all of the Skype for Business Online users in the current Office 365 subscription, obtain only the user name, UPN, and location, and then send that information to the default Windows printer ( **Out-Printer** ).
+>  The interpretation of this Office 365 PowerShell command is:  Get all of the Skype for Business Online users in the current Office 365 subscription, obtain only the user name, UPN, and location, and then send that information to the default Windows printer ( **Out-Printer** ).
   
-The printed document has the same simple formatting as the display within the Office 365 PowerShell command window, but once you have created an Office 365 PowerShell command to list what you need, you just add ** | Out-Printer** to the end of the command to get a hard copy to work from.
+The printed document has the same simple formatting as the display within the Office 365 PowerShell command window, but once you have created an Office 365 PowerShell command to list what you need, you just add **| Out-Printer** to the end of the command to get a hard copy to work from.
   
 ## Office 365 PowerShell lets you manage across server products
 <a name="printsave"> </a>
@@ -429,11 +427,17 @@ Katy Jordan             False        True               False
 Molly Dempsey           False        True               False
 ```
 
-> [!TIP]
->  The interpretation of this Office 365 PowerShell script is:>  Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).>  Start a loop that runs over all the users in the variable named $x ( **foreach ($i in $x)** ).>  Define a variable named $y and store the user's mailbox information in it ( **$y = Get-Mailbox -Identity $i.UserPrincipalName** ).>  Add a new property to the user information named IsMailBoxEnabled and set it to the value of the IsMailBoxEnabled property of the user's mailbox ( **$i | Add-Member -MemberType NoteProperty -Name IsMailboxEnabled -Value $y.IsMailboxEnabled** ).>  Define a variable named $y and store the user's Skype for Business Online information in it ( **$y = Get-CsOnlineUser -Identity $i.UserPrincipalName** ).>  Add a new property to the user information named EnabledForSfB and set it to the value of the Enabled property of the user's Skype for Business Online information ( **$i | Add-Member -MemberType NoteProperty -Name EnabledForSfB -Value $y.Enabled** ).>  Display the list of users, but include only their name, whether they are licensed, and the two new properties that indicate whether their mailbox is enabled and whether they are enabled for Skype for Business Online ( **$x | Select DisplayName, IsLicensed, IsMailboxEnabled, EnabledforSfB** ).
+The interpretation of this Office 365 PowerShell script is:  
+- Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).
+- Start a loop that runs over all the users in the variable named $x ( **foreach ($i in $x)** ).  
+- Define a variable named $y and store the user's mailbox information in it ( **$y = Get-Mailbox -Identity $i.UserPrincipalName** ).
+- Add a new property to the user information named IsMailBoxEnabled and set it to the value of the IsMailBoxEnabled property of the user's mailbox ( **$i | Add-Member -MemberType NoteProperty -Name IsMailboxEnabled -Value $y.IsMailboxEnabled** ).
+- Define a variable named $y and store the user's Skype for Business Online information in it ( **$y = Get-CsOnlineUser -Identity $i.UserPrincipalName** ).
+- Add a new property to the user information named EnabledForSfB and set it to the value of the Enabled property of the user's Skype for Business Online information ( **$i | Add-Member -MemberType NoteProperty -Name EnabledForSfB -Value $y.Enabled** ).
+- Display the list of users, but include only their name, whether they are licensed, and the two new properties that indicate whether their mailbox is enabled and whether they are enabled for Skype for Business Online ( **$x | Select DisplayName, IsLicensed, IsMailboxEnabled, EnabledforSfB** ).
   
 ## See also
-<a name="printsave"> </a>
+
 
 #### 
 

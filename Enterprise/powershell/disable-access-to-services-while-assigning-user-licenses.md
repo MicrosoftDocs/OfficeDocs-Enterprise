@@ -18,11 +18,7 @@ description: "Learn how to assign licenses to user accounts and disable specific
 
 # Disable access to services while assigning user licenses
 
-<<<<<<< HEAD
-Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell.
-=======
 **Summary:**  Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell.
->>>>>>> deniseb-working
   
 Office 365 subscriptions come with service plans for individual services. Office 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign an Office 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
   
@@ -43,7 +39,7 @@ Get-MsolAccountSku
 
 In the display of the  `Get-MsolAccountSku` command:
   
-- **AccountSkuId** is a subscription for your organization in <OrganizationName>:<Subscription> format. The <OrganizationName> is the value that you provided when you enrolled in Office 365, and is unique for your organization. The <Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).
+- **AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format. The \<OrganizationName> is the value that you provided when you enrolled in Office 365, and is unique for your organization. The \<Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).
     
 - **ActiveUnits** is the number of licenses that you've purchased for the subscription.
     
@@ -79,12 +75,12 @@ Now that you have the AccountSkuId and the service plans to disable, you can ass
   
 ## For a single user
 
-For a single user, fill in the user principal name of the user account, the AccountSkuId, and the list of service plans to disable and remove the explanatory text and the < and > characters. Then, run the resulting commands at the PowerShell command prompt.
+For a single user, fill in the user principal name of the user account, the AccountSkuId, and the list of service plans to disable and remove the explanatory text and the \< and > characters. Then, run the resulting commands at the PowerShell command prompt.
   
 ```
 $userUPN="<the user's account name in email format>"
 $accountSkuId="<the AccountSkuId from the Get-MsolAccountSku command>"
-$planList=@( <comma-separated, double-quote enclosed list of the plans to disable> )
+$planList=@( <comma-separated, double-quote enclosed list of the service plans to disable> )
 $licenseOptions=New-MsolLicenseOptions -AccountSkuId $accountSkuId -DisabledPlans $planList
 $user=Get-MsolUser -UserPrincipalName $userUPN
 $usageLocation=$user.Usagelocation
@@ -123,8 +119,8 @@ ShawnM@contoso.onmicrosoft.com,US
 Next, fill in the location of the input and output CSV files, the account SKU ID, and the list of service plans to disable, and then run the resulting commands at the PowerShell command prompt.
   
 ```
-$inFileName="<path and file name of the input CSV file that contains the users, example: C:\\admin\\Users2License.CSV>"
-$outFileName="<path and file name of the output CSV file that records the results, example: C:\\admin\\Users2License-Done.CSV>"
+$inFileName="<path and file name of the input CSV file that contains the users, example: C:\admin\Users2License.CSV>"
+$outFileName="<path and file name of the output CSV file that records the results, example: C:\admin\Users2License-Done.CSV>"
 $accountSkuId="<the AccountSkuId from the Get-MsolAccountSku command>"
 $planList=@( <comma-separated, double-quote enclosed list of the plans to disable> )
 $users=Import-Csv $inFileName
