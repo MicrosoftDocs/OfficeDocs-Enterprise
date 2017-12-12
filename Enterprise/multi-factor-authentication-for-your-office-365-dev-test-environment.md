@@ -113,5 +113,3 @@ Complete the configuration for the User 2 account to use a text message for vali
 
 [Plan for multi-factor authentication for Office 365 Deployments](https://support.office.com/article/Plan-for-multi-factor-authentication-for-Office-365-Deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)
 
-####
-

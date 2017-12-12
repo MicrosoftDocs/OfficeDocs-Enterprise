@@ -302,5 +302,4 @@ Extend your Office 365 dev/test environment to include additional Microsoft clou
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-####
 

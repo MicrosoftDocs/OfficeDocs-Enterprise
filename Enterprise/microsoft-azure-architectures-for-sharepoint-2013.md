@@ -230,5 +230,4 @@ This diagram shows the SharePoint farm implemented in Azure infrastructure servi
   
 [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
 
-####
 

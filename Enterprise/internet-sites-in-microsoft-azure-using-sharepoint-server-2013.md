@@ -60,6 +60,5 @@ The following technical illustrations and articles provide information about how
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 

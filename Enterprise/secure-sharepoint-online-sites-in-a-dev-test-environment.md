@@ -582,7 +582,7 @@ Here is the overall configuration for all four SharePoint Online team sites.
   
 ![All four team sites in the secure SharePoint Online dev/test environment.](images/b0fea489-359c-4c85-a0ad-e4efb4a1e47f.png)
   
-## Next steps
+## Next step
 
 When you are ready for production deployment of secure SharePoint Online sites, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md) for detailed information and links to step-by-step deployment articles.
   
@@ -596,7 +596,6 @@ When you are ready for production deployment of secure SharePoint Online sites, 
   
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 
-#### 
 
 
 

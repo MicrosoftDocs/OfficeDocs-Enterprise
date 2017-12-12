@@ -158,5 +158,4 @@ Use [High availability federated authentication Phase 4: Configure web applicati
   
 [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
 
-####
 

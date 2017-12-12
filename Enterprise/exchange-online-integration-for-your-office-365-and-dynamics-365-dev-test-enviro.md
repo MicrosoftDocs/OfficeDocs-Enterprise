@@ -119,5 +119,4 @@ Use these steps to install the Dynamics 365 App for Outlook and demonstrate Dyna
   
 [Administering Dynamics 365](https://technet.microsoft.com/library/dn531101.aspx)
 
-####
 

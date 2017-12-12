@@ -337,5 +337,4 @@ Another way to see the IRM protection is to look at the files in your local fold
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-####
 

@@ -101,7 +101,6 @@ Once installed, your users run and then sign-in from an Office application (such
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 
 

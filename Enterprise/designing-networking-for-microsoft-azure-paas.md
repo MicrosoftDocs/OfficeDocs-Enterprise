@@ -104,6 +104,5 @@ For more information, see [Traffic Manager](https://docs.microsoft.com/azure/tra
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

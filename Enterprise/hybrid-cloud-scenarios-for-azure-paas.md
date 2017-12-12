@@ -122,6 +122,5 @@ For more information, see [Stretch Database](https://msdn.microsoft.com/library/
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

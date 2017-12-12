@@ -194,6 +194,5 @@ For more information, see:
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

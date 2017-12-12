@@ -69,5 +69,5 @@ For a 30-minute summary of the key points of this poster, see the [Optimize Your
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-####
+
 

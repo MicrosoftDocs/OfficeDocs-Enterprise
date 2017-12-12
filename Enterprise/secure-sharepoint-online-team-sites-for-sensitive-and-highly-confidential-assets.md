@@ -67,7 +67,7 @@ For more information, see [Secure SharePoint Online sites and files](https://doc
 [Stretch Database](https://msdn.microsoft.com/library/dn935011.aspx)
   
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-#### 
+
 
 
 

@@ -162,5 +162,4 @@ Review the [Move-in ready](move-in-ready.md) cloud storage options.
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-####
 

@@ -54,6 +54,5 @@ For additional security features for demonstration or proof of concept, see [Off
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
 
-#### 
 
 

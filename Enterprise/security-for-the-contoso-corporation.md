@@ -140,7 +140,6 @@ In accordance with Office 365 security best practices, Contoso's security admini
   
 [Security best practices for Office 365](https://support.office.com/article/Security-best-practices-for-Office-365-9295e396-e53d-49b9-ae9b-0b5828cdedc3)
 
-#### 
 
 
 

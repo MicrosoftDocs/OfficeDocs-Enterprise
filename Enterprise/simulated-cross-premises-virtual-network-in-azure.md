@@ -219,5 +219,4 @@ Use this dev/test environment to simulate a [SharePoint Server 2016 intranet far
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-####
 

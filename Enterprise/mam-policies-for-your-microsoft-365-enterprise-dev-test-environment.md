@@ -149,5 +149,4 @@ You now have two MAM policies, one for iOS devices and one for Android devices, 
 
 [Enterprise Mobility + Security (EMS)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
 
-####
 

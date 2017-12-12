@@ -685,10 +685,10 @@ Ipconfig /flushdns
 [Configure SQL Server 2012 AlwaysOn Availability Groups for SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=393122)
   
 ## See Also
+
 <a name="Troubleshooting"> </a>
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 

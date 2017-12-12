@@ -199,6 +199,7 @@ What IT architects need to know about deploying and managing updates for Office 
 |[![Thumbnail for the Deploy a modern and secure desktop with Microsoft model](images/321dd59c-d992-4c7a-a7b6-c23a783858bd.png)          ](https://www.microsoft.com/download/details.aspx?id=55987) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/> | This model contains: <ul><li>  Deploying Windows 10 and Office ProPlus from the Microsoft cloud </li><li>  Deploying Windows 10 and Office ProPlus with System Center Configuration Manager </li><li>  Managing updates for Windows 10 and Office ProPlus from the Microsoft cloud </li><li>  Managing updates for Windows 10 and Office ProPlus with System Center Configuration Manager </li><li>  Out-of-the-box and additional protection capabilities of Windows 10 </li></ul><br/> |
    
 ## See Also
+
 <a name="BKMK_o365solutions"></a>
 
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
@@ -208,6 +209,4 @@ What IT architects need to know about deploying and managing updates for Office 
 [Security solutions](security-solutions.md)
   
 [Hybrid solutions](hybrid-solutions.md)
-
-####
 

@@ -317,5 +317,4 @@ Use [High availability federated authentication Phase 2: Configure domain contro
 
 [Federated identity for Office 365](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9#bk_federated)
 
-####
 

@@ -132,6 +132,5 @@ Contoso uses the following steps to ready their network for the Microsoft cloud:
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

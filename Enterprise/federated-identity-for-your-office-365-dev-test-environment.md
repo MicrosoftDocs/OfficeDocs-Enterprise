@@ -449,5 +449,4 @@ When you are ready to deploy production-ready, high availability federated authe
   
 [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
 
-####
 

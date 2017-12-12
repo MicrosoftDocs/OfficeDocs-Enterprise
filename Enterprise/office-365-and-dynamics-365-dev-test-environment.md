@@ -146,5 +146,4 @@ Configure and then demonstrate how Office 365 and Dynamics 365 work together in 
   
 [Administering Dynamics 365](https://technet.microsoft.com/library/dn531101.aspx)
 
-####
 

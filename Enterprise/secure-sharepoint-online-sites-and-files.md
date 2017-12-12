@@ -191,6 +191,5 @@ For the steps to configure Azure Information Protection in this solution, see [P
   
 [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
 
-#### 
 
 

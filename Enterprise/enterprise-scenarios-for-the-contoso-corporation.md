@@ -38,6 +38,5 @@ With the networking, identity, and security infrastructure in place, Contoso dep
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

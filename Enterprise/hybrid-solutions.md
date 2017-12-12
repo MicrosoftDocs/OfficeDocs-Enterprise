@@ -61,5 +61,4 @@ For SharePoint Server 2013 workloads in Azure:
   
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
-####
 

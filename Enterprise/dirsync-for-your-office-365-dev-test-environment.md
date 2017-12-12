@@ -131,7 +131,6 @@ When you are ready to deploy DirSync for your organization, see [Deploy Office 3
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 
 

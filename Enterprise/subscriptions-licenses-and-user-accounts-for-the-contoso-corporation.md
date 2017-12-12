@@ -98,6 +98,6 @@ Each Azure subscription can be associated with a single Azure AD tenant that con
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
+
 
 

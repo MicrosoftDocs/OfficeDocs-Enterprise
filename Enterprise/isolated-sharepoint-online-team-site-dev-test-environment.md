@@ -277,7 +277,7 @@ Now let's demonstrate access with a user account that has no permissions:
     
 Your isolated SharePoint Online site is now ready for your additional experimentation.
   
-## Next Steps
+## Next Step
 
 When you are ready to deploy an isolated SharePoint Online team site in production, see the step-by-step design considerations in [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md).
   
@@ -293,7 +293,6 @@ When you are ready to deploy an isolated SharePoint Online team site in producti
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 
 

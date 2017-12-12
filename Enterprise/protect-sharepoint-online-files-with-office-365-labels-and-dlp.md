@@ -231,5 +231,4 @@ Here is your resulting configuration for high confidentiality SharePoint Online 
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-####
 

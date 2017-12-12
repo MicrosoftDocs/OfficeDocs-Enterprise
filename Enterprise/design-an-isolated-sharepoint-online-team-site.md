@@ -139,6 +139,5 @@ When you are ready to create and configure an isolated site in production, see [
 
 [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
 
-#### 
 
 

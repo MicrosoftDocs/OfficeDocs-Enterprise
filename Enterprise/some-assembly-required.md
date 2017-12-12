@@ -412,6 +412,5 @@ Review the [Build from the ground up](build-from-the-ground-up.md) cloud storage
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

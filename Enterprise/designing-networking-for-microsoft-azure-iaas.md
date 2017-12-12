@@ -436,6 +436,5 @@ For additional examples of IT workloads deployed on virtual machines in a cross-
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

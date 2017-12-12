@@ -50,5 +50,4 @@ Here are solutions for secure access, collaboration, and data with Microsoft Off
   
 [Hybrid solutions](hybrid-solutions.md)
 
-####
 

@@ -67,5 +67,4 @@ When you are ready to deploy an isolated SharePoint Online team site in producti
 
 [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
 
-####
 
