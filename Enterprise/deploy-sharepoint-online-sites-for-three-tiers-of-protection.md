@@ -271,7 +271,6 @@ The members of the site, through group membership in one of the access groups, c
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 
 

@@ -172,5 +172,4 @@ Here are additional cloud-based dev/test environments that you can create in Azu
   
 [Hybrid solutions](hybrid-solutions.md)
 
-####
 

@@ -86,6 +86,4 @@ Based on an analysis of Microsoft's cloud offerings, Contoso's IT department det
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
-
 

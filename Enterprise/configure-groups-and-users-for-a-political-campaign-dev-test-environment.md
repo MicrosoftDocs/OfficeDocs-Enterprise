@@ -201,7 +201,6 @@ Build the four different types of SharePoint Online team sites in this dev/test 
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 
 

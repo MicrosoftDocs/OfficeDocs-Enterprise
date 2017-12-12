@@ -230,11 +230,6 @@ When you need to change site access group membership or create a document folder
   
 ## See Also
 
-<<<<<<< HEAD
-####
-
-=======
->>>>>>> deniseb-working
 [Isolated SharePoint Online team sites](isolated-sharepoint-online-team-sites.md)
   
 [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md)
@@ -243,6 +238,5 @@ When you need to change site access group membership or create a document folder
   
 [Security solutions](security-solutions.md)
 
-#### 
 
 

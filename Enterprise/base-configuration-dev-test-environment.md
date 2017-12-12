@@ -407,5 +407,4 @@ Start-AzureRMVM -ResourceGroupName $rgName -Name "CLIENT1"
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-####
 

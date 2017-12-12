@@ -165,5 +165,4 @@ Next, you sign in with your User5 account and upload the AIP-protected document 
   
 [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection)
 
-####
 

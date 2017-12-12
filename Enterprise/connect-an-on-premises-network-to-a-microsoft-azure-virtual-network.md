@@ -375,6 +375,5 @@ Here is your resulting configuration.
   
 [How to install and configure Azure PowerShell](https://azure.microsoft.com/documentation/articles/powershell-install-configure/#how-to-install-azure-powershell)
 
-#### 
 
 

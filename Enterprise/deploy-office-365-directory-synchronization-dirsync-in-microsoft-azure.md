@@ -201,7 +201,6 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
-#### 
 
 [Download Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)
   

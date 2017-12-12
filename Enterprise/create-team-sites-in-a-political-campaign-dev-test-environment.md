@@ -413,7 +413,6 @@ To protect a document with Azure Information Protection and this new label, you 
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-#### 
 
 
 

@@ -84,5 +84,4 @@ You need to consider these areas of networking when adopting any of Microsoft's 
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 

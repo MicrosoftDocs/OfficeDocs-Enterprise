@@ -168,7 +168,6 @@ You can now use this environment to create new policies and experiment with ATP.
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md) 
 
-[Advanced threat protection for safe attachments and safe links](https://support.office.com/en-us/article/Office-365-Advanced-Threat-Protection-E100FE7C-F2A1-4B7D-9E08-622330B83653
+[Advanced threat protection for safe attachments and safe links](https://support.office.com/article/Office-365-Advanced-Threat-Protection-E100FE7C-F2A1-4B7D-9E08-622330B83653)
 
-####
 

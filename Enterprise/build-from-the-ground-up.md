@@ -198,6 +198,5 @@ When designing your custom storage solution with Azure Storage, keep the followi
 
 [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
-#### 
 
 

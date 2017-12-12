@@ -198,7 +198,6 @@ These IT posters show Azure-based solutions using SharePoint Server 2013 in a la
   
 [Hybrid solutions](hybrid-solutions.md)
 
-#### 
 
 
 
