@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named On
 
 # Accessible diagram - On-premises eDiscovery Flow
 
-This article is an accessible text version of the diagram named On-premises eDiscovery Flow.
+**Summary:** This article is an accessible text version of the diagram named On-premises eDiscovery Flow.
   
 This poster provides details about the architecture and flow of data across server products. 
   

@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named In
 
 # Accessible diagram - Internet sites in Microsoft Azure for SharePoint 2013
 
-This article is an accessible text version of the diagram named Internet sites in Microsoft Azure for SharePoint 2013.
+**Summary:** This article is an accessible text version of the diagram named Internet sites in Microsoft Azure for SharePoint 2013.
   
 This poster describes and illustrates how public-facing Internet sites benefit from cloud elasticity and Azure AD for customer accounts. There are six different scenarios that describe how Internet sites benefit from Azure: 
   

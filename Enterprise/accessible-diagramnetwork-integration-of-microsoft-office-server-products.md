@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named Ne
 
 # Accessible diagram - Network Integration of Microsoft Office Server Products
 
-This article is an accessible text version of the diagram named Network Integration of Microsoft Office Server Products.
+**Summary:** This article is an accessible text version of the diagram named Network Integration of Microsoft Office Server Products.
   
 This poster provides a general illustration of a network environment that includes Lync Server 2013, SharePoint 2013, and Exchange Server 2013. It also illustrates the following networking elements that are common across these products: remote and internal access, authentication, client traffic, and routing traffic through shared devices. 
   

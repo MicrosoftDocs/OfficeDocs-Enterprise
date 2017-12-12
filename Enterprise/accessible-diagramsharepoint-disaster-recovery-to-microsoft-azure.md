@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named Sh
 
 # Accessible diagram - SharePoint Disaster Recovery to Microsoft Azure
 
-This article is an accessible text version of the diagram named SharePoint Disaster Recovery to Microsoft Azure.
+**Summary:** This article is an accessible text version of the diagram named SharePoint Disaster Recovery to Microsoft Azure.
   
 This poster provides examples of architectures for building a recovery environment in Azure. 
   

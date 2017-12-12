@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named Fe
 
 # Accessible diagram - Feature Integration Across Microsoft Office Server Products
 
-This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online.
+**Summary:** This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online.
   
 The diagram consists of several tabs, as indicated by this document's section titles.
   

@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named Ya
 
 # Accessible diagram - Yammer features on mobile devices
 
-This article is an accessible text version of the diagram named Yammer features on mobile devices.
+**Summary:** This article is an accessible text version of the diagram named Yammer features on mobile devices.
   
 Yammer offers a premier social experience across multiple device platforms. This diagram shows an overview for Yammer options, Yammer for mobile devices, and the Yammer mobile app.
   

@@ -13,7 +13,7 @@ description: "This article is an accessible text version of the diagram named Mi
 
 # Accessible diagram - SharePoint Server, Exchange, Lync, Office Web Apps - The Mobile Landscape
 
-This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at [Technical Diagrams](http://go.microsoft.com/fwlink/?LinkID=519139&amp;amp;clcid=0x409).
+**Summary:** This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at [Technical Diagrams](http://go.microsoft.com/fwlink/?LinkID=519139&amp;amp;clcid=0x409).
   
 This poster shows a detailed layout of the application and mobile browser-based landscape for SharePoint Server, Lync, Exchange Server, and Office Web Apps. It includes the following information: 
   

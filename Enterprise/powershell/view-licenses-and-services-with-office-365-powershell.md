@@ -22,7 +22,7 @@ description: "Explains how to use Office 365 PowerShell to view information abou
 
 # View licenses and services with Office 365 PowerShell
 
-Explains how to use Office 365 PowerShell to view information about the licensing plans, services, and licenses that are available in your Office 365 organization.
+**Summary:** Explains how to use Office 365 PowerShell to view information about the licensing plans, services, and licenses that are available in your Office 365 organization.
   
 Every Office 365 subscription consists of the following elements:
 - **Licensing plans** These are also known aslicense plans or Office 365 plans. Licensing plans define the Office 365 services that are available to users. Your Office 365 subscription may contain multiple licensing plans. An example licensing plan would be Office 365 Enterprise E3.

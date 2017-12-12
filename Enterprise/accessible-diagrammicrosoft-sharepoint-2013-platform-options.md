@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named Mi
 
 # Accessible diagram - Microsoft SharePoint 2013 Platform Options
 
-This article is an accessible text version of the diagram named Microsoft SharePoint 2013 Platform Options.
+**Summary:** This article is an accessible text version of the diagram named Microsoft SharePoint 2013 Platform Options.
   
 What business decision makers (BDMs) and architects need to know about Office 365, Microsoft Azure, and on-premises deployments. 
   

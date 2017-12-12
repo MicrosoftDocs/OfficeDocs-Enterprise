@@ -21,7 +21,7 @@ description: "Explains how to use Office 365 PowerShell to determine the Office 
 
 # View account license and service details with Office 365 PowerShell
 
-Explains how to use Office 365 PowerShell to determine the Office 365 services that have been assigned to users.
+**Summary:** Explains how to use Office 365 PowerShell to determine the Office 365 services that have been assigned to users.
   
 In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use Office 365 PowerShell to view the status of services on user accounts. 
 

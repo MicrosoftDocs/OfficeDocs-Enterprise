@@ -20,7 +20,7 @@ description: "Explains how to use Office 365 PowerShell to view licensed and unl
 
 # View licensed and unlicensed users with Office 365 PowerShell
 
-Explains how to use Office 365 PowerShell to view licensed and unlicensed user accounts.
+**Summary:** Explains how to use Office 365 PowerShell to view licensed and unlicensed user accounts.
   
 User accounts in your Office 365 organization may have some, all, or none of the available licenses assigned to them from the licensing plans that are available in your organization. You can use Office 365 PowerShell to quickly find the licensed and unlicensed users in your organization.
   

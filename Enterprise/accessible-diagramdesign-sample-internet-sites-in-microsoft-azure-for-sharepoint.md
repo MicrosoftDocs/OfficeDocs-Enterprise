@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named De
 
 # Accessible diagram - Design sample: Internet sites in Microsoft Azure for SharePoint 2013
 
-This article is an accessible text version of the diagram named Design sample: Internet sites in Microsoft Azure for SharePoint 2013.
+**Summary:** This article is an accessible text version of the diagram named Design sample: Internet sites in Microsoft Azure for SharePoint 2013.
   
 Use this design example as a starting point for an Internet-facing site in Azure using SharePoint 2013.
   
