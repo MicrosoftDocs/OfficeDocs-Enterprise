@@ -3,7 +3,7 @@ title: "Disable access to services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 5/19/2017
+ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration

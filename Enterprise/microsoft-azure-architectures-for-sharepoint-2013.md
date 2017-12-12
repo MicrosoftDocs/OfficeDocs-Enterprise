@@ -3,10 +3,10 @@ title: "Microsoft Azure Architectures for SharePoint 2013"
 ms.author: bcarter
 author: bcarter
 manager: laurawi
-ms.date: 12/16/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365

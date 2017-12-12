@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 9/29/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration

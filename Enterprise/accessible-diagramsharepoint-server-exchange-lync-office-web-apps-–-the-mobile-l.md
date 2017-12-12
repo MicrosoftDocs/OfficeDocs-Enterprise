@@ -2,10 +2,10 @@
 title: "Accessible diagram - SharePoint Server, Exchange, Lync, Office Web Apps - The Mobile Landscape"
 ms.author: josephd
 author: JoeDavies-MSFT
-ms.date: 1/17/2015
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 2ab00633-0f6e-4e4f-b706-2342eb77e539
 description: "This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at Technical Diagrams."

@@ -3,10 +3,10 @@ title: "Microsoft Cloud IT architecture resources"
 ms.author: bcarter
 author: bcarter
 manager: laurawi
-ms.date: 10/12/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: hub-page
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
 - Ent_O365

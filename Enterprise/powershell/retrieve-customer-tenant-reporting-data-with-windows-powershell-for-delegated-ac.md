@@ -3,7 +3,7 @@ title: "Retrieve customer tenant reporting data with Windows PowerShell for Dele
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 12/21/2016
+ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration

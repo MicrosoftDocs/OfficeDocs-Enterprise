@@ -3,10 +3,10 @@ title: "Hybrid cloud scenarios for Azure IaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 6/20/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365

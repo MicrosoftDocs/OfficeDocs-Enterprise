@@ -3,10 +3,10 @@ title: "Configure groups and users for a political campaign dev/test environment
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/4/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: None
 ms.custom:
 - DecEntMigration

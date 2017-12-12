@@ -3,10 +3,10 @@ title: "Accessible diagram - SharePoint Disaster Recovery to Microsoft Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/16/2014
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 4b855224-8e67-4efa-a3a4-908ee0ca6412
 description: "This article is an accessible text version of the diagram named SharePoint Disaster Recovery to Microsoft Azure."

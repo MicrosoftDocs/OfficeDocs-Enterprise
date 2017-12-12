@@ -2,10 +2,10 @@
 title: "Accessible diagram - Microsoft Exchange 2013 Platform Options"
 ms.author: josephd
 author: JoeDavies-MSFT
-ms.date: 12/16/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 129f4e45-647e-4cf1-92a6-4d86d8396e73
 description: "This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at Technical Diagrams."

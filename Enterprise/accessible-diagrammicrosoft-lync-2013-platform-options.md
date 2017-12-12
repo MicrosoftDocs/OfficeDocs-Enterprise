@@ -2,10 +2,10 @@
 title: "Accessible diagram - Microsoft Lync 2013 Platform Options"
 ms.author: josephd
 author: JoeDavies-MSFT
-ms.date: 1/27/2015
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 2858d1e7-be37-4484-b121-a99779742a38
 description: "This article is an accessible text version of the diagram named Microsoft Lync 2013 Platform Options, which is available at Technical Diagrams."

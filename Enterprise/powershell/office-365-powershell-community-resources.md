@@ -3,7 +3,7 @@ title: "Office 365 PowerShell community resources"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/21/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration

@@ -3,10 +3,10 @@ title: "Accessible diagram - Design sample Internet sites in Microsoft Azure for
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/16/2014
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b91124bc-c7ec-4929-b77c-d6293db9f15e
 description: "This article is an accessible text version of the diagram named Design sample: Internet sites in Microsoft Azure for SharePoint 2013."

@@ -3,10 +3,10 @@ title: "Designing networking for Microsoft SaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 1/10/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365

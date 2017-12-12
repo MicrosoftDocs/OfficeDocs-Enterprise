@@ -3,10 +3,10 @@ title: "Contoso in the Microsoft Cloud"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 9/12/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
 - Ent_O365

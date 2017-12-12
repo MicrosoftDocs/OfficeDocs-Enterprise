@@ -3,10 +3,10 @@ title: "Accessible diagram - Microsoft SharePoint 2013 Platform Options"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/16/2014
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b88200bf-ced0-4ae6-bbe5-5517377d1be1
 description: "This article is an accessible text version of the diagram named Microsoft SharePoint 2013 Platform Options."

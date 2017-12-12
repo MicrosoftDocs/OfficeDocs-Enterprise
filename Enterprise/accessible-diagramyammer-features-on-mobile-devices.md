@@ -3,10 +3,10 @@ title: "Accessible diagram - Yammer features on mobile devices"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/19/2015
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
-ms.service: Office 365
+ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b18f4ae4-cd83-4a66-8e33-a7d5a4c06659
 description: "This article is an accessible text version of the diagram named Yammer features on mobile devices."
