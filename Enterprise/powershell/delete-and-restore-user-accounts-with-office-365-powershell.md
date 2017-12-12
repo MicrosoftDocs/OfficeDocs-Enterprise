@@ -3,7 +3,7 @@ title: "Delete and restore user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 5/17/2017
+ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,11 +20,7 @@ description: "Learn how to use Office 365 PowerShell to delete and restore Offic
 
 # Delete and restore user accounts with Office 365 PowerShell
 
-<<<<<<< HEAD
-Learn how to use Office 365 PowerShell to delete and restore Office 365 user accounts
-=======
 **Summary:**  Learn how to use Office 365 PowerShell to delete and restore Office 365 user accounts
->>>>>>> deniseb-working
   
 When you use Office 365 PowerShell to delete a user account, the account isn't permanently deleted. You can restore the deleted user account within 30 days.
   

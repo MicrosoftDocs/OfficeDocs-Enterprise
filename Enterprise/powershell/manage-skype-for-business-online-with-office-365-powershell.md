@@ -3,7 +3,7 @@ title: "Manage Skype for Business Online with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/9/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.prod: office-online-server

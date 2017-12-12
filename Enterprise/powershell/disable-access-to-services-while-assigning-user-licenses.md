@@ -3,7 +3,7 @@ title: "Disable access to services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 5/19/2017
+ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,11 +18,7 @@ description: "Learn how to assign licenses to user accounts and disable specific
 
 # Disable access to services while assigning user licenses
 
-<<<<<<< HEAD
-Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell.
-=======
 **Summary:**  Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell.
->>>>>>> deniseb-working
   
 Office 365 subscriptions come with service plans for individual services. Office 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign an Office 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
   

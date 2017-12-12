@@ -3,7 +3,7 @@ title: "Manage Office 365 with Windows PowerShell for Delegated Access Permissio
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 3/28/2016
+ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration

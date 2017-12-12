@@ -3,7 +3,7 @@ title: "Assign per-user Skype for Business Online policies with Office 365 Power
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/21/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
