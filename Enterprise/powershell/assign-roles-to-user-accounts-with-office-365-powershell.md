@@ -22,7 +22,7 @@ description: "Summary: Use Office 365 PowerShell and the Add-MsolRoleMember cmdl
 
  **Summary:** Use Office 365 PowerShell and the **Add-MsolRoleMember** cmdlet to assign roles to user accounts.
   
-You can quickly and easily assign roles to user accounts using Office 365 PowerShell by identifying the user account's Display Name and the role's Name.
+You can quickly and easily assign roles to user accounts using Office 365 PowerShell by identifying the user account's display name and the role name.
   
 ## Before you begin
 
@@ -34,10 +34,10 @@ Determine the following:
   
 - The user account that you want to configure.
     
-    To specify the user account, you must determine its Display Name. To get a list accounts, use this command:
+    To specify the user account, you must determine its Display Name. To get a complete list accounts, use this command:
     
   ```
-  Get-MsolUser | Sort DisplayName | Select DisplayName | More
+  Get-MsolUser -All | Sort DisplayName | Select DisplayName | More
   ```
 
     This command lists the Display Name of your user accounts, sorted by the Display Name, one screen at a time. You can filter the list to a smaller set by using the **Where** cmdlet. Here is an example:
@@ -64,7 +64,7 @@ $roleName="<The role name you want to assign to the account>"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-Copy the commands and paste them into Notepad. For the **$dispName** and **$roleName** variables, replace the description text with their values, remove the < and > characters, and leave the quotes. Copy the modified lines and paste them into your Windows Azure Active Directory Module for Windows PowerShell window to run them. Alternately, you can use the Windows PowerShell Integrated Script Environment (ISE).
+Copy the commands and paste them into Notepad. For the **$dispName** and **$roleName** variables, replace the description text with their values, remove the \< and > characters, and leave the quotes. Copy the modified lines and paste them into your Windows Azure Active Directory Module for Windows PowerShell window to run them. Alternately, you can use the Windows PowerShell Integrated Script Environment (ISE).
   
 Here is an example of a completed command set:
   
@@ -83,10 +83,10 @@ Determine the following:
     To specify the user account, you must determine its Display Name. To get a list accounts, use this command:
     
   ```
-  Get-MsolUser | Sort DisplayName | Select DisplayName | More
+  Get-MsolUser -All | Sort DisplayName | Select DisplayName | More
   ```
 
-    This command lists the Display Name of your user accounts, sorted by the Display Name, one screen at a time. You can filter the list to a smaller set by using the **Where** cmdlet. Here is an example:
+    This command lists the Display Name of all your user accounts, sorted by the Display Name, one screen at a time. You can filter the list to a smaller set by using the **Where** cmdlet. Here is an example:
     
   ```
   Get-MsolUser | Where DisplayName -like "John*" | Sort DisplayName | Select DisplayName | More
@@ -114,7 +114,7 @@ DisplayName,RoleName
 Next, fill in the location of the CSV file and run the resulting commands at the PowerShell command prompt.
   
 ```
-$fileName="<path and file name of the input CSV file that contains the role changes, example: C:\\admin\\RoleUpdates.CSV>"
+$fileName="<path and file name of the input CSV file that contains the role changes, example: C:\admin\RoleUpdates.CSV>"
 $roleChanges=Import-Csv $fileName | ForEach {Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser | Where DisplayName -eq $_.DisplayName).UserPrincipalName -RoleName $_.RoleName }
 
 ```

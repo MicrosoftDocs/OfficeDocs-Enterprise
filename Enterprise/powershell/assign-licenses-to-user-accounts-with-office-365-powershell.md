@@ -24,26 +24,27 @@ description: "Explains how to use Office 365 PowerShell assign an Office 365 lic
 
 **Summary:**  Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users.
   
-Licensing user accounts in Office 365 is important, because users can't use any Office 365 services until their account has been licensed. You can use Office 365 PowerShell to efficiently assign licenses to unlicensed accounts, especially multiple accounts. **Contents:**[The short version (instructions without explanations)](assign-licenses-to-user-accounts-with-office-365-powershell.md#ShortVersion)[The long version (instructions with detailed explanations)](assign-licenses-to-user-accounts-with-office-365-powershell.md#LongVersion)[See also](assign-licenses-to-user-accounts-with-office-365-powershell.md#SeeAlso)
+Licensing user accounts in Office 365 is important, because users can't use any Office 365 services until their account has been licensed. You can use Office 365 PowerShell to efficiently assign licenses to unlicensed accounts, especially multiple accounts. 
+
 ## Before you begin
 <a name="RTT"> </a>
 
 - The procedures in this topic require you to connect to Office 365 PowerShell. For instructions, see [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md).
     
-- Use the **Get-MsolAccountSku** cmdlet to view the available licensing plans and the number of available licenses in each plan in your organization. The number of available licenses in each plan is **ActiveUnits** - **WarningUnits** - **ConsumedUnits**. For more information about licensing plans, licenses, and services, see[View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
+- Use the **Get-MsolAccountSku** cmdlet to view the available licensing plans and the number of available licenses in each plan in your organization. The number of available licenses in each plan is **ActiveUnits** - **WarningUnits** - **ConsumedUnits**. For more information about licensing plans, licenses, and services, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
     
 - To find the unlicensed accounts in your organization, run the command  `Get-MsolUser -All -UnlicensedUsersOnly`
     
-- You can assign licenses only to user accounts that have the **UsageLocation** property set to a valid ISO 3166-1 alpha-2 country code. For example, US for the United States, and FR for France. Some Office 365 services aren't available in certain countries. For more information, see[About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).
+- You can assign licenses only to user accounts that have the **UsageLocation** property set to a valid ISO 3166-1 alpha-2 country code. For example, US for the United States, and FR for France. Some Office 365 services aren't available in certain countries. For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).
     
     To find accounts that don't have a **UsageLocation** value, run the command `Get-MsolUser -All | where {$_.UsageLocation -eq $null}`. To set the **UsageLocation** value on an account, use the syntax `Set-MsolUser -UserPrincipalName "<Account>" -UsageLocation <CountryCode>`. For example,  `Set-MsolUser -UserPrincipalName "belindan@litwareinc.com" -UsageLocation US`.
     
-- If you use the **Get-MsolUser** cmdlet without using the _All_ parameter, only the first 500 accounts are returned.
+- If you use the **Get-MsolUser** cmdlet without using the `-All` parameter, only the first 500 accounts are returned.
     
 ## The short version (instructions without explanations)
 <a name="ShortVersion"> </a>
 
-This section presents the procedures without fanfare or superfluous explanation. If you have questions or want more information, you can read rest of the topic.
+This section presents the procedures without detailed explanation. If you have questions or want more information, you can read rest of the topic.
   
 To assign a license to a user, use the following syntax in Office 365 PowerShell:
   
@@ -51,7 +52,7 @@ To assign a license to a user, use the following syntax in Office 365 PowerShell
 Set-MsolUserLicense -UserPrincipalName "<Account>" -AddLicenses "<AccountSkuId>"
 ```
 
-This example assigns a license from the  `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) licensing plan to the unlicensed user `belindan@litwareinc.com`.
+This example assigns a license from the `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) licensing plan to the unlicensed user `belindan@litwareinc.com`.
   
 ```
 Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "litwareinc:ENTERPRISEPACK"
@@ -69,7 +70,7 @@ $x = Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>]; $x | forea
     
 - If you don't have enough available licenses, the licenses are assigned to users in the order that they're returned by the **Get-MsolUser** cmdlet until the available licenses run out.
     
-This example assigns licenses from the  `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) licensing plan to all unlicensed users.
+This example assigns licenses from the `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) licensing plan to all unlicensed users.
   
 ```
 $AllUn = Get-MsolUser -All -UnlicensedUsersOnly; $AllUn | foreach {Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"}
@@ -81,8 +82,6 @@ This example assigns those same licenses to unlicensed users in the Sales depart
 $USSales = Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly; $USSales | foreach {Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"}
 ```
 
-[Return to top](assign-licenses-to-user-accounts-with-office-365-powershell.md#RTT)
-  
 ## The long version (instructions with detailed explanations)
 <a name="LongVersion"> </a>
 
@@ -104,7 +103,7 @@ BelindaN@litwareinc.com     Belinda Newman                  False
 
 As you can see, we have one unlicensed user: Belinda Newman. So how do we go about assigning Belinda an Office 365 license?
   
-For starters, we're going to run the **Get-MsolAccountSku** cmdlet discussed in the article[View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md):
+For starters, we're going to run the **Get-MsolAccountSku** cmdlet discussed in the article [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md):
   
 ```
 Get-MsolAccountSku
@@ -203,7 +202,7 @@ As long as we're on the subject, here's something you need to watch out for when
 In somewhat-roundabout fashion, this error message tells us that the user in question has not been assigned a **UsageLocation**. As you might have guessed, the **UsageLocation** property (which indicates the region or country where the user typically uses Office 365) is extremely important. Why? That's because the services available to a user depend not only on the licensing pack that you purchased but also on where the user lives: due to local rules and regulations, some services might not be available to some users. If a user doesn't have a **UsageLocation**, Office 365 has no way of knowing which services can legally be exposed to that user. Therefore, Office 365 can't offer any services to that user, at least not until the **UsageLocation** has been specified.
   
 > [!NOTE]
-> When you configure a user account you'll know immediately if there are any license restrictions associated with the specified part of the world. For example, if you change the **UsageLocation** for a licensed user to Iran ( `IR`), the command will fail with this error message: >  `Set-MsolUser : Unable to update license for this user. One or more of the assigned service plans is not available in this user's country. Prohibited Service Plans: EXCHANGE_S_ENTERPRISE, SHAREPOINTENTERPRISE, SHAREPOINTWAC, MCOSTANDARD, OFFICESUBSCRIPTION, RMS_S_ENTERPRISE. Specific service plans can be disabled for a user by using the licenseoptions parameter.`> That's because Office 365 is not currently available to users in Iran. For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730). > Incidentally, Office 365 uses the two-letter country codes produced by the International Organization for Standardization (ISO). You can find those codes on the [ISO web site](https://go.microsoft.com/fwlink/p/?LinkId=84073). 
+> When you configure a user account you'll know immediately if there are any license restrictions associated with the specified part of the world. For example, if you change the **UsageLocation** for a licensed user to Iran ( `IR`), the command will fail with this error message: `Set-MsolUser : Unable to update license for this user. One or more of the assigned service plans is not available in this user's country. Prohibited Service Plans: EXCHANGE_S_ENTERPRISE, SHAREPOINTENTERPRISE, SHAREPOINTWAC, MCOSTANDARD, OFFICESUBSCRIPTION, RMS_S_ENTERPRISE. Specific service plans can be disabled for a user by using the licenseoptions parameter.`> That's because Office 365 is not currently available to users in Iran. For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730). Incidentally, Office 365 uses the two-letter country codes produced by the International Organization for Standardization (ISO). You can find those codes on the [ISO web site](https://go.microsoft.com/fwlink/p/?LinkId=84073). 
   
 If you want to verify that a given user has a **UsageLocation** you can use a command similar to this one:
   
@@ -218,18 +217,15 @@ Get-MsolUser -All | Where-Object {$_.UsageLocation -eq $null}
 ```
 
 > [!NOTE]
-> When you assign a license to a user that user will, by default, be given access to all the Office 365 services that your organization has access to. For example, if you purchased licenses for Office 365 Enterprise E3, your newly-licensed user will automatically be granted access to services like Exchange Online, Skype for Business Online, and SharePoint Online. If you would prefer to limit a user's access to those services (for example, you might want a user to have access to SharePoint Online but  *not*  to Exchange Online and Skype for Business Online) then see the article[Disable access to services with Office 365 PowerShell](disable-access-to-services-with-office-365-powershell.md). 
-  
-[Return to top](assign-licenses-to-user-accounts-with-office-365-powershell.md#RTT)
+> When you assign a license to a user that user will, by default, be given access to all the Office 365 services that your organization has access to. For example, if you purchased licenses for Office 365 Enterprise E3, your newly-licensed user will automatically be granted access to services like Exchange Online, Skype for Business Online, and SharePoint Online. If you would prefer to limit a user's access to those services (for example, you might want a user to have access to SharePoint Online but  *not*  to Exchange Online and Skype for Business Online) then see the article [Disable access to services with Office 365 PowerShell](disable-access-to-services-with-office-365-powershell.md). 
   
 ## New to Office 365?
-<a name="LongVersion"> </a>
 
 ||
 |:-----|
-|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/article/Office-365-admin-and-IT-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
    
-## See also
+## See Also
 <a name="SeeAlso"> </a>
 
 See the following additional topics about managing users with Office 365 PowerShell:

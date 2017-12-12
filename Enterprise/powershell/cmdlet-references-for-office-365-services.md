@@ -20,7 +20,7 @@ description: "Summary: Find Office 365 PowerShell cmdlet reference topics for Az
 
  **Summary:** Find Office 365 PowerShell cmdlet reference topics for Azure Active Directory, Exchange Online, SharePoint Online, and Skype for Business Online.
   
-Find the cmdlet reference topics for all of the Office 365 services. Each service requires different connection instructions to use Office 365 PowerShell.
+Cmdlet reference topics for the various Office 365 services provide detailed information and instructions on how to use each cmdlet. Addiitonally, each Office 365 service that has PowerShell support requires different connection instructions.
   
 > [!NOTE]
 > To connect to all services at once, see [Connect to all Office 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md). 

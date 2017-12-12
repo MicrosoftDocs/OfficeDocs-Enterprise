@@ -33,7 +33,7 @@ You can use Office 365 PowerShell to efficiently create user accounts, especiall
 |**UserPrincipalName** <br/> |Yes  <br/> |This is the account name that's used to sign in to Office 365 services. For example, CalebS@contoso.onmicrosoft.com.  <br/> |
 |**FirstName** <br/> |No  <br/> ||
 |**LastName** <br/> |No  <br/> ||
-|**LicenseAssignment** <br/> |No  <br/> |This is the licensing plan (also known as the license plan, Office 365 plan, or SKU) from which an available license is assigned to the user account. The license defines the Office 365 services that are available to account. You don't have to assign a license to a user when you create the account, but the account requires a license to access Office 365 services. You have 30 days to license the user account after you create it.  <br/> Use the **Get-MsolAccountSku** cmdlet to view the licensing plans ( **AccountSkuId** ) and available licenses in your organization. For more information, see[View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).  <br/> |
+|**LicenseAssignment** <br/> |No  <br/> |This is the licensing plan (also known as the license plan, Office 365 plan, or SKU) from which an available license is assigned to the user account. The license defines the Office 365 services that are available to account. You don't have to assign a license to a user when you create the account, but the account requires a license to access Office 365 services. You have 30 days to license the user account after you create it.  <br/> Use the **Get-MsolAccountSku** cmdlet to view the licensing plans ( **AccountSkuId** ) and available licenses in your organization. For more information, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).  <br/> |
 |**Password** <br/> |No  <br/> | If you don't specify a password, a random password is assigned to the user account, and the password is visible in the results of the command. If you specify a password, it needs to meet the following complexity requirements: <br/>  8 to 16 ASCII text characters. <br/>  Characters from any three of the following types: lowercase letters, uppercase letters, numbers, and symbols. <br/> |
 |**UsageLocation** <br/> |No  <br/> |This is a valid ISO 3166-1 alpha-2 country code. For example, US for the United States, and FR for France. It's important to provide this value, because some Office 365 services aren't available in certain countries, so you can't assign a license to a user account unless the account has this value configured. For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).  <br/> |
    
@@ -66,25 +66,26 @@ LynneB@contoso.onmicrosoft.com,Lynne,Baxter,Lynne Baxter,US,contoso:ENTERPRISEPA
 ShawnM@contoso.onmicrosoft.com,Shawn,Melendez,Shawn Melendez,US,contoso:ENTERPRISEPACK
   ```
 
-    **Note:** The column names and their order in the first row of the CSV file are arbitrary, but make sure the data in the rest of the file matches the order of the column names, and use the column names for the parameter values in the Office 365 PowerShell command.
+ > [!NOTE]
+>The column names and their order in the first row of the CSV file are arbitrary, but make sure the data in the rest of the file matches the order of the column names, and use the column names for the parameter values in the Office 365 PowerShell command.
     
 2. Use the following syntax:
     
   ```
-  Import-Csv -Path <InputCSVFile> | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId [-Password $_.Password]} | Export-Csv -Path <OutputCSVFile>
+  Import-Csv -Path <Input CSV File Path and Name> | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId [-Password $_.Password]} | Export-Csv -Path <Output CSV File Path and Name>
   ```
 
-    This example creates the user accounts from the file named C:\\My Documents\\NewAccounts.csv, and logs the results in the file named C:\\My Documents\\NewAccountResults.csv
+This example creates the user accounts from the file named C:\My Documents\NewAccounts.csv, and logs the results in the file named C:\My Documents\NewAccountResults.csv
     
   ```
-  Import-Csv -Path "C:\\My Documents\\NewAccounts.csv" | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId} | Export-Csv -Path "C:\\My Documents\\NewAccountResults.csv"
+  Import-Csv -Path "C:\My Documents\NewAccounts.csv" | foreach {New-MsolUser -DisplayName $_.DisplayName -FirstName $_.FirstName -LastName $_.LastName -UserPrincipalName $_.UserPrincipalName -UsageLocation $_.UsageLocation -LicenseAssignment $_.AccountSkuId} | Export-Csv -Path "C:\My Documents\NewAccountResults.csv"
   ```
 
 3. Review the output file to see the results. We didn't specify passwords, so the random passwords that were generated are visible in the output file.
     
 ## Use the Azure Active Directory V2 PowerShell module to create individual user accounts
 
-To use the **New-AzureADUser** cmdlet from the Azure Active Directory V2 PowerShell module, you must first connect to your subscription. For the instructions, see[Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
+To use the **New-AzureADUser** cmdlet from the Azure Active Directory V2 PowerShell module, you must first connect to your subscription. For the instructions, see [Connect with the Azure Active Directory V2 PowerShell module](https://go.microsoft.com/fwlink/?linkid=842218).
   
 After you have connected, use the following syntax to create an individual account:
   
@@ -101,13 +102,10 @@ $PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfi
 $PasswordProfile.Password="3Rv0y1q39/chsy"
 New-AzureADUser -DisplayName "Caleb Sills" -GivenName "Caleb" -SurName "Sills" -UserPrincipalName calebs@contoso.onmicrosoft.com -UsageLocation US -MailNickName calebs -PasswordProfile $PasswordProfile -AccountEnabled $true
 ```
-
-> [!NOTE]
-> At the time of the publication of this article, you must assign licenses to the new account using the Office Admin center. 
   
 ## See also
 
-See the following additional topics about managing users with Office 365 PowerShell:
+See these additional topics about managing users with Office 365 PowerShell:
   
 - [Delete and restore user accounts with Office 365 PowerShell](delete-and-restore-user-accounts-with-office-365-powershell.md)
     

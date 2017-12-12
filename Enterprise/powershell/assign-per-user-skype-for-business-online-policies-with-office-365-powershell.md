@@ -34,8 +34,7 @@ $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession
   ```
-
-    When prompted, enter your Skype for Business Online administrator account name and password.
+When prompted, enter your Skype for Business Online administrator account name and password.
     
 ## Updating external communication settings for a user account
 
@@ -46,7 +45,7 @@ Suppose you want to change external communication settings on a user account. Fo
 2. Assign that external access policy to Alex.
     
 > [!NOTE]
->  You can't create a custom policy all our own. That's because Skype for Business Online does not allow you to create custom policies. Instead, you must assign one of the policies that were created specifically for Office 365. Those pre-created policies include:>  4 different client policies>  224 different conferencing policies>  5 different dial plans>  5 different external access policies>  1 hosted voicemail policy>  4 different voice policies
+>  You can't create a custom policy all our own. That's because Skype for Business Online does not allow you to create custom policies. Instead, you must assign one of the policies that were created specifically for Office 365. Those pre-created policies include: 4 different client policies, 224 different conferencing policies, 5 different dial plans, 5 different external access policies, 1 hosted voicemail policy, and 4 different voice policies.
   
 So how do you determine which external access policy to assign Alex? The following command returns all the external access policies where EnableFederationAccess is set to True and EnablePublicCloudAccess is set to False:
   
@@ -54,7 +53,7 @@ So how do you determine which external access policy to assign Alex? The followi
 Get-CsExternalAccessPolicy | Where-Object {$_.EnableFederationAccess -eq $True -and $_.EnablePublicCloudAccess -eq $False}
 ```
 
-What the command does is return all the policies that meet two criteria: the EnableFederationAccess property is set to True, and the EnablePublicCloudAccess policy is set to False. In turn, that command returns one policy - FederationOnly - that meets our criteria. Here is an example:
+What the command does is return all the policies that meet two criteria: the EnableFederationAccess property is set to True, and the EnablePublicCloudAccess policy is set to False. In turn, that command returns one policy that meets our criteria (FederationOnly). Here is an example:
   
 ```
 Identity                          : Tag:FederationOnly
@@ -101,7 +100,7 @@ Grant-CsExternalAccessPolicy -Identity "Alex Darrow" -PolicyName $Null
 
 This command sets the name of the external access policy assigned to Alex to a null value ($Null). Null means "nothing". In other words, no external access policy is assigned to Alex. When no external access policy is assigned to a user, that user then gets managed by the global policy.
   
-To disable a user account using Windows PowerShell, use the Azure Active Directory cmdlets to remove Alex's Skype for Business Online license.
+To disable a user account using Windows PowerShell, use the Azure Active Directory cmdlets to remove Alex's Skype for Business Online license. For more information, see [Disable access to services with Office 365 PowerShell](assign-licenses-to-user-accounts-with-office-365-powershell.md).
   
 ## See also
 

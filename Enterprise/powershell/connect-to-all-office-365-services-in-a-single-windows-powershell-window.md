@@ -22,21 +22,13 @@ description: "Summary: Connect Windows PowerShell to all Office 365 services in 
 
 # Connect to all Office 365 services in a single Windows PowerShell window
 
- **Summary:** Connect Windows PowerShell to all Office 365 services in a single Windows PowerShell window.
+ **Summary:** Instead of managing different Office 365 services in separate PowerShell console windows, you can connect to all Office 365 services and manage them from single console window.
   
-When you use PowerShell to manage Office 365, it is possible to have up to five different Windows PowerShell sessions open at the same time corresponding to Office 365 admin center, SharePoint Online, Exchange Online, Skype for Business Online, and the Security &amp; Compliance Center). With five different connection methods in separate Windows PowerShell sessions, your desktop could look like this:
+When you use PowerShell to manage Office 365, it is possible to have up to five different Windows PowerShell sessions open at the same time corresponding to Office 365 admin center, SharePoint Online, Exchange Online, Skype for Business Online, and the Security &amp; Compliance Center. With five different connection methods in separate Windows PowerShell sessions, your desktop could look like this:
   
 ![Five Windows PowerShell consoles running at once](images/a1a852c2-89ea-4e8e-8d8b-dcdf596763d1.png)
   
 This is not optimal for managing Office 365 because you can't exchange data among those five windows for cross-service management. This topic describes how to use a single instance of Windows PowerShell from which you can manage Office 365, Skype for Business Online, Exchange Online, SharePoint Online, and the Security &amp; Compliance Center.
-  
-See the following:
-  
-[Before you begin](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#BeforeYouBegin)
-  
-[The short version (instructions without explanations)](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#ShortVersion)
-  
-[The long version (instructions with detailed explanations)](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#LongVersion)
   
 ## Before you begin
 <a name="BeforeYouBegin"> </a>
@@ -59,7 +51,7 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
     
   - Windows Server 2008 R2 SP1*
     
-    * You need to install the Microsoft .NET Framework 4.5. _x_ and then either the Windows Management Framework 3.0 or the Windows Management Framework 4.0. For more information, see[Installing the .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=257868) and[Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757) or[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344).
+    * You need to install the Microsoft .NET Framework 4.5. _x_ and then either the Windows Management Framework 3.0 or the Windows Management Framework 4.0. For more information, see [Installing the .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=257868) and [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757) or [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344).
     
     You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Office 365 modules.
     
@@ -96,33 +88,21 @@ This section presents the connection steps without in-depth explanations. If you
     
   ```
   Import-Module MsOnline
-  ```
-
-  ```
   Connect-MsolService -Credential $credential
   ```
 
-4. Run these commands to connect to SharePoint Online. Replace  _<domainhost>_ with the actual value for your domain. For example, for `litwareinc.onmicrosoft.com`, the  _<domainhost>_ value is `litwareinc`.
+4. Run these commands to connect to SharePoint Online. Replace  _\<domainhost>_ with the actual value for your domain. For example, for `litwareinc.onmicrosoft.com`, the  _\<domainhost>_ value is `litwareinc`.
     
   ```
   Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-  ```
-
-  ```
   Connect-SPOService -Url https://<domainhost>-admin.sharepoint.com -credential $credential
   ```
 
-5. Run these commands to connect to Skype for Business Online. A warning about increasing the  `WSMan NetworkDelayms` value is expected the first time you connect and should be ignored.
+5. Run these commands to connect to Skype for Business Online. A warning about increasing the `WSMan NetworkDelayms` value is expected the first time you connect and should be ignored.
     
   ```
   Import-Module SkypeOnlineConnector
-  ```
-
-  ```
   $sfboSession = New-CsOnlineSession -Credential $credential
-  ```
-
-  ```
   Import-PSSession $sfboSession
   ```
 
@@ -130,9 +110,6 @@ This section presents the connection steps without in-depth explanations. If you
     
   ```
   $exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $credential -Authentication "Basic" -AllowRedirection
-  ```
-
-  ```
   Import-PSSession $exchangeSession -DisableNameChecking
   ```
 
@@ -140,14 +117,10 @@ This section presents the connection steps without in-depth explanations. If you
     
   ```
   $ccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication Basic -AllowRedirection
-  ```
-
-  ```
   Import-PSSession $ccSession -Prefix cc
   ```
-
-    > [!NOTE]
-    > The text prefix "cc" is added to  *all*  Security &amp; Compliance Center cmdlet names so you can run cmdlets that exist in both Exchange Online and the Security &amp; Compliance Center in the same Windows PowerShell session. For example, **Get-RoleGroup** becomes **Get-ccRoleGroup** in the Security &amp; Compliance Center.
+> [!NOTE]
+> The text prefix "cc" is added to  *all*  Security &amp; Compliance Center cmdlet names so you can run cmdlets that exist in both Exchange Online and the Security &amp; Compliance Center in the same Windows PowerShell session. For example, **Get-RoleGroup** becomes **Get-ccRoleGroup** in the Security &amp; Compliance Center.
   
 Here are all the commands in a single block. Specify the name of your domain host, and then run them all at one time.
   
@@ -167,7 +140,7 @@ $ccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri 
 Import-PSSession $ccSession -Prefix cc
 ```
 
-When you are ready to close down the Windows PowerShell window, run this command.
+When you are ready to close down the Windows PowerShell window, run this command to remove the active sessions to Skype for Business Online, Exchange Online, SharePoint Online, and the Security &amp; Compliance Center:
   
 ```
 Remove-PSSession $sfboSession ; Remove-PSSession $exchangeSession ; Remove-PSSession $ccSession ; Disconnect-SPOService
@@ -205,9 +178,8 @@ You must run Windows PowerShell as an administrator. If you don't, you're going 
 The specified module 'Microsoft.Online.SharePoint.Online.PowerShell' was not loaded because no valid module file was found in any directory.
 ```
 
-The only way to remedy the situation is to close Windows PowerShell and restart it as an administrator. Here's a quick and easy way to tell if you're running Windows PowerShell as an administrator: the prompt is  `PS C:\\Windows\\System32>`, not  `PS C:\\Users\\UserName>`.
-  
-[Return to top](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#RTT)
+The only way to remedy the situation is to close Windows PowerShell and restart it as an administrator. Here's a quick and easy way to tell if you're running Windows PowerShell as an administrator: the prompt is  `PS C:\Windows\System32>`, not  `PS C:\Users\YourUserName>`.
+
   
 ### Step 2: Create a Windows PowerShell credentials object
 <a name="Step2"> </a>
@@ -243,7 +215,7 @@ UserName                               Password
 kenmyer@litwareinc.onmicrosoft.com     System.Security.SecureString
 ```
 
-One thing to keep in mind here is that the [Get-Credential](https://go.microsoft.com/fwlink/p/?LinkId=389618) cmdlet only creates the credentials object; it does not authenticate you or otherwise verify that the user name and password you supplied are correct. For example, suppose you mistyped the user name as eknmyer@litwareinc.onmicrosoft.com. If you do that, **Get-Credential** will create a credentials object using that user name, and without checking to see if that is actually a valid user name. You won't know whether you have created a truly valid credentials object until you actually use that object to try to connect to the Office 365 services.
+One thing to keep in mind here is that the [Get-Credential](https://go.microsoft.com/fwlink/p/?LinkId=389618) cmdlet only creates the credentials object; it does not authenticate you or otherwise verify that the user name and password you supplied are correct. For example, suppose you mistyped the user name as kenmyer@litwareinc.onmicrosoft.com. If you do that, **Get-Credential** will create a credentials object using that user name, and without checking to see if that is actually a valid user name. You won't know whether you have created a truly valid credentials object until you actually use that object to try to connect to the Office 365 services.
   
 ### Step 3: Connect to Office 365
 <a name="Step3"> </a>
@@ -266,7 +238,7 @@ Somewhere in the list of modules that are returned by this command you should se
   
 If you see  `MSOnline` listed, that means that everything went according to plan.
   
-With the credentials object created (see [Step 2: Create a Windows PowerShell credentials object](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#Step2)) and with the  `MsOnline` module loaded, we can now connect to Office 365 by using the[Connect-MsolService](https://go.microsoft.com/fwlink/p/?LinkId=532375) cmdlet and the following command.
+With the credentials object created (see [Step 2: Create a Windows PowerShell credentials object](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#Step2)) and with the  `MsOnline` module loaded, we can now connect to Office 365 by using the [Connect-MsolService](https://go.microsoft.com/fwlink/p/?LinkId=532375) cmdlet and the following command.
   
 ```
 Connect-MsolService -Credential $credential
@@ -303,7 +275,7 @@ The  _DisableNameChecking_ switch suppresses this warning.
 WARNING: The names of some imported commands from the module 'Microsoft.Online.SharePoint.PowerShell' include unapproved verbs that might make them less discoverable. To find the commands with unapproved verbs, run the Import-Module command again with the Verbose parameter. For a list of approved verbs, type Get-Verb.
 ```
 
-In order to connect to SharePoint Online, you need to supply two pieces of information: your credentials and the URL of your SharePoint Online admin site. The credentials part is easy: we've already stored that in the variable  `$credential` (see[Step 2: Create a Windows PowerShell credentials object](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#Step2)). As for the URL of your admin site, that's easy enough to determine, as well. Suppose your Office 365 domain name is  `litwareinc.onmicrosoft.com`.
+In order to connect to SharePoint Online, you need to supply two pieces of information: your credentials and the URL of your SharePoint Online admin site. The credentials part is easy: we've already stored that in the variable  `$credential` (see [Step 2: Create a Windows PowerShell credentials object](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md#Step2)). As for the URL of your admin site, that's easy enough to determine, as well. Suppose your Office 365 domain name is  `litwareinc.onmicrosoft.com`.
   
 To determine the admin site URL, do this:
   
@@ -329,7 +301,7 @@ To verify that the connection has been made, run the following command in Window
 Get-SPOSite
 ```
 
-You should get a list of all your SharePoint Online sites.
+You should get a list of all your SharePoint Online sites. Here is an example:
   
 ```
 Url                                       Owner          Storage Quota
@@ -397,7 +369,7 @@ $exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -Connecti
 ```
 
 > [!NOTE]
-> Why is the command for connecting to Exchange Online more complicated than the command to connect to Skype for Business Online? Technically, it's not: both commands do the exact same thing. However, the Skype for Business Online team created its own cmdlet— **New-CsOnlineSession** —that hides some of the parameters (like _Authentication_ and _AllowRedirection_) that are used when connecting to Exchange Online. Instead of requiring you to type that information yourself, the  _Authentication_ and _AllowRedirection_ parameters are effectively built in to the **New-CsOnlineSession** cmdlet. You have to type those parameters when connecting to Exchange Online because Exchange Online uses the standard[New-PSSession](https://go.microsoft.com/fwlink/p/?LinkId=389621) cmdlet to connect to Office 365. The disadvantage is that you have a little more typing to do. The advantage is that you don't have to download and install an Exchange Online module.
+> Why is the command for connecting to Exchange Online more complicated than the command to connect to Skype for Business Online? Technically, it's not: both commands do the exact same thing. However, the Skype for Business Online team created its own cmdlet— **New-CsOnlineSession** —that hides some of the parameters (like _Authentication_ and _AllowRedirection_) that are used when connecting to Exchange Online. Instead of requiring you to type that information yourself, the  _Authentication_ and _AllowRedirection_ parameters are effectively built in to the **New-CsOnlineSession** cmdlet. You have to type those parameters when connecting to Exchange Online because Exchange Online uses the standard [New-PSSession](https://go.microsoft.com/fwlink/p/?LinkId=389621) cmdlet to connect to Office 365. The disadvantage is that you have a little more typing to do. The advantage is that you don't have to download and install an Exchange Online module.
   
 All you have to do now is import this remote session, just like we did with Skype for Business Online.
   
@@ -531,10 +503,9 @@ As for your connection to Office 365, although there's a **Connect-MsolService**
 
 ||
 |:-----|
-|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for **Office 365 admins and IT pros**, brought to you by LinkedIn Learning. |
+|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/article/Office-365-admin-and-IT-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
    
 ## See also
-<a name="LongVersion"> </a>
 
 #### 
 

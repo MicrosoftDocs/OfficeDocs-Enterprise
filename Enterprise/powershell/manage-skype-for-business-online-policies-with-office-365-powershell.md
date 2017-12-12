@@ -28,14 +28,14 @@ Use these instructions to get set up to run the commands (skip the steps you hav
     
 2. Open a Windows PowerShell command prompt and run the following commands: 
     
-  ```
-  Import-Module LyncOnlineConnector
+```
+Import-Module LyncOnlineConnector
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
 Import-PSSession $sfbSession
   ```
 
-    When prompted, enter your Skype for Business Online administrator account name and password.
+When prompted, enter your Skype for Business Online administrator account name and password.
     
 ## Manage user account policies
 
@@ -45,7 +45,7 @@ Many Skype for Business Online user account properties are configured by using p
 Get-CsExternalAccessPolicy -Identity "FederationAndPICDefault"
 ```
 
-In turn, we should get back something similar to this:
+In turn, you should get back something similar to this:
   
 ```
 Identity                          : Tag:FederationAndPICDefault
@@ -63,7 +63,7 @@ In this example, the values within this policy determine what a use can or canno
     
 - **EnablePublicCloudAccess** indicates whether the user can communicate with Windows Live users.
     
-Therefore, you don't directly change federation-related properties on user accounts (for example, Set-CsUser -EnableFederationAccess $True). Instead, you assign an account an external access policy that has the desired property values preconfigured. If we want a user to be able to communicate with federated users and with Windows Live users, that user account must be assigned a policy that allows those types of communication.
+Therefore, you don't directly change federation-related properties on user accounts (for example, **Set-CsUser -EnableFederationAccess $True**). Instead, you assign an account an external access policy that has the desired property values preconfigured. If we want a user to be able to communicate with federated users and with Windows Live users, that user account must be assigned a policy that allows those types of communication.
   
 If you want to know whether or not someone can communicate with users from outside the organization, you have to:
   
@@ -81,15 +81,13 @@ This command finds the policy assigned to the user, then finds the capabilities 
   
 Note that there are no cmdlets for creating or for modifying policies. You must use the policies pre-supplied by Office 365. If you want to take a look at the different policies available, you can use these commands:
   
-```
-Get-CsClientPolicy       
-Get-CsConferencingPolicy        
-Get-CsDialPlan            
-Get-CsExternalAccessPolicy                         
-Get-CsHostedVoicemailPolicy                        
-Get-CsPresencePolicy                               
-Get-CsVoicePolicy                                  
-```
+- Get-CsClientPolicy       
+- Get-CsConferencingPolicy        
+- Get-CsDialPlan            
+- Get-CsExternalAccessPolicy                         
+- Get-CsHostedVoicemailPolicy                        
+- Get-CsPresencePolicy                               
+- Get-CsVoicePolicy                                  
 
 > [!NOTE]
 > A Skype for Business Online dial plan is a policy in every respect except the name. The name "dial plan" was chosen instead of, say, "dialing policy" in order to provide backward compatibility with Office Communications Server and with Exchange. 
@@ -101,9 +99,14 @@ Get-CsVoicePolicy
 ```
 
 > [!NOTE]
-> That returns a list of all the voice policies available to you. Keep in mind, however, that not all policies can be assigned to all users. This is due to various restrictions involving licensing and geographic location. (The so-called "[usage location](https://msdn.microsoft.com/en-us/library/azure/dn194136.aspx).") If you want to know the external access policies and the conferencing policies that can be assigned to a particular user, use commands similar to these: > Get-CsConferencingPolicy -ApplicableTo "Alex Darrow"
-  
-Get-CsExternalAccessPolicy -ApplicableTo "Alex Darrow" > The ApplicableTo parameter limits the returned data to policies that can be assigned to the specified user (for example, Alex Darrow). Depending on licensing and usage location restrictions, that might represent a subset of all the available policies. 
+> That returns a list of all the voice policies available to you. Keep in mind, however, that not all policies can be assigned to all users. This is due to various restrictions involving licensing and geographic location. (The so-called "[usage location](https://msdn.microsoft.com/en-us/library/azure/dn194136.aspx).") If you want to know the external access policies and the conferencing policies that can be assigned to a particular user, use commands similar to these: 
+
+```
+Get-CsConferencingPolicy -ApplicableTo "Alex Darrow"
+Get-CsExternalAccessPolicy -ApplicableTo "Alex Darrow"
+```
+
+The ApplicableTo parameter limits the returned data to policies that can be assigned to the specified user (for example, Alex Darrow). Depending on licensing and usage location restrictions, that might represent a subset of all the available policies. 
   
 In some cases, properties of policies are not used with Office 365, while others can only be managed by Microsoft support personnel. 
   
