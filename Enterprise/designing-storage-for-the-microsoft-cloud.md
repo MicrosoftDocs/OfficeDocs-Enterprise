@@ -3,7 +3,7 @@ title: "Designing storage for the Microsoft cloud"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/22/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions

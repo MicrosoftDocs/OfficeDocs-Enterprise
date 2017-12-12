@@ -3,7 +3,7 @@ title: "Secure SharePoint Online team sites for sensitive and highly confidentia
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 9/12/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions

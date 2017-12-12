@@ -2,7 +2,7 @@
 title: "Accessible diagram - SharePoint Server, Exchange, Lync, Office Web Apps - The Mobile Landscape"
 ms.author: josephd
 author: JoeDavies-MSFT
-ms.date: 1/17/2015
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions

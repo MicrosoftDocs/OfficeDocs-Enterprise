@@ -3,7 +3,7 @@ title: "Designing networking for Microsoft Azure IaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 6/28/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: concetpual
 ms.service: o365-solutions

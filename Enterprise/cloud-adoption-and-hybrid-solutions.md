@@ -3,7 +3,7 @@ title: "Cloud adoption and hybrid solutions"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 7/19/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions

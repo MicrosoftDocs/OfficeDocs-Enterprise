@@ -3,7 +3,7 @@ title: "Test Lab Guide Configure an integrated Exchange, Lync, and SharePoint te
 ms.author: jhendr
 author: JoanneHendrickson
 manager: laurawi
-ms.date: 12/16/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions

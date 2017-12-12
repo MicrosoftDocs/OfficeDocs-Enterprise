@@ -3,7 +3,7 @@ title: "Build from the ground up"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/30/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions

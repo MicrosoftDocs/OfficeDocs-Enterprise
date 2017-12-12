@@ -3,7 +3,7 @@ title: "Office 365 cross-tenant collaboration"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 11/11/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions

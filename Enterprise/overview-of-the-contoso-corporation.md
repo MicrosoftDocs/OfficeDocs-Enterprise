@@ -3,7 +3,7 @@ title: "Overview of the Contoso Corporation"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 1/18/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions

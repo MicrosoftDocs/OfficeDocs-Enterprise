@@ -3,7 +3,7 @@ title: "Protect SharePoint Online files with Office 365 labels and DLP"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/16/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions

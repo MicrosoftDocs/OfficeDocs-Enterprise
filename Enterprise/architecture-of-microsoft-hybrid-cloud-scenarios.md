@@ -3,7 +3,7 @@ title: "Architecture of Microsoft hybrid cloud scenarios"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2016
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions

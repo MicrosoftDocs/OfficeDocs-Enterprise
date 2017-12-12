@@ -3,7 +3,7 @@ title: "Microsoft Security Guidance for Political Campaigns, Nonprofits, and Oth
 ms.author: bcarter
 author: bcarter
 manager: laurawi
-ms.date: 11/28/2017
+ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
