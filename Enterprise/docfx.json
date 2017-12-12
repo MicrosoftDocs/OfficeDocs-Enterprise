@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -19,7 +20,8 @@
       {
         "files": [
           "**/*.png",
-          "**/*.jpg"
+          "**/*.jpg",
+          "**/*.gif"
         ],
         "exclude": [
           "**/obj/**",
@@ -29,7 +31,13 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {   
+      "layout": "Conceptual",      
+      "breadcrumb_path": "/office365/enterprise/breadcrumb/toc.json",
+      "extendBreadcrumb": "true",
+      "searchScope": ["Office 365 Enterprise"]
+    },
+      
     "fileMetadata": {},
     "template": [],
     "dest": "OfficeDocs-Enterprise"
