@@ -183,7 +183,7 @@ Recommended capabilities for protecting files in Office 365 based on three diffe
 ### Change Management for Office 365 Clients
 <a name="changemgmt"> </a>
 
-What IT architects need to know about managing branch releases for the Office 365 client applications and Windows 10. 
+What IT architects need to know about managing releases for the Office 365 client applications and Windows 10. 
   
 |**Item**|**Description**|
 |:-----|:-----|
