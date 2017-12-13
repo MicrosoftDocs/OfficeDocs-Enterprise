@@ -20,103 +20,116 @@ Solve business problems by using the Microsoft Cloud. Find information on the la
 
 The technical solutions to today’s business problems often involve multiple products and platforms. You can leverage your existing on-premises infrastructure while taking advantage of the flexibility and cost savings offered by Microsoft's cloud services and platforms. Our goal is to provide the necessary information to help you achieve your business goals using Microsoft products and services.
   
-<ul class="cardsF">
-    <li>
-        <a href="/office365/enterprise/microsoft-cloud-it-architecture-resources">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                <img src="https://docs.microsoft.com/en-us/media/common/i_cloud_it_architecture.svg" alt="" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Cloud IT architecture resources</h3>
-                                <P>Use these architecture tools and posters to learn about Microsoft Cloud services and platforms, including Office 365, Microsoft Azure, Microsoft Enterprise Mobility + Security (EMS)/Intune, Microsoft Dynamics 365, private cloud datacenter, and on-premises hybrid and cloud solutions.</p>
-                            </div>
-                    </div>
-                 </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/common/i_architecture.svg" alt="" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Architectural models</h3>
-                                <P>Use these architectural models and deployment options for SharePoint, Exchange, Skype for Business, and Lync to determine your ideal platform and configuration.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </a>
-        </li>
-        <li>
-            <a href="/office365/enterprise/cloud-adoption-test-lab-guides-tlgs">
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Test lab guides</h3>
-                                <P>Use these cloud adoption Test Lab Guides (TLGs) to set up dev/test environments for Office 365, Azure, Enterprise Mobility + Security (EMS)/Intune, Dynamics 365, and Office Server products.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-            </li> 
+<div id="main" class="v2">
+    <div class="container">
+        <ul class="pivots">
             <li>
-            <a href="/office365/enterprise/hybrid-solutions">
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                <img src="https://docs.microsoft.com/en-us/media/common/i_hybrid.svg" alt="" />
+                <a href="#home"></a>
+                <ul id="home">
+                    <li>
+                        <a href="#home-all"></a>
+                        <ul id="home-all" class="cardsF">
+                            <li>
+                                <a href="/office365/enterprise/microsoft-cloud-it-architecture-resources">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/media/common/i_cloud_it_architecture.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Cloud IT architecture resources</h3>
+                                                <P>Use these architecture tools and posters to learn about Microsoft Cloud services and platforms, including Office 365, Microsoft Azure, Microsoft Enterprise Mobility + Security (EMS)/Intune, Microsoft Dynamics 365, private cloud datacenter, and on-premises hybrid and cloud solutions.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Hybrid solutions</h3>
-                                <P>Learn how to deploy Office Server workloads in Azure infrastructure services.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/media/common/i_architecture.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Architectural models</h3>
+                                                <P>Use these architectural models and deployment options for SharePoint, Exchange, Skype for Business, and Lync to determine your ideal platform and configuration.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/office365/enterprise/cloud-adoption-test-lab-guides-tlgs">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Test lab guides</h3>
+                                                <P>Use these cloud adoption Test Lab Guides (TLGs) to set up dev/test environments for Office 365, Azure, Enterprise Mobility + Security (EMS)/Intune, Dynamics 365, and Office Server products.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="/office365/enterprise/hybrid-solutions">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/media/common/i_hybrid.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Hybrid solutions</h3>
+                                                <P>Learn how to deploy Office Server workloads in Azure infrastructure services.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/office365/enterprise/security-solutions">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/media/common/i_cloud-security.svg" alt="" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Security solutions</h3>
+                                                <P>Learn how to deploy security solutions with Microsoft's cloud services and platforms.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </li>                            
+                        </ul>
+                    </li>
+                </ul>
             </li>
-            <li>
-            <a href="/office365/enterprise/security-solutions">
-                <div class="cardSize">
-                    <div class="cardPadding">
-                        <div class="card">
-                            <div class="cardImageOuter">
-                                <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_cloud-security.svg" alt="" />
-                                </div>
-                            </div>
-                            <div class="cardText">
-                                <h3>Security solutions</h3>
-                                <P>Learn how to deploy security solutions with Microsoft's cloud services and platforms.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </a>
-    </li>                            
-</ul>
+        </ul>
+    </div>
 
 ---
 
