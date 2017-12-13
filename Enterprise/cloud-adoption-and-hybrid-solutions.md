@@ -1,6 +1,6 @@
 ---
 title: Enterprise Cloud Solutions
-description: Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more
+description: Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.
 services: batch-ai
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,14 +12,7 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: JoeDavies-MSFT
----
-
-# Enterprise Cloud Solutions
-
-Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.
-
-The technical solutions to today’s business problems often involve multiple products and platforms. You can leverage your existing on-premises infrastructure while taking advantage of the flexibility and cost savings offered by Microsoft's cloud services and platforms. Our goal is to provide the necessary information to help you achieve your business goals using Microsoft products and services.
-  
+---  
 <div id="main" class="v2">
     <div class="container">
         <ul class="pivots">
@@ -29,6 +22,12 @@ The technical solutions to today’s business problems often involve multiple pr
                     <li>
                         <a href="#home-all"></a>
                         <ul id="home-all" class="cardsF">
+                            <li>
+                                <div class="container intro">
+                                    <p>Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.</p>
+                                    <p>The technical solutions to today’s business problems often involve multiple products and platforms. You can leverage your existing on-premises infrastructure while taking advantage of the flexibility and cost savings offered by Microsoft's cloud services and platforms. Our goal is to provide the necessary information to help you achieve your business goals using Microsoft products and services</p>
+                                </div>
+                            </li>
                             <li>
                                 <a href="/office365/enterprise/microsoft-cloud-it-architecture-resources">
                                 <div class="cardSize">
@@ -142,7 +141,7 @@ The technical solutions to today’s business problems often involve multiple pr
     <li>Useful downloads</li>
 </ul>
 <ul>
-    <li><a href="mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20">What cloud adoption content do you need?</a><p>are creating content for cloud adoption that spans multiple Microsoft cloud platforms and services. Let us know what you think about our cloud adoption content, or ask for specific content by sending email to cloudadopt@microsoft.com.</p></li>
-    <li><a href="https://aka.ms/caab">Join the cloud adoption discussion</a><p>If you are passionate about cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the CAAB (Cloud Adoption Advisory Board) space of the Microsoft Tech Community and send us a quick email at <a href="mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!">CAAB@microsoft.com</a>Anyone can read community-related content on the CAAB <a href="https://blogs.technet.com/b/solutions_advisory_board/">blog</a>. However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.</p></li>
-    <li><a href="mailto:cloudadopt@microsoft.com?subject=[Art%20Request]:%20">Get the art you see here</a><p>If you want an editable copy of the art you see in this article, we’ll be glad to send it to you. Email your request, including the URL and title of the art, to cloudadopt@microsoft.com</p></li>
+    <li><a href="mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20">What cloud adoption content do you need?</a><br>We are creating content for cloud adoption that spans multiple Microsoft cloud platforms and services. Let us know what you think about our cloud adoption content, or ask for specific content by sending email to cloudadopt@microsoft.com.</li>
+    <li><a href="https://aka.ms/caab">Join the cloud adoption discussion</a><br>If you are passionate about cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the CAAB (Cloud Adoption Advisory Board) space of the Microsoft Tech Community and send us a quick email at <a href="mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!">CAAB@microsoft.com</a>Anyone can read community-related content on the CAAB <a href="https://blogs.technet.com/b/solutions_advisory_board/">blog</a>. However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.</li>
+    <li><a href="mailto:cloudadopt@microsoft.com?subject=[Art%20Request]:%20">Get the art you see here</a><br>If you want an editable copy of the art you see in this article, we’ll be glad to send it to you. Email your request, including the URL and title of the art, to cloudadopt@microsoft.com</li>
 </ul>
