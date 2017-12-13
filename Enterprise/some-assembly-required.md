@@ -294,8 +294,6 @@ For cost information, click [here](http://azure.microsoft.com/pricing/details/ca
 
 - Manage data
     
-- 
-    
 ### Resources
 
 For additional information, click [here](http://azure.microsoft.com/services/virtual-machines/).

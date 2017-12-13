@@ -262,8 +262,6 @@ To learn more about Exchange Hybrid, see the following:
     
 - [Office 365 Sign in](https://aka.ms/HybridKey)
     
-- 
-    
 To learn more about Exchange Server on-premises, see the following:
   
 - [Exchange Server 2013 library on TechNet](https://aka.ms/Ex2013TN)

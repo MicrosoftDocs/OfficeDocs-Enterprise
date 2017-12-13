@@ -52,7 +52,7 @@ A cross-premises VNet has a site-to-site (S2S) VPN or ExpressRoute connection to
   
 Figure 2 shows a set of virtual machines in a cross-premises VNet, which is connected to an on-premises network.
   
-See the additional [Planning steps for a cross-premises VNet](designing-networking-for-microsoft-azure-iaas.md#) section in this article.
+See the additional [Planning steps for a cross-premises VNet](designing-networking-for-microsoft-azure-iaas.md#cross_prem) section in this article.
   
 ### Step 4: Determine the address space of the VNet.
 
