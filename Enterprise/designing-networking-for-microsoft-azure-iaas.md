@@ -107,12 +107,12 @@ Here are the steps and example of determining the gateway subnet address prefix:
 
 1. Decide on the size of the gateway subnet. For our example, we chose /28.
 2. Set the bits in the variable portion of the VNet address space (b) to 0 for the gateway subnet bits (G), otherwise 1 (V). For our example, we are using the 10.119.0.0/16 address space for the VNet.
-```
+<br/>
 10.119. bbbbbbbb . bbbbbbbb
 
 10.119. VVVVVVVV . VVVVGGGG
 10.119. 11111111 . 11110000
-```
+<br/>
 3. Convert the result from step 2 to decimal and express as an address space. For our example, 10.119. 11111111 . 11110000 is 10.119.255.240, and with the prefix lenght from step 1, (28 in our example), the resulting gateway subnet address prefix is 10.119.255.240/28.
   
 See [Address space calculator for Azure gateway subnets](https://gallery.technet.microsoft.com/scriptcenter/Address-prefix-calculator-a94b6eed) for more information.
