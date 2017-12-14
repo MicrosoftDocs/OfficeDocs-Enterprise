@@ -18,7 +18,7 @@ ms.author: JoeDavies-MSFT
 <h1>Enterprise Cloud Solutions</h1>
 <p>Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.</p>
 <p>The technical solutions to today’s business problems often involve multiple products and platforms. You can leverage your existing on-premises infrastructure while taking advantage of the flexibility and cost savings offered by Microsoft's cloud services and platforms. Our goal is to provide the necessary information to help you achieve your business goals using Microsoft products and services.</p>
-<ul class="cardsF">
+<ul class="cardsF panelContent">
     <li>
         <a class="card" href="/office365/enterprise/microsoft-cloud-it-architecture-resources" data-linktype="external"><img class="cardImage" alt="" src="https://docs.microsoft.com/en-us/media/common/i_cloud_it_architecture.svg" data-linktype="external">
             <div class="cardText" align="top">
