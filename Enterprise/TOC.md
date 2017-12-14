@@ -24,7 +24,7 @@
 #### [Hybrid cloud scenarios for Azure IaaS](hybrid-cloud-scenarios-for-azure-iaas.md)
 ### [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
 #### [Overview of the Contoso Corporation](overview-of-the-contoso-corporation.md)
-#### [Contoso’s IT infrastructure and needs](contoso’s-it-infrastructure-and-needs.md)
+#### [Contoso’s IT infrastructure and needs](contoso-it-infrastructure-and-needs.md)
 #### [Networking for the Contoso Corporation](networking-for-the-contoso-corporation.md)
 #### [Identity for the Contoso Corporation](identity-for-the-contoso-corporation.md)
 #### [Subscriptions, licenses, and user accounts for the Contoso Corporation](subscriptions-licenses-and-user-accounts-for-the-contoso-corporation.md)
