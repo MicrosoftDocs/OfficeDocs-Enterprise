@@ -15,17 +15,12 @@ ms.author: JoeDavies-MSFT
 
 ---  
 
-<h1>Enterprise Cloud Solutions</h1>
-<p>Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.</p>
-<p>The technical solutions to today’s business problems often involve multiple products and platforms. You can leverage your existing on-premises infrastructure while taking advantage of the flexibility and cost savings offered by Microsoft's cloud services and platforms. Our goal is to provide the necessary information to help you achieve your business goals using Microsoft products and services.</p>
-
 <div id="main" class="v2">
     <div class="container">
         <h1>Enterprise Cloud Solutions</h1>
+        <p>Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.</p>
+        <p>The technical solutions to today’s business problems often involve multiple products and platforms. You can leverage your existing on-premises infrastructure while taking advantage of the flexibility and cost savings offered by Microsoft's cloud services and platforms. Our goal is to provide the necessary information to help you achieve your business goals using Microsoft products and services.</p>
         <ul class="pivots">
-            <li>
-                <a href="#home"></a>
-                <ul id="home">
                     <li>
                         <a href="#cardtypes-F"></a>
                         <ul id="cardtypes-F" class="cardsF">
@@ -126,8 +121,6 @@ ms.author: JoeDavies-MSFT
                             </li>                            
                         </ul>
                     </li>
-                </ul>
-            </li>
         </ul>
     </div>
 </div>
