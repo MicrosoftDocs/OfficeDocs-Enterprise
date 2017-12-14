@@ -21,7 +21,7 @@ ms.author: JoeDavies-MSFT
 <ul class="cardsM cols cols2">
     <li>
         <a class="card" href="/office365/enterprise/microsoft-cloud-it-architecture-resources" data-linktype="external"><img class="cardImage" alt="" src="https://docs.microsoft.com/en-us/media/common/i_cloud_it_architecture.svg" data-linktype="external">
-            <div class="cardText">
+            <div class="cardText" align="top">
                 <h3>Cloud IT architecture resources</h3>
                 <p>Use these architecture tools and posters to learn about Microsoft Cloud services and platforms, including Office 365, Microsoft Azure, Microsoft Enterprise Mobility + Security (EMS)/Intune, Microsoft Dynamics 365, private cloud datacenter, and on-premises hybrid and cloud solutions.</p>
             </div>
@@ -29,7 +29,7 @@ ms.author: JoeDavies-MSFT
     </li>
     <li>
         <a class="card" href="/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync" data-linktype="external"><img class="cardImage" alt="" src="https://docs.microsoft.com/media/common/i_architecture.svg" data-linktype="external">
-            <div class="cardText">
+            <div class="cardText" align="top">
                 <h3>Architectural models</h3>
                 <p>Use these architectural models and deployment options for SharePoint, Exchange, Skype for Business, and Lync to determine your ideal platform and configuration.</p>
             </div>
@@ -37,7 +37,7 @@ ms.author: JoeDavies-MSFT
     </li>
     <li>
         <a class="card" href="/office365/enterprise/cloud-adoption-test-lab-guides-tlgs" data-linktype="external"><img class="cardImage" alt="" src="https://docs.microsoft.com/media/common/i_test.svg" data-linktype="external">
-            <div class="cardText">
+            <div class="cardText" align="top">
                 <h3>Test lab guides</h3>
                 <p>Use these cloud adoption Test Lab Guides (TLGs) to set up dev/test environments for Office 365, Azure, Enterprise Mobility + Security (EMS)/Intune, Dynamics 365, and Office Server products.</p>
             </div>
@@ -45,7 +45,7 @@ ms.author: JoeDavies-MSFT
     </li>
     <li>
         <a class="card" href="/office365/enterprise/hybrid-solutions" data-linktype="external"><img class="cardImage" alt="" src="https://docs.microsoft.com/en-us/media/common/i_hybrid.svg" data-linktype="external">
-            <div class="cardText">
+            <div class="cardText" align="top">
                 <h3>Hybrid solutions</h3>
                 <p>Learn how to deploy Office Server workloads in Azure infrastructure services.</p>
             </div>
@@ -53,7 +53,7 @@ ms.author: JoeDavies-MSFT
     </li>
     <li>
         <a class="card" href="/office365/enterprise/security-solutions" data-linktype="external"><img class="cardImage" alt="" src="https://docs.microsoft.com/media/common/i_cloud-security.svg" data-linktype="external">
-            <div class="cardText">
+            <div class="cardText" align="top">
                 <h3>Security solutions</h3>
                 <p>Learn how to deploy security solutions with Microsoft's cloud services and platforms.</p>
             </div>
