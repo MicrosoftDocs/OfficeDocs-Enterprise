@@ -36,7 +36,7 @@ See the following sections:
     
     The Contoso Corporation is a global conglomerate manufacturing, sales, and support organization with over 100,000 products.
     
-- [Contoso's IT infrastructure and needs](contoso’s-it-infrastructure-and-needs.md)
+- [Contoso's IT infrastructure and needs](contoso-it-infrastructure-and-needs.md)
     
     Contoso is transitioning from an on-premises, centralized IT infrastructure to a cloud-inclusive one that incorporates cloud-based personal productivity workloads, applications, and hybrid scenarios.
     
