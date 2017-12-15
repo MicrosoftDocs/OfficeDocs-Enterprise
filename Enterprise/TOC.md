@@ -32,7 +32,7 @@
 #### [Enterprise scenarios for the Contoso Corporation](enterprise-scenarios-for-the-contoso-corporation.md)
 ##### [Moving historical transaction data to the cloud](moving-historical-transaction-data-to-the-cloud.md)
 ##### [Secure SharePoint Online team sites for sensitive and highly confidential assets](secure-sharepoint-online-team-sites-for-sensitive-and-highly-confidential-assets.md)
-### [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft’s-cloud-offerings.md)
+### [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 ## [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
 ### [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
