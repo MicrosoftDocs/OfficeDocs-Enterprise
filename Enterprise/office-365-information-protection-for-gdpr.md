@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations"
 ms.author: bcarter
-author: bcarter
+author: brendacarter
 manager: laurawi
 ms.date: 12/15/2017
 ms.audience: ITPro
