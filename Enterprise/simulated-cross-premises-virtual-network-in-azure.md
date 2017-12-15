@@ -17,7 +17,7 @@ ms.custom:
 - Strat_O365_Enterprise
 - Ent_TLGs
 ms.assetid: 0a3555dc-6f96-49a5-b9e2-7760e16630b3
-description: "Summary: Create a simulated cross-premises virtual network in Microsoft Azure as a dev/test environment.."
+description: "Summary: Create a simulated cross-premises virtual network in Microsoft Azure as a dev/test environment."
 ---
 
 # Simulated cross-premises virtual network in Azure
