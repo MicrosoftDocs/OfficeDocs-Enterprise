@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations"
+title: "Office 365 Information Protection for GDPR"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
