@@ -1,5 +1,5 @@
 ---
-title: "Contoso's IT infrastructure and needs"
+title: Contoso's IT infrastructure and needs
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
