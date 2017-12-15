@@ -67,7 +67,6 @@
 ### [Using Microsoft Azure Active Directory for SharePoint 2013 authentication](using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md)
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
 ## [Security solutions](security-solutions.md)
-### [Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)
 ### [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
 #### [Configure groups and users for a political campaign dev/test environment](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
 #### [Create team sites in a political campaign dev/test environment](create-team-sites-in-a-political-campaign-dev-test-environment.md)
