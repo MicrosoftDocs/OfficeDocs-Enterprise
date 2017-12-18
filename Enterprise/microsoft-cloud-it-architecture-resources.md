@@ -53,8 +53,8 @@ These architecture tools and posters give you information about Microsoft cloud 
   
 Let us know what you think! Send us email at [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com). 
   
-## Microsoft's Enterprise Cloud Roadmap
 <a name="roadmap"> </a>
+## Microsoft's Enterprise Cloud Roadmap
 
 See the posters, icon sets, community venues, and other resources that describe the industry's most complete cloud solution.
   
