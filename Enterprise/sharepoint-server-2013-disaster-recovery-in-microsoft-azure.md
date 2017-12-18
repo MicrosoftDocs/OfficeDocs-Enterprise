@@ -1,7 +1,7 @@
 ---
 title: "SharePoint Server 2013 Disaster Recovery in Microsoft Azure"
 ms.author: bcarter
-author: bcarter
+author: brendacarter
 manager: laurawi
 ms.date: 12/15/2017
 ms.audience: ITPro
