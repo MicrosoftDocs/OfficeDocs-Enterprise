@@ -3,7 +3,7 @@ title: "Microsoft Cloud IT architecture resources"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 12/18/2017
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -62,8 +62,8 @@ See the posters, icon sets, community venues, and other resources that describe 
 |:-----|:-----|
 |[![Thumbnail for Enterprise Cloud Roadmap](images/c8b293b9-5992-4d29-b579-a6bbbd59d8d6.png)          ](https://aka.ms/cloudarchitecture) <br/> [Microsoft's Enterprise Cloud Roadmap](https://aka.ms/cloudarchitecture) (https://aka.ms/cloudarchitecture) <br/> |Swipe through this Sway experience for the resources that describe the industry's most complete cloud solution.  <br/> |
    
-## Microsoft Cloud for Enterprise Architects Series
 <a name="cloudarch"> </a>
+## Microsoft Cloud for Enterprise Architects Series
 
 These cloud architecture posters give you information about Microsoft cloud services and platforms, including Office 365, Microsoft Azure, Microsoft Intune, Microsoft Dynamics CRM Online, private cloud datacenter, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security.
   
