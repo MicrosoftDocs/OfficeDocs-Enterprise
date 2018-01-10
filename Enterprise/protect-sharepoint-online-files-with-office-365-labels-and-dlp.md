@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Top
 ms.custom:
-- DecEntMigration
 - Strat_O365_Enterprise
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3

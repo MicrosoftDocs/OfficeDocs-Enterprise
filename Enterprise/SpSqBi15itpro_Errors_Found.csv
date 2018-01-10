@@ -9,28 +9,28 @@ Warning,1c903173-67cd-47da-86d9-d333972dda80,Topic title:high-availability-feder
 Warning,b91124bc-c7ec-4929-b77c-d6293db9f15e,Topic title:accessible-diagramdesign-sample-internet-sites-in-microsoft-azure-for-sharepoint-2013 bigger then max length:80 new topic title name:accessible-diagramdesign-sample-internet-sites-in-microsoft-azure-for-sharepoint
 Warning,N/A,Sql Query:use [DDCMS_MOD_O15ITPRO] SELECT tkw.[topicGuid] as topicGuid,kwf.[keyword] as f1Keyword
                                         FROM [TopicKeywordsF] tkw join [dbo].[KeywordsF] kwf on tkw.[kwdGuid] = kwf.[kwdGuid]
-                                        INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                                        INNER JOIN [dbo].[Reportingic_WithShared] RS
                                         ON tkw.[topicGuid] = RS.[Topic ID]                               
                                         INNER JOIN Projects pro
                                         ON pro.[projectname]= RS.[Project Name]
                                         where RS.[Project Name] = 'SpSqBi15itpro' retuned no rows for project:SpSqBi15itpro server:ocpubcms for database:DDCMS_MOD_O15ITPRO
 Warning,N/A,Sql Query:use [DDCMS_MOD_O15ITPRO] SELECT RA.[Item ID] as topicGuid,RA.[Attribute Value] as attValue
-                              FROM [dbo].[Reporting_Topic_All_Attributes] RA
-                              INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                              FROM [dbo].[Reportingic_All_Attributes] RA
+                              INNER JOIN [dbo].[Reportingic_WithShared] RS
                               ON RA.[Item ID] = RS.[Topic ID]
                               INNER JOIN Projects pro
                               ON pro.[projectname] = RS.[Project Name]                              
                               where RA.[Attribute Name] = 'MtpsAlias' and RS.[Project Name] = 'SpSqBi15itpro'  retuned no rows for project:SpSqBi15itpro server:ocpubcms for database:DDCMS_MOD_O15ITPRO
 Warning,N/A,Sql Query:use [DDCMS_MOD_O15ITPRO] SELECT RA.[Item ID] as topicGuid,RA.[Attribute Value] as attValue
-                              FROM [dbo].[Reporting_Topic_All_Attributes] RA
-                              INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                              FROM [dbo].[Reportingic_All_Attributes] RA
+                              INNER JOIN [dbo].[Reportingic_WithShared] RS
                               ON RA.[Item ID] = RS.[Topic ID]
                               INNER JOIN Projects pro
                               ON pro.[projectname] = RS.[Project Name]                              
                               where RA.[Attribute Name] = 'Context Sensitive ID' and RS.[Project Name] = 'SpSqBi15itpro'  retuned no rows for project:SpSqBi15itpro server:ocpubcms for database:DDCMS_MOD_O15ITPRO
 Warning,N/A,Sql Query:use [DDCMS_MOD_O15ITPRO] SELECT tkw.[topicGuid] as topicGuid,kwf.[keyword] as f1Keyword
                                         FROM [dbo].[TopicKeywordsK] tkw join [dbo].[KeywordsK] kwf on tkw.[kwdGuid] = kwf.[kwdGuid]
-                                        INNER JOIN [dbo].[Reporting_Topic_WithShared] RS
+                                        INNER JOIN [dbo].[Reportingic_WithShared] RS
                                         ON tkw.[topicGuid] = RS.[Topic ID]   
                                         INNER JOIN Projects pro
                                         ON pro.[projectname] = RS.[Project Name]

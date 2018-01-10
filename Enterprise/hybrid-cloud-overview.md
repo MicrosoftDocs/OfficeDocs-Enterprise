@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
 - Ent_Architecture
 ms.assetid: 3ea3ee10-411e-4690-b9e5-f1b46f1f4d59
 description: "Summary: Understand the definition and elements of Microsoft hybrid cloud."

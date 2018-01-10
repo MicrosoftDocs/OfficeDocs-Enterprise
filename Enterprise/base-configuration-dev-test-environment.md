@@ -10,8 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
-- jan17entnews
+- 
 - Strat_O365_Enterprise
 - Ent_TLGs
 ms.assetid: 6fcbb50c-ac68-4be7-9fc5-dd0f275c1e3d

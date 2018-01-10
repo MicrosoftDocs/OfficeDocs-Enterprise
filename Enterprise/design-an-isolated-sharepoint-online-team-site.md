@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Top
 ms.custom:
-- DecEntMigration
 - Ent_Solutions
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: "Summary: Step through the design process for isolated SharePoint Online team sites."

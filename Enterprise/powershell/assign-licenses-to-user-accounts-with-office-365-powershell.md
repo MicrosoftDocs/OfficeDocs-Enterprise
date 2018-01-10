@@ -12,7 +12,6 @@ ms.collection: Ent_O365
 ms.custom:
 - Ent_Office_Other
 - LIL_Placement
-- DecEntMigration
 - PowerShell
 - O365ITProTrain
 ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be

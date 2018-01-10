@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
 - Ent_Architecture
 ms.assetid: 5f4f5d0d-4638-48e8-a517-bd804856b617
 description: "Summary: Understand the hybrid architecture and scenarios for Microsoft's Platform as a Service (PaaS)-based cloud offerings in Azure."

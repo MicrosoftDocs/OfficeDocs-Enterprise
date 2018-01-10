@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.custom:
 - PowerShell
 - Ent_Office_Other
-- DecEntMigration
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
 description: "Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell."
 ---

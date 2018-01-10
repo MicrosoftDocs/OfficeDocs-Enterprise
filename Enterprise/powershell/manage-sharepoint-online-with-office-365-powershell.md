@@ -12,7 +12,6 @@ ms.collection: Ent_O365
 ms.custom:
 - PowerShell
 - Ent_Office_Other
-- DecEntMigration
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: "Summary: Use Office 365 PowerShell to manage SharePoint Online users, groups, and site groups."
 ---

@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
 description: "Summary: Learn how to use Windows PowerShell to perform a cutover migration to Office 365."
 ---

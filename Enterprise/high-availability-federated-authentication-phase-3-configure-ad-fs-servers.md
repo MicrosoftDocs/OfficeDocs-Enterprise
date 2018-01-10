@@ -9,11 +9,8 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
-- Ent_O365_Hybrid_Top
 - Ent_O365
-- Ent_O365_Hybrid
 ms.custom:
-- DecEntMigration
 - Ent_Solutions
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
 description: "Summary: Create and configure the Active Directory Federation Services (AD FS) servers for your high availability federated authentication for Office 365 in Microsoft Azure."

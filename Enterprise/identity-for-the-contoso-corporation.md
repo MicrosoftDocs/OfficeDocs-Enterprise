@@ -10,7 +10,6 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
 - Ent_Architecture
 ms.assetid: 78a407e4-2d8b-4561-b308-b22c95f60eeb
 description: "Summary: Understand how Contoso takes advantage of IDaaS and provides geographically distributed and redundant authentication for its users."

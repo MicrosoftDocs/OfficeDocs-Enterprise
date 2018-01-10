@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
 description: "Summary: Use Windows PowerShell for Office 365 to manage your customer tenancies."
 ---

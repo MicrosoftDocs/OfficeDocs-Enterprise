@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
 - Ent_Office_Other
-- DecEntMigration
 - PowerShell
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
 description: "Explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts."

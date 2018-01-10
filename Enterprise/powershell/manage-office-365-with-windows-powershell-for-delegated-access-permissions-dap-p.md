@@ -9,7 +9,7 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
 description: "Summary: Syndication and Cloud Solution Provider (CSP) partners can use Windows PowerShell to manage Office 365 customer tenants."
 ---

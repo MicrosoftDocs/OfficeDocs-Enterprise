@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
 - Ent_Office_Other
-- DecEntMigration
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
 description: "Summary: Find Office 365 PowerShell cmdlet reference topics for Azure Active Directory, Exchange Online, SharePoint Online, and Skype for Business Online."
 ---

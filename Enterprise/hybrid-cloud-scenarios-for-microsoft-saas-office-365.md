@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
 - Ent_Architecture
 ms.assetid: db117e59-389f-46f5-a5df-4eeac0040aa8
 description: "Summary: Understand the hybrid architecture and scenarios for Microsoft's SaaS-based cloud offerings (Office 365)."

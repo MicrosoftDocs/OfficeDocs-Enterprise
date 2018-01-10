@@ -1,15 +1,16 @@
 ---
 title: Enterprise Cloud Solutions
 description: Solve business problems by using the Microsoft Cloud. Find information on the latest hybrid and security cloud solutions, cloud adoption, and more.
-services: o365-solutions
 author: JoeDavies-MSFT
 manager: laurawi
 layout: LandingPage
 ms.assetid: 
 ms.service: o365-solutions
-ms.tgt_pltfrm: na
-ms.devlang: na
 ms.topic: landing-page
+ms.service: o365-solutions
+localization_priority: Normal
+ms.collection:
+- Ent_O365
 ms.date: 12/13/2017
 ms.author: JoeDavies-MSFT
 

@@ -10,12 +10,7 @@ ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
 - Ent_O365
-- Ent_O365_Top
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
-- jan17entnews
-- mar17secnews
 - Strat_O365_Enterprise
 - Ent_Architecture
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16

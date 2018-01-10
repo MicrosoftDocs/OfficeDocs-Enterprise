@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Top
 ms.custom:
-- DecEntMigration
 - Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: "Summary: Manage your isolated SharePoint Online team site with these procedures."

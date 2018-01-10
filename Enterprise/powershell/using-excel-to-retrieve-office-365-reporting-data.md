@@ -10,7 +10,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 510d5528-ac00-4f54-9d38-75fa043d0a06

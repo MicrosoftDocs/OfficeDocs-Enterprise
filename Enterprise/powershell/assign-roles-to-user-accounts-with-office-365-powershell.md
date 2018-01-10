@@ -10,7 +10,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
 - O365ITProTrain
 - PowerShell
 - Ent_Office_Other

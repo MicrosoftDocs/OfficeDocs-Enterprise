@@ -9,7 +9,7 @@ ms.topic: hub-page
 ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: "Summary: Use Office 365 PowerShell to manage Skype for Business Online policies, per-user policies, and meeting settings."
 ---

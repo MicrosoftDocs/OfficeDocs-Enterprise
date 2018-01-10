@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: 893e5275-30b3-433f-8ecd-644f78f513e2
 description: "Summary: Use remoteWindows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants."
 ---

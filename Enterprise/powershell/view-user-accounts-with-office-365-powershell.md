@@ -12,9 +12,7 @@ ms.collection: Ent_O365
 ms.custom:
 - LIL_Placement
 - PowerShell
-- apr17entnews
 - Ent_Office_Other
-- DecEntMigration
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 
 description: "Summary: View, list, or display your user accounts in various ways with Office 365 PowerShell."

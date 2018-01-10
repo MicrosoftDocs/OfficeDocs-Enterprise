@@ -5,12 +5,11 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
 ms.audience: ITPro
-ms.topic: concetpual
+ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
 - Ent_Architecture
 ms.assetid: 83e2859a-c673-47c4-880a-01cdfdadb93e
 description: "Summary: Understand how cloud adoption requires a new approach to network infrastructure investments."

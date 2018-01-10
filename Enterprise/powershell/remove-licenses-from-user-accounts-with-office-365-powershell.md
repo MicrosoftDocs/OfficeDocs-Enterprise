@@ -14,7 +14,6 @@ ms.custom:
 - Ent_Office_Other
 - LIL_Placement
 - O365ITProTrain
-- DecEntMigration
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
 
 description: "Explains how to use Office 365 PowerShell to remove Office 365 licenses that were previously assigned to users."

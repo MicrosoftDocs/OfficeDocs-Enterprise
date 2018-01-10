@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: a20f9dbd-6102-4ffa-b72c-ff813e700930
 
 description: "Summary: Learn how to use Windows PowerShell to perform a staged migration to Office 365."
