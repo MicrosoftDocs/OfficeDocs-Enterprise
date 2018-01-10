@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365
 ms.custom:
-- 
 - Strat_O365_Enterprise
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad

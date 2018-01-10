@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365
 ms.custom:
-- 
 - Strat_O365_Enterprise
 - Ent_Solutions
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
