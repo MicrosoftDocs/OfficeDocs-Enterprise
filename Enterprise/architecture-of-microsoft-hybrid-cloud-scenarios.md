@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365
 ms.custom:
-- 
 - Ent_Architecture
 ms.assetid: 06d8c959-39e5-4150-b1ae-aaf0eee4c058
 description: "Summary: Understand the architecture of Microsoft's hybrid cloud offerings."

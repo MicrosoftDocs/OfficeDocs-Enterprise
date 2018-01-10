@@ -10,7 +10,6 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- 
 - Ent_Architecture
 ms.assetid: 5d6a58b8-bec3-4629-9737-8733c7b7ec92
 description: "Summary: Understand the basic structure of Contoso's on-premises IT infrastructure and how its business needs can be met by Microsoft's cloud offerings."
