@@ -72,12 +72,12 @@ In the following commands, the example text file is C:\My Documents\Accounts.txt
 To block access to the accounts listed in the text file, run the following command:
     
   ```
-  Get-Content "C:\My Documents\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $true
+  Get-Content Accounts.txt | ForEach { Set-MsolUser -UserPrincipalName $_ -BlockCredential $true }
   ```
 To unblock the accounts listed in the text file, run the following command:
     
   ```
-  Get-Content "C:\My Documents\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $false
+  Get-Content Accounts.txt | ForEach { Set-MsolUser -UserPrincipalName $_ -BlockCredential $false }
   ```
 
 ## Use the Azure Active Directory V2 PowerShell module to block access to user accounts
@@ -147,13 +147,13 @@ In the following commands, the example text file is C:\My Documents\Accounts.txt
 To block access to the accounts listed in the text file, run the following command:
     
 ```
-Get-Content "C:\My Documents\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $true
+Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-​AzureADUSer -ObjectID $_ -AccountEnabled $false }
 ```
 
 To unblock the accounts listed in the text file, run the following command:
     
 ```
-Get-Content "C:\My Documents\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $false
+Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-​AzureADUSer -ObjectID $_ -AccountEnabled $true }
 ```
 
 ## See also
