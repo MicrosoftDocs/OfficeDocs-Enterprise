@@ -3,7 +3,7 @@ title: "Block user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 01/10/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -11,7 +11,6 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
 - Ent_Office_Other
-- DecEntMigration
 - PowerShell
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
 description: "Explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts."
@@ -73,12 +72,12 @@ In the following commands, the example text file is C:\My Documents\Accounts.txt
 To block access to the accounts listed in the text file, run the following command:
     
   ```
-  Get-Content "C:\My Documents\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $true
+  Get-Content Accounts.txt | ForEach { Set-MsolUser -UserPrincipalName $_ -BlockCredential $true }
   ```
 To unblock the accounts listed in the text file, run the following command:
     
   ```
-  Get-Content "C:\My Documents\Accounts.txt" | Set-MsolUser -UserPrincipalName $_.UserPrincipalName -BlockCredential $false
+  Get-Content Accounts.txt | ForEach { Set-MsolUser -UserPrincipalName $_ -BlockCredential $false }
   ```
 
 ## Use the Azure Active Directory V2 PowerShell module to block access to user accounts
@@ -148,13 +147,13 @@ In the following commands, the example text file is C:\My Documents\Accounts.txt
 To block access to the accounts listed in the text file, run the following command:
     
 ```
-Get-Content "C:\My Documents\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $true
+Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-​AzureADUSer -ObjectID $_ -AccountEnabled $false }
 ```
 
 To unblock the accounts listed in the text file, run the following command:
     
 ```
-Get-Content "C:\My Documents\Accounts.txt" | Set-​AzureADUSer -ObjectID $_.ObjectID -AccountEnabled $false
+Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-​AzureADUSer -ObjectID $_ -AccountEnabled $true }
 ```
 
 ## See also

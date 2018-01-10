@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: 8d751419-d81b-4eb7-a2e5-8b03ccbf670c
 
 description: "Summary: Learn how to automate file collection from user computers for eDiscovery."

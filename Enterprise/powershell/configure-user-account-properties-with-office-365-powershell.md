@@ -10,11 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
 - O365ITProTrain
 - Ent_Office_Other
 - PowerShell
-- apr17entnews
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: "Summary: Use Office 365 PowerShell to configure properties of individual or multiple user accounts in your Office 365 tenant."
 ---

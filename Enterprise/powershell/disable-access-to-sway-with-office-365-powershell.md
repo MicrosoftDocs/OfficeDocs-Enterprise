@@ -12,7 +12,6 @@ ms.collection: Ent_O365
 ms.custom:
 - PowerShell
 - Ent_Office_Other
-- DecEntMigration
 ms.assetid: 7221a4c9-ae03-4598-81fe-a655c02f40ab
 description: "Learn where to download the ManageSway.ps1 PowerShell script that allows you to disable access to Sway in your Office 365 organization."
 ---

@@ -10,10 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Hybrid
-- Ent_O365_Top
 ms.custom:
-- DecEntMigration
 - Strat_O365_Enterprise
 - TLG
 - Ent_TLGs

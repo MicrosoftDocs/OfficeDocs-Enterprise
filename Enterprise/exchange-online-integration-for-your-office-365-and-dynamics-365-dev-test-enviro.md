@@ -10,12 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Hybrid
-- Ent_O365_Top
 ms.custom:
-- apr17entnews
-- DecEntMigration
-- mar17entnews
 - Ent_TLGs
 ms.assetid: 499c5823-427a-4ba2-8fc1-9553bc2ff2d3
 description: "Summary: Use this Test Lab Guide to enable Dynamics 365 integration for Exchange Online in your Office 365 trial subscription."

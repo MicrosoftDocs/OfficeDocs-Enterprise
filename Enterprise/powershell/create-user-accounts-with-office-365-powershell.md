@@ -11,9 +11,7 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
 - PowerShell
-- apr17entnews
 - Ent_Office_Other
-- DecEntMigration
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
 description: "Learn how to use Office 365 PowerShell to create user accounts in Office 365."

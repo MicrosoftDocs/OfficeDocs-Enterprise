@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: DecEntMigration
+ms.custom: 
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
 description: "Summary: Use Office 365 PowerShell to manage your Skype for Business Online user account properties with policies."
 ---

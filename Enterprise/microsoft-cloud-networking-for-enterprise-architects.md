@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
 - Ent_O365
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
 - Strat_O365_Enterprise
 - Ent_Architecture
 ms.assetid: 13c71689-59a9-4cdf-8175-808a20c1e879

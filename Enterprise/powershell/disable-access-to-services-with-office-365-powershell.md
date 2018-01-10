@@ -13,7 +13,6 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 - LIL_Placement
-- DecEntMigration
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
 
 description: "Explains how to use Office 365 PowerShell to add or remove access to Office 365 services for users in your organization."

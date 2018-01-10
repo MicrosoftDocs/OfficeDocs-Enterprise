@@ -12,7 +12,6 @@ ms.collection: Ent_O365
 ms.custom:
 - PowerShell
 - Ent_Office_Other
-- DecEntMigration
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
 description: "Summary: Understand the importance of Office 365 PowerShell, get connected to your Office 365 tenant, and get help."
 ---

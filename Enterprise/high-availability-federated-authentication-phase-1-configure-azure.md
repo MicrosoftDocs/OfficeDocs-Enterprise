@@ -10,10 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Hybrid
-- Ent_O365_Hybrid_Top
 ms.custom:
-- DecEntMigration
 - Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
 description: "Summary: Configure the Microsoft Azure infrastructure to host high availability federated authentication for Office 365."

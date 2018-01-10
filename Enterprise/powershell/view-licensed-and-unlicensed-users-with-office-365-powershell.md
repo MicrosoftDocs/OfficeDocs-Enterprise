@@ -12,7 +12,6 @@ ms.collection: Ent_O365
 ms.custom:
 - O365ITProTrain
 - Ent_Office_Other
-- DecEntMigration
 - PowerShell
 ms.assetid: e4ee53ed-ed36-4993-89f4-5bec11031435
 description: "Explains how to use Office 365 PowerShell to view licensed and unlicensed user accounts."

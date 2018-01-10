@@ -10,9 +10,7 @@ ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
 - Ent_O365
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
 - O365ITProTrain
 - Strat_O365_Enterprise
 - Ent_Architecture

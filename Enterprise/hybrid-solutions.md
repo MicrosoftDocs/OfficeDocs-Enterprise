@@ -10,10 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Top
-- Ent_O365_Visuals
 ms.custom:
-- DecEntMigration
 - Ent_Solutions
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
 description: "Summary: Use these articles to deploy Office Server workloads in Microsoft Azure."

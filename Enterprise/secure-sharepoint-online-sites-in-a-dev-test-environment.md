@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.custom:
-- DecEntMigration
 - Strat_O365_Enterprise
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: "Summary: Create public, private, sensitive, and highly confidential SharePoint Online team sites in a dev/test environment."

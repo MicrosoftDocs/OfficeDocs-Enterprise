@@ -10,7 +10,6 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom:
-- DecEntMigration
 - Ent_Architecture
 ms.assetid: 8f6f9894-5394-4110-8b0a-b8765028c10b
 description: "Summary: Understand how Contoso mapped their security requirements to features in Microsoft's cloud offerings and determined a path to cloud security readiness."

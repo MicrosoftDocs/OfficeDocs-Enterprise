@@ -10,11 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection:
 - Ent_O365
-- Ent_O365_Hybrid
-- Ent_O365_Top
 ms.custom:
-- DecEntMigration
-- mar17entnews
 - TLG
 - Ent_TLGs
 ms.assetid: e2b354b9-7f18-4da0-9107-6245eae0f33f
