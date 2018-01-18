@@ -500,10 +500,8 @@ As for your connection to Office 365, although there's a **Connect-MsolService**
 ## New to Office 365?
 <a name="LongVersion"> </a>
 
-||
-|:-----|
-|![The short icon for LinkedIn Learning](images/d547e1cb-7c66-422b-85be-7e7db2a9cf97.png) **New to Office 365?**         Discover free video courses for [Office 365 admins and IT pros](https://support.office.com/article/Office-365-admin-and-IT-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5), brought to you by LinkedIn Learning. |
-   
+[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+
 ## See also
 
 #### 
