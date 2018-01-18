@@ -500,7 +500,7 @@ As for your connection to Office 365, although there's a **Connect-MsolService**
 ## New to Office 365?
 <a name="LongVersion"> </a>
 
-[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
 ## See also
 

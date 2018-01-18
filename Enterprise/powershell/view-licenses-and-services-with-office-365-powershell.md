@@ -92,7 +92,7 @@ This example shows the Office 365 services that are available in the  litwareinc
 ## New to Office 365?
 <a name="ShortVersion"> </a>
 
-[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## See also
 <a name="ShortVersion"> </a>

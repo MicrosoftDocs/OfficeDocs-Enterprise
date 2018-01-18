@@ -164,6 +164,6 @@ For more information about the cmdlets that are used in these procedures, see th
     
 ## New to Office 365?
 
-[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 

@@ -289,7 +289,7 @@ That command will issue Belinda Newman a new license, but a license in which Sky
 ## New to Office 365?
 <a name="LongVersion"> </a>
 
-[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
    
 ## See also
 <a name="SeeAlso"> </a>

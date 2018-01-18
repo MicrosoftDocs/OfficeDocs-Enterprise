@@ -220,7 +220,7 @@ Get-MsolUser -All | Where-Object {$_.UsageLocation -eq $null}
   
 ## New to Office 365?
 
-[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
 ## See Also
 <a name="SeeAlso"> </a>

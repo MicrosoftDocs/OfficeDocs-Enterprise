@@ -252,7 +252,7 @@ This command instructs Office 365 PowerShell to:
     
 ## New to Office 365?
 
-[!INCLUDE [LinkedIn Learning Info](common/office/linkedin-learning-info.md)]
+[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
   
 ## See also
 
