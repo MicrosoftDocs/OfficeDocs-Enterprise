@@ -17,7 +17,7 @@ description: "Learn about three tools you can use to monitor for leaks of person
 
 There are many tools that can be used to monitor the use and transport of personal data. This topic describes three tools that work well.
 
-![](media/image1.png)
+![Tools to monitor the use and transport of personaal data](Media/Monitor-for-leaks-of-personal-data_image1.png)
 
 In the illustration:
 
@@ -52,7 +52,7 @@ DLP reports are in Security and Compliance center. Navigate to Reports \> View r
 
 For more information, see [View the reports for data loss prevention](https://support.office.com/en-us/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
 
-![](media/image2.png)
+![Report showing DLP policy matches](Media/Monitor-for-leaks-of-personal-data_image2.png)
 
 Office 365 audit log and alert policies
 =======================================
@@ -113,7 +113,7 @@ If you haven’t yet started to use Cloud App Security, begin by starting it up.
 
 Note: Be sure to enable ‘Automatically scan files for Azure Information Protection classification labels’ (in General settings) when getting started with Cloud App Security or before you assign labels. After setup, Cloud App Security does not scan existing files again until they are modified.
 
-![](media/image4.png)
+![Dashboard showing information about alerts](Media/Monitor-for-leaks-of-personal-data_image4.png)
 
 More information:
 
