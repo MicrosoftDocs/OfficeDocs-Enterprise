@@ -70,7 +70,7 @@
 ### [Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)
 #### [Overview: Office 365 Information Protection for GDPR](office-365-info-protection-for-gdpr-overview.md)
 #### [Search for and find personal data](search-for-and-find-personal-data.md)
-#### [Customize or create new sensitive information types for GDPR](customize-or-create-new-sensitive-info-types-for-gdpr.md)
+#### [Customize or create new sensitive information types for GDPR](customize-or-create-a-new-sensitive-information-type.md)
 #### [Architect a classification schema for personal data](architect-a-classification-schema-for-personal-data.md)
 #### [Apply labels to personal data in Office 365](apply-labels-to-personal-data-in-office-365.md)
 #### [Apply protection to personal data in Office 365](apply-protection-to-personal-data-in-office-365.md)
