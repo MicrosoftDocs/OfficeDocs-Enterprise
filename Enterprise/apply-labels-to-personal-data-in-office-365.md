@@ -26,7 +26,7 @@ At this time, using Azure Information Protection to apply Azure RMS encryption i
 
 Azure Information Protection labels can be applied to mail in Exchange Online and these labels work with Office 365 data loss prevention. Coming soon with the unified classification and labeling engine you will be able to use the same labels for email and files, including automatically labeling and protecting email in transit.
 
-![](media/image1.png)
+![Office 365 labels and Azure Information Protection labels](Media/Apply-labels-to-personal-data-in-Office-365_image1.png)
 
 In the illustration:
 
@@ -41,7 +41,7 @@ Use Office labels and sensitive information types across Microsoft 365 for infor
 
 The following illustration shows how Office labels and Sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
 
-![](media/image2.png)
+![Office labels and sensitive information types](Media/Apply-labels-to-personal-data-in-Office-365_image2.png)
 
 For accessibility, the following table provides the same examples in the illustration.
 
@@ -184,7 +184,7 @@ Create labels and policies in Security and Compliance Center.
 
 The following illustration shows how to create an auto-apply label for the Customer data label.
 
-![](media/image3.png)
+![Create and apply a label for customer data](Media/Apply-labels-to-personal-data-in-Office-365_image3.png)
 
 In the illustration:
 
