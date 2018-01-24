@@ -37,7 +37,7 @@ Step 1 — Use Compliance Manager to view the regulation requirements and track 
 
 Compliance Manager provides tools to track, implement, and manage the auditing controls to help your organization reach compliance against various standards, including GDPR.
 
-![](media/image1.png)
+![Use Compliance Manager to view requirements and track progress](Media/Overview_image1.png)
 
 Step 2 — Use Content Search and sensitive information types to find personal data 
 ----------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ Discover personal data in your environment that is subject to the GDPR. Use Cont
 
 -   Optimize sensitive data types and other queries to find all personal data in your environment.
 
-![](media/image2.png)
+![Use Content Search and sensitive info types to find personal data](Media/Overview_image2.png)
 
 Sensitive information types define how the automated process recognizes specific information types such as health service numbers and credit card numbers.
 
@@ -59,7 +59,7 @@ Classify, protect, and monitor personal data in Office 365 and other SaaS apps
 
 Some of the capabilities used for information protection in Office 365 can also be used to protect sensitive data in other SaaS applications.
 
-![](media/image3.png)
+![Classify, protect, and monitor personal data](Media/Overview_image3.png)
 
 This illustration is described by the rest of this section.
 
