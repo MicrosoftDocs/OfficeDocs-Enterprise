@@ -102,7 +102,7 @@ The following figure illustrates these three elements.
   
 **Figure: Elements of a warm standby solution in Azure**
 
-![Elements of a SharePoint warm standby solution in Azure](images/AZarch_AZWarmStndby.png)
+![Elements of a SharePoint warm standby solution in Azure](images/AZarch_AZWarmStndby.gif)
   
 SQL Server log shipping with Distributed File System Replication (DFSR) is used to copy database backups and transaction logs to the recovery farm in Azure: 
   
