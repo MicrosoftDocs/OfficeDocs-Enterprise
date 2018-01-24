@@ -34,7 +34,7 @@ With DLP, you can:
 
 For more information, see [Overview of data loss prevention policies](https://support.office.com/en-us/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e).
 
-![](media/image1.png)
+![Options for creating a Data Loss Prevention policy](Media/Apply-protection-to-personal-data-in-Office-365_image1.png)
 
 This illustration shows the options for creating a DLP policy:
 
@@ -164,7 +164,7 @@ Sensitive information types, labels, and data loss protection policies help you 
 
 The following illustration details additional protection you can apply to protect access to personal data.
 
-![](media/image2.png)
+![Additional protection to protect access to personal data](Media/Apply-protection-to-personal-data-in-Office-365_image2.png)
 
 For accessibility, the following table provides the same information in the illustration.
 
@@ -216,7 +216,7 @@ Permissions for SharePoint and OneDrive for Business libraries
 
 Use permissions in SharePoint to provide or restrict user access to the site or its contents. Add individual users or Azure Active Directory groups to the default SharePoint groups. Or, create a custom group for finer-grain control.
 
-![](media/image3.png)
+![Permission levels from full control to view only](Media/Apply-protection-to-personal-data-in-Office-365_image3.png)
 
 The illustration plots permission levels from Full control to View Only. The following table includes the same information.
 
@@ -365,7 +365,7 @@ For hybrid identity environments with AD FS, see [Recommended security policies 
 
 The following illustration describes how cloud services (SaaS, PaaS), account types (tenant domain accounts vs. B2B accounts) and service access capabilities relate. It’s important to note which capabilities can also be used with B2B accounts.
 
-![](media/image4.png)
+![Cloud services, account types, and access capabilities](Media/Apply-protection-to-personal-data-in-Office-365_image4.png)
 
 For accessibility, the rest of this section describes this illustration.
 
