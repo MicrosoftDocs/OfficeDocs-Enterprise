@@ -26,7 +26,7 @@ You can take one of two approaches for classification in Office 365 for personal
 
 Choose one of the following options.
 
-### Use only Office 365 sensitive information types
+### Option 1: Use only Office 365 sensitive information types
 
 -   Sensitive information types work well to identify and protect personal data subject to GDPR and other types of regulations.
 
@@ -36,7 +36,7 @@ Choose one of the following options.
 
 -   In the future these will work with Cloud App Security so you can detect sensitive information in other SaaS apps.
 
-### Use sensitive information types + Office labels
+### Option 2: Use sensitive information types + Office labels
 
 -   You’ll need sensitive information types to automatically apply labels to personal data that is subject to GDPR, so these are a prerequisite.
 
@@ -51,7 +51,7 @@ Before using technical capabilities to apply labels and protection, first work a
 
 ### Getting started
 
-Begin by deciding on the number and names of labels to implement. Do this activity without worrying about which technology to use and how labels will be applied. This schema should be applied universally throughout your organization, including data that resides on premises and in other cloud services.
+Begin by deciding on the number and names of labels to implement. Do this activity without worrying about which technology to use and how labels will be applied. Apply this schema universally throughout your organization, including data that resides on premises and in other cloud services.
 
 ### Recommendations 
 

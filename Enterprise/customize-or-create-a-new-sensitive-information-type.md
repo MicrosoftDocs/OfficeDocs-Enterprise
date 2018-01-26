@@ -34,9 +34,9 @@ Modify a sensitive information type to improve accuracy
 
 If you’re using Content Search to search for personal data using sensitive information types and you’re not returning the expected results, or the query returns too many false positives, consider modifying the sensitive information type to work better with your environment.
 
-The best practice when creating or customizing a sensitive data type is to create a new sensitive data type based on an existing one, giving it a unique name and identifiers. For example, if you wish to adjust the parameters of the “EU Debit Card Number” sensitive data type, you could name your copy of that rule “EU Debit Card Enhanced” to distinguish it from the original.
+The best practice when creating or customizing a sensitive information type is to create a new sensitive information type based on an existing one, giving it a unique name and identifiers. For example, if you wish to adjust the parameters of the “EU Debit Card Number” sensitive information type, you could name your copy of that rule “EU Debit Card Enhanced” to distinguish it from the original.
 
-In your new sensitive data type, simply modify the values you wish to change to improve its accuracy. Once complete, upload your new sensitive data type and create a new DLP rule (or modify an existing one) to use the new sensitive data type you just added. Modifying the accuracy of sensitive data types might require some trial and error, so maintaining a copy of the original type allows you to fall back to it if required in the future.
+In your new sensitive information type, simply modify the values you wish to change to improve its accuracy. Once complete, upload your new sensitive information type and create a new DLP rule (or modify an existing one) to use the new sensitive information type you just added. Modifying the accuracy of sensitive information types might require some trial and error, so maintaining a copy of the original type allows you to fall back to it if required in the future.
 
 To customize a sensitive information type:
 
@@ -52,11 +52,11 @@ To customize a sensitive information type:
 
 6.  Tune the match requirements to improve accuracy.
 
-    1.  Proximity modifications — Modify the character pattern proximity to expand or shrink the window in which keywords must be found around the sensitive data type.
+    1.  Proximity modifications — Modify the character pattern proximity to expand or shrink the window in which keywords must be found around the sensitive information type.
 
-    2.  Keyword modifications — Add keywords to one of the \<Keywords\> element in order to provide our sensitive data type more specific corroborative evidence to search for in order to signal a match on this rule. Or remove keywords that are causing false positives.
+    2.  Keyword modifications — Add keywords to one of the \<Keywords\> element in order to provide our sensitive information type more specific corroborative evidence to search for in order to signal a match on this rule. Or remove keywords that are causing false positives.
 
-    3.  Confidence modifications — Modify the confidence with which the sensitive data type must match the criteria specified in its definition before a match is signaled and reported.
+    3.  Confidence modifications — Modify the confidence with which the sensitive information type must match the criteria specified in its definition before a match is signaled and reported.
 
 7.  Upload the new sensitive information type.
 
@@ -67,11 +67,11 @@ Example: modify the ‘EU Debit Card Number’ sensitive information type
 
 Improving the accuracy of DLP rules in any system requires testing against a sample data set, and may require fine tuning through repetitive modifications and tests. This example demonstrates modifications to the ‘EU Debit Card Number’ sensitive information type to improve its accuracy.
 
-When searching for an EU Debit Card Number in our example, the definition of that number is strictly defined as 16 digits using a complex pattern, and being subject to the validation of a checksum. We cannot alter this pattern due to the string definition of this sensitive data type. However, we can make the following adjustments to improve the accuracy of how Office 365 DLP finds this sensitive data type within Office 365.
+When searching for an EU Debit Card Number in our example, the definition of that number is strictly defined as 16 digits using a complex pattern, and being subject to the validation of a checksum. We cannot alter this pattern due to the string definition of this sensitive information type. However, we can make the following adjustments to improve the accuracy of how Office 365 DLP finds this sensitive information type within Office 365.
 
 ### Proximity modification
 
-We'll shrink the window by modifying the patternProximity value in our \<Entity\> element from 300 to 150 characters. This means that our corroborative evidence, or our keywords, must be closer to our sensitive data type in order to signal a match on this rule.
+We'll shrink the window by modifying the patternProximity value in our \<Entity\> element from 300 to 150 characters. This means that our corroborative evidence, or our keywords, must be closer to our sensitive information type in order to signal a match on this rule.
 
 \<Entity id="48da7072-821e-4804-9fab-72ffb48f6f78" patternsProximity="150" recommendedConfidence="85"\>
 
@@ -101,7 +101,7 @@ Some keywords might cause false positives to occur. As a result you might want t
 
 ### Confidence modifications
 
-If you remove keywords from the definition, you would typically want to adjust how confident you are that this sensitive data type was found by lowering this value. The default level for EU Debit Card Number type is 85.
+If you remove keywords from the definition, you would typically want to adjust how confident you are that this sensitive information type was found by lowering this value. The default level for EU Debit Card Number type is 85.
 
 \<Entity id="48da7072-821e-4804-9fab-72ffb48f6f78" patternsProximity="150" recommendedConfidence="85"\>
 
@@ -129,7 +129,7 @@ Note: Many new sensitive information types are coming soon for personal data in 
 Step 1 — Use KQL queries and key words to find additional data in your environment
 ----------------------------------------------------------------------------------
 
-You might need to create additional queries to find personal data that is subject to GDPR. Content Search uses Keyword Query Language (KQL) to find data. Most sensitive data can’t be accurately detected using just KQL without sensitive data types. So the goal is to test and optimize KQL strings using Content Search and then use these to create and tune new sensitive data types where you can achieve even greater accuracy.
+You might need to create additional queries to find personal data that is subject to GDPR. Content Search uses Keyword Query Language (KQL) to find data. Most sensitive data can’t be accurately detected using just KQL without sensitive information types. So the goal is to test and optimize KQL strings using Content Search and then use these to create and tune new sensitive information types where you can achieve even greater accuracy.
 
 Use these resources to formulate and optimize queries using KQL:
 
@@ -137,7 +137,7 @@ Use these resources to formulate and optimize queries using KQL:
 
 -   [Run a Content Search in the Office 365 Security & Compliance Center](Run%20a%20Content%20Search%20in%20the%20Office%20365%20Security%20&%20Compliance%20Center) 
 
-Content Search provides another resource to help you develop KQL queries and sensitive data types — keywords. Why use the keyword list? You can get statistics that show how many items match each keyword. This can help you quickly identify which keywords are the most (and least) effective. For more information about search statistics, see [View keyword statistics for Content Search results](https://support.office.com/en-us/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
+Content Search provides another resource to help you develop KQL queries and sensitive information types — keywords. Why use the keyword list? You can get statistics that show how many items match each keyword. This can help you quickly identify which keywords are the most (and least) effective. For more information about search statistics, see [View keyword statistics for Content Search results](https://support.office.com/en-us/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04).
 
 Keywords on each row are connected by the OR operator in the search query that's created. You can also use a keyword phrase (surrounded by parentheses) in a row.
 
@@ -148,7 +148,7 @@ Example—Using Content Search to identify email addresses
 
 Email addresses are considered sensitive information related to data subjects. This is a simple example to demonstrate how Content Search can help.
 
-KQL and keywords can’t be used together. Use these tools separately to hone your query and determine keywords that might be useful in sensitive data types.
+KQL and keywords can’t be used together. Use these tools separately to hone your query and determine keywords that might be useful in sensitive information types.
 
 ### KQL query
 
@@ -185,7 +185,7 @@ Step 2 — Create a new custom sensitive information type
 
 After using KQL queries and keywords to identify sensitive information, use these to create new custom sensitive information types. In many cases, you’ll require the sophistication of sensitive information types to achieve the right level of accuracy. You can then use these custom sensitive information types with Content Search, in DLP policies and other tools, and within other KQL queries.
 
-The best practice is to create a new sensitive data type based on an existing one. Use the same process described earlier in this article.
+The best practice is to create a new sensitive information type based on an existing one. Use the same process described earlier in this article.
 
 Example — Create a new sensitive information for email addresses 
 -----------------------------------------------------------------
@@ -204,7 +204,7 @@ We’ll continue with the email address as an example because it’s simple. The
 <tr class="odd">
 <td align="left">1</td>
 <td align="left"><p>Set the IdRef property</p>
-<p>Within the &lt;Entity&gt; element, modify the &lt;IdMatch&gt; element so that its idRef property is = to a unique value, for example IdRef=&quot;Regex_email_address&quot;. This value will point to an element that defines our regular expression to find email addresses.</p></td>
+<p>Within the &lt;Entity&gt; element, modify the &lt;IdMatch&gt; element so that its idRef property is = to a unique value. This value will point to an element that defines our regular expression to find email addresses.</p></td>
 <td align="left">IdRef=&quot;Regex_email_address&quot;</td>
 </tr>
 <tr class="even">
@@ -250,7 +250,7 @@ We’ll continue with the email address as an example because it’s simple. The
 <tr class="even">
 <td align="left">6</td>
 <td align="left"><p>LocalizedStrings element</p>
-<p>In the &lt;LocalizedStrings&gt;&lt;Resource&gt; element ensure that you have a unique name that identifies your sensitive data type.</p></td>
+<p>In the &lt;LocalizedStrings&gt;&lt;Resource&gt; element ensure that you have a unique name that identifies your sensitive information type.</p></td>
 <td align="left"><p>&lt;LocalizedStrings&gt;</p>
 <p>&lt;Resource idRef=&quot;42e6348e-27f0-4774-9604-d470cb3e219a&quot;&gt;</p>
 <p>&lt;Name default=&quot;true&quot; langcode=&quot;en-us&quot;&gt;Email Address&lt;/Name&gt;</p>
@@ -266,7 +266,7 @@ Create a new sensitive information type with example PowerShell and XML file —
 
 Contoso uses a Contoso Customer Number (CCN) to identify each customer in their customer database. A CCN consists of the following taxonomy:
 
--   Two digits to represent the year that the record was created. Contoso was founded in 2002; therefore, the earliest possible value would be 02
+-   Two digits to represent the year that the record was created. Contoso was founded in 2002; therefore, the earliest possible value would be 02.
 
 -   Three digits to represent the partner agency that created the record. Possible agency values range from 000 to 999.
 
@@ -288,7 +288,7 @@ Example CCNs:
 >
 > 17040O1118
 
-Contoso always refers to customers by using a CCN in internal correspondence, external correspondence, documents, etc. They would like to create a custom sensitive item type to detect the use of CCN in Office 365 so that they may apply protection to the use of this form of personal data.
+Contoso always refers to customers by using a CCN in internal correspondence, external correspondence, documents, etc. They would like to create a custom sensitive information type to detect the use of CCN in Office 365 so that they may apply protection to the use of this form of personal data.
 
 ### Create a new sensitive information type for Contoso customer number
 
@@ -359,7 +359,7 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 </tbody>
 </table>
 
-### Example XML file for the new sensitive information type (step 8)
+### Example XML file for the new sensitive information type (step 7)
 
 \<?xml version="1.0" encoding="utf-8"?\>
 

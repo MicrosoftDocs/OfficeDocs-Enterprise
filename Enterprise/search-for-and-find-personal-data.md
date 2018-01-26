@@ -23,7 +23,7 @@ Article 4 – Definitions
 
 This article demonstrates how to find personal data stored in SharePoint Online and OneDrive for Business (which includes the sites for all Office 365 groups and Microsoft Teams).
 
-Finding personal data that is subject to GDPR relies on using sensitive information types in Office 365. These define how the automated process recognizes specific information types such as health service numbers and credit card numbers. At this time these cannot be used to find data in Exchange mailboxes at rest. However, sensitive information types can be used with data loss prevention policies to find personal data in mail while it is in transit.
+Finding personal data subject to GDPR relies on using sensitive information types in Office 365. These define how the automated process recognizes specific information types such as health service numbers and credit card numbers. At this time these cannot be used to find data in Exchange mailboxes at rest. However, sensitive information types can be used with data loss prevention policies to find personal data in mail while in transit.
 
 So, while you can’t currently use Content Search to find personal data at rest in Exchange Online mailboxes, you can use the sensitive information types you curate for GDPR to find and protect personal information as it is sent through email.
 
@@ -44,14 +44,14 @@ Microsoft recommends a three-stage approach to finding personal data in Office 3
 <td align="left"><p>Search for sensitive information types</p></td>
 <td align="left"><p>Start by using sensitive information types to find personal data. Create a Content Search query for each sensitive information type. Run the query and analyze the results.</p>
 <p>If needed, add parameters to the query to reduce false positives:</p>
-<p>Count range</p>
-<p>Confidence range</p>
-<p>Other properties or operators for more complex queries</p>
-<p>If necessary, modify a sensitive information type to improve accuracy for your organization.</p>
-<p>Adjust the confidence level directly in the XML.</p>
-<p>Add key words.</p>
-<p>Adjust the proximity requirements for keywords.</p></td>
-</tr>
+- <p>Count range</p>
+- <p>Confidence range</p>
+- <p>Other properties or operators for more complex queries</p>
+<p>If necessary, modify a sensitive information type to improve accuracy for your organization:</p>
+- <p>Adjust the confidence level directly in the XML.</p>
+- <p>Add key words.</p>
+- <p>Adjust the proximity requirements for keywords.</p></td>
+- </tr>
 <tr class="even">
 <td align="left"><p>Use Keyword Query Language (KQL) to find additional personal data in your environment</p></td>
 <td align="left"><p>To find data not included in sensitive information types, use the KQL query language to develop custom queries.</p>
@@ -71,9 +71,9 @@ Search for sensitive information types using Content Search
 
 Begin searching for personal data by using the sensitive information types that are included with Office 365. These are listed in the Security and Compliance Center under Classification.
 
-This topic includes a list of current sensitive information types that apply to citizens in the European Union. Use these as a starting point. Check back frequently for new additions that can help with GDPR compliance.
+This topic includes a list of current sensitive information types that apply to citizens in the European Union. Use these as a starting point. Check Security and Compliance Center frequently for new additions that can help with GDPR compliance.
 
-Also see this article: [List of sensitive data types and what each one looks for](https://support.office.com/en-us/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
+Also see this article: [List of sensitive information types and what each one looks for](https://support.office.com/en-us/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b).
 
 Sensitive information types define how the automated process recognizes specific information types such as bank account numbers, health service numbers, and credit card numbers. Sensitive information types are also referred to as conditions. A sensitive information type is defined by a pattern that can be identified by a regular expression or a function. In addition, corroborative evidence such as keywords and checksums can be used to identify a sensitive information type. Confidence level and proximity are also used in the evaluation process.
 
@@ -92,7 +92,7 @@ Using Content Search with sensitive information types
 <tbody>
 <tr class="odd">
 <td align="left"><p>Go to Content Search in the Security and Compliance Center</p></td>
-<td align="left"><p>In the left pane of the Security &amp; Compliance Center, click Search &amp; investigation &gt; Content search.</p>
+<td align="left"><p>In the left pane of the Security &amp; Compliance Center, click **Search &amp; investigation** &gt; **Content search**.</p>
 <p>See <a href="https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Run a Content Search in the Office 365 Security &amp; Compliance Center</a>.</p></td>
 </tr>
 <tr class="even">
@@ -111,8 +111,8 @@ Using Content Search with sensitive information types
 <tr class="odd">
 <td align="left"><p>Review the results for each search</p></td>
 <td align="left"><p>Look for these types of issues to determine if the query accuracy is on target:</p>
-<p>Many false positives</p>
-<p>Missing known instances of data</p>
+- <p>Many false positives</p>
+- <p>Missing known instances of data</p>
 <p>See <a href="https://support.office.com/en-us/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Export Content Search results from the Office 365 Security &amp; Compliance Center</a>.</p>
 <p>Note: if you’re using Mozilla Firefox or Chrome, you might need to first download reports using Internet Explorer or Edge in order to install the required add-in.</p></td>
 </tr>
