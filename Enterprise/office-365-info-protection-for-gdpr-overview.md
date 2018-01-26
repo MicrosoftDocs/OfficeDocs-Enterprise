@@ -38,6 +38,7 @@ Step 1 — Use Compliance Manager to view the regulation requirements and track 
 Compliance Manager provides tools to track, implement, and manage the auditing controls to help your organization reach compliance against various standards, including GDPR.
 
 ![Use Compliance Manager to view requirements and track progress](Media/Overview_image1.png)
+
 For more information, see [Use Compliance Manager in the Service Trust Portal](https://support.office.com/en-us/article/Use-Compliance-Manager-in-the-Service-Trust-Portal-Preview-5756d342-5af9-4496-82e8-4dd50fa39942). 
 
 Step 2 — Use Content Search and sensitive information types to find personal data 
