@@ -96,6 +96,8 @@ To better understand your cloud environment, Cloud App Security investigate feat
 
 For examples, the following illustration demonstrates two Cloud App Security policies that can help with GDPR.
 
+![Example Cloud App Security policies](Media/Monitor-for-leaks-of-personal-data_image3.png)
+
 The first policy alerts when files with a predefined PII attribute or custom expression that you choose is shared outside the organization from the SaaS apps that you choose.
 
 The second policy blocks downloads of files to any unmanaged device. You choose the attributes within the files to look for and the SaaS apps you want the policy to apply to.

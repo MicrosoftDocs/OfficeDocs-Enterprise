@@ -105,7 +105,7 @@ Note: As the levels of protection increase, your employee’s ability to access 
 Example DLP policy for GDPR — Awareness 
 ----------------------------------------
 
-Name: Awareness for personal data that is subject to GDPR
+Name: Awareness for personal data that is subject to GDPR.
 
 Description: Display policy tips to employees, notify compliance teams when this data is found in documents in SharePoint Online and OneDrive for Business, detect and report when this data is being shared outside your organization.
 
@@ -155,7 +155,7 @@ All locations include:
 
 -   Exchange mailboxes
 
-Because Content Search doesn’t currently let you test sensitive information types with email, you might want to create separate policies for Exchange with a subset of sensitive information types in each policy and monitor the rollout of these policies.
+Because Content Search doesn’t currently let you test sensitive information types with email,consider creating separate policies for Exchange with a subset of sensitive information types in each policy and monitoring the rollout of these policies.
 
 Additional protection you can apply to protect personal data in Office 365
 ==========================================================================
@@ -274,12 +274,12 @@ The following table summarizes the controls you can configure.
 <tbody>
 <tr class="odd">
 <td align="left">Type of sharing</td>
-<td align="left"><p>Don’t allow sharing outside your organization*</p>
-<p>Allow sharing to authenticated external users only (allow new or limit to existing)*</p>
-<p>Allow sharing to external users with an anonymous access link*</p>
+<td align="left"><p>Don’t allow sharing outside your organization (can be set for individual site collections)</p>
+<p>Allow sharing to authenticated external users only (allow new or limit to existing, can be set for individual site collections)*</p>
+<p>Allow sharing to external users with an anonymous access link (can be set for individual site collections)</p>
 <p>Limit external sharing using domains (allow and deny list)</p>
 <p>Choose the default link type (anonymous, company shareable, or restricted)</p>
-<p>*These policies can be set for individual site collections.</p></td>
+</td>
 </tr>
 <tr class="even">
 <td align="left">What external users can do</td>
@@ -289,9 +289,9 @@ The following table summarizes the controls you can configure.
 <tr class="odd">
 <td align="left">Notifications</td>
 <td align="left"><p>Currently only available in OneDrive for Business. Notify owners when:</p>
-<p>Users invite additional external users to shared files</p>
-<p>External users accept invitations to access files</p>
-<p>An anonymous access link is created or changed</p></td>
+- <p>Users invite additional external users to shared files</p>
+- <p>External users accept invitations to access files</p>
+- <p>An anonymous access link is created or changed</p></td>
 </tr>
 </tbody>
 </table>
@@ -363,7 +363,7 @@ For starting point recommendations and configuration guidance, see [Microsoft se
 
 For hybrid identity environments with AD FS, see [Recommended security policies and configurations](https://docs.microsoft.com/en-us/microsoft-365-enterprise/microsoft-security-guidance).
 
-The following illustration describes how cloud services (SaaS, PaaS), account types (tenant domain accounts vs. B2B accounts) and service access capabilities relate. It’s important to note which capabilities can also be used with B2B accounts.
+The following illustration describes how cloud services (SaaS, PaaS), account types (tenant domain accounts vs. B2B accounts) and service access capabilities relate. It’s important to note which capabilities can be used with B2B accounts.
 
 ![Cloud services, account types, and access capabilities](Media/Apply-protection-to-personal-data-in-Office-365_image4.png)
 
@@ -371,7 +371,7 @@ For accessibility, the rest of this section describes this illustration.
 
 ### Cloud services
 
-Azure Active Directory provides identity access to any cloud service, including non-Microsoft providers such as Amazon Web Services. The illustration shows Office 365, “Other SaaS app,” and “PaaS app.” Arrows point from Azure Active Directory to each of these services, showing that Azure Active Directory can be used for authentication to all of these apps.
+Azure Active Directory provides identity access to any cloud service, including non-Microsoft providers such as Amazon Web Services. The illustration shows Office 365, “Other SaaS app,” and “PaaS app.” Arrows point from Azure Active Directory to each of these services, showing that Azure Active Directory can be used for authentication to all of these app types.
 
 ### Types of accounts
 

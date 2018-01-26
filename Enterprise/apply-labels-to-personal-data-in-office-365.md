@@ -16,7 +16,7 @@ description: "Learn how to use Office labels as part of your GDPR protection pla
 
 # Apply labels to personal data in Office 365
 
- Use this topic if you are using Office labels as part of your GDPR protection plan. Today labels can be created in the Office 365 Security & Compliance Center and in Azure Information Protection. Over time these technologies will converge into a unified labeling and classification engine and you will be able to achieve even more.
+ Use this topic if you are using Office labels as part of your GDPR protection plan. Today labels can be created in the Office 365 Security & Compliance Center and in Azure Information Protection. Over time these technologies will converge into a unified labeling and classification experience and you will be able to achieve even more.
 
 If you are using labels for protection of personal data in Office 365, Microsoft recommends you start with Office labels. You can use Advanced Data Governance to automatically apply labels based on sensitive information types or other criteria. You can use Office labels with data loss prevention to apply protection. You can also use labels with eDiscovery and Content Search. You’ll soon be able to use both labels and sensitive information types with Cloud App Security to monitor personal data that resides in other SaaS apps.
 
@@ -34,12 +34,12 @@ In the illustration:
 
 -   Use Azure Information Protection (AIP) labels for highly regulated & trade secret files, Exchange Online email, files in other SaaS services, files in on-premises datacenters, and files in other cloud providers.
 
--   Coming soon: both types of labels will converge into a unified classification and labeling engine.
+-   Coming soon: both types of labels will converge into a unified classification and labeling experience.
 
 Use Office labels and sensitive information types across Microsoft 365 for information protection
 =================================================================================================
 
-The following illustration shows how Office labels and Sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
+The following illustration shows how Office labels and sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
 
 ![Office labels and sensitive information types](Media/Apply-labels-to-personal-data-in-Office-365_image2.png)
 
@@ -190,6 +190,6 @@ In the illustration:
 
 -   The “Customer data” label is created.
 
--   The desired sensitive information types for GDPR are listed.
+-   The desired sensitive information types for GDPR are listed: Belgium National Number, Credit Card Number, Croatia Identity Card Number, Finland National ID.
 
 -   Create an auto-apply policy assigns the label “Customer data” to any file that includes one of the sensitive information types that you add to the policy.
