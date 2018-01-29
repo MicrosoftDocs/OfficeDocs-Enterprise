@@ -49,9 +49,9 @@ If needed, add parameters to the query to reduce false positives:
     <li>Other properties or operators for more complex queries</li>
 <p>If necessary, modify a sensitive information type to improve accuracy for your organization:</p>
 <p><li>Adjust the confidence level directly in the XML.</li></p>
-<p>Add key words.</p>
-<p>Adjust the proximity requirements for keywords.</p></td>
-- </tr>
+<p><li>Add key words.</li></p>
+<p><li>Adjust the proximity requirements for keywords.</li></p></td>
+</tr>
 <tr class="even">
 <td align="left"><p>2. Use Keyword Query Language (KQL) to find additional personal data in your environment</p></td>
 <td align="left"><p>To find data not included in sensitive information types, use the KQL query language to develop custom queries.</p>
@@ -111,8 +111,8 @@ Using Content Search with sensitive information types
 <tr class="odd">
 <td align="left"><p>Review the results for each search</p></td>
 <td align="left"><p>Look for these types of issues to determine if the query accuracy is on target:</p>
-- <p>Many false positives</p>
-- <p>Missing known instances of data</p>
+<p><li>Many false positives</li></p>
+<p><li>Missing known instances of data</li></p>
 <p>See <a href="https://support.office.com/en-us/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Export Content Search results from the Office 365 Security &amp; Compliance Center</a>.</p>
 <p>Note: if you’re using Mozilla Firefox or Chrome, you might need to first download reports using Internet Explorer or Edge in order to install the required add-in.</p></td>
 </tr>

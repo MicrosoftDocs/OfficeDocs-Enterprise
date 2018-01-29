@@ -203,7 +203,7 @@ We’ll continue with the email address as an example because it’s simple. The
 <tbody>
 <tr class="odd">
 <td align="left">1</td>
-<td align="left"><p>Set the IdRef property</p>
+<td align="left">Set the IdRef property
 <p>Within the &lt;Entity&gt; element, modify the &lt;IdMatch&gt; element so that its idRef property is = to a unique value. This value will point to an element that defines our regular expression to find email addresses.</p></td>
 <td align="left">IdRef=&quot;Regex_email_address&quot;</td>
 </tr>
