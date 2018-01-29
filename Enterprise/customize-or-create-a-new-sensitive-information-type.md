@@ -360,7 +360,7 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 </table>
 
 ### Example XML file for the new sensitive information type (step 7)
-'''xml
+```xml
 \<?xml version="1.0" encoding="utf-8"?\>
 
 \<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"\>
@@ -442,4 +442,4 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 \</Rules\>
 
 \</RulePackage\>
-'''
+```
