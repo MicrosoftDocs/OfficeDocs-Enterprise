@@ -48,9 +48,9 @@ If needed, add parameters to the query to reduce false positives:
     <li>Confidence range</li>
     <li>Other properties or operators for more complex queries</li>
 <p>If necessary, modify a sensitive information type to improve accuracy for your organization:</p>
-- <p>Adjust the confidence level directly in the XML.</p>
-- <p>Add key words.</p>
-- <p>Adjust the proximity requirements for keywords.</p></td>
+<p><li>Adjust the confidence level directly in the XML.</li></p>
+<p>Add key words.</p>
+<p>Adjust the proximity requirements for keywords.</p></td>
 - </tr>
 <tr class="even">
 <td align="left"><p>2. Use Keyword Query Language (KQL) to find additional personal data in your environment</p></td>
