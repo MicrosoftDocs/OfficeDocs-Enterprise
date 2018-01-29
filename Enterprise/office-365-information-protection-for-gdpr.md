@@ -8,8 +8,7 @@ ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Priority
-ms.custom:
-- Strat_O365_Enterprise
+ms.custom: Strat_O365_Enterprise
 ms.assetid:
 
 description: "This solution demonstrates how to protect sensitive data that is stored in Office 365 services."

@@ -8,10 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection:
-- Ent_O365
-ms.custom:
-- Ent_Deployment
+ms.collection: Ent_O365
+ms.custom: Ent_Deployment
 ms.assetid: e9d14cb2-ff28-4a18-a444-cebf891880ea
 description: "Summary: Using Azure, you can create a disaster-recovery environment for your on-premises SharePoint farm. This article describes how to design and implement this solution."
 ---
@@ -104,7 +102,7 @@ The following figure illustrates these three elements.
   
 **Figure: Elements of a warm standby solution in Azure**
 
-![Elements of a SharePoint warm standby solution in Azure](images/AZarch_AZWarmStndby.png)
+![Elements of a SharePoint warm standby solution in Azure](images/AZarch_AZWarmStndby.gif)
   
 SQL Server log shipping with Distributed File System Replication (DFSR) is used to copy database backups and transaction logs to the recovery farm in Azure: 
   
