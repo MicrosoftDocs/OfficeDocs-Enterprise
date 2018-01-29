@@ -42,8 +42,10 @@ To set up the VPN connection between your Azure virtual network and your on-prem
 After you establish the site-to-site VPN connection, you add Azure virtual machines to the subnets of the virtual network.
   
 ## Plan your Azure virtual network
+<a name="PlanningVirtual"></a>
 
 ### Prerequisites
+<a name="Prerequisites"></a>
 
 - An Azure subscription. For information about Azure subscriptions, go to the [Microsoft Azure subscription page](https://azure.microsoft.com/pricing/purchase-options/).
     
@@ -178,6 +180,7 @@ Creating the cross-premises virtual network and adding virtual machines in Azure
 - Phase 3 (Optional): Add virtual machines.
     
 ### Phase 1: Prepare your on-premises network
+<a name="Phase1"></a>
 
 You must configure your on-premises network with a route that points to and ultimately delivers traffic destined for the address space of the virtual network to the router on the edge of the on-premises network. Consult with your network administrator to determine how to add the route to the routing infrastructure of your on-premises network.
   
@@ -186,6 +189,7 @@ Here is your resulting configuration.
 ![The on-premises network must have a route for the virtual network's address space that points toward the VPN device.](images/90bab36b-cb60-4ea5-81d5-4737b696d41c.png)
   
 ### Phase 2: Create the cross-premises virtual network in Azure
+<a name="Phase2"></a>
 
 First, open an Azure PowerShell prompt. If you have not installed Azure PowerShell, see [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).
   
