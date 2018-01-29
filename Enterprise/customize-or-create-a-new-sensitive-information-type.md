@@ -304,14 +304,17 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 <tr class="odd">
 <td align="left">1</td>
 <td align="left">Contoso uses PowerShell and Content Search to find documents that match an example set of CCNs.</td>
-<td align="left"><p>#Connect to Office 365 Security &amp; Compliance Center</p>
+<td align="left">
+```xml
+<p>#Connect to Office 365 Security &amp; Compliance Center</p>
 <p>$adminUser = &quot;alland@contoso.com&quot;</p>
 <p>Connect-IPPSSession -UserPrincipalName $adminUser</p>
 <p>#Create &amp; start search for sample data</p>
 <p>$searchName = &quot;Sample Customer Information Search&quot;</p>
 <p>$searchQuery = &quot;15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118&quot;</p>
 <p>New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery</p>
-<p>Start-ComplianceSearch -Identity $searchName</p></td>
+<p>Start-ComplianceSearch -Identity $searchName</p>
+```</td>
 </tr>
 <tr class="even">
 <td align="left">2</td>
