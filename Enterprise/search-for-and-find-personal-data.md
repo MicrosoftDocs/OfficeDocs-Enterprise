@@ -44,7 +44,7 @@ Microsoft recommends a three-stage approach to finding personal data in Office 3
 <td align="left"><p>Search for sensitive information types</p></td>
 <td align="left"><p>Start by using sensitive information types to find personal data. Create a Content Search query for each sensitive information type. Run the query and analyze the results.</p>
 <p>If needed, add parameters to the query to reduce false positives:</p>
-- <p>Count range</p>
+- Count range
 - <p>Confidence range</p>
 - <p>Other properties or operators for more complex queries</p>
 <p>If necessary, modify a sensitive information type to improve accuracy for your organization:</p>
