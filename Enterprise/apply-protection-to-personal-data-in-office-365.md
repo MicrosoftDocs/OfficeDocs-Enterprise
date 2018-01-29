@@ -100,7 +100,7 @@ Example protection levels that can be configured with DLP policies and used for 
 </tbody>
 </table>
 
-Note: As the levels of protection increase, your employee’s ability to access information will decrease in some cases, and could potentially impact their productivity or ability to complete day to day tasks. Increasing protection levels by implementing policies that impact employees is typically accompanied by end user training, educating users on new security policies and procedures to help them continue to be productive in a more secure environment.
+Note: As the levels of protection increase, the ability of users to access information will decrease in some cases, and could potentially impact their productivity or ability to complete day to day tasks. Increasing protection levels by implementing policies that impact employees is typically accompanied by end user training, educating users on new security policies and procedures to help them continue to be productive in a more secure environment.
 
 Example DLP policy for GDPR — Awareness 
 ----------------------------------------
@@ -147,7 +147,7 @@ Description: Display policy tips to employees, notify compliance teams when this
 </tbody>
 </table>
 
-All locations include:
+All locations includes:
 
 -   SharePoint Online
 
