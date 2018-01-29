@@ -41,24 +41,24 @@ Microsoft recommends a three-stage approach to finding personal data in Office 3
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><p>Search for sensitive information types</p></td>
+<td align="left"><p>1. Search for sensitive information types</p></td>
 <td align="left"><p>Start by using sensitive information types to find personal data. Create a Content Search query for each sensitive information type. Run the query and analyze the results.</p>
 <p>If needed, add parameters to the query to reduce false positives:</p>
-- Count range
-- <p>Confidence range</p>
-- <p>Other properties or operators for more complex queries</p>
+<li>Count range</li>
+<li>Confidence range</li>
+<li>Other properties or operators for more complex queries</li>
 <p>If necessary, modify a sensitive information type to improve accuracy for your organization:</p>
 - <p>Adjust the confidence level directly in the XML.</p>
 - <p>Add key words.</p>
 - <p>Adjust the proximity requirements for keywords.</p></td>
 - </tr>
 <tr class="even">
-<td align="left"><p>Use Keyword Query Language (KQL) to find additional personal data in your environment</p></td>
+<td align="left"><p>2. Use Keyword Query Language (KQL) to find additional personal data in your environment</p></td>
 <td align="left"><p>To find data not included in sensitive information types, use the KQL query language to develop custom queries.</p>
 <p>Test the results of these searches and adjust the KQL query string until you achieve the expected result.</p></td>
 </tr>
 <tr class="odd">
-<td align="left"><p>Create new custom sensitive information types using the KQL queries</p></td>
+<td align="left"><p>3. Create new custom sensitive information types using the KQL queries</p></td>
 <td align="left">After optimizing KQL queries to find target data, create new custom sensitive information types using these queries. You can then use these custom sensitive information types with Content Search, in DLP policies and other tools, and within other KQL queries.</td>
 </tr>
 </tbody>
