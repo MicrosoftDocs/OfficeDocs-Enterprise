@@ -90,8 +90,7 @@ Using Content Search with sensitive information types
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="left"><p>Go to Content Search in the Security and Compliance Center</p></td>
+<tr class="odd"><td align="left"><p>Go to Content Search in the Security and Compliance Center</p></td>
 <td align="left"><p>In the left pane of the Security &amp; Compliance Center, click **Search &amp; investigation** &gt; **Content search**.</p>
 <p>See <a href="https://support.office.com/en-us/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Run a Content Search in the Office 365 Security &amp; Compliance Center</a>.</p></td>
 </tr>
@@ -146,7 +145,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > France National ID Card (CNI)
 >
-> France Password Number
+> France Passport Number
 >
 > France Social Security Number (INSEE)
 >
@@ -182,7 +181,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > Sweden National ID
 >
-> Sweden Password Number
+> Sweden Passport Number
 >
 > U.K. Driver’s License Number
 >
@@ -192,7 +191,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > U.K. National Insurance Number (NINO)
 >
-> U.S./U.K. Password Number
+> U.S./U.K. Passport Number
 
 Add parameters to a sensitive information type query to hone the results
 ========================================================================
