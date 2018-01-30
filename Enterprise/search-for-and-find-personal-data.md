@@ -146,7 +146,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > France National ID Card (CNI)
 >
-> France Password Number
+> France Passport Number
 >
 > France Social Security Number (INSEE)
 >
@@ -182,7 +182,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > Sweden National ID
 >
-> Sweden Password Number
+> Sweden Passport Number
 >
 > U.K. Driver’s License Number
 >
@@ -192,7 +192,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > U.K. National Insurance Number (NINO)
 >
-> U.S./U.K. Password Number
+> U.S./U.K. Passport Number
 
 Add parameters to a sensitive information type query to hone the results
 ========================================================================
