@@ -126,7 +126,7 @@ For the settings of the virtual network, fill in Table V.
   
 |**Item**|**Configuration element**|**Description**|**Value**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |Virtual network name  <br/> |A name to assign to the Azure virtual network (example DirSyncNet).  <br/> |<span>&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;</span> <br/> |
+|1.  <br/> |Virtual network name  <br/> |A name to assign to the Azure virtual network (example DirSyncNet).  <br/> |![](./images/Common_Images/TableLine.png) |
 |2.  <br/> |Virtual network location  <br/> |The Azure datacenter that will contain the virtual network (such as West US).  <br/> |<span>&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;</span>  <br/> |
 |3.  <br/> |VPN device IP address  <br/> |The public IPv4 address of your VPN device's interface on the Internet. Work with your IT department to determine this address.  <br/> |<span>&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;</span>  <br/> |
 |4.  <br/> |Virtual network address space  <br/> |The address space (defined in a single private address prefix) for the virtual network. Work with your IT department to determine this address space. The address space should be in Classless Interdomain Routing (CIDR) format, also known as network prefix format. An example is 10.24.64.0/20.  <br/> |<span>&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;&#95;</span> <br/> |
