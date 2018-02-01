@@ -35,6 +35,7 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#storage)
     - [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#hybrid)
     - [Contoso in the Microsoft Cloud](microsoft-cloud-it-architecture-resources.md#contoso)
+    - [Common attacks and Microsoft capabilities that protect your organizaion](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
     
 - **[Office 365 Enterprise Solution Series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
     - [Information Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_infoprotect)
@@ -134,6 +135,15 @@ How a fictional but representative global organization has implemented Microsoft
 |:-----|:-----|
 |[![Thumb image of the Contoso in the Microsoft Cloud poster.](images/63077617-b8f2-45b6-b772-bad6cd98721d.png)          ](https://www.microsoft.com/download/details.aspx?id=54427) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?linkid=842085)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?linkid=842086)           \| ![Article](images/5cec453d-5fc4-4657-8980-16543b2316ea.png)[Article](https://technet.microsoft.com/library/mt775341.aspx) <br/>![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=54427) <br/> |This model contains: <ul><li>Overview of the Contoso Corporation </li><li>Contoso's IT infrastructure and needs </li><li>Cloud networking for Contoso</li><li>Cloud identity for Contoso</li><li>Contoso's subscriptions, licenses, and user accounts</li><li>Cloud security for Contoso</li><li>Enterprise cloud scenarios for Contoso</li></ul> <br/>|
    
+<a name="attacks"> </a>
+### Common attacks and Microsoft capabilities that protect your organization
+Learn about the most common cyber attacks and how Microsoft can help your organization at every stage of an attack. 
+
+|**Item**|**Description**|
+|:-----|:-----|
+|[![Thumb image of the Common attacks poster.](images/common attacks-thumb3.png) ](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) </br> | This poster illustrates the path of common attacks and describes which capabilities help stop attackers at each stage of an attack. <br/>|
+
+
 <a name="santa"> </a>
 ### The Santa Cloud
 
