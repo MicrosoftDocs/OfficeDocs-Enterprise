@@ -3,7 +3,7 @@ title: "SharePoint Server 2013 Disaster Recovery in Microsoft Azure"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 2/5/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -85,7 +85,7 @@ It's important to evaluate your organization's Recovery Time Objectives (RTOs) a
   
 The guidance in this article describes how to implement a warm standby environment. You can also adapt it to a cold standby environment, although you need to follow additional procedures to support this kind of environment. This article does not describe how to implement a hot standby environment.
   
-For more information about disaster recovery solutions, see [High availability and disaster recovery concepts in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkID=393114) and[Choose a disaster recovery strategy for SharePoint 2013](https://go.microsoft.com/fwlink/p/?linkid=203228).
+For more information about disaster recovery solutions, see [High availability and disaster recovery concepts in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkID=393114) and [Choose a disaster recovery strategy for SharePoint 2013](https://go.microsoft.com/fwlink/p/?linkid=203228).
   
 ## Solution description
 <a name="SOL"> </a>
@@ -102,7 +102,7 @@ The following figure illustrates these three elements.
   
 **Figure: Elements of a warm standby solution in Azure**
 
-![Elements of a SharePoint warm standby solution in Azure](images/AZarch_AZWarmStndby.gif)
+![Elements of a SharePoint warm standby solution in Azure](images/AZarch_AZWarmStndby.png)
   
 SQL Server log shipping with Distributed File System Replication (DFSR) is used to copy database backups and transaction logs to the recovery farm in Azure: 
   
@@ -177,7 +177,7 @@ The following figure illustrates a disaster recovery solution from an on-premise
   
 **Figure: Topology and key elements of a production farm and a warm standby recovery farm**
 
-![Shows topology and key elements of a SharePoint production farm and a warm standby recovery farm.](images/AZarchWarmStndby.gif)
+![Topology of a SharePoint farm and a warm standby recovery farm](images/AZarch_AZWarmStndby.png)
   
 In this diagram:
   
