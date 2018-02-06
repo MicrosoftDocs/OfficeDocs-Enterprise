@@ -183,8 +183,12 @@ For more information, see:
 - [Office 365 Performance Management Microsoft Virtual Academy course](https://aka.ms/o365perf)
     
 - [ExpressRoute for Office 365](https://aka.ms/expressrouteoffice365)
+
+## Next step
+
+[Designing networking for Microsoft Azure PaaS](designing-networking-for-microsoft-azure-paas.md)
     
-## See Also
+## See also
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   

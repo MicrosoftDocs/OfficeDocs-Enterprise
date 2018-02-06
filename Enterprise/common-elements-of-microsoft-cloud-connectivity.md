@@ -73,14 +73,17 @@ You need to consider these areas of networking when adopting any of Microsoft's 
     
 - **Internet DNS:** A, AAAA, CNAME, MX, PTR and other records to locate Microsoft cloud or your services hosted in the cloud. For example, you might need a CNAME record for your app hosted in Azure PaaS.
     
-## See Also
+
+## Next step
+
+[ExpressRoute for Microsoft cloud connectivity](expressroute-for-microsoft-cloud-connectivity.md)
+
+## See also
 
 <a name="steps"> </a>
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
 
 

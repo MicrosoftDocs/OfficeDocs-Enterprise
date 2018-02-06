@@ -197,7 +197,7 @@ Table 5 lists the methods for filtering or inspecting unsolicited incoming traff
 |1. Endpoints and ACLs configured on cloud services  <br/> |Classic  <br/> |
 |2. Network security groups  <br/> |Resource Manager and classic  <br/> |
 |3. Internet-facing load balancer with inbound NAT rules  <br/> |Resource Manager  <br/> |
-|4. Network security appliances in the Azure   Marketplace (not shown)  <br/> |Resource Manager and classic  <br/> |
+|4. Network security appliances in the Azure Marketplace (not shown)  <br/> |Resource Manager and classic  <br/> |
    
  **Table 5: Methods of connecting to virtual machines and their corresponding Azure deployment models**
   
@@ -379,8 +379,8 @@ Table 7 shows the steps and resulting prefixes that define the Local Network add
 |**Step**|**Results**|
 |:-----|:-----|
 |1. List the prefixes that are not the root space for the VNet address space.  <br/> |172.16.0.0/12 and 192.168.0.0/16  <br/> |
-|2. List the non-overlapping prefixes for variable octets up to but not including the last used   octet in the VNet address space.  <br/> |10.0.0.0/16, 10.1.0.0/16…10.99.0.0/16, 10.101.0.0/16…10.254.0.0/16, 10.255.0.0/16 (255 prefixes, skipping 10.100.0.0/16)  <br/> |
-|3. List the non-overlapping prefixes within the   last used octet of the VNet address   space.  <br/> |10.100.0.0/24, 10.100.1.0/24…10.100.99.0/24, 10.100.101.0/24…10.100.254.0/24, 10.100.0.255.0/24 (255 prefixes, skipping 10.100.100.0/24)  <br/> |
+|2. List the non-overlapping prefixes for variable octets up to but not including the last used octet in the VNet address space.  <br/> |10.0.0.0/16, 10.1.0.0/16…10.99.0.0/16, 10.101.0.0/16…10.254.0.0/16, 10.255.0.0/16 (255 prefixes, skipping 10.100.0.0/16)  <br/> |
+|3. List the non-overlapping prefixes within the last used octet of the VNet address space.  <br/> |10.100.0.0/24, 10.100.1.0/24…10.100.99.0/24, 10.100.101.0/24…10.100.254.0/24, 10.100.0.255.0/24 (255 prefixes, skipping 10.100.100.0/24)  <br/> |
    
  **Table 7: Example Local Address network space**
   
@@ -411,7 +411,7 @@ Figure 18 shows a cross-premises VNet with a user-defined route for a subnet poi
 ## SharePoint Server 2016 farm in Azure
 <a name="cross_prem"> </a>
 
-An example of an intranet IT workload hosted in Azure IaaS is a highly-available, multi-tier SharePoint Server 2016 farm, as shown in Figure 19.
+An example of an intranet IT workload hosted in Azure IaaS is a highly-available, multi-tier SharePoint Server 2016 farm.
   
 **Figure 19: A highly-available intranet SharePoint Server 2016 farm in Azure IaaS**
 
@@ -424,7 +424,7 @@ Figure 19 shows the nine servers of a SharePoint Server 2016 farm deployed in a 
   
 For additional examples of IT workloads deployed on virtual machines in a cross-premises Azure virtual network, see [Hybrid cloud scenarios for Azure IaaS](https://technet.microsoft.com/library/mt750502.aspx).
   
-## See Also
+## See also
 
 <a name="cross_prem"> </a>
 
