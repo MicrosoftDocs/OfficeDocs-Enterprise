@@ -258,7 +258,11 @@ See these additional resources for more information:
     
 - [ExpressRoute for Azure](https://azure.microsoft.com/services/expressroute/)
     
-## See Also
+## Next step
+
+[Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md)
+
+## See also
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   

@@ -23,8 +23,6 @@ Optimizing networking for Azure PaaS apps requires adequate Internet bandwidth a
   
 ## Planning steps for hosting organization PaaS applications in Azure
 
-Insert section body here.
-  
 1. Go through the **Steps to prepare your network for Microsoft cloud services** section in [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md).
     
 2. Optimize your Internet bandwidth using steps 2 - 4 of the **Steps to prepare your network for Microsoft SaaS services** section in [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md).
@@ -94,8 +92,12 @@ Figure 3 shows the basic process that Traffic Manager uses to route requests to 
 2. The user initiates traffic with the regional web app in Europe.
     
 For more information, see [Traffic Manager](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview).
-  
-## See Also
+
+## Next step
+
+[Designing networking for Microsoft Azure IaaS](designing-networking-for-microsoft-azure-iaas.md)
+ 
+## See also
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
