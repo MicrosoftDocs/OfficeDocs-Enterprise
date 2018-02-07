@@ -3,7 +3,7 @@ title: "Overview of Office 365 Information Protection for GDPR"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -27,13 +27,11 @@ This solution is intended to help organizations discover and protect personal da
 
 [GDPR Assessment](https://www.gdprbenchmark.com/) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR (<http://aka.ms/gdprassessment>).
 
-Assess and manage your compliance risk
-======================================
+## Assess and manage your compliance risk
 
 The first step towards GDPR compliance is to assess whether the GDPR applies to your organization, and, if so, to what extent. This analysis includes understanding the data your organization processes and where it resides.
 
-Step 1 — Use Compliance Manager to view the regulation requirements and track your progress
--------------------------------------------------------------------------------------------
+### Step 1 — Use Compliance Manager to view the regulation requirements and track your progress
 
 Compliance Manager provides tools to track, implement, and manage the auditing controls to help your organization reach compliance against various standards, including GDPR.
 
@@ -41,8 +39,7 @@ Compliance Manager provides tools to track, implement, and manage the auditing c
 
 For more information, see [Use Compliance Manager in the Service Trust Portal](https://support.office.com/en-us/article/Use-Compliance-Manager-in-the-Service-Trust-Portal-Preview-5756d342-5af9-4496-82e8-4dd50fa39942). 
 
-Step 2 — Use Content Search and sensitive information types to find personal data 
-----------------------------------------------------------------------------------
+### Step 2 — Use Content Search and sensitive information types to find personal data 
 
 Discover personal data in your environment that is subject to the GDPR. Use Content Search together with sensitive information types to:
 
@@ -56,8 +53,7 @@ Sensitive information types define how the automated process recognizes specific
 
 For more information, see [Search for and find personal data](search-for-and-find-personal-data.md). 
 
-Classify, protect, and monitor personal data in Office 365 and other SaaS apps
-==============================================================================
+## Classify, protect, and monitor personal data in Office 365 and other SaaS apps
 
 Some of the capabilities used for information protection in Office 365 can also be used to protect sensitive data in other SaaS applications.
 
@@ -65,15 +61,13 @@ Some of the capabilities used for information protection in Office 365 can also 
 
 This illustration is described by the rest this section (steps 3-5).
 
-Step 3 — Decide if you want to use labels in addition to sensitive information types
-------------------------------------------------------------------------------------
+### Step 3 — Decide if you want to use labels in addition to sensitive information types
 
 Sensitive information types are a form of classification. See [Architect a classification schema for personal data](architect-a-classification-schema-for-personal-data.md), to decide if you also want to implement labels. To apply labels, see [Apply labels to personal data in Office 365](apply-labels-to-personal-data-in-office-365.md).
 
 In the illustration, sensitive information types and labels work across Office 365. Coming soon, you can use these with Cloud App Security to find sensitive data in other SaaS apps, such as Box and Salesforce.
 
-Step 4 — Protect personal data in Office 365 
----------------------------------------------
+### Step 4 — Protect personal data in Office 365 
 
 Protection for personal data starts with Office 365 data loss prevention. There are several other capabilities recommended for protecting access to personal data, including Office 365 Message Encryption for email.
 
@@ -95,7 +89,6 @@ Protection for access to Office 365 and other cloud services include:
 
 For more information about applying proteciton, see [Apply protection to personal data in Office 365](apply-protection-to-personal-data-in-office-365.md).
 
-Step 5 — Monitor for leaks of personal data
--------------------------------------------
+### Step 5 — Monitor for leaks of personal data
 
 Office 365 data loss prevention reports provide the greatest level of detail for monitoring sensitive data. You can setup automated alerts and investigate breaches by using the Office 365 audit log. Cloud App Security extends the ability to find and monitor sensitive data to other SaaS providers. For more information on these tools, see [Monitor for breaches of personal data](monitor-for-leaks-of-personal-data.md).

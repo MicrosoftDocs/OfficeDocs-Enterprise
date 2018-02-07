@@ -3,7 +3,7 @@ title: "Apply labels to personal data in Office 365"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -36,8 +36,7 @@ In the illustration:
 
 -   Coming soon: both types of labels will converge into a unified classification and labeling experience.
 
-Use Office labels and sensitive information types across Microsoft 365 for information protection
-=================================================================================================
+## Use Office labels and sensitive information types across Microsoft 365 for information protection
 
 The following illustration shows how Office labels and sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
 
@@ -83,8 +82,7 @@ For accessibility, the following table provides the same examples in the illustr
 </tbody>
 </table>
 
-Prioritize auto-apply label policies
-====================================
+## Prioritize auto-apply label policies
 
 For personal data that is subject to GDPR, Microsoft recommends auto-applying labels by using the sensitive information types you curated for your environment. It is important that auto-apply label policies are well designed and tested to ensure the intended behavior occurs.
 
@@ -153,10 +151,9 @@ Be sure your plan for implementing labels includes:
 </tbody>
 </table>
 
-Create labels and auto-apply label policies
-===========================================
+## Create labels and auto-apply label policies
 
-Create labels and policies in Security and Compliance Center.
+Create labels and policies in the Security & Compliance Center.
 
 <table>
 <thead>
