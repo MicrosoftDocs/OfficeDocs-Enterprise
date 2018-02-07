@@ -3,7 +3,7 @@ title: "Monitor for leaks of personal data"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -27,8 +27,7 @@ In the illustration:
 
 -   Finally, Use Microsoft Cloud App Security to monitor files with sensitive data in other SaaS providers. Coming soon is the ability to use Office 365 sensitive information types and unified labels across Azure Information Protection and Office with Cloud App Security. You can setup policies that apply to all of your SaaS apps or specific apps (like Box). Cloud App Security doesn’t discover files in Exchange Online, including files attached to email.
 
-Office 365 data loss prevention reports
-=======================================
+## Office 365 data loss prevention reports
 
 After you create your data loss prevention (DLP) policies, you’ll want to verify that they’re working as you intended and helping you to stay compliant. With the DLP reports in Office 365, you can quickly view the number of DLP policy matches, overrides, or false positives; see whether they’re trending up or down over time; filter the report in different ways; and view additional details by selecting a point on a line on the graph.
 
@@ -54,8 +53,7 @@ For more information, see [View the reports for data loss prevention](https://su
 
 ![Report showing DLP policy matches](Media/Monitor-for-leaks-of-personal-data_image2.png)
 
-Office 365 audit log and alert policies
-=======================================
+## Office 365 audit log and alert policies
 
 The Office 365 audit log contains events from Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory, Microsoft Teams, Power BI, Sway, and other Office 365 services.
 
@@ -85,8 +83,7 @@ More information about alert policies and searching the audit log:
 
 -   [Detailed properties in the Office 365 audit log](https://support.office.com/en-us/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3?ui=en-US&rs=en-US&ad=US)
 
-Microsoft Cloud App Security
-============================
+## Microsoft Cloud App Security
 
 Microsoft Cloud App Security helps you discover other SaaS apps in use across your networks and sensitive data that is sent to and from these apps.
 
@@ -108,8 +105,7 @@ These attribute types are coming soon to Cloud App Security:
 
 -   Unified labels across Office 365 and Azure Information Protection
 
-Cloud App Security dashboard
-----------------------------
+### Cloud App Security dashboard
 
 If you haven’t yet started to use Cloud App Security, begin by starting it up. To access Cloud App Security: <https://portal.cloudappsecurity.com>.
 
@@ -125,8 +121,7 @@ More information:
 
 -   [Block downloads of sensitive information using the Microsoft Cloud App Security proxy](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
 
-Example file and activity policies to detect sharing of personal data
----------------------------------------------------------------------
+## Example file and activity policies to detect sharing of personal data
 
 ### Detect sharing of files containing PII — Credit card number
 
