@@ -355,7 +355,7 @@ For hybrid identity environments with AD FS, see [Recommended security policies 
 
 The following illustration describes how cloud services (SaaS, PaaS), account types (tenant domain accounts vs. B2B accounts) and service access capabilities relate. It’s important to note which capabilities can be used with B2B accounts.
 
-![Cloud services, account types, and access capabilities](Media/Apply-protection-to-personal-data-in-Office-365_image4.png)
+![Cloud services, account types, and access capabilities](Media/Apply-protection-to-personal-data-in-Office-365-image4.png)
 
 For accessibility, the rest of this section describes this illustration.
 

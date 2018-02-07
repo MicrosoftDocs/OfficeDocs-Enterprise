@@ -25,7 +25,7 @@ Article 4 – Definitions
 
 This solution is intended to help organizations discover and protect personal data in Office 365 that might be subject to the GDPR. It is not offered as a GDPR compliance attestation. Organizations are responsible for ensuring their own GDPR compliance and are advised to consult their legal and compliance teams or to seek guidance and advice from third parties that specialize in compliance.
 
-[GDPR Assessment](https://www.gdprbenchmark.com/) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR (<http://aka.ms/gdprassessment>).
+[GDPR Assessment](https://www.gdprbenchmark.com) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR (<http://aka.ms/gdprassessment>).
 
 ## Assess and manage your compliance risk
 
@@ -35,7 +35,7 @@ The first step towards GDPR compliance is to assess whether the GDPR applies to 
 
 Compliance Manager provides tools to track, implement, and manage the auditing controls to help your organization reach compliance against various standards, including GDPR.
 
-![Use Compliance Manager to view requirements and track progress](Media/Overview_image1.png)
+![Use Compliance Manager to view requirements and track progress](Media/Overview-image1.png)
 
 For more information, see [Use Compliance Manager in the Service Trust Portal](https://support.office.com/en-us/article/Use-Compliance-Manager-in-the-Service-Trust-Portal-Preview-5756d342-5af9-4496-82e8-4dd50fa39942). 
 
@@ -47,7 +47,7 @@ Discover personal data in your environment that is subject to the GDPR. Use Cont
 
 -   Optimize sensitive data types and other queries to find all personal data in your environment.
 
-![Use Content Search and sensitive info types to find personal data](Media/Overview_image2.png)
+![Use Content Search and sensitive info types to find personal data](Media/Overview-image2.png)
 
 Sensitive information types define how the automated process recognizes specific information types such as health service numbers and credit card numbers. This article includes a set you can use as a starting point. Many more sensitive information types are coming soon for personal data in EU countries.
 
@@ -57,7 +57,7 @@ For more information, see [Search for and find personal data](search-for-and-fin
 
 Some of the capabilities used for information protection in Office 365 can also be used to protect sensitive data in other SaaS applications.
 
-![Classify, protect, and monitor personal data](Media/Overview_image3.png)
+![Classify, protect, and monitor personal data](Media/Overview-image3.png)
 
 This illustration is described by the rest this section (steps 3-5).
 
