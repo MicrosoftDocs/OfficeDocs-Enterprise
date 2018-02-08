@@ -6,11 +6,10 @@ manager: laurawi
 layout: LandingPage
 ms.assetid: 
 ms.service: o365-solutions
-ms.topic: landing-page
+ms.topic: hub-page
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection:
-- Ent_O365
+ms.collection: Ent_O365
 ms.date: 12/13/2017
 ms.author: JoeDavies-MSFT
 

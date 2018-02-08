@@ -8,8 +8,7 @@ ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection:
-- Ent_O365
+ms.collection: Ent_O365
 ms.assetid: 48a24184-2868-4bb2-866c-1907d1bad505
 description: "Learn how organizations can collaborate in a secure manner across Office 365 tenants."
 ---

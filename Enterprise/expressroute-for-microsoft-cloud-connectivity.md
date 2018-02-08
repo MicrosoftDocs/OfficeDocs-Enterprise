@@ -9,8 +9,7 @@ ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Architecture
+ms.custom: Ent_Architecture
 ms.assetid: bf2295c4-d411-49cd-aaa5-116a4a456c5a
 description: "Summary: Understand how ExpressRoute can help you with faster and more reliable connections to Microsoft's cloud services and platforms."
 ---

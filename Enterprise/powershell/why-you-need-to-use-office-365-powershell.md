@@ -9,8 +9,7 @@ ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Office_Other
+ms.custom: Ent_Office_Other
 ms.assetid: b3209b1a-40c7-4ede-8e78-8a88bb2adc8a
 description: "Summary: Understand why you must use Office 365 PowerShell to manage Office 365, in some cases more efficiently and in other cases by necessity."
 ---

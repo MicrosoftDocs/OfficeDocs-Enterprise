@@ -9,8 +9,7 @@ ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Architecture
+ms.custom: Ent_Architecture
 ms.assetid: 1de16e29-ac2e-40b5-bf13-9301a51e16a8
 description: "Summary: Understand the Contoso Corporation as a business and the tiered structure of its worldwide offices."
 ---
