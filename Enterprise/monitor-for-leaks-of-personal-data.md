@@ -17,7 +17,7 @@ description: "Learn about three tools you can use to monitor for leaks of person
 
 There are many tools that can be used to monitor the use and transport of personal data. This topic describes three tools that work well.
 
-![Tools to monitor the use and transport of personaal data](Media/Monitor-for-leaks-of-personal-data_image1.png)
+![Tools to monitor the use and transport of personaal data](Media/Monitor-for-leaks-of-personal-data-image1.png)
 
 In the illustration:
 
@@ -51,7 +51,7 @@ DLP reports are in Security and Compliance center. Navigate to Reports \> View r
 
 For more information, see [View the reports for data loss prevention](https://support.office.com/en-us/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
 
-![Report showing DLP policy matches](Media/Monitor-for-leaks-of-personal-data_image2.png)
+![Report showing DLP policy matches](Media/Monitor-for-leaks-of-personal-data-image2.png)
 
 ## Office 365 audit log and alert policies
 
@@ -75,13 +75,13 @@ More information about alert policies and searching the audit log:
 
 -   [Search the audit log for user and admin activity in Office 365](https://support.office.com/en-us/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (introduction)
 
--   [Turn Office 365 audit log search on or off](https://support.office.com/en-us/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014?ui=en-US&rs=en-US&ad=US)
+-   [Turn Office 365 audit log search on or off](https://support.office.com/en-us/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
 -   [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
 -   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx) (cmdlet) 
 
--   [Detailed properties in the Office 365 audit log](https://support.office.com/en-us/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3?ui=en-US&rs=en-US&ad=US)
+-   [Detailed properties in the Office 365 audit log](https://support.office.com/en-us/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## Microsoft Cloud App Security
 
@@ -93,7 +93,7 @@ To better understand your cloud environment, Cloud App Security investigate feat
 
 For examples, the following illustration demonstrates two Cloud App Security policies that can help with GDPR.
 
-![Example Cloud App Security policies](Media/Monitor-for-leaks-of-personal-data_image3.png)
+![Example Cloud App Security policies](Media/Monitor-for-leaks-of-personal-data-image3.png)
 
 The first policy alerts when files with a predefined PII attribute or custom expression that you choose is shared outside the organization from the SaaS apps that you choose.
 
@@ -111,7 +111,7 @@ If you haven’t yet started to use Cloud App Security, begin by starting it up.
 
 Note: Be sure to enable ‘Automatically scan files for Azure Information Protection classification labels’ (in General settings) when getting started with Cloud App Security or before you assign labels. After setup, Cloud App Security does not scan existing files again until they are modified.
 
-![Dashboard showing information about alerts](Media/Monitor-for-leaks-of-personal-data_image4.png)
+![Dashboard showing information about alerts](Media/Monitor-for-leaks-of-personal-data-image4.png)
 
 More information:
 
