@@ -3,21 +3,21 @@ title: "Monitor for leaks of personal data"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
+ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: GDPR
 ms.assetid:
-
 description: "Learn about three tools you can use to monitor for leaks of personal data."
 ---
 # Monitor for leaks of personal data
 
 There are many tools that can be used to monitor the use and transport of personal data. This topic describes three tools that work well.
 
-![Tools to monitor the use and transport of personaal data](Media/Monitor-for-leaks-of-personal-data_image1.png)
+![Tools to monitor the use and transport of personaal data](Media/Monitor-for-leaks-of-personal-data-image1.png)
 
 In the illustration:
 
@@ -27,8 +27,7 @@ In the illustration:
 
 -   Finally, Use Microsoft Cloud App Security to monitor files with sensitive data in other SaaS providers. Coming soon is the ability to use Office 365 sensitive information types and unified labels across Azure Information Protection and Office with Cloud App Security. You can setup policies that apply to all of your SaaS apps or specific apps (like Box). Cloud App Security doesn’t discover files in Exchange Online, including files attached to email.
 
-Office 365 data loss prevention reports
-=======================================
+## Office 365 data loss prevention reports
 
 After you create your data loss prevention (DLP) policies, you’ll want to verify that they’re working as you intended and helping you to stay compliant. With the DLP reports in Office 365, you can quickly view the number of DLP policy matches, overrides, or false positives; see whether they’re trending up or down over time; filter the report in different ways; and view additional details by selecting a point on a line on the graph.
 
@@ -52,10 +51,9 @@ DLP reports are in Security and Compliance center. Navigate to Reports \> View r
 
 For more information, see [View the reports for data loss prevention](https://support.office.com/en-us/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b).
 
-![Report showing DLP policy matches](Media/Monitor-for-leaks-of-personal-data_image2.png)
+![Report showing DLP policy matches](Media/Monitor-for-leaks-of-personal-data-image2.png)
 
-Office 365 audit log and alert policies
-=======================================
+## Office 365 audit log and alert policies
 
 The Office 365 audit log contains events from Exchange Online, SharePoint Online, OneDrive for Business, Azure Active Directory, Microsoft Teams, Power BI, Sway, and other Office 365 services.
 
@@ -77,16 +75,15 @@ More information about alert policies and searching the audit log:
 
 -   [Search the audit log for user and admin activity in Office 365](https://support.office.com/en-us/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6) (introduction)
 
--   [Turn Office 365 audit log search on or off](https://support.office.com/en-us/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014?ui=en-US&rs=en-US&ad=US)
+-   [Turn Office 365 audit log search on or off](https://support.office.com/en-us/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
 -   [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
 -   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx) (cmdlet) 
 
--   [Detailed properties in the Office 365 audit log](https://support.office.com/en-us/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3?ui=en-US&rs=en-US&ad=US)
+-   [Detailed properties in the Office 365 audit log](https://support.office.com/en-us/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
-Microsoft Cloud App Security
-============================
+## Microsoft Cloud App Security
 
 Microsoft Cloud App Security helps you discover other SaaS apps in use across your networks and sensitive data that is sent to and from these apps.
 
@@ -96,7 +93,7 @@ To better understand your cloud environment, Cloud App Security investigate feat
 
 For examples, the following illustration demonstrates two Cloud App Security policies that can help with GDPR.
 
-![Example Cloud App Security policies](Media/Monitor-for-leaks-of-personal-data_image3.png)
+![Example Cloud App Security policies](Media/Monitor-for-leaks-of-personal-data-image3.png)
 
 The first policy alerts when files with a predefined PII attribute or custom expression that you choose is shared outside the organization from the SaaS apps that you choose.
 
@@ -108,14 +105,13 @@ These attribute types are coming soon to Cloud App Security:
 
 -   Unified labels across Office 365 and Azure Information Protection
 
-Cloud App Security dashboard
-----------------------------
+### Cloud App Security dashboard
 
 If you haven’t yet started to use Cloud App Security, begin by starting it up. To access Cloud App Security: <https://portal.cloudappsecurity.com>.
 
 Note: Be sure to enable ‘Automatically scan files for Azure Information Protection classification labels’ (in General settings) when getting started with Cloud App Security or before you assign labels. After setup, Cloud App Security does not scan existing files again until they are modified.
 
-![Dashboard showing information about alerts](Media/Monitor-for-leaks-of-personal-data_image4.png)
+![Dashboard showing information about alerts](Media/Monitor-for-leaks-of-personal-data-image4.png)
 
 More information:
 
@@ -125,8 +121,7 @@ More information:
 
 -   [Block downloads of sensitive information using the Microsoft Cloud App Security proxy](https://docs.microsoft.com/en-us/cloud-app-security/use-case-proxy-block-session-aad)
 
-Example file and activity policies to detect sharing of personal data
----------------------------------------------------------------------
+## Example file and activity policies to detect sharing of personal data
 
 ### Detect sharing of files containing PII — Credit card number
 

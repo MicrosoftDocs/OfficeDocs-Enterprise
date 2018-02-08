@@ -3,9 +3,10 @@ title: "Architect a classification schema for personal data"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
+ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: GDPR
@@ -19,8 +20,7 @@ Previous articles in this series focus on using sensitive information types to i
 
 Note: Defining a classification schema for an organization and configuring policies, labels, and conditions requires careful planning and preparation. It is important to realize that this is not an IT driven process. Be sure to work with your legal and compliance team to develop an appropriate classification and labeling schema for your organization’s data.
 
-Decide if you are using labels in addition to sensitive data types
-==================================================================
+## Decide if you are using labels in addition to sensitive data types
 
 You can take one of two approaches for classification in Office 365 for personal information. Either of these can be used for GDPR protection. If decide to use only sensitive information types for classification, you can skip the rest of this topic.
 
@@ -44,8 +44,7 @@ Choose one of the following options.
 
 -   Later, Office labels will converge with Azure Information Protection labels into a unified classification and labeling engine.
 
-Develop a label schema that includes personal data
-==================================================
+## Develop a label schema that includes personal data
 
 Before using technical capabilities to apply labels and protection, first work across your organization to define a classification schema. Your organization might already have a classification schema, which makes it easier to add personal data. This topic includes an example classification schema. You can use this as a starting point, if needed.
 
@@ -110,8 +109,7 @@ When designing and implementing policies, labels and conditions, consider follow
 </tbody>
 </table>
 
-Define a taxonomy and search criteria for each label
-====================================================
+## Define a taxonomy and search criteria for each label
 
 After developing a classification schema for your organization, the next step is to develop the taxonomy and search criteria for finding this data. For personal data, you’ve already completed this work by identifying sensitive information types and also by customizing or creating new sensitive information types for your environment.
 

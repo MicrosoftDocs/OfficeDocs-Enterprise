@@ -3,9 +3,10 @@ title: "Apply labels to personal data in Office 365"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
+ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: GDPR
@@ -26,7 +27,7 @@ At this time, using Azure Information Protection to apply Azure RMS encryption i
 
 Azure Information Protection labels can be applied to mail in Exchange Online and these labels work with Office 365 data loss prevention. Coming soon with the unified classification and labeling engine you will be able to use the same labels for email and files, including automatically labeling and protecting email in transit.
 
-![Office 365 labels and Azure Information Protection labels](Media/Apply-labels-to-personal-data-in-Office-365_image1.png)
+![Office 365 labels and Azure Information Protection labels](Media/Apply-labels-to-personal-data-in-Office-365-image1.png)
 
 In the illustration:
 
@@ -36,12 +37,11 @@ In the illustration:
 
 -   Coming soon: both types of labels will converge into a unified classification and labeling experience.
 
-Use Office labels and sensitive information types across Microsoft 365 for information protection
-=================================================================================================
+## Use Office labels and sensitive information types across Microsoft 365 for information protection
 
 The following illustration shows how Office labels and sensitive information types can be used in label policies, data loss prevention policies, and with Cloud App Security policies.
 
-![Office labels and sensitive information types](Media/Apply-labels-to-personal-data-in-Office-365_image2.png)
+![Office labels and sensitive information types](Media/Apply-labels-to-personal-data-in-Office-365-image2.png)
 
 For accessibility, the following table provides the same examples in the illustration.
 
@@ -83,8 +83,7 @@ For accessibility, the following table provides the same examples in the illustr
 </tbody>
 </table>
 
-Prioritize auto-apply label policies
-====================================
+## Prioritize auto-apply label policies
 
 For personal data that is subject to GDPR, Microsoft recommends auto-applying labels by using the sensitive information types you curated for your environment. It is important that auto-apply label policies are well designed and tested to ensure the intended behavior occurs.
 
@@ -153,10 +152,9 @@ Be sure your plan for implementing labels includes:
 </tbody>
 </table>
 
-Create labels and auto-apply label policies
-===========================================
+## Create labels and auto-apply label policies
 
-Create labels and policies in Security and Compliance Center.
+Create labels and policies in the Security & Compliance Center.
 
 <table>
 <thead>
@@ -184,7 +182,7 @@ Create labels and policies in Security and Compliance Center.
 
 The following illustration shows how to create an auto-apply label for the Customer data label.
 
-![Create and apply a label for customer data](Media/Apply-labels-to-personal-data-in-Office-365_image3.png)
+![Create and apply a label for customer data](Media/Apply-labels-to-personal-data-in-Office-365-image3.png)
 
 In the illustration:
 

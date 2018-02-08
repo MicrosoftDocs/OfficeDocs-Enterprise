@@ -3,9 +3,10 @@ title: "Search for and find personal data"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 1/24/2018
+ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
+ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: GDPR
@@ -27,8 +28,7 @@ Finding personal data subject to GDPR relies on using sensitive information type
 
 So, while you can’t currently use Content Search to find personal data at rest in Exchange Online mailboxes, you can use the sensitive information types you curate for GDPR to find and protect personal information as it is sent through email.
 
-Use Content Search to find personal data
-========================================
+## Use Content Search to find personal data
 
 Microsoft recommends a three-stage approach to finding personal data in Office 365. The rest of this topic provides guidance for each of these stages.
 
@@ -66,8 +66,7 @@ If needed, add parameters to the query to reduce false positives:
 
 Coming soon — You'll be able to create and modify sensitive information types in a new user interface in the Security and Compliance Center. You can dynamically see matching results and tune sensitive information types to meet your needs.
 
-Search for sensitive information types using Content Search
-===========================================================
+## Search for sensitive information types using Content Search
 
 Begin searching for personal data by using the sensitive information types that are included with Office 365. These are listed in the Security and Compliance Center under Classification.
 
@@ -79,8 +78,7 @@ Sensitive information types define how the automated process recognizes specific
 
 At this time sensitive information types cannot be used to find data at rest in mailboxes.
 
-Using Content Search with sensitive information types
------------------------------------------------------
+### Using Content Search with sensitive information types
 
 <table>
 <thead>
@@ -118,8 +116,7 @@ Using Content Search with sensitive information types
 </tbody>
 </table>
 
-Sensitive information types for EU citizen data
-===============================================
+## Sensitive information types for EU citizen data
 
 Start with these sensitive information types. Many more sensitive information types are coming soon for personal data in EU countries.
 
@@ -193,8 +190,7 @@ Start with these sensitive information types. Many more sensitive information ty
 >
 > U.S./U.K. Passport Number
 
-Add parameters to a sensitive information type query to hone the results
-========================================================================
+## Add parameters to a sensitive information type query to hone the results
 
 You can add these parameters to a sensitive information type query:
 

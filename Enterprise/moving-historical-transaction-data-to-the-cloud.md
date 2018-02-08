@@ -9,8 +9,7 @@ ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Architecture
+ms.custom: Ent_Architecture
 ms.assetid: 3e9c405a-415b-4584-aa7e-f2489299c457
 description: "Summary: How Contoso implemented SQL Server stretch database to reduce its on-premises data storage needs and daily running costs."
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Use PowerShell to perform a staged migration to Office 365"
-ms.author: sirkkuw
-author: sirkkuw
-manager: scotv
+ms.author: josephd
+author: JoeDavies-MSFT
+manager: laurawi
 ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
