@@ -8,10 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection:
-- Ent_O365
-ms.custom:
-- Ent_TLGs
+ms.collection: Ent_O365
+ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: "Summary: Use this Test Lab Guide to add EMS mobile application management (MAM) policies to your Microsoft 365 dev/test environment."
 ---

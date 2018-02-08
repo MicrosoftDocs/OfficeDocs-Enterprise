@@ -8,10 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection:
-- Ent_O365
-ms.custom:
-- Ent_Solutions
+ms.collection: Ent_O365
+ms.custom: Ent_Solutions
 ms.assetid: bef810a4-53f6-4962-878e-e20b5019baeb
 description: "Summary: Learn how to use the Azure Access Control Service to authenticate your SharePoint Server 2013 users with Azure Active Directory."
 ---

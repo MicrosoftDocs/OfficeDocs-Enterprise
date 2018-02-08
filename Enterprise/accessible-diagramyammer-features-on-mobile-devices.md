@@ -6,6 +6,7 @@ manager: laurawi
 ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
+ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b18f4ae4-cd83-4a66-8e33-a7d5a4c06659

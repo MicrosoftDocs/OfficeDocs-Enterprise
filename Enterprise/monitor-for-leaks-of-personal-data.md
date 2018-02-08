@@ -6,11 +6,11 @@ manager: laurawi
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
+ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: GDPR
 ms.assetid:
-
 description: "Learn about three tools you can use to monitor for leaks of personal data."
 ---
 # Monitor for leaks of personal data
