@@ -87,7 +87,7 @@
 
         "redirect_url": "/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
 
-        "redirect_document_id": false
+        "redirect_document_id": true
 
     }
 
