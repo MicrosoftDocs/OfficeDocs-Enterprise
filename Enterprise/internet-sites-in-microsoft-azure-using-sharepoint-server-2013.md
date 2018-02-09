@@ -41,7 +41,7 @@ The following technical illustrations and articles provide information about how
 |**SharePoint Server 2013 Internet sites in Azure** <br/> [![Image of Internet sites in Azure using SharePoint](images/MS_AZ_SPInternetSites.jpg)          ](https://go.microsoft.com/fwlink/p/?LinkId=392552) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552)  \| [![Visio file](images/ITPro_Other_VisioIcon.jpg)          ](https://go.microsoft.com/fwlink/p/?LinkId=392551)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551) <br/> |This architecture model outlines key design activities and recommended architecture choices for Internet sites in Azure.  <br/> |
 |**Design sample: Internet Sites in Azure for SharePoint Server 2013** <br/> [![Image of the Design sample: Internet sites in Microsoft Azure for SharePoint 2013](images/MS_AZ_InternetSitesDesignSample.jpg)          ](https://go.microsoft.com/fwlink/p/?LinkId=392549) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548) <br/> |Use this design sample as a starting point for your own architecture.  <br/> |
 |**[Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md)** <br/> |This article describes how to design Azure architectures to host SharePoint solutions.  <br/> |
-|**[Using Microsoft Azure Active Directory for SharePoint 2013 authentication](using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md)** <br/> |Step-by-step instructions for configuring Azure AD with a SharePoint 2013 farm.  <br/> |
+
    
 **Join the discussion**
 
