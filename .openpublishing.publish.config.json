@@ -77,7 +77,20 @@
     }
   },
   "need_generate_pdf": false,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
 
+  "redirections": [
+  
+    {
+
+        "source_path": "using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md",
+
+        "redirect_url": "/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
+
+        "redirect_document_id": false
+
+    },
+
+]
 }
 
