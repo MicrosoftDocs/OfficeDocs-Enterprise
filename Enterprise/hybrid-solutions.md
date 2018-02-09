@@ -35,8 +35,7 @@ For SharePoint Server 2013 workloads in Azure:
 - [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
     
 - [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
-    
-- [Using Microsoft Azure Active Directory for SharePoint 2013 authentication](using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md)
+  
     
 **Join the discussion**
 
