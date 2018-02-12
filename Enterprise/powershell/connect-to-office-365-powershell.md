@@ -119,7 +119,7 @@ If you receive errors, check the following requirements:
 ## Connect with the Azure Active Directory V2 PowerShell module
 <a name="ConnectV2"> </a>
 
-Commands in the Microsoft Azure Active Directory Module for Windows PowerShell have "AzureAD" in their cmdlet name.
+Commands in the Azure Active Directory V2 PowerShell module have "AzureAD" in their cmdlet name.
 
 For procedures that require the new cmdlets in the [Azure Active Directory V2 PowerShell module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory), use these steps to install the module and connect to your Office 365 subscription.
 
