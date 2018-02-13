@@ -3,7 +3,7 @@ title: "Disable access to services with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/08/2018
+ms.date: 02/13/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -87,12 +87,12 @@ To disable a specific set of Office 365 services for users from a single licensi
   Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -LicenseOptions $LO
   ```
 
-  - To disable the services described in Step 1 for all existing licensed users, specify the name of your Office 365 plan from the display of the **Get-MsolAccountSku** cmdlet (such as **litwareinc:ENTERPRISEPACK** ), and then run the following commands:
+  - To disable the services described in Step 1 for all existing licensed users, specify the name of your Office 365 plan from the display of the **Get-MsolAccountSku** cmdlet (such as **litwareinc:ENTERPRISEPACK**), and then run the following commands:
     
   ```
   $acctSKU="<AccountSkuId>"
   $AllLicensed = Get-MsolUser -All | Where {$_.isLicensed -eq $true -and $_.licenses[0].AccountSku.SkuPartNumber -eq ($acctSKU).Substring($acctSKU.IndexOf(":")+1, $acctSKU.Length-$acctSKU.IndexOf(":")-1)}
-  $AllLicensed | ForEach {Set-MsolUserLicense -LicenseOptions $LO}
+  $AllLicensed | ForEach {Set-MsolUserLicense -UserPrincipalName $AllLicensed.UserPrincipalName -LicenseOptions $LO}
   ```
 
   - To disable the services for a group of existing users, use either of the following methods to identify the users:
@@ -186,7 +186,7 @@ $acctSKU="<AccountSkuId>"
 $servicesList=(Get-MsolAccountSku | Select -ExpandProperty ServiceStatus).ServicePlan.ServiceName
 $lo = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans $servicesList
 $AllLicensed = Get-MsolUser -All | Where {$_.isLicensed -eq $true -and $_.licenses[0].AccountSku.SkuPartNumber -eq ($acctSKU).Substring($acctSKU.IndexOf(":")+1, $acctSKU.Length-$acctSKU.IndexOf(":")-1)}
-$AllLicensed | ForEach {Set-MsolUserLicense -LicenseOptions $lo}
+$AllLicensed | ForEach {Set-MsolUserLicense -ObjectID $AllLicensed.ObjectID -LicenseOptions $lo}
 ```
 
 ## New to Office 365?
