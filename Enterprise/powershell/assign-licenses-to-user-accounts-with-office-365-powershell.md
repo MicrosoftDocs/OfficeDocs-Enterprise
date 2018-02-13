@@ -9,11 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Office_Other
-- LIL_Placement
-- PowerShell
-- O365ITProTrain
+ms.custom: Ent_Office_Other, LIL_Placement, PowerShell, O365ITProTrain
 ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 
 description: "Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users."

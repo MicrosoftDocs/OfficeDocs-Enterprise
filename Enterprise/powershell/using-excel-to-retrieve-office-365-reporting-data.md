@@ -9,9 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Office_Other
-- PowerShell
+ms.custom: Ent_Office_Other, PowerShell
 ms.assetid: 510d5528-ac00-4f54-9d38-75fa043d0a06
 description: "Summary: Use the oData feature in Microsoft Excel to retrieve detailed reporting information for your deployment of Office 365"
 ---

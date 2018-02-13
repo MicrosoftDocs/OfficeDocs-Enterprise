@@ -9,9 +9,7 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- TLG
-- Ent_TLGs
+ms.custom: TLG, Ent_TLGs
 ms.assetid: d4c49a6f-abfd-4d68-b353-259b4eefb033
 description: "Summary: Configure and demonstrate Office 365 Advanced eDiscovery with sample data in your Office 365 dev/test environment."
 ---

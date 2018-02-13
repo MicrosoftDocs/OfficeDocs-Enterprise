@@ -9,10 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- PowerShell
-- Ent_Office_Other
-- O365ITProTrain
+ms.custom: PowerShell, Ent_Office_Other, O365ITProTrain
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
 description: "Learn how to use Office 365 PowerShell to delete and restore Office 365 user accounts."
 ---

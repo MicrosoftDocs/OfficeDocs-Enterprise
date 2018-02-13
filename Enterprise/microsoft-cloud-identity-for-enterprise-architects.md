@@ -8,11 +8,8 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Priority
-ms.collection: Ent_O365
-ms.custom:
-- O365ITProTrain
-- Strat_O365_Enterprise
-- Ent_Architecture
+ms.collection: Ent_O365, Strat_O365_Enterprise
+ms.custom: O365ITProTrain, Strat_O365_Enterprise, Ent_Architecture
 ms.assetid: d27b5085-7325-4ab9-9d9a-438908a65d2c
 description: "Summary: Design your identity solution for Microsoft cloud services and platforms."
 ---

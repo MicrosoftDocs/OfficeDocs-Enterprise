@@ -9,9 +9,7 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- TLG
-- Ent_TLGs
+ms.custom: TLG, Ent_TLGs
 ms.assetid: 22248f2f-b370-435e-b6ac-0ae0cae36b96
 description: "Summary: Configure and demonstrate Office 365 Cloud App Security in your Office 365 dev/test environment."
 ---

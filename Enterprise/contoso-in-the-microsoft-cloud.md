@@ -8,10 +8,8 @@ ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Priority
-ms.collection: Ent_O365
-ms.custom:
-- Strat_O365_Enterprise
-- Ent_Architecture
+ms.collection: Ent_O365, Strat_O365_Enterprise
+ms.custom: Strat_O365_Enterprise, Ent_Architecture
 ms.assetid: c4a6d625-4938-42cc-87e1-56b7a13c63ef
 description: "Summary: How a fictional but representative global organization is adopting a cloud-inclusive IT infrastructure with Microsoft's cloud offerings."
 ---

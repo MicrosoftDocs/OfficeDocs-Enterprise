@@ -6,12 +6,11 @@ manager: laurawi
 ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
-ms.collection: Ent_O365
+ms.collection: Ent_O365, Strat_O365_Enterprise
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: Strat_O365_Enterprise
 ms.assetid:
-
 description: "This solution demonstrates how to protect sensitive data that is stored in Office 365 services."
 ---
 
