@@ -9,7 +9,11 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: PowerShell, Ent_Office_Other, LIL_Placement, O365ITProTrain
+ms.custom: 
+- PowerShell
+- Ent_Office_Other
+- LIL_Placement
+- O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
 
 description: "Explains how to use Office 365 PowerShell to remove Office 365 licenses that were previously assigned to users."

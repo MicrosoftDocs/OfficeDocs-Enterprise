@@ -9,7 +9,11 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: LIL_Placement, Ent_Office_Other, O365ITProTrain, httpsfix
+ms.custom: 
+- LIL_Placement
+- Ent_Office_Other
+- O365ITProTrain
+- httpsfix
 ms.assetid: 53d3eef6-4a16-4fb9-903c-816d5d98d7e8
 
 description: "Summary: Connect Windows PowerShell to all Office 365 services in a single Windows PowerShell window."

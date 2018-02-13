@@ -6,10 +6,14 @@ manager: laurawi
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.collection: Ent_O365
+ms.collection: 
+- Strat_O365_Enterprise
+- Ent_O365
 ms.service: o365-solutions
 localization_priority: Priority
-ms.custom: GDPR
+ms.custom: 
+- GDPR
+- Strat_O365_Enterprise
 ms.assetid:
 
 description: "Determine whether your organization will implement labels as part of your GDPR plan."

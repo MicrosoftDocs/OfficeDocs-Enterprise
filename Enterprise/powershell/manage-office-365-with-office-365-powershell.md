@@ -9,7 +9,10 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: PowerShell, O365ITProTrain, Ent_Office_Other
+ms.custom: 
+- PowerShell
+- O365ITProTrain
+- Ent_Office_Other
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
 description: "Summary: Learn how to use Office 365 PowerShell with Office 365 users and licenses, Skype for Business Online, SharePoint Online, and Microsoft Exchange Online."
 ---

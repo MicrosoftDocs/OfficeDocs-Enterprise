@@ -9,7 +9,10 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: PowerShell, Ent_Office_Other, LIL_Placement
+ms.custom: 
+- PowerShell
+- Ent_Office_Other
+- LIL_Placement
 ms.assetid: ace07d8a-15ca-4b89-87f0-abbce809b519
 
 description: "Explains how to use Office 365 PowerShell to determine the Office 365 services that have been assigned to users."

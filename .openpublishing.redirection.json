@@ -10,7 +10,28 @@
 
         "redirect_document_id": true
 
+      },
+
+      {
+
+        "source_path": "enterprise/obsolete-article.md",
+
+        "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/cloud-adoption-and-hybrid-solutions",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/obsolete-bi-article.md",
+
+        "redirect_url": "https://technet.microsoft.com/en-us/library/mt792038(v=office.16).aspx",
+
+        "redirect_document_id": false
+
       }
+
 
   ]
 

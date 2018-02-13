@@ -8,8 +8,12 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365, Strat_O365_Enterprise
-ms.custom: Strat_O365_Enterprise, Ent_TLGs
+ms.collection: 
+- Ent_O365
+- Strat_O365_Enterprise
+ms.custom: 
+- Strat_O365_Enterprise
+- Ent_TLGs
 ms.assetid: 0a3555dc-6f96-49a5-b9e2-7760e16630b3
 description: "Summary: Create a simulated cross-premises virtual network in Microsoft Azure as a dev/test environment."
 ---

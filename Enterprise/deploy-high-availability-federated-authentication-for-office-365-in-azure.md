@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: Strat_O365_Enterprise, Ent_Solutions
+ms.custom: 
+- Strat_O365_Enterprise
+- Ent_Solutions
 ms.assetid: 34b1ab9c-814c-434d-8fd0-e5a82cd9bff6
 description: "Summary: Configure high availability federated authentication for your Office 365 subscription in Microsoft Azure."
 ---

@@ -9,7 +9,10 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: Ent_Office_Other, PowerShell, LIL_Placement
+ms.custom: 
+- Ent_Office_Other
+- PowerShell
+- LIL_Placement
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
 
 description: "Explains how to use Office 365 PowerShell to disable access to Office 365 services for users in your organization."

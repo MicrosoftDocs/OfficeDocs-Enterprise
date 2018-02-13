@@ -6,10 +6,14 @@ manager: laurawi
 ms.date: 2/7/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- Strat_O365_Enterprise
 ms.service: o365-solutions
 localization_priority: Priority
-ms.custom: GDPR
+ms.custom: 
+- Strat_O365_Enterprise
+- GDPR
 ms.assetid:
 
 description: "Learn how to use Office labels as part of your GDPR protection plan."

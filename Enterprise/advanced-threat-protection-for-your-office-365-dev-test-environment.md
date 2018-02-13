@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: TLG, Ent_TLGs
+ms.custom: 
+- TLG
+- Ent_TLGs
 ms.assetid: 51019757-20ac-498c-b51e-cae6d41a8c08
 description: "Summary: Configure and demonstrate Office 365 Advanced Threat Protection in your Office 365 dev/test environment."
 ---

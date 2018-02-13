@@ -8,8 +8,13 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365, Strat_O365_Enterprise
-ms.custom: Strat_O365_Enterprise, TLG, Ent_TLGs
+ms.collection: 
+- Ent_O365
+- Strat_O365_Enterprise
+ms.custom: 
+- Strat_O365_Enterprise
+- TLG
+- Ent_TLGs
 ms.assetid: e6b27e25-74ae-4b54-9421-c8e911aef543
 description: "Summary: Configure directory synchronization for your Office 365 dev/test environment."
 ---

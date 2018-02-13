@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: TLG, Ent_TLGs
+ms.custom: 
+- TLG
+- Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: "Summary: Configure a SharePoint Online team site that is isolated from the rest of the organization in your Office 365 dev/test environment."
 ---

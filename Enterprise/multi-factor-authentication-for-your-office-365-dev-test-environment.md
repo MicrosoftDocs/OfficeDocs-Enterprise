@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: TLG, Ent_TLGs
+ms.custom: 
+- TLG
+- Ent_TLGs
 ms.assetid: e2b354b9-7f18-4da0-9107-6245eae0f33f
 description: "Summary: Configure multi-factor authentication using text messages sent to a smart phone in an Office 365 dev/test environment."
 ---

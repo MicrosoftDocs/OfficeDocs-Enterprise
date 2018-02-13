@@ -9,7 +9,10 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: LIL_Placement, O365ITProTrain, Ent_Office_Other
+ms.custom: 
+- LIL_Placement
+- O365ITProTrain
+- Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
 description: "Summary: Connect to your Office 365 organization using Office 365 PowerShell to perform Office 365 admin center tasks from the command line."
 ---
