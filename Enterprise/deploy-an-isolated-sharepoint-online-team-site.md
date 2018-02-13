@@ -9,8 +9,7 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Solutions
+ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: "Summary: Deploy a new isolated SharePoint Online team site with these step-by-step instructions."
 ---

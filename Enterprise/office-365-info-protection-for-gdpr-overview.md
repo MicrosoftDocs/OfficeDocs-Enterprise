@@ -11,7 +11,6 @@ ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: GDPR
 ms.assetid:
-
 description: "Get an overview of Office 365 Information Protection for GDPR. Learn how to discover, classify, protect, adn monitor personal data."
 ---
 # Overview of Office 365 Information Protection for GDPR

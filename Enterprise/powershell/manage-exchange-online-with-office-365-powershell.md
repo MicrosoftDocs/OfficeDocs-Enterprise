@@ -9,9 +9,7 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- Ent_Office_Other
-- PowerShell
+ms.custom: Ent_Office_Other, PowerShell
 ms.assetid: b23dda88-f137-4051-9c2c-84035ad63f5e
 description: "Summary: Use Office 365 PowerShell to manage Microsoft Exchange Online, including displaying mailbox configuration and advanced reporting."
 ---

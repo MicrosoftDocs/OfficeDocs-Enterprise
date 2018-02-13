@@ -9,10 +9,7 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom:
-- O365ITProTrain
-- PowerShell
-- Ent_Office_Other
+ms.custom: O365ITProTrain, PowerShell, Ent_Office_Other
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: "Summary: Use Office 365 PowerShell and the Add-MsolRoleMember cmdlet to assign roles to user accounts."
 ---
