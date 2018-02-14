@@ -53,7 +53,7 @@ These steps are required once on your computer, not every time you connect. Howe
   
 1.  Install the 64-bit version of the Microsoft Online Services Sign-in Assistant: [Microsoft Online Services Sign-in Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152).
     
-2. Install the the Microsoft Azure Active Directory Module for Windows PowerShell with these steps:
+2. Install the Microsoft Azure Active Directory Module for Windows PowerShell with these steps:
     
   - Open an administrator-level PowerShell command prompt.
   - Run the **Install-Module MSOnline** command.
