@@ -92,7 +92,7 @@ To disable a specific set of Office 365 services for users from a single licensi
   ```
   $acctSKU="<AccountSkuId>"
   $AllLicensed = Get-MsolUser -All | Where {$_.isLicensed -eq $true -and $_.licenses[0].AccountSku.SkuPartNumber -eq ($acctSKU).Substring($acctSKU.IndexOf(":")+1, $acctSKU.Length-$acctSKU.IndexOf(":")-1)}
-  $AllLicensed | ForEach {Set-MsolUserLicense -UserPrincipalName $AllLicensed.UserPrincipalName -LicenseOptions $LO}
+  $AllLicensed | ForEach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalName -LicenseOptions $LO}
   ```
 
   - To disable the services for a group of existing users, use either of the following methods to identify the users:
@@ -186,7 +186,7 @@ $acctSKU="<AccountSkuId>"
 $servicesList=(Get-MsolAccountSku | Select -ExpandProperty ServiceStatus).ServicePlan.ServiceName
 $lo = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans $servicesList
 $AllLicensed = Get-MsolUser -All | Where {$_.isLicensed -eq $true -and $_.licenses[0].AccountSku.SkuPartNumber -eq ($acctSKU).Substring($acctSKU.IndexOf(":")+1, $acctSKU.Length-$acctSKU.IndexOf(":")-1)}
-$AllLicensed | ForEach {Set-MsolUserLicense -ObjectID $AllLicensed.ObjectID -LicenseOptions $lo}
+$AllLicensed | ForEach {Set-MsolUserLicense -ObjectID $_.ObjectID -LicenseOptions $lo}
 ```
 
 ## New to Office 365?
