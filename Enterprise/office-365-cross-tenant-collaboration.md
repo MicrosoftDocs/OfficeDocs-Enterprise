@@ -2,8 +2,9 @@
 title: "Office 365 cross-tenant collaboration"
 ms.author: deniseb
 author: denisebmsft
+ms.reviewer: chrfox
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 2/26/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -19,11 +20,6 @@ Learn how organizations can collaborate in a secure manner across Office 365 ten
   
 Organizations can use Office 365 to collaborate on projects. For example, Skype for Business enables people to meet online, share files, and chat via instant messaging. Or, people can use Office 365 groups to have conversations, files, and calendar items all in one place.
   
-Sometimes, an enterprise organization has a business need to collaborate with another organization using a different Office 365 tenant. Examples include: ___
+Sometimes, an enterprise organization has a business need to collaborate with another organization using a different Office 365 tenant. Examples include sharing calendars with another organization, sharing sites and documents with external users, and collaborating in Yammer.
   
-## What is Office 365 cross-tenant collaboration?
-<a name="whatisctc"> </a>
-
-Office 365 cross-tenant collaboration refers to people who are using one Office 365 tenant being able to collaborate in a secure manner with others who are using a different Office 365 tenant. For example, suppose 
-  
-
+To learn more, see [Office 365 inter-tenant collaboration](https://support.office.com/en-us/article/Office-365-inter-tenant-collaboration-eb45fd8b-1d5d-4b0c-9c5a-479dbb176e7d).
