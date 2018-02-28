@@ -66,6 +66,7 @@
 ### [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
 ### [Using Microsoft Azure Active Directory for SharePoint 2013 authentication](using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md)
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
+## [Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 ## [Security solutions](security-solutions.md)
 ### [Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)
 ### [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
