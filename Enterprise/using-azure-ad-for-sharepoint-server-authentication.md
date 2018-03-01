@@ -98,13 +98,14 @@ Each of the web front end servers in the SharePoint farm will require configurin
 
 Log into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Run the following commands to configure a new trusted identity provider.
 
-`$cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2("<File path from Table 1>")
+```$cert = New-Object 
+System.Security.Cryptography.X509Certificates.X509Certificate2("<File path from Table 1>")
 New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
 $map = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" -IncomingClaimTypeDisplayName "name" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"
 $map2 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" -IncomingClaimTypeDisplayName "GivenName" -SameAsIncoming
 $map3 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" -IncomingClaimTypeDisplayName "SurName" -SameAsIncoming
 $realm = "<Realm from Table 1>"
-$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl "<wsfed url from your table>" -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”`
+$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl "<wsfed url from your table>" -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”```
 
 Next, follow these steps to enable the trusted identity provider for your application:
 1. In Central Administration, navigate to **Manage Web Application** and select the web application that you wish to secure with Azure AD. 
