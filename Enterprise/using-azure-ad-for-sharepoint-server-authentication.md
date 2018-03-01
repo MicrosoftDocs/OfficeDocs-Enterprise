@@ -79,8 +79,8 @@ Each of the web front end servers in the SharePoint farm will require configurin
 4. Save your changes.
 5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
 -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy the full path to the downloaded file into the table you set up in Step 3.
-- Copy the SAML Single Sign-On Service URL link into the table below, replacing the */saml2* portion of the URL with */wsfed*.
-6.  Navigate to the Properties pane for the application. Copy the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](images/SAML11/fig8-propertiespane.png)</br>
+- Copy the SAML Single Sign-On Service URL link into the table you created in Step 3, replacing the */saml2* portion of the URL with */wsfed*.
+6.  Navigate to the **Properties** pane for the application. Copy the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](images/SAML11/fig8-propertiespane.png)</br>
 7. Using the values you captured, make sure the table you set up in Step 3 resembles the following example table.
 
 
@@ -92,7 +92,7 @@ Each of the web front end servers in the SharePoint farm will require configurin
 |Application Object ID | a812f48b-d1e4-4c8e-93be-e4808c8ca3ac |
 
 > [!IMPORTANT]
-> Replace the “/saml2” value in the URL with “/wsfed”. The “/saml2” endpoint will process SAML 2.0 tokens. The “/wsfed” endpoint enables processing SAML 1.1 tokens and is required for SharePoint 2016 SAML federation.
+> Replace the */saml2* value in the URL with */wsfed*. The */saml2* endpoint will process SAML 2.0 tokens. The */wsfed* endpoint enables processing SAML 1.1 tokens and is required for SharePoint 2016 SAML federation.
 
 ## Configure a new trusted identity provider in SharePoint Server 2016
 
