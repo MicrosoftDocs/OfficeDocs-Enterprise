@@ -22,7 +22,7 @@ SharePoint Server 2016 provides the ability to authenticate users using claims-b
 
 This article explains how you can use Azure AD to authenticate your users instead of your on-premises AD DS. In this configuration, Azure AD becomes a trusted identity provider for SharePoint Server 2016. This configuration adds a user authentication method that is separate from the AD DS authentication used by the SharePoint Server 2016 installation itself. To benefit from this article, you should be familiar with WS-Federation. For more information, see [Understanding WS-Federation](https://go.microsoft.com/fwlink/p/?linkid=188052).
 
-Previously, this configuration would have required a federation service such as Azure Access Control Service (ACS) in the cloud or an environment that hosts Active Directory Federation Services (AD FS) to transform tokens from SAML 2.0 to SAML 1.1. This transformation is no longer required as Azure Active Directory now enables issuing SAML 1.1 tokens. The following figure shows how authentication works for SharePoint 2016 users in this configuration, demonstrating that there is no longer a requirement for an intermediary to perform this transformation.
+Previously, this configuration would have required a federation service such as Azure Access Control Service (ACS) in the cloud or an environment that hosts Active Directory Federation Services (AD FS) to transform tokens from SAML 2.0 to SAML 1.1. This transformation is no longer required as Azure Active Directory now enables issuing SAML 1.1 tokens. The following image shows how authentication works for SharePoint 2016 users in this configuration, demonstrating that there is no longer a requirement for an intermediary to perform this transformation.
 
 ![Using Azure AD for SharePoint Authentication](images/SAML11/fig1-architecture.png)
 
@@ -61,7 +61,7 @@ Using SAML requires the application be configured to use SSL. If your SharePoint
 1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443.</br>![Extending the web app to another IIS site](images/SAML11/fig3-extendwebapptoiis.png)</br>
 2. In IIS Manager, double-click **Server Certificates**.
 3. In the **Actions** pane, click **Create Self-Signed Certificate**. Type a friendly name for the certificate in the Specify a friendly name for the certificate box, and then click **OK**.
-4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following figure.</br>![Editing site binding in IIS](images/SAML11/fig4-editsitebinding.png)</br>
+4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.</br>![Editing site binding in IIS](images/SAML11/fig4-editsitebinding.png)</br>
 
 Each of the web front end servers in the SharePoint farm will require configuring the certificate for the site binding in IIS.
 
