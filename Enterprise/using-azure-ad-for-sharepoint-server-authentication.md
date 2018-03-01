@@ -107,6 +107,8 @@ $map3 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws
 $realm = "<Realm from Table 1>"
 $ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl "<wsfed url from your table>" -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”```
 
+
+
 Next, follow these steps to enable the trusted identity provider for your application:
 1. In Central Administration, navigate to **Manage Web Application** and select the web application that you wish to secure with Azure AD. 
 2. In the ribbon, click **Authentication Providers** and choose the zone that you wish to use.
@@ -128,7 +130,7 @@ The users who will log into Azure AD and access SharePoint must be granted acces
 The user has been granted permission in Azure AD, but also must be granted permission in SharePoint. Use the following steps to set the permissions to access the web application.
 
 1. In Central Administration, click **Application Management**.
-2. On the Application Management page, in the **Web Applications** section, click **Manage web applications**.
+2. On the **Application Management** page, in the **Web Applications** section, click **Manage web applications**.
 3. Click the appropriate web application, and then click **User Policy**.
 4. In Policy for Web Application, click **Add Users**.
 5. In the **Add Users** dialog box, click the appropriate zone in **Zones**, and then click **Next**.
