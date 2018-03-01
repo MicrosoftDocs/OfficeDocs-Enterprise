@@ -180,9 +180,7 @@ Users can now log into SharePoint 2016 using identities from Azure AD, however t
 
 ![Claims search results](images/SAML11/fig16-claimssearchresults.png)
 
-There is no validation on what you type, which can lead to a misspelling that prevents users from successfully signing in, or accidentally choosing the wrong claim type such as *SurName*.
 
-To assist with this scenario, there is an open-source solution called *AzureCP* that provides a custom claims provider for SharePoint 2016. It uses the Azure AD Graph to resolve what users enter and perform validation. Visit  [https://yvand.github.io/AzureCP](https://yvand.github.io/AzureCP). 
 
 ## Additional resources
 
