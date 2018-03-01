@@ -68,13 +68,13 @@ Each of the web front end servers in the SharePoint farm will require configurin
 ## Create a new enterprise application in Azure AD
 
 1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](images/SAML11/fig5-addnongalleryapp.png)</br>
-2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:
-- Identifier: urn:sharepoint:portal.contoso.local
-- Reply URL: https://portal.contoso.local/_trust/default.aspx
-- Sign-on URL: https://portal.contoso.local/_trust/default.aspx
-- User Identifier: user.userprincipalname
+2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:</br>
+    - Identifier: urn:sharepoint:portal.contoso.local
+    - Reply URL: https://portal.contoso.local/_trust/default.aspx
+    - Sign-on URL: https://portal.contoso.local/_trust/default.aspx
+    - User Identifier: user.userprincipalname</br>
 > [!IMPORTANT]
-> Note: the URLs above should be changed, replacing *portal.contoso.local* to point to the URL of the SharePoint site you wish to secure.
+> Note: the URLs above should be changed, replacing *portal.contoso.local* to point to the URL of the SharePoint site you wish to secure.</br>
 3. Set up a table that includes rows for Realm, Full path to SAML signing certificate file, SAML Single Sign-On service URL (replacing /saml2 with /wsfed), and Application Object ID. Copy the *Identifier* value into the *Realm* property into a table  (An example table is provided after Step 7.)
 4. Save your changes.
 5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
@@ -97,6 +97,9 @@ Each of the web front end servers in the SharePoint farm will require configurin
 ## Configure a new trusted identity provider in SharePoint Server 2016
 
 Log into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Run the following commands to configure a new trusted identity provider.
+
+> [!TIP]
+> If you're new to using PowerShell or want to learn more about how PowerShell works, see [SharePoint PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/overview?view=sharepoint-ps). 
 
 ```
 $cert = New-Object 
