@@ -105,9 +105,8 @@ $map = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/
 $map2 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" -IncomingClaimTypeDisplayName "GivenName" -SameAsIncoming
 $map3 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" -IncomingClaimTypeDisplayName "SurName" -SameAsIncoming
 $realm = "<Realm from Table 1>"
-$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl "<wsfed url from your table>" -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”```
-
-
+$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl "<wsfed url from your table>" -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”
+```
 
 Next, follow these steps to enable the trusted identity provider for your application:
 1. In Central Administration, navigate to **Manage Web Application** and select the web application that you wish to secure with Azure AD. 
