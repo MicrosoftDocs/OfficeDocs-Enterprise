@@ -98,7 +98,8 @@ Each of the web front end servers in the SharePoint farm will require configurin
 
 Log into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Run the following commands to configure a new trusted identity provider.
 
-```$cert = New-Object 
+```
+$cert = New-Object 
 System.Security.Cryptography.X509Certificates.X509Certificate2("<File path from Table 1>")
 New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
 $map = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" -IncomingClaimTypeDisplayName "name" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"
@@ -134,7 +135,7 @@ The user has been granted permission in Azure AD, but also must be granted permi
 4. In Policy for Web Application, click **Add Users**.
 5. In the **Add Users** dialog box, click the appropriate zone in **Zones**, and then click **Next**.
 6. In the **Policy for Web Application** dialog box, in the **Choose Users** section, click the **Browse** icon.
-7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. Example: demouser@blueskyabove.onmicrosoft.com.
+7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. Example: *demouser@blueskyabove.onmicrosoft.com*.
 8. Under the AzureAD heading in the list view, select the name property and click **Add** then click **OK** to close the dialog.
 9. In Permissions, click **Full Control**.</br>![Granting full control to a claims user](images/SAML11/fig12-grantfullcontrol.png)</br>
 10. Click **Finish**, and then click **OK**.
@@ -143,7 +144,42 @@ The following imageshows the **Add Users** section of an existing web applicatio
 
 ![Searching for a user by their name claim](images/SAML11/fig11-searchbynameclaim.png)
 
+## Add a SAML 1.1 token issuance policy in Azure AD
 
+When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens.
+
+```
+Import-Module <file path of Initialize.ps1> 
+$objectid = "<Application Object ID from Table 1 above>"
+$saml2policyid = Get-PoliciesAssignedToServicePrincipal -servicePrincipalId $objectid | ?{$_.displayName -EQ "TokenIssuancePolicy"} | select objectId
+Remove-PolicyFromServicePrincipal -policyId $saml2policyid -servicePrincipalId $objectid
+$policy = Add-TokenIssuancePolicy -DisplayName SPSAML11 -SigningAlgorithm "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" -TokenResponseSigningPolicy TokenOnly -SamlTokenVersion "1.1"
+Set-PolicyToServicePrincipal -policyId $policy.objectId -servicePrincipalId $objectid
+```
+
+## Verify the new provider
+
+Open a browser to the URL of the web application that you configured in the previous steps. You are redirected to sign into Azure AD.
+
+![Signing into Azure AD configured for federation](images/SAML11/fig13-examplesignin.png)
+
+You are asked if you want to stay signed in.
+
+![Stay signed in?](images/SAML11/fig14-staysignedin.png)
+
+Finally, you can access the site logged in as a user from your Azure Active Directory tenant.
+
+![User signed into SharePoint](images/SAML11/fig15-signedinsharepoint.png)
+
+## Fixing People Picker
+
+Users can now log into SharePoint 2016 using identities from Azure AD, however there are still opportunities for improvement. For instance, searching for a user presents multiple search results in the people picker. This is because there is a search result for each of the 3 claim types that were created in the claim mapping. To add a user, you must type their user name exactly and choose the “name” claim result.
+
+![Claims search results](images/SAML11/fig16-claimssearchresults.png)
+
+There is no validation on what you type, which can lead to a misspelling that prevents users from successfully signing in, or accidentally choosing the wrong claim type such as *SurName*.
+
+To assist with this scenario, there is an open-source solution called *AzureCP* that provides a custom claims provider for SharePoint 2016. It uses the Azure AD Graph to resolve what users enter and perform validation. Visit  [https://yvand.github.io/AzureCP](https://yvand.github.io/AzureCP). 
 
 ## Additional resources
 
