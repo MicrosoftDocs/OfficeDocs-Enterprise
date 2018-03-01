@@ -176,11 +176,6 @@ Finally, you can access the site logged in as a user from your Azure Active Dire
 
 ![User signed into SharePoint](images/SAML11/fig15-signedinsharepoint.png)
 
-## Fixing People Picker
-
-Users can now log into SharePoint 2016 using identities from Azure AD, however there are still opportunities for improvement. For instance, searching for a user presents multiple search results in the people picker. This is because there is a search result for each of the 3 claim types that were created in the claim mapping. To add a user, you must type their user name exactly and choose the “name” claim result.
-
-![Claims search results](images/SAML11/fig16-claimssearchresults.png)
 
 ## Additional resources
 
