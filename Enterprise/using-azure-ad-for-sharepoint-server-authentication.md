@@ -74,9 +74,8 @@ Each of the web front end servers in the SharePoint farm will require configurin
     - Reply URL: https://portal.contoso.local/_trust/default.aspx
     - Sign-on URL: https://portal.contoso.local/_trust/default.aspx
     - User Identifier: user.userprincipalname</br>
-> [!IMPORTANT]
-> Note: the URLs above should be changed, replacing *portal.contoso.local* to point to the URL of the SharePoint site you wish to secure.</br>
-3. Set up a table that includes rows for Realm, Full path to SAML signing certificate file, SAML Single Sign-On service URL (replacing /saml2 with /wsfed), and Application Object ID. Copy the *Identifier* value into the *Realm* property into a table  (An example table is provided after Step 7.)
+    - Note: the URLs above should be changed, replacing *portal.contoso.local* to point to the URL of the SharePoint site you wish to secure.</br>
+3. Set up a table that includes rows for Realm, Full path to SAML signing certificate file, SAML Single Sign-On service URL (replacing */saml2* with */wsfed*), and Application Object ID. Copy the *Identifier* value into the *Realm* property into a table  (An example table is provided after Step 7.)
 4. Save your changes.
 5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
 -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy the full path to the downloaded file into the table you set up in Step 3.
