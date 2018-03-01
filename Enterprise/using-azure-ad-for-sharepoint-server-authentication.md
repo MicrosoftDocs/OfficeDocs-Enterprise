@@ -47,7 +47,7 @@ Follow these general steps to set up your environment to use Azure AD as a Share
 The following sections describe how to perform these tasks.
 
 
-## Create a new Azure AD directory or use your existing directory
+## Step 1: Create a new Azure AD directory or use your existing directory
 
 In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), create a new directory. Provide the organization name, initial domain name, and the country or region.
 
@@ -56,7 +56,7 @@ In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), crea
  If you already have a directory such as the one used for Microsoft Office 365 or your Microsoft Azure subscription, you can use that directory instead. You must have permissions to register applications in the directory.
 
 
-## Ensure the zone for the web application that you want to secure with Azure AD is configured to use SSL
+## Step 2: Ensure the zone for the web application that you want to secure with Azure AD is configured to use SSL
 
 This article was written using the reference architecture in [Run a high availability SharePoint Server 2016 farm in Azure](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/sharepoint). The article’s accompanying scripts used to deploy the solution described in [this article](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/sharepoint) create a site that does not use SSL.  
 
@@ -70,7 +70,7 @@ Using SAML requires the application be configured to use SSL. If your SharePoint
 Each of the web front end servers in the SharePoint farm will require configuring the certificate for the site binding in IIS.
 
 
-## Create a new enterprise application in Azure AD
+## Step 3: Create a new enterprise application in Azure AD
 
 1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](images/SAML11/fig5-addnongalleryapp.png)</br>
 2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:</br>
@@ -103,7 +103,7 @@ Copy the *Identifier* value into the *Realm* property into a table  (An example 
 > [!IMPORTANT]
 > Replace the */saml2* value in the URL with */wsfed*. The */saml2* endpoint will process SAML 2.0 tokens. The */wsfed* endpoint enables processing SAML 1.1 tokens and is required for SharePoint 2016 SAML federation.
 
-## Configure a new trusted identity provider in SharePoint Server 2016
+## Step 4: Configure a new trusted identity provider in SharePoint Server 2016
 
 Log into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Run the following commands to configure a new trusted identity provider.
 
@@ -131,7 +131,7 @@ Next, follow these steps to enable the trusted identity provider for your applic
 ![Configuring your authentication provider](images/SAML11/fig10-configauthprovider.png)
 
 
-## Set the permissions
+## Step 5: Set the permissions
 
 The users who will log into Azure AD and access SharePoint must be granted access to the application. 
 
@@ -154,7 +154,7 @@ The user has been granted permission in Azure AD, but also must be granted permi
 10. Click **Finish**, and then click **OK**.
 
 
-## Add a SAML 1.1 token issuance policy in Azure AD
+## Step 6: Add a SAML 1.1 token issuance policy in Azure AD
 
 When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens.
 
@@ -167,7 +167,7 @@ $policy = Add-TokenIssuancePolicy -DisplayName SPSAML11 -SigningAlgorithm "http:
 Set-PolicyToServicePrincipal -policyId $policy.objectId -servicePrincipalId $objectid
 ```
 
-## Verify the new provider
+## Step 7: Verify the new provider
 
 Open a browser to the URL of the web application that you configured in the previous steps. You are redirected to sign into Azure AD.
 
@@ -180,6 +180,7 @@ You are asked if you want to stay signed in.
 Finally, you can access the site logged in as a user from your Azure Active Directory tenant.
 
 ![User signed into SharePoint](images/SAML11/fig15-signedinsharepoint.png)
+
 
 ## Fixing People Picker
 
