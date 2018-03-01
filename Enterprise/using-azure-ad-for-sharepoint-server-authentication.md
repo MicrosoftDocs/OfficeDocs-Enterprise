@@ -31,7 +31,6 @@ Previously, this configuration would have required a federation service such as 
 
 For information about SharePoint 2016 accessibility, see [Accessibility Guidelines in SharePoint Server 2016](https://go.microsoft.com/fwlink/p/?LinkId=393123).
 
-
 ## Configuration overview
 
 Follow these general steps to set up your environment to use Azure AD as a SharePoint Server 2016 identity provider.
@@ -46,7 +45,6 @@ Follow these general steps to set up your environment to use Azure AD as a Share
 
 The following sections describe how to perform these tasks.
 
-
 ## Step 1: Create a new Azure AD directory or use your existing directory
 
 In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), create a new directory. Provide the organization name, initial domain name, and the country or region.
@@ -54,7 +52,6 @@ In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), crea
 ![Creating a directory](images/SAML11/fig2-createdirectory.png) 
 
  If you already have a directory such as the one used for Microsoft Office 365 or your Microsoft Azure subscription, you can use that directory instead. You must have permissions to register applications in the directory.
-
 
 ## Step 2: Ensure the zone for the web application that you want to secure with Azure AD is configured to use SSL
 
@@ -88,7 +85,7 @@ Copy the *Identifier* value into the *Realm* property into a table  (An example 
 4. Save your changes.
 5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
     -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy and paste the full path to the downloaded file into the table you set up in Step 3.
-    - Copy and paste the SAML Single Sign-On Service URL link into the table you created in Step 3, replacing the */saml2* portion of the URL with */wsfed*.
+    - Copy and paste the SAML Single Sign-On Service URL link into the table you created in Step 3, replacing the */saml2* portion of the URL with */wsfed*.</br>
 6.  Navigate to the **Properties** pane for the application. Copy and paste the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](images/SAML11/fig8-propertiespane.png)</br>
 7. Using the values you captured, make sure the table you set up in Step 3 resembles the following example table.
 
@@ -130,7 +127,6 @@ Next, follow these steps to enable the trusted identity provider for your applic
 
 ![Configuring your authentication provider](images/SAML11/fig10-configauthprovider.png)
 
-
 ## Step 5: Set the permissions
 
 The users who will log into Azure AD and access SharePoint must be granted access to the application. 
@@ -148,11 +144,10 @@ The user has been granted permission in Azure AD, but also must be granted permi
 4. In Policy for Web Application, click **Add Users**.</br>![Searching for a user by their name claim](images/SAML11/fig11-searchbynameclaim.png)</br>
 5. In the **Add Users** dialog box, click the appropriate zone in **Zones**, and then click **Next**.
 6. In the **Policy for Web Application** dialog box, in the **Choose Users** section, click the **Browse** icon.
-7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. Example: *demouser@blueskyabove.onmicrosoft.com*.
+7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. </br>Example: *demouser@blueskyabove.onmicrosoft.com*.
 8. Under the AzureAD heading in the list view, select the name property and click **Add** then click **OK** to close the dialog.
 9. In Permissions, click **Full Control**.</br>![Granting full control to a claims user](images/SAML11/fig12-grantfullcontrol.png)</br>
 10. Click **Finish**, and then click **OK**.
-
 
 ## Step 6: Add a SAML 1.1 token issuance policy in Azure AD
 
@@ -181,14 +176,11 @@ Finally, you can access the site logged in as a user from your Azure Active Dire
 
 ![User signed into SharePoint](images/SAML11/fig15-signedinsharepoint.png)
 
-
 ## Fixing People Picker
 
 Users can now log into SharePoint 2016 using identities from Azure AD, however there are still opportunities for improvement. For instance, searching for a user presents multiple search results in the people picker. This is because there is a search result for each of the 3 claim types that were created in the claim mapping. To add a user, you must type their user name exactly and choose the “name” claim result.
 
 ![Claims search results](images/SAML11/fig16-claimssearchresults.png)
-
-
 
 ## Additional resources
 
