@@ -84,7 +84,7 @@ Each of the web front end servers in the SharePoint farm will require configurin
     - Full path to SAML signing certificate file
     - SAML Single Sign-On service URL (replacing */saml2* with */wsfed*)
     - Application Object ID. </br>
-Copy the *Identifier* value into the *Realm* property into a table  (See Table 1, shown below Step 7.)
+Copy the *Identifier* value into the *Realm* property into a table  (See Table 1 below.)
 4. Save your changes.
 5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
     -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy and paste the full path to the downloaded file into your table.
