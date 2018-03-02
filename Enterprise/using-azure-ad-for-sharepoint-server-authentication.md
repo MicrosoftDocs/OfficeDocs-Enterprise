@@ -22,6 +22,9 @@ description: "Summary: Learn how to bypass the Azure Access Control Service and 
 
  **Summary:** Learn how to authenticate your SharePoint Server 2016 users with Azure Active Directory.
   
+> [!NOTE]
+> This article is based on the work of Kirk Evans, a Microsoft Principal Program Manager. 
+
 SharePoint Server 2016 provides the ability to authenticate users using claims-based authentication, making it easy to manage your users by authenticating them with different identity providers that you trust but someone else manages. For example, instead of managing user authentication through Active Directory Domain Services (AD DS), you could enable users to authenticate using Azure Active Directory (Azure AD). This enables authentication for cloud-only users with the onmicrosoft.com suffix in their username, users synchronized with an on-premises directory, and invited guest users from other directories. It also enables you to take advantage of Azure AD features such as multi-factor authentication and advanced reporting capabilities.
 
 > [!IMPORTANT]
