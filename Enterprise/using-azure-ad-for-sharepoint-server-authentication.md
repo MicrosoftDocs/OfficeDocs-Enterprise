@@ -12,7 +12,7 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 
-description: "Summary: Learn how to bypass the Azure Access Control Service and use SAML 1.1 to authenticate your SharePoint Server 2013 users with Azure Active Directory."
+description: "Summary: Learn how to bypass the Azure Access Control Service and use SAML 1.1 to authenticate your SharePoint Server users with Azure Active Directory."
 ---
 
 # Using Azure AD for SharePoint Server Authentication
