@@ -20,9 +20,12 @@ description: "Summary: Learn how to bypass the Azure Access Control Service and 
   
 SharePoint Server 2016 provides the ability to authenticate users using claims-based authentication, making it easy to manage your users by authenticating them with different identity providers that you trust but someone else manages. For example, instead of managing user authentication through Active Directory Domain Services (AD DS), you could enable users to authenticate using Azure Active Directory (Azure AD). This enables authentication for cloud-only users with the onmicrosoft.com suffix in their username, users synchronized with an on-premises directory, and invited guest users from other directories. It also enables you to take advantage of Azure AD features such as multi-factor authentication and advanced reporting capabilities.
 
-![Using Azure AD for SharePoint Authentication](images/SAML11/fig1-architecture.png)
+> [!IMPORTANT]
+> The solution described in this article can also be used with SharePoint Server 2013; however, keep in mind that SharePoint Server 2013 is nearing the end of mainstream support. For more information, see [Microsoft Lifecycle Policy](https://support.microsoft.com/en-us/lifecycle/search?alpha=SharePoint%20Server%202013) and [Updated Product Servicing Policy for SharePoint 2013](https://technet.microsoft.com/library/684173bb-e90a-4eb7-b268-b8d7458bc802(v=office.16).aspx).
 
 This article explains how you can use Azure AD to authenticate your users instead of your on-premises AD DS. In this configuration, Azure AD becomes a trusted identity provider for SharePoint Server 2016. This configuration adds a user authentication method that is separate from the AD DS authentication used by the SharePoint Server 2016 installation itself. To benefit from this article, you should be familiar with WS-Federation. For more information, see [Understanding WS-Federation](https://go.microsoft.com/fwlink/p/?linkid=188052).
+
+![Using Azure AD for SharePoint Authentication](images/SAML11/fig1-architecture.png)
 
 Previously, this configuration would have required a federation service such as Azure Access Control Service (ACS) in the cloud or an environment that hosts Active Directory Federation Services (AD FS) to transform tokens from SAML 2.0 to SAML 1.1. This transformation is no longer required as Azure AD now enables issuing SAML 1.1 tokens. The diagram above shows how authentication works for SharePoint 2016 users in this configuration, demonstrating that there is no longer a requirement for an intermediary to perform this transformation.
 
@@ -71,51 +74,53 @@ Each of the web front end servers in the SharePoint farm will require configurin
 
 1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](images/SAML11/fig5-addnongalleryapp.png)</br>
 2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:</br>
-    - Identifier: urn:sharepoint:portal.contoso.local
-    - Reply URL: https://portal.contoso.local/_trust/default.aspx
-    - Sign-on URL: https://portal.contoso.local/_trust/default.aspx
-    - User Identifier: user.userprincipalname</br>
+    - Identifier: `urn:sharepoint:portal.contoso.local`
+    - Reply URL: `https://portal.contoso.local/_trust/default.aspx`
+    - Sign-on URL: `https://portal.contoso.local/_trust/default.aspx`
+    - User Identifier: `user.userprincipalname`</br>
     - Note: Remember to change the URLs by replacing *portal.contoso.local* with the URL of the SharePoint site you want to secure.</br>
-3. Set up a table that includes the following rows:</br> 
+3. Set up a table (similar to Table 1 below) that includes the following rows:</br> 
     - Realm
     - Full path to SAML signing certificate file
     - SAML Single Sign-On service URL (replacing */saml2* with */wsfed*)
     - Application Object ID. </br>
-Copy the *Identifier* value into the *Realm* property into a table  (An example table is provided after Step 7.)
+Copy the *Identifier* value into the *Realm* property into a table  (See Table 1, shown below Step 7.)
 4. Save your changes.
 5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
-    -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy and paste the full path to the downloaded file into the table you set up in Step 3.
-    - Copy and paste the SAML Single Sign-On Service URL link into the table you created in Step 3, replacing the */saml2* portion of the URL with */wsfed*.</br>
+    -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy and paste the full path to the downloaded file into your table.
+    - Copy and paste the SAML Single Sign-On Service URL link into your, replacing the */saml2* portion of the URL with */wsfed*.</br>
 6.  Navigate to the **Properties** pane for the application. Copy and paste the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](images/SAML11/fig8-propertiespane.png)</br>
-7. Using the values you captured, make sure the table you set up in Step 3 resembles the following example table.
+7. Using the values you captured, make sure the table you set up in Step 3 resembles Table 1 below.
 
 
-|   |Value  |
+| Table 1: Values captured  |  |
 |---------|---------|
-|Realm | urn:sharepoint:portal.contoso.local |
-|Full path to SAML signing certificate file | C:/temp/SharePoint SAML Integration.cer  |
-|SAML single sign-on service URL (replace /saml2 with /wsfed) | https://login.microsoftonline.com/b1726649-b616-460d-8d20-defab80d476c/wsfed |
-|Application Object ID | a812f48b-d1e4-4c8e-93be-e4808c8ca3ac |
+|Realm | `urn:sharepoint:portal.contoso.local` |
+|Full path to SAML signing certificate file | `C:/temp/SharePoint SAML Integration.cer`  |
+|SAML single sign-on service URL (replace /saml2 with /wsfed) | `https://login.microsoftonline.com/b1726649-b616-460d-8d20-defab80d476c/wsfed` |
+|Application Object ID | `a812f48b-d1e4-4c8e-93be-e4808c8ca3ac` |
 
 > [!IMPORTANT]
 > Replace the */saml2* value in the URL with */wsfed*. The */saml2* endpoint will process SAML 2.0 tokens. The */wsfed* endpoint enables processing SAML 1.1 tokens and is required for SharePoint 2016 SAML federation.
 
 ## Step 4: Configure a new trusted identity provider in SharePoint Server 2016
 
-Log into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Run the following commands to configure a new trusted identity provider.
+Sign into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Fill in the values of $realm, $wsfedurl, and $filepath from Table 1 and run the following commands to configure a new trusted identity provider.
 
 > [!TIP]
 > If you're new to using PowerShell or want to learn more about how PowerShell works, see [SharePoint PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/overview?view=sharepoint-ps). 
 
 ```
+$realm = "<Realm from Table 1>"
+$wsfedurl="<SAML single sign-on service URL from Table 1>"
+$filepath="<Full path to SAML signing certificate file from Table 1>"
 $cert = New-Object 
-System.Security.Cryptography.X509Certificates.X509Certificate2("<File path from Table 1>")
+System.Security.Cryptography.X509Certificates.X509Certificate2($filepath)
 New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
 $map = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" -IncomingClaimTypeDisplayName "name" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"
 $map2 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" -IncomingClaimTypeDisplayName "GivenName" -SameAsIncoming
 $map3 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" -IncomingClaimTypeDisplayName "SurName" -SameAsIncoming
-$realm = "<Realm from Table 1>"
-$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl "<wsfed url from your table>" -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”
+$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl $wsfedurl -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”
 ```
 
 Next, follow these steps to enable the trusted identity provider for your application:
@@ -155,7 +160,7 @@ When the Azure AD application is created in the portal, it defaults to using SAM
 
 ```
 Import-Module <file path of Initialize.ps1> 
-$objectid = "<Application Object ID from Table 1 above>"
+$objectid = "<Application Object ID from Table 1>"
 $saml2policyid = Get-PoliciesAssignedToServicePrincipal -servicePrincipalId $objectid | ?{$_.displayName -EQ "TokenIssuancePolicy"} | select objectId
 Remove-PolicyFromServicePrincipal -policyId $saml2policyid -servicePrincipalId $objectid
 $policy = Add-TokenIssuancePolicy -DisplayName SPSAML11 -SigningAlgorithm "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" -TokenResponseSigningPolicy TokenOnly -SamlTokenVersion "1.1"
