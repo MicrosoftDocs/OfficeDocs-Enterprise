@@ -2,6 +2,7 @@
 title: "Using Azure AD for SharePoint Server Authentication"
 ms.author: tracyp
 author: MSFTTracyP
+ms.reviewer: kirke
 manager: laurawi
 ms.date: 3/1/2018
 ms.audience: ITPro
