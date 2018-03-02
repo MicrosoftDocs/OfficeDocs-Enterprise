@@ -12,7 +12,9 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- Ent_O365_Hybrid
 ms.custom: Ent_Solutions
 ms.assetid: 
 description: "Summary: Learn how to bypass the Azure Access Control Service and use SAML 1.1 to authenticate your SharePoint Server users with Azure Active Directory."
@@ -24,6 +26,10 @@ description: "Summary: Learn how to bypass the Azure Access Control Service and 
   
 > [!NOTE]
 > This article is based on the work of Kirk Evans, a Microsoft Principal Program Manager. 
+
+<blockquote>
+<p>This article refers to code samples for interacting with Azure Active Directory Graph. <a href="/officedocs-enterprise/scripts/readme.md">Sample PowerShell scripts</a> are available online to accompany this article.</p>
+</blockquote>
 
 SharePoint Server 2016 provides the ability to authenticate users using claims-based authentication, making it easy to manage your users by authenticating them with different identity providers that you trust but someone else manages. For example, instead of managing user authentication through Active Directory Domain Services (AD DS), you could enable users to authenticate using Azure Active Directory (Azure AD). This enables authentication for cloud-only users with the onmicrosoft.com suffix in their username, users synchronized with an on-premises directory, and invited guest users from other directories. It also enables you to take advantage of Azure AD features such as multi-factor authentication and advanced reporting capabilities.
 
