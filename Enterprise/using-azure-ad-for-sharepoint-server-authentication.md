@@ -7,7 +7,7 @@ ms.reviewer:
 - josephd
 - kirks
 manager: laurawi
-ms.date: 3/1/2018
+ms.date: 3/2/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -28,7 +28,7 @@ description: "Summary: Learn how to bypass the Azure Access Control Service and 
 > This article is based on the work of Kirk Evans, a Microsoft Principal Program Manager. 
 
 <blockquote>
-<p>This article refers to code samples for interacting with Azure Active Directory Graph. You can download the code samples in a zipped folder [here](https://1drv.ms/u/s!AuAlJmH2xI6Kg3ItzF78krMFxJu3).</p>
+<p>This article refers to code samples for interacting with Azure Active Directory Graph. You can download the code samples  [here](https://1drv.ms/u/s!AuAlJmH2xI6Kg3ItzF78krMFxJu3).</p>
 </blockquote>
 
 SharePoint Server 2016 provides the ability to authenticate users using claims-based authentication, making it easy to manage your users by authenticating them with different identity providers that you trust but someone else manages. For example, instead of managing user authentication through Active Directory Domain Services (AD DS), you could enable users to authenticate using Azure Active Directory (Azure AD). This enables authentication for cloud-only users with the onmicrosoft.com suffix in their username, users synchronized with an on-premises directory, and invited guest users from other directories. It also enables you to take advantage of Azure AD features such as multi-factor authentication and advanced reporting capabilities.
