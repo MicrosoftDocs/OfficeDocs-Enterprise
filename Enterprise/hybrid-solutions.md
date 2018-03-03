@@ -3,7 +3,7 @@ title: "Hybrid solutions"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 3/2/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -21,10 +21,12 @@ description: "Summary: Use these articles to deploy Office Server workloads in M
 With Microsoft Azure, you can now deploy some Office Server workloads that were typically deployed on-premises in Azure infrastructure services.
   
 For Office 365 identity infrastructure in Azure:
+
+- [Using Azure AD for SharePoint Server Authentication](using-azure-ad-for-sharepoint-server-authentication.md)
+
+- [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
 - [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
-    
-- [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
     
 - [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
     
