@@ -8,7 +8,9 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- Strat_O365_Enterprise
 ms.custom: 
 - Strat_O365_Enterprise
 - Ent_Solutions
