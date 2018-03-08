@@ -28,7 +28,7 @@ description: "Summary: Learn how to bypass the Azure Access Control Service and 
 > This article is based on the work of Kirk Evans, a Microsoft Principal Program Manager. 
 
 <blockquote>
-<p>This article refers to code samples for interacting with Azure Active Directory Graph. You can download the code samples  [here](https://1drv.ms/u/s!AuAlJmH2xI6Kg3ItzF78krMFxJu3).</p>
+<p>This article refers to code samples for interacting with Azure Active Directory Graph. You can download the code samples  [here](https://github.com/kaevans/spsaml11/tree/master/scripts).</p>
 </blockquote>
 
 SharePoint Server 2016 provides the ability to authenticate users using claims-based authentication, making it easy to manage your users by authenticating them with different identity providers that you trust but someone else manages. For example, instead of managing user authentication through Active Directory Domain Services (AD DS), you could enable users to authenticate using Azure Active Directory (Azure AD). This enables authentication for cloud-only users with the onmicrosoft.com suffix in their username, users synchronized with an on-premises directory, and invited guest users from other directories. It also enables you to take advantage of Azure AD features such as multi-factor authentication and advanced reporting capabilities.
@@ -127,13 +127,12 @@ Sign into the SharePoint Server 2016 server and open the SharePoint 2016 Managem
 $realm = "<Realm from Table 1>"
 $wsfedurl="<SAML single sign-on service URL from Table 1>"
 $filepath="<Full path to SAML signing certificate file from Table 1>"
-$cert = New-Object 
-System.Security.Cryptography.X509Certificates.X509Certificate2($filepath)
+$cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($filepath)
 New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
 $map = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" -IncomingClaimTypeDisplayName "name" -LocalClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn"
 $map2 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" -IncomingClaimTypeDisplayName "GivenName" -SameAsIncoming
 $map3 = New-SPClaimTypeMapping -IncomingClaimType "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" -IncomingClaimTypeDisplayName "SurName" -SameAsIncoming
-$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl $wsfedurl -IdentifierClaim “http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name”
+$ap = New-SPTrustedIdentityTokenIssuer -Name "AzureAD" -Description "SharePoint secured by Azure AD" -realm $realm -ImportTrustCertificate $cert -ClaimsMappings $map,$map2,$map3 -SignInUrl $wsfedurl -IdentifierClaim "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name"
 ```
 
 Next, follow these steps to enable the trusted identity provider for your application:
@@ -169,7 +168,8 @@ The user has been granted permission in Azure AD, but also must be granted permi
 
 ## Step 6: Add a SAML 1.1 token issuance policy in Azure AD
 
-When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens.
+When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens. This code requires downloading the accompanying [samples demonstrating interacting with Azure Active Directory Graph](https://github.com/kaevans/spsaml11/tree/master/scripts).
+
 
 ```
 Import-Module <file path of Initialize.ps1> 
@@ -179,6 +179,8 @@ Remove-PolicyFromServicePrincipal -policyId $saml2policyid -servicePrincipalId $
 $policy = Add-TokenIssuancePolicy -DisplayName SPSAML11 -SigningAlgorithm "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" -TokenResponseSigningPolicy TokenOnly -SamlTokenVersion "1.1"
 Set-PolicyToServicePrincipal -policyId $policy.objectId -servicePrincipalId $objectid
 ```
+
+For more details on Token Issuance Policies with Azure AD, see the [Graph API reference for operations on policy](https://msdn.microsoft.com/en-us/library/azure/ad/graph/api/policy-operations#create-a-policy).
 
 ## Step 7: Verify the new provider
 
@@ -193,6 +195,17 @@ You are asked if you want to stay signed in.
 Finally, you can access the site logged in as a user from your Azure Active Directory tenant.
 
 ![User signed into SharePoint](images/SAML11/fig15-signedinsharepoint.png)
+
+## Managing certificates
+It is important to understand that the signing certificate that was configured for the trusted identity provider in step 4 above has an expiration date and must be renewed. See the article [Manage certificates for federated single sign-on in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-sso-certs) for information on certificate renewal. Once the certificate has been renewed in Azure AD, download to a local file and use the following script to configure the trusted identity provider with the renewed signing certificate. 
+
+```
+$filepath="<Full path to renewed SAML signing certificate file>"
+$cert= New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($filePath)
+New-SPTrustedRootAuthority -Name "AzureAD" -Certificate $cert
+Get-SPTrustedIdentityTokenIssuer "AzureAD" | Set-SPTrustedIdentityTokenIssuer -ImportTrustCertificate $cert
+```
+
 
 
 ## Additional resources
