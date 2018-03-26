@@ -1,5 +1,17 @@
-Plan for OneDrive for Business Multi-Geo
-========================================
+---
+title: "Plan for OneDrive for Business Multi-Geo"
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
+ms.date: 4/3/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: o365-solutions
+localization_priority: Normal
+description: "Learn about OneDrive for Business Multi-Geo, how multi-geo works, and what geo-locations are available for data storage."
+---
+
+# Plan for OneDrive for Business Multi-Geo
 
 This guidance is designed for administrators of multi-national companies (MNCs) who are preparing their SharePoint Online tenant to be expanded to additional geographies in accordance with the company’s presence to meet data residency requirements.
 
@@ -7,15 +19,13 @@ In a OneDrive Multi-Geo configuration, your Office 365 tenant consists of a cent
 
 Here are some key multi-geo terms to help you understand the basic concepts of the configuration:
 
--   **Tenant** – An organization’s representation in the Office 365 cloud which typically has one or more domains associated with it (example: http://contoso.sharepoint.com). 
-
-<!-- -->
+-   **Tenant** – An organization’s representation in the Office 365 cloud which typically has one or more domains associated with it (for example, http://contoso.sharepoint.com). 
 
 -   **Geo locations** – The geographic locations where your tenant’s data is hosted. Multi-geo tenants span more than one geo location, for example, North America and Europe.
 
 -   **Allowed Data Locations (ADL)** – The geo locations for which your tenant has been configured to host data.
 
--   **Preferred Data Location (PDL)** – The geo location where an individual user’s OneDrive data is stored. This can be set by the administrator to any of the Allowed Data Locations that have been configured for the tenant. Note that if you change a user’s PDL, their OneDrive data is not moved to the new geo location automatically. See MOVE ONEDRIVE LIBRARIES for more information.
+-   **Preferred Data Location (PDL)** – The geo location where an individual user’s OneDrive data is stored. This can be set by the administrator to any of the Allowed Data Locations that have been configured for the tenant. Note that if you change a user’s PDL, their OneDrive data is not moved to the new geo location automatically. See [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md) for more information.
 
 Enabling Multi-Geo requires four key steps:
 
@@ -27,11 +37,12 @@ Enabling Multi-Geo requires four key steps:
 
 4.  Migrate your users’ OneDrive from the home location to their preferred data location as needed.
 
-Each of these steps has its corresponding Microsoft Azure Active Directory PowerShell cmdlet, which will be covered in the Configure Multi-Geo steps.
+Each of these steps has its corresponding Microsoft Azure Active Directory PowerShell cmdlet, which will is covered in [Configure OneDrive for Business Multi-Geo](multi-geo-tenant-configuration.md).
 
-Important: Note that the Multi-Geo features of Office 365 are not primarily designed for performance optimization cases, they are designed to meet data residency requirements. For information about performance optimization for Office 365, see [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848) or contact your support group.
+> [!IMPORTANT]
+> Note that the Multi-Geo features of Office 365 are not primarily designed for performance optimization cases, they are designed to meet data residency requirements. For information about performance optimization for Office 365, see [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848) or contact your support group.
 
-You can configure any of the following locations to be satellite geo locations where you can host OneDrive files. As you plan for Multi-Geo, make a list of the locations that you want to add to your Office 365 tenant. We recommend starting with one or two satellite locations and then gradually expanding to more geo locations, if needed.
+You can configure any of the following locations to be satellite geo locations where you can host OneDrive files. As you plan for multi-geo, make a list of the locations that you want to add to your Office 365 tenant. We recommend starting with one or two satellite locations and then gradually expanding to more geo locations, if needed.
 
 <table>
 <thead>
@@ -80,24 +91,27 @@ You can configure any of the following locations to be satellite geo locations w
 </tbody>
 </table>
 
-Note: Both India and South Korea currently require that the customer have a billing address in these countries.
+> [!NOTE]
+> Both India and South Korea currently require that the customer have a billing address in these countries.
 
-Take this opportunity to consolidate your on-premises infrastructure while migrating to Office 365. For example, if you have on-premises farms in Singapore and Malaysia, then you can consolidate them to the APC satellite location, provided data residency requirements allow you to do so.
+When you configure multi-geo, consider taking the opportunity to consolidate your on-premises infrastructure while migrating to Office 365. For example, if you have on-premises farms in Singapore and Malaysia, then you can consolidate them to the APC satellite location, provided data residency requirements allow you to do so.
 
-Create a test user in Office 365 to do some initial testing with. We’ll walk through some additional testing and verification steps with this user before you proceed to onboard production users into the OneDrive Multi-Geo feature.
+## Best practices
 
-Once you’ve completed testing with your test user, select a pilot group – perhaps from your IT department – to be the first to use OneDrive in a new geo. For this first group, select users who do not yet have a OneDrive. We recommend no more than five people in this initial group and gradually expand following a batched rollout approach.
+We recommend that you create a test user in Office 365 to do some initial testing. We’ll walk through some testing and verification steps with this user before you proceed to onboard production users into the OneDrive Multi-Geo feature.
+
+Once you’ve completed testing with the test user, select a pilot group – perhaps from your IT department – to be the first to use OneDrive in a new geo-location. For this first group, select users who do not yet have a OneDrive. We recommend no more than five people in this initial group and gradually expand following a batched rollout approach.
 
 Each user should have a *preferred data location* (PDL) set so that Office 365 can determine in which geo location to provision their OneDrive. The user’s preferred data location must match one of your chosen satellite locations or your central location. While the PDL field is not mandatory, we recommend that a PDL be set for all users. Workloads of a user without a PDL will be provisioned in the central location based on the Multi-Geo logic.   
 
 Create a list of your users, and include their user principal name (UPN) and the location code for the appropriate preferred data location. Include your test user and your initial pilot group to start with. You’ll need this list for the configuration procedures.
 
-If your users are synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), you must set the preferred data location for synchronized users by using Azure Active Directory Connect. You cannot directly configure the preferred data location for synchronized users using Azure AD PowerShell. The steps to set up PDL in AD and Synchronize it are covered in the [Azure Active Directory Connect sync: Configure preferred data location for Office 365 resources](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation)
+If your users are synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), you must set the preferred data location for synchronized users by using Azure Active Directory Connect. You cannot directly configure the preferred data location for synchronized users using Azure AD PowerShell. The steps to set up PDL in AD and Synchronize it are covered in [Azure Active Directory Connect sync: Configure preferred data location for Office 365 resources](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
 
-The administration of a multi-geo tenant can differ from a non-multi-geo tenant, as many of the SharePoint and OneDrive settings and services are multi-geo aware. We recommend that you review LINK TO ADMIN TOPIC before you proceed with your configuration.
+The administration of a multi-geo tenant can differ from a non-multi-geo tenant, as many of the SharePoint and OneDrive settings and services are multi-geo aware. We recommend that you review [Administering a multi-geo environment](administering-a-multi-geo-environment.md) before you proceed with your configuration.
 
-The experience for your users is mostly unchanged in a multi-geo environment. Read LINK TO END USER TOPIC for details.
+The experience for your users is mostly unchanged in a multi-geo environment. Read [Administering a multi-geo environment](multi-geo-user-experience.md) for details.
 
-To get started configuring OneDrive for Business Multi-Geo, see LINK TO CONFIGURE TOPIC.
+To get started configuring OneDrive for Business Multi-Geo, see [Configure OneDrive for Business Multi-Geo](multi-geo-tenant-configuration.md).
 
-Once you’ve completed the configuration, remember to MIGRATE ONEDRIVES as needed to get your users working from their preferred data locations.
+Once you’ve completed the configuration, remember to [migrate your users' OneDrive libraries](move-onedrive-between-geo-locations.md) as needed to get your users working from their preferred data locations.

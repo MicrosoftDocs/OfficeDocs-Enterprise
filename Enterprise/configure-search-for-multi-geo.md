@@ -1,4 +1,17 @@
-*Note we may change this at will, based on our determinations during testing and preview or other business reasons, prior to shipping.*
+---
+title: "Administering a multi-geo environment"
+ms.author: tlarsen
+author: 
+manager: arnek
+ms.date: 4/3/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: o365-solutions
+localization_priority: Normal
+description: "Learn about how to configure Search in a multi-geo environment."
+---
+
+# Configure Search for OneDrive for Business Multi-Geo
 
 In a Multi-Geo SharePoint Online (SPO) environment, an organization can have one Office 365 tenant, but store their SharePoint content in multiple geographical locations - one central location and one or more satellite geo locations.
 
@@ -6,8 +19,7 @@ Each geographical location has its own search index and Search Center. When a us
 
 For example, a user in one geo location can search for content stored in another geo location, or for content on a SharePoint site that’s restricted to a different geo location. If the user has access to this content, search will show the result.
 
-Which search clients work in a Multi-Geo environment?
-=====================================================
+## Which search clients work in a Multi-Geo environment?
 
 These clients can return results from all geo locations:
 
@@ -21,35 +33,29 @@ These clients can return results from all geo locations:
 
 -   Custom search applications that use the SharePoint Search API
 
-OneDrive for Business
----------------------
+### OneDrive for Business
 
 As soon as the Multi-Geo environment has been set up, users that search in OneDrive get results from all geo locations.
 
-Delve
------
+### Delve
 
 As soon as the Multi-Geo environment has been set up, users that search in Delve get results from all geo locations.
 
 The Delve feed and the profile card only show previews of files that are stored in the **central** location. For files that are stored in satellite geo locations, the icon for the file type is shown instead.
 
-The SharePoint home page
-------------------------
+### The SharePoint home page
 
 As soon as the Multi-Geo environment has been set up, users will see news, recent and followed sites from multiple geo locations on their SharePoint home page. If they use search box on the SharePoint home page, they only get results from the geo location SPHome search index is located in.
 
-The Search Center
------------------
+### The Search Center
 
 After the Multi-Geo environment has been set up, each Search Center continues to only show results from their own geo location. Admins must [change the settings of each Search Center](#_Set_up_a_1) to get results from all geo locations. Afterwards, users that search in the Search Center get results from all geo locations.
 
-Custom search applications
---------------------------
+### Custom search applications
 
 As usual, custom search applications interact with the search indexes by using the existing SharePoint Search REST APIs. To get results from all, or some geo locations, the application must [call the API and include the new Multi-Geo query parameters](#_Get_custom_search) in the request. This triggers a fan out of the query to all geo locations.
 
-What’s different about search in a Multi-Geo environment?
-=========================================================
+### What’s different about search in a Multi-Geo environment?
 
 Some search features you might be familiar with, work differently in a Multi-Geo environment.
 
@@ -90,8 +96,7 @@ Some search features you might be familiar with, work differently in a Multi-Geo
 </tbody>
 </table>
 
-What’s not supported for search in a Multi-Geo environment?
-===========================================================
+### What’s not supported for search in a Multi-Geo environment?
 
 Some of the search features you might be familiar with, aren’t supported in a Multi-Geo environment.
 
@@ -114,18 +119,14 @@ Some of the search features you might be familiar with, aren’t supported in a 
 </tbody>
 </table>
 
-**  
-**
-
-How does search work in a Multi-Geo environment?
-================================================
+### How does search work in a Multi-Geo environment?
 
 **All** the search clients use the existing SharePoint Search REST APIs to interact with the search indexes.
 
 <table>
 <thead>
 <tr class="header">
-<th align="left"><p><img src="media/image1.png" /></p>
+<th align="left"><p><img src="media/configure-search-for-multi-geo_image1.png" /></p>
 <p>Figure 1: Searching across a tenant with three geo locations</p></th>
 <th align="left"><p>Search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.</p>
 <p>The query is sent to all geo locations in the tenant.</p>
@@ -139,22 +140,22 @@ How does search work in a Multi-Geo environment?
 
 <span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Multi-Geo Search works by calling each search endpoint in each geos. The requests to remote goes are performed in parallel, but to merging to happen, we wait for the slowest leg to reply before we can do the merging. This implies multi-geo add additional latency to the search experience.
 
-<span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>Get a Search Center to show results from all geo locations
-======================================================================================================================================================
+<span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>
+### Get a Search Center to show results from all geo locations
 
 Each Search Center has several verticals and you have to set up each vertical individually.
 
 1.  Ensure that you perform these steps with an account that has permission to edit the search results page and the Search Result Web Part.
 
-2.  Navigate to the search results page (see the [list](https://support.office.com/en-us/article/Manage-the-Search-Center-in-SharePoint-Online-174d36e0-2f85-461a-ad9a-8b3f434a4213?ui=en-US&rs=en-US&ad=US) of search results pages)
+2.  Navigate to the search results page (see the [list](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) of search results pages)
 
 3.  Select the vertical to set up, click **Settings** gear icon in the upper, right corner, and then click **Edit Page**.
 
-> ![](media/image2.png)
+> ![](media/configure-search-for-multi-geo_image2.png)
 >
 > The search results page opens in Edit mode.
 
-1.  In the Search Results Web Part, move the pointer to the upper, right corner of the Web Part, click the arrow, and then click **Edit Web Part** on the menu. ![](media/image3.png)
+1.  In the Search Results Web Part, move the pointer to the upper, right corner of the Web Part, click the arrow, and then click **Edit Web Part** on the menu. ![](media/configure-search-for-multi-geo_image3.png)
 
 > The Search Results Web Part tool pane opens under the ribbon in the top right of the page.
 
@@ -166,8 +167,8 @@ Each Search Center has several verticals and you have to set up each vertical in
 
 4.  Publish the changes by using the link provided in the note at the top of the page.
 
-<span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>Get custom search applications to show results from all or some geo locations
-================================================================================================================================================================================
+<span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
+### Get custom search applications to show results from all or some geo locations
 
 Custom search applications get results from all, or some, geo locations by specifying query parameters with the request to the SharePoint Search REST API. Depending on the query parameters, the query is fanned out to all geo locations, or to some geo locations. For example, if you only need to query a subset of geo locations to find relevant information, you can control the fan out to only these. If the request succeeds, the SharePoint Search REST API returns response data.
 
@@ -258,95 +259,65 @@ https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='Enable
 
 #### Sample GET request to fan out to **some** geo locations
 
-]'
+https:// <tenant>/_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\:"NAM"\,Endpoint\:"https\://contosoNAM.sharepoint.com"\,SourceId\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\,{DataLocation\:"CAN"\,Endpoint\:"https\://contosoCAN.sharepoint-df.com"}]'
 
 #### Sample POST request that’s fanned out to **all** geo locations
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">JSON</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><h3 id="section">{</h3>
-<h3 id="request"> &quot;request&quot;: {</h3>
-<h3 id="metadata"> &quot;__metadata&quot;: {</h3>
-<h3 id="type-microsoft.office.server.search.rest.searchrequest"> &quot;type&quot;: &quot;Microsoft.Office.Server.Search.REST.SearchRequest&quot;</h3>
-<h3 id="section-1"> },</h3>
-<h3 id="querytext-sharepoint"> &quot;Querytext&quot;: &quot;sharepoint&quot;,</h3>
-<h3 id="properties"> &quot;Properties&quot;: {</h3>
-<h3 id="results"> &quot;results&quot;: [</h3>
-<h3 id="section-2"> {</h3>
-<h3 id="name-enablemultigeosearch"> &quot;Name&quot;: &quot;EnableMultiGeoSearch&quot;,</h3>
-<h3 id="value"> &quot;Value&quot;: {</h3>
-<h3 id="querypropertyvaluetypeindex-3"> &quot;QueryPropertyValueTypeIndex&quot;: 3,</h3>
-<h3 id="boolval-true"> &quot;BoolVal&quot;: true</h3>
-<h3 id="section-3"> }</h3>
-<h3 id="section-4"> }</h3>
-<h3 id="section-5"> ]</h3>
-<h3 id="section-6"> },</h3>
-<h3 id="clienttype-my_client_id"> &quot;ClientType&quot;: &quot;my_client_id&quot;</h3>
-<h3 id="section-7"> }</h3>
-<h3 id="section-8">}</h3></td>
-</tr>
-</tbody>
-</table>
+    {
+        "request": {
+            "__metadata": {
+            "type": "Microsoft.Office.Server.Search.REST.SearchRequest"
+        },
+        "Querytext": "sharepoint",
+        "Properties": {
+            "results": [
+                {
+                    "Name": "EnableMultiGeoSearch",
+                    "Value": {
+                        "QueryPropertyValueTypeIndex": 3,
+                        "BoolVal": true
+                    }
+                }
+            ]
+        },
+        "ClientType": "my_client_id"
+        }
+    }
 
-### 
 
 #### Sample POST request that’s fanned out to **some** geo locations
 
-<table>
-<thead>
-<tr class="header">
-<th align="left">JSON</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><p>{</p>
-<p>&quot;request&quot;: {</p>
-<p>&quot;Querytext&quot;: &quot;SharePoint&quot;,</p>
-<p>&quot;ClientType&quot;: &quot;my_client_id&quot;,</p>
-<p>&quot;Properties&quot;: {</p>
-<p>&quot;results&quot;: [</p>
-<p>{</p>
-<p>&quot;Name&quot;: &quot;EnableMultiGeoSearch&quot;,</p>
-<p>&quot;Value&quot;: {</p>
-<p>&quot;QueryPropertyValueTypeIndex&quot;: 3,</p>
-<p>&quot;BoolVal&quot;: true</p>
-<p>}</p>
-<p>},</p>
-<p>{</p>
-<p>&quot;Name&quot;: &quot;MultiGeoSearchConfiguration&quot;,</p>
-<p>&quot;Value&quot;: {</p>
-<p>&quot;StrVal&quot;: &quot;[{\&quot;DataLocation\&quot;:\&quot;NAM\&quot;,\&quot;Endpoint\&quot;:\&quot;https://contoso.sharepoint.com\&quot;,\&quot;SourceId\&quot;:\&quot;B81EAB55-3140-4312-B0F4-9459D1B4FFEE\&quot;},{\&quot;DataLocation\&quot;:\&quot;CAN\&quot;,\&quot;Endpoint\&quot;:\&quot;https://contosoCAN.sharepoint.com\&quot;}]&quot;,</p>
-<p>&quot;QueryPropertyValueTypeIndex&quot;: 1</p>
-<p>}</p>
-<p>}</p>
-<p>]</p>
-<p>}</p>
-<p>}</p>
-<h3 id="section-10">}</h3></td>
-</tr>
-</tbody>
-</table>
 
-### 
+    {
+        "request": {
+            "Querytext": "SharePoint",
+            "ClientType": "my_client_id",
+            "Properties": {
+                "results": [
+                    {
+                        "Name": "EnableMultiGeoSearch",
+                        "Value": {
+                            "QueryPropertyValueTypeIndex": 3,
+                            "BoolVal": true
+                        }
+                    },
+                    {
+                        "Name": "MultiGeoSearchConfiguration",
+                        "Value": {
+                        "StrVal": "[{\"DataLocation\":\"NAM\",\"Endpoint\":\"https://contoso.sharepoint.com\",\"SourceId\":\"B81EAB55-3140-4312-B0F4-9459D1B4FFEE\"},{\"DataLocation\":\"CAN\",\"Endpoint\":\"https://contosoCAN.sharepoint.com\"}]",
+                            "QueryPropertyValueTypeIndex": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
 
 ### Query using CSOM
 
 Here’s a sample CSOM query that’s fanned out to **all** geo locations:
 
-<table>
-<tbody>
-<tr class="odd">
-<td align="left"><p>var keywordQuery = new KeywordQuery(ctx);</p>
-<p>keywordQuery.QueryText = query.SearchQueryText;</p>
-<p>keywordQuery.ClientType = <em>&lt;enter a string here&gt;</em>;</p>
-<p>keywordQuery[&quot;EnableMultiGeoSearch&quot;] = true;</p></td>
-</tr>
-</tbody>
-</table>
+    var keywordQuery = new KeywordQuery(ctx);
+    keywordQuery.QueryText = query.SearchQueryText;
+    keywordQuery.ClientType = <enter a string here>;
+    keywordQuery["EnableMultiGeoSearch"] = true;

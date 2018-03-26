@@ -1,12 +1,23 @@
-SharePoint Multi-Geo tenant configuration
-=========================================
+---
+title: "OneDrive for Business Multi-Geo tenant configuration"
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
+ms.date: 4/3/2018
+ms.audience: ITPro
+ms.topic: article
+ms.service: o365-solutions
+localization_priority: Normal
+description: "Learn how to configure OneDrive for Business Multi-Geo."
+---
 
-Before you configure your tenant for OneDrive for Business Multi-Geo, be sure you have read the document “ODFB Multi-Geo - plan for Multi-Geo.” To follow the steps in this article, you’ll need a list of the locations that you want to enable and the test users that you want to provision for those locations.
+# OneDrive for Business Multi-Geo tenant configuration
 
-The procedures in this article require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have AAD PowerShell installed, please ensure you update to the latest version Install-Module -Name MSOnline.
+Before you configure your tenant for OneDrive for Business Multi-Geo, be sure you have read [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you’ll need a list of the locations that you want to enable and the test users that you want to provision for those locations.
 
-Set your tenant as a Multi-National Company
--------------------------------------------
+The procedures in this article require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have AAD PowerShell installed, please ensure you update to the latest version.
+
+## Set your tenant as a Multi-National Company
 
 The first step is to enable your tenant for Multi-Geo features. This is a one-way operation and cannot be undone.
 
@@ -22,18 +33,17 @@ To enable your tenant for the OneDrive for Business Multi-Geo service
 
 4.  Confirm the configuration change by running the following cmdlet:
 
-> **Get-MsolCompanyAllowedDataLocation**
->
-> You should see your current geography listed for SharePoint. Note that if your tenant was previously configured to use Exchange or Skype for Business in multiple geographies, you will see those listed when you run **Get-MsolCompanyAllowedDataLocation** as well.
+    **Get-MsolCompanyAllowedDataLocation**
+
+    You should see your current geography listed for SharePoint. Note that if your tenant was previously configured to use Exchange or Skype for Business in multiple geographies, you will see those listed when you run **Get-MsolCompanyAllowedDataLocation** as well.
 
 Your tenant is now enabled for Multi-Geo features and can be extended to additional data locations.
 
-![](media/image1.png)
+![](media/multi-geo-tenant-configuration_image1.png)
 
-Set the Allowed Data Locations (ADL) to your tenant 
-----------------------------------------------------
+## Set the Allowed Data Locations (ADL) to your tenant
 
-You must set an Allowed Data Location for SharePoint for each geography where you want to use OneDrive for Business. Available geographies are shown in the following table:
+You must set an Allowed Data Location for SharePoint for each geo-location where you want to use OneDrive for Business. Available geo-locations are shown in the following table:
 
 <table>
 <thead>
@@ -76,78 +86,76 @@ You must set an Allowed Data Location for SharePoint for each geography where yo
 
 Note that allowed data locations cannot be removed once added.
 
-For each geo location that you want to add, run the Set-MsolCompanyallowedDataLocation cmdlet in the Microsoft Azure Active Directory Module for Windows PowerShell using the following syntax:
+For each geo location that you want to add, run the `Set-MsolCompanyallowedDataLocation` cmdlet in the Microsoft Azure Active Directory Module for Windows PowerShell using the following syntax:
 
-**Set-MsolCompanyallowedDataLocation –ServiceType SharePoint –Location \<*LocationCode*\> -isDefault $false –InitialDomain \<*domain*\>**
+`Set-MsolCompanyallowedDataLocation –ServiceType SharePoint –Location <LocationCode> -isDefault $false –InitialDomain <domain>`
 
 For *LocationCode*, use the code from the table above for the geo location that you want to add. For *domain*, use the domain that you want to use for that geography (for example, ContosoEUR or ContosoEurope). (This namespace must be unique across Office 365.) Once this domain has been set it cannot be changed in the future.
 
 For example:
 
-**Set-MsolCompanyallowedDataLocation –ServiceType SharePoint –Location EUR -isDefault $false –InitialDomain ContosoEUR**
+`Set-MsolCompanyallowedDataLocation –ServiceType SharePoint –Location EUR -isDefault $false –InitialDomain ContosoEUR`
 
-Once you have added all the allowed data locations that you want to use, run the **Get-MsolCompanyAllowedDataLocation** cmdlet again and confirm that they are all listed.
+Once you have added all the allowed data locations that you want to use, run the `Get-MsolCompanyAllowedDataLocation` cmdlet again and confirm that they are all listed.
 
-![](media/image2.png)
+![](media/multi-geo-tenant-configuration_image2.png)
 
 Wait for at least 24 hours for the AAD settings to propagate and for your satellite locations to be ready before onboarding your first test user.
 
-Important: Your new satellite geo location will be set up with default settings. This will allow you to configure that geo location as appropriate for your local compliance needs.
+> [!IMPORTANT]
+> Your new satellite geo location will be set up with default settings. This will allow you to configure that geo location as appropriate for your local compliance needs.
 
-<span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span>Setting users’ preferred data location 
------------------------------------------------------------------------------------------------------------------------------------------
+## Setting users’ preferred data location
+
+<span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span> 
 
 Once you enable the needed data locations, you can update your user accounts to use the appropriate data location. We recommend that you set a preferred data location for every user, even if that user is staying in the default data location.
 
-Tip: We recommend that you begin validations with a test user or small group of users before rolling out Multi-Geo capabilities to your broader organization.
+> [!TIP]
+> We recommend that you begin validations with a test user or small group of users before rolling out Multi-Geo capabilities to your broader organization.
 
-In AAD there are two types of user objects, cloud only users and synchronized users. Please follow the appropriate instructions for your type of user.
-
-1.  Synchronize user’s Preferred Data Location using AD Connect
-
-2.  Setting Preferred Data Location for cloud only users
+In AAD there are two types of user objects: cloud only users and synchronized users. Please follow the appropriate instructions for your type of user.
 
 ### Synchronize user’s Preferred Data Location using AD Connect 
 
-If your company’s users are synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), their PreferredDataLocation should be populated in AD and synchronized to AAD.
-
-Please follow the [Enable synchronization](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration)[ ](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration)[of PreferredDataLocation instructions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration)[ ](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration)to configure Preferred Data Location sync from on-premises AD to AAD.
+If your company’s users are synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), their PreferredDataLocation must be populated in AD and synchronized to AAD.
+Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises AD to AAD.
 
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 
-Important: For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to AAD for the changes to propagate before the user logs in to SharePoint OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
+> [!IMPORTANT]
+> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to AAD for the changes to propagate before the user logs in to OneDrive for Business. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
 
 ### Setting Preferred Data Location for cloud only users 
 
-If your company’s users are not synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), meaning they are purely created in AAD, then PDL should be set using AAD PowerShell.
+If your company’s users are not synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), meaning they are created in Office 365 or AAD, then PDL must be set using AAD PowerShell.
 
 1.  Open the Microsoft Azure Active Directory Module for Windows PowerShell.
 
-2.  Run C**onnect-MsolService** and enter the global administrator credentials for your tenant.
+2.  Run `Connect-MsolService` and enter the global administrator credentials for your tenant.
 
 3.  Use the [Set-MsolUser](https://docs.microsoft.com/en-us/powershell/msonline/v1/set-msoluser) cmdlet to set the preferred data location for each of your users. For example:
 
-**Set-MsolUser -userprincipalName Robyn.Buckley@Contoso.com -PreferredDatalocation EUR**
+    `Set-MsolUser -userprincipalName Robyn.Buckley@Contoso.com -PreferredDatalocation EUR`
 
-> You can check to confirm that the preferred data location was updated properly by using the Get-MsolUser cmdlet. For example:
+    You can check to confirm that the preferred data location was updated properly by using the Get-MsolUser cmdlet. For example:
 
-1.  **(Get-MsolUser -userprincipalName** <Robyn.Buckley@Contoso.com>**).PreferredDatalocation**
+    `(Get-MsolUser -userprincipalName Robyn.Buckley@Contoso.com).PreferredDatalocation`
 
-![](media/image3.png)
+![](media/multi-geo-tenant-configuration_image3.png)
 
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 
-Important: For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to AAD for the changes to propagate before the user logs in to SharePoint OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
+> [!IMPORTANT]
+> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is set for the changes to propagate before the user logs in to SharePoint OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
 
-OneDrive Provisioning and the effect of PDL 
-============================================
+## OneDrive Provisioning and the effect of PDL
 
-If the user already has a OneDrive created in the tenant, setting their PDL will not automatically move their existing OneDrive. To move a user’s OneDrive, please follow the instructions in Moving OneDrive between geo locations.
+If the user already has a OneDrive site created in the tenant, setting their PDL will not automatically move their existing OneDrive. To move a user’s OneDrive, see [OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md) please follow the instructions in Moving OneDrive between geo locations.
 
-If the user does not have a OneDrive within the tenant, a OneDrive will be provisioned for them in accordance to their PDL value, assuming the PDL for the user matches one of the company’s allowed data locations (ADLs).
+If the user does not have a OneDrive site within the tenant, OneDrive will be provisioned for them in accordance to their PDL value, assuming the PDL for the user matches one of the company’s allowed data locations (ADLs).
 
-Configuring Multi-Geo search 
-=============================
+## Configuring Multi-Geo search
 
 Your Multi-Geo tenant will have aggregate search capabilities allowing a search query to return results from anywhere within the tenant.
 
@@ -163,12 +171,11 @@ By default, searches from these entry points will return aggregate results, even
 
 Additionally, Multi-Geo search capabilities can be configured for your custom search applications that use the SharePoint search API.
 
-Please review Set up Search in a Multi-Geo environment for instructions including any limitations and differences.
+Please review [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md) for instructions including any limitations and differences.
 
-Validating the OneDrive for Business Multi-Geo configuration
-============================================================
+## Validating the OneDrive for Business Multi-Geo configuration
 
-Below are some basic use cases you may wish to include in your validation plan before broadly rolling out the feature to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
+Below are some basic use cases you may wish to include in your validation plan before broadly rolling out OneDrive for Business Multi-Geo to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
 
 **OneDrive for Business**
 
@@ -180,11 +187,11 @@ Log into your OneDrive mobile App with your test account credentials. Confirm th
 
 **OneDrive sync client**
 
-Confirm that the OneDrive sync client automatically detects your OneDrive for Business geo-location upon login. If you need to download the sync client, you can click Sync in the OneDrive library.
+Confirm that the OneDrive sync client automatically detects your OneDrive for Business geo-location upon login. If you need to download the sync client, you can click **Sync** in the OneDrive library.
 
 **Office applications**
 
-Confirm that you can access OneDrive for Business by logging in from an Office application, such as Word. Open the Office application and select "OneDrive – \<TenantName\>". Office will detect your OneDrive location and show you the files that you can open.
+Confirm that you can access OneDrive for Business by logging in from an Office application, such as Word. Open the Office application and select "OneDrive – <TenantName>". Office will detect your OneDrive location and show you the files that you can open.
 
 **Sharing**
 
