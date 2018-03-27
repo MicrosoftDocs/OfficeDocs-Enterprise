@@ -27,7 +27,7 @@ To perform a OneDrive geo move, the tenant administrator must first set the user
 
 When using the geo move cmdlets, connect to SPO Service at the user’s current OneDrive geo location, using the following syntax:
 
-`connect-sposervice -url https://`_tenantName_`-admin.sharepoint.com`
+`connect-sposervice -url https://<tenantName>-admin.sharepoint.com`
 
 For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, connect to EUR SharePoint Admin center as the user’s OneDrive is in EUR geo location:
 
@@ -45,7 +45,7 @@ To ensure that all geo locations are compatible, run:
 
 If a OneDrive is under legal hold or if it contains a subsite, it cannot be moved. You can use the Start-SPOUserAndContentMove cmdlet with the -ValidationOnly parameter to validate if the OneDrive is able to be moved:
 
-`Start-SPOUserAndContentMove -UserPrincipalName` <_upn_> `-DestinationDataLocation` <_DestinationDataLocation_> `-ValidationOnly`
+`Start-SPOUserAndContentMove -UserPrincipalName <UPN> -DestinationDataLocation <DestinationDataLocation> -ValidationOnly`
 
 This will return Success if the OneDrive is ready to be moved or Fail if there is a legal hold or subsite that would prevent the move. Once you have validated that the OneDrive is ready to move, you can start the move.
 
@@ -53,7 +53,7 @@ This will return Success if the OneDrive is ready to be moved or Fail if there i
 
 To start the move, run:  
 
-`Start-SPOUserAndContentMove -UserPrincipalName` <_userprincipalname_> `-DestinationDataLocation` <_DestinationDataLocation_>
+`Start-SPOUserAndContentMove -UserPrincipalName <UserPrincipalName> -DestinationDataLocation <DestinationDataLocation>`
 
 Using these parameters:
 
@@ -80,7 +80,7 @@ To schedule a geo move for a later time, use one of the following parameters:
 
 You can stop the geo move of a user’s OneDrive, provided the move is not in progress or completed by using the cmdlet:
 
-`Stop-SPOUserAndContentMove – UserPrincipalName` <_UserPrincipalName_>
+`Stop-SPOUserAndContentMove – UserPrincipalName <UserPrincipalName>`
 
 Where _UserPrincipalName_ is the UPN of the user whose OneDrive move you want to stop.
 
@@ -119,11 +119,11 @@ The move statuses are described in the following table.
 
 To find the status of a specific user’s move, use the UserPrincipalName parameter:
 
-`Get-SPOUserAndContentMoveState -UserPrincipalName` <_UPN_>
+`Get-SPOUserAndContentMoveState -UserPrincipalName <UPN>`
 
 To find the status of all of the moves in or out of the geo location that you’re connected to, use the MoveState parameter with one of the following values: NotStarted, InProgress, Success, Failed, All.
 
-`Get-SPOUserAndContentMoveState -MoveState` <_value_>
+`Get-SPOUserAndContentMoveState -MoveState <value>`
 
 You can also add the `-Verbose` parameter for more verbose descriptions of the move state.
 

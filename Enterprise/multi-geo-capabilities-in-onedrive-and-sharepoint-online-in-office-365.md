@@ -3,13 +3,13 @@ title: "Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 1/24/2018
+ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
-description: "With multi-geo capabilities in OneDrive and SharePoint Online, your organization can expand its Office 365 presence to multiple geographic regions and/or countries within your existing tenant."
+description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in OneDrive and SharePoint Online."
 ---
 
 # Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365
@@ -85,12 +85,6 @@ Upcoming geo locations:
   
 - France
     
-Available services:
-  
-- Exchange Online - in preview
-    
-- OneDrive for Business - in preview
-    
-- SharePoint Online - in development
-    
+## Getting started
 
+To get started with OneDrive for Business Multi-Geo, the fist step is to [plan your OneDrive for Business Multi-Geo environment](plan-for-multi-geo.md). Next, [learn about administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience a multi-geo environment](multi-geo-user-experience.md). When you are ready to set up OneDrive for Business Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md), then [move any existing OneDrive sites to thier new geo-locations](move-onedrive-between-geo-locations.md) and [set up search](configure-search-for-multi-geo.md).

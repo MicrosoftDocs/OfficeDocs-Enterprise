@@ -25,17 +25,17 @@ To enable your tenant for the OneDrive for Business Multi-Geo service
 
 1.  Open the Microsoft Azure Active Directory Module for Windows PowerShell.
 
-2.  Run C**onnect-MsolService** and enter the global administrator credentials for your tenant.
+2.  Run `Connect-MsolService` and enter the global administrator credentials for your tenant.
 
 3.  Enable your tenant for the OneDrive for Business Multi-Geo service by running the following cmdlet:
 
-    **Set-MsolCompanyMultiNationalEnabled –ServiceType SharePoint** **–Enable $True**
+    `Set-MsolCompanyMultiNationalEnabled –ServiceType SharePoint –Enable $True`
 
 4.  Confirm the configuration change by running the following cmdlet:
 
-    **Get-MsolCompanyAllowedDataLocation**
+    `Get-MsolCompanyAllowedDataLocation`
 
-    You should see your current geography listed for SharePoint. Note that if your tenant was previously configured to use Exchange or Skype for Business in multiple geographies, you will see those listed when you run **Get-MsolCompanyAllowedDataLocation** as well.
+    You should see your current geography listed for SharePoint. Note that if your tenant was previously configured to use Exchange or Skype for Business in multiple geographies, you will see those listed when you run `Get-MsolCompanyAllowedDataLocation` as well.
 
 Your tenant is now enabled for Multi-Geo features and can be extended to additional data locations.
 
