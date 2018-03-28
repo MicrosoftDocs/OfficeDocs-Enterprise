@@ -17,6 +17,12 @@ Before you configure your tenant for OneDrive for Business Multi-Geo, be sure yo
 
 The procedures in this article require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have AAD PowerShell installed, please ensure you update to the latest version.
 
+## Add the Multi-Geo Capabilities in Office 365 plan to your tenant
+
+To use OneDrive for Business Multi-Geo, you need the _Multi-Geo Capabilities in Office 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
+
+Note that the _Multi-Geo Capabilities in Office 365_ plan is a user-level service plan. You need a license for each user that you want to host in a setellite location. You can add more licenses over time as you add users in satellite locations.
+
 ## Set your tenant as a Multi-National Company
 
 The first step is to enable your tenant for Multi-Geo features. This is a one-way operation and cannot be undone.
@@ -81,10 +87,12 @@ You must set an Allowed Data Location for SharePoint for each geo-location where
 <td align="left">United Kingdom</td>
 <td align="left">GBR</td>
 </tr>
+<tr class="even">
+<td align="left">South Korea</td>
+<td align="left">KOR</td>
+</tr>
 </tbody>
 </table>
-
-Note that allowed data locations cannot be removed once added.
 
 For each geo location that you want to add, run the `Set-MsolCompanyallowedDataLocation` cmdlet in the Microsoft Azure Active Directory Module for Windows PowerShell using the following syntax:
 
@@ -100,7 +108,7 @@ Once you have added all the allowed data locations that you want to use, run the
 
 ![](media/multi-geo-tenant-configuration_image2.png)
 
-Wait for at least 24 hours for the AAD settings to propagate and for your satellite locations to be ready before onboarding your first test user.
+Once provisioning of a satellite location has completed, you will recieve an email confirmation. Once you recieve the email, you can proceed to set users' preferred data location to that geo-location. 
 
 > [!IMPORTANT]
 > Your new satellite geo location will be set up with default settings. This will allow you to configure that geo location as appropriate for your local compliance needs.
@@ -179,7 +187,7 @@ Below are some basic use cases you may wish to include in your validation plan b
 
 **OneDrive for Business**
 
-Select OneDrive from the Office 365 app launcher and confirm that you are automatically redirected to the appropriate geo-location for the user, based on the user’s PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
+Select OneDrive from the Office 365 app launcher and confirm that you are automatically directed to the appropriate geo-location for the user, based on the user’s PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
 
 **OneDrive Mobile App**
 

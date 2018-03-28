@@ -13,11 +13,11 @@ description: "Learn about administering SharePoint and OneDrive services in a mu
 
 # Administering a multi-geo environment
 
-Many of the services in SharePoint Online and OneDrive for Business are multi-geo aware and require administrative procedures that are different than a non-multi-geo tenant. Here's a look at each.
+Here's a look at how OneDrive and SharePoint services work in a multi-geo environment.
 
 #### OneDrive Administrator Experience
 
-The OneDrive administration center [OneDrive admin center](https://admin.onedrive.com) has a **Geo Locations** tab in the left navigation which features a geo-locations map where you can view and manage your geo-locations.
+The [OneDrive admin center](https://admin.onedrive.com) has a **Geo Locations** tab in the left navigation which features a geo-locations map where you can view and manage your geo locations.
 
 #### Taxonomy
 
@@ -57,7 +57,7 @@ By default, an eDiscovery Manager or Administrator of a multi-geo tenant will be
 
 The Office 365 global administrator must assign eDiscovery Manager permissions to allow others to perform eDiscovery and assign a “Region” parameter in their applicable Compliance Security Filter to specify the region for conducting eDiscovery as satellite location, otherwise no eDiscovery will be carried out for the satellite location.
 
-When the eDiscovery Manager or Administrator role is set for a particular-geo location, the eDiscovery Manager or Administrator will only be able to perform eDiscovery search actions against the SharePoint sites and OneDrive sites located in that geo-location. If an eDiscovery Manager or Administrator attempts to search SharePoint or OneDrive sites outside the specified region, no results will be returned. Also, when the eDiscovery Manager or Administrator for a region triggers an export, data is exported to the Azure instance of that region if there is one. This helps organizations stay in compliance by not allowing content to be exported across controlled borders.
+When the eDiscovery Manager or Administrator role is set for a particular-geo location, the eDiscovery Manager or Administrator will only be able to perform eDiscovery search actions against the SharePoint sites and OneDrive sites located in that geo-location. If an eDiscovery Manager or Administrator attempts to search SharePoint or OneDrive sites outside the specified region, no results will be returned. Also, when the eDiscovery Manager or Administrator for a region triggers an export, data is exported to the Azure instance of that region. This helps organizations stay in compliance by not allowing content to be exported across controlled borders.
 
 > [!NOTE]
 > If it's necessary for an eDiscovery Manager to search across multiple SharePoint regions, another user account will need to be created for the eDiscovery Manager which specifies the alternate region where the OneDrive or SharePoint sites are located.
@@ -91,7 +91,7 @@ When the eDiscovery Manager or Administrator role is set for a particular-geo lo
 <td align="left">South East or East Asia Data Centers</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>IND</strong></td>
+<td align="left"><strong>KOR</strong></td>
 <td align="left">South East or East Asia Data Centers</td>
 </tr>
 <tr class="odd">
@@ -101,10 +101,6 @@ When the eDiscovery Manager or Administrator role is set for a particular-geo lo
 <tr class="even">
 <td align="left"><strong>JPN </strong></td>
 <td align="left">South East or East Asia Data Centers</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>LAM</strong></td>
-<td align="left">US Data Centers</td>
 </tr>
 </tbody>
 </table>

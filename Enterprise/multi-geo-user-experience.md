@@ -11,13 +11,13 @@ localization_priority: Normal
 description: "Learn about the SharePoint and OneDrive user experience in a multi-geo environment."
 ---
 
-# User experience in a multgeo environment
+# User experience in a multi-geo environment
 
 Here’s what your users will see in a OneDrive Multi-Geo configuration:
 
 #### User’s OneDrive for Business location
 
-Users will have their OneDrive for Business provisioned in their preferred data location. If a user navigates to another geo location my site, they will be automatically redirected to their OneDrive in their appropriate geo-location.
+Users will have their OneDrive for Business provisioned in their preferred data location. If a user navigates to a OneDrive URL that contains an incorrect geo-location (such as a bookmark from a previous geo-location), they are automatically redirected to the OneDrive in the appropriate geo-location.
 
 #### Sharing
 
@@ -69,4 +69,4 @@ See Use [OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-
 
 #### Teams Experience
 
-Teams is multi-geo aware. OneDrive files and recently viewed files are shown regardless of the user’s geo location. @ mentions work normally with users from all geo-locations.
+Teams is multi-geo aware. OneDrive files and recently viewed files are shown regardless of the user’s geo location. @ mentions work with users from all geo-locations.
