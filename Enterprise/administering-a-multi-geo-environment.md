@@ -17,11 +17,11 @@ Here's a look at how OneDrive and SharePoint services work in a multi-geo enviro
 
 #### OneDrive Administrator Experience
 
-The [OneDrive admin center](https://admin.onedrive.com) has a **Geo Locations** tab in the left navigation which features a geo-locations map where you can view and manage your geo locations.
+The [OneDrive admin center](https://admin.onedrive.com) has a **Geo locations** tab in the left navigation which features a geo-locations map where you can view and manage your geo locations. Use this page to add or delete geo locations for your tenant.
 
 #### Taxonomy
 
-We support a unified [Taxonomy](https://support.office.com/article/A180FA28-6405-4679-9EC3-81D2028C4EFC) for enterprise managed metadata across geo locations, with the master being hosted in the central location for your company. We recommend that you manage your global taxonomy from the central location and only add location-specific terms to the satellite geo location’s Taxonomy. Global taxonomy terms will synchronize to the satellite geo locations.
+We support a unified [taxonomy](https://support.office.com/article/A180FA28-6405-4679-9EC3-81D2028C4EFC) for enterprise managed metadata across geo locations, with the master being hosted in the central location for your company. We recommend that you manage your global taxonomy from the central location and only add location-specific terms to the satellite geo location’s Taxonomy. Global taxonomy terms will synchronize to the satellite geo locations.
 
 #### Sharing
 

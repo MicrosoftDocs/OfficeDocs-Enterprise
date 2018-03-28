@@ -69,6 +69,8 @@
 ## [Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 ### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
 #### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
+##### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
+##### [Delete a geo location](delete-a-geo-location.md)
 #### [User experience in a multi-geo environment](multi-geo-user-experience.md)
 ### [Configure OneDrive for Business Multi-Geo](multi-geo-tenant-configuration.md)
 ### [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md)

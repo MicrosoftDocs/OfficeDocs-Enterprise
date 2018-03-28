@@ -15,37 +15,13 @@ description: "Learn how to configure OneDrive for Business Multi-Geo."
 
 Before you configure your tenant for OneDrive for Business Multi-Geo, be sure you have read [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you’ll need a list of the locations that you want to enable and the test users that you want to provision for those locations.
 
-The procedures in this article require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have AAD PowerShell installed, please ensure you update to the latest version.
-
 ## Add the Multi-Geo Capabilities in Office 365 plan to your tenant
 
 To use OneDrive for Business Multi-Geo, you need the _Multi-Geo Capabilities in Office 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
 
 Note that the _Multi-Geo Capabilities in Office 365_ plan is a user-level service plan. You need a license for each user that you want to host in a setellite location. You can add more licenses over time as you add users in satellite locations.
 
-## Set your tenant as a Multi-National Company
-
-The first step is to enable your tenant for Multi-Geo features. This is a one-way operation and cannot be undone.
-
-To enable your tenant for the OneDrive for Business Multi-Geo service
-
-1.  Open the Microsoft Azure Active Directory Module for Windows PowerShell.
-
-2.  Run `Connect-MsolService` and enter the global administrator credentials for your tenant.
-
-3.  Enable your tenant for the OneDrive for Business Multi-Geo service by running the following cmdlet:
-
-    `Set-MsolCompanyMultiNationalEnabled –ServiceType SharePoint –Enable $True`
-
-4.  Confirm the configuration change by running the following cmdlet:
-
-    `Get-MsolCompanyAllowedDataLocation`
-
-    You should see your current geography listed for SharePoint. Note that if your tenant was previously configured to use Exchange or Skype for Business in multiple geographies, you will see those listed when you run `Get-MsolCompanyAllowedDataLocation` as well.
-
-Your tenant is now enabled for Multi-Geo features and can be extended to additional data locations.
-
-![](media/multi-geo-tenant-configuration_image1.png)
+Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the [OneDrive admin center](https://admin.onedrive.com).
 
 ## Set the Allowed Data Locations (ADL) to your tenant
 
@@ -94,19 +70,19 @@ You must set an Allowed Data Location for SharePoint for each geo-location where
 </tbody>
 </table>
 
-For each geo location that you want to add, run the `Set-MsolCompanyallowedDataLocation` cmdlet in the Microsoft Azure Active Directory Module for Windows PowerShell using the following syntax:
+To add a satellite geo location
 
-`Set-MsolCompanyallowedDataLocation –ServiceType SharePoint –Location <LocationCode> -isDefault $false –InitialDomain <domain>`
+1. Open the [OneDrive admin center](https://admin.onedrive.com).
 
-For *LocationCode*, use the code from the table above for the geo location that you want to add. For *domain*, use the domain that you want to use for that geography (for example, ContosoEUR or ContosoEurope). (This namespace must be unique across Office 365.) Once this domain has been set it cannot be changed in the future.
+2. Navigate to the **Geo locations** tab.
 
-For example:
+3. Click **Add location**.
 
-`Set-MsolCompanyallowedDataLocation –ServiceType SharePoint –Location EUR -isDefault $false –InitialDomain ContosoEUR`
+4. Select the location that you want to add, and then click **Next**.
 
-Once you have added all the allowed data locations that you want to use, run the `Get-MsolCompanyAllowedDataLocation` cmdlet again and confirm that they are all listed.
+5. Type the domain that you want to use with the geo location, and then click **Add**.
 
-![](media/multi-geo-tenant-configuration_image2.png)
+6. Click **Close**.
 
 Once provisioning of a satellite location has completed, you will recieve an email confirmation. Once you recieve the email, you can proceed to set users' preferred data location to that geo-location. 
 
@@ -114,7 +90,6 @@ Once provisioning of a satellite location has completed, you will recieve an ema
 > Your new satellite geo location will be set up with default settings. This will allow you to configure that geo location as appropriate for your local compliance needs.
 
 ## Setting users’ preferred data location
-
 <span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span> 
 
 Once you enable the needed data locations, you can update your user accounts to use the appropriate data location. We recommend that you set a preferred data location for every user, even if that user is staying in the default data location.
@@ -137,6 +112,8 @@ We recommend that you include setting the user’s Preferred Data Location as a 
 ### Setting Preferred Data Location for cloud only users 
 
 If your company’s users are not synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), meaning they are created in Office 365 or AAD, then PDL must be set using AAD PowerShell.
+
+The procedures in this section require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have AAD PowerShell installed, please ensure you update to the latest version.
 
 1.  Open the Microsoft Azure Active Directory Module for Windows PowerShell.
 
@@ -169,13 +146,13 @@ Your Multi-Geo tenant will have aggregate search capabilities allowing a search 
 
 By default, searches from these entry points will return aggregate results, even though each search index is located within its relevant geo location:
 
-1.  OneDrive for business
+- OneDrive for business
 
-2.  Delve
+- Delve
 
-3.  SharePoint Home
+- SharePoint Home
 
-4.  Search Center
+- Search Center
 
 Additionally, Multi-Geo search capabilities can be configured for your custom search applications that use the SharePoint search API.
 
