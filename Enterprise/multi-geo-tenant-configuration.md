@@ -84,7 +84,7 @@ To add a satellite geo location
 
 6. Click **Close**.
 
-Once provisioning of a satellite location has completed, you will recieve an email confirmation. Once you recieve the email, you can proceed to set users' preferred data location to that geo-location. 
+Once provisioning of a satellite location has completed, you will recieve an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo-location. 
 
 > [!IMPORTANT]
 > Your new satellite geo location will be set up with default settings. This will allow you to configure that geo location as appropriate for your local compliance needs.

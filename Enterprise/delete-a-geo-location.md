@@ -24,7 +24,7 @@ To delete a geo-location
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com)
 
-2. Navigate to the **Geo locations* tab.
+2. Navigate to the **Geo locations** tab.
 
 3. On the map, click the geo location that you want to delete.
 
