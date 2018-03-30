@@ -1,7 +1,7 @@
 ---
 title: "Administering a multi-geo environment"
 ms.author: tlarsen
-author: tlarsen
+author: tklarsen
 manager: arnek
 ms.date: 4/3/2018
 ms.audience: ITPro
