@@ -64,7 +64,7 @@ You must set an Allowed Data Location for SharePoint for each geo-location where
 <td align="left">GBR</td>
 </tr>
 <tr class="even">
-<td align="left">South Korea</td>
+<td align="left">Korea</td>
 <td align="left">KOR</td>
 </tr>
 </tbody>

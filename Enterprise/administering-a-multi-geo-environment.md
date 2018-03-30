@@ -92,7 +92,7 @@ When the eDiscovery Manager or Administrator role is set for a particular-geo lo
 </tr>
 <tr class="even">
 <td align="left"><strong>KOR</strong></td>
-<td align="left">South East or East Asia Data Centers</td>
+<td align="left">Tenant's default data location</td>
 </tr>
 <tr class="odd">
 <td align="left"><strong>GBR</strong></td>

@@ -77,7 +77,7 @@ You can configure any of the following locations to be satellite geo locations w
 <td align="left">JPN</td>
 </tr>
 <tr class="even">
-<td align="left">South Korea</td>
+<td align="left">Korea</td>
 <td align="left">KOR</td>
 </tr>
 <tr class="odd">
