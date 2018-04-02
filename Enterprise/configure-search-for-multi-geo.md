@@ -45,7 +45,7 @@ The Delve feed and the profile card only show previews of files that are stored 
 
 ### The SharePoint home page
 
-As soon as the Multi-Geo environment has been set up, users will see news, recent and followed sites from multiple geo locations on their SharePoint home page. If they use search box on the SharePoint home page, they only get results from the geo location SPHome search index is located in.
+As soon as the Multi-Geo environment has been set up, users will see news, recent and followed sites from multiple geo locations on their SharePoint home page. If they use the search box on the SharePoint home page, they'll get merged results from multiple geo locations.
 
 ### The Search Center
 
@@ -128,17 +128,17 @@ Some of the search features you might be familiar with, aren’t supported in a 
 <tr class="header">
 <th align="left"><p><img src="media/configure-search-for-multi-geo_image1.png" /></p>
 <p>Figure 1: Searching across a tenant with three geo locations</p></th>
-<th align="left"><p>Search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.</p>
-<p>The query is sent to all geo locations in the tenant.</p>
-<p>Search results from each geo location are merged and ranked.</p>
-<p>Client gets unified search results.</p></th>
+<th align="left"><p>1. Search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.</p>
+<p>2. The query is sent to all geo locations in the tenant.</p>
+<p>3. Search results from each geo location are merged and ranked.</p>
+<p>4. Client gets unified search results.</p></th>
 </tr>
 </thead>
 <tbody>
 </tbody>
 </table>
 
-<span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Multi-Geo Search works by calling each search endpoint in each geos. The requests to remote goes are performed in parallel, but to merging to happen, we wait for the slowest leg to reply before we can do the merging. This implies multi-geo add additional latency to the search experience.
+<span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Notice that we don’t merge the search results until we’ve received results from all the geo locations. This means that Multi-Geo searches have additional latency compared to searches in an environment with only one geo location.
 
 <span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>
 ### Get a Search Center to show results from all geo locations
@@ -151,13 +151,13 @@ Each Search Center has several verticals and you have to set up each vertical in
 
 3.  Select the vertical to set up, click **Settings** gear icon in the upper, right corner, and then click **Edit Page**.
 
-> ![](media/configure-search-for-multi-geo_image2.png)
->
-> The search results page opens in Edit mode.
+     ![](media/configure-search-for-multi-geo_image2.png)
+
+    The search results page opens in Edit mode.
 
 1.  In the Search Results Web Part, move the pointer to the upper, right corner of the Web Part, click the arrow, and then click **Edit Web Part** on the menu. ![](media/configure-search-for-multi-geo_image3.png)
 
-> The Search Results Web Part tool pane opens under the ribbon in the top right of the page.
+    The Search Results Web Part tool pane opens under the ribbon in the top right of the page.
 
 1.  In the Web Part tool pane, in the **Settings** section, under **Results control settings**, select **Show Multi-Geo results** to get the Search Results Web Part to show results from all geo locations.
 
@@ -225,10 +225,7 @@ If you omit DataLocation or EndPoint, or if a DataLocation is duplicated, the re
 <td align="left">Partial</td>
 <td align="left">Partial results from one or more geo locations. The results are incomplete due to a transient error.</td>
 </tr>
-<tr class="odd">
-<td align="left">None</td>
-<td align="left">The query was not a Multi-Geo query and was not fanned out to the other geo locations.</td>
-</tr>
+
 </tbody>
 </table>
 
