@@ -21,6 +21,8 @@ description: "Summary: Use Office 365 PowerShell to manage SharePoint Online use
  **Summary:** Use Office 365 PowerShell to manage SharePoint Online users, groups, and site groups.
   
 One of the primary tasks of any SharePoint Online administrator is managing sites, site groups, and users. Although you can accomplish some of these tasks in the Office 365 admin center, other tasks are much quicker and easier in Office 365 PowerShell. For more information, see the following topics:
+
+- [Connect to SharePoint Online PowerShell](https://technet.microsoft.com/en-us/library/fp161372.aspx)
   
 - [Create sites and add users](http://technet.microsoft.com/library/c55d4ccf-ab36-481a-a285-c40234e11abd.aspx)
     
