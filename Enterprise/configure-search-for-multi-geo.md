@@ -136,7 +136,7 @@ Some of the search features you might be familiar with, aren’t supported in a 
 <span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>
 ## Get a Search Center to show results from all geo locations
 
-Each Search Center has several verticals and you have to set up each vertical individually.
+Each Search Center has several verticals and you have to set up each vertical individually. xx
 
 1.  Ensure that you perform these steps with an account that has permission to edit the search results page and the Search Result Web Part.
 
