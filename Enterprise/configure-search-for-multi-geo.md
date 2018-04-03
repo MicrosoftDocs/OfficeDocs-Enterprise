@@ -55,7 +55,7 @@ After the Multi-Geo environment has been set up, each Search Center continues to
 
 As usual, custom search applications interact with the search indexes by using the existing SharePoint Search REST APIs. To get results from all, or some geo locations, the application must [call the API and include the new Multi-Geo query parameters](#_Get_custom_search) in the request. This triggers a fan out of the query to all geo locations.
 
-### What’s different about search in a Multi-Geo environment?
+## What’s different about search in a Multi-Geo environment?
 
 Some search features you might be familiar with, work differently in a Multi-Geo environment.
 
@@ -96,7 +96,7 @@ Some search features you might be familiar with, work differently in a Multi-Geo
 </tbody>
 </table>
 
-### What’s not supported for search in a Multi-Geo environment?
+## What’s not supported for search in a Multi-Geo environment?
 
 Some of the search features you might be familiar with, aren’t supported in a Multi-Geo environment.
 
@@ -119,29 +119,22 @@ Some of the search features you might be familiar with, aren’t supported in a 
 </tbody>
 </table>
 
-### How does search work in a Multi-Geo environment?
+## How does search work in a Multi-Geo environment?
 
 **All** the search clients use the existing SharePoint Search REST APIs to interact with the search indexes.
+<img src="media/configure-search-for-multi-geo_image1-1.png" />
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><p><img src="media/configure-search-for-multi-geo_image1.png" /></p>
-<p>Figure 1: Searching across a tenant with three geo locations</p></th>
-<th align="left"><p>1. Search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.</p>
-<p>2. The query is sent to all geo locations in the tenant.</p>
-<p>3. Search results from each geo location are merged and ranked.</p>
-<p>4. Client gets unified search results.</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+1. A search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.
+2. The query is sent to all geo locations in the tenant.
+3. Search results from each geo location are merged and ranked.
+4. The client gets unified search results.
+
+
 
 <span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Notice that we don’t merge the search results until we’ve received results from all the geo locations. This means that Multi-Geo searches have additional latency compared to searches in an environment with only one geo location.
 
 <span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>
-### Get a Search Center to show results from all geo locations
+## Get a Search Center to show results from all geo locations
 
 Each Search Center has several verticals and you have to set up each vertical individually.
 
@@ -168,17 +161,17 @@ Each Search Center has several verticals and you have to set up each vertical in
 4.  Publish the changes by using the link provided in the note at the top of the page.
 
 <span id="_Get_custom_search" class="anchor"><span id="_Ref501388387" class="anchor"></span></span>
-### Get custom search applications to show results from all or some geo locations
+## Get custom search applications to show results from all or some geo locations
 
 Custom search applications get results from all, or some, geo locations by specifying query parameters with the request to the SharePoint Search REST API. Depending on the query parameters, the query is fanned out to all geo locations, or to some geo locations. For example, if you only need to query a subset of geo locations to find relevant information, you can control the fan out to only these. If the request succeeds, the SharePoint Search REST API returns response data.
 
 ### Query parameters
 
-**EnableMultiGeoSearch** - This is a Boolean value that specifies whether the query shall be fanned out to the indexes of other geo locations of the Multi-Geo tenant. Set it to **true** to fan out the query; **false** to not fan out the query. The default value is **false**. If you don’t include this parameter, the query is **not** fanned out to other geo locations. If you use the parameter in an environment that isn’t Multi-Geo, the parameter is ignored.
+EnableMultiGeoSearch - This is a Boolean value that specifies whether the query shall be fanned out to the indexes of other geo locations of the Multi-Geo tenant. Set it to **true** to fan out the query; **false** to not fan out the query. The default value is **false**. If you don’t include this parameter, the query is **not** fanned out to other geo locations. If you use the parameter in an environment that isn’t Multi-Geo, the parameter is ignored.
 
-**ClientType** - This is a string. Enter a unique client name for each search application. If you don’t include this parameter, the query is **not** fanned out to other geo locations.
+ClientType - This is a string. Enter a unique client name for each search application. If you don’t include this parameter, the query is **not** fanned out to other geo locations.
 
-**MultiGeoSearchConfiguration** - This is an optional list of which geo locations in the Multi-Geo tenant to fan the query out to when **EnableMultiGeoSearch** is **true**. If you don’t include this parameter, or leave it blank, the query is fanned out to all geo locations. For each geo location, enter the following items, in JSON format:
+MultiGeoSearchConfiguration - This is an optional list of which geo locations in the Multi-Geo tenant to fan the query out to when **EnableMultiGeoSearch** is **true**. If you don’t include this parameter, or leave it blank, the query is fanned out to all geo locations. For each geo location, enter the following items, in JSON format:
 
 <table>
 <thead>
@@ -207,7 +200,7 @@ If you omit DataLocation or EndPoint, or if a DataLocation is duplicated, the re
 
 ### Response data
 
-**MultiGeoSearchStatus** – This is a property that the SharePoint Search API returns in response to a request. The value of the property is a string and gives the following information about the results that the SharePoint Search API returns:
+MultiGeoSearchStatus – This is a property that the SharePoint Search API returns in response to a request. The value of the property is a string and gives the following information about the results that the SharePoint Search API returns:
 
 <table>
 <thead>
