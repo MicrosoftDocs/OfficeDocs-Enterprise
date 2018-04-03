@@ -136,21 +136,16 @@ Some of the search features you might be familiar with, aren’t supported in a 
 <span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>
 ## Get a Search Center to show results from all geo locations
 
-Each Search Center has several verticals and you have to set up each vertical individually. xx
+Each Search Center has several verticals and you have to set up each vertical individually.
 
 1.  Ensure that you perform these steps with an account that has permission to edit the search results page and the Search Result Web Part.
 
 2.  Navigate to the search results page (see the [list](https://support.office.com/article/174d36e0-2f85-461a-ad9a-8b3f434a4213) of search results pages)
 
-3.  Select the vertical to set up, click **Settings** gear icon in the upper, right corner, and then click **Edit Page**.
+3.  Select the vertical to set up, click **Settings** gear icon in the upper, right corner, and then click **Edit Page**. The search results page opens in Edit mode.
 
      ![](media/configure-search-for-multi-geo_image2.png)
-
-    The search results page opens in Edit mode.
-
-1.  In the Search Results Web Part, move the pointer to the upper, right corner of the Web Part, click the arrow, and then click **Edit Web Part** on the menu. ![](media/configure-search-for-multi-geo_image3.png)
-
-    The Search Results Web Part tool pane opens under the ribbon in the top right of the page.
+1.  In the Search Results Web Part, move the pointer to the upper, right corner of the Web Part, click the arrow, and then click **Edit Web Part** on the menu. The Search Results Web Part tool pane opens under the ribbon in the top right of the page. ![](media/configure-search-for-multi-geo_image3.png)
 
 1.  In the Web Part tool pane, in the **Settings** section, under **Results control settings**, select **Show Multi-Geo results** to get the Search Results Web Part to show results from all geo locations.
 
