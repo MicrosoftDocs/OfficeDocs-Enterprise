@@ -1,5 +1,5 @@
 ---
-title: "Administering a multi-geo environment"
+title: "Configure Search for OneDrive for Business Multi-Geo"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
@@ -306,3 +306,4 @@ Here’s a sample CSOM query that’s fanned out to **all** geo locations:
     keywordQuery.QueryText = query.SearchQueryText;
     keywordQuery.ClientType = <enter a string here>;
     keywordQuery["EnableMultiGeoSearch"] = true;
+
