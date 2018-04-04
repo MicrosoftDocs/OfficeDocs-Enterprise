@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/02/2018
+ms.date: 04/04/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -98,7 +98,7 @@ If you receive errors, check the following requirements:
   
 - **A common problem is an incorrect password**. Run Step 3 again. and pay close attention to the user name and password you enter.
     
-- **The Microsoft Azure Active Directory Module for Windows PowerShell requires that the Microsoft .NET Framework 3.5. _x_ feature is enabled on your computer**. It's likely that your computer has a newer version installed (for example, 4 or 4.5. _x_), but backwards compatibility with older versions of the .NET Framework can be enabled or disabled. For more information, see the following topics:
+- **The Microsoft Azure Active Directory Module for Windows PowerShell requires that the Microsoft .NET Framework 3.5.*x* feature is enabled on your computer**. It's likely that your computer has a newer version installed (for example, 4 or 4.5.*x*), but backwards compatibility with older versions of the .NET Framework can be enabled or disabled. For more information, see the following topics:
     
   - For Windows Server 2012 or Windows Server 2012 R2, see [Enable .NET Framework 3.5 by using the Add Roles and Features Wizard](https://go.microsoft.com/fwlink/p/?LinkId=532368)
     
@@ -121,7 +121,11 @@ If you receive errors, check the following requirements:
 
 Commands in the Azure Active Directory V2 PowerShell module have "AzureAD" in their cmdlet name.
 
-For procedures that require the new cmdlets in the [Azure Active Directory V2 PowerShell module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory), use these steps to install the module and connect to your Office 365 subscription.
+For procedures that require the new cmdlets in the Azure Active Directory V2 PowerShell module, use these steps to install the module and connect to your Office 365 subscription.
+
+>[!Note]
+>See [Azure Active Directory V2 PowerShell module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) for information about the support for different versions of Microsoft Windows.
+>
 
 ### Step 1: Install required software
 
@@ -164,13 +168,9 @@ After connecting, you can use the new cmdlets for the [Azure Active Directory V2
   
 ## See also
 
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-  
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
-  
-[Connect to all Office 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md)
-
-[Get-Credential](https://go.microsoft.com/fwlink/p/?LinkId=389618)
-  
-[Connect-MsolService](https://go.microsoft.com/fwlink/p/?LinkId=532375)
+- [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+- [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+- [Connect to all Office 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md)
+- [Get-Credential](https://go.microsoft.com/fwlink/p/?LinkId=389618)
+- [Connect-MsolService](https://go.microsoft.com/fwlink/p/?LinkId=532375)
 

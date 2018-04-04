@@ -3,7 +3,7 @@ title: "Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/04/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -52,11 +52,11 @@ This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a 
 
 To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.
   
-1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: _____________________________________
+1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: _____________________________________.
     
 2. To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.
     
-  - Record the first and last name of your new account here: _______________________________
+  - Record the first and last name of your new account here: _______________________________.
     
   - Record the new email account address here: _____________________________@outlook.com
     
@@ -101,7 +101,7 @@ Stop-Process -Name Explorer -Force
     
     Record the password that you typed in a secure location.
     
-    Record your fictional company name, to be referred to as the **organization name**, here: ________________________________________
+    Record your fictional company name, to be referred to as the **organization name**, here: ________________________________________.
     
 5. Click **Create my account**.
     
@@ -109,7 +109,7 @@ Stop-Process -Name Explorer -Force
     
 7. Type the verification code from the received text message, and then click **Next**.
     
-8. Record the sign-in page URL here (select and copy): ___________________________________________
+8. Record the sign-in page URL here (select and copy): ___________________________________________.
     
 9. Record the user ID here (select and copy): __________________________________.onmicrosoft.com
     
@@ -265,7 +265,7 @@ Record these values for working with or deploying additional Test Lab Guides in 
 
 Use these additional articles in your Office 365 dev/test environment:
   
-- [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
+- [Directory Synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
     
 - [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
     
