@@ -22,7 +22,7 @@ You can use an Office 365 trial subscription and create an Office 365 dev/test e
   
 - The lightweight Office 365 dev/test environment consists of an Office 365 trial subscription that you access from your main computer.
     
-    Use this environment when you want to quickly demonstrate a feature. For the lightweight Office 365 dev/test environment, complete phases 2 and 3 of this article.
+    Use this environment when you want to quickly demonstrate a feature. For the lightweight Office 365 dev/test environment, complete only phases 2 and 3 of this article.
     
 - The simulated enterprise Office 365 dev/test environment consists of an Office 365 trial subscription and a simplified organization intranet connected to the Internet, which is hosted in Microsoft Azure infrastructure services. You can build this configuration completely in the Microsoft cloud.
     
@@ -52,11 +52,11 @@ This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a 
 
 To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.
   
-1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: _____________________________________.
+1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: |_______________________________|.
     
 2. To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.
     
-  - Record the first and last name of your new account here: _______________________________.
+  - Record the first and last name of your new account here: ![](./images/Common_Images/TableLine.png)
     
   - Record the new email account address here: _____________________________@outlook.com
     
@@ -101,7 +101,7 @@ Stop-Process -Name Explorer -Force
     
     Record the password that you typed in a secure location.
     
-    Record your fictional company name, to be referred to as the **organization name**, here: ________________________________________.
+    Record your fictional company name, to be referred to as the **organization name**, here: |________________________________________|.
     
 5. Click **Create my account**.
     
@@ -109,9 +109,9 @@ Stop-Process -Name Explorer -Force
     
 7. Type the verification code from the received text message, and then click **Next**.
     
-8. Record the sign-in page URL here (select and copy): ___________________________________________.
+8. Record the sign-in page URL here (select and copy): |________________________________________|.
     
-9. Record the user ID here (select and copy): __________________________________.onmicrosoft.com
+9. Record the user ID here (select and copy): |__________________________________|.onmicrosoft.com
     
     This value will be referred to as the **Office 365 global administrator name**.
     
@@ -225,11 +225,11 @@ New-SPOSite -Url $siteURL -Owner $owner -StorageQuota 1000 -Title "Support site 
 
 Record these values for working with or deploying additional Test Lab Guides in this test environment:
   
-- Office 365 global administrator name: ____________________________________.onmicrosoft.com (from step 9 of Phase 2)
+- Office 365 global administrator name: |____________________________________|.onmicrosoft.com (from step 9 of Phase 2)
     
     Also record the password for this account in a secure location.
     
-- Your trial subscription organization name: _______________________________________________ (from step 4 of Phase 2)
+- Your trial subscription organization name: |_______________________________________________| (from step 4 of Phase 2)
     
 - To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:
     
@@ -291,10 +291,10 @@ Extend your Office 365 dev/test environment to include additional Microsoft clou
     
 ## See Also
 
-[Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
+- [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
-[Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
+- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+ - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
 
