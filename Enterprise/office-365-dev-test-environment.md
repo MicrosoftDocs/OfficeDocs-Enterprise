@@ -52,7 +52,7 @@ This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a 
 
 To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.
   
-1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./images/Common_Images/TableLine.png)
+1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: |_______________________________|.
     
 2. To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.
     
@@ -109,9 +109,9 @@ Stop-Process -Name Explorer -Force
     
 7. Type the verification code from the received text message, and then click **Next**.
     
-8. Record the sign-in page URL here (select and copy): ___________________________________________.
+8. Record the sign-in page URL here (select and copy): |________________________________________|.
     
-9. Record the user ID here (select and copy): __________________________________.onmicrosoft.com
+9. Record the user ID here (select and copy): |__________________________________|.onmicrosoft.com
     
     This value will be referred to as the **Office 365 global administrator name**.
     
@@ -225,11 +225,11 @@ New-SPOSite -Url $siteURL -Owner $owner -StorageQuota 1000 -Title "Support site 
 
 Record these values for working with or deploying additional Test Lab Guides in this test environment:
   
-- Office 365 global administrator name: ____________________________________.onmicrosoft.com (from step 9 of Phase 2)
+- Office 365 global administrator name: |____________________________________|.onmicrosoft.com (from step 9 of Phase 2)
     
     Also record the password for this account in a secure location.
     
-- Your trial subscription organization name: _______________________________________________ (from step 4 of Phase 2)
+- Your trial subscription organization name: |_______________________________________________| (from step 4 of Phase 2)
     
 - To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:
     
