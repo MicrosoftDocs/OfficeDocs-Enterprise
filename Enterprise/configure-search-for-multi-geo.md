@@ -75,7 +75,8 @@ Some search features you might be familiar with, work differently in a Multi-Geo
 </tr>
 <tr class="even">
 <td align="left">Search refiners</td>
-<td align="left">Search returns refiners from all the geo locations of a tenant and then aggregates them. The aggregation is a best effort, meaning that the refiner counts might not be 100% accurate. For most search-driven scenarios, this accuracy is sufficient.</td>
+<td align="left">Search returns refiners from all the geo locations of a tenant and then aggregates them. The aggregation is a best effort, meaning that the refiner counts might not be 100% accurate. For most search-driven scenarios, this accuracy is sufficient. 
+</td>
 <td align="left">For search-driven applications that depend on refiner completeness, query each geo location independently without using Multi-Geo fan-out.</td>
 </tr>
 <tr class="odd">
@@ -122,6 +123,7 @@ Some of the search features you might be familiar with, aren’t supported in a 
 ## How does search work in a Multi-Geo environment?
 
 **All** the search clients use the existing SharePoint Search REST APIs to interact with the search indexes.
+
 <img src="media/configure-search-for-multi-geo_image1-1.png" />
 
 1. A search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.
