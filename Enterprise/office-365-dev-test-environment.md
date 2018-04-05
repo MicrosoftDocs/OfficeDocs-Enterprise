@@ -22,7 +22,7 @@ You can use an Office 365 trial subscription and create an Office 365 dev/test e
   
 - The lightweight Office 365 dev/test environment consists of an Office 365 trial subscription that you access from your main computer.
     
-    Use this environment when you want to quickly demonstrate a feature. For the lightweight Office 365 dev/test environment, complete phases 2 and 3 of this article.
+    Use this environment when you want to quickly demonstrate a feature. For the lightweight Office 365 dev/test environment, complete only phases 2 and 3 of this article.
     
 - The simulated enterprise Office 365 dev/test environment consists of an Office 365 trial subscription and a simplified organization intranet connected to the Internet, which is hosted in Microsoft Azure infrastructure services. You can build this configuration completely in the Microsoft cloud.
     
@@ -52,11 +52,11 @@ This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a 
 
 To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.
   
-1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: _____________________________________.
+1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./images/Common_Images/TableLine.png)
     
 2. To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.
     
-  - Record the first and last name of your new account here: _______________________________.
+  - Record the first and last name of your new account here: ![](./images/Common_Images/TableLine.png)
     
   - Record the new email account address here: _____________________________@outlook.com
     
@@ -101,7 +101,7 @@ Stop-Process -Name Explorer -Force
     
     Record the password that you typed in a secure location.
     
-    Record your fictional company name, to be referred to as the **organization name**, here: ________________________________________.
+    Record your fictional company name, to be referred to as the **organization name**, here: |________________________________________|.
     
 5. Click **Create my account**.
     
@@ -291,10 +291,10 @@ Extend your Office 365 dev/test environment to include additional Microsoft clou
     
 ## See Also
 
-[Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
+- [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
-[Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
+- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+ - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
 
