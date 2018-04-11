@@ -86,10 +86,10 @@ Create a virtual machine using the hypervisor of your choice and install Windows
   
 ### Virtual machine in Azure
 
-Create a Windows 10 virtual machine in Microsoft Azure using the Azure gallery image.
+To create a Windows 10 virtual machine in Microsoft Azure, ***you must have a Visual Studio-based subscription***, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image.
   
 > [!NOTE]
-> The following command sets use te latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). These command sets build a Windows 10 Enterprise virtual machine named WIN10 and all of its required infrastructure, including a resource group, a storage account, and a virtual network. If you are already familiar with Azure infrastructure services, please adapt these instructions to suit your currently deployed infrastructure. 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). These command sets build a Windows 10 Enterprise virtual machine named WIN10 and all of its required infrastructure, including a resource group, a storage account, and a virtual network. If you are already familiar with Azure infrastructure services, please adapt these instructions to suit your currently deployed infrastructure. 
   
 First, start a Microsoft PowerShell prompt.
   
@@ -201,7 +201,5 @@ Use these additional articles to explore features of Microsoft 365 Enterprise:
 ## See Also
 
 - [Microsoft 365 Enterprise documentation](https://docs.microsoft.com/microsoft-365-enterprise/)
-
- - [Deploy Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise)
-
+- [Deploy Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise)
 - [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
