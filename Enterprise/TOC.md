@@ -75,6 +75,7 @@
 ### [Configure OneDrive for Business Multi-Geo](multi-geo-tenant-configuration.md)
 ### [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md)
 ### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
+### [Multi-Geo capabilities in Exchange Online in Office 365](multi-geo-capabilities-in-exchange-online-in-office-365.md)
 ## [Security solutions](security-solutions.md)
 ### [Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)
 #### [Overview: Office 365 Information Protection for GDPR](office-365-info-protection-for-gdpr-overview.md)
