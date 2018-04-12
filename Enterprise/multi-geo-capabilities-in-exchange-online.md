@@ -1,5 +1,5 @@
 ---
-title: "Multi-Geo capabilities in Exchange Online in Office 365"
+title: "Multi-Geo capabilities in Exchange Online"
 ms.author: chrisda
 author: chrisda
 manager: serdars
@@ -13,7 +13,7 @@ ms.assetid:
 description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in Exchange Online."
 ---
 
-# Multi-Geo capabilities in Exchange Online in Office 365
+# Multi-Geo capabilities in Exchange Online
 
 Multi-Geo capabilities in Office 365 enable a single tenant to span multiple geographic locations (Geos). When Multi-Geo capabilities are enabled, customers can select the location of Exchange Online mailbox content (data at rest) on a per-user basis.
 
