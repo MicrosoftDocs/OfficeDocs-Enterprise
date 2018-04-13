@@ -9,11 +9,10 @@ ms.topic: overview
 ms.collection: 
 - Strat_O365_Enterprise
 - Ent_O365
+- GDPR
 ms.service: o365-solutions
 localization_priority: Priority
-ms.custom: 
-- Strat_O365_Enterprise
-- GDPR
+ms.custom:
 ms.assetid:
 description: "Learn about three tools you can use to monitor for leaks of personal data."
 ---
