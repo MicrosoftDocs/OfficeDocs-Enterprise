@@ -9,11 +9,10 @@ ms.topic: overview
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
+- GDPR
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: 
-- Strat_O365_Enterprise
-- GDPR
 ms.assetid:
 
 description: "Learn how to modify or create new Office 365 sensitive information types for GDPR."
