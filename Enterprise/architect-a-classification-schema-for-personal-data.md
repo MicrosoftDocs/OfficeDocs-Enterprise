@@ -9,11 +9,10 @@ ms.topic: overview
 ms.collection: 
 - Strat_O365_Enterprise
 - Ent_O365
+- GDPR
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: 
-- GDPR
-- Strat_O365_Enterprise
 ms.assetid:
 
 description: "Determine whether your organization will implement labels as part of your GDPR plan."

@@ -11,8 +11,7 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: a1370fe4-2fd6-4fea-ad1d-3555433d6d2e
 description: "Summary: Use this Test Lab Guide to create a dev/test environment that includes all of Microsoft's cloud offerings."
