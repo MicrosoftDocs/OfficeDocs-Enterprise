@@ -13,9 +13,9 @@ ms.assetid:
 description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in Exchange Online."
 ---
 
-# Multi-Geo capabilities in Exchange Online
+# Multi-Geo Capabilities in Exchange Online
 
-Multi-Geo capabilities in Office 365 enable a single tenant to span multiple geographic locations (Geos). When Multi-Geo capabilities are enabled, customers can select the location of Exchange Online mailbox content (data at rest) on a per-user basis.
+Multi-Geo Capabilities in Office 365 enable a single tenant to span multiple geographic locations (Geos). When Multi-Geo is enabled, customers can select the location of Exchange Online mailbox content (data at rest) on a per-user basis.
 
 Your initial tenant location (referred to as your "default" or "central" location) is determined based on your billing address. When Multi-Geo is enabled, you can place mailboxes in additional "satellite" locations by:
 
@@ -27,7 +27,7 @@ Your initial tenant location (referred to as your "default" or "central" locatio
 
 The following Geos are available for use in a Multi-Geo configuration:
 
-- Asia/Pacific
+- Asia Pacific
 
 - Australia
 
@@ -228,7 +228,7 @@ Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataL
  
   - The size and type of mailbox.
  
-  - Thnumber of mailboxes being moved.
+  - The number of mailboxes being moved.
  
   - The availability of move resources.
 
@@ -242,7 +242,7 @@ Disabled mailboxes on Litigation Hold that are preserved for eDiscovery purposes
 3. Remove the license from the mailbox after it has been moved to the selected Geo to put it back into the disabled state.
 
 ### Create new cloud mailboxes in a specific Geo 
-To create a new mailbox in a sepcific Geo, you need to do either of these steps:
+To create a new mailbox in a specific Geo, you need to do either of these steps:
 
 - Configure the **PreferredDataLocation** value as described in the previous section *before* the mailbox is created in Exchange Online (for example, by configuring the **PreferredDataLocation** value on a user before assigning a license). 
 
@@ -275,6 +275,9 @@ New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "E
 
 For more information about creating new user accounts and finding LicenseAssignment values in Azure AD PowerShell, see [Create user accounts with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/create-user-accounts-with-office-365-powershell) and [View licenses and services with Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell).
 
+> [!NOTE]
+> If you are using Exchange PowerShell to enable a mailbox and need the mailbox to be created directly in the Geo that's specified in **PreferredDataLocation**, you need to use an Exchange Online cmdlet such as **Enable-Mailbox** or **New-Mailbox** directly against the cloud service. If you use the **Enable-RemoteMailbox** on-premises Exchange cmdlet, the mailbox will be created in the default Geo.
+
 ### Onboard existing on-premises mailboxes in a specific Geo
 You can use the standard onboarding tools and processes to migrate a mailbox from an on-premises Exchange organization to Exchange Online, including the [Migration dashboard in the EAC](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331), and the [New-MigrationBatch](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/new-migrationbatch) cmdlet in Exchange Online PowerShell.
 
@@ -301,3 +304,9 @@ Or, you can use the following steps to onboard mailboxes directly in a specific 
 5. Repeat step #4 for every mailbox you need to migrate from on-premises Exchange to the satellite Geo you are currently connected to.
 
 6. If you need to migrate additional mailboxes to a different satellite Geo, repeat steps 2 through 4 for each specific satellite Geo.
+
+### Multi-Geo Reporting
+**Multi-Geo Usage Reports** in the Office 65 admin center displays the user count by Geo. The report displays user distribution for the current month and provides historical data for the past 6 months.
+
+### Identifying where a specfic user's data is stored
+The **Users** tab in the Office 365 admin center displays each user's **PreferredDataLocation** (PDL).
