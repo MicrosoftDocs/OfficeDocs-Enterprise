@@ -9,11 +9,10 @@ ms.topic: overview
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
+- GDPR
 ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: 
-- GDPR
-- Strat_O365_Enterprise
 ms.assetid:
 
 description: "Learn how to use DLP policies to protect personal data in Office 365."

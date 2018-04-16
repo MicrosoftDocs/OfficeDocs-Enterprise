@@ -11,7 +11,7 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.service: o365-solutions
 localization_priority: None
-ms.custom: Strat_O365_Enterprise
+ms.custom: 
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: "Summary: Create Office 365 and Enterprise Mobility + Security (EMS) trial subscriptions with users and groups for a political campaign dev/test environment."
 ---
