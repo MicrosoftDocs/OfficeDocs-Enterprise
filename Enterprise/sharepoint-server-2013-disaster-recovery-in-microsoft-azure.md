@@ -3,7 +3,7 @@ title: "SharePoint Server 2013 Disaster Recovery in Microsoft Azure"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 2/5/2018
+ms.date: 04/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -20,15 +20,15 @@ description: "Summary: Using Azure, you can create a disaster-recovery environme
   
  When disaster strikes your SharePoint on-premises environment, your top priority is to get the system running again quickly. Disaster recovery with SharePoint is quicker and easier when you have a backup environment already running in Microsoft Azure. This video explains the main concepts of a SharePoint warm failover environment and complements the full details available in this article.
   
-![Video (play button) icon](images/mod_icon_video_M.png)
+[!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=1b73ec8f-29bd-44eb-aa3a-f7932784bfd9&AutoPlayVideo=false]
+
+
   
 Use this article with the following solution model: **SharePoint Disaster Recovery in Microsoft Azure**.
   
-[![SharePoint disaster-recovery process to Azure](images/SP_DR_Azure.png)
+[![SharePoint disaster-recovery process to Azure](images/SP_DR_Azure.png)](https://go.microsoft.com/fwlink/p/?LinkId=392555)
   
-](https://go.microsoft.com/fwlink/p/?LinkId=392555)
-  
-![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=392555) |![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=392554)
+![PDF file](images/ITPro_Other_PDFicon.png) [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392555) | ![Visio file](images/ITPro_Other_VisioIcon.jpg) [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392554)
   
 In this article:
   
