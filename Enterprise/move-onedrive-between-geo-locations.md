@@ -7,6 +7,7 @@ ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+ms.custom: Strat_SP_gtc
 localization_priority: Normal
 description: "Learn how to move a OneDrive site to a different geo-location."
 ---
@@ -72,9 +73,9 @@ For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR
 
 To schedule a geo move for a later time, use one of the following parameters:
 
--   _PreferredMoveBeginDate_ – The move will likely begin at this specified time.
+-   _PreferredMoveBeginDate_ – The move will likely begin at this specified time. Time must be specified in Coordinated Universal Time (UTC).
 
--   _PreferredMoveEndDate_ – The move will likely be completed by this specified time, on a best effort basis.
+-   _PreferredMoveEndDate_ – The move will likely be completed by this specified time, on a best effort basis. Time must be specified in Coordinated Universal Time (UTC). 
 
 ## Cancel a OneDrive geo move 
 
