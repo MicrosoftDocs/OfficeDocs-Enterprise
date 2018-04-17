@@ -19,7 +19,6 @@ description: "Summary: Learn how to create an integrated test lab that contains 
  
 **Watch the integrated Exchange, Lync, and SharePoint test lab guide overview video**
 
-
 <iframe src="//videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=8d1f00cc-b8b1-4394-9367-0cc9765e380a&AutoPlayVideo=false" frameborder= "0" marginwidth= "0" marginheight= "0" scrolling= "no" allowfullscreen= "" ></iframe>
 
  
