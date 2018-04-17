@@ -38,6 +38,8 @@ Here's how multi-geo features can benefit your organization:
 - Consolidate your regional on-premises data into your Office 365 multi-geo tenant.
     
 In a multi-geo configuration, your Office 365 tenant consists of a central location (also known as the default location) and one or more satellite geo locations. The key concept of multi-geo is that a single tenancy will span across one multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
+
+For more information about OneDrive for Business Multi-Geo, watch the video [Introducing Office 365 Multi-Geo, giving you control over where your data is stored](https://www.microsoft.com/en-us/videoplayer/embed/RE1Yk6B)
   
 ## Sample multi-geo tenant configuration
 
