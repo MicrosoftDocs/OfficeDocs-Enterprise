@@ -39,13 +39,9 @@ Here's how multi-geo features can benefit your organization:
     
 In a multi-geo configuration, your Office 365 tenant consists of a central location (also known as the default location) and one or more satellite geo locations. The key concept of multi-geo is that a single tenancy will span across one multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
 
-For more information about OneDrive for Business Multi-Geo, watch the video [Introducing Office 365 Multi-Geo, giving you control over where your data is stored](https://www.microsoft.com/en-us/videoplayer/embed/RE1Yk6B)
-  
-## Sample multi-geo tenant configuration
+##Video: Introducing Office 365 Multi-Geo
 
-By using a multi-geo tenant, Contoso, with a central location of North America, can expand to satellite geo locations in Europe, and Australia under the single organization umbrella of Contoso.com. Users with their preferred data location set to Europe will have their OneDrive in Europe while users with their preferred data location in North America will have their OneDrive in the US.
-  
-![Map of the world, showing geo locations for Contoso and other available geo locations](images/df317ccc-2e53-411d-9211-a5aee63ca1e5.png)
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE1Yk6B?autoplay=false]
   
 ## Get multi-geo features in three simple steps
 
