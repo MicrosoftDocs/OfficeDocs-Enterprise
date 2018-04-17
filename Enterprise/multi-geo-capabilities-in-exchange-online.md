@@ -267,7 +267,7 @@ This example create a new user account for Elizabeth Brunner with the following 
 
 - License: contoso:ENTERPRISEPREMIUM (E5)
 
-- Location: Australia (AUS)
+3- Location: Australia (AUS)
 
 ```
 New-MsolUser -UserPrincipalName ebrunner@contoso.onmicrosoft.com -DisplayName "Elizabeth Brunner" -FirstName Elizabeth -LastName Brunner -LicenseAssignment contoso:ENTERPRISEPREMIUM -PreferredDataLocation AUS
@@ -306,7 +306,5 @@ Or, you can use the following steps to onboard mailboxes directly in a specific 
 6. If you need to migrate additional mailboxes to a different satellite Geo, repeat steps 2 through 4 for each specific satellite Geo.
 
 ### Multi-Geo Reporting
-**Multi-Geo Usage Reports** in the Office 65 admin center displays the user count by Geo. The report displays user distribution for the current month and provides historical data for the past 6 months.
-
-### Identifying where a specfic user's data is stored
-The **Users** tab in the Office 365 admin center displays each user's **PreferredDataLocation** (PDL).
+**Multi-Geo Usage Reports** in the Office 365 admin center displays the user count by Geo. The report displays user distribution for the current month and provides historical data for the past 6 months.
+ 
