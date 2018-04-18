@@ -3,7 +3,7 @@ title: "Architectural models for SharePoint, Exchange, Skype for Business, and L
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/11/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -95,7 +95,7 @@ These new IT posters for SharePoint 2016 and Skype for Business 2015 provide a w
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Multi-Geo OneDrive in Office 365 model](images/c6c1b7cd-7833-46fb-9eec-c12150c260d9.png)          ](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.vsdx) <br/> | This model is a one-page overview of Multi-Geo OneDrive in Office 365, which is currently in private preview. This model includes: <br/><br/> - Benefits <br/> - Steps for deployment <br/> - An example configuration <br/><br/>  For more information about the Multi-Geo Preview for OneDrive in Office 365, click [here](https://aka.ms/onedrivemultigeo).  <br/> |
+|[![Multi-Geo OneDrive in Office 365 model](images/c6c1b7cd-7833-46fb-9eec-c12150c260d9.png)          ](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.vsdx) <br/> | This poster is a one-page overview of Multi-Geo OneDrive in Office 365, which is currently in preview. This model includes: <br/><br/> - Benefits <br/> - Steps for deployment <br/> - An example configuration <br/><br/>  For more information about the Multi-Geo Preview for OneDrive in Office 365, click [here](https://aka.ms/onedrivemultigeo).  <br/> |
    
 ### SharePoint Server 2016 Databases
 <a name="SP2016_Databases"> </a>

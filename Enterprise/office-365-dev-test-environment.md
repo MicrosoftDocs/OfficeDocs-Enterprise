@@ -3,7 +3,7 @@ title: "Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/04/2018
+ms.date: 04/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -67,22 +67,9 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
 
 1. For the lightweight Office 365 dev/test environment, open the Internet browser on your computer and go to [https://aka.ms/e5trial](https://aka.ms/e5trial). 
     
-    For the simulated enterprise Office 365 dev/test environment:
-    
-  - From the [Azure portal](https://portal.azure.com), connect to CLIENT1 with the CORP\\User1 account.
-    
-  - Open an administrator-level Windows PowerShell command prompt, and then run these commands:
-    
-  ```
-  Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
-Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\{A509B1A8-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
-Stop-Process -Name Explorer -Force
-  ```
+    For the simulated enterprise Office 365 dev/test environment, connect to CLIENT1 with the CORP\User1 account from the Azure portal.
 
-    > [!TIP]
-    > Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that contains all the PowerShell commands in this article.
-  
-  - From the Start screen, click **Internet Explorer** and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).
+    From the Start screen, run Microsoft Edge and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).
     
 2. On the **Welcome, let's get to know you** page, specify:
     
@@ -157,6 +144,8 @@ $licAssignment= $orgName + ":ENTERPRISEPREMIUM"
 $userName= "user2@" + $orgName + ".onmicrosoft.com"
 New-MsolUser -DisplayName "User 2" -FirstName User -LastName 2 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
 ```
+> [!TIP]
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that contains all the PowerShell commands in this article.
 
 From the display of the **New-MsolUser** command, note the generated password for the User 2 account and record it in a safe location.
   
@@ -298,6 +287,6 @@ Extend your Office 365 dev/test environment to include additional Microsoft clou
   
 - [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
- - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+- [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
 

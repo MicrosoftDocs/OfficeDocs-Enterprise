@@ -3,7 +3,7 @@ title: "The Microsoft 365 Enterprise dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/18/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -25,11 +25,14 @@ This article provides you with step-by-step instructions to create a simplified 
   
 ## Phase 1: Create your Office 365 E5 subscription
 
-Follow the steps in Phase 2 and Phase 3 of [Office 365 dev/test environment](office-365-dev-test-environment.md) to create a lightweight Office 365 dev/test environment, as shown in Figure 1.
+Follow the steps in Phase 2 and Phase 3 of the [Office 365 dev/test environment](office-365-dev-test-environment.md) to create a lightweight Office 365 dev/test environment, as shown in Figure 1.
   
 **Figure 1: Your Office 365 E5 subscription with its Azure Active Directory (AD) tenant and user accounts**
 
 ![Phase 1 of the Microsoft 3656 Enterprise dev/test environment](images/65bb027b-fb59-46eb-aec2-38c0af425168.png)
+
+> [!NOTE]
+> The Office 365 E5 trial subscription is 30 days, which can be easily extended to 60 days. For a permanent dev/test environment, create a new paid subscription with a small number of licenses. 
   
 ## Phase 2: Add EMS
 
@@ -62,7 +65,7 @@ First, add the EMS E5 trial subscription and assign an EMS license to your globa
   
 Your dev/test environment now has:
   
-- Office 365 E5 Enterprise and EMS trial subscriptions sharing the same organization and the same Azure AD tenant with your list of user accounts.
+- Office 365 E5 Enterprise and EMS E5 trial subscriptions sharing the same Azure AD tenant with your list of user accounts.
 - All your appropriate user accounts (either just the global administrator or all five user accounts) are enabled to use Office 365 E5 and EMS E5.
     
 Figure 2 shows your resulting configuration, which adds EMS.
@@ -202,3 +205,4 @@ Use these additional articles to explore features of Microsoft 365 Enterprise:
 - [Microsoft 365 Enterprise documentation](https://docs.microsoft.com/microsoft-365-enterprise/)
 - [Deploy Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise)
 - [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
+- [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
