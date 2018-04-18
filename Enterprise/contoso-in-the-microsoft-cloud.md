@@ -29,7 +29,7 @@ This article links you to a set of articles that describe how the Contoso Corpor
   
 See the following sections:
   
-- [Hybrid cloud overview](hybrid-cloud-overview.md)
+- [Overview of the Contoso Corporation](overview-of-the-contoso-corporation.md)
     
     The Contoso Corporation is a global conglomerate manufacturing, sales, and support organization with over 100,000 products.
     
