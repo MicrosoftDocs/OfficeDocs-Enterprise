@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/12/2018
+ms.date: 04/18/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -23,7 +23,6 @@ description: "Summary: Connect to your Office 365 organization using Office 365 
   
 Office 365 PowerShell lets you to manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple three-step process where you install the required software, run the required software, and then connect to your Office 365 organization. 
 
-Note that these connection instructions are the same as those in the topic [Azure ActiveDirectory (MSOnline)](https://go.microsoft.com/fwlink/p/?LinkId=528113).
   
 > [!TIP]
 > **New to PowerShell?** See a [video Overview of PowerShell](https://support.office.com/en-us/article/7d0107d4-f672-4d0f-ad7d-417844b926c7.aspx), brought to you by LinkedIn Learning. 
@@ -116,15 +115,15 @@ If you receive errors, check the following requirements:
     
 - **If you receive a connection error, see this topic:** ["Connect-MsolService: Exception of type was thrown" error](https://go.microsoft.com/fwlink/p/?LinkId=532377).
     
-## Connect with the Azure Active Directory V2 PowerShell module
+## Connect with the Azure Active Directory PowerShell for Graph module
 <a name="ConnectV2"> </a>
 
-Commands in the Azure Active Directory V2 PowerShell module have "AzureAD" in their cmdlet name.
+Commands in the Azure Active Directory PowerShell for Graph module have "AzureAD" in their cmdlet name.
 
-For procedures that require the new cmdlets in the Azure Active Directory V2 PowerShell module, use these steps to install the module and connect to your Office 365 subscription.
+For procedures that require the new cmdlets in the Azure Active Directory PowerShell for Graph module, use these steps to install the module and connect to your Office 365 subscription.
 
 >[!Note]
->See [Azure Active Directory V2 PowerShell module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) for information about the support for different versions of Microsoft Windows.
+>See [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) for information about the support for different versions of Microsoft Windows.
 >
 
 ### Step 1: Install required software
@@ -164,7 +163,7 @@ In the **Azure Active Directory PowerShell** dialog box, type your Office 365 wo
     
 Follow the instructions in the **Azure Active Directory PowerShell** dialog box to provide additional authentication information, such as a verification code, and then click **Sign in**.
     
-After connecting, you can use the new cmdlets for the [Azure Active Directory V2 PowerShell module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory).
+After connecting, you can use the new cmdlets for the [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory).
   
 ## See also
 

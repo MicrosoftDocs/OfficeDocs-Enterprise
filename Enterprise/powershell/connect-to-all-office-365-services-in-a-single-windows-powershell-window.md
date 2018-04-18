@@ -3,7 +3,7 @@ title: "Connect to all Office 365 services in a single Windows PowerShell window
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/10/2018
+ms.date: 04/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -54,10 +54,9 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
     
     You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Office 365 modules.
     
-- You need to install the modules that are required for Office 365, SharePoint Online, and Skype for Business Online:
+- You need to install the modules that are required for Azure AD, SharePoint Online, and Skype for Business Online:
     
-   - [Microsoft Online Service Sign-in Assistant for IT Professionals RTW](https://go.microsoft.com/fwlink/p/?LinkId=286152)
-   - Windows Azure Active Directory Module for Windows PowerShell (64-bit version) with the **Install-Module MSOnline** command at an elevated PowerShell command prompt.
+   - [Azure Active Directory V2](connect-to-office-365-powershell.md#ConnectV2)
    - [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)
    - [Skype for Business Online, Windows PowerShell Module](https://go.microsoft.com/fwlink/p/?LinkId=532439)
     
@@ -80,11 +79,10 @@ Here are the steps to connect to all the services in a single PowerShell window.
   $credential = Get-Credential
   ```
 
-3. Run these commands to connect to Office 365.
+3. Run this command to connect to Azure Active Directory (AD).
     
   ```
-  Import-Module MsOnline
-  Connect-MsolService -Credential $credential
+   Connect-AzureAD -Credential $credential
   ```
 
 4. Run these commands to connect to SharePoint Online. Replace  _\<domainhost>_ with the actual value for your domain. For example, for `litwareinc.onmicrosoft.com`, the  _\<domainhost>_ value is `litwareinc`.
@@ -121,8 +119,7 @@ Here are all the commands in a single block. Specify the name of your domain hos
 ```
 $domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
 $credential = Get-Credential
-Import-Module MsOnline
-Connect-MsolService -Credential $credential
+Connect-AzureAD -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
 Connect-SPOService -Url https://$domainHost-admin.sharepoint.com -credential $credential
 Import-Module SkypeOnlineConnector
@@ -148,10 +145,7 @@ Here are all the commands in a single block to connect to Azure AD, SharePoint O
 $acctName="<UPN of a global administrator account>"
 $domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
 #Azure Active Directory
-#If you are running Office 365 commands that contain "AzureAd" in their name, use this command:
 Connect-AzureAD
-#If you are running Office 365 commands that contain "Msol" in their name, comment the preceding command and un-comment the following command:
-#Connect-MsolService
 #SharePoint Online
 Connect-SPOService -Url https://$domainHost-admin.sharepoint.com
 #Skype for Business Online
@@ -173,8 +167,7 @@ Note that in both cases, you must connect using separate sessions of the Exchang
 
 ## See also
 
-- [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-- [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+- [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md)
 - [Manage SharePoint Online with Office 365 PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
 - [Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
 - [Use Windows PowerShell to create reports in Office 365](use-windows-powershell-to-create-reports-in-office-365.md)
