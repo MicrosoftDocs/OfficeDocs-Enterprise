@@ -136,7 +136,7 @@ That's also you have to do: just call the **Set-MsolUserLicense** cmdlet, making
   
 When **Set-MsolUserLicense** finishes running, you'll see something similar to this onscreen:
   
- `PS C:\\windows\\system32>`
+ `PS C:\windows\system32>`
   
 In other words, it won't look like anything has happened. To verify that the user has been assigned a license, run a command like the following:
   

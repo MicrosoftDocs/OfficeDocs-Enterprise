@@ -3,7 +3,7 @@ title: "View account license and service details with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/19/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -41,8 +41,8 @@ In Office 365, licenses from licensing plans (also called SKUs or Office 365 pla
     
 - If you use the **Get-MsolUser** cmdlet without using the _All_ parameter, only the first 500 accounts are returned.
     
-## The short version (instructions without explanations)
 <a name="ShortVersion"> </a>
+## The short version (instructions without explanations)
 
 To view all the Office 365 PowerShell services that a user has access to, use the following syntax:
   
@@ -86,8 +86,8 @@ This example returns all licensed users who aren't enabled for Skype for Busines
 Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[0].ServiceStatus[5].ProvisioningStatus -eq "Disabled" -and $_.Licenses[0].ServiceStatus[8].ProvisioningStatus -eq "Disabled"}
 ```
 
-## The long version (instructions with detailed explanations)
 <a name="LongVersion"> </a>
+## The long version (instructions with detailed explanations)
 
 ### Find the Office 365 PowerShell services that a user has access to
 
@@ -279,17 +279,21 @@ But don't worry too much about how gnarly that might look: the important thing i
   
 Which, of course, is why we have Windows PowerShell: Windows PowerShell helps save you from tedious and time-consuming tasks such as that.
   
-While we're at it, here's the ultimate command for viewing service information:
+Here's an example of a command for viewing service information for a specified set of services as identified by their Licenses and ServiceStatus indexes for an Office 365 E5 subscription:
   
 ```
-Get-MsolUser | Select-Object DisplayName, @{Name="Sway";Expression={$_.Licenses[0].ServiceStatus[0].ProvisioningStatus}}, @{Name="MDM";Expression={$_.Licenses[0].ServiceStatus[1].ProvisioningStatus}}, @{Name="Yammer";Expression={$_.Licenses[0].ServiceStatus[2].ProvisioningStatus}}, @{Name="AD RMS";Expression={$_.Licenses[0].ServiceStatus[3].ProvisioningStatus}}, @{Name="OfficePro";Expression={$_.Licenses[0].ServiceStatus[4].ProvisioningStatus}}, @{Name="Skype";Expression={$_.Licenses[0].ServiceStatus[5].ProvisioningStatus}}, @{Name="OfficeWeb";Expression={$_.Licenses[0].ServiceStatus[6].ProvisioningStatus}}, @{Name="SharePoint";Expression={$_.Licenses[0].ServiceStatus[7].ProvisioningStatus}}, @{Name="Exchange";Expression={$_.Licenses[0].ServiceStatus[8].ProvisioningStatus}} | ConvertTo-Html > "C:\\My Documents\\Service Info.html"
+Get-MsolUser | Select-Object DisplayName, @{Name="Sway";Expression={$_.Licenses[0].ServiceStatus[12].ProvisioningStatus}}, @{Name="Teams";Expression={$_.Licenses[0].ServiceStatus[7].ProvisioningStatus}}, @{Name="Yammer";Expression={$_.Licenses[0].ServiceStatus[20].ProvisioningStatus}}, @{Name="AD RMS";Expression={$_.Licenses[0].ServiceStatus[19].ProvisioningStatus}}, @{Name="OfficePro";Expression={$_.Licenses[0].ServiceStatus[21].ProvisioningStatus}}, @{Name="Skype";Expression={$_.Licenses[0].ServiceStatus[22].ProvisioningStatus}}, @{Name="SharePoint";Expression={$_.Licenses[0].ServiceStatus[24].ProvisioningStatus}}, @{Name="Exchange";Expression={$_.Licenses[0].ServiceStatus[23].ProvisioningStatus}} | ConvertTo-CSV > "C:\Service Info.csv"
 ```
 
-And yes, that's a very crazy-looking command. But it creates a CSV file showing all of your users and all of their service statuses.
+This command creates a CSV file showing all of your users and their service statuses for a specified set of services (Teams, Yammer, AD RMS, OfficePro, Skype, SharePoint, and Exchange).
+
+>[!Note]
+>You can get the list of services in a subscription from the `(Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber>].ServiceStatus` command. In the output, you start numbering the service indexes with 0. The preceding command is just an example. Index numbers for services can change over time.
+>
 
   
-## See also
 <a name="SeeAlso"> </a>
+## See also
 
 See the following additional topics about managing users with Office 365 PowerShell:
   

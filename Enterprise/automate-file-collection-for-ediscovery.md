@@ -160,7 +160,7 @@ catch [System.Exception] {
 Function CopyFileToCaseFolder($SourcePath, $TargetPath, $FileName) {
     
     # Check to see if the file already exists
-    $TargetFileCheck = Test-Path $TargetPath\\$FileName
+    $TargetFileCheck = Test-Path $TargetPath\$FileName
 
 try {
 
@@ -199,18 +199,18 @@ $CaseNo = get-date -Format yyyyMMddHHmm
 $CaseNo = $CaseNo + "_" + [Environment]::UserName
 
 # Target location to copy case files
-$CaseRootLocation = "\\\\staging\\Cases$" 
+$CaseRootLocation = "\\staging\Cases$" 
 
 # File copy location, log file location, PST file location and temporary log file location
-$CaseLocation = $CaseRootLocation + "\\" + $CaseNo
-$CaseLogLocation = $CaseRootLocation + "\\" + $CaseNo + "\\_Log"
-$CasePSTLocation = $CaseRootLocation + "\\" + $CaseNo + "\\_PSTs"
-$TemporaryLogLocation = [Environment]::getfolderpath('ApplicationData') + "\\" + $CaseNo
+$CaseLocation = $CaseRootLocation + "\" + $CaseNo
+$CaseLogLocation = $CaseRootLocation + "\" + $CaseNo + "\_Log"
+$CasePSTLocation = $CaseRootLocation + "\" + $CaseNo + "\_PSTs"
+$TemporaryLogLocation = [Environment]::getfolderpath('ApplicationData') + "\" + $CaseNo
 
 # Inventory of local drives
 $LocalDrives = Get-PSDrive -PSProvider FileSystem -Scope Global
 
-$LoggingFile = "$CaseLogLocation\\FileCopyErrors.log"
+$LoggingFile = "$CaseLogLocation\FileCopyErrors.log"
 
 # Main script
 
@@ -218,12 +218,12 @@ $LoggingFile = "$CaseLogLocation\\FileCopyErrors.log"
 CreateCaseFolder
 
 # Create the list of files to be copied
-# First create the temporary directory in the AppData\\Roaming folder
+# First create the temporary directory in the AppData\Roaming folder
 New-Item "$TemporaryLogLocation" -ItemType Directory -Force -ErrorAction SilentlyContinue
 $LocalDrives | foreach {
 
     # Write-Host -ForeGroundColor Cyan "Collecting Files for Drive: " $_
-    Get-ChildItem -Path $_.Root -Recurse -Include $FileTypes -ErrorAction SilentlyContinue -ErrorVariable +Loggederrors | Export-Clixml $TemporaryLogLocation\\\\$_.xml -Force
+    Get-ChildItem -Path $_.Root -Recurse -Include $FileTypes -ErrorAction SilentlyContinue -ErrorVariable +Loggederrors | Export-Clixml $TemporaryLogLocation\$_.xml -Force
     # Needs try catch and logged collection error file
 }
 
@@ -287,7 +287,7 @@ Write-Host -ForegroundColor Cyan "Finished."
 # This is for on-prem Exchange only
 # Input parameters
 # When you run the script, you call it with two parameters, PST source path and target mailbox alias
-# For example:  .\\PSTImport.ps1 \\\\FileShare\\PSTFiles jdoe
+# For example:  .\PSTImport.ps1 \\FileShare\PSTFiles jdoe
 
 param ([String]$SourcePath,[String]$MailboxAlias)
 
@@ -334,7 +334,7 @@ $AllFiles | ForEach-Object {
     
   - **$MailboxAlias** The alias of the target mailbox that will receive the imported email items.
     
-6. For example, if you want to import all the PST files from the path \\\\Staging\\Cases$ into a mailbox with the alias eDiscoveryMailbox, you would run the script like this `\\\\staging\\AFCscripts\\PSTImportScript.ps1 \\\\Staging\\cases$ eDiscoveryMailbox`.
+6. For example, if you want to import all the PST files from the path \\Staging\Cases$ into a mailbox with the alias eDiscoveryMailbox, you would run the script like this `\\staging\AFCscripts\PSTImportScript.ps1 \\Staging\cases$ eDiscoveryMailbox`.
     
 ### PST Import Option B, for Exchange Online
 
