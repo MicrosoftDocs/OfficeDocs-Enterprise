@@ -14,12 +14,12 @@ ms.custom:
 - O365ITProTrain
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
-description: "Summary: Connect to your Office 365 organization using Office 365 PowerShell to perform Office 365 admin center tasks from the command line."
+description: "Summary: Connect to your Office 365 organization using Office 365 PowerShell to perform admin center tasks from the command line."
 ---
 
 # Connect to Office 365 PowerShell
 
- **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform Office 365 administration tasks from the command line.
+ **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform administration tasks from the command line.
   
 Office 365 PowerShell lets you to manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple three-step process where you install the required software, run the required software, and then connect to your Office 365 organization. 
 
@@ -60,8 +60,7 @@ These steps are required once on your computer, not every time you connect. Howe
   - If prompted to install the module from PSGallery, type **Y** and press ENTER.
   - After installation, close the PowerShell command window.
     
-### Step 2: Connect to your Office 365 subscription
-<a name="step3"> </a>
+### Step 2: Connect to Azure AD for your Office 365 subscription
 
 To connect with just an *account name and password*:
   
@@ -89,7 +88,6 @@ Connect-MsolService
 4. Follow the instructions in the **Azure Active Directory PowerShell** dialog box to provide additional authentication information, such as a verification code, and then click **Sign in**.
     
 ### How do you know this worked?
-<a name="step3"> </a>
 
 If you don't receive any errors, you connected successfully. A quick test is to run an Office 365 cmdlet—for example, **Get-MsolUser** —and see the results.
   
@@ -115,10 +113,10 @@ If you receive errors, check the following requirements:
     
 - **If you receive a connection error, see this topic:** ["Connect-MsolService: Exception of type was thrown" error](https://go.microsoft.com/fwlink/p/?LinkId=532377).
     
-## Connect with the Azure Active Directory PowerShell for Graph module
 <a name="ConnectV2"> </a>
+## Connect with the Azure Active Directory PowerShell for Graph module
 
-Commands in the Azure Active Directory PowerShell for Graph module have "AzureAD" in their cmdlet name.
+Commands in the [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) module have "AzureAD" in their cmdlet name.
 
 For procedures that require the new cmdlets in the Azure Active Directory PowerShell for Graph module, use these steps to install the module and connect to your Office 365 subscription.
 
@@ -142,7 +140,7 @@ These steps are required once on your computer, not every time you connect. Howe
 If prompted about installing a module from an untrusted repository, type **Y** and press ENTER.
 
 
-### Step 2: Connect to Office 365
+### Step 2: Connect to Azure AD for your Office 365 subscription
 
 To connect to your Office 365 subscription with an *account name and password*:
     
