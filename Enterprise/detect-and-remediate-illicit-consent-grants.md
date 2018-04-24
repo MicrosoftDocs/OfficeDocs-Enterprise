@@ -1,12 +1,12 @@
 ---
 title: "How to Detect and Remediate Illicit Consent Grants in Office 365"
 ms.author: chrfox
-author: chrfox MSFT
+author: chrfox
 manager: laurawi
 ms.date: 4/23/2018
 ms.audience: ITPro
 ms.topic: article
-ms.collection:
+ms.collection:o365_security_incident_response
 ms.service: o365-solutions
 localization_priority: Normal
 ms.custom: 
@@ -14,21 +14,18 @@ ms.assetid:
 
 description: "Learn how to recognize and remediate the Illicit Consent Grants attack in Office 365."
 ---
-# Everything below this is to be deleted
+## What is the Illicit Consent Grant attack in Office 365?
+In an Illicit Consent Grant attack, the attacker creates an Azure registered application that requests access to data such as contact information, email, or documents. The attacker then tricks an end user into granting that application consent to access their data either through a phishing attack, or by injecting illicit code into a trusted website. After the illicit application has been granted consent, it has account-level access to data without the need for an organizational account. Normal remediation steps, like resetting passwords for breached accounts or requiring MFA on accounts, are not effective against this type of attack, since these are third-party applications and are external to the organization. These attacks leverage an interaction model which presumes the entity that is calling the information is automation and not a human.
 
-This article provides three examples to demonstrate how to modify or create new Office 365 sensitive information types for GDPR.
-
--   Modify an existing sensitive information type — EU Debit Card Number
-
--   Create a new sensitive information type — email address
-
--   Create a new sensitive information type with example XML file — Contoso customer number
-
-Also see:
-
--   [Create a custom sensitive information type](https://support.office.com/en-us/article/Create-a-custom-sensitive-information-type-82c382a5-b6db-44fd-995d-b333b3c7fc30)
-
--   [Customize a built-in sensitive information type ](https://support.office.com/en-us/article/Customize-a-built-in-sensitive-information-type-2164ce3d-4d64-4283-b6b1-b81fbe835e8e)
+## What does an Illicit Consent Grant attack look like in Office 365?
+You need to search the Office 365 Audit log to find signs, also called Indicators of Compromise (IOC)of this attack. For organizations with many Azure registered applications and a large user base, the best practice is to review your organizations consent grants on a weekly basis.
+### Steps
+1. Open the Security and Compliance Center in your Office 365 tenant
+2. Navigate to the Search & investigation node and select Audit log search
+3. Create a search (all activities and all users) and filter the results for these two activities:
+    a. Consent to application
+    b. Add OAuth2PermissionGrant
+4. Examing the Extended Properties and check to see if IsAdminContent is set to True
 
 ## Modify a sensitive information type to improve accuracy
 
