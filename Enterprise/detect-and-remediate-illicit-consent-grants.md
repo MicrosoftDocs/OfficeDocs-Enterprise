@@ -27,31 +27,40 @@ You need to search the Office 365 Audit log to find signs, also called Indicator
     b. Add OAuth2PermissionGrant
 4. Examing the Extended Properties and check to see if IsAdminContent is set to True
 
-## Modify a sensitive information type to improve accuracy
 
-If you’re using Content Search to search for personal data using sensitive information types and you’re not returning the expected results, or the query returns too many false positives, consider modifying the sensitive information type to work better with your environment.
+If this value is true, it indicates that someone with Global Administrator access may have granted broad access to data. If this is unexpected, take steps to [confirm an attack](detect-and-remediate-illicit-consent-grants.md#confirmattack).
 
-The best practice when creating or customizing a sensitive information type is to create a new sensitive information type based on an existing one, giving it a unique name and identifiers. For example, if you wish to adjust the parameters of the “EU Debit Card Number” sensitive information type, you could name your copy of that rule “EU Debit Card Enhanced” to distinguish it from the original.
+<a name="confirmattack"> </a>
+## How to confirm an attack
+If you have one or more instances of the IOCs  listed above, you need to do further investigation to positively confirm that the attack occurred. You can use any of these three methods to confirm the attack.
+- Inventory applications and their permissions using the Azure Active Directory portal. This method is thorough, but you can only check one user at a time which can be very time consuming if you have many users to check.
+- Inventory  applications and their permissions using PowerShell. This is the fastest and most thorough method, with the least amount of overhead.
+- Have your users individually check their apps and permissions and report the results back to the administrators for remediation.
 
-In your new sensitive information type, simply modify the values you wish to change to improve its accuracy. Once complete, upload your new sensitive information type and create a new DLP rule (or modify an existing one) to use the new sensitive information type you just added. Modifying the accuracy of sensitive information types might require some trial and error, so maintaining a copy of the original type allows you to fall back to it if required in the future.
+## Inventory apps with access in your organization
+You can do this for your users with either the Azure Active Directory Portal, or PowerShell or have your users individually enumerate their application access.
 
-To customize a sensitive information type:
+### Steps for using the Azure Active Directory Portal
+You can look up the applications to which any individual user has granted permisssions by using the [Azure Active Directory Portal](https://portal.azure.com/) 
+1. **Sign in** to the Azure Portal with administrative rights.
+2. Select the Azure Active Directory blade.
+3. Select the **Users**.
+4. Select the user that you want to review.
+5. Select **Applications**
 
-1.  Export the existing Microsoft Rule Package of built in sensitive information types in Office 365.
+This will show you the apps that are assigned to the user and what permissions they have.
 
-2.  Rename this XML file and open it in your favorite XML editor.
+### Steps for having you users individually enumerate their application access
+Have your users go to https://myapps.microsoft.com and review their own application access there. They should be able to see all the apps with access, view details about them (including the scope of access), and be able to revoke privileges to suspicious or illicit apps.
 
-3.  Isolate the sensitive information type and remove all others.
+### Steps for doing this with PowerShell
+The simplest way to verify the Illicit Consent Grant attack is to run the Get-AzureADPSPermissions.ps1, which will dump all the OAuth consent grants and app permissions for all users in your tenancy into one .csv files. 
+- 	https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09
 
-4.  Use PowerShell to generate two new GUIDs for the sensitive information type you are modifying.
 
-5.  Modify the ID and other basic elements so the sensitive information type is unique (this includes replacing two GUIDs with the new ones you generated).
+***INSERTION POINT***
 
-6.  Tune the match requirements to improve accuracy.
-
-    1.  Proximity modifications — Modify the character pattern proximity to expand or shrink the window in which keywords must be found around the sensitive information type.
-
-    2.  Keyword modifications — Add keywords to one of the \<Keywords\> element in order to provide our sensitive information type more specific corroborative evidence to search for in order to signal a match on this rule. Or remove keywords that are causing false positives.
+n order to signal a match on this rule. Or remove keywords that are causing false positives.
 
     3.  Confidence modifications — Modify the confidence with which the sensitive information type must match the criteria specified in its definition before a match is signaled and reported.
 
