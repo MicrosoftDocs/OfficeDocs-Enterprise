@@ -14,7 +14,7 @@ ms.assetid:
 
 description: "Learn how to recognize and remediate the Outlook rules and custom Forms injections attacks in Office 365"
 ---
-## What is the outlook Rules and Custom Forms Injection attack?
+## What is the Outlook Rules and Custom Forms Injection attack?
 After an attacker has breached an account in your tenant and gets in, they're are going to try and establish a way to stay in your tenant or a way to get back in even after they are discovered and removed. This is called establishing a persistence mechanism. Two ways that they can do this are by exploiting Outlook rules or by injecting custom forms into Outlook.
 In both cases, the rule or form is synced from the cloud service down to the desktop client, so a full format and re-install of the client software doesn't eliminate the injection mechanism. This is because when the Outlook client software reconnects to the mailbox in the cloud it will re-download the rules and forms from the cloud. Once the rules and forms are in place, the attacker uses them to execute remote or custom code, usually to install malware on the local machine. The malware then re-steals credentials or performs other illicit activity. 
 The good news here is that if you keep your clients patched to the latest version, you are not vulnerable to the threat as current Outlook client defaults block both mechanisms. 
