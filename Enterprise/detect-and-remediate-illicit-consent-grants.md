@@ -1,5 +1,5 @@
 ---
-title: "How to Detect and Remediate Illicit Consent Grants in Office 365"
+title: "Detect and Remediate Illicit Consent Grants in Office 365"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,6 +14,10 @@ ms.assetid:
 
 description: "Learn how to recognize and remediate the Illicit Consent Grants attack in Office 365."
 ---
+# Detect and Remediate Illicit Consent Grants in Office 365
+
+**Summary**  Learn how to recognize and remediate the Illicit Consent Grants attack in Office 365.
+
 ## What is the Illicit Consent Grant attack in Office 365?
 In an Illicit Consent Grant attack, the attacker creates an Azure registered application that requests access to data such as contact information, email, or documents. The attacker then tricks an end user into granting that application consent to access their data either through a phishing attack, or by injecting illicit code into a trusted website. After the illicit application has been granted consent, it has account-level access to data without the need for an organizational account. Normal remediation steps, like resetting passwords for breached accounts or requiring MFA on accounts, are not effective against this type of attack, since these are third-party applications and are external to the organization. These attacks leverage an interaction model which presumes the entity that is calling the information is automation and not a human.
 
