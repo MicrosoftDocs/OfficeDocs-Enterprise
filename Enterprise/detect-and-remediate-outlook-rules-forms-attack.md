@@ -3,7 +3,7 @@ title: "How to Detect and Remediate Outlook rules and custom Forms Injections at
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 4/23/2018
+ms.date: 04/23/2018
 ms.audience: ITPro
 ms.topic: article
 ms.collection: o365_security_incident_response
@@ -95,6 +95,7 @@ Interpreting the output
 - ActionType (column A) – if you see the value “ID_ACTION_CUSTOM”, the rule is likely malicious.
 - IsPotentiallyMalicious (column D) – if this value is “TRUE”, the rule is likely malicious.
 - ActionCommand (column G) – if this lists an application or any file with a .exe, .zip extension or an entry that refers to a URL, that is not supposed to be there, the rule is likely malicious.
+
 **MailboxFormsExport-*yyyy-mm-dd*.csv** – in general, the use of custom forms is very rare.  If you find any in this workbook, you open that user’s mailbox and examine the form itself.  If your organization did not put it there intentionally, it is likely malicious.
 
 
