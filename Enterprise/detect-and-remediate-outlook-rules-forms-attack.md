@@ -70,14 +70,13 @@ You can use either of these two methods to confirm the attack.
 ### Steps to confirm the Forms attack using the Outlook client
 1. Open the user Outlook client as the user.
 2. Follow the steps in, [Show the Developer tab](https://support.office.com/en-us/article/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45) for the users version of Outlook.
-3. Open the now visible developer tab in Outlook and click **design a form**![Outlook Developer tab]( media/outlook-developer-tab.png)
-4. Select the **Inbox** from the **Look In** list. Look for any custom forms.  Custom forms are rare enough that if you have any custom forms, it is worth a deeper look. ![outlook-look-in-list](media/outlook-look-in-list.png)
+3. Open the now visible developer tab in Outlook and click **design a form**
+4. Select the **Inbox** from the **Look In** list. Look for any custom forms.  Custom forms are rare enough that if you have any custom forms, it is worth a deeper look.
 5. Investigate any custom forms, especially those marked as hidden.
-6. Open any custom forms and in the **Form** group click **View Code** to see what runs when the form is loaded. ![outlook-view-code](media/outlook-view-code.png)
+6. Open any custom forms and in the **Form** group click **View Code** to see what runs when the form is loaded.
 
 ### Steps to confirm the Rules and Forms attack using PowerShell
-The simplest way to verify a Rules or custom Forms attack is to run the Get-AllTenantRulesAndForms.ps1 PowerShell script.  This script connects to every mailbox in your tenant and dumps all the rules and forms into two .csv files.
-- https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1
+The simplest way to verify a Rules or custom Forms attack is to run the Get-AllTenantRulesAndForms.ps1 PowerShell script.  This script connects to every mailbox in your tenant and dumps all the rules and forms into two .csv files. Download the script from: https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1
 
 Pre-requisites - 
 You will need to have a global admin role elevation to run the script (because it connects to every mailbox in the tenancy to read the rules and forms.
@@ -131,11 +130,12 @@ Steps for mailboxes in Exchange Online
 The Rules and Forms exploits are only used by an attacker after they have stolen or breached one of your user’s accounts. So, your first step to preventing the use of these exploits against your organization is to aggressively protect your user accounts.  Some of the most common ways that accounts are breached are through phishing or [password spraying](http://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) attacks.
 
 The best way to protect your user accounts, and especially your administrator accounts, is to [set up multi-factor authentication for Office 365 users](https://support.office.com/en-us/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6).  You should also:
-1. Monitor how your user accounts are [accessed and used](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-view-access-usage-reports). You may not prevent the initial breach, but you will shorten the duration and the impact of the breach by detecting it sooner.  You can use these [Office 365 Cloud App Security policies](https://support.office.com/en-us/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475) to monitor you accounts and alert on unusual activity.
-  a. **Multiple failed login attempts** This policy profiles your environment and triggers alerts when users perform multiple failed login activities in a single session with respect to the baseline learned, which could indicate an attempted breach.
-  b. **Impossible travel** - This policy profiles your environment and triggers alerts when activities are detected from the same user in different locations within a time period that is shorter than the expected travel time between the two locations. This could indicate that a different user is using the same credentials. Detecting this anomalous behavior necessitates an initial learning period of 7 days during which it learns a new user’s activity pattern.
-  c. **Unusual impersonated activity (by user)** - This policy profiles your environment and triggers alerts when users perform multiple impersonated activities in a single session with respect to the baseline learned, which could indicate an attempted breach.
-2. Leverage a tool like the [Office 365 Secure Score](https://securescore.office.com/) to manage account security configurations and behaviors. 
+1) Monitor how your user accounts are [accessed and used](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-view-access-usage-reports). You may not prevent the initial breach, but you will shorten the duration and the impact of the breach by detecting it sooner.  You can use these [Office 365 Cloud App Security policies](https://support.office.com/en-us/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475) to monitor you accounts and alert on unusual activity.
+    
+    a) **Multiple failed login attempts** This policy profiles your environment and triggers alerts when users perform multiple failed login activities in a single session with respect to the baseline learned, which could indicate an attempted breach.
+  b) **Impossible travel** - This policy profiles your environment and triggers alerts when activities are detected from the same user in different locations within a time period that is shorter than the expected travel time between the two locations. This could indicate that a different user is using the same credentials. Detecting this anomalous behavior necessitates an initial learning period of 7 days during which it learns a new user’s activity pattern.
+  c) **Unusual impersonated activity (by user)** - This policy profiles your environment and triggers alerts when users perform multiple impersonated activities in a single session with respect to the baseline learned, which could indicate an attempted breach.
+2) Leverage a tool like the [Office 365 Secure Score](https://securescore.office.com/) to manage account security configurations and behaviors. 
 
 ### Second: Keep your Outlook clients current
 Fully-updated and patched versions of Outlook 2013, and 2016 disable the “Start Application” rule/form action by default.  This will ensure that, even if an attacker breaches the account, the rule and form actions will be blocked.  You can install the latest updates and security patches by following the steps in [Install Office updates](https://support.office.com/en-us/article/Install-Office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
