@@ -20,11 +20,9 @@ In an Illicit Consent Grant attack, the attacker creates an Azure registered app
 ## What does an Illicit Consent Grant attack look like in Office 365?
 You need to search the Office 365 Audit log to find signs, also called Indicators of Compromise (IOC) of this attack. For organizations with many Azure registered applications and a large user base, the best practice is to review your organizations consent grants on a weekly basis.
 ### Steps for finding signs of this attack
-1. Open the Security and Compliance Center in your Office 365 tenant
-2. Navigate to the Search & investigation node and select Audit log search
-3. Create a search (all activities and all users) and filter the results for these two activities:
-    a. Consent to application
-    b. Add OAuth2PermissionGrant
+1. Open the **Security and Compliance Center** in your Office 365 tenant
+2. Navigate to the **Search & investigation** node and select Audit log search
+3. Create a search (all activities and all users) and filter the results for Consent to application, and Add OAuth2PermissionGrant
 4. Examing the Extended Properties and check to see if IsAdminContent is set to True
 
 
@@ -42,7 +40,7 @@ You can do this for your users with either the Azure Active Directory Portal, or
 
 ### Steps for using the Azure Active Directory Portal
 You can look up the applications to which any individual user has granted permisssions by using the [Azure Active Directory Portal](https://portal.azure.com/) 
-1. **Sign in** to the Azure Portal with administrative rights.
+1. Sign in to the Azure Portal with administrative rights.
 2. Select the Azure Active Directory blade.
 3. Select the **Users**.
 4. Select the user that you want to review.
@@ -50,12 +48,11 @@ You can look up the applications to which any individual user has granted permis
 
 This will show you the apps that are assigned to the user and what permissions they have.
 
-### Steps for having you users individually enumerate their application access
+### Steps for having your users enumerate their application access
 Have your users go to https://myapps.microsoft.com and review their own application access there. They should be able to see all the apps with access, view details about them (including the scope of access), and be able to revoke privileges to suspicious or illicit apps.
 
 ### Steps for doing this with PowerShell
-The simplest way to verify the Illicit Consent Grant attack is to run the Get-AzureADPSPermissions.ps1, which will dump all the OAuth consent grants and app permissions for all users in your tenancy into one .csv files. 
-- 	https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09
+The simplest way to verify the Illicit Consent Grant attack is to run the [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), which will dump all the OAuth consent grants and app permissions for all users in your tenancy into one .csv file. 
 
 #### Pre-requisites
 - The AzureAD PowerShell library installed.
@@ -68,7 +65,7 @@ The simplest way to verify the Illicit Consent Grant attack is to run the Get-Az
 1. Sign in to the machine that you will run the script from with local administrator rights.
 2. Download or copy the [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) script from GitHub to a folder that you will run it from.  This will be the same folder that the output “permissions.csv” file will be written to.
 3. Open a PowerShell instance as an administrator and open to the folder you saved the script to.
-4.Connect to your directory using the [Connect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/azuread/connect-azuread?view=azureadps-2.0) cmdlet.
+4. Connect to your directory using the [Connect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/azuread/connect-azuread?view=azureadps-2.0) cmdlet.
 5. Run this PowerShell command line as follows: `.Get-AzureASPSPermissions.ps1 | Export-csv -path "Permissions.csv" -NoTypeInformation`
 
 The script produces one file named Permissions.csv. Follow these steps to look for illicit application permission grants: 
@@ -78,7 +75,7 @@ The script produces one file named Permissions.csv. Follow these steps to look f
 4.	In the ClientDisplayName column (column C) look for apps that seem suspicious. Apps with misspelled names, super bland names, or hacker-sounding names should be reviewed carefully.
 
 ## Determine the scope of the attack
-After you have finished inventorying application access, review the Office 365 Audit logs to determine the full scope of the breach .  Search on the affected users, the time frames that the illicit application(s) had access to your org and the permissions the app had. You can Search the audit log in the [Office 365 Security and Compliance Center] (https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c)
+After you have finished inventorying application access, review the Office 365 Audit logs to determine the full scope of the breach .  Search on the affected users, the time frames that the illicit application(s) had access to your org, and the permissions the app had. You can Search the audit log in the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) 
 
 > [!IMPORTANT]
 > [Mailbox Auditing](https://support.office.com/en-us/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918) and [Activity Auditing for Admins and Users](https://support.office.com/en-us/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) must have been enabled prior to the attack for you to get this information.
@@ -87,22 +84,22 @@ After you have finished inventorying application access, review the Office 365 A
 After you have identified an application with illicit permissions, you have several ways to remove that access.
 - You can revoke the application's permission in the Azure Active Directory Portal by:
     - Navigate to the affected user in the **Azure Active Directory User** blade.
-    - Select **Applications**
-    - Select the illicit application
+    - Select **Applications**.
+    - Select the illicit application.
     - Clicking **Remove** in the drill down.
-- You can revoke the OAuth consent grant with PowerShell by following the steps in Remove-AzureADOAuth2PermissionGrant (https://docs.microsoft.com/en-us/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0)
-- You can revoke the Service App Role Assignment with PowerShell by following the steps in Remove-AzureADServiceAppRoleAssignment (https://docs.microsoft.com/en-us/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0)
+- You can revoke the OAuth consent grant with PowerShell by following the steps in [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0).
+- You can revoke the Service App Role Assignment with PowerShell by following the steps in [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0).
 - You can also disable sign-in for the affected account altogether, which will in turn disable app access to data in that account. This isn't ideal for the end user's productivity, of course, but if you are working to limit impact quickly, it can be a viable short-term remediation.
-- You can turn integrated applications off for your tenancy. This is a drastic step that disables the ability for end users to grant consent on a tenant-wide basis. This prevents your users from inadvertently granting access to a malicious application. This isn't strongly recommended as it severely impairs your users' ability to be productive with third party applications.  You can do this by following the steps in  Turning Integrated Apps on or off (https://support.office.com/en-us/article/Turning-Integrated-Apps-on-or-off-7e453a40-66df-44ab-92a1-96786cb7fb34)
+- You can turn integrated applications off for your tenancy. This is a drastic step that disables the ability for end users to grant consent on a tenant-wide basis. This prevents your users from inadvertently granting access to a malicious application. This isn't strongly recommended as it severely impairs your users' ability to be productive with third party applications.  You can do this by following the steps in  [Turning Integrated Apps on or off](https://support.office.com/en-us/article/Turning-Integrated-Apps-on-or-off-7e453a40-66df-44ab-92a1-96786cb7fb34).
 
 ## Secure Office 365 like a cybersecurity pro
 Your Office 365 subscription comes with a powerful set of security capabilities that you can use to protect your data and your users.  Use the Office 365 security roadmap: Top priorities for the first 30 days, 90 days, and beyond to implement Microsoft recommended best practices for securing your Office 365 tenant.
 - Tasks to accomplish in the first 30 days.  These have immediate affect and are low-impact to your users.
-- Tasks to accomplish in 90 days. These take a bit more time to plan and implement but greatly improve your security posture
+- Tasks to accomplish in 90 days. These take a bit more time to plan and implement but greatly improve your security posture.
 - Beyond 90 days. These enhancements build in your first 90 days work.
 
 ## See also:
-- [Unexpected application in my applications list](https://docs.microsoft.com/en-us/azure/active-directory/application-access-unexpected-application)  walks administrators through various actions they may want to take after realizing there are unexpected applications with access to data
+- [Unexpected application in my applications list](https://docs.microsoft.com/en-us/azure/active-directory/application-access-unexpected-application)  walks administrators through various actions they may want to take after realizing there are unexpected applications with access to data.
 - [Integrating applications with Azure Active Directory]  (https://docs.microsoft.com/en-us/azure/active-directory/active-directory-apps-permissions-consent)  is a high-level overview of consent and permissions.  Pay particular attention to the [Overview of the consent framework](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#overview-of-the-consent-framework) section.
 - [Problems developing my application](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-application-dev-development-content-map) provides links to various consent related articles.
 - [Application and service principal objects in Azure Active Directory (Azure AD)](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects) provides an overview of the Application and Service principal objects that are core to the application model.
