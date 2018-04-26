@@ -7,8 +7,9 @@ ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.custom: Strat_SP_gtc
-localization_priority: Normal
+ms.custom: 
+localization_priority: Priority
+ms.collection: Strat_SP_gtc
 description: "Learn how to configure OneDrive for Business Multi-Geo."
 ---
 
