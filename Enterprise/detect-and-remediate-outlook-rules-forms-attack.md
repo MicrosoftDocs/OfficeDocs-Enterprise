@@ -12,9 +12,9 @@ localization_priority: Normal
 ms.custom: 
 ms.assetid:
 
-description: "Learn how to recognize and remediate the Outlook rules and custom Forms injections attacks in Office 365"
+description: "Learn how to recognize and remediate the Outlook rules and custom forms injections attacks in Office 365"
 ---
-# Detect and Remediate Outlook rules and custom Forms Injections attacks in Office 365
+# Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365
 
 **Summary** Learn how to recognize and remediate the Outlook rules and custom Forms injections attacks in Office 365
 
