@@ -101,7 +101,7 @@ MailboxFormsExport-*yyyy-mm-dd*.csv – in general, the use of custom forms is v
 
 
 
-## How to stop and remediate an the Outlook Rules and Forms attack
+## How to stop and remediate the Outlook Rules and Forms attack
 If you find any evidence of either of these attacks, remediation is simple, just delete the rule or form from the mailbox. You can do this with the Outlook client or using remote PowerShell to remove rules.
 
 ### Using Outlook
@@ -177,7 +177,7 @@ Your Office 365 subscription comes with a powerful set of security capabilities 
 
 ## See also:
 - [Malicious Outlook Rules](https://silentbreaksecurity.com/malicious-outlook-rules/) by SilentBreak Security Post about Rules Vector provides a detailed review of how the Outlook Rules. 
-- [MAPI over HTTP and Mailrule Pwnage ](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/)on the  Sensepost blog about Mailrule Pwnage discusses a tool called Ruler that lets you exploit a mailboxes through Outlook rules.
+- [MAPI over HTTP and Mailrule Pwnage ](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/) on the  Sensepost blog about Mailrule Pwnage discusses a tool called Ruler that lets you exploit mailboxes through Outlook rules.
 - [Outlook forms and shells](https://sensepost.com/blog/2017/outlook-forms-and-shells/) on the Sensepost blog about Forms Threat Vector: 
 - [Ruler Codebase](https://github.com/sensepost/ruler)
-- [Ruler Indicators Of Compromise](https://github.com/sensepost/notruler/blob/master/iocs.md)
+- [Ruler Indicators of Compromise](https://github.com/sensepost/notruler/blob/master/iocs.md)
