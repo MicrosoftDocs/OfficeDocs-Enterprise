@@ -12,22 +12,22 @@ localization_priority: Normal
 ms.custom: 
 ms.assetid:
 
-description: "Learn how to recognize and remediate the Illicit Consent Grants attack in Office 365."
+description: "Learn how to recognize and remediate the illicit consent grants attack in Office 365."
 ---
 # Detect and Remediate Illicit Consent Grants in Office 365
 
-**Summary**  Learn how to recognize and remediate the Illicit Consent Grants attack in Office 365.
+**Summary**  Learn how to recognize and remediate the illicit consent grants attack in Office 365.
 
-## What is the Illicit Consent Grant attack in Office 365?
-In an Illicit Consent Grant attack, the attacker creates an Azure registered application that requests access to data such as contact information, email, or documents. The attacker then tricks an end user into granting that application consent to access their data either through a phishing attack, or by injecting illicit code into a trusted website. After the illicit application has been granted consent, it has account-level access to data without the need for an organizational account. Normal remediation steps, like resetting passwords for breached accounts or requiring MFA on accounts, are not effective against this type of attack, since these are third-party applications and are external to the organization. These attacks leverage an interaction model which presumes the entity that is calling the information is automation and not a human.
+## What is the illicit consent grant attack in Office 365?
+In an illicit consent grant attack, the attacker creates an Azure-registered application that requests access to data such as contact information, email, or documents. The attacker then tricks an end user into granting that application consent to access their data either through a phishing attack, or by injecting illicit code into a trusted website. After the illicit application has been granted consent, it has account-level access to data without the need for an organizational account. Normal remediation steps, like resetting passwords for breached accounts or requiring Multi-Factor Authentication (MFA) on accounts, are not effective against this type of attack, since these are third-party applications and are external to the organization. These attacks leverage an interaction model which presumes the entity that is calling the information is automation and not a human.
 
-## What does an Illicit Consent Grant attack look like in Office 365?
-You need to search the Office 365 Audit log to find signs, also called Indicators of Compromise (IOC) of this attack. For organizations with many Azure registered applications and a large user base, the best practice is to review your organizations consent grants on a weekly basis.
+## What does an illicit consent grant attack look like in Office 365?
+You need to search the Office 365 **audit log** to find signs, also called Indicators of Compromise (IOC) of this attack. For organizations with many Azure-registered applications and a large user base, the best practice is to review your organizations consent grants on a weekly basis.
 ### Steps for finding signs of this attack
-1. Open the **Security and Compliance Center** in your Office 365 tenant
-2. Navigate to the **Search & investigation** node and select Audit log search
-3. Create a search (all activities and all users) and filter the results for Consent to application, and Add OAuth2PermissionGrant
-4. Examing the Extended Properties and check to see if IsAdminContent is set to True
+1. Open the **Security and Compliance Center** in your Office 365 tenant.
+2. Navigate to the **Search & investigation** node and select **audit log** search.
+3. Create a search (all activities and all users) and filter the results for Consent to application, and Add OAuth2PermissionGrant.
+4. Examine the Extended Properties and check to see if IsAdminContent is set to True.
 
 
 If this value is true, it indicates that someone with Global Administrator access may have granted broad access to data. If this is unexpected, take steps to [confirm an attack](detect-and-remediate-illicit-consent-grants.md#confirmattack).
@@ -43,31 +43,31 @@ If you have one or more instances of the IOCs  listed above, you need to do furt
 You can do this for your users with either the Azure Active Directory Portal, or PowerShell or have your users individually enumerate their application access.
 
 ### Steps for using the Azure Active Directory Portal
-You can look up the applications to which any individual user has granted permisssions by using the [Azure Active Directory Portal](https://portal.azure.com/) 
+You can look up the applications to which any individual user has granted permissions by using the [Azure Active Directory Portal](https://portal.azure.com/). 
 1. Sign in to the Azure Portal with administrative rights.
 2. Select the Azure Active Directory blade.
-3. Select the **Users**.
+3. Select **Users**.
 4. Select the user that you want to review.
-5. Select **Applications**
+5. Select **Applications**.
 
-This will show you the apps that are assigned to the user and what permissions they have.
+This will show you the apps that are assigned to the user and what permissions the applcations have.
 
 ### Steps for having your users enumerate their application access
 Have your users go to https://myapps.microsoft.com and review their own application access there. They should be able to see all the apps with access, view details about them (including the scope of access), and be able to revoke privileges to suspicious or illicit apps.
 
 ### Steps for doing this with PowerShell
-The simplest way to verify the Illicit Consent Grant attack is to run the [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), which will dump all the OAuth consent grants and app permissions for all users in your tenancy into one .csv file. 
+The simplest way to verify the Illicit Consent Grant attack is to run  [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09), which will dump all the OAuth consent grants and app permissions for all users in your tenancy into one .csv file. 
 
 #### Pre-requisites
-- The AzureAD PowerShell library installed.
+- The Azure AD PowerShell library installed.
 - Global administrator rights on the tenant that the script will be run against.
-- Local Administrator on the computer that you will run the scripts from.
+- Local Administrator on the computer from which will run the scripts.
 
 > [!IMPORTANT]
-> We highly recommend you require multi-factor authentication on your administrative account.  This script supports MFA authentication
+> We highly recommend that you require multi-factor authentication on your administrative account.  This script supports MFA authentication.
 
-1. Sign in to the machine that you will run the script from with local administrator rights.
-2. Download or copy the [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) script from GitHub to a folder that you will run it from.  This will be the same folder that the output “permissions.csv” file will be written to.
+1. Sign in to the computer that you will run the script from with local administrator rights.
+2. Download or copy the [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) script from GitHub to a folder from which you will run the scruipt.  This will be the same folder to which the output “permissions.csv” file will be written.
 3. Open a PowerShell instance as an administrator and open to the folder you saved the script to.
 4. Connect to your directory using the [Connect-AzureAD](https://docs.microsoft.com/en-us/powershell/module/azuread/connect-azuread?view=azureadps-2.0) cmdlet.
 5. Run this PowerShell command line as follows: `.Get-AzureASPSPermissions.ps1 | Export-csv -path "Permissions.csv" -NoTypeInformation`
@@ -79,18 +79,18 @@ The script produces one file named Permissions.csv. Follow these steps to look f
 4.	In the ClientDisplayName column (column C) look for apps that seem suspicious. Apps with misspelled names, super bland names, or hacker-sounding names should be reviewed carefully.
 
 ## Determine the scope of the attack
-After you have finished inventorying application access, review the Office 365 Audit logs to determine the full scope of the breach .  Search on the affected users, the time frames that the illicit application(s) had access to your org, and the permissions the app had. You can Search the audit log in the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) 
+After you have finished inventorying application access, review the Office 365 **audit log** to determine the full scope of the breach.  Search on the affected users, the time frames that the illicit application had access to your organization, and the permissions the app had. You can search the **audit log** in the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c). 
 
 > [!IMPORTANT]
-> [Mailbox Auditing](https://support.office.com/en-us/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918) and [Activity Auditing for Admins and Users](https://support.office.com/en-us/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) must have been enabled prior to the attack for you to get this information.
+> [Mailbox auditing](https://support.office.com/en-us/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918) and [Activity auditing for admins and users](https://support.office.com/en-us/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014) must have been enabled prior to the attack for you to get this information.
 
-## How to stop and remediate an Illicit Consent Grant  attack
+## How to stop and remediate an illicit consent grant  attack
 After you have identified an application with illicit permissions, you have several ways to remove that access.
 - You can revoke the application's permission in the Azure Active Directory Portal by:
     - Navigate to the affected user in the **Azure Active Directory User** blade.
     - Select **Applications**.
     - Select the illicit application.
-    - Clicking **Remove** in the drill down.
+    - Click **Remove** in the drill down.
 - You can revoke the OAuth consent grant with PowerShell by following the steps in [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/en-us/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0).
 - You can revoke the Service App Role Assignment with PowerShell by following the steps in [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/en-us/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0).
 - You can also disable sign-in for the affected account altogether, which will in turn disable app access to data in that account. This isn't ideal for the end user's productivity, of course, but if you are working to limit impact quickly, it can be a viable short-term remediation.
