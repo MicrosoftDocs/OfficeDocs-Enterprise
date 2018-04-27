@@ -19,14 +19,19 @@ description: "This solution tells you what the most common cyber-security attack
  **Summary:** This solution tells you what the indicators are for the most common cyber-security attacks in Office 365, how to positively confirm any given attack, and how to respond to it.
   
 ## Overview
-There are 
+Not all cyber attacks can be thwarted. Attackers are constantly looking for new weaknesses in your defensive strategy or they are exploiting old ones. Knowing how to recognize an attack allows you to respond to it faster, which shortens the duration of the security incident.
 
-This solution includes prescriptive recommendations for recognizing, confirming and remediating a number of cyber-security threats in Office 365. More topics will be added over time.
+This series of article helps you understand what a particular type of attack might look like in Office 365 and gives you steps you can take to respond. They are quick entry points to understanding:
+ 
+- What the attack is and how it works.
+- What signs, called indicators of compromise (IOC), to look for and how to look for them.
+- How to positively confirm the attack.
+- Steps to take to cut off the attack and better protect your organization in the future.
 
-[![Thumb image of the Office 365 Information Protection for GDPR poster.](images/InfoProtectGDPR_Poster/o365infoprotectforgdpr_thumb.png)](http://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information protection for GDPR.pdf)
-  
-[PDF](http://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information protection for GDPR.pdf)  | [Visio](http://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information protection for GDPR.vsdx)
-  
+They 
+
+## 
+ 
 
 ## See Also
 
