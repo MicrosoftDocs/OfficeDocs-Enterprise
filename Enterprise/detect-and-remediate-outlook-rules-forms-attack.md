@@ -16,10 +16,10 @@ description: "Learn how to recognize and remediate the Outlook rules and custom 
 ---
 # Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365
 
-**Summary** Learn how to recognize and remediate the Outlook rules and custom Forms injections attacks in Office 365
+**Summary** Learn how to recognize and remediate the Outlook rules and custom Forms injections attacks in Office 365.
 
 ## What is the Outlook Rules and Custom Forms injection attack?
-After an attacker has breached an account in your tenant and gets in, they're are going to try and establish a way to stay in your tenant or a way to get back in even after they are discovered and removed. This is called establishing a persistence mechanism. Two ways that they can do this are by exploiting Outlook rules or by injecting custom forms into Outlook.
+After an attacker has breached an account in your tenancy and gets in, they're are going to try and establish a way to stay in or a way to get back in after they are discovered and removed. This is called establishing a persistence mechanism. Two ways that they can do this are by exploiting Outlook rules or by injecting custom forms into Outlook.
 In both cases, the rule or form is synced from the cloud service down to the desktop client, so a full format and re-install of the client software doesn't eliminate the injection mechanism. This is because when the Outlook client software reconnects to the mailbox in the cloud it will re-download the rules and forms from the cloud. Once the rules and forms are in place, the attacker uses them to execute remote or custom code, usually to install malware on the local machine. The malware then re-steals credentials or performs other illicit activity. 
 The good news here is that if you keep your clients patched to the latest version, you are not vulnerable to the threat as current Outlook client defaults block both mechanisms. 
 
@@ -27,20 +27,20 @@ The attacks typically follow these patterns:
 
 The Rules Exploit
 1. The attacker steals the username and password of one of your users.
-2. The attacker then logs in to that users Exchange mailbox. The mailbox can either be in Exchange online or in Exchange on-premises.
+2. The attacker then signs in to that users Exchange mailbox. The mailbox can either be in Exchange online or in Exchange on-premises.
 3. The attacker then creates a forwarding rule in the mailbox that is triggered when the mailbox receives an email that matches the criteria of the rule. The criteria of rule and the contents of the trigger email are tailor-made for each other.
 4. The attacker sends the trigger email to the user who is using their mailbox normally.
 5. When the email is received, the rule is triggered. The action of the rule is usually to launch an application on a remote (WebDAV) server.
-6. The application typically installs malware locally on the user’s machine, such as [Powershell Empire](https://www.powershellempire.com/).
-7. The malware allows attacker to re-steal the user’s username and password or other credentials from local machine and perform other malicious activities
+6. The application typically installs malware, such as [Powershell Empire](https://www.powershellempire.com/), locally on the user’s machine.
+7. The malware allows the attacker to re-steal the user’s username and password or other credentials from local machine and perform other malicious activities.
 
 The Forms Exploit
 1. The attacker steals the username and password of one of your users.
-2. The attacker then logs in to that users Exchange mailbox. The mailbox can either be in Exchange online or in Exchange on-premises.
+2. The attacker then sign in to that users Exchange mailbox. The mailbox can either be in Exchange online or in Exchange on-premises.
 3. The attacker then creates a custom mail form template and inserts it into the user’s mailbox.  The custom form is triggered when the mailbox receives an email that requires the mailbox to load the custom form. The custom form and the format of email are tailor-made for each other.
-4. The attacker sends the trigger email to the user who is using their mailbox normally.
+4. The attacker sends the trigger email to the user, who is using their mailbox normally.
 5. When the email is received, the form is loaded. The form launches an application on a remote (WebDAV) server.
-6. The application typically installs malware locally on the user’s machine, such as [Powershell Empire](https://www.powershellempire.com/).
+6. The application typically installs malware, such as [Powershell Empire](https://www.powershellempire.com/), locally on the user’s machine.
 7. The malware allows the attacker to re-steal the user’s username and password or other credentials from local machine and perform other malicious activities.
 
 
@@ -60,35 +60,35 @@ These persistence mechanisms are unlikely to be noticed by your users and may in
 
 ## Steps for finding signs of this attack and confirming it
 You can use either of these two methods to confirm the attack.
-- Manually examine the rules and forms for each mailbox using the Outlook client.  This method is thorough, but you can only check one user at a time which can be very time consuming if you have many users to check and can result in a breach of the computer that you are running the check from.
+- Manually examine the rules and forms for each mailbox using the Outlook client.  This method is thorough, but you can only check mailbox user at a time which can be very time consuming if you have many users to check.  It can also result in a breach of the computer that you are running the check from.
 - Use the [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell script to automatically dump all the mail forwarding rules and custom forms for all the users in your tenancy. This is the fastest and safest method with the least amount of overhead.
 
 
 ### Confirm the Rules Attack Using the Outlook client
 1. Open the users Outlook client as the user.  The user may need your help in examining the rules on their mailbox.
 2. Refer to [Manage email messages by using rules](https://support.office.com/en-us/article/manage-email-messages-by-using-rules-c24f5dea-9465-4df4-ad17-a50704d66c59#ID0EAABAAA=2010) article for the procedures on how to open the rules interface in either the 2007, 2010 or 2013 versions of Outlook.
-3. Look for rules that the user did not create, any unexpected rules or rules with suspicious names.
+3. Look for rules that the user did not create, or any unexpected rules or rules with suspicious names.
 4. Look in the rule description for rule actions that start and application or refer to an .EXE, .ZIP file or to launching a URL.
 5. Look for any new processes that start using the Outlook process ID.  Refer to [Find the Process ID](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/finding-the-process-id).
 
 ### Steps to confirm the Forms attack using the Outlook client
 1. Open the user Outlook client as the user.
 2. Follow the steps in, [Show the Developer tab](https://support.office.com/en-us/article/show-the-developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45) for the users version of Outlook.
-3. Open the now visible developer tab in Outlook and click **design a form**
-4. Select the **Inbox** from the **Look In** list. Look for any custom forms.  Custom forms are rare enough that if you have any custom forms, it is worth a deeper look.
+3. Open the now visible developer tab in Outlook and click **design a form**.
+4. Select the **Inbox** from the **Look In** list. Look for any custom forms.  Custom forms are rare enough that if you have any custom forms at all, it is worth a deeper look.
 5. Investigate any custom forms, especially those marked as hidden.
 6. Open any custom forms and in the **Form** group click **View Code** to see what runs when the form is loaded.
 
 ### Steps to confirm the Rules and Forms attack using PowerShell
-The simplest way to verify a Rules or custom Forms attack is to run the [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell script.  This script connects to every mailbox in your tenant and dumps all the rules and forms into two .csv files.
+The simplest way to verify a rules or custom forms attack is to run the [Get-AllTenantRulesAndForms.ps1](https://github.com/OfficeDev/O365-InvestigationTooling/blob/master/Get-AllTenantRulesAndForms.ps1) PowerShell script.  This script connects to every mailbox in your tenant and dumps all the rules and forms into two .csv files.
 
 #### Pre-requisites
-You will need to have a global admin role elevation to run the script (because it connects to every mailbox in the tenancy to read the rules and forms.
+You will need to have a global administrator rights to run the script because the script connects to every mailbox in the tenancy to read the rules and forms.
 
 1. Sign in to the machine that you will run the script from with local administrator rights.
-2. Download or copy the Get-AllTenantRulesAndForms.ps1 script from GitHub to a folder that you will run it from.  The script will write two date stamped files to this folder, MailboxFormsExport-yyyy-mm-dd.csv, and MailboxRulesExport-yyyy-mm-dd.csv.
+2. Download or copy the Get-AllTenantRulesAndForms.ps1 script from GitHub to a folder from which you will run it.  The script will create two date stamped files to this folder, MailboxFormsExport-yyyy-mm-dd.csv, and MailboxRulesExport-yyyy-mm-dd.csv.
 3. Open a PowerShell instance as an administrator and open the folder you saved the script to.
-4.	Run this PowerShell command line as follows `.\Get-AllTenantRulesAndForms.ps1`.\Get-AllTenantRulesAndForms.ps1
+4. Run this PowerShell command line as follows `.\Get-AllTenantRulesAndForms.ps1`.\Get-AllTenantRulesAndForms.ps1
 
 #### Interpreting the output
 
@@ -108,11 +108,11 @@ If you find any evidence of either of these attacks, remediation is simple, just
 1. Identify all the devices that the user has used with Outlook.  They will all need to be cleaned of potential malware.  Do not allow the user to sign on and use email until all the devices are cleaned.
 2. Follow the steps in [Delete a rule](https://support.office.com/en-us/article/Delete-a-rule-2F0E7139-F696-4422-8498-44846DB9067F) for each device.
 3. If you are unsure about the presence of other malware, you can format and re-install all the software on the device.  For mobile devices you can follow the manufacturers steps to reset the device to the factory image.
-4. Ensure that you install the most up-to-date versions of Outlook.  Remember that the current version of Outlook blocks both types of this attack by default.
-5. Once all offline copies of the mailbox have been removed, reset the user's password (a high-quality one) and follow the steps in [Setup multi-factor authentication for Office 365 users](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6) if MFA has not already been enabled. This ensures that the user's credentials are not exposed via other means (such as phishing or password re-use).
+4. Install the most up-to-date versions of Outlook.  Remember that the current version of Outlook blocks both types of this attack by default.
+5. Once all offline copies of the mailbox have been removed, reset the user's password (use a high-quality one) and follow the steps in [Setup multi-factor authentication for Office 365 users](https://support.office.com/en-us/article/Set-up-multi-factor-authentication-for-Office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6) if MFA has not already been enabled. This ensures that the user's credentials are not exposed via other means (such as phishing or password re-use).
 
 ### Using PowerShell
-There are two remote PowerShell cmdlets you can use to remove or disable dangerous rules. Just follow the steps in these topics.
+There are two remote PowerShell cmdlets you can use to remove or disable dangerous rules. Just follow the steps.
  
 Steps for mailboxes that are on an Exchange server
 
@@ -121,9 +121,9 @@ Steps for mailboxes that are on an Exchange server
 3. If you want to retain the rule and its contents for further investigation use the [Disable-InboxRule cmdlet](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx). 
 
 Steps for mailboxes in Exchange Online
-1. Follow the steps in [Connect to Exchange Online using PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
+1. Follow the steps in [Connect to Exchange Online using PowerShell](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps).
 2.	If you want to completely remove a single rule, multiple rules, or all rules from a mailbox use the [Remove-Inbox Rule cmdlet](https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps).
-3.	If you want to retain the rule and its contents for further investigation use the [Disable-InboxRule  cmdlet](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx). 
+3.	If you want to retain the rule and its contents for further investigation use the [Disable-InboxRule cmdlet](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx). 
 
 ## How to minimize future attacks
 
@@ -153,7 +153,7 @@ Here are the patch versions for your Outlook 2013 and 2016 clients:
 - Outlook 2013: 15.0.4937.1000 or greater
 - Outlook 2016: 16.0.4534.1001 or greater
 
-For more information on the individual security patches, see
+For more information on the individual security patches, see:
 
 - [Outlook 2013 Security Patch](https://support.microsoft.com/en-us/help/3191938) 
 - [Outlook 2016 Security Patch](https://support.microsoft.com/en-us/help/3191883)
@@ -172,12 +172,12 @@ Customers with on-premises Exchange installations should consider blocking older
 ## Secure Office 365 like a cybersecurity pro
 Your Office 365 subscription comes with a powerful set of security capabilities that you can use to protect your data and your users.  Use the [Office 365 security roadmap: Top priorities for the first 30 days, 90 days, and beyond](https://support.office.com/en-us/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) to implement Microsoft recommended best practices for securing your Office 365 tenant.
 - Tasks to accomplish in the first 30 days.  These have immediate affect and are low-impact to your users.
-- Tasks to accomplish in 90 days. These take a bit more time to plan and implement but greatly improve your security posture
+- Tasks to accomplish in 90 days. These take a bit more time to plan and implement but greatly improve your security posture.
 - Beyond 90 days. These enhancements build in your first 90 days work.
 
 ## See also:
 - [Malicious Outlook Rules](https://silentbreaksecurity.com/malicious-outlook-rules/) by SilentBreak Security Post about Rules Vector provides a detailed review of how the Outlook Rules. 
-- [MAPI over HTTP and Mailrule Pwnage ](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/) on the  Sensepost blog about Mailrule Pwnage discusses a tool called Ruler that lets you exploit mailboxes through Outlook rules.
-- [Outlook forms and shells](https://sensepost.com/blog/2017/outlook-forms-and-shells/) on the Sensepost blog about Forms Threat Vector: 
+- [MAPI over HTTP and Mailrule Pwnage ](https://sensepost.com/blog/2016/mapi-over-http-and-mailrule-pwnage/) on the Sensepost blog about Mailrule Pwnage discusses a tool called Ruler that lets you exploit mailboxes through Outlook rules.
+- [Outlook forms and shells](https://sensepost.com/blog/2017/outlook-forms-and-shells/) on the Sensepost blog about Forms Threat Vector. 
 - [Ruler Codebase](https://github.com/sensepost/ruler)
 - [Ruler Indicators of Compromise](https://github.com/sensepost/notruler/blob/master/iocs.md)
