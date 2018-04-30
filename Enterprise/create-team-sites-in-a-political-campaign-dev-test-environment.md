@@ -10,7 +10,7 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.service: o365-solutions
-localization_priority: None
+localization_priority: Priority
 ms.custom:
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: "Summary: Create public, private, sensitive, and highly confidential SharePoint Online team sites in your political campaign dev/test environment."

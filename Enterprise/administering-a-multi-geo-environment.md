@@ -7,8 +7,9 @@ ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.custom: Strat_SP_gtc
-localization_priority: Normal
+ms.custom: 
+ms.collection: Strat_SP_gtc
+localization_priority: Priority
 description: "Learn about administering SharePoint and OneDrive services in a multi-geo environment."
 ---
 
@@ -34,7 +35,7 @@ To manage sharing visit the [OneDrive admin center sharing settings](https://adm
 
 There is a [user profile application](https://support.office.com/article/494bec9c-6654-41f0-920f-f7f937ea9723) in each geo location. Each user’s profile information is hosted in their geo location and available to the administrator for that geo location.
 
-If you have custom profile properties, then we recommend that you use the same profile schema across geographies and populate your custom profile properties either in all geo locations or where needed.
+If you have custom profile properties, then we recommend that you use the same profile schema across geographies and populate your custom profile properties either in all geo locations or where needed. For guidance regarding how to populate user profile data programmatically please refer to the Bulk User Profile Update API https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/bulk-user-profile-update-api-for-sharepoint-online
 
 #### BCS, Secure Store, Apps
 
