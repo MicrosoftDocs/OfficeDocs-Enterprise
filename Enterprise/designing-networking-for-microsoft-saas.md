@@ -178,8 +178,6 @@ For more information, see:
   
 - [Network and migration planning for Office 365](https://aka.ms/tune)
     
-- [Office 365 Performance Management Microsoft Virtual Academy course](https://aka.ms/o365perf)
-    
 - [ExpressRoute for Office 365](https://aka.ms/expressrouteoffice365)
 
 ## Next step
