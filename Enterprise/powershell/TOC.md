@@ -24,7 +24,7 @@
 ### [View user accounts with Office 365 PowerShell](view-user-accounts-with-office-365-powershell.md)
 ### [Configure user account properties with Office 365 PowerShell](configure-user-account-properties-with-office-365-powershell.md)
 ## [Manage SharePoint Online with Office 365 PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
-### [Create SharePoint Online sites aand add users](create-sharepoint-sites-and-add-users-with-powershell.md)
+### [Create SharePoint Online sites and add users](create-sharepoint-sites-and-add-users-with-powershell.md)
 ### [Manage SharePoint Online users and groups](manage-sharepoint-users-and-groups-with-powershell.md)
 ### [Manage SharePoint Online site groups](manage-sharepoint-site-groups-with-powershell.md)
 ## [Manage Exchange Online with Office 365 PowerShell](manage-exchange-online-with-office-365-powershell.md)
