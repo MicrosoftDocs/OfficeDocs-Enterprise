@@ -59,13 +59,10 @@ You use the Set-SPOUser command to add a user to the list of Site Collection Adm
 ```
 $tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"-->
-
 $site = "site"
 <!--# This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"-->
-
 $user = "loginname"
 <!--This is the users login name. Value must be enclosed in double quotation marks. Example "opalc"-->
-
 Set-SPOUser -Site https://$tenant.sharepoint.com/sites/$site -LoginName $user@$tenant.onmicrosoft.com -IsSiteCollectionAdmin $true
  ```
 
@@ -89,16 +86,12 @@ In this task, we'll use the Add-SPOUser command to add a user to a SharePoint gr
 ```
 $tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"-->
-
 $site = "site"
 <!--This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"-->
-
 $user = "loginname"
 <!--This is the users login name. Value must be enclosed in double quotation marks. Example: "opalc"-->
-
 $group = "group"
 <!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks. Example: "Auditors"-->
-
 Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https://$tenant.sharepoint.com/sites/$site
 
 ```
@@ -120,16 +113,12 @@ You use the **Set-SPOSiteGroup** command to create a new SharePoint group and ad
 ```
 $tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"-->
-
 $site = "site"
 <!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"-->
-
 $group = "group"
 <!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"-->
-
 $level = "permission level"
 <!--This is the level of permissions to assign to the group. Value must be enclosed in double quotation marks, Example: "View Only"-->
-
 New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sharepoint.com/sites/$site
 ```
 
@@ -157,16 +146,12 @@ We'll be using the **Remove-SPOUser** command to remove a single Office 365 user
 ```
 $tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"-->
-
 $site = "site"
 <!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"-->
-
 $group = "group"
 <!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"-->
-
 $user = "loginname"
 <!--This is the user’s login name. Value must be enclosed in double quotation marks, Example: "opalc"-->
-
 Remove-SPOUser -LoginName $user@$tenant.onmicrosoft.com -Site https://$tenant.sharepoint.com/sites/$site
 ```
 
@@ -277,10 +262,8 @@ You might want to get a simple report for a few sites and display the users for 
 ```
 $tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotes, Example: "Contoso01"-->
-
 $site = "site"
 <!--This is the Site name. Value must be enclosed in double quotes, Example: "contosotest"-->
-
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site | select * | Format-table -Wrap -AutoSize | Out-File c\UsersReport.txt -Force -Width 360 -Append
 ```
 
