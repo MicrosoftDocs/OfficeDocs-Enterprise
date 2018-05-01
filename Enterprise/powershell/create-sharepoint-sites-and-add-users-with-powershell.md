@@ -59,7 +59,7 @@ Save the file on your desktop as **SiteCollections.csv**.
 ```
 Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
-Where  equals your user alias.
+</br>Where *MyAlias* equals your user alias.
 
 2. Wait for the Windows PowerShell prompt to reappear. It might take a minute or two.
 
@@ -69,7 +69,7 @@ Where  equals your user alias.
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
 
-4. Note the new site collections in the list. You should see the following site collections: contosotest, TeamSite01, Blog01, and Project01.
+Note the new site collections in the list. You should see the following site collections: contosotest, TeamSite01, Blog01, and Project01.
 
 That’s it. You’ve created multiple site collections using the .csv file you created and a single Windows PowerShell cmdlet. You’re now ready to create and assign users to these sites.
 
@@ -94,7 +94,7 @@ https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Designers,Design
 https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
 https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
-Where tenant equals your tenant name.
+</br>Where *tenant* equals your tenant name.
 
 2. Save the file to your desktop as GroupsAndPermissions.csv.
 
@@ -111,7 +111,7 @@ Contoso Blog Designers,username@tenant.onmicrosoft.com,https://tenant.sharepoint
 Contoso Blog Editors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Blog01
 Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Project01
 ```
-Where:
+</br>Where:
 - *tenant* equals your tenant name.
 - *username* equals the user name of an existing user.
 
@@ -123,7 +123,7 @@ Where:
 Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
-Where MyAlias equals the user name of the user that is currently logged on.
+</br>Where MyAlias equals the user name of the user that is currently logged on.
 
 6. Save the file to your desktop as UsersAndGroups.ps1. This is a simple Windows PowerShell script.
 
@@ -144,7 +144,7 @@ Set-ExecutionPolicy Bypass
 ```
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
-Where *MyAlias* equals your user name.
+</br>Where *MyAlias* equals your user name.
 
 5. Wait for the prompt to return before moving on. You will first see the groups appear as they are created. Then you will see the group list repeated as users are added.
 
