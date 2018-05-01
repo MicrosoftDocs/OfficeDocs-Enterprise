@@ -38,16 +38,16 @@ Open Notepad, and paste the following text block into it:
 
 ```
 Owner,StorageQuota,Url,ResourceQuota,Template,TimeZoneID,Name
-<owner>@<tenant>.onmicrosoft.com,100,https://<tenant>.sharepoint.com/sites/TeamSite01,25,EHS#1,10,Contoso Team Site
-<owner>@<tenant>.onmicrosoft.com,100,https://<tenant>.sharepoint.com/sites/Blog01,25,BLOG#0,10,Contoso Blog
-<owner>@<tenant>.onmicrosoft.com,150,https://<tenant>.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
-<owner>@<tenant>.onmicrosoft.com,150,https://<tenant>.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
+owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/TeamSite01,25,EHS#1,10,Contoso Team Site
+owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,BLOG#0,10,Contoso Blog
+owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
+owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
 ```
 Where:
-- <tenant> is the name of your tenant. You can press Ctrl+H when you use Notepad to bulk replace faster.
-- <owner> is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.
+- *tenant* is the name of your tenant. You can press Ctrl+H when you use Notepad to bulk replace faster.
+- *owner* is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.
 
-Save the file on your desktop as SiteCollections.csv.
+Save the file on your desktop as **SiteCollections.csv**.
 
  > [!TIP]
 > Before you use this or any other .csv or Windows PowerShell script file, it is good practice to make sure that there are no extraneous or nonprinting characters. Open the file in Word, and in the ribbon, click the paragraph icon to show nonprinting characters. There should be no extraneous nonprinting characters. For example, there should be no paragraph marks beyond the final one at the end of the file.
@@ -57,9 +57,9 @@ Save the file on your desktop as SiteCollections.csv.
 1. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:
 
 ```
-Import-Csv C:\users\<MyAlias>\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
+Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
-Where <MyAlias> equals your user alias.
+Where  equals your user alias.
 
 2. Wait for the Windows PowerShell prompt to reappear. It might take a minute or two.
 
@@ -85,16 +85,16 @@ The following procedures assume that you successfully created the site collectio
 
 ```
 Site,Group,PermissionLevels
-https://<tenant>.sharepoint.com/sites/contosotest,Contoso Project Leads,Full Control
-https://<tenant>.sharepoint.com/sites/contosotest,Contoso Auditors,View Only
-https://<tenant>.sharepoint.com/sites/contosotest,Contoso Designers,Design
-https://<tenant>.sharepoint.com/sites/TeamSite01,XT1000 Team Leads,Full Control
-https://<tenant>.sharepoint.com/sites/TeamSite01,XT1000 Advisors,Edit
-https://<tenant>.sharepoint.com/sites/Blog01,Contoso Blog Designers,Design
-https://<tenant>.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
-https://<tenant>.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
+https://tenant.sharepoint.com/sites/contosotest,Contoso Project Leads,Full Control
+https://tenant.sharepoint.com/sites/contosotest,Contoso Auditors,View Only
+https://tenant.sharepoint.com/sites/contosotest,Contoso Designers,Design
+https://tenant.sharepoint.com/sites/TeamSite01,XT1000 Team Leads,Full Control
+https://tenant.sharepoint.com/sites/TeamSite01,XT1000 Advisors,Edit
+https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Designers,Design
+https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
+https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
-Where <tenant> equals your tenant name.
+Where tenant equals your tenant name.
 
 2. Save the file to your desktop as GroupsAndPermissions.csv.
 
@@ -102,28 +102,28 @@ Where <tenant> equals your tenant name.
 
 ```
 Group,LoginName,Site
-Contoso Project Leads,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/contosotest
-Contoso Auditors,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/contosotest
-Contoso Designers,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/contosotest
-XT1000 Team Leads,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/TeamSite01
-XT1000 Advisors,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/TeamSite01
-Contoso Blog Designers,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/Blog01
-Contoso Blog Editors,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/Blog01
-Project Alpha Approvers,<username>@<tenant>.onmicrosoft.com,https://<tenant>.sharepoint.com/sites/Project01
+Contoso Project Leads,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
+Contoso Auditors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
+Contoso Designers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
+XT1000 Team Leads,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/TeamSite01
+XT1000 Advisors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/TeamSite01
+Contoso Blog Designers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Blog01
+Contoso Blog Editors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Blog01
+Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Project01
 ```
 Where:
-- <tenant> equals your tenant name.
-- <username> equals the user name of an existing user.
+- *tenant* equals your tenant name.
+- *username* equals the user name of an existing user.
 
 4. Save the file to your desktop as Users.csv.
 
 5. Open a new instance of Notepad, and paste the following text block into it:
 
 ```
-Import-Csv C:\users\<MyAlias>\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
-Import-Csv C:\users\<MyAlias>\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
+Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
+Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
-Where <MyAlias> equals the user name of the user that is currently logged on.
+Where MyAlias equals the user name of the user that is currently logged on.
 
 6. Save the file to your desktop as UsersAndGroups.ps1. This is a simple Windows PowerShell script.
 
@@ -142,12 +142,11 @@ Set-ExecutionPolicy Bypass
 
 4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:
 ```
-c:\users\<MyAlias>\desktop\UsersAndGroups.ps1
+c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
-Where <MyAlias> equals your user name.
+Where *MyAlias* equals your user name.
 
 5. Wait for the prompt to return before moving on. You will first see the groups appear as they are created. Then you will see the group list repeated as users are added.
-
 
 
 ## See also
@@ -155,8 +154,6 @@ Where <MyAlias> equals your user name.
 [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 [Manage SharePoint Online site groups Office 365 PowerShell](manage-sharepoint-site-groups-with-powershell.md)
-
-#### 
 
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   

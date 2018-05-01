@@ -110,7 +110,8 @@ Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https:/
 
 You use the Set-SPOSiteGroup command to create a new SharePoint group and add it to the ContosoTest site collection. This is how the syntax looks:
 
-```$tenant = "<tenant>"
+```
+$tenant = "<tenant>"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"--></br>
 $site = "<site>"
 <!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"--></br>
