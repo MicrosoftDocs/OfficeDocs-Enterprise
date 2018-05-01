@@ -57,11 +57,11 @@ Get a list of the users in your tenant with this command:
 You use the Set-SPOUser command to add a user to the list of Site Collection Administrators on a site collection. This is how the syntax looks:
 
 ```
-$tenant = "<tenant>"
+$tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"--></br>
-$site = "<site>"
+$site = "site"
 <!--# This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"--></br>
-$user = "<loginname>"
+$user = "loginname"
 <!--This is the users login name. Value must be enclosed in double quotation marks. Example "opalc"--></br>
 Set-SPOUser -Site https://$tenant.sharepoint.com/sites/$site -LoginName $user@$tenant.onmicrosoft.com -IsSiteCollectionAdmin $true
  ```
@@ -84,13 +84,13 @@ You can actually cut and paste these commands into Notepad, change the variable 
 In this task, we'll use the Add-SPOUser command to add a user to a SharePoint group on a site collection. This is how the syntax looks:
 
 ```
-$tenant = "<tenant>"
+$tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"--></br>
-$site = "<site>"
+$site = "site"
 <!--This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"--></br>
-$user = "<loginname>"
+$user = "loginname"
 <!--This is the users login name. Value must be enclosed in double quotation marks. Example: "opalc"--></br>
-$group = "<group>"
+$group = "group"
 <!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks. Example: "Auditors"--></br>
 Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https://$tenant.sharepoint.com/sites/$site
 
@@ -111,13 +111,13 @@ Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https:/
 You use the Set-SPOSiteGroup command to create a new SharePoint group and add it to the ContosoTest site collection. This is how the syntax looks:
 
 ```
-$tenant = "<tenant>"
+$tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"--></br>
-$site = "<site>"
+$site = "site"
 <!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"--></br>
-$group = "<group>"
+$group = "group"
 <!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"--></br>
-$level = "<permission level>"
+$level = "permission level"
 <!--This is the level of permissions to assign to the group. Value must be enclosed in double quotation marks, Example: "View Only"--></br>
 New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sharepoint.com/sites/$site
 ```
@@ -144,13 +144,13 @@ However by using the SharePoint Online Management Shell and CSV files, this is f
 We'll be using the Remove-SPOUser command to remove a single Office 365 user from a site collection group just so we can see the command syntax. Here is how the syntax looks:
 
 ```
-$tenant = "<tenant>"
+$tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"--></br>
-$site = "<site>"
+$site = "site"
 <!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"--></br>
-$group = "<group>"
+$group = "group"
 <!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"--></br>
-$user = "<loginname>"
+$user = "loginname"
 <!--This is the user’s login name. Value must be enclosed in double quotation marks, Example: "opalc"--></br>
 Remove-SPOUser -LoginName $user@$tenant.onmicrosoft.com -Site https://$tenant.sharepoint.com/sites/$site
 ```
@@ -195,7 +195,7 @@ Site,Group,PermissionLevels
 ### Item:
 
 ```
-https://<tenant>.sharepoint.com/sites/<site>,<site collection>,<group>,<level>
+https://tenant.sharepoint.com/sites/site,site collection,group,level
 ```
 
 Here is an example file:
@@ -223,7 +223,7 @@ Group,LoginName,Site
 ### Item:
 
 ```
-<group>,<login>,https://<tenant>.sharepoint.com/sites/<site>
+group,login,https://tenant.sharepoint.com/sites/site
 ```
 
 Here is an example file:
@@ -260,9 +260,9 @@ Import-Csv C:\O365Admin\Users.csv | ForEach-Object {Remove-SPOUser -LoginName $_
 You might want to get a simple report for a few sites and display the users for those sites, their permission level, and other properties. This is how the syntax looks:
 
 ```
-$tenant = "<tenant>"
+$tenant = "tenant"
 <!--This is the Tenant Name. Value must be enclosed in double quotes, Example: "Contoso01"--></br>
-$site = "<site>"
+$site = "site"
 <!--This is the Site name. Value must be enclosed in double quotes, Example: "contosotest"--></br>
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site | select * | Format-table -Wrap -AutoSize | Out-File c\UsersReport.txt -Force -Width 360 -Append
 ```
@@ -296,8 +296,6 @@ This report is fairly simple, and you can add more code to create more specific 
 [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 [Manage SharePoint Online with Office 365 PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
-
-#### 
 
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
