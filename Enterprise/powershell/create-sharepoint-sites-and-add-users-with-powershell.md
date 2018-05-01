@@ -34,7 +34,7 @@ The Office 365 PowerShell cmdlet imports the .csv file and pipes it to a loop in
 
 ###Create a .csv file
 
-1. Open Notepad, and paste the following text block into it:
+Open Notepad, and paste the following text block into it:
 
 ```
 Owner,StorageQuota,Url,ResourceQuota,Template,TimeZoneID,Name
@@ -47,7 +47,7 @@ Where:
 - <tenant> is the name of your tenant. You can press Ctrl+H when you use Notepad to bulk replace faster.
 - <owner> is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.
 
-2. Save the file on your desktop as SiteCollections.csv.
+Save the file on your desktop as SiteCollections.csv.
 
  > [!TIP]
 > Before you use this or any other .csv or Windows PowerShell script file, it is good practice to make sure that there are no extraneous or nonprinting characters. Open the file in Word, and in the ribbon, click the paragraph icon to show nonprinting characters. There should be no extraneous nonprinting characters. For example, there should be no paragraph marks beyond the final one at the end of the file.
