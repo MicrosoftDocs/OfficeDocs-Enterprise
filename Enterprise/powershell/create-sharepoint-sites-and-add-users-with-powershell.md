@@ -42,7 +42,7 @@ owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,B
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
 ```
-2. Where *tenant* is the name of your tenant, and *owner* is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.</br>You can press Ctrl+H when you use Notepad to bulk replace faster.
+2. Where *tenant* is the name of your tenant, and *owner* is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.</br>(You can press Ctrl+H when you use Notepad to bulk replace faster.)
 3. Save the file on your desktop as **SiteCollections.csv**.
 
  > [!TIP]
@@ -60,7 +60,7 @@ Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SP
 ```
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
-4. Note the new site collections in the list. You should see the following site collections: contosotest, TeamSite01, Blog01, and Project01.
+4. Note the new site collections in the list. You should see the following site collections: **contosotest**, **TeamSite01**, **Blog01**, and **Project01**.
 
 That’s it. You’ve created multiple site collections using the .csv file you created and a single Windows PowerShell cmdlet. You’re now ready to create and assign users to these sites.
 
@@ -85,7 +85,7 @@ https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
 https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
 </br>Where *tenant* equals your tenant name.
-2. Save the file to your desktop as GroupsAndPermissions.csv.
+2. Save the file to your desktop as **GroupsAndPermissions.csv**.
 3. Open a new instance of Notepad, and paste the following text block into it:
 ```
 Group,LoginName,Site
@@ -106,7 +106,7 @@ Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {N
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
 </br>Where MyAlias equals the user name of the user that is currently logged on.
-6. Save the file to your desktop as UsersAndGroups.ps1. This is a simple Windows PowerShell script.
+6. Save the file to your desktop as **UsersAndGroups.ps1**. This is a simple Windows PowerShell script.
 
 You’re now ready to run the UsersAndGroup.ps1 script to add users and groups to multiple site collections.
 
@@ -117,7 +117,7 @@ You’re now ready to run the UsersAndGroup.ps1 script to add users and groups t
 ```
 Set-ExecutionPolicy Bypass
 ```
-3. At the confirmation prompt, press Y.
+3. At the confirmation prompt, press **Y**.
 4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:
 ```
 c:\users\MyAlias\desktop\UsersAndGroups.ps1

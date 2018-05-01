@@ -115,7 +115,7 @@ Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https:/
 
 ## Create a site collection group
 
-You use the Set-SPOSiteGroup command to create a new SharePoint group and add it to the ContosoTest site collection. This is how the syntax looks:
+You use the **Set-SPOSiteGroup** command to create a new SharePoint group and add it to the ContosoTest site collection. This is how the syntax looks:
 
 ```
 $tenant = "tenant"
@@ -134,7 +134,7 @@ New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sh
 ```
 
 > [!IMPORTANT]
-> You have to enclose any string with spaces in quotation marks. Group properties, such as permission levels, can be updated later by using the Set-SPOSiteGroup cmdlet.
+> You must enclose any string with spaces in quotation marks. Group properties, such as permission levels, can be updated later by using the Set-SPOSiteGroup cmdlet.
 
 For example, let’s add the Auditors group with View Only permissions to the Contoso Test site collection in the contoso1 tenancy:
 
@@ -152,7 +152,7 @@ Sometimes you have to remove a user from a site or even all sites. Perhaps the e
 
 However by using the SharePoint Online Management Shell and CSV files, this is fast and easy. In this task, you'll use Windows PowerShell to remove a user from a site collection security group. Then you'll use a CSV file and remove lots of users from different sites. 
 
-We'll be using the Remove-SPOUser command to remove a single Office 365 user from a site collection group just so we can see the command syntax. Here is how the syntax looks:
+We'll be using the **Remove-SPOUser** command to remove a single Office 365 user from a site collection group just so we can see the command syntax. Here is how the syntax looks:
 
 ```
 $tenant = "tenant"
@@ -298,7 +298,7 @@ $site = "Project01"
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site | Format-Table -Wrap -AutoSize | Out-File c:\UsersReport.txt -Force -Width 360 -Append
 ```
 
-Note that we had to change only the $site variable. The $tenant variable keeps its value through all three runs of the command.
+Note that we had to change only the **$site** variable. The **$tenant** variable keeps its value through all three runs of the command.
 
 However, what if you wanted to do this for every site? You can do this without having to type all those websites by using this command:
 
