@@ -6,7 +6,9 @@ manager: laurawi
 ms.date: 4/23/2018
 ms.audience: ITPro
 ms.topic: article
-ms.collection: o365_security_incident_response
+ms.collection: 
+- o365_security_incident_response
+- Strat_O365_IP
 ms.service: o365-solutions
 localization_priority: Normal
 ms.custom: 
