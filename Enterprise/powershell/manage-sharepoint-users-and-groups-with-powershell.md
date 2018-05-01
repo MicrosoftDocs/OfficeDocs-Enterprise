@@ -58,18 +58,15 @@ You use the Set-SPOUser command to add a user to the list of Site Collection Adm
 
 ```
 $tenant = "<tenant>"
-<!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"-->
-
+<!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"--></br>
 $site = "<site>"
-<!--# This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"-->
-
+<!--# This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"--></br>
 $user = "<loginname>"
-<!--This is the users login name. Value must be enclosed in double quotation marks. Example "opalc"-->
-
+<!--This is the users login name. Value must be enclosed in double quotation marks. Example "opalc"--></br>
 Set-SPOUser -Site https://$tenant.sharepoint.com/sites/$site -LoginName $user@$tenant.onmicrosoft.com -IsSiteCollectionAdmin $true
  ```
 
-This example uses variables to store values and has notes in the script (for example "# This is the Tenant Name…") to help you understand what those values should be.
+This example uses variables to store values and has notes in the script (for example "<!--This is the Tenant Name…-->") to help you understand what those values should be.
 
 For example, this set of commands adds Opal Castillo (user name opalc) the list of Site Collection Administrators on the ContosoTest site collection in the contoso1 tenancy:
 
@@ -86,25 +83,23 @@ You can actually cut and paste these commands into Notepad, change the variable 
 
 In this task, we'll use the Add-SPOUser command to add a user to a SharePoint group on a site collection. This is how the syntax looks:
 
-`$tenant = "<tenant>"
-<!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"-->
-
+```
+$tenant = "<tenant>"
+<!--This is the Tenant Name. Value must be enclosed in double quotation marks. Example: "Contoso01"--></br>
 $site = "<site>"
-<!--This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"-->
-
+<!--This is the Site name. Value must be enclosed in double quotation marks. Example: "contosotest"--></br>
 $user = "<loginname>"
-<!--This is the users login name. Value must be enclosed in double quotation marks. Example: "opalc"-->
-
+<!--This is the users login name. Value must be enclosed in double quotation marks. Example: "opalc"--></br>
 $group = "<group>"
-<!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks. Example: "Auditors"-->
-
+<!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks. Example: "Auditors"--></br>
 Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https://$tenant.sharepoint.com/sites/$site
 
 ```
 
 For example, let’s add Glen Rife (user name glenr) to the Auditors group on the ContosoTest site collection in the contoso1 tenancy:
 
-```$tenant = "contoso1"
+```
+$tenant = "contoso1"
 $site = "contosotest"
 $user = "glenr"
 $group = "Auditors"
@@ -116,17 +111,13 @@ Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https:/
 You use the Set-SPOSiteGroup command to create a new SharePoint group and add it to the ContosoTest site collection. This is how the syntax looks:
 
 ```$tenant = "<tenant>"
-<!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"-->
-
+<!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"--></br>
 $site = "<site>"
-<!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"-->
-
+<!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"--></br>
 $group = "<group>"
-<!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"-->
-
+<!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"--></br>
 $level = "<permission level>"
-<!--This is the level of permissions to assign to the group. Value must be enclosed in double quotation marks, Example: "View Only"-->
-
+<!--This is the level of permissions to assign to the group. Value must be enclosed in double quotation marks, Example: "View Only"--></br>
 New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sharepoint.com/sites/$site
 ```
 
@@ -153,17 +144,13 @@ We'll be using the Remove-SPOUser command to remove a single Office 365 user fro
 
 ```
 $tenant = "<tenant>"
-<!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"-->
-
+<!--This is the Tenant Name. Value must be enclosed in double quotation marks, Example: "Contoso01"--></br>
 $site = "<site>"
-<!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"-->
-
+<!--This is the Site name. Value must be enclosed in double quotation marks, Example: "contosotest"--></br>
 $group = "<group>"
-<!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"-->
-
+<!--This is the SharePoint security Group name. Value must be enclosed in double quotation marks, Example: "Auditors"--></br>
 $user = "<loginname>"
-<!--This is the user’s login name. Value must be enclosed in double quotation marks, Example: "opalc"-->
-
+<!--This is the user’s login name. Value must be enclosed in double quotation marks, Example: "opalc"--></br>
 Remove-SPOUser -LoginName $user@$tenant.onmicrosoft.com -Site https://$tenant.sharepoint.com/sites/$site
 ```
 
@@ -273,11 +260,9 @@ You might want to get a simple report for a few sites and display the users for 
 
 ```
 $tenant = "<tenant>"
-<!--This is the Tenant Name. Value must be enclosed in double quotes, Example: "Contoso01"-->
-
+<!--This is the Tenant Name. Value must be enclosed in double quotes, Example: "Contoso01"--></br>
 $site = "<site>"
-<!--This is the Site name. Value must be enclosed in double quotes, Example: "contosotest"-->
-
+<!--This is the Site name. Value must be enclosed in double quotes, Example: "contosotest"--></br>
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site | select * | Format-table -Wrap -AutoSize | Out-File c\UsersReport.txt -Force -Width 360 -Append
 ```
 
@@ -288,15 +273,10 @@ For example, let's run a report on the ContosoTest, TeamSite01, and Project01 si
 ```
 $tenant = "contoso1"
 $site = "contosotest"
-
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site | Format-Table -Wrap -AutoSize | Out-File c:\UsersReport.txt -Force -Width 360 -Append
-
 $site = "TeamSite01"
-
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site |Format-Table -Wrap -AutoSize | Out-File c:\UsersReport.txt -Force -Width 360 -Append
-
 $site = "Project01"
-
 Get-SPOUser -Site https://$tenant.sharepoint.com/sites/$site | Format-Table -Wrap -AutoSize | Out-File c:\UsersReport.txt -Force -Width 360 -Append
 ```
 
