@@ -34,7 +34,7 @@ The Office 365 PowerShell cmdlet imports the .csv file and pipes it to a loop in
 
 ###Create a .csv file
 
-1. Open Notepad, and paste the following text block into it:
+1. Open Notepad, and paste the following text block into it:</br>
 ```
 Owner,StorageQuota,Url,ResourceQuota,Template,TimeZoneID,Name
 owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/TeamSite01,25,EHS#1,10,Contoso Team Site
@@ -49,13 +49,13 @@ owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01
 
 ### Run the Windows PowerShell command
 
-1. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:
+1. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:</br>
 ```
 Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
 </br>Where *MyAlias* equals your user alias.</br>
 2. Wait for the Windows PowerShell prompt to reappear. It might take a minute or two.</br>
-3. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:
+3. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:</br>
 ```
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```</br>
