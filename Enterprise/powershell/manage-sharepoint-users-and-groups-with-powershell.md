@@ -54,7 +54,7 @@ Get a list of the users in your tenant with this command:
 
 ## Add a user to the Site Collection Administrators group
 
-You use the Set-SPOUser command to add a user to the list of Site Collection Administrators on a site collection. This is how the syntax looks:
+You use the **Set-SPOUser** command to add a user to the list of Site Collection Administrators on a site collection. This is how the syntax looks:
 
 ```
 $tenant = "tenant"
@@ -81,7 +81,7 @@ You can actually cut and paste these commands into Notepad, change the variable 
 
 ## Add a user to other Site Collection Administrators groups
 
-In this task, we'll use the Add-SPOUser command to add a user to a SharePoint group on a site collection. This is how the syntax looks:
+In this task, we'll use the **Add-SPOUser** command to add a user to a SharePoint group on a site collection. This is how the syntax looks:
 
 ```
 $tenant = "tenant"
@@ -123,7 +123,7 @@ New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sh
 ```
 
 > [!IMPORTANT]
-> You must enclose any string with spaces in quotation marks. Group properties, such as permission levels, can be updated later by using the Set-SPOSiteGroup cmdlet.
+> You must enclose any string with spaces in quotation marks. Group properties, such as permission levels, can be updated later by using the **Set-SPOSiteGroup** cmdlet.
 
 For example, let’s add the Auditors group with View Only permissions to the Contoso Test site collection in the contoso1 tenancy:
 
@@ -247,7 +247,7 @@ Import-Csv C:\O365Admin\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGr
 Import-Csv C:\O365Admin\Users.csv | ForEach-Object {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
 
-The script imports the CSV file contents and uses the values in the columns (in bold) to populate the parameters of the New-SPOSiteGroup and Add-SPOUser commands. In our example, we are saving this to the drive C, but you can save it wherever you want.
+The script imports the CSV file contents and uses the values in the columns (in bold) to populate the parameters of the **New-SPOSiteGroup** and **Add-SPOUser** commands. In our example, we are saving this to the drive C, but you can save it wherever you want.
 
 Now, let’s remove a bunch of people for several groups in different sites using the same CSV file. Here is the command:
 
