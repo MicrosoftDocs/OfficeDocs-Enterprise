@@ -71,7 +71,7 @@ The following procedures assume that you successfully created the site collectio
 
 ### Create .csv and .ps1 files
 
-1. Open Notepad, and paste the following text block into it:</br>
+1. Open Notepad, and paste the following text block into it:</br></br>
 ```
 Site,Group,PermissionLevels
 https://tenant.sharepoint.com/sites/contosotest,Contoso Project Leads,Full Control
@@ -83,9 +83,9 @@ https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Designers,Design
 https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
 https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
-</br>Where *tenant* equals your tenant name.</br>
-2. Save the file to your desktop as **GroupsAndPermissions.csv**.</br>
-3. Open a new instance of Notepad, and paste the following text block into it:
+</br></br>Where *tenant* equals your tenant name.</br></br>
+2. Save the file to your desktop as **GroupsAndPermissions.csv**.</br></br>
+3. Open a new instance of Notepad, and paste the following text block into it:</br></br>
 ```
 Group,LoginName,Site
 Contoso Project Leads,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
@@ -97,31 +97,31 @@ Contoso Blog Designers,username@tenant.onmicrosoft.com,https://tenant.sharepoint
 Contoso Blog Editors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Blog01
 Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Project01
 ```
-</br>Where *tenant* equals your tenant name, and *username* equals the user name of an existing user.</br>
-4. Save the file to your desktop as Users.csv.</br>
-5. Open a new instance of Notepad, and paste the following text block into it:
+</br></br>Where *tenant* equals your tenant name, and *username* equals the user name of an existing user.</br></br>
+4. Save the file to your desktop as Users.csv.</br></br>
+5. Open a new instance of Notepad, and paste the following text block into it:</br></br>
 ```
 Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
-</br>Where MyAlias equals the user name of the user that is currently logged on.</br>
+</br></br>Where MyAlias equals the user name of the user that is currently logged on.</br></br>
 6. Save the file to your desktop as **UsersAndGroups.ps1**. This is a simple Windows PowerShell script.
 
 You’re now ready to run the UsersAndGroup.ps1 script to add users and groups to multiple site collections.
 
 ### Run UsersAndGroups.ps1 script
 
-1. Return to the SharePoint Online Management Shell.</br>
-2. At the Windows PowerShell prompt, type or copy and paste the following line, and press Enter:
+1. Return to the SharePoint Online Management Shell.</br></br>
+2. At the Windows PowerShell prompt, type or copy and paste the following line, and press Enter:</br></br>
 ```
 Set-ExecutionPolicy Bypass
-```</br>
-3. At the confirmation prompt, press **Y**.</br>
-4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:
+```</br></br>
+3. At the confirmation prompt, press **Y**.</br></br>
+4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:</br></br>
 ```
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
-</br>Where *MyAlias* equals your user name.</br>
+</br></br>Where *MyAlias* equals your user name.</br></br>
 5. Wait for the prompt to return before moving on. You will first see the groups appear as they are created. Then you will see the group list repeated as users are added.
 
 ## See also
