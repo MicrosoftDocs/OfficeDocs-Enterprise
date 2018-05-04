@@ -21,7 +21,7 @@ description: "Summary: Apply Azure Information Protection to protect files in a 
 
  **Summary:** Apply Azure Information Protection to protect files in a highly confidential SharePoint Online team site.
   
-Use the steps in this article to configure Azure Information Protection to provide encryption and permissions for files. These files can be added to a SharePoint library configured for highly confidential protection. Or, they can already be in the library. The encryption and permissions protection travels with a file even when it is downloaded from the site. 
+Use the steps in this article to configure Azure Information Protection to provide encryption and permissions for files. These files can be added to a SharePoint library configured for highly confidential protection. The encryption and permissions protection travels with a file even when it is downloaded from the site. 
 
 These steps are part of a larger solution for configuring highly confidential protection for SharePoint sites and the files within these sites. For more information, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
 
