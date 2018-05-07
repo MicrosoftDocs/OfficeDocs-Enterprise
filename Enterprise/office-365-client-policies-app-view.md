@@ -17,6 +17,11 @@ description: "Summary: Understand the Office 365 client policies that are suppor
 # Office 365 Client Policies - Client and App View
 Use the following lists to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
+**Want to change the view of this information? Select a different view below:**
+> [!div class="op_single_selector"] 
+> - [App view](office-365-client-policies-app-view.md)
+> - [Policy view](office-365-client-policies-policy-view.md)
+
 ## Delve
 Use Delve to see what you and your colleagues are working on across Office 365. Based on who you work with and how you work together, Delve suggests documents that are relevant to you. Learn more about [Delve](https://support.office.com/en-us/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca).
 
