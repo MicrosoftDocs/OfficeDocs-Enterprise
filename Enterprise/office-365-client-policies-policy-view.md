@@ -15,6 +15,11 @@ description: "Summary: Understand the Office 365 client policies that are suppor
 ---
 
 # Office 365 Client Policies - Policy View
+**Want to change the view of this information? Select a different view below:**
+> [!div class="op_single_selector"] 
+> - [Client & App view](office-365-client-policies-app-view.md)
+> - [Policy view](office-365-client-policies-policy-view.md)
+
 Use the following lists to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
 ## Device-Based Conditional Access
