@@ -4,13 +4,11 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 ms.date: 5/4/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: 
-ms.custom: 
-ms.assetid: 
+ms.service: Office 365 Administration
+localization_priority: None
+ms.collection: Strat_O365_Enterprise
 description: "Summary: Understand the Office 365 service policies that are supported by Microsoft online services."
 ---
 
