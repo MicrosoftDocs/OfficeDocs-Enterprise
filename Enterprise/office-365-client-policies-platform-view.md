@@ -14,7 +14,7 @@ ms.assetid:
 description: "Summary: Understand the Office 365 client policies that are supported by Android, browsers, iOS, Mac OS X, Windows, and Windows Mobile."
 ---
 
-# Introduction
+# Office 365 Client Policies - Platform View
 Use the following lists to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
 ## Android
