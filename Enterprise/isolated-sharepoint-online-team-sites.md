@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
 description: "Summary: Learn about the uses for isolated SharePoint Online team sites."

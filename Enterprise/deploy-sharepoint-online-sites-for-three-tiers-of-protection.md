@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: "Summary: Create and configure SharePoint Online team sites for various levels of information protection."

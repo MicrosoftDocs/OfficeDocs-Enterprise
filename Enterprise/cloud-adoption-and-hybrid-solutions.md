@@ -8,7 +8,6 @@ layout: LandingPage
 ms.assetid: 
 ms.service: o365-solutions
 ms.topic: hub-page
-ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.date: 2/14/2018

@@ -3,7 +3,7 @@ title: "High availability federated authentication Phase 2 Configure domain cont
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/06/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -31,13 +31,13 @@ First, you need to fill out the **Virtual machine name** column of Table M and m
   
 |**Item**|**Virtual machine name**|**Gallery image**|**Storage type**|**Minimum size**|
 |:-----|:-----|:-----|:-----|:-----|
-|1.  <br/> |______________ (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
-|2.  <br/> |______________ (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
-|3.  <br/> |______________ (DirSync server, example DS1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
-|4.  <br/> |______________ (first AD FS server, example ADFS1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
-|5.  <br/> |______________ (second AD FS server, example ADFS2)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
-|6.  <br/> |______________ (first web application proxy server, example WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
-|7.  <br/> |______________ (second web application proxy server, example WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|1.  <br/> |![](./images/Common_Images/TableLine.png) (first domain controller, example DC1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|2.  <br/> |![](./images/Common_Images/TableLine.png) (second domain controller, example DC2)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|3.  <br/> |![](./images/Common_Images/TableLine.png) (DirSync server, example DS1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|4.  <br/> |![](./images/Common_Images/TableLine.png) (first AD FS server, example ADFS1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|5.  <br/> |![](./images/Common_Images/TableLine.png) (second AD FS server, example ADFS2)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|6.  <br/> |![](./images/Common_Images/TableLine.png) (first web application proxy server, example WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
+|7.  <br/> |![](./images/Common_Images/TableLine.png) (second web application proxy server, example WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |StandardLRS  <br/> |Standard_D2  <br/> |
    
  **Table M - Virtual machines for the high availability federated authentication for Office 365 in Azure**
   
@@ -161,7 +161,7 @@ Next, from the Windows PowerShell command prompt on the first domain controller,
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
 $cred = Get-Credential -Message "Enter credentials of an account with permission to join a new domain controller to the domain"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:\\NTDS" -SysvolPath "F:\\SYSVOL" -LogPath "F:\\Logs" -Credential $cred
+Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs" -Credential $cred
 ```
 
 You will be prompted to supply the credentials of a domain administrator account. The computer will restart.
@@ -182,7 +182,7 @@ Next, run the following commands:
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
 $cred = Get-Credential -Message "Enter credentials of an account with permission to join a new domain controller to the domain"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:\\NTDS" -SysvolPath "F:\\SYSVOL" -LogPath "F:\\Logs" -Credential $cred
+Install-ADDSDomainController -InstallDns -DomainName $domname  -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs" -Credential $cred
 
 ```
 

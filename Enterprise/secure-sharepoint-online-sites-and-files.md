@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: "Summary: Configuration recommendations for protecting files in SharePoint Online and Office 365."

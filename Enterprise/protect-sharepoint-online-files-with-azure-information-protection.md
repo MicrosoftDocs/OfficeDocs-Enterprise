@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: "Summary: Apply Azure Information Protection to protect files in a highly confidential SharePoint Online team site."

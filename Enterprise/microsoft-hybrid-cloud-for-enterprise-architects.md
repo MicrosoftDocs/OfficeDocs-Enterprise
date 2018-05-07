@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Architecture
 ms.assetid: 54deae50-9442-4b6a-bd86-e5edb0ec6d74
 description: "Summary: What IT architects need to know about hybrid scenarios using Microsoft cloud services and platforms."

@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: "Summary: Apply Office 365 labels and data loss prevention (DLP) policies for SharePoint Online team sites with various levels of information protection."

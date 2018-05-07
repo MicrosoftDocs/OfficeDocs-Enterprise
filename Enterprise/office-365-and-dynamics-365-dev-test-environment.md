@@ -7,9 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365, Strat_O365_Enterprise
-ms.custom: Strat_O365_Enterprise, Ent_TLGs
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
+- Strat_O365_Enterprise
+ms.custom: Ent_TLGs
 ms.assetid: 098c1a1d-83a1-40eb-bbc9-47de7af8bb23
 description: "Summary: Use this Test Lab Guide to add Dynamics 365 to your Office 365 dev/test environment."
 ---

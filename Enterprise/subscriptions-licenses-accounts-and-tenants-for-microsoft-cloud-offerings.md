@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Architecture
 ms.assetid: c720cffc-f9b5-4f43-9100-422f86a1027c
 description: "Summary: Understand the relationships of organizations, subscriptions, licenses, user accounts, and tenants across Microsoft's cloud offerings."

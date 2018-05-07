@@ -11,8 +11,7 @@ localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Architecture
 ms.assetid: 13c71689-59a9-4cdf-8175-808a20c1e879
 description: "Summary: Design your networking for Microsoft cloud services and platforms."

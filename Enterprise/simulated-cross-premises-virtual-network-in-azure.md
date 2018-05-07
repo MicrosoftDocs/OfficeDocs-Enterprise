@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 0a3555dc-6f96-49a5-b9e2-7760e16630b3
 description: "Summary: Create a simulated cross-premises virtual network in Microsoft Azure as a dev/test environment."
@@ -170,7 +169,7 @@ Next, configure DC2 as a replica domain controller for the corp.contoso.com doma
   
 ```
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-Install-ADDSDomainController -Credential (Get-Credential CORP\\User1) -DomainName "corp.contoso.com" -InstallDns:$true -DatabasePath "F:\\NTDS" -LogPath "F:\\Logs" -SysvolPath "F:\\SYSVOL"
+Install-ADDSDomainController -Credential (Get-Credential CORP\User1) -DomainName "corp.contoso.com" -InstallDns:$true -DatabasePath "F:\NTDS" -LogPath "F:\Logs" -SysvolPath "F:\SYSVOL"
 ```
 
 Note that you are prompted to supply both the CORP\\User1 password and a Directory Services Restore Mode (DSRM) password, and to restart DC2. 

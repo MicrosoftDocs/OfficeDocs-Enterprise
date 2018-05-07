@@ -18,11 +18,11 @@ description: "Summary: Configure Azure AD Connect for your high availability fed
 
  **Summary:** Configure Azure AD Connect for your high availability federated authentication for Office 365 in Microsoft Azure.
  
-In this final phase of deploying high availability federated authentication for Office 365 in Azure infrastructure services, you get and install a certificate issued by a public certification authority, verify your configuration, and then install and run Azure AD Connect on the DirSync server. Azure AD Connect configures your Office 365 subscription and your Active Directory Federation Services (AD FS) and web application proxy servers for federated authentication.
+In this final phase of deploying high availability federated authentication for Office 365 in Azure infrastructure services, you get and install a certificate issued by a public certification authority, verify your configuration, and then install and run Azure AD Connect on the directory synchronization server. Azure AD Connect configures your Office 365 subscription and your Active Directory Federation Services (AD FS) and web application proxy servers for federated authentication.
   
 See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
-## Get a public certificate and copy it to the DirSync server
+## Get a public certificate and copy it to the directory synchronization server
 
 Get a digital certificate from a public certification authority with the following properties:
   
@@ -36,7 +36,7 @@ Additionally, your organization computers and devices must trust the public cert
   
 For more information about certificate requirements for federated authentication, see [Prerequisites for federation installation and configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-prerequisites#prerequisites-for-federation-installation-and-configuration).
   
-When you receive the certificate, copy it to a folder on the C: drive of the DirSync server. For example, name the file SSL.pfx and store it in the C:\\Certs folder on the DirSync server.
+When you receive the certificate, copy it to a folder on the C: drive of the directory synchronization server. For example, name the file SSL.pfx and store it in the C:\\Certs folder on the directory synchronization server.
   
 ## Verify your configuration
 
@@ -52,7 +52,7 @@ You should now be ready to configure Azure AD Connect and federated authenticati
     
 - A private DNS A record for your federation service FQDN points to the private IP address of the internal Azure load balancer for the AD FS servers.
     
-- A public certification authority-isssued digital certificate suitable for SSL connections with the SAN set to your federation service FQDN is a PFX file stored on your DirSync server.
+- A public certification authority-isssued digital certificate suitable for SSL connections with the SAN set to your federation service FQDN is a PFX file stored on your directory synchronization server.
     
 - The root certificate for the public certification authority is installed in the Trusted Root Certification Authorities store on your computers and devices.
     
@@ -66,9 +66,9 @@ Here is an example for the Contoso organization:
 
 The Azure AD Connect tool configures the AD FS servers, the web application proxy servers, and Office 365 for federated authentication with these steps:
   
-1. Create a remote desktop connection to your DirSync server with a domain account that has local administrator privileges.
+1. Create a remote desktop connection to your directory synchronization server with a domain account that has local administrator privileges.
     
-2. From the desktop of the DirSync server, open Internet Explorer and go to [https://aka.ms/aadconnect](https://aka.ms/aadconnect).
+2. From the desktop of the directory synchronization server, open Internet Explorer and go to [https://aka.ms/aadconnect](https://aka.ms/aadconnect).
     
 3. On the **Microsoft Azure Active Directory Connect** page, click **Download**, and then click **Run**.
     

@@ -36,11 +36,11 @@ Remote Windows PowerShell lets you manage your Exchange Online settings from the
     
   - Windows Server 2008 R2 SP1*
     
-    * You need to install the .NET Framework 4.5.1 or the .NET Framework 4.5 and then either the Windows Management Framework 4.0 or the Windows Management Framework 3.0 . For more information, see the following resources:
+    \* You need to install the .NET Framework 4.5.1 or the .NET Framework 4.5 and then either the Windows Management Framework 4.0 or the Windows Management Framework 3.0 . For more information, see the following resources:
     
-  - [Installing the .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=257868)
+    - [Installing the .NET Framework](https://go.microsoft.com/fwlink/p/?LinkId=257868)
     
-  - [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757) or[Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344)
+    - [Windows Management Framework 3.0](https://go.microsoft.com/fwlink/p/?LinkId=272757) or [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/p/?LinkId=391344)
     
 - For information about keyboard shortcuts that might apply to the procedures in this topic, see [Keyboard shortcuts in the Exchange admin center](https://go.microsoft.com/fwlink/p/?LinkId=534017).
     
