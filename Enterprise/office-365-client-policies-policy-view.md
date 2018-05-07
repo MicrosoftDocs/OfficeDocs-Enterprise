@@ -23,14 +23,14 @@ With Azure Active Directory (Azure AD) conditional access, you can control how a
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
-| ![Excel icon](images/o365-excel-40x40.png) Excel | ? | ? | ? | ? | ? | ? | ? |
+| [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> Excel | ? | ? | ? | ? | ? | ? | ? |
 | Flow | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
 | MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | OneDrive for Business | ? | ? | ? | ? | ? | ? | ? |
-| OneNote | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> OneNote | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | Power Apps | ? | ? | ? | ? | ? | ? | ? |
