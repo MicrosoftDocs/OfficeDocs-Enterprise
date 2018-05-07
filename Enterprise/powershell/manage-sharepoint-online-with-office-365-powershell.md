@@ -32,9 +32,7 @@ One of the primary tasks of any SharePoint Online administrator is managing site
     
 ## See also
 
-#### 
+- [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
 
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-  
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+- [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
 
