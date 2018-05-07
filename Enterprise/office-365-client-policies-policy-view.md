@@ -51,7 +51,7 @@ With Azure Active Directory (Azure AD) conditional access, you can control how a
 | Word | ? | ? | ? | ? | ? | ? | ? |
 
 ## Certificate-Based Authentication (CBA)
-Text about certificate-based authentication
+Text about policy, learn more link.
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -69,3 +69,39 @@ Text about certificate-based authentication
 | Teams | ? | ? | ? | ? | ? | ? | ? |
 | Visio | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
+
+## Classification and policy tips (DLP)
+Text about policy, learn more link.
+
+## Encrypt and restrict content
+Text about policy, learn more link.
+
+## Encryption in transit (TLS 1.2)
+Text about policy, learn more link.
+
+## FUll IPv6 support
+Text about policy, learn more link.
+
+## Full single sign-on
+Text about policy, learn more link.
+
+## Location and MFA-based conditional access
+Text about policy, learn more link.
+
+## Multi-identity Mobile Application Management (MAM)
+Text about policy, learn more link.
+
+## Per-user multi-factor authentication (MFA)
+Text about policy, learn more link.
+
+## Prevent data leakage with Mobile Application Management (MAM)
+Text about policy, learn more link.
+
+## Prevent data leakage with Windows Information Protection (WIP)
+Text about policy, learn more link.
+
+## View and apply labels
+Text about policy, learn more link.
+
+## View encrypted and restricted content
+Text about policy, learn more link.
