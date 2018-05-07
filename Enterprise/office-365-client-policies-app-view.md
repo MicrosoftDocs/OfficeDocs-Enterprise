@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: 
 ms.custom: 
 ms.assetid: 
-description: "Summary: Understand the Office 365 client policies that are supported by Android, browsers, iOS, Mac OS x, Windows, and Windows Mobile."
+description: "Summary: Understand the Office 365 client policies that are supported by Android, browsers, iOS, Mac OS X, Windows, and Windows Mobile."
 ---
 
 # Introduction
@@ -20,7 +20,7 @@ Use the following lists to determine which Office 365 client policies are suppor
 ## Delve
 Use Delve to see what you and your colleagues are working on across Office 365. Based on who you work with and how you work together, Delve suggests documents that are relevant to you. Learn more about [Delve](https://support.office.com/en-us/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca).
 
-|**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows Mobile 10**|**Windows 10 Modern Apps**|
+|**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Per-User Multi-Factor Authentication (MFA) | ? | ? | ? | ? | ? | ? | ? |
 | Certificate-Based Authentication (CBA) | ? | ? | ? | ? | ? | ? | ? |
@@ -38,7 +38,7 @@ Use Delve to see what you and your colleagues are working on across Office 365. 
 | Full IPv6 support | ? | ? | ? | ? | ? | ? | ? |
 
 ## Excel
-Intro text and more info link.
+Excel spreadsheets look better than ever on your tablet and phone. When you edit or create spreadsheets, you can be confident they will look exactly how you want across PC, Mac, tablet, and phone. Excel has the familiar Office look and feel along with an intuitive touch experience, so you’ll be up and running in no time. Learn more about [Excel](https://support.office.com/en-us/excel).
 
 ## Flow
 Intro text and more info link.
