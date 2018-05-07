@@ -23,7 +23,7 @@ With Azure Active Directory (Azure AD) conditional access, you can control how a
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
-| Excel | ? | ? | ? | ? | ? | ? | ? |
+| ![Excel icon](images/o365-excel-40x40.png) Excel | ? | ? | ? | ? | ? | ? | ? |
 | Flow | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
 | MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
