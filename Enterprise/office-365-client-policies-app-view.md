@@ -4,17 +4,20 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 ms.date: 5/4/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: 
-ms.custom: 
-ms.assetid: 
+ms.service: Office 365 Administration
+localization_priority: None
+ms.collection: Strat_O365_Enterprise
 description: "Summary: Understand the Office 365 client policies that are supported by Android, browsers, iOS, Mac OS X, Windows, and Windows Mobile."
 ---
 
 # Office 365 Client Policies - Client and App View
+**Want to change the view of this information? Select a different view below:**
+> [!div class="op_single_selector"] 
+> - [Client & App view](office-365-client-policies-app-view.md)
+> - [Policy view](office-365-client-policies-policy-view.md)
+
 Use the following lists to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
 ## Delve
