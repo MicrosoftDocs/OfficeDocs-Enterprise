@@ -116,7 +116,7 @@ If you receive errors, check the following requirements:
 <a name="ConnectV2"> </a>
 ## Connect with the Azure Active Directory PowerShell for Graph module
 
-Commands in the [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) module have "AzureAD" in their cmdlet name.
+Commands in the [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) module have **AzureAD** in their cmdlet name.
 
 For procedures that require the new cmdlets in the Azure Active Directory PowerShell for Graph module, use these steps to install the module and connect to your Office 365 subscription.
 

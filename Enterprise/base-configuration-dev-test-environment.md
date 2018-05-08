@@ -160,7 +160,7 @@ Next, connect to the DC1 virtual machine.
 
 1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [the name of your new resource group] **> DC1 > Connect**.
     
-2. Open the DC1.rdp file that is downloaded, and then click **Connect**.
+2. In the open pane, click **Download RDP file**. Open the DC1.rdp file that is downloaded, and then click **Connect**.
     
 3. Specify the DC1 local administrator account name:
     
