@@ -25,10 +25,10 @@ Use Delve to see what you and your colleagues are working on across Office 365. 
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
-| Per-User Multi-Factor Authentication (MFA) | ? | ? | ? | ? | ? | ? | ? |
-| Certificate-Based Authentication (CBA) | ? | ? | ? | ? | ? | ? | ? |
-| Full Single Sign On | ? | ? | ? | ? | ? | ? | ? |
-| Device-Based Conditional Access | ? | ? | ? | ? | ? | ? | ? |
+| [Per-user multi-factor authentication (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) | ? | ? | ? | ? | ? | ? | ? |
+| [Certificate-based authentication (CBA)](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started) | ? | ? | ? | ? | ? | ? | ? |
+| [Full single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) | ? | ? | ? | ? | ? | ? | ? |
+| [Device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications) | ? | ? | ? | ? | ? | ? | ? |
 | Location and MFA-Based Conditional Access | ? | ? | ? | ? | ? | ? | ? |
 | Classification and Policy Tips (DLP) | ? | ? | ? | ? | ? | ? | ? |
 | View and Apply Labels | ? | ? | ? | ? | ? | ? | ? |
@@ -44,16 +44,16 @@ Use Delve to see what you and your colleagues are working on across Office 365. 
 Excel spreadsheets look better than ever on your tablet and phone. When you edit or create spreadsheets, you can be confident they will look exactly how you want across PC, Mac, tablet, and phone. Excel has the familiar Office look and feel along with an intuitive touch experience, so you’ll be up and running in no time. Learn more about [Excel](https://support.office.com/en-us/excel).
 
 ## Flow
-Intro text and more info link.
+Microsoft Flow is an online workflow service that enables you to work smarter and more efficiently by automating workflows across the most common apps and services. You can use Microsoft Flow to automate workflows between your favorite applications and services, synchronize files, get notifications, collect data, and more.
 
 ## Forms
-Intro text and more info link.
+With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see results as they come in. When you create a quiz or form, you can invite others to respond to it using any web browser, even on mobile devices. As results are submitted, you can use built-in analytics to evaluate responses. Form data, such as quiz results, can be easily exported to Excel for additional analysis or grading. Learn more about [Forms](https://support.office.com/en-us/forms).
 
 ## Kaizala
-Intro text and more info link.
+Microsoft Kaizala makes it easy to connect and coordinate with your Firstline workers – wherever they are – using a simple-to-use chat interface. Efficiently manage work or collect data from individuals or large groups, even if they’re not in your organization. View built-in reports to get insights for faster decision making. Kaizala is available with Office 365 and works on iPhone and Android phone. Learn more about [Kaizala](https://products.office.com/business/microsoft-kaizala).
 
 ## MyAnalytics
-Intro text and more info link.
+MyAnalytics summarizes how you spend your time at work, then suggests ways to work smarter – from cutting unproductive meeting time to getting better work/life balance. Learn more about [MyAnalytics](https://products.office.com/en-us/business/myanalytics-personal-analytics).
 
 ## Office 365 Admin
 Intro text and more info link.
@@ -65,7 +65,7 @@ Intro text and more info link.
 Intro text and more info link.
 
 ## OneNote
-Intro text and more info link.
+All your notes, on all your devices, all up to date. OneNote is a digital notebook for capturing, storing, and sharing all kinds of information. Full integration with the cloud means you can free your files from your computer hard drive so your notes and information are saved and searchable wherever you go, on nearly any mobile device, tablet, or browser.
 
 ## Outlook
 Intro text and more info link.
