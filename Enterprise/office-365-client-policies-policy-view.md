@@ -27,24 +27,24 @@ Multi-factor authentication (MFA) is a method of computer access control in whic
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -56,24 +56,24 @@ Certificate-based authentication (CBA) is the use of a digital certificate to id
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -85,24 +85,24 @@ Single sign-on allows users to sign in to both cloud and on-premises resources b
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -114,24 +114,24 @@ Azure Active Directory enables single sign-on to devices, apps, and services fro
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -145,24 +145,24 @@ The location is identified by the IP address of the client you have used to conn
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -174,24 +174,24 @@ To comply with business standards and industry regulations, organizations need t
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -203,24 +203,24 @@ Text about policy, learn more link.
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -232,24 +232,24 @@ Office 365 Information Rights Management (IRM) and Office 365 Message Encryption
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -261,24 +261,24 @@ Text about policy, learn more link.
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -290,24 +290,24 @@ Windows Information Protection (WIP), previously known as enterprise data protec
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -319,24 +319,24 @@ Mobile application management leveraging the suite of Intune management features
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -350,24 +350,24 @@ When a user installs and signs into an app that supports multi-identity on an In
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -381,24 +381,24 @@ Encryption is a security mechanism where the principal goal is to transform the 
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
@@ -410,24 +410,24 @@ Office 365 supports both IPv6 and IPv4; however, not all Office 365 features are
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
 | Delve | ? | ? | ? | ? | ? | ? | ? |
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
-| Flow | ? | ? | ? | ? | ? | ? | ? |
+| [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
-| MyAnalytics | ? | ? | ? | ? | ? | ? | ? |
+| [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
 | ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
-| Power Apps | ? | ? | ? | ? | ? | ? | ? |
-| Power BI | ? | ? | ? | ? | ? | ? | ? |
+| [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
+| [Power BI](https://docs.microsoft.com/power-bi/) | ? | ? | ? | ? | ? | ? | ? |
 | [![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) | ? | ? | ? | ? | ? | ? | ? |
 | Project | ? | ? | ? | ? | ? | ? | ? |
-| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://products.office.com/sharepoint/collaboration) <br> [SharePoint](https://products.office.com/sharepoint/collaboration) | ? | ? | ? | ? | ? | ? | ? |
-| [![Skype icon](images/o365-sharepoint-30x30.png)](https://products.office.com/skype-for-business/online-meetings) <br> [Skype for Business](https://products.office.com/skype-for-business/online-meetings) | ? | ? | ? | ? | ? | ? | ? |
-| Stream | ? | ? | ? | ? | ? | ? | ? |
-| Teams | ? | ? | ? | ? | ? | ? | ? |
-| To Do | ? | ? | ? | ? | ? | ? | ? |
+| [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
+| [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
+| To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
 | Word | ? | ? | ? | ? | ? | ? | ? |
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
