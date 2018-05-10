@@ -120,6 +120,26 @@ Microsoft Kaizala makes it easy to connect and coordinate with your Firstline wo
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
+##Lens
+Office Lens is the new camera built into OneNote for iPad or iPhone that lets you take pictures of whiteboards or printed documents, then enhances your photo by cropping, sharpening, and straightening it, so it looks almost like a scanned image. Learn more about [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3).
+
+|**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
+|:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
+| [Per-user multi-factor authentication (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) | ? | ? | ? | ? | ? | ? | ? |
+| [Certificate-based authentication (CBA)](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started) | ? | ? | ? | ? | ? | ? | ? |
+| [Full single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) | ? | ? | ? | ? | ? | ? | ? |
+| [Device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications) | ? | ? | ? | ? | ? | ? | ? |
+| [Location and MFA-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-locations) | ? | ? | ? | ? | ? | ? | ? |
+| [Classification and policy tips (DLP)](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) | ? | ? | ? | ? | ? | ? | ? |
+| View and Apply Labels | ? | ? | ? | ? | ? | ? | ? |
+| [View Encrypted and Restricted Content](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-azure-rms) | ? | ? | ? | ? | ? | ? | ? |
+| Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
+| [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
+| [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
+
 ## MyAnalytics
 Microsoft MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. Users obtain these benefits after an administrator sets up MyAnalytics within the organization. Learn more about [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page).
 
@@ -360,8 +380,48 @@ Microsoft Skype for Business Online is a communications service that connects pe
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
+## StaffHub
+Microsoft StaffHub is an application for Office 365 designed to help staff workers manage their workday—with schedule management, information sharing and the ability to connect to other work-related apps and resources. Learn more about [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software).
+
+|**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
+|:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
+| [Per-user multi-factor authentication (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) | ? | ? | ? | ? | ? | ? | ? |
+| [Certificate-based authentication (CBA)](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started) | ? | ? | ? | ? | ? | ? | ? |
+| [Full single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) | ? | ? | ? | ? | ? | ? | ? |
+| [Device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications) | ? | ? | ? | ? | ? | ? | ? |
+| [Location and MFA-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-locations) | ? | ? | ? | ? | ? | ? | ? |
+| [Classification and policy tips (DLP)](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) | ? | ? | ? | ? | ? | ? | ? |
+| View and Apply Labels | ? | ? | ? | ? | ? | ? | ? |
+| [View Encrypted and Restricted Content](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-azure-rms) | ? | ? | ? | ? | ? | ? | ? |
+| Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
+| [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
+| [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
+
 ## Stream
 Microsoft Stream is an Enterprise Video service where people in your organization can upload, view, and share videos securely. You can share recordings of classes, meetings, presentations, training sessions, or other videos that aid your team's collaboration. Microsoft Stream also makes it easy to share comments on a video, tag timecodes in comments and descriptions to refer to specific points in a video and discuss with colleagues. Learn more about [Microsoft Stream](https://docs.microsoft.com/stream/).
+
+|**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
+|:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
+| [Per-user multi-factor authentication (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) | ? | ? | ? | ? | ? | ? | ? |
+| [Certificate-based authentication (CBA)](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started) | ? | ? | ? | ? | ? | ? | ? |
+| [Full single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) | ? | ? | ? | ? | ? | ? | ? |
+| [Device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications) | ? | ? | ? | ? | ? | ? | ? |
+| [Location and MFA-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-locations) | ? | ? | ? | ? | ? | ? | ? |
+| [Classification and policy tips (DLP)](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) | ? | ? | ? | ? | ? | ? | ? |
+| View and Apply Labels | ? | ? | ? | ? | ? | ? | ? |
+| [View Encrypted and Restricted Content](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-azure-rms) | ? | ? | ? | ? | ? | ? | ? |
+| Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
+| [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
+| [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
+
+## Sway
+Microsoft Sway is an easy-to-use digital storytelling app for creating interactive reports, presentations, personal stories and more. Its built-in design engine helps you create professional designs in minutes. Learn more about [Sway](https://sway.com/).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -442,6 +502,26 @@ Microsoft Visio makes it easy and intuitive to create flowcharts, network diagra
 
 ## Word
 Create and share professional-looking documents in Microsoft Word with state-of-the-art-editing, reviewing, and sharing tools. Learn more about [Word](https://products.office.com/word).
+
+|**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
+|:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
+| [Per-user multi-factor authentication (MFA)](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) | ? | ? | ? | ? | ? | ? | ? |
+| [Certificate-based authentication (CBA)](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started) | ? | ? | ? | ? | ? | ? | ? |
+| [Full single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin) | ? | ? | ? | ? | ? | ? | ? |
+| [Device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications) | ? | ? | ? | ? | ? | ? | ? |
+| [Location and MFA-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-locations) | ? | ? | ? | ? | ? | ? | ? |
+| [Classification and policy tips (DLP)](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e) | ? | ? | ? | ? | ? | ? | ? |
+| View and Apply Labels | ? | ? | ? | ? | ? | ? | ? |
+| [View Encrypted and Restricted Content](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-azure-rms) | ? | ? | ? | ? | ? | ? | ? |
+| Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
+| [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
+| [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
+| [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
+
+## Yammer
+Yammer is a collaboration tool that helps you connect and engage across the company. Start conversations, share knowledge, and build communities.. Learn more about [Yammer](https://products.office.com/yammer/yammer-overview).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
