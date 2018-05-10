@@ -108,7 +108,7 @@ Single sign-on allows users to sign in to both cloud and on-premises resources b
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Device-based conditional access
-Azure Active Directory enables single sign-on to devices, apps, and services from anywhere. For certain resources in your environment, granting access to the right users might not be good enough. In addition to the right users, you also might require that access attempts can only be performed using a managed device. Learn more about [device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications).
+Microsoft Azure Active Directory (Azure AD) enables single sign-on to devices, apps, and services from anywhere. For certain resources in your environment, granting access to the right users might not be good enough. In addition to the right users, you also might require that access attempts can only be performed using a managed device. Learn more about [device-based conditional access](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -226,7 +226,7 @@ Text about policy, learn more link.
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## View encrypted and restricted content
-Office 365 Information Rights Management (IRM) and Office 365 Message Encryption (OME) allow you to safeguard sensitive email communications and documents with industry leading encryption and usage rights management policies that are enforced regardless where the content flows. Learn more about [Office 365 IRM](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-azure-rms) and [Office 365 OME](https://support.office.com/article/email-encryption-in-office-365-c0d87cbe-6d65-4c03-88ad-5216ea5564e8?ui=en-US&rs=en-US&ad=US).
+Microsoft Office 365 Information Rights Management (IRM) and Office 365 Message Encryption (OME) allow you to safeguard sensitive email communications and documents with industry leading encryption and usage rights management policies that are enforced regardless where the content flows. Learn more about [Office 365 IRM](https://docs.microsoft.com/azure/information-protection/understand-explore/what-is-azure-rms) and [Office 365 OME](https://support.office.com/article/email-encryption-in-office-365-c0d87cbe-6d65-4c03-88ad-5216ea5564e8?ui=en-US&rs=en-US&ad=US).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -284,7 +284,7 @@ Text about policy, learn more link.
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Prevent data leakage with Windows Information Protection (WIP)
-Windows Information Protection (WIP), previously known as enterprise data protection (EDP), helps to protect against this potential data leakage without otherwise interfering with the employee experience. WIP also helps to protect enterprise apps and data against accidental data leak on enterprise-owned devices and personal devices that employees bring to work without requiring changes to your environment or other apps. Learn more about [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
+Microsoft Windows Information Protection (WIP), previously known as enterprise data protection (EDP), helps to protect against this potential data leakage without otherwise interfering with the employee experience. WIP also helps to protect enterprise apps and data against accidental data leak on enterprise-owned devices and personal devices that employees bring to work without requiring changes to your environment or other apps. Learn more about [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -404,7 +404,7 @@ Encryption is a security mechanism where the principal goal is to transform the 
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Full IPv6 support
-Office 365 supports both IPv6 and IPv4; however, not all Office 365 features are fully enabled with IPv6. This means that you must use both IPv4 and IPv6 to connect to Office 365. If you are filtering your outbound traffic to Office 365, the full list of IPv6 addresses that are supported by Office 365 can be found in the article Office 365 URLs and IP address ranges. After your network is configured and the appropriate IPv6 addresses are allowed, you can download the Office 365 IPv6 test plan from the Microsoft Download Center.
+Microsoft Office 365 supports both IPv6 and IPv4; however, not all Office 365 features are fully enabled with IPv6. This means that you must use both IPv4 and IPv6 to connect to Office 365. If you are filtering your outbound traffic to Office 365, the full list of IPv6 addresses that are supported by Office 365 can be found in the article Office 365 URLs and IP address ranges. After your network is configured and the appropriate IPv6 addresses are allowed, you can download the Office 365 IPv6 test plan from the Microsoft Download Center.
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
