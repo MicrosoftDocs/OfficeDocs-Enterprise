@@ -29,6 +29,7 @@ Multi-factor authentication (MFA) is a method of computer access control in whic
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -42,7 +43,9 @@ Multi-factor authentication (MFA) is a method of computer access control in whic
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -58,6 +61,7 @@ Certificate-based authentication (CBA) is the use of a digital certificate to id
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -71,7 +75,9 @@ Certificate-based authentication (CBA) is the use of a digital certificate to id
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -87,6 +93,7 @@ Single sign-on allows users to sign in to both cloud and on-premises resources b
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -100,7 +107,9 @@ Single sign-on allows users to sign in to both cloud and on-premises resources b
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -116,6 +125,7 @@ Microsoft Azure Active Directory (Azure AD) enables single sign-on to devices, a
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -129,7 +139,9 @@ Microsoft Azure Active Directory (Azure AD) enables single sign-on to devices, a
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -147,6 +159,7 @@ The location is identified by the IP address of the client you have used to conn
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -160,7 +173,9 @@ The location is identified by the IP address of the client you have used to conn
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -176,6 +191,7 @@ To comply with business standards and industry regulations, organizations need t
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -189,7 +205,9 @@ To comply with business standards and industry regulations, organizations need t
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -205,6 +223,7 @@ Text about policy, learn more link.
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -218,7 +237,9 @@ Text about policy, learn more link.
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -234,6 +255,7 @@ Microsoft Office 365 Information Rights Management (IRM) and Office 365 Message 
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -247,7 +269,9 @@ Microsoft Office 365 Information Rights Management (IRM) and Office 365 Message 
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -263,6 +287,7 @@ Text about policy, learn more link.
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -276,7 +301,9 @@ Text about policy, learn more link.
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -292,6 +319,7 @@ Microsoft Windows Information Protection (WIP), previously known as enterprise d
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -305,7 +333,9 @@ Microsoft Windows Information Protection (WIP), previously known as enterprise d
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -321,6 +351,7 @@ Mobile application management leveraging the suite of Intune management features
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -334,7 +365,9 @@ Mobile application management leveraging the suite of Intune management features
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -350,6 +383,7 @@ The multi-identity MAM feature helps solve the data protection problem that orga
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -363,7 +397,9 @@ The multi-identity MAM feature helps solve the data protection problem that orga
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -379,6 +415,7 @@ Encrypting customer data in-transit provides protections from third parties snoo
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -392,7 +429,9 @@ Encrypting customer data in-transit provides protections from third parties snoo
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
@@ -408,6 +447,7 @@ Microsoft Office 365 supports both IPv6 and IPv4; however, not all Office 365 fe
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel) | ? | ? | ? | ? | ? | ? | ? |
 | [Flow](https://docs.microsoft.com/flow/) | ? | ? | ? | ? | ? | ? | ? |
 | Kaizala | ? | ? | ? | ? | ? | ? | ? |
+| [Lens](https://support.office.com/article/what-is-office-lens-f5f6b88d-356f-4037-b7e8-49f34be86db3) | ? | ? | ? | ? | ? | ? | ? |
 | [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page) | ? | ? | ? | ? | ? | ? | ? |
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
@@ -421,7 +461,9 @@ Microsoft Office 365 supports both IPv6 and IPv4; however, not all Office 365 fe
 | Project | ? | ? | ? | ? | ? | ? | ? |
 | [![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | ? | ? | ? | ? | ? | ? | ? |
 | [![Skype icon](images/o365-skype-30x30.png)](https://docs.microsoft.com/skypeforbusiness/) <br> [Skype for Business](https://docs.microsoft.com/skypeforbusiness/) | ? | ? | ? | ? | ? | ? | ? |
+| [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ? | ? | ? | ? | ? | ? | ? |
 | [Stream](https://docs.microsoft.com/stream/) | ? | ? | ? | ? | ? | ? | ? |
+| [Sway](https://sway.com/) | ? | ? | ? | ? | ? | ? | ? |
 | [Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams) | ? | ? | ? | ? | ? | ? | ? |
 | To-Do | ? | ? | ? | ? | ? | ? | ? |
 | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software) | ? | ? | ? | ? | ? | ? | ? |
