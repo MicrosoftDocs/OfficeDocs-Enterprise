@@ -21,7 +21,7 @@ description: "Summary: Understand the Office 365 client policies that are suppor
 Use the following tables to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
 ## Per-user multi-factor authentication (MFA)
-Multi-factor authentication (MFA) is a method of computer access control in which a user is granted access only after successfully presenting several separate pieces of evidence to an authentication mechanism – typically at least two of the following categories: knowledge (something they know), possession (something they have), and inherence (something they are). Learn more about per-user multi-factor authentication link.
+Multi-factor authentication (MFA) is a method of computer access control in which a user is granted access only after successfully presenting several separate pieces of evidence to an authentication mechanism – typically at least two of the following categories: knowledge (something they know), possession (something they have), and inherence (something they are). Learn more about [per-user multi-factor authentication](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -33,7 +33,7 @@ Multi-factor authentication (MFA) is a method of computer access control in whic
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -62,7 +62,7 @@ Certificate-based authentication (CBA) is the use of a digital certificate to id
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -91,7 +91,7 @@ Single sign-on allows users to sign in to both cloud and on-premises resources b
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -120,7 +120,7 @@ Microsoft Azure Active Directory (Azure AD) enables single sign-on to devices, a
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -151,7 +151,7 @@ The location is identified by the IP address of the client you have used to conn
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -180,7 +180,7 @@ To comply with business standards and industry regulations, organizations need t
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -209,7 +209,7 @@ Text about policy, learn more link.
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -238,7 +238,7 @@ Microsoft Office 365 Information Rights Management (IRM) and Office 365 Message 
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -267,7 +267,7 @@ Text about policy, learn more link.
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -296,7 +296,7 @@ Microsoft Windows Information Protection (WIP), previously known as enterprise d
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -325,7 +325,7 @@ Mobile application management leveraging the suite of Intune management features
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -342,9 +342,7 @@ Mobile application management leveraging the suite of Intune management features
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Multi-identity mobile application management (MAM)
-Many users access both corporate and personal email accounts in the Outlook app for iOS and Android. When a user is accessing data in their corporate account, the IT pro needs to be confident that MAM policy management will be applied and help protect this corporate data. However, when a user is accessing a personal email account that data should be outside of IT’s control. Intune achieves this by targeting the management policy to only the corporate account in the application. The multi-identity feature helps solve the data protection problem that organizations are facing with devices and apps that support both personal and work accounts while maintaining the end user’s experience and the privacy of his/her personal data.
-
-When a user installs and signs into an app that supports multi-identity on an Intune-managed device, Intune will check if the new account matches the enrolled, managed account on the device. If the account is managed, and there is also a MAM policy for the app and the user, then the MAM policy settings protect data in that account. When the user adds personal accounts to the app as well, those accounts will exist outside of Intune management and protection. This enables personal use of the application without compromising corporate protection.
+The multi-identity MAM feature helps solve the data protection problem that organizations are facing with devices and apps that support both personal and work accounts while maintaining the end user’s experience and the privacy of his/her personal data. When a user installs and signs into an app that supports multi-identity on an Intune-managed device, Intune will check if the new account matches the enrolled, managed account on the device. If the account is managed, and there is also a MAM policy for the app and the user, then the MAM policy settings protect data in that account. When the user adds personal accounts to the app as well, those accounts will exist outside of Intune management and protection. This enables personal use of the application without compromising corporate protection. Learn more about [multi-identity MAM](https://docs.microsoft.com/intune/app-protection-policy).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -356,7 +354,7 @@ When a user installs and signs into an app that supports multi-identity on an In
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -373,9 +371,7 @@ When a user installs and signs into an app that supports multi-identity on an In
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Encryption in transit (TLS 1.2)
-Encrypting customer data in-transit provides protections from third parties snooping on, monitoring, or modifying the content. To provide customers assurance that their content remains private, customer data must be encrypted anytime it travels outside the trusted boundary of any Microsoft datacenter. This requirement includes encrypting customer data in-transit between the client and Microsoft, between Microsoft datacenters, and between clients. 
-
-Encryption is a security mechanism where the principal goal is to transform the information in such a way that any unauthorized people or applications cannot read the original information. Encryption is important because it allows you to securely protect data that you don't want anyone else to have access to. Businesses use it to protect corporate secrets, governments use it to secure classified information, and many individuals use it to protect personal information to guard against things like identity theft. 
+Encrypting customer data in-transit provides protections from third parties snooping on, monitoring, or modifying the content. To provide customers assurance that their content remains private, customer data must be encrypted anytime it travels outside the trusted boundary of any Microsoft datacenter. This requirement includes encrypting customer data in-transit between the client and Microsoft, between Microsoft datacenters, and between clients. Learn more about [encryption in-transit](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -387,7 +383,7 @@ Encryption is a security mechanism where the principal goal is to transform the 
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |
@@ -404,7 +400,7 @@ Encryption is a security mechanism where the principal goal is to transform the 
 | [![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview)) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Full IPv6 support
-Microsoft Office 365 supports both IPv6 and IPv4; however, not all Office 365 features are fully enabled with IPv6. This means that you must use both IPv4 and IPv6 to connect to Office 365. If you are filtering your outbound traffic to Office 365, the full list of IPv6 addresses that are supported by Office 365 can be found in the article Office 365 URLs and IP address ranges. After your network is configured and the appropriate IPv6 addresses are allowed, you can download the Office 365 IPv6 test plan from the Microsoft Download Center.
+Microsoft Office 365 supports both IPv6 and IPv4; however, not all Office 365 features are fully enabled with IPv6. This means that you must use both IPv4 and IPv6 to connect to Office 365. If you are filtering your outbound traffic to Office 365, the full list of IPv6 addresses that are supported by Office 365 can be found in the article Office 365 URLs and IP address ranges. Learn more about [IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815).
 
 |**Client**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -416,7 +412,7 @@ Microsoft Office 365 supports both IPv6 and IPv4; however, not all Office 365 fe
 | Office 365 Admin | ? | ? | ? | ? | ? | ? | ? |
 | Office.com | ? | ? | ? | ? | ? | ? | ? |
 | [![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive for Business](https://onedrive.live.com/about/business/) | ? | ? | ? | ? | ? | ? | ? |
-| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/en-us/onenote) | ? | ? | ? | ? | ? | ? | ? |
+| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) | ? | ? | ? | ? | ? | ? | ? |
 | Outlook | ? | ? | ? | ? | ? | ? | ? |
 | Planner | ? | ? | ? | ? | ? | ? | ? |
 | [Power Apps](https://docs.microsoft.com/powerapps/) | ? | ? | ? | ? | ? | ? | ? |

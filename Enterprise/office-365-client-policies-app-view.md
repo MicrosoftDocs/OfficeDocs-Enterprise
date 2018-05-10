@@ -21,7 +21,7 @@ description: "Summary: Understand the Office 365 client policies that are suppor
 Use the following lists to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
 ## Delve
-Use Microsoft Delve to see what you and your colleagues are working on across Office 365. Based on who you work with and how you work together, Delve suggests documents that are relevant to you. Learn more about [Delve](https://support.office.com/en-us/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca).
+Use Microsoft Delve to see what you and your colleagues are working on across Office 365. Based on who you work with and how you work together, Delve suggests documents that are relevant to you. Learn more about [Delve](https://support.office.com/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -36,12 +36,12 @@ Use Microsoft Delve to see what you and your colleagues are working on across Of
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Excel
-Microsoft Excel spreadsheets look better than ever on your tablet and phone. When you edit or create spreadsheets, you can be confident they will look exactly how you want across PC, Mac, tablet, and phone. Excel has the familiar Office look and feel along with an intuitive touch experience, so you’ll be up and running in no time. Learn more about [Excel](https://support.office.com/en-us/excel).
+Microsoft Excel, with updated data analysis tools and spreadsheet templates, can help you track and visualize data for better management and insight of large amounts of information. When you edit or create spreadsheets, you can be confident they will look exactly how you want across PC, Mac, tablet, and phone. Learn more about [Excel](https://support.office.com/excel).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -56,12 +56,12 @@ Microsoft Excel spreadsheets look better than ever on your tablet and phone. Whe
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Flow
-Microsoft Flow is an online workflow service that enables you to work smarter and more efficiently by automating workflows across the most common apps and services. You can use Microsoft Flow to automate workflows between your favorite applications and services, synchronize files, get notifications, collect data, and more.
+Microsoft Flow is an online workflow service that enables you to work smarter and more efficiently by automating workflows across the most common apps and services. You can use Microsoft Flow to automate workflows between your favorite applications and services, synchronize files, get notifications, collect data, and more. Learn more about [Flow](https://docs.microsoft.com/flow/).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -76,12 +76,12 @@ Microsoft Flow is an online workflow service that enables you to work smarter an
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Forms
-With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see results as they come in. When you create a quiz or form, you can invite others to respond to it using any web browser, even on mobile devices. As results are submitted, you can use built-in analytics to evaluate responses. Form data, such as quiz results, can be easily exported to Excel for additional analysis or grading. Learn more about [Forms](https://support.office.com/en-us/forms).
+With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see results as they come in. When you create a quiz or form, you can invite others to respond to it using any web browser, even on mobile devices. As results are submitted, you can use built-in analytics to evaluate responses. Form data, such as quiz results, can be easily exported to Excel for additional analysis or grading. Learn more about [Forms](https://support.office.com/forms).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -96,7 +96,7 @@ With Microsoft Forms, you can create surveys, quizzes, and polls, and easily see
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -116,7 +116,7 @@ Microsoft Kaizala makes it easy to connect and coordinate with your Firstline wo
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -136,7 +136,7 @@ Microsoft MyAnalytics provides insight into two of the key factors in personal p
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -156,7 +156,7 @@ Microsoft Office 365 is a cloud-based subscription service that brings together 
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -176,7 +176,7 @@ Collaborate for free with online versions of Microsoft Word, PowerPoint, Excel, 
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -196,12 +196,12 @@ Store, sync, and share work files in the cloud using Microsoft OneDrive for Busi
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## OneNote
-Microsoft OneNote is a digital notebook for capturing, storing, and sharing all kinds of information. Full integration with the cloud means you can free your files from your computer hard drive so your notes and information are saved and searchable wherever you go, on nearly any mobile device, tablet, or browser.
+Microsoft OneNote is a digital notebook for capturing, storing, and sharing all kinds of information. Full integration with the cloud means you can free your files from your computer hard drive so your notes and information are saved and searchable wherever you go, on nearly any mobile device, tablet, or browser. Learn more about [OneNote](https://support.office.com/onenote).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -216,12 +216,12 @@ Microsoft OneNote is a digital notebook for capturing, storing, and sharing all 
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Outlook
-Microsoft Outlook brings all your email, calendar events, and files together so you don't have to. With everything within reach, you can plan meetings with coworkers or share availabilities with friends in seconds. Learn more about [Outlook](https://support.office.com/en-us/article/welcome-to-outlook-com-28bac523-cc12-4b52-b13c-4436cd181edc?ui=en-US&rs=en-US&ad=US).
+Microsoft Outlook brings all your email, calendar events, and files together so you don't have to. With everything within reach, you can plan meetings with coworkers or share availabilities with friends in seconds. Learn more about [Outlook](https://support.office.com/article/welcome-to-outlook-com-28bac523-cc12-4b52-b13c-4436cd181edc?ui=en-US&rs=en-US&ad=US).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -236,12 +236,12 @@ Microsoft Outlook brings all your email, calendar events, and files together so 
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Planner
-Organize teamwork with Microsoft Planner and take the chaos out of teamwork to get more done! Planner makes it easy for your team to create new plans, organize and assign tasks, share files, chat about what you’re working on, and get updates on progress. Learn more about [Planner](https://products.office.com/en-us/business/task-management-software).
+Organize teamwork with Microsoft Planner and take the chaos out of teamwork to get more done! Planner makes it easy for your team to create new plans, organize and assign tasks, share files, chat about what you’re working on, and get updates on progress. Learn more about [Planner](https://products.office.com/business/task-management-software).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -256,7 +256,7 @@ Organize teamwork with Microsoft Planner and take the chaos out of teamwork to g
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -276,7 +276,7 @@ Microsoft PowerApps is a service that lets you build business apps that run in a
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -296,7 +296,7 @@ Microsoft Power BI amplifies your insights and the value of your data. With Powe
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -316,7 +316,7 @@ Streamline project, resource, and portfolio management with Microsoft Project to
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -336,7 +336,7 @@ Microsoft SharePoint Online in Office 365 empowers people to share and work toge
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -356,7 +356,7 @@ Microsoft Skype for Business Online is a communications service that connects pe
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -376,7 +376,7 @@ Microsoft Stream is an Enterprise Video service where people in your organizatio
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -396,11 +396,11 @@ Microsoft Teams brings together the full breadth and depth of Office 365, to pro
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
-## To Do
+## To-Do
 Microsoft To-Do helps you manage, prioritize, and complete the most important things you need to achieve every day, powered by Intelligent Suggestions and Office 365 integration. To-Do’s intelligent Suggestions make it easy to prioritize your daily tasks. Suggestions look at your to-dos across your lists and, based on a smart algorithm, recommend the most important ones for you each day. Learn more about [To-Do](https://products.office.com/microsoft-to-do-list-app).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
@@ -416,7 +416,7 @@ Microsoft To-Do helps you manage, prioritize, and complete the most important th
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -436,7 +436,7 @@ Microsoft Visio makes it easy and intuitive to create flowcharts, network diagra
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
@@ -456,6 +456,6 @@ Create and share professional-looking documents in Microsoft Word with state-of-
 | Encrypt and Restrict Content | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with WIP](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip) | ? | ? | ? | ? | ? | ? | ? |
 | [Prevent Data Leakage with MAM](https://docs.microsoft.com/intune/mam-faq) | ? | ? | ? | ? | ? | ? | ? |
-| [Multi-Identity MAM](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/fasttrack-how-to-use-apps-with-multi-identity-support) | ? | ? | ? | ? | ? | ? | ? |
+| [Multi-Identity MAM](https://docs.microsoft.com/en-us/intune/app-protection-policy) | ? | ? | ? | ? | ? | ? | ? |
 | [Encryption in Transit (TLS 1.2)](https://support.office.com/article/Encryption-in-Office-365-0A322724-08CA-43DB-B69A-AFBFA20484CD) | ? | ? | ? | ? | ? | ? | ? |
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
