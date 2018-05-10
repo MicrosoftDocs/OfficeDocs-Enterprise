@@ -21,7 +21,7 @@ description: "Summary: Understand the Office 365 client policies that are suppor
 Use the following lists to determine which Office 365 client policies are supported for individual Microsoft client applications.
 
 ## Delve
-Use Delve to see what you and your colleagues are working on across Office 365. Based on who you work with and how you work together, Delve suggests documents that are relevant to you. Learn more about [Delve](https://support.office.com/en-us/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca).
+Use Microsoft Delve to see what you and your colleagues are working on across Office 365. Based on who you work with and how you work together, Delve suggests documents that are relevant to you. Learn more about [Delve](https://support.office.com/en-us/article/What-is-Office-Delve-1315665a-c6af-4409-a28d-49f8916878ca).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -41,7 +41,7 @@ Use Delve to see what you and your colleagues are working on across Office 365. 
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Excel
-Excel spreadsheets look better than ever on your tablet and phone. When you edit or create spreadsheets, you can be confident they will look exactly how you want across PC, Mac, tablet, and phone. Excel has the familiar Office look and feel along with an intuitive touch experience, so you’ll be up and running in no time. Learn more about [Excel](https://support.office.com/en-us/excel).
+Microsoft Excel spreadsheets look better than ever on your tablet and phone. When you edit or create spreadsheets, you can be confident they will look exactly how you want across PC, Mac, tablet, and phone. Excel has the familiar Office look and feel along with an intuitive touch experience, so you’ll be up and running in no time. Learn more about [Excel](https://support.office.com/en-us/excel).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -121,7 +121,7 @@ Microsoft Kaizala makes it easy to connect and coordinate with your Firstline wo
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## MyAnalytics
-MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. Users obtain these benefits after an administrator sets up MyAnalytics within the organization. Learn more about [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page).
+Microsoft MyAnalytics provides insight into two of the key factors in personal productivity: how people spend their time and who they spend it with. Users obtain these benefits after an administrator sets up MyAnalytics within the organization. Learn more about [MyAnalytics](https://docs.microsoft.com/workplace-analytics/myanalytics/mya-landing-page).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -141,7 +141,7 @@ MyAnalytics provides insight into two of the key factors in personal productivit
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Office 365 Admin
-Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. By combining best-in-class apps like Excel and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device. Learn more about [Office 365 Admin](https://docs.microsoft.com/Office365/#pivot=home&panel=home-all).
+Microsoft Office 365 is a cloud-based subscription service that brings together the best tools for the way people work today. By combining best-in-class apps like Excel and Outlook with powerful cloud services like OneDrive and Microsoft Teams, Office 365 lets anyone create and share anywhere on any device. Learn more about [Office 365 Admin](https://docs.microsoft.com/Office365/#pivot=home&panel=home-all).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -201,7 +201,7 @@ Store, sync, and share work files in the cloud using Microsoft OneDrive for Busi
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## OneNote
-All your notes, on all your devices, all up to date. OneNote is a digital notebook for capturing, storing, and sharing all kinds of information. Full integration with the cloud means you can free your files from your computer hard drive so your notes and information are saved and searchable wherever you go, on nearly any mobile device, tablet, or browser.
+Microsoft OneNote is a digital notebook for capturing, storing, and sharing all kinds of information. Full integration with the cloud means you can free your files from your computer hard drive so your notes and information are saved and searchable wherever you go, on nearly any mobile device, tablet, or browser.
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -221,7 +221,7 @@ All your notes, on all your devices, all up to date. OneNote is a digital notebo
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Outlook
-Outlook brings all your email, calendar events, and files together so you don't have to. With everything within reach, you can plan meetings with coworkers or share availabilities with friends in seconds. Learn more about [Outlook](https://support.office.com/en-us/article/welcome-to-outlook-com-28bac523-cc12-4b52-b13c-4436cd181edc?ui=en-US&rs=en-US&ad=US).
+Microsoft Outlook brings all your email, calendar events, and files together so you don't have to. With everything within reach, you can plan meetings with coworkers or share availabilities with friends in seconds. Learn more about [Outlook](https://support.office.com/en-us/article/welcome-to-outlook-com-28bac523-cc12-4b52-b13c-4436cd181edc?ui=en-US&rs=en-US&ad=US).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -261,7 +261,7 @@ Organize teamwork with Microsoft Planner and take the chaos out of teamwork to g
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Power Apps
-PowerApps is a service that lets you build business apps that run in a browser or on a phone or tablet, and no coding experience is required. With PowerApps documentation, you get expert information and answers to address your needs, regardless of how you use PowerApps. Learn more about [PowerApps](https://docs.microsoft.com/powerapps/).
+Microsoft PowerApps is a service that lets you build business apps that run in a browser or on a phone or tablet, and no coding experience is required. With PowerApps documentation, you get expert information and answers to address your needs, regardless of how you use PowerApps. Learn more about [PowerApps](https://docs.microsoft.com/powerapps/).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -281,7 +281,7 @@ PowerApps is a service that lets you build business apps that run in a browser o
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Power BI
-Power BI amplifies your insights and the value of your data. With Power BI documentation, you get expert information and answers to address your needs, regardless of how you use Power BI. Learn more about [Power BI](https://docs.microsoft.com/power-bi/).
+Microsoft Power BI amplifies your insights and the value of your data. With Power BI documentation, you get expert information and answers to address your needs, regardless of how you use Power BI. Learn more about [Power BI](https://docs.microsoft.com/power-bi/).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -341,7 +341,7 @@ Microsoft SharePoint Online in Office 365 empowers people to share and work toge
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Skype for Business
-Skype for Business Online is a communications service that connects people for meetings and conversations anytime and from virtually anywhere. It gives users access to information about presence, and enables instant messaging, audio and video calling, rich online meetings, and extensive web conferencing capabilities. Learn more about [Skype for Business](https://docs.microsoft.com/skypeforbusiness/).
+Microsoft Skype for Business Online is a communications service that connects people for meetings and conversations anytime and from virtually anywhere. It gives users access to information about presence, and enables instant messaging, audio and video calling, rich online meetings, and extensive web conferencing capabilities. Learn more about [Skype for Business](https://docs.microsoft.com/skypeforbusiness/).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -401,7 +401,7 @@ Microsoft Teams brings together the full breadth and depth of Office 365, to pro
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## To Do
-To-Do helps you manage, prioritize, and complete the most important things you need to achieve every day, powered by Intelligent Suggestions and Office 365 integration. To-Do’s intelligent Suggestions make it easy to prioritize your daily tasks. Suggestions look at your to-dos across your lists and, based on a smart algorithm, recommend the most important ones for you each day. Learn more about [To-Do](https://products.office.com/microsoft-to-do-list-app).
+Microsoft To-Do helps you manage, prioritize, and complete the most important things you need to achieve every day, powered by Intelligent Suggestions and Office 365 integration. To-Do’s intelligent Suggestions make it easy to prioritize your daily tasks. Suggestions look at your to-dos across your lists and, based on a smart algorithm, recommend the most important ones for you each day. Learn more about [To-Do](https://products.office.com/microsoft-to-do-list-app).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -421,7 +421,7 @@ To-Do helps you manage, prioritize, and complete the most important things you n
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Visio
-Visio makes it easy and intuitive to create flowcharts, network diagrams, org charts, floor plans, engineering designs, and more using modern shapes and templates, with the familiar Office experience. Learn more about [Visio](https://support.office.com/article/What-s-new-in-Visio-2016-798f4f39-2833-486b-9ae9-55162672102e).
+Microsoft Visio makes it easy and intuitive to create flowcharts, network diagrams, org charts, floor plans, engineering designs, and more using modern shapes and templates, with the familiar Office experience. Learn more about [Visio](https://support.office.com/article/What-s-new-in-Visio-2016-798f4f39-2833-486b-9ae9-55162672102e).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
@@ -441,7 +441,7 @@ Visio makes it easy and intuitive to create flowcharts, network diagrams, org ch
 | [Full IPv6 support](https://support.office.com/article/IPv6-support-in-Office-365-services-c08786fb-298e-437c-8222-dab7625fc815) | ? | ? | ? | ? | ? | ? | ? |
 
 ## Word
-Create and share professional-looking documents with state-of-the-art-editing, reviewing, and sharing tools. Learn more about [Word](https://products.office.com/word).
+Create and share professional-looking documents in Microsoft Word with state-of-the-art-editing, reviewing, and sharing tools. Learn more about [Word](https://products.office.com/word).
 
 |**Policy**|**Android**|**Browser**|**iOS**|**Mac OS X**|**Windows Desktop**|**Windows 10 Mobile**|**Windows 10 Modern Apps**|
 |:-----|:-----:|:------:|:------:|:-----:|:-----:|:-----:|:-----:|
