@@ -23,8 +23,8 @@ Use the following lists to determine which Office 365 service policies are suppo
 ## Azure AD Conditional Access 
 Information about Exchange Online
 
-|**Service**|**Required for any app accessing Office 365**|**Differentiation for Office 365 apps**|**Core Office 365 Apps**|
-|:-----|:-----:|:------:|:------:|
+|**Service**|**Asia Pacific**|**AU**|**CA**|**EU**|**FR**|**IN**|**JP**|**KO**|**GR**|**CH**|**US-GCC**|**US-GGC High**|**S AMER**|**UK**|**US**|
+|:-----|:-----:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 | Exchange Online| ? | ? | ? |
 | Office Online | ? | ? | ? |
 | SharePoint Online | ? | ? | ? |
