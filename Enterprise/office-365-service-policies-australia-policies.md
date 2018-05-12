@@ -12,7 +12,7 @@ ms.collection: Strat_O365_Enterprise
 description: "Summary: Understand the Office 365 service policies that are supported by Microsoft online services."
 ---
 
-# Office 365 Service Policies - Asia Pacific
+# Office 365 Service Policies - Australia
 **Want to change the view of this information? Select a different view below:**
 > [!div class="op_single_selector"] 
 > - [Asia Pacific](office-365-service-policies-asia-pacific-policies.md)
