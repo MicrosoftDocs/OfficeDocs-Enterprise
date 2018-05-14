@@ -9,7 +9,7 @@ ms.service: o365-solutions
 ms.custom: 
 localization_priority: Priority
 description: "Learn about how to address GDPR requirements in Office on-premises servers."
-...
+---
 
 # GDPR for Office on-premises Servers
 

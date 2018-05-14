@@ -9,7 +9,7 @@ ms.service: o365-solutions
 ms.custom: 
 localization_priority: Priority
 description: "Learn about how to address GDPR requirements on-premises Exchange Server."
-...
+---
 
 # GDPR for Exchange Server
 
