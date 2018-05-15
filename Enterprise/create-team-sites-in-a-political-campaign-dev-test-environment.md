@@ -366,7 +366,7 @@ Next, configure Azure Information Protection with a new scoped policy and sub-la
     
 3. If this is the first time you are configuring Azure Information Protection, see these [instructions](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
     
-4. In the list pane, click **More services**, type **information**, and then click **Azure Information Protection**.
+4. In the list pane, click **All services**, type **information**, and then click **Azure Information Protection**.
     
 5. On the **Azure Information protection** blade, , click **Scoped policies > + Add a new policy**.
     

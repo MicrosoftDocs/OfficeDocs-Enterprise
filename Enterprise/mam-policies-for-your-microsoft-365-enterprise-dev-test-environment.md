@@ -34,21 +34,21 @@ In this phase, you create and deploy two different MAM policies: one for iOS dev
     
 2. On a new tab of your browser, open the Azure portal ([https://azure.portal.com](https://azure.portal.com)) and sign in using your Office 365 global administrator account.
     
-3. On the Azure portal tab in Internet Explorer, in the navigation pane, click **More services** (or the right arrow), type **Intune**, and then click **Intune**.
+3. On the Azure portal tab in Internet Explorer, in the navigation pane, click **All services**, type **Intune**, and then click **Intune**.
     
 4. In the left navigation pane, click **Groups**.
     
-5. On the **Users and groups-All groups** blade, click **Add**.
+5. On the **Groups-All groups** blade, click **+ New Group**.
     
-6. On the **Group** blade, type **Managed iOS device users** in **Name**, select **Assigned** in **Membership type**, select **Yes** for **Enable Office features?**, and then click **Create**. 
+6. On the **Group** blade, select **Office 365** for **Group type?**, type **Managed iOS device users** in **Name**, select **Assigned** in **Membership type**,  and then click **Create**. 
     
 7. Close the **Group** blade.
     
-8. On the **Users and groups-All groups** blade, click **Add**.
+8. On the **Groups-All groups** blade, click **Add**.
     
-9. On the **Group** blade, type **Managed Android device users** in **Name**, select **Assigned** in **Membership type**, select **Yes** for **Enable Office features?**, and then click **Create**.
+9. On the **Group** blade, select **Office 365** for **Group type?**, type **Managed Android device user** in **Name**, select **Assigned** in **Membership type**,  and then click **Create**.
     
-10. Close the **Users and groups-All groups** blade.
+10. Close the **Groups-All groups** blade.
     
 11. On the **Intune** blade, in the **Quick tasks** list, click **Create a compliance policy**.
     
