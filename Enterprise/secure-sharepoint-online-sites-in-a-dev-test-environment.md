@@ -3,7 +3,7 @@ title: "Secure SharePoint Online sites in a dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 05/14/2018
 ms.audience: ITPro
 ms.topic: article
 ms.collection: 
@@ -62,18 +62,18 @@ First, create a set of groups for a typical organization with the Azure portal.
   
 1. Create a separate tab in your browser, and then go to the Azure portal at [https://portal.azure.com](https://portal.azure.com). If needed, sign in with the credentials of the global administrator account for your Office 365 E5 trial subscription.
     
-2. In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.
+2. In the Azure portal, click **Azure Active Directory > Groups**.
     
-3. On the **All groups** blade, click **+ New group**.
+3. On the **Groups - All groups** blade, click **+ New group**.
     
 4. On the **Group** blade:
     
+  - Select **Office 365** in **Group type**.
+    
   - Type **C-Suite** in **Name**.
     
-  - Select **Assigned** in **Membership**.
-    
-  - Click **Yes** for **Enable Office features**.
-    
+  - Select **Assigned** in **Membership type**.
+      
 5. Click **Create**, and then close the **Group** blade.
     
 6. Repeat steps 3-5 for the following group names:
@@ -537,7 +537,7 @@ Next, configure Azure Information Protection with a new scoped policy and sub-la
     
 3. If this is the first time you are configuring Azure Information Protection, see these [instructions](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
     
-4. In the list pane, click **More services**, type **information**, and then click **Azure Information Protection**.
+4. In the list pane, click **All services**, type **information**, and then click **Azure Information Protection**.
     
 5. On the **Azure Information protection** blade, , click **Scoped policies > + Add a new policy**.
     

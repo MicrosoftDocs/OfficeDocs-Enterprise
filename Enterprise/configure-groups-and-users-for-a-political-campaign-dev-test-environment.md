@@ -180,11 +180,11 @@ Use these steps to verify that dynamic group membership and group-based licensin
 
 Record these values for working with the Office 365 and EMS trial subscriptions for this dev/test environment:
   
-- Your trial subscription organization name: _______________________________________________ 
+- Your trial subscription organization name: ![](./images/Common_Images/TableLine.png) 
     
     For example, for the trial subscription domain name of contoso.onmicrosoft.com, the organization name is "contoso".
     
-- The Office 365 global administrator name: ____________________________________.onmicrosoft.com
+- The Office 365 global administrator name: ![](./images/Common_Images/TableLine.png).onmicrosoft.com
     
     Record the password for this account and the common initial password for the other user accounts in a secure location.
     
@@ -192,7 +192,7 @@ Record these values for working with the Office 365 and EMS trial subscriptions 
 
 Build the four different types of SharePoint Online team sites in this dev/test environment with [Create team sites in a political campaign dev/test environment](create-team-sites-in-a-political-campaign-dev-test-environment.md).
   
-## See Also
+## See also
 
 [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
