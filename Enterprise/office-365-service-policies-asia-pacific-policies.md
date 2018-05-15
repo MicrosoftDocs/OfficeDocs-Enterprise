@@ -18,7 +18,7 @@ description: "Summary: Understand the Office 365 service policies that are suppo
 > - [Asia Pacific](office-365-service-policies-asia-pacific-policies.md)
 > - [Australia](office-365-service-policies-australia-policies.md)
 
-Use the following lists to determine which Office 365 service policies are supported for individual Microsoft services.
+UUse the following information to determine which Office 365 service policies are supported for individual Microsoft services for the Asia Pacific geo-location.
 
 ## Azure AD Conditional Access 
 Brief summary information about Azure AD conditional access and link to learn more.
