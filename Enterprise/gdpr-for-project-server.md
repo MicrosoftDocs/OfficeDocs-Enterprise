@@ -25,7 +25,7 @@ Project Server uses custom scripts to export and redact user data in Project Web
 
 These steps are covered in detail in the following articles:
 
-- [Export user data from Project Server CONTEXTUAL](/Project/export-user-data-from-project-server?toc=/Office365/Enterprise/toc.json&bc=/Office365/Enterprise/breadcrumb/toc.json)  
+- [Export user data from Project Server CONTEXTUAL](https://docs.microsoft.com/en-us/Project/export-user-data-from-project-server?toc=/Office365/Enterprise/toc.json&bc=/Office365/Enterprise/breadcrumb/toc.json)  
 - [Export user data from Project Server](https://docs.microsoft.com/en-us/Project/export-user-data-from-project-server)
 
 -   [Delete user data from Project Server](https://docs.microsoft.com/en-us/Project/delete-user-data-from-project-server)
