@@ -3,7 +3,7 @@ title: "Base Configuration dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/05/2018
+ms.date: 05/07/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -160,7 +160,7 @@ Next, connect to the DC1 virtual machine.
 
 1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [the name of your new resource group] **> DC1 > Connect**.
     
-2. Open the DC1.rdp file that is downloaded, and then click **Connect**.
+2. In the open pane, click **Download RDP file**. Open the DC1.rdp file that is downloaded, and then click **Connect**.
     
 3. Specify the DC1 local administrator account name:
     
@@ -188,7 +188,6 @@ Next, configure DC1 as a domain controller and DNS server for the corp.contoso.c
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSForest -DomainName corp.contoso.com -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs"
 ```
-
 You will need to specify a safe mode administrator password. Store this password in a secure location.
   
 Note that these commands can take a few minutes to complete.
@@ -253,7 +252,7 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName APP1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType StandardLRS
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
@@ -307,7 +306,7 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName CLIENT1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType StandardLRS
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
@@ -338,7 +337,7 @@ Next, verify that you can access web and file share resources on APP1 from CLIEN
     
 4. From the Start screen, click **Internet Explorer**, and then click **OK**.
     
-5. In the Address bar, type **http://app1.corp.contoso.com/**, and then press ENTER. You should see the default Internet Information Services web page for APP1.
+5. In the Address bar, type **http:\//app1.corp.contoso.com/**, and then press ENTER. You should see the default Internet Information Services web page for APP1.
     
 6. From the desktop taskbar, click the File Explorer icon.
     
