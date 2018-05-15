@@ -3,7 +3,7 @@ title: "Deploy an isolated SharePoint Online team site"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 05/14/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -59,17 +59,19 @@ You need to create the following access groups in Azure AD:
     
 1. In your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com) and sign in with the credentials of an account that has been assigned with User Management Admin or Company Administrator role.
     
-2. In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.
+2. In the Azure portal, click **Azure Active Directory > Groups**.
     
-3. On the **All groups** blade, click **+ New group**.
+3. On the **Groups - All groups** blade, click **+ New group**.
     
 4. On the **Group** blade:
     
+  - Select **Office 365** in **Group type**.
+    
   - Type the group name in **Name**.
     
-  - Select **Assigned** in **Membership**.
+  - Type a description of the group in **Group description**.
     
-  - Click **Yes** for **Enable Office features**.
+  - Select **Assigned** in **Membership type**.
     
 5. Click **Create**, and then close the **Group** blade.
     
