@@ -12,7 +12,7 @@ ms.collection: Strat_O365_Enterprise
 description: "Summary: Understand the Office 365 service policies that are supported by Microsoft online services."
 ---
 
-# Office 365 Service Policies - Asia Pacific
+# Office 365 Service Policies for Asia Pacific
 **Want to change the view of this information? Select a different view below:**
 > [!div class="op_single_selector"] 
 > - [Asia Pacific](office-365-service-policies-asia-pacific-policies.md)
@@ -21,19 +21,20 @@ description: "Summary: Understand the Office 365 service policies that are suppo
 Use the following lists to determine which Office 365 service policies are supported for individual Microsoft services.
 
 ## Azure AD Conditional Access 
-Information about Exchange Online
+Brief summary information about Azure AD conditional access and link to learn more.
 
 |**Service**|**Supported**|
 |:-----|:-----:|
-| Exchange Online| ? |
-| Office Online | ? |
-| SharePoint Online | ? |
+| Exchange Online| Y |
+| Office Online |  |
+| SharePoint Online | N/A |
+| MORE SERVICES... |  |
 
 ## Modern Auth (evoSTS)
-Information about Office Online
+Brief summary information about Modern Auth and link to learn more.
 
 |**Service**|**Supported**|
 |:-----|:-----:|
-| Exchange Online| ? |
-| Office Online | ? |
-| SharePoint Online | ? |
+| Exchange Online| Y |
+| Office Online | Y |
+| MORE SERVICES... |  |
