@@ -25,9 +25,9 @@ Project Server uses custom scripts to export and redact user data in Project Web
 
 These steps are covered in detail in the following articles:
 
-- [Export user data from Project Server](Project/export-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
+- [Export user data from Project Server](/Project/export-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
 
-- [Delete user data from Project Server](Project/delete-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
+- [Delete user data from Project Server](/Project/delete-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
 
 
 Note that Project Server is built on top of SharePoint Server and logs events to the SharePoint ULS logs and Usage database.
