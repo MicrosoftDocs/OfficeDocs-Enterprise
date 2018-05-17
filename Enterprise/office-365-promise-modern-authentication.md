@@ -21,9 +21,9 @@ Microsoft’s Modern Authentication capability enables several scenarios for you
 
 ## Supported platforms
 
-| | | |
-|:---:|:---:|:---:|
-| ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> Windows
+| | | | | |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> Windows 10 Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 Mobile | ![Windows icon](images/windows_62x62.png) <br> Windows 10 Modern Apps
 
 
 ## Supported clients
