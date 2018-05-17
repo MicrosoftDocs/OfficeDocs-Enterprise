@@ -15,6 +15,8 @@ description: "Learn about how to address GDPR requirements in Office on-premises
 
 The General Data Protection Regulation (GDPR) introduces requirements for organizations to protect personal data and respond appropriately to data subject requests. This series of articles provides recommended approaches for on-premises workloads:
 
+-   [SharePoint Server](gdpr-for-sharepoint-server.md)
+
 -   [Exchange Server](gdpr-for-exchange-server.md)
 
 -   [Skype for Business Server](gdpr-for-skype-for-business-server.md)
