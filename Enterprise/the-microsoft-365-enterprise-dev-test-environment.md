@@ -170,7 +170,7 @@ Next, join the WIN10 computer to the Azure AD tenant of your Office 365 and EMS 
     
 6. Close the settings window.
     
-Next, install Office 2016 on the WIN10 computer.
+Next, install Office 365 ProPlus on the WIN10 computer.
   
 1. Open the Microsoft Edge browser and sign in to the Office 365 portal with your global administrator account credentials. For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
@@ -180,9 +180,13 @@ Next, install Office 2016 on the WIN10 computer.
     
 4. Wait for Office to complete its installation. When you see **You're all set!**, click **Close** twice.
     
-Figure 3 shows your resulting environment, which includes the WIN10 computer that has joined the Azure AD tenant of your Office 365 and EMS subscriptions.
+Figure 3 shows your resulting environment, which includes the WIN10 computer that has:
+
+- Joined the Azure AD tenant of your Office 365 and EMS subscriptions.
+- Enrolled as an Azure AD device in Intune (EMS).
+- Has Office 365 ProPlus installed.
   
-**Figure 3: Adding the WIN10 computer account to the Azure AD tenant**
+**Figure 3: The final configuration of the Microsoft 365 dev/test environment**
 
 ![Phase 4 of the Microsoft 3656 Enterprise dev/test environment](images/20680f6a-f77e-4333-aaa9-f7cf5e4b0d03.png)
   
@@ -200,7 +204,7 @@ Use these additional articles to explore features of Microsoft 365 Enterprise:
     
 - [Configure and test Advanced Threat Protection](https://technet.microsoft.com/library/mt490479.aspx)
     
-## See Also
+## See also
 
 - [Microsoft 365 Enterprise documentation](https://docs.microsoft.com/microsoft-365-enterprise/)
 - [Deploy Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise)

@@ -3,7 +3,7 @@ title: "Architectural models for SharePoint, Exchange, Skype for Business, and L
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/11/2017
+ms.date: 05/16/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -47,7 +47,7 @@ This page links you to the following posters:
     
   - [Microsoft SharePoint 2016 Architectural Models](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#SP2016_ArchModel)
     
-  - [Multi-Geo Preview for OneDrive in Office 365](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#MultiGeoO365ODB)
+  - [Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#MultiGeoO365ODB)
     
   - [SharePoint Server 2016 Databases](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#SP2016_Databases)
     
@@ -83,29 +83,29 @@ These new IT posters for SharePoint 2016 and Skype for Business 2015 provide a w
     
 - **IT Pro tasks or responsibilities** The daily responsibilities that your IT staff needs to plan for.
     
-### Microsoft SharePoint 2016 Architectural Models
 <a name="SP2016_ArchModel"> </a>
+### Microsoft SharePoint 2016 Architectural Models
 
 |**Item**|**Description**|
 |:-----|:-----|
 |[![Thumbnail for the SharePoint 2016 Architectural Models poster](images/7d3e590c-1f3b-42cf-920d-9edac8fa3e04.png)          ](https://www.microsoft.com/download/details.aspx?id=52650) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://download.microsoft.com/download/4/F/A/4FA0F94B-EE2F-41DB-A047-D9864FEF41E9/SharePoint2016ArchitecturalModels.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://download.microsoft.com/download/4/F/A/4FA0F94B-EE2F-41DB-A047-D9864FEF41E9/SharePoint2016ArchitecturalModels.vsdx)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=52650) <br/> | This IT poster describes the SharePoint Online, Microsoft Azure, and SharePoint on-premises configurations that business decision makers and solutions architects need to know about. <br/><br/> - **SharePoint Online (SaaS)** - Consume SharePoint through a Software as a Service (SaaS) subscription model. <br/> - **SharePoint Hybrid** - Move your SharePoint sites and apps to the cloud at your own pace. <br/> - **SharePoint in Azure (IaaS)** - You extend your on-premises environment into Microsoft Azure and deploy SharePoint 2016 Servers there. (This is recommended for High Availability/Disaster Recovery and dev/test environments.) <br/> - **SharePoint On-premises** - You plan, deploy, maintain and customize your SharePoint environment in a datacenter that you maintain. <br/> |
    
-### Multi-Geo Preview for OneDrive in Office 365
 <a name="MultiGeoO365ODB"> </a>
+### Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Multi-Geo OneDrive in Office 365 model](images/c6c1b7cd-7833-46fb-9eec-c12150c260d9.png)          ](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.vsdx) <br/> | This poster is a one-page overview of Multi-Geo OneDrive in Office 365, which is currently in preview. This model includes: <br/><br/> - Benefits <br/> - Steps for deployment <br/> - An example configuration <br/><br/>  For more information about the Multi-Geo Preview for OneDrive in Office 365, click [here](https://aka.ms/onedrivemultigeo).  <br/> |
+|[![Multi-Geo OneDrive in Office 365 model](images/c6c1b7cd-7833-46fb-9eec-c12150c260d9.png)          ](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](http://download.microsoft.com/download/0/5/9/0594634F-7893-4201-938A-C2FF2F21B655/Multi-Geo-ODB.vsdx) <br/> | This poster is a one-page overview of Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365. This model includes: <br/><br/> - Benefits <br/> - Steps for deployment <br/> - An example configuration <br/><br/>  For more information about Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365, click [here](https://aka.ms/onedrivemultigeo).  <br/> |
    
-### SharePoint Server 2016 Databases
 <a name="SP2016_Databases"> </a>
+### SharePoint Server 2016 Databases
 
 |**Item**|**Description**|
 |:-----|:-----|
 |[![Thumbnail for the SharePoint Server 2016 Databases poster](images/c53e9de7-3bf8-446d-8766-e6700c8dd8e1.png)          ](https://www.microsoft.com/download/details.aspx?id=55041) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.pdf)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://download.microsoft.com/download/D/5/D/D5DC1121-8BC5-4953-834F-1B5BB03EB691/DBrefguideSPS2016_tabloid.vsdx)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=55041) <br/> | This IT poster is a quick reference guide for SharePoint Server 2016 databases. Each database has the following details: <br/><br/> - Size <br/> - Scaling guidance <br/> - I/O patterns <br/> - Requirements <br/><br/>  The first page contains the SharePoint system databases and the service applications that have multiple databases. The second page shows all of the service applications that have single databases. <br/><br/>  For more information about the SharePoint Server 2016 databases, see [Database types and descriptions in SharePoint Server 2016](https://technet.microsoft.com/en-us/library/cc678868%28v=office.16%29.aspx) <br/> |
    
-### Microsoft Skype for Business 2015 Architectural Models
 <a name="SfB2015_ArchModel"> </a>
+### Microsoft Skype for Business 2015 Architectural Models
 
 |**Item**|**Description**|
 |:-----|:-----|
@@ -125,8 +125,8 @@ These IT posters for SharePoint 2013, Exchange 2013, and Lync 2013 provide a way
     
 - **IT Pro tasks or responsibilities** The daily responsibilities that your IT staff needs to plan for.
     
-## SharePoint 2013 Platform Options
 <a name="SP2013_Options"> </a>
+## SharePoint 2013 Platform Options
 
 ****
 
@@ -134,8 +134,8 @@ These IT posters for SharePoint 2013, Exchange 2013, and Lync 2013 provide a way
 |:-----|:-----|
 |[![Thumbnail image of SharePoint 2013 Platform Options](images/SP_PlatformOptions.jpg)          ](https://www.microsoft.com/download/details.aspx?id=40332) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](http://go.microsoft.com/fwlink/p/?LinkId=324594)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=324593)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=40332) <br/> |For business decision makers (BDMs) and architects, this model illustrates the platform options for SharePoint 2013, SharePoint in Office 365, on-premises hybrid with Office 365, Azure, and on-premises only deployments. It includes an overview of each architecture, recommendations, license requirements, and lists of architect and IT Pro tasks for each platform. Several SharePoint solutions on Azure are highlighted. <br/><br/>For an accessible text version of this poster, see [Accessible diagram - Microsoft SharePoint 2013 Platform Options](accessible-diagrammicrosoft-sharepoint-2013-platform-options.md).  <br/> |
    
-## Exchange 2013 Platform Options
 <a name="Exch2013_options"> </a>
+## Exchange 2013 Platform Options
 
 ****
 
@@ -143,8 +143,8 @@ These IT posters for SharePoint 2013, Exchange 2013, and Lync 2013 provide a way
 |:-----|:-----|
 |[![Thumbnail image of Exchange Platform Options](images/ITPro_Other_Exchange2013PlatformOptions.jpg)          ](https://www.microsoft.com/download/details.aspx?id=42676) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkID=398740)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkID=398742)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=42676) <br/> |For BDMs and architects, this model describes the available platform options for Exchange 2013. Customers can choose from Exchange Online with Office 365, Hybrid Exchange, Exchange Server on-premises and Hosted Exchange. The poster includes details of each architectural option, including the most ideal scenarios for each, the license requirements and IT Pro responsibilities. <br/><br/>For an accessible text version of this poster, see [Accessible diagram - Microsoft Exchange 2013 Platform Options](accessible-diagrammicrosoft-exchange-2013-platform-options.md).  <br/> |
    
-## Lync 2013 Platform Options
 <a name="Lync2013_Options"> </a>
+## Lync 2013 Platform Options
 
 ****
 
@@ -152,13 +152,13 @@ These IT posters for SharePoint 2013, Exchange 2013, and Lync 2013 provide a way
 |:-----|:-----|
 |[![Thumbnail image of Lync Platform Options](images/Lync_PlatformOptions.jpg)          ](https://www.microsoft.com/download/details.aspx?id=41677) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkID=391837)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkID=391839)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=41677) <br/> |For BDMs and architects, this model describes the available platform options for Lync 2013. Customers can choose from Lync Online with Office 365, Hybrid Lync, Lync Server on-premises and Hosted Lync. The IT poster includes details of each architectural option, including the most ideal scenarios for each, the license requirements and IT Pro responsibilities.  <br/> |
    
-## SharePoint in Azure solutions posters
 <a name="Lync2013_Options"> </a>
+## SharePoint in Azure solutions posters
 
 These IT posters show Azure-based solutions using SharePoint Server 2013 in a large poster format.
   
-### Internet sites in Microsoft Azure using SharePoint Server 2013
 <a name="Azure_sharepoint2013"> </a>
+### Internet sites in Microsoft Azure using SharePoint Server 2013
 
 ****
 
@@ -166,8 +166,8 @@ These IT posters show Azure-based solutions using SharePoint Server 2013 in a la
 |:-----|:-----|
 |[![Image of Internet sites in Azure using SharePoint](images/MS_AZ_SPInternetSites.jpg)          ](https://www.microsoft.com/download/details.aspx?id=41992) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=392552)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=392551)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=41992) <br/> |This poster outlines key design activities and recommended architecture choices for Internet-facing sites in Azure. For an accessible text version of this poster, see [Accessible diagram - Internet sites in Microsoft Azure for SharePoint 2013](accessible-diagraminternet-sites-in-microsoft-azure-for-sharepoint-2013.md).  <br/><br/> For more information, see the following articles:  <br/><br/> - [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md) <br/> - [Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md) <br/> |
    
-### Design sample: Internet sites in Microsoft Azure for SharePoint 2013
 <a name="DesignSampleInternetSites"> </a>
+### Design sample: Internet sites in Microsoft Azure for SharePoint 2013
 
 ****
 
@@ -175,8 +175,8 @@ These IT posters show Azure-based solutions using SharePoint Server 2013 in a la
 |:-----|:-----|
 |[![Image of the Design sample: Internet sites in Microsoft Azure for SharePoint 2013](images/MS_AZ_InternetSitesDesignSample.jpg)          ](https://www.microsoft.com/download/details.aspx?id=41991) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=392549)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=392548)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=41991) <br/> |Use this design sample as a starting point for your own architecture Internet-facing site in Azure using SharePoint Server 2013. For an accessible text version of this poster, see [Accessible diagram - Design sample: Internet sites in Microsoft Azure for SharePoint 2013](accessible-diagramdesign-sample-internet-sites-in-microsoft-azure-for-sharepoint.md).  <br/><br/> For more information, see the following articles:  <br/><br/> - [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md) <br/> - [Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md) <br/> |
    
-### SharePoint Disaster Recovery to Microsoft Azure
 <a name="sharepoint_recovery_Azure"> </a>
+### SharePoint Disaster Recovery to Microsoft Azure
 
 ****
 
@@ -184,9 +184,8 @@ These IT posters show Azure-based solutions using SharePoint Server 2013 in a la
 |:-----|:-----|
 |[![SharePoint disaster-recovery process to Azure](images/SP_DR_Azure.png)          ](https://www.microsoft.com/download/details.aspx?id=41993) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=392555)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://go.microsoft.com/fwlink/p/?LinkId=392554)  \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=41993) <br/> |This IT poster illustrates architecture principles for a disaster recovery environment in Azure. For an accessible text version of this poster, see [Accessible diagram - SharePoint Disaster Recovery to Microsoft Azure](accessible-diagramsharepoint-disaster-recovery-to-microsoft-azure.md).  <br/><br/> For more information, see the following articles:  <br/><br/> - [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md) <br/> - [Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md) <br/> |
    
-## See Also
-
 <a name="Lync2013_Options"> </a>
+## See Also
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
@@ -195,7 +194,4 @@ These IT posters show Azure-based solutions using SharePoint Server 2013 in a la
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
 [Hybrid solutions](hybrid-solutions.md)
-
-
-
 

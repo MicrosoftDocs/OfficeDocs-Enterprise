@@ -3,7 +3,7 @@ title: "Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/14/2017
+ms.date: 05/14/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
