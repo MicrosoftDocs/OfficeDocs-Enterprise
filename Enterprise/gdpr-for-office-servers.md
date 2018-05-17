@@ -46,4 +46,4 @@ For accessibility, the following table provides the same examples in the illustr
 |Protect||Exchange Server data loss prevention rules; Permissions, IRM-protection for libraries|Exchange Server data loss prevention rules; IRM integration with Exchange Server|||
 |Monitor|Integrate logs with SIEM tools|Integrate logs with SIEM tools|Integrate logs with SIEM tools|Integrate logs with SIEM tools|Integrate logs with SIEM tools|
 
-*For GDPR, apply labels that do not include protection. Protection encrypts the file. Consequently, SharePoint Server can't find the sensitive information types in these files.
+*Note that protection encrypts the file. Consequently, SharePoint Server can’t find the sensitive information types in protected files.
