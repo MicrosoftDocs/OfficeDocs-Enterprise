@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Client Promise - Modern Authentication"
+title: "Office 365 Client Capabilities - Modern Authentication"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
