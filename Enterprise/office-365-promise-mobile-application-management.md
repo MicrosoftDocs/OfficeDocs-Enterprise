@@ -24,7 +24,7 @@ Many users access both corporate and personal documents and emails from the same
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Windows icon](images/windows_62x62.png) <br> Windows 10 Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 Modern Apps | ![Windows icon](images/windows_62x62.png) <br> Web Browser | ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> macOS
+| ![Windows icon](images/windows_62x62.png) <br> Windows 10 <br> Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 <br> Modern Apps | ![Windows icon](images/windows_62x62.png) <br> Web Browser | ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> macOS
 
 ## Supported clients
 
