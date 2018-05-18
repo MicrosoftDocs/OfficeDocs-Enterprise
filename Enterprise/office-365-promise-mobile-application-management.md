@@ -24,8 +24,7 @@ Many users access both corporate and personal documents and emails from the same
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Windows icon](images/windows_62x62.png) <br> Windows 10 Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 Modern Apps | | ![Windows icon](images/windows_62x62.png) <br> Web Browser | ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> macOS |
-
+| ![Windows icon](images/windows_62x62.png) <br> Windows 10 Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 Modern Apps | ![Windows icon](images/windows_62x62.png) <br> Web Browser | ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> macOS
 
 ## Supported clients
 
@@ -33,3 +32,5 @@ Many users access both corporate and personal documents and emails from the same
 |:---:|:---:|:---:|:---:|:---:|
 | [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel)| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) |[![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive](https://onedrive.live.com/about/business/) |[![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) |[![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software)
 |[![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software)|[![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview))
+
+[!IMPORTANT] Any exceptions will be called out here
