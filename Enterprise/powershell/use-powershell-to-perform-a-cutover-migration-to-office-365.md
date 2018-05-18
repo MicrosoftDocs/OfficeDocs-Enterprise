@@ -3,7 +3,6 @@ title: "Use PowerShell to perform a cutover migration to Office 365"
 ms.author: sirkkuw
 author: sirkkuw
 manager: laurawi
-ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -71,7 +70,7 @@ For a full list of migration commands, see [Move and migration cmdlets](https://
   Test-MigrationServerAvailability -ExchangeOutlookAnywhere -Autodiscover -EmailAddress <email address for on-premises administrator> -Credentials $credentials
   ```
 
-- **Assign an on-premises user account the necessary permissions to access mailboxes in your Exchange organization.** The on-premises user account that you use to connect to your on-premises Exchange organization (also called themigration administrator) must have the necessary permissions to access the on-premises mailboxes that you want to migrate to Office 365. This user account is used to create a migration endpoint to your on-premises organization.
+- **Assign an on-premises user account the necessary permissions to access mailboxes in your Exchange organization.** The on-premises user account that you use to connect to your on-premises Exchange organization (also called the migration administrator) must have the necessary permissions to access the on-premises mailboxes that you want to migrate to Office 365. This user account is used to create a migration endpoint to your on-premises organization.
     
     The following list shows the administrative privileges required to migrate mailboxes using a cutover migration. There are three possible options.
     
