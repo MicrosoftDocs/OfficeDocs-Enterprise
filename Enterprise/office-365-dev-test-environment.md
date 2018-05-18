@@ -47,7 +47,9 @@ You will need an Azure subscription. You can use the [Azure Free Trial](https://
   
 Here is the resulting configuration.
   
-![The Base Configuration dev/test environment in Azure](images/63108214-f716-46ae-9974-072ff15b44a2.png)
+![The Base Configuration dev/test environment in Azure](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+
+
   
 This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network.
   
