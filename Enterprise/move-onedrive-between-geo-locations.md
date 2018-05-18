@@ -34,6 +34,14 @@ When moving OneDrive sites between geo-locations, it's important to communicate 
 
 Be sure to send your users an email when the move has successfully completed informing them that they can resume working in OneDrive.
 
+## Scheduling OneDrive site moves
+
+You can schedule OneDrive site moves in advance (described later in this article). We recommend that you start with a small number of users to validate your workflows and communication strategies. Once you are comfortable with the process, you can schedule moves as follows:
+
+- You can schedule up to 4,000 moves at a time.
+- As the moves begin, you can schedule more, with a maximum of 4,000 pending moves in the queue and any given time.
+- We recommend not scheduling more than 4,000 moves per month.
+
 ## Moving a OneDrive site
 
 To perform a OneDrive geo move, the tenant administrator must first set the user’s Preferred Data Location (PDL) to the appropriate geo location. Once the PDL is set, wait for at least 24 hours for the PDL update to sync across the geo locations before starting the OneDrive geo move.
