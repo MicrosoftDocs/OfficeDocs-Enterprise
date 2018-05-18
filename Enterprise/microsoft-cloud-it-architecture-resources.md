@@ -3,7 +3,7 @@ title: "Microsoft Cloud IT architecture resources"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 12/18/2017
+ms.date: 05/18/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -79,7 +79,7 @@ What IT architects need to know about designing identity for organizations using
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for Microsoft cloud identity model](images/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| ![Article](images/5cec453d-5fc4-4657-8980-16543b2316ea.png)[Article](https://technet.microsoft.com/library/mt613459.aspx)  <br/>![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft’s cloud </li> <li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li> <li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul> <br/>|
+|[![Thumb image for Microsoft cloud identity model](images/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> ![PDF file](images/ITPro_Other_PDFicon.png)[PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| ![Visio file](images/ITPro_Other_VisioIcon.jpg)[Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| ![See a page with versions in additional languages](images/e16c992d-b0f8-48ae-bf44-db7a9fcaab9e.png)[More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft’s cloud </li> <li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li> <li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul> <br/>|
    
 <a name="security"> </a>
 ### Microsoft Cloud Security for Enterprise Architects
