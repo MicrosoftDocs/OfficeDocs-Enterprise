@@ -26,12 +26,13 @@ Many users access both corporate and personal documents and emails from the same
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![Windows icon](images/windows_62x62.png) <br> Windows 10 <br> Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 <br> Modern Apps | ![Windows icon](images/windows_62x62.png) <br> Web Browser | ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> macOS
 
+
 ## Supported clients
 
-| | | | | |
-|:---:|:---:|:---:|:---:|:---:|
-| [![Excel icon](images/o365-excel-30x30.png)](https://products.office.com/excel) <br> [Excel](https://products.office.com/excel)| ![OneNote icon](images/o365-onenote-30x30.png) <br> [OneNote](https://support.office.com/onenote) |[![OneDrive for Business icon](images/o365-onedrive-30x30.png)](https://onedrive.live.com/about/business/) <br> [OneDrive](https://onedrive.live.com/about/business/) |[![PowerPoint icon](images/o365-powerpoint-30x30.png)](https://products.office.com/powerpoint) <br> [PowerPoint](https://products.office.com/powerpoint) |[![SharePoint icon](images/o365-sharepoint-30x30.png)](https://docs.microsoft.com/sharepoint/) <br> [SharePoint](https://docs.microsoft.com/sharepoint/) | [![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software)
-|[![Visio icon](images/o365-visio-30x30.png)](https://products.office.com/visio/flowchart-software) <br> [Visio](https://products.office.com/visio/flowchart-software)|[![Yammer icon](images/o365-yammer-30x30.png)](https://products.office.com/yammer/yammer-overview) <br> [Yammer]((https://products.office.com/yammer/yammer-overview))
+| | | | | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| ![Excel icon](images/excel_solid_60x60.png) <br> Excel | ![Delve icon](images/delve_solid_60x60.png) <br> Delve | ![OneDrive for Business icon](images/onedriveforbusiness_solid_60x60.png) <br> OneDrive | ![OneNote icon](images/onenote_solid_60x60.png) <br> OneNote | ![Outlook icon](images/outlook_solid_60x60.png) <br> Outlook | ![PowerBI icon](images/powerbi_solid_60x60.png) <br> Power BI
+| ![PowerPoint icon](images/powerpoint_solid_60x60.png) <br> PowerPoint | ![SharePoint icon](images/sharepoint_solid_60x60.png) <br> SharePoint | ![Skype for Business icon](images/skypeforbusiness_solid_60x60.png) <br> Skype Business | ![Sway icon](images/sway_solid_60x60.png) <br> Sway | ![Visio icon](images/visio_solid_60x60.png) <br> Visio | ![Word icon](images/word_solid_60x60.png) <br> Word
 
 > [!NOTE]
-> Any exceptions will be called here. 
+> Any exceptions will be called out here, will NOT be included if no exception exists.   
