@@ -41,7 +41,8 @@ Next, use these steps to configure the eDiscovery manager:
 In this phase, you create a document with PII for a set of example International Banking Account Numbers (IBANs) and store it on a SharePoint Online site in your Office 365 dev/test environment.
 
 1. On your local computer, open Microsoft Word.
-2. Paste the following table in the Word file and save it as ‘IBANs.docx’ on your local computer.
+2. Paste the following table in the Word file and save it as ‘IBANs.docx’ on your local computer.  
+
 |Number  |Country  |Code |IBAN  |
 |---------|---------|---------|---------|
 |1     |  Austria SEPA      | AT            |AT611904300234573201       |
@@ -52,30 +53,28 @@ In this phase, you create a document with PII for a set of example International
 |6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
 |7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
 |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
-|9     |  Netherlands SEPA      NL| NL91ABNA0417164300        |         |
+|9     |  Netherlands SEPA      |   NL      |    NL91ABNA0417164300     |
 |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
-3. In a new tab of your browser, type:  **https://<YourTenantName>.sharepoint.com**
-4. Click **Documents** to open the document library for this site. If you’re prompted for a new list experience tour, click **Next** until it’s finished.
-5. Click **Upload** > **Files** and select the IBANs.docx you created in step 2.
+1. In a new tab of your browser, type:  **https://{YourTenantName}.sharepoint.com**
+2. Click **Documents** to open the document library for this site. If you’re prompted for a new list experience tour, click **Next** until it’s finished.
+3. Click **Upload** > **Files** and select the IBANs.docx you created in step 2.
 
-
-
-    
+   
 ## Phase 3: Demonstrate data discovery
 
 In this phase, you demonstrate search to find the document created and stored in Phase 2, based on its content containing IBANs.
 
 1. From the Security & Compliance tab, click **Home**, and then click **Search & investigation** > **Content search**.
 2. Create a new search item by clicking on **+**.
-3. In a new window, provide the following information:
-    a. Name: IBAN Search
-    b. Where do you want us to look?: **Choose specific sites to search** (click **+**), and then enter the site's URL: **https://<YourTenantName>.sharepoint.com/**
-    c. Click **Add** > and then click **OK**. If you see a Warning, click **OK**.
-    d. Click **Next** on a **New search** window.
+3. In a new window, provide the following information:  
+    a. Name: IBAN Search  
+    b. Where do you want us to look?: **Choose specific sites to search** (click **+**), and then enter the site's URL: **https://{YourTenantName}.sharepoint.com/**  
+    c. Click **Add** > and then click **OK**. If you see a Warning, click **OK**.  
+    d. Click **Next** on a **New search** window.  
     e. For **What do you want us to look for?**:
 **SensitiveType:"International Banking Account Number (IBAN)"**, and then click **Search**.
 
-4. Make sure you see at least 1 item listed in the **IBAN Search** results.
+4. Make sure you see at least one item listed in the **IBAN Search** results.
 
 
 ## Phase 4: Create a custom sensitive information type via PowerShell
@@ -101,11 +100,15 @@ $adminUser = "<UPN of your global administrator account>"
 Connect-IPPSSession -UserPrincipalName $adminUser`
    
 1. Run the following PowerShell commands.
-``#Create & start search for sample data
+`#Create & start search for sample data
 $searchName = "Sample Customer Information Search"
 $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
 New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
-Start-ComplianceSearch -Identity $searchName
+Start-ComplianceSearch -Identity $searchName#Create & start search for sample data
+$searchName = "Sample Customer Information Search"
+$searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
+New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
+Start-ComplianceSearch -Identity $searchName`
 
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
 `#Generate three unique GUIDs
@@ -115,45 +118,45 @@ Start-ComplianceSearch -Identity $searchName
 `
 1. On your local computer, open another instance of Notepad and paste in the following content:
 `<?xml version="1.0" encoding="utf-8"?>
-<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce">
+<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"> 
 <RulePack id="GUID1">
 <Version major="1" minor="0" build="0" revision="0" />
 <Publisher id="GUID2" />
-<Details defaultLangCode="en">
-<LocalizedDetails langcode="en">
-<PublisherName>Contoso Ltd.</PublisherName>
-<Name>Contoso Rule Package</Name>
-<Description>Defines Contoso's custom set of classification rules</Description>
-</LocalizedDetails>
-</Details>
-</RulePack>
-<Rules>
-<!-- Contoso Customer Number (CCN) -->
-<Entity id="GUID3" patternsProximity="300" recommendedConfidence="85">
-<Pattern confidenceLevel="85">
-<IdMatch idRef="Regex_contoso_ccn" />
-<Match idRef="Keyword_contoso_ccn" />
-<Match idRef="Regex_eu_date" />
-</Pattern>
-</Entity>
-<Regex id="Regex_contoso_ccn">[0-1][0-9][0-9]{3}[A-Za-z][0-9]{4}</Regex>
-<Keyword id="Keyword_contoso_ccn">
-<Group matchStyle="word">
-<Term caseSensitive="false">customer number</Term>
-<Term caseSensitive="false">customer no</Term>
-<Term caseSensitive="false">customer #</Term>
-<Term caseSensitive="false">customer#</Term>
-<Term caseSensitive="false">Contoso customer</Term>
-</Group>
-</Keyword>
-<Regex id="Regex_eu_date"> (0?[1-9]|[12][0-9]|3[0-1])[\/-](0?[1-9]|1[0-2]|j\x00e4n(uar)?|jan(uary|uari|uar|eiro|vier|v)?|ene(ro)?|genn(aio)? |feb(ruary|ruari|rero|braio|ruar|br)?|f\x00e9vr(ier)?|fev(ereiro)?|mar(zo|o|ch|s)?|m\x00e4rz|maart|apr(ile|il)?|abr(il)?|avril |may(o)?|magg(io)?|mai|mei|mai(o)?|jun(io|i|e|ho)?|giugno|juin|jul(y|io|i|ho)?|lu(glio)?|juil(let)?|ag(o|osto)?|aug(ustus|ust)?|ao\x00fbt|sep|sept(ember|iembre|embre)?|sett(embre)?|set(embro)?|oct(ober|ubre|obre)?|ott(obre)?|okt(ober)?|out(ubro)? |nov(ember|iembre|embre|embro)?|dec(ember)?|dic(iembre|embre)?|dez(ember|embro)?|d\x00e9c(embre)?)[ \/-](19|20)?[0-9]{2}</Regex>
-<LocalizedStrings>
-<Resource idRef="GUID3">
+<Details defaultLangCode="en">  
+<LocalizedDetails langcode="en">  
+<PublisherName>Contoso Ltd.</PublisherName>  
+<Name>Contoso Rule Package</Name>  
+<Description>Defines Contoso's custom set of classification rules</Description>  
+</LocalizedDetails>  
+</Details>  
+</RulePack>  
+<Rules>  
+<!-- Contoso Customer Number (CCN) -->  
+<Entity id="GUID3" patternsProximity="300" recommendedConfidence="85">  
+<Pattern confidenceLevel="85">  
+<IdMatch idRef="Regex_contoso_ccn" />  
+<Match idRef="Keyword_contoso_ccn" />  
+<Match idRef="Regex_eu_date" />  
+</Pattern>  
+</Entity>  
+<Regex id="Regex_contoso_ccn">[0-1][0-9][0-9]{3}[A-Za-z][0-9]{4}</Regex>  
+<Keyword id="Keyword_contoso_ccn">  
+<Group matchStyle="word">  
+<Term caseSensitive="false">customer number</Term>  
+<Term caseSensitive="false">customer no</Term>  
+<Term caseSensitive="false">customer #</Term>  
+<Term caseSensitive="false">customer#</Term>  
+<Term caseSensitive="false">Contoso customer</Term>  
+</Group>  
+</Keyword>  
+<Regex id="Regex_eu_date"> (0?[1-9]|[12][0-9]|3[0-1])[\/-](0?[1-9]|1[0-2]|j\x00e4n(uar)?|jan(uary|uari|uar|eiro|vier|v)?|ene(ro)?|genn(aio)? |feb(ruary|ruari|rero|braio|ruar|br)?|f\x00e9vr(ier)?|fev(ereiro)?|mar(zo|o|ch|s)?|m\x00e4rz|maart|apr(ile|il)?|abr(il)?|avril |may(o)?|magg(io)?|mai|mei|mai(o)?|jun(io|i|e|ho)?|giugno|juin|jul(y|io|i|ho)?|lu(glio)?|juil(let)?|ag(o|osto)?|aug(ustus|ust)?|ao\x00fbt|sep|sept(ember|iembre|embre)?|sett(embre)?|set(embro)?|oct(ober|ubre|obre)?|ott(obre)?|okt(ober)?|out(ubro)? |nov(ember|iembre|embre|embro)?|dec(ember)?|dic(iembre|embre)?|dez(ember|embro)?|d\x00e9c(embre)?)[ \/-](19|20)?[0-9]{2}</Regex>  
+<LocalizedStrings>  
+<Resource idRef="GUID3">  
 <Name default="true" langcode="en-us">Contoso Customer Number (CCN)</Name>
-<Description default="true" langcode="en-us">Contoso Customer Number (CCN) that looks for additional keywords and EU formatted date</Description>
-</Resource>
-</LocalizedStrings>
-</Rules>
+<Description default="true" langcode="en-us">Contoso Customer Number (CCN) that looks for additional keywords and EU formatted date</Description>  
+</Resource>  
+</LocalizedStrings>  
+</Rules>  
 </RulePackage> 
 `
 1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
@@ -197,10 +200,16 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
 3. Click **Documents**.
 4. Click the file named ‘IBANs.docx’. You should see ‘Policy tip for IBANs.docx’.  The IBANs.docx file was shared with external recipients, which violates the DLP policy. 
 5. In the address bar, type: **https://outlook.office365.com**
-6. Click **New** - **Email message** and provide the following:
-    a. **To:** (a personal email address)
-    b. **Subject:** GDPR Test
-    c. **Body:** Copy in the following table:
+6. Click **New** - **Email message** and provide the following:  
+    a. **To:** (a personal email address)  
+    b. **Subject:** GDPR Test  
+    c. **Body:** Copy in the table of values shown below.
+
+1. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
+2. Close the private instance of your browser.
+
+***Table of values***
+
 |Number  |Country  |Code |IBAN  |
 |---------|---------|---------|---------|
 |1     |  Austria SEPA      | AT            |AT611904300234573201       |
@@ -213,8 +222,8 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
 |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
 |9     |  Netherlands SEPA      NL| NL91ABNA0417164300        |         |
 |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
-1. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
-2. Close the private instance of your browser.
+
+
 
 ## Phase 6: Demonstrate reporting
  
