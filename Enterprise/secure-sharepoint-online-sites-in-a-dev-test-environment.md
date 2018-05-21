@@ -3,7 +3,7 @@ title: "Secure SharePoint Online sites in a dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/14/2018
+ms.date: 05/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.collection: 
@@ -529,7 +529,7 @@ Next, configure a DLP policy that blocks users when they share a document on a S
     
 Next, follow the instructions in [Activate Azure RMS with the Office 365 admin center](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
   
-Next, configure Azure Information Protection with a new scoped policy and sub-label for protection and permissions with the following steps:
+Next, configure Azure Information Protection with a new policy and sub-label scoped for the C-Suite group for protection and permissions with the following steps:
   
 1. Sign in to the Office 365 portal with an account that has the Security Administrator or Company Administrator role. For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
@@ -538,38 +538,40 @@ Next, configure Azure Information Protection with a new scoped policy and sub-la
 3. If this is the first time you are configuring Azure Information Protection, see these [instructions](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
     
 4. In the list pane, click **All services**, type **information**, and then click **Azure Information Protection**.
+
+5. Click **Labels**.
     
-5. On the **Azure Information protection** blade, , click **Scoped policies > + Add a new policy**.
+6. Right-click the **Highly Confidential** label, and then click **Add a sub-label**.
     
-6. Type **CompanyStrategy** in **Policy name** and **Label for documents in the Company strategy team site** in **Description**.
+7. Type **C-Suite members** in **Name** and **Description**.
     
-7. Click **Select which users or groups get this policy > User/Groups**, and then select **C-Suite**.
+8. In **Set permissions for documents and emails containing this label**, click **Protect**.
     
-8. Click **Select > OK**.
+9. In the **Protection** section, click **Azure (cloud key)**.
     
-9. For the **Highly Confidential** label, click the ellipses (…), and then click **Add a sub-label**.
+10. On the **Protection** blade, under **Protection settings**, click **+ Add permissions**.
     
-10. Type a name for the sub-label in **Name** and a description of the label in **Description**.
+11. On the **Add permissions** blade, under **Specify users and groups**, click **+ Browse directory**.
     
-11. In **Set permissions for documents and emails containing this label**, click **Protect**.
+12. On the **AAD Users and Groups** pane, select **C-Suite**, and then click **Select**.
     
-12. In the **Protection** section, click **Azure (cloud key)**.
+13. Under **Choose permissions from the preset or set custom**, click **Custom**, and then click the **View Rights**, **Edit Content**, **Save**, **Reply**, and **Reply all** check boxes.
     
-13. On the **Protection** blade, under **Protection settings**, click **+ Add permissions**.
+14. Click **OK** twice.
     
-14. On the **Add permissions** blade, under **Specify users and groups**, click **+ Browse directory**.
+15. On the **Sub-label** blade, click **Save**, and then click **OK**.
+
+16. On the **Azure Information protection** blade, click **Policies > + Add a new policy**.
     
-15. On the **AAD Users and Groups** pane, select **C-Suite**, and then click **Select**.
+17. Type **CompanyStrategy** in **Policy name** and **Documents in the Company strategy team site** in **Description**.
     
-16. Under **Choose permissions from the preset**, clear the **Print**, **Copy and extract content**, and **Forward** check boxes.
+18. Click **Select which users or groups get this policy > User/Groups**, and then select **C-Suite**.
     
-17. Click **OK** twice.
-    
-18. On the **Sub-label** blade, click **Save**.
-    
-19. Close the new scoped policy blade.
-    
-20. On the **Azure Information protection - Scoped policies** blade, click **Publish**, and then click **Yes**.
+19. Click **Select > OK**.
+
+20. Click **Add or remove labels**. In the **Policy: Add or remove labels** pane, click **C-Suite**, and then click **OK**.   
+
+21. Click **Save**, and then click **OK**.
     
 To protect a document with Azure Information Protection and this new label, you must [install the Azure Information Protection client](https://docs.microsoft.com/information-protection/rms-client/install-client-app) on a test machine, install Office from the Office 365 portal, and then sign in from Microsoft Word with an account in the **C-Suite** group of your trial subscription.
   

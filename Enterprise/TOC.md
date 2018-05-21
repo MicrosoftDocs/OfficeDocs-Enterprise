@@ -3,7 +3,6 @@
 
 # [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 ## [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-### [Microsoft Cloud Identity for Enterprise Architects](microsoft-cloud-identity-for-enterprise-architects.md)
 ### [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
 #### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
 #### [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md)
@@ -87,6 +86,7 @@
 #### [Apply protection to personal data in Office 365](apply-protection-to-personal-data-in-office-365.md)
 #### [Monitor for leaks of personal data](monitor-for-leaks-of-personal-data.md)
 ### [GDPR for on-premises Office servers](gdpr-for-office-servers.md)
+#### [GDPR for SharePoint Server](gdpr-for-sharepoint-server.md)
 #### [GDPR for Exchange Server](gdpr-for-exchange-server.md)
 #### [GDPR for Skype for Businesss Server](gdpr-for-skype-for-business-server.md)
 #### [GDPR for Project Server](gdpr-for-project-server.md)
