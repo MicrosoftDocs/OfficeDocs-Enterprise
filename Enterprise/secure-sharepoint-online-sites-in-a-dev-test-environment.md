@@ -563,7 +563,7 @@ Next, configure Azure Information Protection with a new policy and sub-label sco
 
 16. On the **Azure Information protection** blade, click **Policies > + Add a new policy**.
     
-17. Type **CompanyStrategy** in **Policy name** and **Label for documents in the Company strategy team site** in **Description**.
+17. Type **CompanyStrategy** in **Policy name** and **Documents in the Company strategy team site** in **Description**.
     
 18. Click **Select which users or groups get this policy > User/Groups**, and then select **C-Suite**.
     

@@ -3,7 +3,7 @@ title: "Create team sites in a political campaign dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 05/21/2018
 ms.audience: ITPro
 ms.topic: article
 ms.collection: 
@@ -367,40 +367,42 @@ Next, configure Azure Information Protection with a new scoped policy and sub-la
 3. If this is the first time you are configuring Azure Information Protection, see these [instructions](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
     
 4. In the list pane, click **All services**, type **information**, and then click **Azure Information Protection**.
+
+5. Click **Labels**.
     
-5. On the **Azure Information protection** blade, , click **Scoped policies > + Add a new policy**.
+6. Right-click the **Highly Confidential** label, and then click **Add a sub-label**.
     
-6. Type **CampaignStrategy** in **Policy name** and **Label for documents in the Campaign strategy team site** in **Description**.
+7. Type **CampaignStrategy** in **Name** and **Label for documents in the Campaign strategy team site** in **Description**.
     
-7. Click **Select which users or groups get this policy > User/Groups**, and then select **Senior and strategic staff**.
+8. In **Set permissions for documents and emails containing this label**, click **Protect**.
     
-8. Click **Select > OK**.
+9. In the **Protection** section, click **Azure (cloud key)**.
     
-9. For the **Highly Confidential** label, click the ellipses (…), and then click **Add a sub-label**.
+10. On the **Protection** blade, under **Protection settings**, click **+ Add permissions**.
     
-10. Type a name for the sub-label in **Name** and a description of the label in **Description**.
+11. On the **Add permissions** blade, under **Specify users and groups**, click **+ Browse directory**.
     
-11. In **Set permissions for documents and emails containing this label**, click **Protect**.
+12. On the **AAD Users and Groups** pane, select **Senior and strategic staff**, and then click **Select**.
     
-12. In the **Protection** section, click **Azure (cloud key)**.
+13. Under **Choose permissions from the preset or set custom**, click **Custom**, and then click the **View Rights**, **Edit Content**, **Save**, **Reply**, and **Reply all** check boxes.
     
-13. On the **Protection** blade, under **Protection settings**, click **+ Add permissions**.
+14. Click **OK** twice.
     
-14. On the **Add permissions** blade, under **Specify users and groups**, click **+ Browse directory**.
+15. On the **Sub-label** blade, click **Save**, and then click **OK**.
+
+16. On the **Azure Information protection** blade, click **Policies > + Add a new policy**.
     
-15. On the **AAD Users and Groups** pane, select **Senior and strategic staff**, and then click **Select**.
+17. Type **CampaignStrategy** in **Name** and **Documents in the Campaign strategy team site** in **Description**.
     
-16. Under **Choose permissions from the preset**, clear the **Print**, **Copy and extract content**, and **Forward** check boxes.
+18. Click **Select which users or groups get this policy > User/Groups**, and then select **Senior and strategic staff**.
     
-17. Click **OK** twice.
-    
-18. On the **Sub-label** blade, click **Save**.
-    
-19. Close the new scoped policy blade.
-    
-20. On the **Azure Information protection - Scoped policies** blade, click **Publish**, and then click **Yes**.
-    
-You are now ready to begin creating documents in these four sites and test access to them with various user accounts in your trial subscription. 
+19. Click **Select > OK**.
+
+20. Click **Add or remove labels**. In the **Policy: Add or remove labels** pane, click **CampaignStrategy**, and then click **OK**.   
+
+21. Click **Save**, and then click **OK**.
+  
+You are now ready to begin creating documents in these four sites and test access to them with various user accounts. 
   
 To protect a document with Azure Information Protection and this new label, you must [install the Azure Information Protection client](https://docs.microsoft.com/information-protection/rms-client/install-client-app) on a test machine, install Office from the Office 365 portal, and then sign in from Microsoft Word with an account in the **Senior and strategic staff** group of your trial subscription.
   
