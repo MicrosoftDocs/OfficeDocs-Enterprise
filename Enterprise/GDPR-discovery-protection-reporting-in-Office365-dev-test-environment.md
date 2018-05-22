@@ -131,9 +131,7 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
     ```
     #Generate three unique GUIDs
     [guid]::NewGuid().Guid
-    
     [guid]::NewGuid().Guid
-    
     [guid]::NewGuid().Guid
     ```
 1. On your local computer, open another instance of Notepad and paste in the following content:
