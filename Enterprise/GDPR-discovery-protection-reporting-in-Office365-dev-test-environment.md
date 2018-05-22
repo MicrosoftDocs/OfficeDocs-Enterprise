@@ -97,17 +97,17 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 3. In **Exchange admin center**, click **hybrid** > **configure**.
 4. It will open a Windows PowerShell window.
 5. Fill in the user principal name (UPN) of your global administrator account and run the following PowerShell commands.
-    
-    ```
+   
+```powershell
 #Connect to Office 365 Security & Compliance Center
     
-    $adminUser = "<UPN of your global administrator account>"
+$adminUser = "<UPN of your global administrator account>"
     
-    Connect-IPPSSession -UserPrincipalName $adminUser
+Connect-IPPSSession -UserPrincipalName $adminUser
 ```
 1. Run the following PowerShell commands.
 
-    ```
+ ```powershell
 #Create & start search for sample data
 
 $searchName = "Sample Customer Information Search"
@@ -126,10 +126,9 @@ New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation
 
 Start-ComplianceSearch -Identity $searchName
 ```
-
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
 
-```
+```powershell
 #Generate three unique GUIDs
 [guid]::NewGuid().Guid
 
@@ -227,14 +226,13 @@ Start-ComplianceSearch -Identity $searchName
 1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
 2. Fill in the path to your ContosoCCN.xml file and run the following commands.
 
-```
+```powershell
 #Create new Sensitive Information Type
 
 $path="<path to the ContosoCCN.xml file, such as C:\Scripts\ContosoCCN.xml>"
 
 New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0)
 ```
-
 1. From the Security & Compliance tab, click **Classifications** > **Sensitive information types**. You should see the Contoso Customer Number (CCN) in the list.
 
 ## Phase 5: Demonstrate data protection
