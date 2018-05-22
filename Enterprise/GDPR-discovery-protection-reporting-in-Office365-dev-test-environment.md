@@ -98,8 +98,7 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 `#Connect to Office 365 Security & Compliance Center
 $adminUser = "<UPN of your global administrator account>"
 Connect-IPPSSession -UserPrincipalName $adminUser`
-   
-1. Run the following PowerShell commands.
+  1. Run the following PowerShell commands.
 `#Create & start search for sample data
 $searchName = "Sample Customer Information Search"
 $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
@@ -114,8 +113,7 @@ Start-ComplianceSearch -Identity $searchName`
 `#Generate three unique GUIDs
 [guid]::NewGuid().Guid
 [guid]::NewGuid().Guid
-[guid]::NewGuid().Guid 
-`
+[guid]::NewGuid().Guid `
 1. On your local computer, open another instance of Notepad and paste in the following content:
 `<?xml version="1.0" encoding="utf-8"?>
 <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"> 
@@ -157,14 +155,12 @@ Start-ComplianceSearch -Identity $searchName`
 </Resource>  
 </LocalizedStrings>  
 </Rules>  
-</RulePackage> 
-`
+</RulePackage> `
 1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
 2. Fill in the path to your ContosoCCN.xml file and run the following commands.
 `#Create new Sensitive Information Type
 $path="<path to the ContosoCCN.xml file, such as C:\Scripts\ContosoCCN.xml>"
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0) 
-`
+New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0)`
 1. From the Security & Compliance tab, click **Classifications** > **Sensitive information types**. You should see the Contoso Customer Number (CCN) in the list.
 
 ## Phase 5: Demonstrate data protection
@@ -204,7 +200,6 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
     a. **To:** (a personal email address)  
     b. **Subject:** GDPR Test  
     c. **Body:** Copy in the table of values shown below.
-
 1. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
 2. Close the private instance of your browser.
 
@@ -220,7 +215,7 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
 |6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
 |7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
 |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
-|9     |  Netherlands SEPA      NL| NL91ABNA0417164300        |         |
+|9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
 |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
 
 
