@@ -67,10 +67,10 @@ To connect with just an *account name and password*:
 1. Run a Windows PowerShell command prompt.
 2. In the **Windows PowerShell** command window, run the following commands:
     
-```
-$UserCredential = Get-Credential
-Connect-MsolService -Credential $UserCredential
-```
+  ```
+  $UserCredential = Get-Credential
+  Connect-MsolService -Credential $UserCredential
+  ```
 
 3. In the **Windows PowerShell Credential Request** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
     
@@ -79,9 +79,9 @@ To connect with *multi-factor authentication (MFA)*:
 1. Run a Windows PowerShell command prompt.
 2. In the **Microsoft Azure Active Directory Module for Windows PowerShell** command window, run the following command.
     
-```
-Connect-MsolService
-```
+  ```
+  Connect-MsolService
+  ```
 
 3. In the **Azure Active Directory PowerShell** dialog box, type your Office 365 work or school account user name and password, and then click **Sign in**.
     
