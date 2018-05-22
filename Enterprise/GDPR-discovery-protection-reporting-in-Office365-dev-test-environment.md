@@ -106,8 +106,10 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
     Connect-IPPSSession -UserPrincipalName $adminUser
 ```
 1. Run the following PowerShell commands.
-```
+
+    ```
 #Create & start search for sample data
+
 $searchName = "Sample Customer Information Search"
 
 $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
@@ -125,6 +127,7 @@ New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation
 Start-ComplianceSearch -Identity $searchName
 ```
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
+
 ```
 #Generate three unique GUIDs
 [guid]::NewGuid().Guid
@@ -134,6 +137,7 @@ Start-ComplianceSearch -Identity $searchName
 [guid]::NewGuid().Guid
 ```
 1. On your local computer, open another instance of Notepad and paste in the following content:
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 
@@ -219,6 +223,7 @@ Start-ComplianceSearch -Identity $searchName
 ```
 1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
 2. Fill in the path to your ContosoCCN.xml file and run the following commands.
+
 ```
 #Create new Sensitive Information Type
 
