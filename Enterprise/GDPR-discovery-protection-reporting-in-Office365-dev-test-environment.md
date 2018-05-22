@@ -126,6 +126,7 @@ New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation
 
 Start-ComplianceSearch -Identity $searchName
 ```
+
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
 
 ```
@@ -136,6 +137,7 @@ Start-ComplianceSearch -Identity $searchName
 
 [guid]::NewGuid().Guid
 ```
+
 1. On your local computer, open another instance of Notepad and paste in the following content:
 
 ```
@@ -221,6 +223,7 @@ Start-ComplianceSearch -Identity $searchName
 
 </RulePackage>
 ```
+
 1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
 2. Fill in the path to your ContosoCCN.xml file and run the following commands.
 
@@ -231,6 +234,7 @@ $path="<path to the ContosoCCN.xml file, such as C:\Scripts\ContosoCCN.xml>"
 
 New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0)
 ```
+
 1. From the Security & Compliance tab, click **Classifications** > **Sensitive information types**. You should see the Contoso Customer Number (CCN) in the list.
 
 ## Phase 5: Demonstrate data protection
