@@ -100,7 +100,7 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 `#Connect to Office 365 Security & Compliance Center
 $adminUser = "<UPN of your global administrator account>"
 Connect-IPPSSession -UserPrincipalName $adminUser`
-  1. Run the following PowerShell commands.
+1. Run the following PowerShell commands.
 `#Create & start search for sample data
 $searchName = "Sample Customer Information Search"
 $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
@@ -110,7 +110,6 @@ $searchName = "Sample Customer Information Search"
 $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
 New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
 Start-ComplianceSearch -Identity $searchName`
-
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
 `#Generate three unique GUIDs
 [guid]::NewGuid().Guid
@@ -189,31 +188,33 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
 12. In **Content contains**, confirm that the sensitive information types were added and then click **Save**.
 13. In **Customize the type of content you want to protect**, confirm  **Find content that contains:** contains the **International Banking Account Number (IBAN)**, and then click **Next**.
 14. In **Detect when content that's being shared contains:**, change the value from **10** to **1**, and then click **Next**.
-15. In **Do you want to turn on the policy or test things out first?**, choose the following settings, and then click **Next**.
-    a. Select the option for **I'd like to test it out first**
+15. In **Do you want to turn on the policy or test things out first?**, choose the following settings, and then click **Next**.  
+    a. Select the option for **I'd like to test it out first**  
     b. Select the check box for **Show policy tips while in test mode**
+   
 16. In **Review your settings**, click **Create** after reviewing the settings. NOTE: After you create a new DLP policy, it will take a while for it to take effect.
-1. On your local computer, open a private instance of your browser.
-2. In the address bar, type **https://\<DemoTenant\>.sharepoint.com**and sign in using your global administrator account.
-3. Click **Documents**.
-4. Click the file named ‘IBANs.docx’. You should see ‘Policy tip for IBANs.docx’.  The IBANs.docx file was shared with external recipients, which violates the DLP policy. 
-5. In the address bar, type: **https://outlook.office365.com**
-6. Click **New** - **Email message** and provide the following:  
-    a. **To:** (a personal email address)  
-    b. **Subject:** GDPR Test  
-    c. **Body:** Copy in the table of values shown below.
-    |Number  |Country  |Code |IBAN  |
-    |---------|---------|---------|---------|
-    |1     |  Austria SEPA      | AT            |AT611904300234573201       |
-    |2     |  Bulgaria SEPA       |BG    |BG80BNBG96611020345678      |
-    |3     |  Denmark SEPA      |   DK      |DK5000400440116243      |
-    |4     |  Finland SEPA      |   FI      |FI2112345600000785         |
-    |5     |  France SEPA       |   FR      |FR1420041010050500013M02606         |
-    |6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
-    |7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
-    |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
-    |9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
-    |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
+17. On your local computer, open a private instance of your browser.
+18. In the address bar, type **https://\<DemoTenant\>.sharepoint.com**and sign in using your global administrator account.
+19. Click **Documents**.
+20. Click the file named ‘IBANs.docx’. You should see ‘Policy tip for IBANs.docx’.  The IBANs.docx file was shared with external recipients, which violates the DLP policy. 
+21. In the address bar, type: **https://outlook.office365.com**
+22. Click **New** - **Email message** and provide the following:  
+    - **To:** (a personal email address)  
+    - **Subject:** GDPR Test  
+    - **Body:** Copy in the table of values shown below.
+  
+        |Number  |Country  |Code |IBAN  |
+        |---------|---------|---------|---------|
+        |1     |  Austria SEPA      | AT            |AT611904300234573201       |
+        |2     |  Bulgaria SEPA       |BG    |BG80BNBG96611020345678      |
+        |3     |  Denmark SEPA      |   DK      |DK5000400440116243      |
+        |4     |  Finland SEPA      |   FI      |FI2112345600000785         |
+        |5     |  France SEPA       |   FR      |FR1420041010050500013M02606         |
+        |6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
+        |7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
+        |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
+        |9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
+        |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
 1. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
 2. Close the private instance of your browser.
 
