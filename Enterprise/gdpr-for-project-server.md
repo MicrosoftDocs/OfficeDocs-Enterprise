@@ -30,4 +30,4 @@ These steps are covered in detail in the following articles:
 - [Delete user data from Project Server](/Project/delete-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
 
 
-Note that Project Server is built on top of SharePoint Server and logs events to the SharePoint ULS logs and Usage database.
+Note that Project Server is built on top of SharePoint Server and logs events to the SharePoint ULS logs and Usage database. See [GDPR for SharePoint Server](gdpr-for-sharepoint-server.md) for more information.
