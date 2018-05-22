@@ -98,47 +98,43 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 4. It will open a Windows PowerShell window.
 5. Fill in the user principal name (UPN) of your global administrator account and run the following PowerShell commands.
    
-```
-#Connect to Office 365 Security & Compliance Center
-    
-$adminUser = "<UPN of your global administrator account>"
-    
-Connect-IPPSSession -UserPrincipalName $adminUser
-```
-
+    ```
+    #Connect to Office 365 Security & Compliance Center
+        
+    $adminUser = "<UPN of your global administrator account>"
+        
+    Connect-IPPSSession -UserPrincipalName $adminUser
+    ```
 1. Run the following PowerShell commands.
 
- ```
-#Create & start search for sample data
-
-$searchName = "Sample Customer Information Search"
-
-$searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
-
-New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
-
-Start-ComplianceSearch -Identity $searchName#Create & start search for sample data
-
-$searchName = "Sample Customer Information Search"
-
-$searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
-
-New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
-
-Start-ComplianceSearch -Identity $searchName
-```
-
+     ```
+    #Create & start search for sample data
+    
+    $searchName = "Sample Customer Information Search"
+    
+    $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
+    
+    New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
+    
+    Start-ComplianceSearch -Identity $searchName#Create & start search for sample data
+    
+    $searchName = "Sample Customer Information Search"
+    
+    $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
+    
+    New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
+    
+    Start-ComplianceSearch -Identity $searchName
+    ```
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
-
-```
-#Generate three unique GUIDs
-[guid]::NewGuid().Guid
-
-[guid]::NewGuid().Guid
-
-[guid]::NewGuid().Guid
-```
-
+    ```
+    #Generate three unique GUIDs
+    [guid]::NewGuid().Guid
+    
+    [guid]::NewGuid().Guid
+    
+    [guid]::NewGuid().Guid
+    ```
 1. On your local computer, open another instance of Notepad and paste in the following content:
 
 ```
@@ -226,15 +222,13 @@ Start-ComplianceSearch -Identity $searchName
 ```
 1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
 2. Fill in the path to your ContosoCCN.xml file and run the following commands.
-
-```
-#Create new Sensitive Information Type
-
-$path="<path to the ContosoCCN.xml file, such as C:\Scripts\ContosoCCN.xml>"
-
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0)
-```
-
+    ```
+    #Create new Sensitive Information Type
+    
+    $path="<path to the ContosoCCN.xml file, such as C:\Scripts\ContosoCCN.xml>"
+    
+    New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0)
+    ```
 1. From the Security & Compliance tab, click **Classifications** > **Sensitive information types**. You should see the Contoso Customer Number (CCN) in the list.
 
 ## Phase 5: Demonstrate data protection
@@ -263,8 +257,7 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
 14. In **Detect when content that's being shared contains:**, change the value from **10** to **1**, and then click **Next**.
 15. In **Do you want to turn on the policy or test things out first?**, choose the following settings, and then click **Next**.  
     a. Select the option for **I'd like to test it out first**  
-    b. Select the check box for **Show policy tips while in test mode**
-   
+    b. Select the check box for **Show policy tips while in test mode** 
 16. In **Review your settings**, click **Create** after reviewing the settings. NOTE: After you create a new DLP policy, it will take a while for it to take effect.
 17. On your local computer, open a private instance of your browser.
 18. In the address bar, type **https://\<DemoTenant\>.sharepoint.com**and sign in using your global administrator account.
