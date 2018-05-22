@@ -127,6 +127,7 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
     Start-ComplianceSearch -Identity $searchName
     ```
 1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
+
     ```
     #Generate three unique GUIDs
     [guid]::NewGuid().Guid
