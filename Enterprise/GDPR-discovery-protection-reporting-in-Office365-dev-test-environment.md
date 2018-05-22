@@ -98,11 +98,13 @@ Contoso always refers to customers by using a CCN in internal correspondence, ex
 4. It will open a Windows PowerShell window.
 5. Fill in the user principal name (UPN) of your global administrator account and run the following PowerShell commands.
     
-    `#Connect to Office 365 Security & Compliance Center
+    ```
+#Connect to Office 365 Security & Compliance Center
     
     $adminUser = "<UPN of your global administrator account>"
     
-    Connect-IPPSSession -UserPrincipalName $adminUser`
+    Connect-IPPSSession -UserPrincipalName $adminUser
+```
 1. Run the following PowerShell commands.
 `#Create & start search for sample data
 $searchName = "Sample Customer Information Search"
