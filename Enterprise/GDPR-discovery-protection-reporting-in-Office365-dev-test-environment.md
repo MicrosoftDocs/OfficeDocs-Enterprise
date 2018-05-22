@@ -41,25 +41,26 @@ Next, use these steps to configure the eDiscovery manager:
 In this phase, you create a document with PII for a set of example International Banking Account Numbers (IBANs) and store it on a SharePoint Online site in your Office 365 dev/test environment.
 
 1. On your local computer, open Microsoft Word.
-2. Paste the following table in the Word file and save it as ‘IBANs.docx’ on your local computer.  
+2. Paste the following table in the Word file and save it as ‘IBANs.docx’ on your local computer.
+    
+    Number  |Country  |Code |IBAN  |
+    |---------|---------|---------|---------|
+    |1     |  Austria SEPA      | AT            |AT611904300234573201       |
+    |2     |  Bulgaria SEPA       |BG    |BG80BNBG96611020345678      |
+    |3     |  Denmark SEPA      |   DK      |DK5000400440116243      |
+    |4     |  Finland SEPA      |   FI      |FI2112345600000785         |
+    |5     |  France SEPA       |   FR      |FR1420041010050500013M02606         |
+    |6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
+    |7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
+    |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
+    |9     |  Netherlands SEPA      |   NL      |    NL91ABNA0417164300     |
+    |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
 
-|Number  |Country  |Code |IBAN  |
-|---------|---------|---------|---------|
-|1     |  Austria SEPA      | AT            |AT611904300234573201       |
-|2     |  Bulgaria SEPA       |BG    |BG80BNBG96611020345678      |
-|3     |  Denmark SEPA      |   DK      |DK5000400440116243      |
-|4     |  Finland SEPA      |   FI      |FI2112345600000785         |
-|5     |  France SEPA       |   FR      |FR1420041010050500013M02606         |
-|6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
-|7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
-|8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
-|9     |  Netherlands SEPA      |   NL      |    NL91ABNA0417164300     |
-|10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
-1. In a new tab of your browser, type:  **https://{YourTenantName}.sharepoint.com**
-2. Click **Documents** to open the document library for this site. If you’re prompted for a new list experience tour, click **Next** until it’s finished.
-3. Click **Upload** > **Files** and select the IBANs.docx you created in step 2.
+3. In a new tab of your browser, type:  **https://\<YourTenantName\>.sharepoint.com**
+4. Click **Documents** to open the document library for this site. If you’re prompted for a new list experience tour, click **Next** until it’s finished.
+5.  Click **Upload** > **Files** and select the IBANs.docx you created in step 2.
 
-   
+  
 ## Phase 3: Demonstrate data discovery
 
 In this phase, you demonstrate search to find the document created and stored in Phase 2, based on its content containing IBANs.
@@ -68,7 +69,7 @@ In this phase, you demonstrate search to find the document created and stored in
 2. Create a new search item by clicking on **+**.
 3. In a new window, provide the following information:  
     a. Name: IBAN Search  
-    b. Where do you want us to look?: **Choose specific sites to search** (click **+**), and then enter the site's URL: **https://{YourTenantName}.sharepoint.com/**  
+    b. Where do you want us to look?: **Choose specific sites to search** (click **+**), and then enter the site's URL: **https://\<YourTenantName\>.sharepoint.com/**  
     c. Click **Add** > and then click **OK**. If you see a Warning, click **OK**.  
     d. Click **Next** on a **New search** window.  
     e. For **What do you want us to look for?**:
@@ -86,7 +87,8 @@ In this phase, you create a custom sensitive information type for the fictional 
     - Possible agency values range from 000 to 999. 
 - An alphabetic character to represent the line of business.
     - Possible values are a-z and should be case insensitive.
-- A four-digit serial number. Possible serial number values range from 0000 to 9999.   
+- A four-digit serial number. 
+    - Possible serial number values range from 0000 to 9999.   
 
 Contoso always refers to customers by using a CCN in internal correspondence, external correspondence, documents, and other forms. Contoso needs a custom sensitive item type to detect the use of CCNs in Office 365 content so that they may apply protection to the use of this form of personal identifiable information.
 
@@ -192,7 +194,7 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
     b. Select the check box for **Show policy tips while in test mode**
 16. In **Review your settings**, click **Create** after reviewing the settings. NOTE: After you create a new DLP policy, it will take a while for it to take effect.
 1. On your local computer, open a private instance of your browser.
-2. In the address bar, type **https://<DemoTenant>.sharepoint.com**and sign in using your global administrator account.
+2. In the address bar, type **https://\<DemoTenant\>.sharepoint.com**and sign in using your global administrator account.
 3. Click **Documents**.
 4. Click the file named ‘IBANs.docx’. You should see ‘Policy tip for IBANs.docx’.  The IBANs.docx file was shared with external recipients, which violates the DLP policy. 
 5. In the address bar, type: **https://outlook.office365.com**
@@ -200,24 +202,20 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
     a. **To:** (a personal email address)  
     b. **Subject:** GDPR Test  
     c. **Body:** Copy in the table of values shown below.
+    |Number  |Country  |Code |IBAN  |
+    |---------|---------|---------|---------|
+    |1     |  Austria SEPA      | AT            |AT611904300234573201       |
+    |2     |  Bulgaria SEPA       |BG    |BG80BNBG96611020345678      |
+    |3     |  Denmark SEPA      |   DK      |DK5000400440116243      |
+    |4     |  Finland SEPA      |   FI      |FI2112345600000785         |
+    |5     |  France SEPA       |   FR      |FR1420041010050500013M02606         |
+    |6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
+    |7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
+    |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
+    |9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
+    |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
 1. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
 2. Close the private instance of your browser.
-
-***Table of values***
-
-|Number  |Country  |Code |IBAN  |
-|---------|---------|---------|---------|
-|1     |  Austria SEPA      | AT            |AT611904300234573201       |
-|2     |  Bulgaria SEPA       |BG    |BG80BNBG96611020345678      |
-|3     |  Denmark SEPA      |   DK      |DK5000400440116243      |
-|4     |  Finland SEPA      |   FI      |FI2112345600000785         |
-|5     |  France SEPA       |   FR      |FR1420041010050500013M02606         |
-|6     |  Germany SEPA      |   DE      |DE89370400440532013000         |
-|7     |  Greece SEPA       |   GR      |GR1601101250000000012300695         |
-|8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
-|9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
-|10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
-
 
 
 ## Phase 6: Demonstrate reporting
