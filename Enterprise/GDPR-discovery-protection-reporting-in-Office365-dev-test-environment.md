@@ -1,7 +1,7 @@
 ---
 title: "GDPR discovery, protection, and reporting in the Office 365 dev/test environment"
-ms.author: 
-author: 
+ms.author: bcarter
+author: brendacarter
 manager: laurawi
 ms.date: 
 ms.audience: ITPro
@@ -21,7 +21,6 @@ description: "Demonstrate GDPR capabilities in Office 365."
  **Summary:** Demonstrate GDPR capabilities in Office 365. 
   
 This article describes how you configure and demonstrate personally identifiable information (PII) discovery, protection, and reporting for the General Data Protection Regulation (GDPR) in an Office 365 dev/test environment.
-
   
 ## Phase 1: Create and configure your trial Office 365 subscription
 
@@ -56,7 +55,7 @@ In this phase, you create a document with PII for a set of example International
     |9     |  Netherlands SEPA      |   NL      |    NL91ABNA0417164300     |
     |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
 
-3. In a new tab of your browser, type:  **https://\<YourTenantName\>.sharepoint.com**
+3. In a new tab of your browser, type:  **https://**\<YourTenantName\>**.sharepoint.com**
 4. Click **Documents** to open the document library for this site. If you’re prompted for a new list experience tour, click **Next** until it’s finished.
 5.  Click **Upload** > **Files** and select the IBANs.docx you created in step 2.
 
@@ -69,8 +68,8 @@ In this phase, you demonstrate search to find the document created and stored in
 2. Create a new search item by clicking on **+**.
 3. In a new window, provide the following information:  
     a. Name: IBAN Search  
-    b. Where do you want us to look?: **Choose specific sites to search** (click **+**), and then enter the site's URL: **https://\<YourTenantName\>.sharepoint.com/**  
-    c. Click **Add** > and then click **OK**. If you see a Warning, click **OK**.  
+    b. Where do you want us to look?: **Choose specific sites to search** (click **+**), and then enter the site's URL: **https://**\<YourTenantName\>**.sharepoint.com/**  
+    c. Click **Add**, and then click **OK**. If you see a Warning, click **OK**.  
     d. Click **Next** on a **New search** window.  
     e. For **What do you want us to look for?**:
 **SensitiveType:"International Banking Account Number (IBAN)"**, and then click **Search**.
@@ -92,143 +91,80 @@ In this phase, you create a custom sensitive information type for the fictional 
 
 Contoso always refers to customers by using a CCN in internal correspondence, external correspondence, documents, and other forms. Contoso needs a custom sensitive item type to detect the use of CCNs in Office 365 content so that they may apply protection to the use of this form of personal identifiable information.
 
-1. On the Office 365 home page, click **Admin**.
-2. On the new Admin center page, click **Admin centers** > **Exchange**.
-3. In **Exchange admin center**, click **hybrid** > **configure**.
-4. It will open a Windows PowerShell window.
-5. Fill in the user principal name (UPN) of your global administrator account and run the following PowerShell commands.
-   
-    ```
-    #Connect to Office 365 Security & Compliance Center
-        
-    $adminUser = "<UPN of your global administrator account>"
-        
-    Connect-IPPSSession -UserPrincipalName $adminUser
-    ```
-1. Run the following PowerShell commands.
+1. Use the instructions in [Connect to Office 365 Security & Compliance Center PowerShell using multi-factor authentication](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps) and connect to the Security & Compliance Center with UPN of your global administrator account.
+2. Run the following PowerShell commands.
 
      ```
     #Create & start search for sample data
-    
     $searchName = "Sample Customer Information Search"
-    
     $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
-    
     New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
-    
     Start-ComplianceSearch -Identity $searchName#Create & start search for sample data
-    
     $searchName = "Sample Customer Information Search"
-    
     $searchQuery = "15080P9562 OR 14040O1119 OR 15020J8317 OR 14050E2330 OR 16050E2166 OR 17040O1118"
-    
     New-ComplianceSearch -Name $searchName -SharePointLocation All -ExchangeLocation All -ContentMatchQuery $searchQuery
-    
     Start-ComplianceSearch -Identity $searchName
     ```
-1. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
-
+3. Run the following PowerShell commands and copy the generated GUIDs to an open instance of Notepad on your computer in the order in which they are listed.
     ```
     #Generate three unique GUIDs
-    [guid]::NewGuid().Guid
-    [guid]::NewGuid().Guid
-    [guid]::NewGuid().Guid
+    Write-Host "GUID1 = "([guid]::NewGuid().Guid)
+    Write-Host "GUID2 = "([guid]::NewGuid().Guid)
+    Write-Host "GUID3 = "([guid]::NewGuid().Guid)
     ```
-1. On your local computer, open another instance of Notepad and paste in the following content:
+4. On your local computer, open another instance of Notepad and paste in the following content:
 
     ```
     <?xml version="1.0" encoding="utf-8"?>
-    
     <RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"> 
-    
     <RulePack id="GUID1">
-    
     <Version major="1" minor="0" build="0" revision="0" />
-    
     <Publisher id="GUID2" />
-    
     <Details defaultLangCode="en"> 
-     
     <LocalizedDetails langcode="en"> 
-     
     <PublisherName>Contoso Ltd.</PublisherName> 
-     
     <Name>Contoso Rule Package</Name> 
-     
     <Description>Defines Contoso's custom set of classification rules</Description>
-    
     </LocalizedDetails>
-    
     </Details>
-    
     </RulePack>
-    
     <Rules>
-    
     <!-- Contoso Customer Number (CCN) -->
-    
     <Entity id="GUID3" patternsProximity="300" recommendedConfidence="85">
-    
     <Pattern confidenceLevel="85">
-    
     <IdMatch idRef="Regex_contoso_ccn" />
-    
     <Match idRef="Keyword_contoso_ccn" />
-    
     <Match idRef="Regex_eu_date" />
-    
     </Pattern>
-    
     </Entity>
-    
     <Regex id="Regex_contoso_ccn">[0-1][0-9][0-9]{3}[A-Za-z][0-9]{4}</Regex>
-    
     <Keyword id="Keyword_contoso_ccn">
-    
     <Group matchStyle="word">
-    
     <Term caseSensitive="false">customer number</Term>
-    
     <Term caseSensitive="false">customer no</Term>
-    
     <Term caseSensitive="false">customer #</Term>
-    
     <Term caseSensitive="false">customer#</Term>
-    
     <Term caseSensitive="false">Contoso customer</Term>
-    
     </Group>
-    
     </Keyword>
-    
     <Regex id="Regex_eu_date"> (0?[1-9]|[12][0-9]|3[0-1])[\/-](0?[1-9]|1[0-2]|j\x00e4n(uar)?|jan(uary|uari|uar|eiro|vier|v)?|ene(ro)?|genn(aio)? |feb(ruary|ruari|rero|braio|ruar|br)?|f\x00e9vr(ier)?|fev(ereiro)?|mar(zo|o|ch|s)?|m\x00e4rz|maart|apr(ile|il)?|abr(il)?|avril |may(o)?|magg(io)?|mai|mei|mai(o)?|jun(io|i|e|ho)?|giugno|juin|jul(y|io|i|ho)?|lu(glio)?|juil(let)?|ag(o|osto)?|aug(ustus|ust)?|ao\x00fbt|sep|sept(ember|iembre|embre)?|sett(embre)?|set(embro)?|oct(ober|ubre|obre)?|ott(obre)?|okt(ober)?|out(ubro)? |nov(ember|iembre|embre|embro)?|dec(ember)?|dic(iembre|embre)?|dez(ember|embro)?|d\x00e9c(embre)?)[ \/-](19|20)?[0-9]{2}</Regex>
-     
     <LocalizedStrings>
-    
     <Resource idRef="GUID3">
-    
     <Name default="true" langcode="en-us">Contoso Customer Number (CCN)</Name>
-    
     <Description default="true" langcode="en-us">Contoso Customer Number (CCN) that looks for additional keywords and EU formatted date</Description>
-    
     </Resource>
-    
     </LocalizedStrings>
-    
     </Rules>
-    
     </RulePackage>
     ```
-1. Copy the values of the three GUIDs from step 7 in order—replacing GUID1, GUID2, and GUID3—and save the contents on your local computer with the name ContosoCCN.xml.
-2. Fill in the path to your ContosoCCN.xml file and run the following commands.
+5. Replace the values of GUID1, GUID2, and GUID3 in the XML text of step 4 with their values from step 3, and then save the contents on your local computer with the name ContosoCCN.xml.
+6. Fill in the path to your ContosoCCN.xml file and run the following commands.
     ```
     #Create new Sensitive Information Type
-    
     $path="<path to the ContosoCCN.xml file, such as C:\Scripts\ContosoCCN.xml>"
-    
     New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path $path -Encoding Byte -ReadCount 0)
     ```
-1. From the Security & Compliance tab, click **Classifications** > **Sensitive information types**. You should see the Contoso Customer Number (CCN) in the list.
+7. From the Security & Compliance tab, click **Classifications** > **Sensitive information types**. You should see the Contoso Customer Number (CCN) in the list.
 
 ## Phase 5: Demonstrate data protection
 
@@ -259,12 +195,12 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
     b. Select the check box for **Show policy tips while in test mode** 
 16. In **Review your settings**, click **Create** after reviewing the settings. NOTE: After you create a new DLP policy, it will take a while for it to take effect.
 17. On your local computer, open a private instance of your browser.
-18. In the address bar, type **https://\<DemoTenant\>.sharepoint.com**and sign in using your global administrator account.
+18. In the address bar, type **https://**\<YourTenantName\>**.sharepoint.com** and sign in using your global administrator account.
 19. Click **Documents**.
 20. Click the file named ‘IBANs.docx’. You should see ‘Policy tip for IBANs.docx’.  The IBANs.docx file was shared with external recipients, which violates the DLP policy. 
 21. In the address bar, type: **https://outlook.office365.com**
 22. Click **New** - **Email message** and provide the following:  
-    - **To:** (a personal email address)  
+    - **To:** \<a personal email address\>  
     - **Subject:** GDPR Test  
     - **Body:** Copy in the table of values shown below.
   
@@ -280,8 +216,8 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
         |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
         |9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
         |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
-1. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
-2. Close the private instance of your browser.
+23. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
+24. Close the private instance of your browser.
 
 
 ## Phase 6: Demonstrate reporting
@@ -294,6 +230,6 @@ In this phase, you demonstrate Office 365 reporting based on the DLP policy conf
   
 ## See Also
 
-[Office 365 Information Protection for GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)
+[Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)
 
 [GDPR for Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/enterprise/toc.json)
