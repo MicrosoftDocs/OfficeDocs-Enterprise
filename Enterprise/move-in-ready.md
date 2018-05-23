@@ -267,7 +267,7 @@ For cost information, click [here](http://azure.microsoft.com/pricing/details/ba
   
 ## Red tiger video test
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE23VRG]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE23VRG]
 
    
 ## Next step
