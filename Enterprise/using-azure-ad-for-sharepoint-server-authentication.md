@@ -107,7 +107,7 @@ Copy the *Identifier* value into the *Realm* property into a table  (See Table 1
 
 | Table 1: Values captured  |  |
 |---------|---------|
-|Realm | `urn:sharepoint:portal.contoso.local` |
+|Realm | `urn:sharepoint:portal.contoso.local` or 'https://sharepointWebApp.domain.com' |
 |Full path to SAML signing certificate file | `C:/temp/SharePoint SAML Integration.cer`  |
 |SAML single sign-on service URL (replace /saml2 with /wsfed) | `https://login.microsoftonline.com/b1726649-b616-460d-8d20-defab80d476c/wsfed` |
 |Application Object ID | `a812f48b-d1e4-4c8e-93be-e4808c8ca3ac` |
@@ -115,9 +115,9 @@ Copy the *Identifier* value into the *Realm* property into a table  (See Table 1
 > [!IMPORTANT]
 > Replace the */saml2* value in the URL with */wsfed*. The */saml2* endpoint will process SAML 2.0 tokens. The */wsfed* endpoint enables processing SAML 1.1 tokens and is required for SharePoint 2016 SAML federation.
 
-## Step 4: Configure a new trusted identity provider in SharePoint Server 2016
+## Step 4: Configure a new trusted identity provider in SharePoint Server 2013 or 2016
 
-Sign into the SharePoint Server 2016 server and open the SharePoint 2016 Management Shell. Fill in the values of $realm, $wsfedurl, and $filepath from Table 1 and run the following commands to configure a new trusted identity provider.
+Sign into the SharePoint Server 2016 server and open the SharePoint 2013 or 2016 Management Shell. Fill in the values of $realm, $wsfedurl, and $filepath from Table 1 and run the following commands to configure a new trusted identity provider.
 
 > [!TIP]
 > If you're new to using PowerShell or want to learn more about how PowerShell works, see [SharePoint PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/overview?view=sharepoint-ps). 
