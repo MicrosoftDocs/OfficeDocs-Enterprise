@@ -53,7 +53,7 @@ Follow these general steps to set up your environment to use Azure AD as a Share
 1. Create a new Azure AD directory or use your existing directory.
 2. Ensure the zone for the web application that you want to secure with Azure AD is configured to use SSL.
 3. Create a new enterprise application in Azure AD.
-4. Configure a new trusted identity provider in SharePoint Server 2016.
+4. Configure a new trusted identity provider in SharePoint 2016.
 5. Set the permissions for the web application.
 6. Add a SAML 1.1 token issuance policy in Azure AD.
 7. Verify the new provider.
@@ -74,7 +74,7 @@ This article was written using the reference architecture in [Run a high availab
 
 Using SAML requires the application be configured to use SSL. If your SharePoint web application is not configured to use SSL, use the following steps to create a new self-signed certificate to configure the web application for SSL. This configuration is only meant for a lab environment and is not intended for production. Production environments should use a signed certificate.
 
-1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443.</br>![Extending the web app to another IIS site](images/SAML11/fig3-extendwebapptoiis.png)</br>
+1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443. **(VERY IMPORTANT to EXTEND the APPLICATION to a NEW ZONE and add Custom Sign In Page /_trust/)**</br>![Extending the web app to another IIS site](images/SAML11/fig3-extendwebapptoiis.png)</br>
 2. In IIS Manager, double-click **Server Certificates**.
 3. In the **Actions** pane, click **Create Self-Signed Certificate**. Type a friendly name for the certificate in the Specify a friendly name for the certificate box, and then click **OK**.
 4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.</br>![Editing site binding in IIS](images/SAML11/fig4-editsitebinding.png)</br>
@@ -86,7 +86,7 @@ Each of the web front end servers in the SharePoint farm will require configurin
 
 1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](images/SAML11/fig5-addnongalleryapp.png)</br>
 2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:</br>
-    - Identifier: `urn:sharepoint:portal.contoso.local`
+    - Identifier: `urn:sharepoint:portal.contoso.local` or `https://portal.contoso.local/`
     - Reply URL: `https://portal.contoso.local/_trust/default.aspx`
     - Sign-on URL: `https://portal.contoso.local/_trust/default.aspx`
     - User Identifier: `user.userprincipalname`</br>
@@ -107,7 +107,7 @@ Copy the *Identifier* value into the *Realm* property into a table  (See Table 1
 
 | Table 1: Values captured  |  |
 |---------|---------|
-|Realm | `urn:sharepoint:portal.contoso.local` or 'https://sharepointWebApp.domain.com' |
+|Realm | `urn:sharepoint:portal.contoso.local` or `https://portal.contoso.local/` |
 |Full path to SAML signing certificate file | `C:/temp/SharePoint SAML Integration.cer`  |
 |SAML single sign-on service URL (replace /saml2 with /wsfed) | `https://login.microsoftonline.com/b1726649-b616-460d-8d20-defab80d476c/wsfed` |
 |Application Object ID | `a812f48b-d1e4-4c8e-93be-e4808c8ca3ac` |
@@ -115,9 +115,9 @@ Copy the *Identifier* value into the *Realm* property into a table  (See Table 1
 > [!IMPORTANT]
 > Replace the */saml2* value in the URL with */wsfed*. The */saml2* endpoint will process SAML 2.0 tokens. The */wsfed* endpoint enables processing SAML 1.1 tokens and is required for SharePoint 2016 SAML federation.
 
-## Step 4: Configure a new trusted identity provider in SharePoint Server 2013 or 2016
+## Step 4: Configure a new trusted identity provider in SharePoint Server 2016
 
-Sign into the SharePoint Server 2016 server and open the SharePoint 2013 or 2016 Management Shell. Fill in the values of $realm, $wsfedurl, and $filepath from Table 1 and run the following commands to configure a new trusted identity provider.
+Sign into the SharePoint Server 2016 server and open the 2016 Management Shell. Fill in the values of $realm, $wsfedurl, and $filepath from Table 1 and run the following commands to configure a new trusted identity provider.
 
 > [!TIP]
 > If you're new to using PowerShell or want to learn more about how PowerShell works, see [SharePoint PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/overview?view=sharepoint-ps). 
