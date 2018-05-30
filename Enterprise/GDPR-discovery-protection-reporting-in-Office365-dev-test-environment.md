@@ -55,6 +55,8 @@ In this phase, you create a document with PII for a set of example International
     |9     |  Netherlands SEPA      |   NL      |    NL91ABNA0417164300     |
     |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
 
+Note:- This sample data set is derived from publicly available information and is intended to be used for test purposes only.
+
 3. In a new tab of your browser, type:  **https://**\<YourTenantName\>**.sharepoint.com**
 4. Click **Documents** to open the document library for this site. If you’re prompted for a new list experience tour, click **Next** until it’s finished.
 5.  Click **Upload** > **Files** and select the IBANs.docx you created in step 2.
@@ -216,6 +218,9 @@ In this phase, you create a new DLP policy and demonstrate how it gets applied t
         |8     |  Italy SEPA       |    IT     |GR1601101250000000012300695         |
         |9     |  Netherlands SEPA      |   NL      |   NL91ABNA0417164300      |
         |10     | Poland SEPA       |  PL       | PL27114020040000300201355387        |
+
+Note:- This sample data set is derived from publicly available information and is intended to be used for test purposes only.
+
 23. You will see that the DLP policy recognized that body of the email contains IBANs and provides you with the policy tip at the top of the message window.
 24. Close the private instance of your browser.
 
