@@ -74,7 +74,13 @@ This article was written using the reference architecture in [Run a high availab
 
 Using SAML requires the application be configured to use SSL. If your SharePoint web application is not configured to use SSL, use the following steps to create a new self-signed certificate to configure the web application for SSL. This configuration is only meant for a lab environment and is not intended for production. Production environments should use a signed certificate.
 
-1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443. **(VERY IMPORTANT to EXTEND the APPLICATION to a NEW ZONE and add Custom Sign In Page /_trust/)**</br>![Extending the web app to another IIS site](images/SAML11/fig3-extendwebapptoiis.png)</br>
+1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443. 
+
+> [!NOTE]
+> Very Important to EXTEND the EXISITING APPLICATION to a NEW ZONE and add Custom Sign In Page /_trust/.
+</br>
+</br>
+![Extending the web app to another IIS site](images/SAML11/fig3-extendwebapptoiis.png)</br>
 2. In IIS Manager, double-click **Server Certificates**.
 3. In the **Actions** pane, click **Create Self-Signed Certificate**. Type a friendly name for the certificate in the Specify a friendly name for the certificate box, and then click **OK**.
 4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.</br>![Editing site binding in IIS](images/SAML11/fig4-editsitebinding.png)</br>
