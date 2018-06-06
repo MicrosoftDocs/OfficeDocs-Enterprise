@@ -265,11 +265,6 @@ For additional information, click [here](http://azure.microsoft.com/services/bac
   
 For cost information, click [here](http://azure.microsoft.com/pricing/details/backup/).
   
-## Red tiger video test
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE23VRG]
-
-   
 ## Next step
 
 Review the [Some assembly required](some-assembly-required.md) cloud storage options.
