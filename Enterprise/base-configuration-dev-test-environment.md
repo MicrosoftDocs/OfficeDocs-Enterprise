@@ -236,9 +236,6 @@ This is your current configuration.
 
 APP1 provides web and file sharing services.
 
--> [!NOTE]  
--> The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have an Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10 with the [Azure portal](https://portal.azure.com). 
-
 To create an Azure Virtual Machine for APP1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```
@@ -292,6 +289,9 @@ This is your current configuration.
 ## Phase 4: Configure CLIENT1
 
 CLIENT1 acts as a typical laptop, tablet, or desktop computer on the Contoso intranet.
+
+> [!NOTE]  
+> The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have an Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10 with the [Azure portal](https://portal.azure.com). 
   
 To create an Azure Virtual Machine for CLIENT1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
