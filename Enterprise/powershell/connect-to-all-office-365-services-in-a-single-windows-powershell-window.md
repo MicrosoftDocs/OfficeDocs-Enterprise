@@ -3,7 +3,7 @@ title: "Connect to all Office 365 services in a single Windows PowerShell window
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/23/2018
+ms.date: 06/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -79,13 +79,19 @@ Here are the steps to connect to all the services in a single PowerShell window.
   $credential = Get-Credential
   ```
 
-3. Run this command to connect to Azure Active Directory (AD).
+3. Run this command to connect to Azure Active Directory (AD) using the Azure Active Directory PowerShell for Graph module.
     
   ```
    Connect-AzureAD -Credential $credential
   ```
+  
+  Alternately, if you are using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.
+      
+  ```
+   Connect-MsolService -Credential $credential
+ ```
 
-4. Run these commands to connect to SharePoint Online. Replace  _\<domainhost>_ with the actual value for your domain. For example, for `litwareinc.onmicrosoft.com`, the  _\<domainhost>_ value is `litwareinc`.
+4. Run these commands to connect to SharePoint Online. Replace  _\<domainhost>_ with the actual value for your domain. For example, for "litwareinc.onmicrosoft.com", the  _\<domainhost>_ value is "litwareinc".
     
   ```
   Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
@@ -114,7 +120,7 @@ Here are the steps to connect to all the services in a single PowerShell window.
   Import-PSSession $SccSession -Prefix cc
   ```
 
-Here are all the commands in a single block. Specify the name of your domain host, and then run them all at one time.
+Here are all the commands in a single block when using the Azure Active Directory PowerShell for Graph module. Specify the name of your domain host, and then run them all at one time.
   
 ```
 $domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
@@ -130,6 +136,24 @@ Import-PSSession $exchangeSession
 $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
 Import-PSSession $SccSession -Prefix cc
 ```
+
+Alternately, here are all the commands in a single block when using the Microsoft Azure Active Directory Module for Windows PowerShell module. Specify the name of your domain host, and then run them all at one time.
+  
+```
+$domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
+$credential = Get-Credential
+Connect-MsolService -Credential $credential
+Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
+Connect-SPOService -Url https://$domainHost-admin.sharepoint.com -credential $credential
+Import-Module SkypeOnlineConnector
+$sfboSession = New-CsOnlineSession -Credential $credential
+Import-PSSession $sfboSession
+$exchangeSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $credential -Authentication "Basic" -AllowRedirection
+Import-PSSession $exchangeSession
+$SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
+Import-PSSession $SccSession -Prefix cc
+```
+
 When you are ready to close down the Windows PowerShell window, run this command to remove the active sessions to Skype for Business Online, Exchange Online, SharePoint Online, and the Security &amp; Compliance Center:
   
 ```
@@ -146,6 +170,20 @@ $acctName="<UPN of a global administrator account>"
 $domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
 #Azure Active Directory
 Connect-AzureAD
+#SharePoint Online
+Connect-SPOService -Url https://$domainHost-admin.sharepoint.com
+#Skype for Business Online
+$sfboSession = New-CsOnlineSession -UserName $acctName
+Import-PSSession $sfboSession
+````
+
+Alternately, here are all the commands when using the Microsoft Azure Active Directory Module for Windows PowerShell module.
+
+````
+$acctName="<UPN of a global administrator account>"
+$domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
+#Azure Active Directory
+Connect-MsolService
 #SharePoint Online
 Connect-SPOService -Url https://$domainHost-admin.sharepoint.com
 #Skype for Business Online
