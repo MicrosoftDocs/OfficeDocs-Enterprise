@@ -34,7 +34,6 @@ See these additional resources before diving in:
 - Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
     
 ## Office 365 dev/test environment
-<a name="O365"> </a>
 
 Use these articles to build your Office 365 dev/test environment:
   
@@ -85,7 +84,6 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     Demonstrate how to create a SharePoint Online team site that is isolated from the rest of the organization for sensitive or highly confidential resources.
     
 ## The Microsoft 365 Enterprise dev/test environment
-<a name="O365"> </a>
 
 Create a dev/test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) scenarios with these articles:
   
@@ -102,7 +100,6 @@ Create a dev/test environment for [Microsoft 365 Enterprise](https://docs.micros
     Enroll iOS or Android devices and manage them remotely.
     
 ## Office 365 and Dynamics 365 dev/test environment
-<a name="O365_D365"> </a>
 
 Add a Dynamics 365 trial subscription and test Office 365 and Dynamics 365 integrated features and scenarios with these articles:
   
@@ -115,12 +112,10 @@ Add a Dynamics 365 trial subscription and test Office 365 and Dynamics 365 integ
     Configure and then demonstrate how Office 365 and Dynamics 365 work together in Exchange Online mailboxes.
     
 ## The One Microsoft Cloud dev/test environment
-<a name="O365_D365"> </a>
 
 Create a dev/test environment that includes all of Microsoft's cloud offerings: Office 365, Azure, EMS, and Dynamics 365. See [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md) for the step-by-step instructions.
   
 ## Simulated cross-premises dev/test environments
-<a name="O365_D365"> </a>
 
 You can create a cross-premises dev/test environment, which includes an Azure virtual network and a simulated on-premises network, with these articles:
   
@@ -133,7 +128,6 @@ You can create a cross-premises dev/test environment, which includes an Azure vi
     Create a single-server SharePoint Server 2016 farm in the Azure virtual network and test connectivity and administration from the simulated on-premises network.
     
 ## Additional cloud-based dev/test environments
-<a name="ADD_TLGs"> </a>
 
 Here are additional cloud-based dev/test environments that you can create in Azure infrastructure services:
   

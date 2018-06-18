@@ -3,7 +3,7 @@ title: "Multi-factor authentication for your Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 05/22/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -54,7 +54,7 @@ Enable multi-factor authentication for the User 2 account with these steps:
     
 4. In the Active users pane, click **More > Setup Azure multi-factor auth**.
     
-5. In the list, click the **User 2** account.
+5. In the list, select the **User 2** account.
     
 6. In the **User 2** section, under **Quick steps**, click **Enable**.
     
@@ -80,21 +80,17 @@ Complete the configuration for the User 2 account to use a text message for vali
     
   - Type phone number of the smart phone that will receive text messages.
     
-  - Select **Send me a code by text message**.
+  - in **Method**, click **Send me a code by text message**.
     
-5. Click **Contact me**.
+5. Click **Next**.
     
 6. Enter the verification code from the text message received on your smart phone, and then click **Verify**.
     
 7. On the **Step 3: Keep your existing applications** page, record the displayed app password for the User 2 account in a secure location, and then click **Done**.
     
-8. Back on the sign-in page, type the password for the User 2 account and click **Sign in**.
+8. If this is the first time you signed in with the User 2 account, you are prompted to change the password. Type the original password and a new password twice, and then click **Update password and sign in**. Record the new password in a secure location.
     
-9. Enter the verification code from the text message received on your smart phone, and then click **Sign in**.
-    
-10. If this is the first time you signed in with the User 2 account, you are prompted to change the password. Type the original password and a new password twice, and then click **Update password and sign in**. Record the new password in a secure location.
-    
-    You should see the Office 365 portal for User 2.
+    You should see the Office 365 portal for User 2 on the **Microsoft Office Home** tab of your browser.
     
 ## See Also
 

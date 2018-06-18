@@ -88,7 +88,7 @@ Create a virtual machine using the hypervisor of your choice and install Windows
   
 ### Virtual machine in Azure
 
-To create a Windows 10 virtual machine in Microsoft Azure, ***you must have a Visual Studio-based subscription***, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image.
+To create a Windows 10 virtual machine in Microsoft Azure, ***you must have a Visual Studio-based subscription***, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image. For the latest information, see [Use Windows client in Azure for dev/test scenarios](https://docs.microsoft.com/azure/virtual-machines/windows/client-images).
   
 > [!NOTE]
 > The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). These command sets build a Windows 10 Enterprise virtual machine named WIN10 and all of its required infrastructure, including a resource group, a storage account, and a virtual network. If you are already familiar with Azure infrastructure services, please adapt these instructions to suit your currently deployed infrastructure. 
@@ -170,7 +170,7 @@ Next, join the WIN10 computer to the Azure AD tenant of your Office 365 and EMS 
     
 6. Close the settings window.
     
-Next, install Office 2016 on the WIN10 computer.
+Next, install Office 365 ProPlus on the WIN10 computer.
   
 1. Open the Microsoft Edge browser and sign in to the Office 365 portal with your global administrator account credentials. For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
     
@@ -180,9 +180,13 @@ Next, install Office 2016 on the WIN10 computer.
     
 4. Wait for Office to complete its installation. When you see **You're all set!**, click **Close** twice.
     
-Figure 3 shows your resulting environment, which includes the WIN10 computer that has joined the Azure AD tenant of your Office 365 and EMS subscriptions.
+Figure 3 shows your resulting environment, which includes the WIN10 computer that has:
+
+- Joined the Azure AD tenant of your Office 365 and EMS subscriptions.
+- Enrolled as an Azure AD device in Intune (EMS).
+- Has Office 365 ProPlus installed.
   
-**Figure 3: Adding the WIN10 computer account to the Azure AD tenant**
+**Figure 3: The final configuration of the Microsoft 365 dev/test environment**
 
 ![Phase 4 of the Microsoft 3656 Enterprise dev/test environment](images/20680f6a-f77e-4333-aaa9-f7cf5e4b0d03.png)
   
@@ -200,7 +204,7 @@ Use these additional articles to explore features of Microsoft 365 Enterprise:
     
 - [Configure and test Advanced Threat Protection](https://technet.microsoft.com/library/mt490479.aspx)
     
-## See Also
+## See also
 
 - [Microsoft 365 Enterprise documentation](https://docs.microsoft.com/microsoft-365-enterprise/)
 - [Deploy Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise)
