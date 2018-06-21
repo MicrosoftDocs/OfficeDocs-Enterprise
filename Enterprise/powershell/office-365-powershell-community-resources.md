@@ -3,7 +3,7 @@ title: "Office 365 PowerShell community resources"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 06/11/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -22,7 +22,7 @@ Use these Yammer networks, community forums, and Wikis to get you connected to y
   
 - [PowerShell for Office 365 group of the Office 365 Yammer Network](https://www.yammer.com/itpronetwork/#/threads/inGroup?type=in_group&amp;feedId=4632269)
     
-- [Manage Office 365 community forum](https://community.office365.com/en-us/f/148.aspx)
+- [Office 365 technical community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
     
 - [Exchange TechCenter community forum](https://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrgeneral)
     

@@ -127,7 +127,7 @@ ForEach ($user in $users)
 $user.Userprincipalname
 $upn=$user.UserPrincipalName
 $usageLocation=$user.UsageLocation
-Set-MsolUserLicense -UserPrincipalName $upn -AddLicenses $AccountSkuId -ErrorAction SilentlyContinue
+Set-MsolUserLicense -UserPrincipalName $upn -AddLicenses $accountSkuId -ErrorAction SilentlyContinue
 sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $upn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
 Set-MsolUser -UserPrincipalName $upn -UsageLocation $usageLocation
