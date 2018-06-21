@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 ms.assetid: 014b3710-e6e9-485c-8550-975d510eb2fc
-description: "Summary: Understand the definition and elements of Microsoft hybrid cloud."
+description: "Summary: Understand the Contoso networking infrastructure and how it can use ExpressRoute for optimized acccess to Microsoft's cloud offerings."
 ---
 
 # Networking for the Contoso Corporation
 
- **Summary:** Understand the definition and elements of Microsoft hybrid cloud.
+ **Summary:** Understand the Contoso networking infrastructure and how it can use ExpressRoute for optimized acccess to Microsoft's cloud offerings.
   
 To adopt a cloud-inclusive infrastructure, Contoso's network engineers realized the fundamental shift in the way that network traffic to cloud-based services travels. Instead of only optimizing traffic to on-premises servers and datacenters, equal attention must be paid to optimizing traffic to the Internet edge and across the Internet.
   
