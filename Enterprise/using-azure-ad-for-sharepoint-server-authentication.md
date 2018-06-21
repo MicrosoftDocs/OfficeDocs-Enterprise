@@ -21,10 +21,7 @@ description: "Summary: Learn how to bypass the Azure Access Control Service and 
 
 # Using Azure AD for SharePoint Server Authentication
 
- **Summary:** Learn how to authenticate your SharePoint Server 2016 users with Azure Active Directory.
-  
-> [!NOTE]
-> This article is based on the work of Kirk Evans, a Microsoft Principal Program Manager. 
+ **Summary:** Learn how to authenticate your SharePoint Server 2016 users with Azure Active Directory. 
 
 <blockquote>
 <p>This article refers to code samples for interacting with Azure Active Directory Graph. You can download the code samples [here](https://github.com/kaevans/spsaml11/tree/master/scripts).</p>
@@ -138,10 +135,13 @@ Next, follow these steps to enable the trusted identity provider for your applic
 1. In Central Administration, navigate to **Manage Web Application** and select the web application that you wish to secure with Azure AD. 
 2. In the ribbon, click **Authentication Providers** and choose the zone that you wish to use.
 3. Select **Trusted Identity provider** and select the identify provider you just registered named *AzureAD*.  
-4. On the sign-in page URL setting, select **Custom sign in page** and provide the value “/_trust/”. 
+4. On the sign-in page URL setting, select **Custom sign in page** and provide the value "/_trust/". 
 5. Click **OK**.
 
 ![Configuring your authentication provider](images/SAML11/fig10-configauthprovider.png)
+
+> [!IMPORTANT]
+> It is important to follow all steps, including setting the custom sign in page to "/_trust/" as shown. The configuration will not work correctly unless all steps are followed.
 
 ## Step 5: Set the permissions
 
@@ -167,18 +167,55 @@ The user has been granted permission in Azure AD, but also must be granted permi
 
 ## Step 6: Add a SAML 1.1 token issuance policy in Azure AD
 
-When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens. This code requires downloading the accompanying [samples demonstrating interacting with Azure Active Directory Graph](https://github.com/kaevans/spsaml11/tree/master/scripts). 
+When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens. 
 
+> This code requires downloading the accompanying [samples demonstrating interacting with Azure Active Directory Graph](https://github.com/kaevans/spsaml11/tree/master/scripts). If you download the scripts as a ZIP file from GitHub to a Windows desktop, make sure to unblock the `MSGraphTokenLifetimePolicy.psm1` script module file and the `Initialize.ps1` script file (right-click Properties, choose Unblock, click OK). 
+![Unblocking downloaded files](images/SAML11/fig17-unblock.png)
+
+Once the sample script is downloaded, create a new PowerShell script using the following code, replacing the placeholder with the file path of the downloaded `Initialize.ps1` on your local machine. Replace the application object ID placeholder with the application object ID that you entered in Table 1. Once created, execute the PowerShell script. 
 
 ```
-Import-Module <file path of Initialize.ps1> 
-$objectid = "<Application Object ID from Table 1>"
-$saml2policyid = Get-PoliciesAssignedToServicePrincipal -servicePrincipalId $objectid | ?{$_.displayName -EQ "TokenIssuancePolicy"} | select objectId
-Remove-PolicyFromServicePrincipal -policyId $saml2policyid -servicePrincipalId $objectid
-$policy = Add-TokenIssuancePolicy -DisplayName SPSAML11 -SigningAlgorithm "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" -TokenResponseSigningPolicy TokenOnly -SamlTokenVersion "1.1"
-Set-PolicyToServicePrincipal -policyId $policy.objectId -servicePrincipalId $objectid
+function AssignSaml11PolicyToAppPrincipal
+{
+    Param(
+        [Parameter(Mandatory=$true)]
+        [string]$pathToInitializeScriptFile, 
+        [Parameter(Mandatory=$true)]
+        [string]$appObjectid
+    )
+
+    $folder = Split-Path $pathToInitializeScriptFile
+    Push-Location $folder
+
+    #Loads the dependent ADAL module used to acquire tokens
+    Import-Module $pathToInitializeScriptFile 
+
+    #Gets the existing token issuance policy
+    $existingTokenIssuancePolicy = Get-PoliciesAssignedToServicePrincipal -servicePrincipalId $appObjectid | ?{$_.type -EQ "TokenIssuancePolicy"} 
+    Write-Host "The following TokenIssuancePolicy policies are assigned to the service principal." -ForegroundColor Green
+    Write-Host $existingTokenIssuancePolicy -ForegroundColor White
+    $policyId = $existingTokenIssuancePolicy.objectId
+
+    #Removes existing token issuance policy
+    Write-Host "Only a single policy can be assigned to the service principal. Removing the existing policy with ID $policyId" -ForegroundColor Green
+    Remove-PolicyFromServicePrincipal -policyId $policyId -servicePrincipalId $appObjectid
+
+    #Creates a new token issuance policy and assigns to the service principal
+    Write-Host "Adding the new SAML 1.1 TokenIssuancePolicy" -ForegroundColor Green
+    $policy = Add-TokenIssuancePolicy -DisplayName SPSAML11 -SigningAlgorithm "http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" -TokenResponseSigningPolicy TokenOnly -SamlTokenVersion "1.1"
+    Write-Host "Assigning the new SAML 1.1 TokenIssuancePolicy $policy.objectId to the service principal $appObjectid" -ForegroundColor Green
+    Set-PolicyToServicePrincipal -policyId $policy.objectId -servicePrincipalId $appObjectid
+    Pop-Location
+}
+
+#Only edit the following two variables
+$pathToInitializeScriptFile = "<file path of Initialize.ps1>"
+$appObjectid = "<Application Object ID from Table 1>"
+
+AssignSaml11PolicyToAppPrincipal $pathToInitializeScriptFile $appObjectid
 ```
-> Note that it is important to run the `Import-Module` command as shown in this example. This will load a dependent module that contains the commands shown. You may need to open an elevated command prompt to successfully execute these commands.
+> [!IMPORTANT]
+> The PowerShell scripts are not signed and you may be prompted to set the execution policy. For more information on execution policies, see [About Execution Policies](http://go.microsoft.com/fwlink/?LinkID=135170). Additionally, you may need to open an elevated command prompt to successfully execute the commands contained in the sample scripts.
 
 These sample PowerShell commands are examples of how to execute queries against the Graph API. For more details on Token Issuance Policies with Azure AD, see the [Graph API reference for operations on policy](https://msdn.microsoft.com/en-us/library/azure/ad/graph/api/policy-operations#create-a-policy).
 
@@ -211,7 +248,7 @@ The configuration works for a single web application, but needs additional confi
 1. In the Azure Portal, open the Azure AD directory. Click **App registrations**, then click **View all applications**. Click the application that you created previously (SharePoint SAML Integration).
 2. Click **Settings**.
 3. In the settings blade, click **Reply URLs**. 
-4. Add the URL for the additional web application (such as `https://sales.contoso.local`) and click **Save**. 
+4. Add the URL for the additional web application with `/_trust/default.aspx` appended to the URL (such as `https://sales.contoso.local/_trust/default.aspx`) and click **Save**. 
 5. On the SharePoint server, open the **SharePoint 2016 Management Shell** and execute the following commands, using the name of the trusted identity token issuer that you used previously.
 
 ```

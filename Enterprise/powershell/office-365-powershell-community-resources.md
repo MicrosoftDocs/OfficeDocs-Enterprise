@@ -3,7 +3,6 @@ title: "Office 365 PowerShell community resources"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/11/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -18,9 +17,9 @@ description: "Summary: Get help for Office 365 PowerShell from these community v
 
  **Summary:** Get help for Office 365 PowerShell from these community venues.
   
-Use these Yammer networks, community forums, and Wikis to get you connected to your peers and get your Office 365 PowerShell questions answered quickly and correctly. 
+Use these community forums and Wikis to get you connected to your peers and get your Office 365 PowerShell questions answered quickly and correctly. 
   
-- [PowerShell for Office 365 group of the Office 365 Yammer Network](https://www.yammer.com/itpronetwork/#/threads/inGroup?type=in_group&amp;feedId=4632269)
+- [Visit the Office 365 Tech Community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
     
 - [Office 365 technical community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
     
