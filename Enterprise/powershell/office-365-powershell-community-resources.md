@@ -21,7 +21,7 @@ Use these community forums and Wikis to get you connected to your peers and get 
   
 - [Visit the Office 365 Tech Community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
     
-- [Manage Office 365 community forum](https://community.office365.com/en-us/f/148.aspx)
+- [Office 365 technical community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
     
 - [Exchange TechCenter community forum](https://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrgeneral)
     
