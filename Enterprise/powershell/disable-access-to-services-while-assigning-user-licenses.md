@@ -3,7 +3,6 @@ title: "Disable access to services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/07/2018
 ms.audience: Admin
 ms.topic: article
 ms.collection: Ent_O365
@@ -127,7 +126,7 @@ ForEach ($user in $users)
 $user.Userprincipalname
 $upn=$user.UserPrincipalName
 $usageLocation=$user.UsageLocation
-Set-MsolUserLicense -UserPrincipalName $upn -AddLicenses $AccountSkuId -ErrorAction SilentlyContinue
+Set-MsolUserLicense -UserPrincipalName $upn -AddLicenses $accountSkuId -ErrorAction SilentlyContinue
 sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $upn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
 Set-MsolUser -UserPrincipalName $upn -UsageLocation $usageLocation
