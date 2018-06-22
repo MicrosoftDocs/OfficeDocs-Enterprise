@@ -3,7 +3,7 @@ title: "Use Windows PowerShell to create reports in Office 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 06/22/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -64,5 +64,3 @@ These articles that describe how to use Office 365 PowerShell to obtain informat
   
 [Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Using Excel to Retrieve Office 365 Reporting Data](using-excel-to-retrieve-office-365-reporting-data.md)
-
