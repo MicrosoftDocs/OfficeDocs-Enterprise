@@ -18,10 +18,12 @@ In the modern workplace, users can access your organization's resources using a 
 
 ## Supported platforms
 
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-|Windows 10 Desktop | Windows 10 Modern Apps | Web Browser | Android | iOS | macOS
-
+ - Windows 10 Desktop
+ - Windows 10 Modern Apps
+ - Web Browser
+ - Android
+ - iOS
+ - macOS<sup>1</sup>
 
 ## Supported clients
 
@@ -34,4 +36,4 @@ In the modern workplace, users can access your organization's resources using a 
 | ![Visio icon](images/o365-visio-64x64.png) <br> Visio | ![Word icon](images/o365-word-64x64.png) <br> Word | ![Yammer icon](images/o365-yammer-64x64.png) <br> Yammer
 
 > [!NOTE]
-> - SharePoint support on macOS is scheduled for late 2018. 
+> - <sup>1</sup> SharePoint support on macOS is scheduled for late 2018. 
