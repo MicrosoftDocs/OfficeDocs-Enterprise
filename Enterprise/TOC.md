@@ -1,5 +1,4 @@
 ﻿# Plan for Office 365
-## Overviews
 ## Architecture models & resources
 ### [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
 #### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
