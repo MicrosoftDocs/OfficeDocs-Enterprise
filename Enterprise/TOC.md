@@ -9,7 +9,7 @@
 ### Security & Compliance
 
 ## Evaluation
-### TLGs
+### [Test Lab Guides](cloud-adoption-test-lab-guides.md)
 
 ## Deploy Services
 ### Deploy workloads
