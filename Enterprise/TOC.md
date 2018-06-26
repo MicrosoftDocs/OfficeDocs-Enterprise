@@ -31,12 +31,12 @@
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # Plan for Office 365
+## Subscriptions, licenses, and tenants
+## Hybrid options
 ## Office 365 client support
 ### Conditional access
 ### Modern authentication
 ### Mobile application management
-## Hybrid options
-## Subscriptions, licenses, and tenants
 
 # Test Office 365
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
