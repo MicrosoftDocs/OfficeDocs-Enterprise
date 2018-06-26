@@ -55,7 +55,7 @@
 ### [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
 ### [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
-# Deploy Office 365 Services
+# Deploy Office 365 services
 ## Deploy workloads
 ### SharePoint Online
 ### Exchange Online
