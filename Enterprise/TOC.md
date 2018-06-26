@@ -31,7 +31,7 @@
 ##### [Secure SharePoint Online team sites for sensitive and highly confidential assets](secure-sharepoint-online-team-sites-for-sensitive-and-highly-confidential-assets.md)
 ### [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 ### [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
-## Office 365 Client Support
+## Office 365 client support
 ### Conditional access
 ### Modern authentication
 ### Mobile application management
