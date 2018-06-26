@@ -58,7 +58,7 @@
 ### [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
 ### [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
-# Deploy Office 365 services
+# Deploy Office 365
 ## Deploy workloads
 ### SharePoint Online
 ### Exchange Online
@@ -92,7 +92,7 @@
 ### [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
 
-# Manage Office 365 services
+# Manage Office 365
 ## Management tools
 ## Service health
 ### View service health
