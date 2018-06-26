@@ -8,10 +8,10 @@
 ### Subscriptions, licenses, and tenants
 ### Security & Compliance
 
-## Evaluation
+## Evaluate Office 365
 ### [Test Lab Guides](cloud-adoption-test-lab-guides.md)
 
-## Deploy Services
+## Deploy Office 365 Services
 ### Deploy workloads
 #### SharePoint Online
 #### Exchange Online
@@ -22,7 +22,7 @@
 ### Multi-geo
 ### Hybrid solutions
 
-## Manage services
+## Manage Office 365 services
 ### Management tools
 ### Service health
 ### Exchange Online
