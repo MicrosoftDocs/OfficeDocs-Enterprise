@@ -92,6 +92,9 @@
 # Manage Office 365 services
 ## Management tools
 ## Service health
+### View service health
+### Monitor connectivity
+### Support options
 ## Exchange Online
 ## SharePoint Online
 ## Skype for Business
