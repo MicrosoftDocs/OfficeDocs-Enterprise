@@ -1,62 +1,61 @@
-﻿# Plan for Office 365
-## Architecture models & resources
-### [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
-#### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
-#### [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md)
-#### [ExpressRoute for Microsoft cloud connectivity](expressroute-for-microsoft-cloud-connectivity.md)
-#### [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md)
-#### [Designing networking for Microsoft Azure PaaS](designing-networking-for-microsoft-azure-paas.md)
-#### [Designing networking for Microsoft Azure IaaS](designing-networking-for-microsoft-azure-iaas.md)
-### [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-storage-for-enterprise-architects.md)
-#### [Designing storage for the Microsoft cloud](designing-storage-for-the-microsoft-cloud.md)
-#### [Move-in ready](move-in-ready.md)
-#### [Some assembly required](some-assembly-required.md)
-#### [Build from the ground up](build-from-the-ground-up.md)
-### [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
-#### [Hybrid cloud overview](hybrid-cloud-overview.md)
-#### [Architecture of Microsoft hybrid cloud scenarios](architecture-of-microsoft-hybrid-cloud-scenarios.md)
-#### [Hybrid cloud scenarios for Microsoft SaaS (Office 365)](hybrid-cloud-scenarios-for-microsoft-saas-office-365.md)
-#### [Hybrid cloud scenarios for Azure PaaS](hybrid-cloud-scenarios-for-azure-paas.md)
-#### [Hybrid cloud scenarios for Azure IaaS](hybrid-cloud-scenarios-for-azure-iaas.md)
-### [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
-#### [Overview of the Contoso Corporation](overview-of-the-contoso-corporation.md)
-#### [Contoso’s IT infrastructure and needs](contoso-it-infrastructure-and-needs.md)
-#### [Networking for the Contoso Corporation](networking-for-the-contoso-corporation.md)
-#### [Identity for the Contoso Corporation](identity-for-the-contoso-corporation.md)
-#### [Subscriptions, licenses, and user accounts for the Contoso Corporation](subscriptions-licenses-and-user-accounts-for-the-contoso-corporation.md)
-#### [Security for the Contoso Corporation](security-for-the-contoso-corporation.md)
-#### [Enterprise scenarios for the Contoso Corporation](enterprise-scenarios-for-the-contoso-corporation.md)
-##### [Moving historical transaction data to the cloud](moving-historical-transaction-data-to-the-cloud.md)
-##### [Secure SharePoint Online team sites for sensitive and highly confidential assets](secure-sharepoint-online-team-sites-for-sensitive-and-highly-confidential-assets.md)
-### [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
-### [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
+﻿# Architecture models & resources
+## [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
+### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
+### [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md)
+### [ExpressRoute for Microsoft cloud connectivity](expressroute-for-microsoft-cloud-connectivity.md)
+### [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md)
+### [Designing networking for Microsoft Azure PaaS](designing-networking-for-microsoft-azure-paas.md)
+### [Designing networking for Microsoft Azure IaaS](designing-networking-for-microsoft-azure-iaas.md)
+## [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-storage-for-enterprise-architects.md)
+### [Designing storage for the Microsoft cloud](designing-storage-for-the-microsoft-cloud.md)
+### [Move-in ready](move-in-ready.md)
+### [Some assembly required](some-assembly-required.md)
+### [Build from the ground up](build-from-the-ground-up.md)
+## [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
+### [Hybrid cloud overview](hybrid-cloud-overview.md)
+### [Architecture of Microsoft hybrid cloud scenarios](architecture-of-microsoft-hybrid-cloud-scenarios.md)
+### [Hybrid cloud scenarios for Microsoft SaaS (Office 365)](hybrid-cloud-scenarios-for-microsoft-saas-office-365.md)
+### [Hybrid cloud scenarios for Azure PaaS](hybrid-cloud-scenarios-for-azure-paas.md)
+### [Hybrid cloud scenarios for Azure IaaS](hybrid-cloud-scenarios-for-azure-iaas.md)
+## [Contoso in the Microsoft Cloud](contoso-in-the-microsoft-cloud.md)
+### [Overview of the Contoso Corporation](overview-of-the-contoso-corporation.md)
+### [Contoso’s IT infrastructure and needs](contoso-it-infrastructure-and-needs.md)
+### [Networking for the Contoso Corporation](networking-for-the-contoso-corporation.md)
+### [Identity for the Contoso Corporation](identity-for-the-contoso-corporation.md)
+### [Subscriptions, licenses, and user accounts for the Contoso Corporation](subscriptions-licenses-and-user-accounts-for-the-contoso-corporation.md)
+### [Security for the Contoso Corporation](security-for-the-contoso-corporation.md)
+### [Enterprise scenarios for the Contoso Corporation](enterprise-scenarios-for-the-contoso-corporation.md)
+#### [Moving historical transaction data to the cloud](moving-historical-transaction-data-to-the-cloud.md)
+#### [Secure SharePoint Online team sites for sensitive and highly confidential assets](secure-sharepoint-online-team-sites-for-sensitive-and-highly-confidential-assets.md)
+## [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
+## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
+
+# Plan for Office 365
 ## Office 365 client support
 ### Conditional access
 ### Modern authentication
 ### Mobile application management
 ## Hybrid options
 ## Subscriptions, licenses, and tenants
-## Security & Compliance
 
-# Evaluate Office 365
-## Test Lab Guides
-### [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
-### [Office 365 dev/test environment](office-365-dev-test-environment.md)
-#### [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-#### [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
-#### [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
-#### [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-#### [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
-#### [Advanced eDiscovery for your Office 365 dev/test environment](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
-#### [Sensitive file protection in the Office 365 dev/test environment](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
-#### [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
-### [The Microsoft 365 Enterprise dev/test environment](the-microsoft-365-enterprise-dev-test-environment.md)
-#### [MAM policies for your Microsoft 365 Enterprise dev/test environment](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
-#### [Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test environment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
-### [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
-#### [Exchange Online integration for your Office 365 and Dynamics 365 dev/test environment](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
-### [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
-### [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
+# Test Office 365
+## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
+## [Office 365 dev/test environment](office-365-dev-test-environment.md)
+### [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
+### [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
+### [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+### [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
+### [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
+### [Advanced eDiscovery for your Office 365 dev/test environment](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
+### [Sensitive file protection in the Office 365 dev/test environment](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
+### [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
+## [The Microsoft 365 Enterprise dev/test environment](the-microsoft-365-enterprise-dev-test-environment.md)
+### [MAM policies for your Microsoft 365 Enterprise dev/test environment](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+### [Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test environment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
+## [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
+### [Exchange Online integration for your Office 365 and Dynamics 365 dev/test environment](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
+## [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
+## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
 ## FastTrack
@@ -116,5 +115,6 @@
 ## Skype for Business
 ## Microsoft Teams
 ## Yammer
+# Security & Compliance
 # Office 365 PowerShell
   
