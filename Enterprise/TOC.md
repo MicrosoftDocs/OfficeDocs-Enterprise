@@ -77,7 +77,7 @@
 ## Deploy clients
 ### Deploy the Skype for Business client
 ### Deploy and manage mobile apps
-### Train your users
+## Train your users
 ## Multi-geo
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
