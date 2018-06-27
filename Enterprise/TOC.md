@@ -66,6 +66,7 @@
 ### Network planning and performance
 ### URLs and IP address ranges
 ## Set up your subscription
+### Global admin accounts
 ### Domains
 ### Office 365 identity
 #### Azure integration
