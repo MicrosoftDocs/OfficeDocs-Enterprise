@@ -72,7 +72,14 @@ If the suspected compromised mailbox was used illicitly to send spam email, it i
 > [!IMPORTANT]
 > You can block the suspected compromised account from signing-in until you believe it is safe to re-enable access.
 
-1. Follow the procedures in [Block a former employee's access to Office 365 data.](https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1#bkmk_block)
+1. Go to the Office 365 admin center.
+2. In the Office 365 admin center, select **Users**.
+3. Select the employee that you want to block, and then choose **Edit** next to **Sign-in status** in the user pane
+4. On the **Sign-in status** pane, choose **Sign-in blocked** and then **Save**. 
+5. In the Office 365 admin center, in the lower-left navigation pane, expand **Admin Centers** and select **Exchange**.
+6. In the Exchange admin center, navigate to **Recipients > Mailboxes**.
+7. Select the user, and on the user properties page, under **Mobile Devices**, click **Disable Exchange ActivcSync** and **Disable OWA for Devices** and answer **yes** to both.
+8. Under **Email Connectivity**, **Disable** and answer **yes**. 
 
 ### Step 6 Optional: Remove the suspected compromised account from all administrative role groups
 > [!NOTE]
