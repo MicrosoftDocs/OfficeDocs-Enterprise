@@ -21,7 +21,7 @@ description: "Learn how to recognize and respond to a compromised email account 
 **Summary** Learn how to recognize and respond to a compromised email account in Office 365.
 
 ## What is a Compromised Email Account in Office 365?
-Access to Office 365 mailboxes, data and other services, is controlled through the use of credentials, for example a user name and password or PIN. When someone other than the intended user steals those credentials, the stolen credentials are considered to be compromised. With them the attacker can login as the original user and perform illicit actions.
+Access to Office 365 mailboxes, data and other services, is controlled through the use of credentials, for example a user name and password or PIN. When someone other than the intended user steals those credentials, the stolen credentials are considered to be compromised. With them the attacker can sign in as the original user and perform illicit actions.
 Using the stolen credentials, the attacker can access the user’s Office 365 mailbox, SharePoint folders, or files in the users OneDrive. One action commonly seen is the attacker sends emails as the end-user to recipients both inside and outside of the organization. When the attacker emails data to external recipients, this is called data exfiltration.
 
 ## Symptoms of a Compromised Office 365 Email Account
