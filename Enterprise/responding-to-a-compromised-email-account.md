@@ -55,6 +55,7 @@ If a user reports any of the above symptoms, you should perform further investig
 ### Optional: Block the user account from signing-in
 > [!IMPORTANT]
 > You can block the suspected compromised account from signing-in until you believe it is safe to re-enable access.
+
 1. Follow the procedures in [Block a former employee's access to Office 365 data](https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1#bkmk_block)
 
 ### Remove suspicious email forwarding addresses
