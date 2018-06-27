@@ -32,6 +32,7 @@
 
 # Plan for Office 365
 ## Subscriptions, licenses, and tenants
+## Office 365 integration
 ## Hybrid options
 ## Office 365 client support
 ### Conditional access
@@ -60,24 +61,30 @@
 # Deploy Office 365
 ## FastTrack
 ## Setup overview for enterprises
+### Deployment planning checklist for Office 365
+## Set up your network
+### Network planning and performance
+### URLs and IP address ranges
+## Set up your subscription
+### Domains
+### Office 365 identity
+#### Azure integration
+### Release options in Office 365
 ## Configure services and applications
-### SharePoint Online
+### Migrate data to Office 365
 ### Exchange Online
+### SharePoint Online
 ### Skype for Business
 ### Microsoft Teams
 ### Yammer
-## Release options in Office 365
-## Network planning and performance
-## URLs and IP address ranges
-## Office 365 integration
-## Office 365 identity
-## Migrate data to Office 365
-## Azure integration
-## Domains
 ## Deploy clients
+### Deploy Office ProPlus
 ### Deploy the Skype for Business client
 ### Deploy and manage mobile apps
-## Train your users
+## Onboarding your users
+### Enabling your users
+### Enabling team collaboration
+### Training your users
 ## Multi-geo
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
