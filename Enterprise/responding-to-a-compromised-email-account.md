@@ -56,7 +56,7 @@ If a user reports any of the above symptoms, you should perform further investig
 > [!IMPORTANT]
 > You can block the suspected compromised account from signing-in until you believe it is safe to re-enable access.
 
-1. Follow the procedures in [Block a former employee's access to Office 365 data](https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1#bkmk_block)
+1. Follow the procedures in [Block a former employee's access to Office 365 data.](https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1#bkmk_block)
 
 ### Remove suspicious email forwarding addresses
 1. Open the **Office 365 Admin Center > Active Users**.
@@ -65,7 +65,7 @@ If a user reports any of the above symptoms, you should perform further investig
 4. Remove any suspicious forwarding addresses.
 
 ### Disable any suspicious inbox rules
-1. Sign in to the user's mailbox using Outlook Web App (OWA)
+1. Sign in to the user's mailbox using Outlook Web App (OWA).
 2. Click on the gear icon and click **Mail**.
 3. Click **Inbox and sweep rules** and review the rules.
 4. Disable or delete suspicious rules.
@@ -73,6 +73,7 @@ If a user reports any of the above symptoms, you should perform further investig
 ### Optional: Remove the suspected compromised account from all administrative role groups
 > [!NOTE]
 > Administrative role group membership can be restored after the account has been secured.
+
 1. Sign in to the Office 365 Admin Center with a global administrator account and open **Active Users**.
 2. Find the suspected compromised account and manually check to see if there are any administrative roles assigned to the account.
 3. Open the **Security & Compliace Center**.
@@ -88,7 +89,7 @@ If a user reports any of the above symptoms, you should perform further investig
 
 ### Unblock the user from sending mail
 If the suspected compromised mailbox was used illicitly to send spam email, it is likely that the mailbox has been blocked from sending mail.
-1. 1.	To unblock a mailbox from sending mail, follow the procedures in [Removing a user, domain, or IP Address from a block list after sending spam emai](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email ).
+1. 1.	To unblock a mailbox from sending mail, follow the procedures in [Removing a user, domain, or IP Address from a block list after sending spam email](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email ).
 
 
 ## How to minimize future attacks
