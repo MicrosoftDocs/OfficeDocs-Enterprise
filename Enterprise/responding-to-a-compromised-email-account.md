@@ -22,13 +22,13 @@ description: "Learn how to recognize and respond to a compromised email account 
 
 ## What is a Compromised Email Account in Office 365?
 Access to Office 365 mailboxes, data and other services, is controlled through the use of credentials, for example a user name and password or PIN. When someone other than the intended user steals those credentials, the stolen credentials are considered to be compromised. With them the attacker can sign in as the original user and perform illicit actions.
-Using the stolen credentials, the attacker can access the user’s Office 365 mailbox, SharePoint folders, or files in the users OneDrive. One action commonly seen is the attacker sends emails as the end-user to recipients both inside and outside of the organization. When the attacker emails data to external recipients, this is called data exfiltration.
+Using the stolen credentials, the attacker can access the user’s Office 365 mailbox, SharePoint folders, or files in the user's OneDrive. One action commonly seen is the attacker sends emails as the end-user to recipients both inside and outside of the organization. When the attacker emails data to external recipients, this is called data exfiltration.
 
 ## Symptoms of a Compromised Office 365 Email Account
 Users may notice and report unusual activity in their Office 365 mailboxes. Here are some common symptoms:
 - Suspicious activity, such as missing or deleted emails.
 - Other users may receive emails from the compromised account without the corresponding email existing in the **Sent Items** folder of the sender.
-- The presence of inbox rules that weren't created by the intended user or the administrator. These rules may automatically forward emails to unknown addresses or move them to the **Notes**, **Junk Email**, or **RSS Subscriptions** folders. For more information, see [Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
+- The presence of inbox rules that weren't created by the intended user or the administrator. These rules may automatically forward emails to unknown addresses or move them to the **Notes**, **Junk Email**, or **RSS Subscriptions** folders.
 - The users display name may be changed in the Global Address List.
 - The user's mailbox is blocked from sending email.
 
@@ -46,31 +46,35 @@ If a user reports any of the above symptoms, you should perform further investig
 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2jvOb&AutoPlayVideo=false]
 
-### Reset the user's password
+### Step 1 Reset the user's password
 > [!WARNING]
 > Do not send the new password to the intended user through email as the attacker still has access to the mailbox at this point.
 
 1. Follow the Reset an Office 365 business password for someone else procedures in [Admins: Reset Office 365 business passwords](https://support.office.com/en-us/article/admins-reset-office-365-business-passwords-7a5d073b-7fae-4aa5-8f96-9ecd041aba9c)
 
-### Optional: Block the user account from signing-in
-> [!IMPORTANT]
-> You can block the suspected compromised account from signing-in until you believe it is safe to re-enable access.
-
-1. Follow the procedures in [Block a former employee's access to Office 365 data.](https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1#bkmk_block)
-
-### Remove suspicious email forwarding addresses
+### Step 2 Remove suspicious email forwarding addresses
 1. Open the **Office 365 Admin Center > Active Users**.
 2. Find the user account in question and expand **Mail Settings**.
 3. For **Email forwarding**, click **Edit**.
 4. Remove any suspicious forwarding addresses.
 
-### Disable any suspicious inbox rules
+### Step 3 Disable any suspicious inbox rules
 1. Sign in to the user's mailbox using Outlook Web App (OWA).
 2. Click on the gear icon and click **Mail**.
 3. Click **Inbox and sweep rules** and review the rules.
 4. Disable or delete suspicious rules.
 
-### Optional: Remove the suspected compromised account from all administrative role groups
+### Step 4 Unblock the user from sending mail
+If the suspected compromised mailbox was used illicitly to send spam email, it is likely that the mailbox has been blocked from sending mail.
+1. To unblock a mailbox from sending mail, follow the procedures in [Removing a user, domain, or IP Address from a block list after sending spam email](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email ).
+
+### Step 5 Optional: Block the user account from signing-in
+> [!IMPORTANT]
+> You can block the suspected compromised account from signing-in until you believe it is safe to re-enable access.
+
+1. Follow the procedures in [Block a former employee's access to Office 365 data.](https://support.office.com/en-us/article/remove-a-former-employee-from-office-365-44d96212-4d90-4027-9aa9-a95eddb367d1#bkmk_block)
+
+### Step 6 Optional: Remove the suspected compromised account from all administrative role groups
 > [!NOTE]
 > Administrative role group membership can be restored after the account has been secured.
 
@@ -87,44 +91,6 @@ If a user reports any of the above symptoms, you should perform further investig
     a. Click the role group and click **Edit**.
     b. Use the **members** section to remove the user from the role group.
 
-### Unblock the user from sending mail
-If the suspected compromised mailbox was used illicitly to send spam email, it is likely that the mailbox has been blocked from sending mail.
-1. 1.	To unblock a mailbox from sending mail, follow the procedures in [Removing a user, domain, or IP Address from a block list after sending spam email](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email ).
-
-
-## How to minimize future attacks
-
-### First: protect your accounts
-
-Your first step to preventing the use of these exploits against your organization is to aggressively protect your user accounts.  Some of the most common ways that accounts are breached are through phishing or [password spraying](http://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) attacks.
-
-
-
-The best way to protect your user accounts, and especially your administrator accounts, is to [set up multi-factor authentication for Office 365 users](https://support.office.com/en-us/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6).  You should also:
-<ol>
-    <li>Monitor how your user accounts are <a href="https://docs.microsoft.com/en-us/azure/active-directory/active-directory-view-access-usage-reports">accessed and used</a>. You may not prevent the initial breach, but you will shorten the duration and the impact of the breach by detecting it sooner. You can use these: <a href="https://support.office.com/en-us/article/overview-of-office-365-cloud-app-security-81f0ee9a-9645-45ab-ba56-de9cbccab475"> Office 365 Cloud App Security policies</a> to monitor you accounts and alert on unusual activity. 
-        <ol type="a">
-            <li><b>Multiple failed login attempts</b> This policy profiles your environment and triggers alerts when users perform multiple failed login activities in a single session with respect to the learned baseline, which could indicate an attempted breach.</li>
-            <li><b>Impossible travel</b> - This policy profiles your environment and triggers alerts when activities are detected from the same user in different locations within a time period that is shorter than the expected travel time between the two locations. This could indicate that a different user is using the same credentials. Detecting this anomalous behavior necessitates an initial learning period of seven days during which it learns a new user’s activity pattern.</li>
-            <li><b>Unusual impersonated activity (by user)</b> - This policy profiles your environment and triggers alerts when users perform multiple impersonated activities in a single session with respect to the baseline learned, which could indicate an attempted breach.</li>
-        </ol>
-    </li>
-    <li>Leverage a tool like the <a href="https://securescore.office.com/">Office 365 Secure Score</a> to manage account security configurations and behaviors. 
-    </li>
-</ol> 
-
-### Second: Keep your Outlook clients current
-You can install the latest updates and security patches by following the steps in [Install Office updates](https://support.office.com/en-us/article/Install-Office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5).
-
-Here are the patch versions for your Outlook 2013 and 2016 clients:
-- Outlook 2013: 15.0.4937.1000 or greater
-- Outlook 2016: 16.0.4534.1001 or greater
-
-For more information on the individual security patches, see:
-
-- [Outlook 2013 Security Patch](https://support.microsoft.com/en-us/help/3191938) 
-- [Outlook 2016 Security Patch](https://support.microsoft.com/en-us/help/3191883)
-
 ## Secure Office 365 like a cybersecurity pro
 Your Office 365 subscription comes with a powerful set of security capabilities that you can use to protect your data and your users.  Use the [Office 365 security roadmap: Top priorities for the first 30 days, 90 days, and beyond](https://support.office.com/en-us/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352) to implement Microsoft recommended best practices for securing your Office 365 tenant.
 - Tasks to accomplish in the first 30 days.  These have immediate affect and are low-impact to your users.
@@ -133,3 +99,4 @@ Your Office 365 subscription comes with a powerful set of security capabilities 
 
 ## See also:
 - [Security best practices for Office 365](https://support.office.com/en-us/article/Security-best-practices-for-Office-365-9295e396-e53d-49b9-ae9b-0b5828cdedc3)
+- [Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
