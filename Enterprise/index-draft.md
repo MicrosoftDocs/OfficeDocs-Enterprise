@@ -141,7 +141,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardText">
                         <h3>Exchange Online</h3>
-                        <p>Learn more and get started with Exchange Online</p>
+                        <p><a href="https://docs.microsoft.com/Exchange/exchange-online">Learn more and get sarted with Exchange Online</a></p>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardText">
                         <h3>SharePoint Online</h3>
-                        <p>Learn more and get started with SharePoint Online</p>
+                        <p><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">Learn more and get sarted with SharePoint Online</a></p>
                      </div>
                 </div>
             </div>
@@ -164,8 +164,8 @@ ms.author: robmazz
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>OneDrive For Business</h3>
-                        <p>Learn more and get sarted with OneDrive for Business</p>
+                        <h3>Skype For Business Online</h3>
+                        <p><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Learn more and get sarted with Skype for Business Online</a></p>
                     </div>
                 </div>
             </div>
