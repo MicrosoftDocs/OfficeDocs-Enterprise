@@ -133,7 +133,7 @@ ms.author: robmazz
     </li>
 </ul>
 
-<h2>Office 365 Services</h2>
+<h2>Office 365 Workloads</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
