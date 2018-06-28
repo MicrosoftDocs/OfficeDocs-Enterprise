@@ -100,7 +100,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lock-protected.svg" alt="A padlock" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks.svg" alt="A padlock" />
                         </div>
                     </div>
                     <div class="cardText">
