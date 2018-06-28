@@ -29,7 +29,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Cloud architecture models</h3>
-                <p>Use these architecture tools and posters to learn about Microsoft Cloud services and platforms, including Office 365, Microsoft Azure, Microsoft Enterprise Mobility + Security (EMS)/Intune, Microsoft Dynamics 365, private cloud datacenter, and on-premises hybrid and cloud solutions.</p>
+                <p>Use these architecture models and posters to learn about Microsoft Office 365 and included services.</p>
                     </div>
                 </div>
             </div>
