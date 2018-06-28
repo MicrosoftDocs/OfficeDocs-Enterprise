@@ -81,7 +81,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid.svg" alt="A building, a cloud, and two arrows" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="A building, a cloud, and two arrows" />
                         </div>
                     </div>
                     <div class="cardText">
