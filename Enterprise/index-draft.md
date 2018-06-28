@@ -165,7 +165,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardText">
                         <h3>Skype For Business Online</h3>
-                        <p><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Learn more and get sarted with Skype for Business Online</a></p>
+                        <p><li><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Learn more and get sarted with Skype for Business Online</a></li></p>
                     </div>
                 </div>
             </div>
