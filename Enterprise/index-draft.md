@@ -48,7 +48,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Plan for Office 365</h3>
-                <p>Use these architectural models and deployment options for SharePoint, Exchange, Skype for Business, and Lync to determine your ideal platform and configuration.</p>
+                <p>Get ready for Office 365 by learning more about subscriptions, licenses, tenants, and integration options.</p>
                     </div>
                 </div>
             </div>
