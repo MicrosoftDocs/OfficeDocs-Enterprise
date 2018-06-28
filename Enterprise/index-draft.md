@@ -67,7 +67,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Test Office 365</h3>
-                <p>Use Office 365 Test Lab Guides (TLGs) to set up dev/test environments for Office 365, Azure, Enterprise Mobility + Security (EMS)/Intune, Dynamics 365, and Office Server products.</p>
+                <p>Use Office 365 Test Lab Guides (TLGs) to set up dev/test environments for Office 365 and Office Server products.</p>
                     </div>
                 </div>
             </div>
