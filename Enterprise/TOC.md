@@ -101,7 +101,7 @@
 ### [Office 365 Security Incident Response](office365-security-incident-response-overview.md)
 #### [Detect and Remediate Illicit Consent Grant](detect-and-remediate-illicit-consent-grants.md)
 #### [Detect and Remediate Outlook Rules and Forms](detect-and-remediate-outlook-rules-forms-attack.md)
-#### [Responding to a Compromised Email Account in Office 365](responding-to-a-compromised-email-account.md))
+#### [Responding to a Compromised Email Account in Office 365](responding-to-a-compromised-email-account.md)
 ### [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
 #### [Deploy SharePoint Online sites for three tiers of protection](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)
 #### [Protect SharePoint Online files with Office 365 labels and DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
