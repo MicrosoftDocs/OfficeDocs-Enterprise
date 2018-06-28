@@ -133,15 +133,15 @@ ms.author: robmazz
     </li>
 </ul>
 
-<h2>Featured Articles</h2>
+<h2>Office 365 Services</h2>
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
+                        <h3>Exchange Online</h3>
+                        <p>Learn more and get started with Exchange Online</p>
                     </div>
                 </div>
             </div>
@@ -152,8 +152,8 @@ ms.author: robmazz
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
+                        <h3>SharePoint Online</h3>
+                        <p>Learn more and get started with SharePoint Online</p>
                      </div>
                 </div>
             </div>
@@ -164,8 +164,8 @@ ms.author: robmazz
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Category</h3>
-                        <p>Add link to article</p>
+                        <h3>OneDrive For Business</h3>
+                        <p>Learn more and get sarted with OneDrive for Business</p>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@ ms.author: robmazz
 
 <h2>Contact Us</h2>
 <ul>
-    <li><a href="mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20">What cloud adoption content do you need?</a><br>We are creating content for cloud adoption that spans multiple Microsoft cloud platforms and services. Let us know what you think about our cloud adoption content, or ask for specific content by sending email to cloudadopt@microsoft.com.</li><br>
-    <li><a href="https://aka.ms/caab">Join the cloud adoption discussion</a><br>If you are passionate about cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the CAAB (Cloud Adoption Advisory Board) space of the Microsoft Tech Community and send us a quick email at <a href="mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!">CAAB@microsoft.com</a>. Anyone can read community-related content on the CAAB <a href="https://blogs.technet.com/b/solutions_advisory_board/">blog</a>. However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.</li><br>
+    <li><a href="mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20">What Office 365 Enterprise content do you need?</a><br>We are constantly creating new content for Office 365 that spans multiple Microsoft cloud platforms and services. Let us know what you think about our Office 365 and cloud adoption content, or ask for specific content by sending email to cloudadopt@microsoft.com.</li><br>
+    <li><a href="https://aka.ms/caab">Join the cloud adoption discussion</a><br>If you are passionate about Office 365 and Microsoft cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the CAAB (Cloud Adoption Advisory Board) space of the Microsoft Tech Community and send us a quick email at <a href="mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!">CAAB@microsoft.com</a>. Anyone can read community-related content on the CAAB <a href="https://blogs.technet.com/b/solutions_advisory_board/">blog</a>. However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.</li><br>
     <li><a href="mailto:cloudadopt@microsoft.com?subject=[Art%20Request]:%20">Get the art you see here</a><br>If you want an editable copy of the art you see in this article, we’ll be glad to send it to you. Email your request, including the URL and title of the art, to cloudadopt@microsoft.com</li>
 </ul>
