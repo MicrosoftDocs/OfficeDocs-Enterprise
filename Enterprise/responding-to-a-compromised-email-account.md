@@ -105,5 +105,4 @@ Your Office 365 subscription comes with a powerful set of security capabilities 
 - Beyond 90 days. These enhancements build in your first 90 days work.
 
 ## See also:
-- [Security best practices for Office 365](https://support.office.com/en-us/article/Security-best-practices-for-Office-365-9295e396-e53d-49b9-ae9b-0b5828cdedc3)
 - [Detect and Remediate Outlook Rules and Custom Forms Injections Attacks in Office 365](detect-and-remediate-outlook-rules-forms-attack.md)
