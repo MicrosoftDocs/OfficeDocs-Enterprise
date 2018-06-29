@@ -30,12 +30,12 @@ Users may notice and report unusual activity in their Office 365 mailboxes. Here
 - Other users may receive emails from the compromised account without the corresponding email existing in the **Sent Items** folder of the sender.
 - The presence of inbox rules that weren't created by the intended user or the administrator. These rules may automatically forward emails to unknown addresses or move them to the **Notes**, **Junk Email**, or **RSS Subscriptions** folders.
 - The users display name may be changed in the Global Address List.
-- The user's mailbox is blocked from sending email.
+- The user's mailbox is blocked from sending email.  If the suspected compromised account is blocked from sending email, the user will get an NDR message after trying to send external email stating "550 5.1.8 Access denied, bad outbound sender AS(XXXXXXX)".
 
 If a user reports any of the above symptoms, you should perform further investigation. The Office 365 Security & Compliance Center and the Azure Portal offer tools to help you investigate the activity of a user account that you suspect may be compromised.
 - Office 365 Unified Audit Logs in the Security & Compliance Center - Review all the activities for the suspected account by filtering the results for the date range spanning from immediately before the suspicious activity occurred to the current date. Do not filter on the activities during the search.
 - Use the Azure AD Sign-in logs and other risk reports that are available in the Azure AD portal. Examine the values in these columns:
-    - Review IP address
+    - review IP address
     - sign-in locations
     - sign-in times
     - sign-in success or failure
