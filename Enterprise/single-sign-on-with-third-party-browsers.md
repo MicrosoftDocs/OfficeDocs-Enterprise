@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/29/2016
 ms.audience: Admin
 ms.topic: troubleshooting
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid:

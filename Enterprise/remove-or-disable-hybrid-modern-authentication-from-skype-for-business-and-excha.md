@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 11/3/2017
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 5a91b9e3-1508-475b-93e0-710fa5d5cd2d
 description: "If you've enabled Hybrid Modern Authentication (HMA) only to find it's unsuitable for your current environment, you can disable HMA. This article explains how."

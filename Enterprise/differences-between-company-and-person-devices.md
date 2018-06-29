@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 1/1/1900
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 31ba417e-12bc-47a7-a6e7-cfec4648536e
 description: "Start your article with a very short introduction (1 sentence). Put yourself in the reader's place - why are they here? What should they do?"

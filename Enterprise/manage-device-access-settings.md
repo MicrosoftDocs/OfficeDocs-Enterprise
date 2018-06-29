@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ms.o365.cc.DeviceTenantPolicy'
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 170d44dd-0c61-472f-b9bb-3242eb8bd5c3

@@ -8,7 +8,7 @@ ms.audience: Admin
 ms.topic: article
 f1_keywords:
 - 'ms.o365.cc.DevicePolicySupportedDevice'
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 search.appverid:
 - MOE150

@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/29/2016
 ms.audience: ITPro
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
