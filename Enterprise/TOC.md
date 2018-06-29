@@ -36,7 +36,7 @@
 ## Hybrid options
 ## Office 365 client support
 ### Conditional access
-### Modern authentication
+### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
 ### Mobile application management
 
 # Test Office 365
