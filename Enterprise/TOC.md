@@ -120,6 +120,6 @@
 ## Skype for Business
 ## Microsoft Teams
 ## Yammer
-# Security & Compliance
+# [Security & Compliance](https://review.docs.microsoft.com/office365/SecurityCompliance/index-draft?branch=stp-working)
 # Office 365 PowerShell
   
