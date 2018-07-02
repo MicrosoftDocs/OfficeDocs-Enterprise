@@ -32,13 +32,6 @@
 
 # Plan for Office 365
 ## Subscriptions, licenses, and tenants
-<<<<<<< HEAD
-## Office 365 integration
-## Hybrid options
-## Office 365 client support
-### Conditional access
-### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
-=======
 ### Get your organization ready for Office 365 Enterprise
 ### Enterprise organizations and Office 365
 ### Office 365 system requirements
@@ -56,11 +49,24 @@
 ### Network connectivity to Office 365
 ### Deployment advisors for Office 365 services
 ### Integrated Apps and Azure AD for Office 365 administrators
+### Migrate your organization data to Office 365 Enterprise
+### Office 365 single sign-on with third-party browsers
+### Office 365 Video networking Frequently Asked Questions
 ## Office 365 integration
 ### Azure integration with Office 365
 ### Azure ExpressRoute for Office 365
 ### How modern authentication works for Office 2013 and Office 2016 client apps
 ### Get started with the Microsoft Service Trust Portal
+### Skype for Business topologies supported with Modern Authentication and Hybrid Modern Authentication
+### Upgrading from SharePoint 2010
+### Upgrading from Lync Server 2010
+### SharePoint 2007 migration options to consider
+### SharePoint Server 2007 end of support roadmap
+### Resources to help you upgrade from Office 2007 or Office 2010 servers and clients
+### Project Server 2007 end of support roadmap
+### PerformancePoint Server 2007 end of support roadmap
+### Exchange 2010 end of support roadmap
+### Exchange 2007 end of support roadmap
 
 ## Hybrid options
 ### Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
@@ -70,7 +76,6 @@
 ## Office 365 client support
 ### Conditional access
 ### Modern authentication
->>>>>>> tocworking
 ### Mobile application management
 
 # Test Office 365
@@ -90,28 +95,8 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-<<<<<<< HEAD
-## [FastTrack](https://fasttrack.microsoft.com/office)
-## Setup overview for enterprises
-### Deployment planning checklist for Office 365
-## Set up your network
-### Network planning and performance
-### URLs and IP address ranges
-## Set up your subscription
-### Global admin accounts
-### Domains
-### Office 365 identity
-#### Azure integration
-### Release options in Office 365
-## Configure services and applications
-=======
-<<<<<<< HEAD
 ## FastTrack
 ## Deploy Office 365 Enterprise for your organization
-=======
-## [FastTrack](https://fasttrack.microsoft.com/office)
-## Setup overview for enterprises
->>>>>>> 05dde0627e806301a4b173605c49096dc76aa3ee
 ### Deployment planning checklist for Office 365
 ### Office 365 integration with on-premises environments
 ### Office 365 inter-tenant collaboration
@@ -121,6 +106,7 @@
 ### Network planning and performance tuning for Office 365
 ### Network planning with ExpressRoute for Office 365
 ### Routing with ExpressRoute for Office 365
+### Using BGP communities in ExpressRoute for Office 365 scenarios
 ### Office 365 Network Connectivity Principles
 ### URLs and IP address ranges
 ### Content delivery networks
@@ -140,15 +126,12 @@
 #### Azure integration
 ### Release options in Office 365
 ## Configure Office 365 Enterprise services and applications
->>>>>>> tocworking
 ### Migrate data to Office 365
 ### Exchange Online
 ### SharePoint Online
 ### Skype for Business
 ### Microsoft Teams
 ### Yammer
-<<<<<<< HEAD
-=======
 #### Yammer admin quick start
 #### Yammer admin key concepts
 #### Yammer and Office 365 Groups
@@ -168,7 +151,6 @@
 ### Create an APNs Certificate for iOS devices
 ### Create and deploy device security policies
 ### Enroll your mobile device in Office 365
->>>>>>> tocworking
 ## Deploy clients
 ### Deploy Office ProPlus
 ### Deploy the Skype for Business client
@@ -178,6 +160,11 @@
 ### Enabling team collaboration
 ### Training your users
 ## Multi-geo
+### Japan datacenter migration
+#### Moving core data to new Office 365 datacenter geos
+#### How to request your data move
+#### During and after your data move
+#### Data move general FAQ
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
 #### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
@@ -204,19 +191,6 @@
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
 
 # Manage Office 365
-<<<<<<< HEAD
-## Management tools
-## Service health
-### View service health
-### Monitor connectivity
-### Support options
-## Exchange Online
-## SharePoint Online
-## Skype for Business
-## Microsoft Teams
-## Yammer
-# [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
-=======
 ## Tools to manage Office 365 accounts
 ## Managing ExpressRoute for Office 365 connectivity
 ## Add several users at the same time to Office 365 - Admin Help
@@ -236,6 +210,7 @@
 ### Troubleshoot device enrollment with MDM for Office 365
 ### Wipe a mobile device in Office 365
 ### Client connectivity
+### Session timeouts for Office 365
 ## Service health
 ### How to check Office 365 service health
 ### Monitor Office 365 connectivity
@@ -249,7 +224,6 @@
 ### Tune Skype for Business Online performance
 ## Microsoft Teams
 ## Yammer
-<<<<<<< HEAD
 ### Office 365 sign-in for Yammer
 ### Manage Yammer admins
 ### Manage Yammer data compliance
@@ -284,9 +258,5 @@
 ### What to do when users cannot log in to Yammer on Android devices
 
 # Security & Compliance
-=======
-# [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
->>>>>>> 05dde0627e806301a4b173605c49096dc76aa3ee
->>>>>>> tocworking
 # Office 365 PowerShell
   
