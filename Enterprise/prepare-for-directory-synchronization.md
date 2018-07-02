@@ -38,13 +38,12 @@ For more information about the advantages of using directory synchronization, se
 To determine which scenario is the best for your organization, review the [directory integration tools comparison](https://go.microsoft.com/fwlink/p/?LinkId=525320).
   
 ## Directory cleanup tasks
-<a name="bkmk_directorycleanup"> </a>
 
 Before you begin synchronizing your directory, you need to clean up your directory.
   
 Review also the [attributes synchronized to Azure Active Directory by Azure AD Connect](https://go.microsoft.com/fwlink/p/?LinkId=746480).
   
-> [!CAUTION]
+> [!IMPORTANT]
 > If you don't perform directory cleanup before you synchronize, there can be a significant negative effect on the deployment process. It might take days, or even weeks, to go through the cycle of directory synchronization, identifying errors, and re-synchronization. 
   
 In your on-premises directory, do the following clean-up tasks:
@@ -86,7 +85,6 @@ In your on-premises directory, do the following clean-up tasks:
   - Country or Region
     
 ## Directory object and attribute preparation
-<a name="bkmk_directorycleanup"> </a>
 
 Successful directory synchronization between your on-premises directory and Office 365 requires that your on-premises directory attributes are properly prepared. For example, you need to ensure that specific characters aren't used in certain attributes that are synchronized with the Office 365 environment. Unexpected characters do not cause directory synchronization to fail but might return a warning. Invalid characters will cause directory synchronization to fail.
   
@@ -201,28 +199,24 @@ The attributes that you need to prepare are listed here:
   - **userPrincipalName** cannot contain any duplicate values in the directory. 
     
 ## Prepare the userPrincipalName attribute
-<a name="bkmk_directorycleanup"> </a>
 
 Active Directory is designed to allow the end users in your organization to sign in to your directory by using either **sAMAccountName** or **userPrincipalName**. Similarly, end users can sign in to Office 365 by using the user principal name (UPN) of their work or school account. Directory synchronization attempts to create new users in Azure Active Directory by using the same UPN that's in your on-premises directory. The UPN is formatted like an email address. In Office 365, the UPN is the default attribute that's used to generate the email address. It's easy to get **userPrincipalName** (on-premises and in Azure Active Directory) and the primary email address in **proxyAddresses** set to different values. When they are set to different values, there can be confusion for administrators and end users. 
   
 It's best to align these attributes to reduce confusion. To meet the requirements of single sign-on with Active Directory Federation Services (AD FS) 2.0, you need to ensure that the UPNs in Azure Active Directory and your on-premises Active Directory match and are using a valid domain namespace.
   
 ## Add an alternative UPN suffix to AD DS
-<a name="bkmk_directorycleanup"> </a>
 
 You may need to add an alternative UPN suffix to associate the user's corporate credentials with the Office 365 environment. A UPN suffix is the part of a UPN to the right of the @ character. UPNs that are used for single sign-on can contain letters, numbers, periods, dashes, and underscores, but no other types of characters.
   
 For more information on how to add an alternative UPN suffix to Active Directory, see [Prepare for directory synchronization]( https://go.microsoft.com/fwlink/p/?LinkId=525430).
   
 ## Match the on-premises UPN with the Office 365 UPN
-<a name="bkmk_directorycleanup"> </a>
 
 If you've already set up directory synchronization, the user's UPN for Office 365 may not match the user's on-premises UPN that's defined in your on-premises directory service. This can occur when a user was assigned a license before the domain was verified. To fix this, use [PowerShell to fix duplicate UPN](https://go.microsoft.com/fwlink/p/?LinkId=396730) to update the user's UPN to ensure that the Office 365 UPN matches the corporate user name and domain. If you are updating the UPN in the on-premises directory service and would like it to synchronize with the Azure Active Directory identity, you need to remove the user's license in Office 365 prior to making the changes on-premises. 
   
 See also [How to prepare a non-routable domain (such as .local domain) for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md).
   
 ## Directory integration tools
-<a name="bkmk_directorycleanup"> </a>
 
 Directory synchronization is the synchronization of directory objects (users, groups, and contacts) from your on-premises Active Directory environment to the Office 365 directory infrastructure, Azure Active Directory. See [Directory Integration Tools](https://go.microsoft.com/fwlink/p/?LinkID=510956) for a list of the available tools and their functionality. The recommended tool is [Microsoft Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkID=510956). For more information about Azure Active Directory Connect, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=527969).
   
@@ -231,10 +225,7 @@ When user accounts are synchronized with the Office 365 directory for the first 
 You can also use [PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=613097) to assign licenses. See [How to Use PowerShell to Automatically Assign Licenses to Your Office 365 Users](https://go.microsoft.com/fwlink/p?LinkID=329805) for an automated solution. 
   
 ## Related Topics
-<a name="bkmk_directorycleanup"> </a>
 
 [Office 365 integration with on-premises environments](office-365-integration.md)
   
 [Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
-  
-

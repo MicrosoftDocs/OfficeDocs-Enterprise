@@ -13,7 +13,7 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 7cec08a5-97fd-4761-b23b-ef3d66519e30
-description: "When you configure Office 365 to support an enterprise organization, it's important to plan exactly what steps you want to take, when to perform them, and who will perform them. If you've opted out of FastTrack deployment and aren't finding what you need in our basic deployment steps, this is the place to start."
+description: "Configure Office 365 Enterprise services and applications"
 ---
 
 # Configure Office 365 Enterprise services and applications
@@ -24,8 +24,6 @@ Our [basic set up instructions](https://support.office.com/article/Set-up-Office
   
 If you want help getting Office 365 set up, use **[FastTrack](https://fasttrack.microsoft.com/office)** or the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
   
-|
-|
 |****Choose one or more resources****||
 |:-----|:-----|
 |**Office 365 Suite** <br/> |[Add your company branding to Office 365 Sign In Page](https://support.office.com/article/Add-your-company-branding-to-Office-365-Sign-In-Page-a1229cdb-ce19-4da5-90c7-2b9b146aef0a) <br/> [Add customized help desk info to the Office 365 help pane](https://support.office.com/article/Add-customized-help-desk-info-to-the-Office-365-help-pane-9dd9b104-68f7-4d49-9a30-82561c7d79a3) <br/> Add [integration with Azure AD and other applications](https://support.office.com/article/Integrated-Apps-and-Azure-AD-for-Office-365-administrators-cb2250e3-451e-416f-bf4e-363549652c2a).  <br/> [Learn more about using groups](https://support.office.com/Article/Learn-more-about-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) to collaborate with email, calendar, documents, and chat.  <br/> [Configure Information Protection across Office 365](https://technet.microsoft.com/library/dn532171.aspx) <br/> [Activate and use mobile device management in Office 365](https://support.office.microsoft.com/article/Manage-mobile-devices-in-Office-365-dd892318-bc44-4eb1-af00-9db5430be3cd) <br/> [Monitor Office 365 connectivity](monitor-connectivity.md) <br/> |
@@ -36,13 +34,9 @@ If you want help getting Office 365 set up, use **[FastTrack](https://fasttrack.
 |**Office 365 applications** <br/> |Office 365 administrators should use the [Office 2016 Deployment Guide for Mac, PC, or Mobile](https://technet.microsoft.com/library/cc303401%28v=office.16%29.aspx) to get help planning an enterprise Office 365 ProPlus deployment or upgrade.  <br/> [Power BI for Office 365 Admin Center](https://support.office.com/article/Power-BI-for-Office-365-Admin-Center-Help-5e391ecb-500c-47a3-bd0f-a6173b541044) <br/> [Office Delve for Office 365 admins](https://support.office.com/article/Office-Delve-for-Office-365-admins-54f87a42-15a4-44b4-9df0-d36287d9531b) <br/> [Frequently asked questions about Sway](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075) <br/> [Get started with Project Online](https://support.office.com/article/Get-started-with-Project-Online-e3e5f64f-ada5-4f9d-a578-130b2d4e5f11).  <br/> [Microsoft Intune deployment advisor](https://aka.ms/intuneguidance).  <br/> |
 |**Enterprise Social** (Yammer)  <br/> |[Use Yammer with Office 365](https://support.office.com/article/Plan-for-Yammer-integration-with-Office-365-4086681f-6de1-4d39-aa72-752b2af1cbd7).  <br/> Use the [Yammer Enterprise setup guide](https://aka.ms/yammerdeploy) to get customized set up guidance.  <br/> |
    
-([Back to Enterprise set up](setup-overview-for-enterprises.md))
-  
 ## We're here to help!
 
 As an [Assign admin roles in Office 365 for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504) for Office 365 for business, you get free access to our knowledgeable support agents. If you don't find the information you need on this web site, **[Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
-  
-Here's a short link you can use to come back: [https://aka.ms/deploy365services](https://aka.ms/deploy365services)
   
 ## Related Topics
 

@@ -14,54 +14,32 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: "The deployment wizards for Office 365 give you self-guided support for setting up Office 365. As you select the features and options you want to deploy, each wizard builds a step-by-step setup plan that's customized to your needs. You'll get a full set of instructions, videos, reference articles, and scripts. These wizards won't change any of your organization's settings or data. Instead, you make the changes using the wizard to guide you. You can use these wizards anytime; even during planning or after you've already set up the services, to learn more about Office 365 features and options."
+description: "The deployment wizards for Office 365 give you self-guided support for setting up Office 365."
 ---
 
 # Deployment advisors for Office 365 services
 
 The deployment wizards for Office 365 give you self-guided support for setting up Office 365. Just select a wizard and sign in to Office 365. As you select the features and options you want to deploy, the wizard builds a step-by-step setup plan that's customized to your needs. You'll get a full set of instructions, videos, reference articles, and scripts. Some wizards have automation that will change some of your settings, while in other areas of the wizards you change your settings and data with the wizard to guide you. You can use these wizards anytime, even during planning or after you've already set up the services, to learn more about Office 365 features and options.
   
-[Mail migration and protection](deployment-advisors-for-office-365.md#bkmk_mailmigration)
-  
-Windows 10 with Office 365﻿
-  
-[Windows 10 with Office 365](deployment-advisors-for-office-365.md#bkmk_filestorage)
-  
-[Communication and online conferencing](deployment-advisors-for-office-365.md#bkmk_conferencing)
-  
-[Security and Identity](deployment-advisors-for-office-365.md#bkmk_identity)
-  
-[Device security](deployment-advisors-for-office-365.md#bkmk_devices)
-  
-[Business apps](deployment-advisors-for-office-365.md#bkmk_businessapps)
-  
-[﻿Videos for IT pros](deployment-advisors-for-office-365.md#bkmk_videos)
-  
-[Walkthroughs for users](deployment-advisors-for-office-365.md#bkmk_walkthroughs)
-  
 ## Windows 10 with Office 365
-<a name="bkmk_filestorage"> </a>
 
-[﻿Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide)﻿
+[Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide)
   
 Microsoft 365 is a complete, intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security. Microsoft 365 empowers everyone to be creative and work together, securely. Use this guide to set up Windows 10 devices or upgrade users' computers to Windows 10, with optional deployment of Office apps, Windows Analytics, and Windows Defender Advanced Threat Protection (Microsoft 365 Enterprise E5 plan only).
   
-﻿Windows Analytics
+Windows Analytics
   
-﻿Windows Defender Advanced Threat Protection
+Windows Defender Advanced Threat Protection
   
 ## File creation, storage, and sharing
-<a name="bkmk_filestorage"> </a>
 
 ### OneDrive for Business
-<a name="bkmk_OneDrive"> </a>
 
 [OneDrive for Business quick start guide](https://aka.ms/ODfBquickstartguide)
   
 Use this guide to get started quickly with OneDrive for Business for file storage, sharing, and syncing.
   
 ### Office 365 ProPlus
-<a name="bkmk_proplus"> </a>
 
 [Office ProPlus quick start guide](https://aka.ms/OPPquickstartguide)
   
@@ -72,7 +50,6 @@ This guide walks you through the steps for installing Office on either a PC or a
 The Office 365 ProPlus deployment advisor helps you get your users up and running on the latest versions of Office. This advisor walks you through the steps for helping users install Office directly from the Office 365 portal online, or for deploying Office to your users from an on-premises location. Included are instructions for using System Center Configuration Manager (SCCM), a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
   
 ### SharePoint Online
-<a name="bkmk_proplus"> </a>
 
 [SharePoint Online quick start](https://aka.ms/SPOquickstartguide)
   
@@ -83,7 +60,6 @@ This quick start shows you how to set up SharePoint in the cloud for document st
 The SharePoint Online deployment advisor helps you choose the deployment option that works best for your organization and gives the steps for configuring SharePoint Online features to meet your business needs. Choose from cloud deployment, hybrid deployment, or on-premises-to-cloud migration. Then follow the steps for configuring SharePoint Online features like file storage and sharing, external file sharing, site collections, global settings, and user profiles, and your Office 365 team site
   
 ## Mail migration and protection
-<a name="bkmk_mailmigration"> </a>
 
 ### Exchange migration advisor
 
@@ -102,7 +78,6 @@ Exchange Online Protection ﻿overview
 Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering service that helps protect your organization against spam and malware, and includes features to safeguard your organization from messaging policy violations.
   
 ## Security and Identity
-<a name="bkmk_identity"> </a>
 
 ### Azure Active Directory Connect (AAD Connect) advisor
 
@@ -127,7 +102,6 @@ The Azure AD Premium setup guide helps you enable features of Azure Active Direc
 Tailor Office 365 by adding your own domain name (also known as your website name).
   
 ## Device security
-<a name="bkmk_devices"> </a>
 
 ### Microsoft Intune
 
@@ -136,11 +110,10 @@ Tailor Office 365 by adding your own domain name (also known as your website nam
 The Microsoft Intune deployment advisor helps you set up Intune so that you can give your employees access to corporate applications, data, and resources from virtually anywhere on almost any device. Setting up Intune provides mobile security, device protection, and helps keep corporate information secure. Intune provides these benefits through Mobile Device Management (MDM) or Mobile Application Management (MAM) without enrollment.
   
 ## Communication and online conferencing
-<a name="bkmk_conferencing"> </a>
 
 ### Office 365 Groups
 
-﻿Office 365 Groups setup guide
+Office 365 Groups setup guide
   
 Office 365 Groups are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done. Groups in Office 365 let you choose a set of people that you wish to collaborate with and easily set up a collection of resources for those people to share. You don't have to worry about manually assigning permissions to all those resources because adding members to the group automatically gives them the permissions they need to the tools your group provides.
   
@@ -171,14 +144,12 @@ This quick start guide shows you how to successfully roll out Yammer in your org
 The Yammer Enterprise deployment advisor helps you get your organization up and running with Yammer Enterprise. It includes guidance on connecting existing Yammer networks you might have to Office 365, or setting up a new Yammer domain. If you have multiple Yammer networks, it also describes how to consolidate Yammer networks into a single Yammer Enterprise network.
   
 ## Business apps
-<a name="bkmk_businessapps"> </a>
 
 [Microsoft StaffHub setup guide](https://aka.ms/staffhubguide)
   
 Microsoft StaffHub is a cloud-based platform that works across all your devices. It enables firstline workers (employees with roles that don't require a computer) and their managers to manage shift schedules, communicate with their teams, and share content.
   
-## ﻿Videos for IT pros
-<a name="bkmk_videos"> </a>
+## Videos for IT pros
 
 ### Office 365 ProPlus
 
@@ -211,8 +182,5 @@ SharePoint troubleshooting, considerations, and pro tips﻿
 [Verify your domain in the Admin center](https://aka.ms/ac-verifydns)
   
 ## Walkthroughs for users
-<a name="bkmk_walkthroughs"> </a>
 
-See the [Walkthroughs for Office 365 users](https://aka.ms/usertrainingwizards) ﻿for quick, how-to guidance on things like installing Office 365 apps on mobile devices or syncing files to OneDrive for Business. 
-  
-
+See the [Walkthroughs for Office 365 users](https://aka.ms/usertrainingwizards) ﻿for quick, how-to guidance on things like installing Office 365 apps on mobile devices or syncing files to OneDrive for Business.

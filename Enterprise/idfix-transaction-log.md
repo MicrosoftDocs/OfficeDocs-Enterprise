@@ -31,32 +31,32 @@ The word verbose in the transaction log file name indicates the level of logging
 IdFix writes the results of each **UPDATE** action to a transaction log as shown in the following example. 
   
 ```
-5/22/2014 6:36:44 AM Initialized - IdFix version 1.07 - Multi-Tenant
-5/22/2014 6:36:47 AM Query AD
-5/22/2014 6:36:47 AM FOREST:e2k10.com SERVER:dc1.e2k10.com FILTER:(|(objectCategory=Person)(objectCategory=Group))
-5/22/2014 6:36:47 AM Please wait while the LDAP Connection is established.
-5/22/2014 6:36:49 AM Query Count: 140  Error Count: 29  Duplicate Check Count: 191
-5/22/2014 6:36:49 AM Elapsed Time: AD Query - 00:00:02.3890432
-5/22/2014 6:36:49 AM Write split files
-5/22/2014 6:36:49 AM Merge split files
-5/22/2014 6:36:49 AM Count duplicates
-5/22/2014 6:36:49 AM Write filtered duplicate objects
-5/22/2014 6:36:49 AM Read filtered duplicate objects
-5/22/2014 6:36:49 AM Read error file
-5/22/2014 6:36:49 AM Elapsed Time: Duplicate Checks - 00:00:00.0780785
-5/22/2014 6:36:49 AM Populating DataGrid
-5/22/2014 6:36:50 AM Elapsed Time: Populate DataGridView - 00:00:00.0780785
-5/22/2014 6:36:50 AM Query Count: 140  Error Count: 53
-5/22/2014 6:37:34 AM Apply Pending
-5/22/2014 6:37:34 AM Update: [CN=user000001,OU=e2k10OU1,DC=e2k10,DC=com][user][mailnickname][character][user?^|000001][user000001][EDIT]
-5/22/2014 6:37:34 AM Update: [CN=user000008,OU=e2k10OU1,DC=e2k10,DC=com][user][targetAddress][duplicate][smtp:user000008@customer.com][][REMOVE]
-5/22/2014 6:37:34 AM COMPLETE
-5/22/2014 6:37:40 AM Loading Updates
-5/22/2014 6:37:40 AM Action Selection
-5/22/2014 6:37:57 AM Apply Pending
-5/22/2014 6:37:57 AM Update: [CN=user000001,OU=e2k10OU1,DC=e2k10,DC=com][user][mailnickname][character][user?^|000001][user000001][UNDO]
-5/22/2014 6:37:57 AM Update: [CN=user000008,OU=e2k10OU1,DC=e2k10,DC=com][user][targetAddress][duplicate][smtp:user000008@customer.com][][UNDO]
-5/22/2014 6:37:57 AM COMPLETE
+5/22/2018 6:36:44 AM Initialized - IdFix version 1.07 - Multi-Tenant
+5/22/2018 6:36:47 AM Query AD
+5/22/2018 6:36:47 AM FOREST:e2k10.com SERVER:dc1.e2k10.com FILTER:(|(objectCategory=Person)(objectCategory=Group))
+5/22/2018 6:36:47 AM Please wait while the LDAP Connection is established.
+5/22/2018 6:36:49 AM Query Count: 140  Error Count: 29  Duplicate Check Count: 191
+5/22/2018 6:36:49 AM Elapsed Time: AD Query - 00:00:02.3890432
+5/22/2018 6:36:49 AM Write split files
+5/22/2018 6:36:49 AM Merge split files
+5/22/2018 6:36:49 AM Count duplicates
+5/22/2018 6:36:49 AM Write filtered duplicate objects
+5/22/2018 6:36:49 AM Read filtered duplicate objects
+5/22/2018 6:36:49 AM Read error file
+5/22/2018 6:36:49 AM Elapsed Time: Duplicate Checks - 00:00:00.0780785
+5/22/2018 6:36:49 AM Populating DataGrid
+5/22/2018 6:36:50 AM Elapsed Time: Populate DataGridView - 00:00:00.0780785
+5/22/2018 6:36:50 AM Query Count: 140  Error Count: 53
+5/22/2018 6:37:34 AM Apply Pending
+5/22/2018 6:37:34 AM Update: [CN=user000001,OU=e2k10OU1,DC=e2k10,DC=com][user][mailnickname][character][user?^|000001][user000001][EDIT]
+5/22/2018 6:37:34 AM Update: [CN=user000008,OU=e2k10OU1,DC=e2k10,DC=com][user][targetAddress][duplicate][smtp:user000008@customer.com][][REMOVE]
+5/22/2018 6:37:34 AM COMPLETE
+5/22/2018 6:37:40 AM Loading Updates
+5/22/2018 6:37:40 AM Action Selection
+5/22/2018 6:37:57 AM Apply Pending
+5/22/2018 6:37:57 AM Update: [CN=user000001,OU=e2k10OU1,DC=e2k10,DC=com][user][mailnickname][character][user?^|000001][user000001][UNDO]
+5/22/2018 6:37:57 AM Update: [CN=user000008,OU=e2k10OU1,DC=e2k10,DC=com][user][targetAddress][duplicate][smtp:user000008@customer.com][][UNDO]
+5/22/2018 6:37:57 AM COMPLETE
 
 ```
 

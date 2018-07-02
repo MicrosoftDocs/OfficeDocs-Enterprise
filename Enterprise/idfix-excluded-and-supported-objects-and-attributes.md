@@ -22,26 +22,26 @@ There are two sets of rules maintained by IdFix; Multi-tenant and Dedicated/ITAR
 
 This section lists the objects, attributes, and values that IdFix excludes from its search of the directory. The asterisk (\*) is a wildcard that can be substituted for other characters.
   
-**Objects, attributes, and values excluded during an IdFix search**
+### Objects, attributes, and values excluded during an IdFix search
 
 |**Exclusion**|**Example**|
 |:-----|:-----|
-|Admini\*  <br/> |Administrator  <br/> |
-|CAS_{\*  <br/> |CAS_{fe35fc98e69e4d08}  <br/> |
-|DiscoverySearchMailbox\*  <br/> |DiscoverySearchMailbox  <br/> |
-|FederatedEmail\*  <br/> |FederatedEmail. *GUID*  <br/> |
-|Guest\*  <br/> ||
-|HTTPConnector\*  <br/> |HTTPConnector  <br/> |
-|krbtgt\*  <br/> |ms-DS-KrbTgt-Link  <br/> |
-|iusr_\*  <br/> |iusr_ *machinename*  <br/> |
-|iwam\*  <br/> |IWAM_ *machinename*  <br/> |
-|msol\*  <br/> |MSOL_AD_SYNC  <br/> |
-|support_\*  <br/> ||
-|SystemMailbox\*  <br/> |Systemmailbox{ *GUID*  }  <br/> |
-|WWIOadmini\*  <br/> ||
-|\*$  <br/> ||
-|distinguishedName contains "\0ACNF:"  <br/> |"\0ACNF: *GUID*  "  <br/> |
-|Object contains the IsCriticalSystemObject attribute  <br/> |See [Attribute isCriticalSystemObject](https://go.microsoft.com/fwlink/p/?LinkId=401169).  <br/> |
+|Admini\* |Administrator |
+|CAS_{\*  |CAS_{fe35fc98e69e4d08} |
+|DiscoverySearchMailbox\*  |DiscoverySearchMailbox  |
+|FederatedEmail\* |FederatedEmail. *GUID* |
+|Guest\* ||
+|HTTPConnector\*  |HTTPConnector |
+|krbtgt\* |ms-DS-KrbTgt-Link |
+|iusr_\* |iusr_ *machinename* |
+|iwam\*  |IWAM_ *machinename* |
+|msol\* |MSOL_AD_SYNC |
+|support_\* ||
+|SystemMailbox\* |Systemmailbox{ *GUID*  }|
+|WWIOadmini\*  ||
+|\*$ ||
+|distinguishedName contains "\0ACNF:"|"\0ACNF: *GUID*  " |
+|Object contains the IsCriticalSystemObject attribute |See [Attribute isCriticalSystemObject](https://go.microsoft.com/fwlink/p/?LinkId=401169). |
    
 ## Multi-Tenant and Dedicated objects and attributes checked by IdFix
 

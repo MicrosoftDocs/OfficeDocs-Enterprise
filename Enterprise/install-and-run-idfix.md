@@ -69,7 +69,6 @@ To install IdFix, you download and unzip **IdFix.exe** as described in these ste
 6. Choose **Unzip**.
     
 ## Run the IdFix tool
-<a name="RunIdFix"> </a>
 
 After you install IdFix, run the tool to search for problems in your directory:
   
@@ -110,7 +109,6 @@ After you install IdFix, run the tool to search for problems in your directory:
 9. After all of your changes are made to the directory, run IdFix again to ensure that the fixes you made didn't introduce new errors. You can repeat these steps as many times as you need to. It's a good idea to go through the process a few times before you synchronize.
     
 ## I want to refine my search or dig deeper into the errors, what else can I do with IdFix?
-<a name="RunIdFix"> </a>
 
 More in-depth information is available from these topics:
   
@@ -121,7 +119,6 @@ More in-depth information is available from these topics:
 - [Reference: Office 365 IdFix transaction log](idfix-transaction-log.md)
     
 ## Video training
-<a name="RunIdFix"> </a>
 
 For more information, see the lesson [Install and use the IDFix tool](https://support.office.com/article/4d81d73c-f172-4fd5-8542-f601c0c96aa9.aspx), brought to you by LinkedIn Learning.
   

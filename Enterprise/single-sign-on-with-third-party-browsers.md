@@ -14,7 +14,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 4a6085c7-7227-4ea7-b202-a5aa65af00e4
-description: "If your computers have Extended Protection for Authentication, and you use the Firefox, Google Chrome, or Safari browsers, you may not be able to sign on to Office 365, depending upon your operating system. Instead, you will get an access denied message. This is due to the default configuration for Active Directory Federation Services (AD FS) 2.0 and Extended Protection for Authentication."
+description: "Enabling Office 365 single sign-on with third-party browsers"
 ---
 
 # Office 365 single sign-on with third-party browsers
