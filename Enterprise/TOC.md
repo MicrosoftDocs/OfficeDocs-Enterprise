@@ -32,8 +32,34 @@
 
 # Plan for Office 365
 ## Subscriptions, licenses, and tenants
+### Get your organization ready for Office 365 Enterprise
+### Enterprise organizations and Office 365
+### Office 365 system requirements
+### Plan for directory synchronization
+### Plan for network devices that connect to Office 365 services
+### Plan for third-party SSL certificates for Office 365
+### Understanding Office 365 identity and Azure Active Directory
+### Overview of Mobile Device Management (MDM) for Office 365
+### Capabilities of built-in Mobile Device Management for Office 365
+### Choose between MDM for Office 365 and Microsoft Intune
+### Differences between company and person devices
+### Privacy and security for built-in mobile device management for Office 365
+### Frequently asked questions about MDM
+### Network and migration planning for Office 365
+### Network connectivity to Office 365
+### Deployment advisors for Office 365 services
+### Integrated Apps and Azure AD for Office 365 administrators
 ## Office 365 integration
+### Azure integration with Office 365
+### Azure ExpressRoute for Office 365
+### How modern authentication works for Office 2013 and Office 2016 client apps
+### Get started with the Microsoft Service Trust Portal
+
 ## Hybrid options
+### Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
+### How to configure Exchange Server on-premises to use Hybrid Modern Authentication
+### How to configure Skype for Business on-premises to use Hybrid Modern Authentication
+### Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange
 ## Office 365 client support
 ### Conditional access
 ### Modern authentication
@@ -57,24 +83,60 @@
 
 # Deploy Office 365
 ## FastTrack
-## Setup overview for enterprises
+## Deploy Office 365 Enterprise for your organization
 ### Deployment planning checklist for Office 365
+### Office 365 integration with on-premises environments
+### Office 365 inter-tenant collaboration
+### Security best practices for Office 365
 ## Set up your network
-### Network planning and performance
+### How to prepare a non-routable domain for directory synchronization
+### Network planning and performance tuning for Office 365
+### Network planning with ExpressRoute for Office 365
+### Routing with ExpressRoute for Office 365
+### Office 365 Network Connectivity Principles
 ### URLs and IP address ranges
+### Content delivery networks
+### IPv6 support in Office 365 services
+### NAT support with Office 365
+### Implementing ExpressRoute for Office 365
 ## Set up your subscription
-### Global admin accounts
+### Prepare directory attributes for synchronization with Office 365 by using the IdFix tool
+### Prepare to provision users through directory synchronization to Office 365
+### Protect your Office 365 global administrator accounts
+### Set up directory synchronization for Office 365
+### Activate Rights Management in the Office 365 admin center
+
 ### Domains
+#### External Domain Name System records for Office 365
 ### Office 365 identity
 #### Azure integration
 ### Release options in Office 365
-## Configure services and applications
+## Configure Office 365 Enterprise services and applications
 ### Migrate data to Office 365
 ### Exchange Online
 ### SharePoint Online
 ### Skype for Business
 ### Microsoft Teams
 ### Yammer
+#### Yammer admin quick start
+#### Yammer admin key concepts
+#### Yammer and Office 365 Groups
+#### Set up a Yammer usage policy
+#### Overview of security and compliance in Yammer
+#### About Yammer networks and Office 365 tenants
+#### Improve Office 365 sign-in for Yammer with auto-acceleration policy
+#### Integrate Yammer with other applications
+#### Configure your Yammer network
+#### Configure email and Yammer
+#### Compare options for a free trial of Yammer
+#### Enforce Office 365 identity for Yammer users
+#### Limited functionality in Yammer in Internet Explorer 10 document mode
+#### Network migration - Consolidate multiple Yammer networks
+## Configure devices
+### Set up Mobile Device Management (MDM) in Office 365
+### Create an APNs Certificate for iOS devices
+### Create and deploy device security policies
+### Enroll your mobile device in Office 365
 ## Deploy clients
 ### Deploy Office ProPlus
 ### Deploy the Skype for Business client
@@ -110,16 +172,71 @@
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
 
 # Manage Office 365
-## Management tools
+## Tools to manage Office 365 accounts
+## Managing ExpressRoute for Office 365 connectivity
+## Add several users at the same time to Office 365 - Admin Help
+## Recover deleted items in a user mailbox - Admin Help
+## Office 365 performance tuning using baselines and performance history
+## Tune Office 365 performance
+## Performance troubleshooting plan for Office 365
+## Turn off directory synchronization for Office 365
+## Identify directory synchronization errors in Office 365
+## View directory synchronization status in Office 365
+## Fixing problems with directory synchronization for Office 365
+## Manage devices
+### Manage devices in MDM
+### Manage device access settings
+### Get details about devices managed by Mobile Device Management (MDM)  for Office 365
+### How to turn off Mobile Device Management in Office 365
+### Troubleshoot device enrollment with MDM for Office 365
+### Wipe a mobile device in Office 365
+### Client connectivity
 ## Service health
-### View service health
-### Monitor connectivity
+### How to check Office 365 service health
+### Monitor Office 365 connectivity
 ### Support options
 ## Exchange Online
+### Tune Exchange Online performance
 ## SharePoint Online
+### Tune SharePoint Online performance
 ## Skype for Business
+### Skype for Business Online in Office 365 – Admin Help
+### Tune Skype for Business Online performance
 ## Microsoft Teams
 ## Yammer
+### Office 365 sign-in for Yammer
+### Manage Yammer admins
+### Manage Yammer data compliance
+### Manage Yammer domains across their lifecycle in Office 365
+### Manage Yammer security settings
+### Manage Yammer user licenses in Office 365
+### Manage Yammer users across their lifecycle from Office 365
+### Manage Yammer with Microsoft Intune
+### Monitor private content in Yammer
+### Add external messaging participants to your Yammer conversations
+### Add, block, or remove Yammer users
+### Turn off Yammer access for Office 365 users
+### Audit Yammer users in networks connected to Office 365
+### Control external messaging in a Yammer network with Exchange Transport Rules
+### Converting Yammer notes into Word Online documents
+### Create a dynamic group in Yammer
+### Create and manage an external network in Yammer
+### Create and manage external groups in Yammer
+### Customize the look of your Yammer network
+### Embed a Yammer feed into a SharePoint site
+### Export data from Yammer Basic
+### Export data from Yammer Enterprise
+### External messaging FAQ - Yammer
+### Find external messaging participants in a Yammer network
+### Live events in Yammer
+### Manage GDPR data subject requests in Yammer Basic
+### Manage GDPR data subject requests in Yammer Enterprise
+### Phasing out temporary mobile passwords in Yammer
+### SharePoint enterprise social experience - Yammer and Newsfeed
+### Track Yammer events in the Office 365 audit log and with the Management Activity API
+### Upgrade your network to stand-alone Yammer Enterprise subscription
+### What to do when users cannot log in to Yammer on Android devices
+
 # Security & Compliance
 # Office 365 PowerShell
   
