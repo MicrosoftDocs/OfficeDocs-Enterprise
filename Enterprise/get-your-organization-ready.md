@@ -24,7 +24,7 @@ description: "When you get your on-premises infrastructure ready to connect your
 
 Most customers don't need to do anything to prepare for Office 365. It's an application on the web and people are able to use it as soon as they have an account. Other customers have more locations, security practices, or other requirements that create the need for more planning.
   
-If you want help getting Office 365 set up, **[FastTrack](https://fasttrack.microsoft.com/office)** is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](165f46e8-3533-4d76-be57-97f81ebd40f2.md).
+If you want help getting Office 365 set up, **[FastTrack](https://fasttrack.microsoft.com/office)** is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
   
 |****Choose one or more to get started:****||
 |:-----|:-----|
@@ -41,14 +41,12 @@ Want more resources to help you integrate Office 365 with your broader cloud str
   
 ## Want to talk with support?
 
-We're here to help. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-  
-Here's a short link you can use to come back: [https://aka.ms/deployenterprise365](https://aka.ms/deployenterprise365)
+We're here to help. [Contact support for business products](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
 ## Related Topics
 
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
   
-[Deployment advisors for Office 365 services](165f46e8-3533-4d76-be57-97f81ebd40f2.md)
+[Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
   
 
