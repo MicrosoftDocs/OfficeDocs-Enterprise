@@ -26,15 +26,15 @@ This topic will guide you through enabling and configuring privileged access man
 ## Before you begin
 
 ### Limited functionality
-During the public beta, privileged access management features are only available through [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) in Office 365. Privileged access management covers the task definitions at the level of Exchange management cmdlets. In coming Office 365 releases, privileged access features will be available through the admin portal and will cover other Office 365 workloads services.
+During the public beta, privileged access management features are only available through [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) in Office 365. Privileged access management covers the task definitions at the level of Exchange management cmdlets. In future Office 365 releases, privileged access features will be available through the admin portal and will cover other Office 365 workloads services.
 
 ### Connecting to Exchange Online PowerShell
 The configuration steps in this topic will walk you through enabling and using privileged access in Office 365 using Exchange Online PowerShell. 
 
-Follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) to connect to Exchange Online PowerShell with your Office 365 credentials to enable and configure previleged access for your organization.
+Follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) to connect to Exchange Online PowerShell with your Office 365 credentials to enable and configure privileged access for your organization.
 
 > [!NOTE]
-> You do not need to enable multi-factor authentication for your Office 365 organization to use the steps to enable prvileged access while connecting to Exchange Online PowerShell. Connecting with multi-factor authentication creates an OAuth token that is used by privileged access for signing your requests.
+> You do not need to enable multi-factor authentication for your Office 365 organization to use the steps to enable privileged access while connecting to Exchange Online PowerShell. Connecting with multi-factor authentication creates an OAuth token that is used by privileged access for signing your requests.
 
 ## Enable and configure privileged access management
 
@@ -63,7 +63,7 @@ Enable-ElevatedAccessControl
 > System accounts feature is made available to ensure certain automations within your organizations can work without dependency on privileged access, however it is recommended that such exclusions be exceptional and those allowed should be approved and audited regularly.
 
 ### Step 3 - Create an approval policy
-An approval policy allows you to define the specific approval requirements scoped at individual tasks. The approval type options are Auto or Manual. 
+An approval policy allows you to define the specific approval requirements scoped at individual tasks. The approval type options are **Auto** or **Manual**. 
 
 Run the following command in Exchange Online PowerShell to define an approval policy:
 ```
@@ -83,9 +83,9 @@ New-ElevatedAccessApprovalPolicy
 ## Using privileged access in your Office 365 organization
 
 ### Requesting elevation authorization to execute tasks
-Once enabled, privileged access requires approvals for executing any task that has an associated approval policy defined. 
+Once enabled, privileged access requires approvals for executing any task that has an associated approval policy defined. Users needing to execute tasks included in the an approval policy must request and be granted access approval in order to have permissions necessary to execute the task.
 
-Run the following command in Exchange Online PowerShell to raise an approval request:
+Run the following command in Exchange Online PowerShell to create and submit an approval request to the approver's group:
 ```
 New-ElevatedAccessRequest 
     -Task 'Exchange\<exchange management cmdlet name>' 
@@ -101,9 +101,9 @@ New-ElevatedAccessRequest
 ```
 
 ### Approving an elevation authorization request
-When an approval request is raised, members of the relevant approver group can approve the request with the request ID. 
+When an approval request is created, members of the relevant approver group will receive an email notification and can approve the request associated with the request ID. 
 
-Run the following command in Exchange Online PowerShell to approve a request:
+Run the following command in Exchange Online PowerShell to approve an elevation authorization request:
 ```
 Approve-ElevatedAccessRequest 
     -RequestId <request id>
@@ -117,7 +117,7 @@ Approve-ElevatedAccessRequest
 ```
 
 ### Running the task
-After approval is granted, you can execute the intended task and privileged access will authorize and execute the task on users’ behalf. The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times. All such executions are logged and made available for audit for compliance. 
+After approval is granted, the requesting user can execute the intended task and privileged access will authorize and execute the task on users’ behalf. The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times. All such executions are logged and made available for security and compliance auditing. 
 
 ### Disable privileged access in Office 365
 If needed, you can disable privileged access management in Office 365. Disabling privileged access does not delete any associated approval policies or approver groups.
@@ -128,14 +128,14 @@ Run the following command in Exchange Online Powershell to disable privileged ac
 Disable-ElevatedAccessControl
 ```
 ## Project Euclid with privileged access
-Project Euclid is a service that helps organizations exert a more granular level of control over their Office 365 data, they provide to application developers who build solutions to mine data to build useful insights. 
+Project Euclid is a service that helps organizations exert a more granular level of control over their Office 365 data. The Euclid system allows application developers who build solutions to mine data to build useful insights. 
 
 Project Euclid uses Office 365 privileged access to assert control over their data through the privileged access maangement approval workflow, allowing scoped access to Office 365 data with admin oversight. Requests for data from Project Euclid come in through the integration when apps are installed.
 
 ### View request details for Office 365 data
-View details of the access requests for Office 365 data from the Euclid system.
+View details of access requests for Office 365 data from the Euclid system.
 
-Run the following command in Exchange Online Powershell to view data requests for Project Euclid apps:
+Run the following command in Exchange Online Powershell to view data requests from the Euclid system:
 ```
 Get-ElevatedAccessRequest 
     –Identity <request id>
@@ -150,7 +150,7 @@ RequestedAccess : Data Access Request
 ```
 
 ### Approve all data access requests for Project Euclid apps
-All requests for data access requests can be approved through same approve cmdlets as other privileged access requests.
+All data access requests can be approved through the standard privileged access approval cmdlets.
 
 Run the following command in Exchange Online Powershell to approve all data requests for specific requestor:
 
@@ -167,13 +167,11 @@ Approve-ElevatedAccessRequest
 ```
 
 ## Getting help and providing feedback
-We recognize that during the public beta you may come across an occasional bug or have feedback and suggestions on how we can improve privileged access management. 
-
-We value your feedback and encourage you to share it with us:
+We recognize that during the public beta you may come across an occasional bug or have feedback and suggestions on how we can improve privileged access management. We value your feedback and encourage you to share it with us:
 - Post your feedback ad suggestions in the [Office Preview Yammer Group](https://www.yammer.com/officeenterprisenda/#/threads/inGroup?type=in_group&feedId=14435206).
 - File your bug reports under area path “Office 365 Privileged Access Management” on the [Office Preview VSO](https://office-previews.visualstudio.com/previews).
 
-## Frequently asked questions (FAQ)
+## Frequently asked questions
 
 ### What SKUs do I need to use privileged access in Office 365?
 Privileged access management in Office 365 is currently only available for customers with E5 and Advanced Compliance SKUs.
