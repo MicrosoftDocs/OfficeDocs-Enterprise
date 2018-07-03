@@ -41,19 +41,16 @@ An Office 365 global admin must complete the following steps to activate and set
     ![Creating an MDN device policy under Device security policies](media/fbcdbecd-0016-42f1-81a9-9fbad610da90.png)
   
 ## Device management tasks
-<a name="BKMK_DevMgtTasks"> </a>
 
 After you've got MDM for Office 365 set up and your users have enrolled their devices, you can manage the devices, block access, or wipe a device, if needed. Learn more about [some common device management tasks](manage-devices-in-mdm.md), including where to complete the tasks.
   
 ## Other ways to manage devices and apps
-<a name="BKMK_OtherMgt"> </a>
 
 If you need more functionality than MDM for Office 365 includes, check out this [comparison of MDM and Microsoft Intune features](choose-between-mdm-and-intune.md) to see if an Intune subscription would meet your organization's needs. 
   
 If you just need mobile app management (MAM), perhaps for people updating work projects on their own devices, Intune provides another option besides enrolling and managing devices. An Intune subscription allows you to set up MAM policies by using the Azure portal, even if people's devices aren't enrolled in Intune. See [Protect app data using MAM policies](https://go.microsoft.com/fwlink/?LinkId=825439). 
   
 ## See also
-<a name="BKMK_OtherMgt"> </a>
 
 [Get details about devices managed by MDM](get-details-about-mdm-managed-devices.md)
 

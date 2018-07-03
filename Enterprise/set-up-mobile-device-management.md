@@ -29,22 +29,11 @@ Device management is part of the Security &amp; Compliance Center so you'll need
   
 To set up Mobile Device Management for Office 365 you'll need to:
   
-[Activate the Mobile Device Management service](set-up-mobile-device-management.md#activateMDM)
-  
-[Set up Mobile Device Management](set-up-mobile-device-management.md#setupmdm)
-  
-- [Step 1: (Required) Configure domains for MDM](set-up-mobile-device-management.md#configdomains)
-    
-- [Step 2: (Required) Configure an APNs Certificate for iOS devices](set-up-mobile-device-management.md#configureAPN)
-    
-- [Step 3: (Recommended) Set up multi-factor authentication](set-up-mobile-device-management.md#multifactor)
-    
-- [Step 4: (Recommended) Manage device security policies](set-up-mobile-device-management.md#managepolicies)
-    
-[Make sure users enroll their devices](set-up-mobile-device-management.md#enrolldevices)
+1. [Activate the Mobile Device Management service](#activate-the-mobile-device-management-service)  
+2. [Set up Mobile Device Management](#set-up-mobile-device-management)
+3. [Make sure users enroll their devices](#step-4-recommended-manage-device-security-policies)
   
 ## Activate the Mobile Device Management service
-<a name="activateMDM"> </a>
 
 1. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
     
@@ -89,7 +78,6 @@ Need help setting up the records? Find your domain registrar in the list provide
 After you add the two records, go back to the Security &amp; Compliance Center and navigate to **Device management** \> **Manage settings** to complete the next step. 
   
 ### Step 2: (Required) Configure an APNs Certificate for iOS devices
-<a name="configureAPN"> </a>
 
 To manage iOS devices like iPad and iPhones, you need to create an APNs certificate.
   
@@ -134,7 +122,6 @@ To do this, follow the steps from the **Set up** links on the **Setup mobile dev
 After you add APN Certificate, go back to the Security &amp; Compliance Center and navigate to **Device management** \> **Manage settings** to complete the next step. 
   
 ### Step 3: (Recommended) Set up multi-factor authentication
-<a name="multifactor"> </a>
 
 If you don't see multi-factor authentication (MFA) under **Recommended steps**, you can skip this section. If this option is listed, we recommend you turn on MFA in the Azure AD portal to increase the security of the Mobile Device Management for Office 365 enrollment process. It is turned off by default.
   
@@ -145,7 +132,6 @@ Next to **Set up multi-factor authentication**, select **Set up**. To learn how 
 After you set up MFA, go back to the Security &amp; Compliance Center and navigate to **Device management** \> **Manage settings** to complete the next step. 
   
 ### Step 4: (Recommended) Manage device security policies
-<a name="managepolicies"> </a>
 
 The next step is to create and deploy device security policies to help protect your Office 365 organization's data. For example, you can help prevent data loss if a user loses their device by creating a policy to lock devices after 5 minutes of inactivity and have devices wiped after 3 sign-in failures.
   
@@ -159,7 +145,6 @@ For step by step instructions on how to create a new policy, see [Create and dep
 >  When you create a new policy, you might want to set the policy to allow access and report policy violation where a user's device isn't compliant with the policy. This lets you see how many mobile devices would be impacted by the policy without blocking access to Office 365. >  Before you deploy a new policy to everyone in your organization, we recommend you test it on the devices used by a small number of users. >  Also, before you deploy policies, let your organization know the potential impacts of enrolling a device in MDM for Office 365. Depending on how you set up the policies, devices that don't comply with them (non-compliant devices) could be blocked from accessing Office 365. Non-compliant devices might also have apps installed, photos, and other personal information which, on an enrolled device, could be deleted if the device is wiped. More info: [Wipe a mobile device in Office 365](wipe-a-mobile-device.md). 
   
 ## Make sure users enroll their devices
-<a name="enrolldevices"> </a>
 
 After you've created and deployed a mobile device management policy, each licensed Office 365 user in your organization that the device policy applies to will receive an enrollment message the next time they sign into Office 365 from their mobile device. They must complete the enrollment and activation steps before they can access Office 365 email and documents. See [Enroll your mobile device for work or school](enroll-your-mobile-device.md).
   
@@ -169,7 +154,6 @@ After you've created and deployed a mobile device management policy, each licens
 Users with Android or iOS devices are required to install the Company Portal app as part of the enrollment process.
   
 ## Related Topics
-<a name="enrolldevices"> </a>
 
 [Capabilities of Mobile Device Management](capabilities-of-mobile-device-management.md)
   

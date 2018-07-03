@@ -19,7 +19,7 @@ search.appverid:
 - PJU120
 - PSV120
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
-description: "Support is ending soon for Office 2007 servers and client applications, and custom support agreementsa are not available. Use this article to start planning your upgrade now."
+description: "Support has ended for Office 2007 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now."
 ---
 
 # Resources to help you upgrade from Office 2007 or Office 2010 servers and clients
@@ -27,20 +27,8 @@ description: "Support is ending soon for Office 2007 servers and client applicat
 If you're using Office 2007 or Office 2010 products and services, this is a great time to consider moving to the Microsoft Cloud, starting with Office 365.
   
 Office 2007 products and services have reached the end of support, and Office 2010 products and services are nearing end of support. Use this article as a starting point to review your options and plan your upgrade.
-  
- **In this article**: 
-  
-- [Information about Office 2010 and Office 2007](upgrade-from-office-2007-or-2010-servers-and-products.md#verson)
-    
-- [What if I don't upgrade?](upgrade-from-office-2007-or-2010-servers-and-products.md#whatif)
-    
-- [What is Office 365?](upgrade-from-office-2007-or-2010-servers-and-products.md#whatiso365)
-    
-- [What is Microsoft 365?](upgrade-from-office-2007-or-2010-servers-and-products.md#m365)
-    
-- [Related topics](upgrade-from-office-2007-or-2010-servers-and-products.md#seealso)
-    
-## [Office 2010](#tab/)
+      
+## Office 2010
   
 |**For this product**|**See this planning roadmap**|
 |:-----|:-----|
@@ -77,7 +65,8 @@ Choose one of the following options:
 - **Purchase Office Home &amp; Student 2016** for Windows or Office Home &amp; Student 2016 for Mac, and install Office 2016 on your computer. 
     
 Need help? See **[Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758)**. 
-## [Office 2007](#tab/)
+
+## Office 2007
   
 Support has ended for Office 2007 products and services. The following roadmaps can help you plan your upgrade now.
 
@@ -155,7 +144,6 @@ Microsoft 365 is the way to digitally transform your business with constantly-im
 |[Microsoft 365 Enterprise documentation](https://docs.microsoft.com/microsoft-365/enterprise/) <br/> |Get detailed information on the version of Microsoft 365 for enterprise organizations.  <br/> |
    
 ## Related topics
-<a name="seealso"> </a>
 
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
   

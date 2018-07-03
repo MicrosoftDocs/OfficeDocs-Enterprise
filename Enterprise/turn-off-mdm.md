@@ -30,7 +30,6 @@ These options will remove MDM enforcement for devices in your organization. Unfo
 > Be aware of the impact on users' devices when you remove user security groups from policies or remove the policies themselves. For example, email profiles and cached emails may be removed, depending on the device. See: [What happens when you delete a policy or remove a user from the policy?](create-device-security-policies.md#BKMK_ChangeImpact)
   
 ## Remove user security groups from MDM device policies
-<a name="BKMK_RemoveGroups"> </a>
 
 1. Go to **Security &amp; Compliance Center**\> **Data loss prevention** \> **Device security polices**.
     
@@ -45,7 +44,6 @@ These options will remove MDM enforcement for devices in your organization. Unfo
 5. Click **Save**.
     
 ## Remove MDM device policies
-<a name="BKMK_RemovePolicies"> </a>
 
 1. Go to **Security &amp; Compliance Center**\> **Security policies** \> **Device security policies**.
     

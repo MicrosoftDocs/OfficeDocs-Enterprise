@@ -21,9 +21,7 @@ description: "Resources to plan and manage Office 365 for your enterprise organi
 
 As a larger organization with IT professionals on staff, you have specific requirements and standards for maintaining your environment. Here's the information you need to plan for and manage Office 365 for your enterprise.
   
-> [!TIP]
-> **Just want to do a basic admin task?**Are you an admin looking for help managing Office 365 for your business? See [Office 365 for business - Admin Help](https://support.office.com/article/17d3ff3f-3601-466e-b5a1-482b31cfb791) or [What's the difference between Office 365 and Office 2016?](https://support.office.com/article/ed447ebf-6060-46f9-9e90-a239bd27eb96). 
-  
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/d08b637c-66dc-4f0e-afc2-56da92e99589?autoplay=false]
   
 ## Key resources

@@ -21,7 +21,6 @@ description: "This article contains frequently asked questions about Mobile Devi
 This article contains frequently asked questions about Mobile Device Management (MDM) for Office 365, a feature that helps you manage and secure mobile devices in Office 365.
   
 ## FAQs
-<a name="BKMK_TopOfTopic"> </a>
 
 - [How can I get MDM for Office 365? I don't see it in the Office 365 admin center](frequently-asked-questions-about-mdm.md#BKMK_NeedMDM)
     
@@ -42,7 +41,6 @@ This article contains frequently asked questions about Mobile Device Management 
 - [Still need help?](frequently-asked-questions-about-mdm.md#BKMK_NeedHelp)
     
 ## How can I get MDM for Office 365? I don't see it in the Office 365 admin center
-<a name="BKMK_NeedMDM"> </a>
 
 We've completed rolling out this feature to Office 365 customers. Look for the **Device Management** tab in the [Go to the Office 365 Security &amp; Compliance Center](https://support.office.com/article/7e696a40-b86b-4a20-afcc-559218b7b1b8). If you don't see it, please let us know by [Still need help?](frequently-asked-questions-about-mdm.md#BKMK_NeedHelp), and we'll help you get started. 
   
@@ -60,12 +58,10 @@ There are four steps to getting started with MDM for Office 365 (learn details i
 4. **Users enroll devices.** Users who have had a policy applied to them are prompted to [enroll their devices](enroll-your-mobile-device.md) when they try to access Office 365 data (by using their email client, for example). 
     
 ## I'm trying to set up MDM but it seems stuck. The Office 365 Service Health has been showing "provisioning" for a while. What can I do?
-<a name="BKMK_ProvisionHang"> </a>
 
 It may take some time to get the service ready for you. When provisioning is complete, you'll see the Mobile Device Management for Office 365 page. If you've waited 24 hours and the status is still **Provisioning**, please [Still need help?](frequently-asked-questions-about-mdm.md#BKMK_NeedHelp) and we'll help figure out what the issue is. 
   
 ## What can I do if device enrollment fails?
-<a name="BKMK_EnrollFails"> </a>
 
 If you're having trouble getting a device enrolled, first try checking the following:
   
@@ -80,12 +76,10 @@ If you're having trouble getting a device enrolled, first try checking the follo
 If enrollment still isn't working, [try these additional troubleshooting steps](troubleshoot-mdm.md).
   
 ## What's the difference between Intune and MDM for Office 365?
-<a name="BKMK_Intune"> </a>
 
 Both MDM for Office 365 and Intune provide cloud-based solutions for managing devices in your organization. Use this [side-by-side comparison](choose-between-mdm-and-intune.md) of the two services to help you decide if using Intune or MDM for Office 365 is the best fit for you. 
   
 ## How do policies work for MDM? How do I set them up? Disable them?
-<a name="BKMK_PoliciesHowTo"> </a>
 
 After you complete initial setup for MDM for Office 365, you [create policies and apply them to groups of users](create-device-security-policies.md) in [Go to the Office 365 Security &amp; Compliance Center](https://support.office.com/article/7e696a40-b86b-4a20-afcc-559218b7b1b8). For the users that the policies apply to, the policies require users to enroll their devices in MDM for Office 365 before the device can be used to access Office 365 data. The policies that you set up determine settings for mobile devices, for example, how often passwords must be reset or whether data encryption is required. 
   
@@ -94,7 +88,6 @@ We provide step by step instructions for [creating and deploying device security
 If you want to exclude a specific group of users from being affected by policies, then you can add a group to the exclusion group. In the Security &amp; Compliance Center, on the **Devices** tab, select **Manage device access settings**, and then add the group to the **Are there any security groups you want to exclude from access control?** section. 
   
 ## Can I switch from Exchange ActiveSync device management to MDM for Office 365?
-<a name="BKMK_SwitchFromEXO"> </a>
 
 If you're already using [Exchange ActiveSync policies](https://go.microsoft.com/fwlink/?LinkId=615145) to manage mobile devices, you can start using MDM for Office 365 by following the steps to [set up Mobile Device Management (MDM) in Office 365](set-up-mobile-device-management.md).
   
@@ -103,12 +96,10 @@ When you apply the policies that you create in MDM for Office 365 to groups of u
 After a device is enrolled in MDM for Office 365, any Exchange ActiveSync mobile device mailbox policy or device access rule applied to the device will be ignored.
   
 ## I set up MDM but now I want to remove it. What are the steps?
-<a name="BKMK_Remove"> </a>
 
 Unfortunately, you can't simply "unprovision" MDM for Office 365 after you've set it up. But you can remove it for groups of users by removing user security groups from the device policies you've created. Or, disable it for everyone by removing the device policies so they aren't in place and aren't enforced. See [How to turn off Mobile Device Management in Office 365](turn-off-mdm.md).
   
 ## Still need help?
-<a name="BKMK_NeedHelp"> </a>
 
 [![Get help from the Office 365 community forums](media/12a746cc-184b-4288-908c-f718ce9c4ba5.png)](https://go.microsoft.com/fwlink/p/?LinkId=518605)
   
@@ -116,6 +107,6 @@ Unfortunately, you can't simply "unprovision" MDM for Office 365 after you've se
   
 [![Admins: Call Support](media/9f262e67-e8c9-4fc0-85c2-b3f4cfbc064e.png)](https://go.microsoft.com/fwlink/p/?LinkID=518322)
   
-[FAQs ](frequently-asked-questions-about-mdm.md#BKMK_TopOfTopic)
+
   
 
