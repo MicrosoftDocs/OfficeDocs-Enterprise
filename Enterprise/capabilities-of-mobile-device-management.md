@@ -21,21 +21,10 @@ description: "Mobile Device Management for Office 365 can help you secure and ma
 # Capabilities of built-in Mobile Device Management for Office 365
 
 Mobile Device Management for Office 365 can help you secure and manage mobile devices like iPhones, iPads, Androids, and Windows Phones used by licensed Office 365 users in your organization. You can create mobile device management policies with settings that can help control access to your organization's Office 365 email and documents for supported mobile devices and apps. If a device is lost or stolen, you can remotely wipe the device to remove sensitive organizational information.
-  
-In this article
-  
-- [Supported devices](capabilities-of-mobile-device-management.md#BKMK_SupportedDevices)
-    
-- [Access control for Office 365 email and documents](capabilities-of-mobile-device-management.md#BKMK_AccessControl)
-    
-- [Policy settings for mobile devices](capabilities-of-mobile-device-management.md#BKMK_PolicySettings)
-    
-- [Remotely wipe a mobile device](capabilities-of-mobile-device-management.md#BKMK_WipeDevice)
     
 Need more functionality than is included in MDM for Office 365? See if Microsoft Intune has what you need: [Choose between MDM for Office 365 and Microsoft Intune](choose-between-mdm-and-intune.md).
   
 ## Supported devices
-<a name="BKMK_SupportedDevices"> </a>
 
 You can use MDM for Office 365 to secure and manage the following types of devices.
   
@@ -57,10 +46,9 @@ You can use MDM for Office 365 to secure and manage the following types of devic
   
 \*\* Requires the device to be joined to Azure Active Directory and be enrolled in the mobile device management service of your organization.
   
-If people in your organization use mobile devices that aren't supported by Mobile Device Management for Office 365 , you might want to block Exchange ActiveSync app access to Office 365 email for those devices, to help make your organization's data more secure. Steps for blocking Exchange ActiveSync: See [Manage device access settings](manage-device-access-settings.md).
+If people in your organization use mobile devices that aren't supported by Mobile Device Management for Office 365, you might want to block Exchange ActiveSync app access to Office 365 email for those devices, to help make your organization's data more secure. Steps for blocking Exchange ActiveSync: See [Manage device access settings](manage-device-access-settings.md).
   
 ## Access control for Office 365 email and documents
-<a name="BKMK_AccessControl"> </a>
 
 The supported apps for the different types of mobile devices in the following table will prompt users to enroll in MDM for Office 365 where there is a new mobile device management policy that applies to a user's device and the user hasn't previously enrolled the device. If a user's device doesn't comply with a policy, depending on how you set the policy up, a user might be blocked from accessing Office 365 resources in these apps, or they might have access but Office 365 will report a policy violation.
   
@@ -231,14 +219,12 @@ You can set the following additional policy settings by using PowerShell cmdlets
 - WorkFoldersSyncUrl
     
 ## Remotely wipe a mobile device
-<a name="BKMK_WipeDevice"> </a>
 
  If a device is lost or stolen, you can remove sensitive organizational data and help prevent access to your organization's Office 365 resources by doing a wipe from **Security &amp; Complieance center\>Data loss prevention\>Device management**. You can do a selective wipe to remove only organizational data or a full wipe to delete all information from a device and restore it to its factory settings.
   
 For more information, see [Wipe a mobile device in Office 365](https://go.microsoft.com/fwlink/p/?LinkId=518157).
   
 ## See also
-<a name="BKMK_WipeDevice"> </a>
 
 [Overview of Mobile Device Management for Office 365](overview-of-mdm.md)
   

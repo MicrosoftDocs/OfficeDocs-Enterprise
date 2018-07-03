@@ -23,26 +23,7 @@ description: "Steps to create and deploy security policies for Mobile Device Man
 
 You can use Mobile Device Management for Office 365 to create security policies that help protect your organization's information on Office 365 from unauthorized access. You can apply policies to any mobile device in your organization where the user of the device has an applicable Office 365 license and has enrolled the device in MDM for Office 365.
   
- **In this article:**
-  
-- [Before you begin](create-device-security-policies.md#BKMK_Before)
-    
-- [Step 1: Create a security policy and deploy to a test group](create-device-security-policies.md#BKMK_CreatePolicy)
-    
-- [Step 2: Verify your policy works](create-device-security-policies.md#BKMK_Verify)
-    
-- [Step 3: Deploy a policy to your organization](create-device-security-policies.md#BKMK_Deploy)
-    
-- [Step 4: Block email access for unsupported devices](create-device-security-policies.md#BKMK_BlockUnsupported)
-    
-- [Step 5: Choose security groups to be excluded from conditional access checks](create-device-security-policies.md#BKMK_ExcludeGroups)
-    
-- [What is the impact of security policies on different device types?](create-device-security-policies.md#BKMK_SecurityPolicies)
-    
-- [What happens when you delete a policy or remove a user from the policy?](create-device-security-policies.md#BKMK_ChangeImpact)
-    
 ## Before you begin
-<a name="BKMK_Before"> </a>
 
 - Learn about the devices, mobile device apps, and security settings that MDM for Office 365 supports. See [Capabilities of Mobile Device Management for Office 365](capabilities-of-mobile-device-management.md).
     
@@ -58,7 +39,6 @@ You can use Mobile Device Management for Office 365 to create security policies 
 > Policies and access rules created in MDM for Office 365 will override Exchange ActiveSync mobile device mailbox policies and device access rules created in the Exchange admin center. After a device is enrolled in MDM for Office 365, any Exchange ActiveSync mobile device mailbox policy or device access rule applied to the device will be ignored. To learn more about Exchange ActiveSync, see [Exchange ActiveSync in Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=524380). 
   
 ## Step 1: Create a security policy and deploy to a test group
-<a name="BKMK_CreatePolicy"> </a>
 
 Before you can start, make sure you have activated and set up MDM for Office 365. See [Overview of Mobile Device Management for Office 365](overview-of-mdm.md) for instructions. 
   
@@ -98,7 +78,6 @@ Before you can start, make sure you have activated and set up MDM for Office 365
 Each user that the policy applies to will have the policy pushed to their device the next time they sign in to Office 365 using their mobile device. If users haven't had a policy applied to their mobile device before, then after you deploy the policy, they'll get a notification on their device that includes the [steps to enroll and activate MDM for Office 365](https://go.microsoft.com/fwlink/?LinkId=615272). Until they complete enrollment, access to email, OneDrive, and other services will be restricted. After they complete enrollment using the Intune Company Portal app, they'll be able to use the services and the policy will be applied to their device.
   
 ## Step 2: Verify your policy works
-<a name="BKMK_Verify"> </a>
 
 After you've created a security policy, you should check that the policy works as you expect before you deploy it to your organization.
   
@@ -111,7 +90,6 @@ After you've created a security policy, you should check that the policy works a
 3. You can also do a full or selective wipe on the device. For instructions, see [Wipe a mobile device in Office 365](wipe-a-mobile-device.md).
     
 ## Step 3: Deploy a policy to your organization
-<a name="BKMK_Deploy"> </a>
 
 After you've created a mobile device policy and verified that it works as expected, deploy it to your organization.
   
@@ -136,7 +114,6 @@ After you've created a mobile device policy and verified that it works as expect
 Each user that the policy applies to will have the policy pushed to their device the next time they sign in to Office 365 from their mobile device. If users haven't had a policy applied to their mobile device, they'll [get a notification on their device](https://go.microsoft.com/fwlink/?LinkId=615272) with steps to enroll and activate it for MDM for Office 365. After they've completed the enrollment, the policy will be applied to their device. 
   
 ## Step 4: Block email access for unsupported devices
-<a name="BKMK_BlockUnsupported"> </a>
 
 To help secure your organization's information, you should block app access to Office 365 email for mobile devices that are not supported by MDM for Office 365. See [Supported devices](capabilities-of-mobile-device-management.md#BKMK_SupportedDevices) for a list of devices that are supported. To do this: 
   
@@ -151,7 +128,6 @@ To help secure your organization's information, you should block app access to O
     ![Go to Compliance center \> Device Security policies\> Manage organization-wide device access settings \> Block.](media/744f0919-b703-4914-81a1-dace57a53cce.png)
   
 ## Step 5: Choose security groups to be excluded from conditional access checks
-<a name="BKMK_ExcludeGroups"> </a>
 
 If you want to exclude some people from conditional access checks on their mobile devices and you've created one or more security groups for those people, add the security groups here. The people in these groups will not have any policies enforced for their supported mobile devices.
   
@@ -172,12 +148,11 @@ If you want to exclude some people from conditional access checks on their mobil
     ![On the Organization-wide device access settings choose groups that are excluded from access control.](media/e69b9bc3-3a70-4513-b0b0-2b1ff3e3fcd3.png)
   
 ## What is the impact of security policies on different device types?
-<a name="BKMK_SecurityPolicies"> </a>
 
 When you apply a policy to user devices, the impact on each device varies somewhat between different device types. See the following table for examples of the impact of policies on different devices.
   
-|
-|
+
+
 |**Security Policy**|**Windows Phone 8.1+**|**Android 4+**|**Samsung Knox**|**IOS 6+**|**Notes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Require encrypted backup  <br/> |✖  <br/> |✖  <br/> |✔  <br/> |✔  <br/> |IOS encrypted backup required.  <br/> |
@@ -193,7 +168,6 @@ When you apply a policy to user devices, the impact on each device varies somewh
 |Block Bluetooth connection  <br/> |✔  <br/> |\*\*\*  <br/> |\*\*\*  <br/> |✖  <br/> |\*\*\*We can't disable BlueTooth as a setting on Android. Instead, we disable all the transactions that require BlueTooth: Advanced Audio Distribution, Audio/Video Remote Control, hands-free devices, headset, Phone Book Access, and Serial Port. A small toast message appears at the bottom of the page when any of these are used.  <br/> |
    
 ## What happens when you delete a policy or remove a user from the policy?
-<a name="BKMK_ChangeImpact"> </a>
 
 When you delete a policy or remove a user from a group to which the policy was deployed to, the policy settings, Office 365 email profile and cached emails may be removed from the user's device. See the following table to see what is removed for the different device types:
   
@@ -210,7 +184,6 @@ Each user that the removed policy applied to will have the policy removed from t
 You can also [wipe a device](wipe-a-mobile-device.md), either completely, or selectively wipe organizational information from the device.
   
 ## Related Topics
-<a name="BKMK_ChangeImpact"> </a>
 
 [Overview of Mobile Device Management for Office 365](overview-of-mdm.md)
   
