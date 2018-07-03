@@ -56,7 +56,7 @@ Example:
 ```
 Enable-ElevatedAccessControl 
     -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' 
-    -SystemAccounts @('sys1@fabrikam.onmicrosoft.com', sys2@fabrikam.onmicrosoft.com')
+    -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
 ```
 
 > [!NOTE]
@@ -77,7 +77,7 @@ Example:
 New-ElevatedAccessApprovalPolicy 
     -Task 'Exchange\New-MoveRequest' 
     -ApprovalType Manual 
-    -ApproverGroup 'mbmanagers@fabrikam.onmicrosoft.com'
+    -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
 ```
 
 ## Using privileged access in your Office 365 organization
