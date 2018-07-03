@@ -37,14 +37,13 @@
 ### [Office 365 system requirements](system-requirements.md)
 ### [Plan for directory synchronization](plan-for-directory-synchronization.md)
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
-### Plan for third-party SSL certificates for Office 365
+### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### Understanding Office 365 identity and Azure Active Directory
-### Overview of Mobile Device Management (MDM) for Office 365
-### Capabilities of built-in Mobile Device Management for Office 365
-### Choose between MDM for Office 365 and Microsoft Intune
-### Differences between company and person devices
-### Privacy and security for built-in mobile device management for Office 365
-### Frequently asked questions about MDM
+### [Overview of Mobile Device Management (MDM) for Office 365](overview-of-mdm.md)
+### [Capabilities of built-in Mobile Device Management for Office 365](capabilities-of-mobile-device-management.md)
+### [Choose between MDM for Office 365 and Microsoft Intune](choose-between-mdm-and-intune.md)
+### [Privacy and security for built-in mobile device management for Office 365](privacy-and-security-for-mdm.md)
+### [Frequently asked questions about MDM](frequently-asked-questions-about-mdm.md)
 ### Network and migration planning for Office 365
 ### Network connectivity to Office 365
 ### Deployment advisors for Office 365 services
