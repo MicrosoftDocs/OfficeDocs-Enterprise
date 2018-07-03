@@ -31,12 +31,12 @@
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # Plan for Office 365
-## Subscriptions, licenses, and tenants
-### Get your organization ready for Office 365 Enterprise
-### Enterprise organizations and Office 365
-### Office 365 system requirements
-### Plan for directory synchronization
-### Plan for network devices that connect to Office 365 services
+## [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
+### [Get your organization ready for Office 365 Enterprise](get-your-organization-ready.md)
+### [Enterprise organizations and Office 365](enterprises-and-office-365.md)
+### [Office 365 system requirements](system-requirements.md)
+### [Plan for directory synchronization](plan-for-directory-synchronization.md)
+### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### Plan for third-party SSL certificates for Office 365
 ### Understanding Office 365 identity and Azure Active Directory
 ### Overview of Mobile Device Management (MDM) for Office 365
