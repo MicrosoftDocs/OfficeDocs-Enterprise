@@ -14,10 +14,11 @@ ms.assetid:
 description: "Summary: Use this topic to learn more about the Privileged Access Management feature in Office 365"
 ---
 
+# Privileged Access Management in Office 365
+
 > [!IMPORTANT]
 > This topic covers deployment and configuration for a public beta feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
 
-# Privileged Access Management in Office 365
 Privileged Access Management (PAM) allows more granular access control over privileged admin tasks in Office 365. Users can request Just-In-Time (JIT) access to complete privileged tasks through an approval workflow that is highly scoped and time bound. This gives the users Just-Enough-Access (JEA) to perform the task at hand. Enabling PAM in Office 365 will enable your organization to operate with Zero Standing Privilege and provide a layer of defense against vulnerabilities arising because of such standing administrative access. 
 
 This topic will guide you through enabling and configuring PAM in your Office 365 organization and serve as a reference guide for requesting, approving, and managing the feature. 
@@ -178,16 +179,14 @@ PAM in Office 365 is available for customers with E5 and Advanced Compliance SKU
 ### When will PAM be available for Office 365 workloads beyond Exchange?
 We do plan to offer this feature in other Office 365 workloads – when we’re ready to share a timeline, it will be available through Office 365 Roadmap.
 
-### How is this different from Azure Active Directory’s Privileged Identity Management (AAD PIM)?
-Privileged access management in Office 365 and AAD PIM complement each other by providing access control with JIT access at different scopes.
+### How is this different from Azure Active Directory’s Privileged Identity Management?
+Privileged access management in Office 365 and [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure) complement each other by providing access control with JIT access at different scopes. Together they provide a robust set of controls for protecting your data.
 
-Privileged access management in Office 365 can be defined and scoped at the task level, while AAD PIM applies at the role level with the ability to execute multiple tasks.  AAD PIM primarily allows managing accesses for AD roles and role groups while privileged access management in Office 365 is applied at the task level.
+Privileged access management in Office 365 can be defined and scoped at the task level, while Azure AD Privileged Identity Management applies at the role level with the ability to execute multiple tasks.  Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups while privileged access management in Office 365 is applied at the task level.
 
-Enabling privileged access management in Office 365 while already using AAD PIM: Adding privileged access management in Office 365 can provide another granular layer of protection and audit capabilities for privileged access to Office 365 data.
+ - **Enabling privileged access management in Office 365 while already using Azure AD Privileged Identity Management:** Adding privileged access management in Office 365 can provide another granular layer of protection and audit capabilities for privileged access to Office 365 data.
 
-Enabling AAD PIM while already using privileged access management in Office 365:  Adding AAD PIM to privileged access management in Office 365 can extend privileged access to data outside of Office 365 that’s primarily defined by a user’s role or identity. 
-
-Together they provide a robust set of controls for protecting your data.
+- **Enabling Azure AD Privileged Identity Management while already using privileged access management in Office 365:**  Adding Azure AD Privileged Identity Management to privileged access management in Office 365 can extend privileged access to data outside of Office 365 that’s primarily defined by a user’s role or identity. 
 
 ### Do I need to be a Global Admin to manage PAM in Office 365?
 During the preview you need to have a Global Admin privilege to be able to manage PAM in Office 365. Users who’re part of an approvers’ group, do not need to be a Global Admin to review and approve requests. 
