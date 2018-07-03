@@ -83,8 +83,8 @@
 
 # Deploy Office 365
 ## [FastTrack](https://fasttrack.microsoft.com/office)
-## Setup overview for enterprises
-### Deployment planning checklist for Office 365
+## [Setup overview for enterprises](setup-overview-for-enterprises.md)
+### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ## Set up your network
 ### Network planning and performance
 ### URLs and IP address ranges
@@ -196,7 +196,7 @@
 ## Skype for Business
 ## Microsoft Teams
 ## Yammer
-# [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
+# [Security & Compliance](office365/SecurityCompliance/index.md)
 ## Tools to manage Office 365 accounts
 ## Managing ExpressRoute for Office 365 connectivity
 ## Add several users at the same time to Office 365 - Admin Help
@@ -264,6 +264,6 @@
 
 # Security & Compliance
 =======
-# [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
-# Office 365 PowerShell
+# [Security & Compliance](office365/SecurityCompliance/index.md)
+# [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
   
