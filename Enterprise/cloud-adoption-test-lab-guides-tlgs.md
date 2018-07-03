@@ -95,7 +95,7 @@ Create a dev/test environment for [Microsoft 365 Enterprise](https://docs.micros
     
     Create user groups and mobile application management (MAM) policies for ioS and Android devices.
     
-- [Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test environment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
+- [Enroll iOS and Android devices in your Microsoft 365 Enterprise dev/test environment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
     
     Enroll iOS or Android devices and manage them remotely.
     
