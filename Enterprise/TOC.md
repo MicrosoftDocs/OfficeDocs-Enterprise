@@ -32,13 +32,6 @@
 
 # Plan for Office 365
 ## Subscriptions, licenses, and tenants
-<<<<<<< HEAD
-## Office 365 integration
-## Hybrid options
-## Office 365 client support
-### Conditional access
-### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
-=======
 ### Get your organization ready for Office 365 Enterprise
 ### Enterprise organizations and Office 365
 ### Office 365 system requirements
@@ -70,7 +63,6 @@
 ## Office 365 client support
 ### Conditional access
 ### Modern authentication
->>>>>>> tocworking
 ### Mobile application management
 
 # Test Office 365
@@ -90,7 +82,6 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-<<<<<<< HEAD
 ## [FastTrack](https://fasttrack.microsoft.com/office)
 ## Setup overview for enterprises
 ### Deployment planning checklist for Office 365
@@ -104,14 +95,9 @@
 #### Azure integration
 ### Release options in Office 365
 ## Configure services and applications
-=======
-<<<<<<< HEAD
 ## FastTrack
 ## Deploy Office 365 Enterprise for your organization
-=======
-## [FastTrack](https://fasttrack.microsoft.com/office)
 ## Setup overview for enterprises
->>>>>>> 05dde0627e806301a4b173605c49096dc76aa3ee
 ### Deployment planning checklist for Office 365
 ### Office 365 integration with on-premises environments
 ### Office 365 inter-tenant collaboration
@@ -140,15 +126,12 @@
 #### Azure integration
 ### Release options in Office 365
 ## Configure Office 365 Enterprise services and applications
->>>>>>> tocworking
 ### Migrate data to Office 365
 ### Exchange Online
 ### SharePoint Online
 ### Skype for Business
 ### Microsoft Teams
 ### Yammer
-<<<<<<< HEAD
-=======
 #### Yammer admin quick start
 #### Yammer admin key concepts
 #### Yammer and Office 365 Groups
@@ -168,7 +151,6 @@
 ### Create an APNs Certificate for iOS devices
 ### Create and deploy device security policies
 ### Enroll your mobile device in Office 365
->>>>>>> tocworking
 ## Deploy clients
 ### Deploy Office ProPlus
 ### Deploy the Skype for Business client
@@ -204,7 +186,6 @@
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
 
 # Manage Office 365
-<<<<<<< HEAD
 ## Management tools
 ## Service health
 ### View service health
@@ -216,7 +197,6 @@
 ## Microsoft Teams
 ## Yammer
 # [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
-=======
 ## Tools to manage Office 365 accounts
 ## Managing ExpressRoute for Office 365 connectivity
 ## Add several users at the same time to Office 365 - Admin Help
@@ -249,7 +229,6 @@
 ### Tune Skype for Business Online performance
 ## Microsoft Teams
 ## Yammer
-<<<<<<< HEAD
 ### Office 365 sign-in for Yammer
 ### Manage Yammer admins
 ### Manage Yammer data compliance
@@ -286,7 +265,5 @@
 # Security & Compliance
 =======
 # [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
->>>>>>> 05dde0627e806301a4b173605c49096dc76aa3ee
->>>>>>> tocworking
 # Office 365 PowerShell
   
