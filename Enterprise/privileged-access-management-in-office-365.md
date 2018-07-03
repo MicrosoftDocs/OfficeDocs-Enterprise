@@ -19,7 +19,7 @@ description: "Summary: Use this topic to learn more about the privileged access 
 > [!IMPORTANT]
 > This topic covers deployment and configuration guidance for a public beta feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
 
-Privileged access management allows more granular access control over privileged admin tasks in Office 365.  It can help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time (JIT) access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound. This gives the users just-enough-access (JEA) to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management in Office 365 will enable your organization to operate with zero standing privilege and provide a layer of defense against vulnerabilities arising because of such standing administrative access. 
+Privileged access management allows more granular access control over privileged admin tasks in Office 365.  It can help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound. This gives the users just-enough-access to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management in Office 365 will enable your organization to operate with zero standing privilege and provide a layer of defense against vulnerabilities arising because of such standing administrative access. 
 
 This topic will guide you through enabling and configuring privileged access management in your Office 365 organization and serve as a reference guide for requesting, approving, and managing the feature. 
 
@@ -179,10 +179,10 @@ We value your feedback and encourage you to share it with us:
 Privileged access management in Office 365 is currently only available for customers with E5 and Advanced Compliance SKUs.
 
 ### When will privileged access be available for Office 365 workloads beyond Exchange?
-We do plan to offer this feature in other Office 365 workloads soon. When we’re ready to share a timeline, it will be available through the Office 365 roadmap.
+We plan to offer this feature in other Office 365 workloads soon. When we’re ready to share a timeline, it will be available through the Office 365 roadmap.
 
 ### How is this different from Azure Active Directory’s Privileged Identity Management?
-Privileged access management in Office 365 and [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure) complement each other by providing access control with JIT access at different scopes. Together they provide a robust set of controls for protecting your data.
+Privileged access management in Office 365 and [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure) complement each other by providing access control with just-in-time access at different scopes. Together they provide a robust set of controls for protecting your data.
 
 Privileged access management in Office 365 can be defined and scoped at the task level, while Azure AD Privileged Identity Management applies at the role level with the ability to execute multiple tasks.  Azure AD Privileged Identity Management primarily allows managing accesses for AD roles and role groups while privileged access management in Office 365 is applied at the task level.
 
