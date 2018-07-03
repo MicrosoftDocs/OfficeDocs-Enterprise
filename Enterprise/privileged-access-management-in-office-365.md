@@ -1,5 +1,5 @@
 ---
-title: "Privileged Access Management in Office 365"
+title: "Privileged access management in Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: 
-description: "Summary: Use this topic to learn more about the Privileged Access Management feature in Office 365"
+description: "Summary: Use this topic to learn more about the privileged access management feature in Office 365"
 ---
 
-# Privileged Access Management in Office 365
+# Privileged access management in Office 365
 
 > [!IMPORTANT]
 > This topic covers deployment and configuration guidance for a public beta feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
@@ -179,7 +179,7 @@ We value your feedback and encourage you to share it with us:
 Privileged access management in Office 365 is currently only available for customers with E5 and Advanced Compliance SKUs.
 
 ### When will privileged access be available for Office 365 workloads beyond Exchange?
-We do plan to offer this feature in other Office 365 workloads – when we’re ready to share a timeline, it will be available through Office 365 Roadmap.
+We do plan to offer this feature in other Office 365 workloads soon. When we’re ready to share a timeline, it will be available through the Office 365 roadmap.
 
 ### How is this different from Azure Active Directory’s Privileged Identity Management?
 Privileged access management in Office 365 and [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure) complement each other by providing access control with JIT access at different scopes. Together they provide a robust set of controls for protecting your data.
@@ -191,7 +191,7 @@ Privileged access management in Office 365 can be defined and scoped at the task
 - **Enabling Azure AD Privileged Identity Management while already using privileged access management in Office 365:**  Adding Azure AD Privileged Identity Management to privileged access management in Office 365 can extend privileged access to data outside of Office 365 that’s primarily defined by a user’s role or identity. 
 
 ### Do I need to be a Global Admin to manage privileged access in Office 365?
-During the preview you need to have a Global Admin privilege to be able to manage privileged access in Office 365. Users who’re part of an approvers’ group, do not need to be a Global Admin to review and approve requests. 
+During the preview you need to have Global Admin privilege to be able to manage privileged access in Office 365. Users who are included in an approvers’ group don't need to be a Global Admin to review and approve requests. 
 
 ### How is privileged access management in Office 365 related to Customer Lockbox?
-Customer Lockbox allows a level of access control for organizations around accessed to data by their service provider, i.e. Microsoft. Privileged access management in Office 365, allows granular access control within an organization for all Office 365 privileged tasks.
+[Customer Lockbox](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2) allows a level of access control for organizations for access to to data by their service provider, i.e. Microsoft. Privileged access management in Office 365 allows granular access control within an organization for all Office 365 privileged tasks.
