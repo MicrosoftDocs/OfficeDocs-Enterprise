@@ -17,19 +17,18 @@ description: "Summary: Use this topic to learn more about the Privileged Access 
 # Privileged Access Management in Office 365
 
 > [!IMPORTANT]
-> This topic covers deployment and configuration for a public beta feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
+> This topic covers deployment and configuration guidance for a public beta feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
 
-Privileged Access Management (PAM) allows more granular access control over privileged admin tasks in Office 365. Users can request Just-In-Time (JIT) access to complete privileged tasks through an approval workflow that is highly scoped and time bound. This gives the users Just-Enough-Access (JEA) to perform the task at hand. Enabling PAM in Office 365 will enable your organization to operate with Zero Standing Privilege and provide a layer of defense against vulnerabilities arising because of such standing administrative access. 
 
-This topic will guide you through enabling and configuring PAM in your Office 365 organization and serve as a reference guide for requesting, approving, and managing the feature. 
+This topic will guide you through enabling and configuring privileged access management in your Office 365 organization and serve as a reference guide for requesting, approving, and managing the feature. 
 
 ## Before you begin
 
 ### Limited functionality
-During the public beta, the features of PAM are only available through PowerShell for the Exchange in Office 365. PAM covers the task definitions at the level of Exchange management cmdlets. In coming releases PAM’s features will be available through the admin portal and will cover other office 365 workloads.
+During the public beta, privileged access management features are only available through [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) in Office 365. Privileged access management covers the task definitions at the level of Exchange management cmdlets. In coming Office 365 releases, privileged access features will be available through the admin portal and will cover other Office 365 workloads services.
 
 ### Connecting to Exchange Online PowerShell
-The configuration steps in this topic will walk you through enabling and using Privileged Access Management in Office 365 using Exchange Online PowerShell. 
+The configuration steps in this topic will walk you through enabling and using privileged access in Office 365 using Exchange Online PowerShell. 
 
 Follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) to connect to Exchange Online PowerShell with your Office 365 credentials to enable and configure previleged access for your organization.
 
@@ -39,14 +38,14 @@ Follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor au
 ## Enable and configure privileged access management
 
 ### Step 1 - Create an approver's group
-From Office 365 Admin Portal > Groups > Add a group, create a mail enabled security group for the default PAM approvers.
+From Office 365 Admin Portal, select **Groups** > **Add a group**, then create a mail enabled security group for the default privileged access approvers. When complete, select **Add** to create and save the approver group.
 
 ![Privileged access approvers screen in Office 365 Admin portal](images/privileged-access-approvers-ui.png)
 
 ### Step 2 - Enable privileged access in Office 365
-PAM feature needs to be explicitly turned on with the default approver group and including a set of system accounts that you’d want to be excluded from the PAM access control. 
+Privileged access needs to be explicitly turned on with the default approver group and including a set of system accounts that you’d want to be excluded from the privileged access management access control. 
 
-Run the command below in Exchange Online PowerShell:
+Run the following command in Exchange Online PowerShell to enable privileged access and to assign the approver's group:
 ```
 Enable-ElevatedAccessControl 
     -AdminGroup '<default approver group>' 
@@ -60,12 +59,12 @@ Enable-ElevatedAccessControl
 ```
 
 > [!NOTE]
-> System accounts feature is made available to ensure certain automations within your organizations can work without dependency on PAM, however it is recommended that such exclusions be exceptional and those allowed should be approved and audited regularly.
+> System accounts feature is made available to ensure certain automations within your organizations can work without dependency on privileged access, however it is recommended that such exclusions be exceptional and those allowed should be approved and audited regularly.
 
 ### Step 3 - Create an approval policy
-An approval policy allows you to define the specific approval requirements scoped at individual tasks. The approval type could by Auto or Manual. 
+An approval policy allows you to define the specific approval requirements scoped at individual tasks. The approval type options are Auto or Manual. 
 
-Run the following command in Exchange Online PowerShell to define an approval policy.
+Run the following command in Exchange Online PowerShell to define an approval policy:
 ```
 New-ElevatedAccessApprovalPolicy 
     -Task 'Exchange\<exchange management cmdlet name>' 
@@ -83,9 +82,9 @@ New-ElevatedAccessApprovalPolicy
 ## Using privileged access in your Office 365 organization
 
 ### Requesting elevation authorization to execute tasks
-Once enabled, PAM will require approvals for executing any task that has an associated approval policy defined. 
+Once enabled, privileged access requires approvals for executing any task that has an associated approval policy defined. 
 
-Run the command below in Exchange Online PowerShell to raise an approval request.
+Run the following command in Exchange Online PowerShell to raise an approval request:
 ```
 New-ElevatedAccessRequest 
     -Task 'Exchange\<exchange management cmdlet name>' 
@@ -103,7 +102,7 @@ New-ElevatedAccessRequest
 ### Approving an elevation authorization request
 When an approval request is raised, members of the relevant approver group can approve the request with the request ID. 
 
-Run the command below in Exchange Online PowerShell to approve a request:
+Run the following command in Exchange Online PowerShell to approve a request:
 ```
 Approve-ElevatedAccessRequest 
     -RequestId <request id>
@@ -117,7 +116,7 @@ Approve-ElevatedAccessRequest
 ```
 
 ### Running the task
-After approval is granted, you can execute the intended task and PAM will authorize and execute the task on users’ behalf. The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times. All such executions are logged and made available for audit for compliance. 
+After approval is granted, you can execute the intended task and privileged access will authorize and execute the task on users’ behalf. The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times. All such executions are logged and made available for audit for compliance. 
 
 ### Disable privileged access in Office 365
 If needed, you can disable privileged access management in Office 365. Disabling privileged access does not delete any associated approval policies or approver groups.
@@ -127,10 +126,10 @@ Run the following command in Exchange Online Powershell to disable privileged ac
 ```
 Disable-ElevatedAccessControl
 ```
-## Project Euclid with Privileged Access Management
+## Project Euclid with privileged access
 Project Euclid is a service that helps organizations exert a more granular level of control over their Office 365 data, they provide to application developers who build solutions to mine data to build useful insights. 
 
-Project Euclid uses Office 365 PAM to assert control over their data through PAM’s approval workflow, to allow scoped access to Office 365 data with admin oversight. Requests for data from Project Euclid come in through the integration when apps are installed.
+Project Euclid uses Office 365 privileged access to assert control over their data through the privileged access maangement approval workflow, allowing scoped access to Office 365 data with admin oversight. Requests for data from Project Euclid come in through the integration when apps are installed.
 
 ### View request details for Office 365 data
 View details of the access requests for Office 365 data from the Euclid system.
@@ -150,7 +149,9 @@ RequestedAccess : Data Access Request
 ```
 
 ### Approve all data access requests for Project Euclid apps
-All requests for Data Access Requests can be approved through same approve cmdlets as other PAM requests.
+All requests for data access requests can be approved through same approve cmdlets as other privileged access requests.
+
+Run the following command in Exchange Online Powershell to approve all data requests for specific requestor:
 
 ```
 Approve-ElevatedAccessRequest 
@@ -173,10 +174,10 @@ We value your feedback and encourage you to share it with us:
 
 ## Frequently asked questions (FAQ)
 
-### What SKUs do I need to use PAM in Office 365?
-PAM in Office 365 is available for customers with E5 and Advanced Compliance SKUs.
+### What SKUs do I need to use privileged access in Office 365?
+Privileged access management in Office 365 is currently only available for customers with E5 and Advanced Compliance SKUs.
 
-### When will PAM be available for Office 365 workloads beyond Exchange?
+### When will privileged access be available for Office 365 workloads beyond Exchange?
 We do plan to offer this feature in other Office 365 workloads – when we’re ready to share a timeline, it will be available through Office 365 Roadmap.
 
 ### How is this different from Azure Active Directory’s Privileged Identity Management?
@@ -188,8 +189,8 @@ Privileged access management in Office 365 can be defined and scoped at the task
 
 - **Enabling Azure AD Privileged Identity Management while already using privileged access management in Office 365:**  Adding Azure AD Privileged Identity Management to privileged access management in Office 365 can extend privileged access to data outside of Office 365 that’s primarily defined by a user’s role or identity. 
 
-### Do I need to be a Global Admin to manage PAM in Office 365?
-During the preview you need to have a Global Admin privilege to be able to manage PAM in Office 365. Users who’re part of an approvers’ group, do not need to be a Global Admin to review and approve requests. 
+### Do I need to be a Global Admin to manage privileged access in Office 365?
+During the preview you need to have a Global Admin privilege to be able to manage privileged access in Office 365. Users who’re part of an approvers’ group, do not need to be a Global Admin to review and approve requests. 
 
 ### How is privileged access management in Office 365 related to Customer Lockbox?
 Customer Lockbox allows a level of access control for organizations around accessed to data by their service provider, i.e. Microsoft. Privileged access management in Office 365, allows granular access control within an organization for all Office 365 privileged tasks.
