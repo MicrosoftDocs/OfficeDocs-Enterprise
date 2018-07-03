@@ -196,7 +196,7 @@
 ## Skype for Business
 ## Microsoft Teams
 ## Yammer
-# [Security & Compliance](office365/SecurityCompliance/index.md)
+# Security & Compliance
 ## Tools to manage Office 365 accounts
 ## Managing ExpressRoute for Office 365 connectivity
 ## Add several users at the same time to Office 365 - Admin Help
@@ -263,6 +263,5 @@
 ### What to do when users cannot log in to Yammer on Android devices
 
 # Security & Compliance
-# [Security & Compliance](office365/SecurityCompliance/index.md)
-# [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
+# Office 365 PowerShell
   
