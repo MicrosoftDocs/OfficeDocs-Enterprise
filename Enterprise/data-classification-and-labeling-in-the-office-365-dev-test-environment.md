@@ -145,7 +145,7 @@ Next, you sign in with your User5 account and upload the AIP-protected document 
     
 2. Go to [http://portal.office.com](http://portal.office.com).
     
-3. On the ** Office 365 sign in** page, click the User5 account name and sign in.
+3. On the **Office 365 sign in** page, click the User5 account name and sign in.
     
 4. On the **Microsoft Office Home** tab, click **SharePoint > Support site collection**.
     

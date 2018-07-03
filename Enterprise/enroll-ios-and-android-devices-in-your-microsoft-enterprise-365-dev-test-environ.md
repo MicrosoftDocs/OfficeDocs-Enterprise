@@ -1,5 +1,5 @@
 ---
-title: "Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test environment"
+title: "Enroll iOS and Android devices in your Microsoft 365 Enterprise dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,7 +14,7 @@ ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: "Summary: Use this Test Lab Guide to enroll devices in your Microsoft 365 dev/test environment and manage them remotely."
 ---
 
-# Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test environment
+# Enroll iOS and Android devices in your Microsoft 365 Enterprise dev/test environment
 
  **Summary:** Use this Test Lab Guide to enroll devices in your Microsoft 365 dev/test environment and manage them remotely.
   
