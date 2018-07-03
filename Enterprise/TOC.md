@@ -263,7 +263,6 @@
 ### What to do when users cannot log in to Yammer on Android devices
 
 # Security & Compliance
-=======
 # [Security & Compliance](office365/SecurityCompliance/index.md)
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
   
