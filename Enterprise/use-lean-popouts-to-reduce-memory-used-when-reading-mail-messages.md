@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 3/8/2018
 ms.audience: ITPro
 ms.topic: article
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: a6d6ba01-2562-4c3d-a8f1-78748dd506cf
 description: "This article contains information for improving message download performance in Outlook on the web."

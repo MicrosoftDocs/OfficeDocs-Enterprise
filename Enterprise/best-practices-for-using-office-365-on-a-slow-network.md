@@ -6,7 +6,7 @@ manager: laurawi
 ms.date: 12/29/2016
 ms.audience: End User
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
@@ -15,7 +15,7 @@ search.appverid:
 - MEW150
 - BCS160
 ms.assetid: fd16c8d2-4799-4c39-8fd7-045f06640166
-description: "Wouldn't it be nice if your Internet connection was always fast and never down? Perhaps that day will come. But in the meantime, there are practical things you can do to work around a balky network and still get your day-to-day work done. Although Office 365 is a cloud-based service, it also provides many ways to work with your content offline and to smoothly keep your changes synchronized. Besides, it's sometimes more efficient to work with content offline just because applications run faster and the user interface is more responsive. The point is this: Office 365 gives you the best of both worlds. Here's how to take advantage of that."
+description: "Wouldn't it be nice if your Internet connection was always fast and never down? Perhaps that day will come. But in the meantime, there are practical things you can do to work around a balky network and still get your day-to-day work done."
 ---
 
 # Best practices for using Office 365 on a slow network
@@ -24,24 +24,14 @@ Wouldn't it be nice if your Internet connection was always fast and never down? 
   
 > [!TIP]
 > Want to see how slow (or fast) your network connection is? Try the [ OOKLA Speed test ](https://www.speedtest.net/) or the [Network Speed Test App](https://www.windowsphone.com/en-us/store/app/network-speed-test/9b9ae06b-2961-41ef-987d-b09567cffe70). 
-  
-## In this article
-<a name="BKMK_ARTICLE"> </a>
-
-|||||
-|:-----|:-----|:-----|:-----|
-|[Why is my network so slow?](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_SLOW) <br/> |[Are you sure it's the network?](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_SURE) <br/> |[Best practices for using your browser](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_BROWSER) <br/> |[Best practices for using Outlook and Outlook Web App](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_OUTLOOK) <br/> |
-|[Best practices for using OneNote](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ONENOTE) <br/> |[Best practices for using Lync Online](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_LYNC) <br/> |[Best practices for using SharePoint lists](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_LISTS) <br/> |[Best practices for customizing web pages](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_PAGES) <br/> |
-|[Best practices for using OneDrive for Business](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ONEDRIVE) <br/> |[What's the best way to report problems?](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_REPORT) <br/> |[Best practices for using Project Online](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_PROJECT) <br/> ||
-   
+     
 ## Why is my network so slow?
-<a name="BKMK_SLOW"> </a>
 
 Although you don't have control over network performance itself, it helps to understand what's going on behind the scenes. The Internet is enormously complex, but there are a few concepts that can help you understand the situation much better. Following the best practices in this article can help workaround performance issues and reduce frustration.
   
 **Major factors that affect network performance**
 
-![Network Performance Factors](../../../media/62a94322-3f1a-4d2d-bbdc-2aa0722d2d96.png)
+![Network Performance Factors](media/62a94322-3f1a-4d2d-bbdc-2aa0722d2d96.png)
   
  **Bandwidth and latency** The two most important measures of network performance are bandwidth and latency: 
   
@@ -53,10 +43,7 @@ Although you don't have control over network performance itself, it helps to und
   
  **Considerations for a satellite network**A satellite network is useful when a terrestrial network is not feasible, such as the back country, a cruise ship, or a remote scientific area. These networks rely on satellites positioned in a geosynchronous orbit 22,000 miles above the equator. However, a transmission actually travels about 90,000 miles, and so a satellite network has a slower latency (500 ms or more) than a terrestrial network (20 to 50ms). Under the best of conditions, you may not notice this latency, but for downloading large files, streaming videos, and playing games, you probably will. Another issue is "rain fade" in which heavy weather, such as thunderstorms and blizzards, can temporarily interrupt satellite transmission.
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## Are you sure it's the network?
-<a name="BKMK_SURE"> </a>
 
 Whenever you experience performance problems, first make sure that your device is not the root cause of the problem. There are two things you can do that might make a big improvement:
   
@@ -65,11 +52,8 @@ Whenever you experience performance problems, first make sure that your device i
 - If possible, buy more memory. Adding memory is the simplest and often most effective way to improve performance on your device. It's especially helpful when working with large files and videos.
     
 For more information, see [ Windows Performance and maintenance ](https://windows.microsoft.com/en-us/windows/performance-maintenance-help#performance-maintenance-help) and [Fix Windows system performance problems](https://support.microsoft.com/mats/slow_windows_performance/).
-  
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
+   
 ## Best practices for using your browser
-<a name="BKMK_BROWSER"> </a>
 
 Your browser is your gateway to Office 365, so it can have an impact on performance, especially with the time it takes to load a page and how often you round trip to the Office 365 service. 
   
@@ -95,18 +79,15 @@ Here are some suggestions for browsers in general:
   
 Here are some suggestions for your specific browser:
   
-- **Internet Explorer** Upgrade to Internet Explorer Version 11 or later for substantial performance improvements over previous versions. For more information, see [ Fix Internet Explorer issues ](https://support.microsoft.com/mats/ie_performance_and_safety/).
+- **Internet Explorer** Upgrade to Internet Explorer Version 11 or later for substantial performance improvements over previous versions. For more information, see [ Fix Internet Explorer issues ](https://support.microsoft.com/mats/ie_performance_and_safety).
     
 - **FireFox**For more information, see [Firefox is slow or stops working](https://support.mozilla.org/en-US/products/firefox/fix-problems/slowness-or-hanging).
     
 - **Safari** For more information, see [Apple - Safari](https://www.apple.com/safari/).
     
 - **Chrome** For more information, see [Chrome Help](https://support.google.com/chrome/?hl=en).
-    
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
   
 ## Best practices for using Outlook and Outlook Web App
-<a name="BKMK_OUTLOOK"> </a>
 
 Reading, writing, and organizing email is a big part of everyone's day. Both Outlook and Outlook Web App (OWA) offer offline support. Using an email app on your smart phone is another useful alternative. Use the following options that best fit your needs:
   
@@ -123,10 +104,7 @@ Reading, writing, and organizing email is a big part of everyone's day. Both Out
 > [!NOTE]
 > Here is some guidance on when to use Outlook or OWA. If disk space is not an issue on your device, Outlook has a full set of features and might work best for you. If disk space is an issue on your device, consider using OWA which has a subset of features, but also works best in an online situation. Of course, you can use either because they work well together. 
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## Best practices for using OneDrive for Business
-<a name="BKMK_ONEDRIVE"> </a>
 
 OneDrive for Business is designed from the ground up to work with your files online and offline. Once you set it up, synchronization of changes occurs automatically and reliably wherever and whenever you make them. If the network is slow, you can work with the offline version of the files.
   
@@ -137,11 +115,8 @@ Here's some additional guidance for using the OneDrive for Business sync app:
 - If you're syncing a large library for the first time, start the sync during off hours, for example, overnight. 
     
 - You can use the [Stop syncing a library with the OneDrive for Business app](https://support.office.com/article/a7e41f1f-3a98-4ca7-9443-f10250688330) feature to temporarily stop syncing updates. However, use this feature for brief periods, such as a few hours at a time, to avoid queuing large numbers of updates, and to minimize the risk of merge conflicts if several people work on the same document. 
-    
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
   
 ## Best practices for using OneNote
-<a name="BKMK_ONENOTE"> </a>
 
 Every SharePoint team site has a built-in OneNote notebook and you can easily create your own. OneNote is a great way to collect timely information that you need every day to get tasks done. For example, many teams use OneNote as a collection point for weekly meetings, project notes, ideas, plans, and status reports. You can neatly organize this disparate information by using pages, sections, and tabs.
   
@@ -149,10 +124,7 @@ But the beauty of OneNote is that you can access the content from virtually any 
   
 For more information, see [Microsoft OneNote](https://office.microsoft.com/en-us/onenote/).
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## Best practices for using Lync Online
-<a name="BKMK_LYNC"> </a>
 
 The following are general guidelines for using Lync Online when your network is slow:
   
@@ -172,10 +144,7 @@ The following are general guidelines for using Lync Online when your network is 
     
 For more information, see [Poor audio or video quality in Lync Online](https://support.microsoft.com/kb/2386655) and [Slow screen update in Lync 2013](https://support.microsoft.com/kb/2958375).
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## Best practices for using SharePoint lists
-<a name="BKMK_LISTS"> </a>
 
 Working with list data offline to "scrub", analyze, or report data is a great way to minimize the impact of a slow network. You can read and write most lists from Microsoft Access 2013 by linking to them. You can also export a list to an Excel Table, which creates a one-way data connection between the Excel table and the list.
   
@@ -183,19 +152,13 @@ Furthermore, if the Access Services feature is activated, then you can work with
   
 For more information, see the section "More about managing large lists" in [Manage large lists and libraries in Office 365](https://support.office.com/article/b4038448-ec0e-49b7-b853-679d3d8fb784).
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## Best practices for customizing web pages
-<a name="BKMK_PAGES"> </a>
 
 When you customize a web page, you may inadvertently cause poor performance with the page. A number of factors can have an impact, such as the complexity and size of the page, how many web parts are added, how many list or library items are initially displayed, and the way you code the page.
   
 For more information, see [Tune SharePoint Online performance](https://technet.microsoft.com/library/f97c2f06-0426-443d-8a16-d98abb0da252#TuneSharePoint).
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## Best practices for using Project Online
-<a name="BKMK_PROJECT"> </a>
 
 The following guidelines can help improve network performance.
   
@@ -211,17 +174,11 @@ The following guidelines can help improve network performance.
     
 For more information, see [Tune Project Online performance](https://support.office.com/article/12ba0ebd-c616-42e5-b9b6-cad570e8409c).
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## What's the best way to report problems?
-<a name="BKMK_REPORT"> </a>
 
 Microsoft continually improves the overall performance of Office 365 by monitoring the network, measuring bandwidth and latency, improving page load time, reducing disk I/O, redesigning pages to use Minimal Download Strategy, adding hardware to data centers and adding more data centers. For more information about checking your current status and reporting issues, see [View the status of your services](https://office.microsoft.com/en-us/office365-suite-help/view-the-status-of-your-services-HA102817837.aspx).
   
-![Top of page Button](../../../media/02ce1b00-a60c-4984-9b0e-736f3ea66f8a.gif)[In this article](best-practices-for-using-office-365-on-a-slow-network.md#BKMK_ARTICLE)
-  
 ## See also
-<a name="BKMK_REPORT"> </a>
 
 [Network planning and performance tuning for Office 365](moved/network-planning-and-performance.md)
   
