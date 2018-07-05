@@ -16,7 +16,7 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd
-description: "Learn how Azure ExpressRoute is used with Office 365 and how to plan the network implementation project that will be required if you are deploying Azure ExpressRoute for use with Office 365. Infrastructure and platform services running in Azure will often benefit by addressing network architecture and performance considerations. We recommend ExpressRoute for Azure in these cases. Software as a Service offerings like Office 365 and Dynamics 365 have been built to be accessed securely and reliably via the Internet. Accordingly, we only recommend ExpressRoute for these applications in specific scenarios. You can read about Internet performance and security and when you might consider Azure ExpressRoute for Office 365 in the article Network connectivity to Office 365."
+description: "Learn how Azure ExpressRoute is used with Office 365 and how to plan the network implementation project that will be required if you are deploying Azure ExpressRoute for use with Office 365."
 ---
 
 # Azure ExpressRoute for Office 365
@@ -29,7 +29,6 @@ Learn how Azure ExpressRoute is used with Office 365 and how to plan the network
 You can now add a direct network connection to Office 365 for selected Office 365 network traffic. Azure ExpressRoute offers a direct connection, predictable performance, and comes with an uptime SLA of 99.95% for the Microsoft networking components. You'll still require an internet connection for services that aren't supported over Azure ExpressRoute.
   
 ## Azure ExpressRoute for Office 365
-<a name="BKMK_HOME"> </a>
 
 In addition to internet connectivity, you may choose to route a subset of their Office 365 network traffic over a direct connection that offers predictability and a 99.95% uptime SLA for the Microsoft networking components. Azure ExpressRoute provides you with this dedicated network connection to Office 365 and other Microsoft cloud services.
   
@@ -52,8 +51,6 @@ Still want more information? Learn how to [manage your network traffic with Azur
 
 The following table lists the Office 365 services that are supported over ExpressRoute. Please review the [Office 365 endpoints article](https://aka.ms/o365endpoints) to understand which network requests for these applications require internet connectivity. 
   
-|
-|
 |**Applications included**|
 |:-----|
 |Exchange Online<sup>1</sup> <br/> Exchange Online Protection<sup>1</sup> <br/> Delve<sup>1</sup> <br/> |
@@ -68,7 +65,6 @@ The services that aren't included with ExpressRoute for Office 365 are Office 36
 ([Azure ExpressRoute for Office 365](azure-expressroute.md#BKMK_HOME))
   
 ## Implementing ExpressRoute for Office 365
-<a name="BKMK_WhatDoIGet"> </a>
 
 Implementing ExpressRoute requires the involvement of network and application owners and requires careful planning to determine the new [network routing architecture](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408), bandwidth requirements, where security will be implemented, high availability, and so on. To implement ExpressRoute, you'll need to;
   
@@ -107,7 +103,7 @@ Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
   
 [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
   
-[Routing with ExpressRoute for Office 365](e1da26c6-2d39-4379-af6f-4da213218408.md)
+[Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
   
 [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
   

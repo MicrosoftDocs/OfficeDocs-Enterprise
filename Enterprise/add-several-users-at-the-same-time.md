@@ -30,9 +30,8 @@ description: "Learn how to add multiple users to Office 365 for business from a 
 Each person on your team needs a user account before they can sign in and access Office 365 services, such as email and Office. If you have a lot of people, you can add their accounts all at once from an Excel spreadsheet or other file saved in CSV format. [Not sure what CSV format is?](add-several-users-at-the-same-time.md#__toc316652088)
   
 ## Add multiple users to Office 365 in the Office 365 admin center
-<a name="bk_preview"> </a>
 
-1. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
+1. Sign in to Office 365 with your work or school account. 
     
 2. In the Office 365 admin center, choose **Users** \> **Active users**.
     
@@ -136,14 +135,12 @@ When you save the file, you'll probably get a prompt that some features in your 
 |Country or Region  <br/> |128  <br/> |
    
 ### Still having problems when adding users to Office 365?
-<a name="__toc316652090"> </a>
 
 - **Double-check that the spreadsheet is formatted correctly.** Check the column headings to make sure they match the headings in the sample file. Make sure you're following the rules for character lengths and that each field is separated by a comma. 
     
 - ** If you don't see the new users in Office 365 right away, wait a few minutes. ** It can take a little while for changes to go across all the services in Office 365. 
     
 ## Add multiple users to Office 365 in the old Office 365 admin center
-<a name="bk_Classic"> </a>
 
 1. Download [this sample spreadsheet](https://www.microsoft.com/en-us/download/details.aspx?id=45485) and open it in Excel. 
     
@@ -157,9 +154,9 @@ When you save the file, you'll probably get a prompt that some features in your 
     
     **Tip:** Before you add many users to Office 365, you might want to practice with the sample spreadsheet. For example, edit the sample spreadsheet with data for a few of your users, say 5 or 10, and save the file with a new name. Run through steps described in this procedure, check the results, and then delete the new accounts and start over again. This way you can practice getting all of the data right for your situation. Also check out [Tips for formatting your spreadsheet](add-several-users-at-the-same-time.md#__toc314595848).
     
-2. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
+2. Sign in to Office 365 with your work or school account. 
     
-3. Go to the [ Office 365 admin center ](about-the-admin-center.md).
+3. Go to the Office 365 admin center.
     
 4. For people to use Office 365 services, they need to be assigned a license. Before continuing, you might want to check that you have enough licenses for everyone listed in your spreadsheet. Choose **Billing** \> **Subscriptions** to see if you have enough. If you need to buy more licenses, choose ** Change license quantity **. Or, you can run the wizard and assign the licenses you have, then buy more licenses later and rerun the wizard. 
     
