@@ -3,9 +3,9 @@ title: "Azure integration with Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 12/29/2016
+ms.date: 8/24/2018
 ms.audience: Admin
-ms.topic: hub-page
+ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
@@ -23,7 +23,11 @@ Office 365 uses Azure Active Directory (Azure AD)to manage user identities behin
   
 Azure also offers other functionality, like managing integrated apps, that you can use to extend and customize your Office 365 subscriptions.
   
-You can also use the Azure AD advisors: the [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync), the [AD FS deployment advisor](https://aka.ms/adfsguidance), the [Azure RMS Deploymnet Wizard](https://aka.ms/azuremsguidance), and the [Azure AD Premium setup guide](https://aka.ms/aadpguidance).
+You can use the Azure AD deployment advisors for a guided setup and configuration experience:
+ - [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync)
+ - [AD FS deployment advisor](https://aka.ms/adfsguidance)
+ - [Azure RMS Deploymnet Wizard](https://aka.ms/azuremsguidance)
+ - [Azure AD Premium setup guide](https://aka.ms/aadpguidance)
   
 ## Azure AD editions and Office 365 identity management
 
@@ -34,7 +38,7 @@ If you have a paid subscription to Office 365, you also have a free subscription
   
 With the free subscription you can synchronize with on-premises directories, set up single sign-on, and synchronize with many software as service applications, such as Salesforce, DropBox and many more.
   
-If you want enhanced AD DS functionality, bi-directional synchronization, and other management capabilities, you can upgrade your free subscription to a paid premium subscription. For details see [Azure Active Directory editions](https://go.microsoft.com/fwlink/p/?LinkId=524280).
+If you want enhanced AD DS functionality, bi-directional synchronization, and other management capabilities, you can upgrade your free subscription to a paid premium subscription. For details see [Azure Active Directory editions](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis).
   
 For more information about Office 365 and Azure AD, see [Understanding Office 365 Identity and Azure Active Directory](about-office-365-identity.md).
   
@@ -42,13 +46,5 @@ For more information about Office 365 and Azure AD, see [Understanding Office 36
 
 |**Feature**|**Description**|
 |:-----|:-----|
-|Integrated apps  <br/> |You can grant individual apps access to your Office 365 data, like mail, calendars, contacts, users, groups, files, and folders. You can also authorize these apps at global admin level and make them available to your entire company by registering the apps in Azure AD. For details see [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md).  <br/> See also [Azure AD application gallery and single-sign-on](https://go.microsoft.com/fwlink/p/?LinkId=698604).  <br/> |
-|PowerApps  <br/> | Power apps are focused apps for mobile devices that can connect to your existing data sources like SharePoint lists, and other data apps. See [Create a PowerApp for a list in SharePoint Online](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab) and [PowerApps page](https://powerapps.microsoft.com/) for details.  <br/> |
-   
-For other resources about the Microsoft Cloud and Office 365, see these resources:
-  
-- [Microsoft Cloud Identity for Enterprise Architects](https://go.microsoft.com/fwlink/p/?LinkId=828642)
-    
-- [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](https://go.microsoft.com/fwlink/p/?LinkId=517887)
-    
-
+|Integrated apps | You can grant individual apps access to your Office 365 data, like mail, calendars, contacts, users, groups, files, and folders. You can also authorize these apps at global admin level and make them available to your entire company by registering the apps in Azure AD. Learn more at: [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md) and [Azure AD application gallery and single-sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).|
+|PowerApps | Power apps are focused apps for mobile devices that can connect to your existing data sources like SharePoint lists, and other data apps. See [Create a PowerApp for a list in SharePoint Online](https://support.office.com/article/9338b2d2-67ac-4b81-8e67-97da27e5e9ab) and [PowerApps page](https://powerapps.microsoft.com/) for details. |
