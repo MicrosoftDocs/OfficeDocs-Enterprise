@@ -3,7 +3,7 @@ title: "Cloud App Security for your Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 07/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -74,7 +74,7 @@ In this procedure, you enable Cloud App Security and create a new policy to send
 
 1. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in to your Office 365 trial subscription with your global administrator account.
     
-2. Click the **Security &amp; Compliance** tile.
+2. Click the **Admin** tile. On the **Office Admin center** tab, click **Admin centers > Security & Compliance**.
     
 3. In the left navigation pane, click **Alerts > Manage advanced alerts**.
     
