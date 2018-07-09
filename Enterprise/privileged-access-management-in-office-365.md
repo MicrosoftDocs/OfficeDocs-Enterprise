@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: Strat_O365_IP
 ms.custom: Ent_Solutions
 ms.assetid: 
-description: "Summary: Use this topic to learn more about the privileged access management feature in Office 365"
+description: "Use this topic to learn more about the privileged access management feature in Office 365"
 ---
 
 # Privileged access management in Office 365
