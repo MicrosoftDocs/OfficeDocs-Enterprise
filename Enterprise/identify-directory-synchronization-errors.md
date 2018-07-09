@@ -1,9 +1,9 @@
 ---
-title: "Identify directory synchronization errors in Office 365"
+title: "View directory synchronization errors in Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 6/26/2018
+ms.date: 8/24/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,9 +18,11 @@ ms.assetid: b4fc07a5-97ea-4ca6-9692-108acab74067
 description: "Learn how to view directory synchronization errors in Office 365 admin center."
 ---
 
-# Identify directory synchronization errors in Office 365
+# View directory synchronization errors in Office 365
 
 You can view directory synchronization errors in the Office 365 admin center. Only the User object errors are displayed. To view errors by using PowerShell, see [Identify objects with DirSyncProvisioningErrors](https://go.microsoft.com/fwlink/p/?LinkId=798300).
+
+After viewing, see [fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md) to correct any identified issues.
   
 ## View directory synchronization errors in the admin center
 
@@ -70,12 +72,3 @@ To view any errors in the old admin center:
 6. To see more details, select a user and you can see a detailed description of the directory synchronization error on the bottom of the user details pane.
     
     ![Details of a user's directory synchronization error](media/a01fa4b7-a6ec-4d01-81f7-fe007795ae00.png)
-  
-## See also
-
-[Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
-  
-[Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
-  
-[Turn off directory synchronization for Office 365](turn-off-directory-synchronization.md)
-

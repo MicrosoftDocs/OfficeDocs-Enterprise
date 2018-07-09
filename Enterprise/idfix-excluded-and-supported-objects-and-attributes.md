@@ -1,5 +1,5 @@
 ---
-title: "Reference IdFix excluded and supported objects and attributes"
+title: "IdFix excluded and supported objects and attributes"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,7 +14,7 @@ ms.assetid: cc453ae5-fa9b-4836-b0ce-c7e824b1e36d
 description: "Lists the attributes that are excluded and supported by IdFix tool."
 ---
 
-# Reference: IdFix excluded and supported objects and attributes
+# IdFix excluded and supported objects and attributes
 
 There are two sets of rules maintained by IdFix; Multi-tenant and Dedicated/ITAR. At this time, the two rule sets exclude the same objects, attributes, and attribute values from its search. This may change in future releases.
   

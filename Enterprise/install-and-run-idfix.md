@@ -3,7 +3,7 @@ title: "Install and run the Office 365 IdFix tool"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 1/31/2018
+ms.date: 8/24/2018
 ms.audience: Admin
 ms.topic: get-started-article
 f1_keywords:
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid: MOE150
 ms.assetid: f4bd2439-3e41-4169-99f6-3fabdfa326ac
-description: " How to install and run the Office 365 IdFix  tool, which helps clean up your directory before you synchronize it to Office 365."
+description: "How to install and run the Office 365 IdFix  tool to help clean up your active directory before you synchronize it to Office 365."
 ---
 
 # Install and run the Office 365 IdFix tool

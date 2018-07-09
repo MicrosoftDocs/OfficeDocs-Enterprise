@@ -1,9 +1,9 @@
 ---
-title: "Reference Office 365 IdFix transaction log"
+title: "Office 365 IdFix transaction log"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 3/5/2015
+ms.date: 8/24/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
@@ -14,13 +14,13 @@ ms.assetid: d58b7d45-7947-4193-9456-82ba76f42d89
 description: "Provides an example and describes the naming convention and default log level of the Office 365 IdFix transaction log."
 ---
 
-# Reference: Office 365 IdFix transaction log
+# Office 365 IdFix transaction log
 
 Provides an example and describes the naming convention and default log level of the Office 365 IdFix transaction log.
   
 ## IdFix transaction log location
 
-The Office 365 IdFix tool creates a new transaction log each time you apply changes to the Active Directory forest, that is, each time you click **Apply** in IdFix. The transaction log is saved in the same folder where you installed IdFix. By default, this is C:\Deployment Tools\IDFix. The transaction log file name uses a date and time stamp format, for example, Verbose 6-1-2014 6-17-22 PM indicates a file that was generated at June 1, 2014 at 6:17:22 PM. Verbose indicates the logging level. 
+The Office 365 IdFix tool creates a new transaction log each time you click **Apply** in IdFix and apply changes to the Active Directory forest. The transaction log is saved in the same folder where you installed IdFix. By default, this folder is C:\Deployment Tools\IDFix. The transaction log file name uses a date and time stamp format, for example, Verbose 6-1-2018 6-17-22 PM indicates a file that was generated at June 1, 2018 at 6:17:22 PM. Verbose indicates the logging level. 
   
 ## IdFix transaction log logging level
 
@@ -28,7 +28,7 @@ The word verbose in the transaction log file name indicates the level of logging
   
 ## IdFix transaction log format
 
-IdFix writes the results of each **UPDATE** action to a transaction log as shown in the following example. 
+IdFix writes the results of each **UPDATE** action to a transaction log as shown in the following example:
   
 ```
 5/22/2018 6:36:44 AM Initialized - IdFix version 1.07 - Multi-Tenant
@@ -59,5 +59,3 @@ IdFix writes the results of each **UPDATE** action to a transaction log as shown
 5/22/2018 6:37:57 AM COMPLETE
 
 ```
-
-
