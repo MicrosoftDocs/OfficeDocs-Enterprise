@@ -43,6 +43,9 @@ From Office 365 Admin Portal, select **Groups** > **Add a group**, then create a
 
 ![Privileged access approvers screen in Office 365 Admin portal](images/privileged-access-approvers-ui.png)
 
+> [!NOTE] 
+> At this time, only users with administrative access are allowed to approve requests from Office 365 priviledged access. In future any user who is part of the Approvers’ group will be able to approve access requests.
+
 ### Step 2 - Enable privileged access in Office 365
 Privileged access needs to be explicitly turned on with the default approver group and including a set of system accounts that you’d want to be excluded from the privileged access management access control. 
 
@@ -143,18 +146,18 @@ Run the following command in Exchange Online Powershell to disable privileged ac
 ```
 Disable-ElevatedAccessControl
 ```
-## Project Euclid with privileged access
-Project Euclid is a service that helps organizations exert a granular level of control over their Office 365 data. The Euclid system allows application developers who build solutions to mine data to build useful insights. 
+## Managed access to Microsoft Graph in Microsoft Azure
+Managed access to Microsoft Graph in Microsoft Azure is a service that helps organizations exert a granular level of control over their Office 365 data. This system allows application developers to forge insights with that data. 
 
-Project Euclid uses Office 365 privileged access to assert control over their data through the privileged access maangement approval workflow, allowing scoped access to Office 365 data with admin oversight. Requests for data from Project Euclid come in through the integration when apps are installed.
+This system uses Office 365 privileged access to assert control over their data through its approval workflow, allowing scoped access to Office 365 data with admin oversight. Requests for data come in when applications are installed and require access to Office 365 data.
 
-### View requests for Office 365 data from Euclid
-View details of access requests for Office 365 data from the Euclid system.
+### View request details
+View details of the access requests for Office 365 data.
 
-Run the following command in Exchange Online Powershell to view data requests from the Euclid system:
+Run the following command in Exchange Online Powershell to view data requests:
 ```
 Get-ElevatedAccessRequest 
-    –Identity <request id>
+    | where {$_.RequestedAccess -like '*Data Access Request*'}
     | select RequestorUPN, Service, RequestedAccess
     | fl
 ```
@@ -165,7 +168,7 @@ Service         : Office365
 RequestedAccess : Data Access Request
 ```
 
-### Approve all data access requests for Project Euclid apps
+### Approve data access requests
 All data access requests can be approved through the standard privileged access approval cmdlets.
 
 Run the following command in Exchange Online Powershell to approve all data requests for specific requestor:
