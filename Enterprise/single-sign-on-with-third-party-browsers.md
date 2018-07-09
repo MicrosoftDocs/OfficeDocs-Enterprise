@@ -3,7 +3,7 @@ title: "Office 365 single sign-on with third-party browsers"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 12/29/2016
+ms.date: 8/24/2018
 ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -18,10 +18,9 @@ description: "Enabling Office 365 single sign-on with third-party browsers"
 ---
 
 # Office 365 single sign-on with third-party browsers
-
 If your computers have Extended Protection for Authentication, and you use the Firefox, Google Chrome, or Safari browsers, you may not be able to sign on to Office 365, depending upon your operating system. Instead, you will get an access denied message. This is due to the default configuration for Active Directory Federation Services (AD FS) 2.0 and Extended Protection for Authentication.
   
-Unless and until Firefox, Google Chrome, and Safari support Extended Protection for Authentication, the recommended option is to install and use Internet Explorer 10 or later.
+Unless and until Firefox, Google Chrome, and Safari support Extended Protection for Authentication, the recommended option is to install and use Microsoft Edge or Internet Explorer 10 or later.
   
 If you want to use single sign-on for Office 365 with Firefox, Google Chrome, or Safari, there are two other solutions:
   
@@ -31,5 +30,3 @@ If you want to use single sign-on for Office 365 with Firefox, Google Chrome, or
     
 > [!NOTE]
 >  There may be security concerns in taking either of the approaches described above. For more details, see the Microsoft Support article [Microsoft Security Advisory: Extended protection for authentication](https://go.microsoft.com/fwlink/p/?LinkID=243518). 
-  
-

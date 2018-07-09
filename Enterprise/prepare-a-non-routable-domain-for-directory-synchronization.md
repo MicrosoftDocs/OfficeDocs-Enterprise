@@ -1,9 +1,9 @@
 ---
-title: "How to prepare a non-routable domain for directory synchronization"
+title: "Prepare a non-routable domain for directory synchronization"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: 8/24/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -19,9 +19,10 @@ ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
 description: "Learn what to do if you have a non-routale domain associated with your on-premises users before you synchronize with Office 365."
 ---
 
-# How to prepare a non-routable domain for directory synchronization
+# Prepare a non-routable domain for directory synchronization
+When you synchronize your on-premises directory with Office 365 you have to have a verified domain in Azure Active Directory. Only the User Principal Names (UPN) that are associated with the on-premises domain are synchronized. However, any UPN that contains an non-routable domain, for example .local (like billa@contoso.local), will be synchronized to an .onmicrosoft.com domain (like billa@contoso.onmicrosoft.com). 
 
-When you synchronize your on-premises directory with Office 365 you have to have a verified domain in Azure Active Directory. Only the User Principal Names (UPN) that are associated with the on-premises domain are synchronized. However, any UPN that contains an non-routable domain, for example .local (like billa@contoso.local), will be synchronized to an .onmicrosoft.com domain (like billa@contoso.onmicrosoft.com). If you currently use a .local domain for your user accounts in Active Directory it's recommended that you change them to use a verified domain (like billa@contoso.com) in order to properly sync with your Office 365 domain.
+If you currently use a .local domain for your user accounts in Active Directory it's recommended that you change them to use a verified domain (like billa@contoso.com) in order to properly sync with your Office 365 domain.
   
 ## What if I only have a .local on-premises domain?
 
@@ -29,11 +30,11 @@ The most recent tool you can use for synchronizing your Active Directory to Azur
   
 Azure AD Connect synchronizes your users' UPN and password so that users can sign in with the same credentials they use on-premises. However, Azure AD Connect only synchronizes users to domains that are verified by Office 365. This means that the domain also is verified by Azure Active Directory because Office 365 identities are managed by Azure Active Directory. In other words, the domain has to be a valid Internet domain (for example, .com, .org, .net, .us, etc.). If your internal Active Directory only uses a non-routable domain (for example, .local), this can't possibly match the verified domain you have on Office 365. You can fix this issue by either changing your primary domain in your on premises Active Directory, or by adding one or more UPN suffixes.
   
-### Change your primary domain
+### **Change your primary domain**
 
 Change your primary domain to a domain you have verified in Office 365, for example, contoso.com. Every user that has the domain contoso.local is then updated to contoso.com. For instructions, see [How Domain Rename Works](https://go.microsoft.com/fwlink/p/?LinkId=624174). This is a very involved process, however, and an easier solution is to [Add UPN suffixes and update your users to them](prepare-a-non-routable-domain-for-directory-synchronization.md#bk_register), as shown in the following section.
   
-### Add UPN suffixes and update your users to them
+### **Add UPN suffixes and update your users to them**
 
 You can solve the .local problem by registering new UPN suffix or suffixes in Active Directory to match the domain (or domains) you verified in Office 365. After you register the new suffix, you update the user UPNs to replace the .local with the new domain name for example so that a user account looks like billa@contoso.com.
   
@@ -77,13 +78,11 @@ After you have updated the UPNs to use the verified domain,you are ready to sync
     
     Alternately you can bulk update the UPN suffixes [You can also use Windows PowerShell to change the UPN suffix for all users](prepare-a-non-routable-domain-for-directory-synchronization.md#BK_Posh).
     
-### You can also use Windows PowerShell to change the UPN suffix for all users
+### **You can also use Windows PowerShell to change the UPN suffix for all users**
 
 If you have a lot of users to update, it is easier to use Windows PowerShell. The following example uses the cmdlets [Get-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624312) and [Set-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624313) to change all contoso.local suffixes to contoso.com. 
-  
-See [Active Directory Windows PowerShell module](https://go.microsoft.com/fwlink/p/?LinkId=624314) to learn more about using Windows PowerShell in Active Directory. 
-  
-- Run the following Windows PowerShell commands to update all contoso.local suffixes to contoso.com:
+
+Run the following Windows PowerShell commands to update all contoso.local suffixes to contoso.com:
     
   ```
   $LocalUsers = Get-ADUser -Filter {UserPrincipalName -like '*contoso.local'} -Properties userPrincipalName -ResultSetSize $null
@@ -92,5 +91,5 @@ See [Active Directory Windows PowerShell module](https://go.microsoft.com/fwlink
   ```
   $LocalUsers | foreach {$newUpn = $_.UserPrincipalName.Replace("contoso.local","contoso.com"); $_ | Set-ADUser -UserPrincipalName $newUpn}
   ```
-
+See [Active Directory Windows PowerShell module](https://go.microsoft.com/fwlink/p/?LinkId=624314) to learn more about using Windows PowerShell in Active Directory. 
 
