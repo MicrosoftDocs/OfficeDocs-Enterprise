@@ -28,8 +28,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Cloud architecture models</h3>
-                <p>Use these architecture models and posters to learn about Microsoft Office 365 and included services.</p>
+                        <h3>FastTrack</h3>
+                <p>Use the FastTrack Center Benefit for Office 365 for guided assistance in planning, deploying, and driving adoption of Office 365 services for your organization.</p>
                     </div>
                 </div>
             </div>
@@ -47,8 +47,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Plan for Office 365</h3>
-                <p>Get ready for Office 365 by learning more about subscriptions, licenses, tenants, and integration options.</p>
+                        <h3>Migrate to Office 365</h3>
+                <p>Learn how to migrate your existing on-premises infrastructure to Office 365 and the Microsoft cloud.</p>
                     </div>
                 </div>
             </div>
@@ -66,8 +66,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Test Office 365</h3>
-                <p>Use Office 365 Test Lab Guides (TLGs) to set up dev/test environments for Office 365 and Office Server products.</p>
+                        <h3>Office 365 Training</h3>
+                <p>Learn more about Office 365 training resources.</p>
                     </div>
                 </div>
             </div>
@@ -104,8 +104,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Manage Office 365</h3>
-                <p>Learn how to manage the Office 365 service, including management of configured workloads.</p>
+                        <h3>Hybrid deployments</h3>
+                <p>Learn how to configure and manage a hybrid deployment between your existing on-premises infrastructure and Office 365.</p>
                     </div>
                 </div>
             </div>
@@ -175,8 +175,46 @@ ms.author: robmazz
 
 ---
 
-<h2>Contact Us</h2>
-<ul>
-    <li><a href="mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20">What Office 365 Enterprise content do you need?</a><br>We are constantly creating new content for Office 365 that spans multiple Microsoft cloud platforms and services. Let us know what you think about our Office 365 and cloud adoption content, or ask for specific content by sending email to cloudadopt@microsoft.com.</li><br>
-    <li><a href="https://aka.ms/caab">Join the cloud adoption discussion</a><br>If you are passionate about Office 365 and Microsoft cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the CAAB (Cloud Adoption Advisory Board) space of the Microsoft Tech Community and send us a quick email at <a href="mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!">CAAB@microsoft.com</a>. Anyone can read community-related content on the CAAB <a href="https://blogs.technet.com/b/solutions_advisory_board/">blog</a>. However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.</li>
+<h2>Featured Articles</h2>
+<ul class="panelContent cardsW">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Threat protection in Office 365</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Learn more about spoof intelligence</a></p>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Set up new Office 365 Message Encryption capabilities</a></p>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Email encryption in Office 365</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Data governance in Office 365</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Use network upload to import your organization PST files to Office 365</a></p>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Overview of retention policies</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Prevent data loss in Office 365</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Overview of retention policies</a></p>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg" data-linktype="external">Overview of data loss prevention policies</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
 </ul>
