@@ -51,15 +51,11 @@ Privileged access needs to be explicitly turned on with the default approver gro
 
 Run the following command in Exchange Online PowerShell to enable privileged access and to assign the approver's group:
 ```
-Enable-ElevatedAccessControl 
-    -AdminGroup '<default approver group>' 
-    -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
+Enable-ElevatedAccessControl -AdminGroup '<default approver group>' -SystemAccounts @('<systemAccountUPN1>','<systemAccountUPN2>')
 ```
 Example:
 ```
-Enable-ElevatedAccessControl 
-    -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' 
-    -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
+Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com' -SystemAccounts @('sys1@fabrikamorg.onmicrosoft.com', sys2@fabrikamorg.onmicrosoft.com')
 ```
 
 > [!NOTE]
@@ -70,17 +66,11 @@ An approval policy allows you to define the specific approval requirements scope
 
 Run the following command in Exchange Online PowerShell to define an approval policy:
 ```
-New-ElevatedAccessApprovalPolicy 
-    -Task 'Exchange\<exchange management cmdlet name>' 
-    -ApprovalType <Manual, Auto> 
-    -ApproverGroup '<default/custom approver group>'
+New-ElevatedAccessApprovalPolicy -Task 'Exchange\<exchange management cmdlet name>' -ApprovalType <Manual, Auto> -ApproverGroup '<default/custom approver group>'
 ```
 Example:
 ```
-New-ElevatedAccessApprovalPolicy 
-    -Task 'Exchange\New-MoveRequest' 
-    -ApprovalType Manual 
-    -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
+New-ElevatedAccessApprovalPolicy -Task 'Exchange\New-MoveRequest' -ApprovalType Manual -ApproverGroup 'mbmanagers@fabrikamorg.onmicrosoft.com'
 ```
 
 ## Using privileged access in your Office 365 organization
@@ -90,17 +80,11 @@ Once enabled, privileged access requires approvals for executing any task that h
 
 Run the following command in Exchange Online PowerShell to create and submit an approval request to the approver's group:
 ```
-New-ElevatedAccessRequest 
-    -Task 'Exchange\<exchange management cmdlet name>' 
-    -Reason '<appropriate reason>' 
-    -DurationHours <duration in hours>
+New-ElevatedAccessRequest -Task 'Exchange\<exchange management cmdlet name>' -Reason '<appropriate reason>' -DurationHours <duration in hours>
 ```
 Example:
 ```
-New-ElevatedAccessRequest 
-    -Task 'Exchange\New-MoveRequest' 
-    -Reason 'Attempting to fix the user mailbox error' 
-    -DurationHours 4
+New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
 ```
 
 ### Approving an elevation authorization request
