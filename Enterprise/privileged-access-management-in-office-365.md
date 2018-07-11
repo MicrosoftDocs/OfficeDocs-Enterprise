@@ -17,7 +17,7 @@ description: "Use this topic to learn more about the privileged access managemen
 # Privileged access management in Office 365
 
 > [!IMPORTANT]
-> This topic covers deployment and configuration guidance for a public beta feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
+> This topic covers deployment and configuration guidance for public beta features only currently available in Office 365 E5 and Advanced Compliance SKUs.
 
 Privileged access management allows granular access control over privileged admin tasks in Office 365.  It can help protect your organization from breaches that may use existing privileged admin accounts with standing access to sensitive data or access to critical configuration settings. After enabling privileged access management, users will need to request just-in-time access to complete elevated and privileged tasks through an approval workflow that is highly scoped and time-bound. This gives users just-enough-access to perform the task at hand, without risking exposure of sensitive data or critical configuration settings. Enabling privileged access management in Office 365 will enable your organization to operate with zero standing privileges and provide a layer of defense against vulnerabilities arising because of such standing administrative access. 
 
@@ -86,38 +86,40 @@ Example:
 ```
 New-ElevatedAccessRequest -Task 'Exchange\New-MoveRequest' -Reason 'Attempting to fix the user mailbox error' -DurationHours 4
 ```
+### View status of elevation requests
+After an approval request is created, elevation request status can be reviewed using the associated with request ID.
+
+Run the following command in Exchange Online PowerShell to view a approval request status for a specific request ID:
+```
+Get-ElevatedAccessRequest -Identity <request ID> | select RequestStatus
+```
+Example:
+```
+Get-ElevatedAccessRequest -Identity 28560ed0-419d-4cc3-8f5b-603911cbd450 | select RequestStatus
+```
 
 ### Approving an elevation authorization request
 When an approval request is created, members of the relevant approver group will receive an email notification and can approve the request associated with the request ID. 
 
 Run the following command in Exchange Online PowerShell to approve an elevation authorization request:
 ```
-Approve-ElevatedAccessRequest 
-    -RequestId <request id>
-    -Comment '<approval comment>'
+Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 Example:
 ```
-Approve-ElevatedAccessRequest 
-    -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 
-    -Comment '<approval comment>'
+Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
 ```
 ### Denying an elevation authorization request
 When an approval request is created, members of the relevant approver group can deny the request associated with the request ID. 
 
 Run the following command in Exchange Online PowerShell to deny an elevation authorization request:
 ```
-Deny-ElevatedAccessRequest 
-    -RequestId <request id>
-    -Comment '<denial comment>'
+Deny-ElevatedAccessRequest -RequestId <request id> -Comment '<denial comment>'
 ```
 Example:
 ```
-Deny-ElevatedAccessRequest 
-    -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 
-    -Comment '<denial comment>'
+Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<denial comment>'
 ```
-
 
 ### Running the task
 After approval is granted, the requesting user can execute the intended task and privileged access will authorize and execute the task on users’ behalf. The approval remains valid for the requested duration (default duration is 4 hours), during which the requester can execute the intended task multiple times. All such executions are logged and made available for security and compliance auditing. 
@@ -131,6 +133,10 @@ Run the following command in Exchange Online Powershell to disable privileged ac
 Disable-ElevatedAccessControl
 ```
 ## Managed access to Microsoft Graph in Microsoft Azure
+
+> [!IMPORTANT]
+> This section covers deployment and configuration guidance for a public beta Microsoft Graph feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
+
 Managed access to Microsoft Graph in Microsoft Azure is a service that helps organizations exert a granular level of control over their Office 365 data. This system allows application developers to forge insights with that data. 
 
 This system uses Office 365 privileged access to assert control over their data through its approval workflow, allowing scoped access to Office 365 data with admin oversight. Requests for data come in when applications are installed and require access to Office 365 data.
@@ -140,12 +146,9 @@ View details of the access requests for Office 365 data.
 
 Run the following command in Exchange Online Powershell to view data requests:
 ```
-Get-ElevatedAccessRequest 
-    | where {$_.RequestedAccess -like '*Data Access Request*'}
-    | select RequestorUPN, Service, RequestedAccess
-    | fl
+Get-ElevatedAccessRequest | where {$_.RequestedAccess -like '*Data Access Request*'} | select RequestorUPN, Service, RequestedAccess | fl
 ```
-Example:
+Example output:
 ```
 RequestorUPN    : admin@contoso.com
 Service         : Office365
@@ -158,15 +161,11 @@ All data access requests can be approved through the standard privileged access 
 Run the following command in Exchange Online Powershell to approve all data requests for specific requestor:
 
 ```
-Approve-ElevatedAccessRequest 
-    -RequestId <request id>
-    -Comment '<approval comment>'
+Approve-ElevatedAccessRequest -RequestId <request id> -Comment '<approval comment>'
 ```
 Example:
 ```
-Approve-ElevatedAccessRequest 
-    -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 
-    -Comment '<approval comment>'
+Approve-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comment '<approval comment>'
 ```
 
 ## Getting help and providing feedback
