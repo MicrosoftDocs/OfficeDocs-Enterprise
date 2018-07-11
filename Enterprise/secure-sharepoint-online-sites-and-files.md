@@ -43,7 +43,8 @@ Recommendations for SharePoint Online team sites draw on a variety of Office 365
   
 The following illustration shows the recommended configurations for four SharePoint Online team sites.
 
-![Recommended configuration for SharePoint sites](Media/SharePoint site configuration v2.png)
+![Recommended configuration for SharePoint sites](Media/SharePoint-site-configuration-v2.png)
+
 
 As illustrated:
   
