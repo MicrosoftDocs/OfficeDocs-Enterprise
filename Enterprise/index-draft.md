@@ -86,7 +86,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Deploy Office 365</h3>
-                <p>Learn how to deploy Office 365 and featured workloads, including Exchange Online, SharePoint Online, OneDrive for Business, and more.</p>
+                <p>Learn how to manually deploy Office 365 and featured workloads, including Exchange Online, SharePoint Online, OneDrive for Business, and more.</p>
                     </div>
                 </div>
             </div>
