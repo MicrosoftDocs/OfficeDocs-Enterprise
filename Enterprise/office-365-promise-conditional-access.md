@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Client Capabilities - Conditional Access"
+title: "Office 365 Client Support - Conditional Access"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,7 +12,7 @@ ms.collection: Strat_O365_Enterprise
 description: "Summary: Understand Office 365 conditional access"
 ---
 
-# Office 365 Client Capabilities - Conditional Access
+# Office 365 Client Support - Conditional Access
 
 In the modern workplace, users can access your organization's resources using a variety of devices and apps from virtually anywhere. As a result, just focusing on who can access a resource is not sufficient anymore. Your organization must also support how and where a resource is being accessed into your access control infrastructure. With Azure AD device, location, and multifactor authentication-based conditional access, you can meet this new requirement. Conditional access is a capability of Azure Active Directory that enables you to enforce controls on the access to apps in your environment, all based on specific conditions and managed from a central location. Learn more about [device-based](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-policy-connected-applications), [location-based](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-locations), and [MFA-based](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-conditions#users-and-groups) conditional access.
 
