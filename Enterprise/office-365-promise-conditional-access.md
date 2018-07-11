@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: Office 365 Administration
 localization_priority: None
 ms.collection: Strat_O365_Enterprise
-description: "Summary: Understand Office 365 conditional access"
+description: "Understand Office 365 client support for conditional access"
 ---
 
 # Office 365 Client Support - Conditional Access
