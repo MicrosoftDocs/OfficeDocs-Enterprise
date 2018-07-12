@@ -23,6 +23,13 @@ description: "Summary: Apply Office 365 labels and data loss prevention (DLP) po
   
 Use the steps in this article to design and deploy Office 365 labels and DLP policies for baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
   
+## How this works
+1. Create the desired labels and publish these. It can take up to 12 hours for these to be published.
+2. For the desired SharePoint sites, edit the document library settings to apply a label to items in the library.
+3. Create DLP policies to take action based on the labels.
+
+When users add a document to the library, the document will receive the assigned label by default. Users can change the label,if needed. When a user shares a document outside the organization, DLP will check to see if a label is assigned and take action if a DLP policy matches the label. DLP will look for other policy matches as well, such as protecting files with credit card numbers if this type of policy is configured. 
+
 ## Office 365 labels for your SharePoint Online sites
 
 There are three phases to creating and then assigning Office 365 labels to SharePoint Online team sites.

@@ -23,7 +23,9 @@ description: "Summary: Apply Azure Information Protection to protect files in a 
   
 Use the steps in this article to configure Azure Information Protection to provide encryption and permissions for files. These files can be added to a SharePoint library configured for highly confidential protection. Or, you can open a file directly from the site and use the Azure Information Protection client to add encryption. The encryption and permissions protection travels with a file even when it is downloaded from the site. 
 
-These steps are part of a larger solution for configuring highly confidential protection for SharePoint sites and the files within these sites. For more information, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
+These steps are part of a larger solution for configuring highly confidential protection for SharePoint sites and the files within these sites. For more information, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md). 
+
+Using Azure Information Protection for files in SharePoint Online is not recommended for all customers, but is an option for customers who need this level of protection for a subset of files.
 
 Some important notes about this solution:
 - When Azure Information Protection encryption is applied to files stored in Office 365, the service cannot process the contents of these files. Co-authoring, eDiscovery, search, Delve, and other collaborative features do not work. Data Loss Prevention (DLP) policies can only work with the metadata (including Office 365 labels) but not the contents of these files (such as credit card numbers within files).
@@ -74,10 +76,7 @@ Next, configure Azure Information Protection with a new scoped policy and sub-la
     
 20. On the **Azure Information protection - Scoped policies** blade, click **Publish**.
     
-This is your resulting configuration for your highly confidential SharePoint Online team site.
-  
-![Azure Information Protection label for an isolated SharePoint Online team site.](images/8cc92aa4-e7bc-4c2f-a4a4-3b034b21aebf.png)
-  
+ 
 ##Client setup
 You are now ready to begin creating documents and protecting them with Azure Information Protection and your new label.
   
