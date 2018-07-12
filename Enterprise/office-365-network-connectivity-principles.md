@@ -27,15 +27,10 @@ Adoption of SaaS applications like Office 365 moves some combination of services
 In this article, you will learn about:
   
 - [Office 365 architecture](office-365-network-connectivity-principles.md#BKMK_Architecture) as it applies to customer connectivity to the cloud
-
 - Updated [Office 365 connectivity principles](office-365-network-connectivity-principles.md#BKMK_Principles) and strategies for optimizing network traffic and the end user experience
-
 - The [Office 365 Endpoints web service](office-365-network-connectivity-principles.md#BKMK_WebSvc), which allows network administrators to consume a structured list of endpoints for use in network optimization
-
 - [New Office 365 endpoint categories](office-365-network-connectivity-principles.md#BKMK_Categories) and optimization guidance
-
 - [Comparing network perimeter security with endpoint security](office-365-network-connectivity-principles.md#BKMK_SecurityComparison)
-
 - [Incremental optimization](office-365-network-connectivity-principles.md#BKMK_IncOpt) options for Office 365 traffic
 
 ## Office 365 architecture
@@ -99,9 +94,7 @@ Enterprises who have adopted Office 365 can take advantage of the Microsoft Glob
 The local egress architecture has the following benefits over the traditional model:
   
 - Provides optimal Office 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Office 365 entry point by the Distributed Service Front Door infrastructure.
-
 - Reduces the load on corporate network infrastructure by allowing local egress.
-
 - Secures connections on both ends by leveraging client endpoint security and cloud security features.
 
 ### Avoid network hairpins
@@ -164,17 +157,11 @@ In the new model, endpoints are segregated into three categories, **Optimize**, 
     Optimization methods include:
 
   - Bypass or whitelist  *Optimize*  endpoints on network devices and services that perform traffic interception, SSL decryption, deep packet inspection and content filtering.
-
   - Bypass on-premises proxy devices and cloud-based proxy services commonly used for generic Internet browsing.
-
   - Prioritize the evaluation of these endpoints as fully trusted by your network infrastructure and perimeter systems.
-
   - Prioritize reduction or elimination of WAN backhauling, and facilitate direct distributed Internet based egress for these endpoints as close to users/branch locations as possible.
-
   - Facilitate direct connectivity to these cloud endpoints for VPN users by implementing split tunneling.
-
   - Ensure that IP addresses returned by DNS name resolution match the routing egress path for these endpoints.
-
   - Prioritize these endpoints for SD-WAN integration for direct, minimal latency routing into the nearest Internet peering point of the Microsoft global network.
 
 - **Allow** endpoints are required for connectivity to specific Office 365 services and features, but are not as sensitive to network performance and latency as those in the  *Optimize*  category. The overall network footprint of these endpoints from the standpoint of bandwidth and connection count is also significantly smaller. These endpoints are dedicated to Office 365 and are hosted in Microsoft datacenters. They represent a broad set of Office 365 micro-services and their dependencies (on the order of ~100 URLs) and are expected to change at a higher rate than those in the  *Optimize*  category. Not all endpoints in this category are associated with defined dedicated IP subnets.
@@ -186,13 +173,9 @@ In the new model, endpoints are segregated into three categories, **Optimize**, 
     Optimization methods include:
 
   - Bypass or whitelist  *Allow*  endpoints on network devices and services that perform traffic interception, SSL decryption, deep packet inspection and content filtering.
-
   - Prioritize the evaluation of these endpoints as fully trusted by your network infrastructure and perimeter systems.
-
   - Prioritize reduction or elimination of WAN backhauling, and facilitate direct distributed Internet based egress for these endpoints as close to users/branch locations as possible.
-
   - Ensure that IP addresses returned by DNS name resolution match the routing egress path for these endpoints.
-
   - Prioritize these endpoints for SD-WAN integration for direct, minimal latency routing into the nearest Internet peering point of the Microsoft global network.
 
 - **Default** endpoints represent Office 365 services and dependencies that do not require any optimization, and can be treated by customer networks as normal Internet bound traffic. Note that some endpoints in this category may not be hosted in Microsoft datacenters. Examples include  *https://odc.officeapps.live.com*  and  *https://appexsin.stb.s-msn.com*.
@@ -205,31 +188,24 @@ For more information about Office 365 network optimization techniques, see the a
 The goal of traditional network security is to harden the corporate network perimeter against intrusion and malicious exploits. As organizations adopt Office 365, some network services and data are partly or completely migrated to the cloud. As does any fundamental change to network architecture, this process requires a reevaluation of network security that takes emerging factors into account:
   
 - As cloud services are adopted, network services and data are distributed between on-premises datacenters and the cloud, and perimeter security is no longer adequate on its own.
-
 - Remote users connect to corporate resources both in on-premises datacenters and in the cloud from uncontrolled locations such as homes, hotels and coffee shops.
-
 - Purpose-built security features are increasingly built into cloud services and can potentially supplement or replace existing security systems.
 
 Microsoft offers a wide range of Office 365 security features and provides prescriptive guidance for employing security best practices that can help you to ensure data and network security for Office 365. Recommended best practices include the following:
   
 - **Use multi-factor authentication (MFA)**
-
     MFA adds an additional layer of protection to a strong password strategy by requiring users to acknowledge a phone call, text message, or an app notification on their smart phone after correctly entering their password.
 
 - **Use Office 365 Cloud App Security**
-
     Set up policies to track anomalous activity and act on it. Set up alerts with Office 365 Cloud App Security so that admins can review unusual or risky user activity, such as downloading large amounts of data, multiple failed sign-in attempts, or connections from a unknown or dangerous IP addresses.
 
 - **Configure Data Loss Prevention (DLP)**
-
     DLP allows you to identify sensitive data and create policies that help prevent your users from accidentally or intentionally sharing the data. DLP works across Office 365 including Exchange Online, SharePoint Online, and OneDrive so that your users can stay compliant without interrupting their workflow.
 
 - **Use Customer Lockbox**
-
     As an Office 365 admin, you can use Customer Lockbox to control how a Microsoft support engineer accesses your data during a help session. In cases where the engineer requires access to your data to troubleshoot and fix an issue, Customer Lockbox allows you to approve or reject the access request.
 
 - **Use Office 365 Secure Score**
-
     Secure Score is a security analytics tool that recommends what you can do to further reduce risk. Secure Score looks at your Office 365 settings and activities and compares them to a baseline established by Microsoft. You'll get a score based on how aligned you are with best security practices.
 
 A holistic approach to enhanced security should include consideration of the following:
