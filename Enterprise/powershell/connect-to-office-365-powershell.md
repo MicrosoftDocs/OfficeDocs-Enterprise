@@ -70,6 +70,7 @@ To connect with just an *account name and password*:
   ```
   $UserCredential = Get-Credential
   Connect-MsolService -Credential $UserCredential
+
   ```
 
 3. In the **Windows PowerShell Credential Request** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
@@ -147,6 +148,7 @@ To connect to your Office 365 subscription with an *account name and password*:
 ```
 $UserCredential = Get-Credential
 Connect-AzureAD -Credential $UserCredential
+
 ```
 
 In the **Windows PowerShell Credential Request** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.

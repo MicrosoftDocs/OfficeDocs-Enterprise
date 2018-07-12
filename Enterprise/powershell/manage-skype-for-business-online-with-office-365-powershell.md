@@ -30,7 +30,7 @@ Download and install the [Skype for Business Online Connector module](https://ww
 1. Open a Windows PowerShell command prompt and run the following commands: 
     
   ```
-  Import-Module LyncOnlineConnector
+  Import-Module SkypeOnlineConnector
   $userCredential = Get-Credential
   $sfbSession = New-CsOnlineSession -Credential $userCredential
   Import-PSSession $sfbSession
@@ -44,7 +44,7 @@ Download and install the [Skype for Business Online Connector module](https://ww
 1. Open a Windows PowerShell command prompt and run the following commands:
 
   ```
-  Import-Module LyncOnlineConnector
+  Import-Module SkypeOnlineConnector
   $sfbSession = New-CsOnlineSession
   Import-PSSession $sfbSession
   ```
