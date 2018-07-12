@@ -215,12 +215,12 @@ A holistic approach to enhanced security should include consideration of the fol
   - Enable equivalent trust for user devices inside the office or at remote locations
   - Focus on securing the data location and the user location
   - Managed user machines have higher trust with endpoint security
-  - Manage all information security holistically, not focusing solely on the perimeter
+- Manage all information security holistically, not focusing solely on the perimeter
   - Redefine WAN and building perimeter network security by allowing trusted traffic to bypass security devices and separating unmanaged devices to guest Wi-Fi networks.
   - Reduces network security requirements of the corporate WAN edge
   - Some network perimeter security devices such as firewalls are still required, but load is decreased
   - Ensures local egress for Office 365 traffic
-  - Improvements can be addressed incrementally as described in the [Incremental optimization](office-365-network-connectivity-principles.md#BKMK_IncOpt) section. Some optimization techniques may offer better cost/benefit ratios depending on your network architecture, and you should choose optimizations that make the most sense for your organization.
+- Improvements can be addressed incrementally as described in the [Incremental optimization](office-365-network-connectivity-principles.md#BKMK_IncOpt) section. Some optimization techniques may offer better cost/benefit ratios depending on your network architecture, and you should choose optimizations that make the most sense for your organization.
 
 For more information on Office 365 security and compliance, see the article [Overview of security and compliance in Office 365](https://support.office.com/en-us/article/overview-of-security-and-compliance-in-office-365-dcb83b2c-ac66-4ced-925d-50eb9698a0b2?ui=en-US&amp;rs=en-US&amp;ad=US).
   
