@@ -18,7 +18,7 @@ ms.author: robmazz
 <p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides guidance for admins and IT Professionals who are deploying, configuring and managing Office 365 services in enterprise organizations.</p>
 <ul class="cardsF panelContent">
     <li>
-        <a href="/office365/enterprise/microsoft-cloud-it-architecture-resources">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ ms.author: robmazz
         </a>
     </li> 
     <li>
-        <a href="/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -56,7 +56,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="/office365/enterprise/cloud-adoption-test-lab-guides-tlgs">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -75,7 +75,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="/office365/enterprise/hybrid-solutions">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -94,7 +94,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="/office365/enterprise/security-solutions">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +113,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="/office365/enterprise/security-solutions">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
