@@ -82,13 +82,8 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-<<<<<<< HEAD
 ## FastTrack
 ## Deploy Office 365 Enterprise for your organization
-=======
-## [FastTrack](https://fasttrack.microsoft.com/office)
-## Setup overview for enterprises
->>>>>>> 05dde0627e806301a4b173605c49096dc76aa3ee
 ### Deployment planning checklist for Office 365
 ### Office 365 integration with on-premises environments
 ### Office 365 inter-tenant collaboration
@@ -209,7 +204,6 @@
 ### Tune Skype for Business Online performance
 ## Microsoft Teams
 ## Yammer
-<<<<<<< HEAD
 ### Office 365 sign-in for Yammer
 ### Manage Yammer admins
 ### Manage Yammer data compliance
@@ -244,8 +238,5 @@
 ### What to do when users cannot log in to Yammer on Android devices
 
 # Security & Compliance
-=======
-# [Security & Compliance](https://review.docs.microsoft.com/en-us/office365/SecurityCompliance/index?branch=stp-working)
->>>>>>> 05dde0627e806301a4b173605c49096dc76aa3ee
 # Office 365 PowerShell
   
