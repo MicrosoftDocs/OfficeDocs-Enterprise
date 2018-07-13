@@ -172,3 +172,62 @@ ms.author: robmazz
         </div>
     </li>
 </ul>
+
+<hr>
+<h2>What's new</h2>
+
+<ul class="panelContent cardsF">
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/paragraph-writing-blue.svg" alt="Article" data-linktype="external">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Articles</h3>
+                        <p><a href="/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system" data-linktype="absolute-path">Setting up Phone System in your organization</a></p>
+                        <p><a href="/en-us/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers" data-linktype="absolute-path">Third-party integration with Audio Conferencing</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-blue.svg" alt="What's new" data-linktype="external">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>New features</h3>
+                        <p><a href="/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada" data-linktype="absolute-path">Calling Plans in Canada (General Availability)</a></p>
+                        <p><a href="/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia" data-linktype="absolute-path">Calling Plans in Australia (Preview only)</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector-blue.svg" alt="Updates" data-linktype="external">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Major updates</h3>
+                        <p><a href="/en-us/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing" data-linktype="absolute-path">Set up Audio Conferencing</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
