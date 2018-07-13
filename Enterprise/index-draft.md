@@ -66,8 +66,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office 365 Training</h3>
-                <p>Learn more about Office 365 training resources.</p>
+                        <h3>Office 365 training</h3>
+                <p>Improve your Office 365 knowledge and skills with our new Learning Path training.</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Security and Compliance</h3>
+                        <h3>Security and compliance</h3>
                 <p>Learn how to enable and manage Office 365 security and compliance features.</p>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ ms.author: robmazz
 </ul>
 
 <hr>
-<h2>What's new</h2>
+<h2>What's New</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -187,8 +187,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>New Content</h3>
-                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">Set up Azure AD Connect in your orgainzation</a></p>
+                        <h3>New Office 365 content</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">Set up Azure AD Connect in your organization</a></p>
                         <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">IPv6 support in Office 365 services</a></p>
                     </div>
                 </div>
