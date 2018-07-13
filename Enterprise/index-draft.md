@@ -187,9 +187,9 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Articles</h3>
-                        <p><a href="/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system" data-linktype="absolute-path">Setting up Phone System in your organization</a></p>
-                        <p><a href="/en-us/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers" data-linktype="absolute-path">Third-party integration with Audio Conferencing</a></p>
+                        <h3>New Content</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">Set up Azure AD Connect in your orgainzation</a></p>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">IPv6 support in Office 365 services</a></p>
                     </div>
                 </div>
             </div>
@@ -205,9 +205,9 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>New features</h3>
-                        <p><a href="/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada" data-linktype="absolute-path">Calling Plans in Canada (General Availability)</a></p>
-                        <p><a href="/en-us/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia" data-linktype="absolute-path">Calling Plans in Australia (Preview only)</a></p>
+                        <h3>New Office 365 features</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">Privileged access management in Office 365</a></p>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">Improved eDiscovery cases in Office 365</a></p>
                     </div>
                 </div>
             </div>
@@ -223,8 +223,8 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Major updates</h3>
-                        <p><a href="/en-us/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing" data-linktype="absolute-path">Set up Audio Conferencing</a></p>
+                        <h3>Get support</h3>
+                        <p><a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">Contact Support for help with Office 365</a></p>
                     </div>
                 </div>
             </div>
