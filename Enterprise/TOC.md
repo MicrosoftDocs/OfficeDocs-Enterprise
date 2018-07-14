@@ -55,13 +55,13 @@
 ### [Get started with the Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 
 ## Hybrid options
-### Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
-### How to configure Exchange Server on-premises to use Hybrid Modern Authentication
-### How to configure Skype for Business on-premises to use Hybrid Modern Authentication
-### Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange
+### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
+### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
+### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
+### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
 ## Office 365 client support
-### Conditional access
-### Modern authentication
+### [Conditional access](https://docs.microsoft.com/deployoffice/security/secure-and-control-access-to-office)
+### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
 ### Mobile application management
 
 # Test Office 365
@@ -81,29 +81,29 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-## FastTrack
+## [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365/office-365)
 ## Deploy Office 365 Enterprise for your organization
-### Deployment planning checklist for Office 365
+### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### Office 365 integration with on-premises environments
-### Office 365 inter-tenant collaboration
+### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
 ### Security best practices for Office 365
 ## Set up your network
-### How to prepare a non-routable domain for directory synchronization
-### Network planning and performance tuning for Office 365
-### Network planning with ExpressRoute for Office 365
-### Routing with ExpressRoute for Office 365
-### Office 365 Network Connectivity Principles
+### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
+### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
+### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
+### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
+### [Office 365 Network Connectivity Principles](network-connectivity.md)
 ### URLs and IP address ranges
 ### Content delivery networks
-### IPv6 support in Office 365 services
-### NAT support with Office 365
-### Implementing ExpressRoute for Office 365
+### [IPv6 support in Office 365 services](ipv6-support.md)
+### [NAT support with Office 365](nat-support-with-office-365.md)
+### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
 ## Set up your subscription
-### Prepare directory attributes for synchronization with Office 365 by using the IdFix tool
-### Prepare to provision users through directory synchronization to Office 365
-### Protect your Office 365 global administrator accounts
-### Set up directory synchronization for Office 365
-### Activate Rights Management in the Office 365 admin center
+### [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
+### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
+### [Protect your Office 365 global administrator accounts](protect-your-global-administrator-accounts.md)
+### [Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
+### [Activate Rights Management in the Office 365 admin center](activate-rms-in-office-365.md)
 
 ### Domains
 #### External Domain Name System records for Office 365
@@ -174,13 +174,13 @@
 ## Management tools
 ## Service health
 ### View service health
-### Monitor connectivity
+### [Monitor connectivity](monitor-connectivity.md)
 ### Support options
-## Exchange Online
-## SharePoint Online
-## Skype for Business
-## Microsoft Teams
-## Yammer
+## [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
+## [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
+## [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
+## [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)
+## [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 # Security & Compliance
 ## Tools to manage Office 365 accounts
 ## Managing ExpressRoute for Office 365 connectivity
