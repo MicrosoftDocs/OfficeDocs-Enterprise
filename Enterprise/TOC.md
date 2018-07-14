@@ -81,27 +81,8 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-<<<<<<< HEAD
-## [FastTrack](https://fasttrack.microsoft.com/office)
-## [Setup overview for enterprises](setup-overview-for-enterprises.md)
-### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
-## Set up your network
-### Network planning and performance
-### URLs and IP address ranges
-## Set up your subscription
-### Global admin accounts
-### Domains
-### Office 365 identity
-#### Azure integration
-### Release options in Office 365
-## Configure services and applications
 ## FastTrack
 ## Deploy Office 365 Enterprise for your organization
-## Setup overview for enterprises
-=======
-## FastTrack
-## Deploy Office 365 Enterprise for your organization
->>>>>>> tocworking
 ### Deployment planning checklist for Office 365
 ### Office 365 integration with on-premises environments
 ### Office 365 inter-tenant collaboration
