@@ -81,6 +81,7 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
+<<<<<<< HEAD
 ## [FastTrack](https://fasttrack.microsoft.com/office)
 ## [Setup overview for enterprises](setup-overview-for-enterprises.md)
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
@@ -97,6 +98,10 @@
 ## FastTrack
 ## Deploy Office 365 Enterprise for your organization
 ## Setup overview for enterprises
+=======
+## FastTrack
+## Deploy Office 365 Enterprise for your organization
+>>>>>>> tocworking
 ### Deployment planning checklist for Office 365
 ### Office 365 integration with on-premises environments
 ### Office 365 inter-tenant collaboration
@@ -263,4 +268,6 @@
 
 # Security & Compliance
 # Office 365 PowerShell
+# Office 365 admin tasks
+# Help for small and mid-sized businesses
   
