@@ -239,4 +239,6 @@
 
 # Security & Compliance
 # Office 365 PowerShell
+# Office 365 admin tasks
+# Help for small and mid-sized businesses
   
