@@ -38,21 +38,21 @@
 ### [Plan for directory synchronization](plan-for-directory-synchronization.md)
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
-### Understanding Office 365 identity and Azure Active Directory
+### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
 ### [Overview of Mobile Device Management (MDM) for Office 365](overview-of-mdm.md)
 ### [Capabilities of built-in Mobile Device Management for Office 365](capabilities-of-mobile-device-management.md)
 ### [Choose between MDM for Office 365 and Microsoft Intune](choose-between-mdm-and-intune.md)
 ### [Privacy and security for built-in mobile device management for Office 365](privacy-and-security-for-mdm.md)
 ### [Frequently asked questions about MDM](frequently-asked-questions-about-mdm.md)
-### Network and migration planning for Office 365
-### Network connectivity to Office 365
-### Deployment advisors for Office 365 services
-### Integrated Apps and Azure AD for Office 365 administrators
-## Office 365 integration
-### Azure integration with Office 365
-### Azure ExpressRoute for Office 365
-### How modern authentication works for Office 2013 and Office 2016 client apps
-### Get started with the Microsoft Service Trust Portal
+### [Network and migration planning for Office 365](network-and-migration-planning.md)
+### [Network connectivity to Office 365](network-connectivity.md)
+### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+### [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md)
+## [Office 365 integration](office-365-integration.md)
+### [Azure integration with Office 365](azure-integration.md)
+### [Azure ExpressRoute for Office 365](azure-expressroute.md)
+### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
+### [Get started with the Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
 
 ## Hybrid options
 ### Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
