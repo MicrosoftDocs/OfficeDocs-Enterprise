@@ -135,7 +135,7 @@ Disable-ElevatedAccessControl
 ## Managed access to Microsoft Graph in Microsoft Azure
 
 > [!IMPORTANT]
-> This section covers deployment and configuration guidance for a public beta Microsoft Graph feature only currently available in Office 365 E5 and Advanced Compliance SKUs.
+> This section covers details about a feature currently available only in preview.
 
 Managed access to Microsoft Graph in Microsoft Azure is a service that helps organizations exert a granular level of control over their Office 365 data. This system allows application developers to forge insights with that data. 
 
