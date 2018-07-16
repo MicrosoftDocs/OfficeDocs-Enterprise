@@ -56,7 +56,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://docs.microsoft.com/DeployOffice/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
