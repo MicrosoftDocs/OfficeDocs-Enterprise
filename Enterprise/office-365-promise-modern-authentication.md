@@ -21,17 +21,22 @@ Microsoft’s Modern Authentication capability enables several scenarios for you
 
 ## Supported platforms
 
-| | | | | | |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Windows icon](images/windows_62x62.png) <br> Windows 10 <br> Desktop | ![Windows icon](images/windows_62x62.png) <br> Windows 10 <br> Modern Apps | ![Windows icon](images/windows_62x62.png) <br> Web Browser | ![Android icon](images/android_62x62.png) <br> Android | ![iOS icon](images/ios_62x62.png) <br> iOS | ![Windows icon](images/windows_62x62.png) <br> macOS
-
+ - Windows 10 Desktop
+ - Windows 10 Modern Apps
+ - Web Browser
+ - Android
+ - iOS
+ - macOS
 
 ## Supported clients
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Excel icon](images/excel_solid_60x60.png) <br> Excel | ![Delve icon](images/delve_solid_60x60.png) <br> Delve | ![OneDrive for Business icon](images/onedriveforbusiness_solid_60x60.png) <br> OneDrive | ![OneNote icon](images/onenote_solid_60x60.png) <br> OneNote | ![Outlook icon](images/outlook_solid_60x60.png) <br> Outlook | ![PowerBI icon](images/powerbi_solid_60x60.png) <br> Power BI
-| ![PowerPoint icon](images/powerpoint_solid_60x60.png) <br> PowerPoint | ![SharePoint icon](images/sharepoint_solid_60x60.png) <br> SharePoint | ![Skype for Business icon](images/skypeforbusiness_solid_60x60.png) <br> Skype Business | ![Sway icon](images/sway_solid_60x60.png) <br> Sway | ![Visio icon](images/visio_solid_60x60.png) <br> Visio | ![Word icon](images/word_solid_60x60.png) <br> Word
+| ![Delve icon](images/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![Excel icon](images/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Flow icon](images/o365-flow-64x64.png) <br> [Flow](https://flow.microsoft.com) | ![Forms icon](images/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) | ![Kaizala icon](images/o365-officestore-64x64.png) <br> [Kaizala](https://products.office.com/en/business/microsoft-kaizala) 
+| ![Office 365 Admin icon](images/o365-o365admin-64x64.png) <br> [Office 365 <br> Admin](https://products.office.com/business/manage-office-365-admin-app) | ![OneDrive for Business icon](images/o365-OneDrive-64x64.png) <br> [OneDrive](https://products.office.com/onedrive-for-business/online-cloud-storage) | ![OneNote icon](images/o365-OneNote-64x64.png) <br> [OneNote](https://products.office.com/onenote) | ![Outlook icon](images/o365-outlook-64x64.png) <br> [Outlook](https://products.office.com/outlook) | ![Planner icon](images/o365-planner-64x64.png) <br> [Planner](https://products.office.com/business/task-management-software) 
+| ![PowerBI icon](images/o365-powerbi-64x64.png) <br> [Power BI](https://powerbi.microsoft.com) | ![PowerPoint icon](images/o365-powerpoint-64x64.png) <br> [PowerPoint](https://products.office.com/powerpoint) | ![Project icon](images/o365-project-64x64.png) <br> [Project](https://products.office.com/project) | ![SharePoint icon](images/o365-sharepoint-64x64.png) <br> [Sharepoint](https://products.office.com/sharepoint) | ![Skype for Business icon](images/o365-skypeforbusiness-64x64.png) <br> [Skype for <br> Business](https://www.skype.com/business/) 
+| ![StaffHub icon](images/o365-staffhub-64x64.png) <br> [StaffHub](https://products.office.com/microsoft-staffhub/staff-scheduling-software) | ![Stream icon](images/o365-stream-64x64.png) <br> [Stream](https://stream.microsoft.com) | ![Sway icon](images/o365-sway-64x64.png) <br> [Sway](https://sway.com) | ![Teams icon](images/o365-teams-64x64.png) <br> [Teams](https://products.office.com/microsoft-teams/group-chat-software) | ![To-Do icon](images/o365-todo-64x64.png) <br> [To-Do](https://todo.microsoft.com) 
+| ![Visio icon](images/o365-visio-64x64.png) <br> [Visio](https://products.office.com/visio/flowchart-software) | ![Word icon](images/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Yammer icon](images/o365-yammer-64x64.png) <br> [Yammer](https://products.office.com/yammer/yammer-overview)
 
 > [!NOTE]
 > Any exceptions will be called out here, will NOT be included if no exception exists. 
