@@ -3,7 +3,7 @@ title: "Office 365 Client App Support - Conditional Access"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 5/17/2018
+ms.date: 7/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration

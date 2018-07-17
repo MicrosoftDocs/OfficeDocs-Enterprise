@@ -1,18 +1,18 @@
 ---
-title: "Office 365 Client Capabilities - Mobile Application Management"
+title: "Office 365 Client App Support - Mobile Application Management"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 5/17/2018
+ms.date: 7/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration
 localization_priority: None
 ms.collection: Strat_O365_Enterprise
-description: "Summary: Understand Office 365 mobile application management"
+description: "Understand Office 365 client app support for mobile application management"
 ---
 
-# Office 365 Client Capabilities - Mobile Application Management
+# Office 365 Client App Support - Mobile Application Management
 
 Leveraging the suite of Intune management features, mobile application management (MAM) lets you publish, push, configure, secure, monitor, and update mobile apps for your users. MAM can protect an organization's data within an application for all devices, whether enrolled in Intune or not.
 
