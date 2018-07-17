@@ -37,5 +37,5 @@ Learn more about [mobile application management](https://docs.microsoft.com/intu
 | ![To-Do icon](images/o365-todo-64x64.png) <br> [To-Do](https://todo.microsoft.com) | ![Visio icon](images/o365-visio-64x64.png) <br> [Visio](https://products.office.com/visio/flowchart-software) | ![Word icon](images/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Yammer icon](images/o365-yammer-64x64.png) <br> [Yammer](https://products.office.com/yammer/yammer-overview)
 
 > [!NOTE]
-> <sup>1</sup> Flow and Sway currently supported on Android only. <br>
-<sup>2</sup> To-Do currently supported on iOS only.
+> <sup>1</sup> Flow and Sway currently supported on Android only. Full support across all platforms coming soon. <br>
+<sup>2</sup> To-Do currently supported on iOS only. Full support across all platforms coming soon.
