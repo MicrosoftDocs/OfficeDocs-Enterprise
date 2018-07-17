@@ -1,12 +1,12 @@
 ---
 title: Office 365 Enterprise
 description: Add a short description
-services: skype-for-business-online-admin
+services: o365-solutions
 author: robmazz
-manager: samanro
+manager: laurawi
 layout: LandingPage
 ms.assetid: 
-ms.service: skype-for-business-online-admin
+ms.service: o365-solutions
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
