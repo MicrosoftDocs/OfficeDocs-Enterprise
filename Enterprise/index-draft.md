@@ -171,18 +171,6 @@ ms.author: robmazz
             </div>
         </div>
     </li>
-    <li>
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Teams</h3>
-                        <p><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Learn more and get started with Microsoft Teams</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </li>
 </ul>
 
 <hr>
