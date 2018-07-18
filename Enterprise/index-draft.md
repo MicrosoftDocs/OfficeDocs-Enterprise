@@ -1,12 +1,12 @@
 ---
 title: Office 365 Enterprise
 description: Add a short description
-services: skype-for-business-online-admin
+services: o365-solutions
 author: robmazz
-manager: samanro
+manager: laurawi
 layout: LandingPage
 ms.assetid: 
-ms.service: skype-for-business-online-admin
+ms.service: o365-solutions
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
@@ -56,18 +56,18 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://docs.microsoft.com/DeployOffice/">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks.svg" alt="GET APPROVED ALT TEXT" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office 365 training</h3>
-                <p>Improve your Office 365 knowledge and skills with our new Learning Path training.</p>
+                        <h3>Office 365 ProPlus</h3>
+                <p>Learn how to plan, deploy, and manage Office 365 ProPlus in your enterprise environment.</p>
                     </div>
                 </div>
             </div>
@@ -119,12 +119,12 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lock-protected.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="GET APPROVED ALT TEXT" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Security and compliance</h3>
-                <p>Learn how to enable and manage Office 365 security and compliance features.</p>
+                        <h3>Office 365 Training</h3>
+                <p>Improve your Office 365 knowledge and skills with our new Learning Path training.</p>
                     </div>
                 </div>
             </div>
