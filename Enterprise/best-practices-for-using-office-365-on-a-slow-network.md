@@ -180,7 +180,7 @@ Microsoft continually improves the overall performance of Office 365 by monitori
   
 ## See also
 
-[Network planning and performance tuning for Office 365](moved/network-planning-and-performance.md)
+[Network planning and performance tuning for Office 365](network-planning-and-performance.md)
   
 [Microsoft Virtual Academy course—Office 365 performance management](https://blogs.office.com/2014/12/03/microsoft-virtual-academy-course-office-365-performance-management/)
   

@@ -34,7 +34,7 @@ Turning HMA on means:
   
 1. Being sure you meet the prereqs before you begin.
     
-1. Since many **prerequisites** are common for both Skype for Business and Exchange, [see the overview article for your pre-req checklist](ef753b32-7251-4c9e-b442-1a5aec14e58d.md). Do this before you begin any of the steps in this article.
+1. Since many **prerequisites** are common for both Skype for Business and Exchange, [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md). Do this before you begin any of the steps in this article.
     
 2. Adding on-premises web service URLs as Service Principal Names (SPNs) in Azure AD.
     
@@ -44,11 +44,11 @@ Turning HMA on means:
     
 5. Enabling HMA in EXCH.
     
- **Note** Does your version of Office support MA? Check [here](https://c3web.azurewebsites.net/topics/e4c45989-4b1a-462e-a81b-2a13191cf517/edit).
+ **Note** Does your version of Office support MA? See [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md).
   
 ## Make sure you meet all the pre-reqs
 
-Since many prerequisites are common for both Skype for Business and Exchange, [see the overview article for your pre-req checklist](https://c3web.azurewebsites.net/topics/ef753b32-7251-4c9e-b442-1a5aec14e58d/edit). Do this  *before*  you begin any of the steps in this article. 
+Since many prerequisites are common for both Skype for Business and Exchange, review [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md). Do this  *before*  you begin any of the steps in this article. 
   
 ## Add on-premises web service URLs as SPNs in Azure AD
 
@@ -74,41 +74,37 @@ Ensure the URLs clients may connect to are listed as HTTPS service principal nam
     
 Take note of (and screenshot for later comparison) the output of this command, which should include an https:// *autodiscover. *yourdomain*  .com *  and https://  *mail.yourdomain.com*  URL, but mostly consist of SPNs that begin with 00000002-0000-0ff1-ce00-000000000000/. If there are https:// URLs from your on-premises that are missing we will need to add those specific records to this list. 
   
-3. If you don't see your internal and external MAPI/HTTP, EWS, ActiveSync, OAB and Autodiscover records in this list, you must add them using the command below (the example URLs are 'mail.corp.contoso.com' and 'owa.contoso.com', but you'd **replace the example URLs with your own** ): 
-  
-- $x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000
-    
+3. If you don't see your internal and external MAPI/HTTP, EWS, ActiveSync, OAB and Autodiscover records in this list, you must add them using the command below (the example URLs are '`mail.corp.contoso.com`' and '`owa.contoso.com`', but you'd **replace the example URLs with your own** ): </br>
+```
+- $x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000   
 - $x.ServicePrincipalnames.Add("https://mail.corp.contoso.com/")
-    
 - $x.ServicePrincipalnames.Add("https://owa.contoso.com/")
-    
 - $x.ServicePrincipalnames.Add("https://eas.contoso.com/")
-    
 - Set-MSOLServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $x.ServicePrincipalNames
-    
-4. Verify your new records were added by running the Get-MsolServicePrincipal command from step 2 again, and looking through the output. Compare the list / screenshot from before to the new list of SPNs (you may also screenshot the new list for your records). If you were successful, you will see the two new URLs in the list. Going by our example, the list of SPNs will now include the specific URLs  *https://mail.corp.contoso.com*  and  *https://owa.contoso.com*  . 
+```
+ 
+4. Verify your new records were added by running the Get-MsolServicePrincipal command from step 2 again, and looking through the output. Compare the list / screenshot from before to the new list of SPNs (you may also screenshot the new list for your records). If you were successful, you will see the two new URLs in the list. Going by our example, the list of SPNs will now include the specific URLs  `https://mail.corp.contoso.com`  and  `https://owa.contoso.com`. 
   
 ## Verify Virtual Directories are Properly Configured
 
-Now verify OAuth is properly enabled in Exchange on all of the Virtual Directories Outlook might use by running the following commands;
-  
-- **Get-MapiVirtualDirectory | FL server,\*url\*,\*auth\***
-    
-- **Get-WebServicesVirtualDirectory | FL server,\*url\*,\*oauth\***
-    
-- **Get-OABVirtualDirectory | FL server,\*url\*,\*oauth\***
-    
-- **Get-AutoDiscoverVirtualDirectory | FL server,\*oauth\***
-    
+Now verify OAuth is properly enabled in Exchange on all of the Virtual Directories Outlook might use by running the following commands:
+
+```
+Get-MapiVirtualDirectory | FL server,\*url\*,\*auth\* 
+Get-WebServicesVirtualDirectory | FL server,\*url\*,\*oauth\*
+Get-OABVirtualDirectory | FL server,\*url\*,\*oauth\*
+Get-AutoDiscoverVirtualDirectory | FL server,\*oauth\*
+```
+
 Check the output to make sure **OAuth** is enabled on each of these VDirs, it will look something like this (and the key thing to look at is 'OAuth'); 
   
  **[PS] C:\Windows\system32\>Get-MapiVirtualDirectory | fl server,\*url\*,\*auth\***
   
  **Server : EX1**
   
- **InternalUrl : https://mail.contoso.com/mapi**
+ **InternalUrl : `https://mail.contoso.com/mapi`**
   
- **ExternalUrl : https://mail.contoso.com/mapi**
+ **ExternalUrl : `https://mail.contoso.com/mapi`**
   
  **IISAuthenticationMethods : {Ntlm, OAuth, Negotiate}**
   
@@ -122,7 +118,7 @@ If OAuth is missing from any server and any of the four virtual directories then
 
 Return to the on-premises Exchange Management Shell for this last command. Now you can validate that your on-premises has an entry for the evoSTS authentication provider:
   
-- Get-AuthServer | where {$_.Name -eq "EvoSts"}
+`Get-AuthServer | where {$_.Name -eq "EvoSts"}`
     
 Your output should show an AuthServer of the Name EvoSts and the 'Enabled' state should be True. If you don't see this, you should download and run the most recent version of the Hybrid Configuration Wizard.
   
@@ -130,11 +126,12 @@ Your output should show an AuthServer of the Name EvoSts and the 'Enabled' state
   
 ## Enable HMA
 
-Run the following command in the Exchange Management Shell, on-premises
-  
-- Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true
-    
-- Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+Run the following command in the Exchange Management Shell, on-premises:
+
+```
+Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true  
+Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
+```
     
 ## Verify
 
