@@ -26,8 +26,6 @@ Most customers don't need to do anything to prepare for Office 365. It's an appl
   
 If you want help getting Office 365 set up, **[FastTrack](https://fasttrack.microsoft.com/office)** is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
   
-|
-|
 |****Choose one or more to get started:****||
 |:-----|:-----|
 |**Install** and run the [health, readiness, and connectivity checks](https://configure.office.com/Scenario.aspx?Sid=11&amp;FromSetup=true&amp;forceStart=true).  <br/> |Automatically checks network connectivity to the selected Office 365 services and applications.  <br/> Validates existing Office compatibility for the person/computer that runs the test.  <br/> > [!TIP]> No data is stored or changes made by these tools.           |
@@ -53,6 +51,6 @@ Here's a short link you can use to come back: [https://aka.ms/deployenterprise36
 
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
   
-[Deployment advisors for Office 365 services](165f46e8-3533-4d76-be57-97f81ebd40f2.md)
+[Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
   
 
