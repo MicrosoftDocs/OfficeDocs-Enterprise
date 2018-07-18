@@ -3,7 +3,7 @@ title: "Simulated cross-premises virtual network in Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/18/2018
+ms.date: 07/09/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -141,8 +141,8 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName DC2 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC2-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
-$diskConfig=New-AzureRmDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC2-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
+$diskConfig=New-AzureRmDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
 $dataDisk1=New-AzureRmDisk -DiskName "DC2-DataDisk1" -Disk $diskConfig -ResourceGroupName $rgName
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name "DC2-DataDisk1" -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
