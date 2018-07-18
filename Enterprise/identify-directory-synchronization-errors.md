@@ -27,7 +27,7 @@ You can view directory synchronization errors in the Office 365 admin center. On
 
 To view any errors in the admin center:
   
-1. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
+1. Sign in to Office 365 with your work or school account. 
     
 2. Go to the [About the Office 365 admin center](https://support.office.com/article/758befc4-0888-4009-9f14-0d147402fd23).
     
@@ -55,7 +55,7 @@ To view any errors in the admin center:
 
 To view any errors in the old admin center:
   
-1. [Sign in to Office 365](where-to-sign-in.md) with your work or school account. 
+1. Sign in to Office 365 with your work or school account. 
     
 2. Go to the [About the Office 365 admin center](https://support.office.com/article/758befc4-0888-4009-9f14-0d147402fd23#SwitchBack).
     

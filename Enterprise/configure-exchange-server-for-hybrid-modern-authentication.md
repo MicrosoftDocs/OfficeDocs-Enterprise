@@ -141,6 +141,9 @@ You should also hold down the CTRL key at the same time you right click the icon
   
  **Note** Need to configure Skype for Business with HMA? You'll need two articles: One that lists [supported topologies](https://technet.microsoft.com/en-us/library/mt803262.aspx), and one that shows you [how to do the configuration](configure-skype-for-business-for-hybrid-modern-authentication.md).
   
-[Link back to the Modern Authentication overview](ef753b32-7251-4c9e-b442-1a5aec14e58d.md) . 
+
+## Related topics
+
+[Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md) 
   
 

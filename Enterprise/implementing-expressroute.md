@@ -570,7 +570,6 @@ Keep in mind that while deploying Office 365 with an ExpressRoute connection you
 Here's a short link you can use to come back: [https://aka.ms/implementexpressroute365](https://aka.ms/implementexpressroute365)
   
 ## Related Topics
-<a name="troubleshooting"> </a>
 
 [Network connectivity to Office 365](network-connectivity.md)
   
@@ -578,9 +577,9 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
   
-[Routing with ExpressRoute for Office 365](e1da26c6-2d39-4379-af6f-4da213218408.md)
+[Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
   
-[Network planning with ExpressRoute for Office 365](103208f1-e788-4601-aa45-504f896511cd.md)
+[Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
   
 [Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
   
@@ -594,7 +593,7 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Office 365 performance tuning using baselines and performance history](1492cb94-bd62-43e6-b8d0-2a61ed88ebae.md)
   
-[Performance troubleshooting plan for Office 365](e241e5d9-b1d8-4f1d-a5c8-4106b7325f8c.md)
+[Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
   
 [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
   
