@@ -39,11 +39,11 @@
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
-### [Overview of Mobile Device Management (MDM) for Office 365](overview-of-mdm.md)
-### [Capabilities of built-in Mobile Device Management for Office 365](capabilities-of-mobile-device-management.md)
-### [Choose between MDM for Office 365 and Microsoft Intune](choose-between-mdm-and-intune.md)
-### [Privacy and security for built-in mobile device management for Office 365](privacy-and-security-for-mdm.md)
-### [Frequently asked questions about MDM](frequently-asked-questions-about-mdm.md)
+### [Overview of Mobile Device Management (MDM) for Office 365](/SecurityCompliance/overview-of-mdm?toc=/Office365/Enterprise/toc.json)
+### [Capabilities of built-in Mobile Device Management for Office 365](/SecurityCompliance/capabilities-of-mobile-device-management?toc=/Office365/Enterprise/toc.json)
+### [Choose between MDM for Office 365 and Microsoft Intune](/SecurityCompliance/choose-between-mdm-and-intune?toc=/Office365/Enterprise/toc.json)
+### [Privacy and security for built-in mobile device management for Office 365](/SecurityCompliance/privacy-and-security-for-mdm?toc=/Office365/Enterprise/toc.json)
+### [Frequently asked questions about MDM](/SecurityCompliance/frequently-asked-questions-about-mdm?toc=/Office365/Enterprise/toc.json)
 ### [Network and migration planning for Office 365](network-and-migration-planning.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
@@ -62,7 +62,7 @@
 ## Office 365 client support
 ### [Conditional access](https://docs.microsoft.com/deployoffice/security/secure-and-control-access-to-office)
 ### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
-### Mobile application management
+### [Mobile application management](https://support.office.com/en-us/article/Deploy-and-manage-mobile-apps-d35db652-629d-4087-8dc0-1e0ed922307c)
 
 # Test Office 365
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -84,7 +84,7 @@
 ## [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365/office-365)
 ## Deploy Office 365 Enterprise for your organization
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
-### Office 365 integration with on-premises environments
+### [Office 365 integration with on-premises environments](office-365-integration.md)
 ### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
 ### Security best practices for Office 365
 ## Set up your network
@@ -247,8 +247,8 @@
 ### Upgrade your network to stand-alone Yammer Enterprise subscription
 ### What to do when users cannot log in to Yammer on Android devices
 
-# Security & Compliance
-# Office 365 PowerShell
-# Office 365 admin tasks
+# [Security & Compliance](/SecurityCompliance/index.md)
+# [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
+# [Office 365 admin tasks](/admin/index.md)
 # Help for small and mid-sized businesses
   
