@@ -93,8 +93,6 @@ Inbound connections should be reviewed regardless of whether they're connecting 
   
 Here's a sample of the level of detail required. In this case Exchange Hybrid would route to the on-premises system over ExpressRoute.
   
-|
-|
 |**Connection property**|**Value**|
 |:-----|:-----|
 |**Network traffic direction** <br/> |Inbound  <br/> |
@@ -112,8 +110,6 @@ Here's a sample of the level of detail required. In this case Exchange Hybrid wo
    
 Here's a sample of a service that is outbound only:
   
-|
-|
 |**Connection property**|**Value**|
 |:-----|:-----|
 |**Network traffic direction** <br/> |Outbound  <br/> |
@@ -174,7 +170,6 @@ Similarly, the inbound network traffic from Office 365 returns in one of three w
 ![Inbound connections for regional diagram](media/d6d6160d-bf28-4de3-a787-186c7432b306.png)
   
 ### Determine the appropriate meet-me location
-<a name="meetme"> </a>
 
 The selection of meet-me locations, which are the physical location where your ExpressRoute circuit connects your network to the Microsoft network, is influenced by the locations where people will access Office 365 from. As a SaaS offering, Office 365 does not operate under the IaaS or PaaS regional model in the same way Azure does. Instead, Office 365 is a distributed set of collaboration services, where users may need to connect to endpoints across multiple datacenters and regions, which may not necessarily be in the same location or region where the user's tenant is hosted.
   
@@ -182,8 +177,6 @@ This means the most important consideration you need to make when selecting meet
   
 Often times, there are multiple meet-me locations that could be selected within a region with relative proximity to your users. Fill out the following table to guide your decisions.
   
-|
-|
 |**Planned ExpressRoute meet-me locations in California and New York**||
 |:-----|:-----|
 |Location  <br/> |Number of people  <br/> |Expected latency to Microsoft network over Internet egress  <br/> |Expected latency to Microsoft network over ExpressRoute  <br/> |
@@ -348,17 +341,14 @@ Simply adding a source NAT to the inbound request resolves this misconfigured ne
 1. The incoming request continues to enter through the New Jersey data center's perimeter network. This time Source NAT is available.
     
 2. The response from the server routes back toward the IP associated with the Source NAT instead of the original IP address, resulting in the response returning along the same network path.
-    
 ![ExpressRoute Asymetric routing solution 1](media/0e87a155-f8de-48ed-92ac-27367b727a82.png)
-  
- **Solution 1b: Route Scoping**
+**Solution 1b: Route Scoping**
   
 Alternatively, you can choose to not allow the ExpressRoute BGP prefixes to be advertised, removing the alternate network path for those computers. In this diagram:
   
 1. The incoming request continues to enter through the New Jersey data center's perimeter network. This time the prefixes advertised from Microsoft over the ExpressRoute circuit are not available to the New Jersey data center.
     
 2. The response from the server routes back toward the IP associated with the original IP address over the only route available, resulting in the response returning along the same network path.
-    
 ![ExpressRoute Asymetric routing solution 2](media/9cb4b2bf-7aa6-487a-bc02-e02af8a979f6.png)
   
  **Problem 2: Cloud to on-premises connection over ExpressRoute**
@@ -372,21 +362,17 @@ The following diagram illustrates the asymmetric network path taken when your ne
   - The computer on your network routes the return traffic to Office 365 through any available ExpressRoute network connection.
     
   - The result is an Asymmetric connection to Office 365.
-    
-![ExpressRoute Asymetric routing problem 2](media/f6fd155b-bbb7-472a-846e-039a99f09913.png)
-  
- **Solution 2: Source NAT**
+    ![ExpressRoute Asymetric routing problem 2](media/f6fd155b-bbb7-472a-846e-039a99f09913.png)
+  **Solution 2: Source NAT**
   
 Simply adding a source NAT to the inbound request resolves this misconfigured network. In this diagram:
   
 1. The incoming request continues to enter through the New York data center's perimeter network. This time Source NAT is available.
     
 2. The response from the server routes back toward the IP associated with the Source NAT instead of the original IP address, resulting in the response returning along the same network path.
-    
 ![ExpressRoute Asymetric routing solution 3](media/a5d2b90d-a3ec-4047-afbf-6e6e99f376a7.png)
   
 ### Paper verify that the network design has path symmetry
-<a name="asymmetric"> </a>
 
 At this point, you need to verify on paper that your implementation plan offers route symmetry for the different scenarios in which you'll be using Office 365. You'll identify the specific network route that is expected to be taken when a person uses different features of the service. From the on-premises network and WAN routing, to the perimeter devices, to the connectivity path; ExpressRoute or the internet, and on to the connection to the online endpoint.
   
@@ -457,11 +443,7 @@ Some examples of test activities include the following.
     
 4. Validate that routes to your NAT are being advertised from your router.
     
-5. Validate that ExpressRoute has accepted your advertised prefixes.
-    
-  - Use the following cmdlet to verify peering advertisements:
-    
-  - 
+5. Validate that ExpressRoute has accepted your advertised prefixes.</br>Use the following cmdlet to verify peering advertisements:</br>
   ```
   Get-AzureRmExpressRouteCircuitRouteTable -DevicePath Primary -ExpressRouteCircuitName TestER -ResourceGroupName RG -PeeringType MicrosoftPeering
   ```
@@ -591,7 +573,7 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Call flow using ExpressRoute](https://support.office.com/article/413acb29-ad83-4393-9402-51d88e7561ab)
   
-[Office 365 performance tuning using baselines and performance history](1492cb94-bd62-43e6-b8d0-2a61ed88ebae.md)
+[Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
   
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
   
