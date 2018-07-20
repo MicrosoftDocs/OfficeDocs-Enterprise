@@ -56,7 +56,7 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
     
 - You need to install the modules that are required for Azure AD, SharePoint Online, and Skype for Business Online:
     
-   - [Azure Active Directory V2](connect-to-office-365-powershell.md#ConnectV2)
+   - [Azure Active Directory V2](connect-to-office-365-powershell.md##connect-with-the-azure-active-directory-powershell-for-graph-module)
    - [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)
    - [Skype for Business Online, Windows PowerShell Module](https://go.microsoft.com/fwlink/p/?LinkId=532439)
     
