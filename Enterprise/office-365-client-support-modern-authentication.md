@@ -14,7 +14,7 @@ description: "Office 365 Client App support for modern authentication."
 
 # Office 365 Client App Support - Modern Authentication
 
-Microsoft’s Modern Authentication capability enables Active Directory Authentication Library (ADAL)-based sign-in for Office client apps across different platforms. This enables sign-in features such as Multi-Factor Authentication (MFA), smart card and certificate-based authentication, and it removes the need for Outlook to use the Basic authentication protocol. 
+Microsoft’s Modern Authentication capability enables Active Directory Authentication Library (ADAL)-based sign-in for Office client apps across different platforms. This enables sign-in features such as Multi-Factor Authentication (MFA), smart card and certificate-based authentication.
 
 Learn more about [multi-factor authentication](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication) and [certificate-based authentication](https://docs.microsoft.com/azure/active-directory/active-directory-certificate-based-authentication-get-started).
 

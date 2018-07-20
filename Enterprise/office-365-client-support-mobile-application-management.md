@@ -16,16 +16,12 @@ description: "Understand Office 365 client app support for mobile application ma
 
 Leveraging the suite of Intune management features, mobile application management (MAM) lets you publish, push, configure, secure, monitor, and update mobile apps for your users. MAM can protect an organization's data within an application for all devices, whether enrolled in Intune or not.
 
-Learn more about [mobile application management](https://docs.microsoft.com/intune/mam-faq), [multi-identity MAM](https://docs.microsoft.com/intune/app-protection-policy), and [Windows Information Protection](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip).
+Learn more about [mobile application management](https://docs.microsoft.com/intune/mam-faq) and [multi-identity MAM](https://docs.microsoft.com/intune/app-protection-policy).
 
 ## Supported platforms
 
- - Windows 10 Desktop
- - Windows 10 Modern Apps
- - Web Browser
  - Android<sup>1</sup>
  - iOS
- - macOS
 
 ## Supported clients
 
@@ -37,4 +33,4 @@ Learn more about [mobile application management](https://docs.microsoft.com/intu
 | ![Word icon](images/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Yammer icon](images/o365-yammer-64x64.png) <br> [Yammer](https://products.office.com/yammer/yammer-overview)
 
 > [!NOTE]
-> <sup>1</sup> Sway currently supported on Android only. Full support for Sway across all platforms coming soon.
+> <sup>1</sup> Support for Sway on iOS coming soon.
