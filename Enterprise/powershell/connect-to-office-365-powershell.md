@@ -68,7 +68,7 @@ If prompted about installing a module from an untrusted repository, type **Y** a
 
 ### Step 2: Connect to Azure AD for your Office 365 subscription
 
-To connect to Azure AD for your Office 365 subscription with an account name and password or with *multi-factor authentication (MFA)* run this command from a Windows PowerShell command prompt (it does not have to be elevated):
+To connect to Azure AD for your Office 365 subscription with an account name and password or with *multi-factor authentication (MFA)*, run this command from a Windows PowerShell command prompt (it does not have to be elevated):
     
 ```
 Connect-AzureAD
