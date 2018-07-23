@@ -1,7 +1,4 @@
-﻿
-  
-
-# [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+﻿# [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 ## [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
 ### [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
 #### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
@@ -112,7 +109,7 @@
 #### [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
 #### [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
 #### [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
-## [Upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+## [Plan your upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
 ### [Upgrade Office 2010 desktop applications](https://support.office.com/article/2a58999c-4d83-4e67-9fde-bc96d487105e.aspx)
 ### [Upgrade from Exchange 2010](exchange-2010-end-of-support.md)
 ### [Upgrade from SharePoint 2010](upgrade-from-sharepoint-2010.md)
