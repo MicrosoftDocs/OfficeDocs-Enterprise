@@ -3,15 +3,16 @@ title: "PerformancePoint Server 2007 end of support roadmap"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 5/25/2018
+ms.date: 07/23/2018
 ms.audience: ITPro
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
 - PSV120
 - PDD140
+- MET150
 ms.assetid: 89d9feee-2285-419c-8c14-0f7f583536e0
 description: "PerformancePoint Server 2007, ProClarity, and SharePoint Server 2007 have reached end of support. Read this article to plan your BI solution upgrade."
 ---
@@ -48,8 +49,8 @@ With these BI applications reaching the end of support, this is a great time to 
   
 |**If you were using this...**|**Explore these options...**|**And keep this in mind...**|
 |:-----|:-----|:-----|
-| PerformancePoint Server 2007 Monitoring &amp; Analytics capabilities, including:  <br/>  PerformancePoint Monitoring Server  <br/>  PerformancePoint Dashboard Designer  <br/>  Dashboard Viewer for SharePoint Services (used for rendering PerformancePoint dashboards, scorecards, and reports)  <br/> |**Excel with Excel Online** (in the cloud or on-premises). For an overview, see [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/> **Power BI** (in the cloud or on-premises). For an overview, see [What is Power BI?](https://go.microsoft.com/fwlink/?linkid=841341) <br/> **SQL Server Reporting Services** (on-premises). For an overview, see [SQL Server Reporting Services (SSRS): Create, deploy, and manage mobile and paginated reports](https://go.microsoft.com/fwlink/?linkid=841342) <br/> **PerformancePoint Services** (on-premises). For an overview, see [What's new for PerformancePoint Services (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?linkid=841343) <br/> |Excel and Excel Online are available as either online (cloud-based) or on-premises solutions. Many reporting and dashboard needs can be met with the capabilities of Excel with Excel Online.  <br/> Power BI is available as either an online or an on-premises solution. Power BI is not included in Office 365, but you can get started using Power BI for free, and then, depending on your data usage and business needs, upgrade to Power BI Pro.  <br/> Reporting Services and PerformancePoint Services are both on-premises solutions.  <br/> PerformancePoint Services is available in SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016.  <br/> Some features and report types that were available in PerformancePoint Server 2007 are not available in Excel, Power BI, Reporting Services, or PerformancePoint Services. You'll want to review the available features to determine the best solution for your business needs.  <br/> |
-| ProClarity software, including:  <br/>  ProClarity Desktop Professional  <br/>  ProClarity Analytics Server  <br/>  ProClarity SharePoint Viewer  <br/> |**Work with a Microsoft partner** to identify a solution that best meets your needs. Visit the [Microsoft Partner Center](https://go.microsoft.com/fwlink/?linkid=841249) <br/> You can also consider using Excel with Excel Online, Power BI, SQL Server Reporting Services, or PerformancePoint Services.  <br/> |Several, but not all, features and capabilities that were available in ProClarity software are available in other Microsoft offerings, including Excel, Power BI, Reporting Services, and PerformancePoint Services.  <br/> |
+| PerformancePoint Server 2007 Monitoring &amp; Analytics capabilities, including:  <br/><br/>  PerformancePoint Monitoring Server  <br/><br/>  PerformancePoint Dashboard Designer  <br/><br/>  Dashboard Viewer for SharePoint Services (used for rendering PerformancePoint dashboards, scorecards, and reports)  <br/> |**Excel with Excel Online** (in the cloud or on-premises). For an overview, see [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/><br/> **Power BI** (in the cloud or on-premises). For an overview, see [What is Power BI?](https://go.microsoft.com/fwlink/?linkid=841341) <br/><br/> **SQL Server Reporting Services** (on-premises). For an overview, see [SQL Server Reporting Services (SSRS): Create, deploy, and manage mobile and paginated reports](https://go.microsoft.com/fwlink/?linkid=841342) <br/><br/> **PerformancePoint Services** (on-premises). For an overview, see [What's new for PerformancePoint Services (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?linkid=841343) <br/> |Excel and Excel Online are available as either online (cloud-based) or on-premises solutions. Many reporting and dashboard needs can be met with the capabilities of Excel with Excel Online.  <br/><br/> Power BI is available as either an online or an on-premises solution. Power BI is not included in Office 365, but you can get started using Power BI for free, and then, depending on your data usage and business needs, upgrade to Power BI Pro. <br/> <br/> Reporting Services and PerformancePoint Services are both on-premises solutions.  <br/><br/> PerformancePoint Services is available in SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016. <br/> <br/> Some features and report types that were available in PerformancePoint Server 2007 are not available in Excel, Power BI, Reporting Services, or PerformancePoint Services. You'll want to review the available features to determine the best solution for your business needs.  <br/> |
+| ProClarity software, including: <br/> <br/>  ProClarity Desktop Professional  <br/> <br/> ProClarity Analytics Server  <br/> <br/> ProClarity SharePoint Viewer  <br/> |**Work with a Microsoft partner** to identify a solution that best meets your needs. Visit the [Microsoft Partner Center](https://go.microsoft.com/fwlink/?linkid=841249) <br/> You can also consider using Excel with Excel Online, Power BI, SQL Server Reporting Services, or PerformancePoint Services.  <br/> |Several, but not all, features and capabilities that were available in ProClarity software are available in other Microsoft offerings, including Excel, Power BI, Reporting Services, and PerformancePoint Services.  <br/> |
 |SharePoint Server 2007 KPIs (also called MOSS KPIs)  <br/> |**Excel with Excel Services** (Excel Services is now referred to as Excel Online). For an overview, see [Business intelligence in Excel and Excel Services (SharePoint Server 2013)](https://support.office.com/article/2740f10c-579d-4b40-a1d9-7beb5d38547c.aspx) <br/> |MOSS KPIs that were created using SharePoint Server 2007 can be used in SharePoint Server 2010, SharePoint Server 2013, and SharePoint Server 2016; however, new MOSS KPIs cannot be created.  <br/> |
 |Excel 2007  <br/> |**Excel with Excel Online** (in the cloud or on-premises). For an overview, see [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/> **Power BI** (in the cloud or on-premises). For an overview, see [What is Power BI?](https://go.microsoft.com/fwlink/?linkid=841341) <br/> |Both Excel with Excel Online and Power BI offer your organization cloud-based and on-premises solutions, with support for a wide variety of data sources.  <br/> |
    
@@ -73,7 +74,6 @@ After you have explored your upgrade options, your next step is to prepare an up
 |[Use PerformancePoint Services](pps-2007-end-of-support.md#PPS) <br/> |On-premises only  <br/> |
    
 ### Use Excel with Excel Online (in the cloud or on-premises)
-<a name="ExcelAndOnline_1"> </a>
 
 With Excel Online—also known as Excel Services in SharePoint Server—people can view and use workbooks in a browser window, even if Excel is not installed on their computer. You can use Excel to create reports, scorecards, and dashboards, and then share your workbooks with others by using Excel Online, whether you're using SharePoint Online as part of Office 365, or SharePoint Server on-premises. And, you can use data stored on-premises or in the cloud, which gives you the ability to use a wide variety of data sources.
   
@@ -81,17 +81,15 @@ The following table compares key advantages of using Excel with Office 365 to us
   
 |**[Excel with Office 365 (in the cloud)](pps-2007-end-of-support.md#ExcelO365)**|**[Excel with SharePoint Server (on-premises)](pps-2007-end-of-support.md#ExcelSPS)**|
 |:-----|:-----|
-|**You get the latest, greatest version of Excel**. With Office 365, you get the latest version of Excel, which includes powerful, new chart types, the ability to create charts and tables quickly and easily, and support for more data sources.  <br/> **Setup is much simpler**. Excel Online is included with Office 365 for business, so there's no heavy lifting on your part. Sign up and sign in, and you'll be up and running faster and more efficiently than upgrading your on-premises servers.  <br/> **People have everywhere access to their workbooks**. People can securely view workbooks from wherever they are, using their computer, smart phone, and tablet.  <br/> **There's more** ! See [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/> |**You manage your global settings**. As a SharePoint administrator, you can specify global settings, such as security, load balancing, session management, workbook caching, and external data connections.  <br/> **You can use Excel Services with PerformancePoint Services**. You can configure Excel Services and PerformancePoint Services as part of your SharePoint Server installation, and include Excel Services reports in your PerformancePoint dashboards.  <br/> **There's more** ! See [Business intelligence in Excel and Excel Services (SharePoint Server 2013)](https://support.office.com/article/2740f10c-579d-4b40-a1d9-7beb5d38547c.aspx) <br/> |
+|**You get the latest, greatest version of Excel**. With Office 365, you get the latest version of Excel, which includes powerful, new chart types, the ability to create charts and tables quickly and easily, and support for more data sources. <br/> <br/> **Setup is much simpler**. Excel Online is included with Office 365 for business, so there's no heavy lifting on your part. Sign up and sign in, and you'll be up and running faster and more efficiently than upgrading your on-premises servers. <br/> <br/> **People have everywhere access to their workbooks**. People can securely view workbooks from wherever they are, using their computer, smart phone, and tablet. <br/> <br/> **There's more** ! See [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/> |**You manage your global settings**. As a SharePoint administrator, you can specify global settings, such as security, load balancing, session management, workbook caching, and external data connections. <br/> <br/> **You can use Excel Services with PerformancePoint Services**. You can configure Excel Services and PerformancePoint Services as part of your SharePoint Server installation, and include Excel Services reports in your PerformancePoint dashboards. <br/> <br/> **There's more** ! See [Business intelligence in Excel and Excel Services (SharePoint Server 2013)](https://support.office.com/article/2740f10c-579d-4b40-a1d9-7beb5d38547c.aspx) <br/> |
    
 #### Excel with Office 365 (in the cloud)
-<a name="ExcelO365_1"> </a>
 
 If you move to Office 365, you'll have the most up-to-date services and applications, including Excel 2016 and Excel Online. PerformancePoint Services is not available in Office 365, so you'll be replacing your PerformancePoint dashboard content with Excel workbooks or other reports. The good news is, Excel 2016 has lots of new chart types and creating impressive dashboards in Excel is easier than ever. And, new features are being added regularly. To learn more, see [What's New in Excel 2016 for Windows](https://support.office.com/article/5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73.aspx).
   
 And, when you purchase 50 seats or more of Office 365, the Microsoft FastTrack team can help you get set up. To learn more, see [Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=780698).
   
 #### Excel with SharePoint Server (on-premises)
-<a name="ExcelSPS_1"> </a>
 
 If you upgrade to a newer version of SharePoint, you can use Excel with Excel Services or Excel Online, as follows:
   
@@ -108,19 +106,16 @@ To learn more about your SharePoint upgrade options, see [SharePoint Server 2007
 To learn more about Excel Services, see [Excel Services overview (SharePoint Server 2010)](https://go.microsoft.com/fwlink/?linkid=841362).
   
 ### Use Power BI (in the cloud or on-premises)
-<a name="PowerBI_1"> </a>
 
 Power BI is a suite of business analytics tools to analyze data and share insights. With Power BI, you can create interactive reports and dashboards using on-premises or online data sources. People can view and use your reports and dashboards using their computers or mobile devices.
   
 Power BI is not included in Office 365 or SharePoint Server, but is a separate offering that includes Power BI Desktop, Power BI gateways, and the Power BI service. Power BI also integrates with SharePoint Online. You can get started with Power BI for free, and depending on your data usage and business needs, upgrade to Power BI Pro. To learn more, see [What is Power BI?](https://go.microsoft.com/fwlink/?linkid=841341)
   
 ### Use Reporting Services (on-premises)
-<a name="SSRS_1"> </a>
 
 SQL Server Reporting Services provides a robust reporting solution, along with the ability to install and configure Reporting Services in either native mode or SharePoint integrated mode. You can author reports using several tools, including Report Designer, Report Builder, and Power View. With the latest release of SQL Server, you can also use SQL Server Mobile Report Publisher to deliver reports that scale to any screen size, giving your organization the ability to consume reports on their mobile devices. To learn more, see [SQL Server Reporting Services (SSRS): Create, deploy, and manage mobile and paginated reports](https://go.microsoft.com/fwlink/?linkid=841342).
   
 ### Use PerformancePoint Services (on-premises)
-<a name="PPS_1"> </a>
 
 As you know, PerformancePoint Server 2007 was purchased separately from SharePoint Server 2007. Beginning with SharePoint Server 2010, PerformancePoint Services is a service application in SharePoint Server. This means that you do not have to purchase separate server licenses or hardware in order to use PerformancePoint Services.
   

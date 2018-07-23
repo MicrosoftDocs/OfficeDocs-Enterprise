@@ -10,6 +10,7 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
+- MET150
 - WSU140
 - OSU140
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c

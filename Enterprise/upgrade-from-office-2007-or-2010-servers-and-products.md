@@ -3,13 +3,14 @@ title: "Resources to help you upgrade from Office 2007 or Office 2010 servers an
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 6/8/2018
+ms.date: 7/23/2018
 ms.audience: ITPro
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
+- MET150
 - LCC120
 - OFF120
 - OFF140

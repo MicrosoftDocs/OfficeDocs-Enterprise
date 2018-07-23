@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: IT_ProjectAdmin
 search.appverid:
+- MET150
 - ZPJ120
 - PJU120
 - PJW120

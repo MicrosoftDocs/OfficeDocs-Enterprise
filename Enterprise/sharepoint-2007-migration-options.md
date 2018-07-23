@@ -6,10 +6,11 @@ manager: laurawi
 ms.date: 1/31/2018
 ms.audience: ITPro
 ms.topic: conceptual
-ms.prod: office-online-server
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
+- MET150
 - SPS150
 - OSU140
 - SPO160

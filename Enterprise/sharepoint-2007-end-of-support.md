@@ -13,10 +13,11 @@ f1_keywords:
 - 'globalemailconfig'
 - 'configssc'
 - 'AppDefToBDC'
-ms.prod: office-online-server
+ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
+- MET150
 - OFU120
 - SPS150
 - OSU140
