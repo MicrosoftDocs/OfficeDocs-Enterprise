@@ -33,7 +33,7 @@ Office 2007 products and services have reached the end of support, and Office 20
   
 |**For this product**|**See this planning roadmap**|
 |:-----|:-----|
-|Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](https://support.office.com/article/2a58999c-4d83-4e67-9fde-bc96d487105e.aspx) <br/> |
+|Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](/DeployOffice/office-2010-end-support-roadmap.md) <br/> |
 |Exchange Server 2010  <br/> |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
 |SharePoint 2010 or SharePoint Server 2010  <br/> |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
    
@@ -47,7 +47,7 @@ With Office 2010 products and services nearing their end of support, this is a g
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
     
-- **Upgrade your on-premises servers and applications.** See the [Office 2010](https://support.office.com/article/2a58999c-4d83-4e67-9fde-bc96d487105e.aspx), [Exchange 2010](exchange-2010-end-of-support.md), and [SharePoint 2010](upgrade-from-sharepoint-2010.md) planning roadmaps. 
+- **Upgrade your on-premises servers and applications.** See the [Office 2010](/DeployOffice/office-2010-end-support-roadmap.md), [Exchange 2010](exchange-2010-end-of-support.md), and [SharePoint 2010](upgrade-from-sharepoint-2010.md) planning roadmaps. 
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     
@@ -75,10 +75,10 @@ Support has ended for Office 2007 products and services. The following roadmaps 
 |**Planning Roadmap**|**Date Support Ended**|
 |:-----|:-----|
 |[Exchange 2007 end of support roadmap](exchange-2007-end-of-support.md) <br/> |April 11, 2017  <br/> |
-|[Office 2007 end of support roadmap](https://support.office.com/article/416c54d8-823c-4def-bb7a-6a9b14ef2745.aspx) <br/> |October 10, 2017  <br/> |
+|[Office 2007 end of support roadmap](/DeployOffice/office-2007-end-support-roadmap.md) <br/> |October 10, 2017  <br/> |
 |[SharePoint Server 2007 end of support roadmap](sharepoint-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
 |[Project Server 2007 end of support roadmap](project-server-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
-|[Office Communications Server end of support roadmap](https://support.office.com/article/54f3d5ba-bdf9-4b37-a9e8-f1ab452d4f78.aspx) <br/> |January 8, 2018  <br/> |
+|[Upgrade from Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md) <br/> |January 8, 2018  <br/> |
 |[PerformancePoint Server 2007 end of support roadmap](pps-2007-end-of-support.md) <br/> |January 9, 2018  <br/> |
    
 When support ends for a Microsoft product, there are no new security updates, non-security updates, free or paid assisted support options (including custom support agreements), or online technical content updates.Whether you're an enterprise organization or an individual home user, you have several options to consider:
@@ -87,7 +87,7 @@ When support ends for a Microsoft product, there are no new security updates, no
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
     
-- **Upgrade your on-premises servers and applications.** See the [Exchange 2007](exchange-2007-end-of-support.md), [SharePoint Server 2007](sharepoint-2007-end-of-support.md), [Project Server 2007](project-server-2007-end-of-support.md), [Office Communications Server](https://support.office.com/article/54f3d5ba-bdf9-4b37-a9e8-f1ab452d4f78.aspx), and [PerformancePoint Server 2007](pps-2007-end-of-support.md) planning roadmaps. 
+- **Upgrade your on-premises servers and applications.** See the [Exchange 2007](exchange-2007-end-of-support.md), [SharePoint Server 2007](sharepoint-2007-end-of-support.md), [Project Server 2007](project-server-2007-end-of-support.md), [Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md), and [PerformancePoint Server 2007](pps-2007-end-of-support.md) planning content. 
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     
@@ -111,12 +111,10 @@ To learn more about these options, see **[Get the most from Office with Office 3
 ---
 
 ## What if I don't upgrade?
-<a name="whatif"> </a>
 
 You can choose not to upgrade at this time. Your on-premises servers and applications will continue to run. However, when you no longer receive security updates or support options, you or your organization could be vulnerable to security breaches. We strongly recommend that you plan your upgrade as soon as possible, whether to Office 365 or to newer versions of your on-premises servers and applications.
   
 ## What is Office 365?
-<a name="whatiso365"> </a>
 
 Office 365 is a software-as-a-service (SaaS) offering that is part of the Microsoft Cloud stack. [Office 365 Enterprise plans](https://aka.ms/viirjv) include Exchange Online for business email, Skype for Business Online for IM and online conferencing, and OneDrive for Business for online storage. Most business plans include Office software that can be installed on computers (PC and Mac), smart phones (Android, iOS, and Windows), and tablets (Android and iOS). With Office 365, you can be productive from just about anywhere and across a variety of devices. 
   
@@ -130,7 +128,6 @@ Office 365 is a software-as-a-service (SaaS) offering that is part of the Micros
 |**[Office 365 FAQ](https://aka.ms/office365faqs)** <br/> |Visit this page to see a list of frequently asked questions about Office 365, with links to additional information.  <br/> |
    
 ## What is Microsoft 365?
-<a name="m365"> </a>
 
 Microsoft 365 is the combination of Office 365, Windows 10, and Enterprise Mobility + Security (EMS) that provides a complete, intelligent solution to empower everyone to be creative and work together, securely. 
   
@@ -146,7 +143,6 @@ Microsoft 365 is the way to digitally transform your business with constantly-im
 |[Microsoft 365 Enterprise documentation](https://docs.microsoft.com/microsoft-365/enterprise/) <br/> |Get detailed information on the version of Microsoft 365 for enterprise organizations.  <br/> |
    
 ## Related topics
-<a name="seealso"> </a>
 
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
   
