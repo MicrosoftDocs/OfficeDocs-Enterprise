@@ -33,7 +33,7 @@ Office 365 PowerShell lets you to manage your Office 365 settings from the comma
     
 - You can use the following versions of Windows:
     
-  - Windows 10, Windows 8.1, Windows 8 or Windows 7 Service Pack 1 (SP1) 
+  - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1) 
     
   - Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 SP1
     
@@ -122,8 +122,6 @@ If you receive errors, check the following requirements:
 - **The Microsoft Azure Active Directory Module for Windows PowerShell requires that the Microsoft .NET Framework 3.5.*x* feature is enabled on your computer**. It's likely that your computer has a newer version installed (for example, 4 or 4.5.*x*), but backwards compatibility with older versions of the .NET Framework can be enabled or disabled. For more information, see the following topics:
     
   - For Windows Server 2012 or Windows Server 2012 R2, see [Enable .NET Framework 3.5 by using the Add Roles and Features Wizard](https://go.microsoft.com/fwlink/p/?LinkId=532368)
-    
-  - For Windows 8 or Windows 8.1, see [Installing the .NET Framework 3.5 on Windows 8 or 8.1](https://go.microsoft.com/fwlink/p/?LinkId=532369)
     
   - For Windows 7 or Windows Server 2008 R2, see [You can't open the Azure Active Directory Module for Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=532370)
 
