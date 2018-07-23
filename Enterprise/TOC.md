@@ -112,5 +112,6 @@
 #### [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
 #### [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
 #### [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
+## [Upgrading from Office 2007 or 2010 servers and client applications](upgrade-from-office-2007-or-2010-servers-and-products.md)
 ## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 
