@@ -169,7 +169,7 @@ Often major factors in choosing a method are the total cost of the upgrade and t
   
 ## Related links
 
-[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 [Microsoft Lifecycle Policy and Lifecycle search](https://support.microsoft.com/en-us/lifecycle)
   

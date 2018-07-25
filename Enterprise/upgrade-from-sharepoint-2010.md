@@ -169,7 +169,7 @@ One good way to see how a hybrid SharePoint farm works is by creating an [Office
   
 ## Related topics
 
-[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
   
 [Overview of the upgrade process from SharePoint 2010 to SharePoint 2013](https://technet.microsoft.com/en-us/library/mt493301%28v=office.16%29.aspx)
   
