@@ -30,7 +30,7 @@ Once you've deployed Office 365, you can maintain Office 365 connectivity using 
 |**Monitoring the health of Azure ExpressRoute** <br/> |If you are connecting to Office 365 using Azure ExpressRoute for Office 365, you'll want to ensure that you're using both the Office 365 Service Health Dashboard as well as the Azure [Reducing troubleshooting time with Azure Resource health](https://azure.microsoft.com/blog/reduce-troubleshooting-time-with-azure-resource-health/) <br/> |
 |**Using Azure AD Connect Health with AD FS** <br/> |If you're using AD FS for Single Sign-On with Office 365, you'll want to begin [using Azure AD Connect Health to monitor your AD FS infrastructure](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-health-adfs/).  <br/> |
 |**Programmatically monitor Office 365** <br/> |Refer to our guidance on the [Office 365 Management API](https://msdn.microsoft.com/library/jj984343%28v=office.15%29.aspx).  <br/> |
-   
+
 Here's a short link you can use to come back: [hhttps://aka.ms/monitorconnectivity365](https://aka.ms/monitorconnectivity365)
   
 ## See also
@@ -44,4 +44,3 @@ Here's a short link you can use to come back: [hhttps://aka.ms/monitorconnectivi
 [Office 365 integration with on-premises environments](office-365-integration.md)
   
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
-
