@@ -119,7 +119,7 @@
 ### [Office 2007 desktop](/DeployOffice/office-2007-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
 ### [Exchange 2007](exchange-2007-end-of-support.md)
 ### [SharePoint 2007](sharepoint-2007-end-of-support.md)
-### [Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
+### [Office Communications Server](/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
 ### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 ### [Project Server 2007](project-server-2007-end-of-support.md)
 # [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
