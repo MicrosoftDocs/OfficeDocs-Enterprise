@@ -100,7 +100,7 @@ Self-paced online learning experiences for Office 365 IT Pros.
   
 [Ways to migrate multiple email accounts to Office 365](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842)
   
-[Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
   
 [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
   
