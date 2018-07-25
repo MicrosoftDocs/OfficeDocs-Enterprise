@@ -65,6 +65,8 @@ OneDrive Multi-Geo is currently offered in these regions and countries:
 - Canada
     
 - European Union (EMEA)
+
+- France
     
 - Japan
     
@@ -76,7 +78,6 @@ OneDrive Multi-Geo is currently offered in these regions and countries:
       
 Upcoming geo locations:
   
-- France
 - India
     
 ## Getting started

@@ -35,6 +35,8 @@ The following Geos are available for use in a Multi-Geo configuration:
 
 - European Union
 
+- France
+
 - India (currently only available to customers with billing addresses in India)
 
 - Japan
@@ -124,6 +126,7 @@ You use three-letter codes to specify the Geo in the **PreferredDataLocation** p
 |Australia |AUS |
 |Canada |CAN |
 |European Union |EUR |
+|France |FRA|
 |India |IND |
 |Japan |JPN |
 |Korea |KOR |
@@ -148,6 +151,7 @@ APC
 AUS
 CAN
 EUR
+FRA
 GBR
 JPN
 KOR
