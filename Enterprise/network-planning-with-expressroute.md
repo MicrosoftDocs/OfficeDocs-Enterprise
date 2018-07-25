@@ -24,9 +24,7 @@ ExpressRoute for Office 365 provides layer 3 connectivity between the your netwo
 Azure ExpressRoute adds a direct path to a specific set of supported features and services that are offered by Office 365 servers within Microsoft's datacenters. Azure ExpressRoute doesn't replace Internet connectivity to Microsoft datacenters or basic Internet services such as domain name resolution. Azure ExpressRoute and your Internet circuits should be secured and redundant.
   
 The following table highlights a few differences between the internet and Azure ExpressRoute connections in the context of Office 365.
-  
-|
-|
+
 |**Differences in network planning**|**Internet network connection**|**ExpressRoute network connection**|
 |:-----|:-----|:-----|
 | Access to required internet services, including;  <br/>  DNS name resolution  <br/>  Certificate revocation verification  <br/>  Content delivery networks  <br/> |Yes  <br/> |Requests to Microsoft owned DNS and/or CDN infrastructure may use the ExpressRoute network.  <br/> |
@@ -35,28 +33,26 @@ The following table highlights a few differences between the internet and Azure 
 |High availability planning.  <br/> |Failover to an alternate internet network connection  <br/> |Failover to an alternate ExpressRoute connection  <br/> |
 |Direct connection with a predictable network profile.  <br/> |No  <br/> |Yes  <br/> |
 |IPv6 connectivity.  <br/> |Yes  <br/> |Yes  <br/> |
-   
-Expand the titles below for more network planning guidance. We've also recorded a 10-part [Azure ExpressRoute for Office 365 Training](https://channel9.msdn.com/series/aer) series that dives deeper. 
-  
+
+Expand the titles below for more network planning guidance. We've also recorded a 10-part [Azure ExpressRoute for Office 365 Training](https://channel9.msdn.com/series/aer) series that dives deeper.
+
 ## Existing Azure ExpressRoute customers
 
 If you're using an existing Azure ExpressRoute circuit and would like to add Office 365 connectivity over this circuit, you should look at the number of circuits, egress locations, and size of the circuits to ensure they'll meet the needs of your Office 365 usage. Most customers require additional bandwidth and many require additional circuits.
   
-To enable access to Office 365 over your existing Azure ExpressRoute circuits, [configure the route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) to ensure the Office 365 services are accessible. 
+To enable access to Office 365 over your existing Azure ExpressRoute circuits, [configure the route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) to ensure the Office 365 services are accessible.
   
 The Azure ExpressRoute subscription is customer centric, meaning subscriptions are tied to customers. As a customer, you can have multiple Azure ExpressRoute circuits and can access many Microsoft cloud resources over those circuits. For example, you can choose to access an Azure hosted virtual machine, an Office 365 test tenant, and an Office 365 production tenant over a pair of redundant Azure ExpressRoute circuits.
   
 This table outlines the two types of peering relationships you can choose to implement over your circuits.
-  
-|
-|
+
 |**Peering relationship**|**Azure Private**|**Microsoft**|
 |:-----|:-----|:-----|
 |**Services** <br/> |IaaS: Azure Virtual Machines  <br/> |PaaS: Azure public services  <br/> SaaS: Office 365  <br/> SaaS: Dynamics 365  <br/> |
 |****Connection initiation**** <br/> |Customer-to-Microsoft  <br/> Microsoft-to-Customer  <br/> |Customer-to-Microsoft  <br/> Microsoft-to-Customer  <br/> |
 |**QoS support** <br/> |No QoS  <br/> |QoS<sup>1</sup> <br/> |
-   
-<sup>1</sup>QoS supports Skype for Business only at this time.
+
+<sup>1 </sup>QoS supports Skype for Business only at this time.
   
 ## Bandwidth planning for Azure ExpressRoute
 
@@ -74,35 +70,33 @@ All of our recommendations on what type of network processing is recommended app
 
 Securing Azure ExpressRoute connectivity starts with the same principles as securing Internet connectivity. Many customers choose to deploy network and perimeter controls along the ExpressRoute path connecting their on-premises network to Office 365 and other Microsoft clouds. These controls may include firewalls, application proxies, data leakage prevention, intrusion detection, intrusion prevention systems, and so on. In many cases customers apply different levels of controls to traffic initiated from on-premises going to Microsoft, versus traffic initiated from Microsoft going to customer on-premises network, versus traffic initiated from on-premises going to a general Internet destination.
   
-Here's a few examples of integrating security with the [ExpressRoute connectivity model](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-connectivity-models) you choose to deploy. 
-  
-|
-|
+Here's a few examples of integrating security with the [ExpressRoute connectivity model](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-connectivity-models) you choose to deploy.
+
 |**ExpressRoute integration option**|**Network security perimeter model**|
 |:-----|:-----|
 |Co-located at a cloud exchange  <br/> |Install new or leverage existing security/perimeter infrastructure in the co-location facility where the ExpressRoute connection is established.  <br/> Leverage co-location facility purely for routing/interconnect purposes and back haul connections from co-location facility into the on-premises security/perimeter infrastructure.  <br/> |
 |Point-to-Point Ethernet  <br/> |Terminate the Point-to-Point ExpressRoute connection in the existing on-premises security/perimeter infrastructure location.  <br/> Install new security/perimeter infrastructure specific to the ExpressRoute path and terminate the Point-to-Point connection there.  <br/> |
 |Any-to-Any IPVPN  <br/> |Leverage an existing on-premises security/perimeter infrastructure at all locations that egress into the IPVPN used for ExpressRoute for Office 365 connectivity.  <br/> Hairpin the IPVPN used for ExpressRoute for Office 365 to specific on-premises locations designated to serve as the security/perimeter.  <br/> |
-   
+
 Some service providers also offer managed security/perimeter functionality as a part of their integration solutions with Azure ExpressRoute.
   
 When considering the topology placement of the network/security perimeter options used for ExpressRoute for Office 365 connections, following are additional considerations
   
 - The depth and type network/security controls may have impact on the performance and scalability of the Office 365 user experience.
-    
+
 - Outbound (on-premises-\>Microsoft) and inbound (Microsoft-\>on-premises) [if enabled] flows may have different requirements. These are likely different than Outbound to general Internet destinations.
-    
+
 - Office 365 requirements for ports/protocols and necessary IP subnets are the same whether traffic is routed through ExpressRoute for Office 365 or through the Internet.
-    
+
 - Topological placement of the customer network/security controls determines the ultimate end to end network between the user and Office 365 service and can have a substantial impact on network latency and congestion.
-    
+
 - Customers are encouraged to design their security/perimeter topology for use with ExpressRoute for Office 365 in accordance with best practices for redundancy, high availability, and disaster recovery.
-    
+
 Here's an example of Woodgrove Bank that compares the different Azure ExpressRoute connectivity options with the perimeter security models discussed above.
   
- **Example 1: Securing Azure ExpressRoute**
+### Example 1: Securing Azure ExpressRoute
   
-Woodgrove Bank is considering implementing Azure ExpressRoute and after planning the optimal architecture for [Routing with ExpressRoute for Office 365](routing-with-expressroute.md) and after using the above guidance to understand bandwidth requirements, they're determining the best method for securing their perimeter. 
+Woodgrove Bank is considering implementing Azure ExpressRoute and after planning the optimal architecture for [Routing with ExpressRoute for Office 365](routing-with-expressroute.md) and after using the above guidance to understand bandwidth requirements, they're determining the best method for securing their perimeter.
   
 For Woodgrove, a multi-national organization with locations in multiple continents, security must span all perimeters. The optimal connectivity option for Woodgrove is a multi-point connection with multiple peering locations around the globe to service the needs of their employees in each continent. Each continent includes redundant Azure ExpressRoute circuits within the continent and security must span all of these.
   
@@ -119,38 +113,38 @@ Focus on the people using and operating Office 365, if a failure of any one comp
   
 Outside of your network, Office 365, ExpressRoute, and your ExpressRoute provider all have different levels of availability.
   
- **Service Availability**
+### Service Availability
   
 - Office 365 services are covered by well-defined [service level agreements](https://technet.microsoft.com/library/office-365-service-level-agreement.aspx), which include uptime and availability metrics for individual services. One reason Office 365 can maintain such high service availability levels is the ability for individual components to seamlessly failover between the many Microsoft datacenters, using the global Microsoft network. This failover extends from the datacenter and network to the multiple Internet egress points, and enables failover seamlessly from the perspective of the people using the service.
-    
-- ExpressRoute [provides a 99.9% availability SLA](https://azure.microsoft.com/support/legal/sla/expressroute/v1_0/) on individual dedicated circuits between the Microsoft Network Edge and the ExpressRoute provider or partner infrastructure. These service levels are applied at the ExpressRoute circuit level, which consists of [two independent interconnects](https://azure.microsoft.com/documentation/articles/expressroute-introduction/) between the redundant Microsoft equipment and the network provider equipment in each peering location. 
-    
- **Provider Availability**
+
+- ExpressRoute [provides a 99.9% availability SLA](https://azure.microsoft.com/support/legal/sla/expressroute/v1_0/) on individual dedicated circuits between the Microsoft Network Edge and the ExpressRoute provider or partner infrastructure. These service levels are applied at the ExpressRoute circuit level, which consists of [two independent interconnects](https://azure.microsoft.com/documentation/articles/expressroute-introduction/) between the redundant Microsoft equipment and the network provider equipment in each peering location.
+
+### Provider Availability
   
 - Microsoft's service level arrangements stop at your ExpressRoute provider or partner. This is also the first place you can make choices that will influence your availability level. You should closely evaluate the architecture, availability, and resiliency characteristics your ExpressRoute provider offers between your network perimeter and your providers connection at each Microsoft peering location. Pay close attention to both the logical and physical aspects of redundancy, peering equipment, carrier provided WAN circuits, and any additional value add services such as NAT services or managed firewalls.
-    
- **Designing your availability plan**
+
+### Designing your availability plan
   
 We strongly recommend that you plan and design high availability and resiliency into your end-to-end connectivity scenarios for Office 365. A design should include;
   
 - no single points of failure, including both Internet and ExpressRoute circuits.
-    
+
 - minimizing the number of people affected and duration of that impact for most anticipated failure modes.
-    
+
 - optimizing for simple, repeatable, and automatic recovery process from most anticipated failure modes.
-    
+
 - supporting the full demands of your network traffic and functionality through redundant paths, without substantial degradation.
-    
+
 Your connectivity scenarios should include a network topology that is optimized for multiple independent and active network paths to Office 365. This will yield a better end-to-end availability than a topology that is optimized only for redundancy at the individual device or equipment level.
   
 > [!TIP]
-> If your users are distributed across multiple continents or geographic regions and each of those locations connects over redundant WAN circuits to a single on-premises location where a single ExpressRoute circuit is located, your users will experience less end-to-end service availability than a network topology design that includes independent ExpressRoute circuits that connect the different regions to the nearest peering location. 
+> If your users are distributed across multiple continents or geographic regions and each of those locations connects over redundant WAN circuits to a single on-premises location where a single ExpressRoute circuit is located, your users will experience less end-to-end service availability than a network topology design that includes independent ExpressRoute circuits that connect the different regions to the nearest peering location.
   
 We recommend provisioning at least two ExpressRoute circuits with each circuit connecting to with a different geographic peering location. You should provision this active-active pair of circuits for every region where people will use ExpressRoute connectivity for Office 365 services. This allows each region to remain connected during a disaster that affects a major location such as a datacenter or peering location. Configuring them in as active/active allows end user traffic to be distributed across multiple network paths. This reduces the scope of people affected during device or network equipment outages.
   
 We don't recommend using a single ExpressRoute circuit with the Internet as a backup.
   
- **Example 2: Failover and High Availability**
+### Example 2: Failover and High Availability
   
 Woodgrove Bank's multi-geographic design has undergone a review of routing, bandwidth, security, and now must go through a high availability review. Woodgrove thinks about high availability as covering three categories; resiliency, reliability, and redundancy.
   
@@ -161,15 +155,15 @@ Within each edge configuration, Woodgrove has redundant Firewalls, Proxies, and 
 The network configuration at Woodgrove Bank is built based on a few key principles:
   
 - Within each geographic region, there are multiple Azure ExpressRoute circuits.
-    
+
 - Each circuit within a region can support all of the network traffic within that region.
-    
+
 - Routing will clearly prefer one or the other path depending on availability, location, and so on.
-    
+
 - Failover between Azure ExpressRoute circuits happens automatically without additional configuration or action required by Woodgrove.
-    
+
 - Failover between Internet circuits happens automatically without additional configuration or action required by Woodgrove.
-    
+
 In this configuration, with redundancy at the physical and virtual level, Woodgrove Bank is able to offer local resiliency, regional resiliency, and global resiliency in a reliable way. Woodgrove elected this configuration after evaluating a single Azure ExpressRoute circuit per region as well as the possibility of failing over to the internet.
   
 If Woodgrove was unable to have multiple Azure ExpressRoute circuits per region, routing traffic originating in North America to the Azure ExpressRoute circuit in Asia Pacific would add an unacceptable level of latency and the required DNS forwarder configuration adds complexity.
@@ -219,5 +213,3 @@ Here's a short link you can use to come back: [https://aka.ms/planningexpressrou
 [Office 365 network and performance tuning](network-planning-and-performance.md)
   
 [Office 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d)
-  
-

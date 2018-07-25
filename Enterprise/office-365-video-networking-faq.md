@@ -25,7 +25,7 @@ If you don't already have a thorough understanding of what happens when a video 
   
 ## What are the Office 365 Video bandwidth requirements?
 
-There are a numerous [supported video formats](https://support.office.com/article/dd1af01c-fd8e-4640-b17b-93ee02b9b817) that can be uploaded to Office 365. Each video file is then encoded to a standard format with several different video qualities for playback. Office 365 Video uses adaptive bitrate streaming to select the best video playback quality based on the available network bandwidth and size of the video player. To do this, the player initially requests the lowest playback quality. The service then begins sending 2-second video segments to the video player. The player can then request higher or lower playback quality based on how quickly each segment is delivered. 
+There are a numerous [supported video formats](https://support.office.com/article/dd1af01c-fd8e-4640-b17b-93ee02b9b817) that can be uploaded to Office 365. Each video file is then encoded to a standard format with several different video qualities for playback. Office 365 Video uses adaptive bitrate streaming to select the best video playback quality based on the available network bandwidth and size of the video player. To do this, the player initially requests the lowest playback quality. The service then begins sending 2-second video segments to the video player. The player can then request higher or lower playback quality based on how quickly each segment is delivered.
   
 The adaptive bitrate streaming does all this in the background while the video plays with the least amount of disruption or buffering. During video playback, the video player allows the viewer to manually override the automatic playback quality, to select a specific video playback quality.
   
@@ -38,17 +38,17 @@ Here's a quick table that outlines the network requirements for each of the vide
 |360p  <br/> |1.2 Mbps  <br/> |
 |576p  <br/> |2.5 Mbps  <br/> |
 |720p  <br/> |3.8 Mbps  <br/> |
-   
+
 ([Back to top](office-365-video-networking-faq.md))
   
 ## How do CDNs help video playback?
 
-If several people from the same organization within the same geographic location are streaming the same video(s), CDNs will store a copy of these videos in a location closer to that geographic region. With the video stored, or cached at the closest location, each person streams the video from the location closest to them instead of a location further away. Office 365 Video uses Azure Media Services to manage what is cached in the Azure CDNs, and for how long. Azure Media Services can use any of the [Azure CDN locations](https://azure.microsoft.com/documentation/articles/cdn-pop-locations/) to cache video fragments and manifests for a few days. If people in your organization continue to watch the cached videos they'll stay in the cache. If no one accesses the video for several days, the video will eventually drop be dropped from the cache. The next time someone attempts to watch the video it's once again cached at the nearest CDN location. 
+If several people from the same organization within the same geographic location are streaming the same video(s), CDNs will store a copy of these videos in a location closer to that geographic region. With the video stored, or cached at the closest location, each person streams the video from the location closest to them instead of a location further away. Office 365 Video uses Azure Media Services to manage what is cached in the Azure CDNs, and for how long. Azure Media Services can use any of the [Azure CDN locations](https://azure.microsoft.com/documentation/articles/cdn-pop-locations/) to cache video fragments and manifests for a few days. If people in your organization continue to watch the cached videos they'll stay in the cache. If no one accesses the video for several days, the video will eventually drop be dropped from the cache. The next time someone attempts to watch the video it's once again cached at the nearest CDN location.
   
-Everyone who attempts to watch the video while the content is cached at a nearby CDN benefits from the video being closer, and in most cases less hops, away. This improves video playback speed; however, it doesn't change the network requirement to play the video. 
+Everyone who attempts to watch the video while the content is cached at a nearby CDN benefits from the video being closer, and in most cases less hops, away. This improves video playback speed; however, it doesn't change the network requirement to play the video.
   
 > [!NOTE]
-> There are some circumstances, such as our capacity limit being reached, where the video may be removed before the three days has been reached. 
+> There are some circumstances, such as our capacity limit being reached, where the video may be removed before the three days has been reached.
   
 ([Back to top](office-365-video-networking-faq.md))
   
@@ -60,22 +60,22 @@ Yes. Office 365 won't prevent you from using a local CDN or a caching proxy to b
   
 ## How videos are encrypted and secured?
 
-Office 365 Video knows how important it is to keep your data secure and private. [The Office 365 Trust Center](https://products.office.com/business/office-365-trust-center-cloud-computing-security) describes our commitment to the privacy and security of your content. With video playback, speed is important for a good experience; however, we don't compromise your security or privacy in exchange for speed. Here's how we accommodate speed, security and privacy. 
+Office 365 Video knows how important it is to keep your data secure and private. [The Office 365 Trust Center](https://products.office.com/business/office-365-trust-center-cloud-computing-security) describes our commitment to the privacy and security of your content. With video playback, speed is important for a good experience; however, we don't compromise your security or privacy in exchange for speed. Here's how we accommodate speed, security and privacy.
   
-When you or someone in your organization uploads a new video, that video is transcoded, encrypted with AES-128 encryption, and stored in Azure Media Services. This means the videos are encrypted both in transit and at rest. 
+When you or someone in your organization uploads a new video, that video is transcoded, encrypted with AES-128 encryption, and stored in Azure Media Services. This means the videos are encrypted both in transit and at rest.
   
 When someone in your organization attempts to watch a new video, they follow these steps:
   
-1. Ask SharePoint Online if they have permission to view the video. 
-    
+1. Ask SharePoint Online if they have permission to view the video.
+
 2. SharePoint Online uses the file permissions to determine if the person can watch the video.
-    
+
 3. If they're allowed, SharePoint Online retrieves a token from Azure to give to the video player.
-    
+
 4. The video player then uses the token to request the decryption key from Azure.
-    
+
 5. With the decryption key in hand, the video player is able to stream the video.
-    
+
 ![O365 Video Playback](media/9d3c6e76-151d-48a3-a30e-ba8dd07db0b7.png)
   
 ([Back to top](office-365-video-networking-faq.md))
@@ -91,13 +91,13 @@ Office 365 Video supported operating systems and web browsers are the same as th
 Troubleshooting connectivity to Office 365 Video involves troubleshooting your network, your ISP(s), and your configuration of Office 365. The first place to start is the service health dashboard. This will tell you of Office 365 Video is having a problem or not. If everything looks great there, here's some additional resources to help you.
   
 - Make sure you can connect to the [network endpoints required for Office 365 Video](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2).
-    
+
 - Check your network connectivity using our [Office 365 network troubleshooting guide](https://support.office.com/article/Office-365-performance-tuning-and-troubleshooting-Admin-and-IT-Pro-1492cb94-bd62-43e6-b8d0-2a61ed88ebae).
-    
+
 - See our [best practices for using Office 365 on a slow network](https://support.office.com/article/Best-practices-for-using-Office-365-on-a-slow-network-fd16c8d2-4799-4c39-8fd7-045f06640166).
-    
+
 - Find [help about Office 365 Video configuration](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50).
-    
+
 ([Back to top](office-365-video-networking-faq.md))
   
 ## Office 365 Video resources
@@ -117,5 +117,3 @@ Rate the topic and leave a comment to let us know if we answered your questions 
 ([Back to top](office-365-video-networking-faq.md))
   
 Here's a short link you can use to come back: [https://aka.ms/video365networkfaq](https://aka.ms/video365networkfaq)
-  
-
