@@ -1,7 +1,4 @@
-﻿
-  
-
-# [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+﻿# [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 ## [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
 ### [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
 #### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
@@ -112,5 +109,18 @@
 #### [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
 #### [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
 #### [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
-## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
+# Upgrade from Office 2007 or 2010 products
+## [Office 2010](upgrade-from-office-2010-servers-and-products.md)
+### [Office 2010 desktop](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
+### [Exchange 2010](exchange-2010-end-of-support.md)
+### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
+### [Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
+## [Office 2007](upgrade-from-office-2007-servers-and-products.md)
+### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
+### [Exchange 2007](exchange-2007-end-of-support.md)
+### [SharePoint 2007](sharepoint-2007-end-of-support.md)
+### [Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
+### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
+### [Project Server 2007](project-server-2007-end-of-support.md)
+# [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 
