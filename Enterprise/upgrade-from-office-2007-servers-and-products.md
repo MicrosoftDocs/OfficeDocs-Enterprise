@@ -29,7 +29,7 @@ If you're using Office 2007 products and services, support for these application
   
 Use this article as a starting point to review your options and plan your upgrade.
       
-## Office 2007
+## Office 2007 planning roadmaps
   
 Support has ended for Office 2007 products and services. The following roadmaps can help you plan your upgrade now.
 
