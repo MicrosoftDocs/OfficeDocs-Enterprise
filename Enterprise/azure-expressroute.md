@@ -120,5 +120,3 @@ Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
 [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
   
 [Office 365 network and performance tuning](network-planning-and-performance.md)
-  
-
