@@ -71,7 +71,7 @@ Methods like 'side-by-side' are important in the scheme of upgrade logic. When y
 Methods like In-Place upgrade will act directly on your Microsoft Office SharePoint Server 2007 farm, giving you fewer easy options to abandon a path and begin again with your pristine environment. As much as possible, build in some safety measures (like taking and testing backups of the original environment). For example, if your Microsoft Office SharePoint Server 2007 farm is virtual, and is duplicated for the purposes of backup and restore, then back-up and restore the most current databases prior to your service window for the upgrade. Knowing that you have the option to restore database backups will not only give you a failsafe, it can give you peace of mind.
   
 > [!TIP]
-> Best practices documents for upgrade exist for Microsoft Office SharePoint Server[2007](https://technet.microsoft.com/en-us/library/cc261992%28v=office.12%29.aspx), [SharePoint Server 2010](https://technet.microsoft.com/en-us/library/cc261992%28v=office.14%29.aspx), [SharePoint Server 2013](https://technet.microsoft.com/en-us/library/cc261992%28v=office.15%29.aspx), and [SharePoint Server 2016](https://technet.microsoft.com/en-us/library/cc261992%28v=office.16%29.aspx). You can also search for [Microsoft Partners](https://partnercenter.microsoft.com/en-us/pcv/search) who have experience with upgrades or Office 365 migrations. 
+> Best practices documents for upgrade exist for [Microsoft Office SharePoint Server 2007](https://technet.microsoft.com/en-us/library/cc261992%28v=office.12%29.aspx), [SharePoint Server 2010](https://technet.microsoft.com/en-us/library/cc261992%28v=office.14%29.aspx), [SharePoint Server 2013](https://technet.microsoft.com/en-us/library/cc261992%28v=office.15%29.aspx), and [SharePoint Server 2016](https://technet.microsoft.com/en-us/library/cc261992%28v=office.16%29.aspx). You can also search for [Microsoft Partners](https://partnercenter.microsoft.com/en-us/pcv/search) who have experience with upgrades or Office 365 migrations. 
   
 ## Make your plan
 
@@ -114,7 +114,7 @@ The plan starts after an in-depth analysis of a farm, and tries to identify the 
   
 My 'most important' bullet list:
   
-> Availability, features built-in to SharePoint, and Compliance standards.
+- Availability, features built-in to SharePoint, and Compliance standards.
     
 - Most of the data is on three site collections, with one Meeting Workspace used by a Dev team particularly important and in heavy use in multiple time-zones worldwide.
     
@@ -146,7 +146,7 @@ Upgrade on-premises, with versions of SharePoint side-by-side, some virtualized,
     
 - Consider [FastTrack assistance](https://fasttrack.microsoft.com) if you would like to upgrade to SharePoint Online from here. 
     
-- Determine if any site collections can be offloaded to an Office 365 Subscription. (Office 365 meets many [Compliance standards](https://technet.microsoft.com/en-us/library/office-365-compliance.aspx). Office 365 has [eDiscovery](https://support.office.com/en-us/article/Manage-eDiscovery-cases-in-the-Office-365-Security-Compliance-Center-edea80d6-20a7-40fb-b8c4-5e8c8395f6da?ui=en-US&amp;rs=en-US&amp;ad=US) and can do [Holds](https://support.office.com/en-US/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E) through the Compliance Centre.) 
+- Determine if any site collections can be offloaded to an Office 365 Subscription. (Office 365 meets many [Compliance standards](https://technet.microsoft.com/library/office-365-compliance.aspx). Office 365 has [eDiscovery](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da) and can do [Holds](https://support.office.com/article/A18F8975-AA7F-43B4-A7D6-001D14744D8E) through the Compliance Centre.) 
     
 Otherwise, continue with a side-by-side upgrade to SharePoint Server 2016.
   
@@ -169,7 +169,7 @@ Often major factors in choosing a method are the total cost of the upgrade and t
   
 ## Related links
 
-[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-servers-and-products.md)
+[Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 [Microsoft Lifecycle Policy and Lifecycle search](https://support.microsoft.com/en-us/lifecycle)
   
