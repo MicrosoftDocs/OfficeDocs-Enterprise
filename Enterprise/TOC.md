@@ -114,7 +114,7 @@
 ### [Office 2010 desktop](/DeployOffice/office-2010-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
 ### [Exchange 2010](exchange-2010-end-of-support.md)
 ### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
-### [Lync Server 2010](/Skype/SfbServer/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
+### [Lync Server 2010](/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
 ## [Office 2007](upgrade-from-office-2007-servers-and-products.md)
 ### [Office 2007 desktop](/DeployOffice/office-2007-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
 ### [Exchange 2007](exchange-2007-end-of-support.md)
