@@ -20,7 +20,7 @@ search.appverid:
 - PJU120
 - PSV120
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
-description: "Support is ending soon for Office 2007 servers and client applications, and custom support agreementsa are not available. Use this article to start planning your upgrade now."
+description: "Support is ending soon for Office 2007 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now."
 ---
 
 # Resources to help you upgrade from Office 2007 servers and clients
@@ -43,7 +43,6 @@ Support has ended for Office 2007 products and services. The following roadmaps 
 |[PerformancePoint Server 2007 end of support roadmap](pps-2007-end-of-support.md) <br/> |January 9, 2018  <br/> |
    
 When support ends for a Microsoft product, there are no new security updates, non-security updates, free or paid assisted support options (including custom support agreements), or online technical content updates.Whether you're an enterprise organization or an individual home user, you have several options to consider:
-### For organizations
 
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
@@ -52,24 +51,23 @@ Choose one of the following options:
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     
-Need help? Consider working with a partner or volume licensing specialist. See **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
+**Need help?** Consider working with a partner or volume licensing specialist. See **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
 > [!TIP]
 > If you purchase 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://fasttrack.microsoft.com).
   
 If your organization has fewer than 50 Office 365 licenses, see [Admins: upgrade your users to the latest Office client using Office 365 for business](https://support.office.com/article/f6b00895-b5fd-4af6-a656-b7788ea20cbb.aspx). 
   
-### For home users
+### Are you a home user?
 
 Choose one of the following options:
 - **Try Office 365 for home use**. Set up a free trial to see how Office 365 works. [Be more productive—upgrade from Office 2007 to Office 365 today](https://go.microsoft.com/fwlink/?linkid=733276).
     
-- **Purchase Office 365 for home use**.Choose between your Office 365 Home or Office 365 Personal subscription, sign up, and install the latest version of Office on your Windows or Mac computer, your smartphone, and your tablet. You'll enjoy cloud storage with OneDrive, get 60 minutes of Skype calls to mobile and landline numbers each month, and get many other great features. 
+- **Purchase Office 365 for home use**. Choose between your Office 365 Home or Office 365 Personal subscription, sign up, and install the latest version of Office on your Windows or Mac computer, your smartphone, and your tablet. You'll enjoy cloud storage with OneDrive, get 60 minutes of Skype calls to mobile and landline numbers each month, and get many other great features. 
     
 - **Purchase Office Home &amp; Student 2016** for Windows or Office Home &amp; Student 2016 for Mac, and install Office 2016 on your computer. 
     
-To learn more about these options, see **[Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758)**
+**Need more information to decide?** See [Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758). 
 
----
 
 ## What if I don't upgrade?
 

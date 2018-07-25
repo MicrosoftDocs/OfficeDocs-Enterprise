@@ -20,7 +20,7 @@ search.appverid:
 - PJU120
 - PSV120
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
-description: "Support is ending soon for Office 2010 servers and client applications, and custom support agreementsa are not available. Use this article to start planning your upgrade now."
+description: "Support is ending soon for Office 2010 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now."
 ---
 
 # Resources to help you upgrade from Office 2010 servers and clients
@@ -47,7 +47,7 @@ Choose one of the following options:
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     
-Need help? Consider working with a partner or volume licensing specialist. **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
+**Need help?** Consider working with a partner or volume licensing specialist. **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
 > [!TIP]
 > If your organization purchases 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://fasttrack.microsoft.com).
   
@@ -62,7 +62,7 @@ Choose one of the following options:
     
 - **Purchase Office Home &amp; Student 2016** for Windows or Office Home &amp; Student 2016 for Mac, and install Office 2016 on your computer. 
     
-Need help? See **[Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758)**. 
+**Need more information to decide?** See [Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758). 
 
 
 ## What happens if I don't upgrade?
