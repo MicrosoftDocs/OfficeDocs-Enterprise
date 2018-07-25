@@ -39,11 +39,11 @@ We expect the following pre-requisites to be completed before this implementatio
     
 4. Your team has read all of the public guidance and documentation at [https://aka.ms/expressrouteoffice365](https://aka.ms/expressrouteoffice365), [https://aka.ms/ert](https://aka.ms/ert), and watched the [Azure ExpressRoute for Office 365 Training](https://channel9.msdn.com/series/aer) series on Channel 9 to gain an understanding of critical technical details including: 
     
-  - The internet dependencies of SaaS services.
+      - The internet dependencies of SaaS services.
     
-  - How to avoid asymmetric routes and handle complex routing.
+      - How to avoid asymmetric routes and handle complex routing.
     
-  - How to incorporate perimeter security, availability, and application level controls.
+      - How to incorporate perimeter security, availability, and application level controls.
     
 ## Begin by gathering requirements
 <a name="requirements"> </a>
@@ -415,11 +415,11 @@ Your implementation plan should include both testing and rollback planning. If y
     
 3. Preferably, testing of inbound and outbound services should be done on an isolated test network with a test Office 365 tenant.
     
-  - Alternatively, testing can be performed on a production network if the customer is not yet using Office 365 or is in pilot.
+      - Alternatively, testing can be performed on a production network if the customer is not yet using Office 365 or is in pilot.
     
-  - Alternatively, testing can be performed during a production outage that is set aside for test and monitoring only.
+      - Alternatively, testing can be performed during a production outage that is set aside for test and monitoring only.
     
-  - Alternatively, testing can be done by checking routes for each service on each layer 3 router node. This fall back should only be used if no other testing is possible since a lack of physical testing introduces risk.
+      - Alternatively, testing can be done by checking routes for each service on each layer 3 router node. This fall back should only be used if no other testing is possible since a lack of physical testing introduces risk.
     
 ### Build your deployment procedures
 
@@ -459,12 +459,11 @@ Some examples of test activities include the following.
     
 5. Validate that ExpressRoute has accepted your advertised prefixes.
     
-  - Use the following cmdlet to verify peering advertisements:
+      - Use the following cmdlet to verify peering advertisements:
     
-  - 
-  ```
-  Get-AzureRmExpressRouteCircuitRouteTable -DevicePath Primary -ExpressRouteCircuitName TestER -ResourceGroupName RG -PeeringType MicrosoftPeering
-  ```
+      ```
+      Get-AzureRmExpressRouteCircuitRouteTable -DevicePath Primary -ExpressRouteCircuitName TestER -ResourceGroupName RG -PeeringType MicrosoftPeering
+      ```
 
 6. Validate your public NAT IP range is not advertised to Microsoft through any other ExpressRoute or public Internet network circuit unless it is a specific subset of a larger range as in the previous example.
     
@@ -578,9 +577,9 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
   
-[Routing with ExpressRoute for Office 365](e1da26c6-2d39-4379-af6f-4da213218408.md)
+[Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
   
-[Network planning with ExpressRoute for Office 365](103208f1-e788-4601-aa45-504f896511cd.md)
+[Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
   
 [Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
   
@@ -592,12 +591,10 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Call flow using ExpressRoute](https://support.office.com/article/413acb29-ad83-4393-9402-51d88e7561ab)
   
-[Office 365 performance tuning using baselines and performance history](1492cb94-bd62-43e6-b8d0-2a61ed88ebae.md)
+[Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
   
-[Performance troubleshooting plan for Office 365](e241e5d9-b1d8-4f1d-a5c8-4106b7325f8c.md)
+[Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
   
 [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
   
 [Office 365 network and performance tuning](network-planning-and-performance.md)
-  
-
