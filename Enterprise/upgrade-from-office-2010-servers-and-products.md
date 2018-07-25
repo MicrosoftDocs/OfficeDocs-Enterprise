@@ -40,8 +40,6 @@ If you're using Office 2010 products and services, now is a great time to consid
   
 With Office 2010 products and services nearing their end of support, this is a great time to consider moving to Office 365. You get the newest features, security updates, and access to your content across a variety of devices.
 
-### For organizations
-
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
     
@@ -55,7 +53,7 @@ Need help? Consider working with a partner or volume licensing specialist. **[Fi
   
 If your organization purchases fewer than 50 Office 365 licenses, see [Admins: upgrade your users to the latest Office client using Office 365 for business](https://support.office.com/article/f6b00895-b5fd-4af6-a656-b7788ea20cbb.aspx). 
   
-### For home users
+### Are you a home user?
 
 Choose one of the following options:
 - **Try Office 365 for home use**. [Be more productive—upgrade from Office 2007 to Office 365 today](https://go.microsoft.com/fwlink/?linkid=733276).
@@ -67,7 +65,7 @@ Choose one of the following options:
 Need help? See **[Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758)**. 
 
 
-## What if I don't upgrade?
+## What happens if I don't upgrade?
 
 You can choose not to upgrade at this time. Your on-premises servers and applications will continue to run. However, when you no longer receive security updates or support options, you or your organization could be vulnerable to security breaches. We strongly recommend that you plan your upgrade as soon as possible, whether to Office 365 or to newer versions of your on-premises servers and applications.
   
