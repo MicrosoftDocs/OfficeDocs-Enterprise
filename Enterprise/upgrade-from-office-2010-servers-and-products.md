@@ -31,7 +31,7 @@ If you're using Office 2010 products and services, now is a great time to consid
   
 |**For this product**|**See this planning roadmap**|
 |:-----|:-----|
-|Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](/DeployOffice/office-2010-end-support-roadmap.md) <br/> |
+|Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) <br/> |
 |Exchange Server 2010  <br/> |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
 |SharePoint 2010 or SharePoint Server 2010  <br/> |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
    
@@ -43,7 +43,7 @@ With Office 2010 products and services nearing their end of support, this is a g
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
     
-- **Upgrade your on-premises servers and applications.** See the [Office 2010](/DeployOffice/office-2010-end-support-roadmap.md), [Exchange 2010](exchange-2010-end-of-support.md), and [SharePoint 2010](upgrade-from-sharepoint-2010.md) planning roadmaps. 
+- **Upgrade your on-premises servers and applications.** See the [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap), [Exchange 2010](exchange-2010-end-of-support.md), and [SharePoint 2010](upgrade-from-sharepoint-2010.md) planning roadmaps. 
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     

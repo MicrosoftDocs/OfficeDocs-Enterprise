@@ -36,7 +36,7 @@ Support has ended for Office 2007 products and services. The following roadmaps 
 |**Planning Roadmap**|**Date Support Ended**|
 |:-----|:-----|
 |[Exchange 2007 end of support roadmap](exchange-2007-end-of-support.md) <br/> |April 11, 2017  <br/> |
-|[Office 2007 end of support roadmap](/DeployOffice/office-2007-end-support-roadmap.md) <br/> |October 10, 2017  <br/> |
+|[Office 2007 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap) <br/> |October 10, 2017  <br/> |
 |[SharePoint Server 2007 end of support roadmap](sharepoint-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
 |[Project Server 2007 end of support roadmap](project-server-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
 |[Upgrade from Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md) <br/> |January 8, 2018  <br/> |
