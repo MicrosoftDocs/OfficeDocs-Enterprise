@@ -32,7 +32,7 @@ Exchange Server, like almost all Microsoft products, has a support lifecycle dur
     
 Your installation of Exchange 2007 will continue to run after this date. However, because of the changes listed above, we strongly recommend that you migrate from Exchange 2007 as soon as possible.
   
-For more information about Office 2007 servers nearing the end of support, see [Plan your upgrade for your Office 2007 servers](https://support.office.com/article/4e5eab5f-05db-4627-9e17-421a6bf89606).
+For more information about Office 2007 servers nearing the end of support, see [Plan your upgrade from Office 2007 servers and products](upgrade-from-office-2007-servers-and-products.md).
   
 ## What are my options?
 
@@ -198,8 +198,6 @@ While we strongly believe that you can achieve the best value and user experienc
   
 We recommend that you migrate to Exchange 2016 if you can't migrate to Office 365. Exchange 2016 includes all the features and advancements included with previous releases of Exchange, and it most closely matches the experience available with Office 365 (although some features are available only in Office 365). Check out just a few of the things you've been missing out on:
   
-|
-|
 |**Exchange release**|**Features**|
 |:-----|:-----|
 |Exchange 2010  <br/> | Role Based Access Control (permissions without ACLs)  <br/>  Outlook Web Access mailbox policies  <br/>  Ability to share free/busy and delegate calendars between organizations  <br/> |
@@ -210,8 +208,6 @@ We recommend that you migrate to Exchange 2016 if you can't migrate to Office 36
 
 We recommend that you initially assume that you'll migrate to Exchange 2016. Then, use the following information to confirm your assumption or to rule out Exchange 2016. If you can't migrate to Exchange 2016 for one reason or another, do the same process with Exchange 2013, and so on.
   
-|
-|
 |**Consideration**|**More Info**|
 |:-----|:-----|
 |End of support dates  <br/> | Like Exchange 2007, each version of Exchange has its own end of support date:  <br/> **Exchange 2010** - January 2020  <br/> **Exchange 2013** - April 2023  <br/> **Exchange 2016** - October 2025  <br/>  The earlier the end of support date, the sooner you'll need to perform another migration. January 2020 is a lot closer than you think!  <br/> |
@@ -247,7 +243,7 @@ If you run into any problems during your migration to Office 365 and you aren't 
     
 ## Related topics
 
-[Resources to help you upgrade your Office 2007 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Resources to help you upgrade your Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
   

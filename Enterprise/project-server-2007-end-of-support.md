@@ -30,7 +30,7 @@ Support is ending for Office 2007 servers and applications in 2017, and you need
 |Project 2007 Standard  <br/> |October 10, 2017  <br/> |
 |Project 2007 Professional  <br/> |October 10, 2017  <br/> |
    
-For more information about Office 2007 servers reaching retirement, see [Plan your upgrade for your Office 2007 servers](https://support.office.com/article/4e5eab5f-05db-4627-9e17-421a6bf89606).
+For more information about Office 2007 servers reaching retirement, see [Upgrade from Office 2007 servers and client products](upgrade-from-office-2007-servers-and-products.md).
   
 ## What does end of support mean?
 
@@ -59,7 +59,7 @@ If you are using Project Server 2007, you need to explore your migration options
 | I have mobile users.  <br/>  Costs to migrate are a big concern (hardware, software, hours and effort to implement, etc.).  <br/>  After migration, costs to maintain my environment are a big concern (for example, automatic updates, guaranteed uptime, etc.).  <br/> | Business rules restrict me from operating my business in the cloud.  <br/>  I need control of updates to my environment.  <br/> |
    
 > [!NOTE]
-> For more information about options for moving from your Office 2007 servers, see [Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md). Note that Project Server does not support a hybrid configuration since Project Server and Project Online cannot share the same resource pool. 
+> For more information about options for moving from your Office 2007 servers, see [Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md). Note that Project Server does not support a hybrid configuration since Project Server and Project Online cannot share the same resource pool. 
   
 ## Important considerations you need to make when planning to migrate from Project Server 2007
 
@@ -214,6 +214,6 @@ Other resources:
 
 [SharePoint Server 2007 end of support Roadmap](sharepoint-2007-end-of-support.md)
   
-[Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 

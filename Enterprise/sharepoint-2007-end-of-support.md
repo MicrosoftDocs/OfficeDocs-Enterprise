@@ -196,6 +196,6 @@ One good way to see how this works is by creating an [Office 365 dev/test enviro
   
 [Search for Microsoft Partners to help with Upgrade](https://go.microsoft.com/fwlink/?linkid=841249)
   
-[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 

@@ -1,9 +1,9 @@
 ---
-title: "Resources to help you upgrade from Office 2007 or Office 2010 servers and clients"
+title: "Resources to help you upgrade from Office 2010 servers and clients"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 7/23/2018
+ms.date: 7/25/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -20,16 +20,14 @@ search.appverid:
 - PJU120
 - PSV120
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
-description: "Support is ending soon for Office 2007 servers and client applications, and custom support agreementsa are not available. Use this article to start planning your upgrade now."
+description: "Support is ending soon for Office 2010 servers and client applications, and custom support agreementsa are not available. Use this article to start planning your upgrade now."
 ---
 
-# Resources to help you upgrade from Office 2007 or Office 2010 servers and clients
+# Resources to help you upgrade from Office 2010 servers and clients
 
-If you're using Office 2007 or Office 2010 products and services, this is a great time to consider moving to the Microsoft Cloud, starting with Office 365.
-  
-Office 2007 products and services have reached the end of support, and Office 2010 products and services are nearing end of support. Use this article as a starting point to review your options and plan your upgrade.
+If you're using Office 2010 products and services, now is a great time to consider moving to the Microsoft Cloud, starting with Office 365. Office 2010 products and services are nearing end of support. Use this article as a starting point to review your options and plan your upgrade.
       
-## Office 2010
+## Office 2010 planning roadmaps
   
 |**For this product**|**See this planning roadmap**|
 |:-----|:-----|
@@ -68,47 +66,6 @@ Choose one of the following options:
     
 Need help? See **[Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758)**. 
 
-## Office 2007
-  
-Support has ended for Office 2007 products and services. The following roadmaps can help you plan your upgrade now.
-
-|**Planning Roadmap**|**Date Support Ended**|
-|:-----|:-----|
-|[Exchange 2007 end of support roadmap](exchange-2007-end-of-support.md) <br/> |April 11, 2017  <br/> |
-|[Office 2007 end of support roadmap](/DeployOffice/office-2007-end-support-roadmap.md) <br/> |October 10, 2017  <br/> |
-|[SharePoint Server 2007 end of support roadmap](sharepoint-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
-|[Project Server 2007 end of support roadmap](project-server-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
-|[Upgrade from Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md) <br/> |January 8, 2018  <br/> |
-|[PerformancePoint Server 2007 end of support roadmap](pps-2007-end-of-support.md) <br/> |January 9, 2018  <br/> |
-   
-When support ends for a Microsoft product, there are no new security updates, non-security updates, free or paid assisted support options (including custom support agreements), or online technical content updates.Whether you're an enterprise organization or an individual home user, you have several options to consider:
-### For organizations
-
-Choose one of the following options:
-- **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
-    
-- **Upgrade your on-premises servers and applications.** See the [Exchange 2007](exchange-2007-end-of-support.md), [SharePoint Server 2007](sharepoint-2007-end-of-support.md), [Project Server 2007](project-server-2007-end-of-support.md), [Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md), and [PerformancePoint Server 2007](pps-2007-end-of-support.md) planning content. 
-    
-- **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
-    
-Need help? Consider working with a partner or volume licensing specialist. See **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
-> [!TIP]
-> If you purchase 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://fasttrack.microsoft.com).
-  
-If your organization has fewer than 50 Office 365 licenses, see [Admins: upgrade your users to the latest Office client using Office 365 for business](https://support.office.com/article/f6b00895-b5fd-4af6-a656-b7788ea20cbb.aspx). 
-  
-### For home users
-
-Choose one of the following options:
-- **Try Office 365 for home use**. Set up a free trial to see how Office 365 works. [Be more productive—upgrade from Office 2007 to Office 365 today](https://go.microsoft.com/fwlink/?linkid=733276).
-    
-- **Purchase Office 365 for home use**.Choose between your Office 365 Home or Office 365 Personal subscription, sign up, and install the latest version of Office on your Windows or Mac computer, your smartphone, and your tablet. You'll enjoy cloud storage with OneDrive, get 60 minutes of Skype calls to mobile and landline numbers each month, and get many other great features. 
-    
-- **Purchase Office Home &amp; Student 2016** for Windows or Office Home &amp; Student 2016 for Mac, and install Office 2016 on your computer. 
-    
-To learn more about these options, see **[Get the most from Office with Office 365](https://go.microsoft.com/fwlink/?linkid=841758)**
-
----
 
 ## What if I don't upgrade?
 
@@ -149,5 +106,7 @@ Microsoft 365 is the way to digitally transform your business with constantly-im
 [Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
+
+[Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 

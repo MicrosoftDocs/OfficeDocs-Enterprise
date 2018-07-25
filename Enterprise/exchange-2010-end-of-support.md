@@ -32,7 +32,7 @@ Exchange Server, like almost all Microsoft products, has a support lifecycle dur
     
 Your installation of Exchange 2010 will continue to run after this date. However, because of the changes listed above, we strongly recommend that you migrate from Exchange 2010 as soon as possible.
   
-For more information about Office 2010 servers nearing the end of support, see [Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md).
+For more information about Office 2010 servers nearing the end of support, see [Resources to help you upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md).
   
 ## What are my options?
 
@@ -76,8 +76,6 @@ Office 365 also gets new features and experiences first and you and your users c
 
 Depending on your organization, you have a few options that'll help you get to Office 365. When choosing a migration option, you need to consider a few things like the number of seats or mailboxes you need to move, how long you want the migration to last, and whether you need a seamless integration between your on-premises installation and Office 365 during the migration. This table shows your migration options and the most important factors that'll determine which method you'll use.
   
-|
-|
 |**Migration option**|**Organization size**|**Duration**|
 |:-----|:-----|:-----|
 |Cutover migration  <br/> |Fewer than 150 seats  <br/> |A week or less  <br/> |
@@ -188,8 +186,6 @@ While we strongly believe that you can achieve the best value and user experienc
   
 We recommend that you migrate to Exchange 2016 if you can't migrate to Office 365. Exchange 2016 includes all the features and advancements included with previous releases of Exchange, and it most closely matches the experience available with Office 365 (although some features are available only in Office 365). Check out just a few of the things you've been missing out on:
   
-|
-|
 |**Exchange release**|**Features**|
 |:-----|:-----|
 |Exchange 2013  <br/> | Simplified architecture reducing the number of server roles to three (Mailbox, Client Access, Edge Transport)  <br/>  Data loss prevention policies (DLP) that help keep sensitive information from leaking  <br/>  Significantly improved Outlook Web App Experience  <br/> |
@@ -199,8 +195,6 @@ We recommend that you migrate to Exchange 2016 if you can't migrate to Office 36
 
 We recommend that you initially assume that you'll migrate to Exchange 2016. Then, use the following information to confirm your assumption or to rule out Exchange 2016. If you can't migrate to Exchange 2016 for one reason or another, do the same process with Exchange 2013, and so on.
   
-|
-|
 |**Consideration**|**More Info**|
 |:-----|:-----|
 |End of support dates  <br/> | Like Exchange 2010, each version of Exchange has its own end of support date:  <br/> **Exchange 2013** - April 2023  <br/> **Exchange 2016** - October 2025  <br/>  The earlier the end of support date, the sooner you'll need to perform another migration. April 2023 is a lot closer than you think!  <br/> |
@@ -235,7 +229,7 @@ If you run into any problems during your migration to Office 365 and you aren't 
     
 ## Related topics
 
-[Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2007-or-2010-servers-and-products.md)
+[Resources to help you upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
   
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
   
