@@ -182,8 +182,6 @@
 ### [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
 ### [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
-<<<<<<< HEAD
-=======
 ## [Multi-Geo]()
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
@@ -245,7 +243,6 @@
 #### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 #### [Project Server 2007](project-server-2007-end-of-support.md)
 ## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
->>>>>>> master
 
 # Manage Office 365
 ## Management tools
