@@ -29,6 +29,7 @@
 #### [Secure SharePoint Online team sites for sensitive and highly confidential assets](secure-sharepoint-online-team-sites-for-sensitive-and-highly-confidential-assets.md)
 ## [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
+<<<<<<< HEAD
 
 # Plan for Office 365
 ## [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
@@ -169,6 +170,24 @@
 #### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
 ### [Multi-Geo capabilities in Exchange Online](multi-geo-capabilities-in-exchange-online.md)
 ## Hybrid solutions
+=======
+## [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
+### [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
+### [Office 365 dev/test environment](office-365-dev-test-environment.md)
+#### [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
+#### [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
+#### [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+#### [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
+#### [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
+#### [Advanced eDiscovery for your Office 365 dev/test environment](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
+#### [Sensitive file protection in the Office 365 dev/test environment](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
+#### [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
+### [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
+#### [Exchange Online integration for your Office 365 and Dynamics 365 dev/test environment](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
+### [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
+### [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
+## [Hybrid solutions](hybrid-solutions.md)
+>>>>>>> master
 ### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
 ### [Deploy Office 365 directory synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
 ### [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
