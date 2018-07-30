@@ -72,36 +72,40 @@ When the eDiscovery Manager or Administrator role is set for a particular-geo lo
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>NAM</strong></td>
-<td align="left">US Data Centers</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>EUR</strong></td>
-<td align="left">Europe Data Centers</td>
-</tr>
-<tr class="odd">
 <td align="left"><strong>APC</strong></td>
-<td align="left">South East or East Asia Data Centers</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>CAN</strong></td>
-<td align="left">US Data Centers</td>
+<td align="left">Southeast or East Asia datacenters</td>
 </tr>
 <tr class="odd">
 <td align="left"><strong>AUS</strong></td>
-<td align="left">South East or East Asia Data Centers</td>
+<td align="left">Southeast or East Asia datacenters</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>KOR</strong></td>
-<td align="left">Tenant's default data location</td>
+<td align="left"><strong>CAN</strong></td>
+<td align="left">US datacenters</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>EUR</strong></td>
+<td align="left">Europe datacenters</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>FRA</strong></td>
+<td align="left">Europe datacenters</td>
 </tr>
 <tr class="odd">
 <td align="left"><strong>GBR</strong></td>
-<td align="left">Europe Data Centers</td>
+<td align="left">Europe datacenters</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>KOR</strong></td>
+<td align="left">Southeast or East Asia datacenters</td>
 </tr>
 <tr class="even">
 <td align="left"><strong>JPN </strong></td>
-<td align="left">South East or East Asia Data Centers</td>
+<td align="left">Southeast or East Asia datacenters</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>NAM</strong></td>
+<td align="left">US datacenters</td>
 </tr>
 </tbody>
 </table>
