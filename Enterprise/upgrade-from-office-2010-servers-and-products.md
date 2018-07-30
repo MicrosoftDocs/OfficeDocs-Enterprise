@@ -10,7 +10,6 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
-- MET150
 - LCC120
 - OFF120
 - OFF140
@@ -34,21 +33,21 @@ If you're using Office 2010 products and services, now is a great time to consid
 |Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) <br/> |
 |Exchange Server 2010  <br/> |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
 |SharePoint 2010 or SharePoint Server 2010  <br/> |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
-|Project Server 2010 </br> | [Planning Project Server and Project Online](/project/planning-project-server-and-project-online-for-technical-decision-makers.md) </br> |
-|Lync Server 2010 </br> | [Plan for your Skype for Business Server 2015 deployment](/SkypeForBusiness/plan-your-deployment/plan-your-deployment.md) </br> |
+|Project Server 2010 </br> | [Planning Project Server and Project Online](https://docs.microsoft.com/project/planning-project-server-and-project-online-for-technical-decision-makers) </br> |
+|Lync Server 2010 </br> | [Plan for your Skype for Business Server 2015 deployment](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/plan-your-deployment) </br> |
     
 With Office 2010 products and services nearing their end of support, this is a great time to consider moving to Office 365. You get the newest features, security updates, and access to your content across a variety of devices.
 
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
     
-- **Upgrade your on-premises servers and applications.** See the [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap), [Exchange 2010](exchange-2010-end-of-support.md), and [SharePoint 2010](upgrade-from-sharepoint-2010.md) planning roadmaps. 
+- **Upgrade your on-premises servers and applications.** See the [Office](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap), [Exchange](exchange-2010-end-of-support.md),  [SharePoint](upgrade-from-sharepoint-2010.md), [Project Server and Project Online](https://docs.microsoft.com/project/planning-project-server-and-project-online-for-technical-decision-makers), and [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/plan-your-deployment) planning content. 
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     
 **Need help?** Consider working with a partner or volume licensing specialist. **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
 > [!TIP]
-> If your organization purchases 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://fasttrack.microsoft.com).
+> If your organization purchases 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://www.microsoft.com/fasttrack/microsoft-365/office-365).
   
 If your organization purchases fewer than 50 Office 365 licenses, see [Admins: upgrade your users to the latest Office client using Office 365 for business](https://support.office.com/article/f6b00895-b5fd-4af6-a656-b7788ea20cbb.aspx). 
   
@@ -74,11 +73,9 @@ Office 365 is a software-as-a-service (SaaS) offering that is part of the Micros
   
 |**Resource**|**Description**|
 |:-----|:-----|
-|**[Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)** <br/> |Watch this video to get an overview of Office 365.  <br/> |
-|**[How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)** <br/> |Read this article to get a high-level overview of how enterprise organizations can move to Office 365.  <br/> |
 |**[Select a plan](https://aka.ms/viirjv)** <br/> |Visit this page to learn about Office 365 business plans  <br/> |
 |**[System requirements for Office](https://aka.ms/o365sysrequirements)** <br/> |View details about system requirements in the **Office 365 plans for business, education, and government** section.  <br/> |
-|**[Microsoft Cloud Platform Options](https://www.microsoft.com/download/details.aspx?id=54432)** <br/> |Download this poster to learn about Office 365 and the Microsoft Cloud stack. You'll learn about core capabilities of the Microsoft Cloud stack, including Office 365, and areas of responsibility for you, our customer, and Microsoft. You can download the poster in PDF or Visio formats.  <br/> |
+|**[Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)** <br/> |Download one or more posters to learn more about the Microsoft Cloud and server platform options. You can download posters in PDF or Visio formats.  <br/> |
 |**[Office 365 FAQ](https://aka.ms/office365faqs)** <br/> |Visit this page to see a list of frequently asked questions about Office 365, with links to additional information.  <br/> |
    
 ## What is Microsoft 365?
