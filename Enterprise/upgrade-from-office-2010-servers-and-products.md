@@ -34,7 +34,8 @@ If you're using Office 2010 products and services, now is a great time to consid
 |Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) <br/> |
 |Exchange Server 2010  <br/> |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
 |SharePoint 2010 or SharePoint Server 2010  <br/> |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
-|Project Server 2010 </br> | [Overview of the upgrade process to Project Server 2013](/project/overview-of-the-upgrade-process-to-project-server-2013.md) </br> |
+|Project Server 2010 </br> | [Planning Project Server and Project Online](/project/planning-project-server-and-project-online-for-technical-decision-makers.md) </br> |
+|Lync Server 2010 </br> | [Plan for your Skype for Business Server 2015 deployment](/SkypeForBusiness/plan-your-deployment/plan-your-deployment.md) </br> |
     
 With Office 2010 products and services nearing their end of support, this is a great time to consider moving to Office 365. You get the newest features, security updates, and access to your content across a variety of devices.
 
