@@ -126,23 +126,6 @@
 ### Skype for Business
 ### Microsoft Teams
 ### Yammer
-<<<<<<< HEAD
-=======
-#### Yammer admin quick start
-#### Yammer admin key concepts
-#### Yammer and Office 365 Groups
-#### Set up a Yammer usage policy
-#### Overview of security and compliance in Yammer
-#### About Yammer networks and Office 365 tenants
-#### Improve Office 365 sign-in for Yammer with auto-acceleration policy
-#### Integrate Yammer with other applications
-#### Configure your Yammer network
-#### Configure email and Yammer
-#### Compare options for a free trial of Yammer
-#### Enforce Office 365 identity for Yammer users
-#### Limited functionality in Yammer in Internet Explorer 10 document mode
-#### Network migration - Consolidate multiple Yammer networks
->>>>>>> robmazz-conversion
 ## Configure devices
 ### Set up Mobile Device Management (MDM) in Office 365
 ### Create an APNs Certificate for iOS devices
