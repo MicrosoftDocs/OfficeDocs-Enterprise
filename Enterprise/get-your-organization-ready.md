@@ -3,7 +3,7 @@ title: "Get your organization ready for Office 365 Enterprise"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,7 +24,7 @@ description: "If you've opted out of FastTrack deployment and aren't finding wha
 
 Most organizations don't need to do anything to prepare for Office 365. It's an application on the web and people are able to use it as soon as they have an account. Other organizations have more locations, security practices, or other requirements that create the need for more planning. For enterprise-level organizations, follow the checklist items below to get started with Office 365.
   
-If you want help getting Office 365 set up, **[FastTrack](https://fasttrack.microsoft.com/office)** is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
+If you want help getting Office 365 set up, [FastTrack](https://fasttrack.microsoft.com/office) is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
   
 |**Choose one or more to get started:**||
 |:-----|:-----|
@@ -40,5 +40,4 @@ If you want help getting Office 365 set up, **[FastTrack](https://fasttrack.micr
 Want more resources to help you integrate Office 365 with your broader cloud strategy? Here are the [Microsoft cloud IT architecture resources](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources).
   
 ## Want to talk with support?
-
 We're here to help, [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) for business products.

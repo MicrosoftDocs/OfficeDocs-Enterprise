@@ -3,7 +3,7 @@ title: "Deployment planning checklist for Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -25,12 +25,9 @@ description: "This checklist will help your organization as you plan and prepare
 When you move an enterprise organization to Office 365, it's important to plan exactly what steps you want to take, when to perform them, and who will perform them. This checklist will help your organization as you plan and prepare for a migration to Office 365. The phases and steps in the checklist are aligned with the guidance provided by the [Onboarding Center](https://go.microsoft.com/fwlink/?LinkId=517115). Feel free to adapt this checklist to your organization's needs.
 
 ## Need help with your deployment?
+Do you want help getting Office 365 set up? Consider using [FastTrack](https://fasttrack.microsoft.com/office) or the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
 
-- **Want help deploying to your organization?** If you have more than 50 users, go to the [Onboarding Center](https://go.microsoft.com/fwlink/?LinkId=517115), you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
-- **Want someone to walk you through the process or answer questions?** [Contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) for business products.
-
-   
-## Sample checklist for an enterprise deployment
+## Sample checklist for an Office 365 Enterprise deployment
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|

@@ -3,7 +3,7 @@ title: "Fixing problems with directory synchronization for Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -69,7 +69,7 @@ To update from Azure Active Directory Sync to Azure AD Connect, see [the upgrade
 - Are you ready to manage objects in the cloud only? Or is there an object that was deleted on-premises, but is stuck in the cloud? Take a look at this [Troubleshooting Errors during synchronization](https://go.microsoft.com/fwlink/p/?linkid=842044) and [support article](https://go.microsoft.com/fwlink/p/?LinkId=396720) for guidance on how to resolve these issues.
 
 ### **I got an error message that my company has exceeded the number of objects that can be synchronized**
-- You can read more about the issue [here](https://go.microsoft.com/fwlink/p/?LinkId=396721).
+- You can read more about this issue [here](https://go.microsoft.com/fwlink/p/?LinkId=396721).
    
 ## Other resources
 

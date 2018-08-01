@@ -3,7 +3,7 @@ title: "Deployment advisors for Office 365 services"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -76,9 +76,6 @@ The [Microsoft Intune deployment advisor](https://aka.ms/intuneguidance) helps y
 ## Communication and online conferencing
 
 ### Office 365 Groups
-
-Office 365 Groups setup guide
-  
 Office 365 Groups are a shared workspace for email, conversations, files, and events where group members can collectively get stuff done. Groups in Office 365 let you choose a set of people that you wish to collaborate with and easily set up a collection of resources for those people to share. You don't have to worry about manually assigning permissions to all those resources because adding members to the group automatically gives them the permissions they need to the tools your group provides.
   
 ### Microsoft Teams
@@ -124,14 +121,6 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 ### OneDrive for Business
 
 [OneDrive for Business Integrated Advantage](https://aka.ms/f66hqa)
-  
-### SharePoint Online
-
-SharePoint Search center overview
-  
-SharePoint Hybrid search﻿ and finding your data
-  
-SharePoint troubleshooting, considerations, and pro tips﻿
   
 ### Skype for Business
 

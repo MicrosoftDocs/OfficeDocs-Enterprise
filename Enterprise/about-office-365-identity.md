@@ -3,7 +3,7 @@ title: "Understanding Office 365 identity and Azure Active Directory"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -76,13 +76,3 @@ You can also use the Azure AD advisors: the [Azure AD Connect advisor](https://a
 ## Video training
 
 For more information, see the video course [Office 365: Manage Identities Using Azure AD Connect](https://support.office.com/article/90991a1d-c0ab-479a-b413-35c9706f6fed.aspx), brought to you by LinkedIn Learning.
-  
-## See Also
-
-[Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
-  
-[Connect PowerShell to Office 365 services](https://support.office.com/article/06a743bb-ceb6-49a9-a61d-db4ffdf54fa6)
-  
-[Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
-  
-
