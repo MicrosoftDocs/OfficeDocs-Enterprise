@@ -31,10 +31,10 @@
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # Plan for Office 365
+
 ## [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 ### [Get your organization ready for Office 365 Enterprise](get-your-organization-ready-for-office-365.md)
 ### [Enterprise organizations and Office 365](enterprises-and-office-365.md)
-### [Office 365 system requirements](system-requirements.md)
 ### [Plan for directory synchronization](plan-for-directory-synchronization.md)
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
@@ -44,11 +44,24 @@
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
 ### [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md)
+
 ## [Office 365 integration](office-365-integration.md)
 ### [Azure integration with Office 365](azure-integration.md)
 ### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 ### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
 ### [Get started with the Microsoft Service Trust Portal](/SecurityCompliance/get-started-with-service-trust-portal.md)
+
+## Hybrid options
+### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
+### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
+### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
+### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
+
+## Office 365 client support
+### [Conditional access](https://docs.microsoft.com/deployoffice/security/secure-and-control-access-to-office)
+### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
+### [Mobile application management](https://support.office.com/en-us/article/Deploy-and-manage-mobile-apps-d35db652-629d-4087-8dc0-1e0ed922307c)
+
 ## [Plan your upgrade from Office 2007 or 2010 products](plan-upgrade-previous-versions-office.md)
 ### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
 #### [Office 2010 desktop](/DeployOffice/office-2010-end-support-roadmap.md)
@@ -63,18 +76,10 @@
 #### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 #### [Project Server 2007](project-server-2007-end-of-support.md)
 
-## Hybrid options
-### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
-### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
-### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
-### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
-## Office 365 client support
-### [Conditional access](https://docs.microsoft.com/deployoffice/security/secure-and-control-access-to-office)
-### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
-### [Mobile application management](https://support.office.com/en-us/article/Deploy-and-manage-mobile-apps-d35db652-629d-4087-8dc0-1e0ed922307c)
-
 # Test Office 365
+
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
+
 ## [Office 365 dev/test environment](office-365-dev-test-environment.md)
 ### [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
 ### [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
@@ -84,6 +89,7 @@
 ### [Advanced eDiscovery for your Office 365 dev/test environment](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
 ### [Sensitive file protection in the Office 365 dev/test environment](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
 ### [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
+
 ## [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
 ### [Exchange Online integration for your Office 365 and Dynamics 365 dev/test environment](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
 ## [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
@@ -91,11 +97,11 @@
 
 # Deploy Office 365
 ## [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365/office-365)
-## Deploy Office 365 Enterprise for your organization
+## [Deploy Office 365 Enterprise for your organization](setup-overview-for-enterprises.md)
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### [Office 365 integration with on-premises environments](office-365-integration.md)
 ### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
-### Security best practices for Office 365
+### [Security best practices for Office 365](/SecurityCompliance/security-best-practices.md)
 
 ## Set up your network
 ### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
@@ -103,25 +109,29 @@
 ### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 ### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 ### [Office 365 Network Connectivity Principles](network-connectivity.md)
-### URLs and IP address ranges
-### Content delivery networks
+### [URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+### [Content delivery networks](https://support.office.com/article/0140f704-6614-49bb-aa6c-89b75dcd7f1f)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
 ### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
-## Set up your subscription
-### [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
-### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
-### [Protect your Office 365 global administrator accounts](protect-your-global-administrator-accounts.md)
-### [Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
-### [Activate Rights Management in the Office 365 admin center](activate-rms-in-office-365.md)
 
-### Domains
-#### External Domain Name System records for Office 365
-### Office 365 identity
-#### Azure integration
-### Release options in Office 365
-## Configure Office 365 Enterprise services and applications
-### Migrate data to Office 365
+## Set up your subscription
+### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
+### [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
+### [Install and run the IdFix tool](install-and-run-idfix.md)
+### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
+### [IdFix transaction log](idfix-transaction-log.md)
+### [Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
+### [Protect your Office 365 global administrator accounts](protect-your-global-administrator-accounts.md)
+### [Activate Rights Management in the Office 365 admin center](activate-rms-in-office-365.md)
+### [Domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+#### [External Domain Name System records for Office 365](https://support.office.com/en-us/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)
+### [Office 365 identity](about-office-365-identity.md)
+#### [Azure integration](azure-integration.md)
+### [Release options in Office 365](/DeployOffice/overview-of-update-channels-for-office-365-proplus.md)
+
+## [Configure Office 365 Enterprise services and applications](configure-services-and-applications.md)
+### [Migrate data to Office 365](migrate-data-to-office-365.md)
 ### Exchange Online
 ### SharePoint Online
 ### Skype for Business
