@@ -37,7 +37,7 @@ Here's a short link you can use to come back: [hhttps://aka.ms/monitorconnectivi
 
 [Configure Office 365 Enterprise services and applications](configure-services-and-applications.md)
   
-[Get your organization ready for Office 365 Enterprise](get-your-organization-ready.md)
+[Get your organization ready for Office 365 Enterprise](get-your-organization-ready-for-office-365.md)
   
 [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
   

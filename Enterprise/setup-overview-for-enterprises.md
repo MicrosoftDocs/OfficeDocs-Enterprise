@@ -30,7 +30,7 @@ Office 365 **[FastTrack](https://technet.microsoft.com/en-us/library/office-365-
 ## Self-deployment of Office 365
 If you want to deploy Office 365 on your own, the following deployment steps are here to help.
 
-1. **[Get ready for Office 365](get-your-organization-ready.md)**. These tools and resources will help you get your network, directory, and end users ready for Office 365.
+1. **[Get ready for Office 365](get-your-organization-ready-for-office-365.md)**. These tools and resources will help you get your network, directory, and end users ready for Office 365.
 
 2. **[Sign in and add your internet domain(s) to Office 365](https://portal.office.com/Domains/AddDomainWizard.aspx?Scenario=AdvancedSetup)**. Sign into the portal and add one or more domains to your Office 365 subscription without adding users or migrating email. If you want to configure all your users and services at the same time, follow our [basic set up instructions](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa).
 

@@ -32,7 +32,7 @@
 
 # Plan for Office 365
 ## [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
-### [Get your organization ready for Office 365 Enterprise](get-your-organization-ready.md)
+### [Get your organization ready for Office 365 Enterprise](get-your-organization-ready-for-office-365.md)
 ### [Enterprise organizations and Office 365](enterprises-and-office-365.md)
 ### [Office 365 system requirements](system-requirements.md)
 ### [Plan for directory synchronization](plan-for-directory-synchronization.md)
