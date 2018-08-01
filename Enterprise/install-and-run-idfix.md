@@ -3,7 +3,7 @@ title: "Install and run the Office 365 IdFix tool"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 1/31/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 f1_keywords:
@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid: MOE150
 ms.assetid: f4bd2439-3e41-4169-99f6-3fabdfa326ac
-description: " How to install and run the Office 365 IdFix  tool, which helps clean up your directory before you synchronize it to Office 365."
+description: "How to install and run the Office 365 IdFix  tool to help clean up your active directory before you synchronize it to Office 365."
 ---
 
 # Install and run the Office 365 IdFix tool
@@ -25,7 +25,6 @@ To finish this task successfully, you should be comfortable working with user, g
 If you can't complete this task, there are a couple of other things you can do. These methods might be easier, but they might also take longer or have other drawbacks. They are:
   
 - **Run directory synchronization without running IdFix.** You can synchronize your directory without running the IdFix tool, but we don't recommend it. Fixing errors before you synchronize takes less time and often provides a smoother transition to the cloud. 
-    
 - **Hire a consultant.** Getting expert help can get your users up and running quickly and your directory synchronized. 
     
 ## What you need to run IdFix
@@ -37,7 +36,6 @@ The easiest way to get IdFix up and running is to install it on a computer that 
 The computer where you install IdFix needs to meet these hardware requirements:
   
 - 4 GB RAM (minimum)
-    
 - 2 GB of hard disk space (minimum)
     
 ### IdFix software requirements
@@ -69,7 +67,6 @@ To install IdFix, you download and unzip **IdFix.exe** as described in these ste
 6. Choose **Unzip**.
     
 ## Run the IdFix tool
-<a name="RunIdFix"> </a>
 
 After you install IdFix, run the tool to search for problems in your directory:
   
@@ -110,18 +107,14 @@ After you install IdFix, run the tool to search for problems in your directory:
 9. After all of your changes are made to the directory, run IdFix again to ensure that the fixes you made didn't introduce new errors. You can repeat these steps as many times as you need to. It's a good idea to go through the process a few times before you synchronize.
     
 ## I want to refine my search or dig deeper into the errors, what else can I do with IdFix?
-<a name="RunIdFix"> </a>
 
 More in-depth information is available from these topics:
   
 - [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md) . After you have installed the tool, jump to this topic for more detailed instructions about running the tool, common errors you will encounter, suggested fixes, examples, and best practices for what to do when you have a large number of errors. 
-    
-- [Reference: IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
-    
+- [Reference: IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)  
 - [Reference: Office 365 IdFix transaction log](idfix-transaction-log.md)
     
 ## Video training
-<a name="RunIdFix"> </a>
 
 For more information, see the lesson [Install and use the IDFix tool](https://support.office.com/article/4d81d73c-f172-4fd5-8542-f601c0c96aa9.aspx), brought to you by LinkedIn Learning.
   
