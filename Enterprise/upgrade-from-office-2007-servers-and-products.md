@@ -10,7 +10,6 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
-- MET150
 - LCC120
 - OFF120
 - OFF140
@@ -47,13 +46,13 @@ When support ends for a Microsoft product, there are no new security updates, no
 Choose one of the following options:
 - **Move to Office 365**: For many customers, this is an efficient and cost-effective solution. See [How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)
     
-- **Upgrade your on-premises servers and applications.** See the [Exchange 2007](exchange-2007-end-of-support.md), [SharePoint Server 2007](sharepoint-2007-end-of-support.md), [Project Server 2007](project-server-2007-end-of-support.md), [Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md), and [PerformancePoint Server 2007](pps-2007-end-of-support.md) planning content. 
+- **Upgrade your on-premises servers and applications.** See the [Exchange 2007](exchange-2007-end-of-support.md), [SharePoint Server 2007](sharepoint-2007-end-of-support.md), [Project Server 2007](project-server-2007-end-of-support.md), [Office Communications Server](https://docs.microsoft.com/Skype/SfbServer/plan-your-deployment/upgrade), and [PerformancePoint Server 2007](pps-2007-end-of-support.md) planning content. 
     
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](https://support.office.com/article/59616fab-acdb-40e9-b414-cf0c965c80b7.aspx)
     
 **Need help?** Consider working with a partner or volume licensing specialist. See **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
 > [!TIP]
-> If you purchase 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://fasttrack.microsoft.com).
+> If you purchase 50 or more Office 365 licenses, our FastTrack team can help you through the process of setting up Office 365. Visit [FastTrack.Microsoft.com](https://www.microsoft.com/fasttrack/microsoft-365/office-365).
   
 If your organization has fewer than 50 Office 365 licenses, see [Admins: upgrade your users to the latest Office client using Office 365 for business](https://support.office.com/article/f6b00895-b5fd-4af6-a656-b7788ea20cbb.aspx). 
   
@@ -76,14 +75,12 @@ You can choose not to upgrade at this time. Your on-premises servers and applica
 ## What is Office 365?
 
 Office 365 is a software-as-a-service (SaaS) offering that is part of the Microsoft Cloud stack. [Office 365 Enterprise plans](https://aka.ms/viirjv) include Exchange Online for business email, Skype for Business Online for IM and online conferencing, and OneDrive for Business for online storage. Most business plans include Office software that can be installed on computers (PC and Mac), smart phones (Android, iOS, and Windows), and tablets (Android and iOS). With Office 365, you can be productive from just about anywhere and across a variety of devices. 
-  
+
 |**Resource**|**Description**|
 |:-----|:-----|
-|**[Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)** <br/> |Watch this video to get an overview of Office 365.  <br/> |
-|**[How do we move to Office 365 for business?](https://support.office.com/article/62084652-f051-4b0b-87b3-f766418386bf.aspx)** <br/> |Read this article to get a high-level overview of how enterprise organizations can move to Office 365.  <br/> |
 |**[Select a plan](https://aka.ms/viirjv)** <br/> |Visit this page to learn about Office 365 business plans  <br/> |
 |**[System requirements for Office](https://aka.ms/o365sysrequirements)** <br/> |View details about system requirements in the **Office 365 plans for business, education, and government** section.  <br/> |
-|**[Microsoft Cloud Platform Options](https://www.microsoft.com/download/details.aspx?id=54432)** <br/> |Download this poster to learn about Office 365 and the Microsoft Cloud stack. You'll learn about core capabilities of the Microsoft Cloud stack, including Office 365, and areas of responsibility for you, our customer, and Microsoft. You can download the poster in PDF or Visio formats.  <br/> |
+|**[Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)** <br/> |Download one or more posters to learn more about the Microsoft Cloud and server platform options. You can download posters in PDF or Visio formats.  <br/> |
 |**[Office 365 FAQ](https://aka.ms/office365faqs)** <br/> |Visit this page to see a list of frequently asked questions about Office 365, with links to additional information.  <br/> |
    
 ## What is Microsoft 365?
