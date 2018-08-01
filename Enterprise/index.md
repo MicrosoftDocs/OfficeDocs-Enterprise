@@ -18,7 +18,7 @@ ms.author: robmazz
 <p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides guidance for admins and IT Professionals who are deploying, configuring and managing Office 365 services in enterprise organizations.</p>
 <ul class="cardsF panelContent">
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://www.microsoft.com/fasttrack/microsoft-365/office-365">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ ms.author: robmazz
         </a>
     </li> 
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://docs.microsoft.com/microsoft-365/enterprise/migration-microsoft-365-enterprise-workload">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -75,7 +75,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://docs.microsoft.com/Office365/Enterprise/deployment-planning-checklist">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -94,7 +94,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://docs.microsoft.com/en-us/Office365/Enterprise/microsoft-hybrid-cloud-for-enterprise-architects">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -113,7 +113,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://support.office.com/office-training-center">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -164,7 +164,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>SharePoint Online</h3>
-                        <p><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">Learn more about deploying SharePoint Online</a></p>
+                        <p><a href="https://docs.microsoft.com/sharepoint/sharepoint-online">Learn more about deploying SharePoint Online</a></p>
                     </div>
                 </div>
             </div>
