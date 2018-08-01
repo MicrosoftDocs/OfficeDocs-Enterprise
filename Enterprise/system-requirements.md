@@ -3,7 +3,7 @@ title: "Office 365 system requirements"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2016
+ms.date: 8/21/2016
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -22,6 +22,8 @@ Microsoft Office Professional, Office 365, Office 365 ProPlus, and each Office a
   
 ## Looking for the system requirements for Office?
   
-We've consolidated the list of all Office system requirements including hardware, operating systems, and browsers for Client, Server, and SaaS offerings from Office. Whether you're looking for the prerequisites to install Office client software or Exchange Server, you can find the system requirements at the following link. [Click here to see the System requirements for Office](https://products.office.com/office-system-requirements).
+We've consolidated the list of all Office system requirements including hardware, operating systems, and browsers for Client, Server, and SaaS offerings from Office. Whether you're looking for the prerequisites to install Office client software or Exchange Server, you can find the system requirements at the following link. 
+
+[Click here to see the System requirements for Office](https://products.office.com/office-system-requirements).
   
 
