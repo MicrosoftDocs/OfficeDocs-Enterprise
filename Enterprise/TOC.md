@@ -49,17 +49,17 @@
 ### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 ### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
 ### [Get started with the Microsoft Service Trust Portal](/SecurityCompliance/get-started-with-service-trust-portal.md)
-## Plan your upgrade from Office 2007 or 2010 products
+## [Plan your upgrade from Office 2007 or 2010 products](plan-upgrade-previous-versions-office.md)
 ### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
-#### [Office 2010 desktop](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
+#### [Office 2010 desktop](/DeployOffice/office-2010-end-support-roadmap.md)
 #### [Exchange 2010](exchange-2010-end-of-support.md)
 #### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
-#### [Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
+#### [Lync Server 2010](/skypeforbusiness/plan-your-deployment/upgrade.md)
 ### [Office 2007](upgrade-from-office-2007-servers-and-products.md)
-#### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
+#### [Office 2007 desktop](/DeployOffice/office-2007-end-support-roadmap.md)
 #### [Exchange 2007](exchange-2007-end-of-support.md)
 #### [SharePoint 2007](sharepoint-2007-end-of-support.md)
-#### [Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
+#### [Office Communications Server](/skypeforbusiness/plan-your-deployment/upgrade.md)
 #### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 #### [Project Server 2007](project-server-2007-end-of-support.md)
 
@@ -96,6 +96,7 @@
 ### [Office 365 integration with on-premises environments](office-365-integration.md)
 ### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
 ### Security best practices for Office 365
+
 ## Set up your network
 ### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
