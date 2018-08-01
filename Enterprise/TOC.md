@@ -31,7 +31,6 @@
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # Plan for Office 365
-<<<<<<< HEAD
 ## [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 ### [Get your organization ready for Office 365 Enterprise](get-your-organization-ready.md)
 ### [Enterprise organizations and Office 365](enterprises-and-office-365.md)
@@ -63,44 +62,6 @@
 #### [Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
 #### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 #### [Project Server 2007](project-server-2007-end-of-support.md)
-=======
-## Subscriptions, licenses, and tenants
-### Get your organization ready for Office 365 Enterprise
-### Enterprise organizations and Office 365
-### Office 365 system requirements
-### Plan for directory synchronization
-### Plan for network devices that connect to Office 365 services
-### Plan for third-party SSL certificates for Office 365
-### Understanding Office 365 identity and Azure Active Directory
-### Overview of Mobile Device Management (MDM) for Office 365
-### Capabilities of built-in Mobile Device Management for Office 365
-### Choose between MDM for Office 365 and Microsoft Intune
-### Differences between company and person devices
-### Privacy and security for built-in mobile device management for Office 365
-### Frequently asked questions about MDM
-### Network and migration planning for Office 365
-### Network connectivity to Office 365
-### Deployment advisors for Office 365 services
-### Integrated Apps and Azure AD for Office 365 administrators
-### Migrate your organization data to Office 365 Enterprise
-### Office 365 single sign-on with third-party browsers
-### Office 365 Video networking Frequently Asked Questions
-## Office 365 integration
-### Azure integration with Office 365
-### Azure ExpressRoute for Office 365
-### How modern authentication works for Office 2013 and Office 2016 client apps
-### Get started with the Microsoft Service Trust Portal
-### Skype for Business topologies supported with Modern Authentication and Hybrid Modern Authentication
-### Upgrading from SharePoint 2010
-### Upgrading from Lync Server 2010
-### SharePoint 2007 migration options to consider
-### SharePoint Server 2007 end of support roadmap
-### Resources to help you upgrade from Office 2007 or Office 2010 servers and clients
-### Project Server 2007 end of support roadmap
-### PerformancePoint Server 2007 end of support roadmap
-### Exchange 2010 end of support roadmap
-### Exchange 2007 end of support roadmap
->>>>>>> robmazz-conversion
 
 ## Hybrid options
 ### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
@@ -108,15 +69,9 @@
 ### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
 ### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
 ## Office 365 client support
-<<<<<<< HEAD
 ### [Conditional access](https://docs.microsoft.com/deployoffice/security/secure-and-control-access-to-office)
 ### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
 ### [Mobile application management](https://support.office.com/en-us/article/Deploy-and-manage-mobile-apps-d35db652-629d-4087-8dc0-1e0ed922307c)
-=======
-### Conditional access
-### Modern authentication
-### Mobile application management
->>>>>>> robmazz-conversion
 
 # Test Office 365
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -135,7 +90,6 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-<<<<<<< HEAD
 ## [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365/office-365)
 ## Deploy Office 365 Enterprise for your organization
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
@@ -148,21 +102,6 @@
 ### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 ### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 ### [Office 365 Network Connectivity Principles](network-connectivity.md)
-=======
-## FastTrack
-## Deploy Office 365 Enterprise for your organization
-### Deployment planning checklist for Office 365
-### Office 365 integration with on-premises environments
-### Office 365 inter-tenant collaboration
-### Security best practices for Office 365
-## Set up your network
-### How to prepare a non-routable domain for directory synchronization
-### Network planning and performance tuning for Office 365
-### Network planning with ExpressRoute for Office 365
-### Routing with ExpressRoute for Office 365
-### Using BGP communities in ExpressRoute for Office 365 scenarios
-### Office 365 Network Connectivity Principles
->>>>>>> robmazz-conversion
 ### URLs and IP address ranges
 ### Content delivery networks
 ### [IPv6 support in Office 365 services](ipv6-support.md)
@@ -311,7 +250,6 @@
 ## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 
 # Manage Office 365
-<<<<<<< HEAD
 ## Management tools
 ## Service health
 ### View service health
@@ -323,8 +261,6 @@
 ## [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)
 ## [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 # Security & Compliance
-=======
->>>>>>> robmazz-conversion
 ## Tools to manage Office 365 accounts
 ## Managing ExpressRoute for Office 365 connectivity
 ## Add several users at the same time to Office 365 - Admin Help
@@ -356,46 +292,8 @@
 ### Tune Skype for Business Online performance
 ## Microsoft Teams
 ## Yammer
-<<<<<<< HEAD
 
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 # [Security & Compliance](/SecurityCompliance/index.md)
 # Office 365 for business
-=======
-### Office 365 sign-in for Yammer
-### Manage Yammer admins
-### Manage Yammer data compliance
-### Manage Yammer domains across their lifecycle in Office 365
-### Manage Yammer security settings
-### Manage Yammer user licenses in Office 365
-### Manage Yammer users across their lifecycle from Office 365
-### Manage Yammer with Microsoft Intune
-### Monitor private content in Yammer
-### Add external messaging participants to your Yammer conversations
-### Add, block, or remove Yammer users
-### Turn off Yammer access for Office 365 users
-### Audit Yammer users in networks connected to Office 365
-### Control external messaging in a Yammer network with Exchange Transport Rules
-### Converting Yammer notes into Word Online documents
-### Create a dynamic group in Yammer
-### Create and manage an external network in Yammer
-### Create and manage external groups in Yammer
-### Customize the look of your Yammer network
-### Embed a Yammer feed into a SharePoint site
-### Export data from Yammer Basic
-### Export data from Yammer Enterprise
-### External messaging FAQ - Yammer
-### Find external messaging participants in a Yammer network
-### Live events in Yammer
-### Manage GDPR data subject requests in Yammer Basic
-### Manage GDPR data subject requests in Yammer Enterprise
-### Phasing out temporary mobile passwords in Yammer
-### SharePoint enterprise social experience - Yammer and Newsfeed
-### Track Yammer events in the Office 365 audit log and with the Management Activity API
-### Upgrade your network to stand-alone Yammer Enterprise subscription
-### What to do when users cannot log in to Yammer on Android devices
-
-# Security & Compliance
-# Office 365 PowerShell
->>>>>>> robmazz-conversion
   
