@@ -14,11 +14,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: a5efce5d-9c9c-4190-b61b-fd273c1d425f
-<<<<<<< HEAD
-description: "Your Office 365 subscription includes a subscription to Azure AD. Integrate Office 365 with Azure AD if you want password sync or single sign-on with your on-premises environment. You can also buy advanced features to better manage your accounts."
-=======
 description: "Your Office 365 subscription includes a subscription to Azure AD. Integrate Office 365 with Azure AD if you want password sync or single sign-on with your on-premises environment."
->>>>>>> master
 ---
 
 # Azure integration with Office 365

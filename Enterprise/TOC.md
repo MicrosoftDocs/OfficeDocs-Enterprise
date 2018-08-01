@@ -39,11 +39,7 @@
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
-### [Overview of Mobile Device Management (MDM) for Office 365](/SecurityCompliance/overview-of-mdm?toc=/Office365/Enterprise/toc.json)
-### [Capabilities of built-in Mobile Device Management for Office 365](/SecurityCompliance/capabilities-of-mobile-device-management?toc=/Office365/Enterprise/toc.json)
-### [Choose between MDM for Office 365 and Microsoft Intune](/SecurityCompliance/choose-between-mdm-and-intune?toc=/Office365/Enterprise/toc.json)
-### [Privacy and security for built-in mobile device management for Office 365](/SecurityCompliance/privacy-and-security-for-mdm?toc=/Office365/Enterprise/toc.json)
-### [Frequently asked questions about MDM](/SecurityCompliance/frequently-asked-questions-about-mdm?toc=/Office365/Enterprise/toc.json)
+### [Mobile Device Management (MDM) for Office 365](/SecurityCompliance/overview-of-mdm?toc=/Office365/Enterprise/toc.json)
 ### [Network and migration planning for Office 365](network-and-migration-planning.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
@@ -52,7 +48,7 @@
 ### [Azure integration with Office 365](azure-integration.md)
 ### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 ### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
-### [Get started with the Microsoft Service Trust Portal](get-started-with-service-trust-portal.md)
+### [Get started with the Microsoft Service Trust Portal](/SecurityCompliance/get-started-with-service-trust-portal.md)
 ## Plan your upgrade from Office 2007 or 2010 products
 ### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
 #### [Office 2010 desktop](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
@@ -130,20 +126,6 @@
 ### Skype for Business
 ### Microsoft Teams
 ### Yammer
-#### Yammer admin quick start
-#### Yammer admin key concepts
-#### Yammer and Office 365 Groups
-#### Set up a Yammer usage policy
-#### Overview of security and compliance in Yammer
-#### About Yammer networks and Office 365 tenants
-#### Improve Office 365 sign-in for Yammer with auto-acceleration policy
-#### Integrate Yammer with other applications
-#### Configure your Yammer network
-#### Configure email and Yammer
-#### Compare options for a free trial of Yammer
-#### Enforce Office 365 identity for Yammer users
-#### Limited functionality in Yammer in Internet Explorer 10 document mode
-#### Network migration - Consolidate multiple Yammer networks
 ## Configure devices
 ### Set up Mobile Device Management (MDM) in Office 365
 ### Create an APNs Certificate for iOS devices
@@ -271,9 +253,7 @@
 ## Manage devices
 ### Manage devices in MDM
 ### Manage device access settings
-### Get details about devices managed by Mobile Device Management (MDM)  for Office 365
 ### How to turn off Mobile Device Management in Office 365
-### Troubleshoot device enrollment with MDM for Office 365
 ### Wipe a mobile device in Office 365
 ### Client connectivity
 ## Service health
@@ -289,41 +269,8 @@
 ### Tune Skype for Business Online performance
 ## Microsoft Teams
 ## Yammer
-### Office 365 sign-in for Yammer
-### Manage Yammer admins
-### Manage Yammer data compliance
-### Manage Yammer domains across their lifecycle in Office 365
-### Manage Yammer security settings
-### Manage Yammer user licenses in Office 365
-### Manage Yammer users across their lifecycle from Office 365
-### Manage Yammer with Microsoft Intune
-### Monitor private content in Yammer
-### Add external messaging participants to your Yammer conversations
-### Add, block, or remove Yammer users
-### Turn off Yammer access for Office 365 users
-### Audit Yammer users in networks connected to Office 365
-### Control external messaging in a Yammer network with Exchange Transport Rules
-### Converting Yammer notes into Word Online documents
-### Create a dynamic group in Yammer
-### Create and manage an external network in Yammer
-### Create and manage external groups in Yammer
-### Customize the look of your Yammer network
-### Embed a Yammer feed into a SharePoint site
-### Export data from Yammer Basic
-### Export data from Yammer Enterprise
-### External messaging FAQ - Yammer
-### Find external messaging participants in a Yammer network
-### Live events in Yammer
-### Manage GDPR data subject requests in Yammer Basic
-### Manage GDPR data subject requests in Yammer Enterprise
-### Phasing out temporary mobile passwords in Yammer
-### SharePoint enterprise social experience - Yammer and Newsfeed
-### Track Yammer events in the Office 365 audit log and with the Management Activity API
-### Upgrade your network to stand-alone Yammer Enterprise subscription
-### What to do when users cannot log in to Yammer on Android devices
 
-# [Security & Compliance](/SecurityCompliance/index.md)
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
-# [Office 365 admin tasks](/admin/index.md)
-# Help for small and mid-sized businesses
+# [Security & Compliance](/SecurityCompliance/index.md)
+# Office 365 for business
   

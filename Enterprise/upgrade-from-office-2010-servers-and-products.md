@@ -19,7 +19,7 @@ search.appverid:
 - PJU120
 - PSV120
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
-description: "Support is ending soon for Office 2010 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now."
+description: Support is ending soon for Office 2010 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now.
 ---
 
 # Resources to help you upgrade from Office 2010 servers and clients

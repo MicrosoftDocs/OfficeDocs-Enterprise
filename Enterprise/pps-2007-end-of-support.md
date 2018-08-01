@@ -14,7 +14,7 @@ search.appverid:
 - PDD140
 - MET150
 ms.assetid: 89d9feee-2285-419c-8c14-0f7f583536e0
-description: "PerformancePoint Server 2007, ProClarity, and SharePoint Server 2007 have reached end of support. Read this article to plan your BI solution upgrade."
+description: PerformancePoint Server 2007, ProClarity, and SharePoint Server 2007 have reached end of support. Read this article to plan your BI solution upgrade.
 ---
 
 # PerformancePoint Server 2007 end of support roadmap
