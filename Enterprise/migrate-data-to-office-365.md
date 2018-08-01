@@ -3,7 +3,7 @@ title: "Migrate your organization data to Office 365 Enterprise"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,7 +13,7 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: e2fdfc8d-547e-4419-8628-2738ed4e0f46
-description: "If you've opted out of FastTrack deployment and aren't finding what you need in our basic deployment steps, this is the place to start."
+description: "If you've opted out of FastTrack deployment and you are ready to migrate data to Office 365, this is the place to start."
 ---
 
 # Migrate your organization data to Office 365 Enterprise
@@ -22,7 +22,7 @@ description: "If you've opted out of FastTrack deployment and aren't finding wha
 
 Our [basic set up instructions](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) help you get everyone using your Office 365 services and applications in the shortest time possible. This skips the hybrid scenarios and the more advanced methods for migrating to Office 365. 
   
-If you want help getting Office 365 set up, **[FastTrack](https://fasttrack.microsoft.com/office)** is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
+If you want help getting Office 365 set up, [FastTrack](https://fasttrack.microsoft.com/office) is the easiest way to deploy Office 365, you can also sign in and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
 
 ## Migrate email to Office 365
 - Migrate with Exchange Hybrid using the [Exchange Deployment Assistant](https://technet.microsoft.com/exdeploy2013). (Administrator)

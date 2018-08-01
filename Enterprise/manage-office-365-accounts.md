@@ -3,7 +3,7 @@ title: "Tools to manage Office 365 accounts"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -29,16 +29,13 @@ Where and how you can manage your user accounts depends on the identity model yo
   
 ### Cloud authentication
 
-- [Office 365 Identity](about-office-365-identity.md) - create and manage users in the Office 365 admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users. 
-    
+- [Office 365 Identity](about-office-365-identity.md) - create and manage users in the Office 365 admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users.
 - [Password hash sync with seamless single sign-on](about-office-365-identity.md) - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises. 
-    
 - [Pass-through authentication with seamless single sign-on](about-office-365-identity.md) - Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises Active Directory. 
     
 ### Federated authentication
 
 - [Office 365 Identity](about-office-365-identity.md) - Primarily for large enterprise organizations with more complex authentication requirements, on-premises directory objects are synchronized with Office 365 and users accounts are managed on-premises. 
-    
 - [Third-party authentication and identity providers](about-office-365-identity.md) - On-premises directory objects may be synchronized to Office 365 and cloud resource access is primarily managed by a third-party identity provider (IdP). 
     
 ## Managing Accounts
@@ -46,7 +43,6 @@ Where and how you can manage your user accounts depends on the identity model yo
 When deciding which way your organization will create and manage accounts, consider the following:
   
 - The directory synchronization software needs to be installed on servers within your on-premises environment to connect the identities between Office 365 and your on-premises directory.
-    
 - Any directory synchronization option, including SSO options, requires your on-premises directory attributes meet standards. The specifics of what attributes are used in your directory and what cleanup (if any) is needed are described in [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md). See [Install and run the Office 365 IdFix tool](install-and-run-idfix.md) for instruction on how to use IdFix to automate directory cleanup. 
     
 ## Plan how you are going to create Office 365 accounts

@@ -3,7 +3,7 @@ title: "Office 365 IdFix transaction log"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration

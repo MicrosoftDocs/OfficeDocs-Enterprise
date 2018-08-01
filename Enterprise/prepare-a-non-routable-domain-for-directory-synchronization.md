@@ -3,7 +3,7 @@ title: "Prepare a non-routable domain for directory synchronization"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:

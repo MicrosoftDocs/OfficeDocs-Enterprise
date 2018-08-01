@@ -3,7 +3,7 @@ title: "Install and run the Office 365 IdFix tool"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 f1_keywords:
@@ -25,7 +25,6 @@ To finish this task successfully, you should be comfortable working with user, g
 If you can't complete this task, there are a couple of other things you can do. These methods might be easier, but they might also take longer or have other drawbacks. They are:
   
 - **Run directory synchronization without running IdFix.** You can synchronize your directory without running the IdFix tool, but we don't recommend it. Fixing errors before you synchronize takes less time and often provides a smoother transition to the cloud. 
-    
 - **Hire a consultant.** Getting expert help can get your users up and running quickly and your directory synchronized. 
     
 ## What you need to run IdFix
@@ -37,7 +36,6 @@ The easiest way to get IdFix up and running is to install it on a computer that 
 The computer where you install IdFix needs to meet these hardware requirements:
   
 - 4 GB RAM (minimum)
-    
 - 2 GB of hard disk space (minimum)
     
 ### IdFix software requirements
@@ -113,9 +111,7 @@ After you install IdFix, run the tool to search for problems in your directory:
 More in-depth information is available from these topics:
   
 - [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md) . After you have installed the tool, jump to this topic for more detailed instructions about running the tool, common errors you will encounter, suggested fixes, examples, and best practices for what to do when you have a large number of errors. 
-    
-- [Reference: IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
-    
+- [Reference: IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)  
 - [Reference: Office 365 IdFix transaction log](idfix-transaction-log.md)
     
 ## Video training

@@ -3,7 +3,7 @@ title: "Office 365 integration with on-premises environments"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -15,7 +15,7 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 263faf8d-aa21-428b-aed3-2021837a4b65
-description: "Learn how to integrate Office 365 with your existing directory services and with an on-premises installation of Exchange Server, Lync, or SharePoint Server 2013."
+description: "Learn how to integrate Office 365 with your existing directory services."
 ---
 
 # Office 365 integration with on-premises environments
@@ -62,5 +62,4 @@ To set up SSO you also use Azure AD Connect. For instructions, read [Use Azure A
 Learn more about [application access and single sign-on with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=698604).
 
 ## Azure AD Connect
-   
 Azure AD Connect replaces older versions of identity integration tools such as DirSync and Azure AD Sync. For more information, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=527969). If you want to update from Azure Active Directory Sync to Azure AD Connect, see [the upgrade instructions](https://go.microsoft.com/fwlink/p/?LinkId=733240). See a solution architecture built for [Office 365 Directory Synchronization (DirSync) in Microsoft Azure](https://go.microsoft.com/fwlink/?LinkId=517887).

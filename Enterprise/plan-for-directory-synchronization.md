@@ -3,7 +3,7 @@ title: "Plan for directory synchronization for Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/24/2018
+ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -40,11 +40,9 @@ To help ensure a seamless transition to Office 365 by using synchronization, we 
 When you [set up directory synchronization in Office 365](set-up-directory-synchronization.md), one of the steps is to [download and run the IdFix tool](install-and-run-idfix.md). You can use the IdFix tool to help with the [directory cleanup](prepare-directory-attributes-for-synch-with-idfix.md).
   
 Your directory cleanup should focus on the following tasks:
-  
-- Remove duplicate **proxyAddress** and **userPrincipalName** attributes. 
-    
-- Update blank and invalid **userPrincipalName** attributes with valid **userPrincipalName** attributes. 
-    
+
+- Remove duplicate **proxyAddress** and **userPrincipalName** attributes.
+- Update blank and invalid **userPrincipalName** attributes with valid **userPrincipalName** attributes.
 - Remove invalid and questionable characters in the **givenName**, surname ( **sn** ), **sAMAccountName**, **displayName**, **mail**, **proxyAddresses**, **mailNickname**, and **userPrincipalName** attributes. For details about preparing attributes, see [List of attributes that are synced by the Azure Active Directory Sync Tool](https://go.microsoft.com/fwlink/p/?LinkId=396719).
     
     > [!NOTE]
@@ -55,8 +53,7 @@ For multiple forests and SSO options, use [Custom Installation of Azure AD Conne
   
 If your organization has multiple forests for authentication (logon forests), we highly recommend the following:
   
-- **Evaluate consolidating your forests.** In general, there's more overhead required to maintain multiple forests. Unless your organization has security constraints that dictate the need for separate forests, consider simplifying your on-premises environment. 
-    
+- **Evaluate consolidating your forests.** In general, there's more overhead required to maintain multiple forests. Unless your organization has security constraints that dictate the need for separate forests, consider simplifying your on-premises environment.
 - **Use only in your primary logon forest.** Consider deploying Office 365 only in your primary logon forest for your initial rollout of Office 365. 
     
 If you can't consolidate your multiforest Active Directory deployment or are using other directory services to manage identities, you may be able to synchronize these with the help of Microsoft or a partner.
@@ -70,28 +67,20 @@ When user accounts are synchronized with the Office 365 directory for the first 
   
 Directory synchronization is required for the following features and functionality:
   
-- SSO.
+- SSO
     
-- Lync coexistence.
+- Lync coexistence
     
 - Exchange hybrid deployment, including:
     
   - Fully shared global address list (GAL) between your on-premises Exchange environment and Office 365.
-    
   - Synchronizing GAL information from different mail systems.
-    
   - The ability to add users to and remove users from Office 365 service offerings. This requires the following:
-    
   - Two-way synchronization must be configured during directory synchronization setup. By default, directory synchronization tools write directory information only to the cloud. When you configure two-way synchronization, you enable write-back functionality so that a limited number of object attributes are copied from the cloud, and then written them back to your local Active Directory. Write-back is also referred to as Exchange hybrid mode. 
-    
   - An on-premises Exchange hybrid deployment
-    
   - The ability to move some user mailboxes to Office 365 while keeping other user mailboxes on-premises.
-    
   - Safe senders and blocked senders on-premises are replicated to Office 365.
-    
   - Basic delegation and send-on-behalf-of email functionality.
-    
   - You have an integrated on-premises smart card or multi-factor authentication solution.
     
-- Synchronization of photos, thumbnails, conference rooms, and security groups.
+- Synchronization of photos, thumbnails, conference rooms, and security groups
