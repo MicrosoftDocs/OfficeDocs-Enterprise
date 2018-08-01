@@ -39,39 +39,43 @@
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
-### [Mobile Device Management (MDM) for Office 365](/SecurityCompliance/overview-of-mdm?toc=/Office365/Enterprise/toc.json)
+### [Mobile Device Management (MDM) for Office 365](/SecurityCompliance/overview-of-mdm.md)
 ### [Network and migration planning for Office 365](network-and-migration-planning.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
 ### [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md)
+
 ## [Office 365 integration](office-365-integration.md)
 ### [Azure integration with Office 365](azure-integration.md)
 ### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 ### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
 ### [Get started with the Microsoft Service Trust Portal](/SecurityCompliance/get-started-with-service-trust-portal.md)
-## Plan your upgrade from Office 2007 or 2010 products
-### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
-#### [Office 2010 desktop](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
-#### [Exchange 2010](exchange-2010-end-of-support.md)
-#### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
-#### [Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
-### [Office 2007](upgrade-from-office-2007-servers-and-products.md)
-#### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap?toc=/Office365/Enterprise/toc.json)
-#### [Exchange 2007](exchange-2007-end-of-support.md)
-#### [SharePoint 2007](sharepoint-2007-end-of-support.md)
-#### [Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade?toc=/Office365/Enterprise/toc.json)
-#### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
-#### [Project Server 2007](project-server-2007-end-of-support.md)
 
 ## Hybrid options
 ### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
 ### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
 ### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
 ### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
+
 ## Office 365 client support
-### [Conditional access](https://docs.microsoft.com/deployoffice/security/secure-and-control-access-to-office)
+### [Conditional access](/deployoffice/security/secure-and-control-access-to-office.md)
 ### [Modern authentication](modern-auth-for-office-2013-and-2016.md)
 ### [Mobile application management](https://support.office.com/en-us/article/Deploy-and-manage-mobile-apps-d35db652-629d-4087-8dc0-1e0ed922307c)
+
+## Plan your upgrade from Office 2007 or 2010 products
+### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
+#### [Office 2010 desktop](/DeployOffice/office-2010-end-support-roadmap.md)
+#### [Exchange 2010](exchange-2010-end-of-support.md)
+#### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
+#### [Lync Server 2010](/skypeforbusiness/plan-your-deployment/upgrade.md](upgrade-from-office-2007-servers-and-products.md)
+#### [Office 2007 desktop](/DeployOffice/office-2007-end-support-roadmap)
+#### [Exchange 2007](exchange-2007-end-of-support.md)
+#### [SharePoint 2007](sharepoint-2007-end-of-support.md)
+#### [Office Communications Server](/skypeforbusiness/plan-your-deployment/upgrade)
+#### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
+#### [Project Server 2007](project-server-2007-end-of-support.md)
+
+
 
 # Test Office 365
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
@@ -95,7 +99,7 @@
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### [Office 365 integration with on-premises environments](office-365-integration.md)
 ### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
-### Security best practices for Office 365
+### [Security best practices for Office 365](/SecurityCompliance/security-best-practices.md)
 ## Set up your network
 ### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
