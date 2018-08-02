@@ -38,14 +38,6 @@ You must set an Allowed Data Location for SharePoint for each geo-location where
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">North America</td>
-<td align="left">NAM</td>
-</tr>
-<tr class="even">
-<td align="left">Europe / Middle East / Africa</td>
-<td align="left">EUR</td>
-</tr>
-<tr class="odd">
 <td align="left">Asia-Pacific</td>
 <td align="left">APC</td>
 </tr>
@@ -53,21 +45,33 @@ You must set an Allowed Data Location for SharePoint for each geo-location where
 <td align="left">Australia</td>
 <td align="left">AUS</td>
 </tr>
+<tr class="even">
+<td align="left">Canada</td>
+<td align="left">CAN</td>
+</tr>
+<tr class="even">
+<td align="left">Europe / Middle East / Africa</td>
+<td align="left">EUR</td>
+</tr>
+<tr class="even">
+<td align="left">France</td>
+<td align="left">FRA</td>
+</tr>
 <tr class="odd">
 <td align="left">Japan</td>
 <td align="left">JPN</td>
 </tr>
 <tr class="even">
-<td align="left">Canada</td>
-<td align="left">CAN</td>
+<td align="left">Korea</td>
+<td align="left">KOR</td>
+</tr>
+<tr class="odd">
+<td align="left">North America</td>
+<td align="left">NAM</td>
 </tr>
 <tr class="odd">
 <td align="left">United Kingdom</td>
 <td align="left">GBR</td>
-</tr>
-<tr class="even">
-<td align="left">Korea</td>
-<td align="left">KOR</td>
 </tr>
 </tbody>
 </table>

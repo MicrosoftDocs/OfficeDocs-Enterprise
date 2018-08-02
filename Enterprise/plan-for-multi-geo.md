@@ -59,20 +59,20 @@ You can configure any of the following locations to be satellite geo locations w
 <td align="left">APC</td>
 </tr>
 <tr class="even">
-<td align="left">Europe / Middle East / Africa</td>
-<td align="left">EUR</td>
-</tr>
-<tr class="odd">
-<td align="left">North America</td>
-<td align="left">NAM</td>
-</tr>
-<tr class="even">
 <td align="left">Australia</td>
 <td align="left">AUS</td>
 </tr>
 <tr class="odd">
 <td align="left">Canada</td>
 <td align="left">CAN</td>
+</tr>
+<tr class="even">
+<td align="left">Europe / Middle East / Africa</td>
+<td align="left">EUR</td>
+</tr>
+<tr class="odd">
+<td align="left">France</td>
+<td align="left">FRA</td>
 </tr>
 <tr class="odd">
 <td align="left">Japan</td>
@@ -83,6 +83,10 @@ You can configure any of the following locations to be satellite geo locations w
 <td align="left">KOR</td>
 </tr>
 <tr class="odd">
+<td align="left">North America</td>
+<td align="left">NAM</td>
+</tr>
+<tr class="odd">
 <td align="left">United Kingdom</td>
 <td align="left">GBR</td>
 </tr>
@@ -91,7 +95,6 @@ You can configure any of the following locations to be satellite geo locations w
 
 Upcoming geo locations:
   
-- France
 - India
 
 When you configure multi-geo, consider taking the opportunity to consolidate your on-premises infrastructure while migrating to Office 365. For example, if you have on-premises farms in Singapore and Malaysia, then you can consolidate them to the APC satellite location, provided data residency requirements allow you to do so.
