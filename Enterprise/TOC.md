@@ -186,38 +186,29 @@
 ### [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
 
-## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
-
 # Manage Office 365
-
-## [Management tools](https://support.office.com/en-us/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
 
 ## Service health
 ### [View service health](view-service-health.md)
 ### [Monitor connectivity](monitor-connectivity.md)
 ### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-## [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
+## [Management tools](https://support.office.com/en-us/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
+### [Tools to manage Office 365 accounts](tools-to-manage-office-365-accounts.md)
+### [Add several users at the same time to Office 365 - Admin Help](add-several-users-at-the-same-time.md)
+### [Recover deleted items in a user mailbox - Admin Help](recover-deleted-items-in-a-mailbox.md)
 
-## [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
-
-## [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
-
-## [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)
-
-## [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-
-## [Tools to manage Office 365 accounts](tools-to-manage-office-365-accounts.md)
-
-## [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
-
-## [Add several users at the same time to Office 365 - Admin Help](add-several-users-at-the-same-time.md)
-
-## [Recover deleted items in a user mailbox - Admin Help](recover-deleted-items-in-a-mailbox.md)
+## Manage workloads
+### [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
+### [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
+### [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
+### [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)
+### [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 
 ## [Tune Office 365 performance](tune-office-365-performance.md)
 ### [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 ### [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
+### [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
 
 ## Directory synchronization
 ### [View directory synchronization status in Office 365](view-directory-synchronization-status.md)
