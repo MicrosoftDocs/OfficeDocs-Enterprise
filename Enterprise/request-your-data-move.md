@@ -1,7 +1,7 @@
 ---
 title: "How to request your data move"
-ms.author: v-munja
-author: techtoons
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 3/22/2018
 ms.audience: ITPro

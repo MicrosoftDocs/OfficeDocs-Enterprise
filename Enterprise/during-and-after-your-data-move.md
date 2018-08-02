@@ -1,7 +1,7 @@
 ---
 title: "During and after your data move"
-ms.author: v-munja
-author: techtoons
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 3/20/2018
 ms.audience: ITPro
@@ -14,7 +14,7 @@ description: "Data moves are a back-end operation with minimal impact to end-use
 ---
 
 # During and after your data move
-[]
+
 Data moves are a back-end operation with minimal impact to end-users. No action is required while Microsoft moves each service and associated data for your tenant to a new datacenter geo. Data transfer and validation occur in the background in advance with minimal impact to users.
   
 > [!NOTE]

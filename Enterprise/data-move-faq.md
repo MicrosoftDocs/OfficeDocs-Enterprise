@@ -1,7 +1,7 @@
 ---
 title: "Data move general FAQ"
-ms.author: v-munja
-author: techtoons
+ms.author: deniseb
+author: denisebmsft
 manager: laurawi
 ms.date: 9/14/2017
 ms.audience: ITPro
