@@ -18,13 +18,13 @@ ms.author: robmazz
 <p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides guidance for admins and IT Professionals who are deploying, configuring and managing Office 365 services in enterprise organizations.</p>
 <ul class="cardsF panelContent">
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://www.microsoft.com/fasttrack/microsoft-365/office-365">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/get-started.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us//office/media/icons/get-started.svg" alt="Get Started icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -43,7 +43,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector.svg" alt="Connector icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -62,7 +62,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks.svg" alt="Blocks icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -75,13 +75,13 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="setup-overview-for-enterprises.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -94,13 +94,13 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="hybrid-cloud-overview.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid.svg" alt="Hybrid icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -113,13 +113,13 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="https://support.office.com/office-training-center">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="GET APPROVED ALT TEXT" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="Education icon" />
                         </div>
                     </div>
                     <div class="cardText">
