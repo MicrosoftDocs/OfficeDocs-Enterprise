@@ -132,30 +132,29 @@
 
 ## [Configure Office 365 Enterprise services and applications](configure-services-and-applications.md)
 ### [Migrate data to Office 365](migrate-data-to-office-365.md)
-### Exchange Online
-### SharePoint Online
-### Skype for Business
-### Microsoft Teams
-### Yammer
+### [Exchange Online](/Exchange/exchange-online.md)
+### [SharePoint Online](/sharepoint/sharepoint-online.md)
+### [Skype for Business](/SkypeForBusiness/skype-for-business-online.md)
+### [Microsoft Teams](/MicrosoftTeams/Teams-overview.md)
+### [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
+
 ## Configure devices
 ### Set up Mobile Device Management (MDM) in Office 365
 ### Create an APNs Certificate for iOS devices
 ### Create and deploy device security policies
 ### Enroll your mobile device in Office 365
+
 ## Deploy clients
-### Deploy Office ProPlus
+### [Deploy Office 365 ProPlus](/DeployOffice/deployment-guide-for-office-365-proplus.md)
 ### Deploy the Skype for Business client
 ### Deploy and manage mobile apps
+
 ## Onboarding your users
 ### Enabling your users
 ### Enabling team collaboration
 ### Training your users
+
 ## Multi-geo
-### Japan datacenter migration
-#### Moving core data to new Office 365 datacenter geos
-#### How to request your data move
-#### During and after your data move
-#### Data move general FAQ
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
 #### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
@@ -166,6 +165,13 @@
 #### [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md)
 #### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
 ### [Multi-Geo capabilities in Exchange Online](multi-geo-capabilities-in-exchange-online.md)
+
+## Japan datacenter migration
+### [Moving core data to new Office 365 datacenter geos](moving-data-to-new-datacenter-geos.md)
+### [How to request your data move](request-your-data-move.md)
+### [During and after your data move](during-and-after-your-data-move.md)
+### [Data move general FAQ](data-move-faq.md)
+
 ## Hybrid solutions
 ### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
 ### [Deploy Office 365 directory synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
@@ -180,92 +186,33 @@
 ### [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
 ### [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
 ### [Automate file collection for eDiscovery](automate-file-collection-for-ediscovery.md)
-## [Multi-Geo]()
-### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
-#### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
-#### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
-##### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
-##### [Delete a geo location](delete-a-geo-location.md)
-##### [User experience in a multi-geo environment](multi-geo-user-experience.md)
-#### [Configure OneDrive for Business Multi-Geo](multi-geo-tenant-configuration.md)
-#### [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md)
-#### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
-### [Multi-Geo capabilities in Exchange Online](multi-geo-capabilities-in-exchange-online.md)
-## [Security solutions](security-solutions.md)
-### [Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)
-#### [Overview: Office 365 Information Protection for GDPR](office-365-info-protection-for-gdpr-overview.md)
-#### [Search for and find personal data](search-for-and-find-personal-data.md)
-#### [Customize or create new sensitive information types for GDPR](customize-or-create-a-new-sensitive-information-type.md)
-#### [Architect a classification schema for personal data](architect-a-classification-schema-for-personal-data.md)
-#### [Apply labels to personal data in Office 365](apply-labels-to-personal-data-in-office-365.md)
-#### [Apply protection to personal data in Office 365](apply-protection-to-personal-data-in-office-365.md)
-#### [Monitor for leaks of personal data](monitor-for-leaks-of-personal-data.md)
-#### [Office 365 GDPR dev/test environment](GDPR-discovery-protection-reporting-in-Office365-dev-test-environment.md)
-### [GDPR for on-premises Office servers](gdpr-for-office-servers.md)
-#### [GDPR for SharePoint Server](gdpr-for-sharepoint-server.md)
-#### [GDPR for Exchange Server](gdpr-for-exchange-server.md)
-#### [GDPR for Skype for Businesss Server](gdpr-for-skype-for-business-server.md)
-#### [GDPR for Project Server](gdpr-for-project-server.md)
-##### [Export user data from Project Server](/Project/export-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
-##### [Delete user data from Project Server](/Project/delete-user-data-from-project-server?toc=/Office365/Enterprise/toc.json)
-#### [GDPR for Office Online Server](gdpr-for-office-online-server.md)
-#### [GDPR for file shares](gdpr-for-on-premises-file-shares.md)
-### [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
-#### [Configure groups and users for a political campaign dev/test environment](configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
-#### [Create team sites in a political campaign dev/test environment](create-team-sites-in-a-political-campaign-dev-test-environment.md)
-### [Office 365 Security Incident Response](office365-security-incident-response-overview.md)
-#### [Detect and Remediate Illicit Consent Grant](detect-and-remediate-illicit-consent-grants.md)
-#### [Detect and Remediate Outlook Rules and Forms](detect-and-remediate-outlook-rules-forms-attack.md)
-#### [Responding to a Compromised Email Account in Office 365](responding-to-a-compromised-email-account.md)
-### [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md)
-#### [Deploy SharePoint Online sites for three tiers of protection](deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)
-#### [Protect SharePoint Online files with Office 365 labels and DLP](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
-#### [Protect SharePoint Online files with Azure Information Protection](protect-sharepoint-online-files-with-azure-information-protection.md)
-#### [Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-in-a-dev-test-environment.md)
-### [Isolated SharePoint Online team sites](isolated-sharepoint-online-team-sites.md)
-#### [Design an isolated SharePoint Online team site](design-an-isolated-sharepoint-online-team-site.md)
-#### [Deploy an isolated SharePoint Online team site](deploy-an-isolated-sharepoint-online-team-site.md)
-#### [Manage an isolated SharePoint Online team site](manage-an-isolated-sharepoint-online-team-site.md)
-#### [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
-## [Upgrade from Office 2007 or 2010 products](plan-upgrade-previous-versions-office.md)
-### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
-#### [Office 2010 desktop](/DeployOffice/office-2010-end-support-roadmap.md)
-#### [Exchange 2010](exchange-2010-end-of-support.md)
-#### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
-#### [Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
-#### [Project Server 2010](https://docs.microsoft.com/project/planning-project-server-and-project-online-for-technical-decision-makers)
-### [Office 2007](upgrade-from-office-2007-servers-and-products.md)
-#### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap)
-#### [Exchange 2007](exchange-2007-end-of-support.md)
-#### [SharePoint 2007](sharepoint-2007-end-of-support.md)
-#### [Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
-#### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
-#### [Project Server 2007](project-server-2007-end-of-support.md)
+
 ## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 
 # Manage Office 365
-## Management tools
+## [Management tools](https://support.office.com/en-us/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
 ## Service health
-### View service health
+### [View service health](view-service-health.md)
 ### [Monitor connectivity](monitor-connectivity.md)
-### Support options
+### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 ## [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
 ## [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
 ## [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
 ## [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)
 ## [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-# Security & Compliance
-## Tools to manage Office 365 accounts
-## Managing ExpressRoute for Office 365 connectivity
-## Add several users at the same time to Office 365 - Admin Help
-## Recover deleted items in a user mailbox - Admin Help
-## Office 365 performance tuning using baselines and performance history
-## Tune Office 365 performance
-## Performance troubleshooting plan for Office 365
-## Turn off directory synchronization for Office 365
-## Identify directory synchronization errors in Office 365
-## View directory synchronization status in Office 365
-## Fixing problems with directory synchronization for Office 365
+
+## [Tools to manage Office 365 accounts](tools-to-manage-office-365-accounts.md)
+## [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
+## [Add several users at the same time to Office 365 - Admin Help](add-several-users-at-the-same-time.md)
+## [Recover deleted items in a user mailbox - Admin Help](recover-deleted-items-in-a-mailbox.md)
+## [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+## [Tune Office 365 performance](tune-office-365-performance.md)
+## [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
+## [Turn off directory synchronization for Office 365](turn-off-directory-synchronization.md)
+## [Identify directory synchronization errors in Office 365](identify-directory-synchronization-errors.md)
+## [View directory synchronization status in Office 365](view-directory-synchronization-status.md)
+## [Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
+
 ## Manage devices
 ### Manage devices in MDM
 ### Manage device access settings
