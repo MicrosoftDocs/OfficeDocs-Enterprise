@@ -18,7 +18,7 @@ ms.author: robmazz
 <p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides guidance for admins and IT Professionals who are deploying, configuring and managing Office 365 services in enterprise organizations.</p>
 <ul class="cardsF panelContent">
     <li>
-        <a href="https://www.microsoft.com/fasttrack/microsoft-365/office-365">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -37,7 +37,7 @@ ms.author: robmazz
         </a>
     </li> 
     <li>
-        <a href="https://docs.microsoft.com/microsoft-365/enterprise/migration-microsoft-365-enterprise-workload">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -48,7 +48,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Migrate to Office 365</h3>
-                <p>Learn how to migrate your existing on-premises infrastructure to Office 365 and the Microsoft cloud.</p>
+                <p>Migrate your existing on-premises infrastructure to Office 365 and the Microsoft cloud.</p>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Office 365 ProPlus</h3>
-                <p>Learn how to plan, deploy, and manage Office 365 ProPlus in your enterprise environment.</p>
+                <p>Plan, deploy, and manage Office 365 ProPlus in your enterprise environment.</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/Office365/Enterprise/deployment-planning-checklist">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -86,7 +86,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Deploy Office 365</h3>
-                <p>Learn how to manually deploy Office 365 and configure workloads, including Exchange Online, SharePoint Online, OneDrive for Business, and more.</p>
+                <p>Deploy Office 365 and configure workloads, including Exchange Online, SharePoint Online, OneDrive for Business, and more.</p>
                     </div>
                 </div>
             </div>
@@ -94,7 +94,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/en-us/Office365/Enterprise/microsoft-hybrid-cloud-for-enterprise-architects">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -105,7 +105,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Hybrid deployments</h3>
-                <p>Learn how to configure and manage a hybrid deployment between your existing on-premises infrastructure and Office 365.</p>
+                <p>Configure and manage a hybrid deployment between your existing on-premises infrastructure and Office 365.</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/office-training-center">
+        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -164,7 +164,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>SharePoint Online</h3>
-                        <p><a href="https://docs.microsoft.com/sharepoint/sharepoint-online">Learn more about deploying SharePoint Online</a></p>
+                        <p><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">Learn more about deploying SharePoint Online</a></p>
                     </div>
                 </div>
             </div>
