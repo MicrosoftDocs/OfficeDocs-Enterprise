@@ -166,8 +166,7 @@
 #### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
 ### [Multi-Geo capabilities in Exchange Online](multi-geo-capabilities-in-exchange-online.md)
 
-## Japan datacenter migration
-### [Moving core data to new Office 365 datacenter geos](moving-data-to-new-datacenter-geos.md)
+## [Move to a new Office 365 datacenter geo](moving-data-to-new-datacenter-geos.md)
 ### [How to request your data move](request-your-data-move.md)
 ### [During and after your data move](during-and-after-your-data-move.md)
 ### [Data move general FAQ](data-move-faq.md)
@@ -214,27 +213,11 @@
 ## [Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
 
 ## Manage devices
-### Manage devices in MDM
-### Manage device access settings
-### How to turn off Mobile Device Management in Office 365
-### Wipe a mobile device in Office 365
-### Client connectivity
-### Session timeouts for Office 365
-## Service health
-### How to check Office 365 service health
-### Monitor Office 365 connectivity
-### Support options
-## Exchange Online
-### Tune Exchange Online performance
-## SharePoint Online
-### Tune SharePoint Online performance
-## Skype for Business
-### Skype for Business Online in Office 365 – Admin Help
-### Tune Skype for Business Online performance
-## Microsoft Teams
-## Yammer
+### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
+### [Manage device access settings](https://support.office.com/article/28dd276b-beeb-4c5b-8b22-7551186127fe)
+### [Client connectivity](client-connectivity.md)
 
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 # [Security & Compliance](/SecurityCompliance/index.md)
-# Office 365 for business
+# [Office 365 for business](https://support.office.com/en-us/office365admin)
   
