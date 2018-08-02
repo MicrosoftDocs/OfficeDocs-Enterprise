@@ -37,7 +37,7 @@ ms.author: robmazz
         </a>
     </li> 
     <li>
-        <a href="https://wondersinthedark.files.wordpress.com/2012/10/bluto.jpg">
+        <a href="migrate-data-to-office-365.md">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -133,21 +133,20 @@ ms.author: robmazz
     </li>
 </ul>
 
-<h2>Office 365 Workloads</h2>
+<h2>Deploy Office 365 Workloads</h2>
 
-<ul class="panelContent cardsF">
+<ul class="panelContent cardsFTitle">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Exchange.svg" alt="New Office 365 Content" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Exchange.svg" alt="Exchange icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Exchange Online</h3>
-                        <p><a href="https://docs.microsoft.com/Exchange/exchange-online">Learn more about deploying Exchange Online</a></p>
+                        <h3><p><a href="https://docs.microsoft.com/Exchange/exchange-online">Exchange Online</a></p></h3>
                     </div>
                 </div>
             </div>
@@ -159,12 +158,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_sharepoint.svg" alt="What's new" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/logos/logo_sharepoint.svg" alt="SharePoint icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>SharePoint Online</h3>
-                        <p><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">Learn more about deploying SharePoint Online</a></p>
+                        <h3><p><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">SharePoint Online</a></p></h3>
                     </div>
                 </div>
             </div>
@@ -176,12 +174,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_Skype_for_Business.svg" alt="Chat image" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/logos/logo_Skype_for_Business.svg" alt="Skype for Business icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Skype for Business Online</h3>
-                        <p><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Learn more about deploying Skype for Business Online</a></p>
+                        <h3><p><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Skype for Business Online</a></p></h3>
                     </div>
                 </div>
             </div>
@@ -193,12 +190,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo_MSTeams.svg" alt="Chat image" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/logos/logo_MSTeams.svg" alt="Microsoft Teams icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Microsoft Teams</h3>
-                        <p><a href="https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams">Learn more about deploying Microsoft Teams</a></p>
+                        <h3><p><a href="https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams">Microsoft Teams</a></p></h3>
                     </div>
                 </div>
             </div>
@@ -210,12 +206,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo-yammer.svg" alt="Chat image" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/logos/logo-yammer.svg" alt="Yammer icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Yammer</h3>
-                        <p><a href="https://support.office.com/yammer">Learn more about deploying Yammer</a></p>
+                        <h3><p><a href="https://support.office.com/yammer">Yammer</a></p></h3>
                     </div>
                 </div>
             </div>
@@ -228,12 +223,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="Chat image" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="Power BI icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Power BI</h3>
-                        <p><a href="https://docs.microsoft.com/power-bi/">Learn more about deploying Power BI</a></p>
+                        <h3><a href="https://docs.microsoft.com/power-bi/">Power BI</a></h3>
                     </div>
                 </div>
             </div>
