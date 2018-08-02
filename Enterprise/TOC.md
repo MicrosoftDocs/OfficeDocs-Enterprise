@@ -152,7 +152,7 @@
 ## Onboarding your users
 ### Enabling your users
 ### Enabling team collaboration
-### Training your users
+### [Training your users](https://support.office.com/article/7cba3c97-7f19-46ed-a1c6-763971a26c27)
 
 ## Multi-geo
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
