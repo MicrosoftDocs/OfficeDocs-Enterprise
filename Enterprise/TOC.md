@@ -189,28 +189,41 @@
 ## [Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 
 # Manage Office 365
+
 ## [Management tools](https://support.office.com/en-us/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
+
 ## Service health
 ### [View service health](view-service-health.md)
 ### [Monitor connectivity](monitor-connectivity.md)
 ### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+
 ## [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
+
 ## [SharePoint Online](https://support.office.com/article/79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a)
+
 ## [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
+
 ## [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams)
+
 ## [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 
 ## [Tools to manage Office 365 accounts](tools-to-manage-office-365-accounts.md)
+
 ## [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
+
 ## [Add several users at the same time to Office 365 - Admin Help](add-several-users-at-the-same-time.md)
+
 ## [Recover deleted items in a user mailbox - Admin Help](recover-deleted-items-in-a-mailbox.md)
-## [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+
 ## [Tune Office 365 performance](tune-office-365-performance.md)
-## [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
-## [Turn off directory synchronization for Office 365](turn-off-directory-synchronization.md)
-## [Identify directory synchronization errors in Office 365](identify-directory-synchronization-errors.md)
-## [View directory synchronization status in Office 365](view-directory-synchronization-status.md)
-## [Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
+### [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+### [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
+
+## Directory synchronization
+### [View directory synchronization status in Office 365](view-directory-synchronization-status.md)
+### [Identify directory synchronization errors in Office 365](identify-directory-synchronization-errors.md)
+### [Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
+### [Turn off directory synchronization for Office 365](turn-off-directory-synchronization.md)
 
 ## Manage devices
 ### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
