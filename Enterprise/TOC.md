@@ -146,13 +146,13 @@
 
 ## Deploy clients
 ### [Deploy Office 365 ProPlus](/DeployOffice/deployment-guide-for-office-365-proplus.md)
-### Deploy the Skype for Business client
-### Deploy and manage mobile apps
+### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
+### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 
 ## Onboarding your users
-### Enabling your users
-### Enabling team collaboration
+### [Enabling your users](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)
 ### [Training your users](https://support.office.com/article/7cba3c97-7f19-46ed-a1c6-763971a26c27)
+### Enabling team collaboration
 
 ## Multi-geo
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
