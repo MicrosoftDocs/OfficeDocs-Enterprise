@@ -146,7 +146,7 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><p><a href="https://docs.microsoft.com/Exchange/exchange-online">Exchange Online</a></p></h3>
+                        <h3><a href="https://docs.microsoft.com/Exchange/exchange-online">Exchange Online</a></h3>
                     </div>
                 </div>
             </div>
@@ -162,7 +162,7 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><p><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">SharePoint Online</a></p></h3>
+                        <h3><a href="https://support.office.com/article/sharepoint-online-–-admin-help-79eb0420-8cbd-4bcb-a90b-ddc7d3ab4b3a?ui=en-US&rs=en-US&ad=US">SharePoint Online</a></h3>
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><p><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Skype for Business Online</a></p></h3>
+                        <h3><a href="https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online">Skype for Business Online</a></h3>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><p><a href="https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams">Microsoft Teams</a></p></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams">Microsoft Teams</a></h3>
                     </div>
                 </div>
             </div>
@@ -210,7 +210,7 @@ ms.author: robmazz
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><p><a href="https://support.office.com/yammer">Yammer</a></p></h3>
+                        <h3><a href="https://support.office.com/yammer">Yammer</a></h3>
                     </div>
                 </div>
             </div>
