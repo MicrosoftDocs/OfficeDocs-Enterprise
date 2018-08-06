@@ -222,6 +222,6 @@
 ### [Client connectivity](client-connectivity.md)
 
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
-# [Security & Compliance](/SecurityCompliance/index.md)
+# [Security & Compliance](/Office365/SecurityCompliance/index.md)
 # [Office 365 for business](https://support.office.com/en-us/office365admin)
   
