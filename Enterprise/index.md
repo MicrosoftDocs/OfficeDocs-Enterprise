@@ -86,7 +86,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Deploy Office 365</h3>
-                <p>Deploy Office 365 and configure workloads, including Exchange Online, SharePoint Online, OneDrive for Business, and more.</p>
+                <p>Deploy Office 365, including setting up your tenant, configuring your network, and provisioning your users.</p>
                     </div>
                 </div>
             </div>
