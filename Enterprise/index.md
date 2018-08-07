@@ -223,7 +223,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/hubs/powerbi/yammer.svg" alt="Yammer icon" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/logos/logo-yammer.svg" alt="Yammer icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
