@@ -15,7 +15,7 @@ ms.author: robmazz
 ---
 
 <h1>Office 365 Enterprise</h1>
-<p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides guidance for admins and IT Professionals who are deploying, configuring and managing Office 365 services in enterprise organizations.</p>
+<p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides links to guidance for admins and IT Professionals who are deploying, configuring, and managing Office 365 services in enterprise organizations.</p>
 <ul class="cardsF panelContent">
     <li>
         <a href="https://www.microsoft.com/fasttrack/microsoft-365/office-365">
@@ -250,7 +250,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Office 365 Tech Community</h3>
-                        <p><a href="https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365">Learn about best practices, news, and the latest trends and topics related to Office 365</a></p>
+                        <p><a href="https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365">Learn about best practices, news, and the latest trends and topics related to Office 365.</a></p>
                     </div>
                 </div>
             </div>
@@ -267,7 +267,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Get support</h3>
-                        <p><a href="https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US">Contact Support for help with Office 365</a></p>
+                        <p><a href="https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US">Contact Support for help with Office 365.</a></p>
                     </div>
                 </div>
             </div>
