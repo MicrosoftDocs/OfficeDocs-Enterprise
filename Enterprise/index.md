@@ -15,7 +15,7 @@ ms.author: robmazz
 ---
 
 <h1>Office 365 Enterprise</h1>
-<p>Microsoft Office 365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides links to guidance for admins and IT Professionals who are deploying, configuring, and managing Office 365 services in enterprise organizations.</p>
+<p>Microsoft Office&nbsp;365 provides powerful online cloud services that enable collaboration, security and compliance, mobility, and intellgence and analytics. This page provides links to guidance for admins and IT Professionals who are deploying, configuring, and managing Office&nbsp;365 services in enterprise organizations.</p>
 <ul class="cardsF panelContent">
     <li>
         <a href="https://www.microsoft.com/fasttrack/microsoft-365/office-365">
@@ -29,7 +29,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Guided Deployment with FastTrack</h3>
-                <p>Use the FastTrack Center Benefit for Office 365 for guided assistance in planning, deploying, and driving adoption of Office&nbsp;365 services for your organization.</p>
+                <p>Use the FastTrack Center Benefit for Office&nbsp;365 for guided assistance in planning, deploying, and driving adoption of Office&nbsp;365 services for your organization.</p>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Migrate to Office 365</h3>
-                <p>Migrate your existing on-premises infrastructure to Office 365 and the Microsoft cloud.</p>
+                <p>Migrate your existing on-premises infrastructure to Office&nbsp;365 and the Microsoft cloud.</p>
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Office 365 ProPlus</h3>
-                <p>Plan, deploy, and manage Office 365 ProPlus in your enterprise environment.</p>
+                <p>Plan, deploy, and manage Office&nbsp;365 ProPlus in your enterprise environment.</p>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Deploy Office 365</h3>
-                <p>Deploy Office 365, including setting up your tenant, configuring your network, and provisioning your users.</p>
+                <p>Deploy Office&nbsp;365, including setting up your tenant, configuring your network, and provisioning your users.</p>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Hybrid deployments</h3>
-                <p>Configure and manage a hybrid deployment between your existing on-premises infrastructure and Office 365.</p>
+                <p>Configure and manage a hybrid deployment between your existing on-premises infrastructure and Office&nbsp;365.</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@ ms.author: robmazz
         </a>
     </li>
     <li>
-        <a href="https://support.office.com/office-training-center">
+        <a href="https://support.office.com/article/office-365-admin-and-it-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5?wt.mc_id=otc_home">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -124,7 +124,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Office 365 Training</h3>
-                <p>Improve your Office 365 knowledge and skills with our new Learning Path training.</p>
+                <p>Improve your Office&nbsp;365 administration knowledge and skills with Office&nbsp;365 training courses for IT professionals.</p>
                     </div>
                 </div>
             </div>
@@ -250,7 +250,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Office 365 Tech Community</h3>
-                        <p><a href="https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365">Learn about best practices, news, and the latest trends and topics related to Office 365.</a></p>
+                        <p><a href="https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365">Learn about best practices, news, and the latest trends and topics related to Office&nbsp;365.</a></p>
                     </div>
                 </div>
             </div>
@@ -267,7 +267,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Get support</h3>
-                        <p><a href="https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US">Contact Support for help with Office 365.</a></p>
+                        <p><a href="https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US">Contact Support for help with Office&nbsp;365.</a></p>
                     </div>
                 </div>
             </div>
