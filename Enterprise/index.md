@@ -206,11 +206,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/logos/logo-yammer.svg" alt="Yammer icon" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="Power BI icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://support.office.com/yammer">Yammer</a></h3>
+                        <h3><a href="https://docs.microsoft.com/power-bi/">Power BI</a></h3>
                     </div>
                 </div>
             </div>
@@ -223,11 +223,11 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/media/hubs/powerbi/pbi-powerbi-logo.svg" alt="Power BI icon" data-linktype="external">
+                            <img src="https://docs.microsoft.com/media/hubs/powerbi/yammer.svg" alt="Yammer icon" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/power-bi/">Power BI</a></h3>
+                        <h3><a href="https://support.office.com/yammer">Yammer</a></h3>
                     </div>
                 </div>
             </div>
