@@ -29,7 +29,7 @@ ms.author: robmazz
                     </div>
                     <div class="cardText">
                         <h3>Guided Deployment with FastTrack</h3>
-                <p>Use the FastTrack Center Benefit for Office 365 for guided assistance in planning, deploying, and driving adoption of Office 365 services for your organization.</p>
+                <p>Use the FastTrack Center Benefit for Office 365 for guided assistance in planning, deploying, and driving adoption of Office&nbsp;365 services for your organization.</p>
                     </div>
                 </div>
             </div>
