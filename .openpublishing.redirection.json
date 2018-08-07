@@ -60,6 +60,16 @@
 
         "redirect_document_id": false
 
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramyammer-features-on-mobile-devices.md",
+
+        "redirect_url": "https://support.office.com/article/1bbd7c52-0207-4b50-a1b7-c0184c75a66a",
+
+        "redirect_document_id": false
+
       }
 
 
