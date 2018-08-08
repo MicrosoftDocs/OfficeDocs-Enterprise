@@ -3,7 +3,7 @@ title: "Protect SharePoint Online files with Azure Information Protection"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 08/08/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -41,41 +41,42 @@ Next, configure Azure Information Protection with a new scoped policy and sub-la
 2. In a separate tab of your browser, go to the Azure portal ([https://portal.azure.com](https://portal.azure.com)).
     
 3. If this is the first time you are configuring Azure Information Protection, see these [instructions](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
-    
+
 4. In the list pane, click **All services**, type **information**, and then click **Azure Information Protection**.
+
+5. Click **Labels**.
     
-5. On the **Azure Information protection** blade, , click **Scoped policies > + Add a new policy**.
+6. Right-click the **Highly Confidential** label, and then click **Add a sub-label**.
     
-6. Type a name for the new policy in **Policy name** and a description in **Description**.
+7. Type a name for the sub-label in **Name** and a description of the sub-label in **Description**.
     
-7. Click **Select which users or groups get this policy > User/Groups**, and then select the site members access group for your highly sensitive SharePoint Online team site. 
+8. In **Set permissions for documents and emails containing this label**, click **Protect**.
     
-8. Click **Select > OK**.
+9. In the **Protection** section, click **Azure (cloud key)**.
     
-9. For the **Highly Confidential** label, click the ellipses (…), and then click **Add a sub-label**.
+10. On the **Protection** blade, under **Protection settings**, click **Add permissions**.
     
-10. Type a name for the sub-label in **Name** and a description of the label in **Description**.
+11. On the **Add permissions** blade, under **Specify users and groups**, click **Browse directory**.
     
-11. In **Set permissions for documents and emails containing this label**, click **Protect**.
+12. On the **AAD Users and Groups** pane, select the site members access group for your highly sensitive SharePoint Online team site, and then click **Select**.
     
-12. In the **Protection** section, click **Azure (cloud key)**.
+13. Under **Choose permissions from the preset or set custom**, click **Custom**, and then click the **View Rights**, **Edit Content**, **Save**, **Reply**, and **Reply all** check boxes.
     
-13. On the **Protection** blade, under **Protection settings**, click **+ Add permissions**.
+14. Click **OK** twice.
     
-14. On the **Add permissions** blade, under **Specify users and groups**, click **+ Browse directory**.
+15. On the **Sub-label** blade, click **Save**, and then click **OK**.
+
+16. On the **Azure Information protection** blade, click **Policies > + Add a new policy**.
     
-15. On the **AAD Users and Groups** pane, select the site members access group for your highly sensitive SharePoint Online team site, and then click **Select**.
+17. Type a name for the new policy in **Policy name** and a description in **Description**.
     
-16. Under **Choose permissions from the preset**, clear the **Print**, **Copy and extract content**, and **Forward** check boxes.
+18. Click **Select which users or groups get this policy > User/Groups**, and then select the site members access group for your highly sensitive SharePoint Online team site.
     
-17. Click **OK** twice.
-    
-18. On the **Sub-label** blade, click **Save**.
-    
-19. Close the new scoped policy blade.
-    
-20. On the **Azure Information protection - Scoped policies** blade, click **Publish**.
-    
+19. Click **Select > OK**.
+
+20. Click **Add or remove labels**. In the **Policy: Add or remove labels** pane, click the name of your new sub-label, and then click **OK**.   
+
+21. Click **Save**, and then click **OK**.
  
 ##Client setup
 You are now ready to begin creating documents and protecting them with Azure Information Protection and your new label.

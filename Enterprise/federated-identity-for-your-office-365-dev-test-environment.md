@@ -28,7 +28,7 @@ This article describes how you can configure federated authentication for the Of
   
 **Figure 1: The federated authentication for Office 365 dev/test environment**
 
-![The web application proxy server added to the DirSync for Office 365 dev/test environment](images/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
+![The federated authentication for Office 365 dev/test environment](images/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
   
 The configuration shown in Figure 1 consists of: 
   

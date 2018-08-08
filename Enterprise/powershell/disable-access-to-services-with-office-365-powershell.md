@@ -3,7 +3,7 @@ title: "Disable access to services with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/13/2018
+ms.date: 08/08/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -177,17 +177,6 @@ for($i = 0; $i -lt $AllLicensingPlans.Count; $i++)
 [Return to top](disable-access-to-services-with-office-365-powershell.md#RTT)
 
 
-## All Office 365 services for all users for a single licensing plan
- 
-To disable all Office 365 services for all users in a specific licensing plan, specify the licensing plan name for $acctSKU (such as **litwareinc:ENTERPRISEPACK**), and then run these commands in the PowerShell command window:
-
-```
-$acctSKU="<AccountSkuId>"
-$servicesList=(Get-MsolAccountSku | Select -ExpandProperty ServiceStatus).ServicePlan.ServiceName
-$lo = New-MsolLicenseOptions -AccountSkuId $acctSKU -DisabledPlans $servicesList
-$AllLicensed = Get-MsolUser -All | Where {$_.isLicensed -eq $true -and $_.licenses[0].AccountSku.SkuPartNumber -eq ($acctSKU).Substring($acctSKU.IndexOf(":")+1, $acctSKU.Length-$acctSKU.IndexOf(":")-1)}
-$AllLicensed | ForEach {Set-MsolUserLicense -ObjectID $_.ObjectID -LicenseOptions $lo}
-```
 
 ## New to Office 365?
 <a name="LinkedIn"> </a>

@@ -3,7 +3,11 @@ title: "Understanding Office 365 identity and Azure Active Directory"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
+<<<<<<< HEAD
 ms.date: 8/21/2018
+=======
+ms.date: 5/1/2018
+>>>>>>> master
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -19,9 +23,15 @@ description: "Learn how user identity is managed in Office 365."
 
 # Understanding Office 365 identity and Azure Active Directory
 
+<<<<<<< HEAD
 Office 365 uses the cloud-based user identity and authentication service Azure Active Directory (Azure AD) to manage users. Choosing if identity management is configured between your on-premises organization and Office 365 is an early decision that is one of the foundations of your cloud infrastructure. Because changing this configuration later can be difficult, carefully consider the options to determine what works best for the needs of your organization. You can choose from two main authentication models in Office 365 to set up and manage user accounts; **cloud authentication** and **federated authentication**.
   
 It's important to carefully consider which of these authentication and identity models to use to get up and running. Think about the time, existing complexity, and cost to implement and maintain each of the authentication and identity options. These factors are different for every organization; and you should understand the key concepts for the identity options to help you choose the authentication and identity model you want to use for your deployment.
+=======
+Office 365 uses the cloud-based user identity and authentication service Azure Active Directory (Azure AD) to manage users. Choosing if identity management is configured between your on-premises organization and Office 365 is an early decision that is one of the foundations of your cloud infrastructure. Because changing this configuration later can be difficult, carefully consider the options to determine what works best for the needs of your organization. You can choose from two main authentication models in Office 365 to set up and manage user accounts; cloud authentication and federated authentication.
+  
+It's important to carefully consider which authentication and identity model to use to get up and running. Think about the time, existing complexity, and cost to implement and maintain each of the authentication and identity options. These factors are different for every organization; and you should understand the key concepts for the identity options to help you choose the authentication and identity model you want to use for your deployment.
+>>>>>>> master
   
 ## Cloud authentication
 
@@ -29,7 +39,11 @@ Depending if you have or don't have an existing Active Directory environment on-
   
 ### Cloud-only
 
+<<<<<<< HEAD
 With the cloud-only model, you manage your user accounts in Office 365 only. No on-premises servers are required; it's all handled in the cloud by Azure AD. You create and manage users in the Office 365 admin center or by using Windows PowerShell [PowerShell cmdlets](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) and identity and authentication are handled completely in the cloud by Azure AD. The cloud-only model is typically a good choice if: 
+=======
+With the cloud-only model, you manage your user accounts in Office 365 only. No on-premises servers are required; it's all handled in the cloud by Azure AD. You create and manage users in the Office 365 admin center or by using Windows PowerShell [PowerShell cmdlets](https://go.microsoft.com/fwlink/p/?LinkId=698471) and identity and authentication are handled completely in the cloud by Azure AD. The cloud-only model is typically a good choice if: 
+>>>>>>> master
   
 - You have no other on-premises user directory.
     
@@ -43,13 +57,21 @@ To get started with cloud identity, see [Set up Office 365 for business](https:/
 
 The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises. Hashes of user passwords are synchronized from your on-premises Active Directory to Azure AD so that the users have the same password on-premises and in the cloud. When passwords are changed or reset on-premises, the new password hashes are synchronized to Azure AD so that your users can always use the same password for cloud resources and on-premises resources. The passwords are never sent to Azure AD or stored in Azure AD in clear text. Some premium features of Azure AD, such as Identity Protection, require PHS regardless of which authentication method is selected. With seamless single sign-on, users are automatically signed in to Azure AD when they are on their corporate devices and connected to your corporate network.
   
+<<<<<<< HEAD
 Learn more about [choosing password hash sync](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) and [seamless single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso).
+=======
+Learn more about [choosing password hash sync](https://docs.microsoft.com/en-us/azure/security/azure-ad-choose-authn) and [seamless single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-sso).
+>>>>>>> master
   
 ### Pass-through authentication with seamless single sign-on
 
 Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises Active Directory. With pass-through authentication (PTA), you synchronize on-premises Active Directory user account objects with Office 365 and manage your users on-premises. Allows your users to sign in to both on-premises and Office 365 resources and applications using their on-premises account and password. This configuration validates users' passwords directly against your on-premises Active Directory without sending password hashes to Office 365. Companies with a security requirement to immediately enforce on-premises user account states, password policies, and logon hours would use this authentication method. With seamless single sign-on, users are automatically signed in to Azure AD when they are on their corporate devices and connected to your corporate network.
   
+<<<<<<< HEAD
 Learn more about [choosing pass-through authentication](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) and [seamless single sign-on](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso).
+=======
+Learn more about [choosing pass-through authentication](https://docs.microsoft.com/en-us/azure/security/azure-ad-choose-authn) and [seamless single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-sso).
+>>>>>>> master
   
 ## Federated authentication options
 
@@ -59,20 +81,46 @@ If you have an existing Active Directory environment on-premises, you can integr
 
 Primarily for large enterprise organizations with more complex authentication requirements, on-premises directory objects are synchronized with Office 365 and users accounts are managed on-premises. With AD FS, users have the same password on-premises and in the cloud and they do not have to sign in again to use Office 365. This federated authentication model can provide additional authentication requirements, such as smartcard-based authentication or a third-party multi-factor authentication and is typically required when organizations have an authentication requirement not natively supported by Azure AD.
   
+<<<<<<< HEAD
 Learn more about [choosing federated identity with AD FS](https://docs.microsoft.com/azure/security/azure-ad-choose-authn).
+=======
+Learn more about [choosing federated identity with AD FS](https://docs.microsoft.com/en-us/azure/security/azure-ad-choose-authn).
+>>>>>>> master
   
 ### Third-party authentication and identity providers
 
 On-premises directory objects may be synchronized to Office 365 and cloud resource access is primarily managed by a third-party identity provider (IdP). If your organization uses a third-party federation solution, you can configure sign-on with that solution for Office 365 provided that the third-party federation solution is compatible with Azure AD.
   
+<<<<<<< HEAD
 Learn more about [Azure AD federation compatibility](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility).
   
 ## Configuring identity and authentication with Office 365
 
 Integrating your on-premises directories with Office 365 and Azure AD has been simplified with [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect). Azure AD Connect is the best way to connect your directories and is Microsoft's recommendation for organizations to sync their users to the cloud.
+=======
+Learn more about [Azure AD federation compatibility](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility).
+  
+## Configuring identity and authentication with Office 365
+
+Integrating your on-premises directories with Office 365 and Azure AD has been simplified with [Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect). Azure AD Connect is the best way to connect your directories and is Microsoft's recommendation for organizations to sync their users to the cloud.
+>>>>>>> master
   
 You can also use the Azure AD advisors: the [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync), the [AD FS deployment advisor](https://aka.ms/adfsguidance), and the [Azure AD Premium setup guide](https://aka.ms/aadpguidance).
   
 ## Video training
 
+<<<<<<< HEAD
 For more information, see the video course [Office 365: Manage Identities Using Azure AD Connect](https://support.office.com/article/90991a1d-c0ab-479a-b413-35c9706f6fed.aspx), brought to you by LinkedIn Learning.
+=======
+For more information, see the video course [Office 365: Manage Identities Using Azure AD Connect](https://support.office.com/article/90991a1d-c0ab-479a-b413-35c9706f6fed.aspx), brought to you by LinkedIn Learning.
+  
+## See Also
+
+[Prepare to provision users through directory synchronization to Office 365](https://support.office.com/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e)
+  
+[Connect PowerShell to Office 365 services](https://support.office.com/article/06a743bb-ceb6-49a9-a61d-db4ffdf54fa6)
+  
+[Fixing problems with directory synchronization for Office 365](https://support.office.com/article/fixing-problems-with-directory-synchronization-for-office-365-79c43023-5a47-45ae-8068-d8a26eee6bc2d)
+  
+
+>>>>>>> master
