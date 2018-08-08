@@ -41,7 +41,7 @@ We recommend getting help with planning your upgrade.
 
 - Consider working with a partner or volume licensing specialist. **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
 
-- If your organization purchases a certain number of Microsoft cloud licenses, our FastTrack team can help you through the setup process. To learn more, visit [FastTrack.Microsoft.com](https://www.microsoft.com/fasttrack).
+- If your organization purchases a certain number of Microsoft cloud licenses, our FastTrack team can help you through the setup process. To learn more, visit [FastTrack](https://www.microsoft.com/fasttrack).
 
 - If you're part of a smaller organization or you want to handle the upgrade yourself, see [Admins: upgrade your users to the latest Office client using Office 365 for business](https://support.office.com/article/f6b00895-b5fd-4af6-a656-b7788ea20cbb.aspx). 
   
@@ -75,11 +75,14 @@ Microsoft 365 is the way to digitally transform your business with constantly-im
 
    
 ## Related topics
-
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
-  
-[Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
+
+[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
+
+[Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
+
+[Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
+
 
 
