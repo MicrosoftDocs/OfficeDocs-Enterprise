@@ -51,7 +51,6 @@ Click the links below to see how Office 2013 and Office 2016 client authenticati
 - [Skype for Business Online](modern-auth-for-office-2013-and-2016.md#BK_SFBO)
     
 ### Exchange Online
-<a name="BK_EchangeOnline"> </a>
 
 The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to Exchange Online with or without modern authentication.
   

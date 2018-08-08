@@ -22,8 +22,7 @@ Data moves are a back-end operation with minimal impact to end-users. No action 
   
 Watch the Office 365 Message Center for confirmation when moves for each of Exchange Online, SharePoint Online, and Skype for Business are complete. As shown in the table below, it can take up to 24 months, after the end of the enrollment period, to complete all the requested data moves for all customers in a specific geo. If you see any issues with your tenant after the move, contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to get assistance. 
   
-|
-|
+
 |**Customers with billing address in**|**All moves completed by**|
 |:-----|:-----|
 |Australia, New Zealand, Fiji  <br/> |October 31, 2017  <br/> |
@@ -70,8 +69,6 @@ Free/Busy and calendar sharing aren't affected during the tenant move. User A wi
 
 Some users open a shared mail folder from another mailbox (that the user has read or write permissions to) in Outlook Web Access using the "Shared Folder" feature. The following table describes how access to shared folders works during a mailbox move. Please note that users with full permissions to a shared mailbox can open the mailbox by using Outlook Web Access during the move. 
   
-|
-|
 |**Configuration**|**Description**|
 |:-----|:-----|
 |User has mailbox folder permission to another mailbox  <br/> |Potentially limited.  <br/> If User A and Mailbox B aren't in the same geo during the tenant move, User A can't open Mailbox B's folder in Outlook Web Access if User A only has permission to a specific folder in Mailbox B.  <br/> To add a shared folder, right-click the user name in the left navigation panel and select **Add shared folder**.  <br/> |
@@ -93,19 +90,8 @@ The following table shows you how to access eDiscovery and auditing via the EAC 
   
 ||**Exchange admin center**|**Security &amp; Compliance Center**|
 |:-----|:-----|:-----|
-|eDiscovery  <br/> |
-Go to https://portal.office.com, and then click the Admin tile. 
- Click  Admin centers \> Exchange. Select compliance management \> in-place eDiscovery &amp; hold.
- |
-Go to https://portal.office.com, and then click the Admin tile. 
- Click  Admin centers \> Security &amp; Compliance. Select Search &amp; investigation \> eDiscovery.
- |
-|Auditing  <br/> |
-Go to https://portal.office.com, and then click the Admin tile. 
- Click  Admin centers \> Exchange. Select compliance management \> auditing.
- |
-Go to https://portal.office.com, and then click the Admin tile. 
- Click  Admin centers \> Security &amp; Compliance. Select Search &amp; investigation \> Audit log search. |
+|eDiscovery  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. </br> Click  **Admin centers** \> **Exchange**. </br> Select **compliance management** \> **in-place eDiscovery &amp; hold**. | Go to https://portal.office.com, and then click the Admin tile. </br> Click **Admin centers** \> **Security &amp; Compliance**. </br> Select **Search &amp; investigation** \> **eDiscovery**.|
+|Auditing  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. </br> Click  **Admin centers** \> **Exchange**. Select **compliance management** \> **auditing**. | Go to https://portal.office.com, and then click the Admin tile. </br> Click  **Admin centers** \> **Security &amp; Compliance**. </br> Select **Search &amp; investigation** \> **Audit log search**. |
    
 ### Mailbox migration
 

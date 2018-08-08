@@ -16,7 +16,7 @@ search.appverid:
 - BSA160
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
-description: "Last updated 18 April, 2018"
+description: "This article provides the steps for doing common management tasks for Groups in Microsoft PowerShell."
 ---
 
 # Manage Office 365 Groups with PowerShell
@@ -87,7 +87,6 @@ At this time, the only way to update the mailbox policy is through [PowerShell](
 - Once the cmdlet is executed, users can go to Outlook or Outlook on the web to send as the group, by adding the group email address to the **From** field. 
     
 ### Create classifications for Office groups in your organization
-<a name="BKMK_CreateClassification"> </a>
 
 You can create classifications that the users in your organization can set when they create an Office 365 group. For example, you can allow users to set "Standard", "Secret", and "Top Secret" on groups they create. Group classifications aren't set by default and you need to create it in order for your users to set it. Use Azure Active Directory PowerShell to point your users to your organization's usage guidelines for Office 365 groups.
   
@@ -103,7 +102,7 @@ In order to associate a description to each classification you can use the setti
 $setting["ClassificationDescriptions"] ="Classification:Description,Classification:Description", where Classification matches the strings in the ClassificationList.
 ```
 
-For example:﻿
+Example:
   
 ```
 $setting["ClassificationDescriptions"] = "Low Impact: General communication, Medium Impact: Company internal data , High Impact: Data that has regulatory requirements"
@@ -165,7 +164,6 @@ Set-UnifiedGroup -Identity "MailaTip Group" -MailTip "This group has a MailTip" 
 ```
 
 ### Change Display name of the Office 365 group
-<a name="BKMK_CreateClassification"> </a>
 
 Display name specifies the name of the Office 365 group. You can see this name in your exchange admin center or o365 admin portal. You can edit the display name of the group or assign a display name to an exisiting Office 365 group by running Set-UnifiedGroup command:
   
@@ -174,10 +172,7 @@ Set-UnifiedGroup -Identity "mygroup@contoso.com" -DisplayName "My new group"
 ```
 
 ### Manage user photos in Office 365 Groups
-<a name="BKMK_CreateClassification"> </a>
 
-|
-|
 |**Cmdlet name**|**Description**|
 |:-----|:-----|
 |[Get-UserPhoto](https://go.microsoft.com/fwlink/p/?LinkId=536510) <br/> |Used to view information about the user photo associated with an account. User photos are stored in Active Directory  <br/> |
@@ -205,8 +200,6 @@ To learn more, see [Set-OrganizationConfig](https://go.microsoft.com/fwlink/?lin
 
 The following cmdlets were recently made available to Office 365 Groups. If you aren't able to use these, your Office 365 subscription has not been updated with this functionality yet. Check your Message Center and the [Office 365 Roadmap](http://roadmap.office.com/en-us).
   
-|
-|
 |**Cmdlet name**|**Description**|
 |:-----|:-----|
 |[Get-UnifiedGroup](https://go.microsoft.com/fwlink/p/?LinkId=616182) <br/> |Use this cmdlet to look up existing Office 365 Groups, and to view properties of the group object  <br/> |
@@ -219,10 +212,4 @@ The following cmdlets were recently made available to Office 365 Groups. If you 
    
 ## For more information
 
-- [Using PowerShell](https://technet.microsoft.com/en-us/library/cc482986.aspx)
-    
-- [Apply or remove an Outlook Web App mailbox policy on a mailbox](https://technet.microsoft.com/en-us/library/dd876884%28v=exchg.150%29.aspx)
-    
-- [Office 365 Groups Naming Policy](https://support.office.com/article/6ceca4d3-cad1-4532-9f0f-d469dfbbb552.aspx)
-    
-
+[Manage Office 365 with Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)

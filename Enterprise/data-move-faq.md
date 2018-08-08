@@ -13,7 +13,7 @@ description: "Here are answers to general questions about moving core data to a 
 ---
 
 # Data move general FAQ
-[]
+
 Here are answers to general questions about moving core data to a new datacenter geo.
   
  **Q. How do you make sure my customer data is safe during the move and that I won't experience downtime?**
@@ -60,7 +60,7 @@ A. We are unable to accept requests to be moved after the deadline in each geo.
   
  **Q. What if I want to move my data in order to get better network performance?**
   
-Being close to an Office 365 datacenter is not a guarantee for a better networking performance. There are many factors and components that impact the network performance between the end user and the Office 365 service. For more information about this and performance tuning see [Network planning and performance turning for Office 365](https://support.office.com/en-us/article/Network-planning-and-performance-tuning-for-Office-365-e5f1228c-da3c-4654-bf16-d163daee8848)
+Being close to an Office 365 datacenter is not a guarantee for a better networking performance. There are many factors and components that impact the network performance between the end user and the Office 365 service. For more information about this and performance tuning see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
   
  **Q. Do all the services move their data on the same day?**
   
