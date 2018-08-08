@@ -3,11 +3,7 @@ title: "Understanding Office 365 identity and Azure Active Directory"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-<<<<<<< HEAD
 ms.date: 8/21/2018
-=======
-ms.date: 5/1/2018
->>>>>>> master
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
