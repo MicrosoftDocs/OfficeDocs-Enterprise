@@ -51,7 +51,7 @@ If you're using Office 2007 or Office 2010 at home, consider the following optio
 
 - **Try Office 365 for home use**. Choose between an [Office 365 Home](https://www.microsoft.com/p/office-365-home/cfq7ttc0k5dm) or [Office 365 Personal](https://www.microsoft.com/p/office-365-personal/cfq7ttc0k5bf) subscription. and sign up for a trial. Sign up, and install the latest version of Office on your Windows or Mac computer, your iOS or Android smartphone, and your iOS or Android tablet. With Office 365, you'll enjoy cloud storage with OneDrive, you'll get 60 minutes of Skype calls to mobile and landline numbers each month, and you'll get many other great features. [See Office 365 plans and pricing for home](https://products.office.com/explore-office-for-home).
     
-- **Purchase Office Home &amp; Student 2016**. If you choose this option, you'll make a one-time purchase and then install Office 2016 on your [Windows PC](https://www.microsoft.com/p/office-home-student-2016-for-pc/cfq7ttc0k5fc) or [Mac](https://products.office.com/mac/microsoft-office-for-mac). 
+- **Purchase Office Home &amp; Student 2016**. If you choose this option, you'll make a one-time purchase and then install Office 2016 on your [Windows PC](https://www.microsoft.com/p/office-home-student-2016-for-pc/cfq7ttc0k5fc) or [Mac](https://products.office.com/buy/compare-microsoft-office-products-for-mac). 
 
 
 ## What happens if I don't upgrade?
