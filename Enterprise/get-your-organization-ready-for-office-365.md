@@ -40,19 +40,4 @@ If you want help getting Office 365 set up, [FastTrack](https://fasttrack.micros
 Want more resources to help you integrate Office 365 with your broader cloud strategy? Here are the [Microsoft cloud IT architecture resources](https://docs.microsoft.com/en-us/office365/enterprise/microsoft-cloud-it-architecture-resources).
   
 ## Want to talk with support?
-<<<<<<< HEAD
-
-We're here to help. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-  
-Here's a short link you can use to come back: [https://aka.ms/deployenterprise365](https://aka.ms/deployenterprise365)
-  
-## Related Topics
-
-[Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
-  
-[Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
-  
-
-=======
 We're here to help, [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) for business products.
->>>>>>> robmazz-conversion
