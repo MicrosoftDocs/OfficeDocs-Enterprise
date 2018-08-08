@@ -79,10 +79,10 @@ For more information, see the video course [Office 365: Manage Identities Using 
   
 ## See Also
 
-[Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
+[Prepare to provision users through directory synchronization to Office 365](https://support.office.com/article/prepare-to-provision-users-through-directory-synchronization-to-office-365-01920974-9e6f-4331-a370-13aea4e82b3e)
   
 [Connect PowerShell to Office 365 services](https://support.office.com/article/06a743bb-ceb6-49a9-a61d-db4ffdf54fa6)
   
-[Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
+[Fixing problems with directory synchronization for Office 365](https://support.office.com/article/fixing-problems-with-directory-synchronization-for-office-365-79c43023-5a47-45ae-8068-d8a26eee6bc2d)
   
 
