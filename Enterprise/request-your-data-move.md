@@ -15,7 +15,7 @@ description: "Existing Office 365 customers will need to submit a request before
 ---
 
 # How to request your data move
-[]
+
 > [!NOTE]
 > The information on this page only applies to customers who had existing Office 365 tenants before the new datacenters in their geo launched. 
   
@@ -24,7 +24,6 @@ Existing Office 365 customers will need to submit a request before the deadline 
 We are unable to accept requests to be moved after the deadline in each geo. 
   
 ## When can I request a move?
-<a name="watch"> </a>
 
 |**Customers with billing address in**|**Request period begins**|**Request deadline**|
 |:-----|:-----|:-----|
@@ -37,7 +36,6 @@ We are unable to accept requests to be moved after the deadline in each geo.
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
    
 ## How to request a move
-<a name="IP"> </a>
 
 > [!NOTE]
 > This option is only available on the Office 365 admin center Preview. For instructions on how to access this, see [Office 365 for business - Admin Help](https://aka.ms/365admin). All requests for moves need to be done through the Office 365 admin center. Support will not be able to make this selection for you or override your selection. 
@@ -52,8 +50,9 @@ On the **Organization Profile** page, scroll down to the **Data Residency Option
   
 ![Data residency card](media/fdb02cd0-825d-4d9e-bb35-6f806282884f.png)
   
-> [!NOTE]
->  You may not see this section if one of the following apply: >  Your tenant is not eligible for the move program. >  All of your data is already located in the new geo (see Data Location section of the page). 
+**You may not see this section if one of the following apply**:
+- Your tenant is not eligible for the move program. 
+- All of your data is already located in the new geo (see Data Location section of the page). 
   
 > [!IMPORTANT]
 > **You are about to make an important choice for your organization. After confirming the option below, you cannot undo it. Support is unable to reverse this decision as well.**
@@ -65,7 +64,6 @@ If your organization has data residency requirements, and you need to request a 
 You should see the text on the **Data Residency Option** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
   
 ## What happens after requesting a move?
-<a name="mx"> </a>
 
 After requesting a move, we will plan to move you as quickly as our operational constraints allow for. Due to the unpredictable nature of many of the constraints, we cannot share a specific date or timeframe for the moves. You will see a notification after the move has completed.
   
@@ -74,7 +72,6 @@ Moves may take up to 24 months from the request deadline for your country to com
 After requesting a move, it is not possible to change your selection as we begin to process the moves once you have made the request.
   
 ## Optional actions before you request a move
-<a name="mx"> </a>
 
 Perform the following steps as appropriate.
   
@@ -100,6 +97,6 @@ The trial tenant can't be combined with your existing tenant:
     
 ### Notify users to update out-of-date Exchange settings on mobile devices
 
-If users have a mobile device with the Exchange Server set to **m.outlook.com** or **podxxxxx.outlook.com**, recommend that they switch to **outlook.office365.com**, following the instructions in [ Set up a mobile device to synchronize with your account ](https://support.office.com/en-us/article/Set-up-a-mobile-device-to-synchronize-with-your-account-c9139caf-01ab-41a0-827c-3c06ee569ed3?ui=en-US&amp;rs=en-US&amp;ad=US).
+If users have a mobile device with the Exchange Server set to **m.outlook.com** or **podxxxxx.outlook.com**, we recommend that they switch to **outlook.office365.com**, following the instructions in [Set up a mobile device to synchronize with your account](https://support.office.com/article/c9139caf-01ab-41a0-827c-3c06ee569ed3).
   
 

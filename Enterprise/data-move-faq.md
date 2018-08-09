@@ -20,7 +20,7 @@ Here are answers to general questions about moving core data to a new datacenter
   
  **Q. How do you make sure my customer data is safe during the move and that I won't experience downtime?**
   
-A. Data moves are a back-end service operation with minimal impact to end-users. Features that can be impacted are listed on the [During and after your data move](https://technet.microsoft.com/en-us/library/dn879434.aspx) page. We adhere to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for availability so there is nothing that customers need to prepare for or to monitor during the move. 
+A. Data moves are a back-end service operation with minimal impact to end-users. Features that can be impacted are listed in [During and after your data move](during-and-after-your-data-move.md). We adhere to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for availability so there is nothing that customers need to prepare for or to monitor during the move. 
   
 All Office 365 services run the same versions in the datacenters, so you can be assured of consistent functionality. Your service is fully supported throughout the process.
   
@@ -34,7 +34,7 @@ A. Yes. Once a new datacenter geo is available, new Office 365 for business cust
   
  **Q. Where is my data is located?**
   
-We publish the location of datacenter geos, datacenters, and location of customer data on the [ Office 365 interactive datacenter maps ](https://o365datacentermap.azurewebsites.net/). As of August 1, you will be able to verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Office 365 Admin Center.
+We publish the location of datacenter geos, datacenters, and location of customer data on the [ Office 365 interactive datacenter maps ](https://o365datacentermap.azurewebsites.net). As of August 1, you will be able to verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Office 365 Admin Center.
   
  **Q. Will existing Office 365 customers be moved to the new datacenter geos?**
   

@@ -51,7 +51,7 @@ Because it takes time to move each user to the new datacenter geo for a single t
 
 When an individual mailbox moves crosses datacenter geos, the mailbox content is first pre-staged so that existing data is copied to the target geo without affecting the mailbox. At the time of cutover to the target geo, the mailbox in the source geo is locked for a few minutes. During that time, email clients can't connect temporarily. Any additional changes are copied to the target geo, and then the mailbox completes the move to the target geo. There is no disruption to mail flow during the move.
   
-Some users may need to restart Outlook Desktop after the mailbox is moved as described in Knowledge Base article [2591913](https://support.microsoft.com/kb/2591913).
+Some users may need to restart Outlook Desktop after the mailbox is moved as described in [Knowledge Base article 2591913](https://support.microsoft.com/kb/2591913).
   
 ### Shared mailbox
 
