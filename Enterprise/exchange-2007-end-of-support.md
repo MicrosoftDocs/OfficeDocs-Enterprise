@@ -10,7 +10,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.assetid: c3024358-326b-404e-9fe6-b618e54d977d
-
 description: "On April 11, 2017 , Exchange Server 2007 reached end of support. If you haven't already begun your migration from Exchange 2007 to Office 365 or Exchange 2016, now's the time to start your planning."
 ---
 

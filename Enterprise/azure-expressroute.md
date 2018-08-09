@@ -13,6 +13,7 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: Adm_O365
 search.appverid:
+- MET150
 - MOE150
 - BCS160
 ms.assetid: 6d2534a2-c19c-4a99-be5e-33a0cee5d3bd

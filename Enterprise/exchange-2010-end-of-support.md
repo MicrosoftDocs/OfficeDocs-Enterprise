@@ -10,7 +10,6 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.assetid: e150e7b9-c432-4c8d-a0ae-c11847129a7d
-
 description: "Exchange 2010 is nearing end of support. Use this planning roadmap as a guide to prepare to upgrade to Exchange Online or a newer version of Exchange Server on-premises."
 ---
 

@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
 - MET150
+- MET150
 - MOP150
 - MEW150
 - BCS160

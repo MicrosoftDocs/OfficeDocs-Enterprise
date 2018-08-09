@@ -12,6 +12,7 @@ ms.collection: Ent_O365
 ms.custom: Adm_O365_Setup
 search.appverid:
 - MET150
+- MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
 description: "The deployment wizards for Office 365 give you self-guided support for setting up Office 365."

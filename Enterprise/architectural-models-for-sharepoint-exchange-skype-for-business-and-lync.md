@@ -14,7 +14,8 @@ ms.collection:
 ms.custom: 
 - Ent_Architecture
 ms.assetid: 5b49fa68-f8f2-4705-af96-5f5475e8539a
-
+search.appverid:
+- MET150
 description: "Summary: Get the IT posters that describe the architectural models, deployment, and platform options for SharePoint, Exchange, Skype for Business, and Lync."
 ---
 

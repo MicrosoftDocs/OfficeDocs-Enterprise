@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
 search.appverid:
+- MET150
 - MOE150
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
