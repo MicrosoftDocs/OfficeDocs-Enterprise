@@ -8,8 +8,10 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
+- MOE150
 ms.custom: Adm_O365
-search.appverid: MOE150
 ms.assetid: cc453ae5-fa9b-4836-b0ce-c7e824b1e36d
 description: "Lists the attributes that are excluded and supported by IdFix tool."
 ---

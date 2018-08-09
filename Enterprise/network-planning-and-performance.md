@@ -10,9 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_Enterprise
 ms.custom: Adm_O365
-search.appverid: MET150
+search.appverid: 
+- MET150
 ms.assetid: e5f1228c-da3c-4654-bf16-d163daee8848
-
 description: "Helps you plan your network bandwidth requirements for Microsoft Office 365. Once you're deployed, return here to fine tune and troubleshoot Office 365 performance."
 ---
 

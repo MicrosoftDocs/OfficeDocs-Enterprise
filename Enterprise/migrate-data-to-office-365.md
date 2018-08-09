@@ -10,6 +10,7 @@ ms.service: o365-administration
 localization_priority: Priority
 ms.collection: Ent_O365
 search.appverid:
+- MET150
 - MOE150
 - BCS160
 ms.assetid: e2fdfc8d-547e-4419-8628-2738ed4e0f46

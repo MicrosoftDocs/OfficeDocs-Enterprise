@@ -9,7 +9,9 @@ ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
-search.appverid: MOE150
+search.appverid: 
+- MOE150
+- MET150
 ms.assetid: d3577c90-dda5-45ca-afb0-370d2889b10f
 description: "Describes directory synchronization with Office 365, Active Directory cleanup, and Azure Active Directory Connect tool."
 ---

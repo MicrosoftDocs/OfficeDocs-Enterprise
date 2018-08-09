@@ -13,8 +13,6 @@ search.appverid:
 - MET150
 ms.collection: Ent_O365
 ms.date: 2/14/2018
-
-
 ---  
 
 <h1>Enterprise Cloud Solutions</h1>

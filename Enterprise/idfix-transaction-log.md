@@ -9,7 +9,9 @@ ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
-search.appverid: MOE150
+search.appverid:
+- MET150
+- MOE150
 ms.assetid: d58b7d45-7947-4193-9456-82ba76f42d89
 description: "Provides an example and describes the naming convention and default log level of the Office 365 IdFix transaction log."
 ---

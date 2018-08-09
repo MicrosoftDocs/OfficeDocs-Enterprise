@@ -9,7 +9,9 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
-search.appverid: MOE150
+search.appverid:
+- MET150
+- MOE150
 ms.assetid: 497593cf-24c6-491c-940b-7c86dcde9de0
 description: "Provides instructions on using IdFix to prepare and clean up your on-premises directory before synchronizing to Office 365."
 ---

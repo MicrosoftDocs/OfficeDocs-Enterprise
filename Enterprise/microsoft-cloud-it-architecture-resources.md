@@ -14,7 +14,8 @@ ms.collection:
 ms.custom:
 - Ent_Architecture
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
-
+search.appverid:
+- MET150
 description: "Summary: Learn about Microsoft cloud services and platforms. Review our enterprise cloud roadmap, explore our cloud architecture series, and more."
 ---
 

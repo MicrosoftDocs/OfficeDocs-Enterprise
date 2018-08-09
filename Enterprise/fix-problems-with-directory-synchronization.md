@@ -10,6 +10,7 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid:
+- MET150
 - MOE150
 - MBS150
 ms.assetid: 79c43023-5a47-45ae-8068-d8a26eee6bc2
