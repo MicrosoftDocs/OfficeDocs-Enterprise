@@ -10,6 +10,7 @@ ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
+- MET150
 - LCC120
 - OFF120
 - OFF140

@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid:
+- MET150
+- SPO160
 ms.assetid: e8ce6b72-745b-464a-85c7-cbf6eb53391b
 description: "This article describes how to increase performance by replacing the Content Query Web Part with the Content Search Web Part in SharePoint Server 2013 and SharePoint Online."
 ---

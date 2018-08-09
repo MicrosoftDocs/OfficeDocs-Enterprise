@@ -7,17 +7,15 @@ ms.date: 6/15/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
-- 'O365P_ServiceHealthModern
-'
-- 'O365M_ServiceHealthModern
-'
+- 'O365P_ServiceHealthModern'
+- 'O365M_ServiceHealthModern'
 - 'O365E_ViewStatusServices'
-- 'O365E_ServiceHealthModern
-'
+- 'O365E_ServiceHealthModern'
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
 search.appverid:
+- MET150
 - MOE150
 - BCS160
 - IWA160

@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid:
+- MET150
+- SPO160
 ms.assetid: 9a64268c-0b74-4eaa-b971-fb6380b1b165
 description: "Summary: This article describes Content Delivery Networks (CDNs) and how you can use them to increase SharePoint Online performance."
 ---

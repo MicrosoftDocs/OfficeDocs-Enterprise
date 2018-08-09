@@ -8,6 +8,8 @@ ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 ms.custom: Adm_O365
 search.appverid: SPO160
@@ -17,12 +19,7 @@ description: "Contains links to other articles that tell you how to improve perf
 
 # Tune SharePoint Online performance
 
-This article contains links to other articles that tell you how to improve performance of page download times for SharePoint Online.
-  
-||
-|:-----|
-||
-|This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project. ||
+This article contains links to other articles that tell you how to improve performance of page download times for SharePoint Online. This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project.
    
 ## Articles about fine tuning SharePoint Online performance
 

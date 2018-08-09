@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid:
+- MET150
+- SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
 description: "Describes how to use Office 365's built-in Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets to all of your users no matter where they are located or how they access your content."
 ---

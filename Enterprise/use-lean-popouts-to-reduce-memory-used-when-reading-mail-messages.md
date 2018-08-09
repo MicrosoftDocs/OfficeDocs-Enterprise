@@ -8,18 +8,15 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.assetid: a6d6ba01-2562-4c3d-a8f1-78748dd506cf
 description: "This article contains information for improving message download performance in Outlook on the web."
 ---
 
 # Use lean popouts to reduce memory used when reading mail messages
 
-This article contains information for improving message download performance in Outlook on the web.
-  
-||
-|:-----|
-||
-|This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project. ||
+This article contains information for improving message download performance in Outlook on the web. This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project.
    
 As an Office 365 global administrator, you can configure Outlook on the web to deliver  *lean popouts*  , a smaller, less memory-intensive version of certain email messages in Microsoft Edge or Internet Explorer. When lean popouts are configured for Outlook on the web, server-side rendered components are loaded that optimize performance. 
   
