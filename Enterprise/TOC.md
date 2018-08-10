@@ -30,9 +30,8 @@
 ## [Subscriptions, licenses, accounts, and tenants for Microsoft’s cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
-# Plan for Office 365
+# [Plan for Office 365](get-your-organization-ready-for-office-365.md)
 ## [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
-### [Get your organization ready for Office 365 Enterprise](get-your-organization-ready-for-office-365.md)
 ### [Plan for directory synchronization](plan-for-directory-synchronization.md)
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
@@ -178,5 +177,5 @@
 ### [Client connectivity](client-connectivity.md)
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 # [Security & Compliance](/Office365/SecurityCompliance/index.md)
-# [Office 365 for business](https://support.office.com/en-us/office365admin)
+# [Office 365 for Business](https://support.office.com/en-us/office365admin)
   
