@@ -37,7 +37,7 @@
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
-### [Choose between MDM and Intune](**NEED LINK**)
+### [Choose between MDM and Intune](/SecurityCompliance/choose-between-mdm-and-intune.md)
 ### [Network and migration planning for Office 365](network-and-migration-planning.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
@@ -116,7 +116,7 @@
 ### [Skype for Business](/SkypeForBusiness/skype-for-business-online.md)
 ### [Microsoft Teams](/MicrosoftTeams/Teams-overview.md)
 ### [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-## [Configure device management with Intune](**NEED LINK**)
+## [Configure device management with Intune](https://docs.microsoft.com/intune/setup-steps)
 ## Deploy applications
 ### [Deploy Office 365 ProPlus](/DeployOffice/deployment-guide-for-office-365-proplus.md)
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
