@@ -154,6 +154,6 @@ Verify and check these items off your list before you continue:
     
 - [How to configure Skype for Business on-premises to use Modern Authentication](configure-skype-for-business-for-hybrid-modern-authentication.md)
     
-- [Removing or disabling modern authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
+- [Removing or disabling modern authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication.md)
     
 

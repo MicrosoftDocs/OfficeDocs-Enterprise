@@ -32,7 +32,7 @@ Azure Active Directory (AD) Connect (formerly known as the Directory Synchroniza
 - You can reduce the number of on-premises servers in your organization.
     
 > [!IMPORTANT]
-> This solution requires connectivity between your on-premises network and your Azure Virtual Network. For more information, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md). 
+> This solution requires connectivity between your on-premises network and your Azure Virtual Network. For more information, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md). 
   
 > [!IMPORTANT]
 > This article describes synchronization of a single domain in a single forest. Azure AD Connect synchronizes all Windows Server AD domains in your Active Directory forest with Office 365. If you have multiple Active Directory forests to synchronize with Office 365, see [Multi-forest Directory Sync with Single Sign-On Scenario](https://go.microsoft.com/fwlink/p/?LinkId=393091). 
@@ -60,7 +60,7 @@ In both cases, the traffic originated by Azure AD Connect running on the Azure v
   
 There are two major steps when you deploy this solution:
   
-1. Create an Azure virtual network and establish a site-to-site VPN connection to your on-premises network. For more information, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
+1. Create an Azure virtual network and establish a site-to-site VPN connection to your on-premises network. For more information, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md).
     
 2. Install [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594) on a domain-joined virtual machine in Azure, and then synchronize the on-premises Windows Server AD to Office 365. This involves:
     
@@ -85,9 +85,9 @@ Before you deploy this solution in production, use the instructions in [Director
 
 Before you begin, review the following prerequisites for this solution:
   
-- Review the related planning content in [Plan your Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#PlanningVirtual).
+- Review the related planning content in [Plan your Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md).
     
-- Ensure that you meet all [prerequisites](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#Prerequisites) for configuring the Azure virtual network.
+- Ensure that you meet all [prerequisites](connect-on-prem-network-to-azure-virtual-network.md) for configuring the Azure virtual network.
     
 - Have an Office 365 subscription that includes the Active Directory integration feature. For information about Office 365 subscriptions, go to the [Office 365 subscription page](https://go.microsoft.com/fwlink/p/?LinkId=394278).
     
@@ -129,7 +129,7 @@ After deployment, you must also assign locations and licenses for the new user a
   
 ### Phase 1: Create and configure the Azure virtual network
 
-To create and configure the Azure virtual network, complete [Phase 1: Prepare your on-premises network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#Phase1) and [Phase 2: Create the cross-premises virtual network in Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#Phase2) in the deployment roadmap of [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
+To create and configure the Azure virtual network, complete [Phase 1: Prepare your on-premises network](connect-on-prem-network-to-azure-virtual-network.md) and [Phase 2: Create the cross-premises virtual network in Azure](connect-on-prem-network-to-azure-virtual-network.md) in the deployment roadmap of [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md).
   
 This is your resulting configuration.
   
@@ -200,7 +200,7 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
-[Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
+[Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md)
 
 [Download Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)
   

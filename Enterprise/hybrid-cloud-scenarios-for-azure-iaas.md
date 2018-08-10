@@ -170,7 +170,7 @@ Follow this path for successful adoption:
     
 2. Deploy
     
-    See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) to step through the end-to-end configuration of the high availability AD FS infrastructure in five phases.
+    See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md) to step through the end-to-end configuration of the high availability AD FS infrastructure in five phases.
     
 See these additional resources:
   

@@ -98,7 +98,7 @@ In this diagram:
     
 - The on-premises environment includes a gateway device, such as a router or VPN server.
     
-For additional information to plan for and create a cross-premises virtual network, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
+For additional information to plan for and create a cross-premises virtual network, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md).
   
 ## Add Windows Server Active Directory (AD) and DNS
 

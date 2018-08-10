@@ -280,7 +280,7 @@ Configure the recovery farm as identically as possible to the production farm so
 ## Phase 2: Create the Azure virtual network and VPN connection
 <a name="Phase2"> </a>
 
-[Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md) shows you how to plan and deploy the virtual network in Azure and how to create the VPN connection. Follow the guidance in the topic to complete the following procedures:
+[Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md) shows you how to plan and deploy the virtual network in Azure and how to create the VPN connection. Follow the guidance in the topic to complete the following procedures:
   
 - Plan the private IP address space of the Virtual Network.
     

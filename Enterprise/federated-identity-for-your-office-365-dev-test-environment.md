@@ -50,7 +50,7 @@ There are five phases to setting up this dev/test environment:
     
 5. Configure Office 365 for federated identity.
     
-To step through a production deployment of federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md).
+To step through a production deployment of federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md).
   
 > [!NOTE]
 > You cannot configure this dev/test environment with an Azure Trial subscription. 
@@ -434,7 +434,7 @@ Your Office 365 trial subscription is now configured with federated authenticati
   
 ## Next Step
 
-When you are ready to deploy production-ready, high availability federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md).
+When you are ready to deploy production-ready, high availability federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md).
   
 ## See Also
 
@@ -446,6 +446,6 @@ When you are ready to deploy production-ready, high availability federated authe
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
+[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md)
 
 
