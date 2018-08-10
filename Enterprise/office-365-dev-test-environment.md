@@ -3,7 +3,7 @@ title: "Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/11/2018
+ms.date: 08/09/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -182,8 +182,10 @@ From the display of the **New-MsolUser** command, note the generated password fo
   
 Next, you create three new SharePoint Online team sites for the Sales, Production, and Support departments.
   
-### Create three new SharePoint Online team sites
+## Phase 4: Create three new SharePoint Online team sites (optional)
 
+In this phase, you configure a set of SharePoint Online team sites.
+  
 1. Install the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251) (the x64 version).
     
 2. Click **Start**, type **sharepoint**, and then click **SharePoint Online Management Shell**.
@@ -245,7 +247,7 @@ Record these values for working with or deploying additional Test Lab Guides in 
     
     Also record the passwords for these accounts in a secure location.
     
-- To list the URLs for the Sales, Production, and Support team sites, run the following command from the SharePoint Online Management Shell prompt:
+- (optional) To list the URLs for the Sales, Production, and Support team sites, run the following command from the SharePoint Online Management Shell prompt:
     
   ```
   Get-SPOSite | Where URL -like "*/sites/*" | Sort URL | Select URL
