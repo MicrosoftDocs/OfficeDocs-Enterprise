@@ -58,40 +58,6 @@ Do you want help getting Office 365 set up? Consider using [FastTrack](https://f
 | Get your network ready ( [guidance and tools](https://aka.ms/tune)) |||||
 | Update client software versions ( [guidance](https://go.microsoft.com/fwlink/?LinkId=534827)) |||||
 | If you have Active Directory Rights Management Services: Prepare your environment ( [guidance](https://go.microsoft.com/fwlink/?linkid=844967))  <br/> |||||
-<<<<<<< HEAD
-|**Set up Office 365 services to work for your organization** <br/> |||||
-|Configure your Office 365 subscription  <br/> |||||
-|[Verify the domains you want to use with your subscription](https://go.microsoft.com/fwlink/?LinkId=534828) <br/> |||||
-| Configure [application settings](https://go.microsoft.com/fwlink/?LinkId=534829) (email, instant messaging, online meetings, web collaboration, file storage, Yammer)  <br/> |||||
-| Optionally [prepare for directory synchronization](https://go.microsoft.com/fwlink/?LinkId=534830) <br/> |||||
-| Optionally [prepare for single sign-on](https://go.microsoft.com/fwlink/?LinkId=534831) <br/> |||||
-|Prepare your organization  <br/> |||||
-|[Prepare service desk](https://fasttrack.microsoft.com/office) for upcoming migration  <br/> |||||
-| Test the deployment and optional migration process  <br/> |||||
-| Tell your users about the [upcoming changes and how it will affect them](https://fasttrack.microsoft.com/office) <br/> |||||
-|**Roll out to users** <br/> |||||
-|Setup accounts and mailboxes  <br/> |||||
-| Add your users and [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) <br/> |||||
-| Optionally migrate data ( [email](https://go.microsoft.com/fwlink/?LinkId=534823), and [files](https://go.microsoft.com/fwlink/?LinkId=534824), and so on)  <br/> |||||
-|Validate functionality then complete final steps  <br/> |||||
-| Migrate [DNS settings to point to Office 365](https://go.microsoft.com/fwlink/?LinkId=534835) <br/> |||||
-| Tell your users when they can [start using Office 365](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb) <br/> |||||
-| Reconfigure client systems to connect to Office 365 ( [Office](https://go.microsoft.com/fwlink/?LinkId=534836), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837), [Outlook for Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b?ad=US#PickTab=Outlook_for_Mac), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840))  <br/> |||||
-   
-Here's a short link you can use to come back: [https://aka.ms/deploy365checklist](https://aka.ms/deploy365checklist)
-  
-## See Also
-
-[Office 365 integration with on-premises environments](office-365-integration.md)
-  
-[Set up Office 365 for business](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa)
-  
-[Security in Office 365 whitepaper](https://go.microsoft.com/fwlink/p/?LinkID=273861)
-  
-[Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
-  
-
-=======
 |**Set up Office 365 services to work for your organization** |||||
 |Configure your Office 365 subscription |||||
 |[Verify the domains you want to use with your subscription](https://go.microsoft.com/fwlink/?LinkId=534828) |||||
@@ -110,4 +76,3 @@ Here's a short link you can use to come back: [https://aka.ms/deploy365checklist
 | Migrate [DNS settings to point to Office 365](https://go.microsoft.com/fwlink/?LinkId=534835) |||||
 | Tell your users when they can [start using Office 365](https://support.office.com/en-us/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?ui=en-US&amp;rs=en-US&amp;ad=US) |||||
 | Reconfigure client systems to connect to Office 365 ( [Office](https://go.microsoft.com/fwlink/?LinkId=534836), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837), [Outlook for Mac](6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac.md), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840))  |||||
->>>>>>> robmazz-conversion

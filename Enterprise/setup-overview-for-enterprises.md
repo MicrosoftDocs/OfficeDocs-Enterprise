@@ -27,7 +27,7 @@ These steps are for businesses and [nonprofits](https://go.microsoft.com/fwlink/
 Don't have Office 365 Enterprise? See [Set up Office 365 for business](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) for instructions for small businesses. 
   
 ## Guided enterprise Office 365 setup process with FastTrack
-Office 365 **[FastTrack](https://technet.microsoft.com/en-us/library/office-365-onboarding-benefit.aspx)** is the best method for deploying Office 365. FastTrack guides you through the most common deployment configurations and can answer questions along the way. If you want to self-help or guidance from a partner, use our [Office 365 setup guide](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa), our [Office 365 setup wizards](https://aka.ms/o365fasttrack), or [find a qualified partner](https://partnercenter.microsoft.com/en-us/pcv/search).
+Office 365 **[FastTrack](https://docs.microsoft.com/fasttrack)** is the best method for deploying Office 365. FastTrack guides you through the most common deployment configurations and can answer questions along the way. If you want to self-help or guidance from a partner, use our [Office 365 setup guide](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa), our [Office 365 setup wizards](https://aka.ms/o365fasttrack), or [find a qualified partner](https://partnercenter.microsoft.com/en-us/pcv/search).
 
 ## Self-deployment of Office 365
 If you want to deploy Office 365 on your own, the following deployment steps are here to help.
