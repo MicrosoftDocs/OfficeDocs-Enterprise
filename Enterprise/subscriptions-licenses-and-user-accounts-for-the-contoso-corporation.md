@@ -80,7 +80,7 @@ Figure 2 shows the hierarchical design of Contoso's Azure subscriptions:
   
 **Figure 2: Contoso's structure for Azure subscriptions**
 
-![Contoso's structure for Azure subscriptions](media/Contoso-Poster/Subscriptions_Nested.png)
+![Contoso's structure for Azure subscriptions](media/Contoso-Poster/Subscriptions-Nested.png)
   
 - Contoso is at the top, based on its Enterprise Agreement with Microsoft.
     
