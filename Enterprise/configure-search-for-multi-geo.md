@@ -225,7 +225,7 @@ MultiGeoSearchStatus – This is a property that the SharePoint Search API retur
 
 With a GET request, you specify the query parameters in the URL. With a POST request, you pass the query parameters in the body in JavaScript Object Notation (JSON) format.
 > [!NOTE]
-> Each property of a GET request is separated by a colon, and each argument of a property is separated with a comma. However, the MultiGeoSearchConfiguration query parameter is a comma-separated list of geo locations where each item defining the geo location is separated by a colon. Use a backslash as the escape character for commas and colons in the list of geo locations, see the sample GET requests.
+> Each property of a GET request is separated by a colon, and each argument of a property is separated with a comma. However, the MultiGeoSearchConfiguration query parameter is a comma-separated list of geo locations where each item defining the geo location is separated by a colon. Use a backslash as the escape character for all commas and colons in the MultiGeoSearchConfiguration query parameter, see the sample GET requests.
 
 #### Request headers
 
