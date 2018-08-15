@@ -26,7 +26,7 @@ Contoso uses a single Windows Server Active Directory (AD) forest for contoso.co
   
 **Figure 1: Contoso's forest and domains worldwide**
 
-![Contoso's Windows Server AD forest and domains across the world](media/Contoso-Poster/Contoso_WW_ID.png)
+![Contoso's Windows Server AD forest and domains across the world](media/Contoso-Poster/Contoso-WW-ID.png)
   
 Figure 1 shows the Contoso forest with regional domains for the different parts of the world that contain regional hubs.
   
@@ -42,7 +42,7 @@ Contoso allows:
     
 **Figure 2: Contoso's support for federated authentication for customers and partners**
 
-![Contoso's existing infrastructure to support federated authentication for customers and partners](media/Contoso-Poster/Federated_ID.png)
+![Contoso's existing infrastructure to support federated authentication for customers and partners](media/Contoso-Poster/Federated-ID.png)
   
 Figure 2 shows the Contoso DMZ containing a public web site, a partner extranet, and a set of AD FS servers. The DMZ is connected to the Internet that contains customers and partners and Internet services.
   
@@ -70,7 +70,7 @@ To distribute the load of authentication requests, Contoso has configured Azure 
   
 **Figure 4: Geographical distribution of authentication traffic for regional offices**
 
-![Geographical distribution of Contoso authentication traffic for regional offices](media/Contoso-Poster/Auth_GeoDist.png)
+![Geographical distribution of Contoso authentication traffic for regional offices](media/Contoso-Poster/Auth-GeoDist.png)
   
 Figure 4 shows the layers of client computers, Azure Traffic Manager, and authentication servers in regional offices. Each regional office uses web proxies and AD FS servers to authenticate user credentials with Windows Server AD domain controllers.
   
