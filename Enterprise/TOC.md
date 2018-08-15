@@ -50,7 +50,7 @@
 ### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
 ### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
 ### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
-### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication.md)
+### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
 ## [Plan your upgrade from Office 2007 or 2010 products](plan-upgrade-previous-versions-office.md)
 ### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
 #### [Office 2010 desktop](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
@@ -139,14 +139,14 @@
 ### [Data move general FAQ](data-move-faq.md)
 ## Hybrid solutions
 ### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
-### [Deploy Office 365 directory synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-in-azure.md)
-### [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md)
+### [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+### [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
 ### [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
-#### [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-configure-azure.md)
+#### [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md)
 #### [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md)
-#### [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-configure-ad-fs-servers.md)
+#### [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)
 #### [High availability federated authentication Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)
-#### [High availability federated authentication Phase 5: Configure federated authentication for Office 365](high-availability-federated-authentication-configure-authentication.md)
+#### [High availability federated authentication Phase 5: Configure federated authentication for Office 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)
 
 # Manage Office 365
 ## Service health
