@@ -152,7 +152,7 @@ Another example of a multi-tier, highly-available LOB application in Azure is fe
   
 **Figure 5: A high-availability federated identity infrastructure for Office 365 in Azure IaaS**
 
-![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack_IaaS_ADFS.png)
+![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-ADFS.png)
   
 In Figure 5, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. The Azure VNet contains web proxy servers, Active Directory Federation Services (AD FS) servers, and Windows Server Active Directory (AD) domain controllers.
   

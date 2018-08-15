@@ -42,7 +42,7 @@ Here are the networking paths to the Microsoft cloud with an ExpressRoute connec
   
 **Figure 2: The networking paths with ExpressRoute**
 
-![Figure 2: The networking paths with ExpressRoute](media/Network-Poster/ExpressRoute_post.png)
+![Figure 2: The networking paths with ExpressRoute](media/Network-Poster/ExpressRoute-post.png)
   
 Figure 2 shows two networking paths. Traffic to Microsoft Intune travels the same path as normal Internet traffic. Traffic to Office 365, Microsoft Azure, and Dynamics 365 travels across the ExpressRoute connection, a dedicated path between the edge of the on-premises network and the edge of the Microsoft cloud.
   
