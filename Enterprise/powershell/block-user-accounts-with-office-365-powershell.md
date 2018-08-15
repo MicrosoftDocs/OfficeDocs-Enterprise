@@ -157,7 +157,6 @@ Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-​AzureADUSer -Objec
 ```
 
 ## See also
-<a name="SeeAlso"> </a>
 
 See the following additional topics about managing users with Office 365 PowerShell:
   
