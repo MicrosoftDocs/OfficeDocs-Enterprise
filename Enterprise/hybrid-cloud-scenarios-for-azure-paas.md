@@ -26,7 +26,7 @@ Figure 1 shows the architecture of Microsoft PaaS-based hybrid scenarios in Azur
   
 **Figure 1: Microsoft PaaS-based hybrid scenarios in Azure**
 
-![Microsoft PaaS-based hybrid scenarios in Azure](media/Hybrid_Poster/Hybrid_Cloud_Stack_PaaS.png)
+![Microsoft PaaS-based hybrid scenarios in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack_PaaS.png)
   
 For each layer of the architecture:
   
@@ -52,7 +52,7 @@ Figure 2 shows the configuration of a hybrid application running in Azure.
   
 **Figure 2: Azure PaaS-based hybrid application**
 
-![Azure PaaS-based hybrid application](media/Hybrid_Poster/Hybrid_Cloud_Stack_PaaS_Apps.png)
+![Azure PaaS-based hybrid application](media/Hybrid-Poster/Hybrid-Cloud-Stack_PaaS_Apps.png)
   
 In Figure 2, an on-premises network hosts storage or apps on servers and a DMZ containing a proxy server. It is connected to Azure PaaS services either over the Internet or with an ExpressRoute connection.
   
@@ -74,7 +74,7 @@ Figure 3 shows an example hybrid application running in Azure.
   
 **Figure 3: An example Azure PaaS-based hybrid application**
 
-![An example Azure PaaS-based hybrid applicatio](media/Hybrid_Poster/Hybrid_Cloud_Stack_PaaS_Apps_Ex.png)
+![An example Azure PaaS-based hybrid applicatio](media/Hybrid-Poster/Hybrid-Cloud-Stack_PaaS_Apps_Ex.png)
   
 In Figure 3, an on-premises network hosts an LOB app. Azure PaaS hosts a custom mobile app. A smartphone on the Internet accesses the custom mobile app in Azure, which sends data requests to the on-premises LOB app.
   
@@ -100,7 +100,7 @@ Figure 4 shows Stretch Database with SQL Server 2016.
   
 **Figure 4: Stretch Database with SQL Server 2016**
 
-![Stretch Database with SQL Server 2016](media/Hybrid_Poster/Hybrid_Cloud_Stack_PaaS_Apps_SQL.png)
+![Stretch Database with SQL Server 2016](media/Hybrid-Poster/Hybrid-Cloud-Stack_PaaS_Apps_SQL.png)
   
 In Figure 4, an on-premises network hosts a server running SQL Server 2016 with a small local database. Azure PaaS hosts an instance of Azure SQL Server Stretch Database with the stretched portion of the database. T-SQL queries from an on-premises user sent to the on-premises SQL server are securely forwarded to the Azure SQL Stretch Database, which returns the results to the requesting user.
   
