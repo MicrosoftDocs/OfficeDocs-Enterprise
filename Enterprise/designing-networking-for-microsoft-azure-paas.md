@@ -44,7 +44,7 @@ Organization applications hosted in Azure PaaS require Internet bandwidth for in
     
 **Figure 1: Connection options for connecting the Azure PaaS services**
 
-![Figure 1: Connection options for Azure PaaS services](media/Network_Poster/PaaS1.png)
+![Figure 1: Connection options for Azure PaaS services](media/Network-Poster/PaaS1.png)
   
 Figure 1 shows an on-premises network connecting to Azure PaaS services over an Internet pipe or ExpressRoute.
   
@@ -54,7 +54,7 @@ Application-level routing and load balancing services that let you build a scala
   
 **Figure 2: Azure Application Gateway**
 
-![Figure 2: Azure Application Gateway Service](media/Network_Poster/PaaS2.png)
+![Figure 2: Azure Application Gateway Service](media/Network-Poster/PaaS2.png)
   
 Figure 2 shows the Azure Application Gateway and how user requests from the Internet can be routed to Azure web apps, cloud services, or virtual machines.
   
@@ -84,7 +84,7 @@ Here is an example for three geographically-distributed web apps.
   
 **Figure 3: Azure Traffic Manager**
 
-![Figure 3: Azure Traffic Manager](media/Network_Poster/PaaS3.png)
+![Figure 3: Azure Traffic Manager](media/Network-Poster/PaaS3.png)
   
 Figure 3 shows the basic process that Traffic Manager uses to route requests to three different Azure web apps in United States, Europe, and Asia. In the example:
   
