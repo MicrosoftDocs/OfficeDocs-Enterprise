@@ -27,7 +27,7 @@ description: "Summary: Using Azure, you can create a disaster-recovery environme
   
 Use this article with the following solution model: **SharePoint Disaster Recovery in Microsoft Azure**.
   
-[![SharePoint disaster-recovery process to Azure](media/SP_DR_Azure.png)](https://go.microsoft.com/fwlink/p/?LinkId=392555)
+[![SharePoint disaster-recovery process to Azure](media/SP-DR-Azure.png)](https://go.microsoft.com/fwlink/p/?LinkId=392555)
   
  [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392555) |  [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392554)
   
@@ -60,7 +60,6 @@ In this article:
 - [Troubleshooting tips](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Troubleshooting)
     
 ## Use Azure Infrastructure Services for disaster recovery
-<a name="AZ"> </a>
 
 Many organizations do not have a disaster recovery environment for SharePoint, which can be expensive to build and maintain on-premises. Azure Infrastructure Services provides compelling options for disaster recovery environments that are more flexible and less expensive than the on-premises alternatives.
   
@@ -89,7 +88,6 @@ The guidance in this article describes how to implement a warm standby environme
 For more information about disaster recovery solutions, see [High availability and disaster recovery concepts in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkID=393114) and [Choose a disaster recovery strategy for SharePoint 2013](https://go.microsoft.com/fwlink/p/?linkid=203228).
   
 ## Solution description
-<a name="SOL"> </a>
 
 The warm standby disaster-recovery solution requires the following environment:
   
@@ -154,7 +152,6 @@ You can work with Microsoft Consulting Services (MCS) or a partner to address mo
 The guidance provided in this article assumes that the on-premises farm is already designed and deployed.
   
 ## Detailed architecture
-<a name="arch"> </a>
 
 Ideally, the recovery farm configuration in Azure is identical to the production farm on-premises, including the following:
   
@@ -235,9 +232,8 @@ Finally, we recommend scripting skills that you can use to automate tasks associ
 In addition to Windows PowerShell, there are also Windows PowerShell libraries for SQL Server, SharePoint Server, and Azure. Don't forget T-SQL, which can also help reduce the time to configure and maintain your disaster-recovery environment.
   
 ## Disaster recovery roadmap
-<a name="RDmap"> </a>
 
-![Visual representation of the SharePoint disaster-recovery roadmap.](media/Azure_DRroadmap.png)
+![Visual representation of the SharePoint disaster-recovery roadmap.](media/Azure-DRroadmap.png)
   
 This roadmap assumes that you already have a SharePoint Server 2013 farm deployed in production.
   
@@ -254,9 +250,8 @@ This roadmap assumes that you already have a SharePoint Server 2013 farm deploye
 |Phase 7  <br/> | Validate failover and recovery solutions. This includes the following procedures and technologies: <br/>  Stop log shipping. <br/>  Restore the backups. <br/>  Crawl content. <br/>  Recover services. <br/>  Manage DNS records. <br/> |
    
 ## Phase 1: Design the disaster recovery environment
-<a name="Phase1"> </a>
 
-Use the guidance in [Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md) to design the disaster-recovery environment, including the SharePoint recovery farm. You can use the graphics in the[SharePoint Disaster Recovery Solution in Azure](https://go.microsoft.com/fwlink/p/?LinkId=392554) Visio file to start the design process. We recommend that you design the entire environment before beginning any work in the Azure environment.
+Use the guidance in [Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md) to design the disaster-recovery environment, including the SharePoint recovery farm. You can use the graphics in the [SharePoint Disaster Recovery Solution in Azure](https://go.microsoft.com/fwlink/p/?LinkId=392554) Visio file to start the design process. We recommend that you design the entire environment before beginning any work in the Azure environment.
   
 In addition to the guidance provided in [Microsoft Azure Architectures for SharePoint 2013](microsoft-azure-architectures-for-sharepoint-2013.md) for designing the virtual network, VPN connection, Active Directory, and SharePoint farm, be sure to add a file share role to the Azure environment.
   
@@ -267,7 +262,7 @@ To support log shipping in a disaster-recovery solution, a file share virtual ma
   
 **Figure: Placement of a file server used for a disaster recovery solution**
 
-![Shows a file share VM added to the same cloud service that contains the SharePoint database server roles.](media/AZenv_FSforDFSRandWSFC.png)
+![Shows a file share VM added to the same cloud service that contains the SharePoint database server roles.](media/AZenv-FSforDFSRandWSFC.png)
   
 In this diagram, a file share virtual machine is added to the same subnet in Azure that contains the database server roles. Do not add the file share virtual machine to an availability set with other server roles, such as the SQL Server roles.
   
@@ -476,7 +471,7 @@ In most cases where you have multiple front-end web servers, it makes sense to t
   
 Typically, when you set up network load balancing, your cluster is assigned a single IP address. You then create a DNS host record in the DNS provider for your network that points to the cluster. (For this project, we put a DNS server in Azure for resiliency in case of an on-premises datacenter failure.) For instance, you can create a DNS record, in DNS Manager in Active Directory, for example, called  `http://sharepoint.contoso.com`, that points to the IP address for your load-balanced cluster.
   
-For external access to your SharePoint farm, you can create a host record on an external DNS server with the same URL that clients use on your intranet (for example, `http://sharepoint.contoso.com`) that points to an external IP address in your firewall. (A best practice, using this example, is to set up split DNS so that the internal DNS server is authoritative for contoso.com and routes requests directly to the SharePoint farm cluster, rather than routing DNS requests to your external DNS server.) You can then map the external IP address to the internal IP address of your on-premises cluster so that clients find the resources they are looking for.
+For external access to your SharePoint farm, you can create a host record on an external DNS server with the same URL that clients use on your intranet (for example, `http://sharepoint.contoso.com`) that points to an external IP address in your firewall. (A best practice, using this example, is to set up split DNS so that the internal DNS server is authoritative for `contoso.com` and routes requests directly to the SharePoint farm cluster, rather than routing DNS requests to your external DNS server.) You can then map the external IP address to the internal IP address of your on-premises cluster so that clients find the resources they are looking for.
   
 From here, you might run into a couple of different disaster-recovery scenarios:
   
@@ -666,7 +661,7 @@ Ipconfig /flushdns
 
 ## Additional resources
 
-[Supported high availability and disaster recovery options for SharePoint databases](https://docs.microsoft.com/en-us/sharepoint/administration/supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas)
+[Supported high availability and disaster recovery options for SharePoint databases](https://docs.microsoft.com/sharepoint/administration/supported-high-availability-and-disaster-recovery-options-for-sharepoint-databas)
   
 [Configure SQL Server 2012 AlwaysOn Availability Groups for SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=393122)
   
