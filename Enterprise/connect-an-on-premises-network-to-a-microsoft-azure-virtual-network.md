@@ -31,7 +31,7 @@ For example, a directory synchronization server running on an Azure virtual mach
 
 Your virtual machines in Azure don't have to be isolated from your on-premises environment. To connect Azure virtual machines to your on-premises network resources, you must configure a cross-premises Azure virtual network. The following diagram shows the required components to deploy a cross-premises Azure virtual network with a virtual machine in Azure.
   
-![On-premises network connected to Microsoft Azure by a site-to-site VPN connection](images/CP_ConnectOnPremisesNetworkToAzureVPN.png)
+![On-premises network connected to Microsoft Azure by a site-to-site VPN connection](images/CP-ConnectOnPremisesNetworkToAzureVPN.png)
   
 In the diagram, there are two networks connected by a site-to-site VPN connection: the on-premises network and the Azure virtual network. The site-to-site VPN connection is:
 
