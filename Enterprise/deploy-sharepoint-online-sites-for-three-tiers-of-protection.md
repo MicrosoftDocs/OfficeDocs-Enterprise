@@ -139,7 +139,7 @@ Next, you create the SharePoint Online team site with these steps.
     
 Next, from the new SharePoint Online team site, configure permissions with these steps.
   
-1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). Write that UPN here: ![](./images/Common_Images/TableLine.png).
+1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). Write that UPN here: ![](./media/Common_Images/TableLine.png).
     
 2. In the tool bar, click the settings icon, and then click **Site permissions**.
     

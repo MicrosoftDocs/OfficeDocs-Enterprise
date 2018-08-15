@@ -26,7 +26,7 @@ Images can negatively affect page load speeds on SharePoint Online. By default, 
 You can use JavaScript to prevent a web browser from pre-fetching images. This speeds up overall document rendering. To do this you remove the value of the src attribute from the \<img\> tag and replace it with the path to a file in a data attribute such as: data-src. For example:
   
 ```
-<img src="" data-src="/sites/NavigationBySearch/_catalogs/masterpage/Images/microsoft-white-8.jpg" />
+<img src="" data-src="/sites/NavigationBySearch/_catalogs/masterpage/media/microsoft-white-8.jpg" />
 ```
 
 By using this method, the browser doesn't download the images immediately. If the image is already in the viewport, JavaScript tells the browser to retrieve the URL from the data attribute and insert it as the value for the src attribute. The image only loads as the user scrolls and it comes into view.

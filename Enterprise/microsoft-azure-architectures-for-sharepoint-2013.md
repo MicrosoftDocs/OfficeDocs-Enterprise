@@ -88,7 +88,7 @@ When you plan for a cross-premises connection, you define and create an Azure ga
   
 **Figure 2: Using an Azure gateway and an on-premises gateway device to provide site-to-site connectivity between the on-premises environment and Azure**
 
-![On-premises environment connected to an Azure virtual network by a cross-premise connection, which can be a site-to-site VPN connection or ExpressRoute](images/AZarch_VPNgtwyconnct.png)
+![On-premises environment connected to an Azure virtual network by a cross-premise connection, which can be a site-to-site VPN connection or ExpressRoute](images/AZarch-VPNgtwyconnct.png)
   
 In this diagram:
   
@@ -106,7 +106,7 @@ For disaster recovery in Azure, you deploy Windows Server AD and DNS in a hybrid
   
 **Figure 3: Hybrid Active Directory domain configuration**
 
-![STwo virtual machines deployed to the Azure virtual network and the SharePoint Farm subnet are replica domain controllers and DNS servers](images/AZarch_HyADdomainConfig.png)
+![STwo virtual machines deployed to the Azure virtual network and the SharePoint Farm subnet are replica domain controllers and DNS servers](images/AZarch-HyADdomainConfig.png)
   
 This diagram builds on the previous diagrams by adding two virtual machines to a Windows Server AD and DNS subnet. These virtual machines are replica domain controllers and DNS servers. They are an extension of the on-premises Windows Server AD environment. 
   
@@ -130,7 +130,7 @@ Place the virtual machines of the SharePoint farm in tiers on the appropriate su
   
 **Figure 4: Placement of SharePoint virtual machines**
 
-![Database servers and SharePoint server roles added to the Azure virtual network within the SharePoint Farm subnet](images/AZarch_SPVMsinCloudSer.png)
+![Database servers and SharePoint server roles added to the Azure virtual network within the SharePoint Farm subnet](images/AZarch-SPVMsinCloudSer.png)
   
 This diagram builds on the previous diagrams by adding the SharePoint farm server roles in their respective tiers.
   
@@ -166,7 +166,7 @@ Here is an example that shows a standard Internet Sites architecture that meets 
   
 **Figure 6: Planning example for capacity and performance goals in a three-tier farm**
 
-![Standard SharePoint 2013 Internet Sites architecture with component allocations that meet specific capacity and performance goals](images/AZarch_CapPerfexmpArch.png)
+![Standard SharePoint 2013 Internet Sites architecture with component allocations that meet specific capacity and performance goals](images/AZarch-CapPerfexmpArch.png)
   
 In this diagram:
   
@@ -182,7 +182,7 @@ Let's look closer at the application server tier.
   
 **Figure 7: Application server tier before fine tuning**
 
-![Example SharePoint Server 2013 application server tier before tuning for Microsoft Azure availability sets](images/AZarch_AppServtierBefore.png)
+![Example SharePoint Server 2013 application server tier before tuning for Microsoft Azure availability sets](images/AZarch-AppServtierBefore.png)
   
 In this diagram:
   
@@ -198,7 +198,7 @@ You determine the number of components by the performance and capacity targets f
   
 **Figure 8: Application server tier after fine tuning**
 
-![Example SharePoint Server 2013 application server tier after tuning for Microsoft Azure availability sets](images/AZarch_AppServtierAfter.png)
+![Example SharePoint Server 2013 application server tier after tuning for Microsoft Azure availability sets](images/AZarch-AppServtierAfter.png)
   
 This diagram shows all three application servers configured identically with the same four components.
   
