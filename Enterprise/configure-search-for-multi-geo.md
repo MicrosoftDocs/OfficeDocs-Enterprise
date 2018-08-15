@@ -77,7 +77,8 @@ Some search features you might be familiar with, work differently in a Multi-Geo
 </tr>
 <tr class="even">
 <td align="left">Search refiners</td>
-<td align="left">Search returns refiners from all the geo locations of a tenant and then aggregates them. The aggregation is a best effort, meaning that the refiner counts might not be 100% accurate. For most search-driven scenarios, this accuracy is sufficient.</td>
+<td align="left">Search returns refiners from all the geo locations of a tenant and then aggregates them. The aggregation is a best effort, meaning that the refiner counts might not be 100% accurate. For most search-driven scenarios, this accuracy is sufficient. 
+</td>
 <td align="left">For search-driven applications that depend on refiner completeness, query each geo location independently without using Multi-Geo fan-out.</td>
 </tr>
 <tr class="odd">
@@ -124,6 +125,7 @@ Some of the search features you might be familiar with, aren’t supported in a 
 ## How does search work in a Multi-Geo environment?
 
 **All** the search clients use the existing SharePoint Search REST APIs to interact with the search indexes.
+
 <img src="media/configure-search-for-multi-geo_image1-1.png" />
 
 1. A search client calls the Search REST endpoint with the query property EnableMultiGeoSearch= true.
@@ -223,6 +225,7 @@ MultiGeoSearchStatus – This is a property that the SharePoint Search API retur
 
 With a GET request, you specify the query parameters in the URL. With a POST request, you pass the query parameters in the body in JavaScript Object Notation (JSON) format.
 
+
 #### Request headers
 
 <table>
@@ -246,7 +249,10 @@ https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='Enable
 
 #### Sample GET request to fan out to **some** geo locations
 
-https:// <tenant>/_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\:"NAM"\,Endpoint\:"https\://contosoNAM.sharepoint.com"\,SourceId\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\,{DataLocation\:"CAN"\,Endpoint\:"https\://contosoCAN.sharepoint-df.com"}]'
+https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\\:"NAM"\\,Endpoint\\:"https\\://contosoNAM.sharepoint.com"\\,SourceId\\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\\,{DataLocation\\:"CAN"\\,Endpoint\\:"https\\://contosoCAN.sharepoint-df.com"}]'
+
+> [!NOTE]
+> Commas and colons in the list of geo-locations for the MultiGeoSearchConfiguration property are preceded by the **backslash** character. This is because GET requests use colons to separate properties and commas to separate arguments of properties. Without the backslash as an escape character, the MultiGeoSearchConfiguration property is interpreted wrongly.
 
 #### Sample POST request that’s fanned out to **all** geo locations
 
