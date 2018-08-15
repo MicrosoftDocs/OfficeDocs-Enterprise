@@ -25,7 +25,7 @@ description: "Summary: Design your networking for Microsoft cloud services and p
   
 This article links you to a set of articles that describe what IT architects need to know about designing networking for organizations using Microsoft cloud services and platforms. You can also view this information as a 12-page poster and print it in tabloid format (also known as ledger, 11 x 17, or A3).
   
-[![Thumb image for Microsoft cloud networking model](images/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)  
+[![Thumb image for Microsoft cloud networking model](media/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)  
 ](https://go.microsoft.com/fwlink/p/?linkid=842073)
   
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | [More languages](https://www.microsoft.com/download/details.aspx?id=54425)

@@ -44,7 +44,7 @@ Azure Active Directory (AD) Connect (formerly known as the Directory Synchroniza
 
 The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises Windows Server AD forest to anOffice 365 subscription.
   
-![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Office 365 subscription with traffic flow](images/CP-DirSyncOverview.png)
+![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Office 365 subscription with traffic flow](media/CP-DirSyncOverview.png)
   
 In the diagram, there are two networks connected by a site-to-site VPN or ExpressRoute connection. There is an on-premises network where Windows Server AD domain controllers are located, and there is an Azure virtual network with a directory sync server, which is a virtual machine running [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594). There are two main traffic flows originating from the directory sync server:
   
@@ -131,7 +131,7 @@ To create and configure the Azure virtual network, complete [Phase 1: Prepare yo
   
 This is your resulting configuration.
   
-![Phase 1 of the directory sync server for Office 365 hosted in Azure](images/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
+![Phase 1 of the directory sync server for Office 365 hosted in Azure](media/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
   
 This figure shows an on-premises network connected to an Azure virtual network through a site-to-site VPN or ExpressRoute connection.
   
@@ -153,7 +153,7 @@ For Azure AD Connect to gain access to Internet resources, you must configure th
   
 This is your resulting configuration.
   
-![Phase 2 of the directory sync server for Office 365 hosted in Azure](images/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
+![Phase 2 of the directory sync server for Office 365 hosted in Azure](media/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
   
 This figure shows the directory sync server virtual machine in the cross-premises Azure virtual network.
   
@@ -170,7 +170,7 @@ Complete the following procedure:
   
 This is your resulting configuration.
   
-![Phase 3 of the directory sync server for Office 365 hosted in Azure](images/3f692b62-b77c-4877-abee-83c7edffa922.png)
+![Phase 3 of the directory sync server for Office 365 hosted in Azure](media/3f692b62-b77c-4877-abee-83c7edffa922.png)
   
 This figure shows the directory sync server with Azure AD Connect in the cross-premises Azure virtual network.
   

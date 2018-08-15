@@ -27,7 +27,7 @@ This article provides you with step-by-step instructions to create the following
   
 **Figure 1: The Base Configuration dev/test environment**
 
-![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
 The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running WIndows Server 2016:
   
@@ -64,7 +64,7 @@ If you do not already have an Azure subscription, you can sign up for a free tri
 > [!NOTE]
 > Virtual machines in Azure incur an ongoing monetary cost when they are running. This cost is billed against your free trial, MSDN subscription, or paid subscription. For more information about the costs of running Azure virtual machines, see [Virtual Machines Pricing Details](https://azure.microsoft.com/pricing/details/virtual-machines/) and [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/). To keep costs down, see [Minimizing the costs of test environment virtual machines in Azure](base-configuration-dev-test-environment.md#mincost). 
   
-![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
+![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
 > Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
@@ -128,7 +128,7 @@ Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -Addre
 
 This is your current configuration.
   
-![Phase 1 of the Base Configuration in Azure with the virtual network and subnet](images/0b5634fc-4e1c-469d-873d-97ed7e587411.png)
+![Phase 1 of the Base Configuration in Azure with the virtual network and subnet](media/0b5634fc-4e1c-469d-873d-97ed7e587411.png)
   
 ## Phase 2: Configure DC1
 
@@ -232,7 +232,7 @@ Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv
 
 This is your current configuration.
   
-![Phase 2 of the Base Configuration in Azure with the DC1 virtual machine](images/49069908-29c3-4d73-87f7-debbea067261.png)
+![Phase 2 of the Base Configuration in Azure with the DC1 virtual machine](media/49069908-29c3-4d73-87f7-debbea067261.png)
   
 ## Phase 3: Configure APP1
 
@@ -286,7 +286,7 @@ New-SmbShare -name files -path c:\files -changeaccess CORP\User1
 
 This is your current configuration.
   
-![Phase 3 of the Base Configuration in Azure with the APP1 virtual machine](images/92cfabb0-7f9d-4291-964d-ac32d52748d7.png)
+![Phase 3 of the Base Configuration in Azure with the APP1 virtual machine](media/92cfabb0-7f9d-4291-964d-ac32d52748d7.png)
   
 ## Phase 4: Configure CLIENT1
 
@@ -351,7 +351,7 @@ Next, verify that you can access web and file share resources on APP1 from CLIEN
     
 This is your final configuration.
   
-![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
 Your Base Configuration in Azure is now ready for application development and testing or for building additional test environments. 
   

@@ -26,7 +26,7 @@ Contoso's worldwide organization has offices in the following locations:
   
 **Figure 1: Contoso's offices around the world**
 
-![The offices of the Contoso Corporation around the world](images/Contoso_Poster/Contoso_WW_Org.png)
+![The offices of the Contoso Corporation around the world](media/Contoso_Poster/Contoso_WW_Org.png)
 
   
 Figure 1 shows the headquarters office in Paris and regional hub and satellite offices in various continents.

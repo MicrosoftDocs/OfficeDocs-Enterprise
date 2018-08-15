@@ -42,7 +42,7 @@ Here are some things to consider optimize your Internet edge and throughput to M
   
 **Figure 1: Connection options for Microsoft SaaS services**
 
-![Figure 1: Connection options for Microsoft SaaS services](images/Network_Poster/SaaS1.png)
+![Figure 1: Connection options for Microsoft SaaS services](media/Network_Poster/SaaS1.png)
   
 Figure 1 shows an on-premises network connecting to Microsoft SaaS services over an Internet pipe or ExpressRoute.
   

@@ -51,7 +51,7 @@ To create a baseline SharePoint Online team site with public access and permissi
     
 Here is your resulting configuration.
   
-![Baseline-level protection for a public SharePoint Online team site.](images/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
+![Baseline-level protection for a public SharePoint Online team site.](media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
   
 ### Private
 
@@ -77,7 +77,7 @@ To create a baseline SharePoint Online team site with private access and permiss
     
 Here is your resulting configuration.
   
-![Baseline-level protection for a private SharePoint Online team site.](images/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
+![Baseline-level protection for a private SharePoint Online team site.](media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
   
 ## Sensitive SharePoint Online team sites
 
@@ -139,7 +139,7 @@ Next, you create the SharePoint Online team site with these steps.
     
 Next, from the new SharePoint Online team site, configure permissions with these steps.
   
-1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). Write that UPN here: ![](./media/Common_Images/TableLine.png).
+1. Determine the User Principal Name (UPN) of the IT administrator or other person who will be responsible for responding to and addressing requests for access to the site (belindan@contoso.com is an example of a UPN). Write that UPN here: ![](./media/Common_media/TableLine.png).
     
 2. In the tool bar, click the settings icon, and then click **Site permissions**.
     
@@ -193,7 +193,7 @@ The results of these permission settings are:
     
 Here is your resulting configuration.
   
-![Sensitive-level protection for an isolated SharePoint Online team site.](images/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
+![Sensitive-level protection for an isolated SharePoint Online team site.](media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
   
 The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site.
   
@@ -253,7 +253,7 @@ The results of the permission settings are:
     
 Here is your resulting configuration.
   
-![Highly confidential-level protection for an isolated SharePoint Online team site.](images/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
+![Highly confidential-level protection for an isolated SharePoint Online team site.](media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
   
 The members of the site, through group membership in one of the access groups, can now securely collaborate on the resources of the site.
   

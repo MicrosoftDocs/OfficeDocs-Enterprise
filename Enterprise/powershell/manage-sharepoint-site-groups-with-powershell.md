@@ -33,7 +33,7 @@ The SharePoint Online admin center has some easy-to-use methods for managing sit
 1. From the Office 365 admin center, click **Resources** > **Sites**, and then click the URL of the site.
 2. In the site collection dialog box, click **Go to this site**.
 3. On the site page, click the **Settings** icon (located in the upper right-hand corner of the page) and then click **Site settings**:</br>
-![SharePoint Online site settings](images/spo-site-settings.png)</br>
+![SharePoint Online site settings](media/spo-site-settings.png)</br>
 4. On the Site Settings page, click **Sites permissions** under **Users and Permissions**.
 
 And then repeat the process for the next site you want to look at.
@@ -62,7 +62,7 @@ C:\Scripts\SiteGroupsAndUsers.ps1
 
 In both cases, you should see something similar to this:
 
-![SharePoint Online site groups](images/SPO-site-groups.png)
+![SharePoint Online site groups](media/SPO-site-groups.png)
 
 These are all the groups that have been created for the site https\://litwareinc.sharepoint.com/sites/finance, as well as all the users assigned to those groups. The group names are in yellow to help you separate group names from their members.
 

@@ -35,21 +35,21 @@ This solution uses a global security group, Group Policy, and a Windows PowerShe
   
 The following diagram walks you through all the steps and elements of the solution.
   
-![Overview of Automated File Collection Solution](images/dbb447b5-c74c-4956-986c-10a1d047ac99.png)
+![Overview of Automated File Collection Solution](media/dbb447b5-c74c-4956-986c-10a1d047ac99.png)
   
 |****Legend****||
 |:-----|:-----|
-|![magenta callout 1](images/000026a3-2bf0-4678-b468-ccb5f81da6f1.png)|Create a Group Policy object (GPO), and associate it with the collection logon script.  <br/> |
-|![magenta callout 2](images/a31b11e2-3597-42a4-933e-b6af11ed6ef1.png)| Configure the GPO security filter to apply the GPO only to the Custodians group. <br/> |
-|![magenta callout 3](images/3ced060c-daec-460d-a9b5-260a3dfcae36.png)|A Custodian logs on and the GPO runs, calling the collection logon script.  <br/> |
-|![magenta callout 4](images/6f269d84-2559-49e3-b18e-af6ac94d0419.png)|The collection logon script inventories all locally attached drives on the Custodians computer, searching for the files you want, and recording their location.  <br/> |
-|![magenta callout 5](images/4bf8898c-44ad-4524-b983-70175804eb85.png)|The collection logon script copies the inventoried files to a hidden file share on the staging server.  <br/> |
-|![magenta call out 6](images/99589726-0c7e-406b-a276-44301a135768.png)| (Option A) Manually run the PST import script to import the collected PST files into Exchange Server 2013. <br/> |
-|![magenta callout 7](images/ff15e89c-d2fd-4614-9838-5e18287d578b.png)|(Option B) Using the Office 365 Import tool and process, import the collected PST files into Exchange Online.  <br/> |
-|![magenta callout 8](images/aaf3bd3d-9508-4aaf-a3af-44ba501da63a.png)|Move all collected files to an Azure file share for long term storage with the MoveToColdStorage System Center Orchestrator 2012 R2 runbook. <br/> |
-|![magenta callout 9](images/b354642e-445e-4723-a84a-b41f7ac6e774.png)|Index the files in the cold storage file share with SharePoint 2013.  <br/> |
-|![magenta callout 10](images/cebf7de5-7525-413b-9e52-638a4f8b2f74.png)|Perform eDiscovery on content in cold storage and in the on-premises Exchange Server 2013.  <br/> |
-|![magenta callout 11](images/e59ab403-2f19-497a-92a5-549846dded66.png)|Perform eDiscovery on content in Office 365.  <br/> |
+|![magenta callout 1](media/000026a3-2bf0-4678-b468-ccb5f81da6f1.png)|Create a Group Policy object (GPO), and associate it with the collection logon script.  <br/> |
+|![magenta callout 2](media/a31b11e2-3597-42a4-933e-b6af11ed6ef1.png)| Configure the GPO security filter to apply the GPO only to the Custodians group. <br/> |
+|![magenta callout 3](media/3ced060c-daec-460d-a9b5-260a3dfcae36.png)|A Custodian logs on and the GPO runs, calling the collection logon script.  <br/> |
+|![magenta callout 4](media/6f269d84-2559-49e3-b18e-af6ac94d0419.png)|The collection logon script inventories all locally attached drives on the Custodians computer, searching for the files you want, and recording their location.  <br/> |
+|![magenta callout 5](media/4bf8898c-44ad-4524-b983-70175804eb85.png)|The collection logon script copies the inventoried files to a hidden file share on the staging server.  <br/> |
+|![magenta call out 6](media/99589726-0c7e-406b-a276-44301a135768.png)| (Option A) Manually run the PST import script to import the collected PST files into Exchange Server 2013. <br/> |
+|![magenta callout 7](media/ff15e89c-d2fd-4614-9838-5e18287d578b.png)|(Option B) Using the Office 365 Import tool and process, import the collected PST files into Exchange Online.  <br/> |
+|![magenta callout 8](media/aaf3bd3d-9508-4aaf-a3af-44ba501da63a.png)|Move all collected files to an Azure file share for long term storage with the MoveToColdStorage System Center Orchestrator 2012 R2 runbook. <br/> |
+|![magenta callout 9](media/b354642e-445e-4723-a84a-b41f7ac6e774.png)|Index the files in the cold storage file share with SharePoint 2013.  <br/> |
+|![magenta callout 10](media/cebf7de5-7525-413b-9e52-638a4f8b2f74.png)|Perform eDiscovery on content in cold storage and in the on-premises Exchange Server 2013.  <br/> |
+|![magenta callout 11](media/e59ab403-2f19-497a-92a5-549846dded66.png)|Perform eDiscovery on content in Office 365.  <br/> |
    
 ## Prerequisites
 

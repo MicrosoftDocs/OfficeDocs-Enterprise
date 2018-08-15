@@ -30,7 +30,7 @@ This article describes how you can configure federated authentication for the Of
   
 **Figure 1: The federated authentication for Office 365 dev/test environment**
 
-![The federated authentication for Office 365 dev/test environment](images/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
+![The federated authentication for Office 365 dev/test environment](media/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
   
 The configuration shown in Figure 1 consists of: 
   
@@ -70,7 +70,7 @@ Here is your resulting configuration.
   
 **Figure 2: Directory synchronization for the Office 365 dev/test environment**
 
-![The Office 365 dev/test environment with directory synchronization](images/be5b37b0-f832-4878-b153-436c31546e21.png)
+![The Office 365 dev/test environment with directory synchronization](media/be5b37b0-f832-4878-b153-436c31546e21.png)
   
 Figure 2 shows the directory synchronizationc for Office 365 dev/test environment, which includes Office 365 and CLIENT1, APP1, and DC1 virtual machines in an Azure virtual network.
   
@@ -118,7 +118,7 @@ Here is your resulting configuration.
   
 **Figure 3: Adding the AD FS server**
 
-![The AD FS server added to the DirSync for Office 365 dev/test environment](images/da82f39e-426d-41e2-842a-c13b382d63d5.png)
+![The AD FS server added to the DirSync for Office 365 dev/test environment](media/da82f39e-426d-41e2-842a-c13b382d63d5.png)
   
 Figure 3 shows the addition of the ADFS1 server to the DirSync for Office 365 dev/test environment.
   
@@ -189,7 +189,7 @@ Here is your resulting configuration.
   
 **Figure 4: Adding the web application proxy server**
 
-![The web application proxy server added to the DirSync for Office 365 dev/test environment](images/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
+![The web application proxy server added to the DirSync for Office 365 dev/test environment](media/f50039e4-796a-42c0-bfdc-87c2026b1579.png)
   
 Figure 4 shows the addition of the PROXY1 server.
   

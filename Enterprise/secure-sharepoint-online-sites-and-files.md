@@ -135,7 +135,7 @@ Using Office 365 labels is recommended for environments with sensitive data. Aft
     
 - People in your organization can apply a label manually to content in Outlook on the web, Outlook 2010 and later, OneDrive for Business, SharePoint Online, and Office 365 groups. Users often know best what type of content they're working with, so they can classify it and have the appropriate DLP policy applied.
     
-![Recommended configuration for SharePoint sites](images/7fed0126-ab4a-4480-922c-681970642339.png)
+![Recommended configuration for SharePoint sites](media/7fed0126-ab4a-4480-922c-681970642339.png)
   
 As illustrated, this solution includes creating the following labels:
   
@@ -157,7 +157,7 @@ If warranted for your security scenario, you can use Azure Information Protectio
   
 Be aware that when Azure Information Protection encryption is applied to files stored in Office 365, the service cannot process the contents of these files. Co-authoring, eDiscovery, search, Delve, and other collaborative features do not work. DLP policies can only work with the metadata (including Office 365 labels) but not the contents of these files (such as credit card numbers within files).
   
-![Azure Information Protection is configured in Azure and labels show up in the client toolbar](images/1266a7a0-5078-49ab-bbf1-b0cf41451f62.png)
+![Azure Information Protection is configured in Azure and labels show up in the client toolbar](media/1266a7a0-5078-49ab-bbf1-b0cf41451f62.png)
   
 As illustrated:
   

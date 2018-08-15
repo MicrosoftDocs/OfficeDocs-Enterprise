@@ -26,7 +26,7 @@ Figure 1 shows the architecture of Microsoft IaaS-based hybrid scenarios in Azur
   
 **Figure 1: Microsoft IaaS-based hybrid scenarios in Azure**
 
-![Microsoft IaaS-based hybrid scenarios in Azure](images/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS.png)
+![Microsoft IaaS-based hybrid scenarios in Azure](media/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS.png)
   
 For each layer of the architecture:
   
@@ -52,7 +52,7 @@ Running your directory synchronization (DirSync) server from an Azure VNet, as s
   
 **Figure 2: DirSync server for Office 365 in Azure IaaS**
 
-![DirSync server for Office 365 in Azure IaaS](images/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_DirSync.png)
+![DirSync server for Office 365 in Azure IaaS](media/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_DirSync.png)
   
 In Figure 2, an on-premises network hosts a Windows Server AD infrastructure, with a proxy server and a router at its edge. The router connects to an Azure gateway at the edge of an Azure VNet with a site-to-site VPN or ExpressRoute connection. Inside the VNet, a DirSync server runs Azure AD Connect.
   
@@ -70,7 +70,7 @@ Figure 3 shows the configuration of a server-based LOB application running in Az
   
 **Figure 3: LOB application in Azure IaaS**
 
-![Server-based LOB application in Azure IaaS](images/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_Ex.png)
+![Server-based LOB application in Azure IaaS](media/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_Ex.png)
   
 In Figure 3, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. Azure IaaS hosts a virtual network containing the servers of the LOB application.
   
@@ -108,7 +108,7 @@ An example of a multi-tier, highly-available LOB application in Azure is a Share
   
 **Figure 4: A high-availability SharePoint Server 2016 farm in Azure IaaS**
 
-![A high-availability SharePoint Server 2016 farm in Azure IaaS](images/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_SP2016.png)
+![A high-availability SharePoint Server 2016 farm in Azure IaaS](media/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_SP2016.png)
   
 In Figure 4, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. The Azure VNet contains the servers of the SharePoint Server 2016 farm, which includes separate tiers for the front-end servers, the application servers, the SQL Server cluster, and the domain controllers.
   
@@ -152,7 +152,7 @@ Another example of a multi-tier, highly-available LOB application in Azure is fe
   
 **Figure 5: A high-availability federated identity infrastructure for Office 365 in Azure IaaS**
 
-![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](images/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_ADFS.png)
+![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid_Poster/Hybrid_Cloud_Stack_IaaS_ADFS.png)
   
 In Figure 5, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. The Azure VNet contains web proxy servers, Active Directory Federation Services (AD FS) servers, and Windows Server Active Directory (AD) domain controllers.
   

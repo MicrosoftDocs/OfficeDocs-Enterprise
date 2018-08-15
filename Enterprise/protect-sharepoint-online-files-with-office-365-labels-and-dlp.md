@@ -124,7 +124,7 @@ Use these steps to apply the Office 365 labels to the documents folders of your 
     
 Here is your resulting configuration.
   
-![Office 365 labels for the four types of SharePoint Online team sites.](images/e0a4fdd2-1c30-4d93-8af4-a6f0c6c29966.png)
+![Office 365 labels for the four types of SharePoint Online team sites.](media/e0a4fdd2-1c30-4d93-8af4-a6f0c6c29966.png)
   
 ## DLP policies for your SharePoint Online sites
 
@@ -175,7 +175,7 @@ Use these steps to configure a DLP policy that notifies users when they share a 
     
 Here is your resulting configuration for sensitive SharePoint Online team sites.
   
-![DLP policy for an isolated SharePoint Online team site using the Sensitive Office 365 label.](images/2ff4cc53-87a8-43e3-b637-3068d88409f3.png)
+![DLP policy for an isolated SharePoint Online team site using the Sensitive Office 365 label.](media/2ff4cc53-87a8-43e3-b637-3068d88409f3.png)
   
 Next, use these steps to configure a DLP policy that blocks users when they share a document on a SharePoint Online highly confidential team site outside the organization.
   
@@ -223,7 +223,7 @@ Next, use these steps to configure a DLP policy that blocks users when they shar
     
 Here is your resulting configuration for high confidentiality SharePoint Online team sites.
   
-![DLP policy for an isolated SharePoint Online team site using the Highly Confidential Office 365 label.](images/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
+![DLP policy for an isolated SharePoint Online team site using the Highly Confidential Office 365 label.](media/f705d3d0-23c9-4333-8b70-ad3b91f835ea.png)
   
 ## Next step
 

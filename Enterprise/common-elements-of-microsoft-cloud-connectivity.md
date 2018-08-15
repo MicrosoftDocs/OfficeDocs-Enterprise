@@ -46,7 +46,7 @@ Use your existing Internet pipe or an ExpressRoute connection to Office 365, Azu
   
 **Figure 1: Options for Microsoft cloud connectivity**
 
-![Figure 1:  Options for Microsoft cloud connectivity](images/Network_Poster/CommonElements.png)
+![Figure 1:  Options for Microsoft cloud connectivity](media/Network_Poster/CommonElements.png)
 
   
 Figure 1 shows how an on-premises network can be connected to Microsoft cloud offerings using their existing Internet pipe or ExpressRoute. The Internet pipe represents a DMZ and can have the following components:

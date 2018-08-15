@@ -43,7 +43,7 @@ Follow the steps in [Connect to Exchange Online PowerShell using Multi-Factor au
 ### Step 1 - Create an approver's group
 From Office 365 Admin Portal, select **Groups** > **Add a group**, then create a mail enabled security group for the default privileged access approvers. When complete, select **Add** to create and save the approver group.
 
-![Privileged access approvers screen in Office 365 Admin portal](images/privileged-access-approvers-ui.png)
+![Privileged access approvers screen in Office 365 Admin portal](media/privileged-access-approvers-ui.png)
 
 > [!NOTE] 
 > At this time, only users with administrative access are allowed to approve requests from Office 365 priviledged access. In future any user who is part of the Approvers’ group will be able to approve access requests.

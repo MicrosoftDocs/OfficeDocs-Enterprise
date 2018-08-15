@@ -33,7 +33,7 @@ SharePoint Server 2016 provides the ability to authenticate users using claims-b
 
 This article explains how you can use Azure AD to authenticate your users instead of your on-premises AD DS. In this configuration, Azure AD becomes a trusted identity provider for SharePoint Server 2016. This configuration adds a user authentication method that is separate from the AD DS authentication used by the SharePoint Server 2016 installation itself. To benefit from this article, you should be familiar with WS-Federation. For more information, see [Understanding WS-Federation](https://go.microsoft.com/fwlink/p/?linkid=188052).
 
-![Using Azure AD for SharePoint Authentication](images/SAML11/fig1-architecture.png)
+![Using Azure AD for SharePoint Authentication](media/SAML11/fig1-architecture.png)
 
 Previously, this configuration would have required a federation service such as Azure Access Control Service (ACS) in the cloud or an environment that hosts Active Directory Federation Services (AD FS) to transform tokens from SAML 2.0 to SAML 1.1. This transformation is no longer required as Azure AD now enables issuing SAML 1.1 tokens. The diagram above shows how authentication works for SharePoint 2016 users in this configuration, demonstrating that there is no longer a requirement for an intermediary to perform this transformation.
 
@@ -60,7 +60,7 @@ The following sections describe how to perform these tasks.
 
 In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), create a new directory. Provide the organization name, initial domain name, and the country or region.
 
-![Creating a directory](images/SAML11/fig2-createdirectory.png) 
+![Creating a directory](media/SAML11/fig2-createdirectory.png) 
 
  If you already have a directory such as the one used for Microsoft Office 365 or your Microsoft Azure subscription, you can use that directory instead. You must have permissions to register applications in the directory.
 
@@ -70,17 +70,17 @@ This article was written using the reference architecture in [Run a high availab
 
 Using SAML requires the application be configured to use SSL. If your SharePoint web application is not configured to use SSL, use the following steps to create a new self-signed certificate to configure the web application for SSL. This configuration is only meant for a lab environment and is not intended for production. Production environments should use a signed certificate.
 
-1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443.</br>![Extending the web app to another IIS site](images/SAML11/fig3-extendwebapptoiis.png)</br>
+1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443.</br>![Extending the web app to another IIS site](media/SAML11/fig3-extendwebapptoiis.png)</br>
 2. In IIS Manager, double-click **Server Certificates**.
 3. In the **Actions** pane, click **Create Self-Signed Certificate**. Type a friendly name for the certificate in the Specify a friendly name for the certificate box, and then click **OK**.
-4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.</br>![Editing site binding in IIS](images/SAML11/fig4-editsitebinding.png)</br>
+4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.</br>![Editing site binding in IIS](media/SAML11/fig4-editsitebinding.png)</br>
 
 Each of the web front end servers in the SharePoint farm will require configuring the certificate for the site binding in IIS.
 
 
 ## Step 3: Create a new enterprise application in Azure AD
 
-1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](images/SAML11/fig5-addnongalleryapp.png)</br>
+1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](media/SAML11/fig5-addnongalleryapp.png)</br>
 2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:</br>
     - Identifier: `urn:sharepoint:portal.contoso.local`
     - Reply URL: `https://portal.contoso.local/_trust/default.aspx`
@@ -94,10 +94,10 @@ Each of the web front end servers in the SharePoint farm will require configurin
     - Application Object ID. </br>
 Copy the *Identifier* value into the *Realm* property into a table  (See Table 1 below.)
 4. Save your changes.
-5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](images/SAML11/fig7-configssopage.png)</br> 
+5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](media/SAML11/fig7-configssopage.png)</br> 
     -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy and paste the full path to the downloaded file into your table.
     - Copy and paste the SAML Single Sign-On Service URL link into your, replacing the */saml2* portion of the URL with */wsfed*.</br>
-6.  Navigate to the **Properties** pane for the application. Copy and paste the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](images/SAML11/fig8-propertiespane.png)</br>
+6.  Navigate to the **Properties** pane for the application. Copy and paste the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](media/SAML11/fig8-propertiespane.png)</br>
 7. Using the values you captured, make sure the table you set up in Step 3 resembles Table 1 below.
 
 
@@ -137,7 +137,7 @@ Next, follow these steps to enable the trusted identity provider for your applic
 4. On the sign-in page URL setting, select **Custom sign in page** and provide the value "/_trust/". 
 5. Click **OK**.
 
-![Configuring your authentication provider](images/SAML11/fig10-configauthprovider.png)
+![Configuring your authentication provider](media/SAML11/fig10-configauthprovider.png)
 
 > [!IMPORTANT]
 > It is important to follow all steps, including setting the custom sign in page to "/_trust/" as shown. The configuration will not work correctly unless all steps are followed.
@@ -156,12 +156,12 @@ The user has been granted permission in Azure AD, but also must be granted permi
 1. In Central Administration, click **Application Management**.
 2. On the **Application Management** page, in the **Web Applications** section, click **Manage web applications**.
 3. Click the appropriate web application, and then click **User Policy**.
-4. In Policy for Web Application, click **Add Users**.</br>![Searching for a user by their name claim](images/SAML11/fig11-searchbynameclaim.png)</br>
+4. In Policy for Web Application, click **Add Users**.</br>![Searching for a user by their name claim](media/SAML11/fig11-searchbynameclaim.png)</br>
 5. In the **Add Users** dialog box, click the appropriate zone in **Zones**, and then click **Next**.
 6. In the **Policy for Web Application** dialog box, in the **Choose Users** section, click the **Browse** icon.
 7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. </br>Example: *demouser@blueskyabove.onmicrosoft.com*.
 8. Under the AzureAD heading in the list view, select the name property and click **Add** then click **OK** to close the dialog.
-9. In Permissions, click **Full Control**.</br>![Granting full control to a claims user](images/SAML11/fig12-grantfullcontrol.png)</br>
+9. In Permissions, click **Full Control**.</br>![Granting full control to a claims user](media/SAML11/fig12-grantfullcontrol.png)</br>
 10. Click **Finish**, and then click **OK**.
 
 ## Step 6: Add a SAML 1.1 token issuance policy in Azure AD
@@ -169,7 +169,7 @@ The user has been granted permission in Azure AD, but also must be granted permi
 When the Azure AD application is created in the portal, it defaults to using SAML 2.0. SharePoint Server 2016 requires the SAML 1.1 token format. The following script will remove the default SAML 2.0 policy and add a new policy to issue SAML 1.1 tokens. 
 
 > This code requires downloading the accompanying [samples demonstrating interacting with Azure Active Directory Graph](https://github.com/kaevans/spsaml11/tree/master/scripts). If you download the scripts as a ZIP file from GitHub to a Windows desktop, make sure to unblock the `MSGraphTokenLifetimePolicy.psm1` script module file and the `Initialize.ps1` script file (right-click Properties, choose Unblock, click OK). 
-![Unblocking downloaded files](images/SAML11/fig17-unblock.png)
+![Unblocking downloaded files](media/SAML11/fig17-unblock.png)
 
 Once the sample script is downloaded, create a new PowerShell script using the following code, replacing the placeholder with the file path of the downloaded `Initialize.ps1` on your local machine. Replace the application object ID placeholder with the application object ID that you entered in Table 1. Once created, execute the PowerShell script. 
 
@@ -222,15 +222,15 @@ These sample PowerShell commands are examples of how to execute queries against 
 
 Open a browser to the URL of the web application that you configured in the previous steps. You are redirected to sign into Azure AD.
 
-![Signing into Azure AD configured for federation](images/SAML11/fig13-examplesignin.png)
+![Signing into Azure AD configured for federation](media/SAML11/fig13-examplesignin.png)
 
 You are asked if you want to stay signed in.
 
-![Stay signed in?](images/SAML11/fig14-staysignedin.png)
+![Stay signed in?](media/SAML11/fig14-staysignedin.png)
 
 Finally, you can access the site logged in as a user from your Azure Active Directory tenant.
 
-![User signed into SharePoint](images/SAML11/fig15-signedinsharepoint.png)
+![User signed into SharePoint](media/SAML11/fig15-signedinsharepoint.png)
 
 ## Managing certificates
 It is important to understand that the signing certificate that was configured for the trusted identity provider in step 4 above has an expiration date and must be renewed. See the article [Manage certificates for federated single sign-on in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-sso-certs) for information on certificate renewal. Once the certificate has been renewed in Azure AD, download to a local file and use the following script to configure the trusted identity provider with the renewed signing certificate. 
@@ -261,7 +261,7 @@ $t.Update()
 ## Fixing People Picker
 Users can now log into SharePoint 2016 using identities from Azure AD, but there are still opportunities for improvement to the user experience. For instance, searching for a user presents multiple search results in the people picker. There is a search result for each of the 3 claim types that were created in the claim mapping. To choose a user using the people picker, you must type their user name exactly and choose the **name** claim result.
 
-![Claims search results](images/SAML11/fig16-claimssearchresults.png)
+![Claims search results](media/SAML11/fig16-claimssearchresults.png)
 
 There is no validation on the values you search for, which can lead to misspellings or users accidentally choosing the wrong claim type to assign such as the **SurName** claim. This can prevent users from successfully accessing resources.
 

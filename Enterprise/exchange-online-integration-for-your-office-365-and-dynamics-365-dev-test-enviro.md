@@ -43,7 +43,7 @@ Use these steps to configure the global administrator's mailbox for Dynamics 365
     
 3. On the new **Mail** tab in your browser, click **New** and notice how the bottom corner of the pane below the box for typing a message contains an icon for My Templates.
     
-     ![A blank new email message without integration with Dynamics 365.](images/879b54fd-a68f-4581-9f89-d5050df6f4de.png)
+     ![A blank new email message without integration with Dynamics 365.](media/879b54fd-a68f-4581-9f89-d5050df6f4de.png)
   
 4. Click **Discard** and leave the **Mail** tab open.
     
@@ -85,13 +85,13 @@ Use these steps to install the Dynamics 365 App for Outlook and demonstrate Dyna
     
 6. On the new **Mail** tab in your browser, click **New**. Notice that the bottom corner of the pane below the box for typing a message now contains an icon for Dynamics 365.
     
-     ![A blank new email message with integration with Dynamics 365, showing the new icon.](images/ecb822e1-45fe-4481-99a1-294317d1d2de.png)
+     ![A blank new email message with integration with Dynamics 365, showing the new icon.](media/ecb822e1-45fe-4481-99a1-294317d1d2de.png)
   
 7. Click the Dynamics 365 icon. You should see a **Dynamics 365** pane, from which you can track this email or access templates, sales literature, or articles.
     
 8. In the **To** field of the email message, type **alex.y.wu@outlook.com**, and then click **Retry** in the **Dynamics 365** pane. You should see a **Recipients** section in the **Dynamics 365** pane with information on Alex Wu, a contact from the sales application that was provided with the sample data for your trial subscription.
     
-     ![The Dynamics 365 information pane for a sales contact stored in Dynamics 365.](images/a010fa5f-3f1b-47d4-ab5e-d00d85a24a3f.png)
+     ![The Dynamics 365 information pane for a sales contact stored in Dynamics 365.](media/a010fa5f-3f1b-47d4-ab5e-d00d85a24a3f.png)
   
 9. Click **Discard**.
 

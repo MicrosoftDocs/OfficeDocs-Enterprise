@@ -25,7 +25,7 @@ description: "Summary: Use this Test Lab Guide to create a dev/test environment 
   
 With the instructions in this article, you create a simulated intranet in Microsoft Azure infrastructure services and then add Microsoft Office 365, Microsoft Enterprise Mobility + Security (EMS), and Microsoft Dynamics 365 subscriptions. The result is a simplified organization that uses all Microsoft's cloud offerings at the same time in a single dev/test environment. 
   
-![Phase 3 of the One Microsoft Cloud dev/test environment with Azure, Office 365, EMS, and Dynamics 365](images/31714fcc-0c7d-411f-bcd1-c62d9be090ee.png)
+![Phase 3 of the One Microsoft Cloud dev/test environment with Azure, Office 365, EMS, and Dynamics 365](media/31714fcc-0c7d-411f-bcd1-c62d9be090ee.png)
   
 You can use the resulting configuration to:
   
@@ -45,7 +45,7 @@ Figure 1 shows your resulting configuration, which includes Office 365 and a sim
   
 **Figure 1: The simulated intranet in Azure with Office 365**
 
-![The Office 365 dev/test environment with DirSync](images/be5b37b0-f832-4878-b153-436c31546e21.png)
+![The Office 365 dev/test environment with DirSync](media/be5b37b0-f832-4878-b153-436c31546e21.png)
   
 > [!NOTE]
 > The Azure trial is 30 days. The Office 365 Enterprise E5 Trial subscription is 30 days, which can be easily extended for another 30 days. For a permanent dev/test environment, create a new paid Azure subscription and a new paid Office 365 Enterprise E5 subscription with a small number of licenses. 
@@ -91,7 +91,7 @@ Figure 2 shows your resulting configuration, which adds EMS.
   
 **Figure 2: The simulated intranet in Azure with Office 365 and EMS**
 
-![Phase 2 of the One Microsoft Cloud dev/test environment with Azure, Office 365, and EMS](images/fdb520fe-ebbd-4681-a80e-b60df52f07c5.png)
+![Phase 2 of the One Microsoft Cloud dev/test environment with Azure, Office 365, and EMS](media/fdb520fe-ebbd-4681-a80e-b60df52f07c5.png)
   
 ## Phase 3: Add Dynamics 365
 
@@ -169,7 +169,7 @@ Figure 3 shows your resulting configuration.
   
 **Figure 3: The simulated intranet in Azure with Office 365, EMS, and Dynamics 365**
 
-![Phase 3 of the One Microsoft Cloud dev/test environment with Azure, Office 365, EMS, and Dynamics 365](images/31714fcc-0c7d-411f-bcd1-c62d9be090ee.png)
+![Phase 3 of the One Microsoft Cloud dev/test environment with Azure, Office 365, EMS, and Dynamics 365](media/31714fcc-0c7d-411f-bcd1-c62d9be090ee.png)
   
 ## Next steps
 
