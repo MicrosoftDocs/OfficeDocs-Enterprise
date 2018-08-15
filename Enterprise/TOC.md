@@ -143,9 +143,9 @@
 ### [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md)
 ### [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md)
 #### [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-configure-azure.md)
-#### [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-configure-domain-controllers.md)
+#### [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md)
 #### [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-configure-ad-fs-servers.md)
-#### [High availability federated authentication Phase 4: Configure web application proxies](high-availability-federated-authentication-configure-web-application.md)
+#### [High availability federated authentication Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)
 #### [High availability federated authentication Phase 5: Configure federated authentication for Office 365](high-availability-federated-authentication-configure-authentication.md)
 
 # Manage Office 365
