@@ -75,4 +75,4 @@ Do you want help getting Office 365 set up? Consider using [FastTrack](https://f
 |Validate functionality then complete final steps |||||
 | Migrate [DNS settings to point to Office 365](https://go.microsoft.com/fwlink/?LinkId=534835) |||||
 | Tell your users when they can [start using Office 365](https://support.office.com/en-us/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?ui=en-US&amp;rs=en-US&amp;ad=US) |||||
-| Reconfigure client systems to connect to Office 365 ( [Office](https://go.microsoft.com/fwlink/?LinkId=534836), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837), [Outlook for Mac](6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac.md), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840))  |||||
+| Reconfigure client systems to connect to Office 365 ( [Office](https://go.microsoft.com/fwlink/?LinkId=534836), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837), [Outlook for Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840))  |||||
