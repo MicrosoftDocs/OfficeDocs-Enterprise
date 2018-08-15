@@ -21,10 +21,7 @@ description: "Links to training courses, blogs, articles, and other resources th
 
 This article links to training courses, blogs, articles, and other resources that tell you how to improve performance of Office 365.
   
-||
-|:-----|
-||
-| This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project. ||
+This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project.
    
 ## Articles about fine tuning Office 365 performance
 

@@ -26,23 +26,8 @@ If you're not used to working on performance issues, this article is designed to
   
 > [!IMPORTANT]
 > **Have a performance issue between your client and Office 365 right now?** Follow the steps outlined in the [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md). 
-  
-- [Something you should know about Office 365 performance](performance-tuning-using-baselines-and-history.md#BKMK_SomethingYouShouldKnow)
-    
-- [Okay, what does a performance problem look like?](performance-tuning-using-baselines-and-history.md#BKMK_WhatDoesItLookLike)
-    
-- [How to define and test the performance problem](performance-tuning-using-baselines-and-history.md#BKMK_HowToDefineIt)
-    
-- [Do you know how performance used to look when it was good?](performance-tuning-using-baselines-and-history.md#BKMK_PerfHistory)
-    
-- [What is a baseline?](performance-tuning-using-baselines-and-history.md#BKMK_Baseline)
-    
-- [Why collect performance data during a pilot?](performance-tuning-using-baselines-and-history.md#BKMK_WhyCollect)
-    
-- [How to collect baselines](performance-tuning-using-baselines-and-history.md#BKMK_GetABaseline)
     
 ## Something you should know about Office 365 performance
-<a name="BKMK_SomethingYouShouldKnow"> </a>
 
 Office 365 lives inside a high-capacity, dedicated Microsoft network that is steadily monitored not just by automation, but by real people. Part of the role of maintaining the Office 365 cloud is building-in performance tuning and streamlining where it's possible. Since clients of the Office 365 cloud have to connect across the Internet, there is a continuous effort to fine-tune the performance across Office 365 services too. Performance improvements never really stop in the cloud, and there is a lot of accumulated experience with keeping the cloud healthy and quick. Should you experience a performance issue connecting from your location to Office 365, it's best not to start with, and wait on, a Support case. Instead, you should begin investigating the problem from 'the inside out'. That is, start inside of your network, and work your way out to Office 365. Before you open a case with Office 365 Support, you can gather data and take actions that will explore, and may resolve, your problem.
   
@@ -54,7 +39,6 @@ Make sure you go into your troubleshooting with the understanding that performan
 Performance troubleshooting isn't about meeting specific goals and maintaining those numbers indefinitely, it's about improving existing activities, given all the variables. 
   
 ## Okay, what does a performance problem look like?
-<a name="BKMK_WhatDoesItLookLike"> </a>
 
 First, you need to make sure that what you are experiencing is indeed a performance issue and not a service incident. A performance problem is different from a service incident in Office 365. Here's how to tell them apart.
   
@@ -79,7 +63,6 @@ A performance issue isn't a service incident, even though incidents can cause sl
 This probably sounds familiar; maybe too familiar. Once you know it's a performance problem, the question becomes, "What do you do next?" The rest of this article helps you determine exactly that.
   
 ## How to define and test the performance problem
-<a name="BKMK_HowToDefineIt"> </a>
 
 Performance issues often emerge over time, so it can be challenging to define the actual problem. You need to create a good problem statement and a good idea of issue context, and then you need to repeatable testing steps to win the day. Otherwise, through no fault of your own, you may be lost. Why? Well, here are some examples of problems statements that don't provide enough information:
   
@@ -118,7 +101,6 @@ Some of these questions are more obvious than others. Most everyone will underst
 When you're troubleshooting a performance problem, it's a bit like a crime scene, you need to be precise and observant to draw any conclusions from the evidence. In order to do this, you must get a good problem statement by gathering evidence. It should include the computer's context, the user's context, when the problem began, and the exact steps that exposed the performance issue. This problem statement should be, and stay, the topmost page in your notes. By walking through the problem statement again after you work on the resolution, you are taking the steps to test and prove whether the actions you take have resolved the issue. This is critical to knowing when your work, there, is done.
   
 ## Do you know how performance used to look when it was good?
-<a name="BKMK_PerfHistory"> </a>
 
 If you're unlucky, nobody knows. Nobody had numbers. That means nobody can answer the simple question "About how many seconds did it used to take to bring up an Inbox in Office 365?", or "How long did it used to take when the Executives had a Lync Online meeting?", which is a common scenario for many companies.
   
@@ -153,7 +135,6 @@ Here are some baselines that simple testing with tools can calculate for you:
 If you're unfamiliar with how to carry out these steps, we'll go into more detail in this article. 
   
 ## What is a baseline?
-<a name="BKMK_Baseline"> </a>
 
 You'll know the impact when it goes bad, but if you don't know your historical performance data, it's not possible to have a context for how bad it may have become, and when. So without a baseline, you're missing the key clue to solve the puzzle: the picture on the puzzle box. In performance troubleshooting, you need a point of  *comparison*  . Simple performance baselines aren't difficult to take. Your Operations team can be tasked with carrying these out on a schedule. For example, let's say your connection looks like this: 
   
@@ -184,14 +165,12 @@ There are lots of different ways to do this, but using the format **\<dateTime\>
 You need to have an organized way to keep your historical baselines. In this example, the simple methods produced three command line outputs and the results were collected as screen shots, but you may have network capture files instead. Use the method that works best for you. Store your historical baselines and refer to them at points where you notice changes in the behavior of online services. 
   
 ## Why collect performance data during a pilot?
-<a name="BKMK_WhyCollect"> </a>
 
 There is no better time to start making baselines than during a pilot of the Office 365 service. Your office may have thousands of users, hundreds of thousands, or it may have five, but even with a small number of users, you can perform tests to measure fluctuations in performance. In the case of a large company, a representative sample of several hundred users piloting Office 365 can be projected outward to several thousands so you know where issues might arise before they happen.
   
 In the case of a small company, where on-boarding means that all users go to the service at the same time and there is no pilot, keep performance measures so that you have data to show to anyone who may have to troubleshoot a badly performing operation. For example, if you notice that all of a sudden you can walk around your building in the time it takes to upload a medium-sized graphic where it used to happen very quickly.
   
 ## How to collect baselines
-<a name="BKMK_GetABaseline"> </a>
 
 For all troubleshooting plans you need to identify these things at a minimum:
   
@@ -206,7 +185,6 @@ For all troubleshooting plans you need to identify these things at a minimum:
 This section is broken into simple command-line tools and methods, and more advanced tools options. We'll cover simple methods first. But if you've got a performance problem right now, you should jump to advanced methods and try out the sample performance-troubleshooting action plan.
   
 ### Simple methods
-<a name="SimpleMethods"> </a>
 
 The objective of these simple methods is to learn to take, understand, and properly store simple performance baselines over time so that you are informed about Office 365 performance. Here's the very simple diagram for simple, as you've seen before:
   
@@ -318,7 +296,6 @@ For example, if you have 51.84 milliseconds from the client to the Office 365 UR
 In terms of troubleshooting, you may find something interesting just from keeping these baselines. For example, if you find that you generally have about 40 to 59 milliseconds of latency from the proxy or egress point to the Office 365 URL, and have a client to proxy or egress point latency of about 3 to 7 milliseconds (depending on the amount network traffic you're seeing during that time of day) then you will surely know something is problematic if your last three client to proxy or egress baselines show a latency of 45 milliseconds.
   
 ### Advanced methods
-<a name="AdvancedMethods"> </a>
 
 If you really want to know what is happening with your Internet requests to Office 365, you need to become familiar with network traces. It does not matter which tools you prefer for these traces, HTTPWatch, Netmon, Message Analyzer, Wireshark, Fiddler, Developer Dashboard tool or any other will do as long as that tool can capture and filter network traffic. You'll see in this section that it's beneficial to run more than one of these tools to get a more complete picture of the problem. When you're testing, some of these tools also act as proxies in their own right. Tools used in the companion article, [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md), include [Netmon 3.4](https://www.microsoft.com/en-us/download/details.aspx?id=4865), [HTTPWatch](https://www.httpwatch.com/download/), or [WireShark](https://www.wireshark.org/).
   
@@ -339,7 +316,6 @@ If you are in the middle of a performance problem, many of the steps are the sam
 To tackle a performance problem,  *right now*  , you need to be taking a trace at the time you are experiencing the performance issue. You need to have the proper tools available to gather logs, and you need an action plan, that is, a list of troubleshooting actions to take to gather the best information that you can. The first thing to do is record the date and time of the test so that the files can be saved in a folder that reflect the timing. Next, narrow down to the problem steps themselves. These are the exact steps you will use for testing. Don't forget the basics: if the issue is only with Outlook, make sure to record that the problem behavior happens in only one Office 365 service. Narrowing down the scope of this issue will help you to focus on something you can resolve. 
   
 ## See also
-<a name="BKMK_GetABaseline"> </a>
 
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
 
