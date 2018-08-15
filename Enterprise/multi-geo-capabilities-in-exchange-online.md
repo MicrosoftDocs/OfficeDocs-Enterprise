@@ -3,7 +3,6 @@ title: "Multi-Geo Capabilities in Exchange Online"
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.date: 4/11/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
