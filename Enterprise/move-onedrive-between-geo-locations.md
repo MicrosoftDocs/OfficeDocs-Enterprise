@@ -54,7 +54,7 @@ For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, 
 
 `connect-sposervice -url https://contosoenergyeur-admin.sharepoint.com`
 
-![](media/move-onedrive-between-geo-locations_image1.png)
+![](media/move-onedrive-between-geo-locations-image1.png)
 
 ## Validating the environment
 
