@@ -300,16 +300,16 @@ This is the configuration resulting from the successful completion of this phase
   
 ## Next step
 
-Use [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-configure-domain-controllers.md) to continue with the configuration of this workload.
+Use [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) to continue with the configuration of this workload.
   
 ## See Also
 
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md)
+[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
 [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-[Federated identity for Office 365](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9#bk_federated)
+[Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
 
 
