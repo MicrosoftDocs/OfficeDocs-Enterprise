@@ -23,7 +23,7 @@ In this phase of deploying high availability for Office 365 federated authentica
 > [!NOTE]
 > Active Directory Federation Services (AD FS) cannot use Azure Active Directory Domain Services as a substitute for Windows Server AD domain controllers. 
   
-You must complete this phase before moving on to [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-configure-ad-fs-servers.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md) for all of the phases.
+You must complete this phase before moving on to [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
 ## Create the domain controller virtual machines in Azure
 
@@ -57,7 +57,7 @@ The following Azure PowerShell command block creates the virtual machines for th
     
 - Table A, for your availability sets
     
-Recall that you defined Tables R, V, S, I, and A in [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-configure-azure.md).
+Recall that you defined Tables R, V, S, I, and A in [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md).
   
 > [!NOTE]
 > The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/en-us/powershell/azureps-cmdlets-docs/). 
@@ -244,16 +244,16 @@ Here is the configuration resulting from the successful completion of this phase
   
 ## Next step
 
-Use [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-configure-ad-fs-servers.md) to continue configuring this workload.
+Use [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md) to continue configuring this workload.
   
 ## See Also
 
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md)
+[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
 [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-[Federated identity for Office 365](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9#bk_federated)
+[Federated authentication options](about-office-365-identity.md#federated-authentication-options)
 
 
