@@ -89,7 +89,7 @@ For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
 
-![](media/move-onedrive-between-geo-locations_image2.png)
+![](media/move-onedrive-between-geo-locations-image2.png)
 
 To schedule a geo move for a later time, use one of the following parameters:
 

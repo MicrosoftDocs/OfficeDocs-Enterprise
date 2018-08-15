@@ -22,7 +22,7 @@ description: "Explains how to use Office 365 PowerShell to block and unblock acc
   
 Blocking access to an Office 365 account prevents anyone from using the account to sign in and access the services and data in your Office 365 organization. When you block access to the account, the user receives the following error message when they attempt to sign in:
   
-![Blocked Office 365 account.](media/o365_powershell_account_blocked.png)
+![Blocked Office 365 account.](media/o365-powershell-account-blocked.png)
   
 You can use Office 365 PowerShell to block access to individual and multiple user accounts.
   
