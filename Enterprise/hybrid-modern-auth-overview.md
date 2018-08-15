@@ -68,7 +68,6 @@ What doesn't change? Whether you're in a split-domain hybrid or using Skype for 
 Because Modern Authentication changes the authorization server used when services leverage OAuth/S2S, you need to know if Modern Authentication is On or Off for your Skype for Business and Exchange environment. You can check the status on your Exchange or Skype for Business servers, on premises, by running the Get-CSOAuthConfiguration command in PowerShell. If the command returns an empty ' OAuthServers' property, then Modern Authentication is disabled.
   
 ## Do you meet Modern Authentication prerequisites?
-<a name="BKMK_MeetPrereq"> </a>
 
 Verify and check these items off your list before you continue:
   
@@ -154,6 +153,6 @@ Verify and check these items off your list before you continue:
     
 - [How to configure Skype for Business on-premises to use Modern Authentication](configure-skype-for-business-for-hybrid-modern-authentication.md)
     
-- [Removing or disabling modern authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication.md)
+- [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
     
 

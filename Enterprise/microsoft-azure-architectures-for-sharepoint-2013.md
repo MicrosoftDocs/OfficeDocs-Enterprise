@@ -72,7 +72,7 @@ If you are extending your on-premises network to Azure through a cross-premises 
   
 **Figure 1: On-premises environment with a virtual network in Azure**
 
-![Microsoft Azure virtual network design for a SharePoint solution. One subnet for the Azure gateway. One subnet for the virtual machines.](media/OPrrasconWA_AZarch.png)
+![Microsoft Azure virtual network design for a SharePoint solution. One subnet for the Azure gateway. One subnet for the virtual machines.](media/OPrrasconWA-AZarch.png)
   
 In this diagram:
   
@@ -98,7 +98,7 @@ In this diagram:
     
 - The on-premises environment includes a gateway device, such as a router or VPN server.
     
-For additional information to plan for and create a cross-premises virtual network, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md).
+For additional information to plan for and create a cross-premises virtual network, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
   
 ## Add Windows Server Active Directory (AD) and DNS
 
@@ -146,7 +146,7 @@ When you design the Azure architecture for a SharePoint farm, configure identica
   
 **Figure 5: Use Azure Availability Sets to provide high availability for the SharePoint farm tiers**
 
-![Configuration of availability sets in the Azure infrastructure for a SharePoint 2013 solution](media/AZenv_WinAzureAvailSetsHA.png)
+![Configuration of availability sets in the Azure infrastructure for a SharePoint 2013 solution](media/AZenv-WinAzureAvailSetsHA.png)
   
 This diagram calls out the configuration of availability sets within the Azure infrastructure. Each of the following roles share a separate availability set:
   

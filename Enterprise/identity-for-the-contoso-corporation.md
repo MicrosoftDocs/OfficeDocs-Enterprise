@@ -102,7 +102,7 @@ To provide redundancy for the remote and mobile workers of the Paris headquarter
   
 **Figure 5: Redundant authentication infrastructure in Azure IaaS**
 
-![The redundant authentication infrastructure in Azure IaaS for the Paris headquarters](media/Contoso-Poster/Paris_Auth_Redun.png)
+![The redundant authentication infrastructure in Azure IaaS for the Paris headquarters](media/Contoso-Poster/Paris-Auth-Redun.png)
   
 Figure 5 shows web proxies and AD FS servers in the DMZ and an additional set of each in a cross-premises Azure virtual network.
   
