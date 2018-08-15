@@ -84,7 +84,7 @@ Table 1 shows the three primary connectivity models for ExpressRoute connections
   
 |**Co-located at a cloud exchange**|**Point-to-point Ethernet**|**Any-to-any (IP VPN) connection**|
 |:-----|:-----|:-----|
-|![ExpressRoute connectivity model: Co-located at a cloud exchange](media/Network-Poster/ER_Conn1.png)|![ExpressRoute connectivity model: Point-to-point Ethernet](media/Network-Poster/ER_Conn2.png)|![ExpressRoute connectivity model: Any-to-any (IP VPN) connection](media/Network-Poster/ER_Conn3.png)|
+|![ExpressRoute connectivity model: Co-located at a cloud exchange](media/Network-Poster/ER-Conn1.png)|![ExpressRoute connectivity model: Point-to-point Ethernet](media/Network-Poster/ER-Conn2.png)|![ExpressRoute connectivity model: Any-to-any (IP VPN) connection](media/Network-Poster/ER-Conn3.png)|
 |If your datacenter is co-located in a facility with a cloud exchange, you can order a virtual cross-connection to the Microsoft cloud through the co-location provider's Ethernet exchange.  <br/> |If your datacenter is located on your premises, you can use a point-to-point Ethernet link to connect to the Microsoft cloud.  <br/> |If you are already using an IP VPN (MPLS) provider to connect the sites of your organization, an ExpressRoute connection to the Microsoft cloud acts like another location on your private WAN.  <br/> |
    
  **Table 1: ExpressRoute connectivity models**
@@ -125,7 +125,7 @@ How traffic travels across ExpressRoute connections and within the Microsoft clo
   
 **Figure 4: An application on an Azure virtual machine accessing an on-premises SharePoint farm**
 
-![Figure 4: An application on an Azure virtual machine accessing an on-premises SharePoint farm](media/Network-Poster/ER_App_Flow1.png)
+![Figure 4: An application on an Azure virtual machine accessing an on-premises SharePoint farm](media/Network-Poster/ER-App-Flow1.png)
 
   
 Figure 4 shows an on-premises SharePoint farm, a site-to-site VPN connection between the on-premises network and a virtual network in Azure IaaS, an application server running as an Azure IaaS virtual machine, and the traffic flow between the application server and the SharePoint farm.
