@@ -70,7 +70,7 @@ This action plan contains two parts; a preparation phase, and a logging phase. I
     
 - Save the trace files. Again, be sure to include the date and time of the capture and whether it demonstrates good or bad performance.
     
-If you're not familiar with running the tools mentioned in this article, don't worry because we provide those steps next. If you're accustomed to doing this kind of network capturing, you can skip to the section [[](performance-tuning-using-baselines-and-history.md#HowToReadYourTraces)](performance-tuning-using-baselines-and-history.md#how-to-collect-baselines) that describes filtering and reading the logs. 
+If you're not familiar with running the tools mentioned in this article, don't worry because we provide those steps next. If you're accustomed to doing this kind of network capturing, you can skip to [How to collect baselines](performance-tuning-using-baselines-and-history.md#how-to-collect-baselines), which describes filtering and reading the logs. 
   
 ## Flush the DNS Cache first
 
@@ -115,20 +115,14 @@ After you install Netmon 3.4, open the tool and take these steps:
   
  **Run HTTPWatch and reproduce the issue**
   
-1. HTTPWatch is a browser plug-in, so exposing the tool in the browser is slightly different for each version of Internet Explorer. Typically, you can find HTTPWatch under the Commands bar in the Internet Explorer browser.
-    
-    If you don't see the HTTPWatch plug-in in your browser window, check the version of your browser by click Help \> About, or, in later versions of Internet Explorer, click the gear symbol and About Internet Explorer. To launch the **Commands** bar, right-click the menu bar in Internet Explorer and click **Commands bar**. In the past, HTTPWatch has been associated with both the Commands and the Explorer bars, so once you install, if you don't immediately see the icon (even after reboot) check **Tools**, and your toolbars for the icon. Remember that toolbars can be customized and options can be added to them.
-    
+1. HTTPWatch is a browser plug-in, so exposing the tool in the browser is slightly different for each version of Internet Explorer. Typically, you can find HTTPWatch under the Commands bar in the Internet Explorer browser. </br></br>If you don't see the HTTPWatch plug-in in your browser window, check the version of your browser by click Help \> About, or, in later versions of Internet Explorer, click the gear symbol and About Internet Explorer. To launch the **Commands** bar, right-click the menu bar in Internet Explorer and click **Commands bar**. In the past, HTTPWatch has been associated with both the Commands and the Explorer bars, so once you install, if you don't immediately see the icon (even after reboot) check **Tools**, and your toolbars for the icon. Remember that toolbars can be customized and options can be added to them.</br>
     ![Internet Explorer's Command toolbar with the HTTPWatch icon displayed.](media/198590b0-d7b1-4bff-a6ad-e4ec3a1e83df.png)
   
 2. Launch HTTPWatch in an Internet Explorer browser window. It will appear docked to the browser at the bottom of that window. Click **Record**.
     
 3. Reproduce the exact steps involved in the performance issue. Click the **Stop** button in HTTPWatch. 
     
-4. **Save** the HTTPWatch or **Send by Email**. Remember to name the file so that it includes date and time information and an indication of whether your Watch contains a demonstration of good or bad performance.
-    
-    ![HTTPWatch showing the Network tab for a page load of the Office 365 homepage.](media/021a2c64-d581-49fd-adf4-4c364f589d75.PNG)
-  
+4. **Save** the HTTPWatch or **Send by Email**. Remember to name the file so that it includes date and time information and an indication of whether your Watch contains a demonstration of good or bad performance.</br></br>![HTTPWatch showing the Network tab for a page load of the Office 365 homepage.](media/021a2c64-d581-49fd-adf4-4c364f589d75.PNG)</br></br>
     This screen shot is from the Professional version of HTTPWatch. You can open traces taken in the Basic Version on a computer with a Professional version and read it there. Extra information may be available from the trace through that method.
     
 ## Problem Steps Recorder
@@ -139,9 +133,7 @@ Steps Recorder, or PSR.exe, allows you to record issues as they are occurring. I
   
 1. Either use **Start** \> **Run** \> type **PSR.exe** \> **OK**, or, click the **Windows Key** \> type **PSR.exe** \> and then press ENTER. 
     
-2. When the small PSR.exe window appears, click **Start Record** and reproduce the steps that reproduce the performance issue. 
-    
-    You can add comments as needed, by clicking **Add Comments**.
+2. When the small PSR.exe window appears, click **Start Record** and reproduce the steps that reproduce the performance issue. You can add comments as needed, by clicking **Add Comments**.
     
 3. Click **Stop Record** when you have completed the steps. If the performance issue is a page render, wait for the page to render before you stop the recording. 
     
@@ -175,14 +167,14 @@ Traffic between your client and Office 365 travels via TLS, which means that the
     
     If you're only using Netmon tracing at the time of the problem, that's okay too. To orient yourself, use a filter like  `ContainsBin(FrameData, ASCII, "office")` or  `ContainsBin(FrameData, ASCII, "outlook")`. You can record your frame number from the trace file. You may also want to scroll the Frame Summary pane all the way to the right and look for the Conversation ID column. There is a number indicated there for the ID of this specific conversation that you can also record and look at in isolation later. Remember to remove this filter before applying any other filtering.
     
-    > [!TIP]
-    > Netmon has a lot of helpful built-in filters. Try the "Load Filter" button at the top of the **Display** filter pane. 
+> [!TIP]
+> Netmon has a lot of helpful built-in filters. Try the "Load Filter" button at the top of the **Display** filter pane. 
   
-    ![Find your IP by using PSPing at the command-line on the client computer.](media/4c43ac67-e28e-4536-842d-7add7aa28847.PNG)
+![Find your IP by using PSPing at the command-line on the client computer.](media/4c43ac67-e28e-4536-842d-7add7aa28847.PNG)
   
-    ![Netmon trace from the client showing the same PSPing command through the filter TCP.Flags.Syn == 1.](media/0ae7ef7d-e003-4d01-a006-dc49bd1fcef2.PNG)
+![Netmon trace from the client showing the same PSPing command through the filter TCP.Flags.Syn == 1.](media/0ae7ef7d-e003-4d01-a006-dc49bd1fcef2.PNG)
   
-    Get familiar with your traffic, and learn to locate the information you need. For example, learn to determine which packet in the trace has the first reference to the Office 365 service you're using (like "Outlook").
+Get familiar with your traffic, and learn to locate the information you need. For example, learn to determine which packet in the trace has the first reference to the Office 365 service you're using (like "Outlook").
     
 Taking Office 365 Outlook Online as an example, the traffic begins something like this:
   
@@ -212,7 +204,7 @@ Some common issues you may face and how to find them in your Network trace.
 
 Found in the SYN - SYN/ACK. Legacy or aging hardware may not take advantage of TCP windows scaling.  Without proper TCP windows scaling settings, the default 16-bit buffer in TCP headers fills in milliseconds.  Traffic cannot continue to send until the client receives an acknowledgment that the original data has been received, causing delays.
 
-#### Tool:
+#### Tools:
 
 - Netmon
 - Wireshark 
@@ -234,11 +226,12 @@ Historically, most perimeter networks are configured for transient connections, 
 
 When connections are terminated by proxy or firewall devices, the client is not informed, and an attempt to use Outlook Online will mean a client computer will try, repeatedly, to revive the connection before making a new one. You may see hangs in the product, prompts, or slow performance on page load.
 
-#### Tool:
+#### Tools:
 
-Netmon or Wireshark
+- Netmon
+- Wireshark
 
-#### What you're looking for:
+#### What to look for:
 
 In Netmon, look at the Time Offset field for a round-trip. A round-trip is the time between client sending a request to the server and receiving a response back. Check between the Client and the egress point (ex. Client --\> Proxy), or the Client to Office 365 (Client --\> Office 365). You can see this in many types of packets. 
 
@@ -316,7 +309,8 @@ Proxy authentication is a setting on your egress proxy server. If it is causing 
 
 #### Tool: 
 
-Netmon or Wireshark 
+- Netmon
+- Wireshark 
 
 #### What to look for:
 
@@ -346,7 +340,7 @@ If DNS name resolution is taking place overseas, it can add seconds to page load
 > [!TIP]
 > Not sure how Client Connectivity works in Office 365? Take a look at the Client Connectivity Reference document [here](https://technet.microsoft.com/en-us/library/dn741250.aspx).           
 
-#### Tool: 
+#### Tools: 
 
 - Netmon
 - Wireshark
@@ -399,7 +393,7 @@ Found in the SYN - SYN/ACK.  Do this check in any performance network trace you'
 
 The goal is to see a MSS of 1460 bytes for transmission of data. If you're behind a proxy, or you are using a NAT, remember to run this test from client to proxy/egress/NAT, and from proxy/egress/NAT to Office 365 for best results! These are different TCP sessions.
 
-###Tool: 
+#### Tool: 
 
 Netmon
 
@@ -460,7 +454,7 @@ When accessing SharePoint Online, a user traveling abroad will be directed to th
 
 > [!TIP]
 > Need to know more about how clients connect to Office 365? Take a look at the [Client Connectivity](https://technet.microsoft.com/en-us/library/dn741250.aspx) reference article (and its helpful graphics).           
-#### Tool:
+#### Tools:
 
 - Ping
 - PsPing
@@ -479,7 +473,7 @@ Open the command prompt on the client computer (via Start \> Run \> cmd or Windo
 ![PSPing to the IP address returned by the ping to outlook.office365.com showing average 28 millisecond latency.](media/f2b25a75-1a87-4479-b8a7-fa4375683507.PNG)           
 ### Office 365 Application Troubleshooting
 
-#### Tool: 
+#### Tools: 
 
 - Netmon
 - HTTPWatch
