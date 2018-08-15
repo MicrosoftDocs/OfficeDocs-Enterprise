@@ -50,7 +50,7 @@ There are five phases to setting up this dev/test environment:
     
 5. Configure Office 365 for federated identity.
     
-To step through a production deployment of federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md).
+To step through a production deployment of federated authentication for Office 365 in Azure, see [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md).
   
 > [!NOTE]
 > You cannot configure this dev/test environment with an Azure Trial subscription. 
