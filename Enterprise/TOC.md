@@ -141,7 +141,7 @@
 ### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
 ### [Deploy Office 365 directory synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-in-azure.md)
 ### [Connect an on-premises network to a Microsoft Azure virtual network](connect-on-prem-network-to-azure-virtual-network.md)
-### [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365.md)
+### [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
 #### [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-configure-azure.md)
 #### [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md)
 #### [High availability federated authentication Phase 3: Configure AD FS servers](high-availability-federated-authentication-configure-ad-fs-servers.md)
