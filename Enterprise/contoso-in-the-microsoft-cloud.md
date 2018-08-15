@@ -25,7 +25,7 @@ description: "Summary: How a fictional but representative global organization is
   
 This article links you to a set of articles that describe how the Contoso Corporation, a global manufacturing conglomerate with its headquarters in Paris, is embracing a cloud-inclusive IT infrastructure and has addressed major design decisions for networking, identity, and security and how it is implementing enterprise cloud scenarios to address its business problems. You can also view this information as an 11-page poster and print it in tabloid format (also known as ledger, 11 x 17, or A3).
   
-[![Thumb image of the Contoso in the Microsoft Cloud poster.](media/Contoso_Poster/Thumbnail.png)](https://www.microsoft.com/download/details.aspx?id=54427)
+[![Thumb image of the Contoso in the Microsoft Cloud poster.](media/Contoso-Poster/Thumbnail.png)](https://www.microsoft.com/download/details.aspx?id=54427)
   
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842085)  | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842086)  | [More languages](https://www.microsoft.com/download/details.aspx?id=54427)
   

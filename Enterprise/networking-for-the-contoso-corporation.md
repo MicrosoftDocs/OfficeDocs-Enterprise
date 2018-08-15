@@ -26,7 +26,7 @@ Contoso has the networking infrastructure shown in Figure 1.
   
 **Figure 1: Contoso's WAN infrastructure**
 
-![Contoso's WAN infrastructure linking headquarters, regional hubs, and satellite offices](media/Contoso_Poster/Contoso_WW_Net.png)
+![Contoso's WAN infrastructure linking headquarters, regional hubs, and satellite offices](media/Contoso-Poster/Contoso_WW_Net.png)
   
 Figure 1 shows the Contoso's offices across the globe and the set of regional and satellite office WAN links between them.
   
@@ -50,7 +50,7 @@ Contoso has architected its application and server infrastructure for the follow
   
 **Figure 2: Contoso's infrastructure for internal applications**
 
-![Contoso's infrastructure for internal applications](media/Contoso_Poster/App_Infra.png)
+![Contoso's infrastructure for internal applications](media/Contoso-Poster/App_Infra.png)
   
 - Satellite offices use local caching servers to store frequently-accessed documents and internal web sites.
     
@@ -76,7 +76,7 @@ With an ExpressRoute connection, you are connected to the Microsoft cloud networ
   
 **Figure 3: The Microsoft cloud network worldwide**
 
-![The Microsoft cloud network worldwide](media/Contoso_Poster/MS_WW_Cloud.png)
+![The Microsoft cloud network worldwide](media/Contoso-Poster/MS_WW_Cloud.png)
   
 Figure 3 shows the interconnected Microsoft cloud network for the various regions of the world.
   
