@@ -3,24 +3,23 @@ title: "Cloud adoption Test Lab Guides (TLGs)"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 07/30/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: "Summary: Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Enterprise Mobility + Security (EMS), Dynamics 365, and Office Server products."
+description: "Summary: Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Dynamics 365, and Office Server products."
 ---
 
 # Cloud adoption Test Lab Guides (TLGs)
 
- **Summary:** Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Enterprise Mobility + Security (EMS), Dynamics 365, and Office Server products.
+ **Summary:** Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Dynamics 365, and Office Server products.
   
 TLGs help you quickly learn about Microsoft products. They're great for situations where you need to evaluate a technology or configuration before you decide whether it's right for you or before you roll it out to users. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or solution so you can better plan for hosting it in production.
   
@@ -35,7 +34,6 @@ See these additional resources before diving in:
 - Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
     
 ## Office 365 dev/test environment
-<a name="O365"> </a>
 
 Use these articles to build your Office 365 dev/test environment:
   
@@ -86,24 +84,22 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     Demonstrate how to create a SharePoint Online team site that is isolated from the rest of the organization for sensitive or highly confidential resources.
     
 ## The Microsoft 365 Enterprise dev/test environment
-<a name="O365"> </a>
 
 Create a dev/test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) scenarios with these articles:
   
-- [The Microsoft 365 Enterprise dev/test environment](the-microsoft-365-enterprise-dev-test-environment.md)
+- [The Microsoft 365 Enterprise dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
     
     Create the initial environment that includes Office 365 E5, EMS E5, and a computer running Windows 10 Enterprise.
     
-- [MAM policies for your Microsoft 365 Enterprise dev/test environment](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+- [MAM policies for your Microsoft 365 Enterprise dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/mam-policies-for-your-microsoft-365-enterprise-dev-test-environment)
     
     Create user groups and mobile application management (MAM) policies for ioS and Android devices.
     
-- [Enroll iOS and Android devices in your Microsoft Enterprise 365 dev/test environment](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
+- [Enroll iOS and Android devices in your Microsoft 365 Enterprise dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ)
     
     Enroll iOS or Android devices and manage them remotely.
     
 ## Office 365 and Dynamics 365 dev/test environment
-<a name="O365_D365"> </a>
 
 Add a Dynamics 365 trial subscription and test Office 365 and Dynamics 365 integrated features and scenarios with these articles:
   
@@ -116,12 +112,10 @@ Add a Dynamics 365 trial subscription and test Office 365 and Dynamics 365 integ
     Configure and then demonstrate how Office 365 and Dynamics 365 work together in Exchange Online mailboxes.
     
 ## The One Microsoft Cloud dev/test environment
-<a name="O365_D365"> </a>
 
 Create a dev/test environment that includes all of Microsoft's cloud offerings: Office 365, Azure, EMS, and Dynamics 365. See [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md) for the step-by-step instructions.
   
 ## Simulated cross-premises dev/test environments
-<a name="O365_D365"> </a>
 
 You can create a cross-premises dev/test environment, which includes an Azure virtual network and a simulated on-premises network, with these articles:
   
@@ -134,7 +128,6 @@ You can create a cross-premises dev/test environment, which includes an Azure vi
     Create a single-server SharePoint Server 2016 farm in the Azure virtual network and test connectivity and administration from the simulated on-premises network.
     
 ## Additional cloud-based dev/test environments
-<a name="ADD_TLGs"> </a>
 
 Here are additional cloud-based dev/test environments that you can create in Azure infrastructure services:
   
@@ -150,18 +143,9 @@ Here are additional cloud-based dev/test environments that you can create in Azu
     
     Build basic and high-availability SharePoint Server 2013 farms in Azure infrastructure services.
     
-**Join the discussion**
-
-|**Contact us**|**Description**|
-|:-----|:-----|
-|**What cloud adoption content do you need?** <br/> |We are creating content for cloud adoption that spans multiple Microsoft cloud platforms and services. Let us know what you think about our cloud adoption content, or ask for specific content by sending email to [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20).  <br/> |
-|**Join the cloud adoption discussion** <br/> |If you are passionate about cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the [CAAB (Cloud Adoption Advisory Board) space](https://aka.ms/caab) of the Microsoft Tech Community and send us a quick email at [CAAB@microsoft.com](mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!). Anyone can read community-related content on the [CAAB blog](https://blogs.technet.com/b/solutions_advisory_board/). However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.  <br/> |
-|**Get the art you see here** <br/> |If you want an editable copy of the art you see in this article, we'll be glad to send it to you. Email your request, including the URL and title of the art, to [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com?subject=[Art%20Request]:%20).  <br/> |
-   
 ## See Also
 
 <a name="ADD_TLGs"> </a>
-
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

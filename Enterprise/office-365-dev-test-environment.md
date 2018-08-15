@@ -3,13 +3,16 @@ title: "Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 08/09/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-ms.collection: Ent_O365, Strat_O365_Enterprise
-ms.custom: Strat_O365_Enterprise, Ent_TLGs
+localization_priority: Priority
+ms.collection: 
+- Ent_O365
+- Strat_O365_Enterprise
+ms.custom: 
+- Ent_TLGs
 ms.assetid: 4f6035b8-2da3-4cf9-9657-5284d6364f7a
 description: "Summary: Use this Test Lab Guide to create an Office 365 trial subscription for evaluation or dev/test."
 ---
@@ -22,7 +25,7 @@ You can use an Office 365 trial subscription and create an Office 365 dev/test e
   
 - The lightweight Office 365 dev/test environment consists of an Office 365 trial subscription that you access from your main computer.
     
-    Use this environment when you want to quickly demonstrate a feature. For the lightweight Office 365 dev/test environment, complete phases 2 and 3 of this article.
+    Use this environment when you want to quickly demonstrate a feature. For the lightweight Office 365 dev/test environment, complete only phases 2 and 3 of this article.
     
 - The simulated enterprise Office 365 dev/test environment consists of an Office 365 trial subscription and a simplified organization intranet connected to the Internet, which is hosted in Microsoft Azure infrastructure services. You can build this configuration completely in the Microsoft cloud.
     
@@ -44,7 +47,9 @@ You will need an Azure subscription. You can use the [Azure Free Trial](https://
   
 Here is the resulting configuration.
   
-![The Base Configuration dev/test environment in Azure](images/63108214-f716-46ae-9974-072ff15b44a2.png)
+![The Base Configuration dev/test environment in Azure](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+
+
   
 This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a subnet of an Azure virtual network.
   
@@ -52,34 +57,21 @@ This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a 
 
 To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.
   
-1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: _____________________________________
+1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./images/Common_Images/TableLine.png)
     
 2. To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.
     
-  - Record the first and last name of your new account here: _______________________________
+  - Record the first and last name of your new account here: ![](./images/Common_Images/TableLine.png)
     
-  - Record the new email account address here: _____________________________@outlook.com
+  - Record the new email account address here: ![](./images/Common_Images/TableLine.png)@outlook.com
     
 ### Sign up for an Office 365 E5 trial subscription
 
 1. For the lightweight Office 365 dev/test environment, open the Internet browser on your computer and go to [https://aka.ms/e5trial](https://aka.ms/e5trial). 
     
-    For the simulated enterprise Office 365 dev/test environment:
-    
-  - From the [Azure portal](https://portal.azure.com), connect to CLIENT1 with the CORP\\User1 account.
-    
-  - Open an administrator-level Windows PowerShell command prompt, and then run these commands:
-    
-  ```
-  Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\{A509B1A7-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
-Set-ItemProperty -Path "HKLM:\\SOFTWARE\\Microsoft\\Active Setup\\Installed Components\\{A509B1A8-37EF-4b3f-8CFC-4F3A74704073}" -Name "IsInstalled" -Value 0
-Stop-Process -Name Explorer -Force
-  ```
+    For the simulated enterprise Office 365 dev/test environment, connect to CLIENT1 with the CORP\User1 account from the Azure portal.
 
-    > [!TIP]
-    > Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that contains all the PowerShell commands in this article.
-  
-  - From the Start screen, click **Internet Explorer** and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).
+    From the Start screen, run Microsoft Edge and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).
     
 2. On the **Welcome, let's get to know you** page, specify:
     
@@ -101,7 +93,7 @@ Stop-Process -Name Explorer -Force
     
     Record the password that you typed in a secure location.
     
-    Record your fictional company name, to be referred to as the **organization name**, here: ________________________________________
+    Record your fictional company name, to be referred to as the **organization name**, here: ![](./images/Common_Images/TableLine.png)
     
 5. Click **Create my account**.
     
@@ -109,9 +101,9 @@ Stop-Process -Name Explorer -Force
     
 7. Type the verification code from the received text message, and then click **Next**.
     
-8. Record the sign-in page URL here (select and copy): ___________________________________________
+8. Record the sign-in page URL here (select and copy): ![](./images/Common_Images/TableLine.png)
     
-9. Record the user ID here (select and copy): __________________________________.onmicrosoft.com
+9. Record the user ID here (select and copy): ![](./images/Common_Images/TableLine.png).onmicrosoft.com
     
     This value will be referred to as the **Office 365 global administrator name**.
     
@@ -154,6 +146,8 @@ $licAssignment= $orgName + ":ENTERPRISEPREMIUM"
 $userName= "user2@" + $orgName + ".onmicrosoft.com"
 New-MsolUser -DisplayName "User 2" -FirstName User -LastName 2 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
 ```
+> [!TIP]
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that contains all the PowerShell commands in this article.
 
 From the display of the **New-MsolUser** command, note the generated password for the User 2 account and record it in a safe location.
   
@@ -186,8 +180,10 @@ From the display of the **New-MsolUser** command, note the generated password fo
   
 Next, you create three new SharePoint Online team sites for the Sales, Production, and Support departments.
   
-### Create three new SharePoint Online team sites
+## Phase 4: Create three new SharePoint Online team sites (optional)
 
+In this phase, you configure a set of SharePoint Online team sites.
+  
 1. Install the [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251) (the x64 version).
     
 2. Click **Start**, type **sharepoint**, and then click **SharePoint Online Management Shell**.
@@ -225,11 +221,11 @@ New-SPOSite -Url $siteURL -Owner $owner -StorageQuota 1000 -Title "Support site 
 
 Record these values for working with or deploying additional Test Lab Guides in this test environment:
   
-- Office 365 global administrator name: ____________________________________.onmicrosoft.com (from step 9 of Phase 2)
+- Office 365 global administrator name: ![](./images/Common_Images/TableLine.png).onmicrosoft.com (from step 9 of Phase 2)
     
     Also record the password for this account in a secure location.
     
-- Your trial subscription organization name: _______________________________________________ (from step 4 of Phase 2)
+- Your trial subscription organization name: ![](./images/Common_Images/TableLine.png) (from step 4 of Phase 2)
     
 - To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:
     
@@ -239,33 +235,33 @@ Record these values for working with or deploying additional Test Lab Guides in 
 
     Record the account names here:
     
-  - User 2 account name: user2@_______________________________________________.onmicrosoft.com
+  - User 2 account name: user2@![](./images/Common_Images/TableLine.png).onmicrosoft.com
     
-  - User 3 account name: user3@_______________________________________________.onmicrosoft.com
+  - User 3 account name: user3@![](./images/Common_Images/TableLine.png).onmicrosoft.com
     
-  - User 4 account name: user4@_______________________________________________.onmicrosoft.com
+  - User 4 account name: user4@![](./images/Common_Images/TableLine.png).onmicrosoft.com
     
-  - User 5 account name: user5@_______________________________________________.onmicrosoft.com
+  - User 5 account name: user5@![](./images/Common_Images/TableLine.png).onmicrosoft.com
     
     Also record the passwords for these accounts in a secure location.
     
-- To list the URLs for the Sales, Production, and Support team sites, run the following command from the SharePoint Online Management Shell prompt:
+- (optional) To list the URLs for the Sales, Production, and Support team sites, run the following command from the SharePoint Online Management Shell prompt:
     
   ```
   Get-SPOSite | Where URL -like "*/sites/*" | Sort URL | Select URL
   ```
 
-  - Production site URL: https://______________________________________________.sharepoint.com/sites/production
+  - Production site URL: https://![](./images/Common_Images/TableLine.png).sharepoint.com/sites/production
     
-  - Sales site URL: https://______________________________________________.sharepoint.com/sites/sales
+  - Sales site URL: https://![](./images/Common_Images/TableLine.png).sharepoint.com/sites/sales
     
-  - Support site URL: https://______________________________________________.sharepoint.com/sites/support
+  - Support site URL: https://![](./images/Common_Images/TableLine.png).sharepoint.com/sites/support
     
 ## Next steps
 
 Use these additional articles in your Office 365 dev/test environment:
   
-- [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
+- [Directory Synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
     
 - [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
     
@@ -291,10 +287,10 @@ Extend your Office 365 dev/test environment to include additional Microsoft clou
     
 ## See Also
 
-[Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
+- [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
   
-[Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
+- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+- [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
 

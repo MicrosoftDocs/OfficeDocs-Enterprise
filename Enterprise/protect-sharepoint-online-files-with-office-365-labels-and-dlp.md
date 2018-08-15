@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: "Summary: Apply Office 365 labels and data loss prevention (DLP) policies for SharePoint Online team sites with various levels of information protection."
@@ -24,6 +23,13 @@ description: "Summary: Apply Office 365 labels and data loss prevention (DLP) po
   
 Use the steps in this article to design and deploy Office 365 labels and DLP policies for baseline, sensitive, and highly confidential SharePoint Online team sites. For more information about these three tiers of protection, see [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md).
   
+## How this works
+1. Create the desired labels and publish these. It can take up to 12 hours for these to be published.
+2. For the desired SharePoint sites, edit the document library settings to apply a label to items in the library.
+3. Create DLP policies to take action based on the labels.
+
+When users add a document to the library, the document will receive the assigned label by default. Users can change the label,if needed. When a user shares a document outside the organization, DLP will check to see if a label is assigned and take action if a DLP policy matches the label. DLP will look for other policy matches as well, such as protecting files with credit card numbers if this type of policy is configured. 
+
 ## Office 365 labels for your SharePoint Online sites
 
 There are three phases to creating and then assigning Office 365 labels to SharePoint Online team sites.
@@ -150,11 +156,12 @@ Use these steps to configure a DLP policy that notifies users when they share a 
     
 14. In the **Customize policy tips and email notifications** pane, click **Customize the policy tip text**.
     
-15. In the text box, type or paste in the following:
+15. In the text box, type or paste in one of the following tips, depending on if you implemented Azure Information Protection to protect highly confidential files:
     
   - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
+  - Highly confidential files are protected with encryption. Only external users who are granted permissions to these files by your IT department can read them.
     
-    Alternately, type or paste in your own policy tip that instructs users on how to share a file outside your organization.
+    Alternately, type or paste in your own policy tip that instructs users on how to share a file outside your organization. For more information on giving external users permissions to files protected wiht Azure Information Protection, see Adding permissions for external users.
     
 16. Click **OK**.
     

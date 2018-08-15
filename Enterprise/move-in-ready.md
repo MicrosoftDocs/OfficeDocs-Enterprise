@@ -257,7 +257,8 @@ For cost information, click [here](http://azure.microsoft.com/pricing/details/si
 ### Key storage scenarios
 
 - Backup files
-    
+
+
 ### Resources
 
 For additional information, click [here](http://azure.microsoft.com/services/backup/).

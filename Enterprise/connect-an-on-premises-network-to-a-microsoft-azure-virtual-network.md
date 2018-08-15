@@ -3,26 +3,27 @@ title: "Connect an on-premises network to a Microsoft Azure virtual network"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/23/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: 
-- Strat_O365_Enterprise
 - Ent_Solutions
 ms.assetid: 81190961-5454-4a5c-8b0e-6ae75b9fb035
-description: "Summary: Learn how to configure a cross-premises Azure virtual network for Office server workloads."
+description: "Summary: Learn how to configure a cross-premises Azure virtual network for Office server workloads with a site-to-site VPN connection."
 ---
 
 # Connect an on-premises network to a Microsoft Azure virtual network
 
  **Summary:** Learn how to configure a cross-premises Azure virtual network for Office server workloads.
   
-A cross-premises Azure virtual network is connected to your on-premises network, extending your network to include subnets and virtual machines hosted in Azure infrastructure services. This connection allows computers on your on-premises network to directly access virtual machines in Azure and vice versa. For example, a DirSync server running on an Azure virtual machine needs to query your on-premises domain controllers for changes to accounts and synchronize those changes with your Office 365 subscription. This article shows you how to set up a cross-premises Azure virtual network that is ready to host Azure virtual machines.
+A cross-premises Azure virtual network is connected to your on-premises network, extending your network to include subnets and virtual machines hosted in Azure infrastructure services. This connection allows computers on your on-premises network to directly access virtual machines in Azure and vice versa. 
+
+For example, a directory synchronization server running on an Azure virtual machine needs to query your on-premises domain controllers for changes to accounts and synchronize those changes with your Office 365 subscription. This article shows you how to set up a cross-premises Azure virtual network using a site-to-site virtual private network (VPN) connection that is ready to host Azure virtual machines.
 
 ## Overview
 
@@ -30,13 +31,22 @@ Your virtual machines in Azure don't have to be isolated from your on-premises e
   
 ![On-premises network connected to Microsoft Azure by a site-to-site VPN connection](images/CP_ConnectOnPremisesNetworkToAzureVPN.png)
   
-In the diagram, there are two networks connected by a site-to-site virtual private network (VPN) connection: the on-premises network and the Azure virtual network. The site-to-site VPN connection is terminated by a VPN device on the on-premises network and an Azure VPN gateway on the Azure virtual network. The Azure virtual network has virtual machines. Network traffic originating from virtual machines on the Azure virtual network gets forwarded to the VPN gateway, which then forwards the traffic across the site-to-site VPN connection to the VPN device on the on-premises network. The routing infrastructure of the on-premises network then forwards the traffic to its destination.
+In the diagram, there are two networks connected by a site-to-site VPN connection: the on-premises network and the Azure virtual network. The site-to-site VPN connection is:
+
+- Between two endpoints that are addressable and located on the public Internet.
+- Terminated by a VPN device on the on-premises network and an Azure VPN gateway on the Azure virtual network.
+
+The Azure virtual network hosts virtual machines. Network traffic originating from virtual machines on the Azure virtual network gets forwarded to the VPN gateway, which then forwards the traffic across the site-to-site VPN connection to the VPN device on the on-premises network. The routing infrastructure of the on-premises network then forwards the traffic to its destination.
+
+>[!Note]
+>You can also use [ExpressRoute](https://azure.microsoft.com/services/expressroute/), which is a direct connection between your organization and Microsoft's network. Traffic over ExpressRoute does not travel over the public Internet. This article does not describe the use of ExpressRoute.
+>
   
 To set up the VPN connection between your Azure virtual network and your on-premises network, do the following steps: 
   
 1. **On-premises:** Define and create an on-premises network route for the address space of the Azure virtual network that points to your on-premises VPN device.
     
-2. **Microsoft Azure:** Create an Azure virtual network with a site-to-site VPN connection. This article does not describe the use of [ExpressRoute](https://azure.microsoft.com/services/expressroute/).
+2. **Microsoft Azure:** Create an Azure virtual network with a site-to-site VPN connection. 
     
 3. **On premises:** Configure your on-premises hardware or software VPN device to terminate the VPN connection, which uses Internet Protocol security (IPsec).
     
@@ -48,7 +58,7 @@ After you establish the site-to-site VPN connection, you add Azure virtual machi
 ### Prerequisites
 <a name="Prerequisites"></a>
 
-- An Azure subscription. For information about Azure subscriptions, go to the [Microsoft Azure subscription page](https://azure.microsoft.com/pricing/purchase-options/).
+- An Azure subscription. For information about Azure subscriptions, go to the [How To Buy Azure page](https://azure.microsoft.com/pricing/purchase-options/).
     
 - An available private IPv4 address space to assign to the virtual network and its subnets, with sufficient room for growth to accommodate the number of virtual machines needed now and in the future.
     
@@ -325,7 +335,7 @@ Here is your resulting configuration.
   
 ### Phase 3 (Optional): Add virtual machines
 
-Create the virtual machines you need in Azure. For more information, see [Create your first Windows virtual machine in the Azure portal](https://go.microsoft.com/fwlink/p/?LinkId=393098).
+Create the virtual machines you need in Azure. For more information, see [Create a Windows virtual machine with the Azure portal](https://go.microsoft.com/fwlink/p/?LinkId=393098).
   
 Use the following settings:
   
@@ -344,6 +354,4 @@ Here is your resulting configuration.
 ## Next step
   
 [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
- 
-
 

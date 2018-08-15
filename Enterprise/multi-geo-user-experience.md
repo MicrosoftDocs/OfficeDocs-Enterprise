@@ -7,7 +7,9 @@ ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.custom: 
+ms.collection: Strat_SP_gtc
+localization_priority: Priority
 description: "Learn about the SharePoint and OneDrive user experience in a multi-geo environment."
 ---
 

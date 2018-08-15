@@ -12,7 +12,6 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: 
-- Strat_O365_Enterprise
 - Ent_Architecture
 ms.assetid: c4a6d625-4938-42cc-87e1-56b7a13c63ef
 description: "Summary: How a fictional but representative global organization is adopting a cloud-inclusive IT infrastructure with Microsoft's cloud offerings."
@@ -26,11 +25,11 @@ This article links you to a set of articles that describe how the Contoso Corpor
   
 [![Thumb image of the Contoso in the Microsoft Cloud poster.](images/Contoso_Poster/Thumbnail.png)](https://www.microsoft.com/download/details.aspx?id=54427)
   
-![PDF file](images/Common_Images/PDFIcon.png)[PDF](https://go.microsoft.com/fwlink/p/?linkid=842085)  | ![Visio file](images/Common_Images/VisioIcon.png)[Visio](https://go.microsoft.com/fwlink/p/?linkid=842086)  | ![See a page with versions in additional languages](images/Common_Images/GlobeIcon.png)[More languages](https://www.microsoft.com/download/details.aspx?id=54427)
+[PDF](https://go.microsoft.com/fwlink/p/?linkid=842085)  | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842086)  | [More languages](https://www.microsoft.com/download/details.aspx?id=54427)
   
 See the following sections:
   
-- [Hybrid cloud overview](hybrid-cloud-overview.md)
+- [Overview of the Contoso Corporation](overview-of-the-contoso-corporation.md)
     
     The Contoso Corporation is a global conglomerate manufacturing, sales, and support organization with over 100,000 products.
     

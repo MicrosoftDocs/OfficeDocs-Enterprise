@@ -3,11 +3,12 @@ title: "Move a OneDrive site to a different geo-location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+ms.custom: 
+ms.collection: Strat_SP_gtc
+localization_priority: Priority
 description: "Learn how to move a OneDrive site to a different geo-location."
 ---
 
@@ -20,6 +21,26 @@ The OneDrive service uses Azure Blob Storage to store content. The Storage blob 
 During OneDrive geo move window (about 2-6 hours) the user's OneDrive is set to read-only. The user can still access their files via the OneDrive sync client or their OneDrive site in SharePoint Online. After OneDrive geo move is complete, the user will be automatically connected to their OneDrive at the destination geo location when they navigate to OneDrive in the Office 365 app launcher. The sync client will automatically begin syncing from the new location.
 
 The procedures in this article require the [Microsoft SharePoint Online PowerShell Module](https://www.microsoft.com/en-us/download/details.aspx?id=35588).
+
+## Communicating to your users
+
+When moving OneDrive sites between geo-locations, it's important to communicate to your users what to expect. This can help reduce user confusion and calls to your help desk. Email your users before the move and let them know the following information:
+
+- When the move is expected to start and how long it is expected to take
+- What geo location their OneDrive is moving to, and the URL to access the new location
+- They should close their files and not make edits during the move.
+- File permissions and sharing will not change as a result of the move.
+- What to expect from the [user experience in a multi-geo environment](multi-geo-user-experience.md)
+
+Be sure to send your users an email when the move has successfully completed informing them that they can resume working in OneDrive.
+
+## Scheduling OneDrive site moves
+
+You can schedule OneDrive site moves in advance (described later in this article). We recommend that you start with a small number of users to validate your workflows and communication strategies. Once you are comfortable with the process, you can schedule moves as follows:
+
+- You can schedule up to 4,000 moves at a time.
+- As the moves begin, you can schedule more, with a maximum of 4,000 pending moves in the queue and any given time.
+- We recommend not scheduling more than 4,000 moves per month.
 
 ## Moving a OneDrive site
 
@@ -72,9 +93,9 @@ For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR
 
 To schedule a geo move for a later time, use one of the following parameters:
 
--   _PreferredMoveBeginDate_ – The move will likely begin at this specified time.
+-   _PreferredMoveBeginDate_ – The move will likely begin at this specified time. Time must be specified in Coordinated Universal Time (UTC).
 
--   _PreferredMoveEndDate_ – The move will likely be completed by this specified time, on a best effort basis.
+-   _PreferredMoveEndDate_ – The move will likely be completed by this specified time, on a best effort basis. Time must be specified in Coordinated Universal Time (UTC). 
 
 ## Cancel a OneDrive geo move 
 
@@ -141,7 +162,7 @@ Users with permissions to OneDrive content will continue to have access to the c
 
 ### OneDrive Sync Client 
 
-The OneDrive sync client will automatically detect and seamlessly transfer syncing to the new OneDrive location once the OneDrive geo move is complete. The user does not need to sign-in again or take any other action.
+The OneDrive sync client will automatically detect and seamlessly transfer syncing to the new OneDrive location once the OneDrive geo move is complete. The user does not need to sign-in again or take any other action.  (Version 17.3.6943.0625 or later of the sync client required.)
 
 If a user updates a file while the OneDrive geo move is in progress, the sync client will notify them that file uploads are pending while the move is underway.
 

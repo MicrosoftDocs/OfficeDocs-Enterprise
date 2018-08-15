@@ -1,26 +1,25 @@
 ---
-title: "Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure"
+title: "Deploy Office 365 Directory Synchronization in Microsoft Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/04/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: 
-- Strat_O365_Enterprise
 - Ent_Solutions
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
-description: "Summary: Deploy Azure AD Connect (DirSync) on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant of your Office 365 subscription."
+description: "Summary: Deploy Azure AD Connect on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant of your Office 365 subscription."
 ---
 
-# Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure
+# Deploy Office 365 Directory Synchronization in Microsoft Azure
 
- **Summary:** Deploy Azure AD Connect (DirSync) on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant of your Office 365 subscription.
+ **Summary:** Deploy Azure AD Connect on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant of your Office 365 subscription.
   
 Azure Active Directory (AD) Connect (formerly known as the Directory Synchronization tool, Directory Sync tool, or the DirSync.exe tool) is a server-based application that you install on a domain-joined server to synchronize your on-premises Windows Server Active Directory users to the Azure Active Directory tenant of your Office 365 subscription. You can install Azure AD Connect on a on-premises server, but you can also install it on a virtual machine in Azure for the following reasons:
   
@@ -42,15 +41,15 @@ Azure Active Directory (AD) Connect (formerly known as the Directory Synchroniza
 ## Overview of deploying Office 365 directory synchronization in Azure
 <a name="Overview"> </a>
 
-The following diagram shows Azure AD Connect running on a virtual machine in Azure (the DirSync server) that synchronizes an on-premises Windows Server AD forest to anOffice 365 subscription.
+The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises Windows Server AD forest to anOffice 365 subscription.
   
 ![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Office 365 subscription with traffic flow](images/CP_DirSyncOverview.png)
   
-In the diagram, there are two networks connected by a site-to-site VPN or ExpressRoute connection. There is an on-premises network where Windows Server AD domain controllers are located, and there is an Azure virtual network with a DirSync server, which is a virtual machine running [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594). There are two main traffic flows originating from the DirSync server:
+In the diagram, there are two networks connected by a site-to-site VPN or ExpressRoute connection. There is an on-premises network where Windows Server AD domain controllers are located, and there is an Azure virtual network with a directory sync server, which is a virtual machine running [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594). There are two main traffic flows originating from the directory sync server:
   
 -  Azure AD Connect queries a domain controller on the on-premises network for changes to accounts and passwords.
     
--  Azure AD Connect sends the changes to accounts and passwords to the Azure AD instance of your Office 365 subscription. Because the DirSync server is in an extended portion of your on-premises network, these changes are sent through the on-premises network's proxy server.
+-  Azure AD Connect sends the changes to accounts and passwords to the Azure AD instance of your Office 365 subscription. Because the directory sync server is in an extended portion of your on-premises network, these changes are sent through the on-premises network's proxy server.
     
 > [!NOTE]
 > This solution describes synchronization of a single Active Directory domain, in a single Active Directory forest. Azure AD Connect synchronizes all Active Directory domains in your Active Directory forest with Office 365. If you have multiple Active Directory forests to synchronize with Office 365, see [Multi-forest Directory Sync with Single Sign-On Scenario](https://go.microsoft.com/fwlink/p/?LinkId=393091). 
@@ -69,7 +68,7 @@ There are two major steps when you deploy this solution:
     
     Configuring Azure AD Connect requires the credentials (user name and password) of an Azure AD administrator account and a Windows Server AD enterprise administrator account. Azure AD Connect runs immediately and on an ongoing basis to synchronize the on-premises Windows Server AD forest to Office 365.
     
-Before you deploy this solution in production, use the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md) to set this configuration up as a proof of concept, for demonstrations, or for experimentation.
+Before you deploy this solution in production, use the instructions in [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md) to set this configuration up as a proof of concept, for demonstrations, or for experimentation.
   
 > [!IMPORTANT]
 > When Azure AD Connect configuration completes, it does not save the Windows Server AD enterprise administrator account credentials. 
@@ -77,7 +76,7 @@ Before you deploy this solution in production, use the instructions in [DirSync 
 > [!NOTE]
 > This solution describes synchronizing a single Windows Server AD forest to Office 365. The topology discussed in this article represents only one way to implement this solution. Your organization's topology might differ based on your unique network requirements and security considerations. 
   
-## Plan for hosting a DirSync server for Office 365 in Azure
+## Plan for hosting a directory sync server for Office 365 in Azure
 <a name="PlanningVirtual"> </a>
 
 ### Prerequisites
@@ -98,17 +97,17 @@ Before you begin, review the following prerequisites for this solution:
 
 The following list describes the design choices made for this solution.
   
-- This solution uses a single Azure virtual network with a site-to-site VPN connection. The Azure virtual network hosts a single subnet that contains one server, the DirSync server that is running Azure AD Connect. 
+- This solution uses a single Azure virtual network with a site-to-site VPN connection. The Azure virtual network hosts a single subnet that contains one server, the directory sync server that is running Azure AD Connect. 
     
 - On the on-premises network, a domain controller and DNS servers exist.
     
-- Azure AD Connect performs password synchronization instead of single sign-on. You do not have to deploy an Active Directory Federation Services (AD FS) infrastructure. To learn more about password synchronization and single sign-on options, see [Determine which directory integration scenario to use](https://go.microsoft.com/fwlink/p/?LinkId=393094).
+- Azure AD Connect performs password hash synchronization instead of single sign-on. You do not have to deploy an Active Directory Federation Services (AD FS) infrastructure. To learn more about password hash synchronization and single sign-on options, see [Choosing the right authentication method for your Azure Active Directory hybrid identity solution](http://aka.ms/auth-options).
     
 There are additional design choices that you might consider when you deploy this solution in your environment. These include the following:
   
-- If there are existing DNS servers in an existing Azure virtual network, determine whether you want your DirSync server to use them for name resolution instead of DNS servers on the on-premises network.
+- If there are existing DNS servers in an existing Azure virtual network, determine whether you want your directory sync server to use them for name resolution instead of DNS servers on the on-premises network.
     
-- If there are domain controllers in an existing Azure virtual network, determine whether configuring Active Directory Sites and Services may be a better option for you. The DirSync server can query the domain controllers in the Azure virtual network for changes in accounts and passwords instead of domain controllers on the on-premises network.
+- If there are domain controllers in an existing Azure virtual network, determine whether configuring Active Directory Sites and Services may be a better option for you. The directory sync server can query the domain controllers in the Azure virtual network for changes in accounts and passwords instead of domain controllers on the on-premises network.
     
 ## Deployment roadmap
 <a name="DeploymentRoadmap"> </a>
@@ -124,7 +123,7 @@ Deploying Azure AD Connect on a virtual machine in Azure consists of three phase
 After deployment, you must also assign locations and licenses for the new user accounts in Office 365.
   
 > [!TIP]
-> The [DirSync Server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded) contains all of the Azure PowerShell blocks to build out this solution, the diagrams in Microsoft PowerPoint and Visio format, and a Microsoft Excel configuration workbook that generates Azure PowerShell command blocks customized for your settings.
+> The [Directory Synchronization Server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded) contains all of the Azure PowerShell blocks to build out this solution, the diagrams in Microsoft PowerPoint and Visio format, and a Microsoft Excel configuration workbook that generates Azure PowerShell command blocks customized for your settings.
   
 ### Phase 1: Create and configure the Azure virtual network
 
@@ -132,7 +131,7 @@ To create and configure the Azure virtual network, complete [Phase 1: Prepare yo
   
 This is your resulting configuration.
   
-![Phase 1 of the DirSync server for Office 365 hosted in Azure](images/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
+![Phase 1 of the directory sync server for Office 365 hosted in Azure](images/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
   
 This figure shows an on-premises network connected to an Azure virtual network through a site-to-site VPN or ExpressRoute connection.
   
@@ -144,36 +143,36 @@ Create the virtual machine in Azure using the instructions [Create your first Wi
     
 - On the **Choose a size** pane, choose the **A2 Standard** size.
     
-- On the **Settings** pane, in the **Storage** section, select the **Standard** storage type. In the **Network** section, select the name of your virtual network and the subnet for hosting the DirSync server (not the GatewaySubnet). Leave all other settings at their default values.
+- On the **Settings** pane, in the **Storage** section, select the **Standard** storage type. In the **Network** section, select the name of your virtual network and the subnet for hosting the directory sync server (not the GatewaySubnet). Leave all other settings at their default values.
     
-Verify that your DirSync server is using DNS correctly by checking your internal DNS to make sure that an Address (A) record was added for the virtual machine with its IP address. 
+Verify that your directory sync server is using DNS correctly by checking your internal DNS to make sure that an Address (A) record was added for the virtual machine with its IP address. 
   
-Use the instructions in [Connect to the virtual machine and sign on](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#connect-to-the-virtual-machine-and-sign-on) to connect to the DirSync server with a Remote Desktop Connection. After signing in, join the virtual machine to the on-premises Windows Server AD domain.
+Use the instructions in [Connect to the virtual machine and sign on](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#connect-to-the-virtual-machine-and-sign-on) to connect to the directory sync server with a Remote Desktop Connection. After signing in, join the virtual machine to the on-premises Windows Server AD domain.
   
-For Azure AD Connect to gain access to Internet resources, you must configure the DirSync server to use the on-premises network's proxy server. You should contact your network administrator for any additional configuration steps to perform.
+For Azure AD Connect to gain access to Internet resources, you must configure the directory sync server to use the on-premises network's proxy server. You should contact your network administrator for any additional configuration steps to perform.
   
 This is your resulting configuration.
   
-![Phase 2 of the DirSync server for Office 365 hosted in Azure](images/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
+![Phase 2 of the directory sync server for Office 365 hosted in Azure](images/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
   
-This figure shows the DirSync server virtual machine in the cross-premises Azure virtual network.
+This figure shows the directory sync server virtual machine in the cross-premises Azure virtual network.
   
 ### Phase 3: Install and configure Azure AD Connect
 
 Complete the following procedure:
   
-1. Connect to the DirSync server using a Remote Desktop Connection with a Windows Server AD domain account that has local administrator privileges. See [Connect to the virtual machine and sign on](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#connect-to-the-virtual-machine-and-sign-on).
+1. Connect to the directory sync server using a Remote Desktop Connection with a Windows Server AD domain account that has local administrator privileges. See [Connect to the virtual machine and sign on](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#connect-to-the-virtual-machine-and-sign-on).
     
-2. From the DirSync server, open the [Set up directory synchronization in Office 365](https://support.office.com/article/Set-up-directory-synchronization-in-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846) article and follow the directions for directory synchronization with password synchronization.
+2. From the directory sync server, open the [Set up directory synchronization in Office 365](https://support.office.com/article/Set-up-directory-synchronization-in-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846) article and follow the directions for directory synchronization with password hash synchronization.
     
 > [!CAUTION]
 > Setup creates the **AAD_xxxxxxxxxxxx** account in the Local Users organizational unit (OU). Do not move or remove this account or synchronization will fail.
   
 This is your resulting configuration.
   
-![Phase 3 of the DirSync server for Office 365 hosted in Azure](images/3f692b62-b77c-4877-abee-83c7edffa922.png)
+![Phase 3 of the directory sync server for Office 365 hosted in Azure](images/3f692b62-b77c-4877-abee-83c7edffa922.png)
   
-This figure shows the DirSync server with Azure AD Connect in the cross-premises Azure virtual network.
+This figure shows the directory sync server with Azure AD Connect in the cross-premises Azure virtual network.
   
 ### Assign locations and licenses to users in Office 365
 
@@ -205,7 +204,7 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
   
 [Set up directory synchronization in Office 365](https://support.office.com/article/Set-up-directory-synchronization-in-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)
   
-[DirSync Server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded)
+[Directory Synchronization server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded)
 
 
 

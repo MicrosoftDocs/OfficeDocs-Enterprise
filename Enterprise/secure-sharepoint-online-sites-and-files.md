@@ -7,12 +7,11 @@ ms.date: 12/15/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
-ms.custom: 
-- Strat_O365_Enterprise
+ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: "Summary: Configuration recommendations for protecting files in SharePoint Online and Office 365."
@@ -43,9 +42,9 @@ For more information about these tiers and capabilities recommended for each tie
 Recommendations for SharePoint Online team sites draw on a variety of Office 365 capabilities. For highly confidential sites, Azure Information Protection is recommended. This is included in Enterprise Mobility + Security (EMS). 
   
 The following illustration shows the recommended configurations for four SharePoint Online team sites.
-  
-![Recommended configuration for SharePoint sites](images/ad0dcd70-f6f5-465c-8d16-1889481ca07a.png)
-  
+
+![Recommended configuration for SharePoint sites](Media/SharePoint-site-configuration-v2.png)
+
 As illustrated:
   
 - Baseline protection includes two options for SharePoint Online team sites — a public site and private site. Public sites can be discovered and accessed by anybody in the organization. Private sites can only be discovered and accessed by members of the site. Both of these site configurations allow for sharing outside the group. 
@@ -56,7 +55,7 @@ As illustrated:
     
 - Data loss prevention (DLP) policies are configured for the Sensitive and Highly Confidential Office 365 labels to either warn or prevent users when they attempt to send these types of files outside the organization.
     
-- For sites configured with highly confidential protection, Azure Information Protection encrypts and grants permissions for files.
+- If needed for your scenario, you can use Azure Information Protection to encrypt and grants permissions to files that are highly confidential. This is not recommended for all customers.
     
 ## Tenant-wide settings for SharePoint Online and OneDrive for Business
 
@@ -152,7 +151,7 @@ For the steps to configure Office 365 labels and DLP policies in this solution, 
   
 ## Azure Information Protection
 
-Use Azure Information Protection to apply labels and protections that follow the files wherever they go. For this solution, we recommend you use a scoped Azure Information Protection policy and a sub-label of the Highly Confidential label to encrypt and grant permissions to files that need to be protected with the highest level of security. 
+If warranted for your security scenario, you can use Azure Information Protection to apply labels and protections that follow the files wherever they go. Azure Information Protection labels are different than Office 365 labels. For this solution, we recommend you use a scoped Azure Information Protection policy and a sub-label of the Highly Confidential label to encrypt and grant permissions to files that need to be protected with the highest level of security. 
   
 Be aware that when Azure Information Protection encryption is applied to files stored in Office 365, the service cannot process the contents of these files. Co-authoring, eDiscovery, search, Delve, and other collaborative features do not work. DLP policies can only work with the metadata (including Office 365 labels) but not the contents of these files (such as credit card numbers within files).
   

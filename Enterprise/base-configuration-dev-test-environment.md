@@ -3,16 +3,15 @@ title: "Base Configuration dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 07/09/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: 
-- Strat_O365_Enterprise
 - Ent_TLGs
 ms.assetid: 6fcbb50c-ac68-4be7-9fc5-dd0f275c1e3d
 description: "Summary: Create a simplified intranet as a dev/test environment in Microsoft Azure."
@@ -28,7 +27,7 @@ This article provides you with step-by-step instructions to create the following
 
 ![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
-The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running Windows Server 2016:
+The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running WIndows Server 2016:
   
 - DC1 is configured as an intranet domain controller and Domain Name System (DNS) server
     
@@ -46,7 +45,7 @@ You can use the resulting test environment:
   
 - For application development and testing.
     
-- As the initial configuration of an extended test environment of your own design that includes additional virtual machines, Azure services, or other Microsoft cloud offerings such as Office 365 and Enterprise Security + Mobility.
+- As the initial configuration of an extended test environment of your own design that includes additional virtual machines, Azure services, or other Microsoft cloud offerings such as Office 365 and Enterprise Security + Mobility (EMS).
     
 There are four phases to setting up the Base Configuration test environment in Azure:
   
@@ -146,8 +145,8 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName DC1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
-$diskConfig=New-AzureRmDiskConfig -AccountType "StandardLRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
+$diskConfig=New-AzureRmDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
 $dataDisk1=New-AzureRmDisk -DiskName "DC1-DataDisk1" -Disk $diskConfig -ResourceGroupName $rgName
 $vm=Add-AzureRmVMDataDisk -VM $vm -Name "DC1-DataDisk1" -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
@@ -159,9 +158,9 @@ Next, connect to the DC1 virtual machine.
   
 ### Connect to DC1 using local administrator account credentials
 
-1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** <the name of your new resource group> **> DC1 > Connect**.
+1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [the name of your new resource group] **> DC1 > Connect**.
     
-2. Open the DC1.rdp file that is downloaded, and then click **Connect**.
+2. In the open pane, click **Download RDP file**. Open the DC1.rdp file that is downloaded, and then click **Connect**.
     
 3. Specify the DC1 local administrator account name:
     
@@ -187,9 +186,8 @@ Next, configure DC1 as a domain controller and DNS server for the corp.contoso.c
   
 ```
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
-Install-ADDSForest -DomainName corp.contoso.com -DatabasePath "F:\\NTDS" -SysvolPath "F:\\SYSVOL" -LogPath "F:\\Logs"
+Install-ADDSForest -DomainName corp.contoso.com -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs"
 ```
-
 You will need to specify a safe mode administrator password. Store this password in a secure location.
   
 Note that these commands can take a few minutes to complete.
@@ -198,7 +196,7 @@ After DC1 restarts, reconnect to the DC1 virtual machine.
   
 ### Connect to DC1 using domain credentials
 
-1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** <your resource group name> **> DC1 > Connect**.
+1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [your resource group name] **> DC1 > Connect**.
     
 2. Run the DC1.rdp file that is downloaded, and then click **Connect**.
     
@@ -237,8 +235,8 @@ This is your current configuration.
 ## Phase 3: Configure APP1
 
 APP1 provides web and file sharing services.
-  
-To create an Azure Virtual Machine for APP1, fill in the name of your resource group, Azure location, and storage account name and run these commands at the Azure PowerShell command prompt on your local computer.
+
+To create an Azure Virtual Machine for APP1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```
 $rgName="<resource group name>"
@@ -251,7 +249,7 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName APP1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
@@ -279,9 +277,9 @@ Install-WindowsFeature Web-WebServer -IncludeManagementTools
 Next, create a shared folder and a text file within the folder on APP1 with these PowerShell commands.
   
 ```
-New-Item -path c:\\files -type directory
-Write-Output "This is a shared file." | out-file c:\\files\\example.txt
-New-SmbShare -name files -path c:\\files -changeaccess CORP\\User1
+New-Item -path c:\files -type directory
+Write-Output "This is a shared file." | out-file c:\files\example.txt
+New-SmbShare -name files -path c:\files -changeaccess CORP\User1
 ```
 
 This is your current configuration.
@@ -291,11 +289,11 @@ This is your current configuration.
 ## Phase 4: Configure CLIENT1
 
 CLIENT1 acts as a typical laptop, tablet, or desktop computer on the Contoso intranet.
+
+> [!NOTE]  
+> The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have an Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10 with the [Azure portal](https://portal.azure.com). 
   
-> [!NOTE]
-> The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have an Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10, Windows 8, or Windows 7 with the [Azure portal](https://portal.azure.com). 
-  
-To create an Azure Virtual Machine for CLIENT1, fill in the name of your resource group, Azure location, and storage account name and run these commands at the Azure PowerShell command prompt on your local computer.
+To create an Azure Virtual Machine for CLIENT1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```
 $rgName="<resource group name>"
@@ -308,7 +306,7 @@ $cred=Get-Credential -Message "Type the name and password of the local administr
 $vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName CLIENT1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
 $vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "StandardLRS"
+$vm=Set-AzureRmVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
 New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
@@ -339,7 +337,7 @@ Next, verify that you can access web and file share resources on APP1 from CLIEN
     
 4. From the Start screen, click **Internet Explorer**, and then click **OK**.
     
-5. In the Address bar, type **http://app1.corp.contoso.com/**, and then press ENTER. You should see the default Internet Information Services web page for APP1.
+5. In the Address bar, type **http:\//app1.corp.contoso.com/**, and then press ENTER. You should see the default Internet Information Services web page for APP1.
     
 6. From the desktop taskbar, click the File Explorer icon.
     
@@ -358,8 +356,8 @@ Your Base Configuration in Azure is now ready for application development and te
 > [!TIP]
 > Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
   
-## Minimizing the costs of test environment virtual machines in Azure
 <a name="mincost"> </a>
+## Minimizing the costs of test environment virtual machines in Azure
 
 To minimize the cost of running the test environment virtual machines, you can do one of the following:
   
@@ -379,9 +377,7 @@ Stop-AzureRMVM -ResourceGroupName $rgName -Name "DC1" -Force
 To ensure that your virtual machines work properly when starting all of them from the Stopped (Deallocated) state, you should start them in the following order:
   
 1. DC1
-    
 2. APP1
-    
 3. CLIENT1
     
 To start the virtual machines in order with Azure PowerShell, fill in the resource group name and run these commands.
@@ -395,16 +391,8 @@ Start-AzureRMVM -ResourceGroupName $rgName -Name "CLIENT1"
 
 ## See Also
 
-<a name="mincost"> </a>
-
-[Office 365 dev/test environment](office-365-dev-test-environment.md)
-  
-[DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-  
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-  
-[Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
-  
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
-
-
+- [Office 365 dev/test environment](office-365-dev-test-environment.md)
+- [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
+- [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
+- [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
+- [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
