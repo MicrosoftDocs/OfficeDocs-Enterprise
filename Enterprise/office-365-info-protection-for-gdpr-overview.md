@@ -30,7 +30,7 @@ Article 4 – Definitions
 
 This solution is intended to help organizations discover and protect personal data in Office 365 that might be subject to the GDPR. It is not offered as a GDPR compliance attestation. Organizations are responsible for ensuring their own GDPR compliance and are advised to consult their legal and compliance teams or to seek guidance and advice from third parties that specialize in compliance.
 
-[GDPR Assessment](https://www.gdprbenchmark.com) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR (<http://aka.ms/gdprassessment>).
+[GDPR Assessment](https://assessment.microsoft.com/gdpr-compliance) is a quick, online self-evaluation tool available at no cost to help your organization review its overall level of readiness to comply with the GDPR (<http://aka.ms/gdprassessment>).
 
 ## Assess and manage your compliance risk
 
