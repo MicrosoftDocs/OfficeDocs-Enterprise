@@ -19,7 +19,7 @@ description: "Some networks are designed to restrict access to the internet, to 
 
 # Managing Office 365 endpoints
 
-### Office 365 network connectivity
+## Office 365 network connectivity
 
  **7/6/2018** Connections to Office 365 consist of high volume, trusted network requests that perform best when they're made over a low-latency egress that is near the user. Some Office 365 connections can benefit from optimizing the connection. 
   
@@ -35,7 +35,7 @@ description: "Some networks are designed to restrict access to the internet, to 
     
 ![Connecting to Office 365 through firewalls and proxies.](media/34d402f3-f502-42a0-8156-24a7c4273fa5.png)
   
-### Update your firewall's outbound allow lists
+## Update your firewall's outbound allow lists
 
 You can optimize your network by sending all trusted Office 365 network requests directly through your firewall, bypassing all additional packet level inspection or processing. This reduces slow performance from latency and reduces your perimeter capacity requirements. The easiest way to choose which network requests to trust is to use our pre-built PAC files on the **Proxies** tab above. 
   
@@ -48,16 +48,15 @@ Automate your process by using a firewall that parses the XML file on your behal
 A longer explanation of the network destinations is available on our [reference site](https://aka.ms/o365endpoints) as well through our [RSS based change log](https://go.microsoft.com/fwlink/p/?linkid=236301) so you can subscribe to changes. 
   
 <a name="pacfiles"> </a>
-### Configure outbound paths with PAC files
+## Configure outbound paths with PAC files
 
-Use PAC or WPAD files to manage network requests that are associated with Office 365 but don't have an IP address provided. Typically network requests that are sent through a proxy or perimeter device incur additional latency. While proxy authentication incurs the largest tax, other services such as reputation lookup and attempts to inspect packets can cause a poor user experience. Additionally these perimeter network devices need enough capacity to process all of the network requests. We recommend bypassing your proxy or inspection infrastructure for direct Office 365 network requests.
+Use PAC or WPAD files to manage network requests that are associated with Office 365 but don't have an IP address provided. Typical network requests that are sent through a proxy or perimeter device incur additional latency. While proxy authentication incurs the largest tax, other services such as reputation lookup and attempts to inspect packets can cause a poor user experience. Additionally, these perimeter network devices need enough capacity to process all of the network requests. We recommend bypassing your proxy or inspection infrastructure for direct Office 365 network requests.
   
 Use one of our PAC files as a starting place to determine what network traffic will be sent to a proxy and which will be sent to a firewall. If you're new to PAC or WPAD files, read this post about [deploying PAC files](https://blogs.technet.microsoft.com/undocumentedfeatures/2016/04/06/deploying-the-office-365-proxy-pac-to-manage-your-users/) from one of our Office 365 consultants. You'll want to review these as a starting place and edit to suit your environment. 
   
  **PAC files updated 7/10/2018**. 
   
-#### #1 - PAC file: Separates required Internet FQDNs from known Office 365 FQDN.
-<a name="bkmk_inet-known"> </a>
+### #1 - PAC file: Separates required Internet FQDNs from known Office 365 FQDN.
 
 The first example is a demonstration of our recommended approach to managing endpoints over the Internet only. Bypasses the proxy for Office 365 destinations where the IP address is published and sends remaining network requests to the proxy.
   
@@ -357,7 +356,7 @@ else return proxyserver;
 
 ```
 
-#### #2 - PAC file: Connect to Office 365 over the Internet and ExpressRoute
+### #2 - PAC file: Connect to Office 365 over the Internet and ExpressRoute
 <a name="bkmk_inet-aer"> </a>
 
 The second example is a demonstration of our recommended approach to managing connections when ExpressRoute and Internet circuits are available. Sends ExpressRoute advertised destinations to the ExpressRoute circuit and Internet only advertised destinations to the proxy.
@@ -479,10 +478,10 @@ function FindProxyForURL(url, host)
 
 ```
 
-#### #3 - PAC file: Manage all Office 365 destinations collectively
+### #3 - PAC file: Manage all Office 365 destinations collectively
 <a name="bkmk_inet-direct"> </a>
 
-The third example demonstrates sending all network requests associated with Office 365 to a single destination. This is commonly used to bypass all inspection of Office 365 network requests and also offers you a format where all published endpoints are in list in the PAC format to use for your customization.
+The third example demonstrates sending all network requests associated with Office 365 to a single destination. This is commonly used to bypass all inspection of Office 365 network requests and offers you a format where all published endpoints are in list in the PAC format to use for your customization.
   
 Code snippet:
   
@@ -687,8 +686,8 @@ function FindProxyForURL(url, host)
 
 ```
 
-### Use custom scripts or manually create your own PAC files
-<a name="pacfiles"> </a>
+## Use custom scripts or manually create your own PAC files
+<a name="pacfiles_manual"> </a>
 
 Here's a few more tools from the community, if you've built something you'd like to share leave a note in the comments. None of the community tools referenced in this article are officially supported or maintained by Microsoft and are provided here for your convenience.
   
@@ -714,7 +713,7 @@ Here's a few more tools from the community, if you've built something you'd like
 
 - Ensure any network requests being sent to your firewall directly have a corresponding entry in the firewall allow list to allow the request to go through.
     
-### Perimeter network integration
+## Perimeter network integration
 <a name="BKMK_Perimeter"> </a>
 
 Did you know Microsoft's WAN is one of the largest backbones in the world?
@@ -737,14 +736,14 @@ Modern network devices include capabilities to manage network requests for trust
   
 See [Network and migration planning for Office 365](network-and-migration-planning.md), [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md), and [Deployment planning checklist for Office 365](deployment-planning-checklist.md) for additional guidance on planning your network configuration. 
   
-#### To implement this scenario:
+### To implement this scenario:
 
 Check with your network solution or service provider if they can use Office 365 URL and IP definitions from XML to facilitate local (to the user), low overhead network egress for Office 365 traffic, manage its priority relative to other applications and adjust the network path for Office 365 connections into Microsoft network depending on changing network conditions. Some solutions download and automate Office 365 URL and IP XMLs definition in their stacks.
   
 Always ensure that the implemented solution has necessary degree of resiliency, appropriate geo-redundancy of the network path for Office 365 traffic and accommodates changes to Office 365 URLs and IPs as they become published.
   
 <a name="webservice"> </a>
-### Web service
+## Web service
 
 To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service (now in preview), will eventually replace the lists of endpoints in the [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md) article, along with the RSS and XML versions of that data. These format of endpoint data are planned to be phased out on October 2, 2018. 
   
@@ -796,7 +795,7 @@ There is one parameter for the version web method:
   
 - **AllVersions=true** - Query string parameter. By default, the version returned is the latest. Include this optional parameter to request all published versions. 
     
-- **Instance** - Route parameter. This optional parameter specifies the instance to return the version for. If omitted then all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh 
+- **Instance** - Route parameter. This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh 
     
 The result from the version web method may be a single record or an array of records. The elements of each record are:
   
@@ -1217,7 +1216,6 @@ Updates to the parameters or results for these web service methods may be requir
     
 - Adding a new web method with a new name that is not called by the older clients.
     
-<a name="bkmk_FAQ"> </a>
 ## FAQ
 
 Frequently-asked administrator questions about connectivity:
@@ -1240,8 +1238,6 @@ Office 365 endpoints are published at the end of each month with 30 days notice.
 
 After you subscribe to the RSS feed, you can parse the information yourself or with a script. The following table describes the format of the RSS feed o make it easier.
   
-|
-|
 |**Section**|**Part 1**|**Part 2**|**Part 3**|**Part 4**|**Part 5**|**Part 6**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Description** <br/> |Count  <br/> |Date after which you can expect network requests to be sent to the endpoint.  <br/> |Basic description of the feature or service that requires the endpoint.  <br/> |Can you connect to this endpoint on an ExpressRoute Circuit in addition to the internet?  <br/> |**Yes** - you can connect to this endpoint on both the internet and ExpressRoute.  <br/> **No** - you can only connect to this endpoint on the internet.  <br/> |The destination FQDN or IP range being added or removed.  <br/> |
@@ -1279,7 +1275,7 @@ We regularly add new features and services to the Office 365 suite, expanding th
   
 Read [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
   
-In the image below you can see an example from a portion of the FQDN table in the Office Online section. The rows are organized by feature and differences in connectivity. The first two rows indicate Office Online relies on the endpoints marked Required in the Office 365 Authentication and Identity and portal and shared sections. This is typical for a service within Office 365 to rely on these shared services. The third row indicates client computers must be able to reach \*.officeapps.live.com to use Office Online and the fourth row indicates computers must also be able to reach \*.cdn.office.net to use Office Online.
+In the image below, you can see an example from a portion of the FQDN table in the Office Online section. The rows are organized by feature and differences in connectivity. The first two rows indicate Office Online relies on the endpoints marked Required in the Office 365 Authentication and Identity and portal and shared sections. This is typical for a service within Office 365 to rely on these shared services. The third row indicates client computers must be able to reach \*.officeapps.live.com to use Office Online and the fourth row indicates computers must also be able to reach \*.cdn.office.net to use Office Online.
   
 Even though both row three and four are required to use Office Online, they've been separated to indicate the destination is different:
   
@@ -1300,7 +1296,7 @@ Even though both row three and four are required to use Office Online, they've b
 ### I see network requests to IP addresses not on the published list, do I need to provide access to them?
 <a name="bkmk_MissingIP"> </a>
 
-We only provide IP addresses for the Office 365 servers you should route directly to over the Internet or ExpressRoute. This isn't a comprehensive list of all IP addresses you'll see network requests for. You'll see network requests to Microsoft and third party owned, unpublished, IP addresses. These IP addresses are dynamically generated or managed in a way that prevents timely notice when they change. If your firewall can't allow access based on the FQDNs for these network requests, use a PAC or WPAD file to manage the requests.
+We only provide IP addresses for the Office 365 servers you should route directly to over the Internet or ExpressRoute. This isn't a comprehensive list of all IP addresses you'll see network requests for. You'll see network requests to Microsoft and third-party owned, unpublished, IP addresses. These IP addresses are dynamically generated or managed in a way that prevents timely notice when they change. If your firewall can't allow access based on the FQDNs for these network requests, use a PAC or WPAD file to manage the requests.
   
 See an IP associated with Office 365 that you want more information on?
   
@@ -1345,7 +1341,7 @@ The list of services is subject to change at any time. Some of the services curr
     
 - You connect to primary Office 365 services such as the Exchange Online mailbox server or the Skype for Business Online server where your unique and proprietary data lives. You can connect to the primary Office 365 services by FQDN or IP address and use internet or ExpressRoute circuits. You can only connect to the third party and secondary services using FQDNs on an internet circuit.
     
-The following diagram shows the differences between these service areas. In this diagram, the customer on-premises network in the lower left has multiple network devices to assist in managing network connectivity. Configurations like this one are common for enterprise customers. If your network only has a firewall between your client computers and the internet, that's supported as well and you'll want to ensure your firewall can support FQDNs and wildcards in the allow list rules.
+The following diagram shows the differences between these service areas. In this diagram, the customer on-premises network in the lower left has multiple network devices to assist in managing network connectivity. Configurations like this one are common for enterprise customers. If your network only has a firewall between your client computers and the internet, that's supported as well, and you'll want to ensure your firewall can support FQDNs and wildcards in the allow list rules.
   
 Read [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
   
