@@ -93,7 +93,7 @@
 ### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 ### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 ### [Office 365 Network Connectivity Principles](network-connectivity.md)
-### [Office 365 endpoints]
+### Office 365 endpoints
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
 #### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
