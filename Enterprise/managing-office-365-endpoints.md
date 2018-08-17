@@ -21,7 +21,7 @@ description: "Some networks are designed to restrict access to the internet, to 
 
 ## Office 365 network connectivity
 
- **7/6/2018** Connections to Office 365 consist of high volume, trusted network requests that perform best when they're made over a low-latency egress that is near the user. Some Office 365 connections can benefit from optimizing the connection. 
+ Connections to Office 365 consist of high volume, trusted network requests that perform best when they're made over a low-latency egress that is near the user. Some Office 365 connections can benefit from optimizing the connection. 
   
 1. Ensure your firewall allow lists allow for connectivity to Office 365 endpoints.
     
@@ -31,7 +31,7 @@ description: "Some networks are designed to restrict access to the internet, to 
     
 4. [Ensure you're getting the best connectivity](https://aka.ms/o365perfprinciples).
     
-5. Read [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
+5. Read [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md) to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
     
 ![Connecting to Office 365 through firewalls and proxies.](media/34d402f3-f502-42a0-8156-24a7c4273fa5.png)
   
@@ -45,7 +45,7 @@ Many destinations do not have an IP address published or are listed as a wildcar
   
 Automate your process by using a firewall that parses the XML file on your behalf and updates your rules automatically based on the services or features you plan to route directly through your firewall. You can also use the [Azure Range](https://azurerange.azurewebsites.net/) tool that has been built by the community and parses the XML for you with export options for Cisco XE Route or ACL list configuration, plain text, or CSV. 
   
-A longer explanation of the network destinations is available on our [reference site](https://aka.ms/o365endpoints) as well through our [RSS based change log](https://go.microsoft.com/fwlink/p/?linkid=236301) so you can subscribe to changes. 
+A longer explanation of the network destinations is available on our [reference site](urls-and-ip-address-ranges.md) as well through our [RSS based change log](https://go.microsoft.com/fwlink/p/?linkid=236301) so you can subscribe to changes. 
   
 <a name="pacfiles"> </a>
 ## Configure outbound paths with PAC files
@@ -686,7 +686,7 @@ function FindProxyForURL(url, host)
 
 ```
 
-## Use custom scripts or manually create your own PAC files
+### Use custom scripts or manually create your own PAC files
 <a name="pacfiles_manual"> </a>
 
 Here's a few more tools from the community, if you've built something you'd like to share leave a note in the comments. None of the community tools referenced in this article are officially supported or maintained by Microsoft and are provided here for your convenience.
@@ -742,8 +742,8 @@ Check with your network solution or service provider if they can use Office 365 
   
 Always ensure that the implemented solution has necessary degree of resiliency, appropriate geo-redundancy of the network path for Office 365 traffic and accommodates changes to Office 365 URLs and IPs as they become published.
   
-<a name="webservice"> </a>
 ## Web service
+<a name="webservice"> </a>
 
 To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service (now in preview), will eventually replace the lists of endpoints in the [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md) article, along with the RSS and XML versions of that data. These format of endpoint data are planned to be phased out on October 2, 2018. 
   
@@ -804,10 +804,10 @@ The result from the version web method may be a single record or an array of rec
 - latest - The latest version for endpoints of the specified instance.
     
 - versions - A list of all previous versions for the specified instance. This element is only included if the AllVersions parameter is true.
-    
- **Examples:**
+   
+#### Examples:
   
-Example 1 request URI: **https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 1 request URI: **<span>https:</span>//endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This URI returns the latest version of each Office 365 service instance. Example result:
   
@@ -839,7 +839,7 @@ This URI returns the latest version of each Office 365 service instance. Example
 > [!IMPORTANT]
 > The GUID for the ClientRequestID parameter in these URIs are only an example. To try the web service URIs out, generate your own GUID. The GUIDs shown in these examples may be blocked by the web service in the future. 
   
-Example 2 request URI: **https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 2 request URI: **<span>https:</span>//endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This URI returns the latest version of the specified Office 365 service instance. Example result:
   
@@ -850,7 +850,7 @@ This URI returns the latest version of the specified Office 365 service instance
 }
 ```
 
-Example 3 request URI: **https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 3 request URI: **<span>https:</span>//endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This URI shows output in CSV format. Example result:
   
@@ -859,7 +859,7 @@ instance,latest
 Worldwide,2018063000
 ```
 
-Example 4 request URI: **https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 4 request URI: **<span>https:</span>//endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This URI shows all prior versions that have been published for the Office 365 worldwide service instance. Example result:
   
@@ -908,9 +908,9 @@ The result from the endpoints web method is an array of records with each record
     
 - notes - For optional endpoints, this text describes Office 365 functionality that will be missing if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
     
- **Examples:**
+#### Examples:
   
-Example 1 request URI: **https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 1 request URI: **<span>https:</span>//endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This URI obtains all endpoints for the Office 365 worldwide instance for all workloads. Example result showing an excerpt of the output:
   
@@ -945,7 +945,7 @@ This URI obtains all endpoints for the Office 365 worldwide instance for all wor
 
 Additional endpoint sets are not included in this example.
   
-Example 2 request URI: **https://endpoints.office.com/endpoints/Worldwide?ServiceAreas=Exchange&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 2 request URI: **<span>https:</span>//endpoints.office.com/endpoints/Worldwide?ServiceAreas=Exchange&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This example obtains endpoints for the Office 365 Worldwide instance for Exchange Online and dependencies only.
   
@@ -992,7 +992,7 @@ The result from the changes web method is an array of records with each record r
     
  **Examples:**
   
-Example 1 request URI: **https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 1 request URI: **<span>https:</span>//endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This requests all previous changes to the Office 365 worldwide service instance. Example result:
   
@@ -1032,7 +1032,7 @@ This requests all previous changes to the Office 365 worldwide service instance.
 
 ```
 
-Example 2 request URI: **https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 2 request URI: **<span>https:</span>//endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
   
 This requests changes since the specified version to the Office 365 Worldwide instance. In this case, the version specified is the latest. Example result:
   
@@ -1273,7 +1273,7 @@ With over 2500 ISP peering relationships globally and 70 points of presence, get
 
 We regularly add new features and services to the Office 365 suite, expanding the connectivity landscape. If you're subscribed to the E3 or E5 SKU, the simple way to think about the list of endpoints is that you need all of them to get full functionality for the suite. If you aren't subscribed to either of these SKUs the difference is minimal in terms of the number of endpoints.
   
-Read [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
+Read [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
   
 In the image below, you can see an example from a portion of the FQDN table in the Office Online section. The rows are organized by feature and differences in connectivity. The first two rows indicate Office Online relies on the endpoints marked Required in the Office 365 Authentication and Identity and portal and shared sections. This is typical for a service within Office 365 to rely on these shared services. The third row indicates client computers must be able to reach \*.officeapps.live.com to use Office Online and the fourth row indicates computers must also be able to reach \*.cdn.office.net to use Office Online.
   
@@ -1343,7 +1343,7 @@ The list of services is subject to change at any time. Some of the services curr
     
 The following diagram shows the differences between these service areas. In this diagram, the customer on-premises network in the lower left has multiple network devices to assist in managing network connectivity. Configurations like this one are common for enterprise customers. If your network only has a firewall between your client computers and the internet, that's supported as well, and you'll want to ensure your firewall can support FQDNs and wildcards in the allow list rules.
   
-Read [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
+Read [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
   
 ![Shows the three different types of network endpoints when using Office 365](media/6582bcfa-11ba-4ac2-9b69-14bef0437670.png)
   
@@ -1354,14 +1354,14 @@ Office 365 is a suite of services built to function over the internet, the relia
   
 In addition to these basic internet services, there are third-party services that are only used to integrate functionality. For example, using Giphy.com within Microsoft Teams allows customers to seamlessly include Gifs within Teams. Similarly, YouTube and Flickr are third-party services that are used to seamlessly integrate video and images into Office clients from the internet. While these are needed for integration, they're marked as optional in the Office 365 endpoints article which means core functionality of the service will continue to function if the endpoint isn't accessible.
   
-If you're attempting to use Office 365 and are finding third party services aren't accessible you'll want to [ensure all FQDNs marked required or optional in this article are allowed through the proxy and firewall](https://aka.ms/o365endpoints).
+If you're attempting to use Office 365 and are finding third party services aren't accessible you'll want to [ensure all FQDNs marked required or optional in this article are allowed through the proxy and firewall](urls-and-ip-address-ranges.md).
   
 ### I can't or don't want to use any secondary services
 <a name="bkmk_secondary"> </a>
 
 Secondary services are Microsoft services that don't fall within Office 365 control. These are things like the edge network, Azure Media Services, and Azure Content Delivery Networks. These are all required to use Office 365 and must be reachable.
   
-If you're attempting to use Office 365 and are finding third party services aren't accessible you'll want to [ensure all FQDNs marked required or optional in this article are allowed through the proxy and firewall](https://aka.ms/o365endpoints).
+If you're attempting to use Office 365 and are finding third party services aren't accessible you'll want to [ensure all FQDNs marked required or optional in this article are allowed through the proxy and firewall](urls-and-ip-address-ranges.md).
   
 ### How do I block access to Microsoft's consumer services?
 <a name="bkmk_consumer"> </a>
@@ -1380,10 +1380,10 @@ Keep in mind that blocking access to the Microsoft consumer services alone won't
   
 [Power BI and ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)
   
-[Office 365 URLs and IP address ranges](https://aka.ms/o365endpoints)
+[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
   
 [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
   
-[Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples)
+[Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
   
 
