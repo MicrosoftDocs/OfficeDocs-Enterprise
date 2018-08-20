@@ -3,7 +3,7 @@ title: "Disable access to services with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/08/2018
+ms.date: 08/20/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,7 +22,7 @@ description: "Explains how to use Office 365 PowerShell to disable access to Off
 
 **Summary:** Explains how to use Office 365 PowerShell to disable access to Office 365 services for users in your organization.
   
-When an Office 365 account is assigned a license from a licensing plan, Office 365 services are made available to the user from that license. However, you can control the Office 365 services that the user can access. For example, even though the license allows access to SharePoint Online, you can disable access to it. In fact, you can use Office 365 PowerShell to disable access to any number of services for:
+When an Office 365 account is assigned a license from a licensing plan, Office 365 services are made available to the user from that license. However, you can control the Office 365 services that the user can access. For example, even though the license allows access to the SharePoint Online service, you can disable access to it. You can use Office 365 PowerShell to disable access to any number of services for a specific licensing plan for:
 
 - An individual account.
     
@@ -43,9 +43,9 @@ When an Office 365 account is assigned a license from a licensing plan, Office 3
     
 - If you use the **Get-MsolUser** cmdlet without using the _All_ parameter, only the first 500 user accounts are returned.
     
-## Specific Office 365 services for specific users for a single licensing plan
+## Disable specific Office 365 services for specific users for a specific licensing plan
   
-To disable a specific set of Office 365 services for users from a single licensing plan, perform the following steps:
+To disable a specific set of Office 365 services for users for a specific licensing plan, perform the following steps:
   
 1. Identify the undesirable services in the licensing plan by using the following syntax:
     
@@ -129,53 +129,12 @@ To disable a specific set of Office 365 services for users from a single licensi
   Get-Content "C:\My Documents\Accounts.txt" | foreach {Set-MsolUserLicense -UserPrincipalName $_ -LicenseOptions $LO}
   ```
 
+If you want to disable access to services for multiple licensing plans, repeat the above instructions for each licensing plan, ensuring that:
+
+- The user accounts have been assigned the licensing plan.
+- The services to disable are available in the licensing plan.
+
 To disable Office 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
-  
-## Specific Office 365 services for users from all licensing plans
-  
-To disable Office 365 services for users in all available licensing plans, perform the following steps:
-  
-1. Copy and paste this script into Notepad.
-    
-  ```
-  $AllLicensingPlans = Get-MsolAccountSku
-for($i = 0; $i -lt $AllLicensingPlans.Count; $i++)
-{
-    $O365Licences = New-MsolLicenseOptions -AccountSkuId $AllLicensingPlans[$i].AccountSkuId -DisabledPlans "<UndesirableService1>", "<UndesirableService2>"...
-    Set-MsolUserLicense -UserPrincipalName <Account> -LicenseOptions $O365Licences
-}
-  ```
-
-2. Customize the following values for your environment:
-    
-  -  _<UndesirableService>_ In this example, we'll use Office Online and SharePoint Online.
-    
-  -  _<Account>_ In this example, we'll use belindan@litwareinc.com.
-    
-    The customized script looks like this:
-    
-  ```
-  $AllLicensingPlans = Get-MsolAccountSku
-for($i = 0; $i -lt $AllLicensingPlans.Count; $i++)
-{
-    $O365Licences = New-MsolLicenseOptions -AccountSkuId $AllLicensingPlans[$i].AccountSkuId -DisabledPlans "SHAREPOINTWAC", "SHAREPOINTENTERPRISE"
-    Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -LicenseOptions $O365Licences
-}
-  ```
-
-3. Save the script as  `RemoveO365Services.ps1` in a location that's easy for you to find. For this example, we'll save the file in `C:\\O365 Scripts`.
-    
-4. Run the script in Office 365 PowerShell by using the following command.
-    
-  ```
-  & "C:\O365 Scripts\RemoveO365Services.ps1"
-  ```
-
-> [!NOTE]
-> To reverse the effects of any of these procedures (that is, to re-enable the disabled services), run the procedure again, but use the value `$null` for the _DisabledPlans_ parameter.
-  
-[Return to top](disable-access-to-services-with-office-365-powershell.md#RTT)
-
 
 
 ## New to Office 365?
