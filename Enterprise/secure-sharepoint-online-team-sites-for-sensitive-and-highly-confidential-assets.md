@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 ms.assetid: 8c088e88-a9ba-4044-bced-722196f4496d
@@ -26,7 +28,7 @@ Security and SharePoint administrators in Contoso's IT department decided to use
   
 **Figure 1: Comparison of sensitive protection and highly confidential SharePoint Online team sites**
 
-![Sensitive protection and highly confidential SharePoint Online team sites](images/Contoso_Poster/SP_Solution.png)
+![Sensitive protection and highly confidential SharePoint Online team sites](media/Contoso-Poster/SP-Solution.png)
   
 Contoso used these steps to create secure SharePoint Online team sites for their executives and research teams:
   

@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -24,7 +26,7 @@ description: "Summary: Configure directory synchronization for your Office 365 d
   
 Many organizations use Azure AD Connect and directory synchronization to synchronize the set of accounts in their on-premises Windows Server Active Directory (AD) forest to the set of accounts in Office 365. This article describes how you can add directory synchronization with password hash synchronization to the Office 365 dev/test environment, resulting in the following configuration.
   
-![The Office 365 dev/test environment with directory synchronization](images/be5b37b0-f832-4878-b153-436c31546e21.png)
+![The Office 365 dev/test environment with directory synchronization](media/be5b37b0-f832-4878-b153-436c31546e21.png)
   
 This configuration consists of: 
   
@@ -43,7 +45,7 @@ There are two phases to setting up this dev/test environment:
 
 Follow the instructions in phases 1, 2, and 3 of the [Office 365 dev/test environment](office-365-dev-test-environment.md) article. Here is the resulting configuration.
   
-![The Office 365 dev/test environment](images/48fb91aa-09b0-4020-a496-a8253920c45d.png)
+![The Office 365 dev/test environment](media/48fb91aa-09b0-4020-a496-a8253920c45d.png)
   
 This configuration consists of: 
   
@@ -99,7 +101,7 @@ Stop-Process -Name Explorer -Force
     
 This is the resulting configuration.
   
-![The Office 365 dev/test environment with directory synchronization](images/be5b37b0-f832-4878-b153-436c31546e21.png)
+![The Office 365 dev/test environment with directory synchronization](media/be5b37b0-f832-4878-b153-436c31546e21.png)
   
 This configuration consists of: 
   
@@ -108,7 +110,7 @@ This configuration consists of:
     
 ## Next Step
 
-When you are ready to deploy directory synchronization for your organization, see [Deploy Office 365 directory synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md).
+When you are ready to deploy directory synchronization for your organization, see [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md).
 
 ## See Also
 

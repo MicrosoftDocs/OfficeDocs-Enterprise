@@ -25,12 +25,11 @@ description: "Summary: Connect Windows PowerShell to all Office 365 services in 
   
 When you use PowerShell to manage Office 365, it is possible to have up to five different Windows PowerShell sessions open at the same time corresponding to Office 365 admin center, SharePoint Online, Exchange Online, Skype for Business Online, and the Security &amp; Compliance Center. With five different connection methods in separate Windows PowerShell sessions, your desktop could look like this:
   
-![Five Windows PowerShell consoles running at once](images/a1a852c2-89ea-4e8e-8d8b-dcdf596763d1.png)
+![Five Windows PowerShell consoles running at once](media/a1a852c2-89ea-4e8e-8d8b-dcdf596763d1.png)
   
 This is not optimal for managing Office 365 because you can't exchange data among those five windows for cross-service management. This topic describes how to use a single instance of Windows PowerShell from which you can manage Office 365, Skype for Business Online, Exchange Online, SharePoint Online, and the Security &amp; Compliance Center.
 
 ## Before you begin
-<a name="BeforeYouBegin"> </a>
 
 Before you can manage all of Office 365 from a single instance of Windows PowerShell, consider the following prerequisites:
   
@@ -67,7 +66,6 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
   ```
 
 ## Connection steps when using a password
-<a name="ConnStepsPassword"> </a>
 
 Here are the steps to connect to all the services in a single PowerShell window.
   
@@ -161,7 +159,6 @@ Remove-PSSession $sfboSession ; Remove-PSSession $exchangeSession ; Remove-PSSes
 ```
 
 ## Connection steps when using multi-factor authentication
-<a name="ConnStepsMFA"> </a>
 
 Here are all the commands in a single block to connect to Azure AD, SharePoint Online, and Skype for Buiness using multi-factor authentication in a single window. Specify the user principal name (UPN) name of a global administrator account and your domain host name, and then run them all at one time.
 
@@ -198,10 +195,6 @@ For Exchange Online and the Security &amp; Compliance Center, see the following 
  
 Note that in both cases, you must connect using separate sessions of the Exchange Online Remote PowerShell Module.
 
-
-## New to Office 365?
-
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
 
 ## See also
 

@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -22,7 +24,7 @@ description: "Summary: Use this Test Lab Guide to add Dynamics 365 to your Offic
   
 With the instructions in this article, you add a Dynamics 365 trial subscription to the same organization as your Office 365 dev/test environment, creating an Office 365 and Dynamics 365 dev/test environment.
 
-![Office 365 and Dynamics 365 dev/test environment](images/o365-dynamics365-dev-test.png)
+![Office 365 and Dynamics 365 dev/test environment](media/o365-dynamics365-dev-test.png)
   
   
 You can use a Dynamics 365 trial subscription to demonstrate features and capabilities of Dynamics 365. The following solutions are included with a Dynamics 365 Plan 1, Enterprise Edition trial:
@@ -37,7 +39,7 @@ You can use a Dynamics 365 trial subscription to demonstrate features and capabi
     
 You can explore one or more of the above for your Dynamics 365 trial subscription.
   
-![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
+![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
 > Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
@@ -48,7 +50,7 @@ If you just want to test Office 365 and Dynamics 365 in a lightweight way with t
   
 If you want to test Office 365 and Dynamics 365 for a simulated enterprise, follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
 
-![The Office 365 dev/test environment](images/48fb91aa-09b0-4020-a496-a8253920c45d.png)
+![The Office 365 dev/test environment](media/48fb91aa-09b0-4020-a496-a8253920c45d.png)
   
 > [!NOTE]
 > The configuration in this article does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can experiment with Office 365 and Dynamics 365 in an environment that represents a typical organization. 
@@ -71,7 +73,7 @@ In this phase, you sign up for the Dynamics 365 trial subscription and add it to
     
 6. On the **Order receipt** page, click **Continue**.
 
-![Office 365 and Dynamics 365 dev/test environment](images/o365-dynamics365-dev-test.png)
+![Office 365 and Dynamics 365 dev/test environment](media/o365-dynamics365-dev-test.png)
     
 > [!NOTE]
 > The Dynamics 365 Plan 1 Enterprise Edition trial subscription is 30 days. You can easily extend the trail subscription for another 30 days. For a permanent dev/test environment, create a new paid subscription with a small number of licenses. 

@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 ms.assetid: 06d8c959-39e5-4150-b1ae-aaf0eee4c058
@@ -22,7 +24,7 @@ Use an architectural approach to plan and implement hybrid cloud scenarios with 
   
 **Figure 1: The Microsoft hybrid cloud stack**
 
-![The Microsoft hybrid cloud stack](images/Hybrid_Poster/Hybrid_Cloud_Stack.png)
+![The Microsoft hybrid cloud stack](media/Hybrid-Poster/Hybrid-Cloud-Stack.png)
   
 Figure 1 shows the Microsoft hybrid cloud stack and its layer, which include on-premises, network, Identity, apps and scenarios, and the category of cloud service (Microsoft SaaS, Azure PaaS, and Azure PaaS).
   
