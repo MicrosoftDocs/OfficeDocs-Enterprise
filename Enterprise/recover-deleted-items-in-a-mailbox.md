@@ -21,9 +21,11 @@ description: "This article is for administrators. Did a user permanently delete 
 
 # Recover deleted items in a user mailbox - Admin Help
 
-||
-|:-----|
-|**This article is for administrators. Are you trying to recover deleted items in your own mailbox?** <br/> **Try [Recover deleted items in Outlook for Windows](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce) | [Recover deleted items or email in Outlook Web App](https://support.office.com/article/c3d8fc15-eeef-4f1c-81df-e27964b7edd4) | [Restore deleted email messages in Outlook on the web](https://support.office.com/article/a8ca78ac-4721-4066-95dd-571842e9fb11) | [Outlook.com](https://go.microsoft.com/fwlink/p/?LinkID=623435)** <br/> |
+**This article is for administrators. Are you trying to recover deleted items in your own mailbox?** Try one of the following:
+- [Recover deleted items in Outlook for Windows](https://support.office.com/article/49e81f3c-c8f4-4426-a0b9-c0fd751d48ce)
+- [Recover deleted items or email in Outlook Web App](https://support.office.com/article/c3d8fc15-eeef-4f1c-81df-e27964b7edd4)
+- [Restore deleted email messages in Outlook on the web](https://support.office.com/article/a8ca78ac-4721-4066-95dd-571842e9fb11)
+- [Outlook.com](https://go.microsoft.com/fwlink/p/?LinkID=623435)
    
 Did a user permanently delete items from their Outlook mailbox? The user wants them back but can't recover them. You may be able recover the purged items if they haven't been permanently removed from the user's mailbox. You do this by using the In-Place eDiscovery tool in Exchange Online to search for deleted email and other items—and such as contacts, calendar appointments, and tasks—in a user's mailbox. If you find the deleted items, you can export them to a PST file (also called an Outlook Data File), which the user can then use to restore the items back to their mailbox.
   
