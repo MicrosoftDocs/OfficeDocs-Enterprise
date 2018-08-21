@@ -108,7 +108,7 @@ In AAD there are two types of user objects: cloud only users and synchronized us
 ### Synchronize user’s Preferred Data Location using AD Connect 
 
 If your company’s users are synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), their PreferredDataLocation must be populated in AD and synchronized to AAD.
-Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises AD to AAD.
+Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises AD to AAD.
 
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 
@@ -125,7 +125,7 @@ The procedures in this section require the [Microsoft Azure Active Directory Mod
 
 2.  Run `Connect-MsolService` and enter the global administrator credentials for your tenant.
 
-3.  Use the [Set-MsolUser](https://docs.microsoft.com/en-us/powershell/msonline/v1/set-msoluser) cmdlet to set the preferred data location for each of your users. For example:
+3.  Use the [Set-MsolUser](https://docs.microsoft.com/powershell/msonline/v1/set-msoluser) cmdlet to set the preferred data location for each of your users. For example:
 
     `Set-MsolUser -userprincipalName Robyn.Buckley@Contoso.com -PreferredDatalocation EUR`
 
@@ -133,7 +133,7 @@ The procedures in this section require the [Microsoft Azure Active Directory Mod
 
     `(Get-MsolUser -userprincipalName Robyn.Buckley@Contoso.com).PreferredDatalocation`
 
-![](media/multi-geo-tenant-configuration_image3.png)
+![](media/multi-geo-tenant-configuration-image3.png)
 
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 

@@ -12,9 +12,10 @@ ms.collection:
 - GDPR
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.custom: 
 ms.assetid:
-
 description: "Learn how to modify or create new Office 365 sensitive information types for GDPR."
 ---
 # Customize or create a new sensitive information type

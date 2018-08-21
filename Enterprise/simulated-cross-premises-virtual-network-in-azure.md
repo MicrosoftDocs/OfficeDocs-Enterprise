@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -23,7 +25,7 @@ description: "Summary: Create a simulated cross-premises virtual network in Micr
   
 This article steps you through creating a simulated hybrid cloud environment with Microsoft Azure using two Azure virtual networks. Here is the resulting configuration. 
   
-![Phase 3 of the simulated cross-premises virtual network dev/test environment, with the DC2 virtual machine in the XPrem VNet](images/df458c56-022b-4688-ab18-056c3fd776b4.png)
+![Phase 3 of the simulated cross-premises virtual network dev/test environment, with the DC2 virtual machine in the XPrem VNet](media/df458c56-022b-4688-ab18-056c3fd776b4.png)
   
 This simulates an Azure IaaS hybrid cloud production environment and consists of:
   
@@ -52,7 +54,7 @@ There are three major phases to setting up this dev/test environment:
 > [!NOTE]
 > This configuration requires a paid Azure subscription. 
   
-![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
+![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
 > Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
@@ -63,7 +65,7 @@ Use the instructions in [Base Configuration dev/test environment](base-configura
   
 This is your current configuration. 
   
-![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
 ## Phase 2: Create the XPrem virtual network
 
@@ -122,7 +124,7 @@ Add-AzureRmVirtualNetworkPeering -Name XPrem2TestLab -VirtualNetwork $vnet2 -Rem
 
 This is your current configuration. 
   
-![Phase 2 of the simulated cross-premises virtual network dev/test environment, with the XPrem VNet and the VNet peering relationship](images/cac5e999-69c7-4f4c-bfce-a7f4006115ef.png)
+![Phase 2 of the simulated cross-premises virtual network dev/test environment, with the XPrem VNet and the VNet peering relationship](media/cac5e999-69c7-4f4c-bfce-a7f4006115ef.png)
   
 ## Phase 3: Configure DC2
 
@@ -194,7 +196,7 @@ New-ADReplicationSubnet -Name "192.168.0.0/16" -Site "XPrem"
 
 This is your current configuration. 
   
-![Phase 3 of the simulated cross-premises virtual network dev/test environment, with the DC2 virtual machine in the XPrem VNet](images/df458c56-022b-4688-ab18-056c3fd776b4.png)
+![Phase 3 of the simulated cross-premises virtual network dev/test environment, with the DC2 virtual machine in the XPrem VNet](media/df458c56-022b-4688-ab18-056c3fd776b4.png)
   
 Your simulated Azure hybrid cloud environment is now ready for testing.
   

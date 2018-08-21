@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 ms.assetid: 3e9c405a-415b-4584-aa7e-f2489299c457
@@ -24,7 +26,7 @@ As part of its business need to scale down its on-premises datacenters, Contoso 
   
 **Figure 1: SQL Server Stretch Database**
 
-![SQL Server Stretch Database as a hybrid data solution](images/Contoso_Poster/StretchDB01.png)
+![SQL Server Stretch Database as a hybrid data solution](media/Contoso-Poster/StretchDB01.png)
   
 Figure 1 shows how a SQL client sends T-SQL queries to a server running SQL Server 2016, which forwards them to an Azure SQL Stretch Database in Azure PaaS.
   
@@ -48,7 +50,7 @@ Here is the resulting configuration for one server running SQL Server 2016 in th
   
 **Figure 2: Using Stretch Database for a server in Contoso's datacenter**
 
-![Contoso's configuration SQL Server Stretch Database for a single computer running SQL Server](images/Contoso_Poster/StretchDB02.png)
+![Contoso's configuration SQL Server Stretch Database for a single computer running SQL Server](media/Contoso-Poster/StretchDB02.png)
 
   
 Figure 2 shows how user queries to an application server in Contoso's datacenter become SQL queries that are passed to an Azure SQL Stretch Database in Azure PaaS.

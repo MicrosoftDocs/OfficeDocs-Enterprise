@@ -14,7 +14,7 @@ search.appverid:
 - PDD140
 - MET150
 ms.assetid: 89d9feee-2285-419c-8c14-0f7f583536e0
-description: "PerformancePoint Server 2007, ProClarity, and SharePoint Server 2007 have reached end of support. Read this article to plan your BI solution upgrade."
+description: PerformancePoint Server 2007, ProClarity, and SharePoint Server 2007 have reached end of support. Read this article to plan your BI solution upgrade.
 ---
 
 # PerformancePoint Server 2007 end of support roadmap
@@ -27,7 +27,7 @@ Office 2007 servers and applications have reached their end of support, includin
 |SharePoint Server 2007 Service Pack 3  <br/> |October 10, 2017  <br/> |
 |PerformancePoint Server 2007 Service Pack 3  <br/> |January 9, 2018  <br/> |
    
-For more information about Office 2007 servers reaching retirement, see [Plan your upgrade for Office 2007 servers](https://support.office.com/article/4e5eab5f-05db-4627-9e17-421a6bf89606.aspx).
+For more information, see [Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md).
   
 ## What does end of support mean?
 
@@ -68,10 +68,10 @@ After you have explored your upgrade options, your next step is to prepare an up
   
 |**Option**|**In the cloud or on-premises?**|
 |:-----|:-----|
-|[Use Excel with Excel Online](pps-2007-end-of-support.md#ExcelAndOnline) <br/> |Both  <br/> |
-|[Use Power BI](pps-2007-end-of-support.md#PowerBI) <br/> |Both  <br/> |
-|[Use Reporting Services](pps-2007-end-of-support.md#SSRS) <br/> |On-premises only  <br/> |
-|[Use PerformancePoint Services](pps-2007-end-of-support.md#PPS) <br/> |On-premises only  <br/> |
+|[Excel with Excel Online](#use-excel-with-excel-online-in-the-cloud-or-on-premises) <br/> |Both  <br/> |
+|[Power BI](#use-power-bi-in-the-cloud-or-on-premises) <br/> |Both  <br/> |
+|[Reporting Services](#use-reporting-services-on-premises) <br/> |On-premises only  <br/> |
+|[PerformancePoint Services](#use-performancepoint-services-on-premises) <br/> |On-premises only  <br/> |
    
 ### Use Excel with Excel Online (in the cloud or on-premises)
 
@@ -79,15 +79,15 @@ With Excel Online—also known as Excel Services in SharePoint Server—people c
   
 The following table compares key advantages of using Excel with Office 365 to using Excel with SharePoint Server, with additional information below.
   
-|**[Excel with Office 365 (in the cloud)](pps-2007-end-of-support.md#ExcelO365)**|**[Excel with SharePoint Server (on-premises)](pps-2007-end-of-support.md#ExcelSPS)**|
+|**[Excel with Office 365 (in the cloud)](#excel-with-office-365-in-the-cloud)**|**[Excel with SharePoint Server (on-premises)](#excel-with-sharepoint-server-on-premises)**|
 |:-----|:-----|
-|**You get the latest, greatest version of Excel**. With Office 365, you get the latest version of Excel, which includes powerful, new chart types, the ability to create charts and tables quickly and easily, and support for more data sources. <br/> <br/> **Setup is much simpler**. Excel Online is included with Office 365 for business, so there's no heavy lifting on your part. Sign up and sign in, and you'll be up and running faster and more efficiently than upgrading your on-premises servers. <br/> <br/> **People have everywhere access to their workbooks**. People can securely view workbooks from wherever they are, using their computer, smart phone, and tablet. <br/> <br/> **There's more** ! See [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/> |**You manage your global settings**. As a SharePoint administrator, you can specify global settings, such as security, load balancing, session management, workbook caching, and external data connections. <br/> <br/> **You can use Excel Services with PerformancePoint Services**. You can configure Excel Services and PerformancePoint Services as part of your SharePoint Server installation, and include Excel Services reports in your PerformancePoint dashboards. <br/> <br/> **There's more** ! See [Business intelligence in Excel and Excel Services (SharePoint Server 2013)](https://support.office.com/article/2740f10c-579d-4b40-a1d9-7beb5d38547c.aspx) <br/> |
+|**You get the latest, greatest version of Excel**. With Office 365, you get the latest version of Excel, which includes powerful, new chart types, the ability to create charts and tables quickly and easily, and support for more data sources. <br/> <br/> **Setup is much simpler**. Excel Online is included with Office 365 for business, so there's no heavy lifting on your part. Sign up and sign in, and you'll be up and running faster and more efficiently than upgrading your on-premises servers. <br/> <br/> **People have everywhere access to their workbooks**. People can securely view workbooks from wherever they are, using their computer, smart phone, and tablet. <br/> <br/> **There's more**! See [BI capabilities in Excel and Office 365](https://support.office.com/article/26c0548e-124c-4fd3-aab3-5f64568cb743.aspx) <br/> |**You manage your global settings**. As a SharePoint administrator, you can specify global settings, such as security, load balancing, session management, workbook caching, and external data connections. <br/> <br/> **You can use Excel Services with PerformancePoint Services**. You can configure Excel Services and PerformancePoint Services as part of your SharePoint Server installation, and include Excel Services reports in your PerformancePoint dashboards. <br/> <br/> **There's more**! See [Business intelligence in Excel and Excel Services (SharePoint Server 2013)](https://support.office.com/article/2740f10c-579d-4b40-a1d9-7beb5d38547c.aspx) <br/> |
    
 #### Excel with Office 365 (in the cloud)
 
 If you move to Office 365, you'll have the most up-to-date services and applications, including Excel 2016 and Excel Online. PerformancePoint Services is not available in Office 365, so you'll be replacing your PerformancePoint dashboard content with Excel workbooks or other reports. The good news is, Excel 2016 has lots of new chart types and creating impressive dashboards in Excel is easier than ever. And, new features are being added regularly. To learn more, see [What's New in Excel 2016 for Windows](https://support.office.com/article/5fdb9208-ff33-45b6-9e08-1f5cdb3a6c73.aspx).
   
-And, when you purchase 50 seats or more of Office 365, the Microsoft FastTrack team can help you get set up. To learn more, see [Microsoft FastTrack](https://go.microsoft.com/fwlink/?linkid=780698).
+And, when you purchase 50 seats or more of Office 365, the Microsoft FastTrack team can help you get set up. To learn more, visit [FastTrack](https://www.microsoft.com/fasttrack/microsoft-365/office-365).
   
 #### Excel with SharePoint Server (on-premises)
 

@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -34,7 +36,7 @@ You can use an Office 365 trial subscription and create an Office 365 dev/test e
 > [!NOTE]
 > You might want to print this article to record the specific values that you will need for this environment over the 30 days of the Office 365 trial subscription. You can easily extend the trail subscription for another 30 days. For a permanent dev/test environment, create a new paid subscription with a small number of licenses. 
   
-![Test Lab Guides in the Microsoft Cloud](images/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
+![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
 > Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
@@ -47,7 +49,7 @@ You will need an Azure subscription. You can use the [Azure Free Trial](https://
   
 Here is the resulting configuration.
   
-![The Base Configuration dev/test environment in Azure](images/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+![The Base Configuration dev/test environment in Azure](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
 
 
   
@@ -57,13 +59,13 @@ This configuration consists of the DC1, APP1, and CLIENT1 virtual machines on a 
 
 To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.
   
-1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./images/Common_Images/TableLine.png)
+1. We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./media/Common-Images/TableLine.png)
     
 2. To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.
     
-  - Record the first and last name of your new account here: ![](./images/Common_Images/TableLine.png)
+  - Record the first and last name of your new account here: ![](./media/Common-Images/TableLine.png)
     
-  - Record the new email account address here: ![](./images/Common_Images/TableLine.png)@outlook.com
+  - Record the new email account address here: ![](./media/Common-Images/TableLine.png)@outlook.com
     
 ### Sign up for an Office 365 E5 trial subscription
 
@@ -93,7 +95,7 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
     
     Record the password that you typed in a secure location.
     
-    Record your fictional company name, to be referred to as the **organization name**, here: ![](./images/Common_Images/TableLine.png)
+    Record your fictional company name, to be referred to as the **organization name**, here: ![](./media/Common-Images/TableLine.png)
     
 5. Click **Create my account**.
     
@@ -101,9 +103,9 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
     
 7. Type the verification code from the received text message, and then click **Next**.
     
-8. Record the sign-in page URL here (select and copy): ![](./images/Common_Images/TableLine.png)
+8. Record the sign-in page URL here (select and copy): ![](./media/Common-Images/TableLine.png)
     
-9. Record the user ID here (select and copy): ![](./images/Common_Images/TableLine.png).onmicrosoft.com
+9. Record the user ID here (select and copy): ![](./media/Common-Images/TableLine.png).onmicrosoft.com
     
     This value will be referred to as the **Office 365 global administrator name**.
     
@@ -115,7 +117,7 @@ You should see main Office 365 portal page from which you can access Office Onli
   
 For the simulated enterprise Office 365 dev/test environment, here is your resulting configuration.
   
-![The Office 365 dev/test environment](images/48fb91aa-09b0-4020-a496-a8253920c45d.png)
+![The Office 365 dev/test environment](media/48fb91aa-09b0-4020-a496-a8253920c45d.png)
   
 This configuration consists of: 
   
@@ -221,11 +223,11 @@ New-SPOSite -Url $siteURL -Owner $owner -StorageQuota 1000 -Title "Support site 
 
 Record these values for working with or deploying additional Test Lab Guides in this test environment:
   
-- Office 365 global administrator name: ![](./images/Common_Images/TableLine.png).onmicrosoft.com (from step 9 of Phase 2)
+- Office 365 global administrator name: ![](./media/Common-Images/TableLine.png).onmicrosoft.com (from step 9 of Phase 2)
     
     Also record the password for this account in a secure location.
     
-- Your trial subscription organization name: ![](./images/Common_Images/TableLine.png) (from step 4 of Phase 2)
+- Your trial subscription organization name: ![](./media/Common-Images/TableLine.png) (from step 4 of Phase 2)
     
 - To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:
     
@@ -235,13 +237,13 @@ Record these values for working with or deploying additional Test Lab Guides in 
 
     Record the account names here:
     
-  - User 2 account name: user2@![](./images/Common_Images/TableLine.png).onmicrosoft.com
+  - User 2 account name: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - User 3 account name: user3@![](./images/Common_Images/TableLine.png).onmicrosoft.com
+  - User 3 account name: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - User 4 account name: user4@![](./images/Common_Images/TableLine.png).onmicrosoft.com
+  - User 4 account name: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - User 5 account name: user5@![](./images/Common_Images/TableLine.png).onmicrosoft.com
+  - User 5 account name: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com
     
     Also record the passwords for these accounts in a secure location.
     
@@ -251,11 +253,11 @@ Record these values for working with or deploying additional Test Lab Guides in 
   Get-SPOSite | Where URL -like "*/sites/*" | Sort URL | Select URL
   ```
 
-  - Production site URL: https://![](./images/Common_Images/TableLine.png).sharepoint.com/sites/production
+  - Production site URL: https://![](./media/Common-Images/TableLine.png).sharepoint.com/sites/production
     
-  - Sales site URL: https://![](./images/Common_Images/TableLine.png).sharepoint.com/sites/sales
+  - Sales site URL: https://![](./media/Common-Images/TableLine.png).sharepoint.com/sites/sales
     
-  - Support site URL: https://![](./images/Common_Images/TableLine.png).sharepoint.com/sites/support
+  - Support site URL: https://![](./media/Common-Images/TableLine.png).sharepoint.com/sites/support
     
 ## Next steps
 

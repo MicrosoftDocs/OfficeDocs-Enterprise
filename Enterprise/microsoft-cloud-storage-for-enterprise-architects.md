@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -23,7 +25,7 @@ description: "Summary: Design your storage for Microsoft cloud services and plat
   
 This article links you to a set of articles that describe what IT architects need to know about designing storage for organizations using Microsoft cloud services and platforms. You can also view this information as a 6-page poster and print it in tabloid format (also known as ledger, 11 x 17, or A3).
   
-[![Thumb image for Microsoft cloud storage model](images/0d4e2eb9-1109-4b3b-bf9e-2f3eff2e2cc4.png)  
+[![Thumb image for Microsoft cloud storage model](media/0d4e2eb9-1109-4b3b-bf9e-2f3eff2e2cc4.png)  
 ](https://www.microsoft.com/download/details.aspx?id=49552)
   
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842079) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842080) | [More languages](https://www.microsoft.com/download/details.aspx?id=49552)

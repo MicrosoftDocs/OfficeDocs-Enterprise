@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150s
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -35,7 +37,7 @@ Here is the configuration, with placeholder names for each server.
   
 **A high availability federated authentication for Office 365 infrastructure in Azure**
 
-![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](images/c5da470a-f2aa-489a-a050-df09b4d641df.png)
+![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](media/c5da470a-f2aa-489a-a050-df09b4d641df.png)
   
 All of the virtual machines are in a single cross-premises Azure virtual network (VNet). 
   

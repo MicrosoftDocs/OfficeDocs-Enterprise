@@ -11,6 +11,8 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.custom: 
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: "Summary: Create Office 365 and Enterprise Mobility + Security (EMS) trial subscriptions with users and groups for a political campaign dev/test environment."
@@ -180,11 +182,11 @@ Use these steps to verify that dynamic group membership and group-based licensin
 
 Record these values for working with the Office 365 and EMS trial subscriptions for this dev/test environment:
   
-- Your trial subscription organization name: ![](./images/Common_Images/TableLine.png) 
+- Your trial subscription organization name: ![](./media/Common-Images/TableLine.png) 
     
     For example, for the trial subscription domain name of contoso.onmicrosoft.com, the organization name is "contoso".
     
-- The Office 365 global administrator name: ![](./images/Common_Images/TableLine.png).onmicrosoft.com
+- The Office 365 global administrator name: ![](./media/Common-Images/TableLine.png).onmicrosoft.com
     
     Record the password for this account and the common initial password for the other user accounts in a secure location.
     
