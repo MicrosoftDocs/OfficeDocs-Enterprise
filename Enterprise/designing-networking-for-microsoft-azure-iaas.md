@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 ms.assetid: 9cb70c9d-9ed9-47cc-af5a-6403d87d3372
@@ -38,7 +40,7 @@ A cloud-only VNet has no connection to an on-premises network. Here is an exampl
   
 **Figure 1: A cloud-only VNet**
 
-![Figure 1: A cloud-only virtual network in Azure](images/8be19104-02b3-4a7f-b0a0-30d6fcf8890b.png)
+![Figure 1: A cloud-only virtual network in Azure](media/8be19104-02b3-4a7f-b0a0-30d6fcf8890b.png)
   
 Figure 1 shows a set of virtual machines in a cloud-only VNet.
   
@@ -46,7 +48,7 @@ A cross-premises VNet has a site-to-site (S2S) VPN or ExpressRoute connection to
   
 **Figure 2: A cross-premises VNet**
 
-![Figure 2: A cross-premises virtual network in Azure](images/caacf007-e0dc-45d3-9531-441109776d25.png)
+![Figure 2: A cross-premises virtual network in Azure](media/caacf007-e0dc-45d3-9531-441109776d25.png)
   
 Figure 2 shows a set of virtual machines in a cross-premises VNet, which is connected to an on-premises network.
   
@@ -83,7 +85,7 @@ There are two types of subnets in a VNet, a gateway subnet and a virtual machine
   
 **Figure 3: The two types of subnets in Azure**
 
-![Figure 3: The two types of subnets in Azure](images/2eaa512d-1293-4e9b-b927-6bfe0fc0acb4.png)
+![Figure 3: The two types of subnets in Azure](media/2eaa512d-1293-4e9b-b927-6bfe0fc0acb4.png)
   
 Figure 3 shows a VNet containing a gateway subnet that contains an Azure gateway and a set of virtual machine-hosting subnets containing virtual machines.
   
@@ -159,7 +161,7 @@ Azure Internet-facing load balancing randomly distributes unsolicited incoming t
   
 **Figure 4: An external load balancer in Azure**
 
-![Figure 4: An external load balancer in Azure](images/eb5945e5-0c2b-40f1-b9ed-54bb2b0f9e59.png)
+![Figure 4: An external load balancer in Azure](media/eb5945e5-0c2b-40f1-b9ed-54bb2b0f9e59.png)
   
 Figure 4 shows an external load balancer in Azure that distributes incoming traffic on an inbound NAT rule or endpoint to a set of virtual machines in a load-balanced set.
   
@@ -167,7 +169,7 @@ Azure internal load balancing randomly distributes unsolicited incoming traffic 
   
 **Figure 5: An internal load balancer in Azure**
 
-![Figure 5: An internal load balancer in Azure](images/d1451b73-6465-449d-b3e6-22160ce51f35.png)
+![Figure 5: An internal load balancer in Azure](media/d1451b73-6465-449d-b3e6-22160ce51f35.png)
   
 Figure 5 shows an internal load balancer in Azure that distributes incoming traffic on an inbound NAT rule or endpoint to a set of virtual machines in a load-balanced set.
   
@@ -179,7 +181,7 @@ If you need to forward traffic to virtual appliances in your VNet, you may need 
   
 **Figure 6: Virtual appliances and user-defined routes in Azure**
 
-![Figure 6: Virtual appliances and user-defined routes in Azure](images/f181d0f4-ebf9-439e-9c98-dec17428c32b.png)
+![Figure 6: Virtual appliances and user-defined routes in Azure](media/f181d0f4-ebf9-439e-9c98-dec17428c32b.png)
   
 Figure 6 shows a cross-premises VNet and a user-defined route assigned to a virtual machine-hosting subnet that points to a virtual appliance.
   
@@ -202,7 +204,7 @@ Table 5 lists the methods for filtering or inspecting unsolicited incoming traff
   
 **Figure 7: Connecting to Azure virtual machines over the Internet**
 
-![Figure 7: Connecting to Azure virtual machines over the Internet](images/c5e3531b-170a-4482-a6ff-fb8fbbe81b35.png)
+![Figure 7: Connecting to Azure virtual machines over the Internet](media/c5e3531b-170a-4482-a6ff-fb8fbbe81b35.png)
   
 Figure 7 shows an Internet-connected computer connecting to a virtual machine in a cloud service using an endpoint, a virtual machine on a subnet using a network security group, and a virtual machine on a subnet using an external load balancer and inbound NAT rules.
   
@@ -226,7 +228,7 @@ A daisy chain configuration connects the VNets in a series.
   
 **Figure 8: A daisy-chained configuration for VNets**
 
-![Figure 8: A daisy-chained configuration for Azure virtual networks](images/264d5dd4-06c5-483f-9428-a18cc1f68ac1.png)
+![Figure 8: A daisy-chained configuration for Azure virtual networks](media/264d5dd4-06c5-483f-9428-a18cc1f68ac1.png)
   
 Figure 8 shows five VNets connected in series using a daisy-chained configuration.
   
@@ -234,7 +236,7 @@ A spoke and hub configuration connects multiple VNets to a set of central VNets,
   
 **Figure 9: A spoke and hub configuration for VNets**
 
-![Figure 9: A spoke and hub configuration for Azure virtual networks](images/dd442a38-5b76-4ac5-b743-8fc7711a91ba.png)
+![Figure 9: A spoke and hub configuration for Azure virtual networks](media/dd442a38-5b76-4ac5-b743-8fc7711a91ba.png)
   
 Figure 9 shows six VNets, two VNets are hubs that are connected to each other and also two other spoke VNets.
   
@@ -242,7 +244,7 @@ A full mesh configuration connects every VNet to each other.
   
 **Figure 10: A full mesh configuration for VNets**
 
-![Figure 10: A mesh configuration for Azure virtual networks](images/9dda0738-10db-4a63-95b3-79851a399b71.png)
+![Figure 10: A mesh configuration for Azure virtual networks](media/9dda0738-10db-4a63-95b3-79851a399b71.png)
   
 Figure 10 shows four VNets that are all connected to each other, using a total of six VNet-to-VNet connections.
   
@@ -275,7 +277,7 @@ For more information about VNet peering, see [VNet peering](https://docs.microso
   
 **Figure 11: The four ways to connect to a cross-premises VNet**
 
-![Figure 11: The three ways to connect to a cross-premises Azure virtual network](images/d5d4a625-cfbd-4a77-9159-eaca69d07e93.png)
+![Figure 11: The three ways to connect to a cross-premises Azure virtual network](media/d5d4a625-cfbd-4a77-9159-eaca69d07e93.png)
   
 Figure 11 shows a VNet with the four types of connections: a P2S connection from a computer, an S2S VPN connection from an on-premises network, an ExpressRoute connection from an on-premises network, and a VNet-to-VNet connection from another VNet. 
   
@@ -307,7 +309,7 @@ Your on-premises VPN device or router acts as:
     
 **Figure 12: The on-premises VPN router or device**
 
-![Figure 12: The on-premises VPN router or device](images/bd221468-a660-4730-aa55-0426986480b9.png)
+![Figure 12: The on-premises VPN router or device](media/bd221468-a660-4730-aa55-0426986480b9.png)
   
 Figure 12 shows a cross-premises VNet connected to an on-premises VPN router or device.
   
@@ -323,7 +325,7 @@ Routing to VNets from on-premises consists of the following:
     
 **Figure 13: The on-premises routes needed to make a VNet reachable**
 
-![Figure 13: The on-premises routes needed to make an Azure VNet reachable](images/7a1e20c1-fbc4-4cb9-9961-735da4e23307.png)
+![Figure 13: The on-premises routes needed to make an Azure VNet reachable](media/7a1e20c1-fbc4-4cb9-9961-735da4e23307.png)
   
 Figure 13 shows the routing information needed by the on-premises routers and the VPN router or device that represents the address space of the VNet.
   
@@ -339,7 +341,7 @@ You can create an ExpressRoute connection with private peering between your on-p
     
 **Figure 14: Using ExpressRoute to connect to a cross-premises VNet**
 
-![Figure 14: Using ExpressRoute to connect to a cross-premises Azure virtual network](images/7030bd39-69a6-4283-8567-3434e1ab6ba6.png)
+![Figure 14: Using ExpressRoute to connect to a cross-premises Azure virtual network](media/7030bd39-69a6-4283-8567-3434e1ab6ba6.png)
   
 Figure 14 shows a cross-premises VNet and an ExpressRoute connection from an on-premises router to Microsoft Azure.
   
@@ -351,7 +353,7 @@ For the routing to on-premises or other VNets from a VNet, Azure forwards traffi
   
 **Figure 15: The Local Network address space for a cross-premises VNet**
 
-![Figure 15: The Local Network address space for a cross-premises Azure virtual network](images/e3af2652-8b8e-4551-9a0b-b550e6e7e3c0.png)
+![Figure 15: The Local Network address space for a cross-premises Azure virtual network](media/e3af2652-8b8e-4551-9a0b-b550e6e7e3c0.png)
   
 Figure 15 shows a cross-premises VNet and the Local Network address space on the Azure gateway, which represents the reachable address space on the on-premises network. 
   
@@ -365,7 +367,7 @@ Because the Azure gateway does not allow summarized routes, you must define the 
   
 **Figure 16: The address space hole created by the VNet address space**
 
-![Figure 16: The address space hole created by the virtual network address space](images/e79c4840-f9e3-4741-9b72-59db6043aefa.png)
+![Figure 16: The address space hole created by the virtual network address space](media/e79c4840-f9e3-4741-9b72-59db6043aefa.png)
   
 Figure 16 shows a representation of an address space, with the root space and the VNet address space.
   
@@ -393,7 +395,7 @@ To ensure that on-premises computers can resolve the names of Azure-based server
     
 **Figure 17: DNS replication and forwarding for a DNS server in a cross-premises VNet**
 
-![Figure 17: DNS replication and forwarding for a DNS server in a cross-premises Azure virtual network](images/ab55e5ce-ccb0-49d4-a301-657a727f97b2.png)
+![Figure 17: DNS replication and forwarding for a DNS server in a cross-premises Azure virtual network](media/ab55e5ce-ccb0-49d4-a301-657a727f97b2.png)
   
 Figure 17 shows a cross-premises VNet with DNS servers in the on-premises network and on a subnet in the VNet. DNS replication and forwarding has been configured between the two DNS servers.
   
@@ -403,7 +405,7 @@ The default system route for Azure subnets points to the Internet. To ensure tha
   
 **Figure 18: User-defined routes and forced tunneling for a cross-premises VNet**
 
-![Figure 18: User-defined routes and forced tunneling for a cross-premises Azure virtual network](images/1e545ec6-c2d9-48d2-bb5e-e0a581fee004.png)
+![Figure 18: User-defined routes and forced tunneling for a cross-premises Azure virtual network](media/1e545ec6-c2d9-48d2-bb5e-e0a581fee004.png)
   
 Figure 18 shows a cross-premises VNet with a user-defined route for a subnet pointing to the Azure gateway.
   
@@ -414,7 +416,7 @@ An example of an intranet IT workload hosted in Azure IaaS is a highly-available
   
 **Figure 19: A highly-available intranet SharePoint Server 2016 farm in Azure IaaS**
 
-![A high-availability SharePoint Server 2016 farm in Azure IaaS](images/3a922e21-df91-455f-ba90-78abdd48d98d.png)
+![A high-availability SharePoint Server 2016 farm in Azure IaaS](media/3a922e21-df91-455f-ba90-78abdd48d98d.png)
   
 Figure 19 shows the nine servers of a SharePoint Server 2016 farm deployed in a cross-premises VNet that uses internal load balancers for the front-end and data tiers. For more information, including step-by-step design and deployment instructions, see [SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/mt779107%28v=office.16%29.aspx).
   

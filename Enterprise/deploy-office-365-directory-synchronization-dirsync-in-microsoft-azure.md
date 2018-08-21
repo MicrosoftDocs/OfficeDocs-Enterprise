@@ -8,6 +8,8 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -39,11 +41,10 @@ Azure Active Directory (AD) Connect (formerly known as the Directory Synchroniza
 > Office 365 uses Azure Active Directory (Azure AD) for its directory service. Your Office 365 subscription includes an Azure AD tenant. This tenant can also be used for management of your organization's identities with other cloud workloads, including other SaaS applications and apps in Azure. 
   
 ## Overview of deploying Office 365 directory synchronization in Azure
-<a name="Overview"> </a>
 
 The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises Windows Server AD forest to anOffice 365 subscription.
   
-![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Office 365 subscription with traffic flow](images/CP_DirSyncOverview.png)
+![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Office 365 subscription with traffic flow](media/CP-DirSyncOverview.png)
   
 In the diagram, there are two networks connected by a site-to-site VPN or ExpressRoute connection. There is an on-premises network where Windows Server AD domain controllers are located, and there is an Azure virtual network with a directory sync server, which is a virtual machine running [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594). There are two main traffic flows originating from the directory sync server:
   
@@ -83,11 +84,11 @@ Before you deploy this solution in production, use the instructions in [Director
 
 Before you begin, review the following prerequisites for this solution:
   
-- Review the related planning content in [Plan your Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#PlanningVirtual).
+- Review the related planning content in [Plan your Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#plan-your-azure-virtual-network).
     
-- Ensure that you meet all [prerequisites](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#Prerequisites) for configuring the Azure virtual network.
+- Ensure that you meet all [Prerequisites](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#prerequisites) for configuring the Azure virtual network.
     
-- Have an Office 365 subscription that includes the Active Directory integration feature. For information about Office 365 subscriptions, go to the [Office 365 subscription page](https://go.microsoft.com/fwlink/p/?LinkId=394278).
+- Have an Office 365 subscription that includes the Active Directory integration feature. For information about Office 365 subscriptions, go to the [Office 365 subscription page](https://products.office.com/compare-all-microsoft-office-products?tab=2).
     
 - Provision one Azure Virtual Machine that runs Azure AD Connect to synchronize your on-premises Windows Server AD forest with Office 365.
     
@@ -110,7 +111,6 @@ There are additional design choices that you might consider when you deploy this
 - If there are domain controllers in an existing Azure virtual network, determine whether configuring Active Directory Sites and Services may be a better option for you. The directory sync server can query the domain controllers in the Azure virtual network for changes in accounts and passwords instead of domain controllers on the on-premises network.
     
 ## Deployment roadmap
-<a name="DeploymentRoadmap"> </a>
 
 Deploying Azure AD Connect on a virtual machine in Azure consists of three phases:
   
@@ -127,11 +127,11 @@ After deployment, you must also assign locations and licenses for the new user a
   
 ### Phase 1: Create and configure the Azure virtual network
 
-To create and configure the Azure virtual network, complete [Phase 1: Prepare your on-premises network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#Phase1) and [Phase 2: Create the cross-premises virtual network in Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#Phase2) in the deployment roadmap of [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
+To create and configure the Azure virtual network, complete [Phase 1: Prepare your on-premises network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#phase-1-prepare-your-on-premises-network) and [Phase 2: Create the cross-premises virtual network in Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#phase-2-create-the-cross-premises-virtual-network-in-azure) in the deployment roadmap of [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
   
 This is your resulting configuration.
   
-![Phase 1 of the directory sync server for Office 365 hosted in Azure](images/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
+![Phase 1 of the directory sync server for Office 365 hosted in Azure](media/aab6a9a4-eb78-4d85-9b96-711e6de420d7.png)
   
 This figure shows an on-premises network connected to an Azure virtual network through a site-to-site VPN or ExpressRoute connection.
   
@@ -153,7 +153,7 @@ For Azure AD Connect to gain access to Internet resources, you must configure th
   
 This is your resulting configuration.
   
-![Phase 2 of the directory sync server for Office 365 hosted in Azure](images/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
+![Phase 2 of the directory sync server for Office 365 hosted in Azure](media/9d8c9349-a207-4828-9b2b-826fe9c06af3.png)
   
 This figure shows the directory sync server virtual machine in the cross-premises Azure virtual network.
   
@@ -163,14 +163,14 @@ Complete the following procedure:
   
 1. Connect to the directory sync server using a Remote Desktop Connection with a Windows Server AD domain account that has local administrator privileges. See [Connect to the virtual machine and sign on](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial?toc=%2fazure%2fvirtual-machines%2fwindows%2ftoc.json#connect-to-the-virtual-machine-and-sign-on).
     
-2. From the directory sync server, open the [Set up directory synchronization in Office 365](https://support.office.com/article/Set-up-directory-synchronization-in-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846) article and follow the directions for directory synchronization with password hash synchronization.
+2. From the directory sync server, open the [Set up directory synchronization for Office 365](set-up-directory-synchronization.md) article and follow the directions for directory synchronization with password hash synchronization.
     
 > [!CAUTION]
 > Setup creates the **AAD_xxxxxxxxxxxx** account in the Local Users organizational unit (OU). Do not move or remove this account or synchronization will fail.
   
 This is your resulting configuration.
   
-![Phase 3 of the directory sync server for Office 365 hosted in Azure](images/3f692b62-b77c-4877-abee-83c7edffa922.png)
+![Phase 3 of the directory sync server for Office 365 hosted in Azure](media/3f692b62-b77c-4877-abee-83c7edffa922.png)
   
 This figure shows the directory sync server with Azure AD Connect in the cross-premises Azure virtual network.
   
@@ -194,15 +194,13 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
     
 ## See Also
 
-<a name="DeploymentRoadmap"> </a>
-
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
 
 [Download Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594)
   
-[Set up directory synchronization in Office 365](https://support.office.com/article/Set-up-directory-synchronization-in-Office-365-1b3b5318-6977-42ed-b5c7-96fa74b08846)
+[Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
   
 [Directory Synchronization server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded)
 

@@ -28,12 +28,12 @@ The procedures in this article require you to connect to SharePoint Online. For 
 
 ## View SharePoint Online with Office 365 PowerShell
 
-The SharePoint Online admin center has some easy-to-use methods for managing site groups. For example, suppose you want to look at the groups, and the group members, for the https\://litwareinc.sharepoint.com/sites/finance site. Here’s what you have to do to:
+The SharePoint Online admin center has some easy-to-use methods for managing site groups. For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site. Here’s what you have to do to:
 
 1. From the Office 365 admin center, click **Resources** > **Sites**, and then click the URL of the site.
 2. In the site collection dialog box, click **Go to this site**.
 3. On the site page, click the **Settings** icon (located in the upper right-hand corner of the page) and then click **Site settings**:</br>
-![SharePoint Online site settings](images/spo-site-settings.png)</br>
+![SharePoint Online site settings](media/spo-site-settings.png)</br>
 4. On the Site Settings page, click **Sites permissions** under **Users and Permissions**.
 
 And then repeat the process for the next site you want to look at.
@@ -62,9 +62,9 @@ C:\Scripts\SiteGroupsAndUsers.ps1
 
 In both cases, you should see something similar to this:
 
-![SharePoint Online site groups](images/SPO-site-groups.png)
+![SharePoint Online site groups](media/SPO-site-groups.png)
 
-These are all the groups that have been created for the site https\://litwareinc.sharepoint.com/sites/finance, as well as all the users assigned to those groups. The group names are in yellow to help you separate group names from their members.
+These are all the groups that have been created for the site `https://litwareinc.sharepoint.com/sites/finance`, as well as all the users assigned to those groups. The group names are in yellow to help you separate group names from their members.
 
 As another example, here is a command set that lists the groups, and all the group memberships, for all of your SharePoint Online sites.
 
@@ -86,7 +86,7 @@ foreach ($y in $x)
     
 ## See also
 
-[Connect to SharePoint Online PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 [Create SharePoint Online sites and add users with Office 365 PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
 

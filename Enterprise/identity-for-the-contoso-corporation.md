@@ -26,7 +26,7 @@ Contoso uses a single Windows Server Active Directory (AD) forest for contoso.co
   
 **Figure 1: Contoso's forest and domains worldwide**
 
-![Contoso's Windows Server AD forest and domains across the world](images/Contoso_Poster/Contoso_WW_ID.png)
+![Contoso's Windows Server AD forest and domains across the world](media/Contoso-Poster/Contoso-WW-ID.png)
   
 Figure 1 shows the Contoso forest with regional domains for the different parts of the world that contain regional hubs.
   
@@ -42,7 +42,7 @@ Contoso allows:
     
 **Figure 2: Contoso's support for federated authentication for customers and partners**
 
-![Contoso's existing infrastructure to support federated authentication for customers and partners](images/Contoso_Poster/Federated_ID.png)
+![Contoso's existing infrastructure to support federated authentication for customers and partners](media/Contoso-Poster/Federated-ID.png)
   
 Figure 2 shows the Contoso DMZ containing a public web site, a partner extranet, and a set of AD FS servers. The DMZ is connected to the Internet that contains customers and partners and Internet services.
   
@@ -56,7 +56,7 @@ Contoso has deployed the Azure AD Connect tool on a cluster of servers in its Pa
   
 **Figure 3: Contoso's directory synchronization infrastructure**
 
-![Contoso's directory synchronization infrastructure](images/Contoso_Poster/DirSync.png)
+![Contoso's directory synchronization infrastructure](media/Contoso-Poster/DirSync.png)
   
 Figure 3 shows a cluster of servers running Azure AD Connect synchronizing the Contoso Windows Server AD forest with the Azure AD tenant.
   
@@ -70,7 +70,7 @@ To distribute the load of authentication requests, Contoso has configured Azure 
   
 **Figure 4: Geographical distribution of authentication traffic for regional offices**
 
-![Geographical distribution of Contoso authentication traffic for regional offices](images/Contoso_Poster/Auth_GeoDist.png)
+![Geographical distribution of Contoso authentication traffic for regional offices](media/Contoso-Poster/Auth-GeoDist.png)
   
 Figure 4 shows the layers of client computers, Azure Traffic Manager, and authentication servers in regional offices. Each regional office uses web proxies and AD FS servers to authenticate user credentials with Windows Server AD domain controllers.
   
@@ -102,7 +102,7 @@ To provide redundancy for the remote and mobile workers of the Paris headquarter
   
 **Figure 5: Redundant authentication infrastructure in Azure IaaS**
 
-![The redundant authentication infrastructure in Azure IaaS for the Paris headquarters](images/Contoso_Poster/Paris_Auth_Redun.png)
+![The redundant authentication infrastructure in Azure IaaS for the Paris headquarters](media/Contoso-Poster/Paris-Auth-Redun.png)
   
 Figure 5 shows web proxies and AD FS servers in the DMZ and an additional set of each in a cross-premises Azure virtual network.
   

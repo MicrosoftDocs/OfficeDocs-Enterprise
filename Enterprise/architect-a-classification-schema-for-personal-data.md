@@ -14,7 +14,8 @@ ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: 
 ms.assetid:
-
+search.appverid:
+- MET150
 description: "Determine whether your organization will implement labels as part of your GDPR plan."
 ---
 # Architect a classification schema for personal data

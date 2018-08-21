@@ -11,6 +11,8 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.service: o365-solutions
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.custom: 
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: "Summary: Create public, private, sensitive, and highly confidential SharePoint Online team sites in a dev/test environment."
@@ -22,7 +24,7 @@ description: "Summary: Create public, private, sensitive, and highly confidentia
   
 This article provides step-by-step instructions to create a dev/test environment that includes the four different types of SharePoint Online team sites for the [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md) solution.
   
-![All four team sites in the secure SharePoint Online dev/test environment.](images/b0fea489-359c-4c85-a0ad-e4efb4a1e47f.png)
+![All four team sites in the secure SharePoint Online dev/test environment.](media/b0fea489-359c-4c85-a0ad-e4efb4a1e47f.png)
   
 Use this dev/test environment to experiment with the information protection behaviors and fine-tune settings for your specific needs before deploying SharePoint Online team sites in production.
   
@@ -265,7 +267,7 @@ Next, configure the documents folder of the Organization wide team site for the 
     
 Here is your resulting configuration.
   
-![Baseline-level protection for the Organization wide public SharePoint Online team site.](images/25c86847-a38d-49ad-bb5f-c7c04206b6dc.png)
+![Baseline-level protection for the Organization wide public SharePoint Online team site.](media/25c86847-a38d-49ad-bb5f-c7c04206b6dc.png)
   
 ### Project 1 team site
 
@@ -299,7 +301,7 @@ Next, configure the documents folder of the Project 1 team site for the Private 
     
 Here is your resulting configuration.
   
-![Baseline-level protection for the Project1 private SharePoint Online team site.](images/ecd96376-b5dc-4042-9cbd-b3765507ace7.png)
+![Baseline-level protection for the Project1 private SharePoint Online team site.](media/ecd96376-b5dc-4042-9cbd-b3765507ace7.png)
   
 ### Marketing campaigns team site
 
@@ -415,7 +417,7 @@ Next, configure a data loss prevention (DLP) policy that notifies users when the
     
 Here is your resulting configuration.
   
-![Sensitive-level protection for the Marketing campaigns isolated SharePoint Online team site.](images/33992bd5-96ee-4bfb-9ecf-c8a6736dd100.png)
+![Sensitive-level protection for the Marketing campaigns isolated SharePoint Online team site.](media/33992bd5-96ee-4bfb-9ecf-c8a6736dd100.png)
   
 ### Company strategy team site
 
@@ -577,13 +579,13 @@ To protect a document with Azure Information Protection and this new label, you 
   
 Here is your resulting configuration.
   
-![Highly confidential-level protection for the Company strategy isolated SharePoint Online team site.](images/c22695f9-50a1-4abf-a0dd-344b0c92cf94.png)
+![Highly confidential-level protection for the Company strategy isolated SharePoint Online team site.](media/c22695f9-50a1-4abf-a0dd-344b0c92cf94.png)
   
 You are now ready to create documents in these four sites and test access to them with various user accounts in your trial subscription.
   
 Here is the overall configuration for all four SharePoint Online team sites.
   
-![All four team sites in the secure SharePoint Online dev/test environment.](images/b0fea489-359c-4c85-a0ad-e4efb4a1e47f.png)
+![All four team sites in the secure SharePoint Online dev/test environment.](media/b0fea489-359c-4c85-a0ad-e4efb4a1e47f.png)
   
 ## Next step
 

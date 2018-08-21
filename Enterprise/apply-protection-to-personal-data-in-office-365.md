@@ -14,7 +14,8 @@ ms.service: o365-solutions
 localization_priority: Priority
 ms.custom: 
 ms.assetid:
-
+search.appverid:
+- MET150
 description: "Learn how to use DLP policies to protect personal data in Office 365."
 ---
 # Apply protection to personal data in Office 365

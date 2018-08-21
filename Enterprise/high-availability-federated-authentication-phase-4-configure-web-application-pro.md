@@ -151,7 +151,7 @@ Here is the configuration resulting from the successful completion of this phase
   
 **Phase 4: The Internet-facing load balancer and web application proxy servers for your high availability federated authentication infrastructure in Azure**
 
-![Phase 4 of the high availability Office 365 federated authentication infrastructure in Azure with the web application proxy servers](images/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
+![Phase 4 of the high availability Office 365 federated authentication infrastructure in Azure with the web application proxy servers](media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
   
 ## Next step
 
@@ -165,6 +165,6 @@ Use [High availability federated authentication Phase 5: Configure federated aut
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-[Federated identity for Office 365](https://support.office.com/article/Understanding-Office-365-identity-and-Azure-Active-Directory-06a189e7-5ec6-4af2-94bf-a22ea225a7a9#bk_federated)
+[Federated authentication options](about-office-365-identity.md#federated-authentication-options)
 
 
