@@ -25,7 +25,6 @@ description: "Explains how to use Office 365 PowerShell to determine the Office 
 In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use Office 365 PowerShell to view the status of services on user accounts. 
 
 ## Before you begin
-<a name="RTT"> </a>
 
 - The procedures in this topic require you to connect to Office 365 PowerShell. For instructions, see [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md).
     
@@ -85,6 +84,8 @@ This example returns all licensed users who aren't enabled for Skype for Busines
 ```
 Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[0].ServiceStatus[5].ProvisioningStatus -eq "Disabled" -and $_.Licenses[0].ServiceStatus[8].ProvisioningStatus -eq "Disabled"}
 ```
+
+
 
   
 ## See also
