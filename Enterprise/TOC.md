@@ -101,6 +101,7 @@
 #### [Office 365 Germany endpoints](office-365-germany-endpoints.md)
 #### [Network requests in Office 2016 for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Additional endpoints not included in the web services](additional-office365-ip-addresses-and-urls.md)
+#### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
 ### [Content delivery networks](https://support.office.com/article/0140f704-6614-49bb-aa6c-89b75dcd7f1f)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
