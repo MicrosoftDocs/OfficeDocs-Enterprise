@@ -3,7 +3,7 @@ title: "Additional Office 365 IP Addresses and URLs not included in the web serv
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/13/2018
+ms.date: 8/22/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -32,6 +32,7 @@ Some network endpoints were previously published and have not been included in t
 2. Network connectivity from servers on a customer network across the enterprise perimeter (outbound server network traffic)
 3. Uncommon scenarios for network connectivity requirements from a user
 4. DNS resolution connectivity requirement (not listed below)
+5. Internet Explorer or Microsoft Edge Trusted Sites
 
 Apart from DNS, these are all optional for most customers unless you need the specific scenario that is described.
 
@@ -46,6 +47,10 @@ Apart from DNS, these are all optional for most customers unless you need the sp
 | 6  | [Exchange Hybrid](https://docs.microsoft.com/exchange/exchange-deployment-assistant) co-existence functions such as Free/Busy sharing. | Customer on-premises Exchange server | Inbound server traffic |
 | 7  | [Exchange Hybrid](https://docs.microsoft.com/exchange/exchange-deployment-assistant) proxy authentication | Customer on-premises STS | Inbound server traffic |
 | 8  | Used to configure [Exchange Hybrid](https://docs.microsoft.com/exchange/exchange-deployment-assistant), using the Exchange Hybrid Configuration Wizard. <br> Note: These endpoints are only required to configure Exchange hybrid  | ```domains.live.com``` on TCP ports 80 & 443, only required for Exchange 2010 SP3 Hybrid Configuration Wizard. | Outbound server only traffic |
+| 9  | **Authentication and identity FQDNs** <br> The FQDN ```secure.aadcdn.microsoftonline-p.com``` needs to be in your client's Internet Explorer (IE) or Edge Trusted Sites Zone to function. |  | Trusted Sites |
+| 10  |  **Microsoft Teams FQDNs** <br> If you are using Internet Explorer or Microsoft Edge, you need to enable first and third-party cookies and add the FQDNs for Teams to your Trusted Sites. This is in addition to the suite-wide FQDNs, CDNs, and telemetry listed above. See [Known issues for Microsoft Teams](https://docs.microsoft.com/microsoftteams/known-issues) for more information. |  | Trusted Sites |
+| 11  |  **SharePoint Online and OneDrive for Business FQDNs** <br> All '.sharepoint.com' FQDNs with '\<tenant>' in the FQDN need to be in your client's IE or Edge Trusted Sites Zone to function. In addition to the suite-wide FQDNs, CDNs, and telemetry listed above, you'll need to also add these endpoints. |  | Trusted Sites |
+| 12  | **Yammer**  <br> Yammer is only available in the browser and requires the authenticated user to be passed through a proxy. All Yammer FQDNs need to be in your client's IE or Edge Trusted Sites Zone to function. |  | Trusted Sites |
 
 ## Related Topics
 
