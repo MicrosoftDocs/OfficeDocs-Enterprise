@@ -88,8 +88,8 @@
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### [Security best practices for Office 365](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
 ## Set up your network
-### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
+### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 ### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 ### [Office 365 Network Connectivity Principles](network-connectivity.md)
