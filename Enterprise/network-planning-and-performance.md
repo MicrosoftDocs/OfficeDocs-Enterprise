@@ -3,7 +3,7 @@ title: "Network planning and performance tuning for Office 365"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: 8/23/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -30,14 +30,14 @@ Before you deploy for the first time or migrate to Office 365, you can use the i
 
 Once you have Office 365 deployed, you can optimize your performance by using the topics in this section. If you experience performance degradation you can also use these topics to troubleshoot issues.
   
- **[Tune Office 365 performance](tune-office-365-performance.md) : ** For information about using network address translation with Office 365, see [NAT support with Office 365](nat-support-with-office-365.md). Also, take a look at the [top 10 tips for optimizing and troubleshooting your Office 365 network connectivity](https://blogs.technet.com/b/onthewire/archive/2014/06/18/top-10-tips-for-optimising-amp-troubleshooting-your-office-365-network-connectivity.aspx) by Paul Collinge. 
+ **[Tune Office 365 performance](tune-office-365-performance.md)**: For information about using network address translation with Office 365, see [NAT support with Office 365](nat-support-with-office-365.md). Also, take a look at the [top 10 tips for optimizing and troubleshooting your Office 365 network connectivity](https://blogs.technet.com/b/onthewire/archive/2014/06/18/top-10-tips-for-optimising-amp-troubleshooting-your-office-365-network-connectivity.aspx) by Paul Collinge. 
   
- **[Tune Exchange Online performance](tune-exchange-online-performance.md) : ** Use these articles to fine tune Exchange Online performance. 
+ **[Tune Exchange Online performance](tune-exchange-online-performance.md)**: Use these articles to fine tune Exchange Online performance. 
   
- **[Tune Skype for Business Online performance](tune-skype-for-business-online-performance.md) : ** Use these articles to fine tune Skype for Business Online performance. 
+ **[Tune Skype for Business Online performance](tune-skype-for-business-online-performance.md)**: Use these articles to fine tune Skype for Business Online performance. 
   
- **[Tune SharePoint Online performance](tune-sharepoint-online-performance.md) : ** Use these articles to fine tune SharePoint Online performance. 
+ **[Tune SharePoint Online performance](tune-sharepoint-online-performance.md)**: Use these articles to fine tune SharePoint Online performance. 
   
- **[Tune Project Online performance](https://support.office.com/article/12ba0ebd-c616-42e5-b9b6-cad570e8409c):** Use this article to fine tune Project Online performance. 
+ **[Tune Project Online performance](https://support.office.com/article/12ba0ebd-c616-42e5-b9b6-cad570e8409c)**: Use this article to fine tune Project Online performance. 
   
 
