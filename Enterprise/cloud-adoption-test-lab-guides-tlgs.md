@@ -1,9 +1,9 @@
 ---
-title: "Cloud adoption Test Lab Guides (TLGs)"
+title: "Test Office 365 with Cloud adoption Test Lab Guides (TLGs)"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/30/2018
+ms.date: 08/23/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -19,7 +19,7 @@ ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: "Summary: Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Dynamics 365, and Office Server products."
 ---
 
-# Cloud adoption Test Lab Guides (TLGs)
+# Test Office 365 with cloud adoption Test Lab Guides (TLGs)
 
  **Summary:** Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Dynamics 365, and Office Server products.
   
@@ -85,21 +85,10 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     
     Demonstrate how to create a SharePoint Online team site that is isolated from the rest of the organization for sensitive or highly confidential resources.
     
-## The Microsoft 365 Enterprise dev/test environment
+## The Microsoft 365 Enterprise test environment
 
-Create a dev/test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) scenarios with these articles:
-  
-- [The Microsoft 365 Enterprise dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
-    
-    Create the initial environment that includes Office 365 E5, EMS E5, and a computer running Windows 10 Enterprise.
-    
-- [MAM policies for your Microsoft 365 Enterprise dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/mam-policies-for-your-microsoft-365-enterprise-dev-test-environment)
-    
-    Create user groups and mobile application management (MAM) policies for ioS and Android devices.
-    
-- [Enroll iOS and Android devices in your Microsoft 365 Enterprise dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ)
-    
-    Enroll iOS or Android devices and manage them remotely.
+Create a test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) with [these articles](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).
+ 
     
 ## Office 365 and Dynamics 365 dev/test environment
 
@@ -147,7 +136,6 @@ Here are additional cloud-based dev/test environments that you can create in Azu
     
 ## See Also
 
-<a name="ADD_TLGs"> </a>
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
