@@ -66,7 +66,7 @@
 #### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 #### [Project Server 2007](project-server-2007-end-of-support.md)
 
-# Test Office 365
+# [Test Office 365](cloud-adoption-test-lab-guides-tlgs.md)
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
 ## [Office 365 dev/test environment](office-365-dev-test-environment.md)
 ### [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
