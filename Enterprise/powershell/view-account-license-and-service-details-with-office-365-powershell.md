@@ -3,7 +3,7 @@ title: "View account license and service details with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/20/2018
+ms.date: 08/27/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -43,7 +43,7 @@ In Office 365, licenses from licensing plans (also called SKUs or Office 365 pla
 
 ## To view services for a user account
 
-To view all the Office 365 PowerShell services that a user has access to, use the following syntax:
+To view all the Office 365 services that a user has access to, use the following syntax:
   
 ```
 (Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber>].ServiceStatus
@@ -85,7 +85,20 @@ This example returns all licensed users who aren't enabled for Skype for Busines
 Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[0].ServiceStatus[5].ProvisioningStatus -eq "Disabled" -and $_.Licenses[0].ServiceStatus[8].ProvisioningStatus -eq "Disabled"}
 ```
 
+To view all the services for a user who has been assigned *multiple licenses*, use the following syntax:
 
+```
+$userAccountUPN="<user account UPN>"
+$AllLicenses=(Get-MsolUser -UserPrincipalName $userAccountUPN).Licenses
+$licArray = @()
+for($i = 0; $i -lt $AllLicenses.Count; $i++)
+{
+$licArray += "License: " + $AllLicenses[$i].AccountSkuId
+$licArray +=  $AllLicenses[$i].ServiceStatus
+$licArray +=  ""
+}
+$licArray
+```
 
   
 ## See also
