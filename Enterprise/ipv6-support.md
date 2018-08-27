@@ -26,8 +26,7 @@ Office 365 supports both IPv6 and IPv4; however, not all Office 365 features are
   
 ||
 |:-----|
-||
-| This article is part of [Network planning and performance tuning for Office 365](https://aka.ms/tune)||
+| This article is part of [Network planning and performance tuning for Office 365](https://aka.ms/tune).|
 
 ## IPv6 support in Office 365 subscription service
 
