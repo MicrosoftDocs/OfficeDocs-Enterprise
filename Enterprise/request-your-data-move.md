@@ -40,7 +40,7 @@ We are unable to accept requests to be moved after the deadline in each geo.
 > [!NOTE]
 > This option is only available on the Office 365 admin center Preview. For instructions on how to access this, see [Office 365 for business - Admin Help](https://aka.ms/365admin). All requests for moves need to be done through the Office 365 admin center. Support will not be able to make this selection for you or override your selection. 
   
-Eligible customers will see a page in their [Office 365 Admin Center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter geo.
+Eligible customers will see a page in their [Office 365 Admin Center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
 To access the page in the Office 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
   
@@ -62,6 +62,8 @@ If your organization has data residency requirements, and you need to request a 
 ![Datacenter opt-in action screen](media/f97ab8d2-b0e1-49bf-9d6b-bf75f3081233.png)
   
 You should see the text on the **Data Residency Option** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
+
+
   
 ## What happens after requesting a move?
 
@@ -71,6 +73,10 @@ Moves may take up to 24 months from the request deadline for your country to com
   
 After requesting a move, it is not possible to change your selection as we begin to process the moves once you have made the request.
   
+## Microsoft Teams
+
+Microsoft Teams does not yet support migration of customer content at rest from in-region to in-country data centers where data residency for Microsoft Teams is available.  Therefore, only new customers will have all of their data stored within country in the new regions where Microsoft Teams supports data residency.  Learn more about Office 365 data residency for your company location at [Where is your data located?](https://office/com/datamaps)   
+
 ## Optional actions before you request a move
 
 Perform the following steps as appropriate.
