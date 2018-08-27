@@ -33,11 +33,10 @@ After you read the article, you'll likely understand why we don't provide [Offic
 If you're using Azure ExpressRoute for Office 365, in most cases your connectivity will go over a private connection to Office 365 instead of the public connection described here. The principles about how clients connect are still accurate. Learn more about [Azure ExpressRoute for Office 365](azure-expressroute.md).
   
 For more depth on Skype for Business network requests, read the article [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917).
-  
+
 ||
 |:-----|
-||
-| This article is part of [Network planning and performance tuning for Office 365](https://aka.ms/tune)||
+| This article is part of [Network planning and performance tuning for Office 365](https://aka.ms/tune).|
 
 > [!NOTE]
 > We take great care to manage customer data so it's secure and private in our datacenters. Details about the steps we take to manage privacy are included in the [Trust Center](https://go.microsoft.com/fwlink/?LinkID=397383).

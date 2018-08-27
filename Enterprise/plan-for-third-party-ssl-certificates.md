@@ -24,8 +24,10 @@ description: "Summary: Describes the SSL certificates needed for Exchange on-pre
  **Summary:** Describes the SSL certificates needed for Exchange on-premises and hybrid, SSO using AD FS, Exchange Online services, and Exchange Web Services. 
   
 To encrypt communications between your clients and theOffice 365Office 365 environment, third-party Secure Socket Layer (SSL) certificates must be installed on your infrastructure servers.
-  
-This article is part of [Network planning and performance tuning for Office 365](https://aka.ms/tune)
+
+||
+|:-----|
+| This article is part of [Network planning and performance tuning for Office 365](https://aka.ms/tune).|
    
 Certificates are required for the following Office 365 components:
   
