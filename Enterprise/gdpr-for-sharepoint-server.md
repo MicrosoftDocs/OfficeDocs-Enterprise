@@ -97,9 +97,9 @@ The search query history and usage records contain references to user names.
 
 ### Query history and favorite queries
 
-In SharePoint Server 2013 and SharePoint Server 2016, query histories and ‘favorite’ queries automatically expire after 365 days. If a user leaves your organization, it is possible to remove references to a user's name from the query history using the steps below..
+In SharePoint Server, query histories and ‘favorite’ queries automatically expire after 365 days. If a user leaves your organization, it is possible to remove references to a user's name from the query history using the steps below.
 
-The following SQL queries apply to SharePoint 2013 and SharePoint 2016 and make it possible to:
+The following SQL queries apply to SharePoint Server and make it possible to:
 
 -   Export a user’s query history or favorite queries
 
@@ -242,7 +242,7 @@ EXECUTE proc_MSS_QLog_Cleanup_Users '1-1-2017', 30 
 
 ### Delete usage records
 
-SharePoint Server 2013 and SharePoint Server 2016 automatically deletes usage records after 3 years. You can manually delete such records using the procedure below:
+SharePoint Server automatically deletes usage records after 3 years. You can manually delete such records using the procedure below:
 
 To delete all usage records associated with deleted documents: 
 
