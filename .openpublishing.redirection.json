@@ -91,6 +91,15 @@
       },
       {
 
+        "source_path": "enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o",
+
+        "redirect_document_id": true
+
+      },
+      {
+
         "source_path": "enterprise/search-for-and-find-personal-data.md",
 
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/search-for-and-find-personal-data",
