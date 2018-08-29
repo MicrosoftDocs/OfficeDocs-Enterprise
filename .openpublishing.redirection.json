@@ -97,6 +97,114 @@
 
         "redirect_document_id": true
 
+      },
+      {
+
+        "source_path": "enterprise/customize-or-create-a-new-sensitive-information-type.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/customize-or-create-a-new-sensitive-information-type",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/architect-a-classification-schema-for-personal-data.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/architect-a-classification-schema-for-personal-data",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/apply-labels-to-personal-data-in-office-365.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/apply-labels-to-personal-data-in-office-365",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/apply-protection-to-personal-data-in-office-365.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/apply-protection-to-personal-data-in-office-365",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/monitor-for-leaks-of-personal-data.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-discovery-protection-reporting-in-office365-dev-test-environment",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-sharepoint-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-sharepoint-server",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-exchange-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-exchange-server",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-skype-for-business-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-skype-for-business-server",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-project-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-project-server",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-office-online-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-office-online-server",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-on-premises-file-shares.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-on-premises-file-shares",
+
+        "redirect_document_id": true
+
       }
 
 
