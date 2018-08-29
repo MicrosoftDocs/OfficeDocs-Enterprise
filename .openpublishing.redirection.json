@@ -70,6 +70,15 @@
 
         "redirect_document_id": false
 
+      },
+      {
+
+        "source_path": "enterprise/office-365-information-protection-for-gdpr.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/office-365-information-protection-for-gdpr",
+
+        "redirect_document_id": true
+
       }
 
 
