@@ -79,6 +79,24 @@
 
         "redirect_document_id": true
 
+      },
+      {
+
+        "source_path": "enterprise/office-365-info-protection-for-gdpr-overview.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/office-365-info-protection-for-gdpr-overview",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/search-for-and-find-personal-data.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/search-for-and-find-personal-data",
+
+        "redirect_document_id": true
+
       }
 
 
