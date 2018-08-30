@@ -27,7 +27,7 @@ Azure also offers other functionality, like managing integrated apps, that you c
 You can use the Azure AD deployment advisors for a guided setup and configuration experience:
  - [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync)
  - [AD FS deployment advisor](https://aka.ms/adfsguidance)
- - [Azure RMS Deploymnet Wizard](https://aka.ms/azuremsguidance)
+ - [Azure RMS Deployment Wizard](https://aka.ms/azuremsguidance)
  - [Azure AD Premium setup guide](https://aka.ms/aadpguidance)
   
 ## Azure AD editions and Office 365 identity management
