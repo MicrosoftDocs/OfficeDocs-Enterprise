@@ -214,6 +214,15 @@
 
         "redirect_document_id": false
 
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-office-servers.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/gdpr-for-office-servers",
+
+        "redirect_document_id": false
+
       }
 
 
