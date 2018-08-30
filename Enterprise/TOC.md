@@ -1,4 +1,4 @@
-﻿# Cloud architecture models
+﻿# [Cloud architecture models](microsoft-cloud-it-architecture-resources.md)
 ## [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
 ### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
 ### [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md)
