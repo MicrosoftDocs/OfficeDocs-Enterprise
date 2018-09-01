@@ -20,7 +20,7 @@ description: "To help you better identify and differentiate Office 365 network t
 
 # **Office 365 IP Address and URL Web service**
 
-To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service (now in preview), will eventually replace the lists of endpoints in the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges) article, along with the RSS and XML versions of that data. The XMLse format of endpoint data areis planned to be phased out on October 2, 2018.
+To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service (now in preview), will eventually replace the lists of endpoints in the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges) article, along with the RSS and XML versions of that data. The XMLse format of endpoint data is planned to be phased out on October 2, 2018.
 
 As a customer or a network perimeter device vendor, you can build against the new REST-based web service for the Office 365 IP address and FQDN entries. You can access the data directly in a web browser using these URLs.
 
@@ -52,7 +52,7 @@ For additional information, see:
 These parameters are common across all the web service methods:
 
 - **format=CSV | JSON** - Query string parameter. By default, the returned data format is JSON. Include this optional parameter to return the data in comma-separated values (CSV) format.
-- **ClientRequestId** - Query string parameter. A required GUID that you generate for client session You should generate a GUID for each client machine that calls the web service. Do not use the GUIDs shown in the following examples because they may be blocked by the web service in the future. GUID format is xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, where x represents a hexadecimal number. To generate a GUID, you can use the [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell command.
+- **ClientRequestId** - Query string parameter. A required GUID that you generate for client session You should generate a GUID for each client machine that calls the web service. Do not use the GUIDs shown in the following examples because they may be blocked by the web service in the future. GUID format is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, where x represents a hexadecimal number. To generate a GUID, you can use the [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell command.
 
 ## **Version web method**
 
@@ -79,11 +79,11 @@ This URI returns the latest version of each Office 365 service instance. Example
 ```json
 [
  {
-  "instance": "Worldwide", 
+  "instance": "Worldwide",
   "latest": "2018063000"
  },
  {
-  "instance": "USGovDoD", 
+  "instance": "USGovDoD",
   "latest": "2018063000"
  },
  {
@@ -101,7 +101,7 @@ This URI returns the latest version of each Office 365 service instance. Example
 ]
 ```
 
-[!Important]
+[!IMPORTANT]
 The GUID for the ClientRequestID parameter in these URIs are only an example. To try the web service URIs out, generate your own GUID. The GUIDs shown in these examples may be blocked by the web service in the future.
 
 Example 2 request URI: **https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
@@ -167,8 +167,8 @@ This URI shows an RSS feed of the published versions that include links to the l
 The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. Whist the latest data from the endpoints web method should be used for network device configuration, the data can be cached for up to 30 days after it is published due to the advance notice provided for additions.Parameters for the endpoints web method are:
 
 - **ServiceAreas** - Query string parameter. A comma-separated list of service areas. Valid items are Common,Exchange,SharePoint,Skype. Because Common service area items are a prerequisite for all other service areas, the web service will always include them. If you do not include this parameter, all service areas are returned.
-- **TenantName** - Query string parameter. Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don&#39;t provide a tenant name, those parts of URLs have the wildcard character (\*).
-- **NoIPv6** - Query string parameter. Set this to true to exclude IPv6 addresses from the output, for example, if you don&#39;t use IPv6 in your network.
+- **TenantName** - Query string parameter. Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don't provide a tenant name, those parts of URLs have the wildcard character (\*).
+- **NoIPv6** - Query string parameter. Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
 - **Instance** - Route parameter. This required parameter specifies the instance to return the endpoints for. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
 The result from the endpoints web method is an array of records with each record representing an endpoint set. The elements for each record are:
@@ -191,7 +191,7 @@ Example 1 request URI: **https://endpoints.office.com/endpoints/Worldwide?Client
 This URI obtains all endpoints for the Office 365 worldwide instance for all workloads. Example result showing an excerpt of the output:
 
 ```json
-[ 
+[
  {
   "id": 1,
   "serviceArea": "Exchange",
@@ -203,7 +203,7 @@ This URI obtains all endpoints for the Office 365 worldwide instance for all wor
   "ips":
    [
     "2a01:111:f403::/48", "23.103.132.0/22", "23.103.136.0/21", "23.103.198.0/23", "23.103.212.0/22", "40.92.0.0/14", "40.107.0.0/17", "40.107.128.0/18", "52.100.0.0/14", "213.199.154.0/24", "213.199.180.128/26", "94.245.120.64/26", "207.46.163.0/24", "65.55.88.0/24", "216.32.180.0/23", "23.103.144.0/20", "65.55.169.0/24", "207.46.100.0/24", "2a01:111:f400:7c00::/54", "157.56.110.0/23", "23.103.200.0/22", "104.47.0.0/17", "2a01:111:f400:fc00::/54", "157.55.234.0/24", "157.56.112.0/24", "52.238.78.88/32"
-   ], 
+   ],
   "tcpPorts": "443",
   "expressRoute": true,
   "category": "Allow"
@@ -229,9 +229,9 @@ The output for example 2 is similar to example 1 except that the results will no
 
 ## **Changes web method**
 
-The changes web method returns the most recent updates that have been published. This is typically the previous month&#39;s changes to IP address ranges and URLs. The most critical changes to be processed are when new URLs or IP Addresses are added since failing to add an IP Address to a firewall access control list, or a URL to a proxy server bypass list can cause an outage for Office 365 users behind that network device. Notwithstanding operational requirements Add operations are added with 30 days&#39; notice before such an outage would occur.
+The changes web method returns the most recent updates that have been published. This is typically the previous month's changes to IP address ranges and URLs. The most critical changes to be processed are when new URLs or IP Addresses are added since failing to add an IP Address to a firewall access control list, or a URL to a proxy server bypass list can cause an outage for Office 365 users behind that network device. Notwithstanding operational requirements Add operations are added with 30 days' notice before such an outage would occur.
 
-[!Note]
+[!NOTE]
 Data from the changes API is accurate in the preview and should be used for development and testing only.
 
 The parameter for the changes web method is:
