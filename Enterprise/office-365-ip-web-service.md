@@ -72,7 +72,7 @@ The result from the version web method may be a single record or an array of rec
 
 ### **Examples:**
 
-Example 1 request URI: **https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 1 request URI: [https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This URI returns the latest version of each Office 365 service instance. Example result:
 
@@ -104,7 +104,7 @@ This URI returns the latest version of each Office 365 service instance. Example
 [!IMPORTANT]
 The GUID for the ClientRequestID parameter in these URIs are only an example. To try the web service URIs out, generate your own GUID. The GUIDs shown in these examples may be blocked by the web service in the future.
 
-Example 2 request URI: **https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 2 request URI: [https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This URI returns the latest version of the specified Office 365 service instance. Example result:
 
@@ -116,7 +116,7 @@ This URI returns the latest version of the specified Office 365 service instance
 
 ```
 
-Example 3 request URI: **https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 3 request URI: [https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This URI shows output in CSV format. Example result:
 
@@ -125,7 +125,7 @@ instance,latest
 Worldwide,2018063000
 ```
 
-Example 4 request URI: **https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 4 request URI: [https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This URI shows all prior versions that have been published for the Office 365 worldwide service instance. Example result:
 
@@ -141,8 +141,7 @@ This URI shows all prior versions that have been published for the Office 365 wo
 ```
 
 Example 5 RSS Feed URI:
-
-[**https://endpoints.office.com/version/**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**worldwide**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**?clientRequestId=**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**b10c5ed1-bad1-445f-b386-b919946339a7**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**&amp;allVersions=true&amp;**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**f**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**ormat=**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)[**RSS**](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&amp;allVersions=true&amp;format=RSS)
+[https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS](https://endpoints.office.com/version/worldwide?clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7&allVersions=true&format=RSS)
 
 This URI shows an RSS feed of the published versions that include links to the list of changes for each version. Example result:
 
@@ -186,7 +185,7 @@ The result from the endpoints web method is an array of records with each record
 
 ### **Examples:**
 
-Example 1 request URI: **https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 1 request URI: [https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This URI obtains all endpoints for the Office 365 worldwide instance for all workloads. Example result showing an excerpt of the output:
 
@@ -221,7 +220,7 @@ This URI obtains all endpoints for the Office 365 worldwide instance for all wor
 
 Additional endpoint sets are not included in this example.
 
-Example 2 request URI: **https://endpoints.office.com/endpoints/Worldwide?ServiceAreas=Exchange&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 2 request URI: [https://endpoints.office.com/endpoints/Worldwide?ServiceAreas=Exchange&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/endpoints/Worldwide?ServiceAreas=Exchange&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This example obtains endpoints for the Office 365 Worldwide instance for Exchange Online and dependencies only.
 
@@ -256,7 +255,7 @@ The result from the changes web method is an array of records with each record r
 
 ### **Examples:**
 
-Example 1 request URI: **https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 1 request URI: [https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This requests all previous changes to the Office 365 worldwide service instance. Example result:
 
@@ -295,7 +294,7 @@ This requests all previous changes to the Office 365 worldwide service instance.
 ...
 ```
 
-Example 2 request URI: **https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
+Example 2 request URI: [https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
 This requests changes since the specified version to the Office 365 Worldwide instance. In this case, the version specified is the latest. Example result:
 
