@@ -47,14 +47,14 @@ For additional information, see:
 - [Announcement blog post in the Office 365 Tech Community Forum](https://techcommunity.microsoft.com/t5/Office-365-Blog/Announcing-Office-365-endpoint-categories-and-Office-365-IP/ba-p/177638)
 - [Office 365 Tech Community Forum for questions about use of the web services](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)
 
-### **Common parameters**
+## **Common parameters**
 
 These parameters are common across all the web service methods:
 
 - **format=CSV | JSON** - Query string parameter. By default, the returned data format is JSON. Include this optional parameter to return the data in comma-separated values (CSV) format.
 - **ClientRequestId** - Query string parameter. A required GUID that you generate for client session You should generate a GUID for each client machine that calls the web service. Do not use the GUIDs shown in the following examples because they may be blocked by the web service in the future. GUID format is xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, where x represents a hexadecimal number. To generate a GUID, you can use the [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell command.
 
-### **Version web method**
+## **Version web method**
 
 Microsoft updates the Office 365 IP address and FQDN entries at the end of each month and occasionally out of cycle for operational or support requirements. The data for each published instance is assigned a version number. The version web method lets you poll for the latest version for each Office 365 service instance. We recommend you check the version daily, or at the most, hourly. New versions should be expected at the start of each month. Sometimes due to support incident, security, or other operational requirements there will be new versions during the month.
 
@@ -70,7 +70,7 @@ The result from the version web method may be a single record or an array of rec
 - latest - The latest version for endpoints of the specified instance.
 - versions - A list of all previous versions for the specified instance. This element is only included if the AllVersions parameter is true.
 
-#### **Examples:**
+### **Examples:**
 
 Example 1 request URI: **https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
 
@@ -120,7 +120,7 @@ Example 3 request URI: **https://endpoints.office.com/version/Worldwide?Format=C
 
 This URI shows output in CSV format. Example result:
 
-```
+```csv
 instance,latest
 Worldwide,2018063000
 ```
@@ -162,7 +162,7 @@ This URI shows an RSS feed of the published versions that include links to the l
 ...
 ```
 
-### **Endpoints web method**
+## **Endpoints web method**
 
 The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. Whist the latest data from the endpoints web method should be used for network device configuration, the data can be cached for up to 30 days after it is published due to the advance notice provided for additions.Parameters for the endpoints web method are:
 
@@ -184,7 +184,7 @@ The result from the endpoints web method is an array of records with each record
 - required - True if this endpoint set is required to have connectivity for Office 365 to be supported. False if this endpoint set is optional.  Omitted if false.
 - notes - For optional endpoints, this text describes Office 365 functionality that will be missing if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
 
-#### **Examples:**
+### **Examples:**
 
 Example 1 request URI: **https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
 
@@ -227,7 +227,7 @@ This example obtains endpoints for the Office 365 Worldwide instance for Exchang
 
 The output for example 2 is similar to example 1 except that the results will not include endpoints for SharePoint Online or Skype for Business Online.
 
-### **Changes web method**
+## **Changes web method**
 
 The changes web method returns the most recent updates that have been published. This is typically the previous month&#39;s changes to IP address ranges and URLs. The most critical changes to be processed are when new URLs or IP Addresses are added since failing to add an IP Address to a firewall access control list, or a URL to a proxy server bypass list can cause an outage for Office 365 users behind that network device. Notwithstanding operational requirements Add operations are added with 30 days&#39; notice before such an outage would occur.
 
@@ -254,7 +254,7 @@ The result from the changes web method is an array of records with each record r
   - ips - Items to be removed from the ips array.
   - urls- Items to be removed from the urls array.
 
-**Examples:**
+### **Examples:**
 
 Example 1 request URI: **https://endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
 
@@ -326,7 +326,7 @@ This requests changes since the specified version to the Office 365 Worldwide in
 ]
 ```
 
-### **Example PowerShell Script**
+## **Example PowerShell Script**
 
 Here is a PowerShell script that you can run to see if there are actions you need to take for updated data. This script checks the version number for the Office 365 Worldwide instance endpoints. When there is a change, it downloads the endpoints and filters for the &quot;Allow&quot; and &quot;Optimize&quot; category endpoints. It also uses a unique ClientRequestId across multiple calls and saves the latest version found in a temporary file. You should call this script once an hour to check for a version update.
 
@@ -402,7 +402,7 @@ else {
 }
 ```
 
-### **Example Python Script**
+## **Example Python Script**
 
 Here is a Python script, tested with Python 3.6.3 on Windows 10, that you can run to see if there are actions you need to take for updated data. This script checks the version number for the Office 365 Worldwide instance endpoints. When there is a change, it downloads the endpoints and filters for the &quot;Allow&quot; and &quot;Optimize&quot; category endpoints. It also uses a unique ClientRequestId across multiple calls and saves the latest version found in a temporary file. You should call this script once an hour to check for a version update.
 
@@ -468,7 +468,7 @@ else:
     print('Office 365 worldwide commercial service instance endpoints are up-to-date')
 ```
 
-### **Web Service interface versioning**
+## **Web Service interface versioning**
 
 Updates to the parameters or results for these web service methods may be required in the future. After the general availability version of these web services is published, Microsoft will make reasonable efforts to provide advance notice of material updates to the web service. When Microsoft believes that an update will require changes to clients using the web service, Microsoft will keep the previous version (one version back) of the web service available for at least twelve (12) months after the release of the new version. Customers who do not upgrade during that time may be unable to access the web service and its methods. Customers must ensure that clients of the web service continue working without error if the following changes are made to the web service interface signature:
 
