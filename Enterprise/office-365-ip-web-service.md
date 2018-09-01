@@ -1,4 +1,24 @@
-## **Office 365 IP Address and URL Web service**
+---
+title: "Office 365 IP Address and URL Web service"
+ms.author: kvice
+author: kelleyvice-msft
+manager: laurawi
+ms.date: 8/31/2018
+ms.audience: ITPro
+ms.topic: conceptual
+ms.service: o365-administration
+localization_priority: Normal
+ms.collection: Ent_O365
+ms.custom: Adm_O365
+search.appverid:
+- MET150
+- MOE150
+- BCS160
+ms.assetid: 
+description: "To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes."
+---
+
+# **Office 365 IP Address and URL Web service**
 
 To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service (now in preview), will eventually replace the lists of endpoints in the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges) article, along with the RSS and XML versions of that data. The XMLse format of endpoint data areis planned to be phased out on October 2, 2018.
 
