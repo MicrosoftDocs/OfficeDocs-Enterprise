@@ -3,19 +3,21 @@ title: "Office 365 IP Address and URL Web service"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 8/31/2018
+ms.date: 9/4/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Normal
-ms.collection: Ent_O365
+localization_priority: Priority
+ms.collection: 
+- Strat_O365_IP
+- Strat_O365_Enterprise
 ms.custom: Adm_O365
+ms.reviewer: pandrew
 search.appverid:
 - MET150
 - MOE150
 - BCS160
-ms.assetid: 
-description: "To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes."
+description: "To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service replaces the XML downloadable files that are currently available."
 ---
 
 # **Office 365 IP Address and URL Web service**
