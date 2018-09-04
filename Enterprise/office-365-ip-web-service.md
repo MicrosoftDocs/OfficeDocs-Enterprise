@@ -61,7 +61,7 @@ There is one parameter for the version web method:
 
 - **AllVersions=true** - Query string parameter. By default, the version returned is the latest. Include this optional parameter to request all published versions.
 - **Format=JSON** | **CSV** | **RSS** – In addition to the JSON and CSV formats, the version web method also supports RSS. You can use this along with the allVersions=true parameter to request an RSS feed which can be used with Outlook or other RSS readers.
-- **Instance** - Route parameter. This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh
+- **Instance** - Route parameter. This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
 The result from the version web method may be a single record or an array of records. The elements of each record are:
 
