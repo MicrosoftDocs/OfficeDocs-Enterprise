@@ -69,6 +69,8 @@ The result from the version web method may be a single record or an array of rec
 - latest - The latest version for endpoints of the specified instance.
 - versions - A list of all previous versions for the specified instance. This element is only included if the AllVersions parameter is true.
 
+You can use Microsoft Flow to get email notifications of changes to the IP Addresses and URLs. See [Use Microsoft Flow to receive an email for changes to Office 365 IP Addresses and URLs](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
+
 ### **Examples:**
 
 Example 1 request URI: [https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
@@ -483,24 +485,10 @@ Updates to the parameters or results for these web service methods may be requir
 
 [Network connectivity to Office 365](network-connectivity.md)
   
-[Azure ExpressRoute for Office 365](azure-expressroute.md)
-  
-[Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
-  
-[Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
-  
-[Implementing ExpressRoute for Office 365](implementing-expressroute.md)
-  
-[Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
-  
 [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
   
 [Optimizing your network for Skype for Business Online](https://support.office.com/article/b363bdca-b00d-4150-96c3-ec7eab5a8a43)
-  
-[ExpressRoute and QoS in Skype for Business Online](https://support.office.com/article/20c654da-30ee-4e4f-a764-8b7d8844431d)
-  
-[Call flow using ExpressRoute](https://support.office.com/article/413acb29-ad83-4393-9402-51d88e7561ab)
-  
+
 [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
   
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
