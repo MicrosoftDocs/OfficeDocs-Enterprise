@@ -223,6 +223,15 @@
 
         "redirect_document_id": false
 
+      },
+      {
+
+        "source_path": "enterprise/managing-office-365-endpoints.md#web-service",
+
+        "redirect_url": "enterprise/office-365-ip-web-service.md",
+
+        "redirect_document_id": true
+
       }
 
 
