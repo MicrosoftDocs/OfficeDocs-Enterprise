@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection: 
-- Strat_O365_IP
+- Ent_O365
 - Strat_O365_Enterprise
 ms.custom: Adm_O365
 ms.reviewer: pandrew
