@@ -18,7 +18,7 @@ description: PerformancePoint Server 2007, ProClarity, and SharePoint Server 200
 
 # PerformancePoint Server 2007 end of support roadmap
 
-Office 2007 servers and applications have reached their end of support, including servers and applications that you might be using as part of your business intelligence (BI) solutions. The following table lists BI applications that were affected:
+Office 2007 servers and applications have reached their end of support, including servers and applications that you might be using as part of your business intelligence (BI) solutions. The following table lists BI applications that are affected:
   
 |**Microsoft BI Applications**|**Date Support Ended**|
 |:-----|:-----|
