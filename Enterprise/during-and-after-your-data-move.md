@@ -3,7 +3,7 @@ title: "During and after your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/20/2018
+ms.date: 09/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -161,4 +161,13 @@ All users will be signed out from the Skype for Business client software during 
 
 We only move customer data for Exchange Online, SharePoint Online, and Skype for Business. We do not move data for other services. There is no change or impact to you as a customer or user of these other services. The move process does not influence them, and the location of their customer data remains unchanged.
   
+## Related topics 
+ 
+[How to request your data move](request-your-data-move.md)
+    
+[Data move general FAQ](data-move-faq.md)
+  
+[New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
+  
+[Azure services by region](https://azure.microsoft.com/en-us/regions/)
 

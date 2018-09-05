@@ -3,7 +3,7 @@ title: "Moving core data to new Office 365 datacenter geos"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/22/2018
+ms.date: 09/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration

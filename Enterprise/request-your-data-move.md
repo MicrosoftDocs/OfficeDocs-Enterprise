@@ -3,7 +3,7 @@ title: "How to request your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 3/22/2018
+ms.date: 09/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -104,5 +104,15 @@ The trial tenant can't be combined with your existing tenant:
 ### Notify users to update out-of-date Exchange settings on mobile devices
 
 If users have a mobile device with the Exchange Server set to **m.outlook.com** or **podxxxxx.outlook.com**, we recommend that they switch to **outlook.office365.com**, following the instructions in [Set up a mobile device to synchronize with your account](https://support.office.com/article/c9139caf-01ab-41a0-827c-3c06ee569ed3).
+
+## Related topics
+
+[Moving core data to new Office 365 datacenter geos](moving-data-to-new-datacenter-geos.md)
+
+[Data move general FAQ](data-move-faq.md)
+
+[New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
+  
+[Azure services by region](https://azure.microsoft.com/en-us/regions/)
   
 
