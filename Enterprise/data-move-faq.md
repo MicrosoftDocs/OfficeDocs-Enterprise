@@ -3,7 +3,7 @@ title: "Data move general FAQ"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 9/14/2017
+ms.date: 09/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -144,4 +144,12 @@ A. Yes.
   
 A. Yes. Microsoft maintains a large global network with public Internet connections in more than 50 locations in 23 countries around the world with peering agreements with more than 1,500 Internet Service Providers (ISPs). Users will be able to access the datacenters from wherever they are on the Internet.
   
+## Related topics
 
+[Moving core data to new Office 365 datacenter geos](moving-data-to-new-datacenter-geos.md)
+
+[How to request your data move](request-your-data-move.md)
+
+[New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
+  
+[Azure services by region](https://azure.microsoft.com/en-us/regions/)
