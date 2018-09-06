@@ -81,9 +81,7 @@ The **Network Trace** tab provides detailed information about the requests to bu
 
 The performance of each request and response are color coded based on their impact on the overall page performance,  such as Green \< 500ms, Yellow 500-1000ms and Red \> 1000ms.
 
-On this tab there is an Export to JSON option should you wish to download and share the request and response details.
-
-Hover over the shortened URL to view the complete URL. 
+On this tab there is an Export to JSON option should you wish to download and share the request and response details. Hover over the shortened URL to view the complete URL. 
   
 ![Network Trace](media/3cfede99-7d31-4041-888d-7bbc275cadc2.png)
   
