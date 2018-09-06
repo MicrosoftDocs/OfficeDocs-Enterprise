@@ -39,7 +39,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
   
 4. Click on the Extension logo ![Page Diagnostics for SharePoint logo](media/60a3e44d-1b59-483f-b50f-d580044d921a.png) to load the tool and you will be presented with the following extension popup window:</br> ![Page Diagnostics tool Popup](media/b01fa00e-c5f3-4c37-91f2-6edd096cf87e.png)</br>Start and stop operations follow the basic concept of when you click start the page will reload and collection will begin.
 
-### What you'll see in the tool
+## What you'll see in the tool
     
 1. The **About** link will provide general guidance and details regarding the tool including a link back to this article. It also includes a direct link to SharePoint Performance recommendations, a Third Party notice and an option to provide feedback about the tool. 
     
@@ -59,7 +59,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
 
 4. A [**Network trace** tab](#things-to-look-for-on-the-network-trace-tab) provides details about page build requests and responses.
 
-### Things to look for on the Diagnostic tab
+## Things to look for on the Diagnostic tab
 
 1. **Check Running as Standard User**  Checking page performance should not be performed when logged in as a Service Account, Administrator or Site Collection Administrator, such as an account with elevated privileges. Additional scripts and functionality is loaded specifically for those types of accounts and will not provide a true representation of the page performance.
     
@@ -73,7 +73,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
     
 6. **Check for CBQ WebPart** (CBQ - Content by Query WebPart)  The Content by Query WebPart generates a high SQL load as it traverses all items in the query for each and every page load, for each User. Unlike an on-Premises installation, there is no cache available to limit the number of queries needed to populate this WebPart. As such CBQ performs slowly and impacts overall page performance which is why it should not be utilized. Please use the Content Search WebPart (CSWP) as the replacement for the Content Query WebPart. [Use the following guidance related to the Content Search WebPart](https://go.microsoft.com/fwlink/?linkid=873245).
 
-### Things to look for on the Network Trace tab
+## Things to look for on the Network Trace tab
     
 The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. 
 
@@ -93,6 +93,8 @@ If you wish to share these details or information with your developers or a Supp
 
 > [!IMPORTANT]
 > These results will contain the URL's and therefore contains PII (Personally Identifiable Information) and you should follow your Company guidelines before distributing that information. 
+
+## Engaging with Microsoft Support
    
 We have included a **Microsoft Support level feature** that should only be utilized when working directly on a Support Case for performance. Utilizing this feature will provide no benefit to you when used without our Support team. It will in fact make the page perform significantly slower and continued use of the feature may be considered "misuse" of the service. There is no additional information when using this feature in the tool as the additional information is added to the logging in the service. 
 
