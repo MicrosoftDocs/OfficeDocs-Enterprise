@@ -31,7 +31,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
 > [!IMPORTANT]
 > Microsoft does not read the data or websites you visit, and we do not capture any personal information, website or download information with this tool. The only information logged by the tool is the Tenant name, Rule count and whether the support logging option has been utilized when the tool is run. This information is for Microsoft to analyze what challenges are being experienced by our Customers and to ensure the Support logging capability is not being misused.
 
-1. Using a Chrome browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.</br>![Chrome Store permissions](media/e9fbcef0-1171-43ac-8ea8-c2b5be1b7925.png)</br>   This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. That information is captured locally by the web browser and is available to you via the Export to JSON link in the tool. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft Privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)</br></br>The "Export to JSON" functionality in the tool is also why the "Manage your downloads" permission is needed. Please follow your Company's own Privacy guidelines before sharing the JSON file outside of your Company as it contains URLs that fall within PII (Personally Identifiable Information).
+1. Using a Chrome browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.</br>![Chrome Store permissions](media/e9fbcef0-1171-43ac-8ea8-c2b5be1b7925.png)</br>   This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. That information is captured locally by the web browser and is available to you via the Export to JSON link in the tool. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft Privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)</br></br>The "Export to JSON" functionality in the tool is also why the "Manage your downloads" permission is needed. Please follow your Company's own Privacy guidelines before sharing the JSON file outside of your organization, as the results contain URLs and that can be classified as PII (Personally Identifiable Information).
     
 2. (This is optional) If you want to use the tool in Chrome incognito mode, navigate to the extension and click **allow in incognito**.
     
@@ -57,11 +57,11 @@ Read the following sections to learn more about the information provided in the 
     
   - The **URL** (Uniform Resource Locator) is the web address of the current page. 
     
-3. The [**Diagnostic** tab](#things-to-look-for-on-the-diagnostic-tab) will list the rules and if any of them are marked with a red ![Cross](media/9859ac84-be43-4eae-984c-e0e827f5a228.png), then there are issues identified on the page.</br>Each rule has its own "more information" link that you click if an item is red. That will take you to the details behind that rule and how to remediate the issue.</br>![Diagnostics Red - Rule open](media/1598f0f7-3103-4613-8787-dfec6fffd40a.png)
+3. The [**Diagnostic** tab](#how-to-use-the-diagnostic-tab) will list the rules and if any of them are marked with a red ![Cross](media/9859ac84-be43-4eae-984c-e0e827f5a228.png), then there are issues identified on the page.</br>Each rule has its own "more information" link that you click if an item is red. That will take you to the details behind that rule and how to remediate the issue.</br>![Diagnostics Red - Rule open](media/1598f0f7-3103-4613-8787-dfec6fffd40a.png)
 
-4. A [**Network trace** tab](#things-to-look-for-on-the-network-trace-tab) provides details about page build requests and responses.
+4. A [**Network trace** tab](#how-to-use-the-network-trace-tab) provides details about page build requests and responses.
 
-## Things to look for on the Diagnostic tab
+## How to use the Diagnostic tab
 
 1. **Check Running as Standard User**  Checking page performance should not be performed when logged in as a Service Account, Administrator or Site Collection Administrator, or any account with elevated privileges. Additional scripts and functionality are loaded specifically for those types of accounts, so the results will not be a true representation of page performance.
     
@@ -75,23 +75,23 @@ Read the following sections to learn more about the information provided in the 
     
 6. **Check for CBQ WebPart** (CBQ - Content by Query WebPart)  The Content by Query WebPart generates a high SQL load as it traverses all items in the query for each and every page load, for each User. Unlike an on-Premises installation, there is no cache available to limit the number of queries needed to populate this WebPart. As such CBQ performs slowly and impacts overall page performance which is why it should not be utilized. Please use the Content Search WebPart (CSWP) as the replacement for the Content Query WebPart. [Use the following guidance related to the Content Search WebPart](https://go.microsoft.com/fwlink/?linkid=873245).
 
-## Things to look for on the Network Trace tab
+## How to use the Network Trace tab
     
 The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. 
 
-1. **Look for pages with load times flagged as red**. The performance of each request and response are color coded based, on their impact on the overall page performance,  as follows:
+1. **Look for pages with load times flagged as red**. The performance of each request and response are color coded based, on their impact on the overall page performance  as follows:
 - Green: \< 500ms
 - Yellow: 500-1000ms
 - Red: \> 1000ms
 </br>![Network Trace](media/3cfede99-7d31-4041-888d-7bbc275cadc2.png)</br> 
 In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
 
-2. **Test initial page load times**. In some cases there will be no time or color indicator because the items have already been cached by the browser. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
+2. **Test item load times**. In some cases there will be no time or color indicator because the items have already been cached by the browser. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
     
 3. **Share relevant details with others who can help investigate issues**. To share the details or information provided in the tool with your developers or a technical support person, click **Export to JSON** (as shown in the image above). That will enable you to download the results, viewable with a JSON file viewer.
 
 > [!IMPORTANT]
-> These results will contain URLs that are considered contains PII (Personally Identifiable Information). Make sure to follow your organization's guidelines before distributing that information. 
+> These results contain URLs and that can be classified as PII (Personally Identifiable Information). Make sure to follow your organization's guidelines before distributing that information. 
 
 ## Engaging with Microsoft Support
    
@@ -103,11 +103,9 @@ No change is visible except that you will be notified that you have enabled it a
 
 1. Open the Page Diagnostics tool.
 2. On your keyboard, press ALT-Shift-L. This will display **Enable support level logging**. 
-3. Select the checkbox, and then click **start** to reload the page and generate verbose logging for Support to analyze.
-
-![Support Option Enabled](media/ddef47de-8593-4b28-9346-eb48ebf6cdab.png)
+3. Select the checkbox, and then click **start** to reload the page and generate verbose logging for Support to analyze.</br>![Support Option Enabled](media/ddef47de-8593-4b28-9346-eb48ebf6cdab.png)
   
-An important element for this is the CorrelationID as the Support team will then utilize that number to extract the information needed. Please copy the CorrelationID and provide that to Support as they cannot perform the required work without the complete ID.
+An important element for this is the CorrelationID as the Support team will then utilize that number to extract the information needed. Please copy the CorrelationID (at the top of the Page Diagnostics tool) and provide that to Support as they cannot perform the required work without the complete ID.
     
 ## Related topics
 
