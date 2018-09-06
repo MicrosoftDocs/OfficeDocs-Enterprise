@@ -26,7 +26,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
 > [!IMPORTANT]
 > The Page Diagnostics tool will not run against document libraries or system pages, as the tool is designed to review SharePoint site pages. An  *allitems.aspx*  page is a system page. If you attempt to run the tool on a system page, you will get a message that reads, "This application should only be run on SharePoint pages." </br> ![Must run on a  SharePoint page](media/34aadfff-1009-496b-9c87-4fc2780e017c.png)</br>This is not an error in the tool as there is no value in assessing libraries or system pages. Please navigate to a non-system SharePoint page to use the tool. Should you wish to give feedback about the tool please click the About tab and follow the ﻿[give feedback link](https://go.microsoft.com/fwlink/?linkid=874109). 
   
-## Install and use the Page Diagnostic tool
+## Install the Page Diagnostic tool
 
 > [!IMPORTANT]
 > Microsoft does not read the data or websites you visit, and we do not capture any personal information, website or download information with this tool. The only information logged by the tool is the Tenant name, Rule count and whether the support logging option has been utilized when the tool is run. This information is for Microsoft to analyze what challenges are being experienced by our Customers and to ensure the Support logging capability is not being misused.
@@ -41,7 +41,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
 
 Read the following sections to learn more about the information provided in the tool.
 
-## What you'll see in the tool
+## What you'll see in the Page Diagnostics tool
     
 1. The **About** link will provide general guidance and details regarding the tool including a link back to this article. It also includes a direct link to SharePoint Performance recommendations, a Third Party notice and an option to provide feedback about the tool. 
     
@@ -77,11 +77,10 @@ Read the following sections to learn more about the information provided in the 
 
 ## Things to look for on the Network Trace tab
     
-The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. 
-
-The performance of each request and response are color coded based on their impact on the overall page performance,  such as Green \< 500ms, Yellow 500-1000ms and Red \> 1000ms.
-
-On this tab there is an Export to JSON option should you wish to download and share the request and response details. Hover over the shortened URL to view the complete URL. 
+The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. The performance of each request and response are color coded based on their impact on the overall page performance,  such as:
+- Green: \< 500ms
+- Yellow: 500-1000ms
+- Red: \> 1000ms
   
 ![Network Trace](media/3cfede99-7d31-4041-888d-7bbc275cadc2.png)
   
@@ -89,7 +88,7 @@ In image shown above, the red item pertains to the page itself and that will alw
     
 In some cases  *there will be no time or color indicator because the items have already been cached by the browser*. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
     
-If you wish to share these details or information with your developers or a Support person then you can click **Export to JSON** as shown in the above image and that will download the results. Please note that the file can then be opened using a JSON file viewer.
+If you wish to share these details or information with your developers or a technical support person then you can click **Export to JSON** as shown in the above image and that will download the results. Please note that the file can then be opened using a JSON file viewer.
 
 > [!IMPORTANT]
 > These results will contain the URL's and therefore contains PII (Personally Identifiable Information) and you should follow your Company guidelines before distributing that information. 
