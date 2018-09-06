@@ -79,7 +79,7 @@ Read the following sections to learn more about the information provided in the 
     
 The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. 
 
-1. **Look for item load times flagged as red**. The performance of each request and response are color coded based, on their impact on the overall page performance  as follows:
+1. **Look for item load times flagged as red**. The performance of each request and response are color coded, based on their impact on the overall page performance  as follows:
 - Green: \< 500ms
 - Yellow: 500-1000ms
 - Red: \> 1000ms
