@@ -33,7 +33,7 @@ Team sites that don't have Publishing enabled cannot make use of CDNs but all of
 
 1. Using a Chrome browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.</br>![Chrome Store permissions](media/e9fbcef0-1171-43ac-8ea8-c2b5be1b7925.png)</br>   This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. That information is captured locally by the web browser and is available to you via the Export to JSON link in the tool. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft Privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)</br></br>The "Export to JSON" functionality in the tool is also why the "Manage your downloads" permission is needed. Please follow your Company's own Privacy guidelines before sharing the JSON file outside of your Company as it contains URLs that fall within PII (Personally Identifiable Information).
     
-2. (Optional) If you want to use the tool in Chrome incognito mode, navigate to the extension and click **allow in incognito**.
+2. (This is optional) If you want to use the tool in Chrome incognito mode, navigate to the extension and click **allow in incognito**.
     
 3. Navigate to the SharePoint classic publishing page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the **tool will not stop automatically**. Should you wish to stop collection, you can click **Stop**. (This is by design to cater for all page load scenarios.) Before you click **Stop**, make sure that the network trace data is complete. Otherwise, you will have a partial trace. Additionally, the tool is a Browser Extension, and opening multiple tabs or windows will only allow one active instance of the tool to be run at one time. This is a limitation of extensions in the browser. 
   
@@ -77,21 +77,21 @@ Read the following sections to learn more about the information provided in the 
 
 ## Things to look for on the Network Trace tab
     
-The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. The performance of each request and response are color coded based on their impact on the overall page performance,  such as:
+The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. 
+
+1. **Look for pages with load times flagged as red**. The performance of each request and response are color coded based, on their impact on the overall page performance,  as follows:
 - Green: \< 500ms
 - Yellow: 500-1000ms
 - Red: \> 1000ms
-  
-![Network Trace](media/3cfede99-7d31-4041-888d-7bbc275cadc2.png)
-  
-In image shown above, the red item pertains to the page itself and that will always show red unless the page loads in \< 1000ms (i.e. 1 second).
+</br>![Network Trace](media/3cfede99-7d31-4041-888d-7bbc275cadc2.png)</br> 
+In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
+
+2. **Test initial page load times**. In some cases there will be no time or color indicator because the items have already been cached by the browser. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
     
-In some cases  *there will be no time or color indicator because the items have already been cached by the browser*. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
-    
-If you wish to share these details or information with your developers or a technical support person then you can click **Export to JSON** as shown in the above image and that will download the results. Please note that the file can then be opened using a JSON file viewer.
+3. **Share relevant details with others who can help investigate issues**. To share the details or information provided in the tool with your developers or a technical support person, click **Export to JSON** (as shown in the image above). That will enable you to download the results, viewable with a JSON file viewer.
 
 > [!IMPORTANT]
-> These results will contain the URL's and therefore contains PII (Personally Identifiable Information) and you should follow your Company guidelines before distributing that information. 
+> These results will contain URLs that are considered contains PII (Personally Identifiable Information). Make sure to follow your organization's guidelines before distributing that information. 
 
 ## Engaging with Microsoft Support
    
@@ -99,7 +99,11 @@ We have included a **Microsoft Support level feature** that should only be utili
 
 No change is visible except that you will be notified that you have enabled it and your page performance will be significantly degraded by 2-3 times slower performance whilst that is enabled. It will only be relevant for the particular page and that active session. For this reason, this should be used sparingly and only when actively engaged with our Support Team.
 
-To enable the feature please open the tool and use ALT-Shift-L which will then display **Enable support level logging**. Click the checkbox and then click **start** to reload the page and generate verbose logging for Support to analyze.
+### To enable the Microsoft Support level feature
+
+1. Open the Page Diagnostics tool.
+2. On your keyboard, press ALT-Shift-L. This will display **Enable support level logging**. 
+3. Select the checkbox, and then click **start** to reload the page and generate verbose logging for Support to analyze.
 
 ![Support Option Enabled](media/ddef47de-8593-4b28-9346-eb48ebf6cdab.png)
   
