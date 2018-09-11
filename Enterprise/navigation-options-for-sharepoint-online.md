@@ -62,10 +62,19 @@ There are several articles on Docs.Microsoft.com about the details of managed na
 
 In order to implement managed navigation, you set up terms with URLs corresponding to the navigation structure of  the site. Managed navigation can even be manually curated to replace structural navigation in many cases. For example:
 
+![SharePoint Online site structure](media/SPONavOptionsListOfSites.png)
+
+The following example shows the performance of the complex navigation using managed navigation.
+
+![Performance of complex navigation using managed navigation](media/SPONavOptionsComplexNavPerf.png)
+
+Using managed navigation consistently improves performance compared to the structural navigation approach.
   
 ## Using structural navigation in SharePoint Online
 
-This is the out-of-the-box navigation used by default and is the most straightforward solution but as such has an expensive performance trade-off. It does not require any customization and a non-technical user can also easily add items, hide items, and manage the navigation from the settings page. This is however also true for Managed Navigation so it is recommended to use Managed Navigation as that can also be easily managed and controlled as well.
+This is the out-of-the-box navigation used by default and is the most straightforward solution but as such has an expensive performance trade-off. It does not require any customization and a non-technical user can also easily add items, hide items, and manage the navigation from the settings page. This is however also true for Managed Navigation so it is recommended to use Managed Navigation as that can also be easily managed and controlled as well with improved performance.
+
+
   
 ### Turning on structural navigation in SharePoint Online
 
