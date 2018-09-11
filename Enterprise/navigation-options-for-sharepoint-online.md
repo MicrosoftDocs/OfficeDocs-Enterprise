@@ -3,7 +3,6 @@ title: "Navigation options for SharePoint Online"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 6/27/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -12,37 +11,57 @@ ms.collection: Ent_O365
 ms.custom: Adm_O365
 search.appverid: SPO160
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
-description: "This article describes how to improve page load times for SharePoint Online by using managed navigation or search-driven navigation in Classic publishing."
+description: "This article describes navigation options sites with SharePoint Publishing enabled in SharePoint Online. The choice and configuration of navigation significantly impacts the performance and scalability of sites in SharePoint Online."
 ---
 
 # Navigation options for SharePoint Online
 
-This article describes how to improve page load times for SharePoint Online by using managed navigation or search-driven navigation in Classic publishing.
-  
-SharePoint Online with classic publishing enabled has two navigation areas; Global Navigation and Current Navigation.
-  
-Global navigation is the top navigation menu while Current Navigation is the side or in-context left/right navigation dependent on the language configuration and master page utilized.
-  
-Navigation can negatively impact performance for the entire Portal as it is often configured for portal-wide use and ﻿as such is an important element of any SharePoint site.
-  
-Structural navigation is not the recommended navigation option in SharePoint Online as it was designed for an On-premise topology with security trimming and this design causes excessive server calls and impacts performance when it is used.
-  
-That design has changed with the introduction of Modern ﻿SharePoint sites where Modern has a simplified flattened site hierarchy. This has simplified navigation with a simplified hierarchy that has eliminated performance issues related to navigation.﻿
-  
-There are two main out-of-the-box navigation options in SharePoint as well as a third, custom, search-driven approach. Alternatively, a fourth and fairly popular option is to build a Custom Navigation Provider. Please review [Navigation solutions for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-navigation) for guidance on a Custom navigation provider. 
+This article describes navigation options sites with SharePoint Publishing enabled in SharePoint Online. The choice and configuration of navigation significantly impacts the performance and scalability of sites in SharePoint Online.
+
+Navigation provider configuration can significantly impact performance for the entire site, and careful consideration must be taken to pick a navigation provider and configuration that scales effectively for the requirements of a SharePoint site. There are two out-of-the-box navigation providers, as well as custom navigation implementations.
+
+The first option, **Managed (Metadata) navigation**, is a recommended and default option in SharePoint Online; however, we recommend that security trimming be disabled unless required. Security trimming is enabled as a secure-by-default setting for this navigation provider; however, many sites do not require the overhead of security trimming since navigation elements often are consistent for all users of the site. With the recommended configuration to disable security trimming, this navigation provider does not require enumerating site structure and is highly scalable with acceptable performance impact.
+
+The second option, **Structural navigation**, is NOT a recommended navigation option in SharePoint Online. This navigation provider was designed for an on-premises topology has limited support in SharePoint Online. While it provides some additional set of capabilities vs. other navigation options, these features, including security trimming and site structure enumeration, comes at a cost of excessive server calls and impacts scalability and performance when it is used. Sites using structed navigation that consume excessive resources may be subject to throttling.
+
+In addition to the out-of-the-box navigation providers, many customers have successfully implemented alternative custom navigation implementations. One common class of custom navigation implementations embraces client-rendered design patterns that store a local cache of navigation nodes. 
+
+These navigation providers have a couple of key advantages: 
+- They generally work well with responsive page designs.
+- They are extremely scalable and performant because they can render with no resource cost (and refresh in the background after a timeout). 
+- These navigation providers can retrieve navigation data using various strategies, ranging from simple static configurations to various dynamic data providers. 
+
+An example of a data provider is to use a **Search-driven navigation**, which allows flexibility for enumerating navigation nodes and handling security trimming efficiently. 
+
+There are other popular options to build **Custom navigation providers**. Please review [Navigation solutions for SharePoint Online portals](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-navigation) for further guidance on building a Custom navigation provider.
   
 Each option has pros and cons as outlined in the following table.
-  
-|**Structural navigation**|**Managed navigation**|**Search-driven navigation**||**Custom Navigation Provider**|
-|:-----|:-----|:-----|:-----|:-----|
-| Pros:  <br/>  Easy to configure  <br/>  Security-trimmed  <br/>  Automatically updates as sites are added  <br/> | Pros:  <br/>  Easy to maintain  <br/>  Recommended option  <br/> | Pros:  <br/>  Security-trimmed  <br/>  Automatically updates as sites are added  <br/>  Fast loading time and locally cached navigation structure  <br/> || Pros:  <br/>  ﻿  <br/>  Wider choice / options available  <br/>  Fast loading when caching is used correctly﻿  <br/> |
-| Cons:  <br/> **Not recommended** <br/> **Impacts performance** <br/> | Cons:  <br/>  Not automatically updated to reflect site structure  <br/>  Impacts performance if security trimming is enabled  <br/> | Cons:  <br/>  No ability to easily order sites  <br/>  Requires customization of the master page (technical skills required)  <br/> || Cons:  <br/>  Custom development is required  <br/>  External data source / cache stored is needed e.g. Azure﻿  <br/> |
-   
-The most appropriate option for your site will depend on your site requirements and on your technical capability. If you are comfortable using a custom master page and have some capability in the organization to maintain the changes that may occur in the default master page for SharePoint Online, then the search-driven option will produce the best user experience. If you want a simple middle ground between the out-of-the-box structural navigation and search, then the managed navigation is a very good option. The managed navigation option can be maintained through configuration, does not involve code customization files, and it is significantly faster than the out-of-the-box structural navigation.
-  
-Simplifying the overall structure of your Classic Portal much like Modern, helps with overall performance and scale as well. What this means is that instead of having a single Site Collection with hundreds / thousands of sites (subwebs), a better approach is to have many site collections with very few subsites (subwebs).
-  
-This provides additional scaling options in the service, avoids putting all content into one big database ﻿and ultimately allows greater flexibility for navigation and more importantly security.
+
+
+|Managed navigation  |Structural navigation  |Search-driven navigation  |Custom-navigation provider  |
+|---------|---------|---------|---------|
+|Pros:<br/><br/>Easy to maintain<br/>Recommended option<br/>     |Pros:<br/><br/>Easy to configure<br/>Security trimmed<br/>Automatically updates as content is added<br/>|Pros:<br/><br/>Security trimmed<br/>Automatically updates as sites are added<br/>Fast loading time and locally cached navigation structure<br/>|Pros:<br/><br/>Wider choice of options available<br/>Fast loading when caching is used correctly<br/>Many options work well with responsive page design<br/>|
+|Cons:<br/><br/>Not automatically updated to reflect site structure<br/>Impacts performance if security trimming is enabled<br/>|Cons:<br/><br/>**Not recommended**<br/>**Impacts performance and scalability**<br/>**Subject to throttling**<br/>|Cons:<br/><br/>No ability to easily order sites<br/>Requires customization of the master page (technical skills required)<br/>|Cons:<br/><br/>Custom development is required<br/>External data source / cache stored is needed e.g. Azure<br/>|
+
+The most appropriate option for your site will depend on your site requirements and on your technical capability. If you want a scalable out-of-the-box navigation provider, then Managed navigation with security trimming disabled is a very good option. 
+
+The Managed navigation option can be maintained through configuration, does not involve code customization files, and it is significantly faster than structural navigation. If you require security trimming and are comfortable using a custom master page and have some capability in the organization to maintain the changes that may occur in the default master page for SharePoint Online, then the Search-driven option may produce a better user experience. If you have more complex requirements, then a custom navigation provider may be the right choice. Structural navigation is NOT recommended.
+
+Finally, it’s important to note that SharePoint is adding additional navigation providers and functionality for modern SharePoint site architectures leveraging a more flattened site hierarchy and a hub-and-spoke model with SharePoint hub sites. This allows many scenarios to be achieved that do NOT require the use of SharePoint Publishing feature, and these navigation configurations are optimized for scalability and latency within SharePoint Online. Note that applying the same principle - simplifying the overall structure of your SharePoint Publishing site to a flatter structure, often helps with overall performance and scale as well. What this means is that instead of having a single Site Collection with hundreds of sites (subwebs), a better approach is to have many site collections with very few subsites (subwebs).
+
+
+## Using managed navigation and metadata in SharePoint Online
+
+Managed navigation is another out-of-the-box option that you can use to recreate most of the same functionality as structural navigation. Managed metadata can be configured to have security trimming enabled or disabled. When configured with security trimming disabled, managed navigation is fairly efficient as it loads all the navigation links with a constant number of server calls. Enabling security trimming, however, negates some of the advantages of managed navigation, and customers may choose to explore one of the custom navigation solutions for optimal performance and scalability.
+
+Many sites do not require security trimming, as the navigation structure is often consistent for all users of the site. If security trimming is disabled and a link is added to navigation that not all users have access to, the link will still show but will lead to an access denied message. There is no risk of inadvertent access to the content.
+
+### How to implement managed navigation and the results
+
+There are several articles on Docs.Microsoft.com about the details of managed navigation, for example, see [Overview of managed navigation in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/overview-of-managed-navigation).
+
+In order to implement managed navigation, you set up terms with URLs corresponding to the navigation structure of  the site. Managed navigation can even be manually curated to replace structural navigation in many cases. For example:
+
   
 ## Using structural navigation in SharePoint Online
 
