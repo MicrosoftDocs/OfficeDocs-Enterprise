@@ -177,7 +177,7 @@ This approach involves creating a custom master page and replacing the out-of-th
 ```
 <br/>
 6. Replace the URL in the loading image anchor tag at the beginning, with a link to a loading image in your site collection. After you have made the changes, rename the file and then upload it to the master page gallery. This generates a new `.master` file.
-7. This HTML is the basic markup that will be populated by the search results returned from JavaScript code. You will need to edit the following code to change the value for the `var root = “site collection URL”` as demonstrated in the following snippet:<br/>`var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;`
+7. This HTML is the basic markup that will be populated by the search results returned from JavaScript code. You will need to edit the code to change the value for the `var root = “site collection URL”` as demonstrated in the following snippet:<br/>`var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;`
 8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.heirarchy. This array is the object that is bound to the HTML. This is done in the `toggleView()` function by passing the self object to the `ko.applyBinding()` function. This then causes the hierarchy array to be bound to the following HTML: `<div data-bind=”foreach: hierarchy” class=”noindex ms-core-listMenu-horizontalBox”>'
 
 The event handlers for `mouseenter` and `mouseexit` are added to the top-level navigation to handle the subsite drop-down menus which is done in the `addEventsToElements()` function.
