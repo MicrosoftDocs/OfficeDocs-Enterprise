@@ -20,9 +20,9 @@ This article describes navigation options sites with SharePoint Publishing enabl
 
 Navigation provider configuration can significantly impact performance for the entire site, and careful consideration must be taken to pick a navigation provider and configuration that scales effectively for the requirements of a SharePoint site. There are two out-of-the-box navigation providers, as well as custom navigation implementations.
 
-The first option, **Managed (Metadata) navigation**, is recommended, and is one of the default options in SharePoint Online; however, we recommend that security trimming be disabled unless required. Security trimming is enabled as a secure-by-default setting for this navigation provider; however, many sites do not require the overhead of security trimming since navigation elements often are consistent for all users of the site. With the recommended configuration to disable security trimming, this navigation provider does not require enumerating site structure and is highly scalable with acceptable performance impact.
+The first option, [**Managed (Metadata) navigation**](#using-managed-navigation-and-metadata-in-sharepoint-online), is recommended, and is one of the default options in SharePoint Online; however, we recommend that security trimming be disabled unless required. Security trimming is enabled as a secure-by-default setting for this navigation provider; however, many sites do not require the overhead of security trimming since navigation elements often are consistent for all users of the site. With the recommended configuration to disable security trimming, this navigation provider does not require enumerating site structure and is highly scalable with acceptable performance impact.
 
-The second option, **Structural navigation**, is NOT a recommended navigation option in SharePoint Online. This navigation provider was designed for an on-premises topology has limited support in SharePoint Online. While it provides some additional set of capabilities versus other navigation options, these features, including security trimming and site structure enumeration, comes at a cost of excessive server calls and impacts scalability and performance when it is used. Sites using structed navigation that consume excessive resources may be subject to throttling.
+The second option, [**Structural navigation**](#using-structural-navigation-in-sharepoint-online), **is NOT a recommended navigation option in SharePoint Online**. This navigation provider was designed for an on-premises topology has limited support in SharePoint Online. While it provides some additional set of capabilities versus other navigation options, these features, including security trimming and site structure enumeration, comes at a cost of excessive server calls and impacts scalability and performance when it is used. Sites using structed navigation that consume excessive resources may be subject to throttling.
 
 In addition to the out-of-the-box navigation providers, many customers have successfully implemented alternative custom navigation implementations. One common class of custom navigation implementations embraces client-rendered design patterns that store a local cache of navigation nodes. 
 
@@ -177,12 +177,10 @@ This approach involves creating a custom master page and replacing the out-of-th
 ```
 <br/>
 6. Replace the URL in the loading image anchor tag at the beginning, with a link to a loading image in your site collection. After you have made the changes, rename the file and then upload it to the master page gallery. This generates a new `.master` file.<br/>
-7. This HTML is the basic markup that will be populated by the search results returned from JavaScript code. You will need to edit the code to change the value for the `var root = “site collection URL”` as demonstrated in the following snippet:<br/>
-`var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;`
+7. This HTML is the basic markup that will be populated by the search results returned from JavaScript code. You will need to edit the code to change the value for var root = “site collection URL” as demonstrated in the following snippet:<br/>
+    var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;
 <br/>
-8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.heirarchy. This array is the object that is bound to the HTML. This is done in the `toggleView()` function by passing the self object to the `ko.applyBinding()` function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>
-`<div data-bind=”foreach: hierarchy” class=”noindex ms-core-listMenu-horizontalBox”>`
-<br/> 
+8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.heirarchy. This array is the object that is bound to the HTML. This is done in the toggleView() function by passing the self object to the ko.applyBinding() function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>![HTML code snippet](media/SPONavOptionsStep8Snippet.png)
 
 The event handlers for `mouseenter` and `mouseexit` are added to the top-level navigation to handle the subsite drop-down menus which is done in the `addEventsToElements()` function.
 
