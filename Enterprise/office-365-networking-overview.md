@@ -22,9 +22,11 @@ description: ""
 
 **Outline and purpose for authors:** _Framing document on networking for SaaS in under 2 pages. Why it matters? What&#39;s the goal of good networking? It&#39;s all about user experience. How networking for SaaS is different from networking for IaaS._
 
-Office 365 is software as a service (SaaS) provided by Microsoft and made available over the public Internet. Some components of office 365 such as the PC application Microsoft Word run on the users computer and other components of Office 365 run in Microsoft datacenters. Network connectivity is required between the users computer and Microsoft datacenters.
+## Office 365 architecture
 
-This is important because end user experience is directly related to the performance and responsiveness of the application that they are using. Microsoft Teams relies on great networking connectivity so that user phone calls, conferences and shared screen collaborations are glitch free and Outlook relies on great networking connectivity for instant search features that leverage server side indexing and AI capability.
+Office 365 is a distributed Software-as-a-Service (SaaS) cloud that provides productivity and collaboration scenarios through a diverse set of micro-services and applications. Client components of Office 365 such as Outlook, Word and PowerPoint run on user computers, and must connect to other components of Office 365 that run in Microsoft datacenters. The most significant factor that determines the quality of the Office 365 end user experience is network reliability and latency between Office 365 clients and Microsoft datacenters.
+
+End user experience is directly related to the performance and responsiveness of the application that they are using. For example, Microsoft Teams relies on low latency so that user phone calls, conferences and shared screen collaborations are glitch-free, and Outlook relies on great networking connectivity for instant search features that leverage server-side indexing and AI capabilities.
 
 But which datacenters? Office 365 is hosted in many datacenters across the world and the service will use various methods for working to get a user to connect the services in Office 365 that they need. Since a users data and processing may occur in many Microsoft datacenters there is no single network cable you can connect from the users PC to once datacenter. Instead, you should optimize for connectivity to Microsoft&#39;s network as close to the user as possible and the service will get the connection to where it needs to go.
 
