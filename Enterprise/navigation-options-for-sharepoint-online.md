@@ -108,6 +108,7 @@ This approach involves creating a custom master page and replacing the out-of-th
 3.	From here you can navigate through the library and download the file `seattle.master`.
 4.	Edit the code using a text editor and delete the code block in the following screen shot.<br/>![Delete the code block shown](media/SPONavOptionsDeleteCodeBlock.png)<br/>
 5. Remove the code between the `<SharePoint:AjaxDelta id=”DeltaTopNavigation”>` and `<\SharePoint:AjaxDelta>` tags and replace it with the following snippet:<br/>
+
 ```
 <div id="loading">
   <!--Replace with path to loading image.-->
@@ -176,11 +177,18 @@ This approach involves creating a custom master page and replacing the out-of-th
 </div>
 ```
 <br/>
-6. Replace the URL in the loading image anchor tag at the beginning, with a link to a loading image in your site collection. After you have made the changes, rename the file and then upload it to the master page gallery. This generates a new `.master` file.<br/>
+6. Replace the URL in the loading image anchor tag at the beginning, with a link to a loading image in your site collection. After you have made the changes, rename the file and then upload it to the master page gallery. This generates a new .master file.<br/>
 7. This HTML is the basic markup that will be populated by the search results returned from JavaScript code. You will need to edit the code to change the value for var root = “site collection URL” as demonstrated in the following snippet:<br/>
-    var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;
+
+```
+var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;
+```
 <br/>
-8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.heirarchy. This array is the object that is bound to the HTML. This is done in the toggleView() function by passing the self object to the ko.applyBinding() function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>![HTML code snippet](media/SPONavOptionsStep8Snippet.png)
+8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.heirarchy. This array is the object that is bound to the HTML. This is done in the toggleView() function by passing the self object to the ko.applyBinding() function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>
+
+```
+<div data-bind=”foreach: hierarchy” class=”noindex ms-core-listMenu-horizontalBox”>
+```
 
 The event handlers for `mouseenter` and `mouseexit` are added to the top-level navigation to handle the subsite drop-down menus which is done in the `addEventsToElements()` function.
 
