@@ -3,7 +3,7 @@ title: "Manage Skype for Business Online with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/22/2018
+ms.date: 09/13/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -66,4 +66,6 @@ For more information, see the following topics:
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
 [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+
+[Skype for Business PowerShell cmdlet references](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 
