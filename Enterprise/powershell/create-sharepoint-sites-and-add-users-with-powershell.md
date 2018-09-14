@@ -34,6 +34,7 @@ The Office 365 PowerShell cmdlet imports the .csv file and pipes it to a loop in
 ### Create a .csv file
 
 1. Open Notepad, and paste the following text block into it:<br/>
+
 ```
 Owner,StorageQuota,Url,ResourceQuota,Template,TimeZoneID,Name
 owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/TeamSite01,25,EHS#1,10,Contoso Team Site
