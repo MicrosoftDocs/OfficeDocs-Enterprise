@@ -64,6 +64,7 @@ Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SP
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
 <br/>
+
 4. Note the new site collections in the list. You should see the following site collections: **contosotest**, **TeamSite01**, **Blog01**, and **Project01**
 
 That’s it. You’ve created multiple site collections using the .csv file you created and a single Windows PowerShell cmdlet. You’re now ready to create and assign users to these sites.
@@ -129,13 +130,16 @@ You’re now ready to run the UsersAndGroup.ps1 script to add users and groups t
 Set-ExecutionPolicy Bypass
 ```
 <br/>
+
 3. At the confirmation prompt, press **Y**.<br/>
+
 4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:<br/>
 
 ```
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
 <br/>Where *MyAlias* equals your user name.<br/>
+
 5. Wait for the prompt to return before moving on. You will first see the groups appear as they are created. Then you will see the group list repeated as users are added.
 
 ## See also
