@@ -1,4 +1,4 @@
-﻿# Cloud architecture models
+﻿# [Cloud architecture models](microsoft-cloud-it-architecture-resources.md)
 ## [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
 ### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
 ### [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md)
@@ -92,7 +92,7 @@
 ### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 ### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
-### [Office 365 Network Connectivity Principles](network-connectivity.md)
+### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### Office 365 endpoints
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
@@ -120,7 +120,7 @@
 ## [Configure Office 365 Enterprise services and applications](configure-services-and-applications.md)
 ### [Migrate data to Office 365](migrate-data-to-office-365.md)
 ### [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
-### [SharePoint Online](/sharepoint/sharepoint-online.md)
+### [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
 ### [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
 ### [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
 ### [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)

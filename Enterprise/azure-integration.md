@@ -27,7 +27,7 @@ Azure also offers other functionality, like managing integrated apps, that you c
 You can use the Azure AD deployment advisors for a guided setup and configuration experience:
  - [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync)
  - [AD FS deployment advisor](https://aka.ms/adfsguidance)
- - [Azure RMS Deploymnet Wizard](https://aka.ms/azuremsguidance)
+ - [Azure RMS Deployment Wizard](https://aka.ms/azuremsguidance)
  - [Azure AD Premium setup guide](https://aka.ms/aadpguidance)
   
 ## Azure AD editions and Office 365 identity management
@@ -45,7 +45,6 @@ For more information about Office 365 and Azure AD, see [Understanding Office 36
   
 ## Extend the capabilities of your Office 365 tenant
 
-<<<<<<< HEAD
 |**Feature**|**Description**|
 |:-----|:-----|
 |Integrated apps  <br/> |You can grant individual apps access to your Office 365 data, like mail, calendars, contacts, users, groups, files, and folders. You can also authorize these apps at global admin level and make them available to your entire company by registering the apps in Azure AD. For details see [Integrated Apps and Azure AD for Office 365 administrators](https://support.office.com/article/cb2250e3-451e-416f-bf4e-363549652c2a).  <br/> See also [Azure AD application gallery and single-sign-on](https://go.microsoft.com/fwlink/p/?LinkId=698604).  <br/> |
@@ -57,10 +56,6 @@ For other resources about the Microsoft Cloud and Office 365, see these resource
     
 - [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](https://go.microsoft.com/fwlink/p/?LinkId=517887)
     
-=======
-### Integrated apps
-You can grant individual apps access to your Office 365 data, like mail, calendars, contacts, users, groups, files, and folders. You can also authorize these apps at global admin level and make them available to your entire company by registering the apps in Azure AD. 
->>>>>>> robmazz-conversion
 
 Learn more at [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md) and [Azure AD application gallery and single-sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
 

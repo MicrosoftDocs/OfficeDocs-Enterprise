@@ -26,7 +26,7 @@
 
         "source_path": "enterprise/obsolete-bi-article.md",
 
-        "redirect_url": "https://technet.microsoft.com/en-us/library/mt792038(v=office.16).aspx",
+        "redirect_url": "https://docs.microsoft.com/SharePoint/administration/business-intelligence-0",
 
         "redirect_document_id": false
 
@@ -67,6 +67,159 @@
         "source_path": "enterprise/accessible-diagramyammer-features-on-mobile-devices.md",
 
         "redirect_url": "https://support.office.com/article/1bbd7c52-0207-4b50-a1b7-c0184c75a66a",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/office-365-information-protection-for-gdpr.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/office-365-information-protection-for-gdpr",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/office-365-info-protection-for-gdpr-overview.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/office-365-info-protection-for-gdpr-overview",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/search-for-and-find-personal-data.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/search-for-and-find-personal-data",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/customize-or-create-a-new-sensitive-information-type.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/customize-or-create-a-new-sensitive-information-type",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/architect-a-classification-schema-for-personal-data.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/architect-a-classification-schema-for-personal-data",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/apply-labels-to-personal-data-in-office-365.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/apply-labels-to-personal-data-in-office-365",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/apply-protection-to-personal-data-in-office-365.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/apply-protection-to-personal-data-in-office-365",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/monitor-for-leaks-of-personal-data.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-discovery-protection-reporting-in-office365-dev-test-environment",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-sharepoint-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-sharepoint-server",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-exchange-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-exchange-server",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-skype-for-business-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-skype-for-business-server",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-project-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-project-server",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-office-online-server.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-office-online-server",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-on-premises-file-shares.md",
+
+        "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-on-premises-file-shares",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/gdpr-for-office-servers.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/gdpr-for-office-servers",
 
         "redirect_document_id": false
 

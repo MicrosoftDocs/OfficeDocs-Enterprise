@@ -1,20 +1,21 @@
 ---
 title: "Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers"
 ms.author: tracyp
+ms.reviewer: smithre4
 author: MSFTTracyP
 manager: laurawi
-ms.date: 4/18/2018
+ms.date: 8/27/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: ef753b32-7251-4c9e-b442-1a5aec14e58d
-description: "Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for Skype for Business server on-premises and Exchange server on-premises, Exchange hybrids, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information."
+description: "Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information."
 ---
 
 # Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
 
-Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for Skype for Business server on-premises and Exchange server on-premises, Exchange hybrids, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information. 
+Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for Office 365 hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as, split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information. 
   
 - [What is Modern Authentication?](hybrid-modern-auth-overview.md#BKMK_WhatisModAuth)
     
@@ -115,15 +116,22 @@ Verify and check these items off your list before you continue:
     
   - There is no Exchange server 2010 in the environment.
     
-  - MAPI over HTTP enabled. It is usually enabled or True for new installs of Exchange 2013 Service Pack 1 and above.
-    
   - SSL Offloading is not configured. SSL termination and re-encryption is supported.
     
-  - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/en-us/library/bb123716%28v=exchg.160%29.aspx)property.
+  - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/en-us/library/bb123716%28v=exchg.160%29.aspx) property.
     
+- **Exchange client and protocol requirements**
+  
+  - The following clients support modern authentication:
+
+  |**Clients**|**Primary Protocol**|**Notes**|
+  |:-----|:-----|:-----|
+  |Outlook 2013 and Outlook 2016  <br/> |MAPI over HTTP  <br/> |MAPI over HTTP must be enabled within Exchange in order to leverage modern authentication with these clients (usually enabled or True for new installs of Exchange 2013 Service Pack 1 and above); for more information see [How modern authentication works for Office 2013 and Office 2016 client apps](https://docs.microsoft.com/en-us/office365/enterprise/modern-auth-for-office-2013-and-2016).  <br/> Ensure you are running the minimum required build of Outlook; see [Latest updates for versions of Outlook that use Windows Installer (MSI)](https://docs.microsoft.com/en-us/officeupdates/outlook-updates-msi).  <br/> |
+  |Outlook 2016 for Mac  <br/> |Exchange Web Services  <br/> |  <br/> |
+  |Outlook for iOS and Android  <br/> |  <br/> |See [Using hybrid Modern Authentication with Outlook for iOS and Android](https://docs.microsoft.com/en-us/Exchange/clients/outlook-for-ios-and-android/use-hybrid-modern-auth) for more information.  <br/> |
+  |Exchange ActiveSync clients (e.g., iOS11 Mail)  <br/> |Exchange ActiveSync  <br/> |For Exchange ActiveSync clients that support modern authentication, you must recreate the profile in order to switch from basic authentication to modern authentication.  <br/> |
+
 - **General prerequisites**
-    
-  - Must use [clients that support ADAL](https://support.office.com/en-us/article/How-modern-authentication-works-for-Office-2013-and-Office-2016-client-apps-e4c45989-4b1a-462e-a81b-2a13191cf517) in order for them to use the MA enabled features. 
     
   - If you use ADFS, you should have Windows 2012 R2 ADFS 3.0 and above for federation
     
