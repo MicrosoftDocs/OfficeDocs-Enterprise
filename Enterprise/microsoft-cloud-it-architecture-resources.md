@@ -142,7 +142,7 @@ Learn about the most common cyber attacks and how Microsoft can help your organi
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image of the Common attacks poster.](media/common%20attacks-thumb3.png) ](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) </br> | This poster illustrates the path of common attacks and describes which capabilities help stop attackers at each stage of an attack. <br/>|
+|[![Thumb image of the Common attacks poster.](media/common%20attacks-thumb3.png) ](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) <br/> [PDF](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.pdf) \| [Visio](http://download.microsoft.com/download/F/A/C/FACFC1E9-FA35-4DF1-943C-8D4237B4275B/MSFT_Cloud_architecture_security_commonattacks.vsdx) <br/> | This poster illustrates the path of common attacks and describes which capabilities help stop attackers at each stage of an attack. <br/>|
 
 
 <a name="santa"> </a>

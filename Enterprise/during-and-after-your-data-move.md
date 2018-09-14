@@ -92,8 +92,8 @@ The following table shows you how to access eDiscovery and auditing via the EAC 
   
 ||**Exchange admin center**|**Security &amp; Compliance Center**|
 |:-----|:-----|:-----|
-|eDiscovery  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. </br> Click  **Admin centers** \> **Exchange**. </br> Select **compliance management** \> **in-place eDiscovery &amp; hold**. | Go to https://portal.office.com, and then click the Admin tile. </br> Click **Admin centers** \> **Security &amp; Compliance**. </br> Select **Search &amp; investigation** \> **eDiscovery**.|
-|Auditing  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. </br> Click  **Admin centers** \> **Exchange**. Select **compliance management** \> **auditing**. | Go to https://portal.office.com, and then click the Admin tile. </br> Click  **Admin centers** \> **Security &amp; Compliance**. </br> Select **Search &amp; investigation** \> **Audit log search**. |
+|eDiscovery  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. <br/> Click  **Admin centers** \> **Exchange**. <br/> Select **compliance management** \> **in-place eDiscovery &amp; hold**. | Go to https://portal.office.com, and then click the Admin tile. <br/> Click **Admin centers** \> **Security &amp; Compliance**. <br/> Select **Search &amp; investigation** \> **eDiscovery**.|
+|Auditing  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. <br/> Click  **Admin centers** \> **Exchange**. Select **compliance management** \> **auditing**. | Go to https://portal.office.com, and then click the Admin tile. <br/> Click  **Admin centers** \> **Security &amp; Compliance**. <br/> Select **Search &amp; investigation** \> **Audit log search**. |
    
 ### Mailbox migration
 
