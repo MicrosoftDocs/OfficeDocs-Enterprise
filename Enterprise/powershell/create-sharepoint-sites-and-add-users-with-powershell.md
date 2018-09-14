@@ -42,9 +42,11 @@ owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,2
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
 ```
 <br/>Where *tenant* is the name of your tenant, and *owner* is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.<br/>(You can press Ctrl+H when you use Notepad to bulk replace faster.)<br/>
+
 2. Save the file on your desktop as **SiteCollections.csv**.<br/>
-    > [!TIP]
-    > Before you use this or any other .csv or Windows PowerShell script file, it is good practice to make sure that there are no extraneous or nonprinting characters. Open the file in Word, and in the ribbon, click the paragraph icon to show nonprinting characters. There should be no extraneous nonprinting characters. For example, there should be no paragraph marks beyond the final one at the end of the file.
+
+> [!TIP]
+> Before you use this or any other .csv or Windows PowerShell script file, it is good practice to make sure that there are no extraneous or nonprinting characters. Open the file in Word, and in the ribbon, click the paragraph icon to show nonprinting characters. There should be no extraneous nonprinting characters. For example, there should be no paragraph marks beyond the final one at the end of the file.
 
 ### Run the Windows PowerShell command
 
@@ -53,17 +55,16 @@ owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01
 Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
 <br/>Where *MyAlias* equals your user alias.<br/>
+
 2. Wait for the Windows PowerShell prompt to reappear. It might take a minute or two.<br/>
+
 3. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:<br/>
+
 ```
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
 <br/>
-4. Note the new site collections in the list. You should see the following site collections:<br/>
-    - contosotest
-    - TeamSite01
-    - Blog01
-    - Project01
+4. Note the new site collections in the list. You should see the following site collections: **contosotest**, **TeamSite01**, **Blog01**, and **Project01**
 
 That’s it. You’ve created multiple site collections using the .csv file you created and a single Windows PowerShell cmdlet. You’re now ready to create and assign users to these sites.
 
@@ -88,8 +89,11 @@ https://tenant.sharepoint.com/sites/Blog01,Contoso Blog Editors,Edit
 https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Control
 ```
 <br/>Where *tenant* equals your tenant name.<br/>
+
 2. Save the file to your desktop as **GroupsAndPermissions.csv**.<br/>
+
 3. Open a new instance of Notepad, and paste the following text block into it:<br/>
+
 ```
 Group,LoginName,Site
 Contoso Project Leads,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
@@ -102,13 +106,17 @@ Contoso Blog Editors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.c
 Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/Project01
 ```
 <br/>Where *tenant* equals your tenant name, and *username* equals the user name of an existing user.<br/>
+
 4. Save the file to your desktop as **Users.csv**.<br/>
+
 5. Open a new instance of Notepad, and paste the following text block into it:<br/>
+
 ```
 Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
 <br/>Where MyAlias equals the user name of the user that is currently logged on.<br/>
+
 6. Save the file to your desktop as **UsersAndGroups.ps1**. This is a simple Windows PowerShell script.
 
 You’re now ready to run the UsersAndGroup.ps1 script to add users and groups to multiple site collections.
