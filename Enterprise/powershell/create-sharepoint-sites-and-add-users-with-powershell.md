@@ -3,7 +3,6 @@ title: "Create SharePoint Online sites and add users with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/01/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -41,11 +40,11 @@ owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/TeamSite01,
 owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,BLOG#0,10,Contoso Blog
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Project01,25,PROJECTSITE#0,10,Project Alpha
 owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01,25,COMMUNITY#0,10,Community Site
-```<br/>Where *tenant* is the name of your tenant, and *owner* is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.<br/>(You can press Ctrl+H when you use Notepad to bulk replace faster.)<br/>
-2. Save the file on your desktop as **SiteCollections.csv**.
-
- > [!TIP]
-> Before you use this or any other .csv or Windows PowerShell script file, it is good practice to make sure that there are no extraneous or nonprinting characters. Open the file in Word, and in the ribbon, click the paragraph icon to show nonprinting characters. There should be no extraneous nonprinting characters. For example, there should be no paragraph marks beyond the final one at the end of the file.
+```
+<br/>Where *tenant* is the name of your tenant, and *owner* is the user name of the user on your tenant to whom you want to grant the role of primary site collection administrator.<br/>(You can press Ctrl+H when you use Notepad to bulk replace faster.)<br/>
+2. Save the file on your desktop as **SiteCollections.csv**.<br/>
+    > [!TIP]
+    > Before you use this or any other .csv or Windows PowerShell script file, it is good practice to make sure that there are no extraneous or nonprinting characters. Open the file in Word, and in the ribbon, click the paragraph icon to show nonprinting characters. There should be no extraneous nonprinting characters. For example, there should be no paragraph marks beyond the final one at the end of the file.
 
 ### Run the Windows PowerShell command
 
@@ -58,8 +57,13 @@ Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SP
 3. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:<br/>
 ```
 Get-SPOSite -Detailed | Format-Table -AutoSize
-```<br/>
-4. Note the new site collections in the list. You should see the following site collections: **contosotest**, **TeamSite01**, **Blog01**, and **Project01**.
+```
+<br/>
+4. Note the new site collections in the list. You should see the following site collections:<br/>
+    - contosotest
+    - TeamSite01
+    - Blog01
+    - Project01
 
 That’s it. You’ve created multiple site collections using the .csv file you created and a single Windows PowerShell cmdlet. You’re now ready to create and assign users to these sites.
 
@@ -115,9 +119,11 @@ You’re now ready to run the UsersAndGroup.ps1 script to add users and groups t
 2. At the Windows PowerShell prompt, type or copy and paste the following line, and press Enter:<br/>
 ```
 Set-ExecutionPolicy Bypass
-```<br/>
+```
+<br/>
 3. At the confirmation prompt, press **Y**.<br/>
 4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:<br/>
+
 ```
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
@@ -126,7 +132,7 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 
 ## See also
 
-[Connect to SharePoint Online PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+[Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 [Manage SharePoint Online site groups Office 365 PowerShell](manage-sharepoint-site-groups-with-powershell.md)
 
