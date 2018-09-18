@@ -90,6 +90,7 @@
 ## Set up your network
 ### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
+### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
 ### Office 365 IP Addresses and URLs
@@ -101,7 +102,6 @@
 #### [Office 365 operated by 21Vianet endpoints](urls-and-ip-address-ranges-21vianet.md)
 #### [Office 365 Germany endpoints](office-365-germany-endpoints.md)
 #### [Network requests in Office 2016 for Mac](network-requests-in-office-2016-for-mac.md)
-### [Network performance tuning and troubleshooting for Office 365](network-planning-and-performance.md)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
