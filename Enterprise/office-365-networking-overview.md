@@ -28,6 +28,8 @@ Office 365 is a distributed Software-as-a-Service (SaaS) cloud that provides pro
 
 End user experience is directly related to the performance and responsiveness of the application that they are using. For example, Microsoft Teams relies on low latency so that user phone calls, conferences and shared screen collaborations are glitch-free, and Outlook relies on great networking connectivity for instant search features that leverage server-side indexing and AI capabilities.
 
+Traditional network architecture principles for client/server workloads are 
+
 But which datacenters? Office 365 is hosted in many datacenters across the world and the service will use various methods for working to get a user to connect the services in Office 365 that they need. Since a users data and processing may occur in many Microsoft datacenters there is no single network cable you can connect from the users PC to once datacenter. Instead, you should optimize for connectivity to Microsoft&#39;s network as close to the user as possible and the service will get the connection to where it needs to go.
 
 So, SaaS networking for Office 365 needs connectivity from each user to the nearest point on Microsoft&#39;s network. To achieve this practically involves making the shortest possible connection from the user to the Internet and then relying on Microsoft&#39;s Internet points of presence.
