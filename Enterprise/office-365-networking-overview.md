@@ -24,9 +24,7 @@ In this article, you will learn about the goals of Office 365 networking, and wh
 
 ## Office 365 networking goals
 
-The ultimate goal of Office 365 networking is to optimize the end user experience by enabling the least restrictive access between clients and the closest Office 365 endpoints. When you implement SaaS services such as Office 365, traffic between clients and Office 365 endpoints traverses the Internet, and should be treated differently from generic Internet traffic.
-
-The quality of end user experience is directly related to the performance and responsiveness of the application that the user is using. For example, Microsoft Teams relies on low latency so that user phone calls, conferences and shared screen collaborations are glitch-free, and Outlook relies on great networking connectivity for instant search features that leverage server-side indexing and AI capabilities.
+The ultimate goal of Office 365 networking is to optimize the end user experience by enabling the least restrictive access between clients and the closest Office 365 endpoints. The quality of end user experience is directly related to the performance and responsiveness of the application that the user is using. For example, Microsoft Teams relies on low latency so that user phone calls, conferences and shared screen collaborations are glitch-free, and Outlook relies on great networking connectivity for instant search features that leverage server-side indexing and AI capabilities.
 
 The primary goal in the network design should be to minimize latency by reducing the round-trip time (RTT) from client machines to the Microsoft Global Network, Microsoft's public network backbone that interconnects all of Microsoft's datacenters with low latency and cloud application entry points spread around the world. You can learn more about the Microsoft Global Network at [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
 
@@ -46,6 +44,11 @@ In traditional network architectures, higher latency for generic Internet traffi
 ## Why is Office 365 networking different?
 
 Office 365 is designed for optimal performance and security without the need for perimeter security enforcement. Office 365 datacenters are located across the world and the service is designed to use various methods for connecting clients to best available service endpoints. Since user data and processing is distributed between many Microsoft datacenters, there is no single network endpoint to which client machines can connect. In fact, data and services in your Office 365 tenant are dynamically optimized by the Microsoft Global Network to adapt to the geographic locations from which they are accessed by end users.
+
+Certain common performance issues are created when Office 365 traffic is subject to packet inspection and centralized egress:
+
+- High latency can cause extremely poor performance of video and audio streams, and slow response of data retrival, searches, real-time collaboration, calendar free/busy information, in-product content and other services
+- Egressing connections from a central location defeats the dynamic routing capabilities of the Office 365 global network, adding latency and round-trip time
 
 Shortening the network path to Office 365 entry points by allowing client traffic to egress as close as possible to their geographic location can improve connectivity performance and the end user experience in Office 365, and can also help to reduce the impact of future changes to the network architecture on Office 365 performance and reliability. The optimum connectivity model is to always provide network egress at the user's location, regardless of whether this is on the corporate network or remote locations such as home, hotels, coffee shops and airports. This local direct egress model is represented in the diagram below.
 
