@@ -101,16 +101,16 @@
 #### [Office 365 operated by 21Vianet endpoints](urls-and-ip-address-ranges-21vianet.md)
 #### [Office 365 Germany endpoints](office-365-germany-endpoints.md)
 #### [Network requests in Office 2016 for Mac](network-requests-in-office-2016-for-mac.md)
-#### [Network performance tuning and troubleshooting for Office 365](network-planning-and-performance.md)
-#### [Content delivery networks](content-delivery-networks.md)
-#### [IPv6 support in Office 365 services](ipv6-support.md)
-#### [NAT support with Office 365](nat-support-with-office-365.md)
+### [Network performance tuning and troubleshooting for Office 365](network-planning-and-performance.md)
+### [Content delivery networks](content-delivery-networks.md)
+### [IPv6 support in Office 365 services](ipv6-support.md)
+### [NAT support with Office 365](nat-support-with-office-365.md)
+### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### Working with ExpressRoute for Office 365
 #### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 #### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
 #### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 #### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
-### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 
 ## Set up your subscription
 ### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
