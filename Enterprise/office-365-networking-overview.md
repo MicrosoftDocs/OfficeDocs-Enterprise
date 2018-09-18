@@ -28,14 +28,15 @@ Office 365 is a distributed Software-as-a-Service (SaaS) cloud that provides pro
 
 End user experience is directly related to the performance and responsiveness of the application that they are using. For example, Microsoft Teams relies on low latency so that user phone calls, conferences and shared screen collaborations are glitch-free, and Outlook relies on great networking connectivity for instant search features that leverage server-side indexing and AI capabilities.
 
-Traditional network architecture principles for client/server workloads are 
+Traditional network architecture principles for client/server workloads are designed around the assumption that traffic between clients and on-premises endpoints does not extend outside the corporate network perimeter. Also, in many enterprise networks, all outbound Internet connections traverse the corporate network, and egress from a central location. When you implement Microsoft SaaS services such as Office 365, traffic between clients and Office 365 endpoints traverses the Internet, and should be treated differently from other Internet-bound traffic.
 
-But which datacenters? Office 365 is hosted in many datacenters across the world and the service will use various methods for working to get a user to connect the services in Office 365 that they need. Since a users data and processing may occur in many Microsoft datacenters there is no single network cable you can connect from the users PC to once datacenter. Instead, you should optimize for connectivity to Microsoft&#39;s network as close to the user as possible and the service will get the connection to where it needs to go.
+Office 365 datacenters are located across the world and the service is designed to use various methods for connecting clients to best available service endpoints. Since user data and processing is distributed between many Microsoft datacenters, there is no single network endpoint to which client machines can connect. In fact, data and services in your Office 365 tenant are dynamically optimized by the Microsoft Global Network to adapt to the geographic locations from which they are accessed by end users. Shortening the network path to Office 365 entry points by allowing client traffic to egress as close as possible to their geographic location can improve connectivity performance and the end user experience in Office 365, and can also help to reduce the impact of future changes to the network architecture on Office 365 performance and reliability. The optimum connectivity model is to always provide network egress at the user's location, regardless of whether this is on the corporate network or remote locations such as home, hotels, coffee shops and airports. This local direct egress model is represented in the diagram below.
 
-So, SaaS networking for Office 365 needs connectivity from each user to the nearest point on Microsoft&#39;s network. To achieve this practically involves making the shortest possible connection from the user to the Internet and then relying on Microsoft&#39;s Internet points of presence.
+![Local egress network architecture](media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
-[Diagram showing customer with many branch locations on the left and Microsoft cloud with many Internet points of presence on the right]
+The local egress architecture has the following benefits over the traditional model:
+  
+- Provides optimal Office 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Office 365 entry point by the Microsoft Global Network's _Distributed Service Front Door_ infrastructure.
+- Reduces the load on corporate network infrastructure by allowing local egress for Office 365 traffic, bypassing proxies and traffic inspection devices.
+- Secures connections on both ends by leveraging client endpoint security and cloud security features, avoiding application of redundant security technologies.
 
-There are a few observations that we can make with this network connectivity model.
-
-First, since there is no single point you can optimize network connectivity to, there is no single logical point where a traditional perimeter network stack can be located. Second, this is a very different model to either resource based IaaS infrastructure connectivity and to standard Internet browsing connectivity.
