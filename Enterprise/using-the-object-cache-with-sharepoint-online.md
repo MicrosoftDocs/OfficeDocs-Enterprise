@@ -3,7 +3,7 @@ title: "Using the object cache with SharePoint Online"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 4/20/2015
+ms.date: 09/19/2018
 ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -49,16 +49,15 @@ Since you shouldn't rely on object cache in SharePoint Online, you should evalua
     
 - [Minification and bundling in SharePoint Online](minification-and-bundling-in-sharepoint-online.md)
     
-- [Using content delivery networks](using-content-delivery-networks-with-sharepoint-online.md)
-Replace by O365 CDN or update that other one to refer O365 CDN: https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo
+- [Use the Office 365 content delivery network with SharePoint Online](use-office-365-cdn-with-spo.md)
     
 - [Delay loading images and JavaScript in SharePoint Online](delay-loading-images-and-javascript-in-sharepoint-online.md)
 
-Page Diagnostics for SPO to help you identify issues on Publishing pages - https://docs.microsoft.com/en-us/office365/enterprise/page-diagnostics-for-spo
+- [Page Diagnostics for SPO to help you identify issues on Publishing pages](page-diagnostics-for-spo.md) 
 
-Best practices on buidling SharePoint Online portals, including performance and navigation: https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-overview
+- [Best practices on buidling SharePoint Online portals, including performance and navigation](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-overview)
 
-Modern pages customization as a way to avoid object cache/Publishing feature: https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-pages
+- [Modern pages customization as a way to avoid object cache/Publishing feature](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-pages)
 
     
 
