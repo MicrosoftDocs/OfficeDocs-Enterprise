@@ -175,7 +175,3 @@ If you purchased Azure and Office 365 subscriptions separately and want to acces
   
 [Hybrid solutions](hybrid-solutions.md)
   
-[Subscriptions, licenses, and user accounts for the Contoso Corporation](subscriptions-licenses-and-user-accounts-for-the-contoso-corporation.md)
-
-
-
