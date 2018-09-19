@@ -35,7 +35,6 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Microsoft Mobility and Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#mobility)
     - [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#storage)
     - [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#hybrid)
-    - [Contoso in the Microsoft Cloud](microsoft-cloud-it-architecture-resources.md#contoso)
     - [Common attacks and Microsoft capabilities that protect your organizaion](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
     
 - **[Office 365 Enterprise Solution Series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
@@ -126,15 +125,6 @@ What IT architects need to know about hybrid cloud for Microsoft services and pl
 |**Item**|**Description**|
 |:-----|:-----|
 |[![Thumb image for the Microsoft hybrid cloud model](media/9989c71e-f6a0-4dbe-906c-43e67b3ce537.png)          ](https://www.microsoft.com/download/details.aspx?id=54424) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842082)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=842083)           \| [Article](https://technet.microsoft.com/library/mt750500.aspx) <br/>[More languages](https://www.microsoft.com/download/details.aspx?id=54424) <br/> | This model contains the following pages: <ul><li> **Hybrid cloud overview** Microsoft's cloud offerings (SaaS, Azure PaaS, and Azure IaaS) and their common elements. </li><li> **Architecture of Microsoft hybrid cloud scenarios** An architectural diagram of hybrid cloud for Microsoft's cloud offerings, showing the common layers of on-premises infrastructure, networking, and identity. </li><li> **Hybrid cloud scenarios for Microsoft SaaS (Office 365)** The SaaS hybrid scenario architecture and descriptions of key hybrid configurations for Skype for Business, SharePoint Server, and Exchange Server. </li><li> **Hybrid cloud scenarios for Azure PaaS** The Azure PaaS hybrid scenario architecture, the description of an Azure PaaS hybrid application with an example, and the description of SQL Server 2016 Stretch Database. </li><li> **Hybrid cloud scenarios for Azure IaaS** The Azure IaaS hybrid scenario architecture and the description of a line of business (LOB) application hosted in Azure IaaS. </li></ul><br/>|
-   
-<a name="contoso"> </a>
-### Contoso in the Microsoft Cloud
-
-How a fictional but representative global organization has implemented Microsoft's cloud offerings, including Office 365, Azure, Dynamics 365, and Intune.
-  
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Thumb image of the Contoso in the Microsoft Cloud poster.](media/63077617-b8f2-45b6-b772-bad6cd98721d.png)          ](https://www.microsoft.com/download/details.aspx?id=54427) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842085)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=842086)           \| [Article](https://technet.microsoft.com/library/mt775341.aspx) <br/>[More languages](https://www.microsoft.com/download/details.aspx?id=54427) <br/> |This model contains: <ul><li>Overview of the Contoso Corporation </li><li>Contoso's IT infrastructure and needs </li><li>Cloud networking for Contoso</li><li>Cloud identity for Contoso</li><li>Contoso's subscriptions, licenses, and user accounts</li><li>Cloud security for Contoso</li><li>Enterprise cloud scenarios for Contoso</li></ul> <br/>|
    
 <a name="attacks"> </a>
 ### Common attacks and Microsoft capabilities that protect your organization
