@@ -21,7 +21,7 @@ This poster describes and illustrates how public-facing Internet sites benefit f
   
 - Design and size the farm topology. 
     
-- Fine-tune for Azure. 
+- Fine-tune for Azure.
     
 - Choose the Active Directory model. 
     
