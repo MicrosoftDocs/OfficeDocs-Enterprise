@@ -230,7 +230,7 @@
 
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview",
 
-        "redirect_document_id": true
+        "redirect_document_id": false
 
       }
 
