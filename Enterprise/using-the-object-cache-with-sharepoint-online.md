@@ -3,7 +3,7 @@ title: "Using the object cache with SharePoint Online"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 09/19/2018
+ms.date: 4/20/2015
 ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -20,8 +20,6 @@ description: "This article explains the difference between using the object cach
 This article explains the difference between using the object cache in SharePoint Server 2013 on-premises and SharePoint Online.
   
 There is significant negative impact of relying on the object cache in SharePoint Online deployment. Any dependency on object cache in SharePoint Online will reduce the reliability of your page. 
-
-Given the fact that some very popular features like for example the Publishing Infrastructure and the Content Query Web Part explicitly uses the object cache, it is important to review the requirements to have such features enabled since they can have such a negative impact in SharePoint Online.
   
 ## How the SharePoint Online and SharePoint Server 2013 object cache works
 
@@ -43,21 +41,14 @@ For all of these reasons, relying on users getting cached objects is not an effe
   
 ## If we can't rely on the object cache to improve performance in SharePoint Online, what do we use instead?
 
-Since you shouldn't rely on object cache in SharePoint Online, you should evaluate alternative design approaches for SharePoint customizations that do not use the object cache. This means using approaches for performance issues which do not rely on the object caching in order to produce good results for users, which means reviewing your requirements to use features that rely on object cache as for example the Publishing Infrastructure and the Content Query Web Part. This is described in some of the other articles in this series and include:
+Since you shouldn't rely on caching in SharePoint Online, you should evaluate alternative design approaches for SharePoint customizations that use the object cache. This means using approaches for performance issues which do not rely on the object caching in order to produce good results for users. This is described in some of the other articles in this series and include:
   
 - [Navigation options for SharePoint Online](navigation-options-for-sharepoint-online.md)
     
 - [Minification and bundling in SharePoint Online](minification-and-bundling-in-sharepoint-online.md)
     
-- [Use the Office 365 content delivery network with SharePoint Online](use-office-365-cdn-with-spo.md)
+- [Using content delivery networks](using-content-delivery-networks-with-sharepoint-online.md)
     
 - [Delay loading images and JavaScript in SharePoint Online](delay-loading-images-and-javascript-in-sharepoint-online.md)
-
-- [Page Diagnostics for SPO to help you identify issues on Publishing pages](page-diagnostics-for-spo.md) 
-
-- [Best practices on buidling SharePoint Online portals, including performance and navigation](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-overview)
-
-- [Modern pages customization as a way to avoid object cache/Publishing feature](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-customizations-customize-pages)
-
     
 
