@@ -179,7 +179,7 @@ The result from the endpoints web method is an array of records with each record
 - tcpPorts - TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in that endpoint set for that category. Omitted if blank.
 - udpPorts - UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
 - ips - The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. A JSON array of IP Address ranges. Omitted if blank.
-- category - The connectivity category for the endpoint set. Valid values are Optimize, Allow, and Default. Required.
+- category - The connectivity category for the endpoint set. Valid values are Optimize, Allow, and Default. If using the endpoint data to search for the category of an IP Address or URL, it is possible that your query may return multiple categories. There are a few reasons why that may happen. In these cases you should follow the recommendations for the highest priority category. For example, if the endpoint appears in both Optimize and Allow, you should follow the requirements for Optimize. Required. 
 - expressRoute - True or False if this endpoint set is routed over ExpressRoute.
 - required - True if this endpoint set is required to have connectivity for Office 365 to be supported. False if this endpoint set is optional.
 - notes - For optional endpoints, this text describes Office 365 functionality that will be missing if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
