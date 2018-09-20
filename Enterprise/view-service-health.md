@@ -1,9 +1,8 @@
 ---
 title: "How to check Office 365 service health"
-ms.author: kfollis
-author: kfollis
-manager: scotv
-ms.date: 6/15/2018
+ms.author: robmazz
+author: robmazz
+manager: laurawi
 ms.audience: Admin
 ms.topic: article
 f1_keywords:
@@ -25,7 +24,7 @@ description: "View the health status of Office 365 services before you call supp
 
 # How to check Office 365 service health
 
-You can view the health of Office 365, Yammer, Microsoft Dynamics CRM, and Microsoft Intune cloud services on the Office 365 ** Service health ** page in the admin center. If you are experiencing problems with a cloud service, you can check the service health to determine whether this is a known issue with a resolution in progress before you call support or spend time troubleshooting. 
+You can view the health of Office 365, Yammer, Microsoft Dynamics CRM, and Microsoft Intune cloud services on the Office 365 **Service health** page in the admin center. If you are experiencing problems with a cloud service, you can check the service health to determine whether this is a known issue with a resolution in progress before you call support or spend time troubleshooting. 
   
 ### How to check service health
 
@@ -34,7 +33,7 @@ You can view the health of Office 365, Yammer, Microsoft Dynamics CRM, and Micro
     > [!NOTE]
     > People who are assigned the global admin or service administrator role can view service health. To allow Exchange, SharePoint, and Skype for Business admins to view service health, they must also be assigned the Service admin role. 
   
-2. To open service health, in the admin center, go to **Health** \> **Service health**, or click the Service health card on the Home dashboard. The dashboard card indicates whether there is an active service issue and links to the detailed service health page.
+2. To open service health, in the admin center, go to **Health** > **Service health**, or click the Service health card on the Home dashboard. The dashboard card indicates whether there is an active service issue and links to the detailed service health page.
     
     ![Dashboard card for service health](media/8ae3de43-7bd5-4ee9-90ed-8b5ba5f9b474.png)
   
@@ -89,17 +88,15 @@ Most of the time services will appear as healthy with no further information. Wh
    
 ### Status definitions
 
-|
-|
 |**Status**|**Definition**|
 |:-----|:-----|
-|Investigating  <br/> |We're aware of a potential issue and are gathering more information about what's going on and the scope of impact.  <br/> |
-|Service degradation  <br/> |We've confirmed that there is an issue that may affect use of a service or feature. You might see this status if a service is performing more slowly than usual, there are intermittent interruptions, or if a feature isn't working, for example.  <br/> |
-|Service interruption  <br/> |You'll see this status if we determine that an issue affects the ability for users to access the service. In this case, the issue is significant and can be reproduced consistently.  <br/> |
-|Restoring service  <br/> |The cause of the issue has been identified, we know what corrective action to take, and are in the process of bringing the service back to a healthy state.  <br/> |
-|Extended recovery  <br/> |This status indicates that corrective action is in progress to restore service to most users but will take some time to reach all the affected systems. You might also see this status if we've made a temporary fix to reduce impact while we wait to apply a permanent fix.  <br/> |
-|Investigation suspended  <br/> |If our detailed investigation of a potential issue results in a request for additional information from customers to allow us to investigate further, you'll see this status. If we need you to act, we'll let you know what data or logs we need.  <br/> |
-|Service restored  <br/> |We've confirmed that corrective action has resolved the underlying problem and the service has been restored to a healthy state. To find out what went wrong, view the issue details.  <br/> |
+|**Investigating** | We're aware of a potential issue and are gathering more information about what's going on and the scope of impact. |
+|**Service degradation** | We've confirmed that there is an issue that may affect use of a service or feature. You might see this status if a service is performing more slowly than usual, there are intermittent interruptions, or if a feature isn't working, for example. |
+|**Service interruption** | You'll see this status if we determine that an issue affects the ability for users to access the service. In this case, the issue is significant and can be reproduced consistently. |
+|**Restoring service** | The cause of the issue has been identified, we know what corrective action to take, and are in the process of bringing the service back to a healthy state. |
+|**Extended recovery** | This status indicates that corrective action is in progress to restore service to most users but will take some time to reach all the affected systems. You might also see this status if we've made a temporary fix to reduce impact while we wait to apply a permanent fix. |
+|**Investigation suspended** | If our detailed investigation of a potential issue results in a request for additional information from customers to allow us to investigate further, you'll see this status. If we need you to act, we'll let you know what data or logs we need. |
+|**Service restored** | We've confirmed that corrective action has resolved the underlying problem and the service has been restored to a healthy state. To find out what went wrong, view the issue details. |
    
 ## History
 
