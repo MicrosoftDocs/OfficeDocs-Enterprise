@@ -62,7 +62,7 @@ Office 365 is designed for optimal performance using endpoint security and encry
 
 Certain common performance issues are created when Office 365 traffic is subject to packet inspection and centralized egress:
 
-- High latency can cause extremely poor performance of video and audio streams, and slow response of data retrival, searches, real-time collaboration, calendar free/busy information, in-product content and other services
+- High latency can cause extremely poor performance of video and audio streams, and slow response of data retrieval, searches, real-time collaboration, calendar free/busy information, in-product content and other services
 - Egressing connections from a central location defeats the dynamic routing capabilities of the Office 365 global network, adding latency and round-trip time
 - Decrypting SSL secured Office 365 network traffic and re-encrypting it can cause protocol errors and has security risk
 
@@ -70,7 +70,7 @@ Shortening the network path to Office 365 entry points by allowing client traffi
 
 ![Local egress network architecture](media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
-The local egress architecture has the following benefits for Ofice 365 network trafic over the traditional model:
+The local egress architecture has the following benefits for Office 365 network traffic over the traditional model:
   
 - Provides optimal Office 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Office 365 entry point by the Microsoft Global Network's _Distributed Service Front Door_ infrastructure, and traffic is then routed internally to data and service endpoints over Microsoft's ultra-low latency high availability dark fiber.
 - Reduces the load on corporate network infrastructure by allowing local egress for Office 365 traffic, bypassing proxies and traffic inspection devices.
@@ -81,7 +81,7 @@ For more information on understanding and applying Office 365 network connectivi
 
 ## Conclusion
 
-Optimizing Office 365 network performance really comes down to removing unneccessary impediments. By treating Office 365 connections as trusted traffic, you can prevent latency from being introduced by packet inspection and competition for proxy bandwidth. Allowing local connections between client machines and Office 365 endpoints enables traffic to be dynamically routed through the Microsoft Global Network.
+Optimizing Office 365 network performance really comes down to removing unnecessary impediments. By treating Office 365 connections as trusted traffic, you can prevent latency from being introduced by packet inspection and competition for proxy bandwidth. Allowing local connections between client machines and Office 365 endpoints enables traffic to be dynamically routed through the Microsoft Global Network.
 
 ## Related Topics
 
