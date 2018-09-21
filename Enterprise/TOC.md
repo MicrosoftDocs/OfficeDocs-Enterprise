@@ -96,16 +96,15 @@
 ### Office 365 IP Addresses and URLs
 #### [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
-#### [Additional endpoints not included in the web services](additional-office365-ip-addresses-and-urls.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
 #### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
 #### [Office 365 operated by 21Vianet endpoints](urls-and-ip-address-ranges-21vianet.md)
 #### [Office 365 Germany endpoints](office-365-germany-endpoints.md)
 #### [Network requests in Office 2016 for Mac](network-requests-in-office-2016-for-mac.md)
+#### [Additional endpoints not included in the web services](additional-office365-ip-addresses-and-urls.md)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
-### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 ### Working with ExpressRoute for Office 365
 #### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 #### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
