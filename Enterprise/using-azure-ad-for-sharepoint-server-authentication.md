@@ -70,34 +70,34 @@ This article was written using the reference architecture in [Run a high availab
 
 Using SAML requires the application be configured to use SSL. If your SharePoint web application is not configured to use SSL, use the following steps to create a new self-signed certificate to configure the web application for SSL. This configuration is only meant for a lab environment and is not intended for production. Production environments should use a signed certificate.
 
-1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443.</br>![Extending the web app to another IIS site](media/SAML11/fig3-extendwebapptoiis.png)</br>
+1. Go to **Central Administration** > **Application Management** > **Manage Web Applications**, and choose the web application that needs to be extended to use SSL. Select the web application and click the **Extend ribbon** button. Extend the web application to use the same URL but use SSL with port 443.<br/>![Extending the web app to another IIS site](media/SAML11/fig3-extendwebapptoiis.png)<br/>
 2. In IIS Manager, double-click **Server Certificates**.
 3. In the **Actions** pane, click **Create Self-Signed Certificate**. Type a friendly name for the certificate in the Specify a friendly name for the certificate box, and then click **OK**.
-4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.</br>![Editing site binding in IIS](media/SAML11/fig4-editsitebinding.png)</br>
+4. From the **Edit Site Binding** dialog box, ensure the host name is the same as the friendly name, as illustrated in the following image.<br/>![Editing site binding in IIS](media/SAML11/fig4-editsitebinding.png)<br/>
 
 Each of the web front end servers in the SharePoint farm will require configuring the certificate for the site binding in IIS.
 
 
 ## Step 3: Create a new enterprise application in Azure AD
 
-1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.</br>![Adding a new non-gallery application](media/SAML11/fig5-addnongalleryapp.png)</br>
-2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:</br>
+1. In the Azure Portal ([https://portal.azure.com](https://portal.azure.com)), open your Azure AD directory. Click **Enterprise Applications**, then click **New application**. Choose **Non-gallery application**. Provide a name such as *SharePoint SAML Integration* and click **Add**.<br/>![Adding a new non-gallery application](media/SAML11/fig5-addnongalleryapp.png)<br/>
+2. Click the Single sign-on link in the navigation pane to configure the application. Change the **Single Sign-on Mode** dropdown to **SAML-based Sign-on** to reveal the SAML configuration properties for the application. Configure with the following properties:<br/>
     - Identifier: `urn:sharepoint:portal.contoso.local`
     - Reply URL: `https://portal.contoso.local/_trust/default.aspx`
     - Sign-on URL: `https://portal.contoso.local/_trust/default.aspx`
-    - User Identifier: `user.userprincipalname`</br>
-    - Note: Remember to change the URLs by replacing *portal.contoso.local* with the URL of the SharePoint site you want to secure.</br>
-3. Set up a table (similar to Table 1 below) that includes the following rows:</br> 
+    - User Identifier: `user.userprincipalname`<br/>
+    - Note: Remember to change the URLs by replacing *portal.contoso.local* with the URL of the SharePoint site you want to secure.<br/>
+3. Set up a table (similar to Table 1 below) that includes the following rows:<br/> 
     - Realm
     - Full path to SAML signing certificate file
     - SAML Single Sign-On service URL (replacing */saml2* with */wsfed*)
-    - Application Object ID. </br>
+    - Application Object ID. <br/>
 Copy the *Identifier* value into the *Realm* property into a table  (See Table 1 below.)
 4. Save your changes.
-5. Click the **Configure (app name)** link to access the Configure sign-on page.</br>![Configuring a single-sign on page](media/SAML11/fig7-configssopage.png)</br> 
+5. Click the **Configure (app name)** link to access the Configure sign-on page.<br/>![Configuring a single-sign on page](media/SAML11/fig7-configssopage.png)<br/> 
     -  Click the **SAML Signing Certificate - Raw** link to download the SAML Signing Certificate as a file with the .cer extension. Copy and paste the full path to the downloaded file into your table.
-    - Copy and paste the SAML Single Sign-On Service URL link into your, replacing the */saml2* portion of the URL with */wsfed*.</br>
-6.  Navigate to the **Properties** pane for the application. Copy and paste the Object ID value into the table you set up in Step 3.</br>![Properties pane for the application](media/SAML11/fig8-propertiespane.png)</br>
+    - Copy and paste the SAML Single Sign-On Service URL link into your, replacing the */saml2* portion of the URL with */wsfed*.<br/>
+6.  Navigate to the **Properties** pane for the application. Copy and paste the Object ID value into the table you set up in Step 3.<br/>![Properties pane for the application](media/SAML11/fig8-propertiespane.png)<br/>
 7. Using the values you captured, make sure the table you set up in Step 3 resembles Table 1 below.
 
 
@@ -156,12 +156,12 @@ The user has been granted permission in Azure AD, but also must be granted permi
 1. In Central Administration, click **Application Management**.
 2. On the **Application Management** page, in the **Web Applications** section, click **Manage web applications**.
 3. Click the appropriate web application, and then click **User Policy**.
-4. In Policy for Web Application, click **Add Users**.</br>![Searching for a user by their name claim](media/SAML11/fig11-searchbynameclaim.png)</br>
+4. In Policy for Web Application, click **Add Users**.<br/>![Searching for a user by their name claim](media/SAML11/fig11-searchbynameclaim.png)<br/>
 5. In the **Add Users** dialog box, click the appropriate zone in **Zones**, and then click **Next**.
 6. In the **Policy for Web Application** dialog box, in the **Choose Users** section, click the **Browse** icon.
-7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. </br>Example: *demouser@blueskyabove.onmicrosoft.com*.
+7. In the **Find** textbox, type the sign-in name for a user in your directory and click **Search**. <br/>Example: *demouser@blueskyabove.onmicrosoft.com*.
 8. Under the AzureAD heading in the list view, select the name property and click **Add** then click **OK** to close the dialog.
-9. In Permissions, click **Full Control**.</br>![Granting full control to a claims user](media/SAML11/fig12-grantfullcontrol.png)</br>
+9. In Permissions, click **Full Control**.<br/>![Granting full control to a claims user](media/SAML11/fig12-grantfullcontrol.png)<br/>
 10. Click **Finish**, and then click **OK**.
 
 ## Step 6: Add a SAML 1.1 token issuance policy in Azure AD

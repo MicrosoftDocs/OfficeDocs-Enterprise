@@ -30,7 +30,7 @@ Use the steps in this article to design and deploy Office 365 labels and DLP pol
 2. For the desired SharePoint sites, edit the document library settings to apply a label to items in the library.
 3. Create DLP policies to take action based on the labels.
 
-When users add a document to the library, the document will receive the assigned label by default. Users can change the label,if needed. When a user shares a document outside the organization, DLP will check to see if a label is assigned and take action if a DLP policy matches the label. DLP will look for other policy matches as well, such as protecting files with credit card numbers if this type of policy is configured. 
+When users add a document to the library, the document will receive the assigned label by default. Users can change the label, if needed. When a user shares a document outside the organization, DLP will check to see if a label is assigned and take action if a DLP policy matches the label. DLP will look for other policy matches as well, such as protecting files with credit card numbers if this type of policy is configured. 
 
 ## Office 365 labels for your SharePoint Online sites
 
@@ -163,7 +163,7 @@ Use these steps to configure a DLP policy that notifies users when they share a 
   - To share with a user outside the organization, download the file and then open it. Click File, then Protect Document, and then Encrypt with Password, and then specify a strong password. Send the password in a separate email or other means of communication.
   - Highly confidential files are protected with encryption. Only external users who are granted permissions to these files by your IT department can read them.
     
-    Alternately, type or paste in your own policy tip that instructs users on how to share a file outside your organization. For more information on giving external users permissions to files protected wiht Azure Information Protection, see Adding permissions for external users.
+    Alternately, type or paste in your own policy tip that instructs users on how to share a file outside your organization.
     
 16. Click **OK**.
     

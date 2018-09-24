@@ -32,8 +32,8 @@ The SharePoint Online admin center has some easy-to-use methods for managing sit
 
 1. From the Office 365 admin center, click **Resources** > **Sites**, and then click the URL of the site.
 2. In the site collection dialog box, click **Go to this site**.
-3. On the site page, click the **Settings** icon (located in the upper right-hand corner of the page) and then click **Site settings**:</br>
-![SharePoint Online site settings](media/spo-site-settings.png)</br>
+3. On the site page, click the **Settings** icon (located in the upper right-hand corner of the page) and then click **Site settings**:<br/>
+![SharePoint Online site settings](media/spo-site-settings.png)<br/>
 4. On the Site Settings page, click **Sites permissions** under **Users and Permissions**.
 
 And then repeat the process for the next site you want to look at.
@@ -53,7 +53,7 @@ foreach ($y in $x)
 
 There are two ways to run this command set in the SharePoint Online Management Shell command prompt:
 
-- Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, select the commands, and then paste them into the SharePoint Online Management Shell command prompt. When you do, PowerShell will stop at a **>>** prompt. Press Enter to execute the **foreach** command.</br>
+- Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, select the commands, and then paste them into the SharePoint Online Management Shell command prompt. When you do, PowerShell will stop at a **>>** prompt. Press Enter to execute the **foreach** command.<br/>
 - Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, and then save this text file with a name and the .ps1 extension in a suitable folder. Next, run the script from the SharePoint Online Management Shell command prompt by specifying its path and file name. Here is an example command:
 
 ```

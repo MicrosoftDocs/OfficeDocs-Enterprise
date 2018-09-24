@@ -223,6 +223,15 @@
 
         "redirect_document_id": false
 
+      },
+      {
+
+        "source_path": "enterprise/privileged-access-management-in-office-365.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview",
+
+        "redirect_document_id": false
+
       }
 
 
