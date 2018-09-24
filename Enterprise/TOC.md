@@ -152,7 +152,7 @@
 #### [High availability federated authentication Phase 5: Configure federated authentication for Office 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)
 
 # Manage Office 365
-## Service health
+## [Service health](view-service-health.md)
 ### [Monitor connectivity](monitor-connectivity.md)
 ### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 ## [Management tools](https://support.office.com/en-us/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
