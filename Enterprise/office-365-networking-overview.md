@@ -62,7 +62,7 @@ Office 365 is designed for optimal performance using endpoint security and encry
 
 Certain common performance issues are created when Office 365 traffic is subject to packet inspection and centralized egress:
 
-- High latency can cause extremely poor performance of video and audio streams, and slow response of data retrival, searches, real-time collaboration, calendar free/busy information, in-product content and other services
+- High latency can cause extremely poor performance of video and audio streams, and slow response of data retrieval, searches, real-time collaboration, calendar free/busy information, in-product content and other services
 - Egressing connections from a central location defeats the dynamic routing capabilities of the Office 365 global network, adding latency and round-trip time
 - Decrypting SSL secured Office 365 network traffic and re-encrypting it can cause protocol errors and has security risk
 
@@ -70,21 +70,20 @@ Shortening the network path to Office 365 entry points by allowing client traffi
 
 ![Local egress network architecture](media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
-The local egress architecture has the following benefits for Ofice 365 network trafic over the traditional model:
+The local egress architecture has the following benefits for Ofice 365 network traffic over the traditional model:
   
 - Provides optimal Office 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Office 365 entry point by the Microsoft Global Network's _Distributed Service Front Door_ infrastructure, and traffic is then routed internally to data and service endpoints over Microsoft's ultra-low latency high availability dark fiber.
 - Reduces the load on corporate network infrastructure by allowing local egress for Office 365 traffic, bypassing proxies and traffic inspection devices.
 - Secures connections on both ends by leveraging client endpoint security and cloud security features, avoiding application of redundant network security technologies.
 
 > [!NOTE]
-> The _Distributed Service Front Door_ infrastructure is a highly available and scalable network edge with over 130+ locations distributed geographically. It terminates end user connections and routes them efficiently within the Microsoft global network.
+> The _Distributed Service Front Door_ infrastructure is the Microsoft Global Network's highly available and scalable network edge with geographically distributed locations. It terminates end user connections and efficiently routes them within the Microsoft Global Network. You can learn more about the Microsoft Global Network at [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
 
 For more information on understanding and applying Office 365 network connectivity principles, see [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles#office-365-connectivity-principles).
 
-
 ## Conclusion
 
-Optimizing Office 365 network performance really comes down to removing unneccessary impediments. By treating Office 365 connections as trusted traffic, you can prevent latency from being introduced by packet inspection and competition for proxy bandwidth. Allowing local connections between client machines and Office 365 endpoints enables traffic to be dynamically routed through the Microsoft Global Network.
+Optimizing Office 365 network performance really comes down to removing unnecessary impediments. By treating Office 365 connections as trusted traffic, you can prevent latency from being introduced by packet inspection and competition for proxy bandwidth. Allowing local connections between client machines and Office 365 endpoints enables traffic to be dynamically routed through the Microsoft Global Network.
 
 ## Related Topics
 
@@ -103,3 +102,5 @@ Optimizing Office 365 network performance really comes down to removing unnecces
 [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
+
+[How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
