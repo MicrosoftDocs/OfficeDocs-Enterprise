@@ -46,7 +46,7 @@ In traditional network architectures, higher latency for generic Internet traffi
 
 We're making it easier to identify Office 365 network traffic and making it simpler to manage the network identification.
 
-- New categories of network endpoints to differentiate highly critical network traffic from network traffic which is not impacted by Internet latencies. There are just a handful of URLs and supporting IP Addresses in the most critical “Optimize” category. 
+- New categories of network endpoints to differentiate highly critical network traffic from network traffic which is not impacted by Internet latencies. There are just a handful of URLs and supporting IP Addresses in the most critical “Optimize” category.
 - Web services for script usage or direct device configuration and change management of Office 365 network identification. Changes are available from the web service, or in RSS format, or on email using a Microsoft Flow template.
 - [Office 365 Network partner program](http://aka.ms/Office365NPP) with Microsoft partners who provide devices or services that follow Office 365 network connectivity principles and have simple configuration.
 
@@ -70,7 +70,7 @@ Shortening the network path to Office 365 entry points by allowing client traffi
 
 ![Local egress network architecture](media/6bc636b0-1234-4ceb-a45a-aadd1044b39c.png)
 
-The local egress architecture has the following benefits for Ofice 365 network traffic over the traditional model:
+The local egress architecture has the following benefits for Office 365 network traffic over the traditional model:
   
 - Provides optimal Office 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Office 365 entry point by the Microsoft Global Network's _Distributed Service Front Door_ infrastructure, and traffic is then routed internally to data and service endpoints over Microsoft's ultra-low latency high availability dark fiber.
 - Reduces the load on corporate network infrastructure by allowing local egress for Office 365 traffic, bypassing proxies and traffic inspection devices.
