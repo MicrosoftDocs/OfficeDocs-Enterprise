@@ -78,12 +78,13 @@
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### [Security best practices for Office 365](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
 ## Set up your network
-### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
-### [How to prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
-### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
-### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
+### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
-### Office 365 endpoints
+### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
+### [Network connectivity to Office 365](network-connectivity.md)
+### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
+### Office 365 IP Addresses and URLs
+#### [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
 #### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
@@ -91,11 +92,15 @@
 #### [Office 365 Germany endpoints](office-365-germany-endpoints.md)
 #### [Network requests in Office 2016 for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Additional endpoints not included in the web services](additional-office365-ip-addresses-and-urls.md)
-#### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
-### [Content delivery networks](https://support.office.com/article/0140f704-6614-49bb-aa6c-89b75dcd7f1f)
+### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
-### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
+### Working with ExpressRoute for Office 365
+#### [Azure ExpressRoute for Office 365](azure-expressroute.md)
+#### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
+#### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
+#### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
+
 ## Set up your subscription
 ### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
 ### [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
