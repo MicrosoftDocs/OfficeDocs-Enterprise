@@ -61,8 +61,8 @@ Use one of our PAC files as a starting place to determine what network traffic w
 The first example is a demonstration of our recommended approach to managing endpoints over the Internet only. Bypasses the proxy for Office 365 destinations where the IP address is published and sends remaining network requests to the proxy.
   
 Code snippet:
-  
-```
+
+```javascript
 // JavaScript source code
 //July 2018 - Updates go live 1st August2018
 //This PAC file contains all FQDNs needed for all services and splits the traffic between those which Microsoft can provide IPs for (so can be sent through a managed firewall with conditional access if desired) and those which IPs cannot be provided for, so need to go to an unrestricted proxy or egress. 
@@ -182,7 +182,7 @@ function FindProxyForURL(url, host)
     || (shExpMatch(host, "weu-000.tasks.osi.office.net"))
     || (shExpMatch(host, "wus-000.tasks.osi.office.net"))
     || (shExpMatch(host, "www.office.com")))
-      
+
     {
         return "DIRECT";
     }
@@ -346,7 +346,7 @@ function FindProxyForURL(url, host)
         || (shExpMatch(host, "www.remoteapp.windowsazure.com"))
         || (shExpMatch(host, "www.youtube.com"))
         || (shExpMatch(host, "xsi.outlook.com")))
-        
+
     {
         return proxyserver;
     }
@@ -362,8 +362,8 @@ else return proxyserver;
 The second example is a demonstration of our recommended approach to managing connections when ExpressRoute and Internet circuits are available. Sends ExpressRoute advertised destinations to the ExpressRoute circuit and Internet only advertised destinations to the proxy.
   
 Code snippet:
-  
-```
+
+```javascript
 // JavaScript source code
 //July 2018 Update
 // Consolidated FQDNs of URLS which are reachable via Microsoft peering over ExpressRoute. All other traffic sent to a proxy in this example. 
@@ -484,8 +484,8 @@ function FindProxyForURL(url, host)
 The third example demonstrates sending all network requests associated with Office 365 to a single destination. This is commonly used to bypass all inspection of Office 365 network requests and offers you a format where all published endpoints are in list in the PAC format to use for your customization.
   
 Code snippet:
-  
-```
+
+```javascript
 // JavaScript source code
 //July 2018 Update new URLS go live 1st August 2018 -
 //Consolidated FQDNs required to access Office 365 - All services including optional components covered and elements covered under wildcards removed. 
@@ -708,11 +708,10 @@ Here's a few more tools from the community, if you've built something you'd like
   <tenant-name>-my.sharepoint.com
   <tenant-name>-<app>.sharepoint.com
   *.Lync.com
-  
   ```
 
 - Ensure any network requests being sent to your firewall directly have a corresponding entry in the firewall allow list to allow the request to go through.
-    
+
 ## Perimeter network integration
 <a name="BKMK_Perimeter"> </a>
 
@@ -741,481 +740,7 @@ See [Network and migration planning for Office 365](network-and-migration-planni
 Check with your network solution or service provider if they can use Office 365 URL and IP definitions from XML to facilitate local (to the user), low overhead network egress for Office 365 traffic, manage its priority relative to other applications and adjust the network path for Office 365 connections into Microsoft network depending on changing network conditions. Some solutions download and automate Office 365 URL and IP XMLs definition in their stacks.
   
 Always ensure that the implemented solution has necessary degree of resiliency, appropriate geo-redundancy of the network path for Office 365 traffic and accommodates changes to Office 365 URLs and IPs as they become published.
-  
-## Web service
-<a name="webservice"> </a>
 
-To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service (now in preview), will eventually replace the lists of endpoints in the [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md) article, along with the RSS and XML versions of that data. These format of endpoint data are planned to be phased out on October 2, 2018. 
-  
-As a customer or a network perimeter device vendor, you can build against the new REST-based web service for the Office 365 IP address and FQDN entries.
-  
-- For the latest version of the Office 365 URLs and IP address ranges, use [https://endpoints.office.com/version](https://endpoints.office.com/version?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
-    
-- For the data on the Office 365 URLs and IP address ranges page for firewalls and proxy servers, use [https://endpoints.office.com/endpoints/worldwide](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
-    
-- To get the latest changes, use [https://endpoints.office.com/changes/worldwide/0000000000](https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
-    
-As a customer, you can use this web service to: 
-  
-- Update your PowerShell scripts to obtain Office 365 endpoint data and modify any formatting for your networking devices.
-    
-- Use this information to update PAC files deployed to client computers.
-    
-As a network perimeter device vendor, you can use this web service to: 
-  
-- Create and test device software to download the list for automated configuration. 
-    
-- Check for the current version.
-    
-- Get the current changes.
-    
-The following sections describe the preview of this web service, which might change over time until the service is generally available. 
-  
-The data on the web service is up to date and we are not planning to make further changes to the web service URLs or returned data schema before the general availability release of this web service.
-  
-For additional information, see:
-  
-- [Announcement blog post in the Office 365 Tech Community Forum](https://techcommunity.microsoft.com/t5/Office-365-Blog/Announcing-Office-365-endpoint-categories-and-Office-365-IP/ba-p/177638)
-    
-- [Office 365 Tech Community Forum for questions about use of the web services](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)
-    
-### Common parameters
-
-These parameters are common across all the web service methods:
-  
-- **format=CSV | JSON** - Query string parameter. By default, the returned data format is JSON. Include this optional parameter to return the data in comma-separated values (CSV) format. 
-    
-- **ClientRequestId** - Query string parameter. A required GUID that you generate for client session association. You should generate a GUID for each client machine that calls the web service. Do not use the GUIDs shown in the following examples because they may be blocked by the web service in the future. GUID format is xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, where x represents a hexadecimal number. To generate a GUID, use the [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell command. 
-    
-### Version web method
-
-Microsoft updates the Office 365 IP address and FQDN entries at the end of each month and occasionally out of cycle for operational or support requirements. The data for each published instance is assigned a version number. The version web method lets you poll for the latest version for each Office 365 service instance. We recommend you check the version daily, or at the most, hourly.
-  
-There is one parameter for the version web method:
-  
-- **AllVersions=true** - Query string parameter. By default, the version returned is the latest. Include this optional parameter to request all published versions. 
-    
-- **Instance** - Route parameter. This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh 
-    
-The result from the version web method may be a single record or an array of records. The elements of each record are:
-  
-- instance - The short name of the Office 365 service instance.
-    
-- latest - The latest version for endpoints of the specified instance.
-    
-- versions - A list of all previous versions for the specified instance. This element is only included if the AllVersions parameter is true.
-   
-#### Examples:
-  
-Example 1 request URI: **<span>https:</span>//endpoints.office.com/version?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This URI returns the latest version of each Office 365 service instance. Example result:
-  
-```
-[
- {
-  "instance": "Worldwide", 
-  "latest": "2018063000"
- },
- {
-  "instance": "USGovDoD", 
-  "latest": "2018063000"
- },
- {
-  "instance": "USGovGCCHigh",
-  "latest": "2018063000"
- },
- {
-  "instance": "China",
-  "latest": "2018063000"
- },
- {
-  "instance": "Germany",
-  "latest": "2018063000"
- }
-] 
-```
-
-> [!IMPORTANT]
-> The GUID for the ClientRequestID parameter in these URIs are only an example. To try the web service URIs out, generate your own GUID. The GUIDs shown in these examples may be blocked by the web service in the future. 
-  
-Example 2 request URI: **<span>https:</span>//endpoints.office.com/version/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This URI returns the latest version of the specified Office 365 service instance. Example result:
-  
-```
-{
- "instance": "Worldwide",
- "latest": "2018063000"
-}
-```
-
-Example 3 request URI: **<span>https:</span>//endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This URI shows output in CSV format. Example result:
-  
-```
-instance,latest
-Worldwide,2018063000
-```
-
-Example 4 request URI: **<span>https:</span>//endpoints.office.com/version/Worldwide?AllVersions=true&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This URI shows all prior versions that have been published for the Office 365 worldwide service instance. Example result:
-  
-```
-{
-  "instance": "Worldwide",
-  "latest": "2018063000",
-  "versions": [
-    "2018063000",
-    "2018062000"
-  ]
-}
-```
-
-### Endpoints web method
-
-The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. Parameters for the endpoints web method are:
-  
-- **ServiceAreas** - Query string parameter. A comma-separated list of service areas. Valid items are Common,Exchange,SharePoint,Skype. Because Common service area items are a prerequisite for all other service areas, the web service will always include them. If you do not include this parameter, all service areas are returned. 
-    
-- **TenantName** - Query string parameter. Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don't provide a tenant name, those parts of URLs have the wildcard character (\*). 
-    
-- **NoIPv6** - Query string parameter. Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network. 
-    
-- **Instance** - Route parameter. This required parameter specifies the instance to return the endpoints for. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh. 
-    
-The result from the endpoints web method is an array of records with each record representing an endpoint set. The elements for each record are:
-  
-- id - The immutable id number of the endpoint set.
-    
-- serviceArea - The service area that this is part of: Common, Exchange, SharePoint, or Skype.
-    
-- urls - URLs for the endpoint set. A JSON array of DNS records. Omitted if blank.
-    
-- tcpPorts - TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in that endpoint set for that category. Omitted if blank.
-    
-- udpPorts - UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
-    
-- ips - The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. Omitted if blank.
-    
-- category - The connectivity category for the endpoint set. Valid values are Optimize, Allow, and Default. Required.
-    
-- expressRoute - True or False if this endpoint set is routed over ExpressRoute.
-    
-- required - True if this endpoint set is required to have connectivity for Office 365 to be supported. Omitted if false.
-    
-- notes - For optional endpoints, this text describes Office 365 functionality that will be missing if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
-    
-#### Examples:
-  
-Example 1 request URI: **<span>https:</span>//endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This URI obtains all endpoints for the Office 365 worldwide instance for all workloads. Example result showing an excerpt of the output:
-  
-```
-[ 
- { 
-  "id": 1, 
-  "serviceArea": "Exchange", 
-  "serviceAreaDisplayName": "Exchange Online", 
-  "urls": 
-   [ 
-    "*.protection.outlook.com" 
-   ], 
-  "ips": 
-   [ 
-    "2a01:111:f403::/48", "23.103.132.0/22", "23.103.136.0/21", "23.103.198.0/23", "23.103.212.0/22", "40.92.0.0/14", "40.107.0.0/17", "40.107.128.0/18", "52.100.0.0/14", "213.199.154.0/24", "213.199.180.128/26", "94.245.120.64/26", "207.46.163.0/24", "65.55.88.0/24", "216.32.180.0/23", "23.103.144.0/20", "65.55.169.0/24", "207.46.100.0/24", "2a01:111:f400:7c00::/54", "157.56.110.0/23", "23.103.200.0/22", "104.47.0.0/17", "2a01:111:f400:fc00::/54", "157.55.234.0/24", "157.56.112.0/24", "52.238.78.88/32" 
-   ], 
-  "tcpPorts": "443", 
-  "expressRoute": true, 
-  "category": "Allow" 
- }, 
- { 
-  "id": 2, 
-  "serviceArea": "Exchange", 
-  "serviceAreaDisplayName": "Exchange Online", 
-  "urls": 
-   [ 
-    "*.mail.protection.outlook.com" 
-   ],
-...
-```
-
-Additional endpoint sets are not included in this example.
-  
-Example 2 request URI: **<span>https:</span>//endpoints.office.com/endpoints/Worldwide?ServiceAreas=Exchange&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This example obtains endpoints for the Office 365 Worldwide instance for Exchange Online and dependencies only.
-  
-The output for example 2 is similar to example 1 except that the results will not include endpoints for SharePoint Online or Skype for Business Online.
-  
-### Changes web method
-
-The changes web method returns the most recent updates that have been published. This is typically the previous month's changes to IP address ranges and URLs.
-  
-> [!NOTE]
-> Data from the changes API is accurate in the preview and should be used for development and testing only. 
-  
-The parameter for the changes web method is:
-  
-- **Version** - Required URL route parameter. The version that you have currently implemented, and you want to see the changes since that version. The format is YYYYMMDDNN. 
-    
-The result from the changes web method is an array of records with each record representing a change in a specific version of the endpoints. The elements for each record are:
-  
-- id - The immutable id of the change record.
-    
-- endpointSetId - The ID of the endpoint set record that is changed. Required.
-    
-- disposition - This can be either of change, add, or remove and describes what the change did to the endpoint set record.
-    
-- version - The version of the published endpoint set in which the change was introduced. Version numbers are of the format YYYYMMDDNN, where NN is a natural number incremented if there are multiple versions required to be published on a single day.
-    
-- previous - A substructure detailing previous values of changed elements on the endpoint set. This will not be included for newly added endpoint sets. Includes tcpPorts, udpPorts, ExpressRoute, category, required, notes.
-    
-- current - A substructure detailing updated values of changes elements on the endpoinset. Includes tcpPorts, udpPorts, ExpressRoute, category, required, notes.
-    
-- add - A sub structure detailing items to be added to endpoint set collections. Omitted if there are no additions.
-    
-  - effectiveDate - Defines the data when the additions will be live in the service.
-    
-  - ips - Items to be added to the ips array.
-    
-  - urls- Items to be added to the urls array.
-    
-- remove - A substructure detailing items to be removed from the endpoint set. Omitted if there are no removals.
-    
-  - ips - Items to be removed from the ips array.
-    
-  - urls- Items to be removed from the urls array.
-    
- **Examples:**
-  
-Example 1 request URI: **<span>https:</span>//endpoints.office.com/changes/worldwide/0000000000?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This requests all previous changes to the Office 365 worldwide service instance. Example result:
-  
-```
-[ 
- { 
-  "id": 424, 
-  "endpointSetId": 32, 
-  "disposition": "Change", 
-  "version": "2018062700", 
-  "remove": 
-   { 
-    "urls": 
-     [ 
-      "*.api.skype.com", "skypegraph.skype.com" 
-     ] 
-   } 
- }, 
- { 
-  "id": 426, 
-  "endpointSetId": 31, 
-  "disposition": "Change", 
-  "version": "2018062700", 
-  "add": 
-   { 
-    "effectiveDate": "20180609", 
-    "ips": 
-     [ 
-      "51.140.203.190/32" 
-     ]
-   },
-  "remove": 
-   { 
-    "ips": 
-     [
-...
-
-```
-
-Example 2 request URI: **<span>https:</span>//endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7**
-  
-This requests changes since the specified version to the Office 365 Worldwide instance. In this case, the version specified is the latest. Example result:
-  
-```
-[
-  {
-    "id":3,
-    "endpointSetId":33,
-    "changeDescription":"Removing old IP prefixes",
-    "disposition":"Change",
-    "version":"2018031301",
-    "remove":{
-      "ips":["65.55.127.0/24","66.119.157.192/26","66.119.158.0/25",
-      "111.221.76.128/25","111.221.77.0/26","207.46.5.0/24"]
-    }
-  },
-  {
-    "id":4,
-    "endpointSetId":45,
-    "changeDescription":"Removing old IP prefixes",
-    "disposition":"Change",
-    "version":"2018031301",
-    "remove":{
-      "ips":["13.78.93.8/32","40.113.87.220/32","40.114.149.220/32",
-      "40.117.100.83/32","40.118.214.164/32","104.208.31.113/32"]
-    }
-  }
-]
-
-```
-
-### Example PowerShell Script
-
-Here is a PowerShell script that you can run to see if there are actions you need to take for updated data. This script checks the version number for the Office 365 Worldwide instance endpoints. When there is a change, it downloads the endpoints and filters for the "Allow" and "Optimize" category endpoints. It also uses a unique ClientRequestId across multiple calls and saves the latest version found in a temporary file. You should call this script once an hour to check for a version update.
-  
-```
-# webservice root URL
-$ws = "https://endpoints.office.com"
-# path where client ID and latest version number will be stored
-$datapath = $Env:TEMP + "\endpoints_clientid_latestversion.txt"
-# fetch client ID and version if data file exists; otherwise create new file
-if (Test-Path $datapath) {
-    $content = Get-Content $datapath
-    $clientRequestId = $content[0]
-    $lastVersion = $content[1]
-}
-else {
-    $clientRequestId = [GUID]::NewGuid().Guid
-    $lastVersion = "0000000000"
-    @($clientRequestId, $lastVersion) | Out-File $datapath
-}
-# call version method to check the latest version, and pull new data if version number is different
-$version = Invoke-RestMethod -Uri ($ws + "/version/Worldwide?clientRequestId=" + $clientRequestId)
-if ($version.latest -gt $lastVersion) {
-    Write-Host "New version of Office 365 worldwide commercial service instance endpoints detected"
-    
-    # write the new version number to the data file
-    @($clientRequestId, $version.latest) | Out-File $datapath
-    # invoke endpoints method to get the new data
-    $endpointSets = Invoke-RestMethod -Uri ($ws + "/endpoints/Worldwide?clientRequestId=" + $clientRequestId)
-    # filter results for Allow and Optimize endpoints, and transform these into custom objects with port and category
-    $flatUrls = $endpointSets | ForEach-Object {
-        $endpointSet = $_
-        $urls = $(if ($endpointSet.urls.Count -gt 0) { $endpointSet.urls } else { @() })
-        $urlCustomObjects = @()
-        if ($endpointSet.category -in ("Allow", "Optimize")) {
-            $urlCustomObjects = $urls | ForEach-Object {
-                [PSCustomObject]@{
-                    category = $endpointSet.category;
-                    url      = $_;
-                    tcpPorts = $endpointSet.tcpPorts;
-                    udpPorts = $endpointSet.udpPorts;
-                }
-            }
-        }
-        $urlCustomObjects
-    }
-    $flatIps = $endpointSets | ForEach-Object {
-        $endpointSet = $_
-        $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
-        # IPv4 strings have dots while IPv6 strings have colons
-        $ip4s = $ips | Where-Object { $_ -like '*.*' }
-        
-        $ipCustomObjects = @()
-        if ($endpointSet.category -in ("Allow", "Optimize")) {
-            $ipCustomObjects = $ip4s | ForEach-Object {
-                [PSCustomObject]@{
-                    category = $endpointSet.category;
-                    ip = $_;
-                    tcpPorts = $endpointSet.tcpPorts;
-                    udpPorts = $endpointSet.udpPorts;
-                }
-            }
-        }
-        $ipCustomObjects
-    }
-    Write-Output "IPv4 Firewall IP Address Ranges"
-    ($flatIps.ip | Sort-Object -Unique) -join "," | Out-String
-    Write-Output "URLs for Proxy Server"
-    ($flatUrls.url | Sort-Object -Unique) -join "," | Out-String
-    # TODO Call Send-MailMessage with new endpoints data
-}
-else {
-    Write-Host "Office 365 worldwide commercial service instance endpoints are up-to-date"
-}
-```
-
-### Example Python Script
-
-Here is a Python script, tested with Python 3.6.3 on Windows 10, that you can run to see if there are actions you need to take for updated data. This script checks the version number for the Office 365 Worldwide instance endpoints. When there is a change, it downloads the endpoints and filters for the "Allow" and "Optimize" category endpoints. It also uses a unique ClientRequestId across multiple calls and saves the latest version found in a temporary file. You should call this script once an hour to check for a version update.
-  
-```
-import json
-import os
-import urllib.request
-import uuid
-# helper to call the webservice and parse the response
-def webApiGet(methodName, instanceName, clientRequestId):
-    ws = "https://endpoints.office.com"
-    requestPath = ws + '/' + methodName + '/' + instanceName + '?clientRequestId=' + clientRequestId
-    request = urllib.request.Request(requestPath)
-    with urllib.request.urlopen(request) as response:
-        return json.loads(response.read().decode())
-# path where client ID and latest version number will be stored
-datapath = os.environ['TEMP'] + '\endpoints_clientid_latestversion.txt'
-# fetch client ID and version if data exists; otherwise create new file
-if os.path.exists(datapath):
-    with open(datapath, 'r') as fin:
-        clientRequestId = fin.readline().strip()
-        latestVersion = fin.readline().strip()
-else:
-    clientRequestId = str(uuid.uuid4())
-    latestVersion = '0000000000'
-    with open(datapath, 'w') as fout:
-        fout.write(clientRequestId + '\n' + latestVersion)
-# call version method to check the latest version, and pull new data if version number is different
-version = webApiGet('version', 'Worldwide', clientRequestId)
-if version['latest'] > latestVersion:
-    print('New version of Office 365 worldwide commercial service instance endpoints detected')
-    # write the new version number to the data file
-    with open(datapath, 'w') as fout:
-        fout.write(clientRequestId + '\n' + version['latest'])
-    # invoke endpoints method to get the new data
-    endpointSets = webApiGet('endpoints', 'Worldwide', clientRequestId)
-    # filter results for Allow and Optimize endpoints, and transform these into tuples with port and category
-    flatUrls = []
-    for endpointSet in endpointSets:
-        if endpointSet['category'] in ('Optimize', 'Allow'):
-            category = endpointSet['category']
-            urls = endpointSet['urls'] if 'urls' in endpointSet else []
-            tcpPorts = endpointSet['tcpPorts'] if 'tcpPorts' in endpointSet else ''
-            udpPorts = endpointSet['udpPorts'] if 'udpPorts' in endpointSet else ''
-            flatUrls.extend([(category, url, tcpPorts, udpPorts) for url in urls])
-    flatIps = []
-    for endpointSet in endpointSets:
-        if endpointSet['category'] in ('Optimize', 'Allow'):
-            ips = endpointSet['ips'] if 'ips' in endpointSet else []
-            category = endpointSet['category']
-            # IPv4 strings have dots while IPv6 strings have colons
-            ip4s = [ip for ip in ips if '.' in ip]
-            tcpPorts = endpointSet['tcpPorts'] if 'tcpPorts' in endpointSet else ''
-            udpPorts = endpointSet['udpPorts'] if 'udpPorts' in endpointSet else ''
-            flatIps.extend([(category, ip, tcpPorts, udpPorts) for ip in ip4s])
-    print('IPv4 Firewall IP Address Ranges')
-    print(','.join(sorted(set([ip for (category, ip, tcpPorts, udpPorts) in flatIps]))))
-    print('URLs for Proxy Server')
-    print(','.join(sorted(set([url for (category, url, tcpPorts, udpPorts) in flatUrls]))))
-    
-    # TODO send mail (e.g. with smtplib/email modules) with new endpoints data
-else:
-    print('Office 365 worldwide commercial service instance endpoints are up-to-date')
-```
-
-### Web Service interface versioning
-
-Updates to the parameters or results for these web service methods may be required in the future. After the general availability version of these web services is published, Microsoft will make reasonable efforts to provide advance notice of material updates to the web service. When Microsoft believes that an update will require changes to clients using the web service, Microsoft will keep the previous version (one version back) of the web service available for at least twelve (12) months after the release of the new version. Customers who do not upgrade during that time may be unable to access the web service and its methods. Customers must ensure that clients of the web service continue working without error if the following changes are made to the web service interface signature:
-  
-- Adding a new optional parameter to an existing web method that doesn't have to be provided by older clients and doesn't impact the result an older client receives.
-    
-- Adding a new named attribute in one of the response REST items or additional columns to the response CSV.
-    
-- Adding a new web method with a new name that is not called by the older clients.
-    
 ## FAQ
 
 Frequently-asked administrator questions about connectivity:
@@ -1242,19 +767,15 @@ After you subscribe to the RSS feed, you can parse the information yourself or w
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |**Description** <br/> |Count  <br/> |Date after which you can expect network requests to be sent to the endpoint.  <br/> |Basic description of the feature or service that requires the endpoint.  <br/> |Can you connect to this endpoint on an ExpressRoute Circuit in addition to the internet?  <br/> |**Yes** - you can connect to this endpoint on both the internet and ExpressRoute.  <br/> **No** - you can only connect to this endpoint on the internet.  <br/> |The destination FQDN or IP range being added or removed.  <br/> |
 |**Example** <br/> |1/  <br/> |[Effective xx/xx/xxx.  <br/> |Required: \<description\>.  <br/> |ExpressRoute:  <br/> |\<Yes/No\>.  <br/> |\<FQDN/IP\>],  <br/> |
-   
+
 A couple other things to note, every entry has a common set of delimiters:
   
-- **/** - after the count 
-    
-- **[** - to indicate the entry for the count 
-    
-- **.** - used in between each distinct section of the entry 
-    
-- **],** - to indicate the end of a single entry 
-    
-- **].** - To indicate the end of all the entries 
-    
+- **/** - after the count
+- **[** - to indicate the entry for the count
+- **.** - used in between each distinct section of the entry
+- **],** - to indicate the end of a single entry
+- **].** - To indicate the end of all the entries
+
 ### How do I determine the location of my tenant?
 
  **Tenant location** is best determined using our [datacenter map](https://o365datacentermap.azurewebsites.net/).
@@ -1280,17 +801,12 @@ In the image below, you can see an example from a portion of the FQDN table in t
 Even though both row three and four are required to use Office Online, they've been separated to indicate the destination is different:
   
 1. \*.officeapps.live.com does not represent a CDN, meaning requests to this namespace will go directly to a Microsoft datacenter.
-    
 2. \*.officeapps.live.com is accessible on ExpressRoute circuits using Microsoft Peering.
-    
 3. The IP addresses associated with Office Online and \*.officeapps.live.com can be found by following this link.
-    
 4. \*.cdn.office.net represents a CDN hosted by Akamai, meaning requests to this namespace will go to an Akamai datacenter.
-    
 5. \*.cdn.office.net is not accessible on ExpressRoute circuits.
-    
 6. The IP addresses associated with Office Online and \*.cdn.office.net are not available.
-    
+
 ![Screen capture of endpoints page](media/42b487f3-24f3-48fe-9885-f97aae3194f3.png)
   
 ### I see network requests to IP addresses not on the published list, do I need to provide access to them?
@@ -1301,11 +817,9 @@ We only provide IP addresses for the Office 365 servers you should route directl
 See an IP associated with Office 365 that you want more information on?
   
 1. Check if the IP address is included in a larger published range using a [CIDR calculator](http://jodies.de/ipcalc).
-    
 2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner.
-    
-3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know. 
-    
+3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
+
 ### Why do I see names such as nsatc.net or akadns.net in the Microsoft domain names?
 <a name="bkmk_akamai"> </a>
 
@@ -1313,11 +827,11 @@ Office 365 and other Microsoft services use several third-party services such as
   
 The list of services is subject to change at any time. Some of the services currently in use include:
   
-[MarkMonitor](https://www.markmonitor.com/) is in use when you see requests that include  *\*.nsatc.net*  . This service provides domain name protection and monitoring to protect against malicious behavior. 
+[MarkMonitor](https://www.markmonitor.com/) is in use when you see requests that include  *\*.nsatc.net*  . This service provides domain name protection and monitoring to protect against malicious behavior.
   
-[ExactTarget](https://www.marketingcloud.com/) is in use when you see requests to  *\*.exacttarget.com*  . This service provides email link management and monitoring against malicious behavior. 
+[ExactTarget](https://www.marketingcloud.com/) is in use when you see requests to  *\*.exacttarget.com*  . This service provides email link management and monitoring against malicious behavior.
   
-[Akamai](https://www.akamai.com/) is in use when you see requests that include one of the following FQDNs. This service offers geo-DNS and content delivery network services. 
+[Akamai](https://www.akamai.com/) is in use when you see requests that include one of the following FQDNs. This service offers geo-DNS and content delivery network services.
   
 ```
 *.akadns.net
@@ -1329,18 +843,15 @@ The list of services is subject to change at any time. Some of the services curr
 *.akamaized.net
 *.edgekey.net
 *.edgesuite.net
-
 ```
 
 ### What are the three types of Office 365 endpoints?
 <a name="bkmk_akamai"> </a>
 
 - You connect to third-party services to retrieve basic internet services such as DNS lookups and CDN content retrieval. You also connect to third-party services for integrations such as incorporating YouTube videos in your OneNote notebooks.
-    
 - You connect to secondary services hosted and run by Microsoft such as edge nodes that enable your network request to enter Microsoft's global network at the closest internet location to your computer. As the third largest network on the planet, this improves your connectivity experience. You also connect to Microsoft Azure services such as Azure Media Services which are used by a variety of Office 365 services.
-    
 - You connect to primary Office 365 services such as the Exchange Online mailbox server or the Skype for Business Online server where your unique and proprietary data lives. You can connect to the primary Office 365 services by FQDN or IP address and use internet or ExpressRoute circuits. You can only connect to the third party and secondary services using FQDNs on an internet circuit.
-    
+
 The following diagram shows the differences between these service areas. In this diagram, the customer on-premises network in the lower left has multiple network devices to assist in managing network connectivity. Configurations like this one are common for enterprise customers. If your network only has a firewall between your client computers and the internet, that's supported as well, and you'll want to ensure your firewall can support FQDNs and wildcards in the allow list rules.
   
 Read [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md) to get more information on Office 365 endpoint categories, and to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. 
@@ -1366,11 +877,13 @@ If you're attempting to use Office 365 and are finding third party services aren
 ### How do I block access to Microsoft's consumer services?
 <a name="bkmk_consumer"> </a>
 
-Restricting access to our consumer services should be done at your own risk, the only reliable way to block consumer services is to restrict access to the  *login.live.com*  FQDN. This FQDN is used by a broad set of services including non-consumer services such as MSDN, TechNet, and others. Restricting access to this FQDN may result in the need to also include exceptions to the rule for network requests associated with these services. 
+Restricting access to our consumer services should be done at your own risk, the only reliable way to block consumer services is to restrict access to the  *login.live.com*  FQDN. This FQDN is used by a broad set of services including non-consumer services such as MSDN, TechNet, and others. Restricting access to this FQDN may result in the need to also include exceptions to the rule for network requests associated with these services.
   
 Keep in mind that blocking access to the Microsoft consumer services alone won't prevent the ability for someone on your network to exfiltrate information using an Office 365 tenant or other service.
   
 ## Related Topics
+
+[Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
 [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653)
   
@@ -1385,5 +898,3 @@ Keep in mind that blocking access to the Microsoft consumer services alone won't
 [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
   
 [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
-  
-
