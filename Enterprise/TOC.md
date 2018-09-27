@@ -167,6 +167,10 @@
 ### [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
 ## [Tune Office 365 performance](tune-office-365-performance.md)
 ### [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+### [Tune Exchange Online performance](tune-exchange-online-performance.md)
+### [Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
+### [Tune Skype for Business Online performance](tune-skype-for-business-online-performance.md)
+### [Tune Project Online performance](https://docs.microsoft.com/ProjectOnline/tune-project-online-performance)
 ### [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
 ### [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
 ## Directory synchronization
