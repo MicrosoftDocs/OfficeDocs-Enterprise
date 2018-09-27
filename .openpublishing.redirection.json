@@ -232,7 +232,116 @@
 
         "redirect_document_id": false
 
+      },
+      {
+
+        "source_path": "enterprise/create-team-sites-in-a-political-campaign-dev-test-environment.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/create-team-sites-in-a-political-campaign-dev-test-environment",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/configure-groups-and-users-for-a-political-campaign-dev-test-environment",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/secure-sharepoint-online-sites-and-files.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/protect-sharepoint-online-files-with-azure-information-protection.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/protect-sharepoint-online-files-with-azure-information-protection",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/secure-sharepoint-online-sites-in-a-dev-test-environment.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-in-a-dev-test-environment",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/isolated-sharepoint-online-team-sites.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/isolated-sharepoint-online-team-sites",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/design-an-isolated-sharepoint-online-team-site.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/design-an-isolated-sharepoint-online-team-site",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/deploy-an-isolated-sharepoint-online-team-site.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/deploy-an-isolated-sharepoint-online-team-site",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/manage-an-isolated-sharepoint-online-team-site.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/manage-an-isolated-sharepoint-online-team-site",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/isolated-sharepoint-online-team-site-dev-test-environment.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/isolated-sharepoint-online-team-site-dev-test-environment",
+
+        "redirect_document_id": false
+
       }
+
 
 
 
