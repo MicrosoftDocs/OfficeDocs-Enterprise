@@ -3,7 +3,7 @@ title: "How to configure Exchange Server on-premises to use Hybrid Modern Authen
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 3/23/2018
+ms.date: 09/28/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
