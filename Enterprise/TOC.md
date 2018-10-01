@@ -173,6 +173,8 @@
 ### [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 ### [Tune Exchange Online performance](tune-exchange-online-performance.md)
 ### [Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
+#### [Introduction to performance tuning for SharePoint Online](introduction-to-performance-tuning-for-sharepoint-online.md)
+#### [Diagnosing performance issues with SharePoint Online](diagnosing-performance-issues-with-sharepoint-online.md)
 ### [Tune Skype for Business Online performance](tune-skype-for-business-online-performance.md)
 ### [Tune Project Online performance](https://docs.microsoft.com/ProjectOnline/tune-project-online-performance)
 ### [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)

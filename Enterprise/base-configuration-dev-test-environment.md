@@ -3,7 +3,7 @@ title: "Base Configuration dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/09/2018
+ms.date: 10/01/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -23,13 +23,13 @@ description: "Summary: Create a simplified intranet as a dev/test environment in
 
  **Summary:** Create a simplified intranet as a dev/test environment in Microsoft Azure.
   
-This article provides you with step-by-step instructions to create the following Base Configuration dev/test environment in Azure:
+This article provides you with instructions to create the following Base Configuration dev/test environment in Azure:
+  
+![The Base Configuration in Azure](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
 **Figure 1: The Base Configuration dev/test environment**
 
-![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
-  
-The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running WIndows Server 2016:
+The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running Windows Server 2016:
   
 - DC1 is configured as an intranet domain controller and Domain Name System (DNS) server
     
@@ -47,9 +47,41 @@ You can use the resulting test environment:
   
 - For application development and testing.
     
-- As the initial configuration of an extended test environment of your own design that includes additional virtual machines, Azure services, or other Microsoft cloud offerings such as Office 365 and Enterprise Security + Mobility (EMS).
+- As the initial configuration of an extended test environment of your own design that includes additional virtual machines, Azure services, or other Microsoft cloud offerings such as Office 365 and Enterprise Mobility + Security (EMS).
     
-There are four phases to setting up the Base Configuration test environment in Azure:
+There are two methods to creating this environment:
+
+1. An Azure Resource Manager template
+2. Azure Powershell
+
+## Method 1: Build your simulated intranet with an Azure Resource Manager template
+
+In this method, you use an Azure Resource Manager (ARM) template to build out the simulated intranet. ARM templates contain all of the instructions to create and configure the Azure networking infrastructure and the virtual machines.
+
+Prior to deploying the template, read through the [template README page](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm) and have the following information ready:
+
+- The Azure subscription name. You’ll need to enter this label in the **Subscription** field of the **Custom deployment** page.
+- The Azure resource group name. You’ll need to enter this label in the **Resource group** field of the **Custom deployment** page.
+- A DNS label prefix for the URLs of the public IP addresses of your virtual machines. You’ll need to enter this label in the **Dns Label Prefix** field of the **Custom deployment** page.
+
+After reading through the instructions, click **Deploy to Azure** on the [template README page](https://github.com/maxskunkworks/TLG/tree/master/tlg-base-config_3-vm) to get started.
+
+>[!Note]
+>The simulated intranet built by the ARM template requires a paid Azure subscription.
+>
+
+Here is your configuration after the template is complete.
+
+![The Base Configuration in Azure](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+
+
+## Method 2: Build your simulated intranet with Azure PowerShell
+
+In this method, you use Windows PowerShell and the Azure PowerShell module to build out the networking infrastructure, the virtual machines, and their configuration.
+
+Use this method if you want to get experience creating elements of Azure infrastructure one command block at a time with PowerShell. You can then customize the PowerShell command blocks for your own deployment of other virtual machines in Azure.
+
+There are four steps to setting up the Base Configuration test environment using Azure PowerShell:
   
 1. Create the virtual network.
     
@@ -69,7 +101,9 @@ If you do not already have an Azure subscription, you can sign up for a free tri
 > [!TIP]
 > Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
   
-## Phase 1: Create the virtual network
+### Step 1: Create the virtual network
+
+In this step, you the TestLab virtual network in Azure.
 
 First, start an Azure PowerShell prompt.
   
@@ -128,11 +162,14 @@ Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -Addre
 
 This is your current configuration.
   
-![Phase 1 of the Base Configuration in Azure with the virtual network and subnet](media/0b5634fc-4e1c-469d-873d-97ed7e587411.png)
+![Step 1 of the Base Configuration in Azure with the virtual network and subnet](media/0b5634fc-4e1c-469d-873d-97ed7e587411.png)
   
-## Phase 2: Configure DC1
+### Step 2: Configure DC1
 
-In this phase, we create the DC1 virtual machine and configure it as a domain controller for the corp.contoso.com Windows Server Active Directory (AD) domain and a DNS server for the virtual machines of the TestLab virtual network.
+In this step, we create the DC1 virtual machine and configure it as a domain controller for the corp.contoso.com Windows Server Active Directory (AD) domain and a DNS server for the virtual machines of the TestLab virtual network.
+
+> [!NOTE]
+> Before executing the following command block, ensure that the Azure region (location) that you have chosen supports the Azure virtual machine size, which by default is set to Standard_A1. Click [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see the latest information on Azure virtual machine sizes and locations.
   
 To create an Azure virtual machine for DC1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
@@ -158,8 +195,6 @@ You will be prompted for a user name and password for the local administrator ac
   
 Next, connect to the DC1 virtual machine.
   
-### Connect to DC1 using local administrator account credentials
-
 1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [the name of your new resource group] **> DC1 > Connect**.
     
 2. In the open pane, click **Download RDP file**. Open the DC1.rdp file that is downloaded, and then click **Connect**.
@@ -194,10 +229,8 @@ You will need to specify a safe mode administrator password. Store this password
   
 Note that these commands can take a few minutes to complete.
   
-After DC1 restarts, reconnect to the DC1 virtual machine.
+After DC1 restarts, reconnect to the DC1 virtual machine using domain credentials.
   
-### Connect to DC1 using domain credentials
-
 1. In the [Azure portal](https://portal.azure.com), click **Resource Groups >** [your resource group name] **> DC1 > Connect**.
     
 2. Run the DC1.rdp file that is downloaded, and then click **Connect**.
@@ -232,12 +265,15 @@ Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv
 
 This is your current configuration.
   
-![Phase 2 of the Base Configuration in Azure with the DC1 virtual machine](media/49069908-29c3-4d73-87f7-debbea067261.png)
+![Step 2 of the Base Configuration in Azure with the DC1 virtual machine](media/49069908-29c3-4d73-87f7-debbea067261.png)
   
-## Phase 3: Configure APP1
+### Step 3: Configure APP1
 
-APP1 provides web and file sharing services.
+In this step, you create and configure APP1, which provides web and file sharing services.
 
+> [!NOTE]
+> Before executing the following command block, ensure that the Azure region (location) that you have chosen supports the Azure virtual machine size, which by default is set to Standard_A1. Click [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see the latest information on Azure virtual machine sizes and locations.
+  
 To create an Azure Virtual Machine for APP1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```
@@ -286,14 +322,18 @@ New-SmbShare -name files -path c:\files -changeaccess CORP\User1
 
 This is your current configuration.
   
-![Phase 3 of the Base Configuration in Azure with the APP1 virtual machine](media/92cfabb0-7f9d-4291-964d-ac32d52748d7.png)
+![Step 3 of the Base Configuration in Azure with the APP1 virtual machine](media/92cfabb0-7f9d-4291-964d-ac32d52748d7.png)
   
-## Phase 4: Configure CLIENT1
+### Step 4: Configure CLIENT1
 
-CLIENT1 acts as a typical laptop, tablet, or desktop computer on the Contoso intranet.
+In this step, you create and configure CLIENT1, which acts as a typical laptop, tablet, or desktop computer on the Contoso intranet.
 
 > [!NOTE]  
 > The following command set creates CLIENT1 running Windows Server 2016 Datacenter, which can be done for all types of Azure subscriptions. If you have an Visual Studio-based Azure subscription, you can create CLIENT1 running Windows 10 with the [Azure portal](https://portal.azure.com). 
+  
+
+> [!NOTE]
+> Before executing the following command block, ensure that the Azure region (location) that you have chosen supports the Azure virtual machine size, which by default is set to Standard_A1. Click [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see the latest information on Azure virtual machine sizes and locations.
   
 To create an Azure Virtual Machine for CLIENT1, fill in the name of your resource group and run these commands at the Azure PowerShell command prompt on your local computer.
   
@@ -329,8 +369,6 @@ After CLIENT1 restarts, connect to it using the CORP\\User1 account name and pas
   
 Next, verify that you can access web and file share resources on APP1 from CLIENT1.
   
-### Verify CLIENT access to APP1
-
 1. In Server Manager, in the tree pane, click **Local Server**.
     
 2. In **Properties for CLIENT1**, click **On** next to **IE Enhanced Security Configuration**.
@@ -351,7 +389,7 @@ Next, verify that you can access web and file share resources on APP1 from CLIEN
     
 This is your final configuration.
   
-![Phase 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
+![Step 4 of the Base Configuration in Azure with the CLIENT1 virtual machine](media/25a010a6-c870-4690-b8f3-84421f8bc5c7.png)
   
 Your Base Configuration in Azure is now ready for application development and testing or for building additional test environments. 
   
