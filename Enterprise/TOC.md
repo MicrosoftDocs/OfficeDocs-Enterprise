@@ -36,6 +36,10 @@
 ### [Azure ExpressRoute for Office 365](azure-expressroute.md)
 ### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
 ### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
+## Office 365 Client Support
+### [Conditional access](office-365-client-support-conditional-access.md)
+### [Mobile application management](office-365-client-support-mobile-application-management.md)
+### [Modern authentication](office-365-client-support-modern-authentication.md)
 ## Hybrid options
 ### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
 ### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
