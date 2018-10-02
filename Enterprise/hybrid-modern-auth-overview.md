@@ -46,7 +46,8 @@ Managing user identities with Modern Authentication gives administrators many di
   
 Be aware that because Skype for Business works closely with Exchange, the login behaviour Skype for Business client users will see will be effected by the Modern Authentication status of Exchange. This will also apply if you have a Skype for Business split-domain hybrid. Also, the type of Skype for Business Hybrid that supports the use of Modern Authentication is often called a 'split-domain' (in a split-domain, you have both Skype for Business Online and Skype for Business on-prem, and users are homed in both locations).
   
- **Important** Did you know that, as of August of 2017, all new Office 365 tenants that include Skype for Business online and Exchange online will have Modern Authentication enabled by default? Pre-existing tenants won't have a change in their default MA state, but all new tenants automatically support the expanded set of identity features you see listed above. To check your MA status for Skype for Business online, you can use Skype for Business online PowerShell with Global Admin credentials. Run ' Get-CsOAuthConfiguration' to check the output of -ClientADALAuthOverride. If -ClientADALAuthOverride is 'Allowed' your Modern Authentication is on. 
+> [!IMPORTANT]
+> Did you know that, as of August of 2017, all new Office 365 tenants that include Skype for Business online and Exchange online will have Modern Authentication enabled by default? Pre-existing tenants won't have a change in their default MA state, but all new tenants automatically support the expanded set of identity features you see listed above. To check your MA status for Skype for Business online, you can use Skype for Business online PowerShell with Global Admin credentials. Run `Get-CsOAuthConfiguration` to check the output of -ClientADALAuthOverride. If -ClientADALAuthOverride is 'Allowed' your Modern Authentication is on. 
   
 ## What changes when I use Modern Authentication?
 <a name="BKMK_WhatChanges"> </a>
@@ -61,12 +62,13 @@ This also means that even though your Exchange server and Skype for Business env
   
 What doesn't change? Whether you're in a split-domain hybrid or using Skype for Business and Exchange server on-premises, all users must first authenticate  *on-premises*  . In a hybrid implementation of Modern Authentication, Lyncdiscovery and Autodiscovery point to your on-premises server. 
   
- **Important** If you need to know the specific Skype for Business topologies supported with MA, that's [documented right here](https://technet.microsoft.com/en-us/library/mt803262.aspx).
+> [!IMPORTANT]
+> If you need to know the specific Skype for Business topologies supported with MA, that's [documented right here](https://technet.microsoft.com/en-us/library/mt803262.aspx).
   
 ## Check the Modern Authentication status of your on-premises environment
 <a name="BKMK_CheckStatus"> </a>
 
-Because Modern Authentication changes the authorization server used when services leverage OAuth/S2S, you need to know if Modern Authentication is On or Off for your Skype for Business and Exchange environment. You can check the status on your Exchange or Skype for Business servers, on premises, by running the Get-CSOAuthConfiguration command in PowerShell. If the command returns an empty ' OAuthServers' property, then Modern Authentication is disabled.
+Because Modern Authentication changes the authorization server used when services leverage OAuth/S2S, you need to know if Modern Authentication is On or Off for your Skype for Business and Exchange environment. You can check the status on your Exchange or Skype for Business servers, on premises, by running the `Get-CSOAuthConfiguration` command in PowerShell. If the command returns an empty 'OAuthServers' property, then Modern Authentication is disabled.
   
 ## Do you meet Modern Authentication prerequisites?
 
@@ -84,31 +86,24 @@ Verify and check these items off your list before you continue:
     
  **Note** If your Skype for Business front-end servers use a proxy server for Internet access, the proxy server IP and Port number used must be entered in the configuration section of the web.config file for each front end. 
   
-- c:\program files\Skype for Business Server 2015\Web Components\Web ticket\int\web.config
+- C:\Program Files\Skype for Business Server 2015\Web Components\Web ticket\int\web.config
     
-- c:\program files\Skype for Business Server 2015\Web Components\Web ticket\ext\web.config
+- C:\Program Files\Skype for Business Server 2015\Web Components\Web ticket\ext\web.config
     
-- \</system.identityModel.services\>
+```xml
+<system.identityModel.services>
+  <system.net>
+    <defaultProxy>
+      <proxy
+        proxyaddress="http://192.168.100.60:8080"
+        bypassonlocal="true" />
+    </defaultProxy>
+  </system.net>
+</system.identityModel.services>
+```
     
-     \<system.net\> 
-    
-     \<defaultProxy\> 
-    
-     \<proxy 
-    
-     proxyaddress="http://192.168.100.60:8080" 
-    
-     bypassonlocal="true" 
-    
-     /\> 
-    
-     \</defaultProxy\> 
-    
-     \</system.net\> 
-    
-    \</configuration\>
-    
- **Important** Be sure to subscribe to the RSS feed for [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to stay current with the latest listings of required URLs. 
+> [!IMPORTANT]
+> Be sure to subscribe to the RSS feed for [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to stay current with the latest listings of required URLs. 
   
 - **Exchange Server specific**
     
