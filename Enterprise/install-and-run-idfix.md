@@ -3,7 +3,7 @@ title: "Install and run the Office 365 IdFix tool"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
+ms.date: 10/02/2018
 ms.audience: Admin
 ms.topic: get-started-article
 f1_keywords:
@@ -31,30 +31,30 @@ If you can't complete this task, there are a couple of other things you can do. 
     
 ## What you need to run IdFix
 
-The easiest way to get IdFix up and running is to install it on a computer that is joined to your domain. You can run it on the domain controller if you want to, but it's not necessary.
+The easiest way to get IdFix up and running is to install it on a computer that is joined to your domain. You can run it on the domain controller if you want, but it's not necessary.
   
 ### IdFix hardware requirements
 
-The computer where you install IdFix needs to meet these hardware requirements:
+The computer where you install IdFix needs to meet these minimum hardware requirements:
   
-- 4 GB RAM (minimum)
-- 2 GB of hard disk space (minimum)
+- 4 GB RAM
+- 2 GB of hard disk space
     
 ### IdFix software requirements
 
-The computer where you install IdFix needs to needs to be joined to the same Active Directory domain from which you want to synchronize users to Office 365. The computer also needs to have .NET Framework 4.0 installed. 
+The computer where you install IdFix needs to be joined to the same Active Directory domain from which you want to synchronize users to Office 365. The computer also needs to have .NET Framework 4.0 installed. 
   
-If you are running Windows Server 2008 or Windows Server 2012, then .NET Framework is probably already installed. If not, you can [download .NET 4.0 from the download center](https://go.microsoft.com/fwlink/p/?LinkId=400475) or by using Windows Update. 
+If you are running Windows Server 2008 or Windows Server 2012, then .NET Framework is probably already installed. If not, you can [download .NET 4.0 from the download center](https://go.microsoft.com/fwlink/p/?LinkId=400475) or via Windows Update. 
   
 ### IdFix permissions requirements
 
 The user account that you use to run IdFix needs to have read/write access to the directory.
   
-If you aren't sure if your user account meets these requirements, and you're not sure how to check, you can still install and run IdFix anyway. If your user account doesn't have the right permissions, IdFix will simply display an error when you try to run it.
+If you aren't sure if your user account meets these requirements, and you're not sure how to check, you can still install and run IdFix. If your user account doesn't have the right permissions, IdFix will simply display an error when you try to run it.
   
 ## Install IdFix
 
-To install IdFix, you download and unzip **IdFix.exe** as described in these steps: 
+To install IdFix, download and unzip **IdFix.exe**: 
   
 1. Log on to the computer where you want to install the IdFix tool.
     
@@ -64,7 +64,7 @@ To install IdFix, you download and unzip **IdFix.exe** as described in these ste
     
 4. When prompted, choose **Run**.
     
-5. On the **WinZip Self-Extractor** dialog box, in the **Unzip to folder** text box, type or browse to the location where you want to install the IdFix tool. By default, IdFix is installed into C:\Deployment Tools\. 
+5. On the **WinZip Self-Extractor** dialog box, in the **Unzip to folder** text box, type or browse to the location where you want to install the IdFix tool. By default, IdFix is installed into `C:\Deployment Tools\`. 
     
 6. Choose **Unzip**.
     
@@ -74,7 +74,7 @@ After you install IdFix, run the tool to search for problems in your directory:
   
 1. Using an account that has read/write access to the directory, log on to the computer where you installed IdFix.
     
-2. In File Explorer, go to the location where you installed IdFix. If you chose the default folder during installation, go to C:\Deployment Tools\IdFix.
+2. In File Explorer, go to the location where you installed IdFix. If you chose the default folder during installation, go to `C:\Deployment Tools\IdFix`.
     
 3. Double-click **IdFix.exe**. 
     
@@ -92,7 +92,7 @@ After you install IdFix, run the tool to search for problems in your directory:
     
     ![IdFix query and error count.](media/da0198a0-7d4d-4afe-a256-e82f1330ada5.JPG)
   
-7. After IdFix completes the query, and if there are no errors in your directory, you can go ahead and synchronize your directory. If there are errors in your directory, it is recommended that you fix them before you synchronize. If you want more specific information about types of errors and recommendations about the best way to fix each of them, see the links at the end of this topic. 
+7. After IdFix completes the query, you can go ahead and synchronize your directory if there are no errors. If there are errors in your directory, it is recommended that you fix them before you synchronize. If you want more specific information about types of errors and recommendations about the best way to fix each of them, see the links at the end of this topic. 
     
     While it is not mandatory to fix the errors before you synchronize, we strongly recommend that you at least review all the errors returned by IdFix.
     
