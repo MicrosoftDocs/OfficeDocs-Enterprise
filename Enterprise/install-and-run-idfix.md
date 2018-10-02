@@ -3,7 +3,7 @@ title: "Install and run the Office 365 IdFix tool"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
+ms.date: 10/02/2018
 ms.audience: Admin
 ms.topic: get-started-article
 f1_keywords:
