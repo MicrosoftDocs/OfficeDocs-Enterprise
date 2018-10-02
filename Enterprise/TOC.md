@@ -26,7 +26,7 @@
 ### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
-### [Choose between MDM and Intune](/SecurityCompliance/choose-between-mdm-and-intune.md)
+### [Choose between MDM and Intune](https://docs.microsoft.com/en-us/office365/securitycompliance/choose-between-mdm-and-intune)
 ### [Network and migration planning for Office 365](network-and-migration-planning.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
