@@ -3,7 +3,7 @@ title: "Block user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/10/2018
+ms.date: 10/03/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
