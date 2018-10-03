@@ -3,7 +3,7 @@ title: "Block user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/10/2018
+ms.date: 10/03/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -55,7 +55,7 @@ Set-MsolUser -UserPrincipalName <UPN of user account>  -BlockCredential $false
 At any time, you can check the blocked status of a user account with the following command:
   
 ```
-Get-MolUser -UserPrincipalName <UPN of user account> | Select DisplayName,BlockCredential
+Get-MsolUser -UserPrincipalName <UPN of user account> | Select DisplayName,BlockCredential
 ```
 
 ## Use Office 365 PowerShell to block access to multiple user accounts
