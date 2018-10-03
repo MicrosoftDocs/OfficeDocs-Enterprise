@@ -3,7 +3,7 @@ title: "During and after your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 09/05/2018
+ms.date: 10/02/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -30,7 +30,7 @@ Watch the Office 365 Message Center for confirmation when moves for each of Exch
 |Australia, New Zealand, Fiji  <br/> |October 31, 2017  <br/> |
 |Japan  <br/> |October 31, 2018  <br/> |
 |India  <br/> |October 31, 2018  <br/> |
-|Canada  <br/> |October 31, 2018  <br/> |
+|Canada  <br/> |June 30, 2019  <br/> |
 |South Korea  <br/> |October 31, 2018  <br/> |
 |United Kingdom  <br/> |September 15, 2019  <br/> |
 |France  <br/> |September 15, 2020  <br/> |
