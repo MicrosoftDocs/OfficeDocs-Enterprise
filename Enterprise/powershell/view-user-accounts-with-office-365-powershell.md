@@ -3,7 +3,7 @@ title: "View user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 10/08/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
