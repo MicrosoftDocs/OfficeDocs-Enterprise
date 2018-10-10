@@ -74,6 +74,8 @@ These considerations might apply to your network:
 
 - IPv6 does not support BlackBerry® Enterprise Server (BES) because BlackBerry doesn't support IPv6.
 
+- If you use Active Directory Federation Services (AD FS) as part of your Office 365 it is not supported to advertise your AD FS network endpoint to Office 365 using IPv6. You should not include AAAA records in the AD FS DNS entry when using Exchange Online. 
+
 Here's a short link you can use to come back: [https://aka.ms/o365ip6](https://aka.ms/o365ip6)
   
 ## See also
