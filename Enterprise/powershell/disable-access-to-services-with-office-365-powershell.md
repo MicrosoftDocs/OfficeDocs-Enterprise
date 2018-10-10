@@ -53,7 +53,7 @@ To disable a specific set of Office 365 services for users for a specific licens
   $LO = New-MsolLicenseOptions -AccountSkuId <AccountSkuId> -DisabledPlans "<UndesirableService1>", "<UndesirableService2>"...
   ```
 
-    The following example creates a **LicenseOptions** object that disables the Office Online and SharePoint Online services in the licensing plan named `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3).
+  The following example creates a **LicenseOptions** object that disables the Office Online and SharePoint Online services in the licensing plan named `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3).
     
   ```
   $LO = New-MsolLicenseOptions -AccountSkuId "litwareinc:ENTERPRISEPACK" -DisabledPlans "SHAREPOINTWAC", "SHAREPOINTENTERPRISE"
@@ -67,13 +67,13 @@ To disable a specific set of Office 365 services for users for a specific licens
   New-MsolUser -UserPrincipalName <Account> -DisplayName <DisplayName> -FirstName <FirstName> -LastName <LastName> -LicenseAssignment <AccountSkuId> -LicenseOptions $LO -UsageLocation <CountryCode>
   ```
 
-    The following example creates a new account for Allie Bellew that assigns the license and disables the services described in Step 1.
+  The following example creates a new account for Allie Bellew that assigns the license and disables the services described in Step 1.
     
   ```
   New-MsolUser -UserPrincipalName allieb@litwareinc.com -DisplayName "Allie Bellew" -FirstName Allie -LastName Bellew -LicenseAssignment litwareinc:ENTERPRISEPACK -LicenseOptions $LO -UsageLocation US
   ```
 
-    For more information about creating user accounts in Office 365 PowerShell, see [Create user accounts with Office 365 PowerShell](create-user-accounts-with-office-365-powershell.md).
+  For more information about creating user accounts in Office 365 PowerShell, see [Create user accounts with Office 365 PowerShell](create-user-accounts-with-office-365-powershell.md).
     
   - To disable the services for an existing licensed user, use the following syntax:
     
@@ -81,7 +81,7 @@ To disable a specific set of Office 365 services for users for a specific licens
   Set-MsolUserLicense -UserPrincipalName <Account> -LicenseOptions $LO
   ```
 
-    This example disables the services for the user BelindaN@litwareinc.com.
+  This example disables the services for the user BelindaN@litwareinc.com.
     
   ```
   Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -LicenseOptions $LO
@@ -104,7 +104,7 @@ To disable a specific set of Office 365 services for users for a specific licens
   $x | ForEach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalName -LicenseOptions $LO}
   ```
 
-    The following example disables the services for users in the Sales department in the United States.
+  The following example disables the services for users in the Sales department in the United States.
     
   ```
   $USSales = Get-MsolUser -All -Department "Sales" -UsageLocation "US"
@@ -121,7 +121,7 @@ To disable a specific set of Office 365 services for users for a specific licens
   kakers@contoso.com
   ```
 
-    In this example, the text file is C:\\My Documents\\Accounts.txt.
+  In this example, the text file is C:\\My Documents\\Accounts.txt.
     
 2. Run the following command:
     
