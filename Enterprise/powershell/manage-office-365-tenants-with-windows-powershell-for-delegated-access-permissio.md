@@ -37,7 +37,7 @@ You also need your partner tenant administrator credentials.
 To list all customer tenant Ids that you have access to, run this command.
   
 ```
-Get-MsolPartnerContract -All | Select-Object -TenantId
+Get-MsolPartnerContract -All | Select-Object TenantId
 ```
 
 This will display a listing of all your customer tenants by **TenantId**.
@@ -47,7 +47,7 @@ This will display a listing of all your customer tenants by **TenantId**.
 To get the **TenantId** for a specific customer tenant by domain name, run this command. Replace _<domainname.onmicrosoft.com>_ with the actual domain name of the customer tenant that you want.
   
 ```
-Get-MsolPartnerContract -DomainName <domainname.onmicrosoft.com> | Select-Object -TenantId
+Get-MsolPartnerContract -DomainName <domainname.onmicrosoft.com> | Select-Object TenantId
 ```
 
 ### List all domains for a tenant
