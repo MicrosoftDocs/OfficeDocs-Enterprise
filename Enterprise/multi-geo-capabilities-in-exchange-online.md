@@ -47,7 +47,7 @@ The following Geos are available for use in a Multi-Geo configuration:
 - United States
 
 ## Prerequisite configuration
-Before you can start using Multi-Geo capabilities in Exchange Online, Microsoft needs to configure your Exchange Online tenant for Multi-Geo support. This one-time configuration process is triggered after you order Multi-Geo and the licenses show up in our tenant. This one-time configuration process should typically take less than 30 days to complete.
+Before you can start using Multi-Geo capabilities in Exchange Online, Microsoft needs to configure your Exchange Online tenant for Multi-Geo support. This one-time configuration process is triggered after you order Multi-Geo and the licenses show up in your tenant. This one-time configuration process should typically take less than 30 days to complete. To order Multi-Geo, contact your Microsoft representative. For more information, see https://aka.ms/Multi-Geo.
 
 You'll receive notifications in the [Office 365 message center](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093) when your configuration has completed. Configuration is automatically triggered once your Multi-Geo licenses show up in your tenant.
 
