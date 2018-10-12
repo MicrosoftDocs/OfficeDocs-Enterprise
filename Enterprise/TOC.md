@@ -51,7 +51,7 @@
 #### [Exchange 2010](exchange-2010-end-of-support.md)
 #### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
 #### [Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
-#### [Project Server 2010](https://docs.microsoft.com/project/planning-project-server-and-project-online-for-technical-decision-makers)
+#### [Project Server 2010](project-server-2010-end-of-support.md)
 ### [Office 2007](upgrade-from-office-2007-servers-and-products.md)
 #### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap)
 #### [Exchange 2007](exchange-2007-end-of-support.md)
