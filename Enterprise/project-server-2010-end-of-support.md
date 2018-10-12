@@ -201,7 +201,7 @@ Other resources:
     
 ## Related topics
 
-[SharePoint Server 2010 end of support Roadmap](sharepoint-2010-end-of-support.md)
+[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md)
   
 [Resources to help you upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
   
