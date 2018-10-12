@@ -3,7 +3,7 @@ title: "Project Server 2010 end-of-support roadmap"
 ms.author: efrene
 author: efrene
 manager: pamg
-ms.date: 1/31/2018
+ms.date: 10/12/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
