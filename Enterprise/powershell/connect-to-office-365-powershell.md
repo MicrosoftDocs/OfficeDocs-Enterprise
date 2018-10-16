@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/20/2018
+ms.date: 10/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -21,9 +21,15 @@ description: "Summary: Connect to your Office 365 organization using Office 365 
 
  **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform administration tasks from the command line.
   
-Office 365 PowerShell lets you to manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple three-step process where you install the required software, run the required software, and then connect to your Office 365 organization. 
+Office 365 PowerShell lets you to manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple process where you install the required software and then connect to your Office 365 organization. 
 
-  
+There are two versions of the PowerShell module that you use to connect to Office 365 and administer user accounts, groups, and licenses:
+
+- Azure Active Directory PowerShell for Graph (cmdlets include **AzureAD** in their name) 
+- Microsoft Azure Active Directory Module for Windows PowerShell (cmdlets include **MSol** in their name) 
+
+As of the date of this article, the Azure Active Directory PowerShell for Graph module does not completely replace the functionality in the cmdlets of Microsoft Azure Active Directory Module for Windows PowerShell module for user, group, and license administration. In many cases, you need to use both versions. You can safely install both versions on the same computer.
+
 > [!TIP]
 > **New to PowerShell?** See a [video Overview of PowerShell](https://support.office.com/en-us/article/7d0107d4-f672-4d0f-ad7d-417844b926c7.aspx), brought to you by LinkedIn Learning. 
   
@@ -35,12 +41,13 @@ Office 365 PowerShell lets you to manage your Office 365 settings from the comma
     
   - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1) 
     
-  - Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 SP1
+  - Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 SP1
     
     > [!NOTE]
     >Use a 64-bit version of Windows. Support for the 32-bit version the Microsoft Azure Active Directory Module for Windows PowerShell was discontinued in October of 2014.
     
 -  These procedures are intended for users who are members of an Office 365 admin role. For more information, see [About Office 365 admin roles](https://go.microsoft.com/fwlink/p/?LinkId=532367).
+
 
 ## Connect with the Azure Active Directory PowerShell for Graph module
 

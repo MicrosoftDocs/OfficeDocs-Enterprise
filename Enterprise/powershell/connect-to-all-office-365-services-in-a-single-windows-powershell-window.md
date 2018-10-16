@@ -41,6 +41,8 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
     
   - Windows 8.1 or Windows 8
     
+  - Windows Server 2019
+    
   - Windows Server 2016
     
   - Windows Server 2012 R2 or Windows Server 2012
