@@ -40,12 +40,6 @@ Before you begin, understand that Office 365 PowerShell is a set of modules for 
 Get-Mailbox
 ```
 
-You can also run this command to calculate the number of items in all of the lists for all of the sites for all of your web apps in SharePoint Online:
-  
-```
-Get-SPOSite -Limit All | Get-SPWeb -Limit All | % {$_.Lists} | ? {$_ -is [Microsoft.SharePoint.SPDocumentLibrary]} | % {$total+= $_.ItemCount}; $total
-```
-
 Getting the list of mailboxes can also be easily done using the Office 365 admin center, but counting the number of items in all of the lists for all of the sites for all of your web apps cannot be easily done.
   
 Please note that Office 365 PowerShell is designed to augment and enhance your ability to manage Office 365, not to replace the Office 365 admin center. As an Office 365 administrator, you must become at least comfortable with using Office 365 PowerShell because there are some configuration procedures that can only be done with Office 365 PowerShell commands. In these cases, you will be required to understand how to:
