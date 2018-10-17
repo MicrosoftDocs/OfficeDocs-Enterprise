@@ -3,7 +3,7 @@ title: "View licenses and services with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/20/2018
+ms.date: 10/17/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -63,7 +63,7 @@ To view details about the Office 365 services that are available in all of your 
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
-The following table shows the Office 365 service plans and their friendly names for the most common services. Your list of service plans might be different. For a complete list of service plans and their friendly names, contact [Support options for business users](https://support.microsoft.com/gp/support-options-for-business).
+The following table shows the Office 365 service plans and their friendly names for the most common services. Your list of service plans might be different. 
   
 |**Service plan**|**Description**|
 |:-----|:-----|
@@ -77,6 +77,8 @@ The following table shows the Office 365 service plans and their friendly names 
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
 | `EXCHANGE_S_ENTERPRISE` <br/> |Exchange Online Plan 2  <br/> |
    
+For a complete list of license plans (also known as product names), their included service plans, and their corresponding friendly names, see [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
+
 To view details about the Office 365 services that are available in a specific licensing plan, use the following syntax.
   
 ```
