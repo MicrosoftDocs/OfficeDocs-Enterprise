@@ -84,6 +84,10 @@ Connect-AzureAD
 In the **Sign into your account** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
 
 If you are using MFA, follow the instructions in the additional dialog boxes to provide more authentication information, such as a verification code.
+
+>[!Tip]
+>To connect to Office 365 Germany, see [Connect to Azure Germany by using PowerShell](https://docs.microsoft.com/azure/germany/germany-get-started-connect-with-ps).
+>
     
 After connecting, you can use the new cmdlets for the [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory).
   
@@ -117,6 +121,9 @@ In the **Sign into your account** dialog box, type your Office 365 work or schoo
 
 If you are using MFA, follow the instructions in the additional dialog boxes to provide more authentication information, such as a verification code.
 
+>[!Tip]
+>To connect to Office 365 Germany, see [Connect to Azure Germany by using PowerShell](https://docs.microsoft.com/azure/germany/germany-get-started-connect-with-ps).
+>
     
 ### How do you know this worked?
 
