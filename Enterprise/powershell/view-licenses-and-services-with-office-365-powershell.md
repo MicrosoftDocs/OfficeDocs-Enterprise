@@ -63,7 +63,7 @@ To view details about the Office 365 services that are available in all of your 
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
-The following table shows the Office 365 service plans and their friendly names for the most common services. Your list of service plans might be different. For a complete list of service plans and their friendly names, contact [Support options for business users](https://support.microsoft.com/gp/support-options-for-business).
+The following table shows the Office 365 service plans and their friendly names for the most common services. Your list of service plans might be different. For a complete list of service plans and their friendly names, read https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-service-plan-reference.
   
 |**Service plan**|**Description**|
 |:-----|:-----|
