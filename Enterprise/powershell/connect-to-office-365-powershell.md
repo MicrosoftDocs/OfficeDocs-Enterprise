@@ -75,20 +75,22 @@ If prompted about installing a module from an untrusted repository, type **Y** a
 
 ### Step 2: Connect to Azure AD for your Office 365 subscription
 
-To connect to Azure AD for your Office 365 subscription with an account name and password or with *multi-factor authentication (MFA)*, run this command from a Windows PowerShell command prompt (it does not have to be elevated):
-    
-```
-Connect-AzureAD
-```
+To connect to Azure AD for your Office 365 subscription with an account name and password or with *multi-factor authentication (MFA)*, run one of these commands from a Windows PowerShell command prompt (it does not have to be elevated).
+
+|||
+|:-------|:-----|
+| **Office 365 cloud** | **Command** |
+| Office 365 Worldwide (+GCC) | `Connect-AzureAD` |
+| Office 365 operated by 21 Vianet | `Connect-AzureAD -AzureEnvironmentName AzureChinaCloud` |
+| Office 365 Germany | `Connect-AzureAD -AzureEnvironmentName AzureGermanyCloud` |
+| Office 365 U.S. Government GCC High | `Connect-AzureAD -AzureEnvironmentName AzureUSGovernment` |
+|||
 
 In the **Sign into your account** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
 
 If you are using MFA, follow the instructions in the additional dialog boxes to provide more authentication information, such as a verification code.
 
->[!Tip]
->To connect to Office 365 Germany, see [Connect to Azure Germany by using PowerShell](https://docs.microsoft.com/azure/germany/germany-get-started-connect-with-ps).
->
-    
+
 After connecting, you can use the new cmdlets for the [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory).
   
 
@@ -111,27 +113,28 @@ These steps are required once on your computer, not every time you connect. Howe
     
 ### Step 2: Connect to Azure AD for your Office 365 subscription
 
-To connect to Azure AD for your Office 365 subscription with an account name and password or with *multi-factor authentication (MFA)*, run this command from a Windows PowerShell command prompt (it does not have to be elevated):
-    
-```
-Connect-MsolService
-```
+To connect to Azure AD for your Office 365 subscription with an account name and password or with *multi-factor authentication (MFA)*, run one of these commands from a Windows PowerShell command prompt (it does not have to be elevated).
+
+|||
+|:-------|:-----|
+| **Office 365 cloud** | **Command** |
+| Office 365 Worldwide (+GCC) | `Connect-MsolService` |
+| Office 365 operated by 21 Vianet | `Connect-MsolService -AzureEnvironmentName AzureChinaCloud` |
+| Office 365 Germany | `Connect-MsolService -AzureEnvironmentName AzureGermanyCloud` |
+| Office 365 U.S. Government GCC High | `Connect-MsolService -AzureEnvironmentName USGovernment` |
+|||
 
 In the **Sign into your account** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
 
 If you are using MFA, follow the instructions in the additional dialog boxes to provide more authentication information, such as a verification code.
 
->[!Tip]
->To connect to Office 365 Germany, see [Connect to Azure Germany by using PowerShell](https://docs.microsoft.com/azure/germany/germany-get-started-connect-with-ps).
->
-    
 ### How do you know this worked?
 
 If you don't receive any errors, you connected successfully. A quick test is to run an Office 365 cmdlet—for example, **Get-MsolUser** —and see the results.
   
 If you receive errors, check the following requirements:
   
-- **A common problem is an incorrect password**. Run Step 3 again. and pay close attention to the user name and password you enter.
+- **A common problem is an incorrect password**. Run Step 2 again. and pay close attention to the user name and password you enter.
     
 - **The Microsoft Azure Active Directory Module for Windows PowerShell requires that the Microsoft .NET Framework 3.5.*x* feature is enabled on your computer**. It's likely that your computer has a newer version installed (for example, 4 or 4.5.*x*), but backwards compatibility with older versions of the .NET Framework can be enabled or disabled. For more information, see the following topics:
     
