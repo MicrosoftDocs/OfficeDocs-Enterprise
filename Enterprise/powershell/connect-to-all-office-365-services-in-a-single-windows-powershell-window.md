@@ -29,6 +29,10 @@ When you use PowerShell to manage Office 365, it is possible to have up to five 
   
 This is not optimal for managing Office 365 because you can't exchange data among those five windows for cross-service management. This topic describes how to use a single instance of Windows PowerShell from which you can manage Office 365, Skype for Business Online, Exchange Online, SharePoint Online, and the Security &amp; Compliance Center.
 
+>[!Note]
+>This article currently only contains the commands the connect to the Office 365 Worldwide (+GCC) cloud.
+>
+
 ## Before you begin
 
 Before you can manage all of Office 365 from a single instance of Windows PowerShell, consider the following prerequisites:
