@@ -51,8 +51,8 @@ Microsoft recommends the following principles to achieve optimal Office 365 conn
   
 The primary goal in the network design should be to minimize latency by reducing the round-trip time (RTT) from your network into the Microsoft Global Network, Microsoft's public network backbone that interconnects all of Microsoft's datacenters with low latency and cloud application entry points spread around the world. You can learn more about the Microsoft Global Network at [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
   
-### Identify and differentiate Office 365 traffic
 <a name="BKMK_P1"> </a>
+### Identify and differentiate Office 365 traffic
 
 ![Identify Office 365 traffic](media/621aaec9-971d-4f19-907a-1ae2ef6d72fc.png)
   
@@ -64,8 +64,8 @@ For more details on Office 365 endpoint categories and optimization methods, see
   
 Microsoft now publishes all Office 365 endpoints as a web service and provides guidance on how best to use this data. For more information on how to fetch and work with Office 365 endpoints, see the article [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US).
   
-### Egress network connections locally
 <a name="BKMK_P2"> </a>
+### Egress network connections locally
 
 ![Egress network connections locally](media/b42a45be-1ab4-4073-a7dc-fbdfb4aedd24.png)
   
@@ -99,8 +99,8 @@ The local egress architecture has the following benefits over the traditional mo
 - Reduces the load on corporate network infrastructure by allowing local egress.
 - Secures connections on both ends by leveraging client endpoint security and cloud security features.
 
-### Avoid network hairpins
 <a name="BKMK_P3"> </a>
+### Avoid network hairpins
 
 ![Avoid hairpins](media/ee53e8af-f57b-4292-a256-4f36733b263a.png)
   
@@ -112,8 +112,8 @@ If you use cloud-based network or security services for your Office 365 traffic,
   
 Due to the large number of distributed locations with Office 365 entry points and their proximity to end users, routing Office 365 traffic to any third party network or security provider can have an adverse impact on Office 365 connections if the provider network is not configured for optimal Office 365 peering.
   
-### Bypass proxies, traffic inspection devices and duplicate security technologies
 <a name="BKMK_P4"> </a>
+### Bypass proxies, traffic inspection devices and duplicate security technologies
 
 ![Bypass proxies, traffic inspection devices and duplicate security technologies](media/0131930d-c6cb-4ae1-bbff-fe4cf6939a23.png)
   
@@ -121,8 +121,8 @@ Enterprise customers should review their network security and risk reduction met
   
 Most enterprise networks enforce network security for Internet traffic using technologies like proxies, SSL inspection, packet inspection, and data loss prevention systems. These technologies provide important risk mitigation for generic Internet requests but can dramatically reduce performance, scalability and the quality of end user experience when applied to Office 365 endpoints.
   
-#### Office 365 Endpoints web service
 <a name="BKMK_WebSvc"> </a>
+#### Office 365 Endpoints web service
 
 Office 365 administrators can use a script or REST call to consume a structured list of endpoints from the Office 365 Endpoints web service and update the configurations of perimeter firewalls and other network devices. This will ensure that traffic bound for Office 365 is identified, treated appropriately and managed differently from network traffic bound for generic and often unknown Internet web sites. For more information on how to use the Office 365 Endpoints web service, see the article [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US).
   

@@ -1,9 +1,9 @@
 ---
-title: "Additional Office 365 IP Addresses and URLs not included in the web services"
+title: "Additional endpoints not included in the Office 365 IP Address and URL Web service"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 9/13/2018
+ms.date: 10/19/2018
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -20,13 +20,13 @@ search.appverid:
 - MOM160
 - BCS160
 ms.assetid: 
-description: "Summary: The new endpoint Web services does not include a small number of endpoints for specific scenarios."
+description: "Summary: The new endpoint Web service does not include a small number of endpoints for specific scenarios."
 hideEdit: true
 ---
 
-# Additional Office 365 IP Addresses and URLs not included in the web services
+# Additional endpoints not included in the Office 365 IP Address and URL Web service
 
-Some network endpoints were previously published and have not been included in the web services. The web services scope is network endpoints that are required for connectivity from an end user of Office 365 across an enterprise perimeter network. This currently does not include:
+Some network endpoints were previously published and have not been included in the [Office 365 IP Address and URL Web service](office-365-ip-web-service.md). The Web service scope is network endpoints that are required for connectivity from a user of Office 365 across an enterprise perimeter network. This currently does not include:
 
 1. Network connectivity that may be required from a Microsoft datacenter to a customer network (inbound hybrid server network traffic)
 2. Network connectivity from servers on a customer network across the enterprise perimeter (outbound server network traffic)
