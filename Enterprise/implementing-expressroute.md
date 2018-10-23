@@ -110,6 +110,7 @@ Here's a sample of the level of detail required. In this case Exchange Hybrid wo
 |**Path symmetry control** <br/> |**Method**: Source NAT  <br/> **Internet path**: Source NAT inbound connections to 192.168.5.5  <br/> |**ExpressRoute path**: Source NAT connections to 192.168.1.0 (Chicago) and 192.168.2.0 (Dallas)  <br/> |
 
 Here's a sample of a service that is outbound only:
+
 |**Connection property**|**Value**|
 |:-----|:-----|
 |**Network traffic direction** <br/> |Outbound  <br/> |
