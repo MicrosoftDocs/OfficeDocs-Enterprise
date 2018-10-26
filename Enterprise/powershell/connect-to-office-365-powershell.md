@@ -7,7 +7,7 @@ ms.date: 10/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: Ent_O365
 ms.custom: 
 - LIL_Placement
