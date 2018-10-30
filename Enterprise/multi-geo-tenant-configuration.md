@@ -15,7 +15,7 @@ description: "Learn how to configure OneDrive for Business Multi-Geo."
 
 # OneDrive for Business Multi-Geo tenant configuration
 
-Before you configure your tenant for OneDrive for Business Multi-Geo, be sure you have read [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you’ll need a list of the locations that you want to enable and the test users that you want to provision for those locations.
+Before you configure your tenant for OneDrive for Business Multi-Geo, be sure you have read [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you’ll need a list of the geo locations that you want to enable as satellite locations, and the test users that you want to provision for those locations.
 
 ## Add the Multi-Geo Capabilities in Office 365 plan to your tenant
 
@@ -25,9 +25,9 @@ Note that the _Multi-Geo Capabilities in Office 365_ plan is a user-level servic
 
 Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the [OneDrive admin center](https://admin.onedrive.com).
 
-## Set the Allowed Data Locations (ADL) to your tenant
+## Add satellite locations to your tenant
 
-You must set an Allowed Data Location for SharePoint for each geo-location where you want to use OneDrive for Business. Available geo-locations are shown in the following table:
+You must add a satellite location for each geo location where you want to use OneDrive for Business. Available geo locations are shown in the following table:
 
 <table>
 <thead>
@@ -76,7 +76,7 @@ You must set an Allowed Data Location for SharePoint for each geo-location where
 </tbody>
 </table>
 
-To add a satellite geo location
+To add a satellite location
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com).
 
@@ -90,36 +90,36 @@ To add a satellite geo location
 
 6. Click **Close**.
 
-Provisioning may take from a few hours up to 72 hours, depending on the size of your tenant. Once provisioning of a satellite location has completed, you will recieve an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo-location. 
+Provisioning may take from a few hours up to 72 hours, depending on the size of your tenant. Once provisioning of a satellite location has completed, you will recieve an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo location. 
 
 > [!IMPORTANT]
-> Your new satellite geo location will be set up with default settings. This will allow you to configure that geo location as appropriate for your local compliance needs.
+> Your new satellite location will be set up with default settings. This will allow you to configure that satellite location as appropriate for your local compliance needs.
 
 ## Setting users’ preferred data location
 <span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span> 
 
-Once you enable the needed data locations, you can update your user accounts to use the appropriate data location. We recommend that you set a preferred data location for every user, even if that user is staying in the default data location.
+Once you enable the needed satellite locations, you can update your user accounts to use the appropriate preferred data location. We recommend that you set a preferred data location for every user, even if that user is staying in the central location.
 
 > [!TIP]
-> We recommend that you begin validations with a test user or small group of users before rolling out Multi-Geo capabilities to your broader organization.
+> We recommend that you begin validations with a test user or small group of users before rolling out multi-geo to your broader organization.
 
 In AAD there are two types of user objects: cloud only users and synchronized users. Please follow the appropriate instructions for your type of user.
 
 ### Synchronize user’s Preferred Data Location using AD Connect 
 
-If your company’s users are synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), their PreferredDataLocation must be populated in AD and synchronized to AAD.
-Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises AD to AAD.
+If your company’s users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in AD and synchronized to AAD.
+Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
 
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 
 > [!IMPORTANT]
-> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to AAD for the changes to propagate before the user logs in to OneDrive for Business. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
+> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to Azure Active Directory for the changes to propagate before the user logs in to OneDrive for Business. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
 
 ### Setting Preferred Data Location for cloud only users 
 
-If your company’s users are not synchronized from an on-premises Active Directory (AD) system to Azure Active Directory (AAD), meaning they are created in Office 365 or AAD, then PDL must be set using AAD PowerShell.
+If your company’s users are not synchronized from an on-premises Active Directory system to Azure Active Directory, meaning they are created in Office 365 or Azure Active Directory, then the PDL must be set using Azure Active Directory PowerShell.
 
-The procedures in this section require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have AAD PowerShell installed, please ensure you update to the latest version.
+The procedures in this section require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have Azure Active Directory PowerShell installed, please ensure you update to the latest version.
 
 1.  Open the Microsoft Azure Active Directory Module for Windows PowerShell.
 
@@ -138,17 +138,17 @@ The procedures in this section require the [Microsoft Azure Active Directory Mod
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 
 > [!IMPORTANT]
-> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is set for the changes to propagate before the user logs in to SharePoint OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
+> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is set for the changes to propagate before the user logs in to OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
 
 ## OneDrive Provisioning and the effect of PDL
 
 If the user already has a OneDrive site created in the tenant, setting their PDL will not automatically move their existing OneDrive. To move a user’s OneDrive, see [OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md) please follow the instructions in Moving OneDrive between geo locations.
 
-If the user does not have a OneDrive site within the tenant, OneDrive will be provisioned for them in accordance to their PDL value, assuming the PDL for the user matches one of the company’s allowed data locations (ADLs).
+If the user does not have a OneDrive site within the tenant, OneDrive will be provisioned for them in accordance to their PDL value, assuming the PDL for the user matches one of the company’s satellite locations.
 
 ## Configuring Multi-Geo search
 
-Your Multi-Geo tenant will have aggregate search capabilities allowing a search query to return results from anywhere within the tenant.
+Your multi-geo tenant will have aggregate search capabilities allowing a search query to return results from anywhere within the tenant.
 
 By default, searches from these entry points will return aggregate results, even though each search index is located within its relevant geo location:
 
@@ -160,7 +160,7 @@ By default, searches from these entry points will return aggregate results, even
 
 - Search Center
 
-Additionally, Multi-Geo search capabilities can be configured for your custom search applications that use the SharePoint search API.
+Additionally, multi-geo search capabilities can be configured for your custom search applications that use the SharePoint search API.
 
 Please review [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md) for instructions including any limitations and differences.
 
@@ -170,7 +170,7 @@ Below are some basic use cases you may wish to include in your validation plan b
 
 **OneDrive for Business**
 
-Select OneDrive from the Office 365 app launcher and confirm that you are automatically directed to the appropriate geo-location for the user, based on the user’s PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
+Select OneDrive from the Office 365 app launcher and confirm that you are automatically directed to the appropriate geo location for the user, based on the user’s PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
 
 **OneDrive Mobile App**
 
@@ -178,7 +178,7 @@ Log into your OneDrive mobile App with your test account credentials. Confirm th
 
 **OneDrive sync client**
 
-Confirm that the OneDrive sync client automatically detects your OneDrive for Business geo-location upon login. If you need to download the sync client, you can click **Sync** in the OneDrive library.
+Confirm that the OneDrive sync client automatically detects your OneDrive for Business geo location upon login. If you need to download the sync client, you can click **Sync** in the OneDrive library.
 
 **Office applications**
 
@@ -186,4 +186,4 @@ Confirm that you can access OneDrive for Business by logging in from an Office a
 
 **Sharing**
 
-Try sharing OneDrive files. Confirm that the people picker shows you all your SharePoint online users regardless of their geo-location.
+Try sharing OneDrive files. Confirm that the people picker shows you all your SharePoint online users regardless of their geo location.
