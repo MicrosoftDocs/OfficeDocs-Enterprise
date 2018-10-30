@@ -9,7 +9,7 @@ ms.service: o365-solutions
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
-description: "Learn how to move a OneDrive site to a different geo-location."
+description: "Learn how to move a OneDrive site to a different geo location."
 ---
 
 # Move a OneDrive site to a different geo-location 
@@ -24,7 +24,7 @@ The procedures in this article require the [Microsoft SharePoint Online PowerShe
 
 ## Communicating to your users
 
-When moving OneDrive sites between geo-locations, it's important to communicate to your users what to expect. This can help reduce user confusion and calls to your help desk. Email your users before the move and let them know the following information:
+When moving OneDrive sites between geo locations, it's important to communicate to your users what to expect. This can help reduce user confusion and calls to your help desk. Email your users before the move and let them know the following information:
 
 - When the move is expected to start and how long it is expected to take
 - What geo location their OneDrive is moving to, and the URL to access the new location

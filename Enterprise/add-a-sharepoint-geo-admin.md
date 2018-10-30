@@ -12,11 +12,11 @@ description: "Learn how to add or remove a geo administrator in OneDrive for Bus
 
 # Add or remove a geo administrator in OneDrive for Busniess Multi-Geo
 
-You can configure separate administrators for each geo location that you have in your tenant. These administrators will have access to the SharePoint Online and OneDrive settings that are specific to their geo-location.
+You can configure separate administrators for each geo location that you have in your tenant. These administrators will have access to the SharePoint Online and OneDrive settings that are specific to their geo location.
 
 Some services - such as the term store - are administered from the central location and replicated to satellite locations. The geo admin for the central location has access to these, whereas geo admins for satellite locations don’t.
 
-Global administrators and SharePoint Online administrators continue to have access to settings in all geo locations.
+Global administrators and SharePoint Online administrators continue to have access to settings in the central location and all satellite locations.
 
 ## Configuring geo administrators
 
@@ -36,9 +36,9 @@ To remove a user as a Geo Admin of a location, run  `Remove-SPOGeoAdministrator 
 
 You can add a security group or a mail-enabled security group as a geo admin. (Distribution groups and Office 365 Groups are not supported.)
 
-To add a group as a geo admin, run `Add-SPOGeoAdministrator -GroupAlias <alias>`
+To add a group as a geo administrator, run `Add-SPOGeoAdministrator -GroupAlias <alias>`
 
-To remove a group as a geo admin, run `Remove-SPOGeoAdministrator -GroupAlias <alias>`
+To remove a group as a geo administrator, run `Remove-SPOGeoAdministrator -GroupAlias <alias>`
 
 Note that not all security groups have a group alias. If you want to add a security group that does not have an alias, run [Get-MsolGroup](https://docs.microsoft.com/en-us/powershell/module/msonline/get-msolgroup) to retrieve a list of groups, find your security group's ObjectID, and then run:
 
@@ -48,7 +48,7 @@ To remove a group by using the ObjectID, run `Remove-SPOGeoAdministrator -Object
 
 ### Accessing the admin center for a specific geo-location
 
-To administer OneDrive settings for their geo-location, admins must access the OneDrive admin center directly using the following URL format:
+To administer OneDrive settings for their geo location, admins must access the OneDrive admin center directly using the following URL format:
 
 https://admin.onedrive.com/?geo=<*geo*>
 
