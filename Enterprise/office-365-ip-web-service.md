@@ -63,7 +63,7 @@ There is one parameter for the version web method:
 - **Format=JSON** | **CSV** | **RSS** – In addition to the JSON and CSV formats, the version web method also supports RSS. You can use this along with the allVersions=true parameter to request an RSS feed which can be used with Outlook or other RSS readers.
 - **Instance** - Route parameter. This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
-The result from the version web method may be a single record or an array of records. The elements of each record are:
+The version web method is not rate limited and does not ever return 429 HTTP Response Codes. The response to the version web method does include a cache-control header recommending caching of the data for 1 hour. The result from the version web method may be a single record or an array of records. The elements of each record are:
 
 - instance - The short name of the Office 365 service instance.
 - latest - The latest version for endpoints of the specified instance.
@@ -164,12 +164,14 @@ This URI shows an RSS feed of the published versions that include links to the l
 
 ## **Endpoints web method**
 
-The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. While the latest data from the endpoints web method should be used for network device configuration, the data can be cached for up to 30 days after it is published due to the advance notice provided for additions. Parameters for the endpoints web method are:
+The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. While the latest data from the endpoints web method should be used for network device configuration, the data can be cached for up to 30 days after it is published due to the advance notice provided for additions. We recommend you only call the endpoints web method again when the version web method indicates a new version of the data is available. Parameters for the endpoints web method are:
 
 - **ServiceAreas** - Query string parameter. A comma-separated list of service areas. Valid items are Common,Exchange,SharePoint,Skype. Because Common service area items are a prerequisite for all other service areas, the web service will always include them. If you do not include this parameter, all service areas are returned.
 - **TenantName** - Query string parameter. Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don't provide a tenant name, those parts of URLs have the wildcard character (\*).
 - **NoIPv6** - Query string parameter. Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
 - **Instance** - Route parameter. This required parameter specifies the instance to return the endpoints for. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
+
+If you call the endpoints web method an unreasonable number of times from the same client IP Address you may receive HTTP Response Code 429 Too Many Requests. Most people will never see this. If you get this response code, you should wait 1 hour before calling the method again. Plan to only call the endpoints web method when the version web method indicates there is a new version available. 
 
 The result from the endpoints web method is an array of records with each record representing an endpoint set. The elements for each record are:
 
@@ -234,6 +236,8 @@ The changes web method returns the most recent updates that have been published.
 The parameter for the changes web method is:
 
 - **Version** - Required URL route parameter. The version that you have currently implemented, and you want to see the changes since that version. The format is _YYYYMMDDNN_.
+
+The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP Response Code then you should wait 1 hour before calling again. 
 
 The result from the changes web method is an array of records with each record representing a change in a specific version of the endpoints. The elements for each record are:
 
