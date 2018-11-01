@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Adm_O365_Setup
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
-description: "Office 2016 for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications attempt to reach, and the services provided. This information is useful when troubleshooting network configuration issues, and setting a policy for network proxy servers. The details in this article are intended to compliment the Office 365 URL and address ranges article."
+description: "Office 2016 for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues, and setting a policy for network proxy servers. The details in this article are intended to compliment the Office 365 URL and address ranges article."
 ---
 
 # Network requests in Office 2016 for Mac
 
-Office 2016 for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications attempt to reach, and the services provided. This information is useful when troubleshooting network configuration issues and setting policies for network proxy servers. The details in this article are intended to compliment the [Office 365 URL and address ranges article](urls-and-ip-address-ranges.md), which includes endpoints for computers running Microsoft Windows.
+Office 2016 for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues and setting policies for network proxy servers. The details in this article are intended to compliment the [Office 365 URL and address ranges article](urls-and-ip-address-ranges.md), which includes endpoints for computers running Microsoft Windows.
   
 Most of this article is tables detailing network URLs, type, and description of service or feature provided by that endpoint. Each of the Office apps may differ in its service and endpoint usage. The following apps are defined in the tables below:
   
@@ -244,7 +244,7 @@ Volume License customers may have strict policies about saving documents to clou
 
 - ```defaults write com.microsoft.Powerpoint UseOnlineContent -integer 0```
 
-If users attempt to access the Sign-In function, they will see an error that a network connection is not present. Because this preference also blocks online product activation, it should only be used for Volume License installations. Specifically, using this preference will prevent Office applications from accessing the following endpoints:
+If users try to access the Sign-In function, they will see an error that a network connection is not present. Because this preference also blocks online product activation, it should only be used for Volume License installations. Specifically, using this preference will prevent Office applications from accessing the following endpoints:
   
 - ```https://odc.officeapps.live.com```
     

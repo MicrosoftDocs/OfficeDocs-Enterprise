@@ -100,11 +100,11 @@ New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 > [!TIP]
-> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-f79bc2c2?redir=0) for a text file that contains all the PowerShell commands in this article.
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-f79bc2c2?redir=0) for a text file that has all the PowerShell commands in this article.
   
 Next, use the [Azure portal](http://portal.azure.com) to connect to the ADFS1 virtual machine using the ADFS1 local administrator account name and password, and then open a Windows PowerShell command prompt.
   
-To check name resolution and network communication between ADFS1 and DC1, run the **ping dc1.corp.contoso.com** command and verify that there are four replies.
+To check name resolution and network communication between ADFS1 and DC1, run the **ping dc1.corp.contoso.com** command and check that there are four replies.
   
 Next, join the ADFS1 virtual machine to the CORP domain with these commands at the Windows PowerShell prompt on ADFS1.
   
@@ -124,7 +124,7 @@ Figure 3 shows the addition of the ADFS1 server to the DirSync for Office 365 de
   
 ## Phase 3: Create the web proxy server
 
-PROXY1 provides proxying of authentication messages between users attempting to authenticate and ADFS1.
+PROXY1 provides proxying of authentication messages between users trying to authenticate and ADFS1.
   
 To create an Azure virtual machine for PROXY1, fill in the name of your resource group and Azure location, and then run these commands at the Azure PowerShell command prompt on your local computer.
   
@@ -156,7 +156,7 @@ Get-AzureRmNetworkSecurityGroup -Name CorpNet -ResourceGroupName $rgName | Add-A
 
 Next, use the [Azure portal](http://portal.azure.com) to connect to the PROXY1 virtual machine using the PROXY1 local administrator account name and password, and then open a Windows PowerShell command prompt on PROXY1.
   
-To check name resolution and network communication between PROXY1 and DC1, run the **ping dc1.corp.contoso.com** command and verify that there are four replies.
+To check name resolution and network communication between PROXY1 and DC1, run the **ping dc1.corp.contoso.com** command and check that there are four replies.
   
 Next, join the PROXY1 virtual machine to the CORP domain with these commands at the Windows PowerShell prompt on PROXY1.
   
@@ -396,7 +396,7 @@ Use these steps to configure Azure AD Connect and your Office 365 subscription f
     
 13. On the **Installation complete** page, click **Exit**.
     
-To demonstrate that federated authentication is working, do the following:
+To demonstrate that federated authentication is working:
   
 1. Open a new private instance of your browser on your local computer and go to [https://portal.office.com](https://portal.office.com).
     

@@ -21,7 +21,7 @@ description: "Summary: Connect to your Office 365 organization using Office 365 
 
  **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform administration tasks from the command line.
   
-Office 365 PowerShell lets you to manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple process where you install the required software and then connect to your Office 365 organization. 
+Office 365 PowerShell lets you manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple process where you install the required software and then connect to your Office 365 organization. 
 
 There are two versions of the PowerShell module that you use to connect to Office 365 and administer user accounts, groups, and licenses:
 

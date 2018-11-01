@@ -76,16 +76,16 @@ First, start an Azure PowerShell prompt on your local computer.
 > [!NOTE]
 > The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/en-us/powershell/azureps-cmdlets-docs/). 
   
-Sign in to your Azure account with the following command.
+Sign in to your Azure account with this command.
   
 ```
 Login-AzureRMAccount
 ```
 
 > [!TIP]
-> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-7844edd0) to get a text file that contains all of the PowerShell commands in this article.
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-7844edd0) to get a text file that has all of the PowerShell commands in this article.
   
-Get your subscription name using the following command.
+Get your subscription name using this command.
   
 ```
 Get-AzureRMSubscription | Sort Name | Select Name

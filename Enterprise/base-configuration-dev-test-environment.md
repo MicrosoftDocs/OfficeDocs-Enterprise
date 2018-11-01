@@ -29,7 +29,7 @@ This article provides you with instructions to create the following Base Configu
   
 **Figure 1: The Base Configuration dev/test environment**
 
-The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running Windows Server 2016:
+The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It has three Azure virtual machines running Windows Server 2016:
   
 - DC1 is configured as an intranet domain controller and Domain Name System (DNS) server
     
@@ -37,7 +37,7 @@ The Base Configuration dev/test environment in Figure 1 consists of the Corpnet 
     
 - CLIENT1 acts as an intranet client
     
-This configuration allows DC1, APP1, CLIENT1, and additional Corpnet subnet computers to be: 
+This configuration lets DC1, APP1, CLIENT1, and additional Corpnet subnet computers to be: 
   
 - Connected to the Internet to install updates, access Internet resources in real time, and participate in public cloud technologies such as Microsoft Office 365 and other Azure services.
     
@@ -117,7 +117,7 @@ Login-AzureRMAccount
 ```
 
 > [!TIP]
-> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-ba957d3d) to get a text file that contains all the PowerShell commands in this article.
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-ba957d3d) to get a text file that has all the PowerShell commands in this article.
   
 Get your subscription name using the following command.
   
@@ -293,7 +293,7 @@ New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 Next, connect to the APP1 virtual machine using the APP1 local administrator account name and password, and then open a Windows PowerShell command prompt.
   
-To check name resolution and network communication between APP1 and DC1, run the **ping dc1.corp.contoso.com** command and verify that there are four replies.
+To check name resolution and network communication between APP1 and DC1, run the **ping dc1.corp.contoso.com** command and check that there are four replies.
   
 Next, join the APP1 virtual machine to the CORP domain with these commands at the Windows PowerShell prompt.
   
@@ -354,7 +354,7 @@ New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
 
 Next, connect to the CLIENT1 virtual machine using the CLIENT1 local administrator account name and password, and then open an administrator-level Windows PowerShell command prompt.
   
-To check name resolution and network communication between CLIENT1 and DC1, run the **ping dc1.corp.contoso.com** command at a Windows PowerShell command prompt and verify that there are four replies.
+To check name resolution and network communication between CLIENT1 and DC1, run the **ping dc1.corp.contoso.com** command at a Windows PowerShell command prompt and check that there are four replies.
   
 Next, join the CLIENT1 virtual machine to the CORP domain with these commands at the Windows PowerShell prompt.
   
@@ -367,7 +367,7 @@ Note that you must supply your CORP\\User1 domain account credentials after runn
   
 After CLIENT1 restarts, connect to it using the CORP\\User1 account name and password, and then open an administrator-level Windows PowerShell command prompt.
   
-Next, verify that you can access web and file share resources on APP1 from CLIENT1.
+Next, check that you can access web and file share resources on APP1 from CLIENT1.
   
 1. In Server Manager, in the tree pane, click **Local Server**.
     
