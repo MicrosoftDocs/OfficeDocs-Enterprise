@@ -3,7 +3,7 @@ title: "Resources to help you upgrade from Office 2010 servers and clients"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 8/8/2018
+ms.date: 11/01/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
