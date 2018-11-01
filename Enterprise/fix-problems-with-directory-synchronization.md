@@ -3,7 +3,6 @@ title: "Fixing problems with directory synchronization for Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -49,12 +48,12 @@ To update from Azure Active Directory Sync to Azure AD Connect, see [the upgrade
 
 ### **Synchronized objects aren't appearing or updating online, or I'm getting synchronization error reports from the Service.**
 
-- [Identity synchronization and duplicate attribute resiliency](https://go.microsoft.com/fwlink/p/?LinkID=798300)
+- [Identity synchronization and duplicate attribute resiliency](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)
 
 ### **I have an alert in the Office 365 admin center, or am receiving automated emails that there hasn't been a recent synchronization event**
-- [Troubleshoot connectivity issues with Azure AD Connect](https://go.microsoft.com/fwlink/p/?LinkId=820597)
+- [Troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
 - [Azure AD Connect Accounts and permissions](https://go.microsoft.com/fwlink/p/?LinkId=820598)
-- [Azure AD Connect sync: How to manage the Azure AD service account](https://go.microsoft.com/fwlink/p/?LinkId=820599)
+- [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-azureadaccount)
 - [Directory synchronization to Azure Active Directory stops or you're warned that sync hasn't registered in more than a day](https://support.microsoft.com/help/2882421/directory-synchronization-to-azure-active-directory-stops-or-you-re-warned-that-sync-hasn-t-registered-in-more-than-a-day)
 
 ### **Password hashes aren't synchronizing, or I'm seeing an alert in the Office 365 admin center that there hasn't been a recent password hash synchronization**
