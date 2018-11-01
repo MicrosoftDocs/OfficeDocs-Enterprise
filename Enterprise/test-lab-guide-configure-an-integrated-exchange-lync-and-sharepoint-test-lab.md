@@ -25,7 +25,7 @@ description: "Summary: Learn how to create an integrated test lab that contains 
  
 The test lab that results from this configuration, which includes server-to-server authentication between all three types of servers, can be used to build out and demonstrate multi-product scenarios and solutions that use a server that runs Exchange Server 2013, a server that runs Lync Server 2013, and a server that runs SharePoint Server 2013.
   
-This document contains instructions for the following:
+This document contains instructions for:
   
 1. Configuring the Windows Server 2012 Base Configuration test lab.
     

@@ -115,7 +115,7 @@ To connect to Office 365 services with MFA and PowerShell, see [this article](ht
   
 ## Step 3. Monitor for suspicious global administrator account activity
 
-Office 365 Cloud App Security allows you to create policies to notify you of suspicious behavior in your subscription. Cloud App Security is built into Office 365 E5, but is also available as a separate service. For example, if you do not have Office 365 E5, you can purchase individual Cloud App Security licenses for the user accounts that are assigned the global administrator, security administrator, and compliance administrator roles.
+Office 365 Cloud App Security lets you create policies to notify you of suspicious behavior in your subscription. Cloud App Security is built into Office 365 E5, but is also available as a separate service. For example, if you do not have Office 365 E5, you can purchase individual Cloud App Security licenses for the user accounts that are assigned the global administrator, security administrator, and compliance administrator roles.
   
 If you have Cloud App Security in your Office 365 subscription, use these steps:
   

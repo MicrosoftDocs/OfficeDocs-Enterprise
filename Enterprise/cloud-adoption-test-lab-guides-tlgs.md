@@ -63,7 +63,7 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     
 - [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
     
-    Configure and demonstrate Office 365 Cloud App Security, which allows you to create policies that monitor for and inform you of suspicious activities in your Office 365 subscription.
+    Configure and demonstrate Office 365 Cloud App Security, which lets you create policies that monitor for and inform you of suspicious activities in your Office 365 subscription.
     
 - [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
     
@@ -71,7 +71,7 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     
 - [Advanced eDiscovery for your Office 365 dev/test environment](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
     
-    Add example data and demonstrate Advanced eDiscovery, which allows you to quickly find and analyze the data that is stored in Office 365, including email and documents.
+    Add example data and demonstrate Advanced eDiscovery, which lets you quickly find and analyze the data that is stored in Office 365, including email and documents.
     
 - [Sensitive file protection in the Office 365 dev/test environment](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
     

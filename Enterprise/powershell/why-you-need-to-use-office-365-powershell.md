@@ -60,7 +60,7 @@ The Office 365 admin center displays a lot of useful information, but that doesn
   
 ![Example of the display of users and groups in the Office 365 Admin center.](media/o365-powershell-users-and-groups.png)
   
-For many purposes, this displays the information you need to know. However, there are times when you need more. For example, Office 365 licensing (as well as the Office 365 features available to a user) depend in part on that user's geographic location. The policies and features you can extend to a user who lives in the United States might not be the same as the policies and features you can extend to a user who lives in India or in Belgium. You can use the Office 365 admin center to determine a user's geographic location with these steps:
+For many purposes, this displays the information you need to know. However, there are times when you need more. For example, Office 365 licensing (and the Office 365 features available to a user) depend in part on that user's geographic location. The policies and features you can extend to a user who lives in the United States might not be the same as the policies and features you can extend to a user who lives in India or in Belgium. You can use the Office 365 admin center to determine a user's geographic location with these steps:
   
 1. Double-click the user's **Display Name**.
     
@@ -324,7 +324,7 @@ Get-User -Filter '{LastName -like "*son"}'
   
 ## Office 365 PowerShell makes it easy to print or save data
 
-The Office 365 admin center allows you to view lists of data. Here is an example of the Skype for Business Online Admin center displaying a list of users who have been enabled for Skype for Business Online:
+The Office 365 admin center lets you view lists of data. Here is an example of the Skype for Business Online Admin center displaying a list of users who have been enabled for Skype for Business Online:
   
 ![Example of the Skype for Business Online Admin center displaying a list of users who have been enabled for Skype for Business Online.](media/o365-powershell-lync-users.png)
   

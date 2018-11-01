@@ -23,7 +23,7 @@ description: "Summary: Configure high availability federated authentication for 
 
  **Summary:** Configure high availability federated authentication for your Office 365 subscription in Microsoft Azure.
   
-This article contains links to the step-by-step instructions for deploying high availability federated authentication for Microsoft Office 365 in Azure infrastructure services with these virtual machines:
+This article has links to the step-by-step instructions for deploying high availability federated authentication for Microsoft Office 365 in Azure infrastructure services with these virtual machines:
   
 - Two web application proxy servers
     

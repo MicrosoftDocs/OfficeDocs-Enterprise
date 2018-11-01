@@ -101,7 +101,7 @@ Determine the following:
   Get-MsolRole | Sort Name | Select Name,Description
   ```
 
-Next, create a comma-separated value (CSV) text file that contains the DisplayName and role Name fields. Here is an example:
+Next, create a comma-separated value (CSV) text file that has the DisplayName and role Name fields. Here is an example:
   
 ```
 DisplayName,RoleName
@@ -113,7 +113,7 @@ DisplayName,RoleName
 Next, fill in the location of the CSV file and run the resulting commands at the PowerShell command prompt.
   
 ```
-$fileName="<path and file name of the input CSV file that contains the role changes, example: C:\admin\RoleUpdates.CSV>"
+$fileName="<path and file name of the input CSV file that has the role changes, example: C:\admin\RoleUpdates.CSV>"
 $roleChanges=Import-Csv $fileName | ForEach {Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser | Where DisplayName -eq $_.DisplayName).UserPrincipalName -RoleName $_.RoleName }
 
 ```

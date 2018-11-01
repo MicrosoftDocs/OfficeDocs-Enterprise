@@ -92,7 +92,7 @@ Because the on-premises identity provider has been synchronized with Azure AD, b
   
 ## Stretch Database with SQL Server 2016
 
-Stretch database is a feature of SQL Server 2016 that allows you to transparently and securely move cold data, such as closed business data in a large table that contains customer order information, to a SQL Stretch database in Azure.
+Stretch database is a feature of SQL Server 2016 that lets you transparently and securely move cold data, such as closed business data in a large table that contains customer order information, to a SQL Stretch database in Azure.
   
 When stretched, the contents of a SQL Server instance, a database, or even a single table is the combination of local data in SQL Server 2016 server and remote data in Azure. Data that becomes eligible for stretch is automatically moved to Azure by SQL Server 2016.
   
