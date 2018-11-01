@@ -140,7 +140,7 @@ For more information, see [NAT support with Office 365](https://support.office.c
   
 For the latest recommendations for using ExpressRoute with Office 365, see [ExpressRoute for Office 365](https://support.office.com/article/Azure-ExpressRoute-for-Office-365-6d2534a2-c19c-4a99-be5e-33a0cee5d3bd).
   
-To optimize your intranet performance, do the following:
+To optimize your intranet performance:
   
 - Use tools to gauge round trip times (RTTs) to your Internet edge devices (PsPing, Ping, Tracert, TraceTCP, Network Monitor)
     
@@ -162,7 +162,7 @@ To optimize your network for on-time migrations:
   
 - Avoid peak network usage and computer patching times
     
-- Should be baselined and piloted, assess network health and resolve issues before attempting actual migration
+- Should be baselined and piloted, assess network health and resolve issues before trying actual migration
     
 - Perform post-mortem for future migrations
     

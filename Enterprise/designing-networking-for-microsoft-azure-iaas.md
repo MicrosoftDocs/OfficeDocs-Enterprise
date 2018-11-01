@@ -87,11 +87,11 @@ There are two types of subnets in a VNet, a gateway subnet and a virtual machine
 
 ![Figure 3: The two types of subnets in Azure](media/2eaa512d-1293-4e9b-b927-6bfe0fc0acb4.png)
   
-Figure 3 shows a VNet containing a gateway subnet that contains an Azure gateway and a set of virtual machine-hosting subnets containing virtual machines.
+Figure 3 shows a VNet containing a gateway subnet that has an Azure gateway and a set of virtual machine-hosting subnets containing virtual machines.
   
 The Azure gateway subnet is needed by Azure to host the two virtual machines of your Azure gateway. Specify an address space with at least a 29-bit prefix length (example: 192.168.15.248/29). A 28-bit or smaller prefix length is recommended, especially if you are planning to use ExpressRoute.
   
-A best practice for determining the address space of the Azure gateway subnet is the following:
+A best practice for determining the address space of the Azure gateway subnet is:
   
 1. Decide on the size of the gateway subnet.
     
@@ -357,7 +357,7 @@ For the routing to on-premises or other VNets from a VNet, Azure forwards traffi
   
 Figure 15 shows a cross-premises VNet and the Local Network address space on the Azure gateway, which represents the reachable address space on the on-premises network. 
   
-You can define the Local Network address space in the following ways:
+You can define the Local Network address space in these ways:
   
 - Option 1: The list of prefixes for the address space currently needed or in use (updates might be needed when you add new subnets).
     
