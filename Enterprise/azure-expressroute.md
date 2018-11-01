@@ -3,7 +3,7 @@ title: "Azure ExpressRoute for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: 11/01/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -98,7 +98,6 @@ Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
 ([Azure ExpressRoute for Office 365](azure-expressroute.md#BKMK_HOME))
 
 ## Related Topics
-<a name="BKMK_End"> </a>
 
 [Network connectivity to Office 365](network-connectivity.md)
 
@@ -118,6 +117,6 @@ Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
 
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
 
-[Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
