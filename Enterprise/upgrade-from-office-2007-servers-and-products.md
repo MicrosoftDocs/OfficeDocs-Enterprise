@@ -42,7 +42,7 @@ Support has ended for Office 2007 products and services. The following roadmaps 
    
 When support ends for a Microsoft product, there are no new security updates, non-security updates, free or paid assisted support options (including custom support agreements), or online technical content updates.Whether you're an enterprise organization or an individual home user, you have several options to consider:
 
-## I'm a home user...What do I do?
+## I'm a home user. What do I do?
 
 If you're using Office 2010 products and applications at home, see [this information](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
      
