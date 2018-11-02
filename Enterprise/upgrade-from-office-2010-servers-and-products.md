@@ -37,7 +37,7 @@ If you're using Office 2010 products and services, you're probably aware that Of
 |Project Server 2010 <br/> | [Project Server 2010 end of support roadmap](project-server-2010-end-of-support.md) <br/> |
 |Lync Server 2010 <br/> | [Plan to upgrade to Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) <br/> |
     
-## I'm a home user...What do I do?
+## I'm a home user. What do I do?
 
 If you're using Office 2010 products and applications at home, see [this information](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
 
