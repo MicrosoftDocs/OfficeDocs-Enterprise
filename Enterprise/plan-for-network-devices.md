@@ -32,7 +32,7 @@ On-premises outgoing Internet proxy settings also affect connectivity to Office 
   
 The following Skype for Business Help articles have more information about Skype for Business settings:
   
-- [Troubleshooting Skype for Business Sign-in Errors (Administrators)](https://go.microsoft.com/fwlink/p/?LinkID=243624)
+- [Troubleshooting Skype for Business Online sign-in errors for administrators](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)
 
 - [You cannot connect to Skype for Business, or certain features do not work, because an on-premises firewall blocks the connection](https://go.microsoft.com/fwlink/p/?LinkID=243625)
 
