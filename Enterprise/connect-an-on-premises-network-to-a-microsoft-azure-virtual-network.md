@@ -3,7 +3,7 @@ title: "Connect an on-premises network to a Microsoft Azure virtual network"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/23/2018
+ms.date: 11/05/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -31,8 +31,8 @@ For example, a directory synchronization server running on an Azure virtual mach
 
 Your virtual machines in Azure don't have to be isolated from your on-premises environment. To connect Azure virtual machines to your on-premises network resources, you must configure a cross-premises Azure virtual network. The following diagram shows the required components to deploy a cross-premises Azure virtual network with a virtual machine in Azure.
   
-![On-premises network connected to Microsoft Azure by a site-to-site VPN connection](media/CP-ConnectOnPremisesNetworkToAzureVPN.png)
-  
+![On-premises network connected to Microsoft Azure by a site-to-site VPN connection](media/86ab63a6-bfae-4f75-8470-bd40dff123ac.png)
+ 
 In the diagram, there are two networks connected by a site-to-site VPN connection: the on-premises network and the Azure virtual network. The site-to-site VPN connection is:
 
 - Between two endpoints that are addressable and located on the public Internet.
@@ -243,27 +243,6 @@ New-AzureRMResourceGroup -Name $rgName -Location $locName
 
 ```
 
-Resource Manager-based virtual machines require a Resource Manager-based storage account. You must pick a globally unique name for your storage account that has only lowercase letters and numbers. You can use this command to list the existing storage accounts.
-  
-```
-Get-AzureRMStorageAccount | Sort Name | Select Name
-```
-
-Use this command to test whether a proposed storage account name is unique.
-  
-```
-Get-AzureRmStorageAccountNameAvailability "<proposed name>"
-```
-
-To create a new storage account, run these commands.
-  
-```
-$rgName="<your new resource group name>"
-$locName="<the location of your new resource group>"
-$saName="<unique storage account name>"
-New-AzureRMStorageAccount -Name $saName -ResourceGroupName $rgName -Type Standard_LRS -Location $locName
-```
-
 Next, you create the Azure virtual network.
   
 ```
@@ -341,11 +320,9 @@ Create the virtual machines you need in Azure. For more information, see [Create
   
 Use the following settings:
   
-- On the **Basics** pane, select the same subscription and resource group as your virtual network. Record the user name and password in a secure location. You will need these later to sign in to the virtual machine.
+- On the **Basics** tab, select the same subscription and resource group as your virtual network. You will need these later to sign in to the virtual machine. In the **Instance details** section, choose the appropriate virtual machine size. Record the administrator account user name and password in a secure location. 
     
-- On the **Size** pane, choose the appropriate size.
-    
-- On the **Settings** pane, in the **Storage** section, select the **Standard** storage type and the storage account set up with your virtual network. In the **Network** section, select the name of your virtual network and the subnet for hosting virtual machines (not the GatewaySubnet). Leave all other settings at their default values.
+- On the **Networking** tab, select the name of your virtual network and the subnet for hosting virtual machines (not the GatewaySubnet). Leave all other settings at their default values.
     
 Verify that your virtual machine is using DNS correctly by checking your internal DNS to ensure that Address (A) records were added for you new virtual machine. To access the Internet, your Azure virtual machines must be configured to use your on-premises network's proxy server. Contact your network administrator for additional configuration steps to perform on the server.
   

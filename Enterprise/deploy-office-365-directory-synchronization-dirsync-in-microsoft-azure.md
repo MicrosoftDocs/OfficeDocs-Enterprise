@@ -3,7 +3,7 @@ title: "Deploy Office 365 Directory Synchronization in Microsoft Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/04/2018
+ms.date: 11/05/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -21,41 +21,34 @@ description: "Summary: Deploy Azure AD Connect on a virtual machine in Azure to 
 
 # Deploy Office 365 Directory Synchronization in Microsoft Azure
 
- **Summary:** Deploy Azure AD Connect on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant of your Office 365 subscription.
+ **Summary:** Deploy Azure AD Connect on a virtual machine in Azure infrastructure services to synchronize accounts between your on-premises directory and the Azure AD tenant of your Office 365 subscription.
   
-Azure Active Directory (AD) Connect (formerly known as the Directory Synchronization tool, Directory Sync tool, or the DirSync.exe tool) is a server-based application that you install on a domain-joined server to synchronize your on-premises Windows Server Active Directory users to the Azure Active Directory tenant of your Office 365 subscription. You can install Azure AD Connect on a on-premises server, but you can also install it on a virtual machine in Azure for these reasons:
+Azure Active Directory (AD) Connect (formerly known as the Directory Synchronization tool, Directory Sync tool, or the DirSync.exe tool) is an application that you install on a domain-joined server to synchronize your on-premises Windows Server Active Directory (AD) users to the Azure AD tenant of your Office 365 subscription. Office 365 uses Azure Active Directory (Azure AD) for its directory service. Your Office 365 subscription includes an Azure AD tenant. This tenant can also be used for management of your organization's identities with other cloud workloads, including other SaaS applications and apps in Azure.
+
+You can install Azure AD Connect on a on-premises server, but you can also install it on a virtual machine in Azure for these reasons:
   
 - You can provision and configure cloud-based servers faster, making the services available to your users sooner.
-    
 - Azure offers better site availability with less effort.
-    
 - You can reduce the number of on-premises servers in your organization.
-    
-> [!IMPORTANT]
-> This solution requires connectivity between your on-premises network and your Azure Virtual Network. For more information, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md). 
-  
-> [!IMPORTANT]
-> This article describes synchronization of a single domain in a single forest. Azure AD Connect synchronizes all Windows Server AD domains in your Active Directory forest with Office 365. If you have multiple Active Directory forests to synchronize with Office 365, see [Multi-forest Directory Sync with Single Sign-On Scenario](https://go.microsoft.com/fwlink/p/?LinkId=393091). 
+
+This solution requires connectivity between your on-premises network and your Azure virtual network. For more information, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md). 
   
 > [!NOTE]
-> Office 365 uses Azure Active Directory (Azure AD) for its directory service. Your Office 365 subscription includes an Azure AD tenant. This tenant can also be used for management of your organization's identities with other cloud workloads, including other SaaS applications and apps in Azure. 
+> This article describes synchronization of a single domain in a single forest. Azure AD Connect synchronizes all Windows Server AD domains in your Active Directory forest with Office 365. If you have multiple Active Directory forests to synchronize with Office 365, see [Multi-forest Directory Sync with Single Sign-On Scenario](https://go.microsoft.com/fwlink/p/?LinkId=393091). 
   
 ## Overview of deploying Office 365 directory synchronization in Azure
 
-The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises Windows Server AD forest to anOffice 365 subscription.
+The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises Windows Server AD forest to an Office 365 subscription.
   
 ![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Office 365 subscription with traffic flow](media/CP-DirSyncOverview.png)
   
 In the diagram, there are two networks connected by a site-to-site VPN or ExpressRoute connection. There is an on-premises network where Windows Server AD domain controllers are located, and there is an Azure virtual network with a directory sync server, which is a virtual machine running [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594). There are two main traffic flows originating from the directory sync server:
   
 -  Azure AD Connect queries a domain controller on the on-premises network for changes to accounts and passwords.
-    
 -  Azure AD Connect sends the changes to accounts and passwords to the Azure AD instance of your Office 365 subscription. Because the directory sync server is in an extended portion of your on-premises network, these changes are sent through the on-premises network's proxy server.
     
 > [!NOTE]
 > This solution describes synchronization of a single Active Directory domain, in a single Active Directory forest. Azure AD Connect synchronizes all Active Directory domains in your Active Directory forest with Office 365. If you have multiple Active Directory forests to synchronize with Office 365, see [Multi-forest Directory Sync with Single Sign-On Scenario](https://go.microsoft.com/fwlink/p/?LinkId=393091). 
-  
-In both cases, the traffic originated by Azure AD Connect running on the Azure virtual machine is forwarded to a gateway on the virtual network in Azure, which then forwards the traffic across the site-to-site VPN or ExpressRoute connection to the VPN gateway device on the on-premises network. The routing infrastructure of the on-premises network then forwards the traffic to its destination, such as a domain controller or a proxy server.
   
 There are two major steps when you deploy this solution:
   
@@ -69,7 +62,7 @@ There are two major steps when you deploy this solution:
     
     Configuring Azure AD Connect requires the credentials (user name and password) of an Azure AD administrator account and a Windows Server AD enterprise administrator account. Azure AD Connect runs immediately and on an ongoing basis to synchronize the on-premises Windows Server AD forest to Office 365.
     
-Before you deploy this solution in production, use the instructions in [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md) to set this configuration up as a proof of concept, for demonstrations, or for experimentation.
+Before you deploy this solution in production, you can use the instructions in [Directory synchronization for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md) to set this configuration up as a proof of concept, for demonstrations, or for experimentation.
   
 > [!IMPORTANT]
 > When Azure AD Connect configuration completes, it does not save the Windows Server AD enterprise administrator account credentials. 
@@ -92,7 +85,7 @@ Before you begin, review the following prerequisites for this solution:
     
 - Provision one Azure Virtual Machine that runs Azure AD Connect to synchronize your on-premises Windows Server AD forest with Office 365.
     
-    You must have the credentials (names and passwords) for a Windows Server AD enterprise administrator account and an Azure Active Directory Administrator account.
+    You must have the credentials (names and passwords) for a Windows Server AD enterprise administrator account and an Azure AD Administrator account.
     
 ### Solution architecture design assumptions
 
@@ -176,7 +169,7 @@ This figure shows the directory sync server with Azure AD Connect in the cross-p
   
 ### Assign locations and licenses to users in Office 365
 
-Azure AD Connect adds accounts to your Office 365 subscription from the on-premises Windows Server AD, but in order for users to sign in to Office 365 and use its services, the accounts must configured with a location and licenses. Use these steps to add the location and activate licenses for the appropriate user accounts:
+Azure AD Connect adds accounts to your Office 365 subscription from the on-premises Windows Server AD, but in order for users to sign in to Office 365 and use its services, the accounts must be configured with a location and licenses. Use these steps to add the location and activate licenses for the appropriate user accounts:
   
 1. Sign in to the [Office 365 portal page](https://portal.office.com), and then click **Admin**.
     
@@ -186,13 +179,13 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
     
 4. On the page for the user, click **Edit** for **Product licenses**.
     
-5. On the **Product licences** page, select a location for the user for **Location**, and then enable the appropriate licences for the user.
+5. On the **Product licenses** page, select a location for the user for **Location**, and then enable the appropriate licenses for the user.
     
 6. When complete, click **Save**, and then click **Close** twice.
     
 7. Go back to step 3 for additional users.
     
-## See Also
+## See also
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
