@@ -81,7 +81,7 @@
 ## [Deploy Office 365 Enterprise for your organization](setup-overview-for-enterprises.md)
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### [Security best practices for Office 365](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
-## Set up your network
+## [Set up your network](set-up-network-for-office-365.md)
 ### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
