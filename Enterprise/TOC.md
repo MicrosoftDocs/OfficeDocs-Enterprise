@@ -87,7 +87,7 @@
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
-### Office 365 IP Addresses and URLs
+### [Office 365 IP Addresses and URLs](office-365-endpoints.md)
 #### [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
