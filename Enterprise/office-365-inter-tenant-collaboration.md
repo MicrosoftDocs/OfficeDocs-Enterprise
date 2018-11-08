@@ -3,7 +3,7 @@ title: "Office 365 inter-tenant collaboration"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 6/28/2018
+ms.date: 11/08/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
