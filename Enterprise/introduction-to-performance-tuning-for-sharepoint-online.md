@@ -94,13 +94,13 @@ Many of the issues that affect performance with SharePoint on-premises also appl
   
 As you would expect, you have far more control over how servers perform with on-premises SharePoint. With SharePoint Online things are a little different. The more work you make a server do, the longer it takes to render a page. With SharePoint, the biggest culprit in this respect are complex pages with multiple web parts.
   
+SharePoint Server on-premises
+  
+![Screenshot of server on premises](media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
+  
 SharePoint Online
   
-![Screenshot of server online](media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
-  
-SharePoint
-  
-![Screenshot of server on premises](media/46b27ded-d8a4-4287-b3e0-2603a764b8f8.png)
+![Screenshot of server online](media/46b27ded-d8a4-4287-b3e0-2603a764b8f8.png)
   
 With SharePoint Online, certain page requests may actually end up calling multiple servers. You could end up with a matrix of requests between servers for an individual request. These interactions are expensive from a page load perspective and will make things slow.
   
