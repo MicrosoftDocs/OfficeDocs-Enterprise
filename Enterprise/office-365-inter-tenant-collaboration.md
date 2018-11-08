@@ -76,7 +76,7 @@ Office 365 inter-tenant collaboration options include using a central location f
 
 |**Sharing goal**|**Administrative action**|**How-to information**|
 |:-----|:-----|:-----|
-|Power BI enables external guest users to consume content shared to them through links.This enables users in the organization to distribute content in a secure way across organizations.<br/> | The Power BI Admin can control whether users can invite external users to view content within the organization. <br/> |[Distribute Power BI content to external guest users with Azure AD B2B](https://docs.microsoft.com/en-us/power-bi/service-admin-azure-ad-b2b) <br/> |
+|Power BI enables external guest users to consume content shared to them through links. This enables users in the organization to distribute content in a secure way across organizations.<br/> | The Power BI Admin can control whether users can invite external users to view content within the organization. <br/> |[Distribute Power BI content to external guest users with Azure AD B2B](https://docs.microsoft.com/en-us/power-bi/service-admin-azure-ad-b2b) <br/> |
  
 ## Points to be aware of about Office 365 inter-tenant collaboration
 
