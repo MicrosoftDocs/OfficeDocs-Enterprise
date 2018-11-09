@@ -105,7 +105,6 @@
 #### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
 #### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
 #### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
-
 ## Set up your subscription
 ### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
 ### [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
@@ -130,17 +129,20 @@
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 ### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 ## [Train your users](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)
-## Multi-geo
+
+## [Office 365 Multi-Geo](office-365-multi-geo.md)
 ### [OneDrive for Business Multi-Geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
-#### [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md)
-#### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
-##### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
-##### [Delete a geo location](delete-a-geo-location.md)
-##### [User experience in a multi-geo environment](multi-geo-user-experience.md)
-#### [Configure OneDrive for Business Multi-Geo](multi-geo-tenant-configuration.md)
-#### [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md)
-#### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
 ### [Multi-Geo capabilities in Exchange Online](multi-geo-capabilities-in-exchange-online.md)
+### [Plan for Office 365 Multi-Geo](plan-for-multi-geo.md)
+#### [User experience in a multi-geo environment](multi-geo-user-experience.md)
+### [Configure multi-geo](multi-geo-tenant-configuration.md)
+#### [Configure Search multi-geo](configure-search-for-multi-geo.md)
+### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
+#### [Administering Exchange Online multi-geo](administering-exchange-online-multi-geo.md)
+#### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
+#### [Delete a geo location](delete-a-geo-location.md)
+#### [Move a OneDrive library to a different geo-location](move-onedrive-between-geo-locations.md)
+
 ## [Move to a new Office 365 datacenter geo](moving-data-to-new-datacenter-geos.md)
 ### [How to request your data move](request-your-data-move.md)
 ### [During and after your data move](during-and-after-your-data-move.md)
