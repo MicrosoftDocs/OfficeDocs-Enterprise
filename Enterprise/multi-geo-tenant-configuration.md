@@ -29,7 +29,7 @@ Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Offic
 
 You must add a satellite location for each geo location where you want to use OneDrive for Business. Available geo locations are shown in the following table:
 
-[!INCLUDE [Office 365 Multi-Geo locations](/includes/office-365-multi-geo-locations.md)]
+[!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
 <table>
 <thead>
