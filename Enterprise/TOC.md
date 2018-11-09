@@ -133,6 +133,7 @@
 ## [Office 365 Multi-Geo](office-365-multi-geo.md)
 ### [OneDrive and SharePoint multi-geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 ### [Exchange Online multi-geo](multi-geo-capabilities-in-exchange-online.md)
+### [Supported geo locations](office-365-multi-geo-locations.md)
 ### [Plan for multi-geo](plan-for-multi-geo.md)
 #### [User experience in a multi-geo environment](multi-geo-user-experience.md)
 ### [Configure multi-geo](multi-geo-tenant-configuration.md)
