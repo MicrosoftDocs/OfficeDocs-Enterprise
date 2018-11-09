@@ -142,6 +142,7 @@
 #### [Delete a geo location](delete-a-geo-location.md)
 #### [Move a OneDrive library](move-onedrive-between-geo-locations.md)
 #### [Move a SharePoint library](move-sharepoint-between-geo-locations.md)
+#### [Manage SharePoint quotas](sharepoint-multi-geo-storage-quota.md)
 #### [Administering Exchange Online multi-geo](administering-exchange-online-multi-geo.md)
 
 ## [Move to a new Office 365 datacenter geo](moving-data-to-new-datacenter-geos.md)

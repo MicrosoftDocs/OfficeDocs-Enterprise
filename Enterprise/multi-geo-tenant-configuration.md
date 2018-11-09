@@ -31,53 +31,6 @@ You must add a satellite location for each geo location where you want to use On
 
 [!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>Location</strong></th>
-<th align="left"><strong>Code</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left">Asia-Pacific</td>
-<td align="left">APC</td>
-</tr>
-<tr class="even">
-<td align="left">Australia</td>
-<td align="left">AUS</td>
-</tr>
-<tr class="even">
-<td align="left">Canada</td>
-<td align="left">CAN</td>
-</tr>
-<tr class="even">
-<td align="left">Europe / Middle East / Africa</td>
-<td align="left">EUR</td>
-</tr>
-<tr class="even">
-<td align="left">France</td>
-<td align="left">FRA</td>
-</tr>
-<tr class="odd">
-<td align="left">Japan</td>
-<td align="left">JPN</td>
-</tr>
-<tr class="even">
-<td align="left">Korea</td>
-<td align="left">KOR</td>
-</tr>
-<tr class="odd">
-<td align="left">North America</td>
-<td align="left">NAM</td>
-</tr>
-<tr class="odd">
-<td align="left">United Kingdom</td>
-<td align="left">GBR</td>
-</tr>
-</tbody>
-</table>
-
 To add a satellite location
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com).

@@ -47,21 +47,21 @@ To connect to a specific geo location, the *ConnectionUri* parameter is differen
     ```
 
 
-## View the available Geos that are configured in your Exchange Online organization
+## View the available geo locations that are configured in your Exchange Online organization
 To see the list of configured geo locations in Office 365 Multi-Geo, run the following command in Exchange Online PowerShell:
 
 ```
 Get-OrganizationConfig | Select -ExpandProperty AllowedMailboxRegions | Format-Table
 ```
 
-## View the default Geo for your Exchange Online organization
+## View the central location for your Exchange Online organization
 To view your tenant's central location, run the following command in Exchange Online PowerShell:
 
 ```
 Get-OrganizationConfig | Select DefaultMailboxRegion
 ```
 
-## Find the Geo location of a mailbox
+## Find the geo location of a mailbox
 The **Get-Mailbox** cmdlet in Exchange Online PowerShell displays the following multi-geo related properties on mailboxes:
 
 - **Database**: The first 3 letters of the database name correspond to the geo code, which tells you where the mailbox is currently located. For Online Archive Mailboxes the **ArchiveDatabase** property should be used.
@@ -141,7 +141,7 @@ Disabled mailboxes on Litigation Hold that are preserved for eDiscovery purposes
 
 3. Remove the license from the mailbox after it has been moved to the selected geo location to put it back into the disabled state.
 
-## Create new cloud mailboxes in a specific Geo 
+## Create new cloud mailboxes in a specific geo location
 To create a new mailbox in a specific geo location, you need to do either of these steps:
 
 - Configure the **PreferredDataLocation** value as described in the previous section *before* the mailbox is created in Exchange Online. For example, configure the **PreferredDataLocation** value on a user before assigning a license. 
@@ -178,7 +178,7 @@ For more information about creating new user accounts and finding LicenseAssignm
 > **Note:**
 > If you are using Exchange Online PowerShell to enable a mailbox and need the mailbox to be created directly in the Geo that's specified in **PreferredDataLocation**, you need to use an Exchange Online cmdlet such as **Enable-Mailbox** or **New-Mailbox** directly against the cloud service. If you use the **Enable-RemoteMailbox** on-premises Exchange cmdlet, the mailbox will be created in the default Geo.
 
-## Onboard existing on-premises mailboxes in a specific Geo
+## Onboard existing on-premises mailboxes in a specific geo location
 You can use the standard onboarding tools and processes to migrate a mailbox from an on-premises Exchange organization to Exchange Online, including the [Migration dashboard in the EAC](https://support.office.com/article/d164b35c-f624-4f83-ac58-b7cae96ab331), and the [New-MigrationBatch](https://docs.microsoft.com/powershell/module/exchange/move-and-migration/new-migrationbatch) cmdlet in Exchange Online PowerShell.
 
 The first step is to verify a user object exists for each mailbox to be onboarded, and verify the correct **PreferredDataLocation** value is configured in Azure AD. The onboarding tools will respect the **PreferredDataLocation** value and will migrate the mailboxes directly to the specified Geo.
@@ -205,9 +205,9 @@ Or, you can use the following steps to onboard mailboxes directly in a specific 
 
 6. If you need to migrate additional mailboxes to a different satellite location, repeat steps 2 through 4 for each specific satellite location.
 
-## Multi-Geo Reporting
+## Multi-geo reporting
 **Multi-Geo Usage Reports** in the Office 365 admin center displays the user count by geo location. The report displays user distribution for the current month and provides historical data for the past 6 months.
 
-## See Also
+## See also
 
 [Managing Office 365 and Exchange Online with Windows PowerShell](https://support.office.com//article/06a743bb-ceb6-49a9-a61d-db4ffdf54fa6)

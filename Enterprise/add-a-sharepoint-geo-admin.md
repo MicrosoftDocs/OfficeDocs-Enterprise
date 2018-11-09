@@ -14,7 +14,7 @@ description: "Learn how to add or remove a geo administrator in OneDrive for Bus
 
 You can configure separate administrators for each geo location that you have in your tenant. These administrators will have access to the SharePoint Online and OneDrive settings that are specific to their geo location.
 
-Some services - such as the term store - are administered from the central location and replicated to satellite locations. The geo admin for the central location has access to these, whereas geo admins for satellite locations don’t.
+Some services - such as the term store - are administered from the central location and replicated to satellite locations. The geo admin for the central location has access to these, whereas geo admins for satellite locations don't.
 
 Global administrators and SharePoint Online administrators continue to have access to settings in the central location and all satellite locations.
 
