@@ -63,52 +63,7 @@ When the eDiscovery Manager or Administrator role is set for a particular satell
 > [!NOTE]
 > If it's necessary for an eDiscovery Manager to search across multiple SharePoint satellite locations, another user account will need to be created for the eDiscovery Manager which specifies the alternate satellite location where the OneDrive or SharePoint sites are located.
 
-<table>
-<thead>
-<tr class="header">
-<th align="left"><strong>Multi-Geo supported Geo Locations</strong></th>
-<th align="left"><strong>eDiscovery for SharePoint Exported data will be in this Azure Blob data location…</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>APC</strong></td>
-<td align="left">Southeast or East Asia datacenters</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>AUS</strong></td>
-<td align="left">Southeast or East Asia datacenters</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>CAN</strong></td>
-<td align="left">US datacenters</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>EUR</strong></td>
-<td align="left">Europe datacenters</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>FRA</strong></td>
-<td align="left">Europe datacenters</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>GBR</strong></td>
-<td align="left">Europe datacenters</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>KOR</strong></td>
-<td align="left">Southeast or East Asia datacenters</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>JPN </strong></td>
-<td align="left">Southeast or East Asia datacenters</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>NAM</strong></td>
-<td align="left">US datacenters</td>
-</tr>
-</tbody>
-</table>
+[!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
 To set the Compliance Security Filter for a Region:
 

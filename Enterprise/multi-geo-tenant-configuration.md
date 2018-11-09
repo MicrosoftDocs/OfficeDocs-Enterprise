@@ -1,33 +1,32 @@
 ---
-title: "OneDrive for Business Multi-Geo tenant configuration"
+title: "Office 365 Multi-Geo tenant configuration"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: "Learn how to configure OneDrive for Business Multi-Geo."
 ---
 
-# OneDrive for Business Multi-Geo tenant configuration
+# Office 365 Multi-Geo tenant configuration
 
-Before you configure your tenant for OneDrive for Business Multi-Geo, be sure you have read [Plan for OneDrive for Business Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you’ll need a list of the geo locations that you want to enable as satellite locations, and the test users that you want to provision for those locations.
+Before you configure your tenant for Office 365 Multi-Geo, be sure you have read [Plan for Office 365 Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you'll need a list of the geo locations that you want to enable as satellite locations, and the test users that you want to provision for those locations.
 
 ## Add the Multi-Geo Capabilities in Office 365 plan to your tenant
 
-To use OneDrive for Business Multi-Geo, you need the _Multi-Geo Capabilities in Office 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
+To use Office 365 Multi-Geo, you need the _Multi-Geo Capabilities in Office 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
 
 Note that the _Multi-Geo Capabilities in Office 365_ plan is a user-level service plan. You need a license for each user that you want to host in a satellite location. You can add more licenses over time as you add users in satellite locations.
 
-Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the [OneDrive admin center](https://admin.onedrive.com).
+Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the [OneDrive](https://admin.onedrive.com) and SharePoint admin centers.
 
 ## Add satellite locations to your tenant
 
-You must add a satellite location for each geo location where you want to use OneDrive for Business. Available geo locations are shown in the following table:
+You must add a satellite location for each geo location where you want to store data. Available geo locations are shown in the following table:
 
 [!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
@@ -45,7 +44,7 @@ To add a satellite location
 
 6. Click **Close**.
 
-Provisioning may take from a few hours up to 72 hours, depending on the size of your tenant. Once provisioning of a satellite location has completed, you will recieve an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo location. 
+Provisioning may take from a few hours up to 72 hours, depending on the size of your tenant. Once provisioning of a satellite location has completed, you will recieve an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo location.
 
 > [!IMPORTANT]
 > Your new satellite location will be set up with default settings. This will allow you to configure that satellite location as appropriate for your local compliance needs.
@@ -58,21 +57,21 @@ Once you enable the needed satellite locations, you can update your user account
 > [!TIP]
 > We recommend that you begin validations with a test user or small group of users before rolling out multi-geo to your broader organization.
 
-In AAD there are two types of user objects: cloud only users and synchronized users. Please follow the appropriate instructions for your type of user.
+In Azure Active Directory there are two types of user objects: cloud only users and synchronized users. Please follow the appropriate instructions for your type of user.
 
-### Synchronize user’s Preferred Data Location using AD Connect 
+### Synchronize user’s Preferred Data Location using Azure Active Directory Connect 
 
-If your company’s users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in AD and synchronized to AAD.
+If your company's users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in an Active Directory attribute and synchronized to AAD.
 Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
 
-We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
+We recommend that you include setting the user's Preferred Data Location as a part of your standard user creation workflow.
 
 > [!IMPORTANT]
-> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to Azure Active Directory for the changes to propagate before the user logs in to OneDrive for Business. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
+> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is synchronized to Azure Active Directory for the changes to propagate before the user logs in to OneDrive for Business. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user's new OneDrive will be provisioned in the correct location.)
 
 ### Setting Preferred Data Location for cloud only users 
 
-If your company’s users are not synchronized from an on-premises Active Directory system to Azure Active Directory, meaning they are created in Office 365 or Azure Active Directory, then the PDL must be set using Azure Active Directory PowerShell.
+If your company's users are not synchronized from an on-premises Active Directory system to Azure Active Directory, meaning they are created in Office 365 or Azure Active Directory, then the PDL must be set using Azure Active Directory PowerShell.
 
 The procedures in this section require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have Azure Active Directory PowerShell installed, please ensure you update to the latest version.
 
@@ -121,7 +120,7 @@ Please review [Configure Search for OneDrive for Business Multi-Geo](configure-s
 
 ## Validating the OneDrive for Business Multi-Geo configuration
 
-Below are some basic use cases you may wish to include in your validation plan before broadly rolling out OneDrive for Business Multi-Geo to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
+Below are some basic use cases you may wish to include in your validation plan before broadly rolling out Office 365 Multi-Geo to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
 
 **OneDrive for Business**
 
