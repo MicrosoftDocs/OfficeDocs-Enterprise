@@ -67,7 +67,9 @@ Get-OABVirtualDirectory | FL server,*url*
     
 Ensure the URLs clients may connect to are listed as HTTPS service principal names in AAD.
   
-1. First, connect to AAD with [these instructions](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell).
+1. First, connect to AAD with [these instructions](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell). 
+
+ **Note** You need to use the Connect-MsolService option from this page to be able to use the command below. 
     
 2. For your Exchange related URLs, type the following command:
     
