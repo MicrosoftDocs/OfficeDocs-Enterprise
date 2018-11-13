@@ -18,17 +18,8 @@ description: "This article explains what specific aspects you need to consider w
 # Introduction to performance tuning for SharePoint Online
 
 This article explains what specific aspects you need to consider when designing pages for best performance in SharePoint Online.
-  
-## In this article
-
-- [SharePoint Online metrics](introduction-to-performance-tuning-for-sharepoint-online.md#spometrics) and [Conclusions reached because of the data](introduction-to-performance-tuning-for-sharepoint-online.md#data)
-    
-- [Use a standard user account when checking performance](introduction-to-performance-tuning-for-sharepoint-online.md#standuser)
-    
-- [Connection categories for performance tuning](introduction-to-performance-tuning-for-sharepoint-online.md#connect): [Server connection](introduction-to-performance-tuning-for-sharepoint-online.md#server), [Network connection](introduction-to-performance-tuning-for-sharepoint-online.md#network), and [Browser connection](introduction-to-performance-tuning-for-sharepoint-online.md#browser)
-    
+     
 ## SharePoint Online metrics
-<a name="spometrics"> </a>
 
 The following broad metrics for SharePoint Online provide real world data about performance:
   
@@ -41,7 +32,6 @@ The following broad metrics for SharePoint Online provide real world data about 
 - Other things that cause performance degradation
     
 ### Conclusions reached because of the data
-<a name="data"> </a>
 
 The data tells us:
   
@@ -56,7 +46,6 @@ The data tells us:
 One simple benchmark test you can use would be to measure performance by comparing the load time of your own portal against the load time of the OneDrive for Business home page as it uses few customized features. This will often be the first step Support will ask you to complete when troubleshooting network performance issues.
   
 ## Use a standard user account when checking performance
-<a name="standuser"> </a>
 
 A Site Collection Administrator, Site Owner, Editor, or Contributor belong to additional security groups, have additional permissions, and therefore have additional elements that SharePoint loads on a page.
   
@@ -65,15 +54,14 @@ This is applicable to SharePoint on-premises and SharePoint Online but in an on-
 In order to correctly evaluate how a page will perform for users, you should use a standard user account to avoid loading the authoring controls and additional traffic related to security groups.
   
 ## Connection categories for performance tuning
-<a name="connect"> </a>
 
 You can categorize the connections between the server and the user into three main components. Consider these when designing SharePoint Online pages for insight into load times.
   
-- **Server.**The servers that Microsoft hosts in datacenters.
+- **Server** The servers that Microsoft hosts in datacenters.
     
-- **Network.**The Microsoft network, the Internet, and your on-premises network between the datacenter and your users.
+- **Network** The Microsoft network, the Internet, and your on-premises network between the datacenter and your users.
     
-- **Browser.**Where the page is loaded.
+- **Browser** Where the page is loaded.
     
 Within these three connections there are typically five reasons that cause 95% of slow pages. Each of these reasons is discussed in this article:
   
@@ -88,19 +76,18 @@ Within these three connections there are typically five reasons that cause 95% o
 - Web Part processing
     
 ### Server connection
-<a name="server"> </a>
 
 Many of the issues that affect performance with SharePoint on-premises also apply to SharePoint Online.
   
 As you would expect, you have far more control over how servers perform with on-premises SharePoint. With SharePoint Online things are a little different. The more work you make a server do, the longer it takes to render a page. With SharePoint, the biggest culprit in this respect are complex pages with multiple web parts.
   
+SharePoint Server on-premises
+  
+![Screenshot of server on premises](media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
+  
 SharePoint Online
   
-![Screenshot of server online](media/a8e9b646-cdff-4131-976a-b5f891da44ac.png)
-  
-SharePoint
-  
-![Screenshot of server on premises](media/46b27ded-d8a4-4287-b3e0-2603a764b8f8.png)
+![Screenshot of server online](media/46b27ded-d8a4-4287-b3e0-2603a764b8f8.png)
   
 With SharePoint Online, certain page requests may actually end up calling multiple servers. You could end up with a matrix of requests between servers for an individual request. These interactions are expensive from a page load perspective and will make things slow.
   
@@ -113,7 +100,6 @@ Examples of these server to server interactions are:
 The other thing that can slow down server interactions is cache misses. Unlike on-premises SharePoint, there is a very slim chance that you will hit the same server for a page that you have visited previously; this makes object caching obsolete.
   
 ### Network connection
-<a name="network"> </a>
 
 With on-premises SharePoint that doesn't make use of a WAN, you may use a high-speed connection between datacenter and end-users. Generally, things are easy to manage from a network perspective.
   
@@ -133,12 +119,11 @@ Regardless of which version of SharePoint (and which network) you are using, thi
     
 - Large physical distance to the server
     
-One feature that you can leverage in SharePoint Online is the Microsoft CDN (Content Delivery Network). A CDN is basically a distributed collection of servers deployed across multiple datacenters. With a CDN, content on pages can be hosted on a server close to the client even if the client is far away from the originating SharePoint Server. Microsoft will be using this more in the future to store local instances of pages which cannot be customized, for example the SharePoint Online admin home page. For more information about CDNs, see [Content delivery networks](https://support.office.com/article/Content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f).
+One feature that you can leverage in SharePoint Online is the Microsoft CDN (Content Delivery Network). A CDN is basically a distributed collection of servers deployed across multiple datacenters. With a CDN, content on pages can be hosted on a server close to the client even if the client is far away from the originating SharePoint Server. Microsoft will be using this more in the future to store local instances of pages which cannot be customized, for example the SharePoint Online admin home page. For more information about CDNs, see [Content delivery networks](https://docs.microsoft.com/en-us/office365/enterprise/content-delivery-networks).
   
 Something that you need to be aware of but may not be able to do much about is the connection speed of your ISP. A simple speed test tool will tell you the connection speed.
   
 ### Browser connection
-<a name="browser"> </a>
 
 There are a few factors to consider with web browsers from a performance perspective.
   

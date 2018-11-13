@@ -3,7 +3,7 @@ title: "Office 365 inter-tenant collaboration"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 6/28/2018
+ms.date: 11/08/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -71,7 +71,13 @@ Office 365 inter-tenant collaboration options include using a central location f
 |Collaborate in Teams with users external to the organization  <br/> |A global admin for the inviting Office 365 tenant needs to enable external collaboration in Teams. Global admins and team owners will now be able to invite anyone with an email address to collaborate in Teams.  <br/> Admins can also manage and edit Guests already present in their tenant.  <br/> |[Authorize Guest Access](https://docs.microsoft.com/en-us/microsoftteams/teams-dependencies) <br/> [Turn Guest Access On or Off in Teams](https://docs.microsoft.com/en-us/microsoftteams/set-up-guests) <br/> [Use PowerShell to control Guest Access](https://docs.microsoft.com/en-us/microsoftteams/guest-access-powershell) <br/> [Guest Access Checklist](https://docs.microsoft.com/en-us/microsoftteams/guest-access-checklist) <br/> [View Guest Users](https://docs.microsoft.com/en-us/microsoftteams/view-guests) <br/> [Edit guest user information](https://docs.microsoft.com/en-us/microsoftteams/edit-guests-information) <br/> |
 |Team owners can invite and manage how guests collaborate within their teams.  <br/> |Team owners have additional controls on what the guests can do within their teams.  <br/> |[Add Guests](https://support.office.com/en-us/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_addingguests&amp;ID0EAABAAA=Add_guests) <br/> [Add a guest to a team](https://docs.microsoft.com/en-us/microsoftteams/add-guests) <br/> [Manage Guest Access in Teams](https://docs.microsoft.com/en-us/microsoftteams/manage-guests) <br/> [See who's on a Team or in a Channel](https://support.office.com/en-us/article/see-who-s-on-a-team-or-in-a-channel-5c6be9be-9c45-4a0f-a1a0-f332b23cb6b7?ui=en-US&amp;rs=en-US&amp;ad=US) <br/> |
 |Guests from other tenants can view contents in Teams and collaborate with other members  <br/> |None.  <br/> |[The guest access experience](https://docs.microsoft.com/en-us/microsoftteams/guest-experience) <br/> |
-   
+
+## Power BI collaboration options
+
+|**Sharing goal**|**Administrative action**|**How-to information**|
+|:-----|:-----|:-----|
+|Power BI enables external guest users to consume content shared to them through links. This enables users in the organization to distribute content in a secure way across organizations.<br/> | The Power BI Admin can control whether users can invite external users to view content within the organization. <br/> |[Distribute Power BI content to external guest users with Azure AD B2B](https://docs.microsoft.com/en-us/power-bi/service-admin-azure-ad-b2b) <br/> |
+ 
 ## Points to be aware of about Office 365 inter-tenant collaboration
 
 ### Sharing of user accounts, licenses, subscriptions, and storage
