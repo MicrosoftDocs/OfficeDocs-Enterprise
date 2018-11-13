@@ -15,13 +15,13 @@ description: "Expand your Office 365 presence to multiple geographic regions wit
 
 # Multi-Geo Capabilities in OneDrive and SharePoint Online
 
-Setting up and managing your multi-geo environment is done through the SharePoint admin center. Simply click **Add location**, select the needed satellite location, and then type a namespace URL.
+Multi-Geo Capabilities in OneDrive and SharePoint Online enables control the country or region where shared resources like SharePoint team sites and Office 365 Group mailboxes are stored at rest.
 
-New sites created by users are automatically created in the geo location of their Preferred Data Location.
+Setting up and managing your multi-geo environment is done through the SharePoint admin center.
 
 ## OneDrive
 
-
+Each user's OneDrive can be provisioned in or moved to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
 
 ## Sites and Office 365 Groups
 
@@ -37,22 +37,16 @@ SharePoint Home shows a curated list of News roll-up and suggested sites from ac
 
 ## Hub sites
 
-SharePoint Hub sites enhances the discovery and engagement with content for employees, while creating a complete and consistent representation of projects, departments or regions. In a multi-geo environment, sites from satellite locations can easily be associated with a hub site regardless of which geo location the hub site is hosted in. Employees can search and get results across the hub through a single search experience, regardless of the geo location of the sites.
+SharePoint Hub sites enhances the discovery and engagement with content for employees, while creating a complete and consistent representation of projects, departments or regions. In a multi-geo environment, sites from satellite locations can easily be associated with a hub site regardless the hub site's geo location. Users can search and get results across the hub through a single search experience, regardless of the geo location of the sites.
 
 ## Mobile
 
-For employees on the go, the same great productivity experience is available on rich mobile apps for SharePoint, OneDrive and Outlook. Employees simply sign in with their Office 365 credentials and access content in their Multi-Geo enabled Office 365 tenant, they don't need to remember any geo specific URLs or other information.
+Users of the SharePoint, OneDrive, and Outlook mobile apps can simply sign in with their Office 365 credentials as they normally would to access content in a multi-geo environment. They don't need to enter any geo-specific URLs or other information.
 
- 
 ## Managed metadata
 
-For organizations that use taxonomy enterprise managed metadata to organize their sites and contents, Multi-Geo enables an easy way to centrally manage metadata in a central location and behind the scene these get replicated to all the satellites and ready to use in satellite sites. This doesn't require any additional customization.
+Enterprise managed metadata is maintained in the central location and replicated to the satellite locations. This doesn't require any additional customization.
 
 ## Geo Administrators
 
-The Geo Administrator feature provides the flexibility to Global Administrators and to SharePoint Tenant Administrators to create and designate SharePoint Administration permissions per geo-location to specified users. Only the members of a designated Geo-Admin group will have access to the SPO Admin Center for that geo location. 
-See the SharePoint Geo Admin (Multi-Geo) document for configuration details.
-
-Multi-Geo in SharePoint and Groups enables global businesses control the country or region where shared resources like SharePoint Team Sites, Office 365 Groups content (associated SharePoint Sites and Groups mailboxes) are stored at-rest.
-
-
+You can specify administrators for individual geo locations. These administrators have SharePoint admin privileges, but only for the specified geo location. For more information, see [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md).

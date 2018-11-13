@@ -118,4 +118,3 @@ However, Stream is not yet available in the following regions that are currently
 - Canada
 - India
 - United Kingdom
-

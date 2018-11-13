@@ -45,7 +45,7 @@ In a multi-geo environment, your Office 365 tenant consists of a central locatio
 Here are the key terms used in describing Office 365 Multi-Geo:
 
 - Central location - the geo location where your tenant was originally provisioned.
-- Geo administrator - An administrator who can administer one or more specified satellite location.
+- Geo administrator - An administrator who can administer one or more specified satellite locations.
 - Geo code - a three-letter code for a given geo location.
 - Geo location – A geographic location that can be used in a multi-geo tenant to host data, including Exchange mailboxes and OneDrive and SharePoint sites.
 - Preferred Data Location (PDL) – A user property set by the administrator that indicates where the geo location where the users Exchange mailbox and OneDrive should be provisioned. The PDL also determines where SharePoint sites that are created by the user are provisioned.
