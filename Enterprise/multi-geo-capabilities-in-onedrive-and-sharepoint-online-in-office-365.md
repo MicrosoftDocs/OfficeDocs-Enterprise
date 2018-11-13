@@ -1,9 +1,8 @@
 ---
-title: "Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365"
+title: "Multi-Geo Capabilities in OneDrive and SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -14,72 +13,51 @@ ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in OneDrive and SharePoint Online."
 ---
 
-# Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365
+# Multi-Geo Capabilities in OneDrive and SharePoint Online
 
-With Multi-Geo capabilities in OneDrive and SharePoint Online, your organization can expand its Office 365 presence to multiple geographic regions and/or countries within your existing tenant. Reach out to your Microsoft Account Team to sign up your Multi-National Company for OneDrive for Business Multi-Geo.
-  
-With OneDrive Multi-Geo, you can provision and store data at rest in the geo locations that you've chosen to meet data residency requirements, and at the same time unlock your global roll out of modern productivity experiences to your workforce.
-  
-Here's how multi-geo features can benefit your organization:
-  
-- Operate as one global connected organization with a single Office 365 tenant spanning multiple geo locations.
-    
-- Meet data residency requirements by creating and hosting data-at-rest within a specified geo location.
-    
-- Empower your satellite users with the same modern productivity experiences enjoyed by your central location users.
-    
-- Enable your users to move across geo locations as their role changes, while access to their content is kept intact.
-    
-- Tailor your sharing policies per geo location and data loss prevention policies per site.
-    
-- Designate eDiscovery managers per geo location and allow governing cases tailored to your geo location.
-    
-- Choose unique URL namespaces (for example, ContosoEUR.sharepoint.com) for your additional geo locations.
-    
-- Consolidate your regional on-premises data into your Office 365 multi-geo tenant.
-    
-In a multi-geo configuration, your Office 365 tenant consists of a central location (where your Office 365 subscription was originally provisioned) and one or more satellite geo locations. The key concept of multi-geo is that a single tenancy will span across one multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
+Geo-located group site creation – One of the key differences in the SharePoint OneDrive Multi-Geo phase of the Preview is that group based site creation is now Multi-Geo aware. This means that when a user creates a SharePoint group site, their preferred data location (PDL) is used to determine the geo-location where the site is hosted.   
 
-## Video: Introducing Office 365 Multi-Geo
+## Outlook Mail Client and Outlook Online O365 Group creation 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE1Yk6B?autoplay=false]
-  
-## Get multi-geo features in three simple steps
+When a user creates an O365 Group from Outlook, the corresponding group will inherit the creating user’s PDL. The group PDL will in turn be used to determine the location of the Group site, see user PDL logic for possible provision locations.
 
-Configuring multi-geo is easy:
-  
-1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed.
-    
-2. Add your satellite locations.
-    
-3. Configure your user accounts for the appropriate location.
-    
-## Multi-Geo status and availability
+## Teams 
 
-OneDrive Multi-Geo is currently offered in these regions and countries:
-  
-- Asia-Pacific
-    
-- Australia
-    
-- Canada
-    
-- European Union (EMEA)
+When a user creates a team in Teams, an O365 Group will be provisioned bearing the user’s PDL. The group PDL will in turn be used to determine the location of the Group site. user PDL logic for possible provision locations. Likewise, users can create Team’s channels from existing O365 groups, regardless of the group’s geo location. 
+Other group creation experiences 
+Other group site creation experiences not specified above are not Multi-Geo aware. 
 
-- France
-    
-- Japan
-    
-- United Kingdom
-    
-- United States (North America)
-    
-- Korea
-      
-Upcoming geo locations:
-  
-- India
-    
-## Getting started
+## Video Portal
 
-To get started with OneDrive for Business Multi-Geo, the first step is to [plan your OneDrive for Business Multi-Geo environment](plan-for-multi-geo.md). Next, [learn about administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience a multi-geo environment](multi-geo-user-experience.md). When you are ready to set up OneDrive for Business Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md), then [move any existing OneDrive sites to thier new geo-locations](move-onedrive-between-geo-locations.md) and [set up search](configure-search-for-multi-geo.md).
+In a multi-geo tenant, the O365 Video Portal is served only from default geo and all users will be redirected to that central portal url. Hence, the Remote Media Service (RMS) for that region will be used, as follows based on your central location.
+Stream is currently available in the following regions:
+•	North America, hosted in the United States 
+•	Europe
+•	Asia Pacific
+However, Stream is not yet available in the following regions that are currently supported for Office 365 Video, therefore for these local instances, we will use the RMS that is in the closest supported region.
+•	Australia
+•	Canada
+•	India
+•	United Kingdom
+
+## Microsoft Flow
+
+Flows created for the satellite location will use the end point located in the default geo location for the tenant.  Microsoft Flow is not a Multi-Geo service. 
+Microsoft PowerApps
+PowerApps created for the satellite location will use the end point located in the central location for the tenant. Microsoft PowerApps is not a Multi-Geo service. 
+
+## Geo Administrator
+
+The Geo Administrator feature provides the flexibility to Global Administrators and to SharePoint Tenant Administrators to create and designate SharePoint Administration permissions per geo-location to specified users. Only the members of a designated Geo-Admin group will have access to the SPO Admin Center for that geo location. 
+See the SharePoint Geo Admin (Multi-Geo) document for configuration details.
+
+## O365 Group Site Creation
+
+New group sites created in SharePoint will be geo-located based on the user’s preferred data location (PDL), following this logic:
+User PDL logic
+
+1.	PDL Match - User’s PDL matches an satellite location where you have extended the SharePoint workload to be Multi-Geo, site direction/creation takes place in that geo-location. This is the recommended state, as you should set PDL’s for all users matching the satellite locations for SharePoint. 
+2.	PDL value empty – User does not have a PDL assigned to them, site direction/creation will take place in the central location. We recommend that you build it into your processes to assign a PDL to all users during your user provisioning flow. Note that for synchronized users you must allocate their PDL in your on-premises AD system and synchronize it to Azure Active Directory using AAD Connect, see Enable synchronization of PreferredDataLocation for instructions.
+
+Modern team site creation (O365 Groups Connected Sites) from SharePoint or OneDrive from the user interface
+When a user goes to create a “modern” team site from the SharePoint or OneDrive user interface, the PDL for that user is retrieved to determine in which geo-location to provision the site and it is assigned to the O365 group that corresponds to the site. Please refer to the user PDL logic above for possible provision locations. 

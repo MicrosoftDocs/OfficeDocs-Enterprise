@@ -3,7 +3,6 @@ title: "User experience in a multgeo environment"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,29 +14,29 @@ description: "Learn about the SharePoint and OneDrive user experience in a multi
 
 # User experience in a multi-geo environment
 
-Here’s what your users will see in a OneDrive Multi-Geo configuration:
+Here's what your users will see in a OneDrive Multi-Geo configuration:
 
-#### User’s OneDrive for Business location
+#### User's OneDrive for Business location
 
 Users will have their OneDrive for Business provisioned in their preferred data location. If a user navigates to a OneDrive URL that contains an incorrect geo location (such as a bookmark from a previous geo location), they are automatically redirected to the OneDrive in the appropriate geo location.
 
 #### Sharing
 
-The People Picker experience shows all users regardless of their geo location. This allows a user to share with another user in their same geo or in any other of your tenant’s geo locations. Content from different geo locations will show up in the **Shared with Me** view in the user's OneDrive for Business and can be accessed with Single Sign-On experience regardless of which geo location it is hosted in.
+The People Picker experience shows all users regardless of their geo location. This allows a user to share with another user in their same geo or in any other of your tenant's geo locations. Content from different geo locations will show up in the **Shared with Me** view in the user's OneDrive for Business and can be accessed with Single Sign-On experience regardless of which geo location it is hosted in.
 
 #### Office applications
 
-Office applications such as Word, Excel, and PowerPoint will automatically detect the correct OneDrive for Business geo-location for each user when they log in. Users do not need to enter the geo-specific URL for their OneDrive.
+Office applications such as Word, Excel, and PowerPoint will automatically detect the correct OneDrive for Business geo-location for each user when they log in. Users do not need to enter the geo-specific URL for their OneDrive or SharePoint sites.
 
 #### OneDrive for Business Sync Client
 
-The OneDrive for Business Sync Client (version 17.3.6943.0625 and later) will automatically detect the correct OneDrive for Business geo location for the user.
+The OneDrive for Business Sync Client (version 17.3.6943.0625 and later) will automatically detect the correct OneDrive for Business geo location for the user. Synch client support includes the ability to sync groups-based sites regardless of their geo location. Note that the Groove sync client is not supported for multi-geo. 
 
 #### Office 365 app launcher
 
-The app launcher is multi-geo aware and will direct each tile to the appropriate geo location of the workload. The OneDrive tile points to the correct geo location where the user’s OneDrive library is hosted, while the SharePoint tile will point all users to the central location, as team sites are still hosted there.
+The app launcher is multi-geo aware and will direct each tile to the appropriate geo location of the workload. The SharePoint and OneDrive tiles will point the user to the location corresponding to the user's provisioned geo location. This means that is the user has a OneDrive in the central location, their SharePoint tile will point them to SP Home in the central location but their group site will be provisioned in the location corresponding to their PDL. 
 
-#### Delve User profiles
+#### User profiles
 
 User profile information is mastered in the user's geo location. When selecting a user, you will be directed to the appropriate geo location for the user, where you will see their full profile details.
 
@@ -45,7 +44,7 @@ If Delve is turned off, you will see the classic profile experience in SharePoin
 
 #### Delve
 
-For Office 365 users who are in the satellite instances, Delve Multi-Geo is supported, with the limitation that Delve doesn’t link to SharePoint blog posts written by users in other regions, only to their SharePoint blog sites.
+For Office 365 users who are in the satellite instances, Delve Multi-Geo is supported, with the limitation that Delve doesn't link to SharePoint blog posts written by users in other regions, only to their SharePoint blog sites.
 
 #### Search
 
@@ -71,4 +70,24 @@ See Use [OneDrive on iOS](https://support.office.com/article/08d5c5b2-ccc6-40eb-
 
 #### Teams Experience
 
-Teams is multi-geo aware. OneDrive files and recently viewed files are shown regardless of the user’s geo location. @ mentions work with users from all geo-locations.
+Teams is multi-geo aware. OneDrive files and recently viewed files are shown regardless of the user's geo location. @ mentions work with users from all geo-locations.
+
+#### SharePoint Home 
+
+In SharePoint Multi-Geo your SharePoint home is hosted in the location where the user resides as determined by their OneDrive for business location. For example: if the user has their OneDrive hosted in an European satellite location, their SharePoint Home will be rendered from Europe. SharePoint home includes all content relevant to the user regardless of its geo location. 
+
+##### Followed Sites, News from Sites, Recent Sites, Frequent Sites, and Suggested sites 
+
+All of these components will show up for the user regardless of the geo location where the content is hosted, so long as the user has permissions to said content. 
+
+##### Features Links 
+
+Admins may configure Featured links in SharePoint home as appropriate to each geo location. This allows the admin to feature in the SP Home for each region the links that are appropriate for users in the region. 
+
+#### SharePoint Mobile Client 
+
+The SharePoint Mobile Client is multi-geo aware and will display pertinent content and results from all geo locations.
+
+#### OneDrive Mobile Client 
+
+The OneDrive Mobile Client is multi-geo aware and will display pertinent content and results from all geo locations.

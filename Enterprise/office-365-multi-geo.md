@@ -38,8 +38,20 @@ Here's how multi-geo features can benefit your organization:
     
 Note that Office 365 Multi-Geo is not primarily designed for performance optimization, it is designed to meet data residency requirements. For information about performance optimization for Office 365, see [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848) or contact your support group. 
 
-In a multi-geo environment, your Office 365 tenant consists of a central location (where your Office 365 subscription was originally provisioned) and one or more satellite locations. The key concept of multi-geo is that a single tenancy will span across one multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
+In a multi-geo environment, your Office 365 tenant consists of a central location (where your Office 365 subscription was originally provisioned) and one or more satellite locations. The key concept of multi-geo is that a single tenancy will span across multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
  
+## Terminology
+
+Here are the key terms used in describing Office 365 Multi-Geo:
+
+- Central location - the geo location where your tenant was originally provisioned.
+- Geo administrator - An administrator who can administer one or more specified satellite location.
+- Geo code - a three-letter code for a given geo location.
+- Geo location – A geographic location that can be used in a multi-geo tenant to host data, including Exchange mailboxes and OneDrive and SharePoint sites.
+- Preferred Data Location (PDL) – A user property set by the administrator that indicates where the geo location where the users Exchange mailbox and OneDrive should be provisioned. The PDL also determines where SharePoint sites that are created by the user are provisioned.
+- Satellite location – The geo locations where the geo-aware Office 365 workloads (SharePoint, OneDrive, and Exchange) are enabled in a multi-geo tenant.
+- Tenant – An organization's representation in Office 365 which typically has one or more domains associated with it (for example, contoso.com).
+
 ## Get multi-geo features in three simple steps
 
 Configuring multi-geo is easy:
@@ -50,7 +62,7 @@ Configuring multi-geo is easy:
     
 3. Configure your user accounts for the appropriate location.
     
-## Multi-Geo status and availability
+## Multi-Geo availability
 
 OneDrive Multi-Geo is currently offered in these regions and countries:
 
