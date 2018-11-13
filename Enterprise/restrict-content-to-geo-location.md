@@ -14,19 +14,20 @@ description: "Learn how to restrict SharePoint sites to a specified geo location
 
 # Restrict content to a geo location
 
-Under some circumstances a SharePoint Administrator may choose to restrict a site and its file content to be in the geo-location where the site is created, either by restricting site move or restricting the caching of the site’s file content in another geo-location.  
-To enable administrators to prevent that SharePoint content is cached outside of the content’s geo-location, we offer the restricted to geo functionality.  
-How it will work
-A site admin can change the setting of their SPO site to restricted to geo with:
+Under some circumstances you may choose to enforce a site and its file content to remain in the geo location where the site was created, either by preventing the site from being moved or by preventing the caching of the site's file content in another geo location.
 
-Set-SPOSite -Identity https://contoso.sharepoint.com/sites/RegionRestrictedTeamSite -RestrictedToGeo BlockFull
-The following values are possible for this cmdlet 
+You can do this by using the [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite) cmdlet with the **RestrictedToGeo** parameter. This parameter has a default value of NULL, but you can change it to one of the following:
 
-Restricted to Geo Value 	Description 
-Null 	Default value for all SPO sites. If no administrator action is taken before you use the cmdlet the sites will have this value  
-0 / NoRestriction	No restriction 
-1 / BlockMoveOnly	BlockMoveOnly. Only site move is blocked. The site will not be movable.
-2 / BlockFull	BlockMoveAndFullFileCache. Site Move is blocked, also Full File Content is not cached in other geo-locations. Files’ title (harvested from the content), file name and other properties of the file can still be cached in other geo-locations. 
+|Restriction|Description|
+|:----------|:----------|
+|NoRestriction|No restriction|
+|BlockMoveOnly|Site cannot be moved to another geo location, but site content can be cached in other geo locations.|
+|BlockFull|Site cannot be moved to another geo location, and full file content is not cached in other geo locations. Files' title (harvested from the content), file name, and other properties of the file can still be cached in other geo-locations.<br>Content stored in the site before it was configured to BlockFull, may continue to be cached in other geo locations.|
 
-Content stored in the site before it was configured to Restricted to Geo value 2, may continue to be cached in other geo-locations.
+Use the following syntax:
 
+`Set-SPOSite -Identity <siteURL> -RestrictedToGeo <restriction>`
+
+For example:
+
+`Set-SPOSite -Identity https://contoso.sharepoint.com/sites/RegionRestrictedTeamSite -RestrictedToGeo BlockFull`

@@ -1,5 +1,5 @@
 ---
-title: "Administering Exchange Online multi-geo"
+title: "Administering Exchange Online mailboxes in a multi-geo environment"
 ms.author: chrisda
 author: chrisda
 manager: serdars
@@ -11,7 +11,7 @@ localization_priority: Normal
 description: "Learn how to administer Exchange Online multi-geo setting with Microsoft PowerShell."
 ---
 
-# Administering Exchange Online multi-geo
+# Administering Exchange Online mailboxes in a multi-geo environment
 
 Remote PowerShell is required to view and configure multi geo properties in your Office 365 environment. To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 

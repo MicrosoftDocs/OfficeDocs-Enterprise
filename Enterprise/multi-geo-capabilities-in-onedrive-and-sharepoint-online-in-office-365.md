@@ -15,49 +15,44 @@ description: "Expand your Office 365 presence to multiple geographic regions wit
 
 # Multi-Geo Capabilities in OneDrive and SharePoint Online
 
-Geo-located group site creation – One of the key differences in the SharePoint OneDrive Multi-Geo phase of the Preview is that group based site creation is now Multi-Geo aware. This means that when a user creates a SharePoint group site, their preferred data location (PDL) is used to determine the geo-location where the site is hosted.   
+Setting up and managing your multi-geo environment is done through the SharePoint admin center. Simply click **Add location**, select the needed satellite location, and then type a namespace URL.
 
-## Outlook Mail Client and Outlook Online O365 Group creation 
+New sites created by users are automatically created in the geo location of their Preferred Data Location.
 
-When a user creates an O365 Group from Outlook, the corresponding group will inherit the creating user’s PDL. The group PDL will in turn be used to determine the location of the Group site, see user PDL logic for possible provision locations.
+## OneDrive
 
-## Teams 
 
-When a user creates a team in Teams, an O365 Group will be provisioned bearing the user’s PDL. The group PDL will in turn be used to determine the location of the Group site. user PDL logic for possible provision locations. Likewise, users can create Team’s channels from existing O365 groups, regardless of the group’s geo location. 
-Other group creation experiences 
-Other group site creation experiences not specified above are not Multi-Geo aware. 
 
-## Video Portal
+## Sites and Office 365 Groups
 
-In a multi-geo tenant, the O365 Video Portal is served only from default geo and all users will be redirected to that central portal url. Hence, the Remote Media Service (RMS) for that region will be used, as follows based on your central location.
-Stream is currently available in the following regions:
-•	North America, hosted in the United States 
-•	Europe
-•	Asia Pacific
-However, Stream is not yet available in the following regions that are currently supported for Office 365 Video, therefore for these local instances, we will use the RMS that is in the closest supported region.
-•	Australia
-•	Canada
-•	India
-•	United Kingdom
+When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated mailbox is created. If the user's PDL value hasn't been set, then the site and mailbox are created in the central location.
 
-## Microsoft Flow
+When a user creates an Office 365 Group in Outlook or Outlook Online, or a team in Teams, the same logic is applied to determine the location of the site and group.
 
-Flows created for the satellite location will use the end point located in the default geo location for the tenant.  Microsoft Flow is not a Multi-Geo service. 
-Microsoft PowerApps
-PowerApps created for the satellite location will use the end point located in the central location for the tenant. Microsoft PowerApps is not a Multi-Geo service. 
+Other Office 365 Group or group-connected site creation experiences not specified above are not multi-geo aware.
 
-## Geo Administrator
+## SharePoint Home
+
+SharePoint Home shows a curated list of News roll-up and suggested sites from across geo locations. It is powered by the intelligence of the Office graph, which analyzes the activities and signals from across the global organization and tailors a list for every user.
+
+## Hub sites
+
+SharePoint Hub sites enhances the discovery and engagement with content for employees, while creating a complete and consistent representation of projects, departments or regions. In a multi-geo environment, sites from satellite locations can easily be associated with a hub site regardless of which geo location the hub site is hosted in. Employees can search and get results across the hub through a single search experience, regardless of the geo location of the sites.
+
+## Mobile
+
+For employees on the go, the same great productivity experience is available on rich mobile apps for SharePoint, OneDrive and Outlook. Employees simply sign in with their Office 365 credentials and access content in their Multi-Geo enabled Office 365 tenant, they don't need to remember any geo specific URLs or other information.
+
+ 
+## Managed metadata
+
+For organizations that use taxonomy enterprise managed metadata to organize their sites and contents, Multi-Geo enables an easy way to centrally manage metadata in a central location and behind the scene these get replicated to all the satellites and ready to use in satellite sites. This doesn't require any additional customization.
+
+## Geo Administrators
 
 The Geo Administrator feature provides the flexibility to Global Administrators and to SharePoint Tenant Administrators to create and designate SharePoint Administration permissions per geo-location to specified users. Only the members of a designated Geo-Admin group will have access to the SPO Admin Center for that geo location. 
 See the SharePoint Geo Admin (Multi-Geo) document for configuration details.
 
-## O365 Group Site Creation
+Multi-Geo in SharePoint and Groups enables global businesses control the country or region where shared resources like SharePoint Team Sites, Office 365 Groups content (associated SharePoint Sites and Groups mailboxes) are stored at-rest.
 
-New group sites created in SharePoint will be geo-located based on the user’s preferred data location (PDL), following this logic:
-User PDL logic
 
-1.	PDL Match - User’s PDL matches an satellite location where you have extended the SharePoint workload to be Multi-Geo, site direction/creation takes place in that geo-location. This is the recommended state, as you should set PDL’s for all users matching the satellite locations for SharePoint. 
-2.	PDL value empty – User does not have a PDL assigned to them, site direction/creation will take place in the central location. We recommend that you build it into your processes to assign a PDL to all users during your user provisioning flow. Note that for synchronized users you must allocate their PDL in your on-premises AD system and synchronize it to Azure Active Directory using AAD Connect, see Enable synchronization of PreferredDataLocation for instructions.
-
-Modern team site creation (O365 Groups Connected Sites) from SharePoint or OneDrive from the user interface
-When a user goes to create a “modern” team site from the SharePoint or OneDrive user interface, the PDL for that user is retrieved to determine in which geo-location to provision the site and it is assigned to the O365 group that corresponds to the site. Please refer to the user PDL logic above for possible provision locations. 

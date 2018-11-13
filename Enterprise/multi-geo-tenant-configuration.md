@@ -118,7 +118,7 @@ Additionally, multi-geo search capabilities can be configured for your custom se
 
 Please review [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md) for instructions including any limitations and differences.
 
-## Validating the OneDrive for Business Multi-Geo configuration
+## Validating the Office 365 Multi-Geo configuration
 
 Below are some basic use cases you may wish to include in your validation plan before broadly rolling out Office 365 Multi-Geo to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
 
