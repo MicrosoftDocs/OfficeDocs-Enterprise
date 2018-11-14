@@ -3,7 +3,7 @@ title: "Microsoft Cloud IT architecture resources"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 05/18/2018
+ms.date: 11/13/2018
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -33,7 +33,6 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Microsoft Cloud Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#security)
     - [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#networking)
     - [Microsoft Mobility and Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#mobility)
-    - [Microsoft Cloud Storage for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#storage)
     - [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#hybrid)
     - [Common attacks and Microsoft capabilities that protect your organizaion](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
     
@@ -107,15 +106,6 @@ What IT architects need to know about mobility with Microsoft cloud services and
 |**Item**|**Description**|
 |:-----|:-----|
 |[![Thumb image of Office 365 Information Protection poster](media/b3c3554f-3ce1-4610-86c7-032e9054ca8b.png)          ](https://www.microsoft.com/download/details.aspx?id=55023) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842076)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=842077)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=55023) <br/> | This model contains: <ul><li>Top mobile apps for business </li><li>Platform, services, and resources for developing mobile apps </li><li>Managing access to cloud-based applications and data from mobile devices </li><li>Comparison of capabilities and platform support for Office 365 MDM, Azure Active Directory Premium, and Intune </li></ul><br/> |
-   
-<a name="storage"> </a>
-### Microsoft Cloud Storage for Enterprise Architects
-
-What IT architects need to know about storage options in Microsoft cloud services and platforms.
-  
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Thumb image for Microsoft cloud storage model](media/0d4e2eb9-1109-4b3b-bf9e-2f3eff2e2cc4.png)          ](https://www.microsoft.com/download/details.aspx?id=49552) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842079)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=842080)           \| [Article](hhttps://technet.microsoft.com/library/mt842597.aspx) <br/>[More languages](https://www.microsoft.com/download/details.aspx?id=49552) <br/> | This model contains: <ul><li>Reasons for using cloud storage and the key scenarios </li><li>Cloud storage options that are bundled with existing services </li><li>Storage options that you can use as a starting point for your storage solution </li><li>Storage building blocks to create your own storage solution or storage for your apps</li></ul><br/>|
    
 <a name="hybrid"> </a>
 ### Microsoft Hybrid Cloud for Enterprise Architects
