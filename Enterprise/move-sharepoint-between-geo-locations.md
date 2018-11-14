@@ -16,10 +16,6 @@ description: "Learn how to move a SharePoint site to a different geo location."
 
 With SharePoint site geo move, you can move SharePoint sites to other geo locations within your multi-geo environment.
 
-Cross-Geo Site Move fast facts
-Fact  	Description 
-Supported types of sites 	•	
-
 The following types of site can be moved between geo locations:
 
 - Office 365 Group-connected sites
@@ -29,40 +25,38 @@ The following types of site can be moved between geo locations:
 
 You must be a Global Administrator or SharePoint Administrator to move a site between geo locations.
 
-There is a read-only window during Cross-Geo Site Move (approx. 4-6 hours, depending on site contents)
+There is a read-only window during the SharePoint site geo move of approximately 4-6 hours, depending on site contents.
  
-By default, initial URL for the site will change to the URL of the destination geo. You can change the site part of the URL as an option. For example:
+By default, initial URL for the site will change to the URL of the destination geo location. You can change the site part of the URL as an option. For example:
 
 https://Contoso.sharepoint.com/sites/projectx to https://Contoso.sharepointEUR.com/sites/projectx
 
-OR with rename
+or with rename
 
 https://Contoso.sharepoint.com/sites/projectx to 
 https://Contoso.sharepointEUR.com/sites/projecty
 
-Scheduling 	You can schedule the site moves to happen in the future, we allow you to schedule up to 4,000 at a time. 
+## Scheduling SharePoint site moves
 
+You can schedule SharePoint site moves in advance (described later in this article). You can schedule moves as follows:
 
-Pre-requisites 
+- You can schedule up to 4,000 moves at a time.
+- As the moves begin, you can schedule more, with a maximum of 4,000 pending moves in the queue and any given time.
 
-1.	The procedures in this article require the latest Microsoft SharePoint Online PowerShell Module
-2.	The destination location where you want to move the site to must be in SharePoint Online Multi-Geo mode.
-3.	A willing and able Global Admin or SharePoint Online Administrator for your tenant.
+## Best practices
 
-## Recommendations / Tips 
-
-1.	Get familiar with the tech by trying a few Cross-Geo Sites Moves on test sites and simple sites. 
-2.	Validate whether the site can be moved prior to scheduling or performing the move. 
-3.	When possible schedule cross-geo sites moves for outside business hours to reduce user impact.
-4.	Communicate with impacted users prior to the sites move. 
+- Try a SharePoint site move on a test site to get familiar with the procedure. 
+- Validate whether the site can be moved prior to scheduling or performing the move. 
+- When possible schedule cross-geo sites moves for outside business hours to reduce user impact.
+- Communicate with impacted users prior to the sites move. 
 
 ## Moving a SharePoint Site across geo locations
 
-Cross-Geo Sites Move requires that you connect and perform the move from the SharePoint Admin URL in the geo location where the site is.
+SharePoint site geo move requires that you connect and perform the move from the SharePoint Admin URL in the geo location where the site is.
 
-In this example, our site is in https://contosohealthcare.sharepoint.com/sites/Turbines so we will connect to the SharePoint Admin URL at:  
-https://contosohealthcare-admin.sharepoint.com
-connect-sposervice -url https://contosohealthcare-admin.sharepoint.com
+For example, if the site URL is https://contosohealthcare.sharepoint.com/sites/Turbines, connect to the SharePoint Admin URL at https://contosohealthcare-admin.sharepoint.com.
+
+`connect-sposervice -url https://contosohealthcare-admin.sharepoint.com`
  
 ## Validating the environment
 
@@ -72,7 +66,7 @@ To ensure all geo locations are compatible you can run `Get-SPOGeoMoveCompatibil
 
 ### Validating the site
 
-We recommend that before scheduling any sites move, you perform a validation to ensure that the site can be moved.
+We recommend that before scheduling any site move, you perform a validation to ensure that the site can be moved.
 
 We do not support moving sites with:
 -	Business Connectivity Services
@@ -87,36 +81,37 @@ Start-SPOSiteContentMove -SourceSiteUrl <SourceSiteUrl> -ValidationOnly -Destina
 
 This will return *Success* if the site is ready to be moved or *Fail* if any of blocked conditions are present.
 
-## Start a Cross-Geo Sites Move (non-O3565 group connected site)
+## Start a SharePoint site geo move for a site with no associated Office 365 Group
 
 To start the site move, run:
 
 `Start-SPOSiteContentMove -SourceSiteUrl <siteURL> -DestinationDataLocation <DestinationDataLocation>`
  
-To schedule a Cross-Geo Site Move for a later time, use one of the following parameters:
+To schedule a SharePoint site geo move for a later time, use one of the following parameters:
 - `PreferredMoveBeginDate` – The move will likely begin at this specified time.
 - `PreferredMoveEndDate` – The move will likely be completed by this specified time, on a best effort basis. 
 
 Time must be specified in Coordinated Universal Time (UTC) for both parameters.
 
-## Start Cross-Geo Sites Move for an O365 Group Connected site
+## Start a SharePoint site geo move for an Office 365 Group-connected site
 
-To move an O365 group connected site, the global administrator must first change the Preferred Data Location (PDL) attribute for the site.
+To move an Office 365 Group-connected site, the global administrator must first change the Preferred Data Location (PDL) attribute for the Office 365 Group.
 
-To set the PDL for a group:
+To set the PDL for an Office 365 Group:
 
 ```PowerShell
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>
 Get-SPOUnifiedGroup -GroupAlias <GroupAlias>
 ```
-
-To start the move, run: 
+Once you have updated the PDL, you can start the site move: 
 
 ```PowerShell
 Start-SPOUnifiedGroupMove -GroupAlias <GroupAlias> -DestinationDataLocation <DestinationDataLocation>
 ```
 
-To schedule a Cross-Geo Site Move for a later time, use one of the following parameters:
+## Scheduling a move for a future date
+
+To schedule a SharePoint site geo move for a later time, use one of the following parameters:
 - `PreferredMoveBeginDate` – The move will likely begin at this specified time.
 - `PreferredMoveEndDate` – The move will likely be completed by this specified time, on a best effort basis.
 
@@ -124,18 +119,20 @@ Times for both parameters must be specified in Coordinated Universal Time (UTC).
 
 ## Rename the site during site move
 
-You may rename a site as part of site move with the following parameter: -Destinati-DestinationUrl onUrl
+You may rename a site as part of site move with the following parameter: `-DestinationUrl`
 
-## Cancel a Cross-Geo Sites Move
+## Cancel a SharePoint site geo move
 
-You can step a Cross-Geo sites move, provided the move is not in progress or completed by using the following cmdlet:
+You can stop a SharePoint site geo move, provided the move is not in progress or completed by using the `Stop-SPOSiteContentMove` cmdlet.
 
-## Determining the status of a cross-geo site move
+## Determining the status of a SharePoint site geo move
 
-You can determine the status of a cross-geo site move in our out of the geo that you are connected to by using:
+You can determine the status of a site move in our out of the geo that you are connected to by using the following cmdlets:
 
-- `Get-SPOSiteContentMoveState` (sites move, non-group)
-- `Get-SPOUnifiedGroupMoveState` (groups move)
+- [Get-SPOSiteContentMoveState](https://docs.microsoft.com/powershell/module/sharepoint-online/get-spositecontentmovestate) (non-Group-connected sites)
+- Get-SPOUnifiedGroupMoveState (Group-connected sites)
+
+Use the `-SourceSiteUrl` parameter to specify the site for which you want to see move status.
 
 The move statuses are described in the following table.
 
@@ -147,15 +144,11 @@ The move statuses are described in the following table.
 |Success|The move has completed successfully.|
 |Failed|The move failed.|
 
-To get the status of our sample move:
-
-`Get-SPOSiteContentMoveState -SourceSiteUrl https://contosohealthcare.sharepoint.com/sites/Turbines`
-
 You can also apply the `-Verbose` option to see additional information about the move.
 
 ## Communicating to your users
 
-When moving SharePoint sites between geo locations, it's important to communicate to the sites' users (generally anyone with the ability to edit the site) what to expect. This can help reduce user confusion and calls to your help desk. Email your site's users before the move and let them know the following information:
+When moving SharePoint sites between geo locations, it's important to communicate to the sites' users (generally anyone with the ability to edit the site) what to expect. This can help reduce user confusion and calls to your help desk. Email your sites' users before the move and let them know the following information:
 
 - When the move is expected to start and how long it is expected to take
 - What geo location their site is moving to, and the URL to access the new location
@@ -179,7 +172,7 @@ Users with permissions to site will continue to have access to the site during t
 
 ### Sync Client
 
-The sync client will automatically detect and seamlessly transfer syncing to the new site location once the cross-geo site move is complete. The user does not need to sign-in again or take any other action. (Version 17.3.6943.0625 or later of the sync client required.)
+The sync client will automatically detect and seamlessly transfer syncing to the new site location once the site move is complete. The user does not need to sign in again or take any other action. (Version 17.3.6943.0625 or later of the sync client required.)
 
 If a user updates a file while the move is in progress, the sync client will notify them that file uploads are pending while the move is underway.
 
@@ -187,19 +180,19 @@ If a user updates a file while the move is in progress, the sync client will not
 
 When the SharePoint site geo move completes, the existing shared links for the files that were moved will automatically redirect to the new geo location.
 
-### Most Recent Files in Office (MRU)
+### Most Recently Used files in Office (MRU)
 
 The MRU service is updated with the site url and its content URLs once the move completes. This applies to Word, Excel, and PowerPoint.
 
-### OneNote Experience
+### OneNote experience
 
-OneNote win32 client and UWP (Universal) App will automatically detect and seamlessly sync notebooks to the new site location once site move is complete. The user does not need to sign-in again or take any other action. The only visible indicator to the user is notebook sync would fail when site move is in progress. This experience is available on the following OneNote client versions:
+OneNote win32 client and UWP (Universal) App will automatically detect and seamlessly sync notebooks to the new site location once site move is complete. The user does not need to sign in again or take any other action. The only visible indicator to the user is notebook sync would fail when site move is in progress. This experience is available on the following OneNote client versions:
 
 - OneNote win32 – Version 16.0.8326.2096 (and later)
 - OneNote UWP – Version 16.0.8431.1006 (and later)
 - OneNote Mobile App – Version 16.0.8431.1011 (and later)
 
-### Teams (applicable to O365 Group connected sites)
+### Teams (applicable to Office 365 Group connected sites)
 
 When the SharePoint site geo move completes, users will have access to their Office 365 Group site files on the Teams app. Additionally, files shared via Teams chat from their site prior to geo move will continue to work after move is complete.
 
@@ -207,9 +200,9 @@ When the SharePoint site geo move completes, users will have access to their Off
 
 The SharePoint Mobile App is cross geo compatible and able to detect the site's new geo location.
 
-### SharePoint Flow 2013
+### SharePoint 2013 workflows
 
-SharePoint Flow 2013 will need to be re-published after the site move.
+SharePoint 2013 workflows need to be republished after the site move.
 
 ### Apps
 
@@ -217,11 +210,11 @@ If you are moving a site with apps, you must re-instantiate the app in the site'
 
 ### Flow
 
-In most cases Flows will continue to work after cross-geo sites move.
+In most cases Flows will continue to work after a SharePoint site geo move. We recommend that you test them once the move has completed.
 
 ### PowerApps
 
-PowerApps will need to be recreated in the destination location.
+PowerApps need to be recreated in the destination location.
 
 ### Data movement between geo locations
 

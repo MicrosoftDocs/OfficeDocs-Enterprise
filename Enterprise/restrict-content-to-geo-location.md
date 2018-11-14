@@ -20,7 +20,7 @@ You can do this by using the [Set-SPOSite](https://docs.microsoft.com/powershell
 
 |Restriction|Description|
 |:----------|:----------|
-|NoRestriction|No restriction|
+|NoRestriction|The site can be moved to another geo location.|
 |BlockMoveOnly|Site cannot be moved to another geo location, but site content can be cached in other geo locations.|
 |BlockFull|Site cannot be moved to another geo location, and full file content is not cached in other geo locations. Files' title (harvested from the content), file name, and other properties of the file can still be cached in other geo-locations.<br>Content stored in the site before it was configured to BlockFull, may continue to be cached in other geo locations.|
 

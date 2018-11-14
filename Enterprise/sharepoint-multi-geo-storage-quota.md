@@ -16,7 +16,7 @@ description: "Learn about SharePoint storage quotas in multi-geo environments."
 
 By default, all geo locations of a multi-geo environment share the available tenant storage quota.
 
-With the SharePoint storage quota setting, you can manage the storage quota for each geo location. When you allocate a storage quota for a geo location, it becomes the maximum amount of storage available for that geo location, and is deducted from the available tenant storage quota. The remaining available tenant storage quota is then shared across the configured geo locations for which a specific storage quota has not been allocated.
+With the SharePoint geo storage quota setting, you can manage the storage quota for each geo location. When you allocate a storage quota for a geo location, it becomes the maximum amount of storage available for that geo location, and is deducted from the available tenant storage quota. The remaining available tenant storage quota is then shared across the configured geo locations for which a specific storage quota has not been allocated.
 
 The SharePoint storage quota for any geo location can be allocated by the SharePoint Online administrator by connecting to the central location. Geo administrators for satellite locations can view the storage quota but cannot allocate it.
 

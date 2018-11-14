@@ -46,14 +46,6 @@ Note that not all security groups have a group alias. If you want to add a secur
 
 To remove a group by using the ObjectID, run `Remove-SPOGeoAdministrator -ObjectID <ObjectID>`
 
-### Accessing the admin center for a specific geo-location
-
-To administer OneDrive settings for their geo location, admins must access the OneDrive admin center directly using the following URL format:
-
-https://admin.onedrive.com/?geo=<*geo*>
-
-For example, the OneDrive admin center for Canada is located at: https://admin.onedrive.com/?geo=CAN.
-
 ## See Also
 
 [Add-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/add-spogeoadministrator)

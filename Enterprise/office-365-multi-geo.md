@@ -34,7 +34,7 @@ Here's how multi-geo features can benefit your organization:
     
 - Choose unique URL namespaces (for example, ContosoEUR.sharepoint.com) for your additional geo locations.
     
-- Consolidate your regional on-premises data into your Office 365 multi-geo tenant.
+- Consolidate your regional on-premises data into your multi-geo tenant.
     
 Note that Office 365 Multi-Geo is not primarily designed for performance optimization, it is designed to meet data residency requirements. For information about performance optimization for Office 365, see [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848) or contact your support group. 
 
@@ -44,13 +44,13 @@ In a multi-geo environment, your Office 365 tenant consists of a central locatio
 
 Here are the key terms used in describing Office 365 Multi-Geo:
 
-- Central location - the geo location where your tenant was originally provisioned.
-- Geo administrator - An administrator who can administer one or more specified satellite locations.
-- Geo code - a three-letter code for a given geo location.
-- Geo location – A geographic location that can be used in a multi-geo tenant to host data, including Exchange mailboxes and OneDrive and SharePoint sites.
-- Preferred Data Location (PDL) – A user property set by the administrator that indicates where the geo location where the users Exchange mailbox and OneDrive should be provisioned. The PDL also determines where SharePoint sites that are created by the user are provisioned.
-- Satellite location – The geo locations where the geo-aware Office 365 workloads (SharePoint, OneDrive, and Exchange) are enabled in a multi-geo tenant.
-- Tenant – An organization's representation in Office 365 which typically has one or more domains associated with it (for example, contoso.com).
+- **Central location** - the geo location where your tenant was originally provisioned.
+- **Geo administrator** - An administrator who can administer one or more specified satellite locations.
+- **Geo code** - a three-letter code for a given geo location.
+- **Geo location** – A geographic location that can be used in a multi-geo tenant to host data, including Exchange mailboxes and OneDrive and SharePoint sites.
+- **Preferred Data Location (PDL)** – A user property set by the administrator that indicates where the geo location where the users Exchange mailbox and OneDrive should be provisioned. The PDL also determines where SharePoint sites that are created by the user are provisioned.
+- **Satellite location** – The geo locations where the geo-aware Office 365 workloads (SharePoint, OneDrive, and Exchange) are enabled in a multi-geo tenant.
+- **Tenant** – An organization's representation in Office 365 which typically has one or more domains associated with it (for example, contoso.com).
 
 ## Get multi-geo features in three simple steps
 
@@ -62,12 +62,12 @@ Configuring multi-geo is easy:
     
 3. Configure your user accounts for the appropriate location.
     
-## Multi-Geo availability
+## Office 365 Multi-Geo availability
 
-OneDrive Multi-Geo is currently offered in these regions and countries:
+Office 365 Multi-Geo is currently offered in these regions and countries:
 
 [!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
     
 ## Getting started
 
-To get started with OneDrive for Business Multi-Geo, the first step is to [plan your multi-geo environment](plan-for-multi-geo.md). Next, [learn about administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience a multi-geo environment](multi-geo-user-experience.md). When you are ready to set up OneDrive for Business Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md), then [move any existing SharePoint and OneDrive sites to thier new geo locations](move-onedrive-between-geo-locations.md) and [set up search](configure-search-for-multi-geo.md).
+To get started with Office 365 Multi-Geo, the first step is to [plan your multi-geo environment](plan-for-multi-geo.md). Next, [learn about administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience a multi-geo environment](multi-geo-user-experience.md). When you are ready to set up Office 365 Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md), then move any existing [sharepoint sites](move-sharepoint-between-geo-locations.md) and [OneDrive sites](move-onedrive-between-geo-locations.md)  to thier new geo locations, and [set up search](configure-search-for-multi-geo.md).
