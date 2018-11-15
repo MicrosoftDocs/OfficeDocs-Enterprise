@@ -108,7 +108,7 @@ In AAD there are two types of user objects: cloud only users and synchronized us
 ### Synchronize user’s Preferred Data Location using AD Connect 
 
 If your company’s users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in AD and synchronized to AAD.
-Follow the process in [Azure Active Directory Connect sync: Configure preferred data location for Office 365 resources](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation.md) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
+Follow the process in [Azure Active Directory Connect sync: Configure preferred data location for Office 365 resources](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
 
 We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
 
