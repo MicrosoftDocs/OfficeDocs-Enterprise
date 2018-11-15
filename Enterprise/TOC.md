@@ -131,6 +131,7 @@
 ### [Plan for multi-geo](plan-for-multi-geo.md)
 #### [User experience in a multi-geo environment](multi-geo-user-experience.md)
 ### [Configure multi-geo](multi-geo-tenant-configuration.md)
+#### [Configure preferred data location](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json)
 #### [Configure Search multi-geo](configure-search-for-multi-geo.md)
 ### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
 #### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
