@@ -7,7 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: Strat_SP_gtc
 description: "Learn how to configure OneDrive for Business Multi-Geo."
 ---
@@ -22,7 +22,7 @@ To use Office 365 Multi-Geo, you need the _Multi-Geo Capabilities in Office 365_
 
 Note that the _Multi-Geo Capabilities in Office 365_ plan is a user-level service plan. You need a license for each user that you want to host in a satellite location. You can add more licenses over time as you add users in satellite locations.
 
-Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the [OneDrive](https://admin.onedrive.com) and SharePoint admin centers.
+Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the OneDrive and SharePoint admin centers.
 
 ## Add satellite locations to your tenant
 
@@ -32,7 +32,7 @@ You must add a satellite location for each geo location where you want to store 
 
 To add a satellite location
 
-1. Open the [OneDrive admin center](https://admin.onedrive.com).
+1. Open the SharePoint admin center.
 
 2. Navigate to the **Geo locations** tab.
 
@@ -49,7 +49,7 @@ Provisioning may take from a few hours up to 72 hours, depending on the size of 
 > [!IMPORTANT]
 > Your new satellite location will be set up with default settings. This will allow you to configure that satellite location as appropriate for your local compliance needs.
 
-## Setting users’ preferred data location
+## Setting users' preferred data location
 <span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span> 
 
 Once you enable the needed satellite locations, you can update your user accounts to use the appropriate preferred data location. We recommend that you set a preferred data location for every user, even if that user is staying in the central location.
@@ -59,7 +59,7 @@ Once you enable the needed satellite locations, you can update your user account
 
 In Azure Active Directory there are two types of user objects: cloud only users and synchronized users. Please follow the appropriate instructions for your type of user.
 
-### Synchronize user’s Preferred Data Location using Azure Active Directory Connect 
+### Synchronize user's Preferred Data Location using Azure Active Directory Connect 
 
 If your company's users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in an Active Directory attribute and synchronized to AAD.
 Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
@@ -89,16 +89,16 @@ The procedures in this section require the [Microsoft Azure Active Directory Mod
 
 ![](media/multi-geo-tenant-configuration-image3.png)
 
-We recommend that you include setting the user’s Preferred Data Location as a part of your standard user creation workflow.
+We recommend that you include setting the user's Preferred Data Location as a part of your standard user creation workflow.
 
 > [!IMPORTANT]
-> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is set for the changes to propagate before the user logs in to OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user’s new OneDrive will be provisioned in the correct location.)
+> For new users with no OneDrive provisioned, wait at least 24 hours after a user's PDL is set for the changes to propagate before the user logs in to OneDrive. (Setting the preferred data location before the user logs in to provision their OneDrive for Business ensures that the user's new OneDrive will be provisioned in the correct location.)
 
 ## OneDrive Provisioning and the effect of PDL
 
-If the user already has a OneDrive site created in the tenant, setting their PDL will not automatically move their existing OneDrive. To move a user’s OneDrive, see [OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md) please follow the instructions in Moving OneDrive between geo locations.
+If the user already has a OneDrive site created in the tenant, setting their PDL will not automatically move their existing OneDrive. To move a user's OneDrive, see [OneDrive for Business Geo Move](move-onedrive-between-geo-locations.md) please follow the instructions in Moving OneDrive between geo locations. (Note that the user's Exchange mailbox does move automatically when you set the user's PDL.)
 
-If the user does not have a OneDrive site within the tenant, OneDrive will be provisioned for them in accordance to their PDL value, assuming the PDL for the user matches one of the company’s satellite locations.
+If the user does not have a OneDrive site within the tenant, OneDrive will be provisioned for them in accordance to their PDL value, assuming the PDL for the user matches one of the company's satellite locations.
 
 ## Configuring Multi-Geo search
 
@@ -124,7 +124,7 @@ Below are some basic use cases you may wish to include in your validation plan b
 
 **OneDrive for Business**
 
-Select OneDrive from the Office 365 app launcher and confirm that you are automatically directed to the appropriate geo location for the user, based on the user’s PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
+Select OneDrive from the Office 365 app launcher and confirm that you are automatically directed to the appropriate geo location for the user, based on the user's PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
 
 **OneDrive Mobile App**
 
