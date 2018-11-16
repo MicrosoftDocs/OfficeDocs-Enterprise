@@ -44,7 +44,7 @@ To add a satellite location
 
 6. Click **Close**.
 
-Provisioning may take from a few hours up to 72 hours, depending on the size of your tenant. Once provisioning of a satellite location has completed, you will recieve an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo location.
+Provisioning may take from a few hours up to 72 hours, depending on the size of your tenant. Once provisioning of a satellite location has completed, you will receive an email confirmation. When the new geo location appears in blue on the map on the **Geo locations** tab in the OneDrive admin center, you can proceed to set users' preferred data location to that geo location. 
 
 > [!IMPORTANT]
 > Your new satellite location will be set up with default settings. This will allow you to configure that satellite location as appropriate for your local compliance needs.
@@ -61,8 +61,8 @@ In Azure Active Directory there are two types of user objects: cloud only users 
 
 ### Synchronize user's Preferred Data Location using Azure Active Directory Connect 
 
-If your company's users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in an Active Directory attribute and synchronized to AAD.
-Follow the process in [Azure AD Connect sync: Make a change to the default configuration](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-change-the-configuration) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
+If your company’s users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in AD and synchronized to AAD.
+Follow the process in [Azure Active Directory Connect sync: Configure preferred data location for Office 365 resources](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
 
 We recommend that you include setting the user's Preferred Data Location as a part of your standard user creation workflow.
 

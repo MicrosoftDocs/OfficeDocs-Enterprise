@@ -147,5 +147,7 @@ Whether you're upgrading on-premises or moving to Office 365, we recommend that 
 [Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
   
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
+
+
   
 

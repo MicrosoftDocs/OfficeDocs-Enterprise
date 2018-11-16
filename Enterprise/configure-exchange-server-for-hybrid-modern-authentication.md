@@ -3,7 +3,7 @@ title: "How to configure Exchange Server on-premises to use Hybrid Modern Authen
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 09/28/2018
+ms.date: 11/16/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -67,7 +67,9 @@ Get-OABVirtualDirectory | FL server,*url*
     
 Ensure the URLs clients may connect to are listed as HTTPS service principal names in AAD.
   
-1. First, connect to AAD with [these instructions](https://docs.microsoft.com/en-us/office365/enterprise/powershell/connect-to-office-365-powershell).
+1. First, connect to AAD with [these instructions](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell). 
+
+ **Note** You need to use the Connect-MsolService option from this page to be able to use the command below. 
     
 2. For your Exchange related URLs, type the following command:
     
@@ -143,7 +145,7 @@ Once you enable HMA, a client's next login will use the new auth flow. Note that
   
 You should also hold down the CTRL key at the same time you right click the icon for the Outlook client (also in the Windows Notifications tray) and click 'Connection Status'. Look for the client's SMTP address against an 'Authn' type of 'Bearer\*', which represents the bearer token used in OAuth.
   
- **Note** Need to configure Skype for Business with HMA? You'll need two articles: One that lists [supported topologies](https://technet.microsoft.com/en-us/library/mt803262.aspx), and one that shows you [how to do the configuration](configure-skype-for-business-for-hybrid-modern-authentication.md).
+ **Note** Need to configure Skype for Business with HMA? You'll need two articles: One that lists [supported topologies](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported), and one that shows you [how to do the configuration](configure-skype-for-business-for-hybrid-modern-authentication.md).
   
 
 ## Related topics
