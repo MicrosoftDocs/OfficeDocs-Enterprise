@@ -3,7 +3,7 @@ title: "Integrated Apps and Azure AD for Office 365 administrators"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 3/5/2018
+ms.date: 11/19/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -41,7 +41,7 @@ Managing Office 365 apps requires you to have knowledge of apps in Azure AD. The
 |[Integrating Applications in Azure Active Directory](https://go.microsoft.com/fwlink/?LinkId=617141) <br/> | Learn about applications that are integrated with Azure Active Directory, and how to register your application, understand concepts behind a registered application, and learn about branding guidelines for multi tenant applications.  <br/> |
 |[Azure Active Directory Integration Tutorials](https://go.microsoft.com/fwlink/?LinkId=617144) <br/> |The objective of these tutorials is to show you how to configure Azure AD SSO for third-party SaaS applications.  <br/> |
 |[Authentication Scenarios for Azure AD](https://go.microsoft.com/fwlink/?LinkId=617145) <br/> |Azure AD simplifies authentication for developers by providing identity as a service, with support for industry-standard protocols such as OAuth 2.0 and OpenID Connect, as well as open source libraries for different platforms to help you quickly start coding. This document helps you understand the various scenarios Azure AD supports and shows you how to get started.  <br/> |
-|[Application access](https://go.microsoft.com/fwlink/?LinkId=617146) <br/> |Azure AD enables easy integration to many of today's popular software as a service (SaaS) applications; it provides identity and access management, and it delivers an Access Panel for users where they can discover what application access they have and where they can use SSO to access their applications. This article provides you with links to the related resources that enable you to learn more about the application access enhancements for Azure AD and how you can contribute to them.  <br/> |
-|[Add or remove tiles on the Office 365 app launcher](https://support.office.com/article/0b71362d-ce56-4d21-9b2f-bdb750a82b81) <br/> |You can get quick access to the apps you use every day by adding or removing apps in the Office 365 app launcher.  <br/> |
+|[Application access](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-access-management) <br/> |Azure AD enables easy integration to many of today's popular software as a service (SaaS) applications; it provides identity and access management, and it delivers an Access Panel for users where they can discover what application access they have and where they can use SSO to access their applications. This article provides you with links to the related resources that enable you to learn more about the application access enhancements for Azure AD and how you can contribute to them.  <br/> |
+|[Personalize your Office 365 experience](https://support.office.com/article/eb34a21b-52fa-4fbf-a8d5-146132242985) <br/> |You can get quick access to the apps you use every day by adding or removing apps in the Office 365 app launcher.  <br/> |
    
 
