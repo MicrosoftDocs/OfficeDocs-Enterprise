@@ -7,7 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn how to administer Exchange Online multi-geo setting with Microsoft PowerShell."
 ---
 

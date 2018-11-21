@@ -6,7 +6,7 @@ manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn how to add or remove a geo administrator in OneDrive for Business Multi-Geo."
 ---
 

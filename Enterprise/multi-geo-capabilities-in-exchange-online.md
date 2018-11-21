@@ -7,8 +7,7 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-localization_priority: Normal
-ms.assetid: 
+localization_priority: Priority
 description: "Learn about multi-geo capabilities in Exchange Online."
 ---
 

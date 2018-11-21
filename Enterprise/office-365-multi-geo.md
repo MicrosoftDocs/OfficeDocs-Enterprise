@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
 ms.collection: Strat_SP_gtc
-localization_priority: Normal
+localization_priority: Priority
 description: "Expand your Office 365 presence to multiple geographic regions with Office 365 Multi-Geo."
 ---
 
@@ -17,7 +17,9 @@ description: "Expand your Office 365 presence to multiple geographic regions wit
 With Office 365 Multi-Geo, your organization can expand its Office 365 presence to multiple geographic regions and/or countries within your existing tenant. Reach out to your Microsoft Account Team to sign up your Multi-National Company for Office 365 Multi-Geo.
   
 With Office 365 Multi-Geo, you can provision and store data at rest in the geo locations that you've chosen to meet data residency requirements, and at the same time unlock your global roll out of modern productivity experiences to your workforce.
-  
+
+![Screenshot of multi-geo map from the SharePoint admin center](media/multi-geo-world-map.png)
+
 Here's how multi-geo features can benefit your organization:
   
 - Operate as one global connected organization with a single Office 365 tenant spanning multiple geo locations.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
 ms.collection: Strat_SP_gtc
-localization_priority: Normal
+localization_priority: Priority
 description: "Learn about SharePoint storage quotas in multi-geo environments."
 ---
 

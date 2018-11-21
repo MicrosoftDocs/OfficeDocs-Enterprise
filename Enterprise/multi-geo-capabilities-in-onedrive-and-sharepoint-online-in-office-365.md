@@ -47,6 +47,6 @@ Users of the SharePoint, OneDrive, and Outlook mobile apps can simply sign in wi
 
 Enterprise managed metadata is maintained in the central location and replicated to the satellite locations. This doesn't require any additional customization.
 
-## Geo Administrators
+## Geo administrators
 
 You can specify administrators for individual geo locations. These administrators have SharePoint admin privileges, but only for the specified geo location. For more information, see [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md).

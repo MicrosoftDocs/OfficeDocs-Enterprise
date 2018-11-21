@@ -54,7 +54,7 @@ For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, 
 
 `connect-sposervice -url https://contosoenergyeur-admin.sharepoint.com`
 
-![](media/move-onedrive-between-geo-locations-image1.png)
+![Screenshot of PowerShell window showing connect-sposervice cmdlet](media/move-onedrive-between-geo-locations-image1.png)
 
 ## Validating the environment
 
@@ -89,7 +89,7 @@ For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
 
-![](media/move-onedrive-between-geo-locations-image2.png)
+![Screenshot of PowerShell window showing Start-SPOUserAndContentMove cmdlet](media/move-onedrive-between-geo-locations-image2.png)
 
 To schedule a geo move for a later time, use one of the following parameters:
 
