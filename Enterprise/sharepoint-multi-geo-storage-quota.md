@@ -28,7 +28,13 @@ To allocate Storage Quota for a location, run cmdlet:
 
 `Set-SPOGeoStorageQuota -GeoLocation <geolocationcode> -StorageQuotaMB <value>`
 
-To view Storage Quota for ALL geo locations, run:
+To view Storage Quota for the current geo location, run:
+
+`Get-SPOGeoStorageQuota`
+
+![Screenshot of PowerShell window showing Get-SPOGeoStorageQuota cmdlet](media/multi-geo-storage-quota.png)
+
+To view Storage Quota for all geo locations, run:
 
 `Get-SPOGeoStorageQuota -AllLocations`
 
