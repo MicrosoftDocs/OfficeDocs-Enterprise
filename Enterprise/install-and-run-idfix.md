@@ -3,7 +3,6 @@ title: "Install and run the Office 365 IdFix tool"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 10/02/2018
 ms.audience: Admin
 ms.topic: get-started-article
 f1_keywords:
@@ -118,6 +117,6 @@ More in-depth information is available from these topics:
     
 ## Video training
 
-For more information, see the lesson [Install and use the IDFix tool](https://support.office.com/article/4d81d73c-f172-4fd5-8542-f601c0c96aa9.aspx), brought to you by LinkedIn Learning.
+For more information, see the lesson [Install and use the IDFix tool](https://support.office.com/article/install-and-use-the-idfix-tool-4d81d73c-f172-4fd5-8542-f601c0c96aa9?ui=en-US&rs=en-US&ad=US), brought to you by LinkedIn Learning.
   
 
