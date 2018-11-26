@@ -3,7 +3,6 @@ title: "Azure integration with Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
@@ -52,7 +51,7 @@ For more information about Office 365 and Azure AD, see [Understanding Office 36
    
 For other resources about the Microsoft Cloud and Office 365, see these resources:
   
-- [Microsoft Cloud Identity for Enterprise Architects](https://go.microsoft.com/fwlink/p/?LinkId=828642)
+- [Microsoft Cloud Identity for Enterprise Architects](https://go.microsoft.com/fwlink/p/?LinkId=524586)
     
 - [Deploy Office 365 Directory Synchronization (DirSync) in Microsoft Azure](https://go.microsoft.com/fwlink/p/?LinkId=517887)
     
