@@ -101,7 +101,7 @@ Woodgrove Bank is considering implementing Azure ExpressRoute and after planning
   
 For Woodgrove, a multi-national organization with locations in multiple continents, security must span all perimeters. The optimal connectivity option for Woodgrove is a multi-point connection with multiple peering locations around the globe to service the needs of their employees in each continent. Each continent includes redundant Azure ExpressRoute circuits within the continent and security must span all of these.
   
-Woodgrove's existing infrastructure is reliable and can handle the additional work, as a result, Woodgrove Bank is able to utilize the infrastructure for their Azure ExpressRoute and internet perimeter security. If this weren't the case, Woodgrove could choose to purchase additional equipment to supplement their existing equipment or to handle a different type of connection.
+Woodgrove's existing infrastructure is reliable and can handle the additional work, as a result, Woodgrove Bank is able to use the infrastructure for their Azure ExpressRoute and internet perimeter security. If this weren't the case, Woodgrove could choose to purchase additional equipment to supplement their existing equipment or to handle a different type of connection.
   
 ## High availability and failover with Azure ExpressRoute
 <a name="BKMK_high-availability"> </a>

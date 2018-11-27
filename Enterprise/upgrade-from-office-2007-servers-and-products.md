@@ -3,7 +3,7 @@ title: "Resources to help you upgrade from Office 2007 servers and clients"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 8/8/2018
+ms.date: 11/01/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -25,9 +25,7 @@ description: Support is ending soon for Office 2007 servers and client applicati
 
 # Resources to help you upgrade from Office 2007 servers and clients
 
-If you're using Office 2007 products and services, support for these applications has ended. This is a great time to consider moving to the Microsoft Cloud, starting with Office 365.
-  
-Use this article as a starting point to review your options and plan your upgrade.
+If you're using Office 2007 products and services, support for these applications has ended. While you're planning your upgrade, this is a great time to consider moving to the Microsoft Cloud, starting with Office 365. Use this article as a starting point to review your options and plan your upgrade.
       
 ## Office 2007 planning roadmaps
   
@@ -39,12 +37,12 @@ Support has ended for Office 2007 products and services. The following roadmaps 
 |[Exchange 2007 end of support roadmap](exchange-2007-end-of-support.md) <br/> |April 11, 2017  <br/> |
 |[SharePoint Server 2007 end of support roadmap](sharepoint-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
 |[Project Server 2007 end of support roadmap](project-server-2007-end-of-support.md) <br/> |October 10, 2017  <br/> |
-|[Upgrade from Office Communications Server](/Skype/SfbServer/plan-your-deployment/upgrade.md) <br/> |January 8, 2018  <br/> |
+|[Upgrade from Office Communications Server](https://docs.microsoft.com/SkypeForBusiness/plan-your-deployment/upgrade) <br/> |January 8, 2018  <br/> |
 |[PerformancePoint Server 2007 end of support roadmap](pps-2007-end-of-support.md) <br/> |January 9, 2018  <br/> |
    
 When support ends for a Microsoft product, there are no new security updates, non-security updates, free or paid assisted support options (including custom support agreements), or online technical content updates.Whether you're an enterprise organization or an individual home user, you have several options to consider:
 
-## What if I'm a home user? What do I do?
+## I'm a home user. What do I do?
 
 If you're using Office 2010 products and applications at home, see [this information](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
      

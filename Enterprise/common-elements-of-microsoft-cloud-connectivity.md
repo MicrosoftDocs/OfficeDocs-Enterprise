@@ -55,7 +55,7 @@ Figure 1 shows how an on-premises network can be connected to Microsoft cloud of
     
 - **External workload:** Web sites or other workloads made available to external users on the Internet.
     
-- **Proxy server:** Services requests for web content on behalf of intranet users. A reverse proxy allows unsolicited inbound requests.
+- **Proxy server:** Services requests for web content on behalf of intranet users. A reverse proxy permits unsolicited inbound requests.
     
 - **External firewall:** Allows outbound traffic and specified inbound traffic. Can perform address translation.
     

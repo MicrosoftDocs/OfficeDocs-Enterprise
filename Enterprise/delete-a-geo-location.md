@@ -1,5 +1,5 @@
 ﻿---
-title: "Delete a geo location"
+title: "Delete a satellite location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -10,19 +10,19 @@ ms.service: o365-solutions
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
-description: "Learn how to delete a geo location in OneDrive for Business Multi-Geo."
+description: "Learn how to delete a satellite location in OneDrive for Business Multi-Geo."
 ---
 
-# Delete a geo location in OneDrive for Business Multi-Geo
+# Delete a satellite location in OneDrive for Business Multi-Geo
 
-If you no longer need a geo location, you can delete it from your tenant from the [OneDrive admin center](https://admin.onedrive.com)
+If you no longer need a satellite location, you can delete it from your tenant from the [OneDrive admin center](https://admin.onedrive.com)
 
 > [!WARNING]
-> All user data in the geo location will be permanently deleted. This includes all OneDrive for Business content, SharePoint sites, and Group sites. You must migrate any data to another location before you delete the location. This action cannot be undone.
+> All user data in the satellite location will be permanently deleted. This includes all OneDrive for Business content, SharePoint sites, and Group sites. You must migrate any data to another satellite location or the central location before you delete the satellite location. This action cannot be undone.
 
-Only global administrators can delete geo locations.
+Only global administrators can delete satellite locations.
 
-To delete a geo-location
+To delete a satellite location
 
 1. Open the [OneDrive admin center](https://admin.onedrive.com)
 

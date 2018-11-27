@@ -40,12 +40,6 @@ Before you begin, understand that Office 365 PowerShell is a set of modules for 
 Get-Mailbox
 ```
 
-You can also run this command to calculate the number of items in all of the lists for all of the sites for all of your web apps in SharePoint Online:
-  
-```
-Get-SPOSite -Limit All | Get-SPWeb -Limit All | % {$_.Lists} | ? {$_ -is [Microsoft.SharePoint.SPDocumentLibrary]} | % {$total+= $_.ItemCount}; $total
-```
-
 Getting the list of mailboxes can also be easily done using the Office 365 admin center, but counting the number of items in all of the lists for all of the sites for all of your web apps cannot be easily done.
   
 Please note that Office 365 PowerShell is designed to augment and enhance your ability to manage Office 365, not to replace the Office 365 admin center. As an Office 365 administrator, you must become at least comfortable with using Office 365 PowerShell because there are some configuration procedures that can only be done with Office 365 PowerShell commands. In these cases, you will be required to understand how to:
@@ -66,7 +60,7 @@ The Office 365 admin center displays a lot of useful information, but that doesn
   
 ![Example of the display of users and groups in the Office 365 Admin center.](media/o365-powershell-users-and-groups.png)
   
-For many purposes, this displays the information you need to know. However, there are times when you need more. For example, Office 365 licensing (as well as the Office 365 features available to a user) depend in part on that user's geographic location. The policies and features you can extend to a user who lives in the United States might not be the same as the policies and features you can extend to a user who lives in India or in Belgium. You can use the Office 365 admin center to determine a user's geographic location with these steps:
+For many purposes, this displays the information you need to know. However, there are times when you need more. For example, Office 365 licensing (and the Office 365 features available to a user) depend in part on that user's geographic location. The policies and features you can extend to a user who lives in the United States might not be the same as the policies and features you can extend to a user who lives in India or in Belgium. You can use the Office 365 admin center to determine a user's geographic location with these steps:
   
 1. Double-click the user's **Display Name**.
     
@@ -330,7 +324,7 @@ Get-User -Filter '{LastName -like "*son"}'
   
 ## Office 365 PowerShell makes it easy to print or save data
 
-The Office 365 admin center allows you to view lists of data. Here is an example of the Skype for Business Online Admin center displaying a list of users who have been enabled for Skype for Business Online:
+The Office 365 admin center lets you view lists of data. Here is an example of the Skype for Business Online Admin center displaying a list of users who have been enabled for Skype for Business Online:
   
 ![Example of the Skype for Business Online Admin center displaying a list of users who have been enabled for Skype for Business Online.](media/o365-powershell-lync-users.png)
   

@@ -134,7 +134,7 @@ Use these steps to configure the User 2 and User 3 accounts as Dynamics 365 syst
     
     Wait for setup to complete.
     
-    When setup completes, it displays a Sales Activity Dashboard based on sample data that is part of the trail subscription. Take a few moments to view the **Welcome to your trial** video. Close the video window when complete.
+    When setup completes, it shows a Sales Activity Dashboard based on sample data that is part of the trail subscription. Take a few moments to view the **Welcome to your trial** video. Close the video window when complete.
     
 3. On the toolbar at the top, click the down arrow next to **Sales**, click **Settings**, and then click **Security**.
     

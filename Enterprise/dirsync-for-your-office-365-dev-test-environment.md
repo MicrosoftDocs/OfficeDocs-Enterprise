@@ -54,7 +54,7 @@ This configuration consists of:
     
 ## Phase 2: Install Azure AD Connect on APP1
 
-Once installed and configured, Azure AD Connect synchronizes the set of accounts in the CORP Windows Server AD domain with the set of accounts in your Office 365 trial subscription. The following procedure steps you through installing Azure AD Connect on APP1 and verifying that it works.
+Once installed and configured, Azure AD Connect synchronizes the set of accounts in the CORP Windows Server AD domain with the set of accounts in your Office 365 trial subscription. The following procedure steps you through installing Azure AD Connect on APP1 and checking that it works.
   
 ### Install and configure Azure AD Connect on APP1
 

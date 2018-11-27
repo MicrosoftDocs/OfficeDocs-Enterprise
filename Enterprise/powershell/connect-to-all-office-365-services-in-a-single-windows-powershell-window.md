@@ -29,6 +29,10 @@ When you use PowerShell to manage Office 365, it is possible to have up to five 
   
 This is not optimal for managing Office 365 because you can't exchange data among those five windows for cross-service management. This topic describes how to use a single instance of Windows PowerShell from which you can manage Office 365, Skype for Business Online, Exchange Online, SharePoint Online, and the Security &amp; Compliance Center.
 
+>[!Note]
+>This article currently only contains the commands to connect to the Office 365 Worldwide (+GCC) cloud.
+>
+
 ## Before you begin
 
 Before you can manage all of Office 365 from a single instance of Windows PowerShell, consider the following prerequisites:
@@ -40,6 +44,8 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
   - Windows 10
     
   - Windows 8.1 or Windows 8
+    
+  - Windows Server 2019
     
   - Windows Server 2016
     
@@ -121,7 +127,7 @@ Here are the steps to connect to all the services in a single PowerShell window.
 Here are all the commands in a single block when using the Azure Active Directory PowerShell for Graph module. Specify the name of your domain host, and then run them all at one time.
   
 ```
-$domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
+$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
 $credential = Get-Credential
 Connect-AzureAD -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
@@ -138,7 +144,7 @@ Import-PSSession $SccSession -Prefix cc
 Alternately, here are all the commands in a single block when using the Microsoft Azure Active Directory Module for Windows PowerShell module. Specify the name of your domain host, and then run them all at one time.
   
 ```
-$domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
+$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
 $credential = Get-Credential
 Connect-MsolService -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
@@ -164,7 +170,7 @@ Here are all the commands in a single block to connect to Azure AD, SharePoint O
 
 ````
 $acctName="<UPN of a global administrator account>"
-$domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
+$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
 #Azure Active Directory
 Connect-AzureAD
 #SharePoint Online
@@ -178,7 +184,7 @@ Alternately, here are all the commands when using the Microsoft Azure Active Dir
 
 ````
 $acctName="<UPN of a global administrator account>"
-$domainHost="<domain host name, such as litware for litwareinc.onmicrosoft.com>"
+$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
 #Azure Active Directory
 Connect-MsolService
 #SharePoint Online

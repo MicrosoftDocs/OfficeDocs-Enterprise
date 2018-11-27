@@ -157,7 +157,7 @@ For more information, see the section "More about managing large lists" in [Mana
 
 When you customize a web page, you may inadvertently cause poor performance with the page. A number of factors can have an impact, such as the complexity and size of the page, how many web parts are added, how many list or library items are initially displayed, and the way you code the page.
   
-For more information, see [Tune SharePoint Online performance](https://technet.microsoft.com/library/f97c2f06-0426-443d-8a16-d98abb0da252#TuneSharePoint).
+For more information, see [Tune SharePoint Online performance](https://docs.microsoft.com/office365/enterprise/tune-sharepoint-online-performance).
   
 ## Best practices for using Project Online
 

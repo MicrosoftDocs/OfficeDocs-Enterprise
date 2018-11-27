@@ -97,7 +97,7 @@ A single ExpressRoute connection supports up to three different Border Gateway P
 
 ![Figure 3: The three different BGP relationships in a single ExpressRoute connection](media/Network-Poster/ERPeering.png)
   
-Figure 3 shows an ExpressRoute connection from an on-premises network. The ExpressRoute connection contains three logical peering relationships. A Microsoft peering relationship goes to Microsoft SaaS services, including Office 365 and Dynamcs CRM Online. A public peering relationship goes to Azure PaaS services. A private peering relationship goes to Azure IaaS and to a virtual network gateway that hosts virtual machines.
+Figure 3 shows an ExpressRoute connection from an on-premises network. The ExpressRoute connection has three logical peering relationships. A Microsoft peering relationship goes to Microsoft SaaS services, including Office 365 and Dynamcs CRM Online. A public peering relationship goes to Azure PaaS services. A private peering relationship goes to Azure IaaS and to a virtual network gateway that hosts virtual machines.
   
 The Microsoft peering BGP relationship: 
   
@@ -181,9 +181,9 @@ When you create an ExpressRoute connection to a Microsoft cloud peering location
   
 This can result in non-optimal delivery to local Microsoft datacenters for the any-to-any connectivity model.
   
-**Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection**
+**Figure 7: Example of a geographically-distributed organization that uses a single ExpressRoute connection**
 
-![Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection](media/Network-Poster/MSNet1.png)
+![Figure 7: Example of a geographically-distributed organization that uses a single ExpressRoute connection](media/Network-Poster/MSNet1.png)
   
 Figure 7 shows an organization with two locations, Location 1 in the northwest of the United States and Location 2 in the northeast. They are connected by an any-to-any WAN provider. This organization also has an ExpressRoute connection to a Microsoft peering location on the west coast. Traffic from Location 2 in the northeast destined for an east coast datacenter must travel all the way across the organization's WAN to the west coast, to the Microsoft peering location, and then back across the country over the Microsoft cloud network to the east coast datacenter.
   

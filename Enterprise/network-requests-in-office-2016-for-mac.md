@@ -1,9 +1,9 @@
 ---
-title: "Network requests in Office 2016 for Mac"
+title: "Network requests in Office for Mac"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/13/2018
+ms.date: 11/9/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -12,12 +12,13 @@ ms.collection: Ent_O365
 ms.custom: Adm_O365_Setup
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
-description: "Office 2016 for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications attempt to reach, and the services provided. This information is useful when troubleshooting network configuration issues, and setting a policy for network proxy servers. The details in this article are intended to compliment the Office 365 URL and address ranges article."
+description: "Office for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues, and setting a policy for network proxy servers. The details in this article are intended to compliment the Office 365 URL and address ranges article."
 ---
 
-# Network requests in Office 2016 for Mac
+# Network requests in Office for Mac
 
-Office 2016 for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications attempt to reach, and the services provided. This information is useful when troubleshooting network configuration issues and setting policies for network proxy servers. The details in this article are intended to compliment the [Office 365 URL and address ranges article](urls-and-ip-address-ranges.md), which includes endpoints for computers running Microsoft Windows.
+Office for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. The following information describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues and setting policies for network proxy servers. The details in this article are intended to complement the [Office 365 URL and address ranges article](urls-and-ip-address-ranges.md), which includes endpoints for computers running Microsoft Windows. Unless noted, the information in this article also applies to Office 2019 for Mac and Office 2016 for Mac, which are available as a one-time purchase from a retail store or through a volume licensing agreement. 
+
   
 Most of this article is tables detailing network URLs, type, and description of service or feature provided by that endpoint. Each of the Office apps may differ in its service and endpoint usage. The following apps are defined in the tables below:
   
@@ -34,12 +35,13 @@ The URL type is defined as follows:
 - SS: Semi-Static - The URL is encoded as part of a web page or redirector.
     
 - CS: Config Service - The URL is returned as part of the Office Configuration Service.
+
     
-## Office 2016 for Mac default configuration
+## Office for Mac default configuration
 
  **Installation and updates**
   
-The following network endpoints are used to download the Office 2016 for Mac installation program from the Microsoft Content Delivery Network (CDN).
+The following network endpoints are used to download the Office for Mac installation program from the Microsoft Content Delivery Network (CDN).
   
 |**URL**|**Type**|**Description**|
 |:-----|:-----|:-----|
@@ -122,7 +124,7 @@ The following network endpoints apply to Office 365 Subscription only.
    
  **Researcher**
   
-The following network endpoints apply to both Office 365 Subscription.
+The following network endpoints apply to Office 365 Subscription only.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -215,7 +217,7 @@ The following network endpoints apply to both Office 365 Subscription and Retail
    
  **Safe Links**
   
-The following network endpoint applies to Office 2016 applications.
+The following network endpoint applies to all Office applications for Office 365 Subscription only.
   
 |**URL**|**Type**|**Description**|
 |:-----|:-----|:-----|
@@ -223,7 +225,7 @@ The following network endpoint applies to Office 2016 applications.
    
  **Crash reporting**
   
-The following network endpoint applies to all Office 2016 applications and license types. When a process unexpectedly crashes, a report is generated and sent to the Watson service.
+The following network endpoint applies to all Office applications for both Office 365 Subscription and Retail/Volume License activations. When a process unexpectedly crashes, a report is generated and sent to the Watson service.
   
 |**URL**|**Type**|**Description**|
 |:-----|:-----|:-----|
@@ -232,7 +234,7 @@ The following network endpoint applies to all Office 2016 applications and licen
    
 ## Options for reducing network requests and traffic
 
-The default configuration of Office 2016 for Mac provides the best user experience, both in terms of functionality and keeping the machine up to date. In some scenarios, you may wish to prevent applications from contacting network endpoints. This section discusses options for doing so.
+The default configuration of Office for Mac provides the best user experience, both in terms of functionality and keeping the machine up to date. In some scenarios, you may wish to prevent applications from contacting network endpoints. This section discusses options for doing so.
   
  ### Disabling Cloud Sign-In and Office Add-Ins
   
@@ -244,7 +246,7 @@ Volume License customers may have strict policies about saving documents to clou
 
 - ```defaults write com.microsoft.Powerpoint UseOnlineContent -integer 0```
 
-If users attempt to access the Sign-In function, they will see an error that a network connection is not present. Because this preference also blocks online product activation, it should only be used for Volume License installations. Specifically, using this preference will prevent Office applications from accessing the following endpoints:
+If users try to access the Sign-In function, they will see an error that a network connection is not present. Because this preference also blocks online product activation, it should only be used for Volume License installations. Specifically, using this preference will prevent Office applications from accessing the following endpoints:
   
 - ```https://odc.officeapps.live.com```
     
@@ -261,11 +263,11 @@ If users attempt to access the Sign-In function, they will see an error that a n
 To re-establish full functionality for the user, either set the preference to '2' or remove it.
   
 > [!NOTE]
-> This preference requires Office 2016 for Mac build 15.25 [160726] or later. 
+> This preference requires Office for Mac build 15.25 [160726] or later. 
   
 ### Telemetry
   
-Office 2016 for Mac sends telemetry information back to Microsoft at regular intervals. Data is uploaded to the 'Nexus' endpoint. The telemetry data helps the engineering team assess the health and any unexpected behaviors of each Office app. There are two categories of telemetry:
+Office for Mac sends telemetry information back to Microsoft at regular intervals. Data is uploaded to the 'Nexus' endpoint. The telemetry data helps the engineering team assess the health and any unexpected behaviors of each Office app. There are two categories of telemetry:
   
 - **Heartbeat** contains version and license information. This data is sent immediately upon app launch. 
     
@@ -302,7 +304,7 @@ In some cases, the contents of a document will cause the application to crash. I
   
 ### Updates
   
-Microsoft releases Office 2016 for Mac updates at regular intervals (typically once a month). We strongly encourage users and IT administrators to keep machines up to date to ensure the latest security fixes are installed. In cases where IT administrators want to closely control and manage machine updates, the following preference can be set to prevent the AutoUpdate process from automatically detecting and offering product updates:
+Microsoft releases Office for Mac updates at regular intervals (typically once a month). We strongly encourage users and IT administrators to keep machines up to date to ensure the latest security fixes are installed. In cases where IT administrators want to closely control and manage machine updates, the following preference can be set to prevent the AutoUpdate process from automatically detecting and offering product updates:
   
 ```defaults write com.microsoft.autoupdate2 HowToCheck -string 'Manual'```
 
@@ -310,7 +312,7 @@ Microsoft releases Office 2016 for Mac updates at regular intervals (typically o
   
 If your organization blocks requests to URLs via a firewall or proxy server be sure to configure the URLs listed in this document as either allowed, or block listed with a 40X response (e.g. 403 or 404). A 40X response will allow the Office applications to gracefully accept the inability to access the resource, and will provide a faster user experience, than simply dropping the connection, which in turn will cause the client to retry.
   
-If your proxy server requires authentication, a 407 response will be returned to the client. For the best experience, ensure that you're using Office 2016 builds 15.27 or later, as they include specific fixes for working with NTLM and Kerberos servers.
+If your proxy server requires authentication, a 407 response will be returned to the client. For the best experience, ensure that you're using Office for Mac builds 15.27 or later, as they include specific fixes for working with NTLM and Kerberos servers.
   
   
 ## See also

@@ -41,7 +41,7 @@ Use these steps to configure the global administrator's mailbox for Dynamics 365
     
 2. On the **Microsoft Office Home** page, click the **Mail** tile.
     
-3. On the new **Mail** tab in your browser, click **New** and notice how the bottom corner of the pane below the box for typing a message contains an icon for My Templates.
+3. On the new **Mail** tab in your browser, click **New** and notice how the bottom corner of the pane below the box for typing a message has an icon for My Templates.
     
      ![A blank new email message without integration with Dynamics 365.](media/879b54fd-a68f-4581-9f89-d5050df6f4de.png)
   
@@ -83,7 +83,7 @@ Use these steps to install the Dynamics 365 App for Outlook and demonstrate Dyna
     
 5. Click the **Microsoft Office Home** tab in your browser, and then click the **Mail** tile.
     
-6. On the new **Mail** tab in your browser, click **New**. Notice that the bottom corner of the pane below the box for typing a message now contains an icon for Dynamics 365.
+6. On the new **Mail** tab in your browser, click **New**. Notice that the bottom corner of the pane below the box for typing a message now has an icon for Dynamics 365.
     
      ![A blank new email message with integration with Dynamics 365, showing the new icon.](media/ecb822e1-45fe-4481-99a1-294317d1d2de.png)
   

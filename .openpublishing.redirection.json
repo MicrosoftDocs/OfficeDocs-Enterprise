@@ -340,11 +340,52 @@
 
         "redirect_document_id": false
 
+      },
+      {
+
+        "source_path": "enterprise/microsoft-cloud-storage-for-enterprise-architects.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": true
+
+      },
+      {
+
+        "source_path": "enterprise/designing-storage-for-the-microsoft-cloud.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/move-in-ready.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/some-assembly-required.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/build-from-the-ground-up.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
       }
-
-
-
-
 
   ]
 
