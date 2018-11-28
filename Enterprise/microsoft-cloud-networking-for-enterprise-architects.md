@@ -3,7 +3,7 @@ title: "Microsoft Cloud Networking for Enterprise Architects"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/28/2018
+ms.date: 11/28/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions

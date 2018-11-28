@@ -49,7 +49,7 @@ There are three categories of Microsoft SaaS traffic:
   Required for connectivity to specific Microsoft SaaS services and features but are not as sensitive to network performance and latency as those in the Optimize category.
 
 - Default
-- 
+
   Represent Microsoft SaaS services and dependencies that do not require any optimization. You can treat Default category traffic like normal Internet traffic.
 
 
