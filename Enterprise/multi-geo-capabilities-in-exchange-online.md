@@ -1,5 +1,5 @@
 ---
-title: "Multi-Geo capabilities in Exchange Online"
+title: "Exchange Multi-Geo"
 ms.author: chrisda
 author: chrisda
 manager: serdars

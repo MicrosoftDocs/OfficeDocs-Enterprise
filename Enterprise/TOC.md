@@ -127,12 +127,12 @@
 
 ## [Office 365 Multi-Geo](office-365-multi-geo.md)
 ### [OneDrive and SharePoint multi-geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
-### [Exchange Online multi-geo](multi-geo-capabilities-in-exchange-online.md)
+### [Exchange Multi-Geo](multi-geo-capabilities-in-exchange-online.md)
 ### [Plan for multi-geo](plan-for-multi-geo.md)
 #### [User experience in a multi-geo environment](multi-geo-user-experience.md)
 ### [Configure multi-geo](multi-geo-tenant-configuration.md)
 #### [Configure preferred data location](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-#### [Configure Search multi-geo](configure-search-for-multi-geo.md)
+#### [Configure search](configure-search-for-multi-geo.md)
 ### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
 #### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
 #### [Delete a geo location](delete-a-geo-location.md)
@@ -140,7 +140,7 @@
 #### [Move a SharePoint site](move-sharepoint-between-geo-locations.md)
 #### [Manage SharePoint quotas](sharepoint-multi-geo-storage-quota.md)
 #### [Restrict content to a geo location](restrict-content-to-geo-location.md)
-#### [Administering Exchange Online multi-geo](administering-exchange-online-multi-geo.md)
+#### [Administering Exchange Multi-Geo](administering-exchange-online-multi-geo.md)
 
 ## [Move to a new Office 365 datacenter geo](moving-data-to-new-datacenter-geos.md)
 ### [How to request your data move](request-your-data-move.md)

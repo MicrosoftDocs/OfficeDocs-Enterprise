@@ -1,5 +1,5 @@
 ---
-title: "Move a OneDrive site to a different geo-location"
+title: "Move a OneDrive site to a different geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -12,7 +12,7 @@ localization_priority: Priority
 description: "Learn how to move a OneDrive site to a different geo location."
 ---
 
-# Move a OneDrive site to a different geo-location 
+# Move a OneDrive site to a different geo location 
 
 With OneDrive geo move, you can move a user’s OneDrive to a different geo location. OneDrive geo move is performed by the SharePoint Online administrator or the Office 365 global administrator. Before you start a OneDrive geo move, be sure to notify the user whose OneDrive is being moved and recommend they close all files for the duration of the move. (If the user has a document open using the Office client during the move, then upon move completion the document will need to be saved to the new location.) The move can be scheduled for a future time, if desired.
 

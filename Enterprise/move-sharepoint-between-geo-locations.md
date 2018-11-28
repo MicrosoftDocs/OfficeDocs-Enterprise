@@ -1,5 +1,5 @@
 ---
-title: "Move a SharePoint site to a different geo-location"
+title: "Move a SharePoint site to a different geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -12,7 +12,7 @@ localization_priority: Priority
 description: "Learn how to move a SharePoint site to a different geo location."
 ---
 
-# Move a SharePoint site to a different geo-location 
+# Move a SharePoint site to a different geo location 
 
 With SharePoint site geo move, you can move SharePoint sites to other geo locations within your multi-geo environment.
 

@@ -7,10 +7,10 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
-description: "Learn how to add or remove a geo administrator in OneDrive for Business Multi-Geo."
+description: "Learn how to add or remove a geo administrator in Office 365 Multi-Geo."
 ---
 
-# Add or remove a geo administrator in OneDrive for Busniess Multi-Geo
+# Add or remove a geo administrator in Office 365 Multi-Geo
 
 You can configure separate administrators for each geo location that you have in your tenant. These administrators will have access to the SharePoint Online and OneDrive settings that are specific to their geo location.
 

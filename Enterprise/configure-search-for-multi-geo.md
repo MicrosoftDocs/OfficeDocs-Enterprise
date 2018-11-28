@@ -1,25 +1,22 @@
 ---
-title: "Configure Search for OneDrive for Business Multi-Geo"
+title: "Configure search for Office 365 Multi-Geo"
 ms.author: tlarsen
 author: tklarsen
 manager: arnek
-ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
-description: "Learn about how to configure Search in a multi geo environment."
+description: "Learn about how to configure search in a multi geo environment."
 ---
 
-# Configure Search for OneDrive for Business Multi-Geo
+# Configure Search for Office 365 Multi-Geo
 
-In a OneDrive for Business Multi-Geo environment, an organization can have one Office 365 tenant, but store their OneDrive content in multiple geographical locations - one central location and one or more satellite locations.
+In a multi-geo environment, each geo location has its own search index and Search Center. When a user searches, the query is fanned out to all the indexes, and the returned results are merged.
 
-Each geo location has its own search index and Search Center. When a user searches, the query is fanned out to all the indexes, and the returned results are merged.
-
-For example, a user in one geo location can search for content stored in another geo location, or for content on a SharePoint site that’s restricted to a different geo location. If the user has access to this content, search will show the result.
+For example, a user in one geo location can search for content stored in another geo location, or for content on a SharePoint site that's restricted to a different geo location. If the user has access to this content, search will show the result.
 
 ## Which search clients work in a multi-geo environment?
 
@@ -43,7 +40,7 @@ As soon as the multi-geo environment has been set up, users that search in OneDr
 
 As soon as the multi-geo environment has been set up, users that search in Delve get results from all geo locations.
 
-The Delve feed and the profile card only show previews of files that are stored in the **central** location. For files that are stored in satellite locations, the icon for the file type is shown instead.
+The Delve feed and the profile card only show previews of files that are stored in the central location. For files that are stored in satellite locations, the icon for the file type is shown instead.
 
 ### The SharePoint home page
 
@@ -57,51 +54,51 @@ After the multi-geo environment has been set up, each Search Center continues to
 
 As usual, custom search applications interact with the search indexes by using the existing SharePoint Search REST APIs. To get results from all, or some geo locations, the application must [call the API and include the new Multi-Geo query parameters](#_Get_custom_search) in the request. This triggers a fan out of the query to all geo locations.
 
-## What’s different about search in a Multi-Geo environment?
+## What's different about search in a multi-geo environment?
 
-Some search features you might be familiar with, work differently in a Multi-Geo environment.
+Some search features you might be familiar with, work differently in a multi-geo environment.
 
 <table>
 <thead>
 <tr class="header">
 <th align="left"><strong>Feature</strong></th>
-<th align="left"><strong>How does it work</strong></th>
+<th align="left"><strong>How it works</strong></th>
 <th align="left"><strong>Workaround</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td align="left">Promoted results</td>
-<td align="left">You can create query rules with promoted results at different levels: for the whole tenant, for a site collection, or for a site. In a multi-geo environment, define promoted results at the <strong>tenant</strong> level if you want to promote the results to the Search Centers in <strong>all</strong> geo locations. If you <strong>only</strong> want to promote results in the Search Center that’s in the geo location of the site collection or site, define the results at the <strong>site collection</strong> or <strong>site</strong> level.</td>
-<td align="left">If you don’t need different promoted results per geo location, for example different rules for traveling, we recommend defining promoted results at the tenant level.</td>
+<td align="left">You can create query rules with promoted results at different levels: for the whole tenant, for a site collection, or for a site. In a multi-geo environment, define promoted results at the tenant level if you want to promote the results to the Search Centers in all geo locations. If you only want to promote results in the Search Center that's in the geo location of the site collection or site, define the results at the site collection or site level.</td>
+<td align="left">If you don't need different promoted results per geo location, for example different rules for traveling, we recommend defining promoted results at the tenant level.</td>
 </tr>
 <tr class="even">
 <td align="left">Search refiners</td>
 <td align="left">Search returns refiners from all the geo locations of a tenant and then aggregates them. The aggregation is a best effort, meaning that the refiner counts might not be 100% accurate. For most search-driven scenarios, this accuracy is sufficient. 
 </td>
-<td align="left">For search-driven applications that depend on refiner completeness, query each geo location independently without using multi-geo fan-out.</td>
+<td align="left">For search-driven applications that depend on refiner completeness, query each geo location independently.</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">Multi-geo search doesn’t support dynamic bucketing for numerical refiners.</td>
+<td align="left">Multi-geo search doesn't support dynamic bucketing for numerical refiners.</td>
 <td align="left">Use the <a href="https://docs.microsoft.com/en-us/sharepoint/dev/general-development/query-refinement-in-sharepoint">“Discretize” parameter</a> for numerical refiners.</td>
 </tr>
 <tr class="even">
 <td align="left">Document IDs</td>
-<td align="left">If you’re developing a search-driven application that depends on document IDs, note that document IDs in a multi-geo environment aren’t unique across geo locations, they are unique per geo location.</td>
-<td align="left">We’ve added a column that identifies the geo location. Use this column to achieve uniqueness. This column is named “GeoLocationSource”.</td>
+<td align="left">If you're developing a search-driven application that depends on document IDs, note that document IDs in a multi-geo environment aren't unique across geo locations, they are unique per geo location.</td>
+<td align="left">We've added a column that identifies the geo location. Use this column to achieve uniqueness. This column is named “GeoLocationSource”.</td>
 </tr>
 <tr class="odd">
 <td align="left">Number of results</td>
-<td align="left">The search results page shows combined results from the geo locations, but it’s not possible to page beyond 500 results.</td>
+<td align="left">The search results page shows combined results from the geo locations, but it's not possible to page beyond 500 results.</td>
 <td align="left"></td>
 </tr>
 </tbody>
 </table>
 
-## What’s not supported for search in a Multi-Geo environment?
+## What's not supported for search in a multi-geo environment?
 
-Some of the search features you might be familiar with, aren’t supported in a multi-geo environment.
+Some of the search features you might be familiar with, aren't supported in a multi-geo environment.
 
 <table>
 <thead>
@@ -113,18 +110,18 @@ Some of the search features you might be familiar with, aren’t supported in a 
 <tbody>
 <tr class="odd">
 <td align="left">App-only authentication</td>
-<td align="left">App-only authentication (privileged access from services) isn’t supported in multi-geo search.</td>
+<td align="left">App-only authentication (privileged access from services) isn't supported in multi-geo search.</td>
 </tr>
 <tr class="even">
 <td align="left">Guest users</td>
-<td align="left">Guest users only get results from the geo location that they’re searching from.</td>
+<td align="left">Guest users only get results from the geo location that they're searching from.</td>
 </tr>
 </tbody>
 </table>
 
-## How does search work in a Multi-Geo environment?
+## How does search work in a multi-geo environment?
 
-**All** the search clients use the existing SharePoint Search REST APIs to interact with the search indexes.
+All the search clients use the existing SharePoint Search REST APIs to interact with the search indexes.
 
 <img src="media/configure-search-for-multi-geo-image1-1.png" />
 
@@ -135,7 +132,7 @@ Some of the search features you might be familiar with, aren’t supported in a 
 
 
 
-<span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Notice that we don’t merge the search results until we’ve received results from all the geo locations. This means that Multi-Geo searches have additional latency compared to searches in an environment with only one geo location.
+<span id="_Set_up_a" class="anchor"><span id="_Ref501388384" class="anchor"></span></span>Notice that we don't merge the search results until we've received results from all the geo locations. This means that multi-geo searches have additional latency compared to searches in an environment with only one geo location.
 
 <span id="_Set_up_a_1" class="anchor"><span id="_Ref505252370" class="anchor"></span></span>
 ## Get a Search Center to show results from all geo locations
@@ -149,7 +146,7 @@ Each Search Center has several verticals and you have to set up each vertical in
 3.  Select the vertical to set up, click **Settings** gear icon in the upper, right corner, and then click **Edit Page**. The search results page opens in Edit mode.
 
      ![](media/configure-search-for-multi-geo-image2.png)
-1.  In the Search Results Web Part, move the pointer to the upper, right corner of the Web Part, click the arrow, and then click **Edit Web Part** on the menu. The Search Results Web Part tool pane opens under the ribbon in the top right of the page. ![](media/configure-search-for-multi-geo-image3.png)
+1.  In the Search Results Web Part, move the pointer to the upper, right corner of the web part, click the arrow, and then click **Edit Web Part** on the menu. The Search Results Web Part tool pane opens under the ribbon in the top right of the page. ![](media/configure-search-for-multi-geo-image3.png)
 
 1.  In the Web Part tool pane, in the **Settings** section, under **Results control settings**, select **Show Multi-Geo results** to get the Search Results Web Part to show results from all geo locations.
 
@@ -164,16 +161,17 @@ Each Search Center has several verticals and you have to set up each vertical in
 
 Custom search applications get results from all, or some, geo locations by specifying query parameters with the request to the SharePoint Search REST API. Depending on the query parameters, the query is fanned out to all geo locations, or to some geo locations. For example, if you only need to query a subset of geo locations to find relevant information, you can control the fan out to only these. If the request succeeds, the SharePoint Search REST API returns response data.
 
-#### Requirement #### 
+**Requirement**
+
 For each geo location, you must ensure that all users in the organization have been granted the **Read** permission level for the root website (for example contoso**APAC**.sharepoint.com/ and contoso**EU**.sharepoint.com/). [Learn about permissions](https://support.office.com/en-us/article/understanding-permission-levels-in-sharepoint-87ecbb0e-6550-491a-8826-c075e4859848).
 
 ### Query parameters
 
-EnableMultiGeoSearch - This is a Boolean value that specifies whether the query shall be fanned out to the indexes of other geo locations of the Multi-Geo tenant. Set it to **true** to fan out the query; **false** to not fan out the query. The default value is **false**. If you don’t include this parameter, the query is **not** fanned out to other geo locations. If you use the parameter in an environment that isn’t Multi-Geo, the parameter is ignored.
+EnableMultiGeoSearch - This is a Boolean value that specifies whether the query shall be fanned out to the indexes of other geo locations of the multi-geo tenant. Set it to **true** to fan out the query; **false** to not fan out the query. The default value is **false**. If you don't include this parameter, the query is not fanned out to other geo locations. If you use the parameter in an environment that isn't multi-geo, the parameter is ignored.
 
-ClientType - This is a string. Enter a unique client name for each search application. If you don’t include this parameter, the query is **not** fanned out to other geo locations.
+ClientType - This is a string. Enter a unique client name for each search application. If you don't include this parameter, the query is not fanned out to other geo locations.
 
-MultiGeoSearchConfiguration - This is an optional list of which geo locations in the multi-geo tenant to fan the query out to when **EnableMultiGeoSearch** is **true**. If you don’t include this parameter, or leave it blank, the query is fanned out to all geo locations. For each geo location, enter the following items, in JSON format:
+MultiGeoSearchConfiguration - This is an optional list of which geo locations in the multi-geo tenant to fan the query out to when **EnableMultiGeoSearch** is **true**. If you don't include this parameter, or leave it blank, the query is fanned out to all geo locations. For each geo location, enter the following items, in JSON format:
 
 <table>
 <thead>
@@ -246,7 +244,7 @@ With a GET request, you specify the query parameters in the URL. With a POST req
 </tbody>
 </table>
 
-#### Sample GET request that’s fanned out to **all** geo locations
+#### Sample GET request that's fanned out to **all** geo locations
 
 https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='EnableMultiGeoSearch:true'&ClientType='my\_client\_id'
 
@@ -255,9 +253,9 @@ https:// \<tenant\>/\_api/search/query?querytext='sharepoint'&Properties='Enable
 https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id'&Properties='EnableMultiGeoSearch:true, MultiGeoSearchConfiguration:[{DataLocation\\:"NAM"\\,Endpoint\\:"https\\://contosoNAM.sharepoint.com"\\,SourceId\\:"B81EAB55-3140-4312-B0F4-9459D1B4FFEE"}\\,{DataLocation\\:"CAN"\\,Endpoint\\:"https\\://contosoCAN.sharepoint-df.com"}]'
 
 > [!NOTE]
-> Commas and colons in the list of geo-locations for the MultiGeoSearchConfiguration property are preceded by the **backslash** character. This is because GET requests use colons to separate properties and commas to separate arguments of properties. Without the backslash as an escape character, the MultiGeoSearchConfiguration property is interpreted wrongly.
+> Commas and colons in the list of geo locations for the MultiGeoSearchConfiguration property are preceded by the **backslash** character. This is because GET requests use colons to separate properties and commas to separate arguments of properties. Without the backslash as an escape character, the MultiGeoSearchConfiguration property is interpreted wrongly.
 
-#### Sample POST request that’s fanned out to **all** geo locations
+#### Sample POST request that's fanned out to **all** geo locations
 
     {
         "request": {
@@ -281,7 +279,7 @@ https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id
     }
 
 
-#### Sample POST request that’s fanned out to **some** geo locations
+#### Sample POST request that's fanned out to **some** geo locations
 
 
     {
@@ -311,7 +309,7 @@ https:// \<tenant\>/\_api/search/query?querytext='site'&ClientType='my_client_id
 
 ### Query using CSOM
 
-Here’s a sample CSOM query that’s fanned out to **all** geo locations:
+Here's a sample CSOM query that's fanned out to **all** geo locations:
 
     var keywordQuery = new KeywordQuery(ctx);
     keywordQuery.QueryText = query.SearchQueryText;
