@@ -41,11 +41,11 @@ Follow these steps to optimize your network for Microsoft SaaS services:
 There are three categories of Microsoft SaaS traffic:
 
 - Optimize
-- 
+
   Required for connectivity to every Microsoft SaaS service and represent over 75% of Microsoft SaaS bandwidth, connections, and volume of data.
 
 - Allow
-- 
+
   Required for connectivity to specific Microsoft SaaS services and features but are not as sensitive to network performance and latency as those in the Optimize category.
 
 - Default
