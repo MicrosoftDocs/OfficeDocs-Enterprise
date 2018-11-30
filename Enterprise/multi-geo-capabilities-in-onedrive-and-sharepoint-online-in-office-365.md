@@ -15,9 +15,9 @@ description: "Expand your Office 365 presence to multiple geographic regions wit
 
 # Multi-Geo Capabilities in OneDrive and SharePoint Online
 
-Multi-Geo Capabilities in OneDrive and SharePoint Online enables control the country or region where shared resources like SharePoint team sites and Office 365 Group mailboxes are stored at rest.
+Multi-Geo capabilities in OneDrive and SharePoint Online enables control of the country or region where shared resources like SharePoint team sites and Office 365 Group mailboxes are stored at rest.
 
-Each user
+Each user, Group mailbox, and SharePoint site has a Preferred Data Location (PDL) which denotes the geo location where related data is to be stored. Users' personal data (Exchange mailbox and OneDrive) along with any Office 365 Groups or SharePoint sites that they create can be stored in the specified geo location to meet data residency requirements.
 
 ## Managing the multi-geo environment
 
@@ -25,9 +25,11 @@ Setting up and managing your multi-geo environment is done through the SharePoin
 
 ![Screenshot of geo locations page in the SharePoint admin center](media/sharepoint-multi-geo-admin-center.png)
 
-Some actions, such as moving a SharePoing site or a OneDrive site require Microsoft PowerShell.
+(Some actions, such as moving a SharePoing site or a OneDrive site require Microsoft PowerShell.)
 
-You can specify administrators for individual geo locations. These administrators have SharePoint admin privileges, but only for the specified geo location. For more information, see [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md).
+Users get a seamless experience when using Office 365 services, including Office applications, OneDrive, and Search. See [User experience in a multi-geo environment](multi-geo-user-experience.md) for details.
+
+You can [specify administrators for individual geo locations](add-a-sharepoint-geo-admin.md).
 
 
 Each user's OneDrive can be provisioned in or moved by an administrator to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
