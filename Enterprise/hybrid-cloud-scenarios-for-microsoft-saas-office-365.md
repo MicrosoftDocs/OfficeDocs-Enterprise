@@ -103,7 +103,7 @@ SharePoint hybrid scenarios:
   
 - [Hybrid OneDrive for Business](https://docs.microsoft.com/SharePoint/hybrid/configure-hybrid-onedrive-for-businessroadmap)
     
-- [Hybrid Extranet B2B](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact)
+- [Hybrid Extranet B2B](https://docs.microsoft.com/sharepoint/create-b2b-extranet)
     
 - [Hybrid search](https://docs.microsoft.com/SharePoint/hybrid/configure-cloud-hybrid-searchroadmap)
     
