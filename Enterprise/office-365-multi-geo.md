@@ -60,7 +60,7 @@ Configuring multi-geo is easy:
   
 1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed.
     
-2. Add your satellite locations.
+2. Choose your satellite locations.
     
 3. Configure your user accounts for the appropriate location.
     

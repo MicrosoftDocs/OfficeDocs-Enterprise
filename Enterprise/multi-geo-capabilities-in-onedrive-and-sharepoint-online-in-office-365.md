@@ -21,11 +21,11 @@ Setting up and managing your multi-geo environment is done through the SharePoin
 
 ## OneDrive
 
-Each user's OneDrive can be provisioned in or moved to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
+Each user's OneDrive can be provisioned in or moved by an administrator to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
 
 ## Sites and Office 365 Groups
 
-When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated mailbox is created. If the user's PDL value hasn't been set, then the site and mailbox are created in the central location.
+When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated group mailbox is created. If the user's PDL value hasn't been set, or has been set to geo location that hasn't been configured as a satellite location, then the site and mailbox are created in the central location.
 
 When a user creates an Office 365 Group in Outlook or Outlook Online, or a team in Teams, the same logic is applied to determine the location of the site and group.
 
