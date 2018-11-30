@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Cloud IT architecture resources"
+title: "Microsoft cloud IT architecture resources"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -16,33 +16,32 @@ ms.custom:
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
 search.appverid:
 - MET150
-description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Microsoft."
+description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Office ProPlus."
 ---
 
-# Microsoft Cloud IT architecture resources
+# Microsoft cloud IT architecture resources
 
- **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid solutions. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Microsoft.
+ **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Office ProPlus.
   
-These architecture tools and posters give you information about Microsoft cloud services, including Office 365, Azure Active Directory, Microsoft Intune, Microsoft Dynamics 365, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security. 
+These architecture tools and posters give you information about Microsoft cloud services, including Office 365, Windows 10, Azure Active Directory, Microsoft Intune, Microsoft Dynamics 365, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security. 
   
 <!---**[Microsoft's Enterprise Cloud Roadmap](microsoft-cloud-it-architecture-resources.md#roadmap)** (Sway) --->
     
-- **[Microsoft Cloud for Enterprise Architects Series](microsoft-cloud-it-architecture-resources.md#cloudarch)** 
+- **[Microsoft cloud for enterprise architects series](microsoft-cloud-it-architecture-resources.md#cloudarch)** 
     <!--- [Microsoft Cloud Services and Platform Options](microsoft-cloud-it-architecture-resources.md#platformoptions) --->
-    - [Microsoft Cloud Identity for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#identity)
-    - [Microsoft Cloud Security for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#security)
-    - [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#networking)
-    - [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-cloud-it-architecture-resources.md#hybrid)
+    - [Microsoft cloud identity for enterprise architects](microsoft-cloud-it-architecture-resources.md#identity)
+    - [Microsoft cloud security for enterprise architects](microsoft-cloud-it-architecture-resources.md#security)
+    - [Microsoft cloud networking for enterprise architects](microsoft-cloud-it-architecture-resources.md#networking)
+    - [Microsoft hybrid cloud for enterprise architects](microsoft-cloud-it-architecture-resources.md#hybrid)
     - [Common attacks and Microsoft capabilities that protect your organization](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
     
-- **[Office 365 Enterprise Solution Series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
+- **[Office 365 enterprise solution series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
     <!--- [Information Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_infoprotect) --->
-    - [Identity and Device Protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP)
-    - [File Protection Solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect)
+    - [Identity and device protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP)
+    - [File protection solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect)
     - [Deploy a modern and secure desktop with Microsoft](microsoft-cloud-it-architecture-resources.md#msd)
     
-> [!TIP]
-> Most of the posters on this page are available in multiple languages, including Chinese, English, French, German, Italian, Japanese, Korean, Portuguese, Russian, and Spanish. To download a poster in one of these languages, click the **More languages** link for that poster.
+
   
 Let us know what you think! Send us email at [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com). 
 
@@ -58,7 +57,7 @@ See the posters, icon sets, community venues, and other resources that describe 
 --->
   
 <a name="cloudarch"> </a>
-## Microsoft Cloud for Enterprise Architects Series
+## Microsoft cloud for enterprise architects series
 
 These cloud architecture posters give you information about Microsoft cloud services, including Office 365, Azure Active Directory, Microsoft Intune, Microsoft Dynamics CRM Online, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security.
 
@@ -75,7 +74,7 @@ Learn key differences between Microsoft cloud services and platform offerings. F
 
    
 <a name="identity"> </a>
-### Microsoft Cloud Identity for Enterprise Architects
+### Microsoft cloud identity for enterprise architects
 
 What IT architects need to know about designing identity for organizations using Microsoft cloud services and platforms.
   
@@ -84,7 +83,7 @@ What IT architects need to know about designing identity for organizations using
 |[![Thumb image for Microsoft cloud identity model](media/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| [Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| [More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft’s cloud </li> <li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li> <li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul> <br/>|
    
 <a name="security"> </a>
-### Microsoft Cloud Security for Enterprise Architects
+### Microsoft cloud security for enterprise architects
 
 What IT architects need to know about security in Microsoft cloud services and platforms.
   
@@ -93,7 +92,7 @@ What IT architects need to know about security in Microsoft cloud services and p
 |[![Thumb image for Microsoft cloud security model](media/5dc26f80-8888-4572-8ed9-a120d711e0f0.png)          ](https://www.microsoft.com/download/details.aspx?id=48121) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=842070)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=842071)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=48121) <br/> | This model contains: <ul><li>Microsoft's role in providing secure services and platforms</li><li>Customer responsibilities to mitigate security risks</li><li>Top security certifications </li><li>Security offerings provided by Microsoft consulting services </ul></li>Take [Security in a Cloud-Enabled World](https://mva.microsoft.com/training-courses/security-in-a-cloudenabled-world-12725?l=CfLHobAcB_3904300474), a Microsoft Virtual Academy course based on this architecture poster. <br/>|
    
 <a name="networking"> </a>
-### Microsoft Cloud Networking for Enterprise Architects
+### Microsoft cloud networking for enterprise architects
 
 What IT architects need to know about networking for Microsoft cloud services and platforms.
   
@@ -103,7 +102,7 @@ What IT architects need to know about networking for Microsoft cloud services an
    
    
 <a name="hybrid"> </a>
-### Microsoft Hybrid Cloud for Enterprise Architects
+### Microsoft hybrid cloud for enterprise architects
 
 What IT architects need to know about hybrid cloud for Microsoft services and platforms.
   
@@ -121,7 +120,7 @@ Learn about the most common cyber attacks and how Microsoft can help your organi
 
 
 <a name="santa"> </a>
-### The Santa Cloud
+### The Santa cloud
 
 How Santa and his elves use Microsoft's cloud offerings to make their annual deliveries.
   
@@ -130,7 +129,7 @@ How Santa and his elves use Microsoft's cloud offerings to make their annual del
 |[![Thumbnail image of The Santa Cloud poster](media/d47e1448-329b-41b7-9e51-cfc4ea5d0069.png)](https://www.microsoft.com/download/details.aspx?id=55039) <br/> [View online](https://onedrive.live.com/?authkey=%21ANT1PMgxEdniCyY&cid=8A8EC4F6612625E0&id=8A8EC4F6612625E0%21440&parId=8A8EC4F6612625E0%21218&o=OneUp) \| [PDF](https://go.microsoft.com/fwlink/p/?linkid=842088) <br/> |To determine who is naughty or nice and the presents to deliver on December 24, Santa Claus and his elfish IT department use Office 365, Azure, Dynamics 365, and Intune.  <br/>|
    
 <a name="BKMK_o365solutions"> </a>
-## Office 365 Enterprise Solution Series
+## Office 365 enterprise solution series
 
 The Office 365 enterprise solution series provides guidance for implementing Office 365 capabilities, especially where capabilities cross technologies.
 
@@ -146,7 +145,7 @@ Capabilities for enterprise organizations to protect corporate assets.
 --->
    
 <a name="BKMK_O365IDP"> </a>
-### Identity and Device Protection for Office 365
+### Identity and device protection for Office 365
 
 Recommended capabilities for protecting identities and devices that access Office 365, other SaaS services, and on-premises applications published with Azure AD Application Proxy.
   
@@ -155,7 +154,7 @@ Recommended capabilities for protecting identities and devices that access Offic
 |[![Model poster: Identity and device protection for Office 365 and other SaaS applications](media/c1cfb31b-5150-45ff-b46c-3a237e9f5581.png)          ](https://www.microsoft.com/download/details.aspx?id=55032) <br/> [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656)  \| [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=55032) <br/> |It's important to use consistent levels of protection across your data, identities, and devices. This document shows you which capabilities are comparable with more information on capabilities to protect identities and devices.  <br/> |
    
 <a name="BKMK_O365fileprotect"> </a>
-### File Protection Solutions in Office 365
+### File protection solutions in Office 365
 
 Recommended capabilities for protecting files in Office 365 based on three different sensitivity levels.
   
