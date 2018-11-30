@@ -3,7 +3,7 @@ title: "Hybrid cloud scenarios for Azure IaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 11/30/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -62,7 +62,7 @@ A DirSync server is a Windows-based server that runs Azure AD Connect. For faste
   
 The DirSync server polls Windows Server AD for changes and then synchronizes them with the Office 365 subscription.
   
-For more information, see [Set up directory synchronization for Office 365](set-up-directory-synchronization.md).
+For more information, see [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md).
   
 ## Line of business (LOB) application
 
@@ -152,7 +152,7 @@ Another example of a multi-tier, highly-available LOB application in Azure is fe
   
 **Figure 5: A high-availability federated identity infrastructure for Office 365 in Azure IaaS**
 
-![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-ADFS.png)
+![A high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-ADFS.png)
   
 In Figure 5, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. The Azure VNet contains web proxy servers, Active Directory Federation Services (AD FS) servers, and Windows Server Active Directory (AD) domain controllers.
   
@@ -172,19 +172,11 @@ Follow this path for successful adoption:
     
     See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) to step through the end-to-end configuration of the high availability AD FS infrastructure in five phases.
     
-See these additional resources:
-  
-- [Architecting Hybrid Cloud Environments](https://gallery.technet.microsoft.com/Architecting-Hybrid-Cloud-a7dc9f24/file/147475/1/Architecting%20Hybrid%20Cloud%20Environments%20V1.docx)
-    
-- [Design and Build an LOB application in Azure ](https://techcommunity.microsoft.com/t5/CAAB-Cloud-Adoption-Advisory/EXTRA-November-2016-Webinar/m-p/30058#M41)
     
 ## See Also
 
 [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
 
 

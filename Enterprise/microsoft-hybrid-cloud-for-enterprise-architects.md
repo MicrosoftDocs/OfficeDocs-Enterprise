@@ -3,7 +3,7 @@ title: "Microsoft Hybrid Cloud for Enterprise Architects"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 11/30/2018
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -28,8 +28,7 @@ This article links you to a set of articles that describe what IT architects nee
 [![Thumb image for the Microsoft hybrid cloud model](media/Hybrid-Poster/Hybrid-Cloud-Thumbnail.png)](https://www.microsoft.com/download/details.aspx?id=54424
 )
   
-[PDF](https://go.microsoft.com/fwlink/p/?linkid=842082) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842083) | 
-[More languages](https://www.microsoft.com/download/details.aspx?id=54424)
+[PDF](https://go.microsoft.com/fwlink/p/?linkid=842082) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842083)
   
 You can also see all of the models in the [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md).
   
@@ -56,13 +55,9 @@ See the following sections:
     The Azure IaaS hybrid scenario architecture and the description of a line of business (LOB) application hosted in Azure IaaS.
     
 > [!NOTE]
-> These articles reflect the **June 2017** release of the Microsoft Hybrid Cloud for Enterprise Architects poster.
+> These articles reflect the **December 2018** release of the Microsoft Hybrid Cloud for Enterprise Architects poster.
   
 ## See Also
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
-
 
