@@ -9,7 +9,7 @@ ms.service: o365-solutions
 ms.custom: 
 localization_priority: Priority
 ms.collection: Strat_SP_gtc
-description: "Learn how to configure OneDrive for Business Multi-Geo."
+description: "Learn how to configure Office 365 Multi-Geo."
 ---
 
 # Office 365 Multi-Geo tenant configuration
@@ -55,6 +55,9 @@ Provisioning may take from a few hours up to 72 hours, depending on the size of 
 <span id="_Setting_a_User's" class="anchor"><span id="_Toc508109326" class="anchor"></span></span> 
 
 Once you enable the needed satellite locations, you can update your user accounts to use the appropriate preferred data location. We recommend that you set a preferred data location for every user, even if that user is staying in the central location.
+
+> [!IMPORTANT]
+> If a user's preferred data location is set to a location that has not been configured as a satellite location or the central locationk, the system will default to the central location when provisioning OneDrive and SharePoint sites and Group mailboxes.
 
 > [!TIP]
 > We recommend that you begin validations with a test user or small group of users before rolling out multi-geo to your broader organization.
