@@ -3,7 +3,7 @@ title: "Microsoft Cloud IT architecture resources"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-ms.date: 11/13/2018
+
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
