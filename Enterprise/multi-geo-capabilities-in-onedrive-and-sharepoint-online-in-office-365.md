@@ -17,7 +17,21 @@ description: "Expand your Office 365 presence to multiple geographic regions wit
 
 Multi-Geo capabilities in OneDrive and SharePoint Online enables control of the country or region where shared resources like SharePoint team sites and Office 365 Group mailboxes are stored at rest.
 
-Each user, Group mailbox, and SharePoint site has a Preferred Data Location (PDL) which denotes the geo location where related data is to be stored. Users' personal data (Exchange mailbox and OneDrive) along with any Office 365 Groups or SharePoint sites that they create can be stored in the specified geo location to meet data residency requirements.
+Each user, Group mailbox, and SharePoint site has a Preferred Data Location (PDL) which denotes the geo location where related data is to be stored. Users' personal data (Exchange mailbox and OneDrive) along with any Office 365 Groups or SharePoint sites that they create can be stored in the specified geo location to meet data residency requirements. You can [specify different administrators for each geo location](add-a-sharepoint-geo-admin.md).
+
+Users get a seamless experience when using Office 365 services, including Office applications, OneDrive, and Search. See [User experience in a multi-geo environment](multi-geo-user-experience.md) for details.
+
+## OneDrive
+
+Each user's OneDrive can be provisioned in or [moved by an administrator](move-onedrive-between-geo-locations.md) to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
+
+## Sites and Groups
+
+When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated Group mailbox is created. (If the user's PDL value hasn't been set, or has been set to geo location that hasn't been configured as a satellite location, then the site and mailbox are created in the central location.)
+
+Office 365 services other than Exchange, OneDrive, Groups, and SharePoint are not multi-geo aware. However, Office 365 Groups that are created by other services - such as Teams or Planner - follow the same Group-creation logic discussed above.
+
+Administrators can [move SharePoint sites between geo locations](move-sharepoint-between-geo-locations.md) if needed, or [restrict content within a site to its geo location](restrict-content-to-geo-location.md).
 
 ## Managing the multi-geo environment
 
@@ -25,24 +39,12 @@ Setting up and managing your multi-geo environment is done through the SharePoin
 
 ![Screenshot of geo locations page in the SharePoint admin center](media/sharepoint-multi-geo-admin-center.png)
 
-(Some actions, such as moving a SharePoing site or a OneDrive site require Microsoft PowerShell.)
-
-Users get a seamless experience when using Office 365 services, including Office applications, OneDrive, and Search. See [User experience in a multi-geo environment](multi-geo-user-experience.md) for details.
-
-You can [specify administrators for individual geo locations](add-a-sharepoint-geo-admin.md).
-
-
-Each user's OneDrive can be provisioned in or moved by an administrator to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
-
-When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated group mailbox is created. If the user's PDL value hasn't been set, or has been set to geo location that hasn't been configured as a satellite location, then the site and mailbox are created in the central location.
-
-Office 365 services other than Exchange, OneDrive, Groups, and SharePoint are not multi-geo aware. However, Office 365 Groups that are created by other services - such as Teams or Planner - follow the same Group-creation logic discussed above.
-
+(Some actions, such as moving a SharePoint site or a OneDrive site require Microsoft PowerShell.)
 
 ## See also
 
-[SharePoint storage quotas in multi-geo environments](sharepoint-multi-geo-storage-quota.md)
+[Administering a multi-geo environment](administering-a-multi-geo-environment.md)
 
-[Restrict content to a geo location](restrict-content-to-geo-location.md)
+[SharePoint storage quotas in multi-geo environments](sharepoint-multi-geo-storage-quota.md)
 
 [Administering Exchange Online mailboxes in a multi-geo environment](administering-exchange-online-multi-geo.md)
