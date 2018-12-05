@@ -3,7 +3,7 @@ title: "ExpressRoute for Microsoft cloud connectivity"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/28/2018
+ms.date: 12/05/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -217,7 +217,7 @@ With multiple ExpressRoute Premium connections, you can have:
     
 - Higher availability to the global Microsoft cloud when a local ExpressRoute connection becomes unavailable.
     
-ExpressRoute Premium is required for Office 365-based ExpressRoute connections. However, there is no additional cost for enterprises with 500 or more licensed users.
+ExpressRoute Premium is required for Office 365-based ExpressRoute connections.
   
 **Figure 9: The world-wide Microsoft cloud network**
 
