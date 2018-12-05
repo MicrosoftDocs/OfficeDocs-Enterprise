@@ -17,7 +17,7 @@ description: "This article describes how you can deploy to SharePoint Online wit
 
 # Capacity planning and load testing SharePoint Online
 
-This article describes how you can deploy to SharePoint Online without performing traditional load testing since it is strongly discouraged.
+This article describes how you can deploy to SharePoint Online without traditional load testing, since load-testing is strongly discouraged.
   
 Although active load testing on SharePoint Online is strongly discouraged, there are other ways you can make sure that a site will not produce a poor user experience when you launch the site. 
   
