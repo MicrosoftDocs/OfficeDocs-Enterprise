@@ -36,7 +36,7 @@ The following geo locations are available for use in a Multi-Geo configuration:
 
 - France
 
-- India (currently only available to customers with billing addresses in India)
+- India
 
 - Japan
 
