@@ -3,7 +3,6 @@ title: "OneDrive for Business Multi-Geo tenant configuration"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 4/3/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -56,6 +55,10 @@ You must add a satellite location for each geo location where you want to use On
 <tr class="even">
 <td align="left">France</td>
 <td align="left">FRA</td>
+</tr>
+<tr class="even">
+<td align="left">India</td>
+<td align="left">IND</td>
 </tr>
 <tr class="odd">
 <td align="left">Japan</td>
