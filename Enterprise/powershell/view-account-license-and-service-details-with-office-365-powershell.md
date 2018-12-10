@@ -3,7 +3,7 @@ title: "View account license and service details with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/27/2018
+ms.date: 12/10/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -59,30 +59,6 @@ This example shows the services that user BelindaN@litwareinc.com has access to 
   
 ```
 (Get-MsolUser -UserPrincipalName belindan@litwareinc.com).Licenses[0].ServiceStatus
-```
-
-To find all the licensed users who have been enabled or not enabled for specific services, use the following syntax:
-  
-```
-Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[<LicenseIndexNumber> ].ServiceStatus[<ServiceIndexNumber> ].ProvisioningStatus <-eq | -ne> "Disabled" -and $_.Licenses[<LicenseIndexNumber> ].ServiceStatus[<ServiceIndexNumber> ].ProvisioningStatus <-eq | -ne> "Disabled"...}
-```
-
-These examples use the following information:
-  
-- The license that gives access to the Office 365 services that we're interested in is the first license that's assigned to all users (the index number is 0).
-    
-- The Office 365 services that we're interested in are Skype for Business Online and Exchange Online. For the licenses that are associated with the licensing plan, Skype for Business Online is the 6th service listed (the index number is 5), and Exchange Online is the 9th service listed (the index number is 8).
-    
-This example returns all licensed users who are enabled for Skype for Business Online and Exchange Online.
-  
-```
-Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[0].ServiceStatus[5].ProvisioningStatus -ne "Disabled" -and $_.Licenses[0].ServiceStatus[8].ProvisioningStatus -ne "Disabled"}
-```
-
-This example returns all licensed users who aren't enabled for Skype for Business Online or Exchange Online.
-  
-```
-Get-MsolUser -All | where {$_.isLicensed -eq $true -and $_.Licenses[0].ServiceStatus[5].ProvisioningStatus -eq "Disabled" -and $_.Licenses[0].ServiceStatus[8].ProvisioningStatus -eq "Disabled"}
 ```
 
 To view all the services for a user who has been assigned *multiple licenses*, use the following syntax:

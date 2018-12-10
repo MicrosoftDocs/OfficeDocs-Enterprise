@@ -221,7 +221,7 @@ ExpressRoute Premium is required for Office 365-based ExpressRoute connections.
   
 **Figure 9: The world-wide Microsoft cloud network**
 
-![Figure 9: The world-wide  Microsoft cloud network](media/Network-Poster/MSNet3.png)
+![Figure 9: The world-wide Microsoft cloud network](media/Network-Poster/MSNet3.png)
   
 Figure 9 shows a logical diagram of the worldwide Microsoft cloud network, with networks that span the continents and regions of the world and their interconnections. With a portion of the Microsoft cloud network in each continent, a global enterprise creates ExpressRoute Premium connections from its regional hub offices to local Microsoft peering locations.
   
