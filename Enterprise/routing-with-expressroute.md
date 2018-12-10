@@ -48,13 +48,11 @@ Regardless of whether you initiate a connection to Office 365 over the Internet 
   
 The following are scenarios where communications from Office 365 to your on-premises network will be initiated. To simplify your network design, we recommend routing these over the Internet path.
   
+- Any SMTP services including but not limited to Mail from an Exchange Online tenant to an on-premises host and SharePoint Online Mail send from SharePoint Online to an on-premises host. SMTP routing over ExpressRoute has known failure modes in certain common scenarios and should be avoided.
+
 - ADFS during password validation for sign-in.
 
 - [Exchange Server Hybrid deployments](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx).
-
-- Mail from an Exchange Online tenant to an on-premises host..
-
-- SharePoint Online Mail send from SharePoint Online to an on-premises host.
 
 - [SharePoint federated hybrid search](https://technet.microsoft.com/library/dn197174.aspx).
 
@@ -64,7 +62,13 @@ The following are scenarios where communications from Office 365 to your on-prem
 
 - [Skype for Business Cloud Connector](https://technet.microsoft.com/library/mt605227.aspx ).
 
-For Microsoft to route back to your network for these bi-directional traffic flows, the BGP routes to your on-premises devices must be shared with Microsoft.
+For Microsoft to route back to your network for these bi-directional traffic flows, the BGP routes to your on-premises devices must be shared with Microsoft. When you advertise route prefixes to Microsoft over ExpressRoute, you should:
+
+1) Do not advertise the same public IP Address route prefix to the public Internet and over ExpressRoute. It is strongly recommended that the IP BGP Route Prefix advertisements to Microsoft over ExpressRoute are from a range which is not advertised to the internet at all. If this is not possible to achieve due to the available IP Address space, then it is essential to ensure you advertise a more specific range over ExpressRoute than any internet circuits.
+
+2) Use separate NAT IP pools per ExpressRoute circuit and separate to that of your internet circuits.
+
+3) Be aware that any route advertised to Microsoft will attract network traffic from any server in Microsoft's network, not only those for which routes are advertised to your network over ExpressRoute. Only advertise routes to servers where routing scenarios are defined and well understood by your team. Advertise separate IP Address route prefixes at each of multiple ExpressRoute circuits from your network. 
   
 ## Deciding which applications and features route over ExpressRoute
 
