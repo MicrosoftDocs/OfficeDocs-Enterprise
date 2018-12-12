@@ -96,6 +96,10 @@ When the eDiscovery Manager or Administrator role is set for a particular satell
 <td align="left">Europe datacenters</td>
 </tr>
 <tr class="even">
+<td align="left"><strong>IND</strong></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
 <td align="left"><strong>KOR</strong></td>
 <td align="left">Southeast or East Asia datacenters</td>
 </tr>
