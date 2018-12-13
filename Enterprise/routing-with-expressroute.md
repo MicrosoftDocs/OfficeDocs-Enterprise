@@ -48,7 +48,7 @@ Regardless of whether you initiate a connection to Office 365 over the Internet 
   
 The following are scenarios where communications from Office 365 to your on-premises network will be initiated. To simplify your network design, we recommend routing these over the Internet path.
   
-- Any SMTP services including but not limited to Mail from an Exchange Online tenant to an on-premises host and SharePoint Online Mail send from SharePoint Online to an on-premises host. SMTP routing over ExpressRoute has known failure modes in certain common scenarios and should be avoided.
+- SMTP services such as mail from an Exchange Online tenant to an on-premises host or SharePoint Online Mail sent from SharePoint Online to an on-premises host. SMTP protocol is used more broadly within Microsoft's network than the route prefixes shared over ExpressRoute circuits and advertising on-premises SMTP servers over ExpressRoute will cause failures with these other services.
 
 - ADFS during password validation for sign-in.
 
@@ -62,7 +62,7 @@ The following are scenarios where communications from Office 365 to your on-prem
 
 - [Skype for Business Cloud Connector](https://technet.microsoft.com/library/mt605227.aspx ).
 
-For Microsoft to route back to your network for these bi-directional traffic flows, the BGP routes to your on-premises devices must be shared with Microsoft. When you advertise route prefixes to Microsoft over ExpressRoute, you should:
+For Microsoft to route back to your network for these bi-directional traffic flows, the BGP routes to your on-premises devices must be shared with Microsoft. When you advertise route prefixes to Microsoft over ExpressRoute, you should follow these best practices:
 
 1) Do not advertise the same public IP Address route prefix to the public Internet and over ExpressRoute. It is strongly recommended that the IP BGP Route Prefix advertisements to Microsoft over ExpressRoute are from a range which is not advertised to the internet at all. If this is not possible to achieve due to the available IP Address space, then it is essential to ensure you advertise a more specific range over ExpressRoute than any internet circuits.
 
