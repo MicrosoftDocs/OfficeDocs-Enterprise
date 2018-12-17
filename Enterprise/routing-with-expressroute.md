@@ -3,7 +3,7 @@ title: "Routing with ExpressRoute for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 12/7/2017
+ms.date: 12/14/2017
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
