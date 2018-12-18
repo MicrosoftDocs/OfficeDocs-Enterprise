@@ -39,7 +39,7 @@ To determine which scenario is the best for your organization, review the [direc
 
 Before you begin synchronizing your directory, you need to clean up your directory.
   
-Review also the [attributes synchronized to Azure Active Directory by Azure AD Connect](https://go.microsoft.com/fwlink/p/?LinkId=746480).
+Review also the [attributes synchronized to Azure Active Directory by Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized).
   
 > [!IMPORTANT]
 > If you don't perform directory cleanup before you synchronize, there can be a significant negative effect on the deployment process. It might take days, or even weeks, to go through the cycle of directory synchronization, identifying errors, and re-synchronization. 
