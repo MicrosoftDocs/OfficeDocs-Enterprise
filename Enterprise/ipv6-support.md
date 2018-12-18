@@ -46,9 +46,7 @@ If the program that you use to connect to SharePoint Online supports IPv6, it wi
   
 ### Skype for Business and IPv6
 
-Microsoft will enable IPv6 for Skype for Business at your request in the public multi-tenant cloud and in Office 365 Government G1/G3/G4/K1 subscriptions. After it's enabled, if the program that you use to connect to Skype for Business supports IPv6, it will use IPv6 by default. If you want to control communications to Skype for Business, use the IP address ranges in [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/?LinkId=293744).
-  
-Please be aware IPv6 is not available in all regions and Microsoft may not be able to activate it for your Tenant at this time.
+Please be aware IPv6 is not supported in Skype for Business and can no longer be enabled.
   
 ### Exchange Online Protection and IPv6
 
