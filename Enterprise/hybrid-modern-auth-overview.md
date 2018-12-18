@@ -82,7 +82,7 @@ Verify and check these items off your list before you continue:
     
   - Your SIP domain is added as a Federated domain in Office 365
     
-  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 1 and 2 of the 'Office 365 authentication and identity' section of [Office 365 URLs and IP address ranges](https://www.bing.com/search?q=%22Office+365+URLs+and+IP+address+ranges%22&amp;src=IE-SearchBox&amp;FORM=IESR3N&amp;redir=5&amp;itrid=96B6C7422F9F4019B37C1B7FDAF8831E).
+  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office Online' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
     
  **Note** If your Skype for Business front-end servers use a proxy server for Internet access, the proxy server IP and Port number used must be entered in the configuration section of the web.config file for each front end. 
   
@@ -103,7 +103,7 @@ Verify and check these items off your list before you continue:
 ```
     
 > [!IMPORTANT]
-> Be sure to subscribe to the RSS feed for [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to stay current with the latest listings of required URLs. 
+> Be sure to subscribe to the RSS feed for [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md) to stay current with the latest listings of required URLs. 
   
 - **Exchange Server specific**
     
