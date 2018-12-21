@@ -1,7 +1,7 @@
 ---
 title: "Session timeouts for Office 365"
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: tracyp
+author: MSFTTracyP
 manager: scotv
 ms.date: 6/29/2018
 ms.audience: Admin
