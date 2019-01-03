@@ -58,7 +58,7 @@ New-AzureADUser -DisplayName "Caleb Sills" -GivenName "Caleb" -SurName "Sills" -
 
 First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-## Create an individual user account
+### Create an individual user account
 
 To create an individual account, use the following syntax:
   
@@ -78,7 +78,7 @@ This example creates an account for the United States user named Caleb Sills, an
 New-MsolUser -DisplayName "Caleb Sills" -FirstName Caleb -LastName Sills -UserPrincipalName calebs@contoso.onmicrosoft.com -UsageLocation US -LicenseAssignment contoso:ENTERPRISEPACK
 ```
 
-## Create multiple user accounts
+### Create multiple user accounts
 
 1. Create a comma-separated value (CSV) file that contains the required user account information. For example:
     

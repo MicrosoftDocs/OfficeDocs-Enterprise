@@ -215,7 +215,7 @@ Write-Host (Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalNa
 By using a **$upn** variable, you can make changes to individual accounts based on their display name. Here is an example of setting Belinda Newman's usage location to France, but specifying her display name rather than her User Principal Name:
   
 ```
-$userName="<Display name>"
+$userName="<display name>"
 $upn=(Get-MsolUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 Set-MsolUser -UserPrincipalName $upn -UsageLocation "FR"
 ```
@@ -249,8 +249,6 @@ This command instructs Office 365 PowerShell to:
 - Find all of the user accounts that have their Department property set to "Accounting" ( **Where-Object {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( **|** ).
     
 - Set the user location to France ( **Set-MsolUser -UsageLocation "FR"** ).
-    
-- Display them one screen at a time ( **More** ).
     
 
 ## See also
