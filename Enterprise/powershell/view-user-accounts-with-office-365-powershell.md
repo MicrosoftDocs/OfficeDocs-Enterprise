@@ -3,7 +3,7 @@ title: "View user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/30/2018
+ms.date: 01/03/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,15 +24,11 @@ description: "Summary: View, list, or display your user accounts in various ways
   
 Although you can use the Office 365 Admin center to view the accounts for your Office 365 tenant, you can also use Office 365 PowerShell and do some things that the Office 365 Admin center cannot.
   
-## Before you begin
+## Use the Azure Active Directory PowerShell for Graph module
 
-The procedures in this topic require you to connect to Office 365 PowerShell. For instructions, see [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md).
+First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
-## Display Office 365 user account information with Azure Active Directory PowerShell for Graph 
-
-The following sections describe how to display user account information.
-
-### All accounts
+### View all accounts
 
 To display the full list of user accounts, run this command:
   
@@ -53,7 +49,7 @@ be4bdddd-c790-424c-9f96-a0cf609b7815 Allan Deyoung                              
 40722671-e520-4a5f-97d4-0bc9e9b2dc0f Debra Berger                                          DebraB@litwareinc.OnMicr...
 ```
 
-### A specific account
+### View a specific account
 
 To display a specific user account, fill in the user principal name (UPN) of the user account, remove the "<" and ">" characters, and run this command:
   
@@ -61,7 +57,7 @@ To display a specific user account, fill in the user principal name (UPN) of the
 Get-AzureADUser -ObjectID <UPN of user account>
 ```
 
-### Additional property values for a specific account
+### View additional property values for a specific account
 
 By default, the **Get-AzureADUser** cmdlet only displays the ObjectID, DisplayName, and UserPrincipalName properties of accounts.
 
@@ -89,7 +85,7 @@ As another example, you can check the enabled status of a specific user account 
 Get-AzureADUser -ObjectID <UPN of user account> | Select-Object DisplayName,UserPrincipalName,AccountEnabled
 ```
 
-### Some accounts based on a common property
+### View some accounts based on a common property
 
 To be more selective about the list of accounts to display, you can use the **Where-Object** cmdlet in combination with the **Get-AzureADUser** cmdlet. To combine the two cmdlets, we use the "pipe" character "|", which tells Azure Active Directory PowerShell for Graph to take the results of one command and send it to the next command. Here is an example command that displays only those user accounts that have an unspecified usage location:
   
@@ -119,11 +115,11 @@ Get-AzureADUser | Where-Object {$_.City -eq "London"}
 >  The syntax for the **Where-Object** cmdlet shown in these examples is **Where-Object {$\_.** [user account property name] [comparison operator] [value] **}**.>  [comparison operator] is **-eq** for equals, **-ne** for not equals, **-lt** for less than, **-gt** for greater than, and others.  [value] is typically a string (a sequence of letters, numbers, and other characters), a numerical value, or **$Null** for unspecified>  See [Where-Object](https://docs.microsoft.com/powershell/module/Microsoft.PowerShell.Core/Where-Object?view=powershell-5.1) for more information.
   
 
-## Display Office 365 user account information with Microsoft Azure Active Directory Module for Windows PowerShell
+## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
-The following sections describe how to display user account information.
+First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-### All accounts
+### View all accounts
 
 To display the full list of user accounts, run this command:
   
@@ -162,7 +158,7 @@ ScottW@litwareinc.onmicrosoft.com     Scott Wallace         False
 For more information about additional parameters to filter the display the set of user accounts displayed, see [Get-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194133(v=azure.100)).
   
 
-### A specific account
+### View a specific account
 
 To display a specific user account, fill in the user principal name (UPN) of the user account, remove the "<" and ">" characters, and run this command:
   
@@ -170,7 +166,7 @@ To display a specific user account, fill in the user principal name (UPN) of the
 Get-MsolUser -UserPrincipalName <UPN of user account>
 ```
 
-### Some accounts based on a common property
+### View some accounts based on a common property
 
 To be more selective about the list of accounts to display, you can use the **Where-Object** cmdlet in combination with the **Get-MsolUser** cmdlet. To combine the two cmdlets, we use the "pipe" character "|", which tells Office 365 PowerShell to take the results of one command and send it to the next command. Here is an example command that displays only those user accounts that have an unspecified usage location:
   
@@ -215,7 +211,7 @@ You can check the blocked status of a user account with the following command:
 Get-MolUser -UserPrincipalName <UPN of user account> | Select-Object DisplayName,BlockCredential
 ```
 
-### Additional property values for accounts
+### View additional property values for accounts
 
 The **Get-MsolUser** cmdlet by default displays three properties of user accounts:
   
@@ -287,10 +283,6 @@ If you are using directory synchronization to create and manage your Office 365 
 ```
 
     
-## New to Office 365?
-
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
-  
 ## See also
 
 [Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
