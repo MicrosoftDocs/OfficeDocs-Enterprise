@@ -1,7 +1,7 @@
 ---
 title: "How modern authentication works for Office 2013 and Office 2016 client apps"
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: tracyp
+author: MSFTTracyP
 manager: laurawi
 ms.date: 8/1/2017
 ms.audience: Admin
