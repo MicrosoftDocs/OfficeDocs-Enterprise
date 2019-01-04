@@ -46,7 +46,7 @@ Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty P
 
 The results contain the following information:
   
-- **SkuPartNumber:** Show the available licensing plans for your organization> For example, `ENTERPRISEPACK` is the system name for Office 365 Enterprise E3.
+- **SkuPartNumber:** Shows the available licensing plans for your organization. For example, `ENTERPRISEPACK` is the system name for Office 365 Enterprise E3.
     
 - **Enabled:** Number of licenses that you've purchased for a specific licensing plan.
     
