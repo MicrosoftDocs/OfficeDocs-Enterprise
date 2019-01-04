@@ -63,10 +63,10 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 To create an individual account, use the following syntax:
   
 ```
-New-MsolUser -DisplayName <display name> -FirstName <first name> -LastName <last name> -UserPrincipalName <sign-in name> -UsageLocation <ISO 3166-1 alpha-2 country code> -LicenseAssignment <AccountSkuID> [-Password <Password>]
+New-MsolUser -DisplayName <display name> -FirstName <first name> -LastName <last name> -UserPrincipalName <sign-in name> -UsageLocation <ISO 3166-1 alpha-2 country code> -LicenseAssignment <licensing plan name> [-Password <Password>]
 ```
 
-To list the available AccountSkuIDs, use this command:
+To list the available licensing plan names, use this command:
 
 ````
 Get-MsolAccountSku
