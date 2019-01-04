@@ -1,7 +1,7 @@
 ﻿
-# [Manage Office 365 with Of fice 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-## [Getting started with Off ice 365 PowerShell](getting-started-with-office-365-powershell.md)
-### [Why you need to use Off ice 365 PowerShell](why-you-need-to-use-office-365-powershell.md)
+# [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+## [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+### [Why you need to use Office 365 PowerShell](why-you-need-to-use-office-365-powershell.md)
 ### [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md)
 ### [Connect to all Office 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md)
 ### [Use Windows PowerShell to create reports in Office 365](use-windows-powershell-to-create-reports-in-office-365.md)
