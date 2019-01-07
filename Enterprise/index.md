@@ -238,7 +238,7 @@ ms.author: robmazz
 </ul>
 
 <hr>
-<h2>Community & Support</h2>
+<h2>More Resources</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -270,6 +270,23 @@ ms.author: robmazz
                     <div class="cardText">
                         <h3>Get support</h3>
                         <p><a href="https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US">Contact Support for help with Office&nbsp;365.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/office/media/icons/caret-right-blue.svg" alt="Microsoft 365 Caret image" data-linktype="external">
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/microsoft-365">Learn more about Microsoft 365.</a></p>
                     </div>
                 </div>
             </div>
