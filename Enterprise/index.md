@@ -238,7 +238,7 @@ ms.author: robmazz
 </ul>
 
 <hr>
-<h2>Community & Support</h2>
+<h2>More Resources</h2>
 
 <ul class="panelContent cardsF">
     <li>
