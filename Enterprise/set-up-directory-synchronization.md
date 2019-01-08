@@ -3,7 +3,6 @@ title: "Set up directory synchronization for Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -12,7 +11,7 @@ ms.custom: Adm_O365
 search.appverid:
 - MET150
 - MOE150
-- MED150
+- MED15
 - MBS150
 - BCS160
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
@@ -57,57 +56,7 @@ You can also review the Azure AD Connect [version release history](https://go.mi
     
     ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
   
-3. On the ** Is directory sync right for you? ** page, the two first choices of **1-10**, and **11-50** result in "Based on the size of your organization, we recommend that you create and manage users in the cloud. Using directory synchronization will make your setup more complex. Go to Active users to add your users." 
-    
-    - You can still, however, continue setting up directory synchronization by choosing **Continue here** on the bottom of the page. 
-    
-    - If you select the two latter choices, **51-250** or **251 or greater**, the synchronization setup will recommend directory synchronization. Choose **Next** to continue. 
-    
-    ![Choose NExt to continue setting up directory synchronization](media/359a1eb9-99ae-4b5b-a413-4de53037cceb.png)
-  
-4. On the **Sync your local directory with the cloud**, read the information, and if you want more information, choose the learn more link that goes to: [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md), and then choose **Next**. 
-    
-5. On the **Let's check your directory** page, review the requirements for automatically checking your directory. If you meet the requirements, choose **Next** \> **Start scan**. If you can't meet the requirements you can still continue by choosing **continue manually**.
-    
-    ![Choose Next or continue manually on the Let's check your directory page](media/af4a6bd5-13aa-4bfa-9751-4464a32ca8db.png)
-  
-6. If you select to scan your directories, choose **Start scan** on the **Evaluating directory synchronization setup** page. 
-    
-    Follow the instructions to download and run the scan.
-    
-7. Once the scan is complete, return to the setup wizard, and choose **Next** to see your scan results. 
-    
-8. Verify your domains as instructed on the **Verify Ownership of your domains** page. For detailed instructions, see [Create DNS records for Office 365 when you manage your DNS records](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23).
-    
-    > [!IMPORTANT]
-    > After you have added a TXT record to verify you own your domain, do not go to the next step of adding users in the domains wizard. The directory synchronization will add users for you. 
-  
-    Return to the **Office 365 Setup** page and choose **Refresh**
-    
-    ![After you verify your domains, choose Refresh](media/9b5fb593-5ff7-49f0-80d0-18e36d39d669.png)
-  
-9. On the **Your domains are ready** page, choose **Next**.
-    
-10. On the **Clean up your environment** page, optionally follow the instructions to download IDFix to check your Active Directory. Choose **Next** to continue. 
-    
-11. On the ** Run Azure Active Directory Connect ** page, choose **Download** to install Azure AD Connect wizard. 
-    
-    > [!NOTE]
-    > At this point you will be in the Azure AD Connect wizard. Make sure you leave the directory synchronization wizard page you were last on open in your browser, so you can return to it after the Azure AD Connect steps are done. 
-  
-    After Azure AD Connect wizard has installed it will automatically open. You can also open it from your desktop, the default install site. Follow the wizard instructions depending on your scenario:
-    
-  - For directory synchronization with password hash synchronization, use [Azure AD Connect with express settings](https://go.microsoft.com/fwlink/p/?LinkID=698537).
-    
-  - For multiple forests, pass-through authentication, federated identity and SSO options, use [Custom Installation of Azure AD Connect](https://go.microsoft.com/fwlink/p/?LinkId=698430).
-    
-    Select **Customize** on the **Express Settings** page to use these options. 
-    
-12. After the Azure AD Connect wizard is done, return to the **Office 365 Setup** wizard, and follow the instructions on the **Make sure sync worked as expected page**. Choose **Next** to continue. 
-    
-13. Read the instructions on the ** Activate users ** page and then choose **Next**.
-    
-14. Choose **Finish** on the **You're all setup** page. 
+3. On the **Active Directory preparation** page, select the **Download Microsoft Azure Active Directory Connect tool** link to get started. For more information about the Azure Active Directory Connect installation process, see [Azure AD Connect and Azure AD Connect Health installation roadmap](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-roadmap).
     
 ## Assign licences to synchronized users
 After you have synchronized your users to Office 365, they are created but you need to assign licenses to them so they can use Office 365 features, such as mail. For instructions, see [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
