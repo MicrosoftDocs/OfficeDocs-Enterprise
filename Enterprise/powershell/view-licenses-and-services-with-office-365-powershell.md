@@ -67,7 +67,7 @@ $licenses = Get-AzureADSubscribedSku
 Next, display the services in a specific license plan.
 
 ````
-$licenses[<index>].ServicePlan
+$licenses[<index>].ServicePlans
 ````
 
 \<index> is an integer that specifies the row number of the license plan from the display of the `Get-AzureADSubscribedSku | Select SkuPartNumber` command, minus 1.
@@ -86,7 +86,7 @@ FLOW_FREE
 Then the command to display the services for the ENTERPRISEPREMIUM license plan is this:
 
 ````
-$licenses[2].ServicePlan
+$licenses[2].ServicePlans
 ````
 
 ENTERPRISEPREMIUM is the third row. Therefore, the index value is (3 - 1), or 2.
