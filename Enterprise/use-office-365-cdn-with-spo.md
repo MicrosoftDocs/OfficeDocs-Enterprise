@@ -133,6 +133,9 @@ Default public origins:
 - \*/masterpage
     
 - \*/style library
+
+> [!NOTE]
+> Clientsideassets is a default public origin that was added in Dec of 2017 so that, if you had a public CDN before that time, you wouldn't see the entry automatically added, but if you created afterward, you'd see this change automatically. If you'd like to read an example of using this CDN origin, see: [Host your client-side web part from Office 365 CDN (Hello World part 4)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/hosting-webpart-from-office-365-cdn)
     
 ## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
 
