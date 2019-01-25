@@ -199,7 +199,7 @@ To learn more, see [Set-OrganizationConfig](https://go.microsoft.com/fwlink/?lin
   
 ## Office 365 Groups cmdlets
 
-The following cmdlets were recently made available to Office 365 Groups. If you aren't able to use these, your Office 365 subscription has not been updated with this functionality yet. Check your Message Center and the [Office 365 Roadmap](http://roadmap.office.com/en-us).
+The following cmdlets were recently made available to Office 365 Groups. If you aren't able to use these, your Office 365 subscription has not been updated with this functionality yet. Check your Message Center and the [Microsoft 365 Roadmap](https://www.microsoft.com/microsoft-365/roadmap).
   
 |**Cmdlet name**|**Description**|
 |:-----|:-----|
