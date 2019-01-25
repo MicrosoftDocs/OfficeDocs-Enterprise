@@ -62,7 +62,7 @@ Before you start a OneDrive geo move, we recommend that you validate the environ
 
 To ensure that all geo locations are compatible, run:
 
-`Get-SPOGeoMoveCompatibilityStatus -AllLocations 1`
+`Get-SPOGeoMoveCrossCompatibilityStatus`
 
 If a OneDrive is under legal hold or if it contains a subsite, it cannot be moved. You can use the Start-SPOUserAndContentMove cmdlet with the -ValidationOnly parameter to validate if the OneDrive is able to be moved:
 
