@@ -78,7 +78,7 @@ We do not support moving sites with:
 -	InfoPath forms 
 -	Legal Holds
 
-To ensure all geo locations are compatible, run `Get-SPOGeoMoveCompatibilityStatus`. This will display all your geo locations and whether the environment is compatible with the destination geo location.
+To ensure all geo locations are compatible, run `Get-SPOGeoMoveCrossCompatibilityStatus`. This will display all your geo locations and whether the environment is compatible with the destination geo location.
 
 To perform a validation-only check on your site, use `Start-SPOSiteContentMove` with the `-ValidationOnly` parameter to validate if the site is able to be moved. For example:
 
