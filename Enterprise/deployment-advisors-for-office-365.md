@@ -37,18 +37,18 @@ Microsoft 365 is a complete, intelligent solution that includes Office 365, Wind
 The  [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) is the place to start. Tell us your deployment goals to make sure you add domains, create users, and assign licenses in the proper order. This is especially important if you're planning to migrate email or configure a hybrid deployment. 
 
 ### Exchange migration advisor
-The [Office 365 mail migration advisor](http://aka.ms/office365setup) will help you move mailboxes from your current mail system to Exchange Online in Office 365 with automated tools and step-by-step guidance. We'll recommend the best migration path for your organization based on your current mail system, the number of mailboxes you want to migrate, and how you plan to manage users and user access.
+The [Office 365 mail migration advisor](https://aka.ms/office365setup) will help you move mailboxes from your current mail system to Exchange Online in Office 365 with automated tools and step-by-step guidance. We'll recommend the best migration path for your organization based on your current mail system, the number of mailboxes you want to migrate, and how you plan to manage users and user access.
   
 The [Gmail contacts and calendar assistant](https://aka.ms/gmailcontactscalendar) gives step-by-step instructions for migrating your Gmail contacts and Google Calendar items to Office 365. When you migrate a user's Gmail mailbox to Office 365, email messages are migrated, but contacts and calendar items are not. This wizard provides the steps for importing Gmail contacts and Google Calendar items to Office 365.
   
 ### Exchange Online Protection
-Microsoft [Exchange Online Protection (EOP)](https://aka.ms/EOPguidance) is a cloud-based email filtering service that helps protect your organization against spam and malware, and includes features to safeguard your organization from messaging policy violations.
+Microsoft [Exchange Online Protection (EOP)](https://aka.ms/EOPguidance) is a cloud-based email filtering service that helps protect your organization against spam and malware and includes features to safeguard your organization from messaging policy violations.
   
 
 ## File creation, storage, and sharing
 
 ### Office 365 ProPlus
-Use the [Office ProPlus quick start guide](https://aka.ms/OPPquickstartguide) walks you through the steps for installing Office on either a PC or a Mac for your company, and it includes tips for getting everyone started with Office.
+The [Office ProPlus quick start guide](https://aka.ms/OPPquickstartguide) walks you through the steps for installing Office on either a PC or a Mac for your company and it includes tips for getting everyone started with Office.
 
 The [Office ProPlus  deployment advisor ](https://aka.ms/o365proplusdeploy) helps you get your users up and running on the latest versions of Office. This advisor walks you through the steps for helping users install Office directly from the Office 365 portal online, or for deploying Office to your users from an on-premises location. Included are instructions for using System Center Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
 
@@ -83,7 +83,7 @@ Office 365 Groups are a shared workspace for email, conversations, files, and ev
   
 ### Microsoft Teams
 
-[Teams deployment advisor](http://aka.ms/teamsguidance)
+[Teams deployment advisor](https://aka.ms/teamsguidance)
   
 Microsoft Teams is the chat-based collaboration service in Office 365 that provides team workspaces for chats, calls, meetings, and private messages. The deployment advisor for Teams helps you set up and configure the optimal Teams experience with Exchange Online, SharePoint Online, OneDrive for Business, and Office 365 Groups. It includes information about configuring tenant settings, Teams and Channels for your projects, Calls and Meetings, Messaging, Tabs for quick access to apps, informational Bots, and Connectors to third-party services.
   
@@ -116,7 +116,7 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 ## Videos for IT pros
 
 ### Admin center
-[Admin center orientation](hhttps://www.microsoft.com/en-us/videoplayer/embed/RWfMut)
+[Admin center orientation](https://www.microsoft.com/en-us/videoplayer/embed/RWfMut)
 
 [Create users in the Admin center](https://aka.ms/ac-createusers)
 
@@ -146,7 +146,7 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 
 [OneDrive for Business Integrated Advantage](https://aka.ms/f66hqa)
 
-[Welcome to OneDrive: Coming from another cloud storage provider](http://videoplayercdn.osi.office.net/embed/6b11f30b-725a-4145-8b72-45a41793a432)
+[Welcome to OneDrive: Coming from another cloud storage provider](https://videoplayercdn.osi.office.net/embed/6b11f30b-725a-4145-8b72-45a41793a432)
 
 
 ### Outlook
