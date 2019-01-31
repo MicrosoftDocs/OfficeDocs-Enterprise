@@ -44,7 +44,7 @@ Add-AzureADDirectoryRoleMember -ObjectId (Get-AzureADDirectoryRole | Where {$_.D
 Here is an example of a completed command set:
   
 ```
-$userName="AdeleV@M365x838891.OnMicrosoft.com"
+$userName="belindan@contoso.com"
 $roleName="Lync Service Administrator"
 Add-AzureADDirectoryRoleMember -ObjectId (Get-AzureADDirectoryRole | Where {$_.DisplayName -eq $roleName}).ObjectID -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
