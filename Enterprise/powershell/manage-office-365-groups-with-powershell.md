@@ -1,8 +1,8 @@
 ---
 title: "Manage Office 365 Groups with PowerShell"
-ms.author: dianef
-author: dianef77
-manager: scotv
+ms.author: mikeplum
+author: MikePlumleyMSFT
+manager: pamgreen
 ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
