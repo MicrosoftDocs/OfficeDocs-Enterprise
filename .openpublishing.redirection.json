@@ -379,6 +379,15 @@
       },
       {
 
+        "source_path": "enterprise/manage-office-365-groups-with-powershell.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell",
+
+        "redirect_document_id": false
+
+      },
+      {
+
         "source_path": "enterprise/build-from-the-ground-up.md",
 
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
