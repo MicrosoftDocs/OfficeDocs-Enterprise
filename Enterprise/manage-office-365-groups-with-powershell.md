@@ -3,7 +3,6 @@ title: "Manage Office 365 Groups with PowerShell"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 6/29/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,7 +16,7 @@ search.appverid:
 - BSA160
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
-description: "This article provides the steps for doing common management tasks for Groups in Microsoft PowerShell."
+description: "Learn how to do common management tasks for Office 365 Groups in Microsoft PowerShell."
 ---
 
 # Manage Office 365 Groups with PowerShell
@@ -51,16 +50,24 @@ Use the Azure Active Directory PowerShell to point your users to your organizati
   
 ### Allow users to Send as the Office 365 Group
 <a name="BK_LinkToGuideLines"> </a>
-
-You can also do this in the Exchange Admin Center. See [Allow members to "Send as" or "Send on behalf of" an Office 365 Group](https://support.office.com/article/0ad41414-0cc6-4b97-90fb-06bec7bcf590.aspx).
   
 If you want to enable your Office 365 groups to "Send As", use the [Add-RecipientPermission](https://go.microsoft.com/fwlink/p/?LinkId=723960) and the [Get-RecipientPermission](https://go.microsoft.com/fwlink/p/?LinkId=733239) cmdlets to configure this. Once you enable this setting, Office 365 group users can use Outlook or Outlook on the web to send and reply to email as the Office 365 group. Users can go to the group, create a new email, and change the "Send As" field to the group's email address. 
+
+([You can also do this in the Exchange Admin Center](https://docs.microsoft.com/en-us/office365/admin/create-groups/allow-members-to-send-as-or-send-on-behalf-of-group).)
   
-> [!NOTE]
-> You'll need to add the group email address to the **Cc** field when you compose the "send as" email, so that the message is sent to the Group and appears in group conversations. 
-  
-At this time, the only way to update the mailbox policy is through [PowerShell](https://technet.microsoft.com/en-us/library/cc482986.aspx).
-  
+Use the following script, replacing *<GroupAlias>* with the alias of the group that you want to update, and *<UserAlias>* with the alias of the user to whom you want to grant permssions.
+
+```PowerShell
+$groupAlias = "<GroupAlias>"
+
+$userAlias = "<UserAlias>"
+
+
+$groupsRecipientDetails = Get-Recipient -RecipientTypeDetails groupmailbox -Identity $groupAlias
+
+Add-RecipientPermission -Identity $groupsRecipientDetails.Name -Trustee $userAlias -AccessRights SendAs
+```
+
 - Use this command to set the group alias.
     
   ```
