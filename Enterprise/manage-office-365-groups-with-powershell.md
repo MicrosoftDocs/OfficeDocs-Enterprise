@@ -55,7 +55,7 @@ If you want to enable your Office 365 groups to "Send As", use the [Add-Recipien
 
 ([You can also do this in the Exchange Admin Center](https://docs.microsoft.com/en-us/office365/admin/create-groups/allow-members-to-send-as-or-send-on-behalf-of-group).)
   
-Use the following script, replacing *<GroupAlias>* with the alias of the group that you want to update, and *<UserAlias>* with the alias of the user to whom you want to grant permssions.
+Use the following script, replacing *\<GroupAlias\>* with the alias of the group that you want to update, and *\<UserAlias\>* with the alias of the user to whom you want to grant permssions.
 
 ```PowerShell
 $groupAlias = "<GroupAlias>"
