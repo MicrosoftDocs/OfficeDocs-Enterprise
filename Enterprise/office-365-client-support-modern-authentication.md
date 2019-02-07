@@ -30,6 +30,8 @@ Learn more about [multi-factor authentication](https://docs.microsoft.com/azure/
 
 ## Supported clients
 
+The latest versions of the following clients support modern authentication:
+
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![Azure icon](media/o365-azure-64x64.png) <br> [Azure AD <br> Portal ](https://azure.microsoft.com/features/azure-portal/) | ![Company portal icon](media/o365-microsoft-64x64.png) <br> [Company <br> Portal ](https://docs.microsoft.com/intune-user-help/sign-in-to-the-company-portal) | ![Delve icon](media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![Dynamics 365 icon](media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) | ![Excel icon](media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) |
