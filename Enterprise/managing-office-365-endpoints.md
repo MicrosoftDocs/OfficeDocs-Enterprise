@@ -199,7 +199,7 @@ Keep in mind that blocking access to the Microsoft consumer services alone won't
   
 [Network infrastructure requirements for Microsoft Intune](https://docs.microsoft.com/intune/get-started/network-infrastructure-requirements-for-microsoft-intune)
   
-[Power BI and ExpressRoute](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)
+[ExpressRoute and Power BI](https://powerbi.microsoft.com/documentation/powerbi-admin-power-bi-expressroute/)
   
 [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
   
