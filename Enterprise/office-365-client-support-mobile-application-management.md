@@ -26,6 +26,8 @@ Learn more about [mobile application management](https://docs.microsoft.com/intu
 
 ## Supported clients
 
+The latest versions of the following clients support mobile application management:
+
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![Dynamics 365 icon](media/o365-dynamics365-64x64.png) <br> [Dynamics 365](https://dynamics.microsoft.com) | ![Edge icon](media/o365-edge-64x64.png) <br> [Edge](https://www.microsoft.com/windows/microsoft-edge) | ![Excel icon](media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Kaizala icon](media/o365-kaizala-64x64.png) <br> [Kaizala](https://products.office.com/en/business/microsoft-kaizala) | ![OneDrive for Business icon](media/o365-OneDrive-64x64.png) <br> [OneDrive](https://products.office.com/onedrive-for-business/online-cloud-storage)

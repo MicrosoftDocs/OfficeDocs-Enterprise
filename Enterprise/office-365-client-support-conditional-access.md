@@ -30,6 +30,8 @@ Learn more about [conditional access](https://docs.microsoft.com/azure/active-di
 
 ## Supported clients
 
+The latest versions of the following clients support conditional access:
+
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![Delve icon](media/o365-delve-64x64.png) <br> [Delve](https://products.office.com/business/intelligent-search) | ![Edge icon](media/o365-edge-64x64.png) <br> [Edge](https://www.microsoft.com/windows/microsoft-edge) | ![Excel icon](media/o365-excel-64x64.png) <br> [Excel](https://products.office.com/excel) | ![Flow icon](media/o365-flow-64x64.png) <br> [Flow](https://flow.microsoft.com) | ![Forms icon](media/o365-forms-64x64.png) <br> [Forms](https://flow.microsoft.com/connectors/shared_microsoftforms/microsoft-forms/) |
