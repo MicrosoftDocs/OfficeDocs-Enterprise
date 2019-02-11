@@ -2,7 +2,7 @@
 # Each line is a file pattern followed by one or more owners.
 
 # These owners will be the default owners for everything in the repo.
-*       @dstrome
+docfx.json                          @officedocs-admins
+.openpublishing.build.ps1           @officedocs-admins
+.openpublishing.publish.config.json @officedocs-admins
 
-# You can also use email addresses if you prefer.
-/Enterprise/  @denisebmsft @brendacarter @joedavies-msft 
