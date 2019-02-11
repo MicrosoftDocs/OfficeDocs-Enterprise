@@ -28,6 +28,8 @@ Learn more about [conditional access](https://docs.microsoft.com/azure/active-di
  - iOS
  - macOS
 
+For more information about platform support in Office 365, see [System requirements for Office 365](https://products.office.com/office-system-requirements).
+
 ## Supported clients
 
 The latest versions of the following clients support conditional access:
