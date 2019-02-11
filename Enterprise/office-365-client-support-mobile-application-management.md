@@ -24,6 +24,8 @@ Learn more about [mobile application management](https://docs.microsoft.com/intu
  - Android
  - iOS<sup>1</sup>
 
+For more information about platform support in Office 365, see [System requirements for Office 365](https://products.office.com/office-system-requirements).
+
 ## Supported clients
 
 The latest versions of the following clients support mobile application management:
