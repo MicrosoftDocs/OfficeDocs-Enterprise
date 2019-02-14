@@ -1,5 +1,5 @@
 ---
-title: "Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365"
+title: "Multi-Geo Capabilities in OneDrive in Office 365"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -10,12 +10,12 @@ ms.custom:
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
 ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
-description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in OneDrive and SharePoint Online."
+description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in OneDrive Online."
 ---
 
-# Multi-Geo Capabilities in OneDrive and SharePoint Online in Office 365
+# Multi-Geo Capabilities in OneDrive in Office 365
 
-With Multi-Geo capabilities in OneDrive and SharePoint Online, your organization can expand its Office 365 presence to multiple geographic regions and/or countries within your existing tenant. Reach out to your Microsoft Account Team to sign up your Multi-National Company for OneDrive for Business Multi-Geo.
+With Multi-Geo capabilities in OneDrive Online, your organization can expand its Office 365 presence to multiple geographic regions and/or countries within your existing tenant. Reach out to your Microsoft Account Team to sign up your Multi-National Company for OneDrive for Business Multi-Geo.
   
 With OneDrive Multi-Geo, you can provision and store data at rest in the geo locations that you've chosen to meet data residency requirements, and at the same time unlock your global roll out of modern productivity experiences to your workforce.
   

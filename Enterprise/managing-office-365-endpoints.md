@@ -3,7 +3,7 @@ title: "Managing Office 365 endpoints"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/22/2018
+ms.date: 02/11/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -175,7 +175,7 @@ The Office 365 suite is broken down into major service areas. These can be selec
 |:-----|:-----|
 |**Exchange** <br/> |Exchange Online and Exchange Online Protection <br/> |
 |**SharePoint** <br/> |SharePoint Online and OneDrive for Business <br/> |
-|**Skype** <br/> |Skype for Business and Microsoft Teams <br/> |
+|**Skype for Business Online and Microsoft Teams** <br/> |Skype for Business and Microsoft Teams <br/> |
 |**Common** <br/> |Office 365 Pro Plus, Office Online, Azure AD and other common network endpoints <br/> |
 
 In addition to basic internet services, there are third-party services that are only used to integrate functionality. While these are needed for integration, they're marked as optional in the Office 365 endpoints article which means core functionality of the service will continue to function if the endpoint isn't accessible. Any network endpoint which is required will have the required attribute set to true. Any network endpoint which is optional will have the required attribute set to false and the notes attribute will detail the missing functionality you should expect if connectivity is blocked.
