@@ -18,7 +18,7 @@ description: "This article contains general tips and links to other resources th
 
 # Tune Exchange Online performance
 
-This article contains general tips and links to other resources that tell you how to improve performance of Exchange Online. This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project.
+This article contains general tips and links to other resources that tell you how to improve performance of Exchange Online, particularly in front of a migration. This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project.
    
 ## Things to consider in order to improve Exchange Online performance
 
