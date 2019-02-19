@@ -12,6 +12,9 @@ search.appverid:
 - MET150
 - MOE150
 ms.custom: Adm_O365
+ms.collection:
+- Ent_O365
+- M365-identity-device-management
 ms.assetid: cc453ae5-fa9b-4836-b0ce-c7e824b1e36d
 description: "Lists the attributes that are excluded and supported by IdFix tool."
 ---
