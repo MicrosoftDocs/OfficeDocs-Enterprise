@@ -139,12 +139,23 @@ See an IP associated with Office 365 that you want more information on?
 2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner.
 3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
 
+### Some Office 365 URLs point to CNAME records instead of A records in the DNS. What do I have to do with the CNAME records?
+<a name="bkmk_cname"> </a>
+
+Client computers need a DNS A or AAAA record that includes one or more IP Address(s) to connect to a cloud service. Some URLs included in Office 365 show CNAME records instead of A or AAAA records. These CNAME records are intermediary and when followed will resolve to an A or AAAA record for an IP Address. For example:
+
+serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.com -> A: IP_1
+
+These CNAME redirects are a normal part of the DNS and are transparent to the client computer and transparent to proxy servers. They are used for load balancing, content delivery networks, high availability, and service incident mitigation. Microsoft does not publish the intermediary CNAME records, they are subject to change at any time, and you should not need to configure them as allowed in your proxy server.
+
+A proxy server validates the initial URL which in the above example is serviceA.office.com and this URL would be included in Office 365 publishing. The proxy server requests DNS resolution of that URL to an IP Address and will receive back IP_1. It does not validate the intermediary CNAME redirection records. 
+
+Hardcoded configurations or whitelisting based on indirect Office 365 FQDNs is not recommended, not supported by Microsoft, and is known to cause customer connectivity issues. DNS solutions that block on CNAME redirection, or that otherwise incorrectly resolve Office 365 DNS entries, can be solved via DNS conditional forwarding (scoped to directly used Office 365 FQDNs) with DNS recursion enabled. Many third party network perimeter products natively integrate recommended Office 365 endpoint whitelisting in their configuration using the [Office 365 IP Address and URL Web service](https://docs.microsoft.com/en-us/office365/enterprise/office-365-ip-web-service).
+
 ### Why do I see names such as nsatc.net or akadns.net in the Microsoft domain names?
 <a name="bkmk_akamai"> </a>
 
-Office 365 and other Microsoft services use several third-party services such as Akamai and MarkMonitor to improve your Office 365 experience. To keep giving you the best experience possible, we may change these services in the future. In doing so, we often publish the CNAME record which points to a third party owned domain, A record, or IP address. Third party domains may host content, such as a CDN, or they may host a service, such as a geographical traffic management service. When you see connections to these third parties, they're in the form of a redirect or referral, not an initial request from the client. Some customers need to ensure this form of referral and redirection is allowed to pass without explicitly adding the long list of potential FQDNs third party services may use.
-  
-The list of services is subject to change at any time. Some of the services currently in use include:
+Office 365 and other Microsoft services use several third-party services such as Akamai and MarkMonitor to improve your Office 365 experience. To keep giving you the best experience possible, we may change these services in the future. Third party domains may host content, such as a CDN, or they may host a service, such as a geographical traffic management service. Some of the services currently in use include:
   
 [MarkMonitor](https://www.markmonitor.com/) is in use when you see requests that include  *\*.nsatc.net*  . This service provides domain name protection and monitoring to protect against malicious behavior.
   
