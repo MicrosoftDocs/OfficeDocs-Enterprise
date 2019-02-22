@@ -4,7 +4,7 @@ ms.author: tracyp
 ms.reviewer: smithre4
 author: MSFTTracyP
 manager: laurawi
-ms.date: 10/02/2018
+ms.date:
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -134,9 +134,10 @@ Verify and check these items off your list before you continue:
     
   - You have AAD Connect configured and functioning for user replication and sync.
     
-  - You have verified that hybrid is working between your on-premises and Office 365:
+  - You have verified that hybrid is configured using Exchange Classic Hybrid Topology mode between your on-premises and Office 365 environment. Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
     
-  - Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
+    > [!Note]
+    > Hybrid Modern Authentication is not supported with the [Hybrid Agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
     
   - Make sure both an on-premises test user, as well as a hybrid test user homed in Office 365, can login to the Skype for Business desktop client (if you want to use Modern Authentication with Skype) and Microsoft Outlook (if you want so use Modern Authentication with Exchange).
     
