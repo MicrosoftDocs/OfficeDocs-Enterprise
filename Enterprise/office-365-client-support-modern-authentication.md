@@ -6,7 +6,10 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration
-localization_priority: None
+localization_priority: Normal
+ms.collection: 
+- Strat_O365_Enterprise
+- M365-subscription-management
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
