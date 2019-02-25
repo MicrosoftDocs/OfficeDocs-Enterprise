@@ -3,12 +3,13 @@ title: "Understanding Office 365 identity and Azure Active Directory"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-identity-device-management
 ms.custom: Adm_O365
 search.appverid:
 - MET150

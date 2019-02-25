@@ -9,6 +9,9 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:
+- Ent_O365
+- M365-subscription-management
 search.appverid:
 - MET150
 - MOE150

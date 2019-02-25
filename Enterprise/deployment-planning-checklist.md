@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365-subscription-management
 ms.custom: Adm_O365
 search.appverid:
 - MET150
