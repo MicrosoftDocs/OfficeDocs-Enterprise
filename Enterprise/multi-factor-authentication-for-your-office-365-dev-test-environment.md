@@ -3,7 +3,7 @@ title: "Multi-factor authentication for your Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/22/2018
+ms.date: 02/20/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -54,7 +54,7 @@ Enable multi-factor authentication for the User 2 account with these steps:
     
 3. In the left navigation, click **Users > Active users**.
     
-4. In the Active users pane, click **More > Setup Azure multi-factor auth**.
+4. In the Active users pane, click **More > Multi-factor authentication setup**.
     
 5. In the list, select the **User 2** account.
     
@@ -62,7 +62,7 @@ Enable multi-factor authentication for the User 2 account with these steps:
     
 7. In the **About enabling multi-factor auth** dialog box, click **Enable multi-factor auth**.
     
-8. In the **Update successful** dialog box, click **Close**.
+8. In the **Updates successful** dialog box, click **Close**.
     
 9. On the **Microsoft Office Home** tab, click the user account icon in the upper right, and then click **Sign out**.
     
