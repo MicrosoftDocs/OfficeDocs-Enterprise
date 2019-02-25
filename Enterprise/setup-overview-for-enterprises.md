@@ -13,6 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365-subscription-management
 ms.custom: Adm_O365
 search.appverid: MOE150
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94

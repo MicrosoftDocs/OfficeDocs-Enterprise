@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: 
+- Ent_O365
+- M365-identity-device-management
 ms.custom: Adm_O365
 search.appverid:
 - MET150

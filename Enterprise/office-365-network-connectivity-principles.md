@@ -113,7 +113,7 @@ If you use cloud-based network or security services for your Office 365 traffic,
 Due to the large number of distributed locations with Office 365 entry points and their proximity to end users, routing Office 365 traffic to any third party network or security provider can have an adverse impact on Office 365 connections if the provider network is not configured for optimal Office 365 peering.
   
 <a name="BKMK_P4"> </a>
-### Bypass proxies, traffic inspection devices and duplicate security technologies
+### Assess bypassing proxies, traffic inspection devices and duplicate security technologies
 
 ![Bypass proxies, traffic inspection devices and duplicate security technologies](media/0131930d-c6cb-4ae1-bbff-fe4cf6939a23.png)
   

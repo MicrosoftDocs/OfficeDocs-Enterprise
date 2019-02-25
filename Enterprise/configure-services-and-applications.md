@@ -8,7 +8,9 @@ ms.audience: ITPro
 ms.topic: deployment
 ms.service: o365-administration
 localization_priority: Priority
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-subscription-management
 search.appverid:
 - MET150
 - MOE150

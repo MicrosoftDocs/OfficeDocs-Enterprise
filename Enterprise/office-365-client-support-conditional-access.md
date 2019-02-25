@@ -6,10 +6,12 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration
-localization_priority: None
+localization_priority: Normal
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
+ms.collection: 
+- Strat_O365_Enterprise
+- M365-subscription-management
 description: "Understand Office 365 client app support for conditional access"
 ---
 
@@ -28,7 +30,11 @@ Learn more about [conditional access](https://docs.microsoft.com/azure/active-di
  - iOS
  - macOS
 
+For more information about platform support in Office 365, see [System requirements for Office 365](https://products.office.com/office-system-requirements).
+
 ## Supported clients
+
+The latest versions of the following clients support conditional access:
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|

@@ -6,7 +6,10 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.service: Office 365 Administration
-localization_priority: None
+localization_priority: Normal
+ms.collection: 
+- Strat_O365_Enterprise
+- M365-subscription-management
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
@@ -24,7 +27,11 @@ Learn more about [mobile application management](https://docs.microsoft.com/intu
  - Android
  - iOS<sup>1</sup>
 
+For more information about platform support in Office 365, see [System requirements for Office 365](https://products.office.com/office-system-requirements).
+
 ## Supported clients
+
+The latest versions of the following clients support mobile application management:
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
