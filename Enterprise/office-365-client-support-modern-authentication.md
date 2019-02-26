@@ -12,7 +12,6 @@ ms.collection:
 - M365-subscription-management
 search.appverid:
 - MET150
-ms.collection: Strat_O365_Enterprise
 description: "Office 365 Client App support for modern authentication."
 ---
 
