@@ -11,7 +11,7 @@ localization_priority: Priority
 search.appverid:
 - MET150
 ms.collection: 
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
