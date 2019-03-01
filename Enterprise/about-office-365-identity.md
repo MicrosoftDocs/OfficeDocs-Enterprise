@@ -31,7 +31,7 @@ Depending if you have or don't have an existing Active Directory environment on-
   
 ### Cloud-only
 
-With the cloud-only model, you manage your user accounts in Office 365 only. No on-premises servers are required; it's all handled in the cloud by Azure AD. You create and manage users in the Office 365 admin center or by using Windows PowerShell [PowerShell cmdlets](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) and identity and authentication are handled completely in the cloud by Azure AD. The cloud-only model is typically a good choice if: 
+With the cloud-only model, you manage your user accounts in Office 365 only. No on-premises servers are required; it's all handled in the cloud by Azure AD. You create and manage users in the Microsoft 365 admin center or by using Windows PowerShell [PowerShell cmdlets](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) and identity and authentication are handled completely in the cloud by Azure AD. The cloud-only model is typically a good choice if: 
   
 - You have no other on-premises user directory.
     

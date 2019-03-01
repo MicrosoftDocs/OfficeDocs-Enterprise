@@ -3,7 +3,6 @@ title: "View directory synchronization status in Office 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,12 +20,14 @@ description: "Learn how to deactivate directory synchronization. You can also vi
 ---
 
 # View directory synchronization status in Office 365
+
 If you have integrated your on-premises Active Directory with Azure AD by synchronizing your on-premises environment with Office 365, you can also check the status of your synchronization.
   
 ## View directory synchronization status
-- Sign in to the Office 365 admin center and choose **DirSync Status** on the home page. 
+
+- Sign in to the Microsoft 365 admin center and choose **DirSync Status** on the home page.
 - Alternately, you can go to **Users** \> **Active users**, and on the **Active users** page, choose **More** \> **Directory synchronization**. On the **Directory Synchronization** pane, choose **Go to DirSync management**.
-    
+
 ## Information on the Manage directory synchronization page
 
 The following table lists the features you can get information about on the page.

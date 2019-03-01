@@ -122,9 +122,6 @@ For more information about our commitment to uptime, see [Transparent operations
 
 Our goal is to make sure that the information we provide to you about an ongoing issue is timely, accurate, and useful. To tell us how we're doing, select a star rating. After you give us a score from 1 to 5 stars, you can give feedback on any specific details. We'll use your feedback to fine-tune our service health system.
   
-![Feedback form for service health issues](media/fd083fdb-fde8-47b4-9136-b90d1d003864.png)
-  
 ## See also
 
-[Activity Reports in the Office 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
-
+[Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

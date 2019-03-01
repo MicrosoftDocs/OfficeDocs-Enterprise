@@ -25,7 +25,7 @@ With directory synchronization, you can continue to manage users and groups on-p
   
 ## How do I know if something is wrong?
 
-The first indication that something is wrong is when the DirSync Status tile in the Office 365 admin center indicates there is a problem:
+The first indication that something is wrong is when the DirSync Status tile in the Microsoft 365 admin center indicates there is a problem:
   
 ![The DirSync Status tile in admin center preview](media/060006e9-de61-49d5-8979-e77cda198e71.png)
   
@@ -33,11 +33,11 @@ You will also receive a mail (to the alternate email and to your admin email) fr
   
 ## How do I get Azure Active Directory Connect tool?
 
-In the Office 365 admin center, navigate to ** Users ** \> **Active users**. Click the **More** menu and select **Directory synchronization**. 
+In the Microsoft 365 admin center, navigate to ** Users ** \> **Active users**. Click the **More** menu and select **Directory synchronization**. 
   
 ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
   
-In the old Office 365 admin center, navigate to **USERS** \> **Active Users**, and select **Set up** next to **Active Directory synchronization**. 
+In the old Microsoft 365 admin center, navigate to **USERS** \> **Active Users**, and select **Set up** next to **Active Directory synchronization**. 
   
 ![Choose Set up next to Active Directory synchronization](media/bd95492b-d65e-4072-a6ee-e562f5f566c3.png)
   
@@ -53,13 +53,13 @@ To update from Azure Active Directory Sync to Azure AD Connect, see [the upgrade
 
 - [Identity synchronization and duplicate attribute resiliency](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)
 
-### **I have an alert in the Office 365 admin center, or am receiving automated emails that there hasn't been a recent synchronization event**
+### **I have an alert in the admin center, or am receiving automated emails that there hasn't been a recent synchronization event**
 - [Troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
 - [Azure AD Connect Accounts and permissions](https://go.microsoft.com/fwlink/p/?LinkId=820598)
 - [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-azureadaccount)
 - [Directory synchronization to Azure Active Directory stops or you're warned that sync hasn't registered in more than a day](https://support.microsoft.com/help/2882421/directory-synchronization-to-azure-active-directory-stops-or-you-re-warned-that-sync-hasn-t-registered-in-more-than-a-day)
 
-### **Password hashes aren't synchronizing, or I'm seeing an alert in the Office 365 admin center that there hasn't been a recent password hash synchronization**
+### **Password hashes aren't synchronizing, or I'm seeing an alert in the admin center that there hasn't been a recent password hash synchronization**
 - [Implementing password hash synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)
 
 ### **I'm seeing an alert that Object quota exceeded**

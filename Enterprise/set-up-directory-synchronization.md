@@ -51,7 +51,7 @@ For your on-premises server on which you install Azure AD Connect you will need 
 |**Windows Server 2008** | - The latest supported version of PowerShell is available in Windows Management Framework 3.0, available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996).  <br> - .Net 4.5.1 and later releases are available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996). |
 
 > [!NOTE]
-> If you're using Azure Active Directory DirSync, the maximum number of distribution group members that you can synchronize from your on-premises Active Directory to Azure Active Directory is 15,000. For Azure AD Connect, that number is 50,000. 
+> If you're using Azure Active Directory DirSync, the maximum number of distribution group members that you can synchronize from your on-premises Active Directory to Azure Active Directory is 15,000. For Azure AD Connect, that number is 50,000.
   
 To more carefully review hardware, software, account and permissions requirements, SSL certificate requirements, and object limits for Azure AD Connect, read [Prerequisites for Azure Active Directory Connect](https://go.microsoft.com/fwlink/p/?LinkId=716896).
   
@@ -59,8 +59,8 @@ You can also review the Azure AD Connect [version release history](https://docs.
 
 ## To set up directory synchronization
 
-1. Sign in to the Office 365 admin center and choose **Users** \> **Active Users** on the left navigation.
-2. In the Office 365 admin center, on the **Active users** page, choose **More** \> **Directory synchronization**.
+1. Sign in to the Microsoft 365 admin center and choose **Users** \> **Active Users** on the left navigation.
+2. In the admin center, on the **Active users** page, choose **More** \> **Directory synchronization**.
 
     ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
   
