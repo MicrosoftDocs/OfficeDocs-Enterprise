@@ -3,7 +3,7 @@ title: "Connect to all Office 365 services in a single Windows PowerShell window
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 02/28/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -135,11 +135,11 @@ Here are the steps to connect to all the services in a single PowerShell window.
 Here are all the commands in a single block when using the Azure Active Directory PowerShell for Graph module. Specify the name of your domain host, and then run them all at one time.
   
 ```
-$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 $credential = Get-Credential
 Connect-AzureAD -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-Connect-SPOService -Url https://$domainHost-admin.sharepoint.com -credential $credential
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
 Import-Module SkypeOnlineConnector
 $sfboSession = New-CsOnlineSession -Credential $credential
 Import-PSSession $sfboSession
@@ -152,11 +152,11 @@ Import-PSSession $SccSession -Prefix cc
 Alternately, here are all the commands in a single block when using the Microsoft Azure Active Directory Module for Windows PowerShell module. Specify the name of your domain host, and then run them all at one time.
   
 ```
-$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 $credential = Get-Credential
 Connect-MsolService -Credential $credential
 Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-Connect-SPOService -Url https://$domainHost-admin.sharepoint.com -credential $credential
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com -credential $credential
 Import-Module SkypeOnlineConnector
 $sfboSession = New-CsOnlineSession -Credential $credential
 Import-PSSession $sfboSession
@@ -174,15 +174,15 @@ Remove-PSSession $sfboSession ; Remove-PSSession $exchangeSession ; Remove-PSSes
 
 ## Connection steps when using multi-factor authentication
 
-Here are all the commands in a single block to connect to Azure AD, SharePoint Online, and Skype for Buiness using multi-factor authentication in a single window. Specify the user principal name (UPN) name of a global administrator account and your domain host name, and then run them all at one time.
+Here are all the commands in a single block to connect to Azure AD, SharePoint Online, and Skype for Buiness using multi-factor authentication in a single window using the Azure Active Directory PowerShell for Graph module. Specify the user principal name (UPN) name of a user account and your domain host name, and then run them all at one time.
 
 ````
-$acctName="<UPN of a global administrator account>"
-$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
+$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 #Azure Active Directory
 Connect-AzureAD
 #SharePoint Online
-Connect-SPOService -Url https://$domainHost-admin.sharepoint.com
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
 $sfboSession = New-CsOnlineSession -UserName $acctName
 Import-PSSession $sfboSession
@@ -191,12 +191,12 @@ Import-PSSession $sfboSession
 Alternately, here are all the commands when using the Microsoft Azure Active Directory Module for Windows PowerShell module.
 
 ````
-$acctName="<UPN of a global administrator account>"
-$domainHost="<domain host name, such as litwareinc for litwareinc.onmicrosoft.com>"
+$acctName="<UPN of the account, such as belindan@litwareinc.onmicrosoft.com>"
+$orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
 #Azure Active Directory
 Connect-MsolService
 #SharePoint Online
-Connect-SPOService -Url https://$domainHost-admin.sharepoint.com
+Connect-SPOService -Url https://$orgName-admin.sharepoint.com
 #Skype for Business Online
 $sfboSession = New-CsOnlineSession -UserName $acctName
 Import-PSSession $sfboSession

@@ -15,7 +15,6 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-subscription-management
 ms.custom: Adm_O365
-search.appverid: MOE150
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
 description: "These overview steps are designed to help you deploy Office 365, connect your Active Directory, migrate your data, and help the people in your organization begin using the latest version of Office 2016."
 ---
