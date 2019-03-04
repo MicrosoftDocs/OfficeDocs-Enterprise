@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-identity-device-management
+- M365-security-compliance
 ms.custom: Adm_O365
 search.appverid:
 - MET150
