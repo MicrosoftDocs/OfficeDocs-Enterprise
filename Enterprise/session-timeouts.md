@@ -16,6 +16,8 @@ search.appverid:
 - MBS150
 - BCS160
 ms.assetid: 37a5c116-5b07-4f70-8333-5b86fd2c3c40
+ms.collection:
+- M365-security-compliance
 description: "Session timeouts are used to balance securtiy and ease of access  in Office 365 client apps."
 ---
 
