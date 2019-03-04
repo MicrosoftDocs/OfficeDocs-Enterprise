@@ -8,6 +8,9 @@ ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Priority
+ms.collection: 
+- M365-subscription-management
+- Strat_O365_Enterprise
 search.appverid:
 - GMA150
 - GPA150
