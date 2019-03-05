@@ -206,7 +206,7 @@ Or, you can use the following steps to onboard mailboxes directly in a specific 
 6. If you need to migrate additional mailboxes to a different satellite location, repeat steps 2 through 4 for each specific satellite location.
 
 ## Multi-geo reporting
-**Multi-Geo Usage Reports** in the Office 365 admin center displays the user count by geo location. The report displays user distribution for the current month and provides historical data for the past 6 months.
+**Multi-Geo Usage Reports** in the Microsoft 365 admin center displays the user count by geo location. The report displays user distribution for the current month and provides historical data for the past 6 months.
 
 ## See also
 
