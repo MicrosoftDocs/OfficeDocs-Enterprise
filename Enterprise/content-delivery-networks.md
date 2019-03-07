@@ -3,7 +3,7 @@ title: "Content delivery networks"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/26/2018
+ms.date: 3/5/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -54,20 +54,34 @@ The list of FQDNs and how they leverage CDNs change over time, refer to our publ
   
 ## Is there a list of all the CDNs that Office 365 uses?
 
-The CDNs in use by Office 365 are always subject to change and in many cases there are multiple CDN partners configured in the event one is unavailable. The two most common CDNs in use are [Akamai](https://www.akamai.com/us/en/cdn.jsp) and [Microsoft Azure](https://azure.microsoft.com/documentation/services/cdn/). Both of these CDN solutions have a global reach enhancing the reach of the service to more corners of the world. The content that is stored there includes general Office 365 scripts, files, and images. For example, when you logon to portal.office.com, the images are pulled from the nearest CDN to speed up the page load times. Other examples include Office 365 ProPlus storing the installation bits on a CDN to speed up the amount of time it takes to download the latest version of Office. There is also some proprietary content that is stored on CDNs such as the video files for Office 365 Video. Once you upload the videos, the files are encrypted and then stored in their encrypted format with Azure Media Services. When the Office 365 video player retrieves the video it is first cached to the nearest CDN before being downloaded to speed up the amount of time it takes to download the video.
-  
-## Does Office 365 offer a CDN that I can use for my own files?
+The CDNs in use by Office 365 are always subject to change and in many cases there are multiple CDN partners configured in the event one is unavailable. The primary CDNs in use are:
 
-Yes! Your Office 365 subscription now includes a CDN that is separate from Azure that you can use specifically for your SharePoint Online assets. For information on how to use the Office 365 CDN, see [Use the Office 365 content delivery network with SharePoint Online](use-office-365-cdn-with-spo.md).
-  
++ [Office 365 (specifically for SharePoint Online content)](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)
++ [Microsoft Azure](https://azure.microsoft.com/documentation/services/cdn/)
++ [Akamai](https://www.akamai.com/us/en/cdn.jsp)
+
+These CDN solutions have a global reach enhancing the reach of the service to more corners of the world. The content that is stored there includes general Office 365 scripts, files, and images. For example, when you logon to portal.office.com, the images are pulled from the nearest CDN to speed up the page load times. Other examples include Office 365 ProPlus storing the installation bits on a CDN to speed up the amount of time it takes to download the latest version of Office.
+
+There is also some proprietary content that is stored on CDNs such as the video files for Office 365 Video. Once you upload the videos, the files are encrypted and then stored in their encrypted format with Azure Media Services. When the Office 365 video player retrieves the video it is first cached to the nearest CDN before being downloaded to speed up the amount of time it takes to download the video.
+
+For information on how to use the Office 365 CDN, see [Use the Office 365 content delivery network with SharePoint Online](use-office-365-cdn-with-spo.md).
+
 ## Can I use my own CDN and cache content on my local network?
 
 We're continually looking for new ways to support our customers needs and are currently exploring the use of caching proxy solutions and other on-premises CDN solutions.
   
 ## Is my data safe?
 
-We take great care to help ensure that we protect the data that runs your business. The items stored at our content delivery network partners is either encrypted; such as with [Office 365 Video](https://support.office.com/article/2bed67a1-4052-49ff-a4ce-b7e6530eb98e), or not customer specific; such as the Office 365 ProPlus installation files. Head on over to the [Office 365 Trust Center](https://go.microsoft.com/fwlink/p/?LinkId=397383) to learn more about our in-depth efforts to protect your data and your privacy.
-  
+We take great care to help ensure that we protect the data that runs your business. Customer-specific data stored in CDNs is encrypted both in transit and at rest, and is protected by the same file-level permissions as data not stored in a CDN.
+
+CDN providers may have privacy and compliance standards that differ from the commitments outlined by the Office 365 Trust Center. Data cached through the CDN service may not conform to the Microsoft Data Processing Terms (DPT), and may be outside of the Office 365 Trust Center compliance boundaries.
+
+For in-depth information about privacy and data protection for Office 365 CDN providers, visit the following:  
+
++ Learn more about Office 365 privacy and data protection at the [Office 365 Trust Center](https://go.microsoft.com/fwlink/p/?LinkId=397383)
++ Learn more about Azure privacy and data protection at the [Azure Trust Center](https://azure.microsoft.com/en-us/overview/trusted-cloud/)
++ Learn more about Akamai’s privacy and data protection at the [Akamai Privacy Trust Center](https://www.akamai.com/us/en/about/compliance/data-protection-at-akamai.jsp)
+
 ## How can I secure my network with all these 3rd party services?
 
 Leveraging an extensive set of partner services allows Office 365 to scale and meet availability requirements as well as enhance the user experience when using Office 365. The 3rd party services Office 365 leverages include both certificate revocation lists; such as crl.microsoft.com or sa.symcb.com, and CDNs; such as r3.res.outlook.com. Every CDN FQDN Office 365 uses is a custom FQDN for Office 365, if you're sent to a FQDN at the request of Office 365 you can be assured that we control the FQDN and the underlying content at that location.
