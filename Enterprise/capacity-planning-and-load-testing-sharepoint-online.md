@@ -15,7 +15,7 @@ ms.assetid: c932bd9b-fb9a-47ab-a330-6979d03688c0
 description: "This article describes how you can deploy to SharePoint Online without performing traditional load testing since it is not permitted."
 ---
 
-# Capacity planning and load testing SharePoint Online
+# Capacity planning and load testing SharePoint Online.
 
 This article describes how you can deploy to SharePoint Online without traditional load testing, since load-testing is strongly discouraged.
   
