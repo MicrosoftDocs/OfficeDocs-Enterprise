@@ -15,7 +15,7 @@ ms.assetid: c932bd9b-fb9a-47ab-a330-6979d03688c0
 description: "This article describes how you can deploy to SharePoint Online without performing traditional load testing since it is not permitted."
 ---
 
-# Capacity planning and load testing SharePoint Online
+# Capacity planning and load testing SharePoint Online.
 
 This article describes how you can deploy to SharePoint Online without traditional load testing, since load-testing is not permitted on SharePoint Online. SharePoint Online is a cloud service the load capabilities, health and overall balance of load in the service is managed by Microsoft.
   
@@ -50,4 +50,4 @@ As shown in the following image, often the number of users that are invited is s
   
 In the pilot phase, it is good to get feedback from users that the organization trusts and knows will be engaged. This way it is possible to gauge how the system is being used, as well as how it is performing.
   
-During each of the waves gather user feedback around the features as well as the performance during each wave of deployment. This has the advantage of slowly introducing the system and making improvements as the system gets more use. This also allows us to react to the increased load as the site is rolled out to more and more users.
+During each of the waves, gather user feedback around the features as well as the performance during each wave of deployment. This has the advantage of slowly introducing the system and making improvements as the system gets more use. This also allows us to react to the increased load as the site is rolled out to more and more users.
