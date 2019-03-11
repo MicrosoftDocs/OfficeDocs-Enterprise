@@ -129,11 +129,12 @@
 ### [OneDrive and SharePoint multi-geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 ### [Exchange Multi-Geo](multi-geo-capabilities-in-exchange-online.md)
 ### [Plan for multi-geo](plan-for-multi-geo.md)
+#### [Administration experience](administering-a-multi-geo-environment.md)
 #### [User experience in a multi-geo environment](multi-geo-user-experience.md)
 ### [Configure multi-geo](multi-geo-tenant-configuration.md)
 #### [Configure preferred data location](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
 #### [Configure search](configure-search-for-multi-geo.md)
-### [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
+### Administering a multi-geo environment
 #### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
 #### [Delete a geo location](delete-a-geo-location.md)
 #### [Move a OneDrive site](move-onedrive-between-geo-locations.md)
