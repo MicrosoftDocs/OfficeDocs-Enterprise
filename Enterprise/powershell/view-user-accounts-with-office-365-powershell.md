@@ -3,7 +3,7 @@ title: "View user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 03/11/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -138,7 +138,6 @@ You should see information similar to this:
 ```
 UserPrincipalName                     DisplayName           isLicensed
 -----------------                     -----------           ----------
-ZrinkaM@litwareinc.onmicrosoft.com    Zrinka Makovac        True
 BonnieK@litwareinc.onmicrosoft.com    Bonnie Kearney        True
 FabriceC@litwareinc.onmicrosoft.com   Fabrice Canel         True
 BrianJ@litwareinc.onmicrosoft.com     Brian Johnson         False 
@@ -244,7 +243,6 @@ You should see information similar to this:
 ```
 DisplayName             Department                       UsageLocation
 -----------             ----------                       -------------
-Zrinka Makovac          Sales & Marketing                    US
 Bonnie Kearney          Sales & Marketing                    US
 Fabrice Canel           Legal                                US
 Brian Johnson
