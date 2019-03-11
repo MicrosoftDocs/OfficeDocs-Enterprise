@@ -72,7 +72,7 @@ We're continually looking for new ways to support our customers needs and are cu
   
 ## Is my data safe?
 
-We take great care to help ensure that we protect the data that runs your business. Customer-specific data stored in CDNs is encrypted both in transit and at rest, and is protected by the same file-level permissions as data not stored in a CDN.
+We take great care to help ensure that we protect the data that runs your business. Customer-specific data stored in CDNs is encrypted both in transit and at rest.
 
 CDN providers may have privacy and compliance standards that differ from the commitments outlined by the Office 365 Trust Center. Data cached through the CDN service may not conform to the Microsoft Data Processing Terms (DPT), and may be outside of the Office 365 Trust Center compliance boundaries.
 
@@ -84,7 +84,7 @@ For in-depth information about privacy and data protection for Office 365 CDN pr
 
 ## How can I secure my network with all these 3rd party services?
 
-Leveraging an extensive set of partner services allows Office 365 to scale and meet availability requirements as well as enhance the user experience when using Office 365. The 3rd party services Office 365 leverages include both certificate revocation lists; such as crl.microsoft.com or sa.symcb.com, and CDNs; such as r3.res.outlook.com. Every CDN FQDN Office 365 uses is a custom FQDN for Office 365, if you're sent to a FQDN at the request of Office 365 you can be assured that we control the FQDN and the underlying content at that location.
+Leveraging an extensive set of partner services allows Office 365 to scale and meet availability requirements as well as enhance the user experience when using Office 365. The 3rd party services Office 365 leverages include both certificate revocation lists; such as crl.microsoft.com or sa.symcb.com, and CDNs; such as r3.res.outlook.com. Every CDN FQDN Office 365 uses is a custom FQDN for Office 365. If you're sent to a FQDN at the request of Office 365 you can be assured that the CDN provider controls the FQDN and the underlying content at that location.
   
 For customers that still want to segregate requests destined for a Microsoft or Office 365 datacenter from requests that are destined for a 3rd party, we've written up guidance on [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a).
   
