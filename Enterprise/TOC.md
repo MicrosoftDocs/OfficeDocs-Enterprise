@@ -135,12 +135,12 @@
 #### [Configure preferred data location](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
 #### [Configure search](configure-search-for-multi-geo.md)
 ### Administering a multi-geo environment
-#### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
-#### [Delete a geo location](delete-a-geo-location.md)
+#### [Manage SharePoint quotas](sharepoint-multi-geo-storage-quota.md)
 #### [Move a OneDrive site](move-onedrive-between-geo-locations.md)
 #### [Move a SharePoint site](move-sharepoint-between-geo-locations.md)
-#### [Manage SharePoint quotas](sharepoint-multi-geo-storage-quota.md)
+#### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
 #### [Restrict content to a geo location](restrict-content-to-geo-location.md)
+#### [Delete a geo location](delete-a-geo-location.md)
 #### [Administering Exchange Multi-Geo](administering-exchange-online-multi-geo.md)
 
 ## [Move to a new Office 365 datacenter geo](moving-data-to-new-datacenter-geos.md)
