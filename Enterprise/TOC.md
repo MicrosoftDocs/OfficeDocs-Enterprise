@@ -140,6 +140,7 @@
 #### [Move a SharePoint site](move-sharepoint-between-geo-locations.md)
 #### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
 #### [Restrict content to a geo location](restrict-content-to-geo-location.md)
+#### [Configure Office 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md)
 #### [Delete a geo location](delete-a-geo-location.md)
 #### [Administering Exchange Multi-Geo](administering-exchange-online-multi-geo.md)
 
