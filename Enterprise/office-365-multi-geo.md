@@ -18,30 +18,14 @@ With Office 365 Multi-Geo, your organization can expand its Office 365 presence 
   
 With Office 365 Multi-Geo, you can provision and store data at rest in the geo locations that you've chosen to meet data residency requirements, and at the same time unlock your global roll out of modern productivity experiences to your workforce.
 
+In a multi-geo environment, your Office 365 tenant consists of a central location (where your Office 365 subscription was originally provisioned) and one or more satellite locations. The key concept of multi-geo is that a single tenancy will span across multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
+
+Many workload-specific settings can be configured independently per geo location. For example, site sharing settings and eDiscovery.
+ 
 ![Screenshot of multi-geo map from the SharePoint admin center](media/multi-geo-world-map.png)
 
-Here's how multi-geo features can benefit your organization:
-  
-- Operate as one global connected organization with a single Office 365 tenant spanning multiple geo locations.
+Note that Office 365 Multi-Geo is not primarily designed for performance optimization, it is designed to meet data residency requirements. For information about performance optimization for Office 365, see [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848) or contact your support group.
 
-- Meet data residency requirements by creating and hosting mail and file data-at-rest within a specified geo location.
-
-- Empower your satellite users with the same modern productivity experiences enjoyed by your central location users.
-
-- Enable your users to move across geo locations as their role changes, while access to their content is kept intact.
-
-- Tailor your sharing policies per geo location and data loss prevention policies per site.
-
-- Designate eDiscovery managers per geo location and allow governing cases tailored to your geo location.
-
-- Choose unique URL namespaces (for example, ContosoEUR.sharepoint.com) for your additional geo locations.
-
-- Consolidate your regional on-premises data into your multi-geo tenant.
-
-Note that Office 365 Multi-Geo is not primarily designed for performance optimization, it is designed to meet data residency requirements. For information about performance optimization for Office 365, see [Network planning and performance tuning for Office 365](https://support.office.com/article/e5f1228c-da3c-4654-bf16-d163daee8848) or contact your support group. 
-
-In a multi-geo environment, your Office 365 tenant consists of a central location (where your Office 365 subscription was originally provisioned) and one or more satellite locations. The key concept of multi-geo is that a single tenancy will span across multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
- 
 ## Terminology
 
 Here are the key terms used in describing Office 365 Multi-Geo:
@@ -54,29 +38,33 @@ Here are the key terms used in describing Office 365 Multi-Geo:
 - **Satellite location** – The geo locations where the geo-aware Office 365 workloads (SharePoint, OneDrive, and Exchange) are enabled in a multi-geo tenant.
 - **Tenant** – An organization's representation in Office 365 which typically has one or more domains associated with it (for example, contoso.com).
 
-## Get multi-geo features in three simple steps
-
-Configuring multi-geo is easy:
-  
-1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed.
-    
-2. Choose your satellite locations.
-    
-3. Configure your user accounts for the appropriate location.
-    
 ## Office 365 Multi-Geo availability
 
 Office 365 Multi-Geo is currently offered in these regions and countries:
 
 [!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
-    
+
 ## Getting started
 
-Before you can start using Office 365 Multi-Geo, Microsoft needs to configure your Exchange Online tenant for multi-geo support. This one-time configuration process is triggered after you order the *Multi-Geo Capabilities in Office 365* service plan and the licenses show up in your tenant. This one-time configuration process should typically take less than 30 days to complete. To order Office 365 Multi-Geo, contact your Microsoft representative. You'll receive notifications in the [Office 365 message center](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) when your configuration has completed. Configuration is automatically triggered once your multi-geo licenses show up in your tenant.
+Follow these steps to get started with multi-geo:
 
-While your tenant is being provisioned, read [plan your multi-geo environment](plan-for-multi-geo.md). Next, [learn about administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience a multi-geo environment](multi-geo-user-experience.md). When you are ready to set up Office 365 Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md), then move any existing [sharepoint sites](move-sharepoint-between-geo-locations.md) and [OneDrive sites](move-onedrive-between-geo-locations.md)  to their new geo locations, and [set up search](configure-search-for-multi-geo.md).
+1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed.
+
+   Before you can start using Office 365 Multi-Geo, Microsoft needs to configure your Exchange Online tenant for multi-geo support. This one-time configuration process is triggered after you order the *Multi-Geo Capabilities in Office 365* service plan and the licenses show up in your tenant. This one-time configuration process should typically take less than 30 days to complete. To order Office 365 Multi-Geo, contact your Microsoft representative. You'll receive notifications in the [Office 365 message center](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) when your configuration has completed. Configuration is automatically triggered once your multi-geo licenses show up in your tenant.
+
+2. Read [Plan your multi-geo environment](plan-for-multi-geo.md).
+
+3. Learn about [administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience the environment](multi-geo-user-experience.md).
+
+4. When you are ready to set up Office 365 Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md).
+
+5. Move any existing [sharepoint sites](move-sharepoint-between-geo-locations.md) and [OneDrive sites](move-onedrive-between-geo-locations.md) to their new geo locations.
+
+6. [Set up search](configure-search-for-multi-geo.md).
 
 ## See also
+
+[Aka.ms/GoMultiGeo ](https://Aka.ms/GoMultiGeo)
 
 [Multi-Geo Capabilities in OneDrive and SharePoint Online](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 

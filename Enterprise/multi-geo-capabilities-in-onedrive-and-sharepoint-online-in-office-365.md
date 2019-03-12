@@ -43,6 +43,8 @@ Setting up and managing your multi-geo environment is done through the SharePoin
 
 ## See also
 
+[Aka.ms/GetMultiGeo ](https://Aka.ms/GetMultiGeo)
+
 [Administering a multi-geo environment](administering-a-multi-geo-environment.md)
 
 [SharePoint storage quotas in multi-geo environments](sharepoint-multi-geo-storage-quota.md)
