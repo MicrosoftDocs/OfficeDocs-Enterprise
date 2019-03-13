@@ -101,8 +101,6 @@ These topics contain detailed Office 365 network reference information.
     
 - [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples)
     
-- [Microsoft Virtual Academy: Office 365 Performance Management](https://mva.microsoft.com/en-us/training-courses/office-365-performance-management-8416)
-    
 - [Office 365 video networking Frequently Asked Questions (FAQ)](office-365-video-networking-faq.md)
     
 - [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
