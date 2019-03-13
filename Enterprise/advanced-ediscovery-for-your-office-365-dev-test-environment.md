@@ -72,7 +72,7 @@ In this procedure, you create email messages that will you later analyze in an A
     
 14. Click the user icon in the upper right corner, and then click **Sign out**.
     
-15. Open a new tab and sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) with the account name and password of the User6 account of your trial subscription.
+15. Open a new tab and sign in to the Office 365 portal ([https://www.office.com](https://www.office.com)) with the account name and password of the User6 account of your trial subscription.
     
 16. On the **Office 365 portal** tab, click **Mail**.
     
