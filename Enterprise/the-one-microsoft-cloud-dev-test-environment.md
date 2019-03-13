@@ -54,7 +54,7 @@ Figure 1 shows your resulting configuration, which includes Office 365 and a sim
 
 In this phase, you sign up for the EMS trial subscription and add it to the same organization as your Office 365 trial subscription.
   
-1. With a browser on either your desktop computer or from CLIENT1, sign in to the Office 365 portal at [https://portal.office.com](https://portal.office.com) with the credentials of your global administrator account.
+1. With a browser on either your desktop computer or from CLIENT1, sign in to the Office 365 portal at [https://www.office.com](https://www.office.com) with the credentials of your global administrator account.
     
 2. Click the **Admin** tile.
     
@@ -97,11 +97,11 @@ Figure 2 shows your resulting configuration, which adds EMS.
 
 In this phase, you sign up for the Dynamics 365 trial subscription and add it to the same organization as your Office 365 and EMS trial subscriptions.
   
-1. Using a browser on either your desktop computer or from CLIENT1, sign in to the Office 365 portal at [https://portal.office.com](https://portal.office.com) with the credentials of your global administrator account.
+1. Using a browser on either your desktop computer or from CLIENT1, sign in to the Office 365 portal at [https://www.office.com](https://www.office.com) with the credentials of your global administrator account.
     
 2. Click the **Admin** tile.
     
-3. On the **Office admin center** tab, in the left navigation, click **Billing > Purchase services**.
+3. On the **Microsoft 365 admin center** tab, in the left navigation, click **Billing > Purchase services**.
     
 4. On the **Purchase services** page, find the **Dynamics 365 Plan 1 Enterprise Edition** item. Hover your mouse pointer over it and click **Start free trial**.
     
@@ -114,7 +114,7 @@ In this phase, you sign up for the Dynamics 365 trial subscription and add it to
   
 Use these steps to assign Dynamics 365 licenses to the global administrator, User 2, and User 3 accounts and make them system administrators.
   
-1. On the **Office admin center** tab, click **Users > Active users**.
+1. On the **Microsoft 365 admin center** tab, click **Users > Active users**.
     
 2. In the list of active users, click your global administrator account, and then click **Edit** for **Product licenses**.
     
@@ -122,7 +122,7 @@ Use these steps to assign Dynamics 365 licenses to the global administrator, Use
     
 4. Perform steps 2 and 3 for the User 2 and User 3 accounts.
     
-5. Close the **Office admin center** tab.
+5. Close the **Microsoft 365 admin center** tab.
     
 Use these steps to configure the User 2 and User 3 accounts as Dynamics 365 system administrators.
   

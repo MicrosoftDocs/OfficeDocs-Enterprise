@@ -87,7 +87,7 @@ From the display of the **New-MsolUser** command, note the generated password fo
   
 Next, you create a private Executives group and add the new executive accounts to it.
   
-1. In your browser, go to the Office portal at [http://portal.office.com](http://portal.office.com) and sign in to your Office 365 trial subscription with your global administrator account.
+1. In your browser, go to the Office portal at [http://admin.microsoft.com](http://admin.microsoft.com) and sign in to your Office 365 trial subscription with your global administrator account.
     
   - If you are using the lightweight Office 365 dev/test environment, open a private session of Internet Explorer or your browser and sign in from your local computer.
     
@@ -161,7 +161,7 @@ Next, you sign in with an executive account and create a document in the Executi
   
 1. On the **Microsoft Office Home** tab, click the user icon in the upper-right, and then click **Sign out**.
     
-2. Go to [http://portal.office.com](http://portal.office.com).
+2. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
     
 3. On the **Office 365 sign in** page, click **Use another account**.
     
@@ -199,7 +199,7 @@ Next, you sign in as User5 and try to open the SensitiveData-BeforeIRM.docx docu
   
 1. On the **Microsoft Office Home** tab, click the user icon in the upper-right, and then click **Sign out**.
     
-2. Go to [http://portal.office.com](http://portal.office.com).
+2. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
     
 3. On the **Office 365 sign in** page, click **Use another account**.
     
@@ -219,7 +219,7 @@ To prepare Office 365 for Phases 3 and 4, enable IRM for SharePoint Online.
   
 1. On the **Microsoft Office Home** tab, click the user icon in the upper-right, and then click **Sign out**.
     
-2. Go to [http://portal.office.com](http://portal.office.com).
+2. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
     
 3. On the **Office 365 sign in** page, click the global administrator account name, type its password, and then click **Sign in**.
     
@@ -275,7 +275,7 @@ Next, acting as the CEO, you upload a new document to the Executives document fo
     
 5. From the **Microsoft Office Home** tab in your browser, click the user icon in the upper-right, and then click **Sign out**.
     
-6. Go to [http://portal.office.com](http://portal.office.com).
+6. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
     
 7. On the **Office 365 sign in** page, click the CEO account name, type its password, and then click **Sign in**.
     
@@ -301,7 +301,7 @@ Next, acting as a normal user, you try to access the **SensitiveData-AfterIRM.do
   
 1. From the **Microsoft Office Home** tab in your browser, click the user icon in the upper-right, and then click **Sign out**.
     
-2. Go to [http://portal.office.com](http://portal.office.com).
+2. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
     
 3. On the **Office 365 sign in** page, click the User5 account name, type its password, and then click **Sign in**.
     
