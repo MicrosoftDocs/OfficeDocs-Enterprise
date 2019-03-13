@@ -171,7 +171,7 @@ This figure shows the directory sync server with Azure AD Connect in the cross-p
 
 Azure AD Connect adds accounts to your Office 365 subscription from the on-premises Windows Server AD, but in order for users to sign in to Office 365 and use its services, the accounts must be configured with a location and licenses. Use these steps to add the location and activate licenses for the appropriate user accounts:
   
-1. Sign in to the [Office 365 portal page](https://portal.office.com), and then click **Admin**.
+1. Sign in to the [Office 365 portal page](https://www.office.com), and then click **Admin**.
     
 2. In the left navigation, click **Users > Active users**.
     

@@ -20,7 +20,7 @@ description: "Summary: Use Office 365 PowerShell to manage Microsoft Exchange On
 
  **Summary:** Use Office 365 PowerShell to manage Microsoft Exchange Online, including displaying mailbox configuration and advanced reporting.
   
-One of the primary tasks of any Microsoft Exchange Online administrator is managing mailboxes and getting reports on them. Although you can accomplish some of these tasks in the Office 365 admin center, other tasks are much quicker and easier in Office 365 PowerShell. For more information, see the following topics:
+One of the primary tasks of any Microsoft Exchange Online administrator is managing mailboxes and getting reports on them. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in Office 365 PowerShell. For more information, see the following topics:
   
 - [Display Exchange Online mailbox information with Office 365 PowerShell](https://technet.microsoft.com/en-us/library/mt771881%28v=exchg.160%29.aspx)
     

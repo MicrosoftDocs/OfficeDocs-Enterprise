@@ -140,14 +140,14 @@ The following table describes how you can combine multiple Microsoft cloud offer
   
 ||**Office 365**|**Azure**|**Intune/EMS**|**Dynamics 365**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Office 365** <br/> |NA  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization from the Office 365 portal.  <br/> |You add a Dynamics 365 subscription to your organization from the Office 365 portal.  <br/> |
+|**Office 365** <br/> |NA  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization from the Microsoft 365 admin center.  <br/> |You add a Dynamics 365 subscription to your organization from the Microsoft 365 admin center.  <br/> |
 |**Azure** <br/> |You add an Office 365 subscription to your organization.  <br/> |NA  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
 |**Intune/EMS** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |NA  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
 |**Dynamics 365** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |NA  <br/> |
    
 An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the Office 365 Admin center:
   
-1. Sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) with your global administrator account, and then click **Admin**.
+1. Sign in to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) with your global administrator account.
     
 2. From the left navigation of the **Admin center** home page, click **Billing**, and then **Purchase services**.
     
