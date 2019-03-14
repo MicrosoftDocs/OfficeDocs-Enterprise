@@ -3,7 +3,7 @@ title: "Content delivery networks"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/13/2019
+ms.date: 3/14/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -82,7 +82,7 @@ CDN providers may have privacy and compliance standards that differ from the com
 
 For in-depth information about privacy and data protection for Office 365 CDN providers, visit the following:  
 
-+ Learn more about Office 365 privacy and data protection at the [Office 365 Trust Center](https://go.microsoft.com/fwlink/p/?LinkId=397383)
++ Learn more about Office 365 privacy and data protection at the [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
 + Learn more about Azure privacy and data protection at the [Azure Trust Center](https://azure.microsoft.com/en-us/overview/trusted-cloud/)
 + Learn more about Akamai’s privacy and data protection at the [Akamai Privacy Trust Center](https://www.akamai.com/us/en/about/compliance/data-protection-at-akamai.jsp)
 
@@ -105,3 +105,5 @@ Here's a short link you can use to come back: [https://aka.ms/o365cdns](https://
 [Office 365 URLs and IP address ranges](https://go.microsoft.com/fwlink/p/?LinkID=293744)
 
 [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)
+
+[Microsoft Trust Center](https://www.microsoft.com/trustcenter)
