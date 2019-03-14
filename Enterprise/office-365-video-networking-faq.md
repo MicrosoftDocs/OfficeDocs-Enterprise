@@ -3,7 +3,7 @@ title: "Office 365 Video networking Frequently Asked Questions"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 12/13/2016
+ms.date: 3/14/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -15,12 +15,13 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 2bed67a1-4052-49ff-a4ce-b7e6530eb98e
-description: "The Office 365 Video repository and streaming services make storing and streaming videos within your organization simple. There's a lot of great information about Office 365 Video; this networking FAQ is designed to answer the most common questions around bandwidth planning, encryption, and how the service leverages content delivery networks (CDNs)."
+description: "The Office 365 Video repository and streaming services make storing and streaming videos within your organization simple. There's a lot of great information about Office 365 Video; this networking FAQ is designed to answer the most common questions around bandwidth planning, encryption, and how the service leverages Content Delivery Networks (CDNs)."
 ---
 
 # Office 365 Video networking Frequently Asked Questions
 
-The Office 365 Video repository and streaming services make storing and streaming videos within your organization simple. There's a lot of great [information about Office 365 Video](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50); this networking FAQ is designed to answer the most common questions around bandwidth planning, encryption, and how the service leverages [content delivery networks (CDNs)](https://support.office.com/article/Content-delivery-networks-0140f704-6614-49bb-aa6c-89b75dcd7f1f).
+The Office 365 Video repository and streaming services make storing and streaming videos within your organization simple. There's a lot of great [information about Office 365 Video](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50); this networking FAQ is designed to answer the most common questions around bandwidth planning, encryption, and how the service leverages [Content Delivery Networks](content-delivery-networks
+) (CDNs).
   
 If you don't already have a thorough understanding of what happens when a video is uploaded or played back, have a look at this video we put together, [What happens to a video file when uploaded to Office 365 Video](https://www.youtube.com/watch?v=HXSZ0jYBKlM).
   
@@ -42,7 +43,7 @@ Here's a quick table that outlines the network requirements for each of the vide
 
 ([Back to top](office-365-video-networking-faq.md))
   
-## How do CDNs help video playback?
+## How do Content Delivery Networks (CDNs) help video playback?
 
 If several people from the same organization within the same geographic location are streaming the same video(s), CDNs will store a copy of these videos in a location closer to that geographic region. With the video stored, or cached at the closest location, each person streams the video from the location closest to them instead of a location further away. Office 365 Video uses Azure Media Services to manage what is cached in the Azure CDNs, and for how long. Azure Media Services can use any of the [Azure CDN locations](https://azure.microsoft.com/documentation/articles/cdn-pop-locations/) to cache video fragments and manifests for a few days. If people in your organization continue to watch the cached videos they'll stay in the cache. If no one accesses the video for several days, the video will eventually drop be dropped from the cache. The next time someone attempts to watch the video it's once again cached at the nearest CDN location.
   
@@ -61,7 +62,7 @@ Yes. Office 365 won't prevent you from using a local CDN or a caching proxy to b
   
 ## How videos are encrypted and secured?
 
-Office 365 Video knows how important it is to keep your data secure and private. [The Office 365 Trust Center](https://products.office.com/business/office-365-trust-center-cloud-computing-security) describes our commitment to the privacy and security of your content. With video playback, speed is important for a good experience; however, we don't compromise your security or privacy in exchange for speed. Here's how we accommodate speed, security and privacy.
+Office 365 Video knows how important it is to keep your data secure and private. [Microsoft Trust Center](https://products.office.com/business/office-365-trust-center-welcome) describes our commitment to the privacy and security of your content. With video playback, speed is important for a good experience; however, we don't compromise your security or privacy in exchange for speed. Here's how we accommodate speed, security and privacy.
   
 When you or someone in your organization uploads a new video, that video is transcoded, encrypted with AES-128 encryption, and stored in Azure Media Services. This means the videos are encrypted both in transit and at rest.
   
@@ -97,15 +98,15 @@ Troubleshooting connectivity to Office 365 Video involves troubleshooting your n
 
 - See our [best practices for using Office 365 on a slow network](https://support.office.com/article/Best-practices-for-using-Office-365-on-a-slow-network-fd16c8d2-4799-4c39-8fd7-045f06640166).
 
-- Find [help about Office 365 Video configuration](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50).
+- [Find help about Office 365 Video configuration](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50).
 
 ([Back to top](office-365-video-networking-faq.md))
   
 ## Office 365 Video resources
 
-Rate the topic and leave a comment to let us know if we answered your questions or if you're still looking for answers. Here's a few of our other resources to help you successfully deploy and use Office 365 Video:
+Here's a few other resources to help you successfully deploy and use Office 365 Video:
   
-[Find help about Office 365 Video configuration](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50).
+[Find help about Office 365 Video configuration](https://support.office.com/article/Find-help-about-Office-365-Video-b435f99a-f47e-4ebd-a946-f5c965844f50)
   
 [Meet Office 365 Video](https://support.office.com/article/Meet-Office-365-Video-ca1cc1a9-a615-46e1-b6a3-40dbd99939a6)
   
