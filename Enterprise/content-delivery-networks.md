@@ -56,8 +56,8 @@ When you enable a CDN for your Office 365 tenant, you begin by setting policies 
 
 We take great care to help ensure that we protect the data that runs your business. Customer-specific data stored in CDNs is encrypted both in transit and at rest.
 
->
-> [!NOTE] CDN providers may have privacy and compliance standards that differ from the commitments outlined by the Office 365 Trust Center. Data cached through the CDN service may not conform to the Microsoft Data Processing Terms (DPT), and may be outside of the Office 365 Trust Center compliance boundaries.
+> [!NOTE]
+> CDN providers may have privacy and compliance standards that differ from the commitments outlined by the Office 365 Trust Center. Data cached through the CDN service may not conform to the Microsoft Data Processing Terms (DPT), and may be outside of the Office 365 Trust Center compliance boundaries.
 
 For in-depth information about privacy and data protection for Office 365 CDN providers, visit the following:  
 
