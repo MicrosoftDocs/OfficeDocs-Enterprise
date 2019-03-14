@@ -119,7 +119,7 @@ Office 365 Cloud App Security lets you create policies to notify you of suspicio
   
 If you have Cloud App Security in your Office 365 subscription, use these steps:
   
-1. Sign into the Office 365 portal with an account that is assigned the Security Administrator or Compliance Administrator role.
+1. Sign into the Microsoft 365 admin center with an account that is assigned the Security Administrator or Compliance Administrator role.
     
 2. [Turn on Office 365 Cloud App Security](https://support.office.com/article/ba919c73-d021-404d-9850-eec57e78678c).
     

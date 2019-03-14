@@ -3,7 +3,7 @@ title: "Microsoft Cloud Networking for Enterprise Architects"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/28/2018
+ms.date: 03/12/2019
 ms.audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -58,8 +58,6 @@ See the following sections:
     
     Step through the design process to create an optimal Azure virtual network (VNet) for hosting server-based IT workloads, including subnets, address spaces, routing, DNS, load balancing, and connectivity to your on-premises network, other VNets, and the Internet.
     
-For a 30-minute summary of the key points of this poster, see the [Optimize Your Network for Microsoft Cloud Offerings](https://mva.microsoft.com/en-US/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743) Microsoft Virtual Academy course.
-  
 > [!NOTE]
 > These articles reflect the **December 2018** release of the Microsoft Cloud Networking for Enterprise Architects poster.
   

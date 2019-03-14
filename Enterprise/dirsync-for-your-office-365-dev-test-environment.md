@@ -87,7 +87,7 @@ Stop-Process -Name Explorer -Force
     
 11. On the **Configuration complete** page, click **Exit**.
     
-12. In Internet Explorer, go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in to your Office 365 trial subscription with your global administrator account.
+12. In Internet Explorer, go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) and sign in to your Office 365 trial subscription with your global administrator account.
     
 13. From the main portal page, click **Admin**.
     

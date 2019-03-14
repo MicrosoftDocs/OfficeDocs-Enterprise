@@ -398,7 +398,7 @@ Use these steps to configure Azure AD Connect and your Office 365 subscription f
     
 To demonstrate that federated authentication is working:
   
-1. Open a new private instance of your browser on your local computer and go to [https://portal.office.com](https://portal.office.com).
+1. Open a new private instance of your browser on your local computer and go to [https://admin.microsoft.com](https://admin.microsoft.com).
     
 2. For the sign-in credentials, type **user1@**\<the domain created in Phase 1>. 
     
