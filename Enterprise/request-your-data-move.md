@@ -3,7 +3,7 @@ title: "How to request your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 09/05/2018
+ms.date: 03/15/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -34,12 +34,11 @@ We are unable to accept requests to be moved after the deadline in each geo.
 |United Kingdom  <br/> |March 15, 2017  <br/> |September 15, 2017  <br/> |
 |South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
+|United Arab Emirates  <br/> |Planned  <br/> |Planned  <br/> |
+|South Africa  <br/> |Planned  <br/> |Planned  <br/> |
    
 ## How to request a move
 
-> [!NOTE]
-> This option is only available on the Office 365 admin center Preview. For instructions on how to access this, see [Office 365 for business - Admin Help](https://aka.ms/365admin). All requests for moves need to be done through the Office 365 admin center. Support will not be able to make this selection for you or override your selection. 
-  
 Eligible customers will see a page in their [Office 365 Admin Center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
 To access the page in the Office 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
