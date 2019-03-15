@@ -40,7 +40,7 @@ Existing customers that have their core customer data stored in an already exist
 > [!NOTE]
 > The data residency option, and the availability to move customer data into the new geo, is not a default for every new geo we launch. As we expand into new geos in the future, we'll evaluate the availability and the conditions of data moves on a geo by geo basis. 
   
-New customers or Office 365 tenants created after the availability of the new datacenter geo will have their core customer data stored at rest in the new datacenter geo automatically.  Change.
+New customers or Office 365 tenants created after the availability of the new datacenter geo will have their core customer data stored at rest in the new datacenter geo automatically.
   
 A complete list of all datacenter geos, datacenters, and the location of customer data at rest is available as part of the [interactive datacenter maps](https://office.com/datamaps). 
   
