@@ -8,7 +8,9 @@ ms.audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection:
+- M365-collaboration
+- M365-subscription-management
 search.appverid:
 - MET150
 - MOE150
