@@ -3,7 +3,7 @@ title: "ExpressRoute for Microsoft cloud connectivity"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/02/2018
+ms.date: 03/12/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -234,8 +234,6 @@ For more information, see:
 - [Azure ExpressRoute for Office 365 Training](https://channel9.msdn.com/series/aer/)
     
 - [Network planning and performance tuning for Office 365](https://aka.ms/tune)
-    
-- [Office 365 Performance Management](https://mva.microsoft.com/en-US/training-courses/office-365-performance-management-8416)
     
 ## ExpressRoute options
 
