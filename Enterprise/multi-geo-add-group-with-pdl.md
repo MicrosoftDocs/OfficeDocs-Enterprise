@@ -23,7 +23,7 @@ To create an Office 365 Group with the PDL that you specify, connect to Exchange
 For example: 
 
 ```PowerShell
-PS C:\Users\omega> New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Public -MailboxRegion EUR 
+New-UnifiedGroup -DisplayName MultiGeoEUR -Alias "MultiGeoEUR" -AccessType Public -MailboxRegion EUR 
 ```
 
 ![Screenshot of New-UnifiedGroup PowerShell cmdlet with syntax](media/multi-geo-new-group-with-pdl-powershell.png)
