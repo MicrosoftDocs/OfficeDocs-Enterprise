@@ -71,7 +71,7 @@ In this phase, you demonstrate that before configuring ATP policies, potentially
     
 14. In **URL**, type **http://www.spamlink.contoso.com/**, click **OK**, and then click **Send**.
     
-15. Open a separate instance of Internet Explorer in private browsing mode, go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)), and sign in to your Office 365 trial subscription with your global administrator account.
+15. Open a separate instance of Internet Explorer in private browsing mode, go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)), and sign in to your Office 365 trial subscription with your global administrator account.
     
 16. From the main portal page, click the apps tile, and then click **Mail**.
     

@@ -232,7 +232,7 @@ For more information about the **Get-MigrationBatch** cmdlet, see[Get-MigrationB
 ### Step7: Assign licenses to Office 365 users
 <a name="BK_Endpoint"> </a>
 
-Activate Office 365 user accounts for the migrated accounts by assigning licenses. If you don't assign a license, the mailbox is disabled when the grace period (30 days) ends. To assign a license in the Office 365 admin center, see [Assign or unassign licenses for Office 365 for business](https://go.microsoft.com/fwlink/?LinkId=536681).
+Activate Office 365 user accounts for the migrated accounts by assigning licenses. If you don't assign a license, the mailbox is disabled when the grace period (30 days) ends. To assign a license in the Microsoft 365 admin center, see [Assign or unassign licenses for Office 365 for business](https://go.microsoft.com/fwlink/?LinkId=536681).
   
 ### Step 8: Complete post-migration tasks
 <a name="BK_Postmigration"> </a>

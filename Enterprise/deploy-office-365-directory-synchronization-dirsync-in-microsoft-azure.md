@@ -114,9 +114,11 @@ Deploying Azure AD Connect on a virtual machine in Azure consists of three phase
 - Phase 3: Install and configure Azure AD Connect
     
 After deployment, you must also assign locations and licenses for the new user accounts in Office 365.
-  
+
+<!--  
 > [!TIP]
 > The [Directory Synchronization Server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded) has all of the Azure PowerShell blocks to build out this solution, the diagrams in Microsoft PowerPoint and Visio format, and a Microsoft Excel configuration workbook that generates Azure PowerShell command blocks customized for your settings.
+-->
   
 ### Phase 1: Create and configure the Azure virtual network
 
@@ -171,7 +173,7 @@ This figure shows the directory sync server with Azure AD Connect in the cross-p
 
 Azure AD Connect adds accounts to your Office 365 subscription from the on-premises Windows Server AD, but in order for users to sign in to Office 365 and use its services, the accounts must be configured with a location and licenses. Use these steps to add the location and activate licenses for the appropriate user accounts:
   
-1. Sign in to the [Office 365 portal page](https://portal.office.com), and then click **Admin**.
+1. Sign in to the [Office 365 portal page](https://www.office.com), and then click **Admin**.
     
 2. In the left navigation, click **Users > Active users**.
     
@@ -195,7 +197,8 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
   
 [Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
   
+<!--
 [Directory Synchronization server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded)
-
+-->
 
 

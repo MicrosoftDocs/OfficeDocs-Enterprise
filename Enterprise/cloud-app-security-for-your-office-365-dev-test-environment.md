@@ -44,7 +44,7 @@ In this procedure, you demonstrate that before enabling Cloud App Security, chan
   
 ### Test the default notification behavior of Office 365
 
-1. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in to your Office 365 trial subscription with your global administrator account.
+1. Go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) and sign in to your Office 365 trial subscription with your global administrator account.
     
   - If you are using the lightweight Office 365 dev/test environment, sign in from your local computer.
     
@@ -74,7 +74,7 @@ In this procedure, you enable Cloud App Security and create a new policy to send
     
 ### Enable and configure Cloud App Security
 
-1. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in to your Office 365 trial subscription with your global administrator account.
+1. Go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) and sign in to your Office 365 trial subscription with your global administrator account.
     
 2. Click the **Admin** tile. On the **Office Admin center** tab, click **Admin centers > Security & Compliance**.
     
@@ -106,7 +106,7 @@ In this procedure, you demonstrate how Cloud App Security creates alerts and sen
 
 1. In the upper-right, click the user icon, and then click **Sign out**.
     
-2. Go to [https://portal.office.com](https://portal.office.com).
+2. Go to [https://www.office.com](https://www.office.com).
     
 3. On the Office 365 sign in page, click **Use another account**.
     
@@ -130,13 +130,13 @@ In this procedure, you demonstrate how Cloud App Security creates alerts and sen
     
 13. Click the user icon in the upper-right, and then click **Sign out**. 
     
-14. Go to [https://portal.office.com](https://portal.office.com).
+14. Go to [https://www.office.com](https://www.office.com).
     
 15. On the **Office 365 sign in** page, click your global administrator account name.
     
 16. Type the password, and then click **Sign in**.
     
-17. From the main portal page, click **Admin**.
+17. From the Office 365 portal page, click **Admin**.
     
 18. Click the **Security &amp; Compliance** tile.
     

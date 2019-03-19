@@ -113,7 +113,7 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
     
 11. On the next page, wait until Office 365 completes setting up and all the tiles are available.
     
-You should see main Office 365 portal page from which you can access Office Online services and the Office 365 Admin center.
+You should see main Office 365 portal page from which you can access Office Online services and the Microsoft 365 Admin center.
   
 For the simulated enterprise Office 365 dev/test environment, here is your resulting configuration.
   
@@ -148,8 +148,10 @@ $licAssignment= $orgName + ":ENTERPRISEPREMIUM"
 $userName= "user2@" + $orgName + ".onmicrosoft.com"
 New-MsolUser -DisplayName "User 2" -FirstName User -LastName 2 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
 ```
+<!--
 > [!TIP]
 > Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that has all the PowerShell commands in this article.
+-->
 
 From the display of the **New-MsolUser** command, note the generated password for the User 2 account and record it in a safe location.
   
