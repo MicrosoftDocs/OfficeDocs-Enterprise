@@ -1,5 +1,5 @@
 ---
-title: "Use the Office 365 content delivery network with SharePoint Online"
+title: "Use the private Office 365 Content Delivery Network with SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -14,12 +14,14 @@ search.appverid:
 - MET150
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
-description: "Describes how to use Office 365's built-in Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets to all of your users no matter where they are located or how they access your content."
+description: "Describes how to use Office 365's private Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets to all of your users no matter where they are located or how they access your content."
 ---
 
 # Use the Office 365 Content Delivery Network with SharePoint Online
 
 The Office 365 Content Delivery Network (CDN) is a private CDN hosted by Microsoft that you can use to host static assets to provide better performance for your SharePoint Online pages. Static assets are files that don't change very often, like images, video and audio, style sheets, fonts, and JavaScript files. The CDN works as a geographically distributed caching proxy, by caching static assets closer to the browsers requesting them.
+
+For guidance on configuring Office 365 to use a public CDN, see [Use the public Content Delivery Network with Office 365](use-private-cdn-with-office-365.md).
   
 If you are already familiar with the way that CDNs work, you only need to complete a few steps to set it up. This topic describes how. Read on for information about the Office 365 CDN and how to get started hosting your static assets.
   
@@ -245,13 +247,30 @@ Use the **Add-SPOTenantCdnOrigin** cmdlet to define an origin. You can define mu
 > If you identify a public origin in your CDN, you should never place resources that are considered sensitive to your organization in the public origin or SharePoint Online library.
 
 ``` powershell
-Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path >
+Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
-Where path is the path to the folder that contains the assets. You can use wildcards in addition to relative paths. For example, to include all of the assets in the masterpages folder for all of your sites as a public origin within the CDN, type the following command:
+The value of _path_ is the path to the library or folder that contains the assets. You can use wildcards in addition to relative paths. Origins support wildcards prepended to the Url. This allows you to create origins that span multiple sites. For example, to include all of the assets in the masterpages folder for all of your sites as a public origin within the CDN, type the following command:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
+```
+
+- The wildcard modifier ***/** can only be used at the beginning of the path, and will match all URL segments under the specified URL.
+- The path can point to either a document library or a site. For example, the path _*/site1_ will match all the document libraries under the site.
+
+You can add an origin with a specific path using either a relative path or a full path.
+
+This example adds a private origin of the siteassets library on a specific site using a relative path:
+
+``` powershell
+Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
+```
+
+This example adds a private origin of the _folder1_ folder in the site collection's site assets library using the full path:
+
+``` powershell
+Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl “https://contoso.sharepoint.com/sites/test/siteassets/folder1”
 ```
 
 For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
@@ -315,7 +334,7 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 
 For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
   
-Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
+Once you've run the command, the system synchronizes the configuration across the datacenter. You may see a _Configuration pending_ message which is expected as the SharePoint Online tenant connects to the CDN service. This can take up to 15 minutes.
   
 ## Manage the Office 365 CDN
 <a name="CDNManage"> </a>
@@ -332,12 +351,18 @@ If you need to retrieve the location of the origin, you can use the **Get-SPOTen
 ### To remove an origin from the Office 365 CDN
 <a name="Office365CDNforSPORemoveOrigin"> </a>
 
-If you need to, you can remove access to a folder or SharePoint library that you identified as an origin. To do this, use the **Remove-SPOTenantCdnOrigin** cmdlet. For information on how to use this cmdlet, see [Remove-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790761.aspx).
+You can remove access to a folder or SharePoint library that you identified as an origin. To do this, use the **Remove-SPOTenantCdnOrigin** cmdlet.
+
+``` powershell
+Remove-SPOTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
+```
+
+For information on how to use this cmdlet, see [Remove-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790761.aspx).
   
 ### To modify an origin in the Office 365 CDN
 <a name="Office365CDNforSPORemoveOrigin"> </a>
 
-You can't modify an origin you've created. Instead, remove the origin and then add a new one. For more information, see [To remove an origin from the Office 365 CDN](use-office-365-cdn-with-spo.md#Office365CDNforSPORemoveOrigin) and [To add an origin for your assets](use-office-365-cdn-with-spo.md#Office365CDNforSPOOrigin).
+You cannot modify an origin you've created. Instead, remove the origin and then add a new one. For more information, see [To remove an origin from the Office 365 CDN](use-office-365-cdn-with-spo.md#Office365CDNforSPORemoveOrigin) and [To add an origin for your assets](use-office-365-cdn-with-spo.md#Office365CDNforSPOOrigin).
   
 ### To disable the Office 365 CDN
 <a name="Office365CDNforSPODisable"> </a>
@@ -357,8 +382,51 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 ```
 
 For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://technet.microsoft.com/en-us/library/mt790765.aspx).
+
+## Using your CDN assets
+
+### Public CDN assets
+
+To use your CDN assets you need to configure the URL. For public CDN assets the URL format will look like the following:
+
+``` html
+https://publiccdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png
+```
+
+You need to replace **TenantHostName** with your tenant name. Example:
+
+``` html
+https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library/asset.png
+```
+
+You will not be able to test the URL’s directly in a web browser because you must have a referrer coming from SharePoint Online. However, if you add the CDN asset to a SharePoint page and then render the page in the browser, you will see the asset render.
+
+### Private CDN assets
+
+The private CDN will check permissions for the user who is requesting the asset(s). When the asset is requested, a permissions check will be done for the user and the asset will only be rendered if the user has permission to the library, folder or file. For more information, see [How the CDN grants access to end users](use-office-365-cdn-with-spo?#how-the-cdn-grants-access-to-end-users).
+
+Unlike the public CDN, URLs in the private CDN are dynamic and you therefore cannot construct the URL yourself. Let’s say you want to add an image asset that is on the private CDN. You will edit your SharePoint page to add the image but choose the location of the private CDN asset by its relative path.
+
+The private CDN URL will look like the following:
+
+``` html
+https://privatecdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png?_eat_=4561255565544[...]
+```
+
+The unique string of characters to the right of the question mark is dynamically set by the CDN and does change over time. The string of characters is used for permissions and configuration of the private CDN asset. Therefore, you need to reference your assets using the CDN relative path instead of building the private CDN address.
   
 ## Troubleshooting your Office 365 CDN configuration
 <a name="CDNManage"> </a>
 
-The endpoint will not immediately be available for use, as it takes time for the registration to propagate through the CDN. Configuration takes 15 minutes.
+### How do I confirm that assets are being served by the CDN?
+Once you have added links to CDN assets to a page, you can confirm that the asset is being served from the CDN by browsing to the page, right clicking on the image once it has rendered and reviewing the image URL.
+
+You can also use your browser's developer tools to view the URL for each asset on a page, or use a 3rd party network trace tool.
+
+> [!NOTE]
+> If you use a 3rd party network tool to test your assets outside of rendering the asset from a SharePoint page, you will need to manually add a referrer coming from SharePoint Online.
+
+For more information on using the developer tools in the Microsoft Edge browser, see [Microsoft Edge Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
+
+### Why are assets from a new origin unavailable?
+Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN. Configuration can take up to 15 minutes.
