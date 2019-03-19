@@ -3,12 +3,13 @@ title: "Aggregate customer reporting data via Windows PowerShell for Delegated A
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-subscription-management
 ms.custom: 
 ms.assetid: 0f946b46-200a-4bdd-9b1b-019a554ddcc6
 description: "Summary: Use Windows PowerShell for Office 365 to retrieve reports on all customer tenancies and aggregate the data into a single location."
