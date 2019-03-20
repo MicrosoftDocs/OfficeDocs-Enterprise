@@ -24,7 +24,7 @@ You can use the built-in Office 365 Content Delivery Network (CDN) to host stati
 The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: **public** and **private**. Both public and private CDNs allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
 If you are already familiar with the way that CDNs work, you only need to complete a few steps to enable the Office 365 CDN for your tenant. This topic describes how. Read on for information about public and private CDNs and how to get started hosting your static assets.
-  
+
  **Head back to [Network planning and performance tuning for Office 365](https://aka.ms/tune).**
 
 ## Overview of working with the Office 365 CDN in SharePoint Online
@@ -59,18 +59,35 @@ If you define hundreds of origins, it will likely have a negative impact on the 
 
 When you identify an origin, you specify whether it should be made public or private. Regardless of which option you choose, Microsoft does all the heavy lifting for you when it comes to administration of the CDN itself. Also, you can change your mind later, after you've set up the CDN and identified your origins.
 
+Both public and private options provide similar performance gains, but each has unique attributes and advantages.
+
 ### What's the difference between public and private CDNs?
 
 The **private CDN** within the Office 365 CDN provides fast, secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Unlike public CDNs, access to content in the Office 365 CDN is secured by default so it can only be accessed by users with permissions to the original document library or storage location. The private Office 365 CDN can only be used for SharePoint Online content, and you can only access private CDN assets through redirection from your SharePoint Online tenant.
 
 The **public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon and Microsoft Azure. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
 
-> [!TIP]
-> Although it is not a part of the public Office 365 CDN, you can also use the **Azure CDN** for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. Use of the Azure CDN is not free, and requires an Azure subscription. For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
-
 For need more information about why to use a CDN or about general CDN concepts, see [Content Delivery Networks](content-delivery-networks.md).
+
+### Other CDNs you can use with Office 365
+
+Although not a part of the public Office 365 CDN, you can use these CDNs in your Office 365 tenant for access to SharePoint development libraries, custom code and other purposes that fall outside the scope of the Office 365 CDN.
+
+#### Azure CDN
+
+You can use the **Azure CDN** for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. Use of the Azure CDN is not free, and requires an Azure subscription.
+
+For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
+
+#### Microsoft Ajax CDN
+
+Microsoft's Ajax CDN is a read-only CDN that offers many popular development libraries including jQuery (and all of its other libraries), ASP.NET Ajax, Bootstrap, Knockout.js, and others.
   
-Both public and private options provide similar performance gains, but each has unique attributes and advantages.
+To include these scripts in your project, simply replace any references to these publicly available libraries with references to the CDN address instead of including it in your project itself. For example, use the following code to link to jQuery:
+
+``` html
+<script src=http://ajax.aspnetcdn.com/ajax/jquery-2.1.1.js> </script>
+```
 
 ### Attributes and advantages of hosting assets in the public CDN
   
@@ -108,7 +125,7 @@ Default public CDN origins:
 - \*/clientsideassets
 
 > [!NOTE]
-> _clientsideassets_ is a default public origin that was added to the Office 365 CDN service in December 2017. This origin must be present in order for SharePoint Framework solutions in the CDN to work. For more information, see [My client-side web part or SharePoint Framework solution isn't working](use-office-365-cdn-with-spo#my-client-side-web-part-or-sharepoint-framework-solution-isnt-working).
+> _clientsideassets_ is a default public origin that was added to the Office 365 CDN service in December 2017. This origin must be present in order for SharePoint Framework solutions in the CDN to work. For more information, see [My client-side web part or SharePoint Framework solution isn't working](use-office-365-cdn-with-spo.md#my-client-side-web-part-or-sharepoint-framework-solution-isnt-working).
 
 ## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
 
