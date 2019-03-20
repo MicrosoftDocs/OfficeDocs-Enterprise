@@ -545,17 +545,6 @@ https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library
 
 You will not be able to test the URL’s directly in a web browser because you must have a referer coming from SharePoint Online. However, if you add the CDN asset URL to a SharePoint page and then render the page in the browser, you will see the asset render.
 
-### Azure CDN assets
-
-The public Azure CDN is available as an alternative to organizations who want to deploy their own CDN instance. Azure CDN storage is provided by an Azure storage account, and can be secured with access keys.
-
-> [!NOTE]
-> Use of the Azure CDN is not free, and requires an Azure subscription.
-
-For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
-
-For an example of how the Azure CDN can be used to host SharePoint web parts, see [Deploy your SharePoint client-side web part to Azure CDN](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/deploy-web-part-to-cdn).
-
 ## Troubleshooting your Office 365 CDN
 <a name="CDNManage"> </a>
 
