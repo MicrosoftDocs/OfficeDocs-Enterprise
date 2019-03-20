@@ -65,7 +65,7 @@ Both public and private options provide similar performance gains, but each has 
 
 The **private CDN** within the Office 365 CDN provides fast, secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Unlike public CDNs, access to content in the Office 365 CDN is secured by default so it can only be accessed by users with permissions to the original document library or storage location. The private Office 365 CDN can only be used for SharePoint Online content, and you can only access private CDN assets through redirection from your SharePoint Online tenant.
 
-The **public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon and Microsoft Azure. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
+The **public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon Edgecast. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
 
 For need more information about why to use a CDN or about general CDN concepts, see [Content Delivery Networks](content-delivery-networks.md).
 
@@ -81,7 +81,7 @@ For more information on how to configure an Azure CDN instance, see [Quickstart:
 
 #### Microsoft Ajax CDN
 
-Microsoft's Ajax CDN is a read-only CDN that offers many popular development libraries including jQuery (and all of its other libraries), ASP.NET Ajax, Bootstrap, Knockout.js, and others.
+Microsoft's **Ajax CDN** is a read-only CDN that offers many popular development libraries including jQuery (and all of its other libraries), ASP.NET Ajax, Bootstrap, Knockout.js, and others.
   
 To include these scripts in your project, simply replace any references to these publicly available libraries with references to the CDN address instead of including it in your project itself. For example, use the following code to link to jQuery:
 
@@ -89,11 +89,13 @@ To include these scripts in your project, simply replace any references to these
 <script src=http://ajax.aspnetcdn.com/ajax/jquery-2.1.1.js> </script>
 ```
 
+For more information about how to use the Microsoft Ajax CDN, see [Microsoft Ajax CDN](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview).
+
 ### Attributes and advantages of hosting assets in the public CDN
   
 - Assets exposed in a public origin are accessible by everyone anonymously.
     > [!IMPORTANT]
-    > If you identify a public origin in your CDN, you should never place resources that are considered sensitive to your organization in a public origin or SharePoint Online library.
+    > You should never place resources that contain user information or are considered sensitive to your organization in a public origin.
 - If you remove an asset from a public origin, the asset may continue to be available for up to 30 days from the cache; however, we will invalidate links to the asset in the CDN within 15 minutes.
 - When you host style sheets (CSS files) in a public origin, you can use relative paths and URIs within the code. This means that you can reference the location of background images and other objects relative to the location of the asset that's calling it.
 - While you can hard code a public origin's URL, doing so is not recommended. The reason for this is that if access to the CDN becomes unavailable, the URL will not automatically resolve to your organization in SharePoint Online and might result in broken links and other errors.
@@ -250,7 +252,7 @@ For more information about these cmdlets, see [Set-SPOTenantCdnPolicy](https://t
 Use the **Add-SPOTenantCdnOrigin** cmdlet to define an origin. You can define multiple origins. The origin is a URL that points to a SharePoint library or folder that contains the assets that you want to be hosted by the CDN.
   
 > [!IMPORTANT]
-> If you identify a public origin in the CDN, you should never place resources that are considered sensitive to your organization in the public origin or SharePoint Online library.
+> You should never place resources that contain user information or are considered sensitive to your organization in a public origin.
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
@@ -471,7 +473,7 @@ spo cdn origin remove --type Public --origin */masterpage
 ```
 
 > [!NOTE]
-> Removing a CDN origin doesn't affect the files stored in any document library matching that origin. If these assets have been referenced using their SharePoint URL, SharePoint will automatically switch back to the original URL pointing to the document library. If, however, assets have been referenced using the Public CDN URL, then these links will now be broken and will need to be manually changed.
+> Removing a CDN origin doesn't affect the files stored in any document library matching that origin. If these assets have been referenced using their SharePoint URL, SharePoint will automatically switch back to the original URL pointing to the document library. If, however, assets have been referenced using a public CDN URL, then removing the origin will break the link and you will need to manually change them.
 
 ### Modify an Office 365 CDN origin
 
