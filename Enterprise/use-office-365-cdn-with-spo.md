@@ -19,9 +19,9 @@ description: "Describes how to use the Office 365 Content Delivery Network (CDN)
 
 # Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 
-You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency.
+You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. Also, the Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and download speeds.
 
-The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: **public** and **private**. Both public and private CDNs allow you to host static assets in multiple locations, or _origins_.
+The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: **public** and **private**. Both public and private CDNs allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks.
 
 > [!NOTE]
 > The Office 365 CDN service is included as part of your SharePoint Online subscription. However, the Azure CDN is a separate service that requires an Azure subscription and is subject to usage fees. For more information, see [Azure CDN assets](use-office-365-cdn-with-spo.md#Azure-CDN-Assets).
