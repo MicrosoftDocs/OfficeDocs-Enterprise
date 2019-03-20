@@ -572,15 +572,45 @@ For more information on using the developer tools in the Microsoft Edge browser,
 ### Why are assets from a new origin unavailable?
 Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded to CDN storage. Configuration can take up to 15 minutes.
 
-### The */clientsideassets origin is missing, and public CDN content isn't working
+### My client-side web part or SharePoint Framework solution isn't working
+
+When you enable the Office 365 CDN, SharePoint will automatically create these default origins:
+
+- */MASTERPAGE
+- */STYLE LIBRARY
+- */CLIENTSIDEASSETS
+
+If the */clientsideassets origin is missing, SharePoint Framework solutions will fail, and no warning or error messages are generated. This origin may be missing either because the CDN was enabled with the _-NoDefaultOrigins_ parameter set to **$true**, or because the origin was manually deleted.
+
+You can check to see if the */CLIENTSIDEASSETS origin is present with the following PowerShell command:
+
+``` powershell
+Get-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
+```
+
+Or you can check with the Office 365 CLI:
+
+``` powershell
+o365 spo cdn origin list
+```
+
+To add the origin in PowerShell:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
 ```
 
+To add the origin in the Office 365 CLI:
+
 ``` powershell
 o365 spo cdn origin add --origin */CLIENTSIDEASSETS
 ```
+
+### What PowerShell/CLI modules do I need to work with the Office 365 CDN?
+
+- [Getting started with SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+- [Installing the Office 365 CLI](https://pnp.github.io/office365-cli/user-guide/installing-cli/)
+- [Manage Azure CDN with PowerShell](https://docs.microsoft.com/en-us/azure/cdn/cdn-manage-powershell)
 
 ## See also
 
