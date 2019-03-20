@@ -127,7 +127,7 @@ The second screen shot shows the same file delivered by Microsoft's CDN. This ti
 
 ## Is my data safe?
 
-We take great care to help ensure that we protect the data that runs your business. Data stored in both public and private CDNs is encrypted both in transit and at rest, and access to data in the private Office 365 CDN is secured by Office 365 user permissions and token authorization.
+We take great care to protect the data that runs your business. Data stored in both public and private CDNs is encrypted both in transit and at rest, and access to data in the private Office 365 CDN is secured by Office 365 user permissions and token authorization. Requests for data in the private Office 365 CDN must be refered (redirected) from your Office 365 tenant or an authorization token will not be issued.
 
 To ensure that your data remains secure, we recommend that you never store user content or other sensitive data in a public CDN. Because access to data in a public CDN is anonymous, public CDNs should only be used to host generic content such as web script files, icons, images and other non-sensitive assets.
 
