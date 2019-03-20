@@ -3,7 +3,7 @@ title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/19/2019
+ms.date: 3/20/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -24,7 +24,7 @@ You can use the built-in Office 365 Content Delivery Network (CDN) to host stati
 The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: **public** and **private**. Both public and private CDNs allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks.
 
 > [!NOTE]
-> The Office 365 CDN service is included as part of your SharePoint Online subscription. However, the Azure CDN is a separate service that requires an Azure subscription and is subject to usage fees. For more information, see [Azure CDN assets](use-office-365-cdn-with-spo.md#Azure-CDN-Assets).
+> The Office 365 CDN service is included as part of your SharePoint Online subscription. However, the Azure CDN is a separate service that requires an Azure subscription and is subject to usage fees. For more information, see [Azure CDN assets](use-office-365-cdn-with-spo.md#azure-cdn-assets).
 
 If you are already familiar with the way that CDNs work, you only need to complete a few steps to enable the Office 365 CDN for your tenant. This topic describes how. Read on for information about public and private CDNs and how to get started hosting your static assets.
   
@@ -64,11 +64,12 @@ When you identify an origin, you specify whether it should be made public or pri
 
 ### What's the difference between public and private CDNs?
 
-Public CDNs within the Office 365 CDN are hosted by CDN providers like Akamai, Verizon and Microsoft Azure. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
+The **Private CDN** within the Office 365 CDN provides fast, secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Unlike public CDNs, access to content in the Office 365 CDN is secured by default so it can only be accessed by users with permissions to the original document library or storage location. The private Office 365 CDN can only be used for SharePoint Online content, and you can only access private CDN assets through redirection from your SharePoint Online tenant.
 
-You can also use the Azure CDN for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
+**Public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon and Microsoft Azure. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
 
-Private CDNs like the Office 365 CDN provide fast, secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Unlike public CDNs, access to content in the Office 365 CDN is secured by default so it can only be accessed by users with permissions to the original document library or storage location. The private Office 365 CDN can only be used for SharePoint Online content.
+> [!TIP]
+> Although it is not a part of the public Office 365 CDN, you can also use the **Azure CDN** for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. Use of the Azure CDN is not free, and requires an Azure subscription. For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
 
 For need more information about why to use a CDN or about general CDN concepts, see [Content Delivery Networks](content-delivery-networks.md).
   
@@ -550,7 +551,10 @@ You will not be able to test the URL’s directly in a web browser because you m
 
 ### Azure CDN assets
 
-The public Azure CDN is available as an alternative to organizations who want to deploy their own CDN instance. Azure CDN storage is provided by an Azure storage account, and can be secured with access keys. To deploy an Azure CDN instance, you must have an Azure subscription.
+The public Azure CDN is available as an alternative to organizations who want to deploy their own CDN instance. Azure CDN storage is provided by an Azure storage account, and can be secured with access keys.
+
+> [!NOTE]
+> Use of the Azure CDN is not free, and requires an Azure subscription.
 
 For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
 
@@ -570,7 +574,7 @@ You can also use your browser's developer tools to view the URL for each asset o
 For more information on using the developer tools in the Microsoft Edge browser, see [Microsoft Edge Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
 
 ### Why are assets from a new origin unavailable?
-Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded to CDN storage. Configuration can take up to 15 minutes.
+Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded from the origin to CDN storage. The time required for assets to be available in the CDN depends on how many assets and the files sizes.
 
 ### My client-side web part or SharePoint Framework solution isn't working
 
