@@ -327,20 +327,20 @@ Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
   
 Once you've run the command, the system synchronizes the configuration across the datacenter. You may see a _Configuration pending_ message which is expected as the SharePoint Online tenant connects to the CDN service. This can take up to 15 minutes.
-  
-## Manage the Office 365 CDN
+
+### Manage the Office 365 CDN
 <a name="CDNManage"> </a>
 
 Once you've set up the CDN, you can make changes to your configuration as you update content or as your needs change, as described in this section.
   
-### Add, update, or remove assets from the Office 365 CDN
+#### Add, update, or remove assets from the Office 365 CDN
 <a name="Office365CDNforSPOaddremoveasset"> </a>
 
 Once you've completed the setup steps, you can add new assets, and update or remove existing assets whenever you want. Just make your changes to the assets in the folder or SharePoint library that you identified as an origin. If you add a new asset, it is available through the CDN immediately. However, if you update the asset, it will take up to 15 minutes for the new copy to propagate and become available in the CDN.
   
 If you need to retrieve the location of the origin, you can use the **Get-SPOTenantCdnOrigins** cmdlet. For information on how to use this cmdlet, see [Get-SPOTenantCdnOrigins](https://technet.microsoft.com/en-us/library/mt790770.aspx).
   
-### Remove an origin from the Office 365 CDN
+#### Remove an origin from the Office 365 CDN
 <a name="Office365CDNforSPORemoveOrigin"> </a>
 
 You can remove access to a folder or SharePoint library that you identified as an origin. To do this, use the **Remove-SPOTenantCdnOrigin** cmdlet.
@@ -351,12 +351,12 @@ Remove-SPOTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 
 For information on how to use this cmdlet, see [Remove-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790761.aspx).
   
-### Modify an origin in the Office 365 CDN
+#### Modify an origin in the Office 365 CDN
 <a name="Office365CDNforSPORemoveOrigin"> </a>
 
 You cannot modify an origin you've created. Instead, remove the origin and then add a new one. For more information, see [To remove an origin from the Office 365 CDN](use-office-365-cdn-with-spo.md#Office365CDNforSPORemoveOrigin) and [To add an origin for your assets](use-office-365-cdn-with-spo.md#Office365CDNforSPOOrigin).
   
-### Disable the Office 365 CDN
+#### Disable the Office 365 CDN
 <a name="Office365CDNforSPODisable"> </a>
 
 Use the **Set-SPOTenantCdnEnabled** cmdlet to disable the CDN for your organization. If you have both the public and private origins enabled for the CDN, you need to run the cmdlet twice as shown in the following examples.
