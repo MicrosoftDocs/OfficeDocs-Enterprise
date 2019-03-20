@@ -84,7 +84,7 @@ The CDNs in use by Office 365 are always subject to change and in many cases the
 |---------|---------|---------|---------|
 |Office 365 private CDN     |Microsoft         |SharePoint user content         |[Office 365 private CDN](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)         |
 |Azure CDN     |Microsoft         |Custom code, SharePoint Framework solutions         |[Microsoft Azure CDN](https://azure.microsoft.com/documentation/services/cdn/)         |
-|Microsoft Ajax Content Delivery Network     |Microsoft         |Common libraries for Ajax, jQuery, ASP.NET, Bootstrap, Knockout.js etc.         |[Microsoft Ajax Content Delivery Network](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)         |
+|Microsoft Ajax CDN (read only)     |Microsoft         |Common libraries for Ajax, jQuery, ASP.NET, Bootstrap, Knockout.js etc.         |[Microsoft Ajax CDN](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)         |
 |Akamai     |Akamai         |Public CDN hosting         |[Akamai CDN](https://www.akamai.com/us/en/cdn.jsp)         |
 |Edgecast     |Verizon         |Public CDN hosting         |[Verizon Edgecast CDN](https://www.verizondigitalmedia.com/platform/edgecast-cdn/)         |
 
