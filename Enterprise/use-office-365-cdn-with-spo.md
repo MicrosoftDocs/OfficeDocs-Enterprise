@@ -67,29 +67,7 @@ The **private CDN** within the Office 365 CDN provides fast, secure access to us
 
 The **public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon Edgecast. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
 
-For need more information about why to use a CDN or about general CDN concepts, see [Content Delivery Networks](content-delivery-networks.md).
-
-### Other CDNs you can use with Office 365
-
-Although not a part of the public Office 365 CDN, you can use these CDNs in your Office 365 tenant for access to SharePoint development libraries, custom code and other purposes that fall outside the scope of the Office 365 CDN.
-
-#### Azure CDN
-
-You can use the **Azure CDN** for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. Use of the Azure CDN is not free, and requires an Azure subscription.
-
-For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
-
-#### Microsoft Ajax CDN
-
-Microsoft's **Ajax CDN** is a read-only CDN that offers many popular development libraries including jQuery (and all of its other libraries), ASP.NET Ajax, Bootstrap, Knockout.js, and others.
-  
-To include these scripts in your project, simply replace any references to these publicly available libraries with references to the CDN address instead of including it in your project itself. For example, use the following code to link to jQuery:
-
-``` html
-<script src=http://ajax.aspnetcdn.com/ajax/jquery-2.1.1.js> </script>
-```
-
-For more information about how to use the Microsoft Ajax CDN, see [Microsoft Ajax CDN](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview).
+For need more information about why to use a CDN, general CDN concepts, and other Microsoft CDNs, see [Content Delivery Networks](content-delivery-networks.md).
 
 ### Attributes and advantages of hosting assets in the public CDN
   
