@@ -112,9 +112,9 @@ Default public CDN origins:
 
 ## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
 
-The procedures in this topic require you to use the SharePoint Online Management Shell to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+The procedures in this section require you to use the SharePoint Online Management Shell to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
   
-Complete these steps to set up and configure the CDN to host your static assets in SharePoint Online.
+Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using the SharePoint Online Management Shell.
   
 ### Enable your organization to use the Office 365 CDN
 
@@ -377,8 +377,9 @@ For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://te
 
 ## Set up and configure the Office 365 CDN using the Office 365 CLI
 
-> [!NOTE]
-> Before you can manage site collection app catalogs in your tenant, ensure that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your SharePoint Online tenant using the [spo connect](https://pnp.github.io/office365-cli/cmd/spo/connect/) command.
+The procedures in this section require that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your SharePoint Online tenant using the [spo connect](https://pnp.github.io/office365-cli/cmd/spo/connect/) command.
+
+Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using the Office 365 CLI.
 
 ### Enable the Office 365 CDN
 
@@ -414,7 +415,7 @@ To view the currently configured Office 365 Public CDN origins execute:
 spo cdn origin list --type Public
 ```
 
-### Add Office 365 CDN origin
+### Add an Office 365 CDN origin
 
 > [!NOTE]
 > You should never place resources that are considered sensitive to your organization in a SharePoint document library configured as a public CDN origin.
@@ -442,7 +443,7 @@ spo cdn origin add --type Private --origin sites/site1/siteassets
 > [!NOTE]
 > After adding a CDN origin, it might take up to 15 minutes for you to be able to retrieve files via the CDN service. You can verify if the particular origin has already been enabled using the [spo cdn origin list](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-origin-list/) command.
 
-### Remove Office 365 CDN origin
+### Remove an Office 365 CDN origin
 
 Use the [spo cdn origin remove](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-origin-remove/) command to remove a CDN origin for the specified CDN type.
 
@@ -455,11 +456,11 @@ spo cdn origin remove --type Public --origin */masterpage
 > [!NOTE]
 > Removing a CDN origin doesn't affect the files stored in any document library matching that origin. If these assets have been referenced using their SharePoint URL, SharePoint will automatically switch back to the original URL pointing to the document library. If, however, assets have been referenced using the Public CDN URL, then these links will now be broken and will need to be manually changed.
 
-### Modify Office 365 CDN origin
+### Modify an Office 365 CDN origin
 
 It's not possible to modify an existing CDN origin. Instead, you should remove the previously defined CDN origin using the `spo cdn origin remove` command and add a new one using the `spo cdn origin add` command.
 
-### Change the types of files to include in Office 365 CDN
+### Change the types of files to include in the Office 365 CDN
 
 By default, the following file types are included in the CDN: _.css, .eot, .gif, .ico, .jpeg, .jpg, .js, .map, .png, .svg, .ttf, and .woff_. If you need to include additional file types in the CDN, you can change the CDN configuration using the [spo cdn policy set](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-policy-set/) command.
 
@@ -485,7 +486,7 @@ To exclude sites classified as _HBI_ from the public CDN, execute
 spo cdn policy set --type Public --policy ExcludeRestrictedSiteClassifications --value "HBI"
 ```
 
-### Disable Office 365 CDN
+### Disable the Office 365 CDN
 
 To disable the Office 365 CDN use the `spo cdn set` command, for example:
 
