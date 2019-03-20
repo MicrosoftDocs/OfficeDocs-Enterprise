@@ -594,7 +594,7 @@ Get-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
 Or you can check with the Office 365 CLI:
 
 ``` powershell
-o365 spo cdn origin list
+spo cdn origin list
 ```
 
 To add the origin in PowerShell:
@@ -606,7 +606,7 @@ Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
 To add the origin in the Office 365 CLI:
 
 ``` powershell
-o365 spo cdn origin add --origin */CLIENTSIDEASSETS
+spo cdn origin add --origin */CLIENTSIDEASSETS
 ```
 
 ### What PowerShell/CLI modules do I need to work with the Office 365 CDN?
