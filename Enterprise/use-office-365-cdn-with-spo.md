@@ -25,6 +25,9 @@ The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: 
 
 If you are already familiar with the way that CDNs work, you only need to complete a few steps to enable the Office 365 CDN for your tenant. This topic describes how. Read on for information about public and private CDNs and how to get started hosting your static assets.
 
+> [!TIP]
+> There are other Microsoft-hosted CDNs that can be used with Office 365 for specialized usage scenarios, but are not discussed in this topic because they fall outside the scope of the Office 365 CDN. For more information, see [Other Microsoft CDNs](content-delivery-networks.md#other-microsoft-cdns).
+
  **Head back to [Network planning and performance tuning for Office 365](https://aka.ms/tune).**
 
 ## Overview of working with the Office 365 CDN in SharePoint Online
