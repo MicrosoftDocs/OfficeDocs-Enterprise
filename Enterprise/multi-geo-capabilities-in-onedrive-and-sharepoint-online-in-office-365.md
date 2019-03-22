@@ -29,7 +29,7 @@ Each user's OneDrive can be provisioned in or [moved by an administrator](move-o
 
 When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated Group mailbox is created. (If the user's PDL value hasn't been set, or has been set to geo location that hasn't been configured as a satellite location, then the site and mailbox are created in the central location.)
 
-Office 365 services other than Exchange, OneDrive, Groups, and SharePoint are not multi-geo aware. However, Office 365 Groups that are created by other services - such as Teams or Planner - follow the same Group-creation logic discussed above.
+Office 365 services other than Exchange, OneDrive, and SharePoint are not Multi-Geo. However, Office 365 Groups that are created by these services will be stamped with the PDL of the creator and their Exchange Group mailbox and SharePoint O365 Group Site provisioned in the corresponding geo. 
 
 Administrators can [move SharePoint sites between geo locations](move-sharepoint-between-geo-locations.md) if needed, or [restrict content within a site to its geo location](restrict-content-to-geo-location.md).
 
