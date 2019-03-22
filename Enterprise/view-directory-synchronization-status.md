@@ -25,7 +25,7 @@ If you have integrated your on-premises Active Directory with Azure AD by synchr
   
 ## View directory synchronization status
 
-- Sign in to the Microsoft 365 admin center and choose **DirSync Status** on the home page.
+- Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) and choose **DirSync Status** on the home page.
 - Alternately, you can go to **Users** \> **Active users**, and on the **Active users** page, choose **More** \> **Directory synchronization**. On the **Directory Synchronization** pane, choose **Go to DirSync management**.
 
 ## Information on the Manage directory synchronization page

@@ -31,7 +31,7 @@ Office 365 uses two main authentication and identity models: cloud authenticatio
   
 ### Cloud authentication
 
-[Cloud identity](about-office-365-identity.md) - create and manage users in the admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users.
+[Cloud identity](about-office-365-identity.md) - create and manage users in the [Microsoft 365 admin center](https://admin.microsoft.com), you can also use Windows PowerShell, or Azure Active Directory to manage your users.
   
 [Password hash sync with seamless single sign-on](about-office-365-identity.md) - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises.
   

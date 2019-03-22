@@ -59,7 +59,7 @@ You can also review the Azure AD Connect [version release history](https://docs.
 
 ## To set up directory synchronization
 
-1. Sign in to the Microsoft 365 admin center and choose **Users** \> **Active Users** on the left navigation.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) and choose **Users** \> **Active Users** on the left navigation.
 2. In the admin center, on the **Active users** page, choose **More** \> **Directory synchronization**.
 
     ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)

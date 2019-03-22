@@ -33,13 +33,9 @@ You will also receive a mail (to the alternate email and to your admin email) fr
   
 ## How do I get Azure Active Directory Connect tool?
 
-In the Microsoft 365 admin center, navigate to ** Users ** \> **Active users**. Click the **More** menu and select **Directory synchronization**. 
+In the [Microsoft 365 admin center](https://admin.microsoft.com), navigate to ** Users ** \> **Active users**. Click the **More** menu and select **Directory synchronization**. 
   
 ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
-  
-In the old Microsoft 365 admin center, navigate to **USERS** \> **Active Users**, and select **Set up** next to **Active Directory synchronization**. 
-  
-![Choose Set up next to Active Directory synchronization](media/bd95492b-d65e-4072-a6ee-e562f5f566c3.png)
   
 Follow the [instructions in the wizard](set-up-directory-synchronization.md) to download Azure AD Connect. 
   

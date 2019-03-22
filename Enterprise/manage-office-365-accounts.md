@@ -23,7 +23,7 @@ description: "Learn what tools to use to manage your Office 365 users, and how w
 
 # Tools to manage Office 365 accounts
 
-You can manage Office 365 users in several different ways, depending on your configuration. You can manage users in the Microsoft 365 admin center, Windows PowerShell, your on-premises directory, or in Azure Active Directory admin portal . As soon as you purchase Office 365, the admin center and Windows PowerShell can be used to manage accounts. When managing cloud identities every person in your organization has a separate user ID and password for Office 365. If you want to integrate with your on-premises infrastructure and have user accounts synchronized with Office 365, you can use Azure Active Directory Connect to provide synchronization of identities and optionally provide password synchronization, or full single sign-on functionality.
+You can manage Office 365 users in several different ways, depending on your configuration. You can manage users in the [Microsoft 365 admin center](https://admin.microsoft.com), Windows PowerShell, your on-premises directory, or in Azure Active Directory admin portal . As soon as you purchase Office 365, the admin center and Windows PowerShell can be used to manage accounts. When managing cloud identities every person in your organization has a separate user ID and password for Office 365. If you want to integrate with your on-premises infrastructure and have user accounts synchronized with Office 365, you can use Azure Active Directory Connect to provide synchronization of identities and optionally provide password synchronization, or full single sign-on functionality.
   
 ## Plan for where and how you will manage your user accounts
 
