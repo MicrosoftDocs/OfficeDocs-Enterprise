@@ -69,7 +69,7 @@ Some search features you might be familiar with, work differently in a multi-geo
 <tbody>
 <tr class="odd">
 <td align="left">Promoted results</td>
-<td align="left">You can create query rules with promoted results at different levels: for the whole tenant, for a site collection, or for a site. In a multi-geo environment, define promoted results at the tenant level if you want to promote the results to the Search Centers in all geo locations. If you only want to promote results in the Search Center that's in the geo location of the site collection or site, define the results at the site collection or site level.</td>
+<td align="left">You can create query rules with promoted results at different levels: for the whole tenant, for a site collection, or for a site. In a multi-geo environment, define promoted results at the tenant level to promote the results to the Search Centers in all geo locations. If you only want to promote results in the Search Center that's in the geo location of the site collection or site, define the promoted results at the site collection or site level. These results are not promoted in other geo locations.</td>
 <td align="left">If you don't need different promoted results per geo location, for example different rules for traveling, we recommend defining promoted results at the tenant level.</td>
 </tr>
 <tr class="even">
@@ -91,6 +91,11 @@ Some search features you might be familiar with, work differently in a multi-geo
 <tr class="odd">
 <td align="left">Number of results</td>
 <td align="left">The search results page shows combined results from the geo locations, but it's not possible to page beyond 500 results.</td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left">Hybrid search</td>
+<td align="left">In a hybrid SharePoint environment with cloud hybrid search,  on-premises content is added to the Office 365 index of the central location.</td>
 <td align="left"></td>
 </tr>
 </tbody>
