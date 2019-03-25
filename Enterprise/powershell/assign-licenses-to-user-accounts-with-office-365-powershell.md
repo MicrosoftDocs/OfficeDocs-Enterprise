@@ -15,6 +15,8 @@ ms.custom:
 - PowerShell
 - O365ITProTrain
 ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
+search.appverid:
+- MET150
 
 description: "Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users."
 ---
