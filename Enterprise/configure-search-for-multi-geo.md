@@ -95,7 +95,7 @@ Some search features you might be familiar with, work differently in a multi-geo
 </tr>
 <tr class="even">
 <td align="left">Hybrid search</td>
-<td align="left">In a hybrid SharePoint environment with cloud hybrid search,  on-premises content is added to the Office 365 index of the central location.</td>
+<td align="left">In a hybrid SharePoint environment with <a href="https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">cloud hybrid search</a>,  on-premises content is added to the Office 365 index of the central location.</td>
 <td align="left"></td>
 </tr>
 </tbody>
