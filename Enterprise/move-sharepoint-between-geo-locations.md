@@ -1,5 +1,5 @@
 ---
-title: "Move a SharePoint site to a different geo location"
+title: "Move a SharePoint site to a different geo location (Preview)"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
