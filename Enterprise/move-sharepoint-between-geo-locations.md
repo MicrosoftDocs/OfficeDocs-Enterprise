@@ -76,7 +76,6 @@ We recommend that before scheduling any site move, you perform a validation to e
 We do not support moving sites with:
 -	Business Connectivity Services
 -	InfoPath forms 
--	Legal Holds
 
 To ensure all geo locations are compatible, run `Get-SPOGeoMoveCrossCompatibilityStatus`. This will display all your geo locations and whether the environment is compatible with the destination geo location.
 
