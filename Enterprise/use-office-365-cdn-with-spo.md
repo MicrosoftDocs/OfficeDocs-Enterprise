@@ -42,12 +42,12 @@ To set up the Office 365 CDN for your organization, you follow these basic steps
 
 - Set up and configure the CDN, using either PowerShell or the SharePoint Online CLI:
   - [Set up and configure the CDN by using the SharePoint Online Management Shell](use-office-365-cdn-with-spo.md#CDNSetupinPShell)
-  - [Set up and configure the CDN by using the SharePoint Online CLI](use-office-365-cdn-with-spo.md#CDNSetupinCLI)
+  - [Set up and configure the CDN by using the Office 365 CLI](use-office-365-cdn-with-spo.md#CDNSetupinCLI)
 
   When you complete this step, you will have:
 
   - Enabled the CDN for your organization.
-  - Added your origins. You identify each origin as public or private.
+  - Added your origins, identifying each origin as public or private.
 
 Once you're done with setup, you can [Manage the Office 365 CDN](use-office-365-cdn-with-spo.md#CDNManage) over time by:
   
@@ -59,7 +59,7 @@ Once you're done with setup, you can [Manage the Office 365 CDN](use-office-365-
 ## Determine where you want to store your assets
 <a name="CDNStoreAssets"> </a>
 
-The CDN fetches your assets from a location called an origin. For Office 365, an origin is a SharePoint library or folder that is accessible by a URL. You have great flexibility when you specify origins for your organization. For example, you can specify multiple origins or a single origin where you want to put all your CDN assets. You can choose to have both public or private origins for your organization. Most organizations will choose to implement a combination of the two.
+The CDN fetches your assets from a location called an _origin_. An origin can be a SharePoint site, document library or folder that is accessible by a URL. You have great flexibility when you specify origins for your organization. For example, you can specify multiple origins or a single origin where you want to put all your CDN assets. You can choose to have both public or private origins for your organization. Most organizations will choose to implement a combination of the two.
   
 If you define hundreds of origins, it will likely have a negative impact on the time it takes to process requests. We recommend that you limit the number of origins as much as possible.
   
