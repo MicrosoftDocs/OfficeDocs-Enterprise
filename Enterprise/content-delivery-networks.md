@@ -26,12 +26,9 @@ CDNs help keep Office 365 fast and reliable for end users. Cloud services like O
 
 A CDN is a geographically distributed network consisting of proxy and file servers in datacenters connected by high-speed backbone networks. CDNs are used to reduce latency and load times for a specified set of files and objects in a web site or service. A CDN may have many thousands of endpoints for optimal servicing of incoming requests from any location.
 
-There are two classes of CDN:
+CDNs are commonly used to provide faster downloads of generic content for a web site or service such as javascript files, icons and images, and can also provide access to user content such as files in SharePoint Online document libraries, streaming media files, and custom code.
 
-- **Public CDNs** are commonly used to provide faster downloads of generic content for a web site or service such as javascript files, icons and images. Public CDNs are run by companies who lease usage to multiple companies.
-- **Private CDNs** provide fast, secure access to user content such as files in SharePoint Online document libraries, streaming media files, and custom code. Private CDNs are owned and operated by a single company, and only that company's applications and services can use it.
-
-CDNs are used by most enterprise cloud services. Cloud services like Office 365 have millions of customers downloading a mix of proprietary content (such as emails) and generic content (such as icons) at one time. It's more efficient to put images everyone uses, like icons, as close to the user's computer as possible. Yet, it isn't practical for every cloud service to build CDN datacenters that store this generic content in every metropolitan area, or even in every major Internet hub around the world, so some of these CDNs are shared.
+CDNs are used by most enterprise cloud services. Cloud services like Office 365 have millions of customers downloading a mix of proprietary content (such as emails) and generic content (such as icons) at one time. It's more efficient to put images everyone uses, like icons, as close to the user's computer as possible. It isn't practical for every cloud service to build CDN datacenters that store this generic content in every metropolitan area, or even in every major Internet hub around the world, so some of these CDNs are shared.
 
 ## How do CDNs make services work faster?
 
@@ -47,15 +44,17 @@ CDNs help to improve cloud service performance in several ways:
 
 The built-in Office 365 Content Delivery Network (CDN) allows Office 365 administrators to provide better performance for their organization's SharePoint Online pages by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. The Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and download speeds.
 
-The Office 365 CDN is composed of multiple CDNs of two distinct classes of CDN: **public** and **private**. Both public and private CDNs allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. The Office 365 CDN service is included as part of your SharePoint Online subscription.
+The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host, you can use one or both CDNs. The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
-The **private CDN** within the Office 365 CDN provides fast, secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Unlike public CDNs, access to content in the Office 365 CDN is secured by default so it can only be accessed by users with permissions to the original document library or storage location. The private Office 365 CDN can only be used for SharePoint Online content, and you can only access private CDN assets through redirection from your SharePoint Online tenant.
+Content on the Office 365 **public CDN** is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in the public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images. The Office 365 public CDN is used by default for downloading generic resource assets like the Office 365 client applications.
 
-The **public CDNs** within the Office 365 CDN are hosted by 3rd-party CDN providers like Akamai and Verizon. Content on a public CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in a public CDN is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
+The Office 365 **SharePoint CDN** provides more secure access to user content such as SharePoint Online document libraries, sites and media such as videos. Access to content in the Office 365 CDN is secured with dynamically generated tokens so it can only be accessed by users with permissions to the original document library or storage location. The Office 365 SharePoint CDN can only be used for SharePoint Online content, and you can only access assets through redirection from your SharePoint Online tenant.
+
+For more information about how to use the Office 365 CDN, see [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo).
 
 ## Other Microsoft CDNs
 
-Although not a part of the public Office 365 CDN, you can use these CDNs in your Office 365 tenant for access to SharePoint development libraries, custom code and other purposes that fall outside the scope of the Office 365 CDN.
+Although not a part of the Office 365 CDN, you can use these CDNs in your Office 365 tenant for access to SharePoint development libraries, custom code and other purposes that fall outside the scope of the Office 365 CDN.
 
 ### Azure CDN
 
@@ -79,7 +78,7 @@ For more information about how to use the Microsoft Ajax CDN, see [Microsoft Aja
 
 ## How does Office 365 use content from a CDN?
 
-Depending on where you're located, it might be most efficient for Office 365 to download generic images for you from a CDN that Office 365 owns and runs, a public CDN, or a combination of the two. Regardless of what type of CDN is used, the steps to retrieve the data are the same.
+Regardless of what CDN you configure for your Office 365 tenant, the basic data retrieval process is the same.
 
 1. Your client (a browser or Office client application) requests data from Office 365.
 
@@ -103,11 +102,9 @@ The CDNs in use by Office 365 are always subject to change and in many cases the
 
 |CDN  |Company  |Usage  |Link  |
 |---------|---------|---------|---------|
-|Office 365 private CDN     |Microsoft         |SharePoint user content         |[Office 365 private CDN](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)         |
+|Office 365 CDN     |Akamai         |SharePoint user content, generic assets         |[Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)         |
 |Azure CDN     |Microsoft         |Custom code, SharePoint Framework solutions         |[Microsoft Azure CDN](https://azure.microsoft.com/documentation/services/cdn/)         |
 |Microsoft Ajax CDN (read only)     |Microsoft         |Common libraries for Ajax, jQuery, ASP.NET, Bootstrap, Knockout.js etc.         |[Microsoft Ajax CDN](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)         |
-|Akamai     |Akamai         |Public CDN hosting         |[Akamai CDN](https://www.akamai.com/us/en/cdn.jsp)         |
-|Edgecast     |Verizon         |Public CDN hosting         |[Verizon Edgecast CDN](https://www.verizondigitalmedia.com/platform/edgecast-cdn/)         |
 
 ## What performance gains does a CDN provide?
 
@@ -127,7 +124,7 @@ The second screen shot shows the same file delivered by Microsoft's CDN. This ti
 
 ## Is my data safe?
 
-We take great care to protect the data that runs your business. Data stored in both public and private CDNs is encrypted both in transit and at rest, and access to data in the private Office 365 CDN is secured by Office 365 user permissions and token authorization. Requests for data in the private Office 365 CDN must be refered (redirected) from your Office 365 tenant or an authorization token will not be issued.
+We take great care to protect the data that runs your business. Data stored in the Office 365 CDN is encrypted both in transit and at rest, and access to data in the Office 365 SharePoint CDN is secured by Office 365 user permissions and token authorization. Requests for data in the Office 365 SharePoint CDN must be refered (redirected) from your Office 365 tenant or an authorization token will not be generated.
 
 To ensure that your data remains secure, we recommend that you never store user content or other sensitive data in a public CDN. Because access to data in a public CDN is anonymous, public CDNs should only be used to host generic content such as web script files, icons, images and other non-sensitive assets.
 
@@ -137,9 +134,8 @@ To ensure that your data remains secure, we recommend that you never store user 
 For in-depth information about privacy and data protection for Office 365 CDN providers, visit the following:  
 
 - Learn more about Office 365 privacy and data protection at the [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
-- Learn more about Azure privacy and data protection at the [Azure Trust Center](https://azure.microsoft.com/en-us/overview/trusted-cloud/)
 - Learn more about Akamai’s privacy and data protection at the [Akamai Privacy Trust Center](https://www.akamai.com/us/en/about/compliance/data-protection-at-akamai.jsp)
-- Learn more about Verizon Edgecast privacy and data protection at the [Verizon Cloud Security page](https://www.verizondigitalmedia.com/platform/edgecast-cdn/security/).
+- Learn more about Azure privacy and data protection at the [Azure Trust Center](https://azure.microsoft.com/en-us/overview/trusted-cloud/)
 
 ## How can I secure my network with all these 3rd party services?
 
@@ -157,7 +153,7 @@ You can also use the [Office 365 IP Address and URL Web service](https://docs.mi
 
 We're continually looking for new ways to support our customers needs and are currently exploring the use of caching proxy solutions and other on-premises CDN solutions.
 
-Although it is not a part of the public Office 365 CDN, you can also use the **Azure CDN** for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. Use of the Azure CDN is not free, and requires an Azure subscription. For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
+Although it is not a part of the Office 365 CDN, you can also use the **Azure CDN** for hosting custom web parts, libraries and other resource assets, which allows you to apply access keys to your CDN storage and exert greater control over your CDN configuration. Use of the Azure CDN is not free, and requires an Azure subscription. For more information on how to configure an Azure CDN instance, see [Quickstart: Integrate an Azure storage account with Azure CDN](https://docs.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
 
 ## I'm using Azure ExpressRoute for Office 365, does that change things?
 
