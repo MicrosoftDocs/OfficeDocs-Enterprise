@@ -19,7 +19,7 @@ description: "Describes how to use the Office 365 Content Delivery Network (CDN)
 
 # Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 
-You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. Also, the Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and download speeds. The Office 365 CDN service is included as part of your SharePoint Online subscription.
+You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. Also, the Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and HTTP pipelining. The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
 The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host in the Office 365 CDN, you can add **public** origins, **private** origins or both. See [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate) for more information on the difference betwen public and private origins.
 
@@ -34,13 +34,14 @@ If you are already familiar with the way that CDNs work, you only need to comple
 
 To set up the Office 365 CDN for your organization, you follow these basic steps:
 
-- Plan for CDN deployment:
+- [Plan for deployment of the Office 365 CDN](use-office-365-cdn-with-spo.md#plan-for-deployment-of-the-office-365-cdn)
 
-  - Determine which static assets you want to host on the CDN. For detailed information about how to make these choices, refer to [Content Delivery Networks](content-delivery-networks.md).
+  - [Determine which static assets you want to host on the CDN](use-office-365-cdn-with-spo.md#CDNAssets).
   - [Determine where you want to store your assets](use-office-365-cdn-with-spo.md#CDNStoreAssets). This location can be a SharePoint site, library or folder and is called an _origin_.
   - [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate). You can add multiple origins of both public and private types.
 
-- Set up and configure the CDN, using either PowerShell or the SharePoint Online CLI:
+- Set up and configure the CDN, using either PowerShell or the SharePoint Online CLI
+
   - [Set up and configure the CDN by using the SharePoint Online Management Shell](use-office-365-cdn-with-spo.md#CDNSetupinPShell)
   - [Set up and configure the CDN by using the Office 365 CLI](use-office-365-cdn-with-spo.md#CDNSetupinCLI)
 
@@ -63,6 +64,20 @@ See [Troubleshooting the Office 365 CDN](use-office-365-cdn-with-spo.md#CDNTroub
 ## Plan for deployment of the Office 365 CDN
 
 Before you deploy the Office 365 CDN for your Office 365 tenant, you should consider the following factors as part of your planning process.
+
+### Determine which static assets you want to host on the CDN
+<a name="CDNAssets"> </a>
+
+In general, CDNs are most effective for hosting static assets, or assets that don't change very often. A good rule of thumb is to identify files that meet some or all of these conditions:
+
+- Static files embedded in a page (like scripts and images) that may have a significant incremental impact on page load times
+- Large files like executables and installation files
+- Streaming media files
+- Resource libraries that support client-side code
+
+For example, small files that are repeatedly requested like site images and scripts can significantly improve site rendering performance and incrementally reduce the load on your SharePoint Online sites when you add them to a CDN origin. Larger files such as installation executables or video files can be downloaded or streamed from the CDN, delivering a positive performance impact and subsequent reduction of the load on your SharePoint Online site, even if they are not accessed as often.
+
+Performance improvement on a per-file basis is dependent on many factors, including the client's proximity to the nearest CDN endpoint, transient conditions on the local network, and so forth. Many static files are quite small, and can be downloaded from Office 365 in less than a second. However, a web page may contain many embedded files with a cumulative download time of several seconds. Serving these files from the CDN can significantly reduce the overall page load time. See [What performance gains does a CDN provide?](content-delivery-networks.md#what-performance-gains-does-a-cdn-provide) for an example.
 
 ### Determine where you want to store your assets
 <a name="CDNStoreAssets"> </a>
