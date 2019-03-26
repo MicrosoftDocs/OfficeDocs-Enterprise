@@ -65,10 +65,14 @@ See [Troubleshooting the Office 365 CDN](use-office-365-cdn-with-spo.md#CDNTroub
 
 Before you deploy the Office 365 CDN for your Office 365 tenant, you should consider the following factors as part of your planning process.
 
+  - [Determine which static assets you want to host on the CDN](use-office-365-cdn-with-spo.md#CDNAssets)
+  - [Determine where you want to store your assets](use-office-365-cdn-with-spo.md#CDNStoreAssets)
+  - [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate)
+
 ### Determine which static assets you want to host on the CDN
 <a name="CDNAssets"> </a>
 
-In general, CDNs are most effective for hosting static assets, or assets that don't change very often. A good rule of thumb is to identify files that meet some or all of these conditions:
+In general, CDNs are most effective for hosting _static assets_, or assets that don't change very often. A good rule of thumb is to identify files that meet some or all of these conditions:
 
 - Static files embedded in a page (like scripts and images) that may have a significant incremental impact on page load times
 - Large files like executables and installation files
@@ -95,15 +99,15 @@ Keep in mind that the greater the number of origins, the greater the impact on t
 ### Choose whether each origin should be public or private
 <a name="CDNOriginChoosePublicPrivate"> </a>
 
-When you identify an origin, you specify whether it should be made public or private. Content in public origins is anonymous, and content in private origins is secured by dynamically generated tokens for greater security. Regardless of which option you choose, Microsoft does all the heavy lifting for you when it comes to administration of the CDN itself. Also, you can change your mind later, after you've set up the CDN and identified your origins.
+When you identify an origin, you specify whether it should be made _public_ or _private_. Access to CDN assets in public origins is anonymous, and CDN content in private origins is secured by dynamically generated tokens for greater security. Regardless of which option you choose, Microsoft does all the heavy lifting for you when it comes to administration of the CDN itself. Also, you can change your mind later, after you've set up the CDN and identified your origins.
 
 Both public and private options provide similar performance gains, but each has unique attributes and advantages.
 
+**Public** origins within the Office 365 CDN are accessible anonymously, and hosted assets can be accessed by anyone who has the URL to the asset. Because access to content in public origins is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
+
 **Private** origins within the Office 365 CDN provide private access to user content such as SharePoint Online document libraries, sites and media such as videos. Access to content in private origins is secured by dynamically generated tokens so it can only be accessed by users with permissions to the original document library or storage location. Private origins in the Office 365 CDN can only be used for SharePoint Online content, and you can only access assets in private origins through redirection from your SharePoint Online tenant.
 
-**Public** origins within the Office 365 CDN are accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in public origins is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images.
-
-For more information about why to use the Office 365 CDN, general CDN concepts, and other Microsoft CDNs you can use with your Office 365 tenant, see [Content Delivery Networks](content-delivery-networks.md).
+You can read more about how CDN access to assets in a private origin works in [Using assets in private origins](use-office-365-cdn-with-spo.md#using-assets-in-private-origins).
 
 #### Attributes and advantages of hosting assets in public origins
   
@@ -124,6 +128,8 @@ For more information about why to use the Office 365 CDN, general CDN concepts, 
 - If you remove an asset from the private origin, the asset may continue to be available for up to an hour from the cache; however, we will invalidate links to the asset in the CDN within 15 minutes of the asset's removal.
 - The default file types that are included for private origins are .gif, .ico, .jpeg, .jpg, .js, and .png. You can specify additional file types.
 - Just like with public origins, you can configure a policy to exclude assets that have been identified by site classifications that you specify even if you use wildcards to include all assets within a folder or document library.
+
+For more information about why to use the Office 365 CDN, general CDN concepts, and other Microsoft CDNs you can use with your Office 365 tenant, see [Content Delivery Networks](content-delivery-networks.md).
 
 ### Default CDN origins
 
