@@ -186,7 +186,7 @@ To enable your organization to use both public and private origins but skip sett
 Set-SPOTenantCdnEnabled -CdnType Both -Enable $true -NoDefaultOrigins
 ```
 
-See [Default CDN origins](use-office-365-cdn-with-spo.md#defaul-cdn-origins) for information about the origins that are provisioned by default when you enable the Office 365 CDN, and the potential impact of skipping the setup of default origins.
+See [Default CDN origins](use-office-365-cdn-with-spo.md#default-cdn-origins) for information about the origins that are provisioned by default when you enable the Office 365 CDN, and the potential impact of skipping the setup of default origins.
 
 To enable your organization to use public origins, type the following command:
 
@@ -452,7 +452,7 @@ To view the currently configured Office 365 Public CDN origins execute:
 spo cdn origin list --type Public
 ```
 
-See [Default CDN origins](use-office-365-cdn-with-spo.md#defaul-cdn-origins) for information about the origins that are provisioned by default when you enable the Office 365 CDN.
+See [Default CDN origins](use-office-365-cdn-with-spo.md#default-cdn-origins) for information about the origins that are provisioned by default when you enable the Office 365 CDN.
 
 ### Add an Office 365 CDN origin
 
