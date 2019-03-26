@@ -42,14 +42,18 @@ To set up the Office 365 CDN for your organization, you follow these basic steps
 
   - Determine which static assets you want to host on the CDN. For detailed information about how to make these choices, refer to [Content Delivery Networks](content-delivery-networks.md).
   - [Determine where you want to store your assets](use-office-365-cdn-with-spo.md#CDNStoreAssets). This location can be a SharePoint site, library or folder and is called an _origin_.
-  - Determine whether the assets should be made public or kept private. You do this when you [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate). If you want, you can have multiple origins in which some are public, and some are private.
+  - [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate). You can add multiple origins of both public and private types.
 
-- [Set up and configure the CDN by using the SharePoint Online Management Shell](use-office-365-cdn-with-spo.md#CDNSetupinPShell). When you complete this step, you will have:
+- Set up and configure the CDN, using either PowerShell or the SharePoint Online CLI:
+  - [Set up and configure the CDN by using the SharePoint Online Management Shell](use-office-365-cdn-with-spo.md#CDNSetupinPShell)
+  - [Set up and configure the CDN by using the SharePoint Online CLI](use-office-365-cdn-with-spo.md#CDNSetupinCLI)
+
+  When you complete this step, you will have:
 
   - Enabled the CDN for your organization.
   - Added your origins. You identify each origin as public or private.
 
-Once you're done with setup, [Manage the Office 365 CDN](use-office-365-cdn-with-spo.md#CDNManage) over time by:
+Once you're done with setup, you can [Manage the Office 365 CDN](use-office-365-cdn-with-spo.md#CDNManage) over time by:
   
 - Adding, updating, and removing assets
 - Adding and removing origins
@@ -57,18 +61,18 @@ Once you're done with setup, [Manage the Office 365 CDN](use-office-365-cdn-with
 - If necessary, disabling the CDN
 
 ## Determine where you want to store your assets
+<a name="CDNStoreAssets"> </a>
 
 The CDN fetches your assets from a location called an origin. For Office 365, an origin is a SharePoint library or folder that is accessible by a URL. You have great flexibility when you specify origins for your organization. For example, you can specify multiple origins or a single origin where you want to put all your CDN assets. You can choose to have both public or private origins for your organization. Most organizations will choose to implement a combination of the two.
   
 If you define hundreds of origins, it will likely have a negative impact on the time it takes to process requests. We recommend that you limit the number of origins as much as possible.
   
 ## Choose whether each origin should be public or private
+<a name="CDNOriginChoosePublicPrivate"> </a>
 
 When you identify an origin, you specify whether it should be made public or private. Content in public origins is anonymous, and content in private origins is secured by dynamically generated tokens for greater security. Regardless of which option you choose, Microsoft does all the heavy lifting for you when it comes to administration of the CDN itself. Also, you can change your mind later, after you've set up the CDN and identified your origins.
 
 Both public and private options provide similar performance gains, but each has unique attributes and advantages.
-
-### What's the difference between public and private origins?
 
 **Private** origins within the Office 365 CDN provide private access to user content such as SharePoint Online document libraries, sites and media such as videos. Access to content in private origins is secured by dynamically generated tokens so it can only be accessed by users with permissions to the original document library or storage location. Private origins in the Office 365 CDN can only be used for SharePoint Online content, and you can only access assets in private origins through redirection from your SharePoint Online tenant.
 
@@ -115,6 +119,7 @@ Default public CDN origins:
 > _clientsideassets_ is a default public origin that was added to the Office 365 CDN service in December 2017. This origin must be present in order for SharePoint Framework solutions in the CDN to work. For more information, see [My client-side web part or SharePoint Framework solution isn't working](use-office-365-cdn-with-spo.md#my-client-side-web-part-or-sharepoint-framework-solution-isnt-working).
 
 ## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
+<a name="CDNSetupinPShell"> </a>
 
 The procedures in this section require you to use the SharePoint Online Management Shell to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
   
@@ -380,6 +385,7 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://technet.microsoft.com/en-us/library/mt790765.aspx).
 
 ## Set up and configure the Office 365 CDN using the Office 365 CLI
+<a name="CDNSetupinCLI"> </a>
 
 The procedures in this section require that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your SharePoint Online tenant using the [spo connect](https://pnp.github.io/office365-cli/cmd/spo/connect/) command.
 
@@ -568,7 +574,7 @@ For more information on using the developer tools in the Microsoft Edge browser,
 ### Why are assets from a new origin unavailable?
 Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded from the origin to CDN storage. The time required for assets to be available in the CDN depends on how many assets and the files sizes.
 
-### My client-side web part or SharePoint Framework solution isn't working in my public CDN
+### My client-side web part or SharePoint Framework solution isn't working
 
 When you enable the Office 365 CDN for public origins, the CDN service will automatically create these default origins:
 
