@@ -66,6 +66,8 @@ For more information on how to configure an Azure CDN instance, see [Quickstart:
 
 For an example of how the Azure CDN can be used to host SharePoint web parts, see [Deploy your SharePoint client-side web part to Azure CDN](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/deploy-web-part-to-cdn).
 
+For information about the Azure CDN PowerShell module, see [Manage Azure CDN with PowerShell](https://docs.microsoft.com/en-us/azure/cdn/cdn-manage-powershell).
+
 ### Microsoft Ajax CDN
 
 Microsoft's **Ajax CDN** is a read-only CDN that offers many popular development libraries including jQuery (and all of its other libraries), ASP.NET Ajax, Bootstrap, Knockout.js, and others.
