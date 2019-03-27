@@ -545,14 +545,80 @@ spo cdn set --type Public --enabled false
 
 Now that you have enabled the CDN and configured origins and policies, you can begin using your CDN assets.
 
-- [Using assets in private origins](use-office-365-cdn-with-spo.md#using-assets-in-private-origins)
+This section will help you understand how to use CDN URLs in your SharePoint pages and content so that SharePoint redirects requests for assets in both public and private origins to the CDN.
+
+- [Updating links to CDN assets](use-office-365-cdn-with-spo.md#updating-links-to-cdn-assets)
 - [Using assets in public origins](use-office-365-cdn-with-spo.md#using-assets-in-public-origins)
+- [Using assets in private origins](use-office-365-cdn-with-spo.md#using-assets-in-private-origins)
+
+For information on how to use the CDN for hosting client-side web parts, see the topic [Host your client-side web part from Office 365 CDN (Hello World part 4)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/hosting-webpart-from-office-365-cdn).
+
+### Updating links to CDN assets
+
+To use assets that you have added to an origin, you simply update links to the original file with the path to the file in the origin.
+
+- Edit the page or content that contains links to assets you have added to an origin. You can also use one of several methods to globally search and replace links across an enter site or site collection if you want to update the link to a given asset everywhere it appears.
+- For each link to an asset in an origin, replace the path with the path to the file in the CDN origin. You can use relative paths.
+- Save the page or content.
+
+For example, consider the image _/site/SiteAssets/images/image.png_, which you have copied to the document library folder _/site/CDN_origins/public/_. To use the CDN asset, replace the original path to the image file location with the path to the origin to make the new URL _/site/CDN_origins/public/image.png_.
+
+If you want to use the full URL to the asset instead of a relative path, construct the link like so:
+
+`https://<TenantHostName>.sharepoint.com/sites/site/CDN_origins/public/image.png`
+
+> [!NOTE]
+> In general, you should not hardcode URLs directly to assets in the CDN. However, you can manually construct URLs for assets in public origins if needed. For more information, see [Hardcoding CDN URLs for public assets](use-office-365-cdn-with-spo.md#hardcoding-cdn-urls-for-public-assets).
+
+To learn about how to verify that assets are being served from the CDN, see [How do I confirm that assets are being served by the CDN?](use-office-365-cdn-with-spo.md#CDNConfirm) in the [Troubleshooting the Office 365 CDN](use-office-365-cdn-with-spo.md#CDNTroubleshooting) section.
+
+### Using assets in public origins
+
+The **Publishing feature** in SharePoint Online automatically rewrites URLs of assets stored in public origins to their CDN equivalents so that assets are served from the CDN service instead of SharePoint.
+
+If your origin is in a site with the Publishing feature enabled, and the assets you want to offload to the CDN are in one of the following categories, SharePoint will automatically rewrite URLs for assets in the origin, provided that the asset has not been excluded by a CDN policy.
+
+The following is an overview of which links are automatically rewritten by the SharePoint Publishing feature:
+
+- IMG/LINK/CSS URLs in classic publishing page HTML responses
+  - This includes images added by authors within the HTML content of a page
+- Picture Library SlideShow webpart image URLs
+- Image fields in SPList REST API (RenderListDataAsStream) results
+  - Use the new property _ImageFieldsToTryRewriteToCdnUrls_ to provide a comma separated list of fields
+  - Supports hyperlink fields and PublishingImage fields
+- SharePoint image renditions
+
+The following diagram illustrates the workflow when SharePoint receives a request for a page containing assets from a public origin.
+
+![Office 365 CDN public asset request diagram](media/O365-CDN/o365-cdn-public-steps.png)
+
+> [!TIP]
+> If you want to disable auto-rewriting for specific URLs on a page, you can check out the page and add the query string parameter **?NoAutoReWrites=true** to the end of each link you want to disable.
+
+#### Hardcoding CDN URLs for public assets
+
+If the _Publishing_ feature is not enabled for a public origin, or the asset is not one of the link types supported by the auto-rewrite feature of the CDN service, you can manually construct URLs to the CDN location of the assets and use these URLs in your content.
+
+> [!NOTE]
+> You cannot hardcode CDN URLs to assets in a private origin because the required access token that forms the last section of the URL is generated at the time the resource is requested.
+
+For public CDN assets, the URL format will look like the following:
+
+``` html
+https://publiccdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png
+```
+
+Replace **TenantHostName** with your tenant name. Example:
+
+``` html
+https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library/asset.png
+```
 
 ### Using assets in private origins
 
 No additional configuration is required to use assets in private origins. SharePoint Online automatically rewrites URLs for assets in private origins so requests for those assets will always be served from the CDN. You cannot manually build URLs to CDN assets in private origins because these URLs contain tokens that must be auto-generated by SharePoint Online at the time the asset is requested.
 
-Access to assets in private origins is protected by dynamically generated tokens based on user permissions to the origin, with the caveats described in the following sections.
+Access to assets in private origins is protected by dynamically generated tokens based on user permissions to the origin, with the caveats described in the following sections. Users must have at least **read** access to the origins for the CDN to render content.
 
 The following diagram illustrates the workflow when SharePoint receives a request for a page containing assets from a private origin.
 
@@ -582,51 +648,20 @@ It is important to note that SharePoint Online does not support item-level permi
 |User 3     |Does not have access to folder1, but is granted explicit permission to access image1.jpg in SharePoint Online         |Can access the asset image1.jpg directly from SharePoint Online, but not from the CDN         |
 |User 4     |Has access to folder1, but has been explicitly denied access to image1.jpg in SharePoint Online         |Cannot access the asset from SharePoint Online, but can access the asset from the CDN despite being denied access to the file in SharePoint Online         |
 
-### Using assets in public origins
-
-The **Publishing feature** in SharePoint Online automatically rewrites URLs of assets stored in public origins to their CDN equivalents so that assets are served from the CDN service instead of SharePoint. If your origin is in a site with the Publishing feature enabled, and the assets you want to offload to the CDN are in one of the following categories, no further configuration is required.
-
-The following is an overview of which links are automatically rewritten by the SharePoint Publishing feature:
-
-- IMG/LINK/CSS URLs in classic publishing page HTML responses
-  - This includes images added by authors within the HTML content of a page
-- Picture Library SlideShow webpart image URLs
-- Image fields in SPList REST API (RenderListDataAsStream) results
-  - Use the new property _ImageFieldsToTryRewriteToCdnUrls_ to provide a comma separated list of fields
-  - Supports hyperlink fields and PublishingImage fields
-- SharePoint image renditions
-
-The following diagram illustrates the workflow when SharePoint receives a request for a page containing assets from a public origin.
-
-![Office 365 CDN public asset request diagram](media/O365-CDN/o365-cdn-public-steps.png)
-
-> [!TIP]
-> If you want to disable auto-rewriting for specific URLs on a page, you can check out the page and add the query string parameter **?NoAutoReWrites=true** to the end of each link you want to disable.
-
-To use assets in a public origin that does not have the Publishing feature enabled, you can manually construct URLs to the assets and use these URLs in your content. For public CDN assets, the URL format will look like the following:
-
-``` html
-https://publiccdn.sharepointonline.com/<TenantHostName>/sites/site/library/asset.png
-```
-
-You need to replace **TenantHostName** with your tenant name. Example:
-
-``` html
-https://publiccdn.sharepointonline.com/contoso.sharepoint.com/sites/site/library/asset.png
-```
-
-You cannot test CDN URLs directly in a web browser because you must have a referer coming from SharePoint Online. However, if you add the CDN asset URL to a SharePoint page and then open the page in a browser, you will see the CDN asset rendered on the page.
-
 ## Troubleshooting the Office 365 CDN
 <a name="CDNTroubleshooting"> </a>
 
 ### How do I confirm that assets are being served by the CDN?
+<a name="CDNConfirm"> </a>
+
 Once you have added links to CDN assets to a page, you can confirm that the asset is being served from the CDN by browsing to the page, right clicking on the image once it has rendered and reviewing the image URL.
 
 You can also use your browser's developer tools to view the URL for each asset on a page, or use a 3rd party network trace tool.
 
 > [!NOTE]
-> If you use a network tool such as Fiddler to test your assets outside of rendering the asset from a SharePoint page, you must manually add the referer header “Referer: `https://yourdomain.sharepoint.com`” to the GET request where the URL is the root URL of your SharePoint Online tenant. Browsing directly to an asset without the SharePoint Online referer will not load the asset.
+> If you use a network tool such as Fiddler to test your assets outside of rendering the asset from a SharePoint page, you must manually add the referer header “Referer: `https://yourdomain.sharepoint.com`” to the GET request where the URL is the root URL of your SharePoint Online tenant.
+
+You cannot test CDN URLs directly in a web browser because you must have a referer coming from SharePoint Online. However, if you add the CDN asset URL to a SharePoint page and then open the page in a browser, you will see the CDN asset rendered on the page.
 
 For more information on using the developer tools in the Microsoft Edge browser, see [Microsoft Edge Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
 
@@ -679,3 +714,4 @@ You can choose to work with the Office 365 CDN using either the **SharePoint Onl
 [Content Delivery Networks](https://aka.ms/o365cdns)
 
 [Network planning and performance tuning for Office 365](https://aka.ms/tune)
+
