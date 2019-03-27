@@ -11,7 +11,7 @@ localization_priority: Priority
 description: "Learn how to move a SharePoint site to a different geo location."
 ---
 
-# Move a SharePoint site to a different geo location 
+# Move a SharePoint site to a different geo location (Preview)
 
 With SharePoint site geo move, you can move SharePoint sites to other geo locations within your multi-geo environment. This feature is currently in preview.
 
