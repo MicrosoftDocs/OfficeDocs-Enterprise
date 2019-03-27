@@ -1,12 +1,11 @@
 ---
-title: "Move a SharePoint site to a different geo location - Preview"
+title: "Move a SharePoint site to a different geo location (Preview)"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
 description: "Learn how to move a SharePoint site to a different geo location."
