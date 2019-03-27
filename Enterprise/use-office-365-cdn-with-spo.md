@@ -330,9 +330,9 @@ Normally, these origins are set up for you by default when you enable the Office
   Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
   ```
 
-- For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
+For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
 
-    Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
+Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
 
 ### Example: Configure a private origin for your site assets, site pages, and publishing images for SharePoint Online
 <a name="ExamplePrivateOrigin"> </a>
@@ -355,9 +355,9 @@ Normally, these origins are set up for you by default when you enable the Office
   Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl */publishingimages
   ```
 
-    For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
+For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
 
-    Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
+Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
 
 ### Example: Configure a private origin for a site collection for SharePoint Online
 <a name="ExamplePrivateOriginSiteCollection"> </a>
