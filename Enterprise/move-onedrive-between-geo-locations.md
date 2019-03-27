@@ -1,5 +1,5 @@
 ---
-title: "Move a OneDrive site to a different geo-location"
+title: "Move a OneDrive site to a different geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -12,7 +12,7 @@ localization_priority: Priority
 description: "Learn how to move a OneDrive site to a different geo location."
 ---
 
-# Move a OneDrive site to a different geo-location 
+# Move a OneDrive site to a different geo location 
 
 With OneDrive geo move, you can move a user’s OneDrive to a different geo location. OneDrive geo move is performed by the SharePoint Online administrator or the Office 365 global administrator. Before you start a OneDrive geo move, be sure to notify the user whose OneDrive is being moved and recommend they close all files for the duration of the move. (If the user has a document open using the Office client during the move, then upon move completion the document will need to be saved to the new location.) The move can be scheduled for a future time, if desired.
 
@@ -54,7 +54,7 @@ For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, 
 
 `connect-sposervice -url https://contosoenergyeur-admin.sharepoint.com`
 
-![](media/move-onedrive-between-geo-locations-image1.png)
+![Screenshot of PowerShell window showing connect-sposervice cmdlet](media/move-onedrive-between-geo-locations-image1.png)
 
 ## Validating the environment
 
@@ -66,7 +66,7 @@ To ensure that all geo locations are compatible, run:
 
 You will see a list of your geo locations and whether content can be moved between will be denoted as "Compatible". If the command returns "Incompatible" please retry validating the status at a later date.
 
-If a OneDrive is under legal hold or if it contains a subsite, it cannot be moved. You can use the Start-SPOUserAndContentMove cmdlet with the -ValidationOnly parameter to validate if the OneDrive is able to be moved:
+If a OneDrive contains a subsite, for example, it cannot be moved. You can use the Start-SPOUserAndContentMove cmdlet with the -ValidationOnly parameter to validate if the OneDrive is able to be moved:
 
 `Start-SPOUserAndContentMove -UserPrincipalName <UPN> -DestinationDataLocation <DestinationDataLocation> -ValidationOnly`
 
@@ -91,7 +91,7 @@ For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
 
-![](media/move-onedrive-between-geo-locations-image2.png)
+![Screenshot of PowerShell window showing Start-SPOUserAndContentMove cmdlet](media/move-onedrive-between-geo-locations-image2.png)
 
 To schedule a geo move for a later time, use one of the following parameters:
 

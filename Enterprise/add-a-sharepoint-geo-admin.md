@@ -6,15 +6,15 @@ manager: pamgreen
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Normal
-description: "Learn how to add or remove a geo administrator in OneDrive for Business Multi-Geo."
+localization_priority: Priority
+description: "Learn how to add or remove a geo administrator in Office 365 Multi-Geo."
 ---
 
-# Add or remove a geo administrator in OneDrive for Busniess Multi-Geo
+# Add or remove a geo administrator in Office 365 Multi-Geo
 
 You can configure separate administrators for each geo location that you have in your tenant. These administrators will have access to the SharePoint Online and OneDrive settings that are specific to their geo location.
 
-Some services - such as the term store - are administered from the central location and replicated to satellite locations. The geo admin for the central location has access to these, whereas geo admins for satellite locations don’t.
+Some services - such as the term store - are administered from the central location and replicated to satellite locations. The geo admin for the central location has access to these, whereas geo admins for satellite locations don't.
 
 Global administrators and SharePoint Online administrators continue to have access to settings in the central location and all satellite locations.
 
@@ -45,14 +45,6 @@ Note that not all security groups have a group alias. If you want to add a secur
 `Add-SPOGeoAdministrator -ObjectID <ObjectID>`
 
 To remove a group by using the ObjectID, run `Remove-SPOGeoAdministrator -ObjectID <ObjectID>`
-
-### Accessing the admin center for a specific geo-location
-
-To administer OneDrive settings for their geo location, admins must access the OneDrive admin center directly using the following URL format:
-
-https://admin.onedrive.com/?geo=<*geo*>
-
-For example, the OneDrive admin center for Canada is located at: https://admin.onedrive.com/?geo=CAN.
 
 ## See Also
 
