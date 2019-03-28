@@ -97,7 +97,7 @@ Set your Azure subscription. Replace everything within the quotes, including the
   
 ```
 $subscrName="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create the XPrem virtual network and protect it with a network security group with these commands.
