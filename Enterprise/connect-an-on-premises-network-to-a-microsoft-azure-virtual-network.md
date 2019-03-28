@@ -227,7 +227,7 @@ Set your Azure subscription with these commands. Replace everything within the q
   
 ```
 $subscrName="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create a new resource group for your virtual network. To determine a unique resource group name, use this command to list your existing resource groups.
