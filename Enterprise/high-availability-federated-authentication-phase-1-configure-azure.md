@@ -132,8 +132,8 @@ Get-AzSubscription | Sort Name | Select SubscriptionName
 Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct name.
   
 ```
-$subscr="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+$subscrName="<subscription name>"
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create the new resource groups. To determine a unique set of resource group names, use this command to list your existing resource groups.

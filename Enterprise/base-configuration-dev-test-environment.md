@@ -130,8 +130,8 @@ Get-AzSubscription | Sort Name | Select Name
 Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct name.
   
 ```
-$subscr="<subscription name>"
-Select-AzSubscription -SubscriptionName $subscrName -Current
+$subscrName="<subscription name>"
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create a new resource group for your Base Configuration test lab. To determine a unique resource group name, use this command to list your existing resource groups.
