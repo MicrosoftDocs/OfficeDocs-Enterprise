@@ -31,8 +31,6 @@ When a user creates a SharePoint group-connected site, their PDL is used to dete
 
 Office 365 services other than Exchange, OneDrive, and SharePoint are not Multi-Geo. However, Office 365 Groups that are created by these services will be stamped with the PDL of the creator and their Exchange Group mailbox and SharePoint O365 Group Site provisioned in the corresponding geo. 
 
-Administrators can [move SharePoint sites between geo locations](move-sharepoint-between-geo-locations.md) if needed, or [restrict content within a site to its geo location](restrict-content-to-geo-location.md).
-
 ## Managing the multi-geo environment
 
 Setting up and managing your multi-geo environment is done through the SharePoint admin center. 
