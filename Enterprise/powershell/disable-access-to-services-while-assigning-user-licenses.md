@@ -3,6 +3,7 @@ title: "Disable access to services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 04/01/2019
 ms.audience: Admin
 ms.topic: article
 ms.collection: Ent_O365
@@ -20,14 +21,13 @@ description: "Learn how to assign licenses to user accounts and disable specific
 **Summary:**  Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell.
   
 Office 365 subscriptions come with service plans for individual services. Office 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign an Office 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
-  
-## Before you begin
 
-The procedures in this topic require you to connect to Office 365 PowerShell. For instructions, see [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md).
-  
-## Collect information about subscriptions and service plans
 
-Run this command to see your current subscriptions:
+## Use the Microsoft Azure Active Directory Module for Windows PowerShell
+
+First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+
+Next, run this command to see your current subscriptions:
   
 ```
 Get-MsolAccountSku
@@ -54,22 +54,26 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 From the display of this command, determine which service plans you would like to disable when you assign licenses to users.
   
 Here is a partial list of service plans and their corresponding Office 365 services.
+
+The following table shows the Office 365 service plans and their friendly names for the most common services. Your list of service plans might be different. 
   
 |**Service plan**|**Description**|
 |:-----|:-----|
-|SWAY  <br/> |Sway  <br/> |
-|INTUNE_O365  <br/> |Mobile Device Management for Office 365  <br/> |
-|YAMMER_ENTERPRISE  <br/> |Yammer  <br/> |
-|RMS_S_ENTERPRISE  <br/> |Azure Rights Management (RMS)  <br/> |
-|OFFICESUBSCRIPTION  <br/> |Office Professional Plus  <br/> |
-|MCOSTANDARD  <br/> |Skype for Business Online  <br/> |
-|SHAREPOINTWAC  <br/> |Office Online  <br/> |
-|SHAREPOINTENTERPRISE  <br/> |SharePoint Online  <br/> |
-|EXCHANGE_S_ENTERPRISE  <br/> |Exchange Online Plan 2  <br/> |
+| `SWAY` <br/> |Sway  <br/> |
+| `TEAMS1` <br/> |Microsoft Teams  <br/> |
+| `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
+| `RMS_S_ENTERPRISE` <br/> |Azure Rights Management (RMS)  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |Office Professional Plus  <br/> |
+| `MCOSTANDARD` <br/> |Skype for Business Online  <br/> |
+| `SHAREPOINTWAC` <br/> |Office Online  <br/> |
+| `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
+| `EXCHANGE_S_ENTERPRISE` <br/> |Exchange Online Plan 2  <br/> |
+   
+For a complete list of license plans (also known as product names), their included service plans, and their corresponding friendly names, see [Product names and service plan identifiers for licensing](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference).
    
 Now that you have the AccountSkuId and the service plans to disable, you can assign licenses for an individual user or for multiple users.
   
-## For a single user
+### For a single user
 
 For a single user, fill in the user principal name of the user account, the AccountSkuId, and the list of service plans to disable and remove the explanatory text and the \< and > characters. Then, run the resulting commands at the PowerShell command prompt.
   
@@ -101,7 +105,7 @@ Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions 
 Set-MsolUser -UserPrincipalName $userUpn -UsageLocation $UsageLocation
 ```
 
-## For multiple users
+### For multiple users
 
 To perform this administration task for multiple users, create a comma-separated value (CSV) text file that contains the UserPrincipalName and UsageLocation fields. Here is an example:
   
