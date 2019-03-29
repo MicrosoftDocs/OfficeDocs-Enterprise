@@ -3,12 +3,12 @@ title: "Integrated Apps and Azure AD for Office 365 administrators"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 11/19/2018
 ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection: M365-subscription-management
 search.appverid:
 - MET150
 - MOE150
