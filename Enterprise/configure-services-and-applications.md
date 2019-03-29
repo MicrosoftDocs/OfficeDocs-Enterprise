@@ -3,11 +3,10 @@ title: "Configure Office 365 Enterprise services and applications"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: ITPro
 ms.topic: deployment
 ms.service: o365-administration
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-subscription-management
