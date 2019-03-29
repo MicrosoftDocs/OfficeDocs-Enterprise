@@ -3,7 +3,6 @@ title: "Retrieve customer tenant reporting data with Windows PowerShell for Dele
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 12/15/2017
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -16,7 +15,7 @@ description: "Summary: Use remoteWindows PowerShell for Microsoft Exchange Onlin
 
 # Retrieve customer tenant reporting data with Windows PowerShell for Delegated Access Permissions (DAP) partners
 
- **Summary:** Use remoteWindows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants.
+ **Summary:** Use remote Windows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants.
   
 Syndication and Cloud Solution Provider (CSP) partners can access the data that makes up customer tenant reports directly via remoteWindows PowerShell for Exchange Online PowerShell. This lets partners collect and save the reporting data and then perform other operations on it. After you open a remote connection, retrieving reporting data about a customer tenancy is identical to running any cmdlet against a customer tenancy.
   
