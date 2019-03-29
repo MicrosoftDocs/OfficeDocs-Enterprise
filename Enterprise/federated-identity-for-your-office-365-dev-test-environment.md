@@ -81,10 +81,10 @@ An AD FS server provides federated authentication between Office 365 and the acc
 To create an Azure virtual machine for ADFS1, fill in the name of your subscription and the resource group and Azure location for your Base Configuration, and then run these commands at the Azure PowerShell command prompt on your local computer.
   
 ```
-$subscr="<your Azure subscription name>"
+$subscrName="<your Azure subscription name>"
 $rgName="<the resource group name of your Base Configuration>"
 Connect-AzAccount
-Select-AzSubscription -SubscriptionName $subscrName -Current
+Select-AzSubscription -SubscriptionName $subscrName
 $staticIP="10.0.0.100"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 $vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
