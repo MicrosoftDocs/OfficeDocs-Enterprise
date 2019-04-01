@@ -16,12 +16,12 @@ description: "Enabling SharePoint Multi-Geo in your satellite geo location."
 
 This article is for Global or SharePoint administrators who have created a Multi-Geo satellite location before SharePoint Multi-Geo capabilities became generally available on March 27, 2019, and who have not enabled SharePoint Multi-Geo in their satellite geo location(s). 
 
->[Note!]
+>[!Note]
 >If you have added a new geo location after March 27th, you do not need to perform these instructions, as your new geo location will already be enabled for OneDrive and SharePoint Multi-Geo.
 
 These instructions will allow you to enable SharePoint in your satellite location, so your Multi-Geo satellite users can take advantage of both OneDrive and SharePoint Multi-Geo capabilities in O365. 
 
->[IMPORTANT!]
+>[!IMPORTANT!]
 >Please note that this is a one way enablement. Once you set SPO mode, you will not be able to revert your tenant to OneDrive only Multi-Geo mode without an escalation with support. 
 
 To set a geo location into SPO Mode, connect to the geo location you want to set in SPO Mode:
@@ -33,7 +33,7 @@ To set a geo location into SPO Mode, connect to the geo location you want to set
  
  
  
->[Note!]
+>[!Note]
 >Certain caches in the service update every 24 hours, so it is possible that for a period of up to 24 hours, your satellite geo may intermittently behave as if it was still in ODB mode. This does not cause any technical issues. 
  
 For additional information regarding SharePoint Multi-Geo, please refer to [aka.ms/sharepointmultigeo](aka.ms/sharepointmultigeo)
