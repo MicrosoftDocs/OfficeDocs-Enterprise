@@ -24,7 +24,9 @@ These instructions will allow you to enable SharePoint in your satellite locatio
 >[!IMPORTANT]
 >Please note that this is a one way enablement. Once you set SPO mode, you will not be able to revert your tenant to OneDrive only Multi-Geo mode without an escalation with support. 
 
-To set a geo location into SPO Mode, connect to the geo location you want to set in SPO Mode:
+## To set a geo location into SPO Mode
+
+To set a geo location into SPO mode, connect to the geo location you want to set in SPO Mode:
 
 1.	Open your SharePoint Online Management Shell 
 2.	Connect-SPOService -URL "https://$tenantGeo-admin.sharepoint.com" -Credential $credential
