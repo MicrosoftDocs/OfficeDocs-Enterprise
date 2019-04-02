@@ -100,7 +100,7 @@ In this diagram:
     
 For additional information to plan for and create a cross-premises virtual network, see [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
   
-## Add Windows Server Active Directory (AD) and DNS
+## Add Active Directory Domain Services (AD DS) and DNS
 
 For disaster recovery in Azure, you deploy Windows Server AD and DNS in a hybrid scenario where Windows Server AD is deployed both on-premises and on Azure virtual machines.
   

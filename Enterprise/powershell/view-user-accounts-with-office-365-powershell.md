@@ -213,7 +213,7 @@ Get-MsolUser | Where-Object {$_.City -eq "London"}
 You can check the blocked status of a user account with the following command:
   
 ```
-Get-MolUser -UserPrincipalName <UPN of user account> | Select-Object DisplayName,BlockCredential
+Get-MsolUser -UserPrincipalName <UPN of user account> | Select-Object DisplayName,BlockCredential
 ```
 
 ### View additional property values for accounts
