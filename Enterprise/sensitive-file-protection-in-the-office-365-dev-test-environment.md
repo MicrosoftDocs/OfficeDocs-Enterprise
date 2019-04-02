@@ -3,7 +3,7 @@ title: "Sensitive file protection in the Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/01/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -227,7 +227,7 @@ To prepare Office 365 for Phases 3 and 4, enable IRM for SharePoint Online.
     
 5. On the **SharePoint admin center** tab, click **Settings**.
     
-6. On the **Settings** page, in the **Information Rights Management (IRM)** section, select **Use the IRM service specified in your configuration**, and then select **Refresh IRM Settings**.
+6. On the page, in the **Information Rights Management (IRM)** section, select **Use the IRM service specified in your configuration**, and then select **Refresh IRM Settings**.
     
 7. Close the **SharePoint admin center** tab.
     
@@ -259,7 +259,7 @@ First, you enable and configure IRM for the documents library of the Executives 
     
 8. Under **Configure document access rights**, select **Allow viewers to print** and **Allow viewers to write on a copy of the downloaded document**.
     
-9. Under **Set group protection and credentials interval**, select **Allow group protection** and for **Default group**, type **Executives**.
+9. Under **Set group protection and credentials interval**, select **Allow group protection. Default group**, and then type **Executives**.
     
 10. Click **OK**.
     

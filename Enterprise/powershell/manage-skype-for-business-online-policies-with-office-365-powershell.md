@@ -3,7 +3,7 @@ title: "Manage Skype for Business Online policies with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 04/01/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -24,7 +24,7 @@ To manage many properties of user account for Skype for Business Online, you mus
 
 Use these instructions to get set up to run the commands (skip the steps you have already completed):
   
-1. Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+1. Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366).
     
 2. Open a Windows PowerShell command prompt and run the following commands: 
     
