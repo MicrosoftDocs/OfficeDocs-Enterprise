@@ -3,7 +3,7 @@ title: "Office 365 Network Connectivity Overview"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/12/2018
+ms.date: 4/2/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -89,8 +89,6 @@ Optimizing Office 365 network performance really comes down to removing unnecess
 
 [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 
-[Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
-
 [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
@@ -103,4 +101,8 @@ Optimizing Office 365 network performance really comes down to removing unnecess
 
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
 
+[Content Delivery Networks](content-delivery-networks.md)
+
 [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+
+[Office 365 Networking blog](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)
