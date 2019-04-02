@@ -3,7 +3,7 @@ title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/20/2019
+ms.date: 4/2/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -622,7 +622,7 @@ Access to assets in private origins is protected by dynamically generated tokens
 
 The following diagram illustrates the workflow when SharePoint receives a request for a page containing assets from a private origin.
 
-![Office 365 CDN private asset request diagram](media/O365-CDN/o365-cdn-private-steps.png)
+![Office 365 CDN private asset request diagram](media/O365-CDN/o365-cdn-private-steps-transparent.svg)
 
 #### Token-based authorization in private origins
 
