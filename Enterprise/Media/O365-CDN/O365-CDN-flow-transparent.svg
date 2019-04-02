@@ -118,7 +118,7 @@
 		</g>
 		<g id="shape5157-3" v:mID="5157" v:groupContext="shape" v:layerMember="0" transform="translate(368.886,-135.25)">
 			<title>Sheet.5157</title>
-			<rect x="0" y="218.566" width="81.5126" height="69.75" class="st2"/>
+			<rect x="0" y="224.753" width="81.5126" height="63.5625" class="st2"/>
 		</g>
 		<g id="shape5156-5" v:mID="5156" v:groupContext="shape" v:layerMember="0" transform="translate(262.06,-135.25)">
 			<title>Sheet.5156</title>
@@ -315,7 +315,7 @@
 			<rect x="0" y="259.621" width="72" height="28.6946" class="st5"/>
 			<text x="4.23" y="270.97" class="st18" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>SharePoint Site <tspan
 						x="25.98" dy="1.2em" class="st7">Page</tspan></text>		</g>
-		<g id="group5093-64" transform="translate(419.654,-167.875)" v:mID="5093" v:groupContext="group" v:layerMember="0">
+		<g id="group5093-64" transform="translate(419.654,-163.375)" v:mID="5093" v:groupContext="group" v:layerMember="0">
 			<title>Download.2101</title>
 			<g id="shape5094-65" v:mID="5094" v:groupContext="shape" v:layerMember="0" transform="translate(2.38345,0)">
 				<title>Sheet.5094</title>
@@ -424,45 +424,45 @@
 					<svg viewBox="7333 1712 44 42.016" enable-background="new" color-interpolation-filters="sRGB" height="40.6439"
 							preserveAspectRatio="none" width="42.5631" x="0" y="247.672">
 						<defs>
-							<clipPath id="mfid11">
-								<rect id="mfid12" x="7333" y="1712" width="44" height="42.016"/>
+							<clipPath id="mfid200">
+								<rect id="mfid201" x="7333" y="1712" width="44" height="42.016"/>
 							</clipPath>
 						</defs>
-						<g clip-path="url(#mfid11)">
+						<g clip-path="url(#mfid200)">
 							<defs>
-								<g id="mfid13">
+								<g id="mfid202">
 									<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
 											d="M22079,5249 C22070,5249 22063,5242 22063,5233 C22055,5230 22048,5223 22044,5215 C22036,5214 22029,5208 22029,5199 C22029,5191 22036,5184 22044,5183 C22048,5175 22055,5168 22063,5165 C22063,5156 22070,5149 22079,5149 C22087,5149 22094,5156 22095,5165 C22103,5168 22110,5175 22113,5183 C22122,5184 22129,5191 22129,5199 C22129,5208 22122,5214 22113,5215 C22110,5223 22103,5230 22095,5233 C22094,5242 22087,5249 22079,5249 Z M22055,5211 C22058,5216 22062,5220 22067,5222 C22070,5219 22074,5217 22079,5217 C22083,5217 22088,5219 22091,5222 C22096,5220 22100,5216 22102,5211 C22099,5208 22097,5204 22097,5199 C22097,5194 22099,5190 22102,5187 C22100,5182 22096,5178 22091,5176 C22088,5179 22083,5181 22079,5181 C22074,5181 22070,5179 22067,5176 C22062,5178 22058,5182 22055,5187 C22059,5190 22061,5194 22061,5199 C22061,5204 22059,5208 22055,5211 Z"/>
 								</g>
 							</defs>
 							<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
 								<g fill-rule="evenodd" stroke-width="2.326" stroke="none" fill="#ffffff">
-									<use xlink:href="#mfid13" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+									<use xlink:href="#mfid202" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
 								</g>
 							</g>
 							<defs>
-								<g id="mfid14">
+								<g id="mfid203">
 									<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
 											d="M22075,5250 C22076,5251 22078,5251 22079,5251 C22088,5251 22096,5244 22097,5235 C22105,5231 22111,5225 22115,5217 C22124,5216 22131,5208 22131,5199 C22131,5190 22124,5182 22115,5181 C22111,5173 22105,5167 22097,5163 C22096,5154 22088,5147 22079,5147 C22078,5147 22076,5147 22075,5148 M22075,5183 C22076,5183 22078,5183 22079,5183 C22083,5183 22088,5181 22091,5178 C22095,5180 22098,5183 22100,5187 C22097,5190 22095,5194 22095,5199 C22095,5204 22097,5208 22100,5211 C22098,5215 22095,5218 22091,5220 C22088,5217 22083,5215 22079,5215 C22078,5215 22076,5215 22075,5215 Z M22113,5213 C22113,5213 22112,5213 22112,5213 C22108,5221 22101,5228 22092,5232 C22092,5232 22092,5233 22092,5233 C22092,5240 22086,5246 22079,5246 C22078,5246 22076,5246 22075,5246 C22075,5220 22075,5220 22075,5220 C22076,5220 22078,5219 22079,5219 C22084,5219 22088,5222 22090,5225 C22097,5222 22102,5217 22105,5210 C22102,5208 22099,5204 22099,5199 C22099,5194 22102,5190 22105,5188 C22102,5181 22097,5176 22090,5173 C22088,5176 22084,5179 22079,5179 C22078,5179 22076,5179 22075,5178 C22075,5152 22075,5152 22075,5152 C22076,5152 22078,5152 22079,5152 C22086,5152 22092,5158 22092,5165 C22092,5166 22092,5166 22092,5166 C22101,5170 22108,5177 22112,5186 C22112,5186 22113,5186 22113,5186 C22120,5186 22127,5192 22127,5199 C22127,5206 22120,5213 22113,5213 Z"/>
 								</g>
 							</defs>
 							<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
 								<g stroke-width="2.326" stroke="none" fill="#0078d7">
-									<use xlink:href="#mfid14" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+									<use xlink:href="#mfid203" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
 								</g>
 								<g fill-rule="evenodd" stroke-width="2.326" stroke="none" fill="#0078d7">
 									<path d="M22075,5135 L22000,5148 L22000,5250 L22075,5263 L22075,5135 Z"/>
 								</g>
 							</g>
 							<defs>
-								<g id="mfid15">
+								<g id="mfid204">
 									<path transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)"
 											d="M22039,5173 C22033,5173 22027,5177 22026,5183 C22024,5189 22026,5195 22031,5199 C22035,5202 22044,5205 22041,5211 C22039,5213 22036,5213 22034,5213 C22030,5212 22027,5211 22025,5208 C22025,5210 22025,5212 22025,5214 C22025,5215 22025,5216 22025,5217 C22025,5219 22025,5219 22027,5219 C22034,5223 22047,5223 22050,5213 C22052,5209 22051,5204 22049,5200 C22046,5196 22042,5194 22039,5192 C22037,5191 22035,5190 22034,5188 C22034,5186 22034,5184 22036,5183 C22039,5179 22046,5182 22049,5184 C22049,5182 22049,5179 22049,5176 C22049,5176 22049,5175 22049,5175 C22049,5174 22049,5174 22048,5174 C22045,5173 22042,5173 22039,5173"/>
 								</g>
 							</defs>
 							<g transform="matrix(0.33333, 0, 0, 0.33333, 0, 0)">
 								<g stroke-width="2.326" stroke="none" fill="#ffffff">
-									<use xlink:href="#mfid15" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
+									<use xlink:href="#mfid204" transform="matrix(3, -0, -0, 3, -0, 0)" stroke="none"/>
 								</g>
 							</g>
 						</g>
@@ -585,7 +585,7 @@
 			<rect x="0" y="259.621" width="81.5126" height="28.6946" class="st5"/>
 			<text x="11.57" y="270.97" class="st19" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Private assets:<v:newlineChar/><tspan
 						x="6.69" dy="1.2em" class="st7">Videos, software</tspan></text>		</g>
-		<g id="group5126-171" transform="translate(380.948,-171.835)" v:mID="5126" v:groupContext="group" v:layerMember="0">
+		<g id="group5126-171" transform="translate(380.948,-167.335)" v:mID="5126" v:groupContext="group" v:layerMember="0">
 			<title>Video Play.4001</title>
 			<g id="shape5127-172" v:mID="5127" v:groupContext="shape" v:layerMember="0" transform="translate(1.98,-1.98)">
 				<title>Sheet.5127</title>
@@ -745,56 +745,57 @@
 					<svg viewBox="0 0 22.48 26.16" clip="rect(1.75899 1.75901 1.75899 1.75901)" height="30.8099" overflow="hidden"
 							preserveAspectRatio="none" width="26.476" x="-1.75901" y="259.265">
 						<defs>
-							<path id="mfid16"
+							<path id="mfid205"
 									d="M1.5,1.522 L1.5,24.646 L20.998,24.646 L20.998,6.387 C20.998,6.387 17.422,5.746 16.273,5.746 C16.248,4.945 16.265,5.006 16.156,1.521 L1.5,1.521 L1.5,1.522 Z"/>
 						</defs>
 						<g>
 							<g text-rendering="geometricPrecision">
 								<g fill="#5a5a5a">
-									<use xlink:href="#mfid16" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid205" fill-rule="evenodd" stroke="none"/>
 									<defs>
-										<path id="mfid17"
+										<path id="mfid206"
 												d="M2,2.022 L2,24.146 L20.498,24.146 L20.498,6.247 C20.498,6.247 16.228,5.538 16.119,2.022 L2,2.022 Z"/>
 									</defs>
 								</g>
 								<g fill="#ffffff">
-									<use xlink:href="#mfid17" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid206" fill-rule="evenodd" stroke="none"/>
 								</g>
 							</g>
 						</g>
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid18" d="M16.217,1.5 L15.824,1.5 L15.824,6.872 L20.971,6.872 L20.971,6.331 L16.217,1.5 Z"/>
+							<path id="mfid207" d="M16.217,1.5 L15.824,1.5 L15.824,6.872 L20.971,6.872 L20.971,6.331 L16.217,1.5 Z"/>
 						</defs>
-						<mask id="mfid19">
-							<use xlink:href="#mfid18" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid208">
+							<use xlink:href="#mfid207" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid20" fill="white" stroke="none">
+						<mask id="mfid209" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid19)">
-									<rect width="22.48" height="26.16" id="mfid21"/>
+								<g mask="url(#mfid208)">
+									<rect width="22.48" height="26.16" id="mfid210"/>
 								</g>
 							</g>
 						</mask>
 						<defs>
-							<path id="mfid22" d="M-0.010417,-0.010417 L0.064031,-0.010417 L0.064031,0.066375 L-0.010417,0.066375 Z"/>
+							<path id="mfid211"
+									d="M-0.010417,-0.010417 L0.064031,-0.010417 L0.064031,0.066375 L-0.010417,0.066375 Z"/>
 						</defs>
-						<radialGradient id="mfid23">
+						<radialGradient id="mfid212">
 							<stop offset="0" stop-color="#c6c6c6"/>
 							<stop offset="1" stop-color="#606060"/>
 						</radialGradient>
-						<g mask="url(#mfid20)">
+						<g mask="url(#mfid209)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 15.824, 6.872)">
 									<g fill="white">
-										<mask id="mfid24" x="-0.010417" y="-0.010417" width="0.074448" height="0.076792"
+										<mask id="mfid213" x="-0.010417" y="-0.010417" width="0.074448" height="0.076792"
 												maskUnits="userSpaceOnUse">
 											<rect x="-0.010417" y="-0.010417" width="0.074448" height="0.076792" stroke="none"/>
 										</mask>
-										<use xlink:href="#mfid22" stroke="none" mask="url(#mfid24)" fill="url(#mfid23)"/>
+										<use xlink:href="#mfid211" stroke="none" mask="url(#mfid213)" fill="url(#mfid212)"/>
 										<defs>
-											<path id="mfid25" d="M16.324,6.372 L20.307,6.372 L16.324,2.372 L16.324,6.372 Z"/>
+											<path id="mfid214" d="M16.324,6.372 L20.307,6.372 L16.324,2.372 L16.324,6.372 Z"/>
 										</defs>
 									</g>
 								</g>
@@ -803,35 +804,35 @@
 						<g>
 							<g text-rendering="geometricPrecision">
 								<g fill="#ffffff">
-									<use xlink:href="#mfid25" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid214" fill-rule="evenodd" stroke="none"/>
 								</g>
 							</g>
 						</g>
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid26" d="M5.422,15.667 L16.565,15.667 L16.565,15.168 L5.422,15.168 L5.422,15.667 Z"/>
+							<path id="mfid215" d="M5.422,15.667 L16.565,15.667 L16.565,15.168 L5.422,15.168 L5.422,15.667 Z"/>
 						</defs>
-						<mask id="mfid27">
-							<use xlink:href="#mfid26" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid216">
+							<use xlink:href="#mfid215" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid28" fill="white" stroke="none">
+						<mask id="mfid217" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid27)">
-									<use xlink:href="#mfid21"/>
+								<g mask="url(#mfid216)">
+									<use xlink:href="#mfid210"/>
 								</g>
 							</g>
 						</mask>
-						<linearGradient id="mfid29" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.002599" x2="0.12649"
+						<linearGradient id="mfid218" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.002599" x2="0.12649"
 								y2="0.002599" spreadMethod="repeat"
 								gradientTransform="matrix(1, -0, -0, 1, -0.0000000061423, 0.00000000011276)">
 							<stop offset="0" stop-color="#9aaab7"/>
 							<stop offset="1" stop-color="#5084d1"/>
 						</linearGradient>
-						<g mask="url(#mfid28)">
+						<g mask="url(#mfid217)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 5.422, 15.667)">
-									<g fill="url(#mfid29)">
+									<g fill="url(#mfid218)">
 										<rect x="-0.010417" y="-0.010417" width="0.13691" height="0.026031" stroke="none"/>
 									</g>
 								</g>
@@ -840,28 +841,28 @@
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid30" d="M5.422,18.666 L16.565,18.666 L16.565,18.167 L5.422,18.167 L5.422,18.666 Z"/>
+							<path id="mfid219" d="M5.422,18.666 L16.565,18.666 L16.565,18.167 L5.422,18.167 L5.422,18.666 Z"/>
 						</defs>
-						<mask id="mfid31">
-							<use xlink:href="#mfid30" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid220">
+							<use xlink:href="#mfid219" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid32" fill="white" stroke="none">
+						<mask id="mfid221" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid31)">
-									<use xlink:href="#mfid21"/>
+								<g mask="url(#mfid220)">
+									<use xlink:href="#mfid210"/>
 								</g>
 							</g>
 						</mask>
-						<linearGradient id="mfid33" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.002599" x2="0.12649"
+						<linearGradient id="mfid222" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.002599" x2="0.12649"
 								y2="0.002599" spreadMethod="repeat"
 								gradientTransform="matrix(1, -0, -0, 1, -0.0000000061423, 0.00000000011276)">
 							<stop offset="0" stop-color="#9aaab7"/>
 							<stop offset="1" stop-color="#5084d1"/>
 						</linearGradient>
-						<g mask="url(#mfid32)">
+						<g mask="url(#mfid221)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 5.422, 18.666)">
-									<g fill="url(#mfid33)">
+									<g fill="url(#mfid222)">
 										<rect x="-0.010417" y="-0.010417" width="0.13691" height="0.026031" stroke="none"/>
 									</g>
 								</g>
@@ -870,31 +871,31 @@
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid34" d="M5.422,21.664 L16.565,21.664 L16.565,21.165 L5.422,21.165 L5.422,21.664 Z"/>
+							<path id="mfid223" d="M5.422,21.664 L16.565,21.664 L16.565,21.165 L5.422,21.165 L5.422,21.664 Z"/>
 						</defs>
-						<mask id="mfid35">
-							<use xlink:href="#mfid34" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid224">
+							<use xlink:href="#mfid223" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid36" fill="white" stroke="none">
+						<mask id="mfid225" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid35)">
-									<use xlink:href="#mfid21"/>
+								<g mask="url(#mfid224)">
+									<use xlink:href="#mfid210"/>
 								</g>
 							</g>
 						</mask>
-						<linearGradient id="mfid37" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.002599" x2="0.12649"
+						<linearGradient id="mfid226" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.002599" x2="0.12649"
 								y2="0.002599" spreadMethod="repeat"
 								gradientTransform="matrix(1, -0, -0, 1, -0.0000000061423, 0.00000000011276)">
 							<stop offset="0" stop-color="#9aaab7"/>
 							<stop offset="1" stop-color="#5084d1"/>
 						</linearGradient>
-						<g mask="url(#mfid36)">
+						<g mask="url(#mfid225)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 5.422, 21.664)">
-									<g fill="url(#mfid37)">
+									<g fill="url(#mfid226)">
 										<rect x="-0.010417" y="-0.010417" width="0.13691" height="0.026031" stroke="none"/>
 										<defs>
-											<path id="mfid38"
+											<path id="mfid227"
 													d="M5.457,10.093 L9.645,7.936 L9.645,8.559 L6.115,10.331 L6.115,10.351 L9.644,12.111 L9.644,12.732 L5.456,10.582 L5.456,10.093 L5.457,10.093 Z"/>
 										</defs>
 									</g>
@@ -904,12 +905,12 @@
 						<g>
 							<g text-rendering="geometricPrecision">
 								<g fill="#737a7f">
-									<use xlink:href="#mfid38" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid227" fill-rule="evenodd" stroke="none"/>
 									<defs>
-										<path id="mfid39"
+										<path id="mfid228"
 												d="M17.145,10.581 L12.957,12.731 L12.957,12.11 L16.486,10.35 L16.486,10.33 L12.957,8.559 L12.957,7.936 L17.145,10.093 L17.145,10.581 Z"/>
 									</defs>
-									<use xlink:href="#mfid39" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid228" fill-rule="evenodd" stroke="none"/>
 								</g>
 							</g>
 						</g>
@@ -1066,35 +1067,35 @@
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid40"
+							<path id="mfid229"
 									d="M1.625,1.625 L1.625,6.081 C2.598,5.426 4.396,4.829 5.811,5.688 C8.7,7.443 7.707,8.287 7.707,8.287 C7.707,8.287 8.41,8.073 9.306,8.043 C9.432,6.472 10.733,5.23 12.34,5.23 C14.026,5.23 15.397,6.6 15.397,8.286 C15.397,8.741 15.292,9.168 15.114,9.556 C16.04,9.593 16.822,9.755 17.044,10.781 C17.183,11.418 13.343,11.385 12.151,11.865 C10.764,12.42 7.816,10.758 7.816,10.758 C7.816,10.758 4.926,12.123 2.538,11.473 C2.203,11.381 1.903,11.293 1.625,11.202 L1.625,23.17 L19.472,23.17 L19.472,1.625 L1.625,1.625 Z"/>
 						</defs>
-						<mask id="mfid41">
-							<use xlink:href="#mfid40" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid230">
+							<use xlink:href="#mfid229" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid42" fill="white" stroke="none">
+						<mask id="mfid231" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid41)">
-									<rect width="21.08" height="24.8" id="mfid43"/>
+								<g mask="url(#mfid230)">
+									<rect width="21.08" height="24.8" id="mfid232"/>
 								</g>
 							</g>
 						</mask>
 						<defs>
-							<path id="mfid44" d="M-0.010417,-0.010417 L0.19632,-0.010417 L0.19632,0.23484 L-0.010417,0.23484 Z"/>
+							<path id="mfid233" d="M-0.010417,-0.010417 L0.19632,-0.010417 L0.19632,0.23484 L-0.010417,0.23484 Z"/>
 						</defs>
-						<radialGradient id="mfid45">
+						<radialGradient id="mfid234">
 							<stop offset="0" stop-color="#004ac0"/>
 							<stop offset="1" stop-color="#cfe8f2"/>
 						</radialGradient>
-						<g mask="url(#mfid42)">
+						<g mask="url(#mfid231)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 1.625, 23.17)">
 									<g fill="white">
-										<mask id="mfid46" x="-0.010417" y="-0.010417" width="0.20674" height="0.24526"
+										<mask id="mfid235" x="-0.010417" y="-0.010417" width="0.20674" height="0.24526"
 												maskUnits="userSpaceOnUse">
 											<rect x="-0.010417" y="-0.010417" width="0.20674" height="0.24526" stroke="none"/>
 										</mask>
-										<use xlink:href="#mfid44" stroke="none" mask="url(#mfid46)" fill="url(#mfid45)"/>
+										<use xlink:href="#mfid233" stroke="none" mask="url(#mfid235)" fill="url(#mfid234)"/>
 									</g>
 								</g>
 							</g>
@@ -1102,37 +1103,37 @@
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid47"
+							<path id="mfid236"
 									d="M9.305,8.043 C9.298,8.125 9.28,8.203 9.28,8.285 C9.28,9.974 10.648,11.344 12.339,11.344 C13.571,11.344 14.629,10.608 15.112,9.555 C14.076,9.513 12.859,9.627 12.038,8.872 C11.266,8.161 10.19,8.013 9.305,8.043 Z"/>
 						</defs>
-						<mask id="mfid48">
-							<use xlink:href="#mfid47" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid237">
+							<use xlink:href="#mfid236" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid49" fill="white" stroke="none">
+						<mask id="mfid238" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid48)">
-									<use xlink:href="#mfid43"/>
+								<g mask="url(#mfid237)">
+									<use xlink:href="#mfid232"/>
 								</g>
 							</g>
 						</mask>
 						<defs>
-							<path id="mfid50"
+							<path id="mfid239"
 									d="M0.18654,-0.010417 C0.18654,0.032712 0.13489,0.067674 0.071167,0.067674 C0.0074461,0.067674 -0.04421,0.032712 -0.04421,-0.010417 C-0.04421,-0.053545 0.0074461,-0.088508 0.071167,-0.088508 C0.13489,-0.088508 0.18654,-0.053545 0.18654,-0.010417 Z"/>
 						</defs>
-						<radialGradient id="mfid51">
+						<radialGradient id="mfid240">
 							<stop offset="0" stop-color="#c95757"/>
 							<stop offset="0.70711" stop-color="#ffffff"/>
 							<stop offset="1" stop-color="#ffffff"/>
 						</radialGradient>
-						<g mask="url(#mfid49)">
+						<g mask="url(#mfid238)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 9.28, 11.344)">
 									<g fill="white">
-										<mask id="mfid52" x="-0.010417" y="-0.010417" width="0.081583" height="0.055219"
+										<mask id="mfid241" x="-0.010417" y="-0.010417" width="0.081583" height="0.055219"
 												maskUnits="userSpaceOnUse">
 											<rect x="-0.010417" y="-0.010417" width="0.081583" height="0.055219" stroke="none"/>
 										</mask>
-										<use xlink:href="#mfid50" stroke="none" mask="url(#mfid52)" fill="url(#mfid51)"/>
+										<use xlink:href="#mfid239" stroke="none" mask="url(#mfid241)" fill="url(#mfid240)"/>
 									</g>
 								</g>
 							</g>
@@ -1140,39 +1141,39 @@
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid53"
+							<path id="mfid242"
 									d="M12.339,5.229 C10.732,5.229 9.431,6.471 9.305,8.042 C10.191,8.012 11.266,8.16 12.038,8.871 C12.859,9.626 14.076,9.512 15.112,9.554 C15.29,9.166 15.395,8.74 15.395,8.284 C15.396,6.6 14.024,5.229 12.339,5.229 Z"/>
 						</defs>
-						<mask id="mfid54">
-							<use xlink:href="#mfid53" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid243">
+							<use xlink:href="#mfid242" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid55" fill="white" stroke="none">
+						<mask id="mfid244" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid54)">
-									<use xlink:href="#mfid43"/>
+								<g mask="url(#mfid243)">
+									<use xlink:href="#mfid232"/>
 								</g>
 							</g>
 						</mask>
 						<defs>
-							<path id="mfid56"
+							<path id="mfid245"
 									d="M0.19303,-0.0096667 C0.19303,0.041793 0.13967,0.083509 0.073854,0.083509 C0.0080346,0.083509 -0.045323,0.041793 -0.045323,-0.0096667 C-0.045323,-0.061126 0.0080346,-0.10284 0.073854,-0.10284 C0.13967,-0.10284 0.19303,-0.061126 0.19303,-0.0096667 Z"/>
 						</defs>
-						<radialGradient id="mfid57">
+						<radialGradient id="mfid246">
 							<stop offset="0" stop-color="#c95757"/>
 							<stop offset="0.70711" stop-color="#ffffff"/>
 							<stop offset="1" stop-color="#ffffff"/>
 						</radialGradient>
-						<g mask="url(#mfid55)">
+						<g mask="url(#mfid244)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 9.305, 9.626)">
 									<g fill="white">
-										<mask id="mfid58" x="-0.010417" y="-0.0096667" width="0.084271" height="0.065885"
+										<mask id="mfid247" x="-0.010417" y="-0.0096667" width="0.084271" height="0.065885"
 												maskUnits="userSpaceOnUse">
 											<rect x="-0.010417" y="-0.0096667" width="0.084271" height="0.065885" stroke="none"/>
 										</mask>
-										<use xlink:href="#mfid56" stroke="none" mask="url(#mfid58)" fill="url(#mfid57)"/>
+										<use xlink:href="#mfid245" stroke="none" mask="url(#mfid247)" fill="url(#mfid246)"/>
 										<defs>
-											<path id="mfid59"
+											<path id="mfid248"
 													d="M9.03,8.285 C9.03,10.109 10.514,11.594 12.339,11.594 C14.162,11.594 15.646,10.11 15.646,8.285 C15.646,7.403 15.301,6.573 14.676,5.948 C14.051,5.324 13.221,4.979 12.339,4.979 C10.515,4.979 9.03,6.463 9.03,8.285 Z M9.53,8.285 C9.53,6.738 10.79,5.479 12.339,5.479 C13.088,5.479 13.792,5.771 14.322,6.301 C14.853,6.831 15.145,7.536 15.145,8.284 C15.145,9.833 13.886,11.093 12.338,11.093 C10.79,11.094 9.53,9.834 9.53,8.285 Z"/>
 										</defs>
 									</g>
@@ -1182,39 +1183,39 @@
 						<g>
 							<g text-rendering="geometricPrecision">
 								<g fill="#ffcc00">
-									<use xlink:href="#mfid59" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid248" fill-rule="evenodd" stroke="none"/>
 								</g>
 							</g>
 						</g>
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid60"
+							<path id="mfid249"
 									d="M13.824,14.768 C11.678,14.831 11.43,16.493 8.97,15.61 C6.507,14.727 4.116,16.274 4.116,16.274 C3.503,15.022 2.577,14.2 1.625,13.651 L1.625,19.737 L19.474,19.737 L19.474,17.36 C16.433,17.624 15.724,14.712 13.824,14.768 Z"/>
 						</defs>
-						<mask id="mfid61">
-							<use xlink:href="#mfid60" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid250">
+							<use xlink:href="#mfid249" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid62" fill="white" stroke="none">
+						<mask id="mfid251" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid61)">
-									<use xlink:href="#mfid43"/>
+								<g mask="url(#mfid250)">
+									<use xlink:href="#mfid232"/>
 								</g>
 							</g>
 						</mask>
-						<linearGradient id="mfid63" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.031698" x2="0.19634"
+						<linearGradient id="mfid252" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.031698" x2="0.19634"
 								y2="0.031698" spreadMethod="repeat"
 								gradientTransform="matrix(-0.0000007207, 0.40738, -2.4547, -0.00000011057, 0.17077, -0.0061732)">
 							<stop offset="0" stop-color="#1b4896"/>
 							<stop offset="1" stop-color="#b5dceb"/>
 						</linearGradient>
-						<g mask="url(#mfid62)">
+						<g mask="url(#mfid251)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 1.625, 19.737)">
-									<g fill="url(#mfid63)">
+									<g fill="url(#mfid252)">
 										<rect x="-0.010417" y="-0.010417" width="0.20676" height="0.084229" stroke="none"/>
 										<defs>
-											<path id="mfid64"
+											<path id="mfid253"
 													d="M16.98,17.55 C16.98,17.55 14.59,16.003 12.127,16.887 C9.664,17.77 8.809,19.545 6.665,19.483 C4.766,19.427 4.664,18.901 1.624,18.637 L1.624,21.591 C4.664,21.856 4.766,22.381 6.665,22.437 C8.81,22.5 9.665,20.723 12.128,19.84 C14.591,18.957 16.981,20.504 16.981,20.504 C17.596,19.253 18.521,18.43 19.472,17.881 L19.472,14.926 C18.521,15.477 17.596,16.299 16.98,17.55 Z"/>
 										</defs>
 									</g>
@@ -1224,35 +1225,35 @@
 						<g>
 							<g text-rendering="geometricPrecision">
 								<g fill="#499749">
-									<use xlink:href="#mfid64" fill-rule="evenodd" stroke="none"/>
+									<use xlink:href="#mfid253" fill-rule="evenodd" stroke="none"/>
 								</g>
 							</g>
 						</g>
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid65"
+							<path id="mfid254"
 									d="M16.98,20.504 C16.98,20.504 14.59,18.957 12.127,19.84 C9.664,20.723 8.81,22.5 6.666,22.437 C4.767,22.381 4.665,21.856 1.625,21.591 L1.625,23.17 L19.472,23.17 L19.472,17.881 C18.521,18.43 17.596,19.253 16.98,20.504 Z"/>
 						</defs>
-						<mask id="mfid66">
-							<use xlink:href="#mfid65" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid255">
+							<use xlink:href="#mfid254" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid67" fill="white" stroke="none">
+						<mask id="mfid256" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid66)">
-									<use xlink:href="#mfid43"/>
+								<g mask="url(#mfid255)">
+									<use xlink:href="#mfid232"/>
 								</g>
 							</g>
 						</mask>
-						<linearGradient id="mfid68" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.027547" x2="0.19632"
+						<linearGradient id="mfid257" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.027547" x2="0.19632"
 								y2="0.027547" spreadMethod="repeat">
 							<stop offset="0" stop-color="#42bc33"/>
 							<stop offset="1" stop-color="#bde1a1"/>
 						</linearGradient>
-						<g mask="url(#mfid67)">
+						<g mask="url(#mfid256)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 1.625, 23.17)">
-									<g fill="url(#mfid68)">
+									<g fill="url(#mfid257)">
 										<rect x="-0.010417" y="-0.010417" width="0.20674" height="0.075927" stroke="none"/>
 									</g>
 								</g>
@@ -1261,32 +1262,32 @@
 						<!-- GetDC -->
 						<!-- Released DC -->
 						<defs>
-							<path id="mfid69"
+							<path id="mfid258"
 									d="M7.816,10.758 C7.816,10.758 10.763,12.42 12.149,11.863 C13.34,11.384 17.18,11.416 17.042,10.779 C16.571,8.607 13.594,10.302 12.038,8.872 C10.483,7.442 7.706,8.287 7.706,8.287 C7.706,8.287 8.699,7.443 5.81,5.688 C4.396,4.829 2.598,5.426 1.625,6.081 L1.625,11.202 C1.903,11.293 2.203,11.381 2.538,11.473 C4.927,12.123 7.816,10.758 7.816,10.758 Z"/>
 						</defs>
-						<mask id="mfid70">
-							<use xlink:href="#mfid69" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid259">
+							<use xlink:href="#mfid258" fill-rule="evenodd" fill="white" stroke="none"/>
 						</mask>
-						<mask id="mfid71" fill="white" stroke="none">
+						<mask id="mfid260" fill="white" stroke="none">
 							<g>
-								<g mask="url(#mfid70)">
-									<use xlink:href="#mfid43"/>
+								<g mask="url(#mfid259)">
+									<use xlink:href="#mfid232"/>
 								</g>
 							</g>
 						</mask>
-						<linearGradient id="mfid72" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.039544" x2="0.17101"
+						<linearGradient id="mfid261" gradientUnits="userSpaceOnUse" x1="-0.010417" y1="0.039544" x2="0.17101"
 								y2="0.039544" spreadMethod="repeat"
 								gradientTransform="matrix(-0.00000082133, 0.49929, -2.0028, -0.000000051406, 0.1595, -0.00054704)">
 							<stop offset="0" stop-color="#23b3de"/>
 							<stop offset="1" stop-color="#ffffff"/>
 						</linearGradient>
-						<g mask="url(#mfid71)">
+						<g mask="url(#mfid260)">
 							<g text-rendering="geometricPrecision">
 								<g transform="matrix(96, 0, 0, -96, 1.625, 12.42)">
-									<g fill="url(#mfid72)">
+									<g fill="url(#mfid261)">
 										<rect x="-0.010417" y="-0.005748" width="0.18143" height="0.090585" stroke="none"/>
 										<defs>
-											<path id="mfid73"
+											<path id="mfid262"
 													d="M1.625,1.625 L1.625,23.17 L19.472,23.17 L19.472,1.625 L1.625,1.625 Z M9.004,8.061 C8.995,8.062 8.986,8.062 8.978,8.063 C8.986,8.062 8.995,8.062 9.004,8.061 Z"/>
 										</defs>
 									</g>
@@ -1295,8 +1296,8 @@
 						</g>
 						<g>
 							<g text-rendering="geometricPrecision">
-								<g fill="url(#mfid72)" stroke-width="0.25" stroke="#808284" stroke-miterlimit="2">
-									<use xlink:href="#mfid73" fill="none"/>
+								<g fill="url(#mfid261)" stroke-width="0.25" stroke="#808284" stroke-miterlimit="2">
+									<use xlink:href="#mfid262" fill="none"/>
 								</g>
 							</g>
 						</g>
