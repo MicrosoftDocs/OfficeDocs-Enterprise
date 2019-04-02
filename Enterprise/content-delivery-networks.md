@@ -3,7 +3,7 @@ title: "Content delivery networks"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/20/2019
+ms.date: 4/2/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -46,7 +46,7 @@ The built-in Office 365 Content Delivery Network (CDN) allows Office 365 adminis
 
 The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host in the Office 365 CDN, you can add **public** origins, **private** origins or both.
 
-![Office 365 CDN conceptual diagram](media/O365-CDN/o365-cdn-flow.png)
+![Office 365 CDN conceptual diagram](media/O365-CDN/o365-cdn-flow-transparent.svg)
 
 Content in **public** origins within the Office 365 CDN is accessible anonymously, and can be accessed by anyone who has URLs to hosted assets. Because access to content in public origins is anonymous, you should only use them to cache non-sensitive generic content such as javascript files, scripts, icons and images. The Office 365 CDN is used by default for downloading generic resource assets like the Office 365 client applications from a public origin.
 
