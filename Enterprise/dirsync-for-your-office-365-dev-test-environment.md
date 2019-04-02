@@ -31,7 +31,7 @@ Many organizations use Azure AD Connect and directory synchronization to synchro
 This configuration consists of: 
   
 - An Office 365 E5 Trial Subscription, which expires 30 days from when you create it.
-- A simplified organization intranet connected to the Internet, consisting of three virtual machines on a subnet of an Azure virtual network (DC1, APP1, and CLIENT1). Azure AD Connect runs on APP1 to synchronize the Active Directory Domain Services (AD DS) domain to Office 365.
+- A simplified organization intranet connected to the Internet, consisting of three virtual machines on a subnet of an Azure virtual network (DC1, APP1, and CLIENT1). Azure AD Connect runs on APP1 to synchronize the AD DS domain to Office 365.
     
 There are two phases to setting up this dev/test environment:
   

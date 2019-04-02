@@ -3,7 +3,7 @@ title: "Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/09/2018
+ms.date: 04/02/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -227,7 +227,7 @@ Record these values for working with or deploying additional Test Lab Guides in 
 - To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:
     
   ```
-  Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName
+  Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName
   ```
 
     Record the account names here:
