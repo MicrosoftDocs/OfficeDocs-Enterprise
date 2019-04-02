@@ -116,10 +116,8 @@ Sign in to your Azure account with the following command.
 Connect-AzAccount
 ```
 
-<!--
 > [!TIP]
 > Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-ba957d3d) to get a text file that has all the PowerShell commands in this article.
--->
 
 Get your subscription name using the following command.
   
@@ -168,7 +166,7 @@ This is your current configuration.
   
 ### Step 2: Configure DC1
 
-In this step, we create the DC1 virtual machine and configure it as a domain controller for the corp.contoso.com Windows Server Active Directory (AD) domain and a DNS server for the virtual machines of the TestLab virtual network.
+In this step, we create the DC1 virtual machine and configure it as a domain controller for the corp.contoso.com Active Directory Domain Services (AD DS) domain and a DNS server for the virtual machines of the TestLab virtual network.
 
 > [!NOTE]
 > Before executing the following command block, ensure that the Azure region (location) that you have chosen supports the Azure virtual machine size, which by default is set to Standard_A1. Click [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see the latest information on Azure virtual machine sizes and locations.
