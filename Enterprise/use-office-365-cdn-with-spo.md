@@ -3,7 +3,7 @@ title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/2/2019
+ms.date: 4/3/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -283,7 +283,7 @@ Use the **Add-SPOTenantCdnOrigin** cmdlet to define an origin. You can define mu
 Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
-The value of _path_ is the path to the library or folder that contains the assets. You can use wildcards in addition to relative paths. Origins support wildcards prepended to the URL. This allows you to create origins that span multiple sites. For example, to include all of the assets in the masterpages folder for all of your sites as a public origin within the CDN, type the following command:
+The value of _path_ is the relative path to the library or folder that contains the assets. You can use wildcards in addition to relative paths. Origins support wildcards prepended to the URL. This allows you to create origins that span multiple sites. For example, to include all of the assets in the masterpages folder for all of your sites as a public origin within the CDN, type the following command:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
@@ -292,18 +292,18 @@ Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 - The wildcard modifier ***/** can only be used at the beginning of the path, and will match all URL segments under the specified URL.
 - The path can point to a document library, folder or site. For example, the path _*/site1_ will match all the document libraries under the site.
 
-You can add an origin with a specific path using either a relative path or a full path.
+You can add an origin with a specific relative path. You cannot add an origin using the full path.
 
-This example adds a private origin of the siteassets library on a specific site using a relative path:
+This example adds a private origin of the siteassets library on a specific site:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
-This example adds a private origin of the _folder1_ folder in the site collection's site assets library using the full path:
+This example adds a private origin of the _folder1_ folder in the site collection's site assets library:
 
 ``` powershell
-Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl “https://contoso.sharepoint.com/sites/test/siteassets/folder1”
+Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl “/sites/test/siteassets/folder1”
 ```
 
 For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
@@ -464,7 +464,7 @@ See [Default CDN origins](use-office-365-cdn-with-spo.md#default-cdn-origins) fo
 
 ### Add an Office 365 CDN origin
 
-> [!NOTE]
+> [!IMPORTANT]
 > You should never place resources that are considered sensitive to your organization in a SharePoint document library configured as a public origin.
 
 Use the [spo cdn origin add](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-origin-add/) command to define a CDN origin. You can define multiple origins. The origin is a URL that points to a SharePoint library or folder that contains the assets that you want to be hosted by the CDN.
@@ -473,7 +473,7 @@ Use the [spo cdn origin add](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn
 spo cdn origin add --type [Public | Private] --origin <path>
 ```
 
-Where `path` is the path to the folder that contains the assets. You can use wildcards in addition to relative paths.
+Where `path` is the relative path to the folder that contains the assets. You can use wildcards in addition to relative paths.
 
 To include all assets in the **Master Page Gallery** of all sites as a public origin, execute:
 
