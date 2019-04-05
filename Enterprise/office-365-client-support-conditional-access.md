@@ -46,5 +46,5 @@ The latest versions of the following clients support conditional access:
 | ![Teams icon](media/o365-teams-64x64.png) <br> [Teams](https://products.office.com/microsoft-teams/group-chat-software) | ![To-Do icon](media/o365-todo-64x64.png) <br> [To-Do](https://todo.microsoft.com) | ![Visio icon](media/o365-visio-64x64.png) <br> [Visio](https://products.office.com/visio/flowchart-software) | ![Word icon](media/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Yammer icon](media/o365-yammer-64x64.png) <br> [Yammer](https://products.office.com/yammer/yammer-overview)
 
 > [!NOTE]
-> <sup>1</sup> Support for Delve on Android coming soon.
+> <sup>1</sup> Support for Delve on Android coming soon. <br>
 > <sup>2</sup> Support for OneDrive on macOS coming soon.
