@@ -276,17 +276,9 @@ Use these additional articles in your Office 365 dev/test environment:
     
 - [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
     
-Extend your Office 365 dev/test environment to include additional Microsoft cloud offerings:
-  
-- [The Microsoft 365 Enterprise dev/test environment](the-microsoft-365-enterprise-dev-test-environment.md)
-    
-- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
-    
 ## See Also
 
 - [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
-  
-- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
 - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
