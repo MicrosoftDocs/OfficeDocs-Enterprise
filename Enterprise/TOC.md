@@ -66,9 +66,6 @@
 ### [Advanced eDiscovery](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
 ### [Sensitive file protection](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
 ### [Data classification and labeling](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
-## [Office 365 and Dynamics 365](office-365-and-dynamics-365-dev-test-environment.md)
-### [Exchange Online integration](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
-## [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365

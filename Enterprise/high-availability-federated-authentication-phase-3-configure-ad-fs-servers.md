@@ -130,10 +130,10 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
   
 For each virtual machine, use the remote desktop client of your choice and create a remote desktop connection. Use its intranet DNS or computer name and the credentials of the local administrator account.
   
-For each virtual machine, join them to the appropriate Windows Server AD domain with these commands at the Windows PowerShell prompt.
+For each virtual machine, join them to the appropriate Active Directory Domain Services (AD DS) domain with these commands at the Windows PowerShell prompt.
   
 ```
-$domName="<Windows Server AD domain name to join, such as corp.contoso.com>"
+$domName="<AD DS domain name to join, such as corp.contoso.com>"
 $cred=Get-Credential -Message "Type the name and password of a domain acccount."
 Add-Computer -DomainName $domName -Credential $cred
 Restart-Computer

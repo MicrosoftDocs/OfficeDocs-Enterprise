@@ -3,7 +3,7 @@ title: "Test Office 365 with Cloud adoption Test Lab Guides (TLGs)"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/13/2019
+ms.date: 04/09/2019
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -16,20 +16,20 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: "Summary: Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Dynamics 365, and Office Server products."
+description: "Summary: Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365."
 ---
 
 # Test Office 365 with cloud adoption Test Lab Guides (TLGs)
 
- **Summary:** Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365, Dynamics 365, and Office Server products.
+ **Summary:** Use these cloud adoption Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365.
   
-TLGs help you quickly learn about Microsoft products. They're great for situations where you need to evaluate a technology or configuration before you decide whether it's right for you or before you roll it out to users. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or solution so you can better plan for hosting it in production.
+TLGs help you quickly learn about Microsoft products. They're great for situations where you need to evaluate a technology or configuration before you decide whether it's right for you and before you begin the design, planning, and rollout to users. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or solution so you can better plan for hosting it in production.
   
 TLGs also create representative environments for development and testing of applications, also known as dev/test environments.
   
 ![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
-Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
     
 ## Office 365 dev/test environment
 
@@ -45,7 +45,7 @@ Use these articles to build your Office 365 dev/test environment:
     
 - [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
     
-    Install and configure Azure AD Connect for directory synchronization with password synchronization. This is an optional step if you want to build a simulated enterprise configuration.
+    Install and configure Azure AD Connect for directory synchronization with password hash synchronization. This is an optional step if you want to build a simulated enterprise configuration.
     
 For your Office 365 dev/test environment, use these articles to demonstrate enterprise features of Office 365:
   
@@ -55,7 +55,7 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     
 - [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
     
-    Configure and demonstrate federated authentication with the accounts of a Windows Server Active Directory domain.
+    Configure and demonstrate federated authentication with the accounts of an Active Directory Domain Services (AD DS) domain.
     
 - [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
     
@@ -75,33 +75,13 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     
 - [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
     
-    Demonstrate how the Azure Information Protection (AIP) client can be used to classify documents with various levels of security.
+    Demonstrate how the Azure Information Protection client can be used to classify documents with various levels of security.
     
 - [Isolated SharePoint Online team site dev/test environment](isolated-sharepoint-online-team-site-dev-test-environment.md)
     
     Demonstrate how to create a SharePoint Online team site that is isolated from the rest of the organization for sensitive or highly confidential resources.
     
-## The Microsoft 365 Enterprise test environment
 
-Create a test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) with [these articles](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).
- 
-    
-## Office 365 and Dynamics 365 dev/test environment
-
-Add a Dynamics 365 trial subscription and test Office 365 and Dynamics 365 integrated features and scenarios with these articles:
-  
-- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
-    
-    Add a Dynamics 365 trial subscription and Dynamics 365 licences and permissions to your user accounts.
-    
-- [Exchange Online integration for your Office 365 and Dynamics 365 dev/test environment](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
-    
-    Configure and then demonstrate how Office 365 and Dynamics 365 work together in Exchange Online mailboxes.
-    
-## The One Microsoft Cloud dev/test environment
-
-Create a dev/test environment that includes all of Microsoft's cloud offerings: Office 365, Azure, EMS, and Dynamics 365. See [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md) for the step-by-step instructions.
-  
 ## Simulated cross-premises dev/test environments
 
 You can create a cross-premises dev/test environment, which includes an Azure virtual network and a simulated on-premises network, with these articles:
@@ -114,21 +94,22 @@ You can create a cross-premises dev/test environment, which includes an Azure vi
     
     Create a single-server SharePoint Server 2016 farm in the Azure virtual network and test connectivity and administration from the simulated on-premises network.
     
-## Additional cloud-based dev/test environments
+## SharePoint Server 2016 dev/test environments
 
-Here are additional cloud-based dev/test environments that you can create in Azure infrastructure services:
+Here are SharePoint Server 2016 dev/test environments that you can create in Azure infrastructure services:
   
-- [SharePoint Server 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt723354.aspx)
+- [SharePoint Server 2016 dev/test environment in Azure](https://docs.microsoft.com/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure)
     
     Build a single-server SharePoint Server 2016 farm in Azure infrastructure services.
+
+- [Intranet SharePoint Server 2016 in Azure dev/test environment](https://docs.microsoft.com/SharePoint/administration/intranet-sharepoint-server-2016-in-azure-dev-test-environment)
     
-- [Exchange 2016 dev/test environment in Azure](https://technet.microsoft.com/library/mt733070%28v=exchg.160%29.aspx)
-    
-    Build a single Exchange 2016 server in Azure infrastructure services.
-    
-- [SharePoint Server 2013 dev/test environments in Azure](http://technet.microsoft.com/library/165de4d5-8fe6-4fbb-a15b-39a8b0a0eb23.aspx)
-    
-    Build basic and high-availability SharePoint Server 2013 farms in Azure infrastructure services.
+    Build a single-server SharePoint Server 2016 farm in Azure infrastructure services and access it from a simulated intranet.
+
+
+## The Microsoft 365 Enterprise dev/test environments
+
+Create dev/test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365-enterprise/) with [these articles](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).  
     
 ## See Also
 
@@ -139,5 +120,3 @@ Here are additional cloud-based dev/test environments that you can create in Azu
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
   
 [Hybrid solutions](hybrid-solutions.md)
-
-

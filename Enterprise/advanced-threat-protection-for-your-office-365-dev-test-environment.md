@@ -151,7 +151,7 @@ In this phase, you demonstrate how ATP deals with potentially malicious email.
 You can now use this environment to create new policies and experiment with ATP.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## See Also
 
