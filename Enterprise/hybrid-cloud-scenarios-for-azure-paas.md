@@ -64,7 +64,7 @@ An organization can make its compute or storage resources available to the Azure
     
 The Azure app can use credentials from:
   
-- Azure AD, which can be synchronized with your on-premises identity provider, such as Windows Server AD.
+- Azure AD, which can be synchronized with your on-premises identity provider, such as Active Directory Domain Services (AD DS).
     
 - A third-party identity provider.
     

@@ -25,7 +25,7 @@ Office 365 Advanced eDiscovery lets you quickly find and analyze relevant inform
 With the instructions in this article, you create a small set of data for a fictional contract dispute and analyze it with Advanced eDiscovery.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Create your Office 365 dev/test environment
 

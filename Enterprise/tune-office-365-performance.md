@@ -3,7 +3,7 @@ title: "Tune Office 365 performance"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/29/2016
+ms.date: 04/09/2019
 ms.audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -25,30 +25,6 @@ This article is part of the [Network planning and performance tuning for Office 
    
 ## Articles about fine tuning Office 365 performance
 
-The [Office 365 Performance Management ](https://aka.ms/tunemva) course at the Microsoft Virtual Academy contains 11 modules across planning and troubleshooting areas including: 
-  
-- Office 365 performance management course introduction
-    
-- Office 365 datacenters and network
-    
-- Planning for Office 365 Internet capacity - Exchange Online
-    
-- Planning for Office 365 Internet capacity - Lync Online (now Skype for Business)
-    
-- Planning for Office 365 Internet capacity - SharePoint Online
-    
-- The baselining model for Internet capacity planning
-    
-- Best practices &amp; real customer projects planning Internet capacity
-    
-- Planning for Office 365 firewalls whitelisting
-    
-- Performance troubleshooting process and tools used
-    
-- Performance troubleshooting tests
-    
-- Troubleshooting SharePoint Online customizations
-    
 Take a look at the [top 10 tips for optimizing and troubleshooting your Office 365 network connectivity](https://blogs.technet.com/b/onthewire/archive/2014/06/18/top-10-tips-for-optimising-amp-troubleshooting-your-office-365-network-connectivity.aspx) by Paul Collinge. 
   
 For information about using network address translation with Office 365, see [NAT support with Office 365](nat-support-with-office-365.md).
