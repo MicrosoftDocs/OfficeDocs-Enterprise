@@ -33,7 +33,7 @@ There are two phases to setting up multi-factor authentication for Office 365 in
 2. Enable and test multi-factor authentication for the User 2 account.
     
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Build out your lightweight or simulated enterprise Office 365 dev/test environment
 

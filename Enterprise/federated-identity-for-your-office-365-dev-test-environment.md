@@ -56,7 +56,7 @@ To step through a production deployment of federated authentication for Office 3
 > You cannot configure this dev/test environment with an Azure Trial subscription. 
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Create the simulated enterprise Office 365 dev/test environment with DirSync
 
