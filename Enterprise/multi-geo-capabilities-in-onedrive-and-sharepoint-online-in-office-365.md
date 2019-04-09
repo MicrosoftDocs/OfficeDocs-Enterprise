@@ -1,5 +1,5 @@
 ---
-title: "Multi-Geo Capabilities in OneDrive in Office 365"
+title: "Multi-Geo Capabilities in OneDrive and SharePoint Online"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -13,70 +13,38 @@ ms.assetid: 094e86f2-9ff0-40ac-af31-28fcaba00c1d
 description: "Expand your Office 365 presence to multiple geographic regions with multi-geo capabilities in OneDrive Online."
 ---
 
-# Multi-Geo Capabilities in OneDrive in Office 365
+# Multi-Geo Capabilities in OneDrive and SharePoint Online
 
-With Multi-Geo capabilities in OneDrive Online, your organization can expand its Office 365 presence to multiple geographic regions and/or countries within your existing tenant. Reach out to your Microsoft Account Team to sign up your Multi-National Company for OneDrive for Business Multi-Geo.
-  
-With OneDrive Multi-Geo, you can provision and store data at rest in the geo locations that you've chosen to meet data residency requirements, and at the same time unlock your global roll out of modern productivity experiences to your workforce.
-  
-Here's how multi-geo features can benefit your organization:
-  
-- Operate as one global connected organization with a single Office 365 tenant spanning multiple geo locations.
-    
-- Meet data residency requirements by creating and hosting data-at-rest within a specified geo location.
-    
-- Empower your satellite users with the same modern productivity experiences enjoyed by your central location users.
-    
-- Enable your users to move across geo locations as their role changes, while access to their content is kept intact.
-    
-- Tailor your sharing policies per geo location and data loss prevention policies per site.
-    
-- Designate eDiscovery managers per geo location and allow governing cases tailored to your geo location.
-    
-- Choose unique URL namespaces (for example, ContosoEUR.sharepoint.com) for your additional geo locations.
-    
-- Consolidate your regional on-premises data into your Office 365 multi-geo tenant.
-    
-In a multi-geo configuration, your Office 365 tenant consists of a central location (where your Office 365 subscription was originally provisioned) and one or more satellite geo locations. The key concept of multi-geo is that a single tenancy will span across one multiple geo locations. In a multi-geo tenant, the information about geo locations, groups, and user information, is mastered in Azure Active Directory (AAD). Because your tenant information is mastered centrally and synchronized into each geo location, sharing and experiences involving anyone from your company contain global awareness.
+Multi-Geo capabilities in OneDrive and SharePoint Online enables control of the country or region where shared resources like SharePoint team sites and Office 365 Group mailboxes are stored at rest.
 
-## Video: Introducing Office 365 Multi-Geo
+Each user, Group mailbox, and SharePoint site has a Preferred Data Location (PDL) which denotes the geo location where related data is to be stored. Users' personal data (Exchange mailbox and OneDrive) along with any Office 365 Groups or SharePoint sites that they create can be stored in the specified geo location to meet data residency requirements. You can [specify different administrators for each geo location](add-a-sharepoint-geo-admin.md).
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE1Yk6B?autoplay=false]
-  
-## Get multi-geo features in three simple steps
+Users get a seamless experience when using Office 365 services, including Office applications, OneDrive, and Search. See [User experience in a multi-geo environment](multi-geo-user-experience.md) for details.
 
-Configuring multi-geo is easy:
-  
-1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed.
-    
-2. Add your satellite locations.
-    
-3. Configure your user accounts for the appropriate location.
-    
-## Multi-Geo status and availability
+## OneDrive
 
-OneDrive Multi-Geo is currently offered in these regions and countries:
-  
-- Asia-Pacific
+Each user's OneDrive can be provisioned in or [moved by an administrator](move-onedrive-between-geo-locations.md) to a satellite location in accordance with the user's PDL. Personal files are then kept in that geo location, though they can be shared with users in other geo locations.
 
-- Australia
+## Sites and Groups
 
-- Canada
+When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated Group mailbox is created. (If the user's PDL value hasn't been set, or has been set to geo location that hasn't been configured as a satellite location, then the site and mailbox are created in the central location.)
 
-- European Union (EMEA)
+Office 365 services other than Exchange, OneDrive, and SharePoint are not Multi-Geo. However, Office 365 Groups that are created by these services will be stamped with the PDL of the creator and their Exchange Group mailbox and SharePoint O365 Group Site provisioned in the corresponding geo. 
 
-- France
+## Managing the multi-geo environment
 
-- India
+Setting up and managing your multi-geo environment is done through the SharePoint admin center. 
 
-- Japan
+![Screenshot of geo locations page in the SharePoint admin center](media/sharepoint-multi-geo-admin-center.png)
 
-- United Kingdom
+(Some actions, such as moving a SharePoint site or a OneDrive site require Microsoft PowerShell.)
 
-- United States (North America)
+## See also
 
-- Korea
+[Aka.ms/GetMultiGeo ](https://Aka.ms/GetMultiGeo)
 
-## Getting started
+[Administering a multi-geo environment](administering-a-multi-geo-environment.md)
 
-To get started with OneDrive for Business Multi-Geo, the first step is to [plan your OneDrive for Business Multi-Geo environment](plan-for-multi-geo.md). Next, [learn about administering a multi-geo environment](administering-a-multi-geo-environment.md) and [how your users will experience a multi-geo environment](multi-geo-user-experience.md). When you are ready to set up OneDrive for Business Multi-Geo, [configure your tenant for multi-geo](multi-geo-tenant-configuration.md), then [move any existing OneDrive sites to thier new geo-locations](move-onedrive-between-geo-locations.md) and [set up search](configure-search-for-multi-geo.md).
+[SharePoint storage quotas in multi-geo environments](sharepoint-multi-geo-storage-quota.md)
+
+[Administering Exchange Online mailboxes in a multi-geo environment](administering-exchange-online-multi-geo.md)

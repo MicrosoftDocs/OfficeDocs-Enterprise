@@ -3,11 +3,10 @@ title: "Migrate your organization data to Office 365 Enterprise"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: Ent_O365
 search.appverid:
 - MET150
