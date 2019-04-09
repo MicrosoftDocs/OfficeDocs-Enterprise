@@ -36,7 +36,7 @@ If you just want to test sensitive file protection in a lightweight way with the
 If you want to test sensitive file protection in a simulated enterprise, follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
   
 > [!NOTE]
-> Testing sensitive file protection does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can test sensitive file protection and experiment with it in an environment that represents a typical organization. 
+> Testing sensitive file protection does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Active Directory Domain Services (AD DS) forest. It is provided here as an option so that you can test sensitive file protection and experiment with it in an environment that represents a typical organization. 
   
 ## Phase 2: Demonstrate how documents from permissions-protected sites can be leaked
 
