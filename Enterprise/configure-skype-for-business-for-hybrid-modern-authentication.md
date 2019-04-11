@@ -116,7 +116,7 @@ Now you'll need to run commands to add the URLs (collected earlier) as Service P
     
 2. Run this command, on-premises, to get a list of SFB web service URLs.
 
-   Notice that the AppPrincipalId begins with `00000004`. This corresponds to Skype for Business Online.
+   Note that the AppPrincipalId begins with `00000004`. This corresponds to Skype for Business Online.
     
    Take note of (and screenshot for later comparison) the output of this command, which will include an SE and WS URL, but mostly consist of SPNs that begin with `00000004-0000-0ff1-ce00-000000000000/`.
     
