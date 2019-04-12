@@ -33,7 +33,7 @@ Organizations have several options to consider:
 
 - **Move to Microsoft 365**: For many customers, moving to the cloud is an efficient and cost-effective solution. Setup and maintenance are easier, and you get all the latest features and security updates. To learn more, see [What is Microsoft 365?](#what-is-microsoft-365) (in this article).
     
-- **Upgrade your on-premises servers and applications.** If you're using Office products and server applications on premises, see the planning content for: 
+- **Upgrade your on-premises servers and applications.** If you're using Office products and server applications on premises, see the following planning content:<br/> 
 
     
     |Office 2007 products and services  |Office 2010 products and services  |
