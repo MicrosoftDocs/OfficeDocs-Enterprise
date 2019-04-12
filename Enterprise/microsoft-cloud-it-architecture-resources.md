@@ -148,7 +148,7 @@ What IT architects need to know about groups in Microsoft 365
 
 |**Item**|**Description**|
 |:-----|:-----|
-|![Thumb image for groups infographic](media/Downloads/msft-m365-groups-architecture-thumb.png) <br/> PDF \| Visio |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
+|![Thumb image for groups infographic](media/Downloads/msft-m365-groups-architecture-thumb.png) <br/> [PDF](media/msft-m365-groups.pdf) \| [Visio](media/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
 
    
 <a name="BKMK_O365IDP"></a>
