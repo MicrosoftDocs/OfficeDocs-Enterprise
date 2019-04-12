@@ -140,7 +140,7 @@ The logical architecture of productivity services in Microsoft 365, leading with
 
 |**Item**|**Description**|
 |:-----|:-----|
-|![Thumb image for Teams logical architecture poster](media/Downloads/msft-teams-logical-architecture-thumb.png) <br/> [PDF](media/Downloads/msft-m365-teams-logicalarchitecture.pdf) \| [Visio](media/Downloads/msft-m365-teams-logical-architecture.vsdx)     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> <br/>This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
+|![Thumb image for Teams logical architecture poster](media/Downloads/msft-teams-logical-architecture-thumb.png) <br/> [PDF](media/msft-m365-teams-logicalarchitecture.pdf) \| [Visio](media/msft-m365-teams-logical-architecture.vsdx)     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> <br/>This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
 
 
 ### Groups in Microsoft 365 for IT Architects
@@ -148,7 +148,7 @@ What IT architects need to know about groups in Microsoft 365
 
 |**Item**|**Description**|
 |:-----|:-----|
-|      |
+|![Thumb image for groups infographic](media/Downloads/msft-m365-groups-architecture-thumb.png) <br/> PDF \| Visio |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
 
    
 <a name="BKMK_O365IDP"></a>
