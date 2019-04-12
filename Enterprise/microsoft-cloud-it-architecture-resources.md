@@ -135,16 +135,14 @@ How Santa and his elves use Microsoft's cloud offerings to make their annual del
 
 The Microsoft 365 enterprise solution series provides guidance for implementing Microsoft 365 capabilities, especially where capabilities cross technologies.
 
-<!--  
-<a name="BKMK_infoprotect"></a>
-### Information Protection for Office 365
+### Microsoft Teams and related productivity services in Microsoft 365 for IT architects
 
-Capabilities for enterprise organizations to protect corporate assets.
-  
+The logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams.
+
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Information protection capabilities for Office 365](media/51bf70b4-029c-4189-9425-7ed34038d4dc.png)          ](https://www.microsoft.com/download/details.aspx?id=54429) <br/> [PDF](http://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.pdf)  \| [Visio](http://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.vsd)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=54429) <br/> |Microsoft provides the most complete set of capabilities to protect your corporate assets. This model helps organizations take a methodical approach when planning which capabilities to implement.  <br/>|
--->
+|![Thumb image for Teams logical architecture poster](media/Downloads/msft-teams-logical-architecture-thumb.png) <br/> PDF \| Visio     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
+
    
 <a name="BKMK_O365IDP"></a>
 ### Identity and device protection for Office 365
