@@ -135,16 +135,21 @@ How Santa and his elves use Microsoft's cloud offerings to make their annual del
 
 The Microsoft 365 enterprise solution series provides guidance for implementing Microsoft 365 capabilities, especially where capabilities cross technologies.
 
-<!--  
-<a name="BKMK_infoprotect"></a>
-### Information Protection for Office 365
+### Microsoft Teams and related productivity services in Microsoft 365 for IT architects
+The logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams.
 
-Capabilities for enterprise organizations to protect corporate assets.
-  
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Information protection capabilities for Office 365](media/51bf70b4-029c-4189-9425-7ed34038d4dc.png)          ](https://www.microsoft.com/download/details.aspx?id=54429) <br/> [PDF](http://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.pdf)  \| [Visio](http://download.microsoft.com/download/2/3/D/23D91386-8349-4F7A-9470-FD5AED861F16/MSFT_cloud_architecture_informationprotection.vsd)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=54429) <br/> |Microsoft provides the most complete set of capabilities to protect your corporate assets. This model helps organizations take a methodical approach when planning which capabilities to implement.  <br/>|
--->
+|![Thumb image for Teams logical architecture poster](media/Downloads/msft-teams-logical-architecture-thumb.png) <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/media/downloads/msft-m365-teams-logicalarchitecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/media/downloads/msft-m365-teams-logical-architecture.vsdx)     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> <br/>This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
+
+
+### Groups in Microsoft 365 for IT Architects
+What IT architects need to know about groups in Microsoft 365
+
+|**Item**|**Description**|
+|:-----|:-----|
+|![Thumb image for groups infographic](media/Downloads/msft-m365-groups-architecture-thumb.png) <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/media/downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/blob/live/Enterprise/media/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
+
    
 <a name="BKMK_O365IDP"></a>
 ### Identity and device protection for Office 365
