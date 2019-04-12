@@ -36,8 +36,8 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Common attacks and Microsoft capabilities that protect your organization](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
     
 - **[Microsoft 365 enterprise solution series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
-- [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)
-- [Groups in Microsoft 365 for IT architects](#groups-in-microsoft-365-for-it-architects)
+    - [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)
+    - [Groups in Microsoft 365 for IT architects](#groups-in-microsoft-365-for-it-architects)
     - [Identity and device protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP)
     - [File protection solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect)
     - [Office 365 Information Protection for GDPR](#office-365-information-protection-for-gdpr)
