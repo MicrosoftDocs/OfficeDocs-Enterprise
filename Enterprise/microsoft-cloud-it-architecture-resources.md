@@ -136,12 +136,19 @@ How Santa and his elves use Microsoft's cloud offerings to make their annual del
 The Microsoft 365 enterprise solution series provides guidance for implementing Microsoft 365 capabilities, especially where capabilities cross technologies.
 
 ### Microsoft Teams and related productivity services in Microsoft 365 for IT architects
-
 The logical architecture of productivity services in Microsoft 365, leading with Microsoft Teams.
 
 |**Item**|**Description**|
 |:-----|:-----|
-|![Thumb image for Teams logical architecture poster](media/Downloads/msft-teams-logical-architecture-thumb.png) <br/> [PDF](media/msft-m365-teams-logicalarchitecture.pdf) \| Visio     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
+|![Thumb image for Teams logical architecture poster](media/Downloads/msft-teams-logical-architecture-thumb.png) <br/> [PDF](media/Downloads/msft-m365-teams-logicalarchitecture.pdf) \| [Visio](media/Downloads/msft-m365-teams-logical-architecture.vsdx)     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> <br/>This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
+
+
+### Groups in Microsoft 365 for IT Architects
+What IT architects need to know about groups in Microsoft 365
+
+|**Item**|**Description**|
+|:-----|:-----|
+|      |
 
    
 <a name="BKMK_O365IDP"></a>
