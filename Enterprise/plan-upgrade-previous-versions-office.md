@@ -19,9 +19,9 @@ description: "If you are using Office 2007 or Office 2010, it's time to plan you
 
 If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. Office 2007 products and services have reached their end of support, and Office 2010 products and services are nearing their end of support. Use the resources in this section to get started.
 
-- [Upgrading from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
+- [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
 
-- [Upgrading from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
+- [Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
 
 ## What happens if I don't upgrade?
 
@@ -31,7 +31,7 @@ You can choose not to upgrade at this time. Your on-premises servers and applica
 
 Organizations have several options to consider:
 
-- **Move to Microsoft 365**: For many customers, moving to the cloud is an efficient and cost-effective solution. Setup and maintenance are easier, and you get all the latest features and security updates. To learn more, see [What is Microsoft 365?](#what-is-microsoft-365) (in this article).
+- **Move to Microsoft 365**: For many customers, moving to the cloud is an efficient and cost-effective solution. Setup and maintenance are easier, and you get all the latest features and security updates. To learn more, see **[What is Microsoft 365?](#what-is-microsoft-365)** (in this article).
     
 - **Upgrade your on-premises servers and applications.** If you're using Office products and server applications on premises, see the following planning content:<br/> 
 
@@ -45,7 +45,7 @@ Organizations have several options to consider:
     |[Project Server 2007](project-server-2007-end-of-support.md) |[Project Server 2010](project-server-2010-end-of-support.md) |
     |[PerformancePoint Server 2007](pps-2007-end-of-support.md) | |
  
-- **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](hybrid-cloud-overview.md)
+- **Implement a hybrid solution including Office 365** and your on-premises servers and applications. If you are moving to the cloud in phases, or if you must keep some server and applications on premises, a hybrid solution might be right for your organization. See **[Office 365 hybrid cloud solutions overview.](hybrid-cloud-overview.md)**. 
     
 ### Help is available for your organization
 
@@ -53,9 +53,9 @@ If you want help with planning your upgrade, consider one or more of the followi
 
 - Work with a partner or volume licensing specialist. **[Find your Office 365 partner or reseller](https://support.office.com/article/b6c18a9b-2aed-4c84-9d75-af709160258c.aspx)**. 
 
-- If your organization purchases a certain number of Microsoft cloud licenses, our FastTrack team can help you through the setup process. To learn more, see [FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365).
+- If your organization purchases a certain number of Microsoft cloud licenses, our FastTrack team can help you through the setup process. To learn more, see **[FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365)**.
 
-- If you're part of a smaller organization, or if you prefer to handle your organization's Office upgrade yourself, see [Upgrade your Office 365 for business users to the latest Office client](https://docs.microsoft.com/office365/admin/setup/upgrade-users-to-latest-office-client). 
+- If you're part of a smaller organization, or if you prefer to handle your organization's Office upgrade yourself, see **[Upgrade your Office 365 for business users to the latest Office client](https://docs.microsoft.com/office365/admin/setup/upgrade-users-to-latest-office-client)**. 
   
 ## I'm a home user. What do I do?
 
@@ -93,9 +93,6 @@ Microsoft 365 is the way to digitally transform your business with constantly-im
 
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
 
-[Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
-
-[Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
 
 
 
