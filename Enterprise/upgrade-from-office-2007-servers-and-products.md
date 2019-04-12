@@ -44,7 +44,7 @@ When support ends for a Microsoft product, there are no new security updates, no
 
 ## I'm a home user. What do I do?
 
-If you're using Office 2010 products and applications at home, see [this information](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
+If you're using Office 2007 products and applications at home, see [this information](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
      
 ## Related topics
 
