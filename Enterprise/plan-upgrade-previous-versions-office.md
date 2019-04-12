@@ -31,10 +31,20 @@ You can choose not to upgrade at this time. Your on-premises servers and applica
 
 Organizations have several options to consider:
 
-- **Move to Microsoft 365**: For many customers, moving to the cloud is an efficient and cost-effective solution. Setup and maintenance are easier, and you get all the latest features and security updates. To learn more, see [What is Microsoft 365?](#what-is-microsoft-365)(in this article).
+- **Move to Microsoft 365**: For many customers, moving to the cloud is an efficient and cost-effective solution. Setup and maintenance are easier, and you get all the latest features and security updates. To learn more, see [What is Microsoft 365?](#what-is-microsoft-365) (in this article).
     
-- **Upgrade your on-premises servers and applications.** If you're using Office products and server applications on premises, see the [Office](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap), [Exchange](exchange-2010-end-of-support.md),  [SharePoint](upgrade-from-sharepoint-2010.md), [Project Server and Project Online](project-server-2010-end-of-support.md), and [Skype for Business](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) planning content. 
+- **Upgrade your on-premises servers and applications.** If you're using Office products and server applications on premises, see the planning content for: 
+
     
+    |Office 2007 products and services  |Office 2010 products and services  |
+    |---------|---------|
+    |[Office 2007](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap) (Desktop) | [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) (Desktop) |
+    |[Exchange 2007](exchange-2007-end-of-support.md) |[Exchange 2010](exchange-2010-end-of-support.md) |
+    |[SharePoint 2007](sharepoint-2007-end-of-support.md) |[SharePoint 2010](upgrade-from-sharepoint-2010.md) |
+    |[Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) |[Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) |
+    |[Project Server 2007](project-server-2007-end-of-support.md) |[Project Server 2010](project-server-2010-end-of-support.md) |
+    |[PerformancePoint Server 2007](pps-2007-end-of-support.md) | |
+ 
 - **Implement a hybrid solution including Office 365** and your on-premises servers and applications. See [Office 365 hybrid cloud solutions overview.](hybrid-cloud-overview.md)
     
 ### Help is available for your organization
@@ -57,9 +67,9 @@ If you're using Office 2007 or Office 2010 at home, consider the following optio
     
 - **Purchase Office Home &amp; Student**. If you choose this option, you'll make a one-time purchase and then install Office on your Windows PC or Mac. This isn't a subscription; it's a one-time, perpetual use license for one computer. View the [requirements](http://office.com/systemrequirements), and then choose the version you want to use.
     - If your Windows PC is running Windows 10, consider getting [Office Home & Student 2019](https://www.microsoft.com/p/office-home-student-2019/cfq7ttc0k7c8).
-    - If your Windows PC is running Windows 7, 8, or 8.1 and you are not upgrading to Windows 10 at this time, consider getting Office Home & Student 2016 from an authorized reseller.
+    - If your Windows PC is running Windows 7, 8, or 8.1 and you are not upgrading to Windows 10 at this time, consider getting Office Home & Student 2016 (or another edition of Microsoft Office) from an authorized reseller.
 
-You can also choose not to upgrade at this time. Your Office apps will continue to run. (You can see timelines for Office support dates [here](https://go.microsoft.com/fwlink/p/?linkid=2085724).) However, upgrading will give you access to new and improved features, including security updates. 
+You can also choose not to upgrade at this time. Your Office apps will continue to run. (Timelines for Office support dates are available [here](https://go.microsoft.com/fwlink/p/?linkid=2085724).) However, upgrading will give you access to new and improved features, including security updates. 
    
 ## What is Microsoft 365?
 
