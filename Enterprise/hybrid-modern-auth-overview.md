@@ -85,6 +85,19 @@ Verify and check these items off your list before you continue:
   - Your SIP domain is added as a Federated domain in Office 365
     
   - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office Online' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
+  
+- **Skype for Business On-premise in a Hybrid environment with Office 365**
+  - A Skype for Business Server 2019 deployment with all servers running Skype for Business Server 2019.
+  
+  - A Skype for Business Server 2015 deployment with all servers running Skype for Business Server 2015.
+  
+  - A deployment with maximum of 2 different server versions as listed below:
+  
+     -Skype for Business Server 2015 and Skype for Business Server 2019
+     
+  - All SFB servers must have the latest CU, please review the article [Skype for Business Server Update](https://docs.microsoft.com/en-us/skypeforbusiness/sfb-server-updates) for the latest ones and installation instructions.
+  
+  - There is no Lync Server 2010 or 2013 on the hybrid environment.
     
  **Note** If your Skype for Business front-end servers use a proxy server for Internet access, the proxy server IP and Port number used must be entered in the configuration section of the web.config file for each front end. 
   
@@ -116,6 +129,16 @@ Verify and check these items off your list before you continue:
   - SSL Offloading is not configured. SSL termination and re-encryption is supported.
     
   - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/en-us/library/bb123716%28v=exchg.160%29.aspx) property.
+  
+- **Exchange Server On-premise in a Hybrid environment with Office 365**
+
+  - If you are using Exchange server 2013, At least one server with the Mailbox and Client Access server roles installed. While it's possible to install the Mailbox and Client Access roles on separate servers, we strongly recommend that you install both roles on each server to provide additional reliability and improved performance
+  
+  - If you are using Exchange server 2016 or newer version, at least one server that has the Mailbox server role installed.
+  
+  - There is no Exchange server 2007 or 2010 in the Hybrid environment.
+  
+  - All Exchange servers must have the latest CU, review the article [Upgrade Exchange to the latest Cumulative Update](https://docs.microsoft.com/en-us/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019) for the latest ones and installation instructions.
     
 - **Exchange client and protocol requirements**
   
