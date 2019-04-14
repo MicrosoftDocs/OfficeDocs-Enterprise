@@ -93,7 +93,7 @@ Verify and check these items off your list before you continue:
   
   - A deployment with maximum of 2 different server versions as listed below:
   
-     -Skype for Business Server 2015 and Skype for Business Server 2019
+     - Skype for Business Server 2015 and Skype for Business Server 2019
      
   - All SFB servers must have the latest CU, please review the article [Skype for Business Server Update](https://docs.microsoft.com/en-us/skypeforbusiness/sfb-server-updates) for the latest ones and installation instructions.
   
