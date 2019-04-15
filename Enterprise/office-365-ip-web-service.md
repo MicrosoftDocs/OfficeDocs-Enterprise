@@ -41,7 +41,7 @@ As a network perimeter device vendor, you can use this web service to:
 - Check for the current version.
 - Get the current changes.
 
-If you are using Azure ExpressRoute to connect to Office 365, Please review the article [Azure ExpressRoute for Office 365](https://docs.microsoft.com/en-us/office365/enterprise/azure-expressroute) in order to know the Office 365 services supported over Azure ExpressRoute connectivity. You must review too the [Office 365 endpoints article](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to understand which network requests for these applications require internet connectivity, This will help you configure your perimeter security devices in a better way. 
+If you are using Azure ExpressRoute to connect to Office 365, Please review the article [Azure ExpressRoute for Office 365](https://docs.microsoft.com/en-us/office365/enterprise/azure-expressroute) to familiarize yourself with the Office 365 services supported over Azure ExpressRoute connectivity. Also review [Office 365 endpoints article](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to understand which network requests for these applications require Internet connectivity, This will help to better configure your perimeter security devices. 
 
 For additional information, see:
 
@@ -494,13 +494,13 @@ Microsoft is hosting a REST Service to get the newest and latest URI for the Off
 
 ## **Calling the REST service**
 
-To use this module simply copy the module file [O365EndpointFunctions.psm1](https://github.com/samurai-ka/PS-Module-O365EndpointService/blob/master/O365EndpointFunctions.psm1) somewhere on your hard disk and import it directly with this command:
+To use this module, simply copy the module file [O365EndpointFunctions.psm1](https://github.com/samurai-ka/PS-Module-O365EndpointService/blob/master/O365EndpointFunctions.psm1) somewhere on your hard disk and import it directly with this command:
 
 ```powershell
     Import-Module O365EndpointFunctions.psm1
 ```
     
-After you have imported the module, you can then call the REST service. This will return the URI as a collection and now you can process it in powershell directly. You must enter the name of your Office 365 tenant, as described in the following command:
+After you have imported the module, you will be able to call the REST service. This will return the URI as a collection that you can now process in PowerShell directly. You must enter the name of your Office 365 tenant, as described in the following command:
 
 ```powershell
     Invoke-O365EnpointService -tenantName [Name of your tenant]
@@ -509,12 +509,12 @@ After you have imported the module, you can then call the REST service. This wil
 ## **Parameters**
 
 - **tenantName** - The name of your Office 365 tenant. This paramter is mandatory.
-- **ForceLatest** -This switch will force the REST API to allways return the entire list of the latest uri.
+- **ForceLatest** -This switch will force the REST API to always return the entire list of the latest URI.
 - **IPv6** -This switch will return the IPv6 addresses as well. As default only IPv4 will be returned.
 
 ## **Examples**
 
-Return the complete list of all Uri including the IPv6 addresses
+Return the complete list of all URIs including the IPv6 addresses
 
 ```powershell
     Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
