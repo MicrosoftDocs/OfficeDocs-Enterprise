@@ -27,7 +27,7 @@ Each user's OneDrive can be provisioned in or [moved by an administrator](move-o
 
 ## SharePoint Sites and Groups
 
-Managing of Multi-Geo feature is available through the SharePoint admin center. Detailed information could be found in the [corresponding blog post](https://techcommunity.microsoft.com/t5/Office-365-Blog/Now-available-Multi-Geo-in-SharePoint-and-Office-365-Groups/ba-p/263302).
+Management of the Multi-Geo feature is available through the SharePoint admin center. Detailed information can be found in the [corresponding blog post](https://techcommunity.microsoft.com/t5/Office-365-Blog/Now-available-Multi-Geo-in-SharePoint-and-Office-365-Groups/ba-p/263302).
 
 When a user creates a SharePoint group-connected site, their PDL is used to determine the geo location where the site and its associated Group mailbox is created. (If the user's PDL value hasn't been set, or has been set to geo location that hasn't been configured as a satellite location, then the site and mailbox are created in the central location.)
 
