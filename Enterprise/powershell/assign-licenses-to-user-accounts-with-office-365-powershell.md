@@ -3,7 +3,7 @@ title: "Assign licenses to user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/29/2019
+ms.date: 04/18/2019
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -104,7 +104,7 @@ Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "l
 To assign a license to many unlicensed users, run this command.
   
 ```
-Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | ForEach {Set-MsolUserLicense -AddLicenses "<AccountSkuId>"}
+Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLicense -AddLicenses "<AccountSkuId>"
 ```
   
 >[!Note]
@@ -114,13 +114,13 @@ Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | ForEach {Set-M
 This example assigns licenses from the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licensing plan to all unlicensed users:
   
 ```
-Get-MsolUser -All -UnlicensedUsersOnly | ForEach {Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"}
+Get-MsolUser -All -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
 This example assigns those same licenses to unlicensed users in the Sales department in the United States:
   
 ```
-Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | ForEach {Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"}
+Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
   
 ## New to Office 365?
