@@ -42,7 +42,7 @@ See the [FAQ page](https://azure.microsoft.com/documentation/articles/expressrou
   
 ## Ensuring route symmetry
 
-The Office 365 front end servers are accessible on both the Internet and ExpressRoute. These servers will prefer to route over ExpressRoute circuits when both are available. Because of this there is a possibility of route asymmetry if traffic from your network prefers to route over your Internet circuits. Asymmetrical routes are a problem because devices that perform stateful packet inspection can block return traffic that follows a different path than the outbound packets followed.
+The Office 365 front end servers are accessible on both the Internet and ExpressRoute. These servers will prefer to route back to on-premises over ExpressRoute circuits when both are available. Because of this there is a possibility of route asymmetry if traffic from your network prefers to route over your Internet circuits. Asymmetrical routes are a problem because devices that perform stateful packet inspection can block return traffic that follows a different path than the outbound packets followed.
   
 Regardless of whether you initiate a connection to Office 365 over the Internet or ExpressRoute, the source must be a publicly routable address. With many customers peering directly with Microsoft, having private addresses where duplication is possible between customers isn't feasible.
   
