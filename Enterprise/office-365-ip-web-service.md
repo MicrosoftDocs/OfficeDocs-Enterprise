@@ -488,50 +488,7 @@ Updates to the parameters or results for these web service methods may be requir
 - Adding a new named attribute in one of the response REST items or additional columns to the response CSV.
 - Adding a new web method with a new name that is not called by the older clients.
 
-## **Office 365 Endpoint Functions Module**
 
-Microsoft is hosting a REST Service to get the newest and latest URI for the Office 365 services.  To be able to use the URI as a collection, you can use this module with a few helpful cmdlets.
-
-## **Calling the REST service**
-
-To use this module, simply copy the module file [O365EndpointFunctions.psm1](https://github.com/samurai-ka/PS-Module-O365EndpointService/blob/master/O365EndpointFunctions.psm1) somewhere on your hard disk and import it directly with this command:
-
-```powershell
-    Import-Module O365EndpointFunctions.psm1
-```
-    
-After you have imported the module, you will be able to call the REST service. This will return the URI as a collection that you can now process in PowerShell directly. You must enter the name of your Office 365 tenant, as described in the following command:
-
-```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant]
-```
-
-## **Parameters**
-
-- **tenantName** - The name of your Office 365 tenant. This paramter is mandatory.
-- **ForceLatest** -This switch will force the REST API to always return the entire list of the latest URI.
-- **IPv6** -This switch will return the IPv6 addresses as well. As default only IPv4 will be returned.
-
-## **Examples**
-
-Return the complete list of all URIs including the IPv6 addresses
-
-```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
-```
-Return only the IP addresses for Exchange Online Service
-
-```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
-```
-
-## **Exporting a Proxy Pacfile**
-
-You can use this module to create a Proxy Pacfile. In this example you first get the endpoints and filter the result to select the URLs. These URLs are piped to be exported.  
-
-```powershell
- Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
-```
  
 ## Related Topics
   
