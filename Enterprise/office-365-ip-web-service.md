@@ -41,7 +41,7 @@ As a network perimeter device vendor, you can use this web service to:
 - Check for the current version.
 - Get the current changes.
 
-If you are using Azure ExpressRoute to connect to Office 365, Please review the article [Azure ExpressRoute for Office 365](https://docs.microsoft.com/en-us/office365/enterprise/azure-expressroute) to familiarize yourself with the Office 365 services supported over Azure ExpressRoute connectivity. Also review [Office 365 endpoints article](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to understand which network requests for these applications require Internet connectivity, This will help to better configure your perimeter security devices. 
+If you are using Azure ExpressRoute to connect to Office 365, Please review [Azure ExpressRoute for Office 365](https://docs.microsoft.com/office365/enterprise/azure-expressroute) to familiarize yourself with the Office 365 services supported over Azure ExpressRoute connectivity. Also review [Office 365 endpoints article](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to understand which network requests for these applications require Internet connectivity, This will help to better configure your perimeter security devices. 
 
 For additional information, see:
 
