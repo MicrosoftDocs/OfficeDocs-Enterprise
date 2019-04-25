@@ -3,7 +3,7 @@ title: "Office 365 IP Address and URL Web service"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/4/2018
+ms.date: 4/25/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -239,7 +239,7 @@ The parameter for the changes web method is:
 
 - **Version** - Required URL route parameter. The version that you have currently implemented, and you want to see the changes since that version. The format is _YYYYMMDDNN_.
 
-The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP Response Code then you should wait 1 hour before calling again. 
+The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP Response Code then you should wait 1 hour before calling again.
 
 The result from the changes web method is an array of records with each record representing a change in a specific version of the endpoints. The elements for each record are:
 
