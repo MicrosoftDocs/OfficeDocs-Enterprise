@@ -378,9 +378,6 @@ If you would like to do more investigation of the DNS resolution time, try a PsP
 
 Services like Outlook Online in Office 365 grant clients multiple long-term connections. Therefore, each user may use more connections that require a longer life.  
 
-> [!TIP]
-> Need to plan for bandwidth use because you're about to add a lot users to Office 365? Try [Plan for Internet bandwidth usage for Office 365](https://technet.microsoft.com/en-us/library/hh852542.aspx). There are bandwidth calculators available there.
-
 #### Tool:
  
 Math  
