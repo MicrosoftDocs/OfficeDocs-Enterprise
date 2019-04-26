@@ -22,7 +22,7 @@ description: "To help you better identify and differentiate Office 365 network t
 
 # **Office 365 IP Address and URL Web service**
 
-To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service replaces the XML downloadable files that are currently available. The XML format is planned to be phased out on October 2, 2018.
+To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service replaces the XML downloadable files that are currently available. The XML format was phased out on October 2, 2018.
 
 As a customer or a network perimeter device vendor, you can build against the new REST-based web service for the Office 365 IP address and FQDN entries. You can access the data directly in a web browser using these URLs.
 
@@ -41,7 +41,7 @@ As a network perimeter device vendor, you can use this web service to:
 - Check for the current version.
 - Get the current changes.
 
-If you are using Azure ExpressRoute to connect to Office 365, please review [Azure ExpressRoute for Office 365](https://docs.microsoft.com/office365/enterprise/azure-expressroute) to familiarize yourself with the Office 365 services supported over Azure ExpressRoute connectivity. Also review the [Office 365 endpoints article](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to understand which network requests for these applications require Internet connectivity. This will help to better configure your perimeter security devices. 
+If you are using Azure ExpressRoute to connect to Office 365, please review [Azure ExpressRoute for Office 365](https://docs.microsoft.com/office365/enterprise/azure-expressroute) to familiarize yourself with the Office 365 services supported over Azure ExpressRoute connectivity. Also review the [Office 365 endpoints article](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges?redirectSourcePath=%252farticle%252fOffice-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to understand which network requests for these applications require Internet connectivity. This will help to better configure your perimeter security devices.
 
 For additional information, see:
 
@@ -173,7 +173,7 @@ The endpoints web method returns all records for IP address ranges and URLs that
 - **NoIPv6** - Query string parameter. Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
 - **Instance** - Route parameter. This required parameter specifies the instance to return the endpoints for. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
-If you call the endpoints web method an unreasonable number of times from the same client IP Address you may receive HTTP Response Code 429 Too Many Requests. Most people will never see this. If you get this response code, you should wait 1 hour before calling the method again. Plan to only call the endpoints web method when the version web method indicates there is a new version available. 
+If you call the endpoints web method an unreasonable number of times from the same client IP Address you may receive HTTP Response Code 429 Too Many Requests. Most people will never see this. If you get this response code, you should wait 1 hour before calling the method again. Plan to only call the endpoints web method when the version web method indicates there is a new version available.
 
 The result from the endpoints web method is an array of records with each record representing an endpoint set. The elements for each record are:
 
@@ -183,7 +183,7 @@ The result from the endpoints web method is an array of records with each record
 - tcpPorts - TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in that endpoint set for that category. Omitted if blank.
 - udpPorts - UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
 - ips - The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. A JSON array of IP Address ranges. Omitted if blank.
-- category - The connectivity category for the endpoint set. Valid values are Optimize, Allow, and Default. If using the endpoint data to search for the category of an IP Address or URL, it is possible that your query may return multiple categories. There are a few reasons why that may happen. In these cases you should follow the recommendations for the highest priority category. For example, if the endpoint appears in both Optimize and Allow, you should follow the requirements for Optimize. Required. 
+- category - The connectivity category for the endpoint set. Valid values are Optimize, Allow, and Default. If using the endpoint data to search for the category of an IP Address or URL, it is possible that your query may return multiple categories. There are a few reasons why that may happen. In these cases you should follow the recommendations for the highest priority category. For example, if the endpoint appears in both Optimize and Allow, you should follow the requirements for Optimize. Required.
 - expressRoute - True or False if this endpoint set is routed over ExpressRoute.
 - required - True if this endpoint set is required to have connectivity for Office 365 to be supported. False if this endpoint set is optional.
 - notes - For optional endpoints, this text describes Office 365 functionality that will be missing if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
@@ -239,7 +239,7 @@ The parameter for the changes web method is:
 
 - **Version** - Required URL route parameter. The version that you have currently implemented, and you want to see the changes since that version. The format is _YYYYMMDDNN_.
 
-The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP Response Code then you should wait 1 hour before calling again. 
+The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP Response Code then you should wait 1 hour before calling again.
 
 The result from the changes web method is an array of records with each record representing a change in a specific version of the endpoints. The elements for each record are:
 
@@ -490,7 +490,7 @@ Updates to the parameters or results for these web service methods may be requir
 
 ## **Office 365 Endpoint Functions Module**
 
-Microsoft is hosting a REST Service to get the newest and latest URI for the Office 365 services.  To be able to use the URI as a collection, you can use this module with a few helpful cmdlets.
+Microsoft is hosting a REST Service to get the newest and latest URI for the Office 365 services. To be able to use the URI as a collection, you can use this module with a few helpful cmdlets.
 
 ## **Calling the REST service**
 
@@ -499,16 +499,19 @@ To use this module, simply copy the module file [O365EndpointFunctions.psm1](htt
 ```powershell
     Import-Module O365EndpointFunctions.psm1
 ```
-    
+
 After you have imported the module, you will be able to call the REST service. This will return the URI as a collection that you can now process in PowerShell directly. You must enter the name of your Office 365 tenant, as described in the following command:
 
 ```powershell
     Invoke-O365EnpointService -tenantName [Name of your tenant]
 ```
 
+> [!NOTE]
+> The cmdlet is named **Invoke-O365EnpointService**, not _Invoke-O365En**d**pointService_. This is not a typographical error.
+
 ## **Parameters**
 
-- **tenantName** - The name of your Office 365 tenant. This paramter is mandatory.
+- **tenantName** - The name of your Office 365 tenant. This parameter is mandatory.
 - **ForceLatest** -This switch will force the REST API to always return the entire list of the latest URI.
 - **IPv6** -This switch will return the IPv6 addresses as well. As default only IPv4 will be returned.
 
@@ -519,6 +522,7 @@ Return the complete list of all URIs including the IPv6 addresses
 ```powershell
     Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
 ```
+
 Return only the IP addresses for Exchange Online Service
 
 ```powershell
@@ -532,7 +536,7 @@ You can use this module to create a Proxy Pacfile. In this example you first get
 ```powershell
  Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
 ```
- 
+
 ## Related Topics
   
 [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
