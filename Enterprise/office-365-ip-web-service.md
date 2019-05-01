@@ -176,7 +176,7 @@ Parameters for the endpoints web method are:
 - **NoIPv6=<true | false>** - Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
 - **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** - This required parameter specifies the instance to return the endpoints for. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
-If you call the endpoints web method a large number of times from the same client IP address, you may receive HTTP Response Code 429 (Too Many Requests). Most people will never see this. If you get this response code, you should wait 1 hour before calling the method again. Plan to only call the endpoints web method when the version web method indicates there is a new version available.
+If you call the endpoints web method a large number of times from the same client IP address, you may receive HTTP response code 429 (Too Many Requests). Most people will never see this. If you get this response code, wait 1 hour before repeating your request. Plan to only call the endpoints web method when the version web method indicates there is a new version available.
 
 The result from the endpoints web method is an array of records with each record representing an endpoint set. The elements for each record are:
 
@@ -223,7 +223,6 @@ This URI obtains all endpoints for the Office 365 worldwide instance for all wor
    [
     "*.mail.protection.outlook.com"
    ],
-...
 ```
 
 Additional endpoint sets are not included in this example.
@@ -242,7 +241,7 @@ The required parameter for the changes web method is:
 
 - **Version=\<YYYYMMDDNN>** - Required URL route parameter. This value should be the version that you have currently implemented. The web service will return the changes since that version. The format is _YYYYMMDDNN_, where _NN_ are zeros. The web service requires this parameter to contain exactly 10 digits.
 
-The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP Response Code then you should wait 1 hour before calling again.
+The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP response code, wait 1 hour before repeating your request.
 
 The result from the changes web method is an array of records with each record representing a change in a specific version of the endpoints. The elements for each record are:
 
@@ -307,7 +306,6 @@ This requests all previous changes to the Office 365 worldwide service instance.
    {
     "ips":
      [
-...
 ```
 
 Example 2 request URI: [https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/changes/worldwide/2018062700?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
