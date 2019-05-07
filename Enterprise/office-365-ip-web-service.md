@@ -3,7 +3,7 @@ title: "Office 365 IP Address and URL Web service"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 5/1/2019
+ms.date: 5/7/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -502,11 +502,8 @@ To use this module, simply copy the module file [O365EndpointFunctions.psm1](htt
 After you have imported the module, you will be able to call the REST service. This will return the URI as a collection that you can now process in PowerShell directly. You must enter the name of your Office 365 tenant, as described in the following command:
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant]
+    Invoke-O365EndpointService -tenantName [Name of your tenant]
 ```
-
-> [!NOTE]
-> The cmdlet is spelled **Invoke-O365EnpointService**, with no letter _d_. This is not a typographical error.
 
 #### Parameters
 
@@ -519,13 +516,13 @@ After you have imported the module, you will be able to call the REST service. T
 Return the complete list of all URIs including the IPv6 addresses
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
+    Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
 ```
 
 Return only the IP addresses for Exchange Online Service
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
+    Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
 ```
 
 ### Exporting a Proxy PAC file
@@ -533,7 +530,7 @@ Return only the IP addresses for Exchange Online Service
 You can use this module to create a Proxy PAC file. In this example you first get the endpoints and filter the result to select the URLs. These URLs are piped to be exported.  
 
 ```powershell
- Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
+ Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
 ```
 
 ## Related Topics
