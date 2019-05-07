@@ -503,7 +503,7 @@ To use this module, simply copy the module file [O365EndpointFunctions.psm1](htt
 After you have imported the module, you will be able to call the REST service. This will return the URI as a collection that you can now process in PowerShell directly. You must enter the name of your Office 365 tenant, as described in the following command:
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant]
+    Invoke-O365EndpointService -tenantName [Name of your tenant]
 ```
 
 ## **Parameters**
@@ -517,12 +517,12 @@ After you have imported the module, you will be able to call the REST service. T
 Return the complete list of all URIs including the IPv6 addresses
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
+    Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
 ```
 Return only the IP addresses for Exchange Online Service
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
+    Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
 ```
 
 ## **Exporting a Proxy Pacfile**
@@ -530,7 +530,7 @@ Return only the IP addresses for Exchange Online Service
 You can use this module to create a Proxy Pacfile. In this example you first get the endpoints and filter the result to select the URLs. These URLs are piped to be exported.  
 
 ```powershell
- Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
+ Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
 ```
  
 ## Related Topics
