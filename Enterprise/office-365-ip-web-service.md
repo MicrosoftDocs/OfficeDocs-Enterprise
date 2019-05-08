@@ -3,7 +3,7 @@ title: "Office 365 IP Address and URL Web service"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 5/1/2019
+ms.date: 5/7/2019
 ms.audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -117,7 +117,6 @@ This URI returns the latest version of the specified Office 365 service instance
  "instance": "Worldwide",
  "latest": "2018063000"
 }
-
 ```
 
 Example 3 request URI: [https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/version/Worldwide?Format=CSV&amp;ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
@@ -162,7 +161,6 @@ This URI shows an RSS feed of the published versions that include links to the l
 <link>https://endpoints.office.com/changes/Worldwide/2018080200?singleVersion&clientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7</link> <description>Version 2018080200 includes 2 changes. IPs: 2 added and 0 removed.</description>
 <pubDate>Thu, 02 Aug 2018 00:00:00 Z</pubDate>
 </item>
-...
 ```
 
 ## Endpoints web method
@@ -174,7 +172,7 @@ Parameters for the endpoints web method are:
 - **ServiceAreas=<Common | Exchange | SharePoint | Skype>** - A comma-separated list of service areas. Valid items are _Common_, _Exchange_, _SharePoint_, and _Skype_. Because Common service area items are a prerequisite for all other service areas, the web service will always include them. If you do not include this parameter, all service areas are returned.
 - **TenantName=<tenant_name>** - Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don't provide a tenant name, those parts of URLs have the wildcard character (\*).
 - **NoIPv6=<true | false>** - Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** - This required parameter specifies the instance to return the endpoints for. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
+- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** - This required parameter specifies the instance to return the endpoints for. Valid instances are: _Worldwide_, _China_, _Germany_, _USGovDoD_, and _USGovGCCHigh_.
 
 If you call the endpoints web method a large number of times from the same client IP address, you may receive HTTP response code 429 (Too Many Requests). Most people will never see this. If you get this response code, wait 1 hour before repeating your request. Plan to only call the endpoints web method when the version web method indicates there is a new version available.
 
@@ -239,7 +237,7 @@ The changes web method returns the most recent updates that have been published.
 
 The required parameter for the changes web method is:
 
-- **Version=\<YYYYMMDDNN>** - Required URL route parameter. This value should be the version that you have currently implemented. The web service will return the changes since that version. The format is _YYYYMMDDNN_, where _NN_ are zeros. The web service requires this parameter to contain exactly 10 digits.
+- **Version=\<YYYYMMDDNN>** - Required URL route parameter. This value should be the version that you have currently implemented. The web service will return the changes since that version. The format is _YYYYMMDDNN_, where _NN_ is a natural number incremented if there are multiple versions required to be published on a single day, with _00_ representing the first update for a given day. The web service requires the _version_ parameter to contain exactly 10 digits.
 
 The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP response code, wait 1 hour before repeating your request.
 
@@ -248,7 +246,7 @@ The result from the changes web method is an array of records with each record r
 - id - The immutable id of the change record.
 - endpointSetId - The ID of the endpoint set record that is changed.
 - disposition - This can be either of change, add, or remove and describes what the change did to the endpoint set record.
-- impact - Not all changes will be equally important to every environment. This describes the expected impact to an enterprise network perimeter environment as a result of this change. This attribute is included only in change records of version 2018112800 and later. Options for the impact are:
+- impact - Not all changes will be equally important to every environment. This describes the expected impact to an enterprise network perimeter environment as a result of this change. This attribute is included only in change records of version **2018112800** and later. Options for the impact are:
   - AddedIp – An IP Address was added to Office 365 and will be live on the service soon. This represents a change you need to take on a firewall or other layer 3 network perimeter device. If you don’t add this before we start using it, you may experience an outage.
   - AddedUrl – A URL was added to Office 365 and will be live on the service soon. This represents a change you need to take on a proxy server or URL parsing network perimeter device. If you don’t add this before we start using it, you may experience an outage.
   - AddedIpAndUrl - Both an IP Address and a URL were added. This represents a change you need to take on either a firewall layer 3 device or a proxy server or URL parsing device. If you don’t add this before we start using it, you may experience an outage.
@@ -504,11 +502,8 @@ To use this module, simply copy the module file [O365EndpointFunctions.psm1](htt
 After you have imported the module, you will be able to call the REST service. This will return the URI as a collection that you can now process in PowerShell directly. You must enter the name of your Office 365 tenant, as described in the following command:
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant]
+    Invoke-O365EndpointService -tenantName [Name of your tenant]
 ```
-
-> [!NOTE]
-> The cmdlet is spelled **Invoke-O365EnpointService**, with no letter _d_. This is not a typographical error.
 
 #### Parameters
 
@@ -521,13 +516,13 @@ After you have imported the module, you will be able to call the REST service. T
 Return the complete list of all URIs including the IPv6 addresses
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
+    Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest -IPv6 | Format-Table -AutoSize
 ```
 
 Return only the IP addresses for Exchange Online Service
 
 ```powershell
-    Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
+    Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.serviceArea -eq "Exchange") -and ($_.protocol -eq "ip")}| Format-Table -AutoSize
 ```
 
 ### Exporting a Proxy PAC file
@@ -535,7 +530,7 @@ Return only the IP addresses for Exchange Online Service
 You can use this module to create a Proxy PAC file. In this example you first get the endpoints and filter the result to select the URLs. These URLs are piped to be exported.  
 
 ```powershell
- Invoke-O365EnpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
+ Invoke-O365EndpointService -tenantName [Name of your tenant] -ForceLatest | where{($_.Protocol -eq "Url") -and (($_.Category -eq "Optimize") -or ($_.category -eq "Allow"))} | select uri -Unique | Export-O365ProxyPacFile
 ```
 
 ## Related Topics
