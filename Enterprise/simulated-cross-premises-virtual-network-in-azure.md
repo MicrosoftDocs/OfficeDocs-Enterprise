@@ -112,6 +112,7 @@ New-AzNetworkSecurityGroup -Name "Testnet" -ResourceGroupName $rgName -Location 
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name XPrem
 $nsg=Get-AzNetworkSecurityGroup -Name "Testnet" -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name "Testnet" -AddressPrefix 192.168.0.0/24 -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 Next, you create the VNet peering relationship between the TestLab and XPrem VNets with these commands.

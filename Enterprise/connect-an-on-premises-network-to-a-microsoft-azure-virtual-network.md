@@ -266,6 +266,7 @@ New-AzNetworkSecurityGroup -Name $SubnetName -ResourceGroupName $rgName -Locatio
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name $vnetName
 $nsg=Get-AzNetworkSecurityGroup -Name $SubnetName -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $SubnetName -AddressPrefix $SubnetPrefix -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 Here is your resulting configuration.
