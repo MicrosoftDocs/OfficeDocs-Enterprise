@@ -57,6 +57,11 @@ Data columns shown are:
 
 [!INCLUDE [Office 365 worldwide endpoints](./includes/office-365-worldwide-endpoints.md)]
 
+>[!Note]
+>For recommendations on Yammer IP addresses and URLs, see [this blog post](https://techcommunity.microsoft.com/t5/Yammer-Blog/Using-hard-coded-IP-addresses-for-Yammer-is-not-recommended/ba-p/276592).
+>
+
+
 ## Related Topics
 
 [Managing Office 365 endpoints](managing-office-365-endpoints.md)
