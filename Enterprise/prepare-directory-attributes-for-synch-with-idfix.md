@@ -1,9 +1,8 @@
 ---
 title: "Prepare directory attributes for synchronization with Office 365 by using the IdFix tool"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration

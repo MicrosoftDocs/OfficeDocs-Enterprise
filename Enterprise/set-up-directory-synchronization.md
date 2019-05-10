@@ -1,7 +1,7 @@
 ---
 title: "Set up directory synchronization for Office 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: Admin
 ms.topic: get-started-article
