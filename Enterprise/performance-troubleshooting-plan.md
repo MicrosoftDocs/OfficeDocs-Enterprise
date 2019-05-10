@@ -62,11 +62,11 @@ This action plan contains two parts; a preparation phase, and a logging phase. I
 
 If you're not familiar with running the tools mentioned in this article, don't worry because we provide those steps next. If you're accustomed to doing this kind of network capturing, you can skip to [How to collect baselines](performance-tuning-using-baselines-and-history.md#how-to-collect-baselines), which describes filtering and reading the logs.
   
-## Flush the DNS Cache first
+### Flush the DNS Cache first
 
 Why? By flushing out the DNS cache you're starting your tests with a clean slate. By clearing the cache, you're resetting the DNS resolver contents to the most up-to-date entries. Remember that a flush does not remove HOSTs file entries. If you use HOST file entries extensively, you should copy those entries out to a file in another directory and then empty the HOST file.
   
-### Flush your DNS resolver cache
+#### Flush your DNS resolver cache
   
 1. Open the command prompt, (either **Start** \> **Run** \> **cmd** or **Windows key** \> **cmd**).
 2. Type the following command and press ENTER:
