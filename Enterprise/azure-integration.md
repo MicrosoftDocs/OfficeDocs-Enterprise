@@ -1,7 +1,7 @@
 ---
 title: "Azure integration with Office 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: Admin
 ms.topic: overview

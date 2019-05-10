@@ -1,7 +1,7 @@
 ---
 title: "Prepare a non-routable domain for directory synchronization"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
