@@ -1,7 +1,7 @@
 ---
 title: "How to check Office 365 service health"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: Admin
 ms.topic: article

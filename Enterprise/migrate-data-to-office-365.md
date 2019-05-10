@@ -1,7 +1,7 @@
 ---
 title: "Migrate your organization data to Office 365 Enterprise"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: ITPro
 ms.topic: conceptual

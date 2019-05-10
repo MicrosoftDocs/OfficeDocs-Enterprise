@@ -1,7 +1,7 @@
 ---
 title: "Deploy Office 365 Enterprise for your organization"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: ITPro
 ms.topic: conceptual

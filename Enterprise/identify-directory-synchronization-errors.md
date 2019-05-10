@@ -1,7 +1,7 @@
 ---
 title: "View directory synchronization errors in Office 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: Admin
 ms.topic: article
