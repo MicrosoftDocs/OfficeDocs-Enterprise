@@ -71,9 +71,9 @@ Why? By flushing out the DNS cache you're starting your tests with a clean slate
 1. Open the command prompt, (either **Start** \> **Run** \> **cmd** or **Windows key** \> **cmd**).
 2. Type the following command and press ENTER:
 
-  ``` cmd
-  ipconfig /flushdns
-  ```
+    ``` cmd
+    ipconfig /flushdns
+    ```
 
 ## Netmon
 
