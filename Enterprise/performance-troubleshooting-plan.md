@@ -192,7 +192,7 @@ If you haven't installed them all ready, the matrix below makes use of several t
 - *Close your browsers, and test with only one browser running*  - This will reduce the overall traffic you capture. It makes for a less busy trace.
 - *Flush your DNS resolver cache on the client computer*  - This will give you a clean slate when you start to take your capture, for a cleaner trace.
 
-## Some Top Issues
+## Common issues
 
 Some common issues you may face and how to find them in your Network trace.
 
