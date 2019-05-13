@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Client App Support - Single Sign-On"
+title: "Office 365 Client App Support — Single Sign-On"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,9 +15,9 @@ search.appverid:
 description: "Office 365 Client App support for single sign-on."
 ---
 
-# Office 365 Client App Support - Single Sign-On
+# Office 365 Client App Support — Single Sign-On
 
-Single sign-on (SSO) adds security and convenience when your users sign-on to applications in Azure Active Directory (Azure AD). With single sign-on, users sign in once with one account to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications.
+Single sign-on (SSO) adds security and convenience when your users sign on to applications in Azure Active Directory (Azure AD). With single sign-on, users sign in once with one account to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications.
 
 Learn more about [single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
 

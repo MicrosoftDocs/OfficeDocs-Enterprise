@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Client App Support - Certificate-based Authentication"
+title: "Office 365 Client App Support — Certificate-based Authentication"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,9 +15,9 @@ search.appverid:
 description: "Office 365 Client App support for certificate-based authentication."
 ---
 
-# Office 365 Client App Support - Certificate-based Authentication
+# Office 365 Client App Support — Certificate-based Authentication
 
-Certificate-based authentication enables you to be authenticated by Azure Active Directory with a client certificate on Windows, Android, or iOS devices. Configuring this feature eliminates the need to enter a username and password combination into certain mail and Microsoft Office applications on your mobile device.
+Certificate-based authentication enables you to authenticate to Azure Active Directory with a client certificate on Windows, Android, or iOS devices. Configuring this feature eliminates the need to enter a username and password combination into certain mail and Microsoft Office applications on your mobile device.
 
 Learn more about [certificate-based authentication](https://docs.microsoft.com/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started).
 
@@ -53,5 +53,5 @@ The latest versions of the following clients support certificate-based authentic
 | ![Azure icon](media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange icon](media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) | ![SharePoint icon](media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/sharepoint/manage-team-and-communication-sites-in-powershell)
 
 > [!NOTE]
-> <sup>1</sup> Support for OneDrive on macOS coming soon. <br>
-> <sup>2</sup> Support for Yammer on Windows Desktop and macOS coming soon.
+> <sup>1</sup> Support for OneDrive on macOS available soon. <br>
+> <sup>2</sup> Support for Yammer on Windows Desktop and macOS available soon.
