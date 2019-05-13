@@ -24,7 +24,7 @@
 #### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 #### [Network and migration planning for Office 365](network-and-migration-planning.md)
 
-### Plan for your identity
+### Plan for your identities
 #### [Plan for directory synchronization](plan-for-directory-synchronization.md)
 #### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
 
@@ -111,13 +111,13 @@
 #### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 
 ## 2. Set up your identities
-### [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md)
-### [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
+### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
+### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
 #### [Install and run the IdFix tool](install-and-run-idfix.md)
 #### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
 #### [IdFix transaction log](idfix-transaction-log.md)
-### [Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
-### [Protect your Office 365 global administrator accounts](protect-your-global-administrator-accounts.md)
+### [Set up directory synchronization](set-up-directory-synchronization.md)
+### [Protect your global administrator accounts](protect-your-global-administrator-accounts.md)
 
 ## 3. Deploy client software
 ### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
@@ -133,8 +133,8 @@
 ### [Skype for Business](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)
 ### [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/Teams-overview)
 ### [Yammer](https://support.office.com/article/e1464355-1f97-49ac-b2aa-dd320b179dbe)
-### [Activate Rights Management in the Microsoft 365 admin center](activate-rms-in-office-365.md)
-### [Configuring release options in Office 365](https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47)
+### [Activate rights management](activate-rms-in-office-365.md)
+### [Configuring release options](https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47)
 
 ## [6. Train your users](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)
 
@@ -167,8 +167,8 @@
 
 ### Hybrid solutions
 #### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
-#### [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
-#### [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+#### [Connect an on-premises network to an Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
+#### [Deploy a directory dynchronization server in Azure IaaS](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
 #### [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
 ##### [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md)
 ##### [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md)
@@ -183,15 +183,15 @@
 ### [Monitor connectivity](monitor-connectivity.md)
 
 ## Directory synchronization
-### [View directory synchronization status in Office 365](view-directory-synchronization-status.md)
-### [Identify directory synchronization errors in Office 365](identify-directory-synchronization-errors.md)
-### [Fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md)
-### [Turn off directory synchronization for Office 365](turn-off-directory-synchronization.md)
+### [View directory synchronization status](view-directory-synchronization-status.md)
+### [Identify directory synchronization errors](identify-directory-synchronization-errors.md)
+### [Fixing problems with directory synchronization](fix-problems-with-directory-synchronization.md)
+### [Turn off directory synchronization](turn-off-directory-synchronization.md)
 
 ## Users
 ### [Office 365 Admin help center](https://support.office.com/en-us/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
-### [Tools to manage Office 365 accounts](manage-office-365-accounts.md)
-### [Add several users at the same time to Office 365p](add-several-users-at-the-same-time.md)
+### [Tools to manage user accounts](manage-office-365-accounts.md)
+### [Add several users at the same time](add-several-users-at-the-same-time.md)
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
 
 ## Devices
@@ -210,15 +210,15 @@
 ### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## [Performance tuning](tune-office-365-performance.md)
-### [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+### [Performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 ### [Tune Exchange Online performance](tune-exchange-online-performance.md)
 ### [Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
 #### [Introduction to performance tuning for SharePoint Online](introduction-to-performance-tuning-for-sharepoint-online.md)
 #### [Diagnosing performance issues with SharePoint Online](diagnosing-performance-issues-with-sharepoint-online.md)
 ### [Tune Skype for Business Online performance](tune-skype-for-business-online-performance.md)
 ### [Tune Project Online performance](https://docs.microsoft.com/ProjectOnline/tune-project-online-performance)
-### [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
-### [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
+### [Performance troubleshooting plan](performance-troubleshooting-plan.md)
+### [Managing ExpressRoute](managing-expressroute-for-connectivity.md)
 
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
 # [Security & Compliance](https://docs.microsoft.com/Office365/SecurityCompliance)
