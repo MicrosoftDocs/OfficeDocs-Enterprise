@@ -14,7 +14,8 @@
 ### [Hybrid cloud scenarios for Azure IaaS](hybrid-cloud-scenarios-for-azure-iaas.md)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
-# [Plan for Office 365](get-your-organization-ready-for-office-365.md)
+# Plan for Office 365
+## [Get your organization ready](get-your-organization-ready-for-office-365.md)
 
 ## Your Office 365 tenant
 ### [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
@@ -32,11 +33,12 @@
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
 ### [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md)
 
-### [Office 365 integration](office-365-integration.md)
-#### [Azure integration with Office 365](azure-integration.md)
-#### [Azure ExpressRoute for Office 365](azure-expressroute.md)
+### Office 365 integration
+### [Integration with on-premises](office-365-integration.md)
+#### [Azure integration](azure-integration.md)
+#### [Azure ExpressRoute](azure-expressroute.md)
 #### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
-#### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
+#### [Inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
 
 ## Office 365 client support
 ### [Conditional access](office-365-client-support-conditional-access.md)
@@ -44,13 +46,14 @@
 ### [Mobile application management](office-365-client-support-mobile-application-management.md)
 ### [Modern authentication](office-365-client-support-modern-authentication.md)
 
-## Hybrid options
-### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
-### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
-### [How to configure Skype for Business on-premises to use Hybrid Modern Authentication](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
-### [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
+## Hybrid modern authentication
+### [Prerequisites for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
+### [Configure Exchange Server](configure-exchange-server-for-hybrid-modern-authentication.md)
+### [Configure Skype for Business](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
+### [Remove or disable for Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
 
-## [Your Office clients and servers](plan-upgrade-previous-versions-office.md)
+## Office clients and servers
+### [Plan your upgrade](plan-upgrade-previous-versions-office.md)
 ### [Office 2007](upgrade-from-office-2007-servers-and-products.md)
 #### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap)
 #### [Exchange 2007](exchange-2007-end-of-support.md)
@@ -65,7 +68,8 @@
 #### [Lync Server 2010](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
 #### [Project Server 2010](project-server-2010-end-of-support.md)
 
-# [Test Office 365](cloud-adoption-test-lab-guides-tlgs.md)
+# Test Office 365
+## [Cloud adoption Test Lab Guides](cloud-adoption-test-lab-guides-tlgs.md)
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
 ## [Office 365 dev/test environment](office-365-dev-test-environment.md)
 ### [Directory synchronization](dirsync-for-your-office-365-dev-test-environment.md)
@@ -83,15 +87,15 @@
 ### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
 ### [Security best practices for Office 365](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
 
-## [1. Set up your enterprise network](set-up-network-for-office-365.md)
-
+## 1. Set up your network
+### [Set up your enterprise network](set-up-network-for-office-365.md)
 ### [Domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
 ### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
-### [Office 365 IP Addresses and URLs](office-365-endpoints.md)
+### [Office 365 IP addresses and URLs](office-365-endpoints.md)
 #### [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
@@ -126,7 +130,8 @@
 
 ## [4. Configure device management with Intune](https://docs.microsoft.com/intune/setup-steps)
 
-## [5. Configure services and applications](configure-services-and-applications.md)
+## 5. Configure services and applications
+### [Get ready](configure-services-and-applications.md)
 ### [Migrate data to Office 365](migrate-data-to-office-365.md)
 ### [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
 ### [SharePoint Online](https://docs.microsoft.com/sharepoint/sharepoint-online)
@@ -139,6 +144,7 @@
 ## [6. Train your users](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)
 
 ## Advanced deployment
+
 ### [Office 365 Multi-Geo](office-365-multi-geo.md)
 #### [OneDrive and SharePoint multi-geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Exchange Multi-Geo](multi-geo-capabilities-in-exchange-online.md)
@@ -209,7 +215,8 @@
 ### [How to check](view-service-health.md)
 ### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
-## [Performance tuning](tune-office-365-performance.md)
+## Performance
+## [Tune Office 365 performance](tune-office-365-performance.md)
 ### [Performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 ### [Tune Exchange Online performance](tune-exchange-online-performance.md)
 ### [Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
