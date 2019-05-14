@@ -44,7 +44,7 @@ For each layer of the architecture:
     
 - Identity
     
-    Can include directory synchronization with your on-premises Windows Server AD. Alternately, you can configure Azure AD to federate with a third-party identity provider.
+    Can include directory synchronization with your on-premises Active Directory Domain Services (AD DS). Alternately, you can configure Azure AD to federate with a third-party identity provider.
     
 - Network
     

@@ -32,9 +32,11 @@
 ### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
 ### [Office 365 inter-tenant collaboration](office-365-inter-tenant-collaboration.md)
 ## Office 365 client support
+### [Certificate-based authentication](office-365-client-support-certificate-based-authentication.md)
 ### [Conditional access](office-365-client-support-conditional-access.md)
 ### [Mobile application management](office-365-client-support-mobile-application-management.md)
 ### [Modern authentication](office-365-client-support-modern-authentication.md)
+### [Single sign-on](office-365-client-support-single-sign-on.md)
 ## Hybrid options
 ### [Hybrid Modern Authentication and prereqs for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
 ### [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
@@ -66,9 +68,6 @@
 ### [Advanced eDiscovery](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
 ### [Sensitive file protection](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
 ### [Data classification and labeling](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
-## [Office 365 and Dynamics 365](office-365-and-dynamics-365-dev-test-environment.md)
-### [Exchange Online integration](exchange-online-integration-for-your-office-365-and-dynamics-365-dev-test-enviro.md)
-## [The One Microsoft Cloud dev/test environment](the-one-microsoft-cloud-dev-test-environment.md)
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365

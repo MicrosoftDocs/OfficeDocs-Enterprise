@@ -27,7 +27,7 @@ Office 365 Cloud App Security, previously known as Office 365 Advanced Security 
 With the instructions in this article, you enable and test Cloud App Security in your Office 365 trial subscription.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Build out your lightweight or simulated enterprise Office 365 dev/test environment
 

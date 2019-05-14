@@ -1,9 +1,8 @@
 ---
 title: "Prepare to provision users through directory synchronization to Office 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
 ms.audience: Admin
 ms.topic: article
 f1_keywords:

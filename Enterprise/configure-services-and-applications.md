@@ -1,7 +1,7 @@
 ---
 title: "Configure Office 365 Enterprise services and applications"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.audience: ITPro
 ms.topic: deployment

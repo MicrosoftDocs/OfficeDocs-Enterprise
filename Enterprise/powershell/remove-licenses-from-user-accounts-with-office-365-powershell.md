@@ -78,6 +78,10 @@ This example removes the `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) 
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
+>[!Note]
+>You cannot use the Set-MsolUserLicense cmdlet to unassign users from *canceled* licenses. You must do this individually for each user account in the Microsoft 365 admin center.
+>
+
 To remove licenses from a group of existing licensed users, use either of the following methods:
   
 - **Filter the accounts based on an existing account attribute** To do this, use the following syntax:
