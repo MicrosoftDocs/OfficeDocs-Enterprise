@@ -39,13 +39,13 @@ These features will continue to work in the main window but are not available in
   Set-OrganizationConfig -LeanPopoutEnabled <$true |$false >
   ```
 
-    For example, to enable lean popouts for all users in your organization:
+  For example, to enable lean popouts for all users in your organization:
     
   ```
   Set-OrganizationConfig -LeanPopoutEnabled $true
   ```
 
-    To disable lean popouts for all users in your organization:
+  To disable lean popouts for all users in your organization:
     
   ```
   Set-OrganizationConfig -LeanPopoutEnabled $false

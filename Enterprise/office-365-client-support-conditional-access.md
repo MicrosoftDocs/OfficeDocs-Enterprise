@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Client App Support - Conditional Access"
+title: "Office 365 Client App Support — Conditional Access"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,9 +15,11 @@ ms.collection:
 description: "Understand Office 365 client app support for conditional access"
 ---
 
-# Office 365 Client App Support - Conditional Access
+# Office 365 Client App Support — Conditional Access
 
-In the modern workplace, users can access your organization's resources using a variety of devices and apps from virtually anywhere. As a result, just focusing on who can access a resource is not sufficient anymore. Your organization must also support how and where a resource is being accessed into your access control infrastructure. With Azure AD device, location, and multi-factor authentication-based conditional access, you can meet this new requirement. Conditional access is a capability of Azure Active Directory that enables you to enforce controls on the access to apps in your environment, all based on specific conditions and managed from a central location.
+In the modern workplace, users can access your organization's resources using various devices and apps from anywhere. As a result, just focusing on who can access a resource is not sufficient anymore. Your organization must also support how and where a resource is accessed in your access control infrastructure.
+
+With Azure AD device, location, and multi-factor authentication-based conditional access, you can meet this new requirement. Conditional access is a capability of Azure Active Directory that enables you to enforce controls on the access to apps in your environment, all based on specific conditions and managed from a central location.
 
 Learn more about [conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/).
 
@@ -46,5 +48,5 @@ The latest versions of the following clients support conditional access:
 | ![Teams icon](media/o365-teams-64x64.png) <br> [Teams](https://products.office.com/microsoft-teams/group-chat-software) | ![To-Do icon](media/o365-todo-64x64.png) <br> [To-Do](https://todo.microsoft.com) | ![Visio icon](media/o365-visio-64x64.png) <br> [Visio](https://products.office.com/visio/flowchart-software) | ![Word icon](media/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Yammer icon](media/o365-yammer-64x64.png) <br> [Yammer](https://products.office.com/yammer/yammer-overview)
 
 > [!NOTE]
-> <sup>1</sup> Support for Delve on Android coming soon. <br>
-> <sup>2</sup> Support for OneDrive on macOS coming soon.
+> <sup>1</sup> Support for Delve on Android available soon. <br>
+> <sup>2</sup> Support for OneDrive on macOS available soon.
