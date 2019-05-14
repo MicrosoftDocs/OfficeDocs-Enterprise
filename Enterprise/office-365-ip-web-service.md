@@ -402,8 +402,28 @@ if ($version.latest -gt $lastVersion) {
         }
         $ipCustomObjects
     }
+    $flatIp6s = $endpointSets | ForEach-Object {
+    $endpointSet = $_
+    $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
+    # IPv6 strings have colons while IPv6 strings have dots
+    $ip6s = $ips | Where-Object { $_ -like '*:*' }
+    $ipCustomObjects = @()
+    if ($endpointSet.category -in ("Optimize")) {
+        $ipCustomObjects = $ip6s | ForEach-Object {
+            [PSCustomObject]@{
+                category = $endpointSet.category;
+                ip = $_;
+                tcpPorts = $endpointSet.tcpPorts;
+                udpPorts = $endpointSet.udpPorts;
+            }
+        }
+    }
+    $ipCustomObjects
+}
     Write-Output "IPv4 Firewall IP Address Ranges"
     ($flatIps.ip | Sort-Object -Unique) -join "," | Out-String
+    Write-Output "IPv6 Firewall IP Address Ranges"
+    ($flatIp6s.ip | Sort-Object -Unique) -join "," | Out-String
     Write-Output "URLs for Proxy Server"
     ($flatUrls.url | Sort-Object -Unique) -join "," | Out-String
     # TODO Call Send-MailMessage with new endpoints data
