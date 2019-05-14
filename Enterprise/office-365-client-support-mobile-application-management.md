@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Client App Support - Mobile Application Management"
+title: "Office 365 Client App Support — Mobile Application Management"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,9 +15,9 @@ search.appverid:
 description: "Understand Office 365 client app support for mobile application management"
 ---
 
-# Office 365 Client App Support - Mobile Application Management
+# Office 365 Client App Support — Mobile Application Management
 
-Leveraging the suite of Intune management features, mobile application management (MAM) lets you publish, push, configure, secure, monitor, and update mobile apps for your users. MAM can protect an organization's data within an application for all devices, whether enrolled in Intune or not.
+Mobile application management (MAM) features let you publish, push, configure, secure, monitor, and update mobile apps for your users. MAM can protect an organization's data within an application for all devices, whether enrolled in Intune or not.
 
 Learn more about [mobile application management](https://docs.microsoft.com/intune/mam-faq) and [multi-identity MAM](https://docs.microsoft.com/intune/app-protection-policy).
 
@@ -41,4 +41,4 @@ The latest versions of the following clients support mobile application manageme
 | ![Word icon](media/o365-word-64x64.png) <br> [Word](https://products.office.com/word) | ![Yammer icon](media/o365-yammer-64x64.png) <br> [Yammer](https://products.office.com/yammer/yammer-overview)
 
 > [!NOTE]
-> <sup>1</sup> Support for Sway on iOS coming soon.
+> <sup>1</sup> Support for Sway on iOS available soon.
