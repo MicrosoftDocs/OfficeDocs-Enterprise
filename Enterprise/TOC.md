@@ -222,7 +222,7 @@
 ### [Support options](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 ## Performance
-## [Tune Office 365 performance](tune-office-365-performance.md)
+### [Tune Office 365 performance](tune-office-365-performance.md)
 ### [Performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 ### [Tune Exchange Online performance](tune-exchange-online-performance.md)
 ### [Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
