@@ -3,7 +3,7 @@ title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/3/2019
+ms.date: 5/14/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -20,6 +20,11 @@ description: "Describes how to use the Office 365 Content Delivery Network (CDN)
 # Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 
 You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. Also, the Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and HTTP pipelining. The Office 365 CDN service is included as part of your SharePoint Online subscription.
+
+> [!NOTE]
+> Restrictions for use of the Office 365 CDN:
+> + The Office 365 CDN is only available to tenants in the **Production** (worldwide) cloud. Tenants in the US Government, China and Germany clouds do not currently support the Office 365 CDN.
+> + The Office 365 CDN does not currently support tenants configured with custom or "vanity" domains. If you have added a domain to your tenant using the instructions in the topic [Add a domain to Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain?view=o365-worldwide), the Office 365 CDN will return errors when you try to access content from the CDN.
 
 The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host in the Office 365 CDN, you can add **public** origins, **private** origins or both. See [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate) for more information on the difference between public and private origins.
 
