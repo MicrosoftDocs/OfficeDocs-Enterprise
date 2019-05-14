@@ -34,7 +34,7 @@
 ### [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md)
 
 ### Office 365 integration
-### [Integration with on-premises](office-365-integration.md)
+#### [Integration with on-premises](office-365-integration.md)
 #### [Azure integration](azure-integration.md)
 #### [Azure ExpressRoute](azure-expressroute.md)
 #### [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md)
@@ -54,14 +54,16 @@
 
 ## Office clients and servers
 ### [Plan your upgrade](plan-upgrade-previous-versions-office.md)
-### [Office 2007](upgrade-from-office-2007-servers-and-products.md)
+### Office 2007
+#### [Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
 #### [Office 2007 desktop](https://docs.microsoft.com/DeployOffice/office-2007-end-support-roadmap)
 #### [Exchange 2007](exchange-2007-end-of-support.md)
 #### [SharePoint 2007](sharepoint-2007-end-of-support.md)
 #### [Office Communications Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
 #### [PerformancePoint Server 2007](pps-2007-end-of-support.md)
 #### [Project Server 2007](project-server-2007-end-of-support.md)
-### [Office 2010](upgrade-from-office-2010-servers-and-products.md)
+### Office 2010
+#### [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
 #### [Office 2010 desktop](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 #### [Exchange 2010](exchange-2010-end-of-support.md)
 #### [SharePoint 2010](upgrade-from-sharepoint-2010.md)
@@ -83,9 +85,11 @@
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # Deploy Office 365
-## [Deploy Office 365 Enterprise for your organization](setup-overview-for-enterprises.md)
-### [Deployment planning checklist for Office 365](deployment-planning-checklist.md)
-### [Security best practices for Office 365](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
+
+## Checklists and best practices
+### [Deploy Office 365 Enterprise for your organization](setup-overview-for-enterprises.md)
+### [Deployment planning checklist](deployment-planning-checklist.md)
+### [Office 365 security roadmap](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
 
 ## 1. Set up your network
 ### [Set up your enterprise network](set-up-network-for-office-365.md)
@@ -95,7 +99,8 @@
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
 ### [Network connectivity to Office 365](network-connectivity.md)
 ### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
-### [Office 365 IP addresses and URLs](office-365-endpoints.md)
+### Office 365 IP addresses and URLs
+#### [Office 365 endpoints](office-365-endpoints.md)
 #### [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 #### [Worldwide endpoints](urls-and-ip-address-ranges.md)
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
@@ -116,7 +121,8 @@
 
 ## 2. Set up your identities
 ### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
-### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
+### Use the IdFix tool
+#### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
 #### [Install and run the IdFix tool](install-and-run-idfix.md)
 #### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
 #### [IdFix transaction log](idfix-transaction-log.md)
