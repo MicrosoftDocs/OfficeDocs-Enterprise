@@ -3,7 +3,7 @@ title: "Add a domain to a client tenancy with Windows PowerShell for Delegated A
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal

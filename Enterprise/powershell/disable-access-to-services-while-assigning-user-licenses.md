@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/01/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.collection: Ent_O365
 ms.service: o365-administration

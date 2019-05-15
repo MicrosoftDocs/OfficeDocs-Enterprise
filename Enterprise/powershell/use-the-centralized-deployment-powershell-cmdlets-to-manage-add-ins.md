@@ -4,7 +4,7 @@ ms.author: twerner
 author: twernermsft
 manager: scotv
 ms.date: 5/31/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal

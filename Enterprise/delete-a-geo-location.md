@@ -3,7 +3,7 @@ title: "Delete a satellite location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
