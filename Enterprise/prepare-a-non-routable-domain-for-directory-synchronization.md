@@ -3,7 +3,7 @@ title: "Prepare a non-routable domain for directory synchronization"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365E_SetupDirSyncLocalDir'

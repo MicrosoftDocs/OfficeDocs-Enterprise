@@ -4,7 +4,7 @@ ms.author: supotter
 author: supotter
 manager: scotv
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 f1_keywords:
 - 'ms.lync.lac.ProviderManagedFeature'

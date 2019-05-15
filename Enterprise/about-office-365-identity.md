@@ -3,7 +3,7 @@ title: "Understanding Office 365 identity and Azure Active Directory"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
