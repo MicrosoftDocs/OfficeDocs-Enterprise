@@ -3,7 +3,7 @@ title: "Prepare directory attributes for synchronization with Office 365 by usin
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal

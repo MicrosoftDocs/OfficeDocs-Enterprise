@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/29/2016
-ms.audience: End User
+audience: End User
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal

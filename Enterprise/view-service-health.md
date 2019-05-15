@@ -3,7 +3,7 @@ title: "How to check Office 365 service health"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365P_ServiceHealthModern'

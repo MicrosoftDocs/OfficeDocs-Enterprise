@@ -3,7 +3,7 @@ title: "Tools to manage Office 365 accounts"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal

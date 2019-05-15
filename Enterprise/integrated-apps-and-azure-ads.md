@@ -3,7 +3,7 @@ title: "Integrated Apps and Azure AD for Office 365 administrators"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
