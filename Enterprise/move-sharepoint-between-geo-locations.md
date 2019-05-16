@@ -3,7 +3,7 @@ title: "Move a SharePoint site to a different geo location (Preview)"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.collection: Strat_SP_gtc

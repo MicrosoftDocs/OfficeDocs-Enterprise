@@ -4,7 +4,7 @@ ms.author: efrene
 author: efrene
 manager: pamg
 ms.date: 10/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal

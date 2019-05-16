@@ -3,7 +3,7 @@ title: "Create an Office 365 Group with a specific PDL"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 

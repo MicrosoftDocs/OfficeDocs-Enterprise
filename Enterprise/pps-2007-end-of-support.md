@@ -3,7 +3,7 @@ title: "PerformancePoint Server 2007 end of support roadmap"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Normal

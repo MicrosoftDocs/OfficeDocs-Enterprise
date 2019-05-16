@@ -3,7 +3,7 @@ title: "Prepare to provision users through directory synchronization to Office 3
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365p_AddUsersWithDirSync'
