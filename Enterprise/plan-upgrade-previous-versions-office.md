@@ -17,11 +17,11 @@ description: "If you are using Office 2007 or Office 2010, it's time to plan you
 
 # Plan your upgrade from Office 2007 or Office 2010 servers and clients
 
-If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. Office 2007 products and services have reached their end of support, and Office 2010 products and services are nearing their end of support. Use the resources in this section to get started.
-
-- [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
+If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. Office 2007 products and services have reached their end of support and Office 2010 products and services will reach their end of support on **October 13, 2020**. Use the resources in this section to get started.
 
 - [Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
+
+- [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
 
 ## What happens if I don't upgrade?
 

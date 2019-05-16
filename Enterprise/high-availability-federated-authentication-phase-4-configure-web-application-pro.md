@@ -167,6 +167,3 @@ Use [High availability federated authentication Phase 5: Configure federated aut
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
-[Federated authentication options](about-office-365-identity.md#federated-authentication-options)
-
-

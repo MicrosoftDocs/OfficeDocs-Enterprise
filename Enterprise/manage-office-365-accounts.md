@@ -22,7 +22,7 @@ description: "Learn what tools to use to manage your Office 365 users, and how w
 
 # Tools to manage Office 365 accounts
 
-You can manage Office 365 users in several different ways, depending on your configuration. You can manage users in the [Microsoft 365 admin center](https://admin.microsoft.com), Windows PowerShell, your on-premises directory, or in Azure Active Directory admin portal . As soon as you purchase Office 365, the admin center and Windows PowerShell can be used to manage accounts. When managing cloud identities every person in your organization has a separate user ID and password for Office 365. If you want to integrate with your on-premises infrastructure and have user accounts synchronized with Office 365, you can use Azure Active Directory Connect to provide synchronization of identities and optionally provide password synchronization, or full single sign-on functionality.
+You can manage Office 365 users in several different ways, depending on your configuration. You can manage users in the [Microsoft 365 admin center](https://admin.microsoft.com), Windows PowerShell, your on-premises directory, or in Azure Active Directory admin portal. As soon as you purchase Office 365, the admin center and Windows PowerShell can be used to manage accounts. When managing cloud identities every person in your organization has a separate user ID and password for Office 365. If you want to integrate with your on-premises infrastructure and have user accounts synchronized with Office 365, you can use Azure Active Directory Connect to provide synchronization of identities and optionally provide password synchronization, or full single sign-on functionality.
   
 ## Plan for where and how you will manage your user accounts
 
@@ -30,15 +30,15 @@ Where and how you can manage your user accounts depends on the identity model yo
   
 ### Cloud authentication
 
-- [Cloud authentication](about-office-365-identity.md#cloud-authentication) - create and manage users in the admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users. 
+- Cloud authentication - create and manage users in the admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users. 
     
-- [Password hash sync with seamless single sign-on](about-office-365-identity.md) - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises. 
+- Password hash sync with seamless single sign-on - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises. 
     
-- [Pass-through authentication with seamless single sign-on](about-office-365-identity.md) - Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises Active Directory. 
+- Pass-through authentication with seamless single sign-on - Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises Active Directory. 
     
 ### Federated authentication
 
-- [Federated authentication options](about-office-365-identity.md#federated-authentication-options) - Primarily for large enterprise organizations with more complex authentication requirements, on-premises directory objects are synchronized with Office 365 and users accounts are managed on-premises. 
+- Federated authentication options - Primarily for large enterprise organizations with more complex authentication requirements, on-premises directory objects are synchronized with Office 365 and users accounts are managed on-premises. 
     
 - [Third-party authentication and identity providers](about-office-365-identity.md) - On-premises directory objects may be synchronized to Office 365 and cloud resource access is primarily managed by a third-party identity provider (IdP). 
     
