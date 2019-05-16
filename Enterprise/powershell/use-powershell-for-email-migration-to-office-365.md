@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.date: 12/15/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
