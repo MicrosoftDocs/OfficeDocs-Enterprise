@@ -30,15 +30,15 @@ Where and how you can manage your user accounts depends on the identity model yo
   
 ### Cloud authentication
 
-- [Cloud authentication](about-office-365-identity.md#cloud-authentication) - create and manage users in the admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users. 
+- Cloud authentication - create and manage users in the admin center, you can also use Windows PowerShell, or Azure Active Directory to manage your users. 
     
-- [Password hash sync with seamless single sign-on](about-office-365-identity.md) - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises. 
+- Password hash sync with seamless single sign-on - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory user account objects with Office 365 and manage your users on-premises. 
     
-- [Pass-through authentication with seamless single sign-on](about-office-365-identity.md) - Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises Active Directory. 
+- Pass-through authentication with seamless single sign-on - Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises Active Directory. 
     
 ### Federated authentication
 
-- [Federated authentication options](about-office-365-identity.md#federated-authentication-options) - Primarily for large enterprise organizations with more complex authentication requirements, on-premises directory objects are synchronized with Office 365 and users accounts are managed on-premises. 
+- Federated authentication options - Primarily for large enterprise organizations with more complex authentication requirements, on-premises directory objects are synchronized with Office 365 and users accounts are managed on-premises. 
     
 - [Third-party authentication and identity providers](about-office-365-identity.md) - On-premises directory objects may be synchronized to Office 365 and cloud resource access is primarily managed by a third-party identity provider (IdP). 
     
