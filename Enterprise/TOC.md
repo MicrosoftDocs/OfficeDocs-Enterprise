@@ -26,8 +26,8 @@
 #### [Network and migration planning for Office 365](network-and-migration-planning.md)
 
 ### Plan for your identities
-#### [Plan for directory synchronization](plan-for-directory-synchronization.md)
-#### [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
+#### [Office 365 identity models](about-office-365-identity.md)
+#### [Hybrid identities](plan-for-directory-synchronization.md)
 
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
