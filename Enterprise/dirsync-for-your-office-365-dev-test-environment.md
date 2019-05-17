@@ -120,8 +120,6 @@ When you are ready to deploy directory synchronization for your organization, se
 
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
 
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-
 [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
