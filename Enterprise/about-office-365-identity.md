@@ -86,7 +86,7 @@ You don’t use the Microsoft 365 admin center or Windows PowerShell to manage s
 
 If you need the cloud-only identity model, see [Cloud-only identities](cloud-only-identities.md).
 
-If you need the hybrid identity model, see [planning for your synchronized identities and authentication methods](plan-for-directory-synchronization.md).
+If you need the hybrid identity model, see [directory synchronization](plan-for-directory-synchronization.md).
   
 
 ## Video training

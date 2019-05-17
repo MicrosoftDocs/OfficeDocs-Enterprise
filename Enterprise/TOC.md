@@ -26,8 +26,8 @@
 #### [Network and migration planning for Office 365](network-and-migration-planning.md)
 
 ### Plan for your identities
-#### [Office 365 identity models](about-office-365-identity.md)
-#### [Hybrid identities](plan-for-directory-synchronization.md)
+#### [Identity models](about-office-365-identity.md)
+#### [Hybrid identity](plan-for-directory-synchronization.md)
 
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
@@ -151,7 +151,7 @@
 ### [Activate rights management](activate-rms-in-office-365.md)
 ### [Configuring release options](https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47)
 
-## [6. Train your users](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)
+## [6. Train your users](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
 
 ## Advanced deployment
 
