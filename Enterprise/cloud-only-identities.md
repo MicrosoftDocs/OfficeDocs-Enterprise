@@ -40,19 +40,19 @@ Take stock of the types of users to your organization. What are the groupings? F
 
 Additionally, some cloud services can be shared with users outside your organization without any user accounts. You'll need to identify these groups of users as well.
 
-You can use groups in Azure AD for several purposes that simplify management of your cloud environment. For example, for Azure AD groups, you can:
+You can use groups in Azure AD for several purposes that simplify management of your cloud environment. For example, with Azure AD groups, you can:
 
 - Use group-based licensing to assign licenses for Office 365 to your user accounts automatically as soon as they are added.
 - Add user accounts to specific groups dynamically based on user account attributes, such as department.
 - Automatically provision users for Software as a Service (SaaS) applications and to protect access to those applications with multi-factor authentication and other conditional access rules.
 - Provision permissions and levels of access for SharePoint Online team sites.
 
-You can create new **users** with:
+You can create new ***users*** with:
 
 - [The Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/add-users/add-users)
 - [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/create-user-accounts-with-office-365-powershell)
 
-You can create new **groups** with:
+You can create new ***groups*** with:
 
 - [The Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/create-groups/create-groups)
 - [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell)
@@ -60,4 +60,4 @@ You can create new **groups** with:
 
 ## Next step for cloud-only identities
 
-See [Assign licenses to user accounts](assign-licenses-to-user-accounts.md).
+[Assign licenses to user accounts](assign-licenses-to-user-accounts.md)

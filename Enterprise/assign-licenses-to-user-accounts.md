@@ -40,7 +40,7 @@ To assign Office 365 licenses to individual user accounts, you can use:
 - [The Microsoft 365 admin center](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
 - [Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
 
-For automatic license assignment, see [What is group-based licensing in Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
+For automatic license assignment, see [group-based licensing in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal).
 
 ## Next steps
 

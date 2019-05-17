@@ -76,3 +76,7 @@ By default, IdFix searches the entire directory. If you want, you can configure 
   
 ## Rolling back your changes by using the IdFix GUI
 Each time you click **Apply** to apply changes, the IdFix tool creates a separate file called a transaction log that lists the changes you just made. You can use the transaction log to roll back just those changes that are in the most recent log in case you make a mistake. If you make a mistake while you are updating, you can undo the most recently applied changes by clicking **Undo**. When you click **Undo**, IdFix uses the transaction log to roll back just those changes that are in the most recent transaction log. For more information about using the transaction log, see [Reference: Office 365 IdFix transaction log](idfix-transaction-log.md).
+
+## Next step
+
+[Set up directory synchronization](set-up-directory-synchronization.md)

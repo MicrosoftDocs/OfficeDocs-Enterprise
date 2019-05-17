@@ -27,16 +27,16 @@ description: "Describes how to prepare to provision users to Office 365 by using
 
 # Prepare for directory synchronization to Office 365
 
-Provisioning users with directory synchronization requires more planning and preparation than simply managing users accounts, groups, and contacts directly in Office 365. The additional planning and preparation tasks are required to ensure that your Active Directory Domain Services (AD DS) synchronizes properly to Azure Active Directory (Azure AD). 
-
-The benefits to your organization include:
+The benefits to hybrid identity and directory synchronization your organization include:
   
 - Reducing the administrative programs in your organization
 - Optionally enabling single sign-on scenario
 - Automating account changes in Office 365
     
 For more information about the advantages of using directory synchronization, see [Directory synchronization roadmap]( https://go.microsoft.com/fwlink/p/?LinkId=525398) and [Hybrid identity for Office 365](plan-for-directory-synchronization.md).
-  
+
+However, directory synchronization requires planning and preparation to ensure that your Active Directory Domain Services (AD DS) synchronizes to the Azure Active Directory (Azure AD) tenant of your Office 365 subscription with a minimum of errors. 
+
 Follow these steps in order for the best results.
   
 ## 1. Directory cleanup tasks

@@ -49,22 +49,19 @@ See [Hybrid identities](plan-for-directory-synchronization.md) for more informat
 
 You get a free Azure AD subscription with your Office 365 subscription. When you set up directory synchronization, you will install Azure AD Connect on one of your on-premises servers.
   
-For Office 365 you will need to:
+For Office 365 you'll need to:
   
 - Verify your on-premises domain. The Azure AD Connect wizard guides you through this.
-- [Assign admin roles in Office 365](https://docs.microsoft.com/office365/admin/add-users/assign-admin-roles) permissions for your Office 365 tenant and AD DS.
+- Obtain the user names and passwords for the admin accounts of your Office 365 tenant and AD DS.
 
-For your on-premises server on which you install Azure AD Connect, you will need:
+For your on-premises server on which you install Azure AD Connect, you'll need:
   
 |**Server OS**|**Other software**|
 |:-----|:-----|
-|**Windows Server 2012 R2** | - PowerShell is installed by default, no action is required.  <br> - Net 4.5.1 and later releases are offered through Windows Update. Make sure you have installed the latest updates to Windows Server in the Control Panel. |
-|**Windows Server 2008 R2 with Service Pack 1 (SP1)** or **Windows Server 2012** | - The latest version of PowerShell is available in Windows Management Framework 4.0. Search for it on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996).  <br> - .Net 4.5.1 and later releases are available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996). |
-|**Windows Server 2008** | - The latest supported version of PowerShell is available in Windows Management Framework 3.0, available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996).  <br> - .Net 4.5.1 and later releases are available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996). |
+|Windows Server 2012 R2 and later | - PowerShell is installed by default, no action is required.  <br> - Net 4.5.1 and later releases are offered through Windows Update. Make sure you have installed the latest updates to Windows Server in the Control Panel. |
+|Windows Server 2008 R2 with Service Pack 1 (SP1)** or Windows Server 2012 | - The latest version of PowerShell is available in Windows Management Framework 4.0. Search for it on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996).  <br> - .Net 4.5.1 and later releases are available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996). |
+|Windows Server 2008 | - The latest supported version of PowerShell is available in Windows Management Framework 3.0, available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996).  <br> - .Net 4.5.1 and later releases are available on [Microsoft Download Center](https://go.microsoft.com/fwlink/p/?LinkId=717996). |
 
-> [!NOTE]
-> With Azure AD Connect, the maximum number of distribution group members that you can synchronize from AD DS is 50,000.
-  
 See [Prerequisites for Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-prerequisites) for the details of hardware, software, account and permissions requirements, SSL certificate requirements, and object limits for Azure AD Connect.
   
 You can also review the Azure AD Connect [version release history](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history) to see what is included and fixed in each release.
@@ -74,7 +71,7 @@ You can also review the Azure AD Connect [version release history](https://docs.
 Before you begin, make sure you have:
 
 - The user name and password of an Office 365 global admin
-- The user name and password of an AD DS domain administration
+- The user name and password of an AD DS domain administrator
 - Which authentication method (PHS, PTA, federated)
 - Whether you want to use [Azure AD Seamless Single Sign-on (SSO)](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)
 
