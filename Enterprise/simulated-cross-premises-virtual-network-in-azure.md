@@ -215,8 +215,6 @@ Use this dev/test environment to simulate a [SharePoint Server 2016 intranet far
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
   
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-  
 [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)

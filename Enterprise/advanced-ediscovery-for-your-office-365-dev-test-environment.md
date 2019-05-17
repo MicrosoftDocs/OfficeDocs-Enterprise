@@ -186,8 +186,6 @@ You can now use this environment to create new content, new searches and cases, 
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
   
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-  
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 
 [Office 365 Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4)

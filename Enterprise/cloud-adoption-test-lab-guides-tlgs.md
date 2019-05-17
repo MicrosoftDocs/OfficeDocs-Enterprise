@@ -57,10 +57,6 @@ For your Office 365 dev/test environment, use these articles to demonstrate ente
     
     Configure and demonstrate federated authentication with the accounts of an Active Directory Domain Services (AD DS) domain.
     
-- [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-    
-    Configure and demonstrate Office 365 Cloud App Security, which lets you create policies that monitor for and inform you of suspicious activities in your Office 365 subscription.
-    
 - [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
     
     Configure and demonstrate Advanced Threat Protection, which is a feature of Exchange Online Protection (EOP) that helps keep malware out of your email.

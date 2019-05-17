@@ -31,7 +31,7 @@
 
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
 ### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
-### [Integrated Apps and Azure AD for Office 365 administrators](integrated-apps-and-azure-ads.md)
+### [Integrated Apps and Azure AD](integrated-apps-and-azure-ads.md)
 
 ### Office 365 integration
 #### [Integration with on-premises](office-365-integration.md)
@@ -79,7 +79,6 @@
 ### [Directory synchronization](dirsync-for-your-office-365-dev-test-environment.md)
 ### [Multi-factor authentication](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
 ### [Federated identity](federated-identity-for-your-office-365-dev-test-environment.md)
-### [Cloud App Security](cloud-app-security-for-your-office-365-dev-test-environment.md)
 ### [Advanced Threat Protection](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
 ### [Advanced eDiscovery](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
 ### [Sensitive file protection](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
@@ -122,21 +121,24 @@
 #### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 
 ## 2. Set up your identities
-### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
-### Use the IdFix tool
-#### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
-#### [Install and run the IdFix tool](install-and-run-idfix.md)
-#### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
-#### [IdFix transaction log](idfix-transaction-log.md)
-### [Set up directory synchronization](set-up-directory-synchronization.md)
 ### [Protect your global administrator accounts](protect-your-global-administrator-accounts.md)
+### [Cloud-only identities](cloud-only-identities.md)
+### Hybrid identities
+#### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
+#### Use the IdFix tool
+##### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
+##### [Install and run the IdFix tool](install-and-run-idfix.md)
+##### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
+##### [IdFix transaction log](idfix-transaction-log.md)
+#### [Set up directory synchronization](set-up-directory-synchronization.md)
+### [Assign licenses to user accounts](assign-licenses-to-user-accounts.md)
 
 ## 3. Deploy client software
 ### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 ### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 
-## [4. Configure device management with Intune](https://docs.microsoft.com/intune/setup-steps)
+## [4. Configure mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 
 ## 5. Configure services and applications
 ### [Get ready](configure-services-and-applications.md)

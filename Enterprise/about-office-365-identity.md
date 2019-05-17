@@ -38,14 +38,14 @@ Here are the two types of identity and their best fit and benefits.
 
 |||
 |:-------|:-----|:-----|
-|  | Cloud-only identity | Hybrid identity |
-| Definition | User account only exists in the Azure Active Directory (Azure AD) tenant for your Microsoft 365 subscription. | User account exists in AD DS and a copy is also in the Azure AD tenant for your Microsoft 365 subscription. The user account in Azure AD might also include a hashed version of the user account password. |
-| How Microsoft 365 authenticates user credentials | The Azure AD tenant for your Microsoft 365 subscription performs the authentication with the cloud identity account. | The Azure AD tenant for your Microsoft 365 subscription either handles the authentication process or redirects the user to another identity provider. |
-| Best for… | Organizations that do not have or need an on-premises AD DS. | Organizations using AD DS or another identity provider. |
-| Greatest benefit | Simple to use. No extra directory tools or servers required. | Users can use the same credentials when accessing on-premises or cloud-based resources. |
+|  | **Cloud-only identity** | **Hybrid identity** |
+| **Definition** | User account only exists in the Azure Active Directory (Azure AD) tenant for your Microsoft 365 subscription. | User account exists in AD DS and a copy is also in the Azure AD tenant for your Microsoft 365 subscription. The user account in Azure AD might also include a hashed version of the user account password. |
+| **How Microsoft 365 authenticates user credentials** | The Azure AD tenant for your Microsoft 365 subscription performs the authentication with the cloud identity account. | The Azure AD tenant for your Microsoft 365 subscription either handles the authentication process or redirects the user to another identity provider. |
+| **Best for** | Organizations that do not have or need an on-premises AD DS. | Organizations using AD DS or another identity provider. |
+| **Greatest benefit** | Simple to use. No extra directory tools or servers required. | Users can use the same credentials when accessing on-premises or cloud-based resources. |
 ||||
 
-### Cloud-only identity
+## Cloud-only identity
 
 A cloud-only identity uses user accounts that exist only in Azure AD. Cloud identity is typically used by small organizations that do not have on-premises servers or do not use AD DS to manage local identities. 
 
@@ -55,7 +55,7 @@ Here are the basic components of cloud-only identity.
 
 Both on-premises and remote (online) users use their Azure AD user accounts and passwords to access Office 365 cloud services. Azure AD authenticates user credentials based on its stored user accounts and passwords.
 
-#### Administration
+### Administration
 Because user accounts are only stored in Azure AD, you manage cloud identities with tools such as the [Microsoft 365 admin center](https://admin.microsoft.com) and Windows PowerShell with the Azure Active Directory PowerShell for Graph module. 
 
 ## Hybrid identity
@@ -76,14 +76,15 @@ The Azure AD tenant has a copy of the AD DS accounts. In this configuration, bot
 >You always need to use Azure AD Connect to synchronize user accounts for hybrid identity. You need the synchronized user accounts in Azure AD to perform license assignment and group management, configure permissions, and other administrative tasks that involve user accounts.
 >
 
-#### Administration
+### Administration
 
 Because the original and authoritative user accounts are stored in the on-premises AD DS, you manage your identities with the same tools as AD DS, such as the Active Directory Users and Computers tool. 
 
 You don’t use the Microsoft 365 admin center or Windows PowerShell to manage synchronized user accounts in Azure AD.
 
-
 ## Next step
+
+If you need the cloud-only identity model, see [Cloud-only identities](cloud-only-identities.md).
 
 If you need the hybrid identity model, see [planning for your synchronized identities and authentication methods](plan-for-directory-synchronization.md).
   
