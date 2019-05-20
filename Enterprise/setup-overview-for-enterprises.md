@@ -36,9 +36,9 @@ To access a series of setup guides, sign in to your Office 365 subscription, and
 
 ## Self-deployment of Office 365 Enterprise
 
-Deploying Office 365 Enterprise on your own requires planning. Before you begin, make sure you've done the research and made the design decisions needed to glide through configuration and adoption. Start your planning [here](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
+Deploying Office 365 Enterprise on your own requires that you perform detailed research to make the design decisions that streamline cloud service configuration and user adoption. Start your planning [here](get-your-organization-ready-for-office-365.md).
 
-If you want to deploy Office 365 on your own, here are the recommended steps.
+To deploy Office 365 Enterprise on your own, here are the recommended steps.
 
 1. Set up your network
 
@@ -56,7 +56,7 @@ If you want to deploy Office 365 on your own, here are the recommended steps.
 
    Includes deploying Office 365 ProPlus, the cloud-updated and always-current version of the Office suite (Word, Excel, PowerPoint, and others) on your devices. Every Office 365 client license includes a license for Office 365 ProPlus. Start [here](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus).
  
-5. Configure mobile device management
+5. Set up mobile device management
 
    Office 365 Enterprise includes mobile device management capabilities that help you secure and manage your users' mobile devices. Start [here](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd).
  

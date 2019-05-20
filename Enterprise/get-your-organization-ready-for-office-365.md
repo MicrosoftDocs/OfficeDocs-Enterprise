@@ -34,9 +34,7 @@ When you move an enterprise organization to Office 365, it's important to plan a
 
 ## Do-it-yourself planning for Office 365
 
-Deploying Office 365 Enterprise on your own requires planning. Before you begin deployment, you must do the research and make the design decisions to set you and your organization up for success.
-
-To plan for Office 365 on your own, consider these areas:
+To plan for Office 365 on your own, determine the correct design decisions for these areas:
 
 - Your Office 365 tenant
 
@@ -52,7 +50,7 @@ To plan for Office 365 on your own, consider these areas:
 
 - Older Office clients and servers
 
-  Includes migration information for Office 2007 and Office 201o client and server products. Start [here](plan-upgrade-previous-versions-office.md).
+  Includes migration information for Office 2007 and Office 2010 client and server products. Start [here](plan-upgrade-previous-versions-office.md).
 
 You can also sign in to your subscription and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
 

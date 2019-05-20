@@ -134,7 +134,7 @@
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 ### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 
-## [5. Configure mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
+## [5. Set up mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 
 ## 6. Configure services and applications
 ### [Get ready](configure-services-and-applications.md)
