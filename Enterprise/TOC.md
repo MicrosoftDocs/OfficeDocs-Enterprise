@@ -14,8 +14,7 @@
 ### [Hybrid cloud scenarios for Azure IaaS](hybrid-cloud-scenarios-for-azure-iaas.md)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
-# Plan for Office 365
-## [Get your organization ready](get-your-organization-ready-for-office-365.md)
+# [Plan for Office 365](get-your-organization-ready-for-office-365.md)
 
 ## Your Office 365 tenant
 ### [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
@@ -85,12 +84,7 @@
 ### [Data classification and labeling](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
-# Deploy Office 365
-
-## Checklists and best practices
-### [Deploy Office 365 Enterprise for your organization](setup-overview-for-enterprises.md)
-### [Deployment planning checklist](deployment-planning-checklist.md)
-### [Office 365 security roadmap](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
+# [Deploy Office 365 Enterprise](setup-overview-for-enterprises.md)
 
 ## 1. Set up your network
 ### [Set up your enterprise network](set-up-network-for-office-365.md)
@@ -133,14 +127,16 @@
 #### [Set up directory synchronization](set-up-directory-synchronization.md)
 ### [Assign licenses to user accounts](assign-licenses-to-user-accounts.md)
 
-## 3. Deploy client software
+## [3. Implement security capabilities](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
+
+## 4. Deploy client software
 ### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 ### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 
-## [4. Configure mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
+## [5. Configure mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 
-## 5. Configure services and applications
+## 6. Configure services and applications
 ### [Get ready](configure-services-and-applications.md)
 ### [Migrate data to Office 365](migrate-data-to-office-365.md)
 ### [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online)
@@ -151,7 +147,7 @@
 ### [Activate rights management](activate-rms-in-office-365.md)
 ### [Configuring release options](https://support.office.com/article/365-3b3adfa4-1777-4ff0-b606-fb8732101f47)
 
-## [6. Train your users](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
+## [7. Train your users](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
 
 ## Advanced deployment
 

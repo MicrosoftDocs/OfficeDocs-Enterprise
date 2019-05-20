@@ -22,7 +22,7 @@ description: "These overview steps are designed to help you set up your network,
 
 Are you ready to deploy Office 365 Enterprise, integrate it with your on-premises infrastructure, and enable your employees to take advantage of cloud-based productivity and collaboration?
 
-This article provides two deployment options, whether you want help or are doing it on your own. In each case, Microsoft provides a guided path for you to follow for deployment success.
+This article describes two deployment options, whether you want help or are doing it on your own. In each case, Microsoft provides a guided path for you to follow for deployment success.
 
 ## Guided enterprise Office 365 setup process with FastTrack
 
@@ -30,11 +30,13 @@ This article provides two deployment options, whether you want help or are doing
 
 To access a series of setup guides, sign in to your Office 365 subscription, and then go to [Setting up Office 365](https://aka.ms/o365fasttrack).
 
-You can also get help from a [Microsoft partner](https://www.microsoft.com/solution-providers/home).
+>[!Note]
+>You can also get help from a [Microsoft partner](https://www.microsoft.com/solution-providers/home).
+>
 
 ## Self-deployment of Office 365 Enterprise
 
-Deploying Office 365 Enterprise on your own requires planning. Before you begin, make sure you've done the planning needed to glide through the configuration and adoption. Start your planning [here](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
+Deploying Office 365 Enterprise on your own requires planning. Before you begin, make sure you've done the research and made the design decisions needed to glide through configuration and adoption. Start your planning [here](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
 
 If you want to deploy Office 365 on your own, here are the recommended steps.
 
@@ -42,9 +44,13 @@ If you want to deploy Office 365 on your own, here are the recommended steps.
 
    Includes adding your Internet domains and optimizing the network performance for your on-premises users. Start [here](set-up-network-for-office-365.md).
  
-3. Set up your identities
+2. Set up your identities
 
    Includes determining an identity model (cloud-only or hybrid), and for hybrid identity, setting up directory synchronization between your on-premises Active Directory Domain Services (AD DS) and your Office 365 subscription. Start [here](protect-your-global-administrator-accounts.md).
+
+3. Implement security capabilities
+
+   Includes configuring and rolling out basic and enhanced security, threat, and information protections for your tenant and identities in the first 30 days, 90 days, and beyond. Start [here](https://docs.microsoft.com/office365/securitycompliance/security-roadmap).
  
 4. Deploy client software
 

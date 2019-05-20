@@ -18,7 +18,7 @@ search.appverid:
 - BCS160
 ms.assetid: 5fa4f6ef-35ad-4840-91c1-4834df3df5a0
 
-description: "This checklist will help your organization as you plan and prepare for a migration to Office 365. The phases and steps in the checklist are aligned with the guidance provided by the Onboarding Center."
+description: "This checklist will help your organization as you plan and prepare for a migration to Office 365."
 ---
 
 # Deployment planning checklist for Office 365
