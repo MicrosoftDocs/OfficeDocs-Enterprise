@@ -3,7 +3,7 @@ title: "Deployment advisors for Office 365 services"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
+ms.date: 05/20/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,28 +17,69 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: "The deployment advisors for Office 365 give you self-guided support for setting up Office 365."
+description: "The deployment advisors for Office 365 provide self-guided support for setting up Office 365."
 ---
 
 # Deployment advisors for Office 365 services
 
-The deployment advisors for Office 365 give you self-guided support for setting up Office 365 for your organization. Just select a setup guide or advisor and sign in to Office 365. 
+The deployment advisors for Office 365 provide self-guided support for setting up Office 365 for your organization. To access them for your Office 365 or Microsoft 365 subscription:
 
-As you select the features and options you want to deploy, the advisor builds a step-by-step setup plan that's customized to your needs. You'll get a full set of instructions, videos, reference articles, and scripts. Some advisors have automation that will change some of your settings, while in other areas of the advisor you change your settings and data with the advisor to guide you. You can use these advisors anytime, even during planning or after you've already set up the services, to learn more about Office 365 features and options.
+1. Sign in as a tenant administrator in the [Microsoft 365 admin center](https://admin.microsoft.com).
+2. Select one of the deployment advisors or guides listed in this article.
+
+>[!Note]
+>If you do not sign in as a tenant admin, you will eventually see a message that you need to have tenant administrator permissions.
+>
+
+Within each advisor, select the features and options you want to deploy. Here is an example.
+
+![](./media/deployment-advisors-for-office-365/m365-deploy-advisor.png)
+
+The advisor builds a step-by-step setup plan that's customized to your needs. Along the way, you'll get a full set of instructions, scripts, and other resources to make the configuration changes.
+
+At the end, you'll get links to videos and reference articles. Here is an example.
+
+![](./media/deployment-advisors-for-office-365/m365-deploy-advisor-done.png)
+
+Some advisors have automation that will change some of your settings, while in other areas of the advisor you change your settings and data, using the advisor to guide you. 
+
+You can use these advisors anytime to learn more about Office 365 features and options. This includes during planning or after you've already set up the services.
   
-## Windows 10 with Office 365
+## Microsoft 365: Windows 10 with Office 365
 
-[Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide)
-  
-Microsoft 365 is a complete, intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security. Microsoft  365 empowers everyone to be creative and work together, securely. Use this advisor to set up Windows 10 devices or upgrade users' computers to Windows 10, with optional deployment of Office apps, Windows Analytics, and Windows Defender Advanced Threat Protection (Microsoft 365 Enterprise E5 plan only).
+Microsoft 365 is a complete, intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security (EMS). Microsoft 365 empowers everyone to be creative and work together, securely. 
+
+Use this advisor to set up Windows 10 devices or upgrade users' computers to Windows 10, with optional deployment of Office apps, Windows Analytics, and Windows Defender Advanced Threat Protection (Microsoft 365 Enterprise E5 plan only).
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide) |
+|||
 
 
-## Mail migration and protection
+<!--
+Run the [Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide).
+-->
 
-### Prepare your environment 
-The [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) is the place to start. Tell us your deployment goals to make sure you add domains, create users, and assign licenses in the proper order. This is especially important if you're planning to migrate email or configure a hybrid deployment. 
+
+## Prepare your Office 365 environment 
+
+You'll need to tell us your deployment goals to make sure you add domains, create users, and assign licenses in the proper order. 
+
+Watch the [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=2043822) video for an overview.
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) |
+|||
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+## Email migration and protection
 
 ### Exchange migration advisor
+
 The [Office 365 mail migration advisor](https://aka.ms/office365setup) will help you move mailboxes from your current mail system to Exchange Online in Office 365 with automated tools and step-by-step guidance. We'll recommend the best migration path for your organization based on your current mail system, the number of mailboxes you want to migrate, and how you plan to manage users and user access.
   
 The [Gmail contacts and calendar assistant](https://aka.ms/gmailcontactscalendar) gives step-by-step instructions for migrating your Gmail contacts and Google Calendar items to Office 365. When you migrate a user's Gmail mailbox to Office 365, email messages are migrated, but contacts and calendar items are not. This guide provides the steps for importing Gmail contacts and Google Calendar items to Office 365.
