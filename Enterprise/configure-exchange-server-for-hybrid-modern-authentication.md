@@ -86,7 +86,6 @@ Take note of (and screenshot for later comparison) the output of this command, w
 $x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000   
 $x.ServicePrincipalnames.Add("https://mail.corp.contoso.com/")
 $x.ServicePrincipalnames.Add("https://owa.contoso.com/")
-$x.ServicePrincipalnames.Add("https://eas.contoso.com/")
 Set-MSOLServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $x.ServicePrincipalNames
 ```
  
