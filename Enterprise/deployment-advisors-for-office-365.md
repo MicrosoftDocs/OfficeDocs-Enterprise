@@ -17,10 +17,56 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: "The deployment advisors for Office 365 provide self-guided support for setting up Office 365."
+description: "The deployment advisors for Office 365 provide self-guided support for setting up Office 365 or Microsoft 365."
 ---
 
-# Deployment advisors for Office 365 services
+# Deployment advisors for Office 365 or Microsoft 365 services
+
+The deployment advisors for Office 365 or Microsoft 365 provide self-guided support for setting up Office 365 for your organization. To access them:
+
+1. Sign in as a tenant administrator in the [Microsoft 365 admin center](https://admin.microsoft.com).
+2. Select one of the deployment advisors or guides listed below.
+
+If you don't sign in as a tenant admin, you will eventually see a message that you need to have tenant administrator permissions.
+
+Each advisor is a wizard that guides you through your choices for the features and options you want to deploy. In some cases, you can use the wizard to activate a setting. Here is an example.
+
+FIGURE1
+
+The advisor steps you through decisions for customization to your needs. Along the way, you'll get instructions, scripts, and other resources to make the configuration changes.
+
+At the end, you'll get links to videos and reference articles. Here is an example.
+
+FIGURE2
+
+You can use these advisors anytime to learn more about Office 365 features and options. This includes during planning or after you've already set up the services.
+  
+## Microsoft 365: Windows 10 with Office 365
+
+Microsoft 365 is a complete, intelligent solution that includes Office 365, Windows 10, and Enterprise Mobility + Security (EMS). Microsoft 365 empowers everyone to be creative and work together, securely. 
+
+Use this advisor to set up Windows 10 devices or upgrade users' computers to Windows 10, with optional deployment of Office apps, Windows Analytics, and Windows Defender Advanced Threat Protection (Microsoft 365 Enterprise E5 plan only).
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide) |
+|||
+
+## Prepare your Office 365 environment 
+
+You'll need to tell us your deployment goals to make sure you add domains, create users, and assign licenses in the proper order. 
+
+Watch the [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=2043822) video for an overview.
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) |
+|||
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+OLD SECTION
 
 The deployment advisors for Office 365 provide self-guided support for setting up Office 365 for your organization. To access them for your Office 365 or Microsoft 365 subscription:
 
@@ -72,6 +118,8 @@ Watch the [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=204
 |:-------|:-----|
 | **Action:** | Run the [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) |
 |||
+
+
 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
