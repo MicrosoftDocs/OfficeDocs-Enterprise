@@ -394,7 +394,16 @@
 
         "redirect_document_id": false
 
-      }
+      },
+      {
+
+        "source_path": "enterprise/using-content-delivery-networks-with-sharepoint-online.md",
+
+        "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo",
+
+        "redirect_document_id": true
+        
+     }
 
   ]
 
