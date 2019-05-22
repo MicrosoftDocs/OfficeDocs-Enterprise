@@ -4,7 +4,6 @@ ms.author: tracyp
 ms.reviewer: smithre4
 author: MSFTTracyP
 manager: laurawi
-ms.date:
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
