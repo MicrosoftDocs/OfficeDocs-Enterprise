@@ -24,7 +24,7 @@ Modern Authentication is a method of identity management that offers more secure
     
 - [Check the Modern Authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
     
-- [Do you meet Modern Authentication prerequisites?](hybrid-modern-auth-overview.md#BKMK_MeetPrereq)
+- [Do you meet Modern Authentication prerequisites?](#do-you-meet-modern-authentication-prerequisites)
     
 - [What else do I need to know before I begin?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
     
