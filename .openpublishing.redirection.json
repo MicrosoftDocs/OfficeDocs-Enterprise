@@ -403,8 +403,16 @@
 
         "redirect_document_id": true
         
-     }
+     },
+     {
 
+       "source_path": "Enterprise/using-azure-ad-for-SharePoint-Server-authentication.md",
+
+       "redirect_url": "https://docs.microsoft.com/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial",
+
+       "redirect_document_id": false
+       
+    }
   ]
 
 }
