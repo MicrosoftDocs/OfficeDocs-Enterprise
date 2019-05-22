@@ -37,7 +37,7 @@ When talking about communication between a client (for example, your laptop or y
   
 Modern authentication is an umbrella term for a combination of authentication and authorization methods, as well as some security measures that rely on access policies that you may already be familiar with. It includes:
   
-- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication; and the Active Directory Authentication Library ( [ADAL](https://technet.microsoft.com/en-us/library/mt710548.aspx)).
+- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication.
     
 - **Authorization methods**: Microsoft's implementation of Open Authorization (OAuth). 
     
