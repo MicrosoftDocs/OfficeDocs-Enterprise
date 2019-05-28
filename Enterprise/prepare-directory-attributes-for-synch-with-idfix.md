@@ -22,6 +22,7 @@ description: "Provides instructions on using IdFix to prepare and clean up your 
 This topic contains detailed instructions about running the IdFix tool, some common errors you may encounter, suggested fixes, examples, and best practices for what to do if you have a large number of errors.
   
 ## Fixing errors in your directory by using the IdFix GUI
+
 [Run the Office 365 IdFix tool](install-and-run-idfix.md) to search for problems in your directory and then fix the errors in the GUI as described in this topic. If a blank table is returned by the tool, then no errors were discovered. If there are a lot of problems in your directory, it can be overwhelming when the tool returns the errors. One way to tackle this is to fix all errors of one type first and then move on to the next type. 
   
 1. Before you start making changes, take a look at the recommendations presented by IdFix.
