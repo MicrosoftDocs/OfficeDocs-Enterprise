@@ -64,17 +64,17 @@ If you aren't sure if your user account meets these requirements, and you're not
 
 Follow these instructions. 
   
-1. Log on to the computer where you want to run the IdFix tool.
+1. Sign in to the computer where you want to run the IdFix tool.
     
 2. Go to the Microsoft download site for the [IdFix DirSync Error Remediation Tool](https://go.microsoft.com/fwlink/?linkid=867219).
     
-3. Choose **Download**.
+3. Download and open the zip file.
     
-4. When prompted, choose **Run**.
+3. In the **IdFix** window, choose **Extract**, and then **Extract all**. By default, IdFix is extracted to `C:\Users\<your user name>\Documents\IdFix`. 
     
-5. On the **WinZip Self-Extractor** dialog box, in the **Unzip to folder** text box, type or browse to the location where you want to extract the IdFix tool. By default, IdFix is extracted to `C:\Deployment Tools\`. 
-    
-6. Choose **Unzip**.
+6. Choose **Extract**.
+
+These instructions were done with Internet Explorer on a server running Windows Server 2016. If you're using a different version of Windows or a different browser, your steps might vary.
     
 ## Run the IdFix tool
 
@@ -82,11 +82,9 @@ After you download and extract IdFix, run it to search for problems in your AD D
   
 1. Using an account that has read/write access to your AD DS domain, sign in to the computer where you downloaded IdFix.
     
-2. In File Explorer, go to the location where you extracted IdFix. If you chose the default folder during extraction, go to `C:\Deployment Tools\IdFix`.
+2. In File Explorer, go to the location where you extracted IdFix. If you chose the default folder during extraction, go to `C:\Users\<your user name>\Documents\IdFix`. 
     
 3. Double-click **IdFix.exe**. 
-    
-    ![Choose the IdFix.exe file.](media/a9387bbc-991f-41c2-a500-45e3ce574285.JPG)
   
 4. By default, IdFix uses the Multi-Tenant rule set to test the entries in your directory. This is the right rule set for most Office 365 customers. However, if you are an Office 365 Dedicated or International Traffic in Arms Regulations (ITAR)) customer, you can configure IdFix to use the Dedicated rule set instead. If you aren't sure what type of customer you are, you can safely skip this step. To set the rule set to Dedicated, click the gear icon in the menu bar, and then choose **Dedicated**.
     
@@ -97,8 +95,6 @@ After you download and extract IdFix, run it to search for problems in your AD D
 6. By default, IdFix searches the entire directory for errors.
     
     Depending on the size of your directory, running the query can take a while. You can watch the progress at the bottom of the tool's main window. If you click **Cancel**, you'll need to restart from the beginning.
-    
-    ![IdFix query and error count.](media/da0198a0-7d4d-4afe-a256-e82f1330ada5.JPG)
   
 7. After IdFix completes the query, you can synchronize your directory if there are no errors. If there are errors in your directory, it is recommended that you fix them before you synchronize. See [prepare directory attributes for synchronization with Office 365](prepare-directory-attributes-for-synch-with-idfix.md) for more information.
     
@@ -110,7 +106,7 @@ After you download and extract IdFix, run it to search for problems in your AD D
     
     You don't have to click **Apply** after each update. Instead, you can fix several errors before you click **Apply** and IdFix will change them all at the same time. You can sort the errors by error type by clicking **ERROR** at the top of the column that lists the error types. 
     
-    One strategy is to fix all the errors of the same type; for example, fix all the duplicates first, and apply them. Next, fix the character format errors, and so on. Each time you apply the changes, the IdFix tool creates a separate log file that you can use to undo your changes in case you make a mistake. The [transaction log](idfix-transaction-log.md) is stored in the folder where you extracted IdFix, which is _C:\Deployment Tools\IdFix_ by default. 
+    One strategy is to fix all the errors of the same type; for example, fix all the duplicates first, and apply them. Next, fix the character format errors, and so on. Each time you apply the changes, the IdFix tool creates a separate log file that you can use to undo your changes in case you make a mistake. The [transaction log](idfix-transaction-log.md) is stored in the folder where you extracted IdFix, which is _C:\Users\<your user name>\Documents\IdFix_ by default. 
     
     ![Remediating errors in IdFix.](media/5f051070-652c-4be7-98bf-312295e32371.png)
   
