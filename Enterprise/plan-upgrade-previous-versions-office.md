@@ -1,7 +1,7 @@
 ---
 title: "Plan your upgrade from Office 2007 or 2010 servers and clients"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/12/2019
 audience: ITPro
