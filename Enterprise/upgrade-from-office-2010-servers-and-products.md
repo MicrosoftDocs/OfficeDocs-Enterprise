@@ -25,10 +25,7 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
-If you're using Office 2010 products and services, you're probably aware that Office 2010 products and services will reach their end of support on **October 13, 2020**. While you're planning your upgrade, this is a great time to consider moving to Office 365. Office 365 has:
-
-- Cloud-based services for Office 2010 server products such as Exchange Server and SharePoint Server and new services such as Teams and OneDrive for Business.
-- Office 365 ProPlus, the version of Office 2010 client apps that you install on your local device and are updated with new productivity and security features.
+If you're using Office 2010 products and services, you're probably aware that Office 2010 products and services will reach their end of support on **October 13, 2020**. While you're planning your upgrade, this is a great time to consider moving to Office 365. Office 365 has cloud-based services for Office 2010 server products such as Exchange Server and SharePoint Server and new services such as Teams and OneDrive for Business. Office 365 ProPlus is the Office 2010 client apps that you install on your local device and are updated with new productivity and security features on an ongoign basis from the Microsoft cloud. Office 365 ProPlus is included with Office 365 E3 and E5.
 
 Use this article as a starting point to review your options.
       
