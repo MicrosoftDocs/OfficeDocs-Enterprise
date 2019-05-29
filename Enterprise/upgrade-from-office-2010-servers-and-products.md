@@ -1,7 +1,7 @@
 ---
 title: "Resources to help you upgrade from Office 2010 servers and clients"
 ms.author: josephd
-author: josephd-msft
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 05/28/2019
 audience: ITPro
