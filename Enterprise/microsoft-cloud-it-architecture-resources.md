@@ -34,6 +34,7 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Microsoft cloud networking for enterprise architects](microsoft-cloud-it-architecture-resources.md#networking)
     - [Microsoft hybrid cloud for enterprise architects](microsoft-cloud-it-architecture-resources.md#hybrid)
     - [Common attacks and Microsoft capabilities that protect your organization](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
+    - [Microsoft 365 Enterprise Foundation Infrastructure](#m365foundationinfra)
     
 - **[Microsoft 365 enterprise solution series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
     - [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)
@@ -45,8 +46,6 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Microsoft Telephony Solutions](#microsoft-telephony-solutions) 
     - [Deploy a modern and secure desktop with Microsoft](microsoft-cloud-it-architecture-resources.md#msd)
     
-
-  
 Let us know what you think! Send us email at [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com). 
 
 <!--
