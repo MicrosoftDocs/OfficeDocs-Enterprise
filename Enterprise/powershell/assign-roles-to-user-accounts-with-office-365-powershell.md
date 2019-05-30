@@ -74,13 +74,13 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
   
 ### For a single role change
 
-The most common ways of specific user account is with its display name or its email name, also known its user principal name (UPN).
+The most common ways of specific user account is with its display name or its email name, also known its sign-in name user principal name (UPN).
 
 #### Display names of user accounts
 
 If you are used to working with the display names of user accounts, determine the following:
   
-1. The user account that you want to configure.
+- The user account that you want to configure.
     
     To specify the user account, you must determine its Display Name. To get a complete list accounts, use this command:
     
@@ -96,7 +96,7 @@ If you are used to working with the display names of user accounts, determine th
 
     This command lists only the user accounts for which the Display Name starts with "John".
     
-2. The role you want to assign.
+- The role you want to assign.
     
     To display the list of available roles that you can assign to user accounts, use this command:
     
@@ -122,11 +122,11 @@ $roleName="SharePoint Service Administrator"
 Add-MsolRoleMember -RoleMemberEmailAddress (Get-MsolUser -All | Where DisplayName -eq $dispName).UserPrincipalName -RoleName $roleName
 ```
 
-#### Email names of user accounts
+#### Sign-in names of user accounts
 
-If you are used to working with the email names (UPNs) of user accounts, determine the following:
+If you are used to working with the sign-in names or UPNs of user accounts, determine the following:
   
-1. The user account's UPN.
+- The user account's UPN.
     
     If you don't already know the UPN, use this command:
     
@@ -142,7 +142,7 @@ If you are used to working with the email names (UPNs) of user accounts, determi
 
     This command lists only the user accounts for which the Display Name starts with "John".
     
-2. The role you want to assign.
+- The role you want to assign.
     
     To display the list of available roles that you can assign to user accounts, use this command:
     
