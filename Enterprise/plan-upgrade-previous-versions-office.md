@@ -3,7 +3,7 @@ title: "Plan your upgrade from Office 2007 or 2010 servers and clients"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/12/2019
+ms.date: 06/03/2019
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -63,11 +63,15 @@ If you're using Office 2007 or Office 2010 at home, consider the following optio
 
 - **Use Office Online for free**. Create, view, and edit Office files in your browser, and have access to those files from just about any device with internet access. [Office Online](https://products.office.com/office-online/documents-spreadsheets-presentations-office-online) includes [Word Online](http://go.microsoft.com/fwlink/p/?linkid=746664), [Excel Online](http://go.microsoft.com/fwlink/p/?linkid=746665), [PowerPoint Online](http://go.microsoft.com/fwlink/p/?linkid=746666), [OneNote Online](http://go.microsoft.com/fwlink/p/?linkid=746674), [Sway](http://go.microsoft.com/fwlink/p/?linkid=746675), [Email](http://go.microsoft.com/fwlink/p/?linkid=746676), [Calendar](http://go.microsoft.com/fwlink/p/?linkid=746678), and [OneDrive](http://go.microsoft.com/fwlink/p/?linkid=746679). To get started, visit [office.com](https://office.com) and sign in using your [Microsoft account](https://account.microsoft.com/account). (If you don't have a Microsoft account, you can create one at [office.com](https://office.com).)
 
-- **Try Office 365 for home use**. Review the [requirements](https://www.microsoft.com/p/office-365-home/cfq7ttc0k5dm?rtc=1&activetab=pivot:techspecstab), and then choose between [Office 365 Home](https://www.microsoft.com/p/office-365-home/cfq7ttc0k5dm) or [Office 365 Personal](https://www.microsoft.com/p/office-365-personal/cfq7ttc0k5bf). Start a trial, and see how Office 365 works for you. With Office 365, you'll enjoy cloud storage with OneDrive, you'll get 60 minutes of Skype calls to mobile and landline numbers each month, and you'll get many other great features. To learn more, see [Get the most from Office with Office 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1).
+- **Try Office 365 for home use**. Review the [requirements](https://www.microsoft.com/p/office-365-home/cfq7ttc0k5dm?rtc=1&activetab=pivot:techspecstab), and then choose between [Office 365 Home](https://www.microsoft.com/p/office-365-home/cfq7ttc0k5dm) or [Office 365 Personal](https://www.microsoft.com/p/office-365-personal/cfq7ttc0k5bf). Start a trial and see how Office 365 works for you. With Office 365, you'll enjoy cloud storage with OneDrive, get 60 minutes of Skype calls to mobile and landline numbers each month, and many other great features. To learn more, see [Get the most from Office with Office 365](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab%3aprimaryr1). 
+
+   With the [end of support for Windows 7 on January 14, 2020](https://www.microsoft.com/windowsforbusiness/end-of-windows-7-support), the versions of Word, Excel, PowerPoint, Outlook, Publisher and Access provided with Office 365 Home or Office 365 Personal running on Windows 7 devices will receive security updates, but no feature updates. To continue receiving feature updates for these applications, upgrade your Windows 7 devices to Windows 10.
     
 - **Purchase Office Home &amp; Student**. If you choose this option, you'll make a one-time purchase and then install Office on your Windows PC or Mac. This isn't a subscription; it's a one-time, perpetual use license for one computer. View the [requirements](http://office.com/systemrequirements), and then choose the version you want to use.
     - If your Windows PC is running Windows 10, consider getting [Office Home & Student 2019](https://www.microsoft.com/p/office-home-student-2019/cfq7ttc0k7c8).
-    - If your Windows PC is running Windows 7, 8, or 8.1 and you are not upgrading to Windows 10 at this time, consider getting Office Home & Student 2016 (or another edition of Microsoft Office) from an authorized reseller.
+    - If your Windows PC is running Windows 7, 8, or 8.1 and you are not upgrading to Windows 10 at this time, consider getting Office Home & Student 2016 (or another edition of Microsoft Office) from an authorized reseller. 
+     
+      Support for Windows 7 is [ending on January 14, 2020](https://www.microsoft.com/windowsforbusiness/end-of-windows-7-support), after which Microsoft will not be providing security updates or support. Upgrade your Windows 7 devices to Windows 10 for continued security and feature updates and ongoing support.
 
 You can also choose not to upgrade at this time. Your Office apps will continue to run. (Timelines for Office support dates are available [here](https://go.microsoft.com/fwlink/p/?linkid=2085724).) However, upgrading will give you access to new and improved features, including security updates. 
    
