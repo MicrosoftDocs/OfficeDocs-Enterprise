@@ -242,43 +242,21 @@ You can approach optimization as an incremental process, applying each method su
 |Enable direct connection for VPN users  <br/> |For VPN users, enable Office 365 connections to connect directly from the user's network rather than over the VPN tunnel by implementing split tunneling.  <br/> | Minimize latency  <br/>  Improve reliable connectivity to the closest Office 365 entry point  <br/> |
 |Migrate from traditional WAN to SD-WAN  <br/> |SD-WANs (Software Defined Wide Area Networks) simplify WAN management and improve performance by replacing traditional WAN routers with virtual appliances, similar to the virtualization of compute resources using virtual machines (VMs).  <br/> | Improve performance and manageability of WAN traffic  <br/>  Reduce load on network devices  <br/> |
 
-## The Office 365 Network Onboarding tool
-
-You can use the [Office 365 Network Onboarding tool](https://aka.ms/netonboard), a new proof of concept (POC) tool, to run basic connectivity tests that provide specific guidance about networking connectivity improvements that can be made between a given user location and Office 365.
-
-The Network Onboarding tool does the following:
-
-- Detects your location, or you can specify a location to test
-- Checks the location of your network egress
-- Tests the network path to the nearest Office 365 service front door
-
-The tool displays the following information:
-
-- Results and impact tab
-  - The location on a map of the in-use service front door
-  - The location on a map of other service front doors that would provide optimal connectivity
-  - Relative performance compared to other Office 365 customers near you
-- Details and solutions tab
-  - User location by city and country
-  - Network egress location by city, state and country
-  - User to network egress distance
-  - Office 365 Exchange Online service front door location
-  - Optimal Office 365 Exchange Online service front door(s) for user location
-  - Customers in your metro area with better performance
-
-You can read about the Office 365 Network Onboarding tool release and provide feedback at the [Office 365 Network Performance tool POC release](https://techcommunity.microsoft.com/t5/Office-365-Networking/Office-365-Network-Performance-tool-POC-release/m-p/319579#M102) blog post. Information about future updates to this tool and other Office 365 networking updates will be posted to the [Office 365 Networking](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking) blog.
-
 ## Related Topics
 
 [Office 365 Network Connectivity Overview](office-365-networking-overview.md)
 
 [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 
+[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
 [Network connectivity to Office 365](network-connectivity.md)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
+
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 
