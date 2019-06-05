@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/30/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -36,7 +36,7 @@ For each layer of the architecture:
     
 - Identity
     
-    Add identity servers, such as Windows Server AD domain controllers, to the set of servers running in Azure VNets for local authentication.
+    Add identity servers, such as Active Directory Domain Services (AD DS) domain controllers, to the set of servers running in Azure VNets for local authentication.
     
 - Network
     
@@ -54,13 +54,13 @@ Running your directory synchronization server from an Azure VNet, as shown in Fi
 
 ![Directory synchronization server for Office 365 in Azure IaaS](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-DirSync.png)
   
-In Figure 2, an on-premises network hosts a Windows Server AD infrastructure, with a proxy server and a router at its edge. The router connects to an Azure gateway at the edge of an Azure VNet with a site-to-site VPN or ExpressRoute connection. Inside the VNet, a directory synchronization server runs Azure AD Connect.
+In Figure 2, an on-premises network hosts a AD DS infrastructure, with a proxy server and a router at its edge. The router connects to an Azure gateway at the edge of an Azure VNet with a site-to-site VPN or ExpressRoute connection. Inside the VNet, a directory synchronization server runs Azure AD Connect.
   
-A directory synchronization server for Office 365 synchronizes the list of accounts in Windows Server AD with the Azure AD tenant of an Office 365 subscription.
+A directory synchronization server for Office 365 synchronizes the list of accounts in AD DS with the Azure AD tenant of an Office 365 subscription.
   
 A directory synchronization server is a Windows-based server that runs Azure AD Connect. For faster provisioning or to reduce the number of on-premises servers in your organization, deploy your directory synchronization server in a virtual network (VNet) in Azure IaaS.
   
-The directory synchronization server polls Windows Server AD for changes and then synchronizes them with the Office 365 subscription.
+The directory synchronization server polls AD DS for changes and then synchronizes them with the Office 365 subscription.
   
 For more information, see [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md).
   
@@ -158,7 +158,7 @@ In Figure 5, an on-premises network hosts an identity infrastructure and users. 
   
 This configuration has the following attributes of LOB applications in Azure:
   
-- **Tiers:** There are tiers for web proxy servers, AD FS servers, and Windows Server AD domain controllers.
+- **Tiers:** There are tiers for web proxy servers, AD FS servers, and AD DS domain controllers.
     
 - **Load distribution:** An external Azure load balancer distributes the incoming client authentication requests to the web proxies and an internal Azure load balancer distributes authentication requests to the AD FS servers.
     

@@ -3,7 +3,7 @@ title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/2/2019
+ms.date: 5/14/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -20,6 +20,11 @@ description: "Describes how to use the Office 365 Content Delivery Network (CDN)
 # Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 
 You can use the built-in Office 365 Content Delivery Network (CDN) to host static assets to provide better performance for your SharePoint Online pages. The Office 365 CDN improves performance by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. Also, the Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and HTTP pipelining. The Office 365 CDN service is included as part of your SharePoint Online subscription.
+
+> [!NOTE]
+> Restrictions for use of the Office 365 CDN:
+> + The Office 365 CDN is only available to tenants in the **Production** (worldwide) cloud. Tenants in the US Government, China and Germany clouds do not currently support the Office 365 CDN.
+> + The Office 365 CDN does not currently support tenants configured with custom or "vanity" domains. If you have added a domain to your tenant using the instructions in the topic [Add a domain to Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain?view=o365-worldwide), the Office 365 CDN will return errors when you try to access content from the CDN.
 
 The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host in the Office 365 CDN, you can add **public** origins, **private** origins or both. See [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate) for more information on the difference between public and private origins.
 
@@ -283,7 +288,7 @@ Use the **Add-SPOTenantCdnOrigin** cmdlet to define an origin. You can define mu
 Add-SPOTenantCdnOrigin -CdnType <Public | Private> -OriginUrl <path>
 ```
 
-The value of _path_ is the path to the library or folder that contains the assets. You can use wildcards in addition to relative paths. Origins support wildcards prepended to the URL. This allows you to create origins that span multiple sites. For example, to include all of the assets in the masterpages folder for all of your sites as a public origin within the CDN, type the following command:
+The value of _path_ is the relative path to the library or folder that contains the assets. You can use wildcards in addition to relative paths. Origins support wildcards prepended to the URL. This allows you to create origins that span multiple sites. For example, to include all of the assets in the masterpages folder for all of your sites as a public origin within the CDN, type the following command:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
@@ -292,18 +297,28 @@ Add-SPOTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 - The wildcard modifier ***/** can only be used at the beginning of the path, and will match all URL segments under the specified URL.
 - The path can point to a document library, folder or site. For example, the path _*/site1_ will match all the document libraries under the site.
 
-You can add an origin with a specific path using either a relative path or a full path.
+You can add an origin with a specific relative path. You cannot add an origin using the full path.
 
-This example adds a private origin of the siteassets library on a specific site using a relative path:
+This example adds a private origin of the siteassets library on a specific site:
 
 ``` powershell
 Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
-This example adds a private origin of the _folder1_ folder in the site collection's site assets library using the full path:
+This example adds a private origin of the _folder1_ folder in the site collection's site assets library:
 
 ``` powershell
-Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl “https://contoso.sharepoint.com/sites/test/siteassets/folder1”
+Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder1
+```
+
+If there is a space in the path, you can either surround the path in double quotes or replace the space with the URL encoding %20. The following examples add a private origin of the _folder 1_ folder in the site collection's site assets library:
+
+``` powershell
+Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder%201
+```
+
+``` powershell
+Add-SPOTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder 1"
 ```
 
 For more information about this command and its syntax, see [Add-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790772.aspx).
@@ -464,7 +479,7 @@ See [Default CDN origins](use-office-365-cdn-with-spo.md#default-cdn-origins) fo
 
 ### Add an Office 365 CDN origin
 
-> [!NOTE]
+> [!IMPORTANT]
 > You should never place resources that are considered sensitive to your organization in a SharePoint document library configured as a public origin.
 
 Use the [spo cdn origin add](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn-origin-add/) command to define a CDN origin. You can define multiple origins. The origin is a URL that points to a SharePoint library or folder that contains the assets that you want to be hosted by the CDN.
@@ -473,7 +488,7 @@ Use the [spo cdn origin add](https://pnp.github.io/office365-cli/cmd/spo/cdn/cdn
 spo cdn origin add --type [Public | Private] --origin <path>
 ```
 
-Where `path` is the path to the folder that contains the assets. You can use wildcards in addition to relative paths.
+Where `path` is the relative path to the folder that contains the assets. You can use wildcards in addition to relative paths.
 
 To include all assets in the **Master Page Gallery** of all sites as a public origin, execute:
 

@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 03/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -99,7 +99,7 @@ If you do not already have an Azure subscription, you can sign up for a free tri
 ![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ### Step 1: Create the virtual network
 
@@ -158,6 +158,7 @@ New-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $l
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name TestLab
 $nsg=Get-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 This is your current configuration.
@@ -394,7 +395,7 @@ This is your final configuration.
 Your Base Configuration in Azure is now ready for application development and testing or for building additional test environments. 
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the Office 365 Test Lab Guide stack.
   
 <a name="mincost"> </a>
 ## Minimizing the costs of test environment virtual machines in Azure
@@ -433,6 +434,5 @@ Start-AzVM -ResourceGroupName $rgName -Name "CLIENT1"
 
 - [Office 365 dev/test environment](office-365-dev-test-environment.md)
 - [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-- [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
 - [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
 - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)

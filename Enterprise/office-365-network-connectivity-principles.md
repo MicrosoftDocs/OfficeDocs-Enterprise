@@ -3,7 +3,7 @@ title: "Office 365 Network Connectivity Principles"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/2/2019
+ms.date: 6/5/2019
 ms.audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -169,7 +169,7 @@ In the new model, endpoints are segregated into three categories, **Optimize**, 
 
     Network optimizations for  *Allow*  endpoints can improve the Office 365 user experience, but some customers may choose to scope those optimizations more narrowly to minimize changes to their network.
 
-    Examples of  *Allow*  endpoints include  *https://\*.protection.outlook.com*  and  *https://accounts.accesscontrol.windows.net*.
+    Examples of *Allow* endpoints include *https://\*.protection.outlook.com* and *https://accounts.accesscontrol.windows.net*.
 
     Optimization methods include:
 
@@ -197,8 +197,8 @@ Microsoft offers a wide range of Office 365 security features and provides presc
 - **Use multi-factor authentication (MFA)**
     MFA adds an additional layer of protection to a strong password strategy by requiring users to acknowledge a phone call, text message, or an app notification on their smart phone after correctly entering their password.
 
-- **Use Office 365 Cloud App Security**
-    Set up policies to track anomalous activity and act on it. Set up alerts with Office 365 Cloud App Security so that admins can review unusual or risky user activity, such as downloading large amounts of data, multiple failed sign-in attempts, or connections from a unknown or dangerous IP addresses.
+- **Use Microsoft Cloud App Security**
+    Set up policies to track anomalous activity and act on it. Set up alerts with Microsoft Cloud App Security so that admins can review unusual or risky user activity, such as downloading large amounts of data, multiple failed sign-in attempts, or connections from a unknown or dangerous IP addresses.
 
 - **Configure Data Loss Prevention (DLP)**
     DLP allows you to identify sensitive data and create policies that help prevent your users from accidentally or intentionally sharing the data. DLP works across Office 365 including Exchange Online, SharePoint Online, and OneDrive so that your users can stay compliant without interrupting their workflow.

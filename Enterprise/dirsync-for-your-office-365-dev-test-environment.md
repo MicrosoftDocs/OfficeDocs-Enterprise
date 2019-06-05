@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 05/18/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -39,7 +39,7 @@ There are two phases to setting up this dev/test environment:
 2. Install and configure Azure AD Connect on APP1.
     
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Create an Office 365 dev/test environment
 
@@ -119,8 +119,6 @@ When you are ready to deploy directory synchronization for your organization, se
 [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
 
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
-
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
 
 [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
 

@@ -1,10 +1,10 @@
 ---
 title: "Capacity planning and load testing SharePoint Online"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/14/2019
-ms.audience: Admin
+ms.date: 04/10/2019
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -39,7 +39,7 @@ A few key factors should be considered:
 - Any pages / features / customizations used for Cloud consumption should be optimized for multiple locations so users in different areas or regions have a consistent experience. Cloud offers optimizations like Content Delivery Networks (CDN) to optimize for a distributed user base.
 
 For Classic publishing pages in SharePoint Online you can use the [Page Diagnostics tool](https://aka.ms/perftool) Chrome extension which will assist with analyzing the main landing pages used by users.
-F12 developer tools in the browser or [Fiddler](https://www.telerik.com/download/fiddler) can be used to review the weight of the page and the number of calls and elements impacting the overall page load should be reviewed and optimized. A list of recommendations including using Content Delivery Networks and other optimizations can be reviewed in the [Tune SharePoint Online Performance](https://aka.ms/spoperformance) article.
+F12 developer tools in the browser or [Fiddler](https://www.telerik.com/download/fiddler) can be used to review the weight of the page and the number of calls and elements impacting the overall page load should be reviewed and optimized. A list of recommendations including using Content Delivery Networks and other optimizations can be reviewed in the [Tune SharePoint Online Performance](https://aka.ms/tuneSPO) article.
 
 ### Wave / Phase approach
 The traditional big bang approach for site launches don't effectively allow verification that customizations, external sources, services or processes have been tested at the right scale. SharePoint as a service also scales your capacity based on usage and predicted usage and whilst we don't need you to notify of your site launch, you should follow the guidelines below to ensure success.
