@@ -563,7 +563,7 @@ You can use this module to create a Proxy PAC file. In this example you first ge
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
   

@@ -252,7 +252,7 @@ You can approach optimization as an incremental process, applying each method su
 
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
 

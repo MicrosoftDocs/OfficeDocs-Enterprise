@@ -95,7 +95,7 @@ Optimizing Office 365 network performance really comes down to removing unnecess
 
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
 
