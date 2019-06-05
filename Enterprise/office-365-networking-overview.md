@@ -91,17 +91,23 @@ Optimizing Office 365 network performance really comes down to removing unnecess
 
 [Managing Office 365 endpoints](managing-office-365-endpoints.md)
 
+[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
 [Network connectivity to Office 365](network-connectivity.md)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
 
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+
 [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
 
 [Content Delivery Networks](content-delivery-networks.md)
+
+[Office 365 Network Onboarding tool](https://aka.ms/netonboard)
 
 [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 
