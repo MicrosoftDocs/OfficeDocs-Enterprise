@@ -33,7 +33,7 @@ See these articles for an overview of connectivity for Office 365:
 
 - [Office 365 networking connectivity overview](office-365-networking-overview.md)
 - [Office 365 network connectivity principles](office-365-network-connectivity-principles.md)
-- [Network connectivity to Office 365](network-connectivity.md)
+- [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 For advice on enhancing performance, see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
 
