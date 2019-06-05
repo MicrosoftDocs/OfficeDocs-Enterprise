@@ -125,4 +125,4 @@ Here's a short link you can use to come back: [https://aka.ms/o365clientconnecti
 
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
   
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
