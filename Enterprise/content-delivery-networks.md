@@ -182,7 +182,7 @@ Here's a short link you can use to come back: [https://aka.ms/o365cdns](https://
 
 [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples)
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 [Managing Office 365 endpoints](https://docs.microsoft.com/en-us/office365/enterprise/managing-office-365-endpoints)
 

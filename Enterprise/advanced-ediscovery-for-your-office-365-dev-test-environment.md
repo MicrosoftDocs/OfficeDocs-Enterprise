@@ -90,11 +90,11 @@ In this procedure, you create two Word documents that will you will later analyz
     
 3. On the **Production site collection** tab, under **Documents**, click **New > Word Document**.
     
-4. On the **Word Online** page, type **Tailspin draft contract**, wait until it displays **Saved** in the title, and then close the **Word Online** page tab.
+4. On the **Word** page, type **Tailspin draft contract**, wait until it displays **Saved** in the title, and then close the **Word** page tab.
     
 5. On the **Production site collection** tab, under **Documents**, click **New > Word Document**.
     
-6. On the **Word Online** tab, type **Tailspin contract dispute notes**, wait until it displays **Saved** in the title, and then close the **Word Online** tab.
+6. On the **Word** tab, type **Tailspin contract dispute notes**, wait until it displays **Saved** in the title, and then close the **Word** tab.
     
 7. On the **Production site collection** tab, you should see **Document** and **Document1** in the list of documents.
     

@@ -185,7 +185,7 @@ Here's a short link you can use to come back: [https://aka.ms/planningexpressrou
 ## Related Topics
 <a name="BKMK_high-availability"> </a>
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Azure ExpressRoute for Office 365](azure-expressroute.md)
   
