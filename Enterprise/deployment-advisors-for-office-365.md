@@ -214,7 +214,7 @@ Take a look at these SharePoint Online videos:
   
 ## Security and Identity
 
-### Azure Active Directory Connect (Azure AD Connect) advisor
+### Hybrid identity with Azure Active Directory Connect (Azure AD Connect)
 
 The Azure AD Connect advisor shows you how to add user account information to Office 365 without manually creating each user. It also shows you how to configure password hash synchronization or pass-through authentication, so users can sign into their email and your domain using the same password. 
 
