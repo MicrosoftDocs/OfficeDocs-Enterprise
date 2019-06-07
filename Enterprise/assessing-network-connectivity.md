@@ -1,9 +1,9 @@
 ---
-title: "Network connectivity to Office 365"
+title: "Assessing Office 365 network connectivity"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 11/01/2018
+ms.date: 6/5/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -18,7 +18,7 @@ ms.assetid: 64b420ef-0218-48f6-8a34-74bb27633b10
 description: "Office 365 is designed to enable customers all over the world to connect to the service using an internet connection. As the service evolves, the security, performance, and reliability of Office 365 are improved based on customers using the internet to establish a connection to the service."
 ---
 
-# Network connectivity to Office 365
+# Assessing Office 365 network connectivity
 
 Office 365 is designed to enable customers all over the world to connect to the service using an internet connection. As the service evolves, the security, performance, and reliability of Office 365 are improved based on customers using the internet to establish a connection to the service.
   
@@ -44,27 +44,45 @@ Key points to consider when planning your network assessment for Office 365:
 Have a look at Microsoft's case study [Optimizing network performance for Microsoft Office 365](https://msdn.microsoft.com/en-us/library/mt450488.aspx). If you're evaluating Office 365 and aren't sure where to begin with your network assessment or have found network design challenges that you need assistance to overcome, please work with your Microsoft account team.
   
 Also, read [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. This article will help you understand the most recent guidance for securely optimizing Office 365 network connectivity.
+
+## The Office 365 Network Onboarding tool
+
+You can use the [Office 365 Network Onboarding tool](https://aka.ms/netonboard), a new proof of concept (POC) tool, to run basic connectivity tests that provide specific guidance about networking connectivity improvements that can be made between a given user location and Office 365.
+
+The Network Onboarding tool does the following:
+
+- Detects your location, or you can specify a location to test
+- Checks the location of your network egress
+- Tests the network path to the nearest Office 365 service front door
+
+The tool displays the following information:
+
+- Results and impact tab
+  - The location on a map of the in-use service front door
+  - The location on a map of other service front doors that would provide optimal connectivity
+  - Relative performance compared to other Office 365 customers near you
+- Details and solutions tab
+  - User location by city and country
+  - Network egress location by city, state and country
+  - User to network egress distance
+  - Office 365 Exchange Online service front door location
+  - Optimal Office 365 Exchange Online service front door(s) for user location
+  - Customers in your metro area with better performance
+
+You can read about the Office 365 Network Onboarding tool release and provide feedback at the [Office 365 Network Performance tool POC release](https://techcommunity.microsoft.com/t5/Office-365-Networking/Office-365-Network-Performance-tool-POC-release/m-p/319579#M102) blog post. Information about future updates to this tool and other Office 365 networking updates will be posted to the [Office 365 Networking](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking) blog.
   
 Here's a short link you can use to come back: [https://aka.ms/o365networkconnectivity.](https://aka.ms/o365networkconnectivity)
   
 ## See also
 
-[Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
-  
-[Office 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d)
-  
-[Office 365 network and performance tuning](network-planning-and-performance.md)
-  
-[Azure ExpressRoute for Office 365](azure-expressroute.md)
-  
-[Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
-  
-[Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
-  
-[Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
-  
-[Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
-  
-[Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
-  
+[Office 365 Network Connectivity Overview](office-365-networking-overview.md)
+
 [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples)
+
+[Managing Office 365 endpoints](managing-office-365-endpoints.md)
+
+[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+
+[Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
+
+[Office 365 network and performance tuning](network-planning-and-performance.md)
