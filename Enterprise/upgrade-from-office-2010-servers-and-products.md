@@ -25,7 +25,7 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
-Exchange 2010 will reach its end of support on **January 14, 2020**. Other Office 2010 products and services will reach their end of support on **October 13, 2020**. While you're planning your upgrade, this is a great time to consider moving to Office 365. 
+Exchange Server 2010 will reach its end of support on **January 14, 2020**. Office 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. While you're planning your upgrade, this is a great time to consider moving to Office 365. 
 
 Office 365 has cloud-based services for Office 2010 server products such as Exchange Server and SharePoint Server and new services such as Teams and OneDrive for Business. 
 
