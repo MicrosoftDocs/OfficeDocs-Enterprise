@@ -84,9 +84,6 @@ Using these parameters:
 
 -   _DestinationDataLocation_ – Geo-Location where the OneDrive needs to be moved. This should be same as the user’s preferred data location.
 
-> [!NOTE]
-> We recommend running `Get-SPOGeoMoveCrossCompatibilityStatus` with `ValidationOnly` prior to initiating OneDrive geo move.
-
 For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR to AUS, run:
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
