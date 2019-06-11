@@ -49,18 +49,16 @@ Use this advisor to set up Windows 10 devices or upgrade users' computers to Win
 
 |||
 |:-------|:-----|
-| ![](./media/deployment-advisors-for-office-365/move-to-cloud.png) | Run the [Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide) |
+| **Action:** | Run the [Microsoft 365 deployment advisor](https://aka.ms/microsoft365setupguide) |
 |||
 
 ## Prepare your Office 365 environment 
 
 You'll need to tell us your deployment goals to make sure you add domains, create users, and assign licenses in the proper order. 
 
-Watch the [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=2043822) video for an overview.
-
 |||
 |:-------|:-----|
-| ![](./media/deployment-advisors-for-office-365/move-to-cloud.png) | Run the [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) |
+| **Actions:** | Run the [Prepare your environment guide](https://go.microsoft.com/fwlink/?linkid=2005213) <BR> Watch the [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=2043822) video |
 |||
 
 ### Verify your domain
@@ -138,29 +136,16 @@ You'll need to you move mailboxes from your current mail system to Exchange Onli
 
 |||
 |:-------|:-----|
-| **Action:** | Run the [Office 365 mail migration advisor](https://aka.ms/office365setup) |
+| **Action:** | Run the [Office 365 mail migration advisor](https://aka.ms/office365setup) <BR> Watch the [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=2043822) Exchange migration video <BR> Watch these videos for Microsoft Outlook on smart phones and tablets: <BR> - [Outlook for iOS introduction and setup](https://aka.ms/mpuwwm) <BR> - [Outlook for Android introduction and setup](https://aka.ms/qrbfm3) <BR> - [Outlook for Windows Phone introduction and setup](https://aka.ms/kkw96x) |
 |||
   
 If you have Gmail, you'll need to migrate your Gmail contacts and Google Calendar items to Office 365. When you migrate a user's Gmail mailbox to Office 365, email messages are migrated, but contacts and calendar items are not. This guide provides the steps for importing Gmail contacts and Google Calendar items to Office 365.
 
 |||
 |:-------|:-----|
-| **Action:** | Run the [Gmail contacts and calendar assistant](https://aka.ms/gmailcontactscalendar) |
+| **Action:** | Run the [Gmail contacts and calendar assistant](https://aka.ms/gmailcontactscalendar) <BR> |
 |||
 
-Take a look at this Exchange migration video:
-
-- [Prepare your environment](https://go.microsoft.com/fwlink/?linkid=2043822)
-
-Take a look at these videos for Microsoft Outlook on smart phones and tablets:
-
-- [Outlook for iOS introduction and setup](https://aka.ms/mpuwwm)
-
-- [Outlook for Android introduction and setup](https://aka.ms/qrbfm3)
-
-- [Outlook for Windows Phone introduction and setup](https://aka.ms/kkw96x)
-
-  
 
 ## File creation, storage, and sharing
 
@@ -168,50 +153,49 @@ Take a look at these videos for Microsoft Outlook on smart phones and tablets:
 
 Office 365 ProPlus gets your users up and running on the latest versions of Office and keeps them updated.
 
-The [Office 365 ProPlus quick start guide](https://aka.ms/OPPquickstartguide) walks you through the steps for installing Office on either a PC or a Mac for your company and it includes tips for getting everyone started with Office.
+See this guide for the steps to install Office on either a PC or a Mac for your company, including tips for getting everyone started with Office.
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Office 365 ProPlus quick start guide](https://aka.ms/OPPquickstartguide) <BR> |
+|||
 
 The Office 365 ProPlus deployment advisor walks through the steps for helping users install Office 365 ProPlus directly from the Office 365 portal online or for deploying Office 365 ProPlus to your users from an on-premises location. Included are instructions for using System Center Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
 
 |||
 |:-------|:-----|
-| **Action:** | Run the [Office 365 ProPlus deployment advisor ](https://aka.ms/o365proplusdeploy) |
+| **Actions:** | Run the [Office 365 ProPlus deployment advisor ](https://aka.ms/o365proplusdeploy) <BR> Watch these Office 365 ProPlus videos: <BR> - [Office experience as a subscription service](https://aka.ms/qo45jf) <BR> - [Overview of Office 365 ProPlus](https://aka.ms/r359zr) | 
 |||
 
-Take a look at these Office 365 ProPlus videos:
 
-- [Office experience as a subscription service](https://aka.ms/qo45jf)
-  
-- [Overview of Office 365 ProPlus](https://aka.ms/r359zr)
   
 
 ### OneDrive for Business
-Use the [OneDrive for Business quick start guide](https://aka.ms/ODfBquickstartguide) to get started quickly with OneDrive for Business for file storage, sharing, and syncing.
 
-Take a look at these OneDrive for Business videos:
+To get started quickly with OneDrive for Business for file storage, sharing, and syncing, use this guide.
 
-- [OneDrive for Business Integrated Advantage](https://aka.ms/f66hqa)
-
-- [Welcome to OneDrive: Coming from another cloud storage provider](https://videoplayercdn.osi.office.net/embed/6b11f30b-725a-4145-8b72-45a41793a432)
+|||
+|:-------|:-----|
+| **Actions:** | Run the [Office 365 ProPlus deployment advisor ](https://aka.ms/o365proplusdeploy) <BR> Watch these OneDrive for Business videos: <BR> - [OneDrive for Business Integrated Advantage](https://aka.ms/f66hqa) <BR> - [Welcome to OneDrive: Coming from another cloud storage provider](https://videoplayercdn.osi.office.net/embed/6b11f30b-725a-4145-8b72-45a41793a432) | 
+|||
 
 ### SharePoint Online
   
-The [SharePoint Online quick start](https://aka.ms/SPOquickstartguide) shows you how to set up SharePoint in the cloud for document storage and content management. This basic setup is all you need if you don't have a large amount of data to migrate or an on-premises SharePoint Server that you want to continue running in a hybrid setup.
+If you don't have a large amount of data to migrate or an on-premises SharePoint Server that you want to continue running in a hybrid setup, see this guide to set up SharePoint Online for document storage and content management.
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [SharePoint Online quick start](https://aka.ms/SPOquickstartguide) |
+|||
+
   
 You'll need to choose the deployment option that works best for your organization and go through the steps for configuring SharePoint Online features to meet your business needs. Choose from cloud deployment, hybrid deployment, or on-premises-to-cloud migration. You'll then follow the steps for configuring SharePoint Online features, like file storage and sharing, external file sharing, site collections, global settings, and user profiles, and your Office 365 team site.
 
 |||
 |:-------|:-----|
-| **Action:** | Run the [SharePoint Online deployment advisor](https://aka.ms/spoguidance) |
+| **Actions:** | Run the [SharePoint Online deployment advisor](https://aka.ms/spoguidance) <BR> Watch these SharePoint Online videos: <BR> - [SharePoint: Overview](https://go.microsoft.com/fwlink/?linkid=2005315) <BR> - [SharePoint: Hybrid](https://go.microsoft.com/fwlink/?linkid=2005219) <BR> - [SharePoint: Troubleshooting](https://go.microsoft.com/fwlink/?linkid=2005220) |
 |||
 
-Take a look at these SharePoint Online videos:
-
-- [SharePoint: Overview](https://go.microsoft.com/fwlink/?linkid=2005315)
-
-- [SharePoint: Hybrid](https://go.microsoft.com/fwlink/?linkid=2005219)
-
-- [SharePoint: Troubleshooting](https://go.microsoft.com/fwlink/?linkid=2005220)
-  
 ## Security and Identity
 
 ### Hybrid identity with Azure Active Directory Connect (Azure AD Connect)
@@ -232,10 +216,20 @@ If you choose to set up federated sign-in with Active Directory Federation Servi
 
 ### Azure AD
 
-The [Azure AD Basic setup guide](https://aka.ms/azureadbasic) helps you set up features, like group-based access management, self-service password reset for cloud applications, and Azure AD Application Proxy for publishing on-premises web applications.
+To set up features, like group-based access management, self-service password reset for cloud applications, and Azure AD Application Proxy for publishing on-premises web applications, use this set up guide.
   
-The [Azure AD Premium setup guide](https://aka.ms/aadpguidance) helps you enable the many features of Azure AD Premium , which provides identity management capabilities like multi-factor authentication, single sign-on (SSO), device registration, self-service password and group management, and security monitoring.
+|||
+|:-------|:-----|
+| **Action:** | Run the [Azure AD Basic setup guide](https://aka.ms/azureadbasic) |
+|||
+
+To enable the many features of Azure AD Premium, which provides identity management capabilities like multi-factor authentication, single sign-on (SSO), device registration, self-service password and group management, and security monitoring, use this guide.
   
+|||
+|:-------|:-----|
+| **Action:** | Run the [Azure AD Premium setup guide](https://aka.ms/aadpguidance) |
+|||
+
 
 ### Exchange Online Protection
 Microsoft Exchange Online Protection (EOP) is a cloud-based email filtering service that helps protect your organization against spam and malware and includes features to safeguard your organization from messaging policy violations.
@@ -263,35 +257,42 @@ Microsoft Teams is the chat-based collaboration service in Office 365 that provi
 
 |||
 |:-------|:-----|
-| **Action:** | Run the [Teams deployment advisor](https://aka.ms/teamsguidance) |
+| **Actions:** | Run the [Teams deployment advisor](https://aka.ms/teamsguidance) <BR> Watch the [Getting started with Teams](https://youtu.be/ENEQzM2u_vA) video |
 |||
 
-  
-Take a look at this Teams video:
 
-- [Getting started with Teams](https://youtu.be/ENEQzM2u_vA)
- 
 ### Skype for Business
 
-Use the [Skype for Business quick start guide](https://aka.ms/SfBquickstartguide) to get going fast with Skype for Business for instant messaging (IM), presence, online meetings, and screen sharing. If you don't need advanced features, this basic setup is all you need.
+To get going fast with Skype for Business for instant messaging (IM), presence, online meetings, and screen sharing, this basic setup is all you need if you don't need advanced features.
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Skype for Business quick start guide](https://aka.ms/SfBquickstartguide) |
+|||
   
 For more in-depth assistance, the Skype for Business deployment advisor helps you get up and running with Skype for Business Online. This advisor shows you how to set up Skype for Business features, like instant messaging (IM), online meetings, video conferencing, public switched telephone network (PSTN) conferencing, cloud private brand exchange (PBX), and Skype Meeting Broadcast. Steps include setting up a hybrid environment, where you connect Skype for Business Online to your on-premises Skype for Business deployment.
 
 |||
 |:-------|:-----|
-| **Action:** | Run the [Skype for Business deployment advisor](https://aka.ms/skypeguidance) |
+| **Actions:** | Run the [Skype for Business deployment advisor](https://aka.ms/skypeguidance) <BR> Watch these Skype for Business videos: <BR> - [Skype for Business Enablement quick start](https://aka.ms/cjfutd) <BR> - [Getting started with Skype](https://aka.ms/ofg77x) |
 |||
 
-Take a look at these Skype for Business videos:
 
-- [Skype for Business Enablement quick start](https://aka.ms/cjfutd)
-
-- [Getting started with Skype](https://aka.ms/ofg77x)
+|||
+|:-------|:-----|
+| **Run:** | The [Skype for Business deployment advisor](https://aka.ms/skypeguidance)|
+| **Watch:** | [Skype for Business Enablement quick start](https://aka.ms/cjfutd) <BR> [Getting started with Skype](https://aka.ms/ofg77x) |
+|||
 
   
 ### Yammer
 
-The [Yammer quick start guide](https://aka.ms/yamquickstartguide) shows you how to successfully roll out Yammer in your organization. If you don't have existing Yammer networks to consolidate or migrate, this basic setup is all you need.
+If you don't have existing Yammer networks to consolidate or migrate, this basic setup guide is all you need to successfully roll out Yammer in your organization.
+
+|||
+|:-------|:-----|
+| **Action:** | Run the [Yammer quick start guide](https://aka.ms/yamquickstartguide) |
+|||
   
 The Yammer Enterprise setup guide helps you get your organization up and running with Yammer Enterprise. It includes guidance on connecting existing Yammer networks you might have to Office 365 or setting up a new Yammer domain. If you have multiple Yammer networks, it also describes how to consolidate Yammer networks into a single Yammer Enterprise network.
 
@@ -327,9 +328,3 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 
 - [Intune](https://go.microsoft.com/fwlink/?linkid=2054124)
 
-    
-## Walkthroughs for users
-
-- [Office mobile apps](https://aka.ms/officemobileappsetup)
-
-- [Productivity Library](https://aka.ms/productivitylibraryguidance)
