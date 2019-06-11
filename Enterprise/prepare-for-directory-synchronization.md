@@ -108,7 +108,7 @@ The attributes that you need to prepare are listed here:
   - Maximum number of characters per value: 256
   - The attribute value must not contain a space.
   - The attribute value must be unique within the directory.
-  - Invalid characters: \< \> ( ) ; , [ ] "
+  - Invalid characters: \< \> ( ) ; , [ ] " '
     
     Note that the invalid characters apply to the characters following the type delimiter and ":", such that SMTP:User@contso.com is allowed, but SMTP:user:M@contoso.com is not.
     
@@ -119,7 +119,7 @@ The attributes that you need to prepare are listed here:
     
   - Maximum number of characters: 20
   - The attribute value must be unique within the directory.
-  - Invalid characters: [ \ " | , / : \< \> + = ; ? \* ]
+  - Invalid characters: [ \ " | , / : \< \> + = ; ? \* ']
   - If a user has an invalid **sAMAccountName** attribute but has a valid **userPrincipalName** attribute, the user account is created in Office 365. 
   - If both **sAMAccountName** and **userPrincipalName** are invalid, the AD DS **userPrincipalName** attribute must be updated. 
     
@@ -143,7 +143,7 @@ The attributes that you need to prepare are listed here:
   - The maximum number of characters for the **userPrincipalName** attribute is 113. A specific number of characters are permitted before and after the at sign (@), as follows: 
   - Maximum number of characters for the username that is in front of the at sign (@): 64
   - Maximum number of characters for the domain name following the at sign (@): 48
-  - Invalid characters: \ % &amp; \* + / = ? { } | \< \> ( ) ; : , [ ] "
+  - Invalid characters: \ % &amp; \* + / = ? { } | \< \> ( ) ; : , [ ] " '
   - An umlaut is also an invalid character.
   - The @ character is required in each **userPrincipalName** value. 
   - The @ character cannot be the first character in each **userPrincipalName** value. 
@@ -157,7 +157,7 @@ See [Prepare directory attributes with the IdFix tool](prepare-directory-attribu
     
 ## 2. Prepare the userPrincipalName attribute
 
-Active Directory is designed to allow the end users in your organization to sign in to your directory by using either **sAMAccountName** or **userPrincipalName**. Similarly, end users can sign in to Office 365 by using the user principal name (UPN) of their work or school account. Directory synchronization attempts to create new users in Azure Active Directory by using the same UPN that's in your AD SD. The UPN is formatted like an email address. 
+Active Directory is designed to allow the end users in your organization to sign in to your directory by using either **sAMAccountName** or **userPrincipalName**. Similarly, end users can sign in to Office 365 by using the user principal name (UPN) of their work or school account. Directory synchronization attempts to create new users in Azure Active Directory by using the same UPN that's in your AD DS. The UPN is formatted like an email address. 
 
 In Office 365, the UPN is the default attribute that's used to generate the email address. It's easy to get **userPrincipalName** (in AD DS and in Azure AD) and the primary email address in **proxyAddresses** set to different values. When they are set to different values, there can be confusion for administrators and end users. 
   

@@ -90,12 +90,12 @@ This will return *Success* if the site is ready to be moved or *Fail* if any of 
 
 By default, initial URL for the site will change to the URL of the destination geo location. For example:
 
-https://Contoso.sharepoint.com/sites/projectx to https://Contoso.sharepointEUR.com/sites/projectx
+https://Contoso.sharepoint.com/sites/projectx to https://ContosoEUR.sharepoint.com/sites/projectx
 
 For sites with no Office 365 Group association, you can also rename the site by using the `-DestinationUrl` parameter. For example:
 
 https://Contoso.sharepoint.com/sites/projectx to 
-https://Contoso.sharepointEUR.com/sites/projecty
+https://ContosoEUR.sharepoint.com/sites/projecty
 
 To start the site move, run:
 

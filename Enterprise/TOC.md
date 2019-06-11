@@ -20,7 +20,7 @@
 ### [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 
 ### Plan for your network
-#### [Network connectivity to Office 365](network-connectivity.md)
+#### [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 #### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 #### [Network and migration planning for Office 365](network-and-migration-planning.md)
 
@@ -92,7 +92,7 @@
 ### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
-### [Network connectivity to Office 365](network-connectivity.md)
+### [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 ### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
 ### Office 365 IP addresses and URLs
 #### [Office 365 endpoints](office-365-endpoints.md)
@@ -121,7 +121,7 @@
 #### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
 #### Use the IdFix tool
 ##### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
-##### [Install and run the IdFix tool](install-and-run-idfix.md)
+##### [Download and run the IdFix tool](install-and-run-idfix.md)
 ##### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
 ##### [IdFix transaction log](idfix-transaction-log.md)
 #### [Set up directory synchronization](set-up-directory-synchronization.md)

@@ -226,7 +226,7 @@ Here's a short link you can use to come back: [https://aka.ms/erorouting](https:
   
 ## Related Topics
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Azure ExpressRoute for Office 365](azure-expressroute.md)
   

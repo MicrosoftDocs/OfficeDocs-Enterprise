@@ -4,7 +4,6 @@ ms.author: tracyp
 ms.reviewer: smithre4
 author: MSFTTracyP
 manager: laurawi
-ms.date:
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -25,7 +24,7 @@ Modern Authentication is a method of identity management that offers more secure
     
 - [Check the Modern Authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
     
-- [Do you meet Modern Authentication prerequisites?](hybrid-modern-auth-overview.md#BKMK_MeetPrereq)
+- [Do you meet Modern Authentication prerequisites?](#do-you-meet-modern-authentication-prerequisites)
     
 - [What else do I need to know before I begin?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
     
@@ -38,7 +37,7 @@ When talking about communication between a client (for example, your laptop or y
   
 Modern authentication is an umbrella term for a combination of authentication and authorization methods, as well as some security measures that rely on access policies that you may already be familiar with. It includes:
   
-- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication; and the Active Directory Authentication Library ( [ADAL](https://technet.microsoft.com/en-us/library/mt710548.aspx)).
+- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication.
     
 - **Authorization methods**: Microsoft's implementation of Open Authorization (OAuth). 
     
