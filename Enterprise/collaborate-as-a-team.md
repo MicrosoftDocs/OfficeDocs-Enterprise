@@ -56,10 +56,22 @@ To set SharePoint organization level sharing settings
 
 1. In the Microsoft 365 admin center, in the left navigation, under **Admin centers**, click **SharePoint**.
 2. In the SharePoint admin center, in the left navigation, click **Sharing**.
+3. Ensure that external sharing for SharePoint is set to **Anyone** or **New and existing guests**.
+4. If you made changes, click **Save**.
+
 
 ## SharePoint organization level default link settings
 
+To set the SharePoint organization level default link settings
+
+1. Navigate to the Sharing page in the SharePoint admin center.
+2. Under **File and folder links**, select the default sharing link that you want to use.
+3. If you made changes, click **Save**.
+
+
 ## SharePoint organization level Anyone link settings
+
+
 
 ## Create a team
 
