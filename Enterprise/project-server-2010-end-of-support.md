@@ -181,10 +181,6 @@ Key resources:
 
 - After upgrade, be aware of several changes in Project Web App.  For a description of these, see [What's new in Project Server 2019](https://docs.microsoft.com/en-us/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges).
 
-
-## Migrate from Portfolio Server 2010
-
-Project Portfolio Server 2010 was used with Project Server 2010 for portfolio strategy, prioritization, and optimization. No additional versions of Project Portfolio Server were created after this version. However, portfolio management features are available in later Project Server versions and the Premium version of Project Online. Data from Project Portfolio Server 2010 cannot be migrated to either. Data such as business drivers will need to be recreated.
   
 Other resources:
   
