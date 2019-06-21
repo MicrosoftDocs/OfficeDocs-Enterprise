@@ -1,10 +1,10 @@
 ---
 title: "Resources to help you upgrade from Office 2010 servers and clients"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/8/2018
-ms.audience: ITPro
+ms.date: 06/03/2019
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -25,7 +25,13 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
-If you're using Office 2010 products and services, now is a great time to consider moving to the Microsoft Cloud, starting with Office 365. Office 2010 products and services are nearing end of support. Use this article as a starting point to review your options and plan your upgrade.
+Exchange Server 2010 will reach its end of support on **January 14, 2020**. Office 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. While you're planning your upgrade, this is a great time to consider moving to Office 365. 
+
+Office 365 has cloud-based services for Office 2010 server products such as Exchange Server and SharePoint Server and new services such as Teams and OneDrive for Business. 
+
+Office 365 ProPlus, included with Office 365 E3 and E5, is the set of Office client apps that you install on your local device. They are updated with new productivity and security features on an ongoing basis from the Microsoft cloud.
+
+Use this article as a starting point to review your options.
       
 ## Office 2010 planning content
   
@@ -34,10 +40,10 @@ If you're using Office 2010 products and services, now is a great time to consid
 |Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> |[Office 2010 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) <br/> |
 |Exchange Server 2010  <br/> |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
 |SharePoint 2010 or SharePoint Server 2010  <br/> |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
-|Project Server 2010 <br/> | [Planning Project Server and Project Online](https://docs.microsoft.com/project/planning-project-server-and-project-online-for-technical-decision-makers) <br/> |
+|Project Server 2010 <br/> | [Project Server 2010 end of support roadmap](project-server-2010-end-of-support.md) <br/> |
 |Lync Server 2010 <br/> | [Plan to upgrade to Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) <br/> |
     
-## What if I'm a home user? What do I do?
+## I'm a home user. What do I do?
 
 If you're using Office 2010 products and applications at home, see [this information](plan-upgrade-previous-versions-office.md#im-a-home-user-what-do-i-do).
 

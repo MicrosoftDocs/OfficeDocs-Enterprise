@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -22,10 +22,10 @@ description: "Summary: Configure and demonstrate data classification and labelin
 
  **Summary:** Configure and demonstrate data classification and labeling using the Azure Information Protection (AIP) client in your Office 365 dev/test environment.
   
-The Azure Information Protection client allows you to classify a document before you upload it to a SharePoint Online folder in Office 365. With the instructions in this article, you install the Azure Information Protection client and demonstrate data classification. For more information, see [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection).
+The Azure Information Protection client lets you classify a document before you upload it to a SharePoint Online folder in Office 365. With the instructions in this article, you install the Azure Information Protection client and demonstrate data classification. For more information, see [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection).
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Build out your Office 365 dev/test environment
 
@@ -39,7 +39,7 @@ First, sign up for an Azure Information Protection trial subscription.
   
 ### Sign up for an Azure Information Protection trial subscription
 
-1. In Internet Explorer or your browser, go to [http://portal.office.com](http://portal.office.com) and sign in with your Office 365 global administrator account.
+1. In Internet Explorer or your browser, go to [http://admin.microsoft.com](http://admin.microsoft.com) and sign in with your Office 365 global administrator account.
     
 2. On the **Microsoft Office Home** tab, click the **Admin** tile.
     
@@ -53,7 +53,7 @@ First, sign up for an Azure Information Protection trial subscription.
     
 Next, you enable the Azure Information Protection license for all user accounts.
   
-1. On the Office 365 admin center tab, click **Users**.
+1. On the Microsoft 365 admin center tab, click **Users**.
     
 2.  In the list of user accounts, select your global administrator account, and then click **Edit** for **Product licenses**.
     
@@ -77,7 +77,7 @@ If you are using the simulated enterprise Office 365 dev/test environment, you m
     
 2. Click **Resource Groups >** [your resource group name] **> CLIENT1 > Connect**.
     
-3. From CLIENT1, run Internet Explorer, go to the Office portal at [http://portal.office.com](http://portal.office.com), and then sign in with the User5 account name and password.
+3. From CLIENT1, run Internet Explorer, go to the Office portal at [http://admin.microsoft.com](http://admin.microsoft.com), and then sign in with the User5 account name and password.
     
 4. On the **Microsoft Office Home** tab, click **Install Office 2016**.
     
@@ -121,7 +121,7 @@ Next, you demonstrate document classification.
     
 9. Click **File Explorer** in the taskbar, and then open the **Documents** folder.
     
-    Note the different file sizes of the **BeforeAIP** and **AfterAIP** documents. The AfterAIP document is larger because it contains the classification information.
+    Note the different file sizes of the **BeforeAIP** and **AfterAIP** documents. The AfterAIP document is larger because it has the classification information.
     
 Next, you allow everyone to access the Support site collection.
   
@@ -145,7 +145,7 @@ Next, you sign in with your User5 account and upload the AIP-protected document 
   
 1. On the **Microsoft Office Home** tab, in the upper right, click the user icon, and then click **Sign out**.
     
-2. Go to [http://portal.office.com](http://portal.office.com).
+2. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
     
 3. On the **Office 365 sign in** page, click the User5 account name and sign in.
     

@@ -4,7 +4,7 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
 ms.date: 12/29/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -32,7 +32,7 @@ On-premises outgoing Internet proxy settings also affect connectivity to Office 
   
 The following Skype for Business Help articles have more information about Skype for Business settings:
   
-- [Troubleshooting Skype for Business Sign-in Errors (Administrators)](https://go.microsoft.com/fwlink/p/?LinkID=243624)
+- [Troubleshooting Skype for Business Online sign-in errors for administrators](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/troubleshooting-sign-in-errors-for-admins)
 
 - [You cannot connect to Skype for Business, or certain features do not work, because an on-premises firewall blocks the connection](https://go.microsoft.com/fwlink/p/?LinkID=243625)
 
@@ -61,7 +61,7 @@ We provide a software-based NLB solution built into Windows Server. Office 365 s
   
 ## Firewalls and proxies
 
-For more details on configuring firewalls and proxies to connect to Office 365, read [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a), [Network connectivity to Office 365](network-connectivity.md), and [Office 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d) to learn more about devices and circuit selection.
+For more details on configuring firewalls and proxies to connect to Office 365, read [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a), [Assessing Office 365 network connectivity](assessing-network-connectivity.md), and [Office 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d) to learn more about devices and circuit selection.
   
 ## See also
 

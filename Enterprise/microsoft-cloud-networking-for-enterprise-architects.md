@@ -3,8 +3,8 @@ title: "Microsoft Cloud Networking for Enterprise Architects"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
-ms.audience: ITPro
+ms.date: 03/12/2019
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Priority
@@ -28,9 +28,9 @@ This article links you to a set of articles that describe what IT architects nee
 [![Thumb image for Microsoft cloud networking model](media/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)  
 ](https://go.microsoft.com/fwlink/p/?linkid=842073)
   
-[PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | [More languages](https://www.microsoft.com/download/details.aspx?id=54425)
+[PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074)
   
-You can also see all of the models in the [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md) and swipe through [Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://aka.ms/cloudarchitecture).
+You can also see all of the models in the [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md).
   
 See the following sections:
   
@@ -48,7 +48,7 @@ See the following sections:
     
 - [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md)
     
-    Optimizing your network for Microsoft SaaS services requires careful analysis of your Internet edge, your client devices, and typical IT operations.
+    Optimizing your network for Microsoft SaaS services requires the configuration of internal and edge devices to route the different categories of traffic to Microsoft SaaS services.
     
 - [Designing networking for Microsoft Azure PaaS](designing-networking-for-microsoft-azure-paas.md)
     
@@ -58,16 +58,10 @@ See the following sections:
     
     Step through the design process to create an optimal Azure virtual network (VNet) for hosting server-based IT workloads, including subnets, address spaces, routing, DNS, load balancing, and connectivity to your on-premises network, other VNets, and the Internet.
     
-For a 30-minute summary of the key points of this poster, see the [Optimize Your Network for Microsoft Cloud Offerings](https://mva.microsoft.com/en-US/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743) Microsoft Virtual Academy course.
-  
 > [!NOTE]
-> These articles reflect the **June 2017** release of the Microsoft Cloud Networking for Enterprise Architects poster.
+> These articles reflect the **December 2018** release of the Microsoft Cloud Networking for Enterprise Architects poster.
   
-## See Also
+## See also
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
-
 

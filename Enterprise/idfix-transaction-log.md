@@ -1,14 +1,16 @@
 ---
 title: "Office 365 IdFix transaction log"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:
+- Ent_O365
+- M365-identity-device-management
 search.appverid:
 - MET150
 - MOE150

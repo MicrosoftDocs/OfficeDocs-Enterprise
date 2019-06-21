@@ -3,8 +3,8 @@ title: "During and after your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 10/02/2018
-ms.audience: ITPro
+ms.date: 03/15/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 search.appverid:
@@ -34,38 +34,12 @@ Watch the Office 365 Message Center for confirmation when moves for each of Exch
 |South Korea  <br/> |October 31, 2018  <br/> |
 |United Kingdom  <br/> |September 15, 2019  <br/> |
 |France  <br/> |September 15, 2020  <br/> |
+|United Arab Emirates  <br/> |Announced  <br/> |
+|South Africa  <br/> |Announced  <br/> |
    
-## Moves that involve a third-party Audio Conferencing Provider
-
-- Third-party Audio Conferencing Provider add-on services for Skype for Business are not available for users homed in new geo-specific data centers. 
-    
-- Existing customers using a third-party Audio Conferencing Provider service should not request a move to a new geo-specific data center. 
-    
-- New customers deployed into the new geo-specific data centers will need to request a move to a regional data center to use a third-party Audio Conferencing Provider. 
-    
 ## Exchange Online
 
-Because it takes time to move each user to the new datacenter geo for a single tenant, some users will still be in the old datacenter geo during the move, while others will be in the new datacenter geo. This means that some features that involve accessing multiple mailboxes won't fully work during a period of the move process, which can last weeks. These features are described in the following sections.
-  
-### Mailbox move
-
-When an individual mailbox moves crosses datacenter geos, the mailbox content is first pre-staged so that existing data is copied to the target geo without affecting the mailbox. At the time of cutover to the target geo, the mailbox in the source geo is locked for a few minutes. During that time, email clients can't connect temporarily. Any additional changes are copied to the target geo, and then the mailbox completes the move to the target geo. There is no disruption to mail flow during the move.
-  
-Some users may need to restart Outlook Desktop after the mailbox is moved as described in [Knowledge Base article 2591913](https://support.microsoft.com/kb/2591913).
-  
-### Shared mailbox
-
-A user with "Full Access" permission to shared mailboxes isn't affected during the move.
-  
-### Resource mailbox
-
-A user who needs to manage resource mailbox configurations via the Options page in Outlook Web Access can continue to do so during the move.
-  
-If the resource mailboxes are managed directly via Exchange cmdlets, the cmdlets Set-MailboxRegionalConfiguration and Set-MailboxCalendarConfiguration don't work if the executing user and the resource mailbox are in different geos.
-  
-### Calendar delegation
-
-Free/Busy and calendar sharing aren't affected during the tenant move. User A with write permission to the calendar folder of Mailbox B can still manage Mailbox B's calendar folder using Outlook Desktop. However, during the move, if User A and Mailbox B aren't in the same geo, User A can't edit Mailbox B's calendar in Outlook Web Access until both are moved to the target geo.
+Because it takes time to move each user to the new datacenter geo for a single tenant, some users will still be in the old datacenter geo during the move, while others will be in the new datacenter geo. This means that some features that involve accessing multiple mailboxes may not fully work during a period of the move process, which can last weeks. These features are described in the following sections.
   
 ### Open "Shared Folder" in Outlook Web Access
 
@@ -74,30 +48,15 @@ Some users open a shared mail folder from another mailbox (that the user has rea
 |**Configuration**|**Description**|
 |:-----|:-----|
 |User has mailbox folder permission to another mailbox  <br/> |Potentially limited.  <br/> If User A and Mailbox B aren't in the same geo during the tenant move, User A can't open Mailbox B's folder in Outlook Web Access if User A only has permission to a specific folder in Mailbox B.  <br/> To add a shared folder, right-click the user name in the left navigation panel and select **Add shared folder**.  <br/> |
-|User with full mailbox permission to another mailbox  <br/> |Fully supported.  <br/> If User A has "Full Access" permission to Mailbox B, then User A can click the shared folder in the left navigation panel in Outlook Web Access to open a window showing Mailbox B.  <br/> > [!NOTE]> A user can open a shared mailbox using Outlook Web Access during the move without any adverse impact. The limitation only applies to folder-level sharing in a mailbox.           |
+|User with full mailbox permission to another mailbox  <br/> |Fully supported.  <br/> If User A has "Full Access" permission to Mailbox B, then User A can click the shared folder in the left navigation panel in Outlook Web Access to open a window showing Mailbox B.  A user can open a shared mailbox using Outlook Web Access during the move without any adverse impact. The limitation only applies to folder-level sharing in a mailbox.           |
    
 ### Public folders
 
-If the public folder mailbox is temporarily in a different datacenter geo from the user trying to access it, the user can't access it. 
+If the public folder mailbox is temporarily in a different datacenter geo from the user trying to access it, the user may not be able to access the public folder mailbox. 
   
 ### Online archives
 
-While the move is in progress, users connecting via Outlook Web Access will not be able to connect to their online archive mailbox. Access to the archive mailbox for users connecting with Outlook is supported.
-  
-### eDiscovery &amp; auditing
-
-The eDiscovery and auditing features in the Office 365 Security &amp; Compliance Center support cross-geo tenant moves. unlike the Exchange admin center (EAC), which doesn't support querying users who aren't yet moved once the tenant move has started. For more information about the Security &amp; Compliance Center, see [Office 365 Security &amp; Compliance Center](https://go.microsoft.com/fwlink/p/?linkid=841313). 
-  
-The following table shows you how to access eDiscovery and auditing via the EAC and the Security &amp; Compliance Center.
-  
-||**Exchange admin center**|**Security &amp; Compliance Center**|
-|:-----|:-----|:-----|
-|eDiscovery  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. <br/> Click  **Admin centers** \> **Exchange**. <br/> Select **compliance management** \> **in-place eDiscovery &amp; hold**. | Go to https://portal.office.com, and then click the Admin tile. <br/> Click **Admin centers** \> **Security &amp; Compliance**. <br/> Select **Search &amp; investigation** \> **eDiscovery**.|
-|Auditing  <br/> | Go to https://portal.office.com, and then click the **Admin** tile. <br/> Click  **Admin centers** \> **Exchange**. Select **compliance management** \> **auditing**. | Go to https://portal.office.com, and then click the Admin tile. <br/> Click  **Admin centers** \> **Security &amp; Compliance**. <br/> Select **Search &amp; investigation** \> **Audit log search**. |
-   
-### Mailbox migration
-
-When a tenant is moving between geos, a migration batch may report errors on some users in the migration batch who are left behind in the source geo. In this case, remove the existing migration batch to remove the underlying sync request. After the batch is fully cleaned up, create the batch again, which will start creating sync requests in the target geo.
+While the move is in progress, users connecting via Outlook for Mac may not be able to connect to their online archive mailbox. Access to the archive mailbox for users connecting with Outlook and Outlook Web Access is supported.
   
 ## SharePoint Online
 
@@ -157,7 +116,10 @@ All users will be signed out from the Skype for Business client software during 
 |:-----|
 | Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. Ask users to run the [troubleshooting wizard](https://support.microsoft.com/en-us/kb/2541980) and follow directions on how to clear the client cache. Lync for Mac client users should follow [these instructions](https://support.microsoft.com/en-us/kb/2629861).  <br/> |
    
-## Data for other services, including Yammer and Power BI
+### Skype for Business moves that involve a third-party Audio Conferencing Provider
+Third-party Audio Conferencing Provider add-on services for Skype for Business are not available for users homed in new geo-specific data centers.  Existing customers using a third-party Audio Conferencing Provider service should not request a move to a new geo-specific data center.  New customers deployed into the new geo-specific data centers will need to request a move to a regional data center to use a third-party Audio Conferencing Provider.
+
+## Data for other services, including Teams, Yammer and Power BI
 
 We only move customer data for Exchange Online, SharePoint Online, and Skype for Business. We do not move data for other services. There is no change or impact to you as a customer or user of these other services. The move process does not influence them, and the location of their customer data remains unchanged.
   

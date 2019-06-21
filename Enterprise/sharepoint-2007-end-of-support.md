@@ -3,8 +3,8 @@ title: "SharePoint Server 2007 end of support roadmap"
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 1/31/2018
-ms.audience: ITPro
+ms.date: 01/28/2019
+audience: ITPro
 ms.topic: conceptual
 f1_keywords:
 - 'vsemail'
@@ -55,7 +55,7 @@ Though your SharePoint Server 2007 farm will still be operational after October 
 > [!TIP]
 > If you haven't already planned for upgrade or migration, please see: [SharePoint 2007 migration options to consider](sharepoint-2007-migration-options.md), for some examples of where to begin. You can also search for [Microsoft Partners](https://go.microsoft.com/fwlink/?linkid=841249) who can help with upgrade or Office 365 migration (or both). 
   
-For more information about Office 2007 servers reaching the end of support, see [Plan your upgrade for Office 2007 servers](https://support.office.com/article/4e5eab5f-05db-4627-9e17-421a6bf89606.aspx).
+For more information about Office 2007 servers reaching the end of support, see [Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md).
   
 ## What are my options?
 

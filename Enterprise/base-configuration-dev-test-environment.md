@@ -3,8 +3,8 @@ title: "Base Configuration dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/01/2018
-ms.audience: ITPro
+ms.date: 03/15/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -29,7 +29,7 @@ This article provides you with instructions to create the following Base Configu
   
 **Figure 1: The Base Configuration dev/test environment**
 
-The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It contains three Azure virtual machines running Windows Server 2016:
+The Base Configuration dev/test environment in Figure 1 consists of the Corpnet subnet in a cloud-only Azure virtual network named TestLab that simulates a simplified, private intranet connected to the Internet. It has three Azure virtual machines running Windows Server 2016:
   
 - DC1 is configured as an intranet domain controller and Domain Name System (DNS) server
     
@@ -37,7 +37,7 @@ The Base Configuration dev/test environment in Figure 1 consists of the Corpnet 
     
 - CLIENT1 acts as an intranet client
     
-This configuration allows DC1, APP1, CLIENT1, and additional Corpnet subnet computers to be: 
+This configuration lets DC1, APP1, CLIENT1, and additional Corpnet subnet computers to be: 
   
 - Connected to the Internet to install updates, access Internet resources in real time, and participate in public cloud technologies such as Microsoft Office 365 and other Azure services.
     
@@ -99,7 +99,7 @@ If you do not already have an Azure subscription, you can sign up for a free tri
 ![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ### Step 1: Create the virtual network
 
@@ -113,29 +113,29 @@ First, start an Azure PowerShell prompt.
 Sign in to your Azure account with the following command.
   
 ```
-Login-AzureRMAccount
+Connect-AzAccount
 ```
 
 > [!TIP]
-> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-ba957d3d) to get a text file that contains all the PowerShell commands in this article.
-  
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-ba957d3d) to get a text file that has all the PowerShell commands in this article.
+
 Get your subscription name using the following command.
   
 ```
-Get-AzureRMSubscription | Sort Name | Select Name
+Get-AzSubscription | Sort Name | Select Name
 ```
 
 Set your Azure subscription. Replace everything within the quotes, including the < and > characters, with the correct name.
   
 ```
-$subscr="<subscription name>"
-Get-AzureRmSubscription -SubscriptionName $subscr | Select-AzureRmSubscription
+$subscrName="<subscription name>"
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create a new resource group for your Base Configuration test lab. To determine a unique resource group name, use this command to list your existing resource groups.
   
 ```
-Get-AzureRMResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
+Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 Create your new resource group with these commands. Replace everything within the quotes, including the < and > characters, with the correct names.
@@ -143,21 +143,22 @@ Create your new resource group with these commands. Replace everything within th
 ```
 $rgName="<resource group name>"
 $locName="<location name, such as West US>"
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Next, you create the TestLab virtual network that will host the Corpnet subnet of the base configuration and protect it with a network security group.
   
 ```
 $rgName="<name of your new resource group>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$corpnetSubnet=New-AzureRMVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
-New-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName -Location $locName -AddressPrefix 10.0.0.0/8 -Subnet $corpnetSubnet -DNSServer 10.0.0.4
-$rule1=New-AzureRMNetworkSecurityRuleConfig -Name "RDPTraffic" -Description "Allow RDP to all VMs on the subnet" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
-New-AzureRMNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $locName -SecurityRules $rule1
-$vnet=Get-AzureRMVirtualNetwork -ResourceGroupName $rgName -Name TestLab
-$nsg=Get-AzureRMNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
-Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$corpnetSubnet=New-AzVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
+New-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName -Location $locName -AddressPrefix 10.0.0.0/8 -Subnet $corpnetSubnet -DNSServer 10.0.0.4
+$rule1=New-AzNetworkSecurityRuleConfig -Name "RDPTraffic" -Description "Allow RDP to all VMs on the subnet" -Access Allow -Protocol Tcp -Direction Inbound -Priority 100 -SourceAddressPrefix Internet -SourcePortRange * -DestinationAddressPrefix * -DestinationPortRange 3389
+New-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $locName -SecurityRules $rule1
+$vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name TestLab
+$nsg=Get-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
+Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 This is your current configuration.
@@ -166,7 +167,7 @@ This is your current configuration.
   
 ### Step 2: Configure DC1
 
-In this step, we create the DC1 virtual machine and configure it as a domain controller for the corp.contoso.com Windows Server Active Directory (AD) domain and a DNS server for the virtual machines of the TestLab virtual network.
+In this step, we create the DC1 virtual machine and configure it as a domain controller for the corp.contoso.com Active Directory Domain Services (AD DS) domain and a DNS server for the virtual machines of the TestLab virtual network.
 
 > [!NOTE]
 > Before executing the following command block, ensure that the Azure region (location) that you have chosen supports the Azure virtual machine size, which by default is set to Standard_A1. Click [here](https://azure.microsoft.com/global-infrastructure/services/?products=virtual-machines) to see the latest information on Azure virtual machine sizes and locations.
@@ -175,20 +176,20 @@ To create an Azure virtual machine for DC1, fill in the name of your resource gr
   
 ```
 $rgName="<resource group name>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$vnet=Get-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName
-$pip=New-AzureRMPublicIpAddress -Name DC1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name DC1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress 10.0.0.4
-$vm=New-AzureRMVMConfig -VMName DC1 -VMSize Standard_A1
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$pip=New-AzPublicIpAddress -Name DC1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name DC1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress 10.0.0.4
+$vm=New-AzVMConfig -VMName DC1 -VMSize Standard_A1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for DC1."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName DC1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
-$diskConfig=New-AzureRmDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
-$dataDisk1=New-AzureRmDisk -DiskName "DC1-DataDisk1" -Disk $diskConfig -ResourceGroupName $rgName
-$vm=Add-AzureRmVMDataDisk -VM $vm -Name "DC1-DataDisk1" -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName DC1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "DC1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
+$diskConfig=New-AzDiskConfig -AccountType "Standard_LRS" -Location $locName -CreateOption Empty -DiskSizeGB 20
+$dataDisk1=New-AzDisk -DiskName "DC1-DataDisk1" -Disk $diskConfig -ResourceGroupName $rgName
+$vm=Add-AzVMDataDisk -VM $vm -Name "DC1-DataDisk1" -CreateOption Attach -ManagedDiskId $dataDisk1.Id -Lun 1
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 You will be prompted for a user name and password for the local administrator account on DC1. Use a strong password and record both the name and password in a secure location.
@@ -278,22 +279,22 @@ To create an Azure Virtual Machine for APP1, fill in the name of your resource g
   
 ```
 $rgName="<resource group name>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$vnet=Get-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName
-$pip=New-AzureRMPublicIpAddress -Name APP1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name APP1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
-$vm=New-AzureRMVMConfig -VMName APP1 -VMSize Standard_A1
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$pip=New-AzPublicIpAddress -Name APP1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name APP1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
+$vm=New-AzVMConfig -VMName APP1 -VMSize Standard_A1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for APP1."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName APP1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName APP1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "APP1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 Next, connect to the APP1 virtual machine using the APP1 local administrator account name and password, and then open a Windows PowerShell command prompt.
   
-To check name resolution and network communication between APP1 and DC1, run the **ping dc1.corp.contoso.com** command and verify that there are four replies.
+To check name resolution and network communication between APP1 and DC1, run the **ping dc1.corp.contoso.com** command and check that there are four replies.
   
 Next, join the APP1 virtual machine to the CORP domain with these commands at the Windows PowerShell prompt.
   
@@ -339,22 +340,22 @@ To create an Azure Virtual Machine for CLIENT1, fill in the name of your resourc
   
 ```
 $rgName="<resource group name>"
-$locName=(Get-AzureRmResourceGroup -Name $rgName).Location
-$vnet=Get-AzureRMVirtualNetwork -Name TestLab -ResourceGroupName $rgName
-$pip=New-AzureRMPublicIpAddress -Name CLIENT1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$nic=New-AzureRMNetworkInterface -Name CLIENT1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
-$vm=New-AzureRMVMConfig -VMName CLIENT1 -VMSize Standard_A1
+$locName=(Get-AzResourceGroup -Name $rgName).Location
+$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$pip=New-AzPublicIpAddress -Name CLIENT1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$nic=New-AzNetworkInterface -Name CLIENT1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
+$vm=New-AzVMConfig -VMName CLIENT1 -VMSize Standard_A1
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for CLIENT1."
-$vm=Set-AzureRMVMOperatingSystem -VM $vm -Windows -ComputerName CLIENT1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
-$vm=Set-AzureRMVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
-$vm=Add-AzureRMVMNetworkInterface -VM $vm -Id $nic.Id
-$vm=Set-AzureRmVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
-New-AzureRMVM -ResourceGroupName $rgName -Location $locName -VM $vm
+$vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName CLIENT1 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
+$vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2016-Datacenter -Version "latest"
+$vm=Add-AzVMNetworkInterface -VM $vm -Id $nic.Id
+$vm=Set-AzVMOSDisk -VM $vm -Name "CLIENT1-OS" -DiskSizeInGB 128 -CreateOption FromImage -StorageAccountType "Standard_LRS"
+New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
 Next, connect to the CLIENT1 virtual machine using the CLIENT1 local administrator account name and password, and then open an administrator-level Windows PowerShell command prompt.
   
-To check name resolution and network communication between CLIENT1 and DC1, run the **ping dc1.corp.contoso.com** command at a Windows PowerShell command prompt and verify that there are four replies.
+To check name resolution and network communication between CLIENT1 and DC1, run the **ping dc1.corp.contoso.com** command at a Windows PowerShell command prompt and check that there are four replies.
   
 Next, join the CLIENT1 virtual machine to the CORP domain with these commands at the Windows PowerShell prompt.
   
@@ -367,7 +368,7 @@ Note that you must supply your CORP\\User1 domain account credentials after runn
   
 After CLIENT1 restarts, connect to it using the CORP\\User1 account name and password, and then open an administrator-level Windows PowerShell command prompt.
   
-Next, verify that you can access web and file share resources on APP1 from CLIENT1.
+Next, check that you can access web and file share resources on APP1 from CLIENT1.
   
 1. In Server Manager, in the tree pane, click **Local Server**.
     
@@ -394,7 +395,7 @@ This is your final configuration.
 Your Base Configuration in Azure is now ready for application development and testing or for building additional test environments. 
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all of the articles in the Office 365 Test Lab Guide stack.
   
 <a name="mincost"> </a>
 ## Minimizing the costs of test environment virtual machines in Azure
@@ -409,9 +410,9 @@ To shut down the virtual machines with Azure PowerShell, fill in the resource gr
   
 ```
 $rgName="<your resource group name>"
-Stop-AzureRMVM -ResourceGroupName $rgName -Name "CLIENT1" -Force
-Stop-AzureRMVM -ResourceGroupName $rgName -Name "APP1" -Force
-Stop-AzureRMVM -ResourceGroupName $rgName -Name "DC1" -Force
+Stop-AzVM -ResourceGroupName $rgName -Name "CLIENT1" -Force
+Stop-AzVM -ResourceGroupName $rgName -Name "APP1" -Force
+Stop-AzVM -ResourceGroupName $rgName -Name "DC1" -Force
 ```
 
 To ensure that your virtual machines work properly when starting all of them from the Stopped (Deallocated) state, you should start them in the following order:
@@ -424,15 +425,14 @@ To start the virtual machines in order with Azure PowerShell, fill in the resour
   
 ```
 $rgName="<your resource group name>"
-Start-AzureRMVM -ResourceGroupName $rgName -Name "DC1"
-Start-AzureRMVM -ResourceGroupName $rgName -Name "APP1"
-Start-AzureRMVM -ResourceGroupName $rgName -Name "CLIENT1"
+Start-AzVM -ResourceGroupName $rgName -Name "DC1"
+Start-AzVM -ResourceGroupName $rgName -Name "APP1"
+Start-AzVM -ResourceGroupName $rgName -Name "CLIENT1"
 ```
 
 ## See Also
 
 - [Office 365 dev/test environment](office-365-dev-test-environment.md)
 - [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-- [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
 - [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
 - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)

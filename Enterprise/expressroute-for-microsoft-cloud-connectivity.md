@@ -3,8 +3,8 @@ title: "ExpressRoute for Microsoft cloud connectivity"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/03/2018
-ms.audience: ITPro
+ms.date: 03/12/2019
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Normal
@@ -91,25 +91,19 @@ Table 1 shows the three primary connectivity models for ExpressRoute connections
   
 ## ExpressRoute peering relationships to Microsoft cloud services
 
-A single ExpressRoute connection supports up to three different Border Gateway Protocol (BGP) peering relationships to different parts of the Microsoft cloud. BPG uses peering relationships to establish trust and exchange routing information.
+A single ExpressRoute connection supports up to two different Border Gateway Protocol (BGP) peering relationships to different parts of the Microsoft cloud. BPG uses peering relationships to establish trust and exchange routing information.
   
-**Figure 3: The three different BGP relationships in a single ExpressRoute connection**
+**Figure 3: The two different BGP relationships in a single ExpressRoute connection**
 
-![Figure 3: The three different BGP relationships in a single ExpressRoute connection](media/Network-Poster/ERPeering.png)
+![Figure 3: The two different BGP relationships in a single ExpressRoute connection](media/Network-Poster/ERPeering.png)
   
-Figure 3 shows an ExpressRoute connection from an on-premises network. The ExpressRoute connection contains three logical peering relationships. A Microsoft peering relationship goes to Microsoft SaaS services, including Office 365 and Dynamcs CRM Online. A public peering relationship goes to Azure PaaS services. A private peering relationship goes to Azure IaaS and to a virtual network gateway that hosts virtual machines.
+Figure 3 shows an ExpressRoute connection from an on-premises network. The ExpressRoute connection has two logical peering relationships. A Microsoft peering relationship goes to Microsoft SaaS services, including Office 365, Dynamcs 365, and Azure PaaS services. A private peering relationship goes to Azure IaaS and to a virtual network gateway that hosts virtual machines.
   
 The Microsoft peering BGP relationship: 
   
-- Is from a router in your DMZ to the public addresses of Office 365 and Dynamics 365 services. 
+- Is from a router in your DMZ to the public addresses of Office 365, Dynamics 365, and Azure services. 
     
 - Supports bidirectional-initiated communication.
-    
-The public peering BGP relationship:
-  
-- Is from a router in your DMZ to the public IP addresses of Azure services.
-    
-- Supports unidirectional-initiated communication from on-premises systems only. The peering relationship does not support communication initiated from Azure PaaS services.
     
 The private peering BGP relationship:
   
@@ -118,6 +112,10 @@ The private peering BGP relationship:
 - Supports bidirectional-initiated communication.
     
 - Is an extension of your organization network to the Microsoft cloud, complete with internally-consistent addressing and routing.
+
+>[!Note]
+>The public peering BGP relationship described in previous versions of this article has been deprecated.
+>
     
 ## Example of application deployment and traffic flow with ExpressRoute
 
@@ -181,9 +179,9 @@ When you create an ExpressRoute connection to a Microsoft cloud peering location
   
 This can result in non-optimal delivery to local Microsoft datacenters for the any-to-any connectivity model.
   
-**Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection**
+**Figure 7: Example of a geographically-distributed organization that uses a single ExpressRoute connection**
 
-![Figure 7: Example of an geographically-distributed organization that uses a single ExpressRoute connection](media/Network-Poster/MSNet1.png)
+![Figure 7: Example of a geographically-distributed organization that uses a single ExpressRoute connection](media/Network-Poster/MSNet1.png)
   
 Figure 7 shows an organization with two locations, Location 1 in the northwest of the United States and Location 2 in the northeast. They are connected by an any-to-any WAN provider. This organization also has an ExpressRoute connection to a Microsoft peering location on the west coast. Traffic from Location 2 in the northeast destined for an east coast datacenter must travel all the way across the organization's WAN to the west coast, to the Microsoft peering location, and then back across the country over the Microsoft cloud network to the east coast datacenter.
   
@@ -217,11 +215,11 @@ With multiple ExpressRoute Premium connections, you can have:
     
 - Higher availability to the global Microsoft cloud when a local ExpressRoute connection becomes unavailable.
     
-ExpressRoute Premium is required for Office 365-based ExpressRoute connections. However, there is no additional cost for enterprises with 500 or more licensed users.
+ExpressRoute Premium is required for Office 365-based ExpressRoute connections.
   
 **Figure 9: The world-wide Microsoft cloud network**
 
-![Figure 9: The world-wide  Microsoft cloud network](media/Network-Poster/MSNet3.png)
+![Figure 9: The world-wide Microsoft cloud network](media/Network-Poster/MSNet3.png)
   
 Figure 9 shows a logical diagram of the worldwide Microsoft cloud network, with networks that span the continents and regions of the world and their interconnections. With a portion of the Microsoft cloud network in each continent, a global enterprise creates ExpressRoute Premium connections from its regional hub offices to local Microsoft peering locations.
   
@@ -237,15 +235,13 @@ For more information, see:
     
 - [Network planning and performance tuning for Office 365](https://aka.ms/tune)
     
-- [Office 365 Performance Management](https://mva.microsoft.com/en-US/training-courses/office-365-performance-management-8416)
-    
 ## ExpressRoute options
 
 You can also incorporate the following options into your ExpressRoute deployment:
   
 - **Security at your edge:** To provide advanced security for the traffic sent and received over the ExpressRoute connection, such as traffic inspection or intrusion/malware detection, place your security appliances in the traffic path within your DMZ or at the border of your intranet.
     
-    Internet traffic for VMs To prevent Azure VMs from initiating traffic directly with Internet locations, advertise the default route to Microsoft. Traffic to the Internet is routed across the ExpressRoute connection and through your on-premises proxy servers. Traffic from Azure VMs to Azure PaaS services or Office 365 is routed back across the ExpressRoute connection.
+- **Internet traffic for VMs:** To prevent Azure VMs from initiating traffic directly with Internet locations, advertise the default route to Microsoft. Traffic to the Internet is routed across the ExpressRoute connection and through your on-premises proxy servers. Traffic from Azure VMs to Azure PaaS services or Office 365 is routed back across the ExpressRoute connection.
     
 - **WAN optimizers:** You can deploy WAN optimizers on both sides of a private peering connection for a cross-premises Azure virtual network (VNet). Inside the Azure VNet, use a WAN optimizer network appliance from the Azure marketplace and user-defined routing to route the traffic through the appliance.
     
@@ -268,8 +264,4 @@ See these additional resources for more information:
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
-
 

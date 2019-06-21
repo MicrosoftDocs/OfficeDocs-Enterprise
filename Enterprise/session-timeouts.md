@@ -1,10 +1,10 @@
 ---
 title: "Session timeouts for Office 365"
-ms.author: sirkkuw
-author: Sirkkuw
+ms.author: tracyp
+author: MSFTTracyP
 manager: scotv
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
@@ -16,6 +16,8 @@ search.appverid:
 - MBS150
 - BCS160
 ms.assetid: 37a5c116-5b07-4f70-8333-5b86fd2c3c40
+ms.collection:
+- M365-security-compliance
 description: "Session timeouts are used to balance securtiy and ease of access  in Office 365 client apps."
 ---
 

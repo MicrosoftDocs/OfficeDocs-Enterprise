@@ -4,7 +4,7 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
 ms.date: 6/26/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -98,7 +98,7 @@ Here's a short link you can use to come back: [https://aka.ms/bgpexpressroute365
   
 ## Related Topics
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Azure ExpressRoute for Office 365](azure-expressroute.md)
   

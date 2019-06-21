@@ -3,8 +3,8 @@ title: "Designing networking for Microsoft Azure IaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
-ms.audience: ITPro
+ms.date: 11/28/2018
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Normal
@@ -87,11 +87,11 @@ There are two types of subnets in a VNet, a gateway subnet and a virtual machine
 
 ![Figure 3: The two types of subnets in Azure](media/2eaa512d-1293-4e9b-b927-6bfe0fc0acb4.png)
   
-Figure 3 shows a VNet containing a gateway subnet that contains an Azure gateway and a set of virtual machine-hosting subnets containing virtual machines.
+Figure 3 shows a VNet containing a gateway subnet that has an Azure gateway and a set of virtual machine-hosting subnets containing virtual machines.
   
-The Azure gateway subnet is needed by Azure to host the two virtual machines of your Azure gateway. Specify an address space with at least a 29-bit prefix length (example: 192.168.15.248/29). A 28-bit or smaller prefix length is recommended, especially if you are planning to use ExpressRoute.
+The Azure gateway subnet is needed by Azure to host the two virtual machines of your Azure gateway. Specify an address space with at least a 29-bit prefix length (example: 192.168.15.248/29). A 27-bit or smaller prefix length is recommended, especially if you are planning to use ExpressRoute.
   
-A best practice for determining the address space of the Azure gateway subnet is the following:
+A best practice for determining the address space of the Azure gateway subnet is:
   
 1. Decide on the size of the gateway subnet.
     
@@ -357,7 +357,7 @@ For the routing to on-premises or other VNets from a VNet, Azure forwards traffi
   
 Figure 15 shows a cross-premises VNet and the Local Network address space on the Azure gateway, which represents the reachable address space on the on-premises network. 
   
-You can define the Local Network address space in the following ways:
+You can define the Local Network address space in these ways:
   
 - Option 1: The list of prefixes for the address space currently needed or in use (updates might be needed when you add new subnets).
     
@@ -418,22 +418,17 @@ An example of an intranet IT workload hosted in Azure IaaS is a highly-available
 
 ![A high-availability SharePoint Server 2016 farm in Azure IaaS](media/3a922e21-df91-455f-ba90-78abdd48d98d.png)
   
-Figure 19 shows the nine servers of a SharePoint Server 2016 farm deployed in a cross-premises VNet that uses internal load balancers for the front-end and data tiers. For more information, including step-by-step design and deployment instructions, see [SharePoint Server 2016 in Microsoft Azure](https://technet.microsoft.com/library/mt779107%28v=office.16%29.aspx).
+Figure 19 shows the nine servers of a SharePoint Server 2016 farm deployed in a cross-premises VNet that uses internal load balancers for the front-end and data tiers. For more information, including step-by-step design and deployment instructions, see [SharePoint Server 2016 in Microsoft Azure](https://docs.microsoft.com/SharePoint/administration/sharepoint-server-2016-in-microsoft-azure).
   
 > [!TIP]
-> To create a single-server SharePoint Server 2016 farm in a simulated cross-premises VNet, see [Intranet SharePoint Server 2016 in Azure dev/test environment](https://technet.microsoft.com/library/mt806351%28v=office.16%29.aspx). 
+> To create a single-server SharePoint Server 2016 farm in a simulated cross-premises VNet, see [Intranet SharePoint Server 2016 in Azure dev/test environment](https://docs.microsoft.com/SharePoint/administration/intranet-sharepoint-server-2016-in-azure-dev-test-environment). 
   
-For additional examples of IT workloads deployed on virtual machines in a cross-premises Azure virtual network, see [Hybrid cloud scenarios for Azure IaaS](https://technet.microsoft.com/library/mt750502.aspx).
+For additional examples of IT workloads deployed on virtual machines in a cross-premises Azure virtual network, see [Hybrid cloud scenarios for Azure IaaS](https://docs.microsoft.com/office365/enterprise/hybrid-cloud-scenarios-for-azure-iaas).
   
 ## See also
-
-<a name="cross_prem"> </a>
 
 [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
 
 

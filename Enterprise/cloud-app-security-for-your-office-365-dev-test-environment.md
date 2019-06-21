@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 07/05/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -22,12 +22,12 @@ description: "Summary: Configure and demonstrate Office 365 Cloud App Security i
 
  **Summary:** Configure and demonstrate Office 365 Cloud App Security in your Office 365 dev/test environment.
   
-Office 365 Cloud App Security, previously known as Office 365 Advanced Security Management, allows you to create policies that monitor for and inform you of suspicious activities in your Office 365 subscription, so that you can investigate and take possible remediation action. For more information, see [Overview of Cloud App Security in Office 365](https://support.office.com/article/Overview-of-Advanced-Security-Management-in-Office-365-81f0ee9a-9645-45ab-ba56-de9cbccab475).
+Office 365 Cloud App Security, previously known as Office 365 Advanced Security Management, lets you create policies that monitor for and inform you of suspicious activities in your Office 365 subscription, so that you can investigate and take possible remediation action. For more information, see [Overview of Cloud App Security in Office 365](https://support.office.com/article/Overview-of-Advanced-Security-Management-in-Office-365-81f0ee9a-9645-45ab-ba56-de9cbccab475).
   
 With the instructions in this article, you enable and test Cloud App Security in your Office 365 trial subscription.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Build out your lightweight or simulated enterprise Office 365 dev/test environment
 
@@ -36,7 +36,7 @@ If you just want to test Cloud App Security in a lightweight way with the minimu
 If you want to test Cloud App Security in a simulated enterprise, follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
   
 > [!NOTE]
-> Testing Cloud App Security does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can test Cloud App Security and experiment with it in an environment that represents a typical organization. 
+> Testing Cloud App Security does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for an Active Directory Domain Services (AD DS) forest. It is provided here as an option so that you can test Cloud App Security and experiment with it in an environment that represents a typical organization. 
   
 ## Phase 2: Before enabling Cloud App Security and creating a policy
 
@@ -44,7 +44,7 @@ In this procedure, you demonstrate that before enabling Cloud App Security, chan
   
 ### Test the default notification behavior of Office 365
 
-1. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in to your Office 365 trial subscription with your global administrator account.
+1. Go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) and sign in to your Office 365 trial subscription with your global administrator account.
     
   - If you are using the lightweight Office 365 dev/test environment, sign in from your local computer.
     
@@ -74,7 +74,7 @@ In this procedure, you enable Cloud App Security and create a new policy to send
     
 ### Enable and configure Cloud App Security
 
-1. Go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) and sign in to your Office 365 trial subscription with your global administrator account.
+1. Go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) and sign in to your Office 365 trial subscription with your global administrator account.
     
 2. Click the **Admin** tile. On the **Office Admin center** tab, click **Admin centers > Security & Compliance**.
     
@@ -106,7 +106,7 @@ In this procedure, you demonstrate how Cloud App Security creates alerts and sen
 
 1. In the upper-right, click the user icon, and then click **Sign out**.
     
-2. Go to [https://portal.office.com](https://portal.office.com).
+2. Go to [https://www.office.com](https://www.office.com).
     
 3. On the Office 365 sign in page, click **Use another account**.
     
@@ -130,13 +130,13 @@ In this procedure, you demonstrate how Cloud App Security creates alerts and sen
     
 13. Click the user icon in the upper-right, and then click **Sign out**. 
     
-14. Go to [https://portal.office.com](https://portal.office.com).
+14. Go to [https://www.office.com](https://www.office.com).
     
 15. On the **Office 365 sign in** page, click your global administrator account name.
     
 16. Type the password, and then click **Sign in**.
     
-17. From the main portal page, click **Admin**.
+17. From the Office 365 portal page, click **Admin**.
     
 18. Click the **Security &amp; Compliance** tile.
     

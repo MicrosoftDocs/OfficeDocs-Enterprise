@@ -3,8 +3,8 @@ title: "Azure ExpressRoute for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/29/2018
-ms.audience: ITPro
+ms.date: 6/5/2019
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,10 +22,10 @@ description: "Learn how Azure ExpressRoute is used with Office 365 and how to pl
 
 # Azure ExpressRoute for Office 365
 
-Learn how Azure ExpressRoute is used with Office 365 and how to plan the network implementation project that will be required if you are deploying Azure ExpressRoute for use with Office 365. Infrastructure and platform services running in Azure will often benefit by addressing network architecture and performance considerations. We recommend ExpressRoute for Azure in these cases. Software as a Service offerings like Office 365 and Dynamics 365 have been built to be accessed securely and reliably via the Internet. Accordingly, we only recommend ExpressRoute for these applications in specific scenarios. You can read about Internet performance and security and when you might consider Azure ExpressRoute for Office 365 in the article [Network connectivity to Office 365](network-connectivity.md).
+Learn how Azure ExpressRoute is used with Office 365 and how to plan the network implementation project that will be required if you are deploying Azure ExpressRoute for use with Office 365. Infrastructure and platform services running in Azure will often benefit by addressing network architecture and performance considerations. We recommend ExpressRoute for Azure in these cases. Software as a Service offerings like Office 365 and Dynamics 365 have been built to be accessed securely and reliably via the Internet. You can read about Internet performance and security and when you might consider Azure ExpressRoute for Office 365 in the article [Assessing Office 365 network connectivity](assessing-network-connectivity.md).
 
 > [!NOTE]
-> Starting July 31st, 2017, you can enable Microsoft Peering directly from the Azure Administrative console or using PowerShell. After enabling Microsoft Peering, you can create route filters to receive specific BGP route advertisements. You'll need authorization to create filters for Office 365 and can create Dynamics 365 Customer Engagement applications (formerly known as CRM Online) filters at any time. Talk to your Microsoft Account team about the process to obtain authorization to create Office 365 route filters. Unauthorized subscriptions trying to create route filters for Office 365 will receive an [error message](https://support.microsoft.com/kb/3181709)
+> Microsoft authorization is required to use ExpressRoute for Office 365. Microsoft reviews every customer request and authorizes ExpressRoute for Office 365 usage when a customer's regulatory requirement mandates direct connectivity. If you have such requirements, please provide the text excerpt and web link to the regulation which you interpret to mean that direct connectivity is required in the [ExpressRoute for Office 365 Request Form](https://aka.ms/O365ERReview) to begin a Microsoft review. Unauthorized subscriptions trying to create route filters for Office 365 will receive an [error message](https://support.microsoft.com/kb/3181709).
 
 You can now add a direct network connection to Office 365 for selected Office 365 network traffic. Azure ExpressRoute offers a direct connection, predictable performance, and comes with an uptime SLA of 99.95% for the Microsoft networking components. You'll still require an internet connection for services that aren't supported over Azure ExpressRoute.
 
@@ -45,8 +45,6 @@ Now look at the updated diagram which depicts an Office 365 customer who uses bo
 
 Still want more information? Learn how to [manage your network traffic with Azure ExpressRoute for Office 365](https://support.office.com/article/e1da26c6-2d39-4379-af6f-4da213218408) and learn how to [configure Azure ExpressRoute for Office 365](https://azure.microsoft.com/documentation/articles/expressroute-faqs/). We've also recorded a 10 part [Azure ExpressRoute for Office 365 Training](https://channel9.msdn.com/series/aer) series on Channel 9 to help explain the concepts more thoroughly.
 
-([Azure ExpressRoute for Office 365](azure-expressroute.md#BKMK_HOME))
-
 ## What Office 365 services are included?
 <a name="BKMK_WhatDoIGet"> </a>
 
@@ -62,8 +60,6 @@ The following table lists the Office 365 services that are supported over Expres
 <sup>1</sup>Each of these applications have internet connectivity requirements not supported over ExpressRoute, see the [Office 365 endpoints article](https://aka.ms/o365endpoints) for more information.
 
 The services that aren't included with ExpressRoute for Office 365 are Office 365 ProPlus client downloads, On-premises Identity Provider Sign-In, and Office 365 (operated by 21 Vianet) service in China.
-
-([Azure ExpressRoute for Office 365](azure-expressroute.md#BKMK_HOME))
 
 ## Implementing ExpressRoute for Office 365
 
@@ -95,12 +91,9 @@ Here's a short link you can use to come back: [https://aka.ms/expressrouteoffice
 
 Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
 
-([Azure ExpressRoute for Office 365](azure-expressroute.md#BKMK_HOME))
-
 ## Related Topics
-<a name="BKMK_End"> </a>
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 [Managing ExpressRoute for Office 365 connectivity](managing-expressroute-for-connectivity.md)
 
@@ -118,6 +111,6 @@ Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
 
 [Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
 
-[Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)
+[Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)

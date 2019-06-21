@@ -1,14 +1,15 @@
 ---
 title: "Plan for third-party SSL certificates for Office 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/24/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- M365-subscription-management
 ms.custom: Adm_O365
 search.appverid:
 - MET150
@@ -23,7 +24,7 @@ description: "Summary: Describes the SSL certificates needed for Exchange on-pre
 
  **Summary:** Describes the SSL certificates needed for Exchange on-premises and hybrid, SSO using AD FS, Exchange Online services, and Exchange Web Services. 
   
-To encrypt communications between your clients and theOffice 365Office 365 environment, third-party Secure Socket Layer (SSL) certificates must be installed on your infrastructure servers.
+To encrypt communications between your clients and the Office 365 environment, third-party Secure Socket Layer (SSL) certificates must be installed on your infrastructure servers.
 
 ||
 |:-----|
@@ -45,7 +46,7 @@ For an overview about how to use digital certificates to make the communication 
   
 ## Certificates for Single Sign-On
 
-To provide your users with a simplified single sign-on experience that includes robust security, the certificates shown in the following table are required on either the federation servers or the federation server proxies. The table below focuses on Active Directory Federation Services (AD FS), we also have more information on [using third-party identity providers](https://go.microsoft.com/fwlink/?LinkId=532869).
+To provide your users with a simplified single sign-on experience that includes robust security, the certificates shown in the following table are required on either the federation servers or the federation server proxies. The table below focuses on Active Directory Federation Services (AD FS), we also have more information on [using third-party identity providers](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-compatibility).
   
 ||||
 |:-----|:-----|:-----|

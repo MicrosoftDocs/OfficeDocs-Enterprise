@@ -1,16 +1,18 @@
 ---
 title: "Prepare a non-routable domain for directory synchronization"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365E_SetupDirSyncLocalDir'
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:
+- Ent_O365
+- M365-identity-device-management
 search.appverid:
 - MET150
 - MOE150
@@ -27,7 +29,7 @@ If you currently use a .local domain for your user accounts in Active Directory 
   
 ## What if I only have a .local on-premises domain?
 
-The most recent tool you can use for synchronizing your Active Directory to Azure Active Directory is named Azure AD Connect. For more information, see [Integrating your on-premises identities with Azure Active Directory](https://go.microsoft.com/fwlink/p/?LinkId=624168).
+The most recent tool you can use for synchronizing your Active Directory to Azure Active Directory is named Azure AD Connect. For more information, see [Integrating your on-premises identities with Azure Active Directory](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/azure-ad).
   
 Azure AD Connect synchronizes your users' UPN and password so that users can sign in with the same credentials they use on-premises. However, Azure AD Connect only synchronizes users to domains that are verified by Office 365. This means that the domain also is verified by Azure Active Directory because Office 365 identities are managed by Azure Active Directory. In other words, the domain has to be a valid Internet domain (for example, .com, .org, .net, .us, etc.). If your internal Active Directory only uses a non-routable domain (for example, .local), this can't possibly match the verified domain you have on Office 365. You can fix this issue by either changing your primary domain in your on premises Active Directory, or by adding one or more UPN suffixes.
   

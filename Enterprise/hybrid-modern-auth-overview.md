@@ -4,12 +4,13 @@ ms.author: tracyp
 ms.reviewer: smithre4
 author: MSFTTracyP
 manager: laurawi
-ms.date: 10/02/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: ef753b32-7251-4c9e-b442-1a5aec14e58d
+ms.collection:
+- M365-security-compliance
 description: "Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information."
 ---
 
@@ -23,7 +24,7 @@ Modern Authentication is a method of identity management that offers more secure
     
 - [Check the Modern Authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
     
-- [Do you meet Modern Authentication prerequisites?](hybrid-modern-auth-overview.md#BKMK_MeetPrereq)
+- [Do you meet Modern Authentication prerequisites?](#do-you-meet-modern-authentication-prerequisites)
     
 - [What else do I need to know before I begin?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
     
@@ -36,7 +37,7 @@ When talking about communication between a client (for example, your laptop or y
   
 Modern authentication is an umbrella term for a combination of authentication and authorization methods, as well as some security measures that rely on access policies that you may already be familiar with. It includes:
   
-- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication; and the Active Directory Authentication Library ( [ADAL](https://technet.microsoft.com/en-us/library/mt710548.aspx)).
+- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication.
     
 - **Authorization methods**: Microsoft's implementation of Open Authorization (OAuth). 
     
@@ -82,7 +83,19 @@ Verify and check these items off your list before you continue:
     
   - Your SIP domain is added as a Federated domain in Office 365
     
-  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 1 and 2 of the 'Office 365 authentication and identity' section of [Office 365 URLs and IP address ranges](https://www.bing.com/search?q=%22Office+365+URLs+and+IP+address+ranges%22&amp;src=IE-SearchBox&amp;FORM=IESR3N&amp;redir=5&amp;itrid=96B6C7422F9F4019B37C1B7FDAF8831E).
+  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office Online' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
+  
+- **Skype for Business on-premises in a hybrid Office 365 environment**
+  - A Skype for Business Server 2019 deployment with all servers running Skype for Business Server 2019.
+  
+  - A Skype for Business Server 2015 deployment with all servers running Skype for Business Server 2015.
+  
+  - A deployment with a maximum of two different server versions as listed below:
+  
+     - Skype for Business Server 2015 and Skype for Business Server 2019
+     
+  - All Skype for Business servers must have the latest cummulative updates installed, see [Skype for Business Server updates](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates) to find and manage all available updates.
+  - There is no Lync Server 2010 or 2013 in the hybrid environment.
     
  **Note** If your Skype for Business front-end servers use a proxy server for Internet access, the proxy server IP and Port number used must be entered in the configuration section of the web.config file for each front end. 
   
@@ -103,7 +116,7 @@ Verify and check these items off your list before you continue:
 ```
     
 > [!IMPORTANT]
-> Be sure to subscribe to the RSS feed for [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) to stay current with the latest listings of required URLs. 
+> Be sure to subscribe to the RSS feed for [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md) to stay current with the latest listings of required URLs. 
   
 - **Exchange Server specific**
     
@@ -113,7 +126,17 @@ Verify and check these items off your list before you continue:
     
   - SSL Offloading is not configured. SSL termination and re-encryption is supported.
     
-  - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/en-us/library/bb123716%28v=exchg.160%29.aspx) property.
+  - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx) property.
+  
+- **Exchange Server on-premises in a hybrid Office 365 environment**
+
+  - If you are using Exchange server 2013, At least one server must have the Mailbox and Client Access server roles installed. While it is possible to install the Mailbox and Client Access roles on separate servers, we strongly recommend that you install both roles on each server to provide additional reliability and improved performance.
+  
+  - If you are using Exchange server 2016 or later version, at least one server must have the Mailbox server role installed.
+  
+  - There is no Exchange server 2007 or 2010 in the Hybrid environment.
+  
+  - All Exchange servers must have the latest cummulative updates installed, see [Upgrade Exchange to the latest Cumulative Updates](https://docs.microsoft.com/en-us/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019) to find and manage all available updates.
     
 - **Exchange client and protocol requirements**
   
@@ -134,9 +157,10 @@ Verify and check these items off your list before you continue:
     
   - You have AAD Connect configured and functioning for user replication and sync.
     
-  - You have verified that hybrid is working between your on-premises and Office 365:
+  - You have verified that hybrid is configured using Exchange Classic Hybrid Topology mode between your on-premises and Office 365 environment. Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
     
-  - Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
+    > [!Note]
+    > Hybrid Modern Authentication is not supported with the [Hybrid Agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
     
   - Make sure both an on-premises test user, as well as a hybrid test user homed in Office 365, can login to the Skype for Business desktop client (if you want to use Modern Authentication with Skype) and Microsoft Outlook (if you want so use Modern Authentication with Exchange).
     

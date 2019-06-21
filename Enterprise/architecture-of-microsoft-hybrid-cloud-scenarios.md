@@ -3,8 +3,8 @@ title: "Architecture of Microsoft hybrid cloud scenarios"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
-ms.audience: ITPro
+ms.date: 11/30/2018
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -28,7 +28,7 @@ Use an architectural approach to plan and implement hybrid cloud scenarios with 
   
 Figure 1 shows the Microsoft hybrid cloud stack and its layer, which include on-premises, network, Identity, apps and scenarios, and the category of cloud service (Microsoft SaaS, Azure PaaS, and Azure PaaS).
   
-The Apps and scenarios layer contains the specific hybrid cloud scenarios that are detailed in the additional articles of this model. The Identity, Network, and On-premises layers can be common to the categories of cloud service (SaaS, PaaS, or PaaS).
+The Apps and scenarios layer has the specific hybrid cloud scenarios that are detailed in the additional articles of this model. The Identity, Network, and On-premises layers can be common to the categories of cloud service (SaaS, PaaS, or PaaS).
   
 - On-premises
     
@@ -40,7 +40,7 @@ The Apps and scenarios layer contains the specific hybrid cloud scenarios that a
     
 - Identity
     
-    For cloud identity infrastructure, there are two ways to go, depending on the Microsoft cloud platform. For SaaS and Azure PaaS, integrate your on-premises identity infrastructure with Azure AD or federate with your on-premises identity infrastructure or third-party identity providers. For VMs running in Azure, you can extend your on-premises identity infrastructure, such as Windows Server AD, to the virtual networks (VNets) where your VMs reside.
+    For cloud identity infrastructure, there are two ways to go, depending on the Microsoft cloud platform. For SaaS and Azure PaaS, integrate your on-premises identity infrastructure with Azure AD or federate with your on-premises identity infrastructure or third-party identity providers. For VMs running in Azure, you can extend your on-premises identity infrastructure, such as Active Directory Domain Services (AD DS), to the virtual networks (VNets) where your VMs reside.
     
 ## Hybrid cloud scenarios for the three-phase cloud adoption process
 
@@ -63,8 +63,4 @@ Many enterprises, including Microsoft's, use a three-phase approach to adopting 
 [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
-
 

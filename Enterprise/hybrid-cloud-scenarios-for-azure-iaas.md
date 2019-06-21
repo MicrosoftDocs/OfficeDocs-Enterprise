@@ -3,8 +3,8 @@ title: "Hybrid cloud scenarios for Azure IaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
-ms.audience: ITPro
+ms.date: 11/30/2018
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -36,7 +36,7 @@ For each layer of the architecture:
     
 - Identity
     
-    Add identity servers, such as Windows Server AD domain controllers, to the set of servers running in Azure VNets for local authentication.
+    Add identity servers, such as Active Directory Domain Services (AD DS) domain controllers, to the set of servers running in Azure VNets for local authentication.
     
 - Network
     
@@ -46,23 +46,23 @@ For each layer of the architecture:
     
     Contains identity servers that are synchronized with the identity servers running in Azure. Can also contain resources that VMs running in Azure can access, such as storage and systems management infrastructure.
     
-## DirSync server for Office 365
+## Directory synchronization server for Office 365
 
-Running your directory synchronization (DirSync) server from an Azure VNet, as shown in Figure 2, is an example of extending your computing and identity infrastructure to the cloud.
+Running your directory synchronization server from an Azure VNet, as shown in Figure 2, is an example of extending your computing and identity infrastructure to the cloud.
   
-**Figure 2: DirSync server for Office 365 in Azure IaaS**
+**Figure 2: Directory synchronization server for Office 365 in Azure IaaS**
 
-![DirSync server for Office 365 in Azure IaaS](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-DirSync.png)
+![Directory synchronization server for Office 365 in Azure IaaS](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-DirSync.png)
   
-In Figure 2, an on-premises network hosts a Windows Server AD infrastructure, with a proxy server and a router at its edge. The router connects to an Azure gateway at the edge of an Azure VNet with a site-to-site VPN or ExpressRoute connection. Inside the VNet, a DirSync server runs Azure AD Connect.
+In Figure 2, an on-premises network hosts a AD DS infrastructure, with a proxy server and a router at its edge. The router connects to an Azure gateway at the edge of an Azure VNet with a site-to-site VPN or ExpressRoute connection. Inside the VNet, a directory synchronization server runs Azure AD Connect.
   
-A DirSync server for Office 365 synchronizes the list of accounts in Windows Server AD with the Azure AD tenant of an Office 365 subscription.
+A directory synchronization server for Office 365 synchronizes the list of accounts in AD DS with the Azure AD tenant of an Office 365 subscription.
   
-A DirSync server is a Windows-based server that runs Azure AD Connect. For faster provisioning or to reduce the number of on-premises servers in your organization, deploy your DirSync server in a virtual network (VNet) in Azure IaaS.
+A directory synchronization server is a Windows-based server that runs Azure AD Connect. For faster provisioning or to reduce the number of on-premises servers in your organization, deploy your directory synchronization server in a virtual network (VNet) in Azure IaaS.
   
-The DirSync server polls Windows Server AD for changes and then synchronizes them with the Office 365 subscription.
+The directory synchronization server polls AD DS for changes and then synchronizes them with the Office 365 subscription.
   
-For more information, see [Set up directory synchronization for Office 365](set-up-directory-synchronization.md).
+For more information, see [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md).
   
 ## Line of business (LOB) application
 
@@ -152,13 +152,13 @@ Another example of a multi-tier, highly-available LOB application in Azure is fe
   
 **Figure 5: A high-availability federated identity infrastructure for Office 365 in Azure IaaS**
 
-![The final configuration of the high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-ADFS.png)
+![A high availability Office 365 federated authentication infrastructure in Azure](media/Hybrid-Poster/Hybrid-Cloud-Stack-IaaS-ADFS.png)
   
-In Figure 5, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. The Azure VNet contains web proxy servers, Active Directory Federation Services (AD FS) servers, and Windows Server Active Directory (AD) domain controllers.
+In Figure 5, an on-premises network hosts an identity infrastructure and users. It is connected to an Azure IaaS gateway with a site-to-site VPN or ExpressRoute connection. The Azure VNet contains web proxy servers, Active Directory Federation Services (AD FS) servers, and Active Directory Domain Services (AD DS) domain controllers.
   
 This configuration has the following attributes of LOB applications in Azure:
   
-- **Tiers:** There are tiers for web proxy servers, AD FS servers, and Windows Server AD domain controllers.
+- **Tiers:** There are tiers for web proxy servers, AD FS servers, and AD DS domain controllers.
     
 - **Load distribution:** An external Azure load balancer distributes the incoming client authentication requests to the web proxies and an internal Azure load balancer distributes authentication requests to the AD FS servers.
     
@@ -172,19 +172,11 @@ Follow this path for successful adoption:
     
     See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) to step through the end-to-end configuration of the high availability AD FS infrastructure in five phases.
     
-See these additional resources:
-  
-- [Architecting Hybrid Cloud Environments](https://gallery.technet.microsoft.com/Architecting-Hybrid-Cloud-a7dc9f24/file/147475/1/Architecting%20Hybrid%20Cloud%20Environments%20V1.docx)
-    
-- [Design and Build an LOB application in Azure ](https://techcommunity.microsoft.com/t5/CAAB-Cloud-Adoption-Advisory/EXTRA-November-2016-Webinar/m-p/30058#M41)
     
 ## See Also
 
 [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
 
 

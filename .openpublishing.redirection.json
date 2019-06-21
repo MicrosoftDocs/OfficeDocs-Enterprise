@@ -340,12 +340,88 @@
 
         "redirect_document_id": false
 
-      }
+      },
+      {
 
+        "source_path": "enterprise/microsoft-cloud-storage-for-enterprise-architects.md",
 
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
 
+        "redirect_document_id": true
 
+      },
+      {
 
+        "source_path": "enterprise/designing-storage-for-the-microsoft-cloud.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/move-in-ready.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/some-assembly-required.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/manage-office-365-groups-with-powershell.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/build-from-the-ground-up.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
+
+        "redirect_document_id": false
+
+      },
+      {
+
+        "source_path": "enterprise/using-content-delivery-networks-with-sharepoint-online.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/use-office-365-cdn-with-spo",
+
+        "redirect_document_id": true
+        
+     },
+     {
+
+       "source_path": "Enterprise/using-azure-ad-for-SharePoint-Server-authentication.md",
+
+       "redirect_url": "https://docs.microsoft.com/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial",
+
+       "redirect_document_id": false
+       
+    },
+    {
+
+      "source_path": "enterprise/network-connectivity.md",
+
+      "redirect_url": "https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity",
+
+      "redirect_document_id": true
+      
+   }
   ]
 
 }

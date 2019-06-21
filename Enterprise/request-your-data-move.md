@@ -3,8 +3,8 @@ title: "How to request your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 09/05/2018
-ms.audience: ITPro
+ms.date: 03/15/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -34,12 +34,11 @@ We are unable to accept requests to be moved after the deadline in each geo.
 |United Kingdom  <br/> |March 15, 2017  <br/> |September 15, 2017  <br/> |
 |South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
+|United Arab Emirates  <br/> |Planned  <br/> |Planned  <br/> |
+|South Africa  <br/> |Planned  <br/> |Planned  <br/> |
    
 ## How to request a move
 
-> [!NOTE]
-> This option is only available on the Office 365 admin center Preview. For instructions on how to access this, see [Office 365 for business - Admin Help](https://aka.ms/365admin). All requests for moves need to be done through the Office 365 admin center. Support will not be able to make this selection for you or override your selection. 
-  
 Eligible customers will see a page in their [Office 365 Admin Center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
 To access the page in the Office 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
@@ -75,7 +74,7 @@ After requesting a move, it is not possible to change your selection as we begin
   
 ## Microsoft Teams
 
-Microsoft Teams does not yet support migration of customer content at rest from in-region to in-country data centers where data residency for Microsoft Teams is available.  Therefore, only new customers will have all of their data stored within country in the new regions where Microsoft Teams supports data residency.  Learn more about Office 365 data residency for your company location at [Where is your data located?](https://office/com/datamaps)   
+Microsoft Teams does not yet support migration of customer content at rest from in-region to in-country data centers where data residency for Microsoft Teams is available.  Therefore, only new customers will have all of their data stored within country in the new regions where Microsoft Teams supports data residency.  Learn more about Office 365 data residency for your company location at [Where is your data located?](https://products.office.com/where-is-your-data-located)   
 
 ## Optional actions before you request a move
 

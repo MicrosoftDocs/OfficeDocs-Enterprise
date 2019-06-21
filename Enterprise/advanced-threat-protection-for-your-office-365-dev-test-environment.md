@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -33,7 +33,7 @@ If you just want to test ATP in a lightweight way with the minimum requirements,
 If you want to test ATP in a simulated enterprise, follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
   
 > [!NOTE]
-> Testing ATP does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can test ATP and experiment with it in an environment that represents a typical organization. 
+> Testing ATP does not require the simulated enterprise dev/test environment, which includes a simulated intranet connected to the Internet and directory synchronization for an Active Directory Domain Services (AD DS) forest. It is provided here as an option so that you can test ATP and experiment with it in an environment that represents a typical organization. 
   
 ## Phase 2: Demonstrate the default email delivery behavior of Office 365
 
@@ -71,7 +71,7 @@ In this phase, you demonstrate that before configuring ATP policies, potentially
     
 14. In **URL**, type **http://www.spamlink.contoso.com/**, click **OK**, and then click **Send**.
     
-15. Open a separate instance of Internet Explorer in private browsing mode, go to the Office 365 portal ([https://portal.office.com](https://portal.office.com)), and sign in to your Office 365 trial subscription with your global administrator account.
+15. Open a separate instance of Internet Explorer in private browsing mode, go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)), and sign in to your Office 365 trial subscription with your global administrator account.
     
 16. From the main portal page, click the apps tile, and then click **Mail**.
     
@@ -151,7 +151,7 @@ In this phase, you demonstrate how ATP deals with potentially malicious email.
 You can now use this environment to create new policies and experiment with ATP.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## See Also
 
@@ -162,8 +162,6 @@ You can now use this environment to create new policies and experiment with ATP.
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-  
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md) 
 

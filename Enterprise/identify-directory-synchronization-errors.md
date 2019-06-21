@@ -1,14 +1,16 @@
 ---
 title: "View directory synchronization errors in Office 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
+ms.collection:
+- Ent_O365
+- M365-identity-device-management
 search.appverid:
 - MET150
 - MOE150
@@ -16,12 +18,12 @@ search.appverid:
 - MBS150
 - GPA150
 ms.assetid: b4fc07a5-97ea-4ca6-9692-108acab74067
-description: "Learn how to view directory synchronization errors in Office 365 admin center."
+description: "Learn how to view directory synchronization errors in Microsoft 365 admin center."
 ---
 
 # View directory synchronization errors in Office 365
 
-You can view directory synchronization errors in the Office 365 admin center. Only the User object errors are displayed. To view errors by using PowerShell, see [Identify objects with DirSyncProvisioningErrors](https://go.microsoft.com/fwlink/p/?LinkId=798300).
+You can view directory synchronization errors in the [Microsoft 365 admin center](https://admin.microsoft.com). Only the User object errors are displayed. To view errors by using PowerShell, see [Identify objects with DirSyncProvisioningErrors](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency).
 
 After viewing, see [fixing problems with directory synchronization for Office 365](fix-problems-with-directory-synchronization.md) to correct any identified issues.
   
@@ -31,7 +33,7 @@ To view any errors in the admin center:
   
 1. Sign in to Office 365 with your work or school account. 
     
-2. Go to the [About the Office 365 admin center](https://support.office.com/article/758befc4-0888-4009-9f14-0d147402fd23).
+2. Go to the [About the admin center](https://support.office.com/article/758befc4-0888-4009-9f14-0d147402fd23).
     
 3. On the **Home** page you will see the **DirSync Status** tile. 
     

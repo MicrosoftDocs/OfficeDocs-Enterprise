@@ -3,7 +3,7 @@ title: "Navigation options for SharePoint Online"
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -188,7 +188,7 @@ This approach involves creating a custom master page and replacing the out-of-th
 var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;
 ```
 <br/>
-8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.heirarchy. This array is the object that is bound to the HTML. This is done in the toggleView() function by passing the self object to the ko.applyBinding() function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>
+8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.hierarchy. This array is the object that is bound to the HTML. This is done in the toggleView() function by passing the self object to the ko.applyBinding() function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>
 
 ```
 <div data-bind=”foreach: hierarchy” class=”noindex ms-core-listMenu-horizontalBox”>

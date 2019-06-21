@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 07/12/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
 localization_priority: Priority
@@ -80,7 +80,7 @@ Some virtual machine images have trial versions of applications installed and ne
   
 ### User accounts
 
-User accounts for all of Microsoft's cloud offerings are stored in an Azure Active Directory (AD) tenant, which contains user accounts and groups. An Azure AD tenant can be synchronized with your existing Windows Server AD accounts using Azure AD Connect, a Windows server-based service. This is known as directory synchronization (DirSync).
+User accounts for all of Microsoft's cloud offerings are stored in an Azure Active Directory (AD) tenant, which contains user accounts and groups. An Azure AD tenant can be synchronized with your existing Active Directory Domain Services (AD DS) accounts using Azure AD Connect, a Windows server-based service. This is known as directory synchronization (DirSync).
   
 Figure 3 shows an example of multiple subscriptions of an organization using a common Azure AD tenant that contains the organization's accounts.
   
@@ -124,13 +124,13 @@ Here is an example of the relationship of organizations, subscriptions, licenses
     
   - The organization's user accounts in a common Azure AD tenant.
     
-Multiple Microsoft cloud offering subscriptions can use the same Azure AD tenant that acts as a common identity provider. A central Azure AD tenant that contains the synchronized accounts of your on-premises Windows Server AD provides cloud-based Identity as a Service (IDaaS) for your organization. This is shown in Figure 4.
+Multiple Microsoft cloud offering subscriptions can use the same Azure AD tenant that acts as a common identity provider. A central Azure AD tenant that contains the synchronized accounts of your on-premises AD DS provides cloud-based Identity as a Service (IDaaS) for your organization. This is shown in Figure 4.
   
 **Figure 4: Synchronized on-premises accounts and IDaaS for an organization**
 
 ![Identity as a Service (IaaS) IDaaS for your organization.](media/Subscriptions/Subscriptions-Fig4.png)
   
-Figure 4 shows how a common Azure AD tenant is utilized by Microsoft's SaaS cloud offerings, Azure PaaS apps, and virtual machines in Azure IaaS that use Azure AD Domain Services. Azure AD Connect synchronizes the on-premises Windows Server AD forest with the Azure AD tenant.
+Figure 4 shows how a common Azure AD tenant is used by Microsoft's SaaS cloud offerings, Azure PaaS apps, and virtual machines in Azure IaaS that use Azure AD Domain Services. Azure AD Connect synchronizes the on-premises AD DS forest with the Azure AD tenant.
   
 For more information about identity integration across Microsoft's cloud offerings, see [Microsoft Cloud Identity for Enterprise Architects](https://aka.ms/cloudarchidentity).
   
@@ -140,14 +140,14 @@ The following table describes how you can combine multiple Microsoft cloud offer
   
 ||**Office 365**|**Azure**|**Intune/EMS**|**Dynamics 365**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Office 365** <br/> |NA  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization from the Office 365 portal.  <br/> |You add a Dynamics 365 subscription to your organization from the Office 365 portal.  <br/> |
+|**Office 365** <br/> |NA  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization from the Microsoft 365 admin center.  <br/> |You add a Dynamics 365 subscription to your organization from the Microsoft 365 admin center.  <br/> |
 |**Azure** <br/> |You add an Office 365 subscription to your organization.  <br/> |NA  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
 |**Intune/EMS** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |NA  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
 |**Dynamics 365** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |NA  <br/> |
    
 An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the Office 365 Admin center:
   
-1. Sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) with your global administrator account, and then click **Admin**.
+1. Sign in to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) with your global administrator account.
     
 2. From the left navigation of the **Admin center** home page, click **Billing**, and then **Purchase services**.
     
@@ -163,8 +163,8 @@ To add an Azure subscription with the same organization and Azure AD tenant as y
     
 3. On the **Add subscription** page, select an offer and complete the payment information and agreement.
     
-If you purchased Azure and Office 365 subscriptions separately and want to access the Office 365 Azure AD tenant from your Azure subscription, see the instructions in [Associate an Office 365 tenant with an Azure subscription](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Associate-an-Office-365-tenant-with-an-Azure-subscription).
-  
+If you purchased Azure and Office 365 subscriptions separately and want to access the Office 365 Azure AD tenant from your Azure subscription, see the instructions in [Associate or add an Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+ 
 ## See Also
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

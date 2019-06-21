@@ -1,18 +1,18 @@
 ---
-title: "Move a OneDrive site to a different geo-location"
+title: "Move a OneDrive site to a different geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
-description: "Learn how to move a OneDrive site to a different geo-location."
+description: "Learn how to move a OneDrive site to a different geo location."
 ---
 
-# Move a OneDrive site to a different geo-location 
+# Move a OneDrive site to a different geo location 
 
 With OneDrive geo move, you can move a user’s OneDrive to a different geo location. OneDrive geo move is performed by the SharePoint Online administrator or the Office 365 global administrator. Before you start a OneDrive geo move, be sure to notify the user whose OneDrive is being moved and recommend they close all files for the duration of the move. (If the user has a document open using the Office client during the move, then upon move completion the document will need to be saved to the new location.) The move can be scheduled for a future time, if desired.
 
@@ -24,7 +24,7 @@ The procedures in this article require the [Microsoft SharePoint Online PowerShe
 
 ## Communicating to your users
 
-When moving OneDrive sites between geo-locations, it's important to communicate to your users what to expect. This can help reduce user confusion and calls to your help desk. Email your users before the move and let them know the following information:
+When moving OneDrive sites between geo locations, it's important to communicate to your users what to expect. This can help reduce user confusion and calls to your help desk. Email your users before the move and let them know the following information:
 
 - When the move is expected to start and how long it is expected to take
 - What geo location their OneDrive is moving to, and the URL to access the new location
@@ -54,7 +54,7 @@ For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, 
 
 `connect-sposervice -url https://contosoenergyeur-admin.sharepoint.com`
 
-![](media/move-onedrive-between-geo-locations-image1.png)
+![Screenshot of PowerShell window showing connect-sposervice cmdlet](media/move-onedrive-between-geo-locations-image1.png)
 
 ## Validating the environment
 
@@ -62,9 +62,11 @@ Before you start a OneDrive geo move, we recommend that you validate the environ
 
 To ensure that all geo locations are compatible, run:
 
-`Get-SPOGeoMoveCompatibilityStatus -AllLocations 1`
+`Get-SPOGeoMoveCrossCompatibilityStatus`
 
-If a OneDrive is under legal hold or if it contains a subsite, it cannot be moved. You can use the Start-SPOUserAndContentMove cmdlet with the -ValidationOnly parameter to validate if the OneDrive is able to be moved:
+You will see a list of your geo locations and whether content can be moved between will be denoted as "Compatible". If the command returns "Incompatible" please retry validating the status at a later date.
+
+If a OneDrive contains a subsite, for example, it cannot be moved. You can use the Start-SPOUserAndContentMove cmdlet with the -ValidationOnly parameter to validate if the OneDrive is able to be moved:
 
 `Start-SPOUserAndContentMove -UserPrincipalName <UPN> -DestinationDataLocation <DestinationDataLocation> -ValidationOnly`
 
@@ -82,14 +84,11 @@ Using these parameters:
 
 -   _DestinationDataLocation_ – Geo-Location where the OneDrive needs to be moved. This should be same as the user’s preferred data location.
 
-> [!NOTE]
-> We recommend running `Get-SPOGeoMoveStateCompatibility` with `ValidationOnly` prior to initiating OneDrive geo move.
-
 For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR to AUS, run:
 
 `Start-SPOUserAndContentMove -UserPrincipalName matt@contosoenergy.onmicrosoft.com -DestinationDataLocation AUS`
 
-![](media/move-onedrive-between-geo-locations-image2.png)
+![Screenshot of PowerShell window showing Start-SPOUserAndContentMove cmdlet](media/move-onedrive-between-geo-locations-image2.png)
 
 To schedule a geo move for a later time, use one of the following parameters:
 

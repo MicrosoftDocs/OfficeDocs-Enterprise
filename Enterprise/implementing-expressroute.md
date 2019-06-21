@@ -4,7 +4,7 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
 ms.date: 12/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -110,6 +110,7 @@ Here's a sample of the level of detail required. In this case Exchange Hybrid wo
 |**Path symmetry control** <br/> |**Method**: Source NAT  <br/> **Internet path**: Source NAT inbound connections to 192.168.5.5  <br/> |**ExpressRoute path**: Source NAT connections to 192.168.1.0 (Chicago) and 192.168.2.0 (Dallas)  <br/> |
 
 Here's a sample of a service that is outbound only:
+
 |**Connection property**|**Value**|
 |:-----|:-----|
 |**Network traffic direction** <br/> |Outbound  <br/> |
@@ -562,7 +563,7 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 ## Related Topics
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Azure ExpressRoute for Office 365](azure-expressroute.md)
   

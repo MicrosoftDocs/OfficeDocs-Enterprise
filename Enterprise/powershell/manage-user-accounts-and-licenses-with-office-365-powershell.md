@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,7 +20,7 @@ description: "Summary: Learn how to manage user accounts and licenses with Offic
 
  **Summary:** Learn how to manage user accounts and licenses with Office 365 PowerShell.
   
-One of the primary tasks of any Office 365 administrator is managing user accounts and licenses. Although you can accomplish some of these tasks in the Office 365 admin center, other tasks are much quicker and easier with Office 365 PowerShell. For more information, see the following topics:
+One of the primary tasks of any Office 365 administrator is managing user accounts and licenses. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier with Office 365 PowerShell. For more information, see the following topics:
   
 - [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md)
     

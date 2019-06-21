@@ -3,8 +3,8 @@ title: "High availability federated authentication Phase 1 Configure Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/06/2018
-ms.audience: ITPro
+ms.date: 03/15/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -58,7 +58,7 @@ Work with your IT department to determine these address spaces from the virtual 
   
 |**Item**|**Subnet name**|**Subnet address space**|**Purpose**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the Windows Server Active Directory (AD) domain controller and DirSync server virtual machines (VMs).  <br/> |
+|1.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the Active Directory Domain Services (AD DS) domain controller and DirSync server virtual machines (VMs).  <br/> |
 |2.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the AD FS VMs.  <br/> |
 |3.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the web application proxy VMs.  <br/> |
 |4.  <br/> |GatewaySubnet  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the Azure gateway VMs.  <br/> |
@@ -89,7 +89,7 @@ For two Domain Name System (DNS) servers in your on-premises network that you wa
    
  **Table D: On-premises DNS servers**
   
-To route packets from the cross-premises network to your organization network across the site-to-site VPN connection, you must configure the virtual network with a local network that contains a list of the address spaces (in CIDR notation) for all of the reachable locations on your organization's on-premises network. The list of address spaces that define your local network must be unique and must not overlap with the address space used for other virtual networks or other local networks.
+To route packets from the cross-premises network to your organization network across the site-to-site VPN connection, you must configure the virtual network with a local network that has a list of the address spaces (in CIDR notation) for all of the reachable locations on your organization's on-premises network. The list of address spaces that define your local network must be unique and must not overlap with the address space used for other virtual networks or other local networks.
   
 For the set of local network address spaces, fill in Table L. Note that three blank entries are listed but you will typically need more. Work with your IT department to determine this list of address spaces.
   
@@ -109,35 +109,37 @@ Now let's begin building the Azure infrastructure to host your federated authent
 First, start an Azure PowerShell prompt and login to your account.
   
 ```
-Login-AzureRMAccount
+Connect-AzAccount
 ```
 
+<!--
 > [!TIP]
-> For a text file that contains all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [Federated Authentication for Office 365 in Azure Deployment Kit](https://gallery.technet.microsoft.com/Federated-Authentication-8a9f1664). 
+> For a text file that has all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [Federated Authentication for Office 365 in Azure Deployment Kit](https://gallery.technet.microsoft.com/Federated-Authentication-8a9f1664). 
+-->
   
 Get your subscription name using the following command.
   
 ```
-Get-AzureRMSubscription | Sort Name | Select Name
+Get-AzSubscription | Sort Name | Select Name
 ```
 
 For older versions of Azure PowerShell, use this command instead.
   
 ```
-Get-AzureRMSubscription | Sort Name | Select SubscriptionName
+Get-AzSubscription | Sort Name | Select SubscriptionName
 ```
 
 Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct name.
   
 ```
-$subscr="<subscription name>"
-Get-AzureRmSubscription -SubscriptionName $subscr | Select-AzureRmSubscription
+$subscrName="<subscription name>"
+Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create the new resource groups. To determine a unique set of resource group names, use this command to list your existing resource groups.
   
 ```
-Get-AzureRMResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
+Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 Fill in the following table for the set of unique resource group names.
@@ -156,13 +158,13 @@ Create your new resource groups with these commands.
 ```
 $locName="<an Azure location, such as West US>"
 $rgName="<Table R - Item 1 - Name column>"
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 $rgName="<Table R - Item 2 - Name column>"
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 $rgName="<Table R - Item 3 - Name column>"
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 $rgName="<Table R - Item 4 - Name column>"
-New-AzureRMResourceGroup -Name $rgName -Location $locName
+New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
 Next, you create the Azure virtual network and its subnets.
@@ -174,43 +176,44 @@ $vnetName="<Table V - Item 1 - Value column>"
 $vnetAddrPrefix="<Table V - Item 4 - Value column>"
 $dnsServers=@( "<Table D - Item 1 - DNS server IP address column>", "<Table D - Item 2 - DNS server IP address column>" )
 # Get the shortened version of the location
-$locShortName=(Get-AzureRmResourceGroup -Name $rgName).Location
+$locShortName=(Get-AzResourceGroup -Name $rgName).Location
 
 # Create the subnets
 $subnet1Name="<Table S - Item 1 - Subnet name column>"
 $subnet1Prefix="<Table S - Item 1 - Subnet address space column>"
-$subnet1=New-AzureRMVirtualNetworkSubnetConfig -Name $subnet1Name -AddressPrefix $subnet1Prefix
+$subnet1=New-AzVirtualNetworkSubnetConfig -Name $subnet1Name -AddressPrefix $subnet1Prefix
 $subnet2Name="<Table S - Item 2 - Subnet name column>"
 $subnet2Prefix="<Table S - Item 2 - Subnet address space column>"
-$subnet2=New-AzureRMVirtualNetworkSubnetConfig -Name $subnet2Name -AddressPrefix $subnet2Prefix
+$subnet2=New-AzVirtualNetworkSubnetConfig -Name $subnet2Name -AddressPrefix $subnet2Prefix
 $subnet3Name="<Table S - Item 3 - Subnet name column>"
 $subnet3Prefix="<Table S - Item 3 - Subnet address space column>"
-$subnet3=New-AzureRMVirtualNetworkSubnetConfig -Name $subnet3Name -AddressPrefix $subnet3Prefix
+$subnet3=New-AzVirtualNetworkSubnetConfig -Name $subnet3Name -AddressPrefix $subnet3Prefix
 $gwSubnet4Prefix="<Table S - Item 4 - Subnet address space column>"
-$gwSubnet=New-AzureRMVirtualNetworkSubnetConfig -Name "GatewaySubnet" -AddressPrefix $gwSubnet4Prefix
+$gwSubnet=New-AzVirtualNetworkSubnetConfig -Name "GatewaySubnet" -AddressPrefix $gwSubnet4Prefix
 
 # Create the virtual network
-New-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName -Location $locName -AddressPrefix $vnetAddrPrefix -Subnet $gwSubnet,$subnet1,$subnet2,$subnet3 -DNSServer $dnsServers
+New-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName -Location $locName -AddressPrefix $vnetAddrPrefix -Subnet $gwSubnet,$subnet1,$subnet2,$subnet3 -DNSServer $dnsServers
 
 ```
 
-Next, you create network security groups for each subnet that contains virtual machines. To perform subnet isolation, you can add rules for the specific types of traffic allowed or denied to the network security group of a subnet.
+Next, you create network security groups for each subnet that has virtual machines. To perform subnet isolation, you can add rules for the specific types of traffic allowed or denied to the network security group of a subnet.
   
 ```
 # Create network security groups
-$vnet=Get-AzureRMVirtualNetwork -ResourceGroupName $rgName -Name $vnetName
+$vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name $vnetName
 
-New-AzureRMNetworkSecurityGroup -Name $subnet1Name -ResourceGroupName $rgName -Location $locShortName
-$nsg=Get-AzureRMNetworkSecurityGroup -Name $subnet1Name -ResourceGroupName $rgName
-Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet1Name -AddressPrefix $subnet1Prefix -NetworkSecurityGroup $nsg
+New-AzNetworkSecurityGroup -Name $subnet1Name -ResourceGroupName $rgName -Location $locShortName
+$nsg=Get-AzNetworkSecurityGroup -Name $subnet1Name -ResourceGroupName $rgName
+Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet1Name -AddressPrefix $subnet1Prefix -NetworkSecurityGroup $nsg
 
-New-AzureRMNetworkSecurityGroup -Name $subnet2Name -ResourceGroupName $rgName -Location $locShortName
-$nsg=Get-AzureRMNetworkSecurityGroup -Name $subnet2Name -ResourceGroupName $rgName
-Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet2Name -AddressPrefix $subnet2Prefix -NetworkSecurityGroup $nsg
+New-AzNetworkSecurityGroup -Name $subnet2Name -ResourceGroupName $rgName -Location $locShortName
+$nsg=Get-AzNetworkSecurityGroup -Name $subnet2Name -ResourceGroupName $rgName
+Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet2Name -AddressPrefix $subnet2Prefix -NetworkSecurityGroup $nsg
 
-New-AzureRMNetworkSecurityGroup -Name $subnet3Name -ResourceGroupName $rgName -Location $locShortName
-$nsg=Get-AzureRMNetworkSecurityGroup -Name $subnet3Name -ResourceGroupName $rgName
-Set-AzureRMVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet3Name -AddressPrefix $subnet3Prefix -NetworkSecurityGroup $nsg
+New-AzNetworkSecurityGroup -Name $subnet3Name -ResourceGroupName $rgName -Location $locShortName
+$nsg=Get-AzNetworkSecurityGroup -Name $subnet3Name -ResourceGroupName $rgName
+Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name $subnet3Name -AddressPrefix $subnet3Prefix -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 ```
 
 Next, use these commands to create the gateways for the site-to-site VPN connection.
@@ -219,40 +222,40 @@ Next, use these commands to create the gateways for the site-to-site VPN connect
 $rgName="<Table R - Item 4 - Resource group name column>"
 $locName="<Azure location>"
 $vnetName="<Table V - Item 1 - Value column>"
-$vnet=Get-AzureRMVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
-$subnet=Get-AzureRmVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name "GatewaySubnet"
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
+$subnet=Get-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name "GatewaySubnet"
 
 # Attach a virtual network gateway to a public IP address and the gateway subnet
 $publicGatewayVipName="PublicIPAddress"
 $vnetGatewayIpConfigName="PublicIPConfig"
-New-AzureRMPublicIpAddress -Name $vnetGatewayIpConfigName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
-$publicGatewayVip=Get-AzureRMPublicIpAddress -Name $vnetGatewayIpConfigName -ResourceGroupName $rgName
-$vnetGatewayIpConfig=New-AzureRMVirtualNetworkGatewayIpConfig -Name $vnetGatewayIpConfigName -PublicIpAddressId $publicGatewayVip.Id -Subnet $subnet
+New-AzPublicIpAddress -Name $vnetGatewayIpConfigName -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
+$publicGatewayVip=Get-AzPublicIpAddress -Name $vnetGatewayIpConfigName -ResourceGroupName $rgName
+$vnetGatewayIpConfig=New-AzVirtualNetworkGatewayIpConfig -Name $vnetGatewayIpConfigName -PublicIpAddressId $publicGatewayVip.Id -Subnet $subnet
 
 # Create the Azure gateway
 $vnetGatewayName="AzureGateway"
-$vnetGateway=New-AzureRMVirtualNetworkGateway -Name $vnetGatewayName -ResourceGroupName $rgName -Location $locName -GatewayType Vpn -VpnType RouteBased -IpConfigurations $vnetGatewayIpConfig
+$vnetGateway=New-AzVirtualNetworkGateway -Name $vnetGatewayName -ResourceGroupName $rgName -Location $locName -GatewayType Vpn -VpnType RouteBased -IpConfigurations $vnetGatewayIpConfig
 
 # Create the gateway for the local network
 $localGatewayName="LocalNetGateway"
 $localGatewayIP="<Table V - Item 3 - Value column>"
 $localNetworkPrefix=@( <comma-separated, double-quote enclosed list of the local network address prefixes from Table L, example: "10.1.0.0/24", "10.2.0.0/24"> )
-$localGateway=New-AzureRMLocalNetworkGateway -Name $localGatewayName -ResourceGroupName $rgName -Location $locName -GatewayIpAddress $localGatewayIP -AddressPrefix $localNetworkPrefix
+$localGateway=New-AzLocalNetworkGateway -Name $localGatewayName -ResourceGroupName $rgName -Location $locName -GatewayIpAddress $localGatewayIP -AddressPrefix $localNetworkPrefix
 
 # Define the Azure virtual network VPN connection
 $vnetConnectionName="S2SConnection"
 $vnetConnectionKey="<Table V - Item 5 - Value column>"
-$vnetConnection=New-AzureRMVirtualNetworkGatewayConnection -Name $vnetConnectionName -ResourceGroupName $rgName -Location $locName -ConnectionType IPsec -SharedKey $vnetConnectionKey -VirtualNetworkGateway1 $vnetGateway -LocalNetworkGateway2 $localGateway
+$vnetConnection=New-AzVirtualNetworkGatewayConnection -Name $vnetConnectionName -ResourceGroupName $rgName -Location $locName -ConnectionType IPsec -SharedKey $vnetConnectionKey -VirtualNetworkGateway1 $vnetGateway -LocalNetworkGateway2 $localGateway
 
 ```
 
 > [!NOTE]
-> Federated authentication of individual users does not rely on any on-premises resources. However, if this site-to-site VPN connection becomes unavailable, the domain controllers in the VNet will not receive updates to user accounts and groups made in the on-premises Windows Server AD. To ensure this does not happen, you can configure high availability for your site-to-site VPN connection. For more information, see [Highly Available Cross-Premises and VNet-to-VNet Connectivity](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable)
+> Federated authentication of individual users does not rely on any on-premises resources. However, if this site-to-site VPN connection becomes unavailable, the domain controllers in the VNet will not receive updates to user accounts and groups made in the on-premises Active Directory Domain Services. To ensure this does not happen, you can configure high availability for your site-to-site VPN connection. For more information, see [Highly Available Cross-Premises and VNet-to-VNet Connectivity](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable)
   
 Next, record the public IPv4 address of the Azure VPN gateway for your virtual network from the display of this command:
   
 ```
-Get-AzureRMPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
+Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
 ```
 
 Next, configure your on-premises VPN device to connect to the Azure VPN gateway. For more information, see [Configure your VPN device](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).
@@ -283,13 +286,13 @@ Create the new availability sets with these Azure PowerShell commands.
 $locName="<the Azure location for your new resource group>"
 $rgName="<Table R - Item 1 - Resource group name column>"
 $avName="<Table A - Item 1 - Availability set name column>"
-New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
+New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 $rgName="<Table R - Item 2 - Resource group name column>"
 $avName="<Table A - Item 2 - Availability set name column>"
-New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
+New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 $rgName="<Table R - Item 3 - Resource group name column>"
 $avName="<Table A - Item 3 - Availability set name column>"
-New-AzureRMAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
+New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locName -Sku Aligned  -PlatformUpdateDomainCount 5 -PlatformFaultDomainCount 2
 ```
 
 This is the configuration resulting from the successful completion of this phase.

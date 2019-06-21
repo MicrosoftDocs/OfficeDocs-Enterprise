@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -20,12 +20,12 @@ description: "Summary: Configure and demonstrate Office 365 Advanced eDiscovery 
 
  **Summary:** Configure and demonstrate Office 365 Advanced eDiscovery with sample data in your Office 365 dev/test environment.
   
-Office 365 Advanced eDiscovery allows you to quickly find and analyze relevant information across the data that is stored in Office 365, including email and documents. This can save enormous amounts of time and expense, especially in litigation situations. For more information, see [Office 365 Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4).
+Office 365 Advanced eDiscovery lets you quickly find and analyze relevant information across the data that is stored in Office 365, including email and documents. This can save enormous amounts of time and expense, especially in litigation situations. For more information, see [Office 365 Advanced eDiscovery](https://support.office.com/article/Office-365-Advanced-eDiscovery-fd53438a-a760-45f6-9df4-861b50161ae4).
   
 With the instructions in this article, you create a small set of data for a fictional contract dispute and analyze it with Advanced eDiscovery.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Create your Office 365 dev/test environment
 
@@ -34,7 +34,7 @@ If you just want to test Advanced eDiscovery in a lightweight way with the minim
 If you want to test Advanced eDiscovery in a simulated enterprise, follow the instructions in [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md).
   
 > [!NOTE]
-> Testing Advanced eDiscovery does not require the simulated enterprise environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can perform testing and experimentation in an environment that represents a typical organization. 
+> Testing Advanced eDiscovery does not require the simulated enterprise environment, which includes a simulated intranet connected to the Internet and directory synchronization for an Active Directory Domain Services (AD DS) forest. It is provided here as an option so that you can perform testing and experimentation in an environment that represents a typical organization. 
   
 ## Phase 2: Create example data for Advanced eDiscovery
 
@@ -72,11 +72,11 @@ In this procedure, you create email messages that will you later analyze in an A
     
 14. Click the user icon in the upper right corner, and then click **Sign out**.
     
-15. Open a new tab and sign in to the Office 365 portal ([https://portal.office.com](https://portal.office.com)) with the account name and password of the User6 account of your trial subscription.
+15. Open a new tab and sign in to the Office 365 portal ([https://www.office.com](https://www.office.com)) with the account name and password of the User6 account of your trial subscription.
     
 16. On the **Office 365 portal** tab, click **Mail**.
     
-17. On the **Mail - User6 - Outlook** tab, verify that User6 received all three emails from the Outlook email account.
+17. On the **Mail - User6 - Outlook** tab, check that User6 received all three emails from the Outlook email account.
     
 18. Switch back to the **Office 365 portal tab** for User6.
     
@@ -90,11 +90,11 @@ In this procedure, you create two Word documents that will you will later analyz
     
 3. On the **Production site collection** tab, under **Documents**, click **New > Word Document**.
     
-4. On the **Word Online** page, type **Tailspin draft contract**, wait until it displays **Saved** in the title, and then close the **Word Online** page tab.
+4. On the **Word** page, type **Tailspin draft contract**, wait until it displays **Saved** in the title, and then close the **Word** page tab.
     
 5. On the **Production site collection** tab, under **Documents**, click **New > Word Document**.
     
-6. On the **Word Online** tab, type **Tailspin contract dispute notes**, wait until it displays **Saved** in the title, and then close the **Word Online** tab.
+6. On the **Word** tab, type **Tailspin contract dispute notes**, wait until it displays **Saved** in the title, and then close the **Word** tab.
     
 7. On the **Production site collection** tab, you should see **Document** and **Document1** in the list of documents.
     
@@ -185,8 +185,6 @@ You can now use this environment to create new content, new searches and cases, 
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-  
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 

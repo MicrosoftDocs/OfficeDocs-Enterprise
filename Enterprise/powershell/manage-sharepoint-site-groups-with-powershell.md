@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 05/01/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,7 +20,7 @@ description: "Summary: Use Office 365 PowerShell to manage SharePoint Online sit
 
  **Summary:** Use Office 365 PowerShell to manage SharePoint Online site groups.
   
-Although you can use the Office 365 admin center, you can also use Office 365 PowerShell to manage your SharePoint Online site groups.
+Although you can use the Microsoft 365 admin center, you can also use Office 365 PowerShell to manage your SharePoint Online site groups.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ The procedures in this article require you to connect to SharePoint Online. For 
 
 The SharePoint Online admin center has some easy-to-use methods for managing site groups. For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site. Here’s what you have to do to:
 
-1. From the Office 365 admin center, click **Resources** > **Sites**, and then click the URL of the site.
+1. From the Microsoft 365 admin center, click **Resources** > **Sites**, and then click the URL of the site.
 2. In the site collection dialog box, click **Go to this site**.
 3. On the site page, click the **Settings** icon (located in the upper right-hand corner of the page) and then click **Site settings**:<br/>
 ![SharePoint Online site settings](media/spo-site-settings.png)<br/>
@@ -64,7 +64,7 @@ In both cases, you should see something similar to this:
 
 ![SharePoint Online site groups](media/SPO-site-groups.png)
 
-These are all the groups that have been created for the site `https://litwareinc.sharepoint.com/sites/finance`, as well as all the users assigned to those groups. The group names are in yellow to help you separate group names from their members.
+These are all the groups that have been created for the site `https://litwareinc.sharepoint.com/sites/finance`, and all the users assigned to those groups. The group names are in yellow to help you separate group names from their members.
 
 As another example, here is a command set that lists the groups, and all the group memberships, for all of your SharePoint Online sites.
 

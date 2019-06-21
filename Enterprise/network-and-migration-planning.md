@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -100,8 +100,6 @@ These topics contain detailed Office 365 network reference information.
 - [IPv6 support in Office 365 services](ipv6-support.md)
     
 - [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples)
-    
-- [Microsoft Virtual Academy: Office 365 Performance Management](https://mva.microsoft.com/en-us/training-courses/office-365-performance-management-8416)
     
 - [Office 365 video networking Frequently Asked Questions (FAQ)](office-365-video-networking-faq.md)
     

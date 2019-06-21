@@ -3,8 +3,8 @@ title: "Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/09/2018
-ms.audience: ITPro
+ms.date: 04/02/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -39,7 +39,7 @@ You can use an Office 365 trial subscription and create an Office 365 dev/test e
 ![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the One Microsoft Cloud Test Lab Guide stack.
+> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Create the base configuration in Azure
 
@@ -113,7 +113,7 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
     
 11. On the next page, wait until Office 365 completes setting up and all the tiles are available.
     
-You should see main Office 365 portal page from which you can access Office Online services and the Office 365 Admin center.
+You should see main Office 365 portal page from which you can access Office Online services and the Microsoft 365 Admin center.
   
 For the simulated enterprise Office 365 dev/test environment, here is your resulting configuration.
   
@@ -127,11 +127,9 @@ This configuration consists of:
     
 ## Phase 3: Configure your Office 365 trial subscription
 
-In this phase, you configure your Office 365 subscription with additional users and SharePoint Online team sites.
+In this phase, you configure your Office 365 subscription with additional users and assign them Office 365 E5 licenses.
   
-First, you add four new users and assign them E5 licenses.
-  
-Use the instructions in [Connect to Office 365 PowerShell](https://technet.microsoft.com/library/dn975125.aspx) to install the PowerShell modules and connect to your new Office 365 subscription from:
+Use the instructions in [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) to connect to your Office 365 subscription with the Azure Active Directory PowerShell for Graph module from:
   
 - Your computer (for the lightweight Office 365 dev/test environment).
     
@@ -139,48 +137,45 @@ Use the instructions in [Connect to Office 365 PowerShell](https://technet.micro
     
  In the Windows PowerShell Credential Request dialog box, type the Office 365 global administrator name (example: jdoe@contosotoycompany.onmicrosoft.com) and password.
   
-Fill in your organization name (example: contosotoycompany), the two-character country code for your location, and then run the following commands from the Windows Azure Active Directory Module for Windows PowerShell prompt:
-  
+Fill in your organization name (example: contosotoycompany), the two-character country code for your location, a common account password, and then run the following commands from the PowerShell prompt:
+
 ```
 $orgName="<organization name>"
 $loc="<two-character country code, such as US>"
-$licAssignment= $orgName + ":ENTERPRISEPREMIUM"
-$userName= "user2@" + $orgName + ".onmicrosoft.com"
-New-MsolUser -DisplayName "User 2" -FirstName User -LastName 2 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
+$commonPW="<common user account password>"
+$PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password=$commonPW
+
+$userUPN= "user2@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 2" -GivenName User -SurName 2 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user2"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+
+$userUPN= "user3@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 3" -GivenName User -SurName 3 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user3"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+
+$userUPN= "user4@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 4" -GivenName User -SurName 4 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user4"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 ```
+
+<!--
 > [!TIP]
-> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that contains all the PowerShell commands in this article.
+> Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-fe3d7a34) to get a text file that has all the PowerShell commands in this article.
+-->
 
-From the display of the **New-MsolUser** command, note the generated password for the User 2 account and record it in a safe location.
-  
-Run the following commands from the Windows Azure Active Directory Module for Windows PowerShell prompt:
-  
-```
-$userName= "user3@" + $orgName + ".onmicrosoft.com"
-New-MsolUser -DisplayName "User 3" -FirstName User -LastName 3 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
-```
-
-From the display of the **New-MsolUser** command, note the generated password for the User 3 account and record it in a safe location.
-  
-Run the following commands from the Windows Azure Active Directory Module for Windows PowerShell prompt:
-  
-```
-$userName= "user4@" + $orgName + ".onmicrosoft.com"
-New-MsolUser -DisplayName "User 4" -FirstName User -LastName 4 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
-```
-
-From the display of the **New-MsolUser** command, note the generated password for the User 4 account and record it in a safe location.
-  
-Run the following commands from the Windows Azure Active Directory Module for Windows PowerShell prompt:
-  
-```
-$userName= "user5@" + $orgName + ".onmicrosoft.com"
-New-MsolUser -DisplayName "User 5" -FirstName User -LastName 5 -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment
-```
-
-From the display of the **New-MsolUser** command, note the generated password for the User 5 account and record it in a safe location.
-  
-Next, you create three new SharePoint Online team sites for the Sales, Production, and Support departments.
   
 ## Phase 4: Create three new SharePoint Online team sites (optional)
 
@@ -232,7 +227,7 @@ Record these values for working with or deploying additional Test Lab Guides in 
 - To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:
     
   ```
-  Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName
+  Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName
   ```
 
     Record the account names here:
@@ -269,8 +264,6 @@ Use these additional articles in your Office 365 dev/test environment:
     
 - [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
     
-- [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
-    
 - [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
     
 - [Advanced eDiscovery for your Office 365 dev/test environment](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
@@ -281,17 +274,9 @@ Use these additional articles in your Office 365 dev/test environment:
     
 - [Data classification and labeling in the Office 365 dev/test environment](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
     
-Extend your Office 365 dev/test environment to include additional Microsoft cloud offerings:
-  
-- [The Microsoft 365 Enterprise dev/test environment](the-microsoft-365-enterprise-dev-test-environment.md)
-    
-- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
-    
 ## See Also
 
 - [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
-  
-- [Office 365 and Dynamics 365 dev/test environment](office-365-and-dynamics-365-dev-test-environment.md)
   
 - [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 

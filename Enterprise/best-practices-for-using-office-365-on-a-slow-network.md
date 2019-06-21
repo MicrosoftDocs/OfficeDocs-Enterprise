@@ -4,7 +4,7 @@ ms.author: krowley
 author: kccross
 manager: laurawi
 ms.date: 12/29/2016
-ms.audience: End User
+audience: End User
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -24,7 +24,7 @@ description: "Wouldn't it be nice if your Internet connection was always fast an
 Wouldn't it be nice if your Internet connection was always fast and never down? Perhaps that day will come. But in the meantime, there are practical things you can do to work around a balky network and still get your day-to-day work done. Although Office 365 is a cloud-based service, it also provides many ways to work with your content offline and to smoothly keep your changes synchronized. Besides, it's sometimes more efficient to work with content offline just because applications run faster and the user interface is more responsive. The point is this: Office 365 gives you the best of both worlds. Here's how to take advantage of that. 
   
 > [!TIP]
-> Want to see how slow (or fast) your network connection is? Try the [ OOKLA Speed test ](https://www.speedtest.net/) or the [Network Speed Test App](https://www.windowsphone.com/en-us/store/app/network-speed-test/9b9ae06b-2961-41ef-987d-b09567cffe70). 
+> Want to see how slow (or fast) your network connection is? Try the [ OOKLA Speed test ](https://www.speedtest.net/) or the [Network Speed Test App](https://www.windowsphone.com/store/app/network-speed-test/9b9ae06b-2961-41ef-987d-b09567cffe70). 
      
 ## Why is my network so slow?
 
@@ -52,8 +52,8 @@ Whenever you experience performance problems, first make sure that your device i
     
 - If possible, buy more memory. Adding memory is the simplest and often most effective way to improve performance on your device. It's especially helpful when working with large files and videos.
     
-For more information, see [ Windows Performance and maintenance ](https://windows.microsoft.com/en-us/windows/performance-maintenance-help#performance-maintenance-help) and [Fix Windows system performance problems](https://support.microsoft.com/mats/slow_windows_performance/).
-   
+For more information, see [ Windows Performance and maintenance ](https://windows.microsoft.com/windows/performance-maintenance-help#performance-maintenance-help) and [Tips to improve PC performance in Windows 10](https://support.microsoft.com/en-za/help/4002019/windows-10-improve-pc-performance).
+
 ## Best practices for using your browser
 
 Your browser is your gateway to Office 365, so it can have an impact on performance, especially with the time it takes to load a page and how often you round trip to the Office 365 service. 
@@ -80,9 +80,9 @@ Here are some suggestions for browsers in general:
   
 Here are some suggestions for your specific browser:
   
-- **Internet Explorer** Upgrade to Internet Explorer Version 11 or later for substantial performance improvements over previous versions. For more information, see [ Fix Internet Explorer issues ](https://support.microsoft.com/mats/ie_performance_and_safety).
+- **Internet Explorer** Upgrade to Internet Explorer Version 11 or later for substantial performance improvements over previous versions. For more information, see [Troubleshooting guide for Internet Explorer](https://support.microsoft.com/help/2437121/troubleshooting-guide-for-internet-explorer-when-you-access-office-365).
     
-- **FireFox**For more information, see [Firefox is slow or stops working](https://support.mozilla.org/en-US/products/firefox/fix-problems/slowness-or-hanging).
+- **FireFox**For more information, see [Firefox is slow or stops working](https://support.mozilla.org/products/firefox/fix-problems/slowness-or-hanging).
     
 - **Safari** For more information, see [Apple - Safari](https://www.apple.com/safari/).
     
@@ -92,7 +92,7 @@ Here are some suggestions for your specific browser:
 
 Reading, writing, and organizing email is a big part of everyone's day. Both Outlook and Outlook Web App (OWA) offer offline support. Using an email app on your smart phone is another useful alternative. Use the following options that best fit your needs:
   
-- Upgrade to Outlook 2013 SP1 or later for substantial performance improvements over previous versions. 
+- Upgrade to the latest version of Outlook for substantial performance improvements over previous versions. 
     
 -  Outlook Web App lets you create offline messages, contacts, and calendar events that are uploaded when OWA is next able to connect to Office 365. For more information about setting up and using OWA in offline mode, see [Using Outlook Web App offline](https://support.office.com/article/3214839c-0604-4162-8a97-6856b4c27b36).
     
@@ -109,7 +109,7 @@ Reading, writing, and organizing email is a big part of everyone's day. Both Out
 
 OneDrive for Business is designed from the ground up to work with your files online and offline. Once you set it up, synchronization of changes occurs automatically and reliably wherever and whenever you make them. If the network is slow, you can work with the offline version of the files.
   
-The OneDrive for Business sync app is available with Office 2013 (Professional Plus, or Standard editions), or an Office 365 subscription that includes Office 2013 applications. If you don't have Office 2013, you can [download](https://support.microsoft.com/kb/2903984) the OneDrive for Business sync app for free. This app is also faster than using the **Open in Explorer** or **Upload** commands. For more information, see [Set up your computer to sync your OneDrive for Business files in Office 365](https://support.office.com/article/23e1f12b-d896-4cb1-a238-f91d19827a16).
+The OneDrive for Business sync app comes with a SharePoint Online and Office 365 business subscription, or you can [download](https://support.microsoft.com/kb/2903984) the OneDrive for Business sync app for free. This app is also faster than using the **Open in Explorer** or **Upload** commands. For more information, see [Set up your computer to sync your OneDrive for Business files in Office 365](https://support.office.com/article/23e1f12b-d896-4cb1-a238-f91d19827a16).
   
 Here's some additional guidance for using the OneDrive for Business sync app:
   
@@ -121,35 +121,29 @@ Here's some additional guidance for using the OneDrive for Business sync app:
 
 Every SharePoint team site has a built-in OneNote notebook and you can easily create your own. OneNote is a great way to collect timely information that you need every day to get tasks done. For example, many teams use OneNote as a collection point for weekly meetings, project notes, ideas, plans, and status reports. You can neatly organize this disparate information by using pages, sections, and tabs.
   
-But the beauty of OneNote is that you can access the content from virtually any device, whether a desktop, a laptop, a tablet, or a smart phone. And you don't have to worry about saving or synchronizing because OneNote does it for you. 
+The beauty of OneNote is that you can access the content from virtually any device, whether a desktop, a laptop, a tablet, or a smart phone. And you don't have to worry about saving or synchronizing because OneNote does it for you. 
   
-For more information, see [Microsoft OneNote](https://office.microsoft.com/en-us/onenote/).
-  
-## Best practices for using Lync Online
+For more information, see [Microsoft OneNote](https://office.microsoft.com/onenote).
 
-The following are general guidelines for using Lync Online when your network is slow:
-  
+## Best practices for using Skype for Business and Lync Online
+
+The following are general guidelines for using Skype for Business or Lync Online when your network is slow:
+
 - Use instant messaging whenever you can because it works well on a slow network.
     
 - Avoid making phone calls over a virtual private network (VPN) or remote access service (RAS) connections.
     
-- Make sure your audio device is approved. For more information, see [Phones and Devices Qualified for Microsoft Lync](https://technet.microsoft.com/en-us/office/dn788944).
+- Make sure your audio device is approved. For more information, see [Phones and Devices Qualified for Microsoft Lync](https://docs.microsoft.com/skypeforbusiness/lync-cert/ip-phones).
     
 -  When using PowerPoint in an online presentation, reduce the size and complexity of the slides. For more information, see [Tips for improving the performance of your presentation](https://support.office.com/article/34c82835-5f23-4bf0-98cc-72235bbd2949).
-    
-- Whenever possible, share a monitor, instead of a program or a desktop. For more information, see [Share your desktop or a program in Lync](https://support.office.com/article/33aaa965-eb32-42a9-8a9b-cdfffa364842).
-    
-- Instead of sharing, send out the PowerPoint slides ahead of time as a meeting request attachment so attendees view the slides on their client device. For more information, see [Set up a Lync Meeting](https://support.office.com/article/258f9d20-f06c-49a4-a77f-7f5ac635bb5d).
-    
+            
 -  Video performance is very dependent on network performance. Avoid using video if your network is slow. 
-    
-For more information, see [Poor audio or video quality in Lync Online](https://support.microsoft.com/kb/2386655) and [Slow screen update in Lync 2013](https://support.microsoft.com/kb/2958375).
+
+For more information, see [Poor audio or video quality in Lync Online](https://support.microsoft.com/kb/2386655), or how to [troubleshoot connection issues in Skype for Business](https://support.office.com/article/troubleshoot-connection-issues-in-skype-for-business-ca302828-783f-425c-bbe2-356348583771).
   
 ## Best practices for using SharePoint lists
 
-Working with list data offline to "scrub", analyze, or report data is a great way to minimize the impact of a slow network. You can read and write most lists from Microsoft Access 2013 by linking to them. You can also export a list to an Excel Table, which creates a one-way data connection between the Excel table and the list.
-  
-Furthermore, if the Access Services feature is activated, then you can work with considerably more data than the List View Threshold, up to 50,000 items by default. Both Access 2013 and Excel 2013 automatically process list data in small batches and then reassemble the data, a technique that enables working with substantially more data than the List View Threshold, and without adversely impacting the service performance of other users. 
+Working with list data offline to "scrub", analyze, or report data is a great way to minimize the impact of a slow network. You can read and write most lists from Microsoft Access 2019 and Microsoft Access 2016 by linking to them. You can also export a list to an Excel Table, which creates a one-way data connection between the Excel table and the list. Learn how to [Work offline with tables that are linked to SharePoint lists](https://support.office.com/article/work-offline-with-tables-that-are-linked-to-sharepoint-lists-5d66594a-6176-4a25-a198-320f13ccf41e).
   
 For more information, see the section "More about managing large lists" in [Manage large lists and libraries in Office 365](https://support.office.com/article/b4038448-ec0e-49b7-b853-679d3d8fb784).
   
@@ -157,7 +151,7 @@ For more information, see the section "More about managing large lists" in [Mana
 
 When you customize a web page, you may inadvertently cause poor performance with the page. A number of factors can have an impact, such as the complexity and size of the page, how many web parts are added, how many list or library items are initially displayed, and the way you code the page.
   
-For more information, see [Tune SharePoint Online performance](https://technet.microsoft.com/library/f97c2f06-0426-443d-8a16-d98abb0da252#TuneSharePoint).
+For more information, see [Tune SharePoint Online performance](https://docs.microsoft.com/office365/enterprise/tune-sharepoint-online-performance).
   
 ## Best practices for using Project Online
 
@@ -177,13 +171,13 @@ For more information, see [Tune Project Online performance](https://support.offi
   
 ## What's the best way to report problems?
 
-Microsoft continually improves the overall performance of Office 365 by monitoring the network, measuring bandwidth and latency, improving page load time, reducing disk I/O, redesigning pages to use Minimal Download Strategy, adding hardware to data centers and adding more data centers. For more information about checking your current status and reporting issues, see [View the status of your services](https://office.microsoft.com/en-us/office365-suite-help/view-the-status-of-your-services-HA102817837.aspx).
+Microsoft continually improves the overall performance of Office 365 by monitoring the network, measuring bandwidth and latency, improving page load time, reducing disk I/O, redesigning pages to use Minimal Download Strategy, adding hardware to data centers and adding more data centers. For more information about checking your current status and reporting issues, see [How to check Office 365 service health](https://docs.microsoft.com/office365/enterprise/view-service-health).
   
 ## See also
 
 [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
   
-[Microsoft Virtual Academy course—Office 365 performance management](https://blogs.office.com/2014/12/03/microsoft-virtual-academy-course-office-365-performance-management/)
+[Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
   
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
   

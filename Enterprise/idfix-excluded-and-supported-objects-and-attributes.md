@@ -1,10 +1,9 @@
 ---
 title: "IdFix excluded and supported objects and attributes"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2016
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
@@ -12,6 +11,9 @@ search.appverid:
 - MET150
 - MOE150
 ms.custom: Adm_O365
+ms.collection:
+- Ent_O365
+- M365-identity-device-management
 ms.assetid: cc453ae5-fa9b-4836-b0ce-c7e824b1e36d
 description: "Lists the attributes that are excluded and supported by IdFix tool."
 ---

@@ -3,8 +3,7 @@ title: "Automate file collection for eDiscovery"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal

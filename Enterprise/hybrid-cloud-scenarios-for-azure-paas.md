@@ -3,8 +3,8 @@ title: "Hybrid cloud scenarios for Azure PaaS"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
-ms.audience: ITPro
+ms.date: 11/30/2018
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -64,7 +64,7 @@ An organization can make its compute or storage resources available to the Azure
     
 The Azure app can use credentials from:
   
-- Azure AD, which can be synchronized with your on-premises identity provider, such as Windows Server AD.
+- Azure AD, which can be synchronized with your on-premises identity provider, such as Active Directory Domain Services (AD DS).
     
 - A third-party identity provider.
     
@@ -90,33 +90,9 @@ This example Azure PaaS hybrid application is a custom mobile app that provides 
     
 Because the on-premises identity provider has been synchronized with Azure AD, both the custom mobile app and the LOB app can validate the requesting user's account name.
   
-## Stretch Database with SQL Server 2016
-
-Stretch database is a feature of SQL Server 2016 that allows you to transparently and securely move cold data, such as closed business data in a large table that contains customer order information, to a SQL Stretch database in Azure.
-  
-When stretched, the contents of a SQL Server instance, a database, or even a single table is the combination of local data in SQL Server 2016 server and remote data in Azure. Data that becomes eligible for stretch is automatically moved to Azure by SQL Server 2016.
-  
-Figure 4 shows Stretch Database with SQL Server 2016.
-  
-**Figure 4: Stretch Database with SQL Server 2016**
-
-![Stretch Database with SQL Server 2016](media/Hybrid-Poster/Hybrid-Cloud-Stack-PaaS-Apps-SQL.png)
-  
-In Figure 4, an on-premises network hosts a server running SQL Server 2016 with a small local database. Azure PaaS hosts an instance of Azure SQL Server Stretch Database with the stretched portion of the database. T-SQL queries from an on-premises user sent to the on-premises SQL server are securely forwarded to the Azure SQL Stretch Database, which returns the results to the requesting user.
-  
- User queries that include the historical data are transparently forwarded to Azure SQL Stretch database. The queries do not need to be re-written, even though the table is stretched.
-  
-Stretch database provides a cost-effective option for long-term storage and transparent access to historical data. It also solves performance and availability problems that arise when tables become very large.
-  
-For more information, see [Stretch Database](https://msdn.microsoft.com/library/dn935011.aspx).
-  
 ## See Also
 
 [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
-
-[Microsoft's Enterprise Cloud Roadmap: Resources for IT Decision Makers](https://sway.com/FJ2xsyWtkJc2taRD)
-
-
 
