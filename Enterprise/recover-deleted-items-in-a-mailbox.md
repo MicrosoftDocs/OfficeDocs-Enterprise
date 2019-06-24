@@ -227,7 +227,8 @@ The final step that you need to perform is sending the PST file that was exporte
     
 The steps in the next section are performed by the user to restore the deleted items to their mailbox.
   
- **Restore deleted items to a mailbox using a PST file**
+ <a name="restoredeleteditems"></a>
+**Restore deleted items to a mailbox using a PST file**
   
 You have to use the Outlook desktop app to restore a deleted item by using a PST file. You can't use Outlook Web App or Outlook on the web to open a PST file.
   
