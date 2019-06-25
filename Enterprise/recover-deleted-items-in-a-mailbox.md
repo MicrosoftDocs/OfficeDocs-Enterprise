@@ -19,6 +19,7 @@ ms.assetid: eb15194b-63ec-41b0-8d90-1823d3f558e4
 description: "This article is for administrators. Did a user permanently delete items from their Outlook mailbox? The user wants them back but can't recover them. You may be able recover the purged items if they haven't been permanently removed from the user's mailbox. "
 ---
 
+<a name="__top"></a>
 # Recover deleted items in a user mailbox - Admin Help
 
 **This article is for administrators. Are you trying to recover deleted items in your own mailbox?** Try one of the following:
@@ -226,7 +227,8 @@ The final step that you need to perform is sending the PST file that was exporte
     
 The steps in the next section are performed by the user to restore the deleted items to their mailbox.
   
- **Restore deleted items to a mailbox using a PST file**
+ <a name="restoredeleteditems"></a>
+**Restore deleted items to a mailbox using a PST file**
   
 You have to use the Outlook desktop app to restore a deleted item by using a PST file. You can't use Outlook Web App or Outlook on the web to open a PST file.
   
