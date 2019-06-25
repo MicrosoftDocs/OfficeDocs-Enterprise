@@ -37,21 +37,28 @@ These settings affect how users are invited to the directory. They do not affect
 
 ##  Microsoft 365
 
+The Microsoft 365 admin center has organization-level settings for sharing and for Office 365 Groups.
+
+**Sharing**
+
 ![Screenshot of the security and privacy guest sharing setting in the  Microsoft 365 admin center](media/sharepoint-security-privacy-sharing-setting.png)
+
+**Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com) > Settings > Security & privacy > Sharing
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Let users add new guests to the organization|On| |
+|Let users add new guests to the organization|On|When set to **On**, members in Azure AD can invite guests via Azure AD; when set to **Off**, they cannot. This setting does not affect  Microsoft 365 guest invitation experiences such as Teams and SharePoint. Note that **members** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
 
+**Office 365 Groups**
 
 ![Screenshot of Office 365 Groups guest settings in  Microsoft 365 admin center](media/office-365-groups-guest-settings.png)
 
+**Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com) > Settings > Services & add-ins > Office 365 Groups
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Let group members outside your organization access group content|On| |
-|Let group owners add people outside your organization to groups|On| |
-
+|Let group members outside your organization access group content|On|When set to **On**, guests can access groups content; when set to **Off**, they can't. This setting should be **On** for any scenario where guest users are interacting with Office 365 Groups or Teams.|
+|Let group owners add people outside your organization to groups|On|When **On**, Owners of Office 365 Groups or Teams can invite new guests to the group. When **Off**, owners can only invite guests who are already in the directory.|
 
 ## Teams
 
@@ -95,13 +102,16 @@ These settings affect how users are invited to the directory. They do not affect
 
 ## SharePoint and OneDrive
 
-![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
+**SharePoint and OneDrive sharing settings**
 
+![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
 |SharePoint|Anyone| |
 |OneDrive|Anyone| |
+
+**SharePoint and OneDrive advanced sharing settings**
 
 ![Screenshot of SharePoint organization-level additional sharing settings](media/sharepoint-organization-advanced-sharing-settings.png)
 
@@ -111,11 +121,9 @@ These settings affect how users are invited to the directory. They do not affect
 |Guests must sign in using the same account to which sharing invitations are sent|Off| |
 |Allow guests to share items they don't own|On| |
 
-
+**SharePoint and OneDrive file and folder link settings**
 
 ![Screenshot of SharePoint organization-level files and folders sharing settings](media/sharepoint-organization-files-folders-sharing-settings.png)
-
-
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
@@ -124,8 +132,7 @@ These settings affect how users are invited to the directory. They do not affect
 |File permssions|View and edit| |
 |Folder permissions|View, edit, and upload| |
 
-
-
+**SharePoint and OneDrive security group settings**
 
 ![Screenshot of SharePoint organization-level sharing security group settings](media/sharepoint-organization-external-sharing-security-groups.png)
 
@@ -134,11 +141,25 @@ These settings affect how users are invited to the directory. They do not affect
 |Let only users in selected security groups share with authenticated external users|Off| |
 |Let only users in selected security groups share with authenticated external users and using anonymous links|Off| |
 
+## SharePoint site settings
+
 ![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
+
+**Navigation:** SharePoint admin center > Active sites > click the site > External sharing
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Site content can be shared with| | |
+|Site content can be shared with|Varies by site type| |
+
+The table below show the default sharing setting for each site type.
+
+|**Site type**|**Default sharing setting**|
+|:-----|:-----|
+|Classic|Only people in your organization|
+|OneDrive|Anyone|
+|Group-connected sites (including Teams)|New and existing guests|
+|Communication|Only people in your organization|
+|Modern sites with no group (#STS3 TeamSite|Only people in your organization|
 
 
 ## See also
