@@ -124,7 +124,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **Admin role:** SharePoint administrator
 
-These settings affect all of the sites in the organization.
+These settings affect all of the sites in the organization. They do not affect Office 365 Groups or Teams directly, however we recommend that you align these settings with the settings for Office 365 Groups and Teams to avoid user experience issues. (For example, if guest sharing is allowed in Teams but not SharePoint, then guests in teams will not have access to the Files tab in Teams because Teams files are stored in SharePoint.)
 
 ### SharePoint and OneDrive sharing settings
 
@@ -135,7 +135,7 @@ These settings affect all of the sites in the organization.
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
 |SharePoint|Anyone|The most permissive sharing permissions allowed for SharePoint sites.|
-|OneDrive|Anyone|The most permissive sharing permissions for OneDrive sites. This setting cannot be more permissive than the SharePoint setting.|
+|OneDrive|Anyone|The most permissive sharing permissions allowed for OneDrive sites. This setting cannot be more permissive than the SharePoint setting.|
 
 ### SharePoint and OneDrive advanced sharing settings
 
@@ -164,6 +164,8 @@ These settings affect all of the sites in the organization.
 
 ### SharePoint and OneDrive security group settings
 
+If you want to limit who can share with guests in SharePoint and OneDrive, you can do so by limiting sharing to people in specified security groups. These settings do not affect sharing via Office 365 Groups or Teams. Guests invited via a group or team would also have access to the associated site, though document and folder sharing could only be done by people in the specified security groups.
+
 **Navigation:** SharePoint admin center > Sharing > Limit external sharing to specific security groups
 
 ![Screenshot of SharePoint organization-level sharing security group settings](media/sharepoint-organization-external-sharing-security-groups.png)
@@ -189,7 +191,7 @@ Both of these settings can be used at the same time. If a user is in security gr
 |:-----|:-----|:-----|
 |Site content can be shared with|Varies by site type (see the table below)|Indicates the type of external shaing allowed for this site. Options available here are subject to the organization-level sharing settings for SharePoint.|
 
-Because these settings are subject to the organization-wide settings for SharePoint, the effective sharing setting for the site may change if the organization-level setting changes. If you choose a setting here and the organization-level is later set to a more restrictive value, then this site will operate at that more restrictive value. For example, if you choose **Anyone** and the organization-level setting is later set to **New and existing guests**, then this site will only allow new and existing guests. If the organization-level setting is then set back to **Anyone**, then this site would again allow *Anyone* links.
+Because these settings are subject to the organization-wide settings for SharePoint, the effective sharing setting for the site may change if the organization-level setting changes. If you choose a setting here and the organization-level is later set to a more restrictive value, then this site will operate at that more restrictive value. For example, if you choose **Anyone** and the organization-level setting is later set to **New and existing guests**, then this site will only allow new and existing guests. If the organization-level setting is then set back to **Anyone**, this site would again allow *Anyone* links.
 
 The table below shows the default sharing setting for each site type.
 
