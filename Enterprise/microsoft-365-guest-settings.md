@@ -1,5 +1,5 @@
 ---
-title: " Microsoft 365 guest sharing settings"
+title: " Microsoft 365 guest sharing settings reference"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -11,7 +11,7 @@ localization_priority: Priority
 description: "Learn about the guest sharing settings available in  Microsoft 365."
 ---
 
-#  Microsoft 365 guest sharing settings
+#  Microsoft 365 guest sharing settings reference
 
 ## Azure Active Directory
 
@@ -124,9 +124,11 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **Admin role:** SharePoint administrator
 
-These settings affect all of the sites in the organization. They do not affect Office 365 Groups or Teams directly, however we recommend that you align these settings with the settings for Office 365 Groups and Teams to avoid user experience issues. (For example, if guest sharing is allowed in Teams but not SharePoint, then guests in teams will not have access to the Files tab in Teams because Teams files are stored in SharePoint.)
+These settings affect all of the sites in the organization. They do not affect Office 365 Groups or Teams directly, however we recommend that you align these settings with the settings for Office 365 Groups and Teams to avoid user experience issues. (For example, if guest sharing is allowed in Teams but not SharePoint, then guests in Teams will not have access to the Files tab because Teams files are stored in SharePoint.)
 
 ### SharePoint and OneDrive sharing settings
+
+Because OneDrive is a hierarchy of sites within SharePoint, the organization-level sharing settings directly affect OneDrive just as they do other SharePoint sites.
 
 **Navigation:** SharePoint admin center > Sharing
 
@@ -146,10 +148,12 @@ These settings affect all of the sites in the organization. They do not affect O
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
 |Limit external sharing by domain|Off|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br> This setting affects all SharePoint and OneDrive sites in the organization.|
-|Guests must sign in using the same account to which sharing invitations are sent|Off|Prevents guests from redeeming sharing invitations using a different email address than the invitation was sent to.|
+|Guests must sign in using the same account to which sharing invitations are sent|Off|Prevents guests from redeeming site sharing invitations using a different email address than the invitation was sent to.<br>[SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) does not use this setting because all guests are added to the directory based on the email address that the invitation was sent to. Alternate email addresses cannot be used to access the site.|
 |Allow guests to share items they don't own|On|When **On**, guests can share items that they don't own with other users or guests.|
 
 ### SharePoint and OneDrive file and folder link settings
+
+When files and folders are shared in SharePoint and OneDrive, sharing recipients are sent a link with permissions to the file or folder rather than being granted direct access to the file or folder themselves. Several types of links are available, and you can choose the default link type presented to users when they share a file or folder. You can also set permissions and expiration options for *Anyone* links.
 
 **Navigation:** SharePoint admin center > Sharing
 
@@ -177,11 +181,13 @@ If you want to limit who can share with guests in SharePoint and OneDrive, you c
 
 Both of these settings can be used at the same time. If a user is in security groups specified for both settings, then the greater permission level prevails (*Anyone* plus *Specific user*).
 
-## SharePoint (site level)
+## SharePoint (site level - admin)
 
 **Admin role:** SharePoint administrator
 
 ### Site sharing
+
+You can set guest sharing permissions for each site in SharePoint. This setting applies to both site sharing and file and folder sharing. (*Anyone* sharing is not available for site sharing. If you choose **Anyone**, users will be able to share files and folders by using *Anyone* links, and the site itself with new and existing guests.)
 
 **Navigation:** SharePoint admin center > Active sites > click the site > External sharing
 
@@ -202,6 +208,27 @@ The table below shows the default sharing setting for each site type.
 |Group-connected sites (including Teams)|**New and existing guests** if the Office 365 Groups setting **Let group owners add people outside the organization to groups** is **On**; otherwise **Existing guests only**|
 |Communication|**Only people in your organization**|
 |Modern sites with no group (#STS3 TeamSite)|**Only people in your organization**|
+
+## SharePoint (site level - site owner)
+
+**Admin role:** Site owner
+
+### Access request settings
+
+**Navigation:** Site > Settings > Site permissions > Advanced permissions settings > Access Request Settings
+
+![Screenshot of SharePoint access request settings](media/sharepoint-access-request-settings.png)
+
+|**Setting**|**Default**|**Description**|
+|:-----|:-----|:-----|
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
 
 
 ## See also
