@@ -79,7 +79,7 @@ Get-CsOnlineUser -Identity "Alex Darrow" | ForEach {Get-CsExternalAccessPolicy -
 
 This command finds the policy assigned to the user, then finds the capabilities enabled or disabled within that policy.
   
-To manage Skype for Business Online policies policies with PowerShell, see the following cmdlets for:
+To manage Skype for Business Online policies with PowerShell, see the cmdlets for:
 
 - [Client policy](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#client-policy-cmdlets)
 - [Conferencing policy](https://docs.microsoft.com/previous-versions//mt228132(v=technet.10)#conferencing-policy-cmdlets)
