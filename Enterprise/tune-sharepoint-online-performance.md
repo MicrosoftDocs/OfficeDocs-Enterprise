@@ -30,6 +30,8 @@ Use these articles to fine tune SharePoint Online performance.
 - [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md)
     
 - [Navigation options for SharePoint Online](navigation-options-for-sharepoint-online.md)
+
+- [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
     
 - [Image optimization for SharePoint Online](image-optimization-for-sharepoint-online.md)
     
