@@ -15,6 +15,8 @@ description: "Learn about the guest sharing settings available in  Microsoft 365
 
 ## Azure Active Directory
 
+**Admin role:** Global administrator
+
 Azure Active Directory is the directory service used by  Microsoft 365. The Azure Active Directory Organizational relationships settings directly affect sharing in Teams, Office 365 Groups, SharePoint, and OneDrive.
 
 > [!NOTE]
@@ -38,6 +40,8 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 These settings affect how users are invited to the directory. They do not affect sharing with guests who are already in the directory.
 
 ##  Microsoft 365
+
+**Admin role:** Global administrator
 
 The Microsoft 365 admin center has organization-level settings for sharing and for Office 365 Groups.
 
@@ -63,6 +67,8 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |Let group owners add people outside your organization to groups|On|When **On**, Owners of Office 365 Groups or Teams can invite new guests to the group. When **Off**, owners can only invite guests who are already in the directory.|
 
 ## Teams
+
+**Admin role:** Teams service administrator
 
 **Guest access**
 
@@ -114,9 +120,17 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |Allow immersive reader for viewing messages|On| |
 
 
-## SharePoint and OneDrive
+## SharePoint and OneDrive (organization-level)
+
+**Admin role:** SharePoint administrator
+
+These settings affect all of the sites in the organization.
 
 **SharePoint and OneDrive sharing settings**
+
+### SharePoint and OneDrive sharing settings
+
+#### SharePoint and OneDrive sharing settings
 
 **Navigation:** SharePoint admin center > Sharing
 
@@ -147,10 +161,10 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|File and folder links|Anyone with the link|Specifies which sharing link is shown by default when a user shares a file or folder. Users can change the option before sharing if they want. If the default is set to **Anyone with the link** and Anyone sharing is not allowed for a given site, then **Only people in your organization** will be shown as the default for that site.|
-|These links must expire within this many days|Off (no expiration)|Specifies the number of days after an Anyone link is created that it expires. Expired links cannot be renewed. Create a new link if you need to continue sharing past the expiration.|
-|File permssions|View and edit|Specifies the file permission levels available to users when creating an Anyone link. If **View** is selected, then users can only create Anyone file links with view permissions. If **View, and edit** is selected, then users can choose between view and view and edit permissions when they creat the link.|
-|Folder permissions|View, edit, and upload|Specifies the folder permission levels available to users when creating an Anyone link. If **View** is selected, then users can only create Anyone folder links with view permissions. If **View, edit, and upload** is selected, then users can choose between view and view, edit, and upload permissions when they creat the link.|
+|File and folder links|Anyone with the link|Specifies which sharing link is shown by default when a user shares a file or folder. Users can change the option before sharing if they want. If the default is set to **Anyone with the link** and *Anyone* sharing is not allowed for a given site, then **Only people in your organization** will be shown as the default for that site.|
+|These links must expire within this many days|Off (no expiration)|Specifies the number of days after an *Anyone* link is created that it expires. Expired links cannot be renewed. Create a new link if you need to continue sharing past the expiration.|
+|File permssions|View and edit|Specifies the file permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* file links with view permissions. If **View, and edit** is selected, then users can choose between view and view and edit permissions when they creat the link.|
+|Folder permissions|View, edit, and upload|Specifies the folder permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* folder links with view permissions. If **View, edit, and upload** is selected, then users can choose between view and view, edit, and upload permissions when they creat the link.|
 
 **SharePoint and OneDrive security group settings**
 
@@ -160,10 +174,14 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Let only users in selected security groups share with authenticated external users|Off| |
-|Let only users in selected security groups share with authenticated external users and using anonymous links|Off| |
+|Let only users in selected security groups share with authenticated external users|Off|When **On**, only the people in the specified security groups can share with external users. Only *Specific people* links are available. *Anyone* sharing is effectively disabled unless **Let only users in selected security groups share with authenticated external users and using anonymous links** is also **On**|
+|Let only users in selected security groups share with authenticated external users and using anonymous links|Off|When **On**, only the people in the specified security groups can share with guests. Both *Anyone* and *Specific people* links are available.|
 
-## SharePoint site settings
+Both of these settings can be used at the same time. If a user is in security groups specified for both settings, then the greater permission level prevails (*Anyone* plus *Specific user*).
+
+## SharePoint (site level)
+
+**Admin role:** SharePoint administrator
 
 **Navigation:** SharePoint admin center > Active sites > click the site > External sharing
 
@@ -173,7 +191,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |:-----|:-----|:-----|
 |Site content can be shared with|Varies by site type (see the table below)|Indicates the type of external shaing allowed for this site. Options available here are subject to the organization-level sharing settings for SharePoint.|
 
-Because these settings are subject to the organization-wide settings for SharePoint, the effective sharing setting for the site may change if the organization-level setting changes. If you choose a setting here and the organization-level is later set to a more restrictive value, then this site will operate at that more restrictive value. For example, if you choose **Anyone** and the organization-level setting is later set to **New and existing guests**, then this site will only allow new and existing guests. If the organization-level setting is then set back to **Anyone**, then this site would again allow Anyone links.
+Because these settings are subject to the organization-wide settings for SharePoint, the effective sharing setting for the site may change if the organization-level setting changes. If you choose a setting here and the organization-level is later set to a more restrictive value, then this site will operate at that more restrictive value. For example, if you choose **Anyone** and the organization-level setting is later set to **New and existing guests**, then this site will only allow new and existing guests. If the organization-level setting is then set back to **Anyone**, then this site would again allow *Anyone* links.
 
 The table below shows the default sharing setting for each site type.
 
