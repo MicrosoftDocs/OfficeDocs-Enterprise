@@ -22,7 +22,7 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 > [!NOTE]
 > These settings only affect SharePoint when [SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) has been configured.
 
-**Organizational relationships settings**
+### Organizational relationships settings
 
 **Navigation:** [Azure Active Directory admin center](https://aad.portal.azure.com) > Azure Active Directory > Organizational relationships > Settings
 
@@ -45,7 +45,7 @@ These settings affect how users are invited to the directory. They do not affect
 
 The Microsoft 365 admin center has organization-level settings for sharing and for Office 365 Groups.
 
-**Sharing**
+### Sharing
 
 **Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com) > Settings > Security & privacy > Sharing
 
@@ -55,7 +55,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |:-----|:-----|:-----|
 |Let users add new guests to the organization|On|When set to **On**, members in Azure AD can invite guests via Azure AD; when set to **Off**, they cannot. This setting does not affect  Microsoft 365 guest invitation experiences such as Teams and SharePoint. Note that **members** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
 
-**Office 365 Groups**
+### Office 365 Groups
 
 **Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com) > Settings > Services & add-ins > Office 365 Groups
 
@@ -70,7 +70,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **Admin role:** Teams service administrator
 
-**Guest access**
+### Guest access
 
 **Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
@@ -80,7 +80,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |:-----|:-----|:-----|
 |Allow guest access in Teams|Off| |
 
-**Guest calling**
+### Guest calling
 
 **Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
@@ -90,7 +90,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |:-----|:-----|:-----|
 |Make private calls|On| |
 
-**Guest meeting**
+### Guest meeting
 
 **Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
@@ -102,7 +102,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |Screen sharing mode|Entire screen| |
 |Allow Meet Now|On| |
 
-**Guest messaging**
+### Guest messaging
 
 **Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
@@ -126,11 +126,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 These settings affect all of the sites in the organization.
 
-**SharePoint and OneDrive sharing settings**
-
 ### SharePoint and OneDrive sharing settings
-
-#### SharePoint and OneDrive sharing settings
 
 **Navigation:** SharePoint admin center > Sharing
 
@@ -141,7 +137,7 @@ These settings affect all of the sites in the organization.
 |SharePoint|Anyone|The most permissive sharing permissions allowed for SharePoint sites.|
 |OneDrive|Anyone|The most permissive sharing permissions for OneDrive sites. This setting cannot be more permissive than the SharePoint setting.|
 
-**SharePoint and OneDrive advanced sharing settings**
+### SharePoint and OneDrive advanced sharing settings
 
 **Navigation:** SharePoint admin center > Sharing
 
@@ -153,7 +149,7 @@ These settings affect all of the sites in the organization.
 |Guests must sign in using the same account to which sharing invitations are sent|Off|Prevents guests from redeeming sharing invitations using a different email address than the invitation was sent to.|
 |Allow guests to share items they don't own|On|When **On**, guests can share items that they don't own with other users or guests.|
 
-**SharePoint and OneDrive file and folder link settings**
+### SharePoint and OneDrive file and folder link settings
 
 **Navigation:** SharePoint admin center > Sharing
 
@@ -166,7 +162,7 @@ These settings affect all of the sites in the organization.
 |File permssions|View and edit|Specifies the file permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* file links with view permissions. If **View, and edit** is selected, then users can choose between view and view and edit permissions when they creat the link.|
 |Folder permissions|View, edit, and upload|Specifies the folder permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* folder links with view permissions. If **View, edit, and upload** is selected, then users can choose between view and view, edit, and upload permissions when they creat the link.|
 
-**SharePoint and OneDrive security group settings**
+### SharePoint and OneDrive security group settings
 
 **Navigation:** SharePoint admin center > Sharing > Limit external sharing to specific security groups
 
@@ -182,6 +178,8 @@ Both of these settings can be used at the same time. If a user is in security gr
 ## SharePoint (site level)
 
 **Admin role:** SharePoint administrator
+
+### Site sharing
 
 **Navigation:** SharePoint admin center > Active sites > click the site > External sharing
 
@@ -199,7 +197,7 @@ The table below shows the default sharing setting for each site type.
 |:-----|:-----|
 |Classic|**Only people in your organization**|
 |OneDrive|**Anyone**|
-|Group-connected sites (including Teams)|**New and existing guests** if the Office 365 Groups setting **Let group owners add people outside the organization to groups** is on; otherwise **Existing guests only**|
+|Group-connected sites (including Teams)|**New and existing guests** if the Office 365 Groups setting **Let group owners add people outside the organization to groups** is **On**; otherwise **Existing guests only**|
 |Communication|**Only people in your organization**|
 |Modern sites with no group (#STS3 TeamSite)|**Only people in your organization**|
 
