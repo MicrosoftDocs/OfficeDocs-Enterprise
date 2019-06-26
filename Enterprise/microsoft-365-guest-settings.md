@@ -20,9 +20,11 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 > [!NOTE]
 > These settings only affect SharePoint when [SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) has been configured.
 
-![Screenshot of Azure Active Directory Organizational Relationships Settings page](media/azure-ad-organizational-relationships-settings.png)
+**Organizational relationships settings**
 
 **Navigation:** [Azure Active Directory admin center](https://aad.portal.azure.com) > Azure Active Directory > Organizational relationships > Settings
+
+![Screenshot of Azure Active Directory Organizational Relationships Settings page](media/azure-ad-organizational-relationships-settings.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
@@ -41,9 +43,9 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **Sharing**
 
-![Screenshot of the security and privacy guest sharing setting in the  Microsoft 365 admin center](media/sharepoint-security-privacy-sharing-setting.png)
-
 **Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com) > Settings > Security & privacy > Sharing
+
+![Screenshot of the security and privacy guest sharing setting in the  Microsoft 365 admin center](media/sharepoint-security-privacy-sharing-setting.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
@@ -51,9 +53,9 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **Office 365 Groups**
 
-![Screenshot of Office 365 Groups guest settings in  Microsoft 365 admin center](media/office-365-groups-guest-settings.png)
-
 **Navigation:** [Microsoft 365 admin center](https://admin.microsoft.com) > Settings > Services & add-ins > Office 365 Groups
+
+![Screenshot of Office 365 Groups guest settings in  Microsoft 365 admin center](media/office-365-groups-guest-settings.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
@@ -62,7 +64,9 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 ## Teams
 
+**Guest access**
 
+**Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
 ![Screenshot of Teams guest access toggle](media/teams-guest-access-toggle.png)
 
@@ -70,12 +74,19 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |:-----|:-----|:-----|
 |Allow guest access in Teams|Off| |
 
+**Guest calling**
+
+**Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
 ![Screenshot of Teams guest calling options](media/teams-guest-calling-setting.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
 |Make private calls|On| |
+
+**Guest meeting**
+
+**Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
 ![Screenshot of Teams guest meeting settings](media/teams-guest-meeting-settings.png)
 
@@ -85,6 +96,9 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |Screen sharing mode|Entire screen| |
 |Allow Meet Now|On| |
 
+**Guest messaging**
+
+**Navigation:** [Teams admin center](https://admin.teams.microsoft.com) > Org-wide settings > Guest access
 
 ![Screenshot of Teams guest messaging settings](media/teams-guest-messaging-settings.png)
 
@@ -104,6 +118,8 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **SharePoint and OneDrive sharing settings**
 
+**Navigation:** SharePoint admin center > Sharing
+
 ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
 
 |**Setting**|**Default**|**Description**|
@@ -112,6 +128,8 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |OneDrive|Anyone| |
 
 **SharePoint and OneDrive advanced sharing settings**
+
+**Navigation:** SharePoint admin center > Sharing
 
 ![Screenshot of SharePoint organization-level additional sharing settings](media/sharepoint-organization-advanced-sharing-settings.png)
 
@@ -122,6 +140,8 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 |Allow guests to share items they don't own|On| |
 
 **SharePoint and OneDrive file and folder link settings**
+
+**Navigation:** SharePoint admin center > Sharing
 
 ![Screenshot of SharePoint organization-level files and folders sharing settings](media/sharepoint-organization-files-folders-sharing-settings.png)
 
@@ -134,6 +154,8 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 **SharePoint and OneDrive security group settings**
 
+**Navigation:** SharePoint admin center > Sharing > Limit external sharing to specific security groups
+
 ![Screenshot of SharePoint organization-level sharing security group settings](media/sharepoint-organization-external-sharing-security-groups.png)
 
 |**Setting**|**Default**|**Description**|
@@ -143,15 +165,15 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 ## SharePoint site settings
 
-![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
-
 **Navigation:** SharePoint admin center > Active sites > click the site > External sharing
+
+![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Site content can be shared with|Varies by site type| |
+|Site content can be shared with|Varies by site type|Indicates the type of external shaing allowed for this site. Options available here are subject to the organization-level sharing settings for SharePoint.|
 
-The table below show the default sharing setting for each site type.
+The table below shows the default sharing setting for each site type.
 
 |**Site type**|**Default sharing setting**|
 |:-----|:-----|
