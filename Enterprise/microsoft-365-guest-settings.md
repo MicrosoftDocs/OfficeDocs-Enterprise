@@ -32,8 +32,8 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 |:-----|:-----|:-----|
 |Guest users permissions are limited|Yes|This setting affects the directory tasks that a guest can perform. It does not affect guests in  Microsoft 365|
 |Admins and users in the guest inviter role can invite|Yes|When set to **Yes**, admins can invite guests via Azure AD and via  Microsoft 365 sharing experiences such as Teams and SharePoint; when set to **No**, they cannot. <br>  Microsoft 365 does not use the guest inviter role, so non-admin members of the guest inviter role can only invite guests via Azure AD.|
-|Members can invite|Yes|When set to **Yes**, members in Azure AD can invite guests via Azure AD; when set to **No**, they cannot. This setting does not affect  Microsoft 365 guest invitation experiences such as Teams and SharePoint. Note that **members** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br>This is identical to the **Let users add new guests to the organization** setting in the  Microsoft 365 admin center.|
-|Guests can invite|Yes|INFO NEEDED|
+|Members can invite|Yes|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. When set to **Yes** or **No**, SharePoint site members can invite new guests to the site. <br> Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365.|
+|Guests can invite|Yes|When set to **Yes**, guests in the directory can invite other guests to collaborate on Azure AD resources; when set to **No**, they cannot. This setting does not affect Microsoft 365 workloads such as Office 365 Groups, Teams, and SharePoint.|
 |Enable Email One-Time Passcode for guests (Preview)|No|When set to **Yes**, guests without an MSA or a work or school account can [authenticate with Azure AD using a one-time passcode](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode); when set to **No**, users will need to create a Microsoft account in order to authenticate. This setting must be set to **Yes** for [SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) to work.|
 |Collaboration restrictions|Allow invitations to be sent to any domain|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br> This setting affects  Microsoft 365 sharing experiences such as Teams and SharePoint. You can allow or block domains at a more granular level by using domain filtering in SharePoint or Teams.|
 
@@ -181,7 +181,7 @@ If you want to limit who can share with guests in SharePoint and OneDrive, you c
 
 Both of these settings can be used at the same time. If a user is in security groups specified for both settings, then the greater permission level prevails (*Anyone* plus *Specific user*).
 
-## SharePoint (site level - admin)
+## SharePoint (site level)
 
 **Admin role:** SharePoint administrator
 
@@ -208,25 +208,6 @@ The table below shows the default sharing setting for each site type.
 |Group-connected sites (including Teams)|**New and existing guests** if the Office 365 Groups setting **Let group owners add people outside the organization to groups** is **On**; otherwise **Existing guests only**|
 |Communication|**Only people in your organization**|
 |Modern sites with no group (#STS3 TeamSite)|**Only people in your organization**|
-
-## SharePoint (site level - site owner)
-
-**Admin role:** Site owner
-
-### Access request settings
-
-Access requests are a way for a person who does not have access to a site to request access from a group owner or site owner. If access requests are allowed, users can request access to a site; otherwise, users receive an access denied message.
-
-**Navigation:** Site > Settings > Site permissions > Advanced permissions settings > Access Request Settings
-
-![Screenshot of SharePoint access request settings](media/sharepoint-access-request-settings.png)
-
-|**Setting**|**Default**|**Description**|
-|:-----|:-----|:-----|
-|Allow members to share the site and individual files and folders|On|When **On**, site members can share files and folder in the site; when **Off**, they cannot.|
-|Allow members to invite others to the site members group, Access Request Test Members|On|When **On**, site members can share the site with others. When **Off**, site members cannot share the site directly, but an access request is generated if **Allow access requests** is **On**. If both this setting and **Allow access requests** are **Off**, then members cannot share the site.|
-|Allow access requests|On|When **On**, access requests are allowed; when **Off** they're not. When **On**, access requests can be sent to the group owners (for group-connected sites) or site owners (for classic sites), or to a specific user (only one) or distribution group. In either case, only members of the Admin or Owners group can approve or decline access requests.|
-
 
 ## See also
 
