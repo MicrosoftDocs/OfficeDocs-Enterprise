@@ -1,5 +1,5 @@
 ---
-title: " Microsoft 365 guest sharing settings reference"
+title: "Microsoft 365 guest sharing settings reference"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -11,7 +11,7 @@ localization_priority: Priority
 description: "Learn about the guest sharing settings available in  Microsoft 365."
 ---
 
-#  Microsoft 365 guest sharing settings reference
+# Microsoft 365 guest sharing settings reference
 
 This article provides a reference for the various settings that can affect guest sharing for the Microsoft 365 workloads: Teams, Office 365 Groups, SharePoint, and OneDrive. These settings are located in the Azure Active Directory, Microsoft 365, Teams, and SharePoint admin centers.
 
@@ -34,14 +34,14 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 |:-----|:-----|:-----|
 |Guest users permissions are limited|Yes|This setting affects the directory tasks that a guest can perform. It does not affect guests in  Microsoft 365|
 |Admins and users in the guest inviter role can invite|Yes|When set to **Yes**, admins can invite guests via Azure AD and via  Microsoft 365 sharing experiences such as Teams and SharePoint; when set to **No**, they cannot. <br><br>  Microsoft 365 does not use the guest inviter role, so non-admin members of the guest inviter role can only invite guests via Azure AD.|
-|Members can invite|Yes|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. This setting does not affect SharePoint or OneDrive. <br><br> Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br><br>This is identical to the **Let users add new guests to the organization** setting in Microsoft 365 Security & privacy.|
+|Members can invite|Yes|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. This setting does not affect SharePoint or OneDrive.    Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br><br>This is identical to the **Let users add new guests to the organization** setting in Microsoft 365 Security & privacy.|
 |Guests can invite|Yes|When set to **Yes**, guests in the directory can invite other guests to collaborate on Azure AD resources; when set to **No**, they cannot. This setting does not affect Microsoft 365 workloads.|
 |Enable Email One-Time Passcode for guests (Preview)|No|When set to **Yes**, guests without an MSA or a work or school account can [authenticate with Azure AD using a one-time passcode](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode); when set to **No**, users will need to create a Microsoft account in order to authenticate. This setting must be set to **Yes** for [SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) to work.|
 |Collaboration restrictions|Allow invitations to be sent to any domain|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br><br> This setting affects  Microsoft 365 sharing experiences such as Teams and SharePoint. You can allow or block domains at a more granular level by using domain filtering in SharePoint or Teams.|
 
 These settings affect how users are invited to the directory. They do not affect sharing with guests who are already in the directory.
 
-##  Microsoft 365
+## Microsoft 365
 
 **Admin role:** Global administrator
 
