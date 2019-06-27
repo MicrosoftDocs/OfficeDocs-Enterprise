@@ -13,6 +13,8 @@ description: "Learn about the guest sharing settings available in  Microsoft 365
 
 #  Microsoft 365 guest sharing settings reference
 
+This article provides a reference for the various settings that can affect guest sharing for the Microsoft 365 workloads: Teams, Office 365 Groups, SharePoint, and OneDrive. These settings are located in the Azure Active Directory, Microsoft 365, Teams, and SharePoint admin centers.
+
 ## Azure Active Directory
 
 **Admin role:** Global administrator
@@ -31,11 +33,11 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
 |Guest users permissions are limited|Yes|This setting affects the directory tasks that a guest can perform. It does not affect guests in  Microsoft 365|
-|Admins and users in the guest inviter role can invite|Yes|When set to **Yes**, admins can invite guests via Azure AD and via  Microsoft 365 sharing experiences such as Teams and SharePoint; when set to **No**, they cannot. <br>  Microsoft 365 does not use the guest inviter role, so non-admin members of the guest inviter role can only invite guests via Azure AD.|
-|Members can invite|Yes|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. When set to **Yes** or **No**, SharePoint site members can invite new guests to the site. <br> Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365.|
-|Guests can invite|Yes|When set to **Yes**, guests in the directory can invite other guests to collaborate on Azure AD resources; when set to **No**, they cannot. This setting does not affect Microsoft 365 workloads such as Office 365 Groups, Teams, and SharePoint.|
+|Admins and users in the guest inviter role can invite|Yes|When set to **Yes**, admins can invite guests via Azure AD and via  Microsoft 365 sharing experiences such as Teams and SharePoint; when set to **No**, they cannot. <br><br>  Microsoft 365 does not use the guest inviter role, so non-admin members of the guest inviter role can only invite guests via Azure AD.|
+|Members can invite|Yes|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. This setting does not affect SharePoint or OneDrive. <br><br> Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br><br>This is identical to the **Let users add new guests to the organization** setting in Microsoft 365 Security & privacy.|
+|Guests can invite|Yes|When set to **Yes**, guests in the directory can invite other guests to collaborate on Azure AD resources; when set to **No**, they cannot. This setting does not affect Microsoft 365 workloads.|
 |Enable Email One-Time Passcode for guests (Preview)|No|When set to **Yes**, guests without an MSA or a work or school account can [authenticate with Azure AD using a one-time passcode](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode); when set to **No**, users will need to create a Microsoft account in order to authenticate. This setting must be set to **Yes** for [SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) to work.|
-|Collaboration restrictions|Allow invitations to be sent to any domain|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br> This setting affects  Microsoft 365 sharing experiences such as Teams and SharePoint. You can allow or block domains at a more granular level by using domain filtering in SharePoint or Teams.|
+|Collaboration restrictions|Allow invitations to be sent to any domain|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br><br> This setting affects  Microsoft 365 sharing experiences such as Teams and SharePoint. You can allow or block domains at a more granular level by using domain filtering in SharePoint or Teams.|
 
 These settings affect how users are invited to the directory. They do not affect sharing with guests who are already in the directory.
 
@@ -53,7 +55,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Let users add new guests to the organization|On|When set to **On**, members in Azure AD can invite guests via Azure AD; when set to **Off**, they cannot. This setting does not affect  Microsoft 365 guest invitation experiences such as Teams and SharePoint. Note that **members** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
+|Let users add new guests to the organization|On|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. This setting does not affect SharePoint or OneDrive. <br><br> Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365.  <br><br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
 
 ### Office 365 Groups
 
@@ -136,8 +138,8 @@ Because OneDrive is a hierarchy of sites within SharePoint, the organization-lev
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|SharePoint|Anyone|The most permissive sharing permissions allowed for SharePoint sites.|
-|OneDrive|Anyone|The most permissive sharing permissions allowed for OneDrive sites. This setting cannot be more permissive than the SharePoint setting.|
+|SharePoint|Anyone|Specifies the most permissive sharing permissions allowed for SharePoint sites.|
+|OneDrive|Anyone|Specifies the most permissive sharing permissions allowed for OneDrive sites. This setting cannot be more permissive than the SharePoint setting.|
 
 ### SharePoint and OneDrive advanced sharing settings
 
@@ -147,9 +149,9 @@ Because OneDrive is a hierarchy of sites within SharePoint, the organization-lev
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Limit external sharing by domain|Off|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br> This setting affects all SharePoint and OneDrive sites in the organization.|
-|Guests must sign in using the same account to which sharing invitations are sent|Off|Prevents guests from redeeming site sharing invitations using a different email address than the invitation was sent to.<br>[SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) does not use this setting because all guests are added to the directory based on the email address that the invitation was sent to. Alternate email addresses cannot be used to access the site.|
-|Allow guests to share items they don't own|On|When **On**, guests can share items that they don't own with other users or guests.|
+|Limit external sharing by domain|Off|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br><br> This setting affects all SharePoint and OneDrive sites in the organization.|
+|Guests must sign in using the same account to which sharing invitations are sent|Off|Prevents guests from redeeming site sharing invitations using a different email address than the invitation was sent to.<br><br>[SharePoint and OneDrive integration with Azure AD B2B (Preview)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview) does not use this setting because all guests are added to the directory based on the email address that the invitation was sent to. Alternate email addresses cannot be used to access the site.|
+|Allow guests to share items they don't own|On|When **On**, guests can share items that they don't own with other users or guests; when **Off** they cannot. Guests can always share items for which they have full control.|
 
 ### SharePoint and OneDrive file and folder link settings
 
@@ -163,7 +165,7 @@ When files and folders are shared in SharePoint and OneDrive, sharing recipients
 |:-----|:-----|:-----|
 |File and folder links|Anyone with the link|Specifies which sharing link is shown by default when a user shares a file or folder. Users can change the option before sharing if they want. If the default is set to **Anyone with the link** and *Anyone* sharing is not allowed for a given site, then **Only people in your organization** will be shown as the default for that site.|
 |These links must expire within this many days|Off (no expiration)|Specifies the number of days after an *Anyone* link is created that it expires. Expired links cannot be renewed. Create a new link if you need to continue sharing past the expiration.|
-|File permssions|View and edit|Specifies the file permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* file links with view permissions. If **View, and edit** is selected, then users can choose between view and view and edit permissions when they creat the link.|
+|File permssions|View and edit|Specifies the file permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* file links with view permissions. If **View, and edit** is selected, then users can choose between view and view and edit permissions when they create the link.|
 |Folder permissions|View, edit, and upload|Specifies the folder permission levels available to users when creating an *Anyone* link. If **View** is selected, then users can only create *Anyone* folder links with view permissions. If **View, edit, and upload** is selected, then users can choose between view and view, edit, and upload permissions when they creat the link.|
 
 ### SharePoint and OneDrive security group settings
