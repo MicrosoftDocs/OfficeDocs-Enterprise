@@ -19,11 +19,11 @@ description: "Support ends for SharePoint 2010 and SharePoint Server 2010 ends o
 
 # Upgrading from SharePoint 2010
 
-Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **October 13, 2020**. This article details resources to help people migrate their existing SharePoint Server 2010 data to SharePoint Online, or upgrade your on-premises SharePoint Server 2010 environment.
+Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **October 13, 2020**. This article details resources to help you migrate your existing SharePoint Server 2010 data to SharePoint Online in Office 365, or upgrade your on-premises SharePoint Server 2010 environment.
   
 ## What is end of support?
 
-When your SharePoint Server 2010, and SharePoint Foundation 2010 software reaches the end of its support lifecycle (the time during which Microsoft provides new features, bug fixes, security fixes, and so on) this is called the software's 'end of support', or, sometimes, its 'Retirement'. Upon the end of support (or EOS) of a product, nothing actually shuts down or stops working; however, at the end of support of software, Microsoft no longer provides:
+When your SharePoint Server 2010, and SharePoint Foundation 2010 software reaches the end of its support lifecycle (the time during which Microsoft provides new features, bug fixes, security fixes, and so on), this is called the software's 'end of support', or, sometimes, its 'Retirement'. Upon the end of support (or EOS) of a product, nothing actually shuts down or stops working; however, at the end of support of software, Microsoft no longer provides:
   
 - Technical support for problems that may occur;
     
@@ -69,7 +69,7 @@ SharePoint Server 2013 and SharePoint Foundation 2013 can be installed on-premis
     
 - Do both of the above
     
-- Implement a [SharePoint hybrid](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx) solution 
+- Implement a [SharePoint hybrid](https://docs.microsoft.com/sharepoint/hybrid/hybrid) solution 
     
 Be aware of hidden costs associated with maintaining a server farm going forward, maintaining or migrating customizations, and upgrading the hardware upon which SharePoint Server depends. If you're aware and have accounted for all of these, it will be easier to continue upgrading on-premises. Otherwise, if you run your farm on legacy SharePoint Servers without heavy customization, you could benefit from a planned migration to SharePoint Online. It's also possible that for your on-premises SharePoint Server environment, you might opt to put some data in SharePoint Online to reduce the amount of hardware management that keeping that all your data on-premises involves. It may be more economical to move some of your data into SharePoint Online.
   
