@@ -215,20 +215,17 @@ The table below shows the default sharing setting for each site type.
 
 ### Access request settings
 
+Access requests are a way for a person who does not have access to a site to request access from a group owner or site owner. If access requests are allowed, users can request access to a site; otherwise, users receive an access denied message.
+
 **Navigation:** Site > Settings > Site permissions > Advanced permissions settings > Access Request Settings
 
 ![Screenshot of SharePoint access request settings](media/sharepoint-access-request-settings.png)
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
+|Allow members to share the site and individual files and folders|On|When **On**, site members can share files and folder in the site; when **Off**, they cannot.|
+|Allow members to invite others to the site members group, Access Request Test Members|On|When **On**, site members can share the site with others. When **Off**, site members cannot share the site directly, but an access request is generated if **Allow access requests** is **On**. If both this setting and **Allow access requests** are **Off**, then members cannot share the site.|
+|Allow access requests|On|When **On**, access requests are allowed; when **Off** they're not. When **On**, access requests can be sent to the group owners (for group-connected sites) or site owners (for classic sites), or to a specific user (only one) or distribution group. In either case, only members of the Admin or Owners group can approve or decline access requests.|
 
 
 ## See also
