@@ -190,7 +190,7 @@ Both of these settings can be used at the same time. If a user is in security gr
 
 You can set guest sharing permissions for each site in SharePoint. This setting applies to both site sharing and file and folder sharing. (*Anyone* sharing is not available for site sharing. If you choose **Anyone**, users will be able to share files and folders by using *Anyone* links, and the site itself with new and existing guests.)
 
-**Navigation:** SharePoint admin center > Active sites > click the site > External sharing
+**Navigation:** SharePoint admin center > Active sites > select the site > Sharing
 
 ![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
 
