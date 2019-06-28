@@ -3,7 +3,7 @@ title: "How to request your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/15/2019
+ms.date: 06/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -19,9 +19,7 @@ description: "Existing Office 365 customers will need to submit a request before
 > [!NOTE]
 > The information on this page only applies to customers who had existing Office 365 tenants before the new datacenters in their geo launched. 
   
-Existing Office 365 customers will need to submit a request before the deadline for their country in order to have the customer data of their participating Office 365 services moved to their new geo. 
-  
-We are unable to accept requests to be moved after the deadline in each geo. 
+Existing Office 365 customers are eligible to request early migration for their entire organization’s core customer data at rest.  
   
 ## When can I request a move?
 
@@ -50,13 +48,10 @@ On the **Organization Profile** page, scroll down to the **Data Residency Option
 ![Data residency card](media/fdb02cd0-825d-4d9e-bb35-6f806282884f.png)
   
 **You may not see this section if one of the following apply**:
-- Your tenant is not eligible for the move program. 
+- Your tenant is not eligible for the move program.  Eligibility is determined by tenant signup country.
 - All of your data is already located in the new geo (see Data Location section of the page). 
   
-> [!IMPORTANT]
-> **You are about to make an important choice for your organization. After confirming the option below, you cannot undo it. Support is unable to reverse this decision as well.**
-  
-If your organization has data residency requirements, and you need to request a move, click **Edit** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the move program. Select the toggle button next to the text that says **Yes, my organization has data residency requirements**. Then, click **Save**.
+If your organization has data residency requirements and you need to request early migration, click **Edit** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the move program. Select the toggle button next to the text that says **Yes, my organization has data residency requirements**. Then, click **Save**.
   
 ![Datacenter opt-in action screen](media/f97ab8d2-b0e1-49bf-9d6b-bf75f3081233.png)
   
@@ -66,11 +61,9 @@ You should see the text on the **Data Residency Option** section change to indic
   
 ## What happens after requesting a move?
 
-After requesting a move, we will plan to move you as quickly as our operational constraints allow for. Due to the unpredictable nature of many of the constraints, we cannot share a specific date or timeframe for the moves. You will see a notification after the move has completed.
+After requesting a move, we will plan to move you as quickly as our operational constraints allow. Due to the unpredictable nature of many of the constraints, we cannot share a specific date or timeframe for the moves. You will see a notification after the move has completed.
   
 Moves may take up to 24 months from the request deadline for your country to complete.
-  
-After requesting a move, it is not possible to change your selection as we begin to process the moves once you have made the request.
   
 ## Microsoft Teams
 
