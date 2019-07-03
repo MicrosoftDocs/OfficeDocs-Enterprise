@@ -70,6 +70,8 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 ## Teams
 
+The Teams master guest access switch, **Allow guest access in Teams**, must be **On** for the other guest settings to be available.
+
 **Admin role:** Teams service administrator
 
 ### Guest access
@@ -80,7 +82,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Allow guest access in Teams|Off| |
+|Allow guest access in Teams|Off|Turns guest access on or off for Teams overall. This setting can take 24 hours to take effect once changed.|
 
 ### Guest calling
 
@@ -90,7 +92,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Make private calls|On| |
+|Make private calls|On|When **On**, guests can make peer-to-peer calls in Teams; when **Off**, they can't.|
 
 ### Guest meeting
 
@@ -100,9 +102,9 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Allow IP video|On| |
-|Screen sharing mode|Entire screen| |
-|Allow Meet Now|On| |
+|Allow IP video|On|When **On**, guests can use video in their calls and meetings; when **Off**, they can't.|
+|Screen sharing mode|Entire screen|When **Disabled**, guests can't share their screens in Teams. When set to **Single application**, guests can only share a single application on their screen. When set to **Entire screen**, guests can choose to share an applicaion or their entire screen.|
+|Allow Meet Now|On|When **On**, guests can use the Meet Now feature in Teams; when **Off**, they can't.|
 
 ### Guest messaging
 
@@ -112,11 +114,11 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Edit sent messages|On| |
-|Delete sent messages|On| |
-|Chat|On| |
-|Use Giphys in conversations|On| |
-|Giphy content rating|Moderate| |
+|Edit sent messages|On|When **On**, guests can edit messages they previously sent; when **Off**, they can't.|
+|Delete sent messages|On|When **On**, guests can delete messages they previously sent; when **Off**, they can't.|
+|Chat|On|When **On**, guests can use chat in Teams; when **Off**, they can't.|
+|Use Giphys in conversations|On|When **On**, guests can use Giphys in conversations; when **Off**, they can't.|
+|Giphy content rating|Moderate|When set to **Allow all content**, guests will can insert all Giphys in chats, regardless of the content rating. Wnen set to **Moderate** guests can insert Giphys in chats, but will be moderately restricted from adult content. When set to **Strict** guests can insert Giphys in chats, but will be restricted from inserting adult content.|
 |Use Memes in conversations|On| |
 |User stickers in conversations|On| |
 |Allow immersive reader for viewing messages|On| |
