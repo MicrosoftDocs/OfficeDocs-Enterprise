@@ -39,7 +39,7 @@ ID | Category | ER | Addresses | Ports
 13 | Allow<BR>Required | Yes | `*.broadcast.skype.com, broadcast.skype.com`<BR>`13.70.151.216/32, 13.71.127.197/32, 13.72.245.115/32, 13.73.1.120/32, 13.75.126.169/32, 13.89.240.113/32, 13.107.3.0/24, 13.107.64.0/18, 51.140.155.234/32, 51.140.203.190/32, 51.141.51.76/32, 52.112.0.0/14, 52.163.126.215/32, 52.170.21.67/32, 52.172.185.18/32, 52.178.94.2/32, 52.178.161.139/32, 52.228.25.96/32, 52.238.119.141/32, 52.242.23.189/32, 52.244.160.207/32, 104.215.11.144/32, 104.215.62.195/32, 138.91.237.237/32, 2603:1027::/48, 2603:1037::/48, 2603:1047::/48, 2603:1057::/48, 2620:1ec:6::/48, 2620:1ec:40::/42` | **TCP:** 443
 14 | Default<BR>Required | No | `quicktips.skypeforbusiness.com` | **TCP:** 443
 15 | Default<BR>Required | No | `*.sfbassets.com, *.urlp.sfbassets.com, skypemaprdsitus.trafficmanager.net` | **TCP:** 443, 80
-16 | Default<BR>Required | No | `*.keydelivery.mediaservices.windows.net, *.msecnd.net, *.streaming.mediaservices.windows.net, ajax.aspnetcdn.com, mlccdn.blob.core.windows.net` | **TCP:** 443
+16 | Default<BR>Required | No | `*.keydelivery.mediaservices.windows.net, *.msecnd.net, *.s-msedge.net,  *.streaming.mediaservices.windows.net, ajax.aspnetcdn.com, mlccdn.blob.core.windows.net` | **TCP:** 443
 17 | Default<BR>Required | No | `aka.ms, amp.azure.net` | **TCP:** 443
 18 | Default<BR>Optional<BR>**Notes:** Federation with Skype and public IM connectivity: Contact picture retrieval | No | `*.users.storage.live.com` | **TCP:** 443
 19 | Default<BR>Optional<BR>**Notes:** Applies only to those who deploy the Conference Room Systems | No | `*.adl.windows.com` | **TCP:** 443, 80
