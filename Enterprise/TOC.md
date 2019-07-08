@@ -205,6 +205,8 @@
 ### [Tools to manage user accounts](manage-office-365-accounts.md)
 ### [Add several users at the same time](add-several-users-at-the-same-time.md)
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
+### Collaborate with guests
+#### [Microsoft 365 guest sharing settings reference](microsoft-365-guest-settings.md)
 
 ## Devices
 ### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
