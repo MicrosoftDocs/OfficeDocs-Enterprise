@@ -119,9 +119,9 @@ The Teams master guest access switch, **Allow guest access in Teams**, must be *
 |Chat|On|When **On**, guests can use chat in Teams; when **Off**, they can't.|
 |Use Giphys in conversations|On|When **On**, guests can use Giphys in conversations; when **Off**, they can't.|
 |Giphy content rating|Moderate|When set to **Allow all content**, guests will can insert all Giphys in chats, regardless of the content rating. Wnen set to **Moderate** guests can insert Giphys in chats, but will be moderately restricted from adult content. When set to **Strict** guests can insert Giphys in chats, but will be restricted from inserting adult content.|
-|Use Memes in conversations|On| |
-|User stickers in conversations|On| |
-|Allow immersive reader for viewing messages|On| |
+|Use Memes in conversations|On|When **On**, guests can use memes in conversations; when **Off**, they can't.|
+|User stickers in conversations|On|When **On**, guests can use stickers in conversations; when **Off**, they can't.|
+|Allow immersive reader for viewing messages|On|When **On**, guests can view messages in Immersive Reader; when **Off**, they can't.|
 
 ## SharePoint and OneDrive (organization-level)
 
