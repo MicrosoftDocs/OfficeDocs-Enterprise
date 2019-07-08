@@ -50,7 +50,7 @@ Office 365 Multi-Geo is currently offered in these regions and countries:
 
 Follow these steps to get started with multi-geo:
 
-1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed. Multi-Geo feature is available to customers with a minimum of 2,500 Office 365 subscriptions.
+1. Work with your account team to add the _Multi-Geo Capabilities in Office 365_ service plan. They will guide you to add the number of licenses needed. Multi-Geo feature is available to customers with a minimum of 500 Office 365 subscriptions.
 
    Before you can start using Office 365 Multi-Geo, Microsoft needs to configure your Exchange Online tenant for multi-geo support. This one-time configuration process is triggered after you order the *Multi-Geo Capabilities in Office 365* service plan and the licenses show up in your tenant. You'll receive notifications in the [Office 365 message center](https://support.office.com/article/38FB3333-BFCC-4340-A37B-DEDA509C2093) once your Multi-Geo licenses are applied and you then may begin configuring and using your Office 365 Multi-Geo capabilities.
 
