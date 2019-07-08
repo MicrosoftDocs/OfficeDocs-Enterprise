@@ -214,9 +214,8 @@ The table below shows the default sharing setting for each site type.
 
 ## See also
 
-|**Setting**|**Default**|**Description**|
-|:-----|:-----|:-----|
-| | | |
+[SharePoint and OneDrive external sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
 
+[Guest access in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/guest-access)
 
-[External sharing overview](https://docs.microsoft.com/sharepoint/external-sharing-overview)
+[Adding guests to Office 365 Groups](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
