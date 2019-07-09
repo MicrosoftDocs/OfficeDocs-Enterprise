@@ -62,7 +62,7 @@ The best way to determine your site's performance weak points is to set up a com
 
 In SharePoint Online, you can access the information that is sent back to the browser in the response header for each file. The most useful value for diagnosing performance issues is **SPRequestDuration**, which displays the amount of time that the request took on the server to be processed. This can help determine if the request is very heavy and resource intensive. This is the best insight you have into how much work the server is doing to serve the page.
 
- **To view SharePoint response header information**
+### To view SharePoint response header information
   
 1. Ensure that you have the F12 tools installed. For more information on downloading and installing these tools, see [What's new in F12 tools](https://go.microsoft.com/fwlink/p/?LinkId=522545).
 
