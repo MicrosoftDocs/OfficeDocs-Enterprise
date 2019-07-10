@@ -17,7 +17,7 @@ description: "If you are using Office 2007 or Office 2010, it's time to plan you
 
 # Plan your upgrade from Office 2007 or Office 2010 servers and clients
 
-If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. 
+If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. Office 2007 products and services have reached their end of support. Exchange 2010 will reach its end of support on **January 14, 2020**. Other Office 2010 products and services will reach their end of support on **October 13, 2020**. Use the resources in this section to get started.
 
 - Office 2007 products and services have reached their end of support. See [Upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md) for more details.
 

@@ -20,7 +20,7 @@
 ### [Subscriptions, licenses, and tenants](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md)
 
 ### Plan for your network
-#### [Network connectivity to Office 365](network-connectivity.md)
+#### [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 #### [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
 #### [Network and migration planning for Office 365](network-and-migration-planning.md)
 
@@ -50,7 +50,7 @@
 ## Hybrid modern authentication
 ### [Prerequisites for Skype for Business Server and Exchange Server](hybrid-modern-auth-overview.md)
 ### [Configure Exchange Server](configure-exchange-server-for-hybrid-modern-authentication.md)
-### [Configure Skype for Business](https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal)
+### [Configure Skype for Business](configure-skype-for-business-for-hybrid-modern-authentication.md)
 ### [Remove or disable for Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
 
 ## Office clients and servers
@@ -92,7 +92,7 @@
 ### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
-### [Network connectivity to Office 365](network-connectivity.md)
+### [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 ### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
 ### Office 365 IP addresses and URLs
 #### [Office 365 endpoints](office-365-endpoints.md)
@@ -205,6 +205,8 @@
 ### [Tools to manage user accounts](manage-office-365-accounts.md)
 ### [Add several users at the same time](add-several-users-at-the-same-time.md)
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
+### Collaborate with guests
+#### [Guest sharing reference](microsoft-365-guest-settings.md)
 
 ## Devices
 ### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
