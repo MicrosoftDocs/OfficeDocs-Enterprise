@@ -1,7 +1,7 @@
 ---
 title: "Tune Office 365 performance"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 04/09/2019
 audience: Admin
