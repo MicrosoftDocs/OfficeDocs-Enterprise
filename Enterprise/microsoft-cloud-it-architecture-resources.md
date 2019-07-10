@@ -35,6 +35,7 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Microsoft hybrid cloud for enterprise architects](microsoft-cloud-it-architecture-resources.md#hybrid)
     - [Common attacks and Microsoft capabilities that protect your organization](#common-attacks-and-microsoft-capabilities-that-protect-your-organization)
     - [Microsoft 365 Enterprise Foundation Infrastructure](#m365foundationinfra)
+    - [Architecture approaches for Microsoft cloud tenant-to-tenant migrations](#architecture-approaches-for-microsoft-cloud-tenant-to-tenant-migrations)
     
 - **[Microsoft 365 enterprise solution series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
     - [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)
@@ -135,7 +136,7 @@ This series of topics illustrates several architecture approaches for mergers, a
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for Teams logical architecture poster](downloads/msft-tenant-to-tenant-migration-thumb.png)](downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx)     |This model contains: <ul><li>Business scenario mapping to architecture approaches</li><li>Design considerations</li><li>Single event migration</li><li>Phased migration</li><li>Tenant move or split</li></ul>|
+|[![Thumb image for Teams logical architecture poster](downloads/msft-tenant-to-tenant-migration-thumb.png)](downloads/Microsoft-365-tenant-to-tenant-migration.pdf) <br/> [PDF](downloads/Microsoft-365-tenant-to-tenant-migration.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/Microsoft-365-tenant-to-tenant-migration.vsdx)     |This model contains: <ul><li>A mapping of business scenarios to architecture approaches</li><li>Design considerations</li><li>Single event migration flow</li><li>Phased migration flow</li><li>Tenant move or split flow</li></ul>|
 
 <!--<a name="santa"></a>
 ### The Santa cloud
