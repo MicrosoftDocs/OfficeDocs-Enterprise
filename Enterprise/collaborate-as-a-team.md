@@ -37,7 +37,7 @@ To set Teams guest access settings
 6. Make any desired changes to the additional guest settings, and then click **Save**.
 
 > [!NOTE]
-> It may take up to twenty-four hours for the Teams guest setting to become active after you turn them on.
+> It may take up to twenty-four hours for the Teams guest setting to become active after you turn it on.
 
 ## Office 365 Groups guest settings
 
@@ -69,16 +69,41 @@ To set the SharePoint organization level default link settings
 3. If you made changes, click **Save**.
 
 
-## SharePoint organization level Anyone link settings
-
-
 
 ## Create a team
 
+To create a team
+1. In Teams, on the **Teams** tab, click **Join or create a team** at the bottom of the left pane.
+2. Click **Create a team**.
+3. Click **Build a team from scratch**.
+4. Choose **Private** or **Public**.
+5. Type a name and description for the team, and then click **Create**.
+6. Click **Skip**.
+
+
 ## SharePoint site level sharing settings
 
-## SharePoint site level access request settings
+To set site-level sharing settings
+1. In the SharePoint admin center, in the left navigation, expand **Sites** and click **Active sites**.
+2. Select the site for the team that you just created.
+3. In the ribbon, click **Sharing**.
+4. Ensure that sharing is set to **Anyone** or **New and existing guests**.
+5. If you made changes, click **Save**.
 
+
+## Invite users
+
+To invite guests to a team
+1. In the team, click **More options \*\*\***, and then click **Add member**.
+2. Type the email address of the guest who you want to invite.
+3. Click **Edit guest information**.
+4. Type the guest's full name and click the check mark.
+5. Click **Add**, and then click **Close**.
+
+To invite internal users to a team
+1. In the team, click **More options \*\*\***, and then click **Add member**.
+2. Type the name of the person who you want to invite.
+3. Click **Add**, and then click **Close**.
 
 
 ## See Also
