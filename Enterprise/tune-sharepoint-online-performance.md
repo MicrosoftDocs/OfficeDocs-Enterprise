@@ -1,7 +1,7 @@
 ---
 title: "Tune SharePoint Online performance"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 6/21/2018
 audience: Admin

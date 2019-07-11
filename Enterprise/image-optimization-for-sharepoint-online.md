@@ -1,7 +1,7 @@
 ---
 title: "Image optimization for SharePoint Online"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 6/19/2018
 audience: Admin

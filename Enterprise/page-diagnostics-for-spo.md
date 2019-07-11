@@ -1,7 +1,7 @@
 ---
 title: "Use the Page Diagnostics tool for SharePoint Online"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 audience: Admin
 ms.topic: article

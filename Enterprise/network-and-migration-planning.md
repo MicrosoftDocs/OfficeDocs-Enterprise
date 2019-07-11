@@ -1,7 +1,7 @@
 ---
 title: "Network and migration planning for Office 365"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 6/29/2018
 audience: Admin
@@ -106,5 +106,4 @@ These topics contain detailed Office 365 network reference information.
 - [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
     
 - [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
-    
-
+ 
