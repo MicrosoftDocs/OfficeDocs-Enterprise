@@ -12,7 +12,13 @@ description: "Learn how to collaborate with guests in Teams."
 
 # Collaborate as a team
 
+If you need to collaborate with guests across documents, tasks, and conversations, we recommend using Microsoft Teams. Teams provides all of the collaboration features available in Office and SharePoint with persistent chat and a customizable and extensible set of collaboration tools in a unified user experience.
+
 ## Azure Organizational relationships settings
+
+Sharing in Microsoft 365 is governed at its highest level by the organizational relationships settings in Azure Active Directory. If guest sharing is disabled or restricted in Azure AD, this will override any sharing settings that you configure in Microsoft 365.
+
+Check the organizational relationships settings to ensure that sharing with guests is not blocked.
 
 To set organizational relationship settings
 
@@ -26,6 +32,10 @@ To set organizational relationship settings
 Note the settings in the **Collaboration restrictions** section. Make sure that the domains of the users that you want to collaborate with aren't blocked.
 
 ## Teams guest access settings
+
+Teams has a master on/off switch for guest access and a variety of settings available to control what guests can do in a team. The master switch, **Allow guest access in Teams** must be **On** for guest access to work in Teams.
+
+Check to ensure that guest access is enabled in Teams and make any adjustment to the guest settings based on your business needs. Keep in mind that these settings affect all teams.
 
 To set Teams guest access settings
 
@@ -41,6 +51,8 @@ To set Teams guest access settings
 
 ## Office 365 Groups guest settings
 
+Teams uses Office 365 Groups for team membership. The Office 365 Groups guest settings must be turned on in order for guest access in Teams to work.
+
 To set Office 365 Groups guest settings
 
 1. In the Microsoft 365 admin center, in the left navigation, expand **Settings**.
@@ -52,6 +64,8 @@ To set Office 365 Groups guest settings
 
 ## SharePoint organization level sharing settings
 
+In order for guests to have access to files in Teams, the SharePoint organization-level sharing settings must allow for sharing with guests.
+
 To set SharePoint organization level sharing settings
 
 1. In the Microsoft 365 admin center, in the left navigation, under **Admin centers**, click **SharePoint**.
@@ -61,6 +75,8 @@ To set SharePoint organization level sharing settings
 
 
 ## SharePoint organization level default link settings
+
+
 
 To set the SharePoint organization level default link settings
 
