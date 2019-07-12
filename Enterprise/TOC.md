@@ -207,7 +207,8 @@
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
 ### Collaborate with guests
 #### [Guest sharing reference](microsoft-365-guest-settings.md)
-#### [Collaborate with guests](collaborating-with-people-outside-your-organization.md)
+#### Guest sharing solutions
+##### [Guest collaboration overview](collaborating-with-people-outside-your-organization.md)
 ##### [Collaborate on documents](collaborate-on-documents.md)
 ##### [Collaborate in a site](collaborate-in-a-site.md)
 ##### [Collaborate as a team](collaborate-as-a-team.md)
