@@ -3,7 +3,7 @@ title: "Project Server 2010 end-of-support roadmap"
 ms.author: efrene
 author: efrene
 manager: pamg
-ms.date: 06/03/2019
+ms.date: 07/11/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -51,6 +51,11 @@ If you are using Project Server 2010, you need to explore your migration options
 - Migrate to Project Online
     
 - Migrate to a newer on-premises version of Project Server (preferably Project Server 2019).
+
+Here are the two paths you can take to avoid the end of support for Project Server 2010.
+
+![Project Server 2010 upgrade paths](./media/project-server-2010-end-of-support/project-server-2010-end-of-support-timeline.png)
+
     
 |**Why would I prefer to migrate to Project Online?**|**Why would I prefer to migrate to Project Server 2019?**|
 |:-----|:-----|

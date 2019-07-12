@@ -3,7 +3,7 @@ title: "Upgrading from SharePoint 2010"
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 06/04/2019
+ms.date: 07/11/2019
 audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -52,12 +52,14 @@ This matrix helps plot a course when it comes to migrating product features and 
    
 If you choose options on the low end of the scale (good options), you'll need to start planning for another upgrade soon after migration from SharePoint Server 2010 completes. 
 
+Here are the three  paths you can take to avoid the end of support for SharePoint Server 2010.
+
+![SharePoint Server 2010 upgrade paths](./media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
+
 >[!Note]
 >End of support for SharePoint Server 2010 and SharePoint Foundation 2010 are scheduled for Oct 13, 2020, but *please be aware* that you should always check the [Product Lifecycle site](https://support.microsoft.com/en-us/lifecycle) for the most current dates.
 >
 
-
- 
   
 ## Where should I go next?
 
