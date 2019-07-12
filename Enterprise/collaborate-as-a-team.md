@@ -66,6 +66,10 @@ To set Office 365 Groups guest settings
 
 In order for guests to have access to files in Teams, the SharePoint organization-level sharing settings must allow for sharing with guests.
 
+These settings determine what settings are available for individual sites, including sites associated with teams. Site settings cannot be more permissive than the organization-level settings.
+
+If you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
+
 To set SharePoint organization level sharing settings
 
 1. In the Microsoft 365 admin center, in the left navigation, under **Admin centers**, click **SharePoint**.
@@ -76,7 +80,15 @@ To set SharePoint organization level sharing settings
 
 ## SharePoint organization level default link settings
 
+The default file and folder link settings determine which link option is shown to the user by default when they share a file or folder. Users can change the link type to one of the other options before sharing.
 
+Keep in mind that this setting affects all teams and SharePoint sites in your organization.
+
+Choose the type of link that's selected by default when users share files and folders:
+
+- **Anyone with the link** - Choose this option if you expect to share a lot of files and folders with anonymous users. If you want to allow *Anyone* links but are concerned about accidental anonymous sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
+- **Only people in your organization** - Choose this option if you expect most file and folder sharing to be with people inside your organization.
+- **Specific people** - Consider this option if you expect to do a lot of file and folder sharing with guests. This type of link works with guests and requires them to authenticate.
 
 To set the SharePoint organization level default link settings
 
@@ -84,9 +96,9 @@ To set the SharePoint organization level default link settings
 2. Under **File and folder links**, select the default sharing link that you want to use.
 3. If you made changes, click **Save**.
 
-
-
 ## Create a team
+
+The next step is to create the team that you plan to use for collaborating with guests.
 
 To create a team
 1. In Teams, on the **Teams** tab, click **Join or create a team** at the bottom of the left pane.
@@ -96,8 +108,11 @@ To create a team
 5. Type a name and description for the team, and then click **Create**.
 6. Click **Skip**.
 
+We'll invite users later. However, it's important to check the site-level sharing settings for the SharePoint site that is associated with the team.
 
 ## SharePoint site level sharing settings
+
+Check the site-level sharing settings to make sure that they allow the type of access that you want for this team. For example, if you set the organization-level settings to **Anyone**, but you want all guests to authenticate for this team, then make sure the site-level sharing settings are set to **New and existing guests**.
 
 To set site-level sharing settings
 1. In the SharePoint admin center, in the left navigation, expand **Sites** and click **Active sites**.
@@ -106,8 +121,14 @@ To set site-level sharing settings
 4. Ensure that sharing is set to **Anyone** or **New and existing guests**.
 5. If you made changes, click **Save**.
 
-
 ## Invite users
+
+Guest sharing settings are now configured, so you can start adding internal users and guests to your team. 
+
+To invite internal users to a team
+1. In the team, click **More options \*\*\***, and then click **Add member**.
+2. Type the name of the person who you want to invite.
+3. Click **Add**, and then click **Close**.
 
 To invite guests to a team
 1. In the team, click **More options \*\*\***, and then click **Add member**.
@@ -115,12 +136,6 @@ To invite guests to a team
 3. Click **Edit guest information**.
 4. Type the guest's full name and click the check mark.
 5. Click **Add**, and then click **Close**.
-
-To invite internal users to a team
-1. In the team, click **More options \*\*\***, and then click **Add member**.
-2. Type the name of the person who you want to invite.
-3. Click **Add**, and then click **Close**.
-
 
 ## See Also
 
