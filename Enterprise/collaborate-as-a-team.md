@@ -80,7 +80,7 @@ To set SharePoint organization level sharing settings
 
 ## SharePoint organization level default link settings
 
-The default file and folder link settings determine which link option is shown to the user by default when they share a file or folder. Users can change the link type to one of the other options before sharing.
+The default file and folder link settings determine which link option is shown to the user by default when they share a file or folder. Users can change the link type to one of the other options before sharing if desired.
 
 Keep in mind that this setting affects all teams and SharePoint sites in your organization.
 
