@@ -37,9 +37,9 @@ Existing Office 365 customers are eligible to request early migration for their 
    
 ## How to request a move
 
-Eligible customers will see a page in their [Office 365 Admin Center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
+Eligible customers will see a page in their [admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
-To access the page in the Office 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
+To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
   
 ![Settings menu with Organzational Profile highlighted](media/22799fac-32b4-4f79-ae60-3f6ffb7cfbd7.png)
   

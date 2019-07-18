@@ -21,7 +21,7 @@ description: "Summary: Learn how to use Office 365 PowerShell with Office 365 us
 
  **Summary:** Learn how to use Office 365 PowerShell with Office 365 users and licenses, Skype for Business Online, SharePoint Online, Exchange Online, and the Office 365 Security & Compliance Center.
   
-Office 365 PowerShell is a powerful management tool that complements the Office 365 Admin center. For example, you can use Office 365 PowerShell automation to more quickly manage multiple user accounts and licenses and create reports. Learn how to use Office 365 PowerShell with Office 365 users and licenses, Skype for Business Online, SharePoint Online, Exchange Online, and the Office 365 Security & Compliance Center.
+Office 365 PowerShell is a powerful management tool that complements the Microsoft 365 admin center. For example, you can use Office 365 PowerShell automation to more quickly manage multiple user accounts and licenses and create reports. Learn how to use Office 365 PowerShell with Office 365 users and licenses, Skype for Business Online, SharePoint Online, Exchange Online, and the Office 365 Security & Compliance Center.
   
 Select the topic based on your needs:
   

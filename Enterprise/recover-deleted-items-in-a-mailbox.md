@@ -44,7 +44,7 @@ The first step is to assign yourself the necessary permissions in Exchange Onlin
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
-3. In the left navigation in the Office 365 admin center, expand **Admin centers**, and then click **Exchange**.
+3. In the left navigation in the Microsoft 365 admin center, expand **Admin centers**, and then click **Exchange**.
     
     ![Admin center list](media/7d308eb7-ba63-4156-a845-3770facc5de4.PNG)
   
@@ -81,7 +81,7 @@ When you run an In-Place eDiscovery search, the Recoverable Items folder in the 
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
-3. In the left navigation in the Office 365 admin center, expand **Admin**, and then click **Exchange**.
+3. In the left navigation in the Microsoft 365 admin center, expand **Admin**, and then click **Exchange**.
     
 4. In the Exchange admin center, click **Compliance management**, click **In-Place eDiscovery &amp; Hold**, and then click **New**![Add icon](media/8ee52980-254b-440b-99a2-18d068de62d3.gif).
     

@@ -145,7 +145,7 @@ The following table describes how you can combine multiple Microsoft cloud offer
 |**Intune/EMS** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |NA  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
 |**Dynamics 365** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |NA  <br/> |
    
-An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the Office 365 Admin center:
+An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the admin center:
   
 1. Sign in to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) with your global administrator account.
     
@@ -153,7 +153,7 @@ An easy way to add subscriptions to your organization for Microsoft SaaS-based s
     
 3. On the **Purchase services** page, purchase your new subscriptions.
     
-The Office 365 Admin center assigns the organization and Azure AD tenant of your Office 365 subscription to the new subscriptions for SaaS-based cloud offerings.
+The admin center assigns the organization and Azure AD tenant of your Office 365 subscription to the new subscriptions for SaaS-based cloud offerings.
   
 To add an Azure subscription with the same organization and Azure AD tenant as your Office 365 subscription:
   
