@@ -83,7 +83,7 @@ Verify and check these items off your list before you continue:
     
   - Your SIP domain is added as a Federated domain in Office 365
     
-  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office Online' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
+  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
   
 - **Skype for Business on-premises in a hybrid Office 365 environment**
   - A Skype for Business Server 2019 deployment with all servers running Skype for Business Server 2019.

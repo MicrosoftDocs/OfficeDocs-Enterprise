@@ -70,7 +70,7 @@ When SharePoint Online is moved, data for the following services is also moved:
     
 - Office 365 Video services
     
-- Office Online
+- Office in s browser
     
 - Office 365 ProPlus
     
