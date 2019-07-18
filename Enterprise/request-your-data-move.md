@@ -3,7 +3,7 @@ title: "How to request your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 06/28/2019
+ms.date: 07/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -32,7 +32,7 @@ Existing Office 365 customers are eligible to request early migration for their 
 |United Kingdom  <br/> |March 15, 2017  <br/> |September 15, 2017  <br/> |
 |South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
-|United Arab Emirates  <br/> |Planned  <br/> |Planned  <br/> |
+|United Arab Emirates  <br/> |July 15, 2019  <br/> |January 31, 2020  <br/> |
 |South Africa  <br/> |Planned  <br/> |Planned  <br/> |
    
 ## How to request a move
