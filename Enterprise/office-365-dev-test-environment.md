@@ -113,7 +113,7 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
     
 11. On the next page, wait until Office 365 completes setting up and all the tiles are available.
     
-You should see main Office 365 portal page from which you can access Office Online services and the Microsoft 365 Admin center.
+You should see main Office 365 portal page from which you can access Office services and the Microsoft 365 admin center.
   
 For the simulated enterprise Office 365 dev/test environment, here is your resulting configuration.
   

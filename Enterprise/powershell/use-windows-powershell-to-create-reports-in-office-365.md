@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Ent_Office_Other
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
-description: "Summary: Use Office 365 PowerShell to create reports that you cannot produce in the Office 365 Admin center."
+description: "Summary: Use Office 365 PowerShell to create reports that you cannot produce in the Microsoft 365 admin center."
 ---
 
 # Use Windows PowerShell to create reports in Office 365
 
- **Summary:** Use Office 365 PowerShell to create reports that you cannot produce in the Office 365 Admin center.
+ **Summary:** Use Office 365 PowerShell to create reports that you cannot produce in the Microsoft 365 admin center.
   
-There are many different reports available in the Office 365 Admin center. However, these reports only provide so much information and sometimes you need more. That's when you need Office 365 PowerShell
+There are many different reports available in the Microsoft 365 admin center. However, these reports only provide so much information and sometimes you need more. That's when you need Office 365 PowerShell
   
 These articles that describe how to use Office 365 PowerShell to obtain information from your Office 365 tenant:
   

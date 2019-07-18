@@ -22,7 +22,7 @@ description: "Summary: View, list, or display your user accounts in various ways
 
 **Summary:** View your user accounts in various ways with Office 365 PowerShell.
   
-Although you can use the Office 365 Admin center to view the accounts for your Office 365 tenant, you can also use Office 365 PowerShell and do some things that the Office 365 Admin center cannot.
+Although you can use the Microsoft 365 admin center to view the accounts for your Office 365 tenant, you can also use Office 365 PowerShell and do some things that the admin center cannot.
   
 ## Use the Azure Active Directory PowerShell for Graph module
 

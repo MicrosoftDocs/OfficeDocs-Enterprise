@@ -317,11 +317,11 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 
 - [Admin center orientation](https://www.microsoft.com/en-us/videoplayer/embed/RWfMut)
 
-- [Create users in the Admin center](https://aka.ms/ac-createusers)
+- [Create users in the admin center](https://aka.ms/ac-createusers)
 
-- [DNS records and the Admin center](https://aka.ms/ac-dnsrecords)
+- [DNS records and the admin center](https://aka.ms/ac-dnsrecords)
 
-- [Verify your domain in the Admin center](https://aka.ms/ac-verifydns)
+- [Verify your domain in the admin center](https://aka.ms/ac-verifydns)
 
 
 ### Device security
