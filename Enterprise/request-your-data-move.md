@@ -41,11 +41,11 @@ Eligible customers will see a page in their [admin center](https://aka.ms/365adm
   
 To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
   
-![Settings menu with Organzational Profile highlighted](media/22799fac-32b4-4f79-ae60-3f6ffb7cfbd7.png)
+![Settings menu with Organizational Profile highlighted](media/22799fac-32b4-4f79-ae60-3f6ffb7cfbd7.png)
   
 On the **Organization Profile** page, scroll down to the **Data Residency Option** section. 
   
-![Data residency card](media/fdb02cd0-825d-4d9e-bb35-6f806282884f.png)
+![Data residency card](media/dataresidencyae.jpg)
   
 **You may not see this section if one of the following apply**:
 - Your tenant is not eligible for the move program.  Eligibility is determined by tenant signup country.
@@ -53,7 +53,7 @@ On the **Organization Profile** page, scroll down to the **Data Residency Option
   
 If your organization has data residency requirements and you need to request early migration, click **Edit** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the move program. Select the toggle button next to the text that says **Yes, my organization has data residency requirements**. Then, click **Save**.
   
-![Datacenter opt-in action screen](media/f97ab8d2-b0e1-49bf-9d6b-bf75f3081233.png)
+![Datacenter opt-in action screen](media/dataresidencyflyoutae.jpg)
   
 You should see the text on the **Data Residency Option** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
 
