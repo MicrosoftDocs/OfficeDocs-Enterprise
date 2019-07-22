@@ -33,7 +33,7 @@ Existing Office 365 customers are eligible to request early migration for their 
 |South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
 |United Arab Emirates  <br/> |July 15, 2019  <br/> |January 31, 2020  <br/> |
-|South Africa  <br/> |Planned  <br/> |Planned  <br/> |
+|South Africa  <br/> |July 25, 2019  <br/> |January 31, 2020  <br/> |
    
 ## How to request a move
 
@@ -48,14 +48,14 @@ On the **Organization Profile** page, scroll down to the **Data Residency Option
 ![Data residency card](media/dataresidencyae.jpg)
   
 **You may not see this section if one of the following apply**:
-- Your tenant is not eligible for the move program.  Eligibility is determined by tenant signup country.
-- All of your data is already located in the new geo (see Data Location section of the page). 
+- Your tenant is not eligible for the Office 365 Move Program.  Eligibility is determined by tenant signup country.
+- All of your core customer data at rest is already located in the new geo (see Data Location section of the page). 
   
-If your organization has data residency requirements and you need to request early migration, click **Edit** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the move program. Select the toggle button next to the text that says **Yes, my organization has data residency requirements**. Then, click **Save**.
+If your organization has data residency requirements and you need to request early migration, click **Opt-in** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the Office 365 Move Program. Select the toggle button next to the text that says **I want my organization's core customer data at rest to migrate**. Then, click **Save**.
   
 ![Datacenter opt-in action screen](media/dataresidencyflyoutae.jpg)
   
-You should see the text on the **Data Residency Option** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
+You should see the text on the **Data Residency** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
 
 
   
