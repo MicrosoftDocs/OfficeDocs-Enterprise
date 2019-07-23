@@ -167,6 +167,8 @@ Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 
 You must customize the add-in before you deploy it to your organization. Add-ins older than version 1.1 are not supported by this feature. 
 
+We recommend that you deploy a customized add-in  to yourself first to make sure it works as expected before you deploy it to your entire organization.
+
 Note also the following restrictions:
 - All URLs must be absolute (include http or https) and valid.
 - *DisplayName* must not exceed 125 characters 
