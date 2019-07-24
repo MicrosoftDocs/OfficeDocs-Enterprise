@@ -339,31 +339,85 @@ This requests changes since the specified version to the Office 365 Worldwide in
 
 ## Example PowerShell Script
 
-Here is a PowerShell script that you can run to see if there are actions you need to take for updated data. This script checks the version number for the Office 365 Worldwide instance endpoints. When there is a change, it downloads the endpoints and filters for the "Allow" and "Optimize" category endpoints. It also uses a unique _ClientRequestId_ across multiple calls and saves the latest version found in a temporary file. You should call this script once an hour to check for a version update.
+You can run this PowerShell script to see if there are actions you need to take for updated data. You should call this script at a regular interval, such as every 60 minutes, to check for a version update.
+
+The script does the following:
+
+- Checks the version number of the current Office 365 Worldwide instance endpoints by calling the web service REST API.
+- If this is the first time the script has been run, it returns the current version and all current IP addresses and URLs, and writes the output to a new file at _C:\Users\\<username\>\AppData\Local\Temp\endpoints_clientid_latestversion.txt_. If you like, you can modify the path and/or name of the output file by editing this line:
+
+``` powershell
+$datapath = $Env:TEMP + "\endpoints_clientid_latestversion.txt"
+```
+
+- On each subsequent execution of the script, if the latest web service version is identical to the version in the endpoints_clientid_latestversion.txt file, the script exits without making any changes.
+- When the latest web service version is newer than the version in the endpoints_clientid_latestversion.txt file, the script downloads the endpoints and filters for the **Allow** and **Optimize** category endpoints and writes the updated data to the file.
+
+The script generates a unique _ClientRequestId_ for the computer it is executed on, and reuses this ID across multiple calls.
+
+To run this PowerShell script:
+
+- Copy the script and save it to your local hard drive or script location as _Get-O365WebServiceUpdates.ps1_.
+- Execute the script in your preferred script editor such as the PowerShell ISE or VS Code, or from a PowerShell console using the following command:
+
+``` powershell
+powershell.exe -file <path>\Get-O365WebServiceUpdates.ps1
+```
+
+There are no parameters to pass to the script.
 
 ```powershell
-# webservice root URL
+<# Get-O365WebServiceUpdates.ps1
+From https://aka.ms/ipurlws
+
+DESCRIPTION
+This script calls the REST API of the Office 365 IP and URL Web Service (Worldwide instance)
+and checks to see if there has been a new update since the version stored in an existing
+endpoints_clientid_latestversion.txt file in your user directory's temp folder,
+usually C:\Users\<username>\AppData\Local\Temp.
+If the file doesn't exist, or the latest version is newer than the current version in the
+file, the script returns IPs and/or URLs that have been changed, added or removed in the latest
+update and writes the new version and data to the output file.
+
+USAGE
+Run as a scheduled task every 60 minutes.
+
+PARAMETERS
+n/a
+
+PREREQUISITES
+PS script execution policy: Bypass
+PowerShell 3.0 or later
+Does not require elevation
+#>
+
+#Requires -Version 3.0
+
+# web service root URL
 $ws = "https://endpoints.office.com"
-# path where client ID and latest version number will be stored
-$datapath = $Env:TEMP + "\endpoints_clientid_latestversion.txt"
+# path where output file will be stored
+$versionpath = $Env:TEMP + "\O365_endpoints_latestversion.txt"
+$datapath = $Env:TEMP + "\O365_endpoints_data.txt"
+
 # fetch client ID and version if data file exists; otherwise create new file
-if (Test-Path $datapath) {
-    $content = Get-Content $datapath
+if (Test-Path $versionpath) {
+    $content = Get-Content $versionpath
     $clientRequestId = $content[0]
     $lastVersion = $content[1]
 }
 else {
     $clientRequestId = [GUID]::NewGuid().Guid
     $lastVersion = "0000000000"
-    @($clientRequestId, $lastVersion) | Out-File $datapath
+    @($clientRequestId, $lastVersion) | Out-File $versionpath
 }
+
 # call version method to check the latest version, and pull new data if version number is different
 $version = Invoke-RestMethod -Uri ($ws + "/version/Worldwide?clientRequestId=" + $clientRequestId)
 if ($version.latest -gt $lastVersion) {
     Write-Host "New version of Office 365 worldwide commercial service instance endpoints detected"
 
     # write the new version number to the data file
-    @($clientRequestId, $version.latest) | Out-File $datapath
+    @($clientRequestId, $version.latest) | Out-File $versionpath
     # invoke endpoints method to get the new data
     $endpointSets = Invoke-RestMethod -Uri ($ws + "/endpoints/Worldwide?clientRequestId=" + $clientRequestId)
     # filter results for Allow and Optimize endpoints, and transform these into custom objects with port and category
@@ -388,7 +442,6 @@ if ($version.latest -gt $lastVersion) {
         $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
         # IPv4 strings have dots while IPv6 strings have colons
         $ip4s = $ips | Where-Object { $_ -like '*.*' }
-
         $ipCustomObjects = @()
         if ($endpointSet.category -in ("Allow", "Optimize")) {
             $ipCustomObjects = $ip4s | ForEach-Object {
@@ -403,33 +456,53 @@ if ($version.latest -gt $lastVersion) {
         $ipCustomObjects
     }
     $flatIp6s = $endpointSets | ForEach-Object {
-    $endpointSet = $_
-    $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
-    # IPv6 strings have colons while IPv6 strings have dots
-    $ip6s = $ips | Where-Object { $_ -like '*:*' }
-    $ipCustomObjects = @()
-    if ($endpointSet.category -in ("Optimize")) {
-        $ipCustomObjects = $ip6s | ForEach-Object {
-            [PSCustomObject]@{
-                category = $endpointSet.category;
-                ip = $_;
-                tcpPorts = $endpointSet.tcpPorts;
-                udpPorts = $endpointSet.udpPorts;
+        $endpointSet = $_
+        $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
+        # IPv6 strings have colons while IPv6 strings have dots
+        $ip6s = $ips | Where-Object { $_ -like '*:*' }
+        $ipCustomObjects = @()
+        if ($endpointSet.category -in ("Optimize")) {
+            $ipCustomObjects = $ip6s | ForEach-Object {
+                [PSCustomObject]@{
+                    category = $endpointSet.category;
+                    ip = $_;
+                    tcpPorts = $endpointSet.tcpPorts;
+                    udpPorts = $endpointSet.udpPorts;
+                }
             }
         }
+        $ipCustomObjects
     }
-    $ipCustomObjects
-}
+
+    # Write output to string
+    Write-Output ("Client Request ID: " + $clientRequestId)
+    Write-Output ("Version: " + $lastVersion)
+    Write-Output ""
     Write-Output "IPv4 Firewall IP Address Ranges"
     ($flatIps.ip | Sort-Object -Unique) -join "," | Out-String
     Write-Output "IPv6 Firewall IP Address Ranges"
     ($flatIp6s.ip | Sort-Object -Unique) -join "," | Out-String
     Write-Output "URLs for Proxy Server"
     ($flatUrls.url | Sort-Object -Unique) -join "," | Out-String
-    # TODO Call Send-MailMessage with new endpoints data
+    Write-Output ("IP and URL data written to " + $datapath)
+
+    # Write output to file
+    Write-Output "Office 365 IP and UL Web Service data" | Out-File $datapath
+    Write-Output "Worldwide instance" | Out-File $datapath -Append
+    Write-Output "" | Out-File $datapath -Append
+    Write-Output ("Version: " + $lastVersion) | Out-File $datapath -Append
+    Write-Output "" | Out-File $datapath -Append
+    Write-Output "IPv4 Firewall IP Address Ranges" | Out-File $datapath -Append
+    ($flatIps.ip | Sort-Object -Unique) -join "," | Out-File $datapath -Append
+    Write-Output "" | Out-File $datapath -Append
+    Write-Output "IPv6 Firewall IP Address Ranges" | Out-File $datapath -Append
+    ($flatIp6s.ip | Sort-Object -Unique) -join "," | Out-File $datapath -Append
+    Write-Output "" | Out-File $datapath -Append
+    Write-Output "URLs for Proxy Server" | Out-File $datapath -Append
+    ($flatUrls.url | Sort-Object -Unique) -join "," | Out-File $datapath -Append
 }
 else {
-    Write-Host "Office 365 worldwide commercial service instance endpoints are up-to-date"
+    Write-Host "Office 365 worldwide commercial service instance endpoints are up-to-date."
 }
 ```
 
