@@ -1,5 +1,5 @@
 ---
-title: "Pointers to information about Rights Management in the Office 365 admin center"
+title: "Pointers to information about Rights Management in the admin center"
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -17,7 +17,7 @@ ms.assetid: 5b6d3ac7-b1ac-428e-b03e-50e882f85a6e
 description: "Points to topics that describe how to activate and use the Rights Management service with Office 365."
 ---
 
-# Pointers to information about Rights Management in the Office 365 admin center
+# Pointers to information about Rights Management in the admin center
 
 This topic points to topics that describe how to enable and use RMS with Office 365.
   

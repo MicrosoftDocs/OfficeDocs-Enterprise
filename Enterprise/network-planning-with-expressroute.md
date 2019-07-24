@@ -29,7 +29,7 @@ The following table highlights a few differences between the internet and Azure 
 |**Differences in network planning**|**Internet network connection**|**ExpressRoute network connection**|
 |:-----|:-----|:-----|
 | Access to required internet services, including;  <br/>  DNS name resolution  <br/>  Certificate revocation verification  <br/>  Content delivery networks  <br/> |Yes  <br/> |Requests to Microsoft owned DNS and/or CDN infrastructure may use the ExpressRoute network.  <br/> |
-| Access to Office 365 services, including;  <br/>  Exchange Online  <br/>  SharePoint Online  <br/>  Skype for Business Online  <br/>  Office Online  <br/>  Office 365 Portal and Authentication  <br/> |Yes, all applications and features  <br/> |Yes, [specific applications and features](https://aka.ms/o365endpoints) <br/> |
+| Access to Office 365 services, including;  <br/>  Exchange Online  <br/>  SharePoint Online  <br/>  Skype for Business Online  <br/>  Office in a browser  <br/>  Office 365 Portal and Authentication  <br/> |Yes, all applications and features  <br/> |Yes, [specific applications and features](https://aka.ms/o365endpoints) <br/> |
 |On-premises security at perimeter.  <br/> |Yes  <br/> |Yes  <br/> |
 |High availability planning.  <br/> |Failover to an alternate internet network connection  <br/> |Failover to an alternate ExpressRoute connection  <br/> |
 |Direct connection with a predictable network profile.  <br/> |No  <br/> |Yes  <br/> |
