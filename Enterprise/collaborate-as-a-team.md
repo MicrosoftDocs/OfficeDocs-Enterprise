@@ -22,7 +22,7 @@ Check the organizational relationships settings to ensure that sharing with gues
 
 To set organizational relationship settings
 
-1. Log in to Microsoft Azure [https://portal.azure.com](https://portal.azure.com).
+1. Log in to Microsoft Azure at [https://portal.azure.com](https://portal.azure.com).
 2. In the left navigation, click **Azure Active Directory**.
 3. In the **Overview** pane, click **Organizational relationships**.
 4. In the **Organizational relationships** pane, click **Settings**.
@@ -39,7 +39,7 @@ Check to ensure that guest access is enabled in Teams and make any adjustment to
 
 To set Teams guest access settings
 
-1. Log in to the Microsoft 365 admin center [https://admin.microsoft.com](https://admin.microsoft.com).
+1. Log in to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com).
 2. In the left navigation, click **Show all**.
 3. Under **Admin centers**, click **Teams**.
 4. In the Teams admin center, in the left navigation, expand **Org-wide settings** and click **Guest access**.
@@ -66,7 +66,7 @@ To set Office 365 Groups guest settings
 
 In order for guests to have access to files in Teams, the SharePoint organization-level sharing settings must allow for sharing with guests.
 
-These settings determine what settings are available for individual sites, including sites associated with teams. Site settings cannot be more permissive than the organization-level settings.
+The organization-level settings determine what settings are available for individual sites, including sites associated with teams. Site settings cannot be more permissive than the organization-level settings.
 
 If you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
 
@@ -108,7 +108,7 @@ To create a team
 5. Type a name and description for the team, and then click **Create**.
 6. Click **Skip**.
 
-We'll invite users later. However, it's important to check the site-level sharing settings for the SharePoint site that is associated with the team.
+We'll invite users later. Next, it's important to check the site-level sharing settings for the SharePoint site that is associated with the team.
 
 ## SharePoint site level sharing settings
 
@@ -126,12 +126,12 @@ To set site-level sharing settings
 Guest sharing settings are now configured, so you can start adding internal users and guests to your team. 
 
 To invite internal users to a team
-1. In the team, click **More options \*\*\***, and then click **Add member**.
+1. In the team, click **More options** (**\*\*\***), and then click **Add member**.
 2. Type the name of the person who you want to invite.
 3. Click **Add**, and then click **Close**.
 
 To invite guests to a team
-1. In the team, click **More options \*\*\***, and then click **Add member**.
+1. In the team, click **More options** (**\*\*\***), and then click **Add member**.
 2. Type the email address of the guest who you want to invite.
 3. Click **Edit guest information**.
 4. Type the guest's full name and click the check mark.
