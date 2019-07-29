@@ -1,5 +1,5 @@
 ﻿---
-title: "Collaborate as a team"
+title: "Collaborate with guests in a team"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -10,9 +10,11 @@ localization_priority: Priority
 description: "Learn how to collaborate with guests in Teams."
 ---
 
-# Collaborate as a team
+# Collaborate with guests in a team
 
 If you need to collaborate with guests across documents, tasks, and conversations, we recommend using Microsoft Teams. Teams provides all of the collaboration features available in Office and SharePoint with persistent chat and a customizable and extensible set of collaboration tools in a unified user experience.
+
+In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up a team for collaboration with guests.
 
 ## Azure Organizational relationships settings
 
@@ -154,4 +156,3 @@ To invite guests to a team
 
 ## See Also
 
-CollabWorking
