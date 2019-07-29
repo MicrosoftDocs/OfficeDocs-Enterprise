@@ -33,7 +33,7 @@ To set organizational relationship settings
 5. Ensure that **Admins and users in the guest inviter role can invite** and **Members can invite** are both set to **Yes**.
 6. If you made changes, click **Save**.
 
-Note the settings in the **Collaboration restrictions** section. Make sure that the domains of the users that you want to collaborate with aren't blocked.
+Note the settings in the **Collaboration restrictions** section. Make sure that the domains of the guests that you want to collaborate with aren't blocked.
 
 ## Teams guest access settings
 
