@@ -38,9 +38,8 @@ Each person on your team needs a user account before they can sign in and access
     
     ![In the admin center choose Users and then Active users](media/12086d98-a8b4-4c48-89cf-b78ad8058ff1.png)
   
-3. In the **More** drop-down, choose **Import multiple users**.
     
-4. On the **Import multiple users** panel, you can optionally download a sample CSV file with or without sample data filled in. 
+3. On the **Import multiple users** panel, you can optionally download a sample CSV file with or without sample data filled in. 
     
     ![In the More drop-down, choose Import multiple users](media/77df8a4a-fd00-4fbe-bf1c-d234fc1d5e93.png)
   
@@ -58,15 +57,15 @@ Each person on your team needs a user account before they can sign in and access
   
   ```
 
-5. Enter a file path into the box, or choose **Browse** to browse to the CSV file location, then choose **Verify**.
+4. Enter a file path into the box, or choose **Browse** to browse to the CSV file location, then choose **Verify**.
     
     ![Your CSV file is verified](media/a43d49db-b2ab-4200-8ddf-0bc846ac6fe5.png)
   
     If there are problems with the file, the problem is displayed in the panel. You can also download a log file.
     
-6. On the **Set user options** dialog you can set the sign-in status and choose the product license that will be assigned to all users. 
+5. On the **Set user options** dialog you can set the sign-in status and choose the product license that will be assigned to all users. 
     
-7. On the **View your result** dialog you can choose to send the results to either yourself or other users (passwords will be in plain text) and you can see how many users were created, and if you need to purchase more licenses to assign to some of the new users. 
+6. On the **View your result** dialog you can choose to send the results to either yourself or other users (passwords will be in plain text) and you can see how many users were created, and if you need to purchase more licenses to assign to some of the new users. 
     
 ## Watch the video
 <a name="bk_preview"> </a>
