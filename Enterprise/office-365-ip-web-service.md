@@ -344,14 +344,15 @@ You can run this PowerShell script to see if there are actions you need to take 
 The script does the following:
 
 - Checks the version number of the current Office 365 Worldwide instance endpoints by calling the web service REST API.
-- If this is the first time the script has been run, it returns the current version and all current IP addresses and URLs, and writes the output to a new file at _C:\Users\\<username\>\AppData\Local\Temp\endpoints_clientid_latestversion.txt_. If you like, you can modify the path and/or name of the output file by editing this line:
+- If this is the first time the script has been run, it returns the current version and all current IP addresses and URLs, and writes the endpoints version to the file _C:\Users\\<username\>\AppData\Local\Temp\O365_endpoints_latestversion.txt_ and the endpoints data output to the file _C:\Users\\<username\>\AppData\Local\Temp\O365_endpoints_data.txt_. If you like, you can modify the path and/or name of the output file by editing these lines:
 
 ``` powershell
-$datapath = $Env:TEMP + "\endpoints_clientid_latestversion.txt"
+$versionpath = $Env:TEMP + "\O365_endpoints_latestversion.txt"
+$datapath = $Env:TEMP + "\O365_endpoints_data.txt"
 ```
 
-- On each subsequent execution of the script, if the latest web service version is identical to the version in the endpoints_clientid_latestversion.txt file, the script exits without making any changes.
-- When the latest web service version is newer than the version in the endpoints_clientid_latestversion.txt file, the script downloads the endpoints and filters for the **Allow** and **Optimize** category endpoints and writes the updated data to the file.
+- On each subsequent execution of the script, if the latest web service version is identical to the version in the _O365_endpoints_latestversion.txt_ file, the script exits without making any changes.
+- When the latest web service version is newer than the version in the _O365_endpoints_latestversion.txt_ file, the script downloads the endpoints and filters for the **Allow** and **Optimize** category endpoints and writes the updated data to the _O365_endpoints_data.txt_ file.
 
 The script generates a unique _ClientRequestId_ for the computer it is executed on, and reuses this ID across multiple calls.
 
@@ -377,7 +378,7 @@ endpoints_clientid_latestversion.txt file in your user directory's temp folder,
 usually C:\Users\<username>\AppData\Local\Temp.
 If the file doesn't exist, or the latest version is newer than the current version in the
 file, the script returns IPs and/or URLs that have been changed, added or removed in the latest
-update and writes the new version and data to the output file.
+update and writes the new version and data to the output file O365_endpoints_data.txt.
 
 USAGE
 Run as a scheduled task every 60 minutes.
