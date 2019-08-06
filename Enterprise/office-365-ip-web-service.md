@@ -476,7 +476,8 @@ if ($version.latest -gt $lastVersion) {
 
     # Write output to string
     Write-Output ("Client Request ID: " + $clientRequestId)
-    Write-Output ("Version: " + $lastVersion)
+    Write-Output ("Last Version: " + $lastVersion)
+    Write-Output ("New Version: " + $version.latest)
     Write-Output ""
     Write-Output "IPv4 Firewall IP Address Ranges"
     ($flatIps.ip | Sort-Object -Unique) -join "," | Out-String
@@ -490,7 +491,7 @@ if ($version.latest -gt $lastVersion) {
     Write-Output "Office 365 IP and UL Web Service data" | Out-File $datapath
     Write-Output "Worldwide instance" | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
-    Write-Output ("Version: " + $lastVersion) | Out-File $datapath -Append
+    Write-Output ("Version: " + $version.latest) | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
     Write-Output "IPv4 Firewall IP Address Ranges" | Out-File $datapath -Append
     ($flatIps.ip | Sort-Object -Unique) -join "," | Out-File $datapath -Append
