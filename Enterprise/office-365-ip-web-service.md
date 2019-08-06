@@ -344,8 +344,8 @@ You can run this PowerShell script to see if there are actions you need to take 
 The script does the following:
 
 - Checks the version number of the current Office 365 Worldwide instance endpoints by calling the web service REST API.
-- Checks for a current version file at _$Env:TEMP\O365_endpoints_latestversion.txt_. The path of the global variable $Env:TEMP is usually _C:\Users\\<username\>\AppData\Local\Temp_.
-- If this is the first time the script has been run, the script returns the current version and all current IP addresses and URLs, writes the endpoints version to the file _$Env:TEMP\O365_endpoints_latestversion.txt_ and the endpoints data output to the file _$Env:TEMP\O365_endpoints_data.txt_. If you like, you can modify the path and/or name of the output file by editing these lines:
+- Checks for a current version file at _$Env:TEMP\O365_endpoints_latestversion.txt_. The path of the global variable **$Env:TEMP** is usually _C:\Users\\<username\>\AppData\Local\Temp_.
+- If this is the first time the script has been run, the script returns the current version and all current IP addresses and URLs, writes the endpoints version to the file _$Env:TEMP\O365_endpoints_latestversion.txt_ and the endpoints data output to the file _$Env:TEMP\O365_endpoints_data.txt_. You can modify the path and/or name of the output file by editing these lines:
 
 ``` powershell
 $versionpath = $Env:TEMP + "\O365_endpoints_latestversion.txt"
@@ -379,7 +379,7 @@ $Env:TEMP\O365_endpoints_latestversion.txt file in your user directory's temp fo
 (usually C:\Users\<username>\AppData\Local\Temp).
 If the file doesn't exist, or the latest version is newer than the current version in the
 file, the script returns IPs and/or URLs that have been changed, added or removed in the latest
-update and writes the new version and data to the output file O365_endpoints_data.txt.
+update and writes the new version and data to the output file $Env:TEMP\O365_endpoints_data.txt.
 
 USAGE
 Run as a scheduled task every 60 minutes.
