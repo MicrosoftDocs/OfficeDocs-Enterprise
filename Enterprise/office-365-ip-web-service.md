@@ -371,6 +371,7 @@ The script generates a unique _ClientRequestId_ for the computer it is executed 
 ```powershell
 <# Get-O365WebServiceUpdates.ps1
 From https://aka.ms/ipurlws
+v1.1 8/6/2019
 
 DESCRIPTION
 This script calls the REST API of the Office 365 IP and URL Web Service (Worldwide instance)
@@ -397,17 +398,19 @@ Does not require elevation
 
 # web service root URL
 $ws = "https://endpoints.office.com"
-# path where output file will be stored
+# path where output files will be stored
 $versionpath = $Env:TEMP + "\O365_endpoints_latestversion.txt"
 $datapath = $Env:TEMP + "\O365_endpoints_data.txt"
 
-# fetch client ID and version if data file exists; otherwise create new file
+# fetch client ID and version if version file exists; otherwise create new file and client ID
 if (Test-Path $versionpath) {
     $content = Get-Content $versionpath
     $clientRequestId = $content[0]
     $lastVersion = $content[1]
+    Write-Output ("Version file exists! Current version: " + $lastVersion)
 }
 else {
+    Write-Output ("First run! Creating version file at " + $versionpath + ".")
     $clientRequestId = [GUID]::NewGuid().Guid
     $lastVersion = "0000000000"
     @($clientRequestId, $lastVersion) | Out-File $versionpath
@@ -417,12 +420,12 @@ else {
 $version = Invoke-RestMethod -Uri ($ws + "/version/Worldwide?clientRequestId=" + $clientRequestId)
 if ($version.latest -gt $lastVersion) {
     Write-Host "New version of Office 365 worldwide commercial service instance endpoints detected"
-
-    # write the new version number to the data file
+    # write the new version number to the version file
     @($clientRequestId, $version.latest) | Out-File $versionpath
     # invoke endpoints method to get the new data
     $endpointSets = Invoke-RestMethod -Uri ($ws + "/endpoints/Worldwide?clientRequestId=" + $clientRequestId)
     # filter results for Allow and Optimize endpoints, and transform these into custom objects with port and category
+    # URL results
     $flatUrls = $endpointSets | ForEach-Object {
         $endpointSet = $_
         $urls = $(if ($endpointSet.urls.Count -gt 0) { $endpointSet.urls } else { @() })
@@ -439,14 +442,15 @@ if ($version.latest -gt $lastVersion) {
         }
         $urlCustomObjects
     }
-    $flatIps = $endpointSets | ForEach-Object {
+    # IPv4 results
+    $flatIp4s = $endpointSets | ForEach-Object {
         $endpointSet = $_
         $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
-        # IPv4 strings have dots while IPv6 strings have colons
+        # IPv4 strings contain dots
         $ip4s = $ips | Where-Object { $_ -like '*.*' }
-        $ipCustomObjects = @()
+        $ip4CustomObjects = @()
         if ($endpointSet.category -in ("Allow", "Optimize")) {
-            $ipCustomObjects = $ip4s | ForEach-Object {
+            $ip4CustomObjects = $ip4s | ForEach-Object {
                 [PSCustomObject]@{
                     category = $endpointSet.category;
                     ip = $_;
@@ -455,16 +459,17 @@ if ($version.latest -gt $lastVersion) {
                 }
             }
         }
-        $ipCustomObjects
+        $ip4CustomObjects
     }
+    # IPv6 results
     $flatIp6s = $endpointSets | ForEach-Object {
         $endpointSet = $_
         $ips = $(if ($endpointSet.ips.Count -gt 0) { $endpointSet.ips } else { @() })
-        # IPv6 strings have colons while IPv6 strings have dots
+        # IPv6 strings contain colons
         $ip6s = $ips | Where-Object { $_ -like '*:*' }
-        $ipCustomObjects = @()
+        $ip6CustomObjects = @()
         if ($endpointSet.category -in ("Optimize")) {
-            $ipCustomObjects = $ip6s | ForEach-Object {
+            $ip6CustomObjects = $ip6s | ForEach-Object {
                 [PSCustomObject]@{
                     category = $endpointSet.category;
                     ip = $_;
@@ -473,30 +478,30 @@ if ($version.latest -gt $lastVersion) {
                 }
             }
         }
-        $ipCustomObjects
+        $ip6CustomObjects
     }
 
-    # Write output to string
+    # write output to screen
     Write-Output ("Client Request ID: " + $clientRequestId)
     Write-Output ("Last Version: " + $lastVersion)
     Write-Output ("New Version: " + $version.latest)
     Write-Output ""
     Write-Output "IPv4 Firewall IP Address Ranges"
-    ($flatIps.ip | Sort-Object -Unique) -join "," | Out-String
+    ($flatIp4s.ip | Sort-Object -Unique) -join "," | Out-String
     Write-Output "IPv6 Firewall IP Address Ranges"
     ($flatIp6s.ip | Sort-Object -Unique) -join "," | Out-String
     Write-Output "URLs for Proxy Server"
     ($flatUrls.url | Sort-Object -Unique) -join "," | Out-String
     Write-Output ("IP and URL data written to " + $datapath)
 
-    # Write output to file
+    # write output to data file
     Write-Output "Office 365 IP and UL Web Service data" | Out-File $datapath
     Write-Output "Worldwide instance" | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
     Write-Output ("Version: " + $version.latest) | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
     Write-Output "IPv4 Firewall IP Address Ranges" | Out-File $datapath -Append
-    ($flatIps.ip | Sort-Object -Unique) -join "," | Out-File $datapath -Append
+    ($flatIp4s.ip | Sort-Object -Unique) -join "," | Out-File $datapath -Append
     Write-Output "" | Out-File $datapath -Append
     Write-Output "IPv6 Firewall IP Address Ranges" | Out-File $datapath -Append
     ($flatIp6s.ip | Sort-Object -Unique) -join "," | Out-File $datapath -Append
