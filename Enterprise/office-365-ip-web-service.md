@@ -344,7 +344,8 @@ You can run this PowerShell script to see if there are actions you need to take 
 The script does the following:
 
 - Checks the version number of the current Office 365 Worldwide instance endpoints by calling the web service REST API.
-- If this is the first time the script has been run, it returns the current version and all current IP addresses and URLs, and writes the endpoints version to the file _C:\Users\\<username\>\AppData\Local\Temp\O365_endpoints_latestversion.txt_ and the endpoints data output to the file _C:\Users\\<username\>\AppData\Local\Temp\O365_endpoints_data.txt_. If you like, you can modify the path and/or name of the output file by editing these lines:
+- Checks for a current version file at _$Env:TEMP\O365_endpoints_latestversion.txt_. The path of the global variable $Env:TEMP is usually _C:\Users\\<username\>\AppData\Local\Temp_.
+- If this is the first time the script has been run, the script returns the current version and all current IP addresses and URLs, writes the endpoints version to the file _$Env:TEMP\O365_endpoints_latestversion.txt_ and the endpoints data output to the file _$Env:TEMP\O365_endpoints_data.txt_. If you like, you can modify the path and/or name of the output file by editing these lines:
 
 ``` powershell
 $versionpath = $Env:TEMP + "\O365_endpoints_latestversion.txt"
@@ -352,20 +353,20 @@ $datapath = $Env:TEMP + "\O365_endpoints_data.txt"
 ```
 
 - On each subsequent execution of the script, if the latest web service version is identical to the version in the _O365_endpoints_latestversion.txt_ file, the script exits without making any changes.
-- When the latest web service version is newer than the version in the _O365_endpoints_latestversion.txt_ file, the script downloads the endpoints and filters for the **Allow** and **Optimize** category endpoints and writes the updated data to the _O365_endpoints_data.txt_ file.
+- When the latest web service version is newer than the version in the _O365_endpoints_latestversion.txt_ file, the script returns the endpoints and filters for the **Allow** and **Optimize** category endpoints, updates the version in the _O365_endpoints_latestversion.txt_ file, and writes the updated data to the _O365_endpoints_data.txt_ file.
 
-The script generates a unique _ClientRequestId_ for the computer it is executed on, and reuses this ID across multiple calls.
+The script generates a unique _ClientRequestId_ for the computer it is executed on, and reuses this ID across multiple calls. This ID is stored in the _O365_endpoints_latestversion.txt_ file.
 
-To run this PowerShell script:
+### To run the PowerShell script
 
-- Copy the script and save it to your local hard drive or script location as _Get-O365WebServiceUpdates.ps1_.
-- Execute the script in your preferred script editor such as the PowerShell ISE or VS Code, or from a PowerShell console using the following command:
+1. Copy the script and save it to your local hard drive or script location as _Get-O365WebServiceUpdates.ps1_.
+1. Execute the script in your preferred script editor such as the PowerShell ISE or VS Code, or from a PowerShell console using the following command:
 
-``` powershell
-powershell.exe -file <path>\Get-O365WebServiceUpdates.ps1
-```
+    ``` powershell
+   powershell.exe -file <path>\Get-O365WebServiceUpdates.ps1
+    ```
 
-There are no parameters to pass to the script.
+    There are no parameters to pass to the script.
 
 ```powershell
 <# Get-O365WebServiceUpdates.ps1
@@ -374,8 +375,8 @@ From https://aka.ms/ipurlws
 DESCRIPTION
 This script calls the REST API of the Office 365 IP and URL Web Service (Worldwide instance)
 and checks to see if there has been a new update since the version stored in an existing
-endpoints_clientid_latestversion.txt file in your user directory's temp folder,
-usually C:\Users\<username>\AppData\Local\Temp.
+$Env:TEMP\O365_endpoints_latestversion.txt file in your user directory's temp folder
+(usually C:\Users\<username>\AppData\Local\Temp).
 If the file doesn't exist, or the latest version is newer than the current version in the
 file, the script returns IPs and/or URLs that have been changed, added or removed in the latest
 update and writes the new version and data to the output file O365_endpoints_data.txt.
