@@ -1,5 +1,5 @@
 ---
-title: "Office 365 IP Address and URL Web service"
+title: "Office 365 IP Address and URL web service"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -20,15 +20,15 @@ search.appverid:
 description: "To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service replaces the XML downloadable files that are currently available."
 ---
 
-# Office 365 IP Address and URL Web service
+# Office 365 IP Address and URL web service
 
-To help you better identify and differentiate Office 365 network traffic, a new web service publishes Office 365 endpoints, making it easier for you to evaluate, configure, and stay up to date with changes. This new web service replaces the XML downloadable files that are currently available. The XML format is planned to be phased out on October 2, 2018.
+The Office 365 IP Address and URL web service helps you better identify and differentiate Office 365 network traffic, making it easier for you to evaluate, configure, and stay up to date with changes. This REST-based web service replaces the previous XML downloadable files, which were phased out on October 2, 2018.
 
-As a customer or a network perimeter device vendor, you can build against the new REST-based web service for the Office 365 IP address and FQDN entries. You can access the data directly in a web browser using these URLs.
+As a customer or a network perimeter device vendor, you can build against the web service for Office 365 IP address and FQDN entries. You can access the data directly in a web browser using these URLs:
 
 - For the latest version of the Office 365 URLs and IP address ranges, use [https://endpoints.office.com/version](https://endpoints.office.com/version?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
 - For the data on the Office 365 URLs and IP address ranges page for firewalls and proxy servers, use [https://endpoints.office.com/endpoints/worldwide](https://endpoints.office.com/endpoints/worldwide?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
-- To get all the latest changes since the end of July 2018 when the web service was first available, use [https://endpoints.office.com/changes/worldwide/0000000000](https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
+- To get all the latest changes since July 2018 when the web service was first available, use [https://endpoints.office.com/changes/worldwide/0000000000](https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7).
 
 As a customer, you can use this web service to:
 
@@ -53,26 +53,28 @@ For additional information, see:
 
 These parameters are common across all the web service methods:
 
-- **format=<JSON | CSV>** - By default, the returned data format is JSON. Use this optional parameter to return the data in comma-separated values (CSV) format.
-- **ClientRequestId=\<guid>** - A required GUID that you generate for client association. You should generate a GUID for each machine that calls the web service. Do not use the GUIDs shown in the following examples because they may be blocked by the web service in the future. GUID format is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, where x represents a hexadecimal number. To generate a GUID, use the [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell command.
+- **format=<JSON | CSV>** — By default, the returned data format is JSON. Use this optional parameter to return the data in comma-separated values (CSV) format.
+- **ClientRequestId=\<guid>** — A required GUID that you generate for client association. You should generate a unique GUID for each machine that calls the web service (the scripts included on this page generate a GUID for you). Do not use the GUIDs shown in the following examples because they might be blocked by the web service in the future. GUID format is _xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx_, where x represents a hexadecimal number.
+
+  To generate a GUID, you can use the [New-Guid](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6) PowerShell command, or use an online service such as [Online GUID Generator](https://www.guidgenerator.com/).
 
 ## Version web method
 
-Microsoft updates the Office 365 IP address and FQDN entries at the end of each month and occasionally out of cycle for operational or support requirements. The data for each published instance is assigned a version number. The version web method lets you poll for the latest version for each Office 365 service instance. We recommend you check the version daily, or at the most, hourly. New versions should be expected at the start of each month. Sometimes due to support incident, security, or other operational requirements there will be new versions during the month.
+Microsoft updates the Office 365 IP address and FQDN entries at the end of each month. Out-of-band updates are sometimes published due to support incidents, security updates or other operational requirements.
+
+The data for each published instance is assigned a version number, and the version web method enables you to check for the latest version of each Office 365 service instance. We recommend you check the version not more than once an hour.
 
 Parameters for the version web method are:
 
-- **AllVersions=<true | false>** - By default, the version returned is the latest. Include this optional parameter to request all published versions since the web service was first released.
-- **Format=<JSON | CSV | RSS>** – In addition to the JSON and CSV formats, the version web method also supports RSS. You can use this optional parameter along with the _AllVersions=true_ parameter to request an RSS feed which can be used with Outlook or other RSS readers.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** - This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
+- **AllVersions=<true | false>** — By default, the version returned is the latest. Include this optional parameter to request all published versions since the web service was first released.
+- **Format=<JSON | CSV | RSS>** — In addition to the JSON and CSV formats, the version web method also supports RSS. You can use this optional parameter along with the _AllVersions=true_ parameter to request an RSS feed that can be used with Outlook or other RSS readers.
+- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** — This optional parameter specifies the instance to return the version for. If omitted, all instances are returned. Valid instances are: Worldwide, China, Germany, USGovDoD, USGovGCCHigh.
 
-The version web method is not rate limited and does not ever return 429 HTTP Response Codes. The response to the version web method does include a cache-control header recommending caching of the data for 1 hour. The result from the version web method may be a single record or an array of records. The elements of each record are:
+The version web method is not rate limited and does not ever return 429 HTTP Response Codes. The response to the version web method does include a cache-control header recommending caching of the data for 1 hour. The result from the version web method can be a single record or an array of records. The elements of each record are:
 
-- instance - The short name of the Office 365 service instance.
-- latest - The latest version for endpoints of the specified instance.
-- versions - A list of all previous versions for the specified instance. This element is only included if the AllVersions parameter is true.
-
-You can use Microsoft Flow to get email notifications of changes to the IP Addresses and URLs. See [Use Microsoft Flow to receive an email for changes to Office 365 IP Addresses and URLs](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
+- instance — The short name of the Office 365 service instance.
+- latest — The latest version for endpoints of the specified instance.
+- versions — A list of all previous versions for the specified instance. This element is only included if the _AllVersions_ parameter is true.
 
 ### Examples:
 
@@ -165,35 +167,35 @@ This URI shows an RSS feed of the published versions that include links to the l
 
 ## Endpoints web method
 
-The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. While the latest data from the endpoints web method should be used for network device configuration, the data can be cached for up to 30 days after it is published due to the advance notice provided for additions. We recommend you only call the endpoints web method again when the version web method indicates a new version of the data is available.
+The endpoints web method returns all records for IP address ranges and URLs that make up the Office 365 service. The latest data from the endpoints web method should always be used for network device configuration. Microsoft provides advance notice 30 days prior to publishing new additions to give you time to update access control lists and proxy server bypass lists. We recommend that you only call the endpoints web method again when the version web method indicates that a new version of the data is available.
 
 Parameters for the endpoints web method are:
 
-- **ServiceAreas=<Common | Exchange | SharePoint | Skype>** - A comma-separated list of service areas. Valid items are _Common_, _Exchange_, _SharePoint_, and _Skype_. Because Common service area items are a prerequisite for all other service areas, the web service will always include them. If you do not include this parameter, all service areas are returned.
-- **TenantName=<tenant_name>** - Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don't provide a tenant name, those parts of URLs have the wildcard character (\*).
-- **NoIPv6=<true | false>** - Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
-- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** - This required parameter specifies the instance to return the endpoints for. Valid instances are: _Worldwide_, _China_, _Germany_, _USGovDoD_, and _USGovGCCHigh_.
+- **ServiceAreas=<Common | Exchange | SharePoint | Skype>** — A comma-separated list of service areas. Valid items are _Common_, _Exchange_, _SharePoint_, and _Skype_. Because _Common_ service area items are a prerequisite for all other service areas, the web service always includes them. If you do not include this parameter, all service areas are returned.
+- **TenantName=<tenant_name>** — Your Office 365 tenant name. The web service takes your provided name and inserts it in parts of URLs that include the tenant name. If you don't provide a tenant name, those parts of URLs have the wildcard character (\*).
+- **NoIPv6=<true | false>** — Set this to true to exclude IPv6 addresses from the output, for example, if you don't use IPv6 in your network.
+- **Instance=<Worldwide | China | Germany | USGovDoD | USGovGCCHigh>** — This required parameter specifies the instance to return the endpoints for. Valid instances are: _Worldwide_, _China_, _Germany_, _USGovDoD_, and _USGovGCCHigh_.
 
-If you call the endpoints web method a large number of times from the same client IP address, you may receive HTTP response code 429 (Too Many Requests). Most people will never see this. If you get this response code, wait 1 hour before repeating your request. Plan to only call the endpoints web method when the version web method indicates there is a new version available.
+If you call the endpoints web method too many times from the same client IP address, you may receive HTTP response code 429 (Too Many Requests). Most users never see this. If you get this response code, wait 1 hour before repeating your request, or generate a new GUID for the request. You should only call the endpoints web method when the version web method indicates that a new version is available.
 
-The result from the endpoints web method is an array of records with each record representing an endpoint set. The elements for each record are:
+The result from the endpoints web method is an array of records in which each record represents a specific endpoint set. The elements for each record are:
 
-- id - The immutable id number of the endpoint set.
-- serviceArea - The service area that this is part of: Common, Exchange, SharePoint, or Skype.
-- urls - URLs for the endpoint set. A JSON array of DNS records. Omitted if blank.
-- tcpPorts - TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in that endpoint set for that category. Omitted if blank.
-- udpPorts - UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
-- ips - The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. A JSON array of IP Address ranges. Omitted if blank.
-- category - The connectivity category for the endpoint set. Valid values are Optimize, Allow, and Default. If using the endpoint data to search for the category of an IP Address or URL, it is possible that your query may return multiple categories. There are a few reasons why that may happen. In these cases you should follow the recommendations for the highest priority category. For example, if the endpoint appears in both Optimize and Allow, you should follow the requirements for Optimize. Required.
-- expressRoute - True or False if this endpoint set is routed over ExpressRoute.
-- required - True if this endpoint set is required to have connectivity for Office 365 to be supported. False if this endpoint set is optional.
-- notes - For optional endpoints, this text describes Office 365 functionality that will be missing if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
+- id — The immutable id number of the endpoint set.
+- serviceArea — The service area that this is part of: _Common_, _Exchange_, _SharePoint_, or _Skype_.
+- urls — URLs for the endpoint set. A JSON array of DNS records. Omitted if blank.
+- tcpPorts — TCP ports for the endpoint set. All ports elements are formatted as a comma-separated list of ports or port ranges separated by a dash character (-). Ports apply to all IP addresses and all URLs in that endpoint set for that category. Omitted if blank.
+- udpPorts — UDP ports for the IP address ranges in this endpoint set. Omitted if blank.
+- ips — The IP address ranges associated with this endpoint set as associated with the listed TCP or UDP ports. A JSON array of IP address ranges. Omitted if blank.
+- category — The connectivity category for the endpoint set. Valid values are _Optimize_, _Allow_, and _Default_. If using the endpoint data to search for the category of an IP address or URL, it is possible that your query may return multiple categories. There are a few reasons why that may happen. In these cases, you should follow the recommendations for the highest priority category. For example, if the endpoint appears in both _Optimize_ and _Allow_, you should follow the requirements for _Optimize_. Required.
+- expressRoute — _True_ if this endpoint set is routed over ExpressRoute, _False_ if not.
+- required — _True_ if this endpoint set is required to have connectivity for Office 365 to be supported. _False_ if this endpoint set is optional.
+- notes — For optional endpoints, this text describes Office 365 functionality that would be unavailable if IP addresses or URLs in this endpoint set cannot be accessed at the network layer. Omitted if blank.
 
 ### Examples:
 
 Example 1 request URI: [https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7](https://endpoints.office.com/endpoints/Worldwide?ClientRequestId=b10c5ed1-bad1-445f-b386-b919946339a7)
 
-This URI obtains all endpoints for the Office 365 worldwide instance for all workloads. Example result showing an excerpt of the output:
+This URI obtains all endpoints for the Office 365 worldwide instance for all workloads. Example result that shows an excerpt of the output:
 
 ```json
 [
@@ -229,42 +231,42 @@ Example 2 request URI: [https://endpoints.office.com/endpoints/Worldwide?Service
 
 This example obtains endpoints for the Office 365 Worldwide instance for Exchange Online and dependencies only.
 
-The output for example 2 is similar to example 1 except that the results will not include endpoints for SharePoint Online or Skype for Business Online.
+The output for example 2 is similar to example 1 except that the results do not include endpoints for SharePoint Online or Skype for Business Online.
 
 ## Changes web method
 
-The changes web method returns the most recent updates that have been published. This is typically the previous month's changes to IP address ranges and URLs. The most critical changes to be processed are when new URLs or IP Addresses are added since failing to add an IP Address to a firewall access control list, or a URL to a proxy server bypass list can cause an outage for Office 365 users behind that network device. Notwithstanding operational requirements, _Add_ operations are added with 30 days' notice before such an outage would occur.
+The changes web method returns the most recent updates that have been published, typically the previous month's changes to IP address ranges and URLs. The most critical changes to be processed are new URLs or IP addresses. Failure to add an IP address to a firewall access control list or a URL to a proxy server bypass list can cause an outage for Office 365 users behind that network device. Notwithstanding operational requirements, _Add_ operations are published with 30 days' notice before such an outage would occur.
 
 The required parameter for the changes web method is:
 
-- **Version=\<YYYYMMDDNN>** - Required URL route parameter. This value should be the version that you have currently implemented. The web service will return the changes since that version. The format is _YYYYMMDDNN_, where _NN_ is a natural number incremented if there are multiple versions required to be published on a single day, with _00_ representing the first update for a given day. The web service requires the _version_ parameter to contain exactly 10 digits.
+- **Version=\<YYYYMMDDNN>** — Required URL route parameter. This value is the version that you have currently implemented. The web service will return the changes since that version. The format is _YYYYMMDDNN_, where _NN_ is a natural number incremented if there are multiple versions required to be published on a single day, with _00_ representing the first update for a given day. The web service requires the _version_ parameter to contain exactly 10 digits.
 
-The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP response code, wait 1 hour before repeating your request.
+The changes web method is rate limited in the same way as the endpoints web method. If you receive a 429 HTTP response code, wait 1 hour before repeating your request or generate a new GUID for the request.
 
-The result from the changes web method is an array of records with each record representing a change in a specific version of the endpoints. The elements for each record are:
+The result from the changes web method is an array of records in which each record represents a change in a specific version of the endpoints. The elements for each record are:
 
-- id - The immutable id of the change record.
-- endpointSetId - The ID of the endpoint set record that is changed.
-- disposition - This can be either of change, add, or remove and describes what the change did to the endpoint set record.
-- impact - Not all changes will be equally important to every environment. This describes the expected impact to an enterprise network perimeter environment as a result of this change. This attribute is included only in change records of version **2018112800** and later. Options for the impact are:
-  - AddedIp – An IP Address was added to Office 365 and will be live on the service soon. This represents a change you need to take on a firewall or other layer 3 network perimeter device. If you don’t add this before we start using it, you may experience an outage.
-  - AddedUrl – A URL was added to Office 365 and will be live on the service soon. This represents a change you need to take on a proxy server or URL parsing network perimeter device. If you don’t add this before we start using it, you may experience an outage.
-  - AddedIpAndUrl - Both an IP Address and a URL were added. This represents a change you need to take on either a firewall layer 3 device or a proxy server or URL parsing device. If you don’t add this before we start using it, you may experience an outage.
-  - RemovedIpOrUrl – At least one IP Address or URL was removed from Office 365. You should remove the network endpoints from your perimeter devices, but there’s no deadline for you to do this.
-  - ChangedIsExpressRoute – The ExpressRoute support attribute was changed. If you use ExpressRoute then you may need to take action depending on your configuration.
-  - MovedIpOrUrl – We moved an IP Address or Url between this endpoint set and another one. Generally no action is required.
-  - RemovedDuplicateIpOrUrl – We removed a duplicate IP Address or Url but it’s still published for Office 365. Generally no action is required.
-  - OtherNonPriorityChanges – We changed something less critical than all of the other options like a note field
-- version - The version of the published endpoint set in which the change was introduced. Version numbers are of the format _YYYYMMDDNN_, where NN is a natural number incremented if there are multiple versions required to be published on a single day.
-- previous - A substructure detailing previous values of changed elements on the endpoint set. This will not be included for newly added endpoint sets. Includes  _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, and _notes_.
-- current - A substructure detailing updated values of changes elements on the endpoint set. Includes _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, and _notes_.
-- add - A substructure detailing items to be added to endpoint set collections. Omitted if there are no additions.
-  - effectiveDate - Defines the data when the additions will be live in the service.
-  - ips - Items to be added to the _ips_ array.
-  - urls- Items to be added to the _urls_ array.
-- remove - A substructure detailing items to be removed from the endpoint set. Omitted if there are no removals.
-  - ips - Items to be removed from the _ips_ array.
-  - urls- Items to be removed from the _urls_ array.
+- id — The immutable id of the change record.
+- endpointSetId — The ID of the endpoint set record that is changed.
+- disposition — Describes what the change did to the endpoint set record. Values are _change_, _add_, or _remove_.
+- impact — Not all changes will be equally important to every environment. This element describes the expected impact to an enterprise network perimeter environment as a result of this change. This element is included only in change records of version **2018112800** and later. Options for the impact are:
+  — AddedIp – An IP address was added to Office 365 and will be live on the service soon. This represents a change you need to take on a firewall or other layer 3 network perimeter device. If you don’t add this before we start using it, you may experience an outage.
+  — AddedUrl – A URL was added to Office 365 and will be live on the service soon. This represents a change you need to take on a proxy server or URL parsing network perimeter device. If you don’t add this URL before we start using it, you may experience an outage.
+  — AddedIpAndUrl — Both an IP address and a URL were added. This represents a change you need to take on either a firewall layer 3 device or a proxy server or URL parsing device. If you don’t add this IP/URL pair before we start using it, you may experience an outage.
+  — RemovedIpOrUrl – At least one IP address or URL was removed from Office 365. You should remove the network endpoints from your perimeter devices, but there’s no deadline for you to do this.
+  — ChangedIsExpressRoute – The ExpressRoute support attribute was changed. If you use ExpressRoute, you might need to take action depending on your configuration.
+  — MovedIpOrUrl – We moved an IP address or Url between this endpoint set and another one. Generally no action is required.
+  — RemovedDuplicateIpOrUrl – We removed a duplicate IP address or Url but it’s still published for Office 365. Generally no action is required.
+  — OtherNonPriorityChanges – We changed something less critical than all of the other options, such as the contents of a note field.
+- version — The version of the published endpoint set in which the change was introduced. Version numbers are of the format _YYYYMMDDNN_, where _NN_ is a natural number incremented if there are multiple versions required to be published on a single day.
+- previous — A substructure detailing previous values of changed elements on the endpoint set. This will not be included for newly added endpoint sets. Includes  _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, and _notes_.
+- current — A substructure detailing updated values of changes elements on the endpoint set. Includes _ExpressRoute_, _serviceArea_, _category_, _required_, _tcpPorts_, _udpPorts_, and _notes_.
+- add — A substructure detailing items to be added to endpoint set collections. Omitted if there are no additions.
+  — effectiveDate — Defines the data when the additions will be live in the service.
+  — ips — Items to be added to the _ips_ array.
+  — urls- Items to be added to the _urls_ array.
+- remove — A substructure detailing items to be removed from the endpoint set. Omitted if there are no removals.
+  — ips — Items to be removed from the _ips_ array.
+  — urls- Items to be removed from the _urls_ array.
 
 ### Examples:
 
@@ -582,15 +584,23 @@ else:
 
 ## Web Service interface versioning
 
-Updates to the parameters or results for these web service methods may be required in the future. After the general availability version of these web services is published, Microsoft will make reasonable efforts to provide advance notice of material updates to the web service. When Microsoft believes that an update will require changes to clients using the web service, Microsoft will keep the previous version (one version back) of the web service available for at least twelve (12) months after the release of the new version. Customers who do not upgrade during that time may be unable to access the web service and its methods. Customers must ensure that clients of the web service continue working without error if the following changes are made to the web service interface signature:
+Updates to the parameters or results for these web service methods may be required in the future. After the general availability version of these web services is published, Microsoft will make reasonable efforts to provide advance notice of material updates to the web service. When Microsoft believes that an update will require changes to clients using the web service, Microsoft will keep the previous version (one version back) of the web service available for at least 12 months after the release of the new version. Customers who do not upgrade during that time may be unable to access the web service and its methods. Customers must ensure that clients of the web service continue working without error if the following changes are made to the web service interface signature:
 
 - Adding a new optional parameter to an existing web method that doesn't have to be provided by older clients and doesn't impact the result an older client receives.
 - Adding a new named attribute in one of the response REST items or additional columns to the response CSV.
 - Adding a new web method with a new name that is not called by the older clients.
 
+## Update notifications
+
+You can use a few different methods to get email notifications when changes to the IP addresses and URLs are published to the web service.
+
+- To use a Microsoft Flow solution, see [Use Microsoft Flow to receive an email for changes to Office 365 IP Addresses and URLs](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
+- To deploy an Azure Logic App using an ARM template, see [Office 365 Update Notification (v1.1)](https://aka.ms/ipurlws-updates-template).
+- To write your own notification script using PowerShell, see [Send-MailMessage](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage).
+
 ## Exporting a Proxy PAC file
 
-[Get-PacFile](https://www.powershellgallery.com/packages/Get-PacFile) is a PowerShell script that reads the latest network endpoints from the Office 365 IP Address and URL Web service and creates a sample PAC file. For information on using Get-PacFile, see [Use a PAC file for direct routing of vital Office 365 traffic](managing-office-365-endpoints.md#use-a-pac-file-for-direct-routing-of-vital-office-365-traffic).
+[Get-PacFile](https://www.powershellgallery.com/packages/Get-PacFile) is a PowerShell script that reads the latest network endpoints from the Office 365 IP Address and URL web service and creates a sample PAC file. For information on using Get-PacFile, see [Use a PAC file for direct routing of vital Office 365 traffic](managing-office-365-endpoints.md#use-a-pac-file-for-direct-routing-of-vital-office-365-traffic).
 
 ## Related Topics
   
