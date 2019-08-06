@@ -39,6 +39,9 @@ For the Office 365 services, the default state of modern authentication is:
 - Turned **on** for SharePoint Online by default. 
     
 - Turned **on** for Skype for Business Online by default. See [Enable Skype for Business Online for modern authentication ](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)to turn it off or on.
+
+> [!NOTE]
+> For tenants created **before** August 1, 2017, modern authentication is **off** by default for Exchange Online and Skype for Business Online.
     
 ## Sign-in behavior of Office client apps
 
