@@ -52,15 +52,18 @@ If you're evaluating Office 365 and aren't sure where to begin with your network
 
 ## The Office 365 Network Onboarding tool
 
-You can use the [Office 365 Network Onboarding tool](https://aka.ms/netonboard), a new proof of concept (POC) tool, to run basic connectivity tests that provide specific guidance about networking connectivity improvements that can be made between a given user location and Office 365.
+The [Office 365 Network Onboarding tool](https://aka.ms/netonboard) is a proof of concept (POC) network assessment tool that runs basic connectivity tests against your Office 365 tenant and makes specific network design recommendations for optimal Office 365 performance. The tool highlights common large enterprise network perimeter design choices which are useful for Internet web browsing but impact the performance of large SaaS applications such as Office 365.
 
 The Network Onboarding tool does the following:
 
 - Detects your location, or you can specify a location to test
 - Checks the location of your network egress
 - Tests the network path to the nearest Office 365 service front door
+- Provides advanced tests using a downloadable Windows 10 application that makes perimeter network design recommendations related to proxy servers, firewalls, and DNS. The tool also runs performance tests for Microsoft Teams, SharePoint Online and Exchange Online.
 
-The tool displays the following information:
+The tool has two components: a browser-based UI that collects basic connectivity information, and a downloadable Windows 10 application that runs advanced tests and returns additional assessment data.
+
+The browser-based tool displays the following information:
 
 - Results and impact tab
   - The location on a map of the in-use service front door
@@ -74,7 +77,24 @@ The tool displays the following information:
   - Optimal Office 365 Exchange Online service front door(s) for user location
   - Customers in your metro area with better performance
 
-You can read about the Office 365 Network Onboarding tool release and provide feedback at the [Office 365 Network Performance tool POC release](https://techcommunity.microsoft.com/t5/Office-365-Networking/Office-365-Network-Performance-tool-POC-release/m-p/319579#M102) blog post. Information about future updates to this tool and other Office 365 networking updates will be posted to the [Office 365 Networking](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking) blog.
+The Advanced Tests downloadable application provides the following additional information:
+
+- Details and solutions tab (appended)
+  - User's default gateway
+  - Client DNS Server
+  - Client DNS Recursive Resolver
+  - Exchange Online DNS server
+  - SharePoint Online DNS server
+  - Proxy server identification
+  - Media connectivity check
+  - Media quality packet loss
+  - Media quality latency
+  - Media quality jitter
+  - Media quality packet reorder
+- Connectivity tests to multiple feature-specific endpoints
+- Network path diagnostics that include tracert and latency data for the Exchange Online, SharePoint Online and Teams services
+
+You can read about the Office 365 Network Onboarding tool and provide feedback at the [Updated Office 365 Network Onboarding Tool POC with new network design recommendations](https://techcommunity.microsoft.com/t5/Office-365-Networking/Updated-Office-365-Network-Onboarding-Tool-POC-with-new-network/m-p/711130#M130) blog post. Information about future updates to this tool and other Office 365 networking updates will be posted to the [Office 365 Networking](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking) blog.
   
 Here's a short link you can use to come back: [https://aka.ms/o365networkconnectivity.](https://aka.ms/o365networkconnectivity)
   
