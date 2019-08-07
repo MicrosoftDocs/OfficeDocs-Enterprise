@@ -59,7 +59,7 @@ The Network Onboarding tool does the following:
 - Detects your location, or you can specify a location to test
 - Checks the location of your network egress
 - Tests the network path to the nearest Office 365 service front door
-- Provides advanced tests using a downloadable Windows 10 application that makes perimeter network design recommendations related to proxy servers, firewalls, and DNS. The tool also runs performance tests for Microsoft Teams, SharePoint Online and Exchange Online.
+- Provides advanced tests using a downloadable Windows 10 application that makes perimeter network design recommendations related to proxy servers, firewalls, and DNS. The tool also runs performance tests for Skype for Business Online, Microsoft Teams, SharePoint Online and Exchange Online.
 
 The tool has two components: a browser-based UI that collects basic connectivity information, and a downloadable Windows 10 application that runs advanced tests and returns additional assessment data.
 
