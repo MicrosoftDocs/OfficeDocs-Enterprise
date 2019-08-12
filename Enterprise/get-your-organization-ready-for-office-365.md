@@ -3,6 +3,7 @@ title: "Plan for Office 365 Enterprise"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 08/12/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -34,7 +35,7 @@ When you move an enterprise organization to Office 365, it's important to plan a
 
 ## Do-it-yourself planning for Office 365
 
-To plan for Office 365 on your own, determine the correct design decisions for these areas:
+To plan for Office 365 on your own, step through the planning and design decisions for these areas:
 
 - Your Office 365 tenant
 
@@ -52,7 +53,12 @@ To plan for Office 365 on your own, determine the correct design decisions for t
 
   Includes migration information for Office 2007 and Office 2010 client and server products. Start [here](plan-upgrade-previous-versions-office.md).
 
-You can also sign in to your subscription and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
+>[!Note]
+>You can use this process for your [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) subscription as well.
+>
+
+You can also sign in to your Office 365 subscription and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
+
 
 
 <!--

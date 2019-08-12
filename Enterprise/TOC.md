@@ -72,16 +72,13 @@
 #### [Project Server 2010](project-server-2010-end-of-support.md)
 
 # Test Office 365
-## [Cloud adoption Test Lab Guides](cloud-adoption-test-lab-guides-tlgs.md)
+## [Test Office 365](cloud-adoption-test-lab-guides-tlgs.md)
 ## [Base Configuration dev/test environment](base-configuration-dev-test-environment.md)
 ## [Office 365 dev/test environment](office-365-dev-test-environment.md)
 ### [Directory synchronization](dirsync-for-your-office-365-dev-test-environment.md)
 ### [Multi-factor authentication](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
 ### [Federated identity](federated-identity-for-your-office-365-dev-test-environment.md)
 ### [Advanced Threat Protection](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
-### [Advanced eDiscovery](advanced-ediscovery-for-your-office-365-dev-test-environment.md)
-### [Sensitive file protection](sensitive-file-protection-in-the-office-365-dev-test-environment.md)
-### [Data classification and labeling](data-classification-and-labeling-in-the-office-365-dev-test-environment.md)
 ## [Simulated cross-premises virtual network in Azure](simulated-cross-premises-virtual-network-in-azure.md)
 
 # [Deploy Office 365 Enterprise](setup-overview-for-enterprises.md)
