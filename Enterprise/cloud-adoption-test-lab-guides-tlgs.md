@@ -67,7 +67,7 @@ Create a [simulated intranet](simulated-cross-premises-virtual-network-in-azure.
 
 Build a [single-server SharePoint Server 2016 farm](https://docs.microsoft.com/SharePoint/administration/sharepoint-server-2016-dev-test-environment-in-azure) in Azure infrastructure services.
 
-## Microsoft 365 Enterprise dev/test environments
+## Microsoft 365 Enterprise dev/test environment
 
 Create a dev/test environment for [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).  
     
