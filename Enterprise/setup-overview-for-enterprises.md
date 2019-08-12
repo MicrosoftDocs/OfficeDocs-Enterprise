@@ -3,6 +3,7 @@ title: "Deploy Office 365 Enterprise for your organization"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -72,3 +73,5 @@ To deploy Office 365 Enterprise on your own, here are the recommended steps.
 >[!Note]
 >These steps are also for businesses and [nonprofits](https://go.microsoft.com/fwlink/?LinkId=627221) that want to start with a custom deployment of Office 365 Enterprise. 
 >
+
+If you have a Microsoft 365 Enterprise subscription, start [here](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise).
