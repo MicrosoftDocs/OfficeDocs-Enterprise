@@ -3,7 +3,7 @@ title: "Moving core data to new Office 365 datacenter geos"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 07/18/2019
+ms.date: 07/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -35,7 +35,7 @@ Existing customers that have their core customer data stored in an already exist
 |****South Korea****| Asia/Pacific | South Korea | April 2017 |
 |****France****| Europe | France | March 2018 |
 |****United Arab Emirates****| Europe | United Arab Emirates | June 2019 |
-|****South Africa****| Europe | South Africa | Announced |
+|****South Africa****| Europe | South Africa | July 2019 |
   
 New customers or Office 365 tenants created after the availability of the new datacenter geo will have their core customer data stored at rest in the new datacenter geo automatically.
   

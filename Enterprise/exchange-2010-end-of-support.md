@@ -3,7 +3,7 @@ title: "Exchange 2010 end of support roadmap"
 ms.author: dstrome
 author: dstrome
 manager: laurawi
-ms.date: 1/31/2018
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -48,6 +48,10 @@ With Exchange 2010 reaching its end of support, this is a great time to explore 
 
 > [!NOTE]
 > While a little more complicated, you may also migrate mailboxes to Office 365 while migrating your on-premises Exchange 2010 servers to Exchange 2016.
+
+Here are the three paths you can take to avoid the end of support for Exchange Server 2010.
+
+![Exchange Server 2010 upgrade paths](./media/exchange-2010-end-of-support/exchange-2010-end-of-support-options.png)
 
 The following sections explore each option in more detail.
 
