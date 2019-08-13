@@ -29,8 +29,6 @@ description: "Summary: Reference list of DNS records to use when planning an Off
 |:-----|:-----|
 |![Domain](media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Want to see a customized list of DNS records for your Office 365 organization?** You can [find the info you need to create Office 365 DNS records](https://support.office.microsoft.com/en-us/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) for your domain in Office 365.  <br/> **Need step-by-step help to add these records at your domain's DNS host, such as GoDaddy or eNom?** [Find links to step-by-step instructions for many popular DNS hosts](https://go.microsoft.com/fwlink/?LinkId=286745). <br/>  **Sticking around to use the reference list for your own custom deployment?** The below list should be used as a reference for your custom Office 365 deployment. You will need to select which records apply to your organization and fill in the appropriate values. <br/> **Go back to** [Network planning and performance tuning for Office 365](https://aka.ms/tune).  <br/> |
 
-
-  
 Often the SPF and MX records are the hardest to figure out. We've updated our SPF records guidance at the end of this article. The important thing to remember is that  *you can only have a single SPF record for your domain*  . You can have multiple MX records; however, that can cause problems for mail delivery. Having a single MX record that directs email to one mail system removes many potential problems.
   
 The sections below are organized by service in Office 365. To see a customized list of the Office 365 DNS records for your domain, sign in to Office 365 and [Gather the information you need to create Office 365 DNS records](https://support.office.com/article/77f90d4a-dc7f-4f09-8972-c1b03ea85a67).
@@ -38,7 +36,7 @@ The sections below are organized by service in Office 365. To see a customized l
 ## External DNS records required for Office 365 (core services)
 <a name="BKMK_ReqdCore"> </a>
 
-Every Office 365 customer needs to add two records to their external DNS. The first CNAME record ensures that Office 365 can direct workstations to authenticate with the appropriate identity platform. The second required record is to prove you own your domain name. 
+Every Office 365 customer needs to add two records to their external DNS. The first CNAME record ensures that Office 365 can direct workstations to authenticate with the appropriate identity platform. The second required record is to prove you own your domain name.
   
 ||||
 |:-----|:-----|:-----|
@@ -109,7 +107,7 @@ You can only have one SPF record (that is, a TXT record that defines SPF) for yo
 
 All SPF records contain three parts: the declaration that it is an SPF record, the domains, and IP addresses that should be sending email, and an enforcement rule. You need all three in a valid SPF record. Here's an example of a common SPF record for Office 365 when you use only Exchange Online email:
   
-```
+``` dns
 TXT Name @
 Values: v=spf1 include:spf.protection.outlook.com -all
 ```
@@ -138,7 +136,7 @@ For scenarios where you're not just using Exchange Online email for Office 365 (
 
 If you already have an SPF record, you'll need to add or update values for Office 365. For example, say your existing SPF record for contoso.com is this:
   
-```
+``` dns
 TXT Name @
 Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com -all
 ```
@@ -147,14 +145,14 @@ Now you're updating your SPF record for Office 365, for example, to include emai
   
 Correct:
   
-```
+``` dns
 TXT Name @
 Values: v=spf1 ip4:60.200.100.30 include:sharepointonline.com -all
 ```
 
 Incorrect:
   
-```
+``` dns
 Record 1:
 TXT Name @
 Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com -all
@@ -167,14 +165,14 @@ Values: v=spf1 include:sharepointonline.com -all
 
 If you are using the full Office 365 suite and are using MailChimp to send marketing emails on your behalf, your SPF record at contoso.com might look like the following, which uses rows 1, 3, 4, and 6 from the table above. Remember, rows 1 and 6 are required, and "sharepointonline.com" includes both Exchange (Outlook) and SharePoint email.
   
-```
+``` dns
 TXT Name @
 Values: v=spf1 include:sharepointonline.com include:servers.mcsv.net -all
 ```
 
 Alternatively, if you have an Exchange Hybrid configuration where email will be sent from both Office 365 and your on-premises mail system, your SPF record at contoso.com might look like this:
   
-```
+``` dns
 TXT Name @
 Values: v=spf1 include:sharepointonline.com include:mail.contoso.com -all
 ```
