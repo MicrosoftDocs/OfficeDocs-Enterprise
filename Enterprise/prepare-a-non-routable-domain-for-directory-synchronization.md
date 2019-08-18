@@ -1,9 +1,9 @@
 ---
 title: "Prepare a non-routable domain for directory synchronization"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - 'O365E_SetupDirSyncLocalDir'
@@ -35,7 +35,7 @@ Azure AD Connect synchronizes your users' UPN and password so that users can sig
   
 ### **Change your primary domain**
 
-Change your primary domain to a domain you have verified in Office 365, for example, contoso.com. Every user that has the domain contoso.local is then updated to contoso.com. For instructions, see [How Domain Rename Works](https://go.microsoft.com/fwlink/p/?LinkId=624174). This is a very involved process, however, and an easier solution is to [Add UPN suffixes and update your users to them](prepare-a-non-routable-domain-for-directory-synchronization.md#bk_register), as shown in the following section.
+Change your primary domain to a domain you have verified in Office 365, for example, contoso.com. Every user that has the domain contoso.local is then updated to contoso.com. For instructions, see [How Domain Rename Works](https://go.microsoft.com/fwlink/p/?LinkId=624174). This is a very involved process, however, and an easier solution is described in the following section.
   
 ### **Add UPN suffixes and update your users to them**
 
@@ -79,8 +79,7 @@ After you have updated the UPNs to use the verified domain,you are ready to sync
   
 4. Complete these steps for every user.
     
-    Alternately you can bulk update the UPN suffixes [You can also use Windows PowerShell to change the UPN suffix for all users](prepare-a-non-routable-domain-for-directory-synchronization.md#BK_Posh).
-    
+   
 ### **You can also use Windows PowerShell to change the UPN suffix for all users**
 
 If you have a lot of users to update, it is easier to use Windows PowerShell. The following example uses the cmdlets [Get-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624312) and [Set-ADUser](https://go.microsoft.com/fwlink/p/?LinkId=624313) to change all contoso.local suffixes to contoso.com. 

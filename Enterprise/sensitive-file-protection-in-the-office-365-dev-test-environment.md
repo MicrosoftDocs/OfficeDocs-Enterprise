@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/01/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -311,7 +311,7 @@ Next, acting as a normal user, you try to access the **SensitiveData-AfterIRM.do
     
 6. On the **Documents** page, open the **SensitiveData-AfterIRM.docx** document.
     
-    You should see a message that states "Sorry, Word Online can't open this document because it's protected by Information Rights Management (IRM)." 
+    You should see a message that states, "Sorry, Word can't open this document because it's protected by Information Rights Management (IRM)." 
     
 7. Click **Edit in Word**. You are prompted if you want to open the file. Click **Yes**.
     

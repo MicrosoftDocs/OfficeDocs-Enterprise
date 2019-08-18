@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 8/31/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -44,7 +44,7 @@ Performance troubleshooting isn't about meeting specific goals and maintaining t
 
 First, you need to make sure that what you are experiencing is indeed a performance issue and not a service incident. A performance problem is different from a service incident in Office 365. Here's how to tell them apart.
   
-If the Office 365 service is having issues, that's a service incident. You will see red or yellow icons under **Current health** in the Office 365 admin center, you may also notice slow performance on client computers connecting to Office 365. For example, if Current health reports a red icon and you see **Investigating** beside Exchange, you might then also receive a bunch of calls from people in your organization who complain that client mailboxes that use Exchange Online are performing badly. In that case, it's reasonable to assume that your Exchange Online performance just became a victim of issues within the Service. 
+If the Office 365 service is having issues, that's a service incident. You will see red or yellow icons under **Current health** in the Microsoft 365 admin center, you may also notice slow performance on client computers connecting to Office 365. For example, if Current health reports a red icon and you see **Investigating** beside Exchange, you might then also receive a bunch of calls from people in your organization who complain that client mailboxes that use Exchange Online are performing badly. In that case, it's reasonable to assume that your Exchange Online performance just became a victim of issues within the Service. 
   
 ![The Office 365 Health dashboard with all workloads showing green, except Exchange, which shows Service Restored.](media/ec7f0325-9e61-4e1a-bec0-64b87f4469be.PNG)
   
@@ -54,7 +54,7 @@ At this point, you, the Office 365 admin, should check **Current health** and th
   
 A performance issue isn't a service incident, even though incidents can cause slow performance. A performance issue looks like this:
   
-- A performance issue occurs no matter what the Office 365 admin center **Current health** is reporting for the service. 
+- A performance issue occurs no matter what the admin center **Current health** is reporting for the service. 
     
 -  A behavior that used to be relatively seamless takes a long time to complete or never completes. 
     

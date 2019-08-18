@@ -4,7 +4,7 @@ ms.author: markjjo
 author: markjjo
 manager: laurawi
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,6 +19,7 @@ ms.assetid: eb15194b-63ec-41b0-8d90-1823d3f558e4
 description: "This article is for administrators. Did a user permanently delete items from their Outlook mailbox? The user wants them back but can't recover them. You may be able recover the purged items if they haven't been permanently removed from the user's mailbox. "
 ---
 
+<a name="__top"></a>
 # Recover deleted items in a user mailbox - Admin Help
 
 **This article is for administrators. Are you trying to recover deleted items in your own mailbox?** Try one of the following:
@@ -43,7 +44,7 @@ The first step is to assign yourself the necessary permissions in Exchange Onlin
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
-3. In the left navigation in the Office 365 admin center, expand **Admin centers**, and then click **Exchange**.
+3. In the left navigation in the Microsoft 365 admin center, expand **Admin centers**, and then click **Exchange**.
     
     ![Admin center list](media/7d308eb7-ba63-4156-a845-3770facc5de4.PNG)
   
@@ -80,7 +81,7 @@ When you run an In-Place eDiscovery search, the Recoverable Items folder in the 
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
-3. In the left navigation in the Office 365 admin center, expand **Admin**, and then click **Exchange**.
+3. In the left navigation in the Microsoft 365 admin center, expand **Admin**, and then click **Exchange**.
     
 4. In the Exchange admin center, click **Compliance management**, click **In-Place eDiscovery &amp; Hold**, and then click **New**![Add icon](media/8ee52980-254b-440b-99a2-18d068de62d3.gif).
     
@@ -226,7 +227,8 @@ The final step that you need to perform is sending the PST file that was exporte
     
 The steps in the next section are performed by the user to restore the deleted items to their mailbox.
   
- **Restore deleted items to a mailbox using a PST file**
+ <a name="restoredeleteditems"></a>
+**Restore deleted items to a mailbox using a PST file**
   
 You have to use the Outlook desktop app to restore a deleted item by using a PST file. You can't use Outlook Web App or Outlook on the web to open a PST file.
   

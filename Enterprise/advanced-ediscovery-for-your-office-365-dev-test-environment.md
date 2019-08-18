@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -90,11 +90,11 @@ In this procedure, you create two Word documents that will you will later analyz
     
 3. On the **Production site collection** tab, under **Documents**, click **New > Word Document**.
     
-4. On the **Word Online** page, type **Tailspin draft contract**, wait until it displays **Saved** in the title, and then close the **Word Online** page tab.
+4. On the **Word** page, type **Tailspin draft contract**, wait until it displays **Saved** in the title, and then close the **Word** page tab.
     
 5. On the **Production site collection** tab, under **Documents**, click **New > Word Document**.
     
-6. On the **Word Online** tab, type **Tailspin contract dispute notes**, wait until it displays **Saved** in the title, and then close the **Word Online** tab.
+6. On the **Word** tab, type **Tailspin contract dispute notes**, wait until it displays **Saved** in the title, and then close the **Word** tab.
     
 7. On the **Production site collection** tab, you should see **Document** and **Document1** in the list of documents.
     
@@ -185,8 +185,6 @@ You can now use this environment to create new content, new searches and cases, 
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
 [DirSync for your Office 365 dev/test environment](dirsync-for-your-office-365-dev-test-environment.md)
-  
-[Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
 

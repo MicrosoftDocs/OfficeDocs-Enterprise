@@ -4,7 +4,7 @@ ms.author: deniseb
 author: denisebmsft
 manager: laurawi
 ms.date: 09/05/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -64,7 +64,7 @@ Yes. Once a new datacenter geo is available, new Office 365 for Business custome
 
 Tenant admins can view the data location card in the Admin Center at any time to confirm the core customer data at rest location for 
 each service, specifically for their tenant.  We also publish the location of datacenter geos, datacenters, and location of Office 
-365 customer data on the [ Office 365 interactive datacenter maps ](https://office.com/datamaps) as a reference for the current default core customer data at rest locations for new tenants.  You can verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Office 365 Admin Center.  
+365 customer data on the [ Office 365 interactive datacenter maps ](https://office.com/datamaps) as a reference for the current default core customer data at rest locations for new tenants.  You can verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Microsoft 365 Admin Center.  
  
 ## When will I be able to request a move?
   
@@ -108,7 +108,7 @@ See [During and after your data move](during-and-after-your-data-move.md) for a 
   
  ## How do I know the move is complete?
   
-Watch the Office 365 Message Center for confirmation that the move of each service's data is complete. When each service's data is moved, we'll post a completion notice so you'll get three completion notices: one each for Exchange Online, SharePoint Online, and Skype for Business Online.  You can also verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Office 365 Admin Center.  
+Watch the Office 365 Message Center for confirmation that the move of each service's data is complete. When each service's data is moved, we'll post a completion notice so you'll get three completion notices: one each for Exchange Online, SharePoint Online, and Skype for Business Online.  You can also verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Microsoft 365 Admin Center.  
   
 ## I am an Office 365 customer in one of the new datacenter geos, but when I signed up, I selected a different country. How can I be moved to the new datacenter geo?
 

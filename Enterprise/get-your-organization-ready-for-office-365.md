@@ -1,9 +1,10 @@
 ---
-title: "Get your organization ready for Office 365 Enterprise"
-ms.author: robmazz
-author: robmazz
+title: "Plan for Office 365 Enterprise"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: Admin
+ms.date: 08/12/2019
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -17,12 +18,52 @@ search.appverid:
 - BCS160
 ms.assetid: 712fced7-f9d0-4fde-8b79-286262a5d0bc
 
-description: "If you've opted out of FastTrack deployment and aren't finding what you need in our basic deployment steps, this is the place to start."
+description: "Get access to the resources to plan for your Office 365 Enterprise deployment."
 ---
 
-# Get your organization ready for Office 365 Enterprise
+# Plan for Office 365 Enterprise
 
-## What do you need to do to get ready for Office 365?
+When you move an enterprise organization to Office 365, it's important to plan ahead and make the key design decisions that will streamline IT deployment and user adoption. 
+
+## Planning with Office 365 FastTrack
+
+[FastTrack for Office 365](https://docs.microsoft.com/fasttrack/O365-fasttrack-benefit-for-office-365) is the best method for getting help from Microsoft for planning your Office 365 deployment. FastTrack can help you through the most common design considerations and can answer questions along the way. 
+
+>[!Note]
+>You can also get help from a [Microsoft partner](https://www.microsoft.com/solution-providers/home).
+>
+
+## Do-it-yourself planning for Office 365
+
+To plan for Office 365 on your own, step through the planning and design decisions for these areas:
+
+- Your Office 365 tenant
+
+  Includes planning for your network connections to the Internet, your Office 365 identities, and integration with apps, on-premises, Azure, and other elements. Start [here](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
+
+- Support for your clients
+
+  Includes certificate-based authentication, mobile device management, authentication options, and inter-tenant collaboration. Start [here](office-365-client-support-certificate-based-authentication.md).
+
+- Support for hybrid modern authentication
+
+  Includes planning for modern authentication when using hybrid configurations of key Office 365 workloads. Start [here](hybrid-modern-auth-overview.md).
+
+- Older Office clients and servers
+
+  Includes migration information for Office 2007 and Office 2010 client and server products. Start [here](plan-upgrade-previous-versions-office.md).
+
+>[!Note]
+>You can use this process for your [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) subscription as well.
+>
+
+You can also sign in to your Office 365 subscription and use the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
+
+
+
+<!--
+
+This checklist will help your organization as you plan and prepare for a migration to Office 365. The phases and steps in the checklist are aligned with the guidance provided by the [Onboarding Center](https://go.microsoft.com/fwlink/?LinkId=517115). Feel free to adapt this checklist to your organization's needs.
 
 Most organizations don't need to do anything to prepare for Office 365. It's an application on the web and people are able to use it as soon as they have an account. Other organizations have more locations, security practices, or other requirements that create the need for more planning. For enterprise-level organizations, follow the checklist items below to get started with Office 365.
   
@@ -44,3 +85,6 @@ Want more resources to help you integrate Office 365 with your broader cloud str
 ## Want to talk with support?
 
 We're here to help, [contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) for business products.
+
+
+--> 

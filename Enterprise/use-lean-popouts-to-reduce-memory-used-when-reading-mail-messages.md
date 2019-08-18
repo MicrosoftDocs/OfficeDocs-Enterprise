@@ -1,10 +1,10 @@
 ---
 title: "Use lean popouts to reduce memory used when reading mail messages"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 3/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -39,13 +39,13 @@ These features will continue to work in the main window but are not available in
   Set-OrganizationConfig -LeanPopoutEnabled <$true |$false >
   ```
 
-    For example, to enable lean popouts for all users in your organization:
+  For example, to enable lean popouts for all users in your organization:
     
   ```
   Set-OrganizationConfig -LeanPopoutEnabled $true
   ```
 
-    To disable lean popouts for all users in your organization:
+  To disable lean popouts for all users in your organization:
     
   ```
   Set-OrganizationConfig -LeanPopoutEnabled $false

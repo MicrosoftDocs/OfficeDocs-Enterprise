@@ -4,8 +4,7 @@ ms.author: tracyp
 ms.reviewer: smithre4
 author: MSFTTracyP
 manager: laurawi
-ms.date:
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -25,7 +24,7 @@ Modern Authentication is a method of identity management that offers more secure
     
 - [Check the Modern Authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
     
-- [Do you meet Modern Authentication prerequisites?](hybrid-modern-auth-overview.md#BKMK_MeetPrereq)
+- [Do you meet Modern Authentication prerequisites?](#do-you-meet-modern-authentication-prerequisites)
     
 - [What else do I need to know before I begin?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
     
@@ -38,7 +37,7 @@ When talking about communication between a client (for example, your laptop or y
   
 Modern authentication is an umbrella term for a combination of authentication and authorization methods, as well as some security measures that rely on access policies that you may already be familiar with. It includes:
   
-- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication; and the Active Directory Authentication Library ( [ADAL](https://technet.microsoft.com/en-us/library/mt710548.aspx)).
+- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication.
     
 - **Authorization methods**: Microsoft's implementation of Open Authorization (OAuth). 
     
@@ -84,20 +83,19 @@ Verify and check these items off your list before you continue:
     
   - Your SIP domain is added as a Federated domain in Office 365
     
-  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office Online' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
+  - All SFB Front Ends must have connections outbound to the internet, to Office 365 Authentication URLs (TCP 443) and well known certificate root CRLs (TCP 80) listed in Rows 56 and 125 of the 'Microsoft 365 Common and Office' section of [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
   
-- **Skype for Business On-premise in a Hybrid environment with Office 365**
+- **Skype for Business on-premises in a hybrid Office 365 environment**
   - A Skype for Business Server 2019 deployment with all servers running Skype for Business Server 2019.
   
   - A Skype for Business Server 2015 deployment with all servers running Skype for Business Server 2015.
   
-  - A deployment with maximum of 2 different server versions as listed below:
+  - A deployment with a maximum of two different server versions as listed below:
   
      - Skype for Business Server 2015 and Skype for Business Server 2019
      
-  - All SFB servers must have the latest CU, please review the article [Skype for Business Server Update](https://docs.microsoft.com/en-us/skypeforbusiness/sfb-server-updates) for the latest ones and installation instructions.
-  
-  - There is no Lync Server 2010 or 2013 on the hybrid environment.
+  - All Skype for Business servers must have the latest cummulative updates installed, see [Skype for Business Server updates](https://docs.microsoft.com/skypeforbusiness/sfb-server-updates) to find and manage all available updates.
+  - There is no Lync Server 2010 or 2013 in the hybrid environment.
     
  **Note** If your Skype for Business front-end servers use a proxy server for Internet access, the proxy server IP and Port number used must be entered in the configuration section of the web.config file for each front end. 
   
@@ -128,17 +126,17 @@ Verify and check these items off your list before you continue:
     
   - SSL Offloading is not configured. SSL termination and re-encryption is supported.
     
-  - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/en-us/library/bb123716%28v=exchg.160%29.aspx) property.
+  - In the event your environment utilizes a proxy server infrastructure to allow servers to connect to the Internet, be sure all Exchange servers have the proxy server defined in the [InternetWebProxy](https://technet.microsoft.com/library/bb123716%28v=exchg.160%29.aspx) property.
   
-- **Exchange Server On-premise in a Hybrid environment with Office 365**
+- **Exchange Server on-premises in a hybrid Office 365 environment**
 
-  - If you are using Exchange server 2013, At least one server with the Mailbox and Client Access server roles installed. While it's possible to install the Mailbox and Client Access roles on separate servers, we strongly recommend that you install both roles on each server to provide additional reliability and improved performance
+  - If you are using Exchange server 2013, At least one server must have the Mailbox and Client Access server roles installed. While it is possible to install the Mailbox and Client Access roles on separate servers, we strongly recommend that you install both roles on each server to provide additional reliability and improved performance.
   
-  - If you are using Exchange server 2016 or newer version, at least one server that has the Mailbox server role installed.
+  - If you are using Exchange server 2016 or later version, at least one server must have the Mailbox server role installed.
   
   - There is no Exchange server 2007 or 2010 in the Hybrid environment.
   
-  - All Exchange servers must have the latest CU, review the article [Upgrade Exchange to the latest Cumulative Update](https://docs.microsoft.com/en-us/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019) for the latest ones and installation instructions.
+  - All Exchange servers must have the latest cummulative updates installed, see [Upgrade Exchange to the latest Cumulative Updates](https://docs.microsoft.com/en-us/exchange/plan-and-deploy/install-cumulative-updates?view=exchserver-2019) to find and manage all available updates.
     
 - **Exchange client and protocol requirements**
   

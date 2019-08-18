@@ -4,18 +4,18 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 12/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: d78983fa-0951-49b8-b890-d76a44c70035
-description: "This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online."
+description: "This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online Server."
 ---
 
 # Accessible diagram - Feature Integration Across Microsoft Office Server Products
 
-**Summary:** This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online.
+**Summary:** This article is an accessible text version of the diagram named Feature Integration Across Microsoft Office Server Products - SharePoint Server, Exchange Server, Lync Server, and Office Online Server.
   
 The diagram consists of several tabs, as indicated by this document's section titles.
   
@@ -81,7 +81,7 @@ Server-to-server authentication. This feature is applicable to:
     
 - Lync
     
-- Office Online (formerly known as Office Web Apps) 
+- Office Online Server (formerly known as Office Web Apps) 
     
 High resolution user photos. This feature is applicable to: 
   

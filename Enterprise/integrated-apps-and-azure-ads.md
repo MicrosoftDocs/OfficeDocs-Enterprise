@@ -3,7 +3,7 @@ title: "Integrated Apps and Azure AD for Office 365 administrators"
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.audience: Admin
+audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
@@ -27,7 +27,7 @@ You have to do these two procedures before you can manage your Office 365 apps i
   
 |**Prerequisites**|**Comments**|
 |:-----|:-----|
-|[Register your free Azure Active Directory subscription](https://go.microsoft.com/fwlink/?LinkId=617127) <br/> |Every paid subscription to Office 365 comes with a free subscription to Azure Active Directory. You can use Azure AD to manage your apps and to create and manage user and group accounts. To activate this subscription and access the Azure management portal, you have to complete a one-time registration process. Afterwards, you can go to Azure AD from the Office 365 admin center.  <br/> |
+|[Register your free Azure Active Directory subscription](https://go.microsoft.com/fwlink/?LinkId=617127) <br/> |Every paid subscription to Office 365 comes with a free subscription to Azure Active Directory. You can use Azure AD to manage your apps and to create and manage user and group accounts. To activate this subscription and access the Azure management portal, you have to complete a one-time registration process. Afterwards, you can go to Azure AD from the Microsoft 365 admin center.  <br/> |
 |[Turning Integrated Apps on or off](https://support.office.com/article/7e453a40-66df-44ab-92a1-96786cb7fb34#__toc379982114) <br/> |You must turn on Integrated Apps for your users to allow third-party apps to access their Office 365 information and for you to register apps in Azure AD. For example, when someone uses a third-party app, that app might ask for permission to access their calendar and to edit files that are in a OneDrive for Business folder.  <br/> |
    
 Managing Office 365 apps requires you to have knowledge of apps in Azure AD. These articles help give you the background you need.

@@ -3,8 +3,8 @@ title: "Office 365 Network Connectivity Principles"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/14/2018
-ms.audience: Admin
+ms.date: 6/5/2019
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,7 +20,7 @@ description: "Before you begin planning your network for Office 365 network conn
 
 Before you begin planning your network for Office 365 network connectivity, it is important to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. This article will help you understand the most recent guidance for securely optimizing Office 365 network connectivity.
   
-Traditional enterprise networks are designed primarily to provide users access to applications and data hosted in company operated datacenters with strong perimeter security. The traditional model assumes that users will access applications and data from inside the corporate network perimeter, over WAN links from branch offices, or remotely over VPN connections. 
+Traditional enterprise networks are designed primarily to provide users access to applications and data hosted in company operated datacenters with strong perimeter security. The traditional model assumes that users will access applications and data from inside the corporate network perimeter, over WAN links from branch offices, or remotely over VPN connections.
   
 Adoption of SaaS applications like Office 365 moves some combination of services and data outside the network perimeter. Without optimization, traffic between users and SaaS applications is subject to latency introduced by packet inspection, network hairpins, inadvertent connections to geographically distant endpoints and other factors. You can ensure the best Office 365 performance and reliability by understanding and implementing key optimization guidelines.
   
@@ -32,11 +32,12 @@ In this article, you will learn about:
 - [New Office 365 endpoint categories](office-365-network-connectivity-principles.md#BKMK_Categories) and optimization guidance
 - [Comparing network perimeter security with endpoint security](office-365-network-connectivity-principles.md#BKMK_SecurityComparison)
 - [Incremental optimization](office-365-network-connectivity-principles.md#BKMK_IncOpt) options for Office 365 traffic
+- The [Office 365 Network Onboarding tool](https://aka.ms/netonboard), a new tool for testing basic connectivity to Office 365
 
 ## Office 365 architecture
 <a name="BKMK_Architecture"> </a>
 
-Office 365 is a distributed Software-as-a-Service (SaaS) cloud that provides productivity and collaboration scenarios through a diverse set of micro-services and applications, such as Exchange Online, SharePoint Online, Skype for Business Online, Microsoft Teams, Exchange Online Protection, Office Online and many others. While specific Office 365 applications may have their unique features as it applies to customer network and connectivity to the cloud, they all share some key principals, goals and architecture patterns. These principals and architecture patterns for connectivity are typical for many other SaaS clouds and at the same time being quite different from the typical deployment models of Platform-as-a-Service and Infrastructure-as-a-Service clouds, such as Microsoft Azure.
+Office 365 is a distributed Software-as-a-Service (SaaS) cloud that provides productivity and collaboration scenarios through a diverse set of micro-services and applications, such as Exchange Online, SharePoint Online, Skype for Business Online, Microsoft Teams, Exchange Online Protection, Office in a browser, and many others. While specific Office 365 applications may have their unique features as it applies to customer network and connectivity to the cloud, they all share some key principals, goals and architecture patterns. These principals and architecture patterns for connectivity are typical for many other SaaS clouds and at the same time being quite different from the typical deployment models of Platform-as-a-Service and Infrastructure-as-a-Service clouds, such as Microsoft Azure.
   
 One of the most significant architectural features of Office 365 (that is often missed or misinterpreted by network planners) is that it is a truly global distributed service, in the context of how users connect to it. The location of the target Office 365 tenant is important to understand the locality of where customer data is stored within the cloud, but the user experience with Office 365 doesn't involve connecting directly to disks containing the data. The user experience with Office 365 (including performance, reliability and other important quality characteristics) involves connectivity through a highly distributed service front doors that are scaled out across hundreds of Microsoft locations worldwide. In the majority of cases, the best user experience is achieved by allowing the customer network to route user requests to the closest Office 365 service entry point, rather than connecting to Office 365 through an egress point in a central location or region.
   
@@ -56,7 +57,7 @@ The primary goal in the network design should be to minimize latency by reducing
   
 Identifying Office 365 network traffic is the first step in being able to differentiate that traffic from generic Internet-bound network traffic. Office 365 connectivity can be optimized by implementing a combination of approaches like network route optimization, firewall rules, browser proxy settings, and bypass of network inspection devices for certain endpoints.
   
-Previous Office 365 optimization guidance divided Office 365 endpoints into two categories, **Required** and **Optional**. As endpoints have been added to support new Office 365 services and features, we have reorganized Office 365 endpoints into three categories: **Optimize**, **Allow** and **Default**. Guidelines for each category applies to all endpoints in the category, making optimizations easier to understand and implement. 
+Previous Office 365 optimization guidance divided Office 365 endpoints into two categories, **Required** and **Optional**. As endpoints have been added to support new Office 365 services and features, we have reorganized Office 365 endpoints into three categories: **Optimize**, **Allow** and **Default**. Guidelines for each category applies to all endpoints in the category, making optimizations easier to understand and implement.
   
 For more details on Office 365 endpoint categories and optimization methods, see the [New Office 365 endpoint categories](office-365-network-connectivity-principles.md#BKMK_Categories) section.
   
@@ -144,7 +145,7 @@ Office 365 endpoints represent a varied set of network addresses and subnets. En
 > [!NOTE]
 > The locations of Office 365 endpoints within the network are not directly related to the location of the Office 365 tenant data. For this reason, customers should look at Office 365 as a distributed and global service and should not attempt to block network connections to Office 365 endpoints based on geographical criteria.
   
-In our previous guidance for managing Office 365 traffic, endpoints were organized into two categories, **Required** and **Optional**. Endpoints within each category required different optimizations depending on the criticality of the service, and many customers faced challenges in justifying the application of the same network optimizations to the full list of Office 365 URLs and IP addresses. 
+In our previous guidance for managing Office 365 traffic, endpoints were organized into two categories, **Required** and **Optional**. Endpoints within each category required different optimizations depending on the criticality of the service, and many customers faced challenges in justifying the application of the same network optimizations to the full list of Office 365 URLs and IP addresses.
   
 In the new model, endpoints are segregated into three categories, **Optimize**, **Allow** and **Default**, providing a priority-based pivot on where to focus network optimization efforts to realize the best performance improvements and return on investment. The endpoints are consolidated in the above categories based on the sensitivity of the effective user experience to network quality, volume and performance envelope of scenarios and ease of implementation. Recommended optimizations can be applied the same way to all endpoints in a given category.
   
@@ -168,7 +169,7 @@ In the new model, endpoints are segregated into three categories, **Optimize**, 
 
     Network optimizations for  *Allow*  endpoints can improve the Office 365 user experience, but some customers may choose to scope those optimizations more narrowly to minimize changes to their network.
 
-    Examples of  *Allow*  endpoints include  *https://\*.protection.outlook.com*  and  *https://accounts.accesscontrol.windows.net*.
+    Examples of *Allow* endpoints include *https://\*.protection.outlook.com* and *https://accounts.accesscontrol.windows.net*.
 
     Optimization methods include:
 
@@ -196,8 +197,8 @@ Microsoft offers a wide range of Office 365 security features and provides presc
 - **Use multi-factor authentication (MFA)**
     MFA adds an additional layer of protection to a strong password strategy by requiring users to acknowledge a phone call, text message, or an app notification on their smart phone after correctly entering their password.
 
-- **Use Office 365 Cloud App Security**
-    Set up policies to track anomalous activity and act on it. Set up alerts with Office 365 Cloud App Security so that admins can review unusual or risky user activity, such as downloading large amounts of data, multiple failed sign-in attempts, or connections from a unknown or dangerous IP addresses.
+- **Use Microsoft Cloud App Security**
+    Set up policies to track anomalous activity and act on it. Set up alerts with Microsoft Cloud App Security so that admins can review unusual or risky user activity, such as downloading large amounts of data, multiple failed sign-in attempts, or connections from a unknown or dangerous IP addresses.
 
 - **Configure Data Loss Prevention (DLP)**
     DLP allows you to identify sensitive data and create policies that help prevent your users from accidentally or intentionally sharing the data. DLP works across Office 365 including Exchange Online, SharePoint Online, and OneDrive so that your users can stay compliant without interrupting their workflow.
@@ -240,3 +241,31 @@ You can approach optimization as an incremental process, applying each method su
 |Bypass proxies and inspection devices  <br/> |Configure browsers with PAC files that send Office 365 requests directly to egress points.  <br/> Configure edge routers and firewalls to permit Office 365 traffic without inspection.  <br/> | Minimize latency  <br/>  Reduce load on network devices  <br/> |
 |Enable direct connection for VPN users  <br/> |For VPN users, enable Office 365 connections to connect directly from the user's network rather than over the VPN tunnel by implementing split tunneling.  <br/> | Minimize latency  <br/>  Improve reliable connectivity to the closest Office 365 entry point  <br/> |
 |Migrate from traditional WAN to SD-WAN  <br/> |SD-WANs (Software Defined Wide Area Networks) simplify WAN management and improve performance by replacing traditional WAN routers with virtual appliances, similar to the virtualization of compute resources using virtual machines (VMs).  <br/> | Improve performance and manageability of WAN traffic  <br/>  Reduce load on network devices  <br/> |
+
+## Related Topics
+
+[Office 365 Network Connectivity Overview](office-365-networking-overview.md)
+
+[Managing Office 365 endpoints](managing-office-365-endpoints.md)
+
+[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
+
+[Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
+
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+
+[Office 365 network and performance tuning](network-planning-and-performance.md)
+
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+
+[Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
+
+[Performance troubleshooting plan for Office 365](performance-troubleshooting-plan.md)
+
+[Content Delivery Networks](content-delivery-networks.md)
+
+[Office 365 Network Onboarding tool](https://aka.ms/netonboard)
+
+[How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+
+[Office 365 Networking blog](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)

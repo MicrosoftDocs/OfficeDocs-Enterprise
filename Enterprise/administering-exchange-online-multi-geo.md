@@ -3,7 +3,7 @@ title: "Administering Exchange Online mailboxes in a multi-geo environment"
 ms.author: chrisda
 author: chrisda
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 

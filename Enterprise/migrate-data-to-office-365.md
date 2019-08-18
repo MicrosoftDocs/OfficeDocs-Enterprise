@@ -1,9 +1,9 @@
 ---
 title: "Migrate your organization data to Office 365 Enterprise"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -30,9 +30,8 @@ If you want help getting Office 365 set up, [FastTrack](https://fasttrack.micros
 - Find alternative ways [people in your organization can migrate their own email, contacts, and calendars](https://support.office.com/article/Migrate-email-and-contacts-to-Office-365-for-business-a3e3bddb-582e-4133-8670-e61b9f58627e).
 
 ## Migrate files and folders
-- [Migrate your content to SharePoint Online](https://support.office.com/article/d8c6ce52-f8a2-4661-97f7-45e49351bdb9). (Administrator)
-- [Configure hybrid OneDrive for Business - roadmap](https://docs.microsoft.com/SharePoint/hybrid/configure-hybrid-onedrive-for-businessroadmap). (Administrator)
-- [Migrate lists or files from your SharePoint on-premises document libraries or from your on-premises file shares to either SharePoint or OneDrive in Office 365](https://docs.microsoft.com/sharepointmigration/introducing-the-sharepoint-migration-tool). (end user)
+- [Migrate to SharePoint Online and OneDrive](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online). (Administrator)
+- [SharePoint Server hybrid configuration roadmaps](https://docs.microsoft.com/SharePoint/hybrid/configuration-roadmaps). (Administrator)
 
 ## Migrate Skype for Business users
 - [Migrate to Skype for Business Online](https://technet.microsoft.com/library/jj204969.aspx). (Administrator)

@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 01/03/2019
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -21,7 +21,7 @@ description: "Summary: Use Office 365 PowerShell to configure properties of indi
 
  **Summary:** Use Office 365 PowerShell to configure properties of individual or multiple user accounts in your Office 365 tenant.
   
-Although you can use the Office 365 Admin center to configure properties for the user accounts of your Office 365 tenant, you can also use Office 365 PowerShell and do some things that the Office 365 Admin center cannot.
+Although you can use the Microsoft 365 admin center to configure properties for the user accounts of your Office 365 tenant, you can also use Office 365 PowerShell and do some things that the admin center cannot.
   
 ## Use the Azure Active Directory PowerShell for Graph module
 

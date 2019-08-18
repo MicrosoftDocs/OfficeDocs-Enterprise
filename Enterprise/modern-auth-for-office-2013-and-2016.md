@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
 ms.date: 8/1/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -26,7 +26,10 @@ description: "Learn how Office 365 modern authentication works differently for O
 # How modern authentication works for Office 2013 and Office 2016 client apps
 
 Read this article to learn how Office 2013 and Office 2016 client apps use modern authentication features based on the authentication configuration on the Office 365 tenant for Exchange Online, SharePoint Online, and Skype for Business Online.
-  
+
+> [!NOTE]
+> Legacy client apps, such as Office 2010 and Office for Mac 2011, do not support modern authentication and can only be used with basic authentication.
+
 ## Availability of modern authentication for Office 365 services
 
 For the Office 365 services, the default state of modern authentication is:
@@ -53,6 +56,7 @@ Click the links below to see how Office 2013 and Office 2016 client authenticati
     
 - [Skype for Business Online](modern-auth-for-office-2013-and-2016.md#BK_SFBO)
     
+<a name="BK_EchangeOnline"> </a>
 ### Exchange Online
 
 The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to Exchange Online with or without modern authentication.
@@ -65,8 +69,8 @@ The following table describes the authentication behavior for Office 2013 or Off
 |Office 2013  <br/> |No  <br/> |No  <br/> |Basic authentication  <br/> |Basic authentication  <br/> |
 |Office 2013  <br/> |Yes, EnableADAL = 1  <br/> |Yes  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |
    
-### SharePoint Online
 <a name="BK_SharePointOnline"> </a>
+### SharePoint Online
 
 The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to SharePoint Online with or without modern authentication.
   

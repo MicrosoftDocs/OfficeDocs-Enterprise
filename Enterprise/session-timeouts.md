@@ -4,7 +4,7 @@ ms.author: tracyp
 author: MSFTTracyP
 manager: scotv
 ms.date: 6/29/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
@@ -18,7 +18,7 @@ search.appverid:
 ms.assetid: 37a5c116-5b07-4f70-8333-5b86fd2c3c40
 ms.collection:
 - M365-security-compliance
-description: "Session timeouts are used to balance securtiy and ease of access  in Office 365 client apps."
+description: "Session timeouts are used to balance security and ease of access  in Office 365 client apps."
 ---
 
 # Session timeouts for Office 365
@@ -33,7 +33,7 @@ The following table lists the session lifetimes for Office 365 services:
   
 |**Office 365 service**|**Session timeout**|
 |:-----|:-----|
-|Office 365 Admin center  <br/> |You are asked to provide credentials for the admin center every 8 hours.  <br/> |
+|Microsoft 365 admin center  <br/> |You are asked to provide credentials for the admin center every 8 hours.  <br/> |
 |SharePoint Online  <br/> |5 days of inactivity as long as the users chooses **Keep me signed in**. If the user accesses SharePoint Online again after 24 or more hours have passed from the previous sign-in, the timeout value is reset to 5 days.  <br/> |
 |Outlook Web App  <br/> |6 hours.  <br/> You can change this value by using the  _ActivityBasedAuthenticationTimeoutInterval_ parameter in the [Set-OrganizationConfig](https://go.microsoft.com/fwlink/p/?LinkId=615378) cmdlet.  <br/> |
 |Azure Active Directory  <br/> (Used by Office 2013 Windows clients with modern authentication enabled)  <br/> | Modern authentication uses access tokens and refresh tokens to grant user access to Office 365 resources using Azure Active Directory. An access token is a JSON Web Token provided after a successful authentication and is valid for 1 hour. A refresh token with a longer lifetime is also provided. When access tokens expire, Office clients use a valid refresh token to obtain a new access token. This exchange succeeds if the user's initial authentication is still valid.  <br/>  Refresh tokens are valid for 90 days, and with continuous use, they can be valid until revoked.  <br/>  Refresh tokens can be invalidated by several events such as :  <br/>  User's password has changed since the refresh token was issued.  <br/>  An administrator can apply conditional access policies which restrict access to the resource the user is trying to access.  <br/> |

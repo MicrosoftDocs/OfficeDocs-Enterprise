@@ -394,8 +394,34 @@
 
         "redirect_document_id": false
 
-      }
+      },
+      {
 
+        "source_path": "enterprise/using-content-delivery-networks-with-sharepoint-online.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/use-office-365-cdn-with-spo",
+
+        "redirect_document_id": true
+        
+     },
+     {
+
+       "source_path": "Enterprise/using-azure-ad-for-SharePoint-Server-authentication.md",
+
+       "redirect_url": "https://docs.microsoft.com/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial",
+
+       "redirect_document_id": false
+       
+    },
+    {
+
+      "source_path": "enterprise/network-connectivity.md",
+
+      "redirect_url": "https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity",
+
+      "redirect_document_id": true
+      
+   }
   ]
 
 }

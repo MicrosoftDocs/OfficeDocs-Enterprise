@@ -4,7 +4,7 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
 ms.date: 6/26/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -49,7 +49,7 @@ Contoso Corporation is a 50,000 person company that currently uses Office 365 fo
 
 |**BGP community tag used**|**Functionality routable over Azure ExpressRoute**|**Internet routes required**|
 |:-----|:-----|:-----|
-|SharePoint  <br/> (12076:5020)  <br/> |SharePoint Online &amp; OneDrive for Business  <br/> | DNS, CRL, &amp; CDN requests  <br/>  All other Office 365 services not specifically supported over Azure ExpressRoute  <br/>  All other Microsoft cloud services  <br/>  Office 365 portal, Office 365 authentication, &amp; Office Online  <br/>  Exchange Online, Exchange Online Protection, and Skype for Business Online  <br/> |
+|SharePoint  <br/> (12076:5020)  <br/> |SharePoint Online &amp; OneDrive for Business  <br/> | DNS, CRL, &amp; CDN requests  <br/>  All other Office 365 services not specifically supported over Azure ExpressRoute  <br/>  All other Microsoft cloud services  <br/>  Office 365 portal, Office 365 authentication, &amp; Office in a browser  <br/>  Exchange Online, Exchange Online Protection, and Skype for Business Online  <br/> |
 
 > [!NOTE]
 > To achieve lower prefix counts for each service, a minimal amount of overlap between services will persist. This is expected behavior.
@@ -62,7 +62,7 @@ For that reason, Fabrikam scopes its Azure ExpressRoute bandwidth to just Skype 
 
 |**BGP community tag used**|**Functionality routable over Azure ExpressRoute**|**Internet routes required**|
 |:-----|:-----|:-----|
-|Skype for Business  <br/> (12076:5030)  <br/> |Skype SIP signaling, downloads, voice, video, and desktop sharing  <br/> | DNS, CRL, &amp; CDN requests  <br/>  All other Office 365 services not specifically supported over Azure ExpressRoute  <br/>  All other Microsoft cloud services  <br/>  Office 365 portal, Office 365 authentication, &amp; Office Online  <br/>  Skype for Business telemetry, Skype client quick tips, public IM connectivity  <br/>  Exchange Online, Exchange Online Protection, and SharePoint Online  <br/> |
+|Skype for Business  <br/> (12076:5030)  <br/> |Skype SIP signaling, downloads, voice, video, and desktop sharing  <br/> | DNS, CRL, &amp; CDN requests  <br/>  All other Office 365 services not specifically supported over Azure ExpressRoute  <br/>  All other Microsoft cloud services  <br/>  Office 365 portal, Office 365 authentication, &amp; Office in a browser  <br/>  Skype for Business telemetry, Skype client quick tips, public IM connectivity  <br/>  Exchange Online, Exchange Online Protection, and SharePoint Online  <br/> |
 
 ### Scenario 3: Scoping Azure ExpressRoute for Office 365 services only
 
@@ -72,7 +72,7 @@ To ensure network traffic associated with Microsoft cloud services other than Of
 
 |**BGP community tag used**|**Functionality routable over Azure ExpressRoute**|**Internet routes required**|
 |:-----|:-----|:-----|
-|Exchange, Skype for Business, SharePoint, &amp; other services  <br/> (12076:5010, 12076:5020, 12076:5030, 12076:5100)  <br/> |Exchange Online &amp; Exchange Online Protection  <br/> SharePoint Online &amp; OneDrive for Business  <br/> Skype SIP signaling, downloads, voice, video, and desktop sharing  <br/> Office 365 portal, Office 365 authentication, &amp; Office Online  <br/> | DNS, CRL, &amp; CDN requests  <br/>  All other Office 365 services not specifically supported over Azure ExpressRoute  <br/>  All other Microsoft cloud services  <br/> |
+|Exchange, Skype for Business, SharePoint, &amp; other services  <br/> (12076:5010, 12076:5020, 12076:5030, 12076:5100)  <br/> |Exchange Online &amp; Exchange Online Protection  <br/> SharePoint Online &amp; OneDrive for Business  <br/> Skype SIP signaling, downloads, voice, video, and desktop sharing  <br/> Office 365 portal, Office 365 authentication, &amp; Office in a browser  <br/> | DNS, CRL, &amp; CDN requests  <br/>  All other Office 365 services not specifically supported over Azure ExpressRoute  <br/>  All other Microsoft cloud services  <br/> |
 
 ## Key planning considerations to using BGP communities
 
@@ -98,7 +98,7 @@ Here's a short link you can use to come back: [https://aka.ms/bgpexpressroute365
   
 ## Related Topics
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Azure ExpressRoute for Office 365](azure-expressroute.md)
   

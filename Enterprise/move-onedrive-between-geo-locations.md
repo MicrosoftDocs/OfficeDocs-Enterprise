@@ -3,7 +3,7 @@ title: "Move a OneDrive site to a different geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
@@ -83,9 +83,6 @@ Using these parameters:
 -   _UserPrincipalName_ – UPN of the user whose OneDrive is being moved.
 
 -   _DestinationDataLocation_ – Geo-Location where the OneDrive needs to be moved. This should be same as the user’s preferred data location.
-
-> [!NOTE]
-> We recommend running `Get-SPOGeoMoveStateCompatibility` with `ValidationOnly` prior to initiating OneDrive geo move.
 
 For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR to AUS, run:
 

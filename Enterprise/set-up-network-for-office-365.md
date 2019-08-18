@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/01/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
 localization_priority: Priority
@@ -33,7 +33,7 @@ See these articles for an overview of connectivity for Office 365:
 
 - [Office 365 networking connectivity overview](office-365-networking-overview.md)
 - [Office 365 network connectivity principles](office-365-network-connectivity-principles.md)
-- [Network connectivity to Office 365](network-connectivity.md)
+- [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
 For advice on enhancing performance, see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
 

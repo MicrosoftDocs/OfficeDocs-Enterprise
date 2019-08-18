@@ -1,10 +1,9 @@
 ---
 title: "Prepare directory attributes for synchronization with Office 365 by using the IdFix tool"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 8/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -23,6 +22,7 @@ description: "Provides instructions on using IdFix to prepare and clean up your 
 This topic contains detailed instructions about running the IdFix tool, some common errors you may encounter, suggested fixes, examples, and best practices for what to do if you have a large number of errors.
   
 ## Fixing errors in your directory by using the IdFix GUI
+
 [Run the Office 365 IdFix tool](install-and-run-idfix.md) to search for problems in your directory and then fix the errors in the GUI as described in this topic. If a blank table is returned by the tool, then no errors were discovered. If there are a lot of problems in your directory, it can be overwhelming when the tool returns the errors. One way to tackle this is to fix all errors of one type first and then move on to the next type. 
   
 1. Before you start making changes, take a look at the recommendations presented by IdFix.
@@ -77,3 +77,7 @@ By default, IdFix searches the entire directory. If you want, you can configure 
   
 ## Rolling back your changes by using the IdFix GUI
 Each time you click **Apply** to apply changes, the IdFix tool creates a separate file called a transaction log that lists the changes you just made. You can use the transaction log to roll back just those changes that are in the most recent log in case you make a mistake. If you make a mistake while you are updating, you can undo the most recently applied changes by clicking **Undo**. When you click **Undo**, IdFix uses the transaction log to roll back just those changes that are in the most recent transaction log. For more information about using the transaction log, see [Reference: Office 365 IdFix transaction log](idfix-transaction-log.md).
+
+## Next step
+
+[Set up directory synchronization](set-up-directory-synchronization.md)

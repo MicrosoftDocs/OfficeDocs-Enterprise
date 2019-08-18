@@ -4,7 +4,7 @@ ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
 ms.date: 12/14/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -30,7 +30,7 @@ Some of the key items in the above articles that you'll need to understand inclu
 
 - There's a 1:1 mapping between an ExpressRoute circuit and a customer s-key.
 
-- Each circuit can support up to 3 independent peering relationships (Azure Public peering, Azure Private peering, and Microsoft peering); Office 365 requires Microsoft peering.
+- Each circuit can support 2 independent peering relationships (Azure Private peering, and Microsoft peering); Office 365 requires Microsoft peering.
 
 - Each circuit has a fixed bandwidth that is shared across all peering relationships.
 
@@ -42,7 +42,7 @@ See the [FAQ page](https://azure.microsoft.com/documentation/articles/expressrou
   
 ## Ensuring route symmetry
 
-The Office 365 front end servers are accessible on both the Internet and ExpressRoute. These servers will prefer to route over ExpressRoute circuits when both are available. Because of this there is a possibility of route asymmetry if traffic from your network prefers to route over your Internet circuits. Asymmetrical routes are a problem because devices that perform stateful packet inspection can block return traffic that follows a different path than the outbound packets followed.
+The Office 365 front end servers are accessible on both the Internet and ExpressRoute. These servers will prefer to route back to on-premises over ExpressRoute circuits when both are available. Because of this there is a possibility of route asymmetry if traffic from your network prefers to route over your Internet circuits. Asymmetrical routes are a problem because devices that perform stateful packet inspection can block return traffic that follows a different path than the outbound packets followed.
   
 Regardless of whether you initiate a connection to Office 365 over the Internet or ExpressRoute, the source must be a publicly routable address. With many customers peering directly with Microsoft, having private addresses where duplication is possible between customers isn't feasible.
   
@@ -226,7 +226,7 @@ Here's a short link you can use to come back: [https://aka.ms/erorouting](https:
   
 ## Related Topics
 
-[Network connectivity to Office 365](network-connectivity.md)
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
   
 [Azure ExpressRoute for Office 365](azure-expressroute.md)
   

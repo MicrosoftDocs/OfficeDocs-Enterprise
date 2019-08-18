@@ -3,8 +3,8 @@ title: "During and after your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/15/2019
-ms.audience: ITPro
+ms.date: 07/18/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 search.appverid:
@@ -34,7 +34,7 @@ Watch the Office 365 Message Center for confirmation when moves for each of Exch
 |South Korea  <br/> |October 31, 2018  <br/> |
 |United Kingdom  <br/> |September 15, 2019  <br/> |
 |France  <br/> |September 15, 2020  <br/> |
-|United Arab Emirates  <br/> |Announced  <br/> |
+|United Arab Emirates  <br/> |February 1, 2022  <br/> |
 |South Africa  <br/> |Announced  <br/> |
    
 ## Exchange Online
@@ -70,7 +70,7 @@ When SharePoint Online is moved, data for the following services is also moved:
     
 - Office 365 Video services
     
-- Office Online
+- Office in s browser
     
 - Office 365 ProPlus
     

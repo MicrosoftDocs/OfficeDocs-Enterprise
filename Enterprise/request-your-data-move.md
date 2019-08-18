@@ -3,8 +3,8 @@ title: "How to request your data move"
 ms.author: deniseb
 author: denisebmsft
 manager: laurawi
-ms.date: 03/15/2019
-ms.audience: ITPro
+ms.date: 07/25/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,9 +19,7 @@ description: "Existing Office 365 customers will need to submit a request before
 > [!NOTE]
 > The information on this page only applies to customers who had existing Office 365 tenants before the new datacenters in their geo launched. 
   
-Existing Office 365 customers will need to submit a request before the deadline for their country in order to have the customer data of their participating Office 365 services moved to their new geo. 
-  
-We are unable to accept requests to be moved after the deadline in each geo. 
+Existing Office 365 customers are eligible to request early migration for their entire organization’s core customer data at rest.  
   
 ## When can I request a move?
 
@@ -34,43 +32,38 @@ We are unable to accept requests to be moved after the deadline in each geo.
 |United Kingdom  <br/> |March 15, 2017  <br/> |September 15, 2017  <br/> |
 |South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
-|United Arab Emirates  <br/> |Planned  <br/> |Planned  <br/> |
-|South Africa  <br/> |Planned  <br/> |Planned  <br/> |
+|United Arab Emirates  <br/> |July 15, 2019  <br/> |January 31, 2020  <br/> |
+|South Africa  <br/> |July 25, 2019  <br/> |January 31, 2020  <br/> |
    
 ## How to request a move
 
-Eligible customers will see a page in their [Office 365 Admin Center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
+Eligible customers will see a page in their [admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
-To access the page in the Office 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
+To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
   
-![Settings menu with Organzational Profile highlighted](media/22799fac-32b4-4f79-ae60-3f6ffb7cfbd7.png)
+![Settings menu with Organizational Profile highlighted](media/22799fac-32b4-4f79-ae60-3f6ffb7cfbd7.png)
   
 On the **Organization Profile** page, scroll down to the **Data Residency Option** section. 
   
-![Data residency card](media/fdb02cd0-825d-4d9e-bb35-6f806282884f.png)
+![Data residency card](media/dataresidencyae.jpg)
   
 **You may not see this section if one of the following apply**:
-- Your tenant is not eligible for the move program. 
-- All of your data is already located in the new geo (see Data Location section of the page). 
+- Your tenant is not eligible for the Office 365 Move Program.  Eligibility is determined by tenant signup country.
+- All of your core customer data at rest is already located in the new geo (see Data Location section of the page). 
   
-> [!IMPORTANT]
-> **You are about to make an important choice for your organization. After confirming the option below, you cannot undo it. Support is unable to reverse this decision as well.**
+If your organization has data residency requirements and you need to request early migration, click **Opt-in** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the Office 365 Move Program. Select the toggle button next to the text that says **I want my organization's core customer data at rest to migrate**. Then, click **Save**.
   
-If your organization has data residency requirements, and you need to request a move, click **Edit** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the move program. Select the toggle button next to the text that says **Yes, my organization has data residency requirements**. Then, click **Save**.
+![Datacenter opt-in action screen](media/dataresidencyflyoutae.jpg)
   
-![Datacenter opt-in action screen](media/f97ab8d2-b0e1-49bf-9d6b-bf75f3081233.png)
-  
-You should see the text on the **Data Residency Option** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
+You should see the text on the **Data Residency** section change to indicate **Your organization has requested to move its core customer data.** You'll also have a confirmation message in your message center. This confirms that you have successfully requested a move. 
 
 
   
 ## What happens after requesting a move?
 
-After requesting a move, we will plan to move you as quickly as our operational constraints allow for. Due to the unpredictable nature of many of the constraints, we cannot share a specific date or timeframe for the moves. You will see a notification after the move has completed.
+After requesting a move, we will plan to move you as quickly as our operational constraints allow. Due to the unpredictable nature of many of the constraints, we cannot share a specific date or timeframe for the moves. You will see a notification after the move has completed.
   
 Moves may take up to 24 months from the request deadline for your country to complete.
-  
-After requesting a move, it is not possible to change your selection as we begin to process the moves once you have made the request.
   
 ## Microsoft Teams
 

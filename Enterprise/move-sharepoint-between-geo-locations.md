@@ -1,9 +1,9 @@
 ---
-title: "Move a SharePoint site to a different geo location (Preview)"
+title: "Move a SharePoint site to a different geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.collection: Strat_SP_gtc
@@ -11,9 +11,9 @@ localization_priority: Priority
 description: "Learn how to move a SharePoint site to a different geo location."
 ---
 
-# Move a SharePoint site to a different geo location (Preview)
+# Move a SharePoint site to a different geo location
 
-With SharePoint site geo move, you can move SharePoint sites to other geo locations within your multi-geo environment. This feature is currently in preview.
+With SharePoint site geo move, you can move SharePoint sites to other geo locations within your multi-geo environment.
 
 The following types of site can be moved between geo locations:
 
@@ -90,12 +90,12 @@ This will return *Success* if the site is ready to be moved or *Fail* if any of 
 
 By default, initial URL for the site will change to the URL of the destination geo location. For example:
 
-https://Contoso.sharepoint.com/sites/projectx to https://Contoso.sharepointEUR.com/sites/projectx
+https://Contoso.sharepoint.com/sites/projectx to https://ContosoEUR.sharepoint.com/sites/projectx
 
 For sites with no Office 365 Group association, you can also rename the site by using the `-DestinationUrl` parameter. For example:
 
 https://Contoso.sharepoint.com/sites/projectx to 
-https://Contoso.sharepointEUR.com/sites/projecty
+https://ContosoEUR.sharepoint.com/sites/projecty
 
 To start the site move, run:
 

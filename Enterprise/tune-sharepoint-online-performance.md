@@ -1,10 +1,10 @@
 ---
 title: "Tune SharePoint Online performance"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 6/21/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
 localization_priority: Normal
@@ -30,6 +30,8 @@ Use these articles to fine tune SharePoint Online performance.
 - [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md)
     
 - [Navigation options for SharePoint Online](navigation-options-for-sharepoint-online.md)
+
+- [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
     
 - [Image optimization for SharePoint Online](image-optimization-for-sharepoint-online.md)
     

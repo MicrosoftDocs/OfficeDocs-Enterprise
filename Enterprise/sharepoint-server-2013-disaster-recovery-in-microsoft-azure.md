@@ -4,7 +4,7 @@ ms.author: bcarter
 author: brendacarter
 manager: laurawi
 ms.date: 04/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -31,34 +31,6 @@ Use this article with the following solution model: **SharePoint Disaster Recove
   
  [PDF](https://go.microsoft.com/fwlink/p/?LinkId=392555) |  [Visio](https://go.microsoft.com/fwlink/p/?LinkId=392554)
   
-In this article:
-  
-- [Use Azure Infrastructure Services for disaster recovery](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#AZ)
-    
-- [Solution description](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#SOL)
-    
-- [Detailed architecture](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#arch)
-    
-- [Disaster recovery roadmap](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#RDmap)
-    
-- [Phase 1: Design the disaster recovery environment](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase1)
-    
-- [Phase 2: Create the Azure virtual network and VPN connection](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase2)
-    
-- [Phase 3: Deploy Active Directory and Domain Name Services to the Azure virtual network](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase3)
-    
-- [Phase 4: Deploy the SharePoint recovery farm in Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase4)
-    
-- [Phase 5: Set up DFSR between the farms](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase5)
-    
-- [Phase 6: Set up log shipping to the recovery farm](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase6)
-    
-- [Phase 7: Validate failover and recovery](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Phase7)
-    
-- [Microsoft proof-of-concept environment](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#POC)
-    
-- [Troubleshooting tips](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md#Troubleshooting)
-    
 ## Use Azure Infrastructure Services for disaster recovery
 
 Many organizations do not have a disaster recovery environment for SharePoint, which can be expensive to build and maintain on-premises. Azure Infrastructure Services provides compelling options for disaster recovery environments that are more flexible and less expensive than the on-premises alternatives.
@@ -292,7 +264,7 @@ This phase includes deploying both Windows Server Active Directory and DNS to th
   
 **Figure: Hybrid Active Directory domain configuration**
 
-![STwo virtual machines deployed to the Azure virtual network and the SharePoint Farm subnet are replica domain controllers and DNS servers](media/AZarch-HyADdomainConfig.png)
+![Two virtual machines deployed to the Azure virtual network and the SharePoint Farm subnet are replica domain controllers and DNS servers](media/AZarch-HyADdomainConfig.png)
   
 In the illustration, two virtual machines are deployed to the same subnet. These virtual machines are each hosting two roles: Active Directory and DNS.
   

@@ -1,10 +1,10 @@
 ---
 title: "NAT support with Office 365"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 1/24/2017
-ms.audience: Admin
+audience: Admin
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -45,12 +45,12 @@ Maximum supported devices behind a single public IP address = (64,000 - restrict
   
  **For example, if the following were true:**
   
-- **Restricted ports:** 4,000 for the operating system 
-    
-- **Peak port consumption:** 6 per device 
-    
-- **Peak factor:** 4 
-    
+- **Restricted ports:** 4,000 for the operating system
+
+- **Peak port consumption:** 6 per device
+
+- **Peak factor:** 4
+
 Then, the maximum supported devices behind a single public IP address = (64,000 - 4,000)/(6 + 4) = 6,000
   
 With the release of Office 365 hosting pack, included in the updates from September 2011 for Microsoft Office Outlook 2007, or November 2011 for Microsoft Outlook 2010, or a later update, the number of connections from Outlook (both Office Outlook 2007 with Service Pack 2 and Outlook 2010) to Exchange can be as few as 2. You'll need to factor in the different operating systems, user behaviors, and so on to determine the minimum and maximum number of ports that your network will require at peak.
@@ -74,4 +74,3 @@ There are various methods for distributing client load across additional public 
 [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
   
 [Office 365 endpoints FAQ](https://support.office.com/article/d4088321-1c89-4b96-9c99-54c75cae2e6d)
-

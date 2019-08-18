@@ -3,8 +3,8 @@ title: "Assign licenses to user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/29/2019
-ms.audience: Admin
+ms.date: 08/05/2019
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -18,15 +18,18 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 
-description: "Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users."
+description: "How to use Office 365 PowerShell to assign an Office 365 license to unlicensed users."
 ---
 
 # Assign licenses to user accounts with Office 365 PowerShell
 
-**Summary:**  Explains how to use Office 365 PowerShell assign an Office 365 license to unlicensed users.
+**Summary:**  How to use Office 365 PowerShell to assign an Office 365 license to unlicensed users.
   
 Users can't use any Office 365 services until their account has been assigned a license from a licensing plan. You can use Office 365 PowerShell to quickly assign licenses to unlicensed accounts. 
 
+>[!Note]
+>User accounts must be assigned a location. You can do this from the properties of a user account in the Microsoft 365 admin center or from PowerShell.
+>
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -40,6 +43,20 @@ Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
 Next, get the sign-in name of the account to which you want add a license, also known as the user principal name (UPN).
+
+Next, ensure that the user account has a usage location assigned.
+
+```
+Get-AzureADUser -ObjectID <user sign-in name (UPN)> | Select DisplayName, UsageLocation
+```
+
+If there is no usage location assigned, you can assign one with these commands:
+
+```
+$userUPN="<user sign-in name (UPN)>"
+$userLoc="<ISO 3166-1 alpha-2 country code>"
+Set-AzureADUser -ObjectID $userUPN -UsageLocation $userLoc
+```
 
 Finally, specify the user sign-in name and license plan name and run these commands.
 
@@ -64,7 +81,7 @@ To find the unlicensed accounts in your organization, run this command.
 ```
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
-    
+
 You can only assign licenses to user accounts that have the **UsageLocation** property set to a valid ISO 3166-1 alpha-2 country code. For example, US for the United States, and FR for France. Some Office 365 services aren't available in certain countries. For more information, see [About license restrictions](https://go.microsoft.com/fwlink/p/?LinkId=691730).
     
 To find accounts that don't have a **UsageLocation** value, run this command.
@@ -104,7 +121,7 @@ Set-MsolUserLicense -UserPrincipalName "belindan@litwareinc.com" -AddLicenses "l
 To assign a license to many unlicensed users, run this command.
   
 ```
-Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | ForEach {Set-MsolUserLicense -AddLicenses "<AccountSkuId>"}
+Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | Set-MsolUserLicense -AddLicenses "<AccountSkuId>"
 ```
   
 >[!Note]
@@ -114,13 +131,13 @@ Get-MsolUser -All -UnlicensedUsersOnly [<FilterableAttributes>] | ForEach {Set-M
 This example assigns licenses from the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licensing plan to all unlicensed users:
   
 ```
-Get-MsolUser -All -UnlicensedUsersOnly | ForEach {Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"}
+Get-MsolUser -All -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
 This example assigns those same licenses to unlicensed users in the Sales department in the United States:
   
 ```
-Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | ForEach {Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"}
+Get-MsolUser -All -Department "Sales" -UsageLocation "US" -UnlicensedUsersOnly | Set-MsolUserLicense -AddLicenses "litwareinc:ENTERPRISEPACK"
 ```
   
 ## New to Office 365?

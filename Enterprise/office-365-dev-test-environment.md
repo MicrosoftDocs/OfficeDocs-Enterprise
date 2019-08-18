@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/02/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -113,7 +113,7 @@ To start your Office 365 E5 trial subscription, you first need a fictitious comp
     
 11. On the next page, wait until Office 365 completes setting up and all the tiles are available.
     
-You should see main Office 365 portal page from which you can access Office Online services and the Microsoft 365 Admin center.
+You should see main Office 365 portal page from which you can access Office services and the Microsoft 365 admin center.
   
 For the simulated enterprise Office 365 dev/test environment, here is your resulting configuration.
   
@@ -263,8 +263,6 @@ Use these additional articles in your Office 365 dev/test environment:
 - [Multi-factor authentication for your Office 365 dev/test environment](multi-factor-authentication-for-your-office-365-dev-test-environment.md)
     
 - [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
-    
-- [Cloud App Security for your Office 365 dev/test environment](cloud-app-security-for-your-office-365-dev-test-environment.md)
     
 - [Advanced Threat Protection for your Office 365 dev/test environment](advanced-threat-protection-for-your-office-365-dev-test-environment.md)
     
