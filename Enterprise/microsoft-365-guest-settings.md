@@ -45,7 +45,7 @@ Refer to [Azure Active Directory cmdlets for configuring group settings](https:/
 
 If you want group owners to be able to add guest users as members of a group, use the option **AllowToAddGuests**.
 
-If you want that guest users members of a group can access the group information, use the option **AllowGuestsToAccessGroups**. 
+If you want guest user members of a group to be able to access group information, use the option **AllowGuestsToAccessGroups**. 
 
 ## Microsoft 365
 
