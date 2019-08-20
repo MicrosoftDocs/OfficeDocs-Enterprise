@@ -41,7 +41,7 @@ Azure Active Directory is the directory service used by  Microsoft 365. The Azur
 
 These settings affect how users are invited to the directory. They do not affect sharing with guests who are already in the directory.
 
-Refer to [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets), in order to know how group settings for guest users can be controlled at Tenant level.  
+Refer to [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets) in order to learn how group settings for guest users can be controlled at Tenant level.  
 
 If you want that group owners can add guest users as a member of a group, use the option **AllowToAddGuests**.
 
