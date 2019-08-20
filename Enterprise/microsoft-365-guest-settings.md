@@ -43,7 +43,7 @@ These settings affect how users are invited to the directory. They do not affect
 
 Refer to [Azure Active Directory cmdlets for configuring group settings](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets) in order to learn how group settings for guest users can be controlled at Tenant level.  
 
-If you want that group owners can add guest users as a member of a group, use the option **AllowToAddGuests**.
+If you want group owners to be able to add guest users as members of a group, use the option **AllowToAddGuests**.
 
 If you want that guest users members of a group can access the group information, use the option **AllowGuestsToAccessGroups**. 
 
