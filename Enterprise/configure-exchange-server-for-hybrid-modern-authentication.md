@@ -1,7 +1,7 @@
 ---
 title: "How to configure Exchange Server on-premises to use Hybrid Modern Authentication"
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 11/16/2018
 audience: ITPro
