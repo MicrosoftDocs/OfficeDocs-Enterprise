@@ -177,7 +177,7 @@
 ### Hybrid solutions
 #### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
 #### [Connect an on-premises network to an Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
-#### [Deploy a directory dynchronization server in Azure IaaS](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+#### [Deploy a directory synchronization server in Azure IaaS](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
 #### [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
 ##### [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md)
 ##### [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md)
