@@ -3,7 +3,7 @@ title: "Upgrading from SharePoint 2010"
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 07/11/2019
+ms.date: 08/21/2019
 audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -173,6 +173,16 @@ One good way to see how a hybrid SharePoint farm works is by creating an [Office
   
 > [!NOTE]
 > Remember that your SharePoint Server 2010 farm will first need to be upgraded, on-premises, to either SharePoint Server 2013 or SharePoint Server 2016 to use the hybrid option. SharePoint Foundation 2010 and SharePoint Foundation 2013 cannot create hybrid connections with SharePoint Online. 
+
+## Summary of options for Office 2010 client and servers and Windows 7
+
+For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 client and servers and Windows 7, download the [end of service poster](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfService.pdf).
+
+![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-service.png)
+
+This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of service, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
+
+You can print this poster in letter, legal, or tabloid (11 x 17) formats.
   
 ## Related topics
 
