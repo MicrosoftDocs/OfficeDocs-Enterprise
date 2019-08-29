@@ -19,6 +19,11 @@ Azure AD
 
 ## Set up a terms of use for guests
 
+![Screenshot of Azure AD new terms of use settings](media/azure-ad-guest-terms-of-use.png)
+
+
+
+
 Azure AD
 
 ## Set up guest access reviews

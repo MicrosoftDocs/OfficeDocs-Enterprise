@@ -35,9 +35,10 @@ To set site-level sharing settings
 
 
 
-## Set default link permission to View
+## Set Anyone link permission to View
 
 
+![Screenshot of SharePoint Anyone link settings set to View](media/sharepoint-organization-anyone-link-permissions-view.png)
 
 
 
