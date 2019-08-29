@@ -13,6 +13,40 @@ description: "Learn how to create a secure guest sharing environment in Microsof
 # Create a secure guest sharing environment
 
 
+## Set up multi-factor authentication for guests
+
+Azure AD
+
+## Set up a terms of use for guests
+
+Azure AD
+
+## Set up guest access reviews
+
+Azure AD
+
+## Set up conditional access for guest users
+
+Azure web-only for guests on unmanaged devices
+
+## Create classification labels
+
+Security and Compliance Center
+
+create and publish labels
+
+## Create a sensitive information type for a highly confidential project
+
+
+## MCAS to assign label based on sensitive info type
+
+
+## DLP content marking based on label
+
+
+
+
+
 ## See Also
 
 SharingSecurity
