@@ -28,6 +28,10 @@ Azure AD
 
 ## Set up guest access reviews
 
+![Screenshot of Azure AD access review settings](media/azure-ad-create-access-review.png)
+
+
+
 Azure AD
 
 ## Set up conditional access for guest users
