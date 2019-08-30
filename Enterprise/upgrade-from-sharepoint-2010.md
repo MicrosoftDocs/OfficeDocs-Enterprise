@@ -113,7 +113,7 @@ If you've decided to create a new Office 365 site, and will manually migrate dat
   
 ### Upgrade SharePoint Server on-premises
 
-As of the latest version of the SharePoint on-premises product (SharePoint Server 2016), SharePoint Server upgrades must go  *serially*, that means there is no way to upgrade from SharePoint Server 2010 to SharePoint Server 2016, directly. 
+As of the latest version of the SharePoint on-premises product (SharePoint Server 2019), SharePoint Server upgrades must go  *serially*, that means there is no way to upgrade from SharePoint Server 2010 to SharePoint Server 2016 or to SharePoint 2019, directly. 
   
 |||
 |:-----|:-----|
@@ -163,7 +163,7 @@ Begin by comparing hardware and software requirements. If you don't meet basic r
     
 ### Create a SharePoint hybrid solution between SharePoint Online and SharePoint Server on-premises
 
-Another option (one that may be the best of both on-premises and online worlds for some migration needs) is a hybrid, you can connect SharePoint Server 2013 or 2016 farms to SharePoint Online to create a SharePoint hybrid: [Learn about SharePoint hybrid solutions](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx).
+Another option (one that may be the best of both on-premises and online worlds for some migration needs) is a hybrid, you can connect SharePoint Server 2013 or 2016 or 2019 farms to SharePoint Online to create a SharePoint hybrid: [Learn about SharePoint hybrid solutions](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx).
   
 If you decide a hybrid SharePoint Server farm is your migration goal, be sure to plan what sites and users you should move to online, and which need to remain on-premises. A review and ranking of your SharePoint Server farm's content (determining what data is High, Medium, or Low impact to your company) can be helpful to making this decision. It may be that the only thing you need to share with SharePoint Online is (a) user accounts for login, and (b) the SharePoint Server search index -- this may not be clear until you look at how your sites are used. If your company later decides to migrate all of your content to SharePoint Online, you can move all remaining accounts and data online and decommission your on-premises farm, and management/administration of the SharePoint farm will be done through Office 365 consoles from that point on.
   
