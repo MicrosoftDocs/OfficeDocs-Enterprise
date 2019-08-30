@@ -15,6 +15,10 @@ description: "Learn how to create a secure guest sharing environment in Microsof
 
 ## Set up multi-factor authentication for guests
 
+
+
+
+
 Azure AD
 
 ## Set up a terms of use for guests
@@ -36,7 +40,12 @@ Azure AD
 
 ## Set up conditional access for guest users
 
+
+
+
 Azure web-only for guests on unmanaged devices
+
+Session timeout
 
 ## Create classification labels
 
