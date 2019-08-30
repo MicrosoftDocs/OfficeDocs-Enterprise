@@ -118,6 +118,10 @@ The move statuses are described in the following table.
 </tr>
 </thead>
 <tbody>
+<tr class="even">
+<td align="left">ReadyToTrigger</td>
+<td align="left">The user is ready to be moved. You may now trigger their move.</td>
+</tr>
 <tr class="odd">
 <td align="left">NotStarted</td>
 <td align="left">The move has not started.</td>
