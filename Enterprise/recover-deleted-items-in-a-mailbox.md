@@ -268,7 +268,7 @@ You have to use the Outlook desktop app to restore a deleted item by using a PST
 ![Select a folder to move other types of items](media/f8290131-43f2-46f1-bc07-228c2d83b96c.png)
   
    > [!NOTE]
-   > Note that calendar items, contacts, and tasks are located directly in the Purges folder, and not in a Calendar, Contacts, or Tasks subfolder. However, you can sort by **Type** to group similar types of items. 
+   > Calendar items, contacts, and tasks are located directly in the Purges folder, and not in a Calendar, Contacts, or Tasks subfolder. However, you can sort by **Type** to group similar types of items. 
     
 8. When you're finished recovering deleted items, right-click the PST file in the left-nav bar and select **Close "name of PST file"**.
     
