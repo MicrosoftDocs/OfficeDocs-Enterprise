@@ -126,9 +126,45 @@ Azure AD
 ## Set up conditional access for guest users
 
 
+To create a conditional access policy
+1. In Microsoft Azure, search for *Conditional access*.
+2. On the **Conditional Access - Policies** blade, click **New policy**.
+3. In the **Name** box, type *Guest user browser access*.
+4. Under **Assignments**, click **Users and groups**.
+5. On the **Users and groups** blade, select **Select users and groups**, select the **All guests and external users** check box, and then click **Done**.
+6. Under **Assignments**, click **Cloud apps or actions**.
+7. On the **Include** tab, select **Select apps**, and then click **Select**.
+8. On the **Select** blade, select **Microsoft Teams**, **Office 365 SharePoint Online**, and **Outlook Groups**, and then click **Select**.
+9. On the **Cloud apps or actions** blade, click **Done**.
+10. Under **Assignments**, click **Conditions**.
+11. On the **Conditions** blade, click **Client apps**.
+12. On the **Client apps** blade, click **Yes** for **Configure**, and then select the **Mobile apps and desktop clients** and **Modern authentication clients** settings.
+    ![Screenshot of Azure AD conditional access client apps settings](media/azure-ad-conditional-access-client-mobile.png)
+13. Click **Done**, and then on the **Conditions** blade, click **Done** again.
+14. Under **Access controls**, click **Grant**.
+15. On the **Grant** blade, select **Require device to be marked as compliant** and **Require Hybrid Azure AD joined device**.
+16. Under **For multiple controls**, select **Require one of the selected controls**, and then click **Select**.
+17. On the **New** blade, under **Enable policy**, click **On**, and then click **Create**.
 
 
-Azure web-only for guests on unmanaged devices
+
+
+To configure guest session timeout
+1. In Microsoft Azure, search for *Conditional access*.
+2. On the **Conditional Access - Policies** blade, click **New policy**.
+3. In the **Name** box, type *Guest session timeout*.
+4. Under **Assignments**, click **Users and groups**.
+5. On the **Users and groups** blade, select **Select users and groups**, select the **All guests and external users** check box, and then click **Done**.
+6. Under **Assignments**, click **Cloud apps or actions**.
+7. On the **Include** tab, select **Select apps**, and then click **Select**.
+8. On the **Select** blade, select **Microsoft Teams**, **Office 365 SharePoint Online**, and **Outlook Groups**, and then click **Select**.
+9. On the **Cloud apps or actions** blade, click **Done**.
+14. Under **Access controls**, click **Session**.
+15. On the **Session** blade, select **Sign-in frequency**.
+16. Select **1** and **Days** for the time period, and then click **Select**.
+17. On the **New** blade, under **Enable policy**, click **On**, and then click **Create**.
+
+
 
 Session timeout
 
