@@ -10,6 +10,6 @@
 |Japan                        |JPN     |Southeast or East Asia datacenters|
 |Korea                        |KOR     |Southeast or East Asia datacenters|
 |North America                |NAM     |US datacenters                    |
-|South Africa                 |ZAF     |(Coming soon)
-|United Arab Emirates         |ARE     |(Coming soon)
+|South Africa                 |ZAF     |(Coming soon)                     |
+|United Arab Emirates         |ARE     |(Coming soon)                     |
 |United Kingdom               |GBR     |Europe datacenters                |
