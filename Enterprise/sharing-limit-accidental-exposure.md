@@ -82,7 +82,6 @@ To set up a domain allow or deny list for guest sharing
 
 You can restrict guest sharing to members of a specific security group. This is useful if you want to enable guest sharing, but with an approval workflow or request process. 
 
-
 To limit guest sharing to members of a security group
 1. In the SharePoint admin center, in the left navigation, click **Sharing**.
 2. Under **Other settings**. follow the **Limit external sharing to specific security groups** link.
@@ -90,7 +89,6 @@ To limit guest sharing to members of a security group
     a. **Let only users in selected security groups share with authenticated external users** to specify a security group that can share with authenticated users
     b. **Let only users in selected security groups share with authenticated external users and using anonymous links** to specify a security group that can share with authenticated users and by using Anyone links
 4. Click **OK**.
-
 
 
 ## See Also
