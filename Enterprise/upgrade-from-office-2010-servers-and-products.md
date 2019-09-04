@@ -37,7 +37,7 @@ While you're planning your upgrade, this is a great time to consider moving to O
 
 - Office 365 ProPlus, included with Office 365 E3 and E5 and Microsoft 365 Enterprise, is the set of Office client apps that you install on your local device. They are updated with new productivity and security features on an ongoing basis from the Microsoft cloud.
 
-For a summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of service poster](./media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfService.pdf).
+For a summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of service poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfService.pdf).
 
 ![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-service.png)
 
