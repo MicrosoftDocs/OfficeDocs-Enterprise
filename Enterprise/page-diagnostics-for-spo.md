@@ -93,7 +93,9 @@ In the image shown above, the red item pertains to the default page. It will alw
     
 3. **Share relevant details with others who can help investigate issues**. To share the details or information provided in the tool with your developers or a technical support person, click **Export to JSON** (as shown in the image above). That will enable you to download the results, viewable with a JSON file viewer.
 
-REPLACE THIS POINT WITH EXTRA DETAILS AND IMAGE. NETWORKTRACEHAR
+    If you have selected to use the preview feature to *enable Export to HAR* then the export type will change to Export HAR instead of Export to JSON.
+
+    ![Network trace](media/pagediag-NetworkTraceHAR.PNG)
 
 > [!IMPORTANT]
 > These results contain URLs and that can be classified as PII (Personally Identifiable Information). Make sure to follow your organization's guidelines before distributing that information. 
