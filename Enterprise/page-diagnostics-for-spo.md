@@ -59,8 +59,12 @@ Read the following sections to learn more about the information provided in the 
   - **Page load time** is the time recorded by the page from the time of the request to the time the response was received and read by the browser. Any additional time is affected by the performance of the computer and the time it takes for the browser to load. 
     
   - The **URL** (Uniform Resource Locator) is the web address of the current page. 
-    
-3. The [**Diagnostic** tab](#how-to-use-the-diagnostic-tab) will list the rules and if any of them are marked with a red ![Cross](media/9859ac84-be43-4eae-984c-e0e827f5a228.png), then there are issues identified on the page.<br/>Each rule has its own "more information" link that you click if an item is red. That will take you to the details behind that rule and how to remediate the issue.<br/>![Diagnostics Red - Rule open](media/1598f0f7-3103-4613-8787-dfec6fffd40a.png)
+
+TEXT GOES
+
+![Page diagnostics](media/pagediag-HAR.PNG)
+
+3. The [**Diagnostic** tab](#how-to-use-the-diagnostic-tab) will list the rules and if any of them are marked with a red ![Cross](media/9859ac84-be43-4eae-984c-e0e827f5a228.png), then there are issues identified on the page.<br/>Each rule has its own "more information" link that you click if an item is red. That will take you to the details behind that rule and how to remediate the issue.<br/>![Diagnostics Red - Rule open](media/pagediag-diagnostictest.png)
 
 4. A [**Network trace** tab](#how-to-use-the-network-trace-tab) provides details about page build requests and responses.
 
