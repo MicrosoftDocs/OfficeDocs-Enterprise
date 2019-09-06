@@ -40,7 +40,7 @@ Create a terms of use and save it as a .pdf file.
 To create an Azure AD terms of use
 1. Sign in to Azure as a Global Administrator, Security Administrator, or Conditional Access Administrator.
 2. Navigate to [Terms of use](https://aka.ms/catou).
-3. Click **New terms**.
+3. Click **New terms**.</br>
    ![Screenshot of Azure AD new terms of use settings](media/azure-ad-guest-terms-of-use.png)
 4. In the Name box, type *Guest terms of use*.
 5. In the Display name box, type *Contoso guest terms of use*.
@@ -96,7 +96,7 @@ To create a program
 
 To set up a guest user access review
 1. On the [Identity Governance page](https://portal.azure.com/#blade/Microsoft_AAD_ERM/DashboardBlade), in the left menu, click **Access reviews**.
-2. Click **New access review**.
+2. Click **New access review**.</br>
    ![Screenshot of Azure AD access review settings](media/azure-ad-create-access-review.png)
 3. In the **Name** box, type *Quarterly guest access review*.
 4. For **Frequency**, choose **Quarterly**.
@@ -138,7 +138,7 @@ To create a conditional access policy
 9. On the **Cloud apps or actions** blade, click **Done**.
 10. Under **Assignments**, click **Conditions**.
 11. On the **Conditions** blade, click **Client apps**.
-12. On the **Client apps** blade, click **Yes** for **Configure**, and then select the **Mobile apps and desktop clients** and **Modern authentication clients** settings.
+12. On the **Client apps** blade, click **Yes** for **Configure**, and then select the **Mobile apps and desktop clients** and **Modern authentication clients** settings.</br>
     ![Screenshot of Azure AD conditional access client apps settings](media/azure-ad-conditional-access-client-mobile.png)
 13. Click **Done**, and then on the **Conditions** blade, click **Done** again.
 14. Under **Access controls**, click **Grant**.
