@@ -38,7 +38,7 @@ If you are unsure which version you are using then please click the About link o
     
 2. (This is optional) If you want to use the tool in Chrome incognito mode, navigate to the extension and click **allow in incognito**.
     
-3. Navigate to the SharePoint classic publishing page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the **tool will not stop automatically**. Should you wish to stop collection, you can click **Stop**. (This is by design to cater for all page load scenarios.) Before you click **Stop**, make sure that the network trace data is complete. Otherwise, you will have a partial trace. Additionally, the tool is a Browser Extension, and opening multiple tabs or windows will only allow one active instance of the tool to be run at one time. This is a limitation of extensions in the browser. 
+3. Navigate to the SharePoint site page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the **tool will not stop automatically**. Should you wish to stop collection, you can click **Stop**. (This is by design to cater for all page load scenarios.) Before you click **Stop**, make sure that the page load has completed. Otherwise, you will have a partial trace. 
   
 4. Click on the Extension logo ![Page Diagnostics for SharePoint logo](media/pagediag-icon32.png) to load the tool and you will be presented with the following extension popup window:<br/> ![Page Diagnostics tool Popup](media/pagediag-Landing.png)<br/>Start and stop operations follow the basic concept of when you click start the page will reload and collection will begin.
 
@@ -46,7 +46,7 @@ Read the following sections to learn more about the information provided in the 
 
 ## What you'll see in the Page Diagnostics tool
     
-1. The **About** link will provide general guidance and details regarding the tool including a link back to this article. It also includes a direct link to SharePoint Performance recommendations, a Third Party notice and an option to provide feedback about the tool. 
+1. The About link, which resembles ellipses (...) in the top right corner will provide general guidance and details regarding the tool including a link back to this article. It also includes a direct link to SharePoint Performance recommendations, a Third Party notice and an option to provide feedback about the tool.  
     
 2. The **Correlation ID, SPRequestDuration, SPIISLatency**, **Page load time**, and **URL** details are informational and can be used for a few purposes. 
     
