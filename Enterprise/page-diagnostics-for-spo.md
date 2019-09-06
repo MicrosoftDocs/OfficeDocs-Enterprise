@@ -66,17 +66,17 @@ Read the following sections to learn more about the information provided in the 
 
 ## How to use the Diagnostic tab
 
-1. **Check Running as Standard User**  Checking page performance should not be performed when logged in as a Service Account, Administrator or Site Collection Administrator, or any account with elevated privileges. Additional scripts and functionality are loaded specifically for those types of accounts, so the results will not be a true representation of page performance.
-    
-2. **Check Requests to SharePoint**  The amount of data and requests made to the server should be limited as an overloaded page will experience poor performance. This check verifies the number of requests being made to SharePoint and will advise when the requests exceed 6 requests. Most requests should be cached and therefore not called for every page load. Cache should be setup and utilized for at least 15 minutes to reduce the amount of calls to a page by each and every User. This is a common problem and in most cases data only changes daily but the page checks and fetches data each time for each page for each user which is often unnecessary.
-    
-3. **Check using CDNs**  Content Delivery networks (CDNs) have been provided by Microsoft and the ones referred to here are the SharePoint Online Content Delivery Networks. There are multiple types available as well as different CDN services like SharePoint CDNs and then CDNs in Azure. [Use the following guidance](https://go.microsoft.com/fwlink/?linkid=873250).
-    
-4. **Check for Large Image Sizes**  Images should be optimized for web by utilizing better web types like PNG. Image renditions should also be utilized and is available in SharePoint directly. Images / image renditions larger than 100kb will be highlighted as not optimized for web. [Use the following guidance for optimizing images](https://go.microsoft.com/fwlink/?linkid=873251).
-    
-5. **Check for Structural Navigation**  Structural Navigation was originally designed for use in SharePoint on-Premises where object cache could be utilized. Structural Navigation is not recommended for use in SharePoint Online and should be changed to Managed Navigation or a Custom Provider. [Use the following guidance for optimizing navigation.﻿](https://go.microsoft.com/fwlink/?linkid=873247)
-    
-6. **Check for CBQ WebPart** (CBQ - Content by Query WebPart)  The Content by Query WebPart generates a high SQL load as it traverses all items in the query for each and every page load, for each User. Unlike an on-Premises installation, there is no cache available to limit the number of queries needed to populate this WebPart. As such CBQ performs slowly and impacts overall page performance which is why it should not be utilized. Please use the Content Search WebPart (CSWP) as the replacement for the Content Query WebPart. [Use the following guidance related to the Content Search WebPart](https://go.microsoft.com/fwlink/?linkid=873245).
+Items highlighted in the **Attention required** section and therefore highlighted in red are areas that should be reviewed against recommended practices.
+
+Some of these areas are critical to ensuring your page performance is not severely jeopardized.
+Each of the items has a Learn more link which will take you directly to the appropriate guidance related to the check performed.
+
+The rules will not tell you how to design your pages but will highlight areas that impact performance for the page and the key is to examine the trade-off as some functionality or customizations will impact page performance. 
+
+It may also be because of the frequency of the refresh of the data. As an example corporate news is not updated every second but custom web parts are often built to fetch the latest news every second for every user instead of implementing caching elements that could cache it for 15 minutes which would then in turn improve the overall user experience.
+
+>[!IMPORTANT]
+>The rules are updated regularly so please refer to the latest version of the tool for the details of those rules. You can verify the version by managing your extensions and the extension will advise whether an update is available.
 
 ## How to use the Network Trace tab
     
