@@ -13,6 +13,19 @@ description: "Learn how to create a secure guest sharing environment in Microsof
 # Create a secure guest sharing environment
 
 
+
+
+- Set up multi-factor authentication for guests.
+- Set up a terms of use for guests.
+- Set up quarterly guest access reviews to periodically validate whether guests continue to need permissions to teams and sites.
+- Restrict guests to web-only access for unmanaged devices.
+- Configure a session timeout policy to ensure guests authenticate daily.
+- Create and publish sensitivity labels to classify content.
+- Create a sensitive information type for a highly confidential project.
+- Use Cloud App Security to assign a *highly confidential* label to documents that contain the sensitive information type.
+- Use Cloud App Security to remove guest access from files labeled as *highly confidential*.
+
+
 ## Set up multi-factor authentication for guests
 
 
@@ -170,8 +183,43 @@ Session timeout
 
 ## Create classification labels
 
-To create a classification label
+To create a classification label (General)
+1. In the [Security and Compliance Center](https://protection.office.com), in the left navigation, expand **Classification**, and then click **Sensitivity labels**.
+2. Click **Create a label**.
+3. In **Label name**, type *General*.
+4. In **Tooltip**, type *General information that can be shared with employees, guests, and partners*, and then click **Next**.
+5. Leave encryption **Off** and click **Next**.
+6. Leave content marking **Off** and click **Next**.
+7. Leave endpoint data loss prevention **Off** and click **Next**.
+8. Leave auto labeling **Off** and click **Next**.
+9. Click **Create**.
 
+
+To create a classification label (Highly confidential)
+2. Click **Create a label**.
+3. In **Label name**, type *Highly confidential*.
+4. In **Tooltip**, type *Highly confidential information. Share only with employees and authorized guests*, and then click **Next**.
+5. Leave encryption **Off** and click **Next**.
+6. Turn content marking **On**, select the **Add a header** check box, and then click **Customize text**.
+1. Type *Highly confidential* for the header text and click **Save**.
+1. On the **Content marking** page, click **Next**.
+1. Leave endpoint data loss prevention **Off** and click **Next**.
+1. Leave auto labeling **Off** and click **Next**.
+1. Click **Create**.
+
+
+
+
+To publish labels
+1. On the **Sensitivity labels** page, click **Publish labels**.
+1. Click **Choose labels to publish**.
+1. Click **Add**, select the labels that you created, and then click **Add**.
+1. Click **Done**.
+1. Click **Next**.
+1. Leave the users and groups set to **All** and click **Next**.
+1. Click **Next**.
+1. On the **Policy settings** page, type *Document sensitivity* for the name, and then click **Next**.
+1. Click **Publish**.
 
 
 Security and Compliance Center
@@ -181,7 +229,52 @@ create and publish labels
 ## Create a sensitive information type for a highly confidential project
 
 
+
+To create a sensitive information type
+1. In the [Security and Compliance Center](https://protection.office.com), in the left navigation, expand **Classification**, and then click **Sensitive info types**.
+1. Click **Create**.
+1. For **Name** and **Description**, type **Project Saturn**, and then click **Next**.
+1. Click **Add an element**.
+1. On the **Detect content containing** list, select **Keywords**, and then enter *Project Saturn* in the keyword box.
+1. Click **Next**, and then click **Finish**.
+1. If asked if you would like to test the seneitive information type, click **No**.
+
+
 ## MCAS to assign label based on sensitive info type
+
+
+Time delay as custom label replicated to MCAS
+
+To create a sensitive information type-based file policy
+1. Open [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
+1. In the left navigation, expand **Control**, and then click **Policies**.
+1. Click **Create policy**, and then choose **File policy**.
+1. For **Policy name**, type *Project Saturn labeling*.
+1. Under **Create a filter for the files this policy will act on**, click X twice to delete the default filters.
+1. In the **Select a filter** list, choose **App**, and then select **Microsoft SharePoint Online** from the **Select apps...** list.
+1. Under **Inspection method**, choose **Data classification service**.
+1. On the **Choose inspection type** list, choose **Sensitive information type**.
+1. Search for and select the *Project Saturn* sensitivity label, and then click **Done**.
+1. Under **Governance**, expand **Microsoft SharePoint Online**.
+1. Select the **Apply classification label** check box and select the **Highly Confidential** label.
+1. Click **Create**.
+
+
+
+To create a label-based file policy
+1. Open [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
+1. In the left navigation, expand **Control**, and then click **Policies**.
+1. Click **Create policy**, and then choose **File policy**.
+1. For **Policy name**, type *Project Saturn - remove guest access*.
+1. Under **Create a filter for the files this policy will act on**, click X twice to delete the default filters.
+1. In the **Select a filter** list, choose **App**, and then select **Microsoft SharePoint Online** from the **Select apps...** list.
+1. Click **Add a filter**.
+1. In the **Select a filter** list, choose **Classification label**, and then select **Azure Information Protection** from the **Select filter...** list.
+1. In the **Select classification label** list, select **Highly Confidential**.
+1. Under **Governance**, expand **Microsoft SharePoint Online**.
+1. Select the **Send policy-match digest to file owner** and **Remove external users** check boxes.
+1. Click **Create**.
+
 
 
 ## DLP content marking based on label
