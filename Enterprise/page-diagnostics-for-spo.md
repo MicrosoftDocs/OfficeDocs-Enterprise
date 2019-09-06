@@ -34,15 +34,25 @@ If you are unsure which version you are using then please click the About link o
 > [!IMPORTANT]
 > Microsoft does not read the data or websites you visit, and we do not capture any personal information, website or download information with this tool. The only information logged by the tool is the Tenant name, Rule count and whether the support logging option has been utilized when the tool is run. This information is for Microsoft to analyze what challenges are being experienced by our Customers and to ensure the Support logging capability is not being misused.
 
-1. Using a Chrome browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.<br/>![Chrome Store permissions](media/e9fbcef0-1171-43ac-8ea8-c2b5be1b7925.png)<br/>   This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. That information is captured locally by the web browser and is available to you via the Export to JSON link in the tool. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft Privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)<br/><br/>The "Export to JSON" functionality in the tool is also why the "Manage your downloads" permission is needed. Please follow your Company's own Privacy guidelines before sharing the JSON file outside of your organization, as the results contain URLs and that can be classified as PII (Personally Identifiable Information).
+1. Using a Chrome browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.
+
+    ![Chrome Store permissions](media/e9fbcef0-1171-43ac-8ea8-c2b5be1b7925.png)
+    
+    This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. That information is captured locally by the web browser and is available to you via the Export to JSON link in the tool. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft Privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)
+    
+    The "Export to JSON" functionality in the tool is also why the "Manage your downloads" permission is needed. Please follow your Company's own Privacy guidelines before sharing the JSON file outside of your organization, as the results contain URLs and that can be classified as PII (Personally Identifiable Information).
     
 2. (This is optional) If you want to use the tool in Chrome incognito mode, navigate to the extension and click **allow in incognito**.
     
 3. Navigate to the SharePoint site page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the **tool will not stop automatically**. Should you wish to stop collection, you can click **Stop**. (This is by design to cater for all page load scenarios.) Before you click **Stop**, make sure that the page load has completed. Otherwise, you will have a partial trace. 
   
-4. Click on the Extension logo ![Page Diagnostics for SharePoint logo](media/pagediag-icon32.png) to load the tool and you will be presented with the following extension popup window:<br/> ![Page Diagnostics tool Popup](media/pagediag-Landing.png)<br/>Start and stop operations follow the basic concept of when you click start the page will reload and collection will begin.
+4. Click on the Extension logo ![Page Diagnostics for SharePoint logo](media/pagediag-icon32.png) to load the tool and you will be presented with the following extension popup window:
 
-Read the following sections to learn more about the information provided in the tool.
+    ![Page Diagnostics tool Popup](media/pagediag-Landing.png)
+    
+    Start and stop operations follow the basic concept of when you click Start, the page will reload, and collection will begin.
+
+    Read the following sections to learn more about the information provided in the tool.
 
 ## What you'll see in the Page Diagnostics tool
     
@@ -60,7 +70,11 @@ Read the following sections to learn more about the information provided in the 
     
   - The **URL** (Uniform Resource Locator) is the web address of the current page. 
 
-3. The [**Diagnostic tests** tab](#how-to-use-the-diagnostic-tab) will show a red section and a green section and the items in the red section will list the items that require attention. The green section will list items checked that meet thr current requirements.<br/>Each failed check has its own "Learn more" link that will take you to the details behind that rule and how to remediate the issue.<br/>![Page diagnostics](media/pagediag-HAR.PNG)
+3. The [**Diagnostic tests** tab](#how-to-use-the-diagnostic-tab) will show a red section and a green section and the items in the red section will list the items that require attention. The green section will list items checked that meet thr current requirements.
+
+    Each failed check has its own "Learn more" link that will take you to the details behind that rule and how to remediate the issue.
+    
+    ![Page diagnostics](media/pagediag-HAR.PNG)
 
 4. A [**Network trace** tab](#how-to-use-the-network-trace-tab) provides details about page build requests and responses.
 
@@ -82,12 +96,14 @@ It may also be because of the frequency of the refresh of the data. As an exampl
     
 The **Network Trace** tab provides detailed information about the requests to build the page as well as the responses received. 
 
-1. **Look for item load times flagged as red**. The performance of each request and response are color coded, based on their impact on the overall page performance  as follows:
-- Green: \< 500ms
-- Yellow: 500-1000ms
-- Red: \> 1000ms
-<br/>![Network Trace](media/pagediag-networktrace.png)<br/> 
-In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
+1. **Look for item load times flagged as red**. The performance of each request and response are color coded, based on their impact on the overall page performance as follows:
+    - Green: \< 500ms
+    - Yellow: 500-1000ms
+    - Red: \> 1000ms
+
+    ![Network Trace](media/pagediag-networktrace.png)
+    
+    In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
 
 2. **Test item load times**. In some cases there will be no time or color indicator because the items have already been cached by the browser. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
     
@@ -110,7 +126,9 @@ No change is visible except that you will be notified that you have enabled it a
 
 1. Open the Page Diagnostics tool.
 2. On your keyboard, press ALT-Shift-L. This will display **Enable support level logging**. 
-3. Select the checkbox, and then click **start** to reload the page and generate verbose logging for Support to analyze.<br/>![Support Option Enabled](media/ddef47de-8593-4b28-9346-eb48ebf6cdab.png)
+3. Select the checkbox, and then click **start** to reload the page and generate verbose logging for Support to analyze.
+
+    ![Support Option Enabled](media/ddef47de-8593-4b28-9346-eb48ebf6cdab.png)
   
 An important element for this is the CorrelationID as the Support team will then utilize that number to extract the information needed. Please copy the CorrelationID (at the top of the Page Diagnostics tool) and provide that to Support as they cannot perform the required work without the complete ID.
     
