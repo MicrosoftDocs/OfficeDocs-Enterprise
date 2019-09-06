@@ -19,7 +19,7 @@ If people in your organization do a lot of anonymous sharing, but you're concern
 
 To set the default Anyone link permissions
 1. In the SharePoint admin center, in the left navigation, click **Sharing**.
-2. Under **Advanced settings for Anyone links**, select **View** for **Files** and **Folders**.
+2. Under **Advanced settings for Anyone links**, select **View** for **Files** and **Folders**.</br>
    ![Screenshot of SharePoint Anyone link settings set to View](media/sharepoint-organization-anyone-link-permissions-view.png)
 3. Click **Save**.
 
@@ -32,7 +32,7 @@ An easy way to mitigate this risk, while still allowing anonymous sharing for th
 
 To set the default file and folder sharing link
 1. In the SharePoint admin center, in the left navigation, click **Sharing**.
-2. Under **File and folder links**, select **Only people in your organization**.
+2. Under **File and folder links**, select **Only people in your organization**.</br>
    ![Screenshot of SharePoint default link type setting](media/sharepoint-default-sharing-link-company-link.png)
 3. Click **Save**
 
@@ -47,7 +47,7 @@ Depending on your needs, you can disable Anyone links for specific sites, or for
 
 To turn off Anyone links for your organization
 1. In the SharePoint admin center, in the left navigation, click **Sharing**.
-2. Set the SharePoint external sharing settings to **New and existing guests**.
+2. Set the SharePoint external sharing settings to **New and existing guests**.</br>
    ![Screenshot of SharePoint site external sharing settings](media/sharepoint-organization-external-sharing-controls-new-users.png)
 3. Click **Save**.
 
@@ -55,7 +55,7 @@ To turn off Anyone links for a site
 1. In the SharePoint admin center, in the left navigation, expand **Sites** and click **Active sites**.
 2. Select the site for the team that you just created.
 3. In the ribbon, click **Sharing**.
-4. Ensure that sharing is set to **Anyone** or **New and existing guests**.
+4. Ensure that sharing is set to **Anyone** or **New and existing guests**.</br>
    ![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
 5. If you made changes, click **Save**.
 
@@ -73,7 +73,7 @@ To set up a domain allow or deny list for guest sharing
 1. In the SharePoint admin center, in the left navigation, click **Sharing**.
 2. Under **Advanced settings for external sharing**, select the **Limit external sharing by domain** check box.
 3. Click **Add domains**.
-4. Select whether you want to block domains, type the domains, and click **OK**.
+4. Select whether you want to block domains, type the domains, and click **OK**.</br>
    ![Screenshot of SharePoint limit external sharing by domain setting](media/sharepoint-sharing-block-domain.png)
 5. Click **Save**.
 
