@@ -60,11 +60,7 @@ Read the following sections to learn more about the information provided in the 
     
   - The **URL** (Uniform Resource Locator) is the web address of the current page. 
 
-TEXT GOES
-
-![Page diagnostics](media/pagediag-HAR.PNG)
-
-3. The [**Diagnostic** tab](#how-to-use-the-diagnostic-tab) will list the rules and if any of them are marked with a red ![Cross](media/9859ac84-be43-4eae-984c-e0e827f5a228.png), then there are issues identified on the page.<br/>Each rule has its own "more information" link that you click if an item is red. That will take you to the details behind that rule and how to remediate the issue.<br/>![Diagnostics Red - Rule open](media/pagediag-diagnostictest.png)
+3. The [**Diagnostic tests** tab](#how-to-use-the-diagnostic-tab) will show a red section and a green section and the items in the red section will list the items that require attention. The green section will list items checked that meet thr current requirements.<br/>Each failed check has its own "Learn more" link that will take you to the details behind that rule and how to remediate the issue.<br/>![Page diagnostics](media/pagediag-HAR.PNG)
 
 4. A [**Network trace** tab](#how-to-use-the-network-trace-tab) provides details about page build requests and responses.
 
