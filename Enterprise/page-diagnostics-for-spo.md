@@ -40,7 +40,7 @@ If you are unsure which version you have then please click the "About" link to v
     
 3. Navigate to the SharePoint classic publishing page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the **tool will not stop automatically**. Should you wish to stop collection, you can click **Stop**. (This is by design to cater for all page load scenarios.) Before you click **Stop**, make sure that the network trace data is complete. Otherwise, you will have a partial trace. Additionally, the tool is a Browser Extension, and opening multiple tabs or windows will only allow one active instance of the tool to be run at one time. This is a limitation of extensions in the browser. 
   
-4. Click on the Extension logo ![Page Diagnostics for SharePoint logo](media/60a3e44d-1b59-483f-b50f-d580044d921a.png) to load the tool and you will be presented with the following extension popup window:<br/> ![Page Diagnostics tool Popup](media/b01fa00e-c5f3-4c37-91f2-6edd096cf87e.png)<br/>Start and stop operations follow the basic concept of when you click start the page will reload and collection will begin.
+4. Click on the Extension logo ![Page Diagnostics for SharePoint logo](media/pagediag-icon32.png) to load the tool and you will be presented with the following extension popup window:<br/> ![Page Diagnostics tool Popup](media/pagediag-Landing.png)<br/>Start and stop operations follow the basic concept of when you click start the page will reload and collection will begin.
 
 Read the following sections to learn more about the information provided in the tool.
 
