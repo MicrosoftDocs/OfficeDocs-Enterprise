@@ -23,8 +23,8 @@ This article describes how you can use the Page Diagnostic tool to analyze your 
   
 Team sites that don't have Publishing enabled cannot make use of CDNs but all of the remaining rules are applicable. Publishing adds additional overhead so do not turn on Publishing just to get the CDN functionality as it will negatively impact page load times.
 
-**Please note that V1.05 has been released so please update your extension if you have it installed already**. 
-If you are unsure which version you have then please click the "About" link to verify it.
+**Please note that a new version to include modern site pages has been released so please verify you have the latest version if you have it installed already**. 
+If you are unsure which version you are using then please click the About link or the ellipses (...) to verify your version.
   
 > [!IMPORTANT]
 > The Page Diagnostics tool will not run against document libraries or system pages, as the tool is designed to review SharePoint site pages. An  *allitems.aspx*  page is a system page. If you attempt to run the tool on a system page, you will get a message that reads, "This application should only be run on SharePoint pages." <br/> ![Must run on a SharePoint page](media/pagediag-Error-StartPage.png)<br/>This is not an error in the tool as there is no value in assessing libraries or system pages. Please navigate to a non-system SharePoint page to use the tool. If this occurs on a SharePoint page then please check the MasterPage as we have seen Customers remove the SharePoint MetaTags and then the page is no longer a SharePoint page. Should you wish to give feedback about the tool please click the About tab and follow the ﻿[give feedback link](https://go.microsoft.com/fwlink/?linkid=874109). 
