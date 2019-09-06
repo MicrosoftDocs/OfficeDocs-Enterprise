@@ -254,7 +254,8 @@ To create a sensitive information type-based file policy
 1. In the **Select a filter** list, choose **App**, and then select **Microsoft SharePoint Online** from the **Select apps...** list.
 1. Under **Inspection method**, choose **Data classification service**.
 1. On the **Choose inspection type** list, choose **Sensitive information type**.
-1. Search for and select the *Project Saturn* sensitivity label, and then click **Done**.
+1. Search for and select the *Project Saturn* sensitivity label, and then click **Done**.</br>
+   ![Screenshot of Cloud App Security inspection method settings](media/mcas-sensitive-info-type-project-saturn.png)
 1. Under **Governance**, expand **Microsoft SharePoint Online**.
 1. Select the **Apply classification label** check box and select the **Highly Confidential** label.
 1. Click **Create**.
@@ -270,14 +271,17 @@ To create a label-based file policy
 1. In the **Select a filter** list, choose **App**, and then select **Microsoft SharePoint Online** from the **Select apps...** list.
 1. Click **Add a filter**.
 1. In the **Select a filter** list, choose **Classification label**, and then select **Azure Information Protection** from the **Select filter...** list.
-1. In the **Select classification label** list, select **Highly Confidential**.
+1. In the **Select classification label** list, select **Highly Confidential**.</br>
+   ![Screenshot of Cloud App Security policy filter settings](media/mcas-sharepoint-confidential-label-filter.png)
 1. Under **Governance**, expand **Microsoft SharePoint Online**.
 1. Select the **Send policy-match digest to file owner** and **Remove external users** check boxes.
+1. For the custom notification message, type *This file is highly confidential. Company policy prohibits sharing it with guests*.
 1. Click **Create**.
 
 
 
-## DLP content marking based on label
+
+## Test the solution
 
 
 
