@@ -90,12 +90,14 @@ The **Network Trace** tab provides detailed information about the requests to bu
 - Green: \< 500ms
 - Yellow: 500-1000ms
 - Red: \> 1000ms
-<br/>![Network Trace](media/3cfede99-7d31-4041-888d-7bbc275cadc2.png)<br/> 
+<br/>![Network Trace](media/pagediag-networktrace.png)<br/> 
 In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
 
 2. **Test item load times**. In some cases there will be no time or color indicator because the items have already been cached by the browser. To test this correctly, open the page, clear browser cache, and then click **Start** as that will force a "cold" page load and be a true reflection of the initial page load. This should then be compared to the "warm" page load as that will also help determine what items are being cached on the page. 
     
 3. **Share relevant details with others who can help investigate issues**. To share the details or information provided in the tool with your developers or a technical support person, click **Export to JSON** (as shown in the image above). That will enable you to download the results, viewable with a JSON file viewer.
+
+REPLACE THIS POINT WITH EXTRA DETAILS AND IMAGE. NETWORKTRACEHAR
 
 > [!IMPORTANT]
 > These results contain URLs and that can be classified as PII (Personally Identifiable Information). Make sure to follow your organization's guidelines before distributing that information. 
