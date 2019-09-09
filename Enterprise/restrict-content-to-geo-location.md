@@ -1,5 +1,5 @@
 ---
-title: "Restrict content to a geo location"
+title: "Restrict SharePoint site content to a geo location"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -12,7 +12,7 @@ localization_priority: Priority
 description: "Learn how to restrict SharePoint sites to a specified geo location in a multi-geo environment."
 ---
 
-# Restrict content to a geo location
+# Restrict SharePoint site content to a geo location
 
 Under some circumstances you may choose to enforce a site and its file content to remain in the geo location where the site was created, either by preventing the site from being moved or by preventing the caching of the site's file content in another geo location.
 
