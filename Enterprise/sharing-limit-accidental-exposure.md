@@ -5,7 +5,7 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
+ms.service: sharepoint-online
 localization_priority: Priority
 description: "Learn how to limit accidental exposure of information when sharing files with guests."
 ---
