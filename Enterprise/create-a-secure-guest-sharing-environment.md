@@ -208,12 +208,9 @@ To create a classification label (Highly confidential)
 13. Leave auto labeling **Off** and click **Next**.
 14. Click **Create**.
 
-
 ![Screenshot of sensitivity labels in the Microsoft 365 Compliance Center](media/microsoft-365-sharing-sensitivity-labels.png)
 
-
-
-
+Once you've created the labels, the next step is to publish them. This will make them available to your users.
 
 To publish labels
 1. On the **Sensitivity labels** page, click **Publish labels**.
@@ -222,15 +219,15 @@ To publish labels
 4. Click **Done**.
 5. Click **Next**.
 6. Leave the users and groups set to **All** and click **Next**.
-7. Click **Next**.
+7. In the **Apply this label by default to documents and email** list, choose **General**, and then click **Next**.
 8. On the **Policy settings** page, type *Document sensitivity* for the name, and then click **Next**.
 9. Click **Publish**.
 
-
-
 ## Create a sensitive information type for a highly confidential project
 
+Sensitive information types are predefined strings of information that can be used in policy workflows to enforce compliance requirements. The Microsoft 365 Compliance Center comes with over one hundred sensitive information types, including driver's license numbers, credit card numbers, bank account numbers, etc.
 
+You can create custom sensitive information types to help manage content specific to your organization. In this example, we'll create a custom sensitive information type for a highly confidential project. We can then use this sensitive information type to automatically apply a classification label.
 
 To create a sensitive information type
 1. In the [Microsoft 365 Compliance Center](https://compliance.microsoft.com), in the left navigation, expand **Classification**, and then click **Sensitive info types**.
@@ -244,16 +241,17 @@ To create a sensitive information type
 
 ## Create a policy to assign a label based on a sensitive information type
 
+Once the sensitive information type is created, we can create a file policy in Microsoft Cloud App Security to automatically apply the *Highly Confidential* label to documents that contain the *Project Saturn* string.
 
-
-Time delay as custom label replicated to MCAS
+> [!NOTE]
+> There is a replication process that makes sensitivity labels available in Cloud App Security. You may not see the label available for a policy right away.
 
 To create a sensitive information type-based file policy
 1. Open [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
 2. In the left navigation, expand **Control**, and then click **Policies**.
 3. Click **Create policy**, and then choose **File policy**.
 4. For **Policy name**, type *Project Saturn labeling*.
-5. Under **Create a filter for the files this policy will act on**, click X twice to delete the default 6ilters.
+5. Under **Create a filter for the files this policy will act on**, click X twice to delete the default filters.
 7. In the **Select a filter** list, choose **App**, and then select **Microsoft SharePoint Online** from the **Select apps...** list.
 8. Under **Inspection method**, choose **Data classification service**.
 9. On the **Choose inspection type** list, choose **Sensitive information type**.
@@ -263,11 +261,13 @@ To create a sensitive information type-based file policy
 12. Select the **Apply classification label** check box and select the **Highly Confidential** label.
 13. Click **Create**.
 
-
-
+With the policy in place, when a user types "Project Saturn" into a document, Cloud App Security will automatically apply the *Highly Confidential* label when it scans the file.
 
 ## Create a policy to remove guest access to highly confidential files
 
+In this example, files with the *Highly Confidential* label should not be shared with guests. We can create a file policy in Cloud App Security that automatically removes guest access from files with that label.
+
+Note that this does not prevent users from sharing or re-sharing these files. You are still reliant on your users to follow your governance policies for files that are stored in sites that allow guest sharing. However, this can be a useful mechanism for removing guest access from files that had confidential information added to them after they were shared with guests.
 
 To create a label-based file policy
 1. Open [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
@@ -285,15 +285,15 @@ To create a label-based file policy
 12. For the custom notification message, type *This file is highly confidential. Company policy prohibits sharing it with guests*.
 13. Click **Create**.
 
-
-
+It's important to note, that this policy removes access for files shared using a *Specific people* link. It does not remove access from anonymous (*Anyone*) links. It also does not remove access if the guest is a member of the site or team as a whole. If you plan to have highly confidential documents in a site or team with guest members, consider using [private channels in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) and only allowing members of your organization in the private channels.
 
 ## Test the solution
 
+To test the solution described in this article, create a Word document and save it to a document library. Share the file with a guest user. When the guest attempts to access the document, they should be required to enroll in multi-factor authentication, and then accept the terms of use.
 
+Once the guest has access to the document, type **Project Saturn** in the document and save it. Once Cloud App Security scans the document, the *Highly Confidential* label should be applied and the guest user should no longer have access to it.
 
-
+You can use the tools described in this article in various combinations to help create a productive but safe guest sharing environment for your organization.
 
 ## See Also
 
-SharingSecurity
