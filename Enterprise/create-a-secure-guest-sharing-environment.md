@@ -12,25 +12,27 @@ description: "Learn how to create a secure guest sharing environment in Microsof
 
 # Create a secure guest sharing environment
 
+In this article, we'll walk through a variety of options for creating a secure guest sharing environment in Microsoft 365. This includes:
 
+- Setting up multi-factor authentication for guests.
+- Setting up a terms of use for guests.
+- Setting up quarterly guest access reviews to periodically validate whether guests continue to need permissions to teams and sites.
+- Restricting guests to web-only access for unmanaged devices.
+- Configuring a session timeout policy to ensure guests authenticate daily.
+- Creating and publishing sensitivity labels to classify content.
+- Creating a sensitive information type for a highly confidential project.
+- Automatically assigning a *highly confidential* label to documents that contain the sensitive information type.
+- Automatically removing guest access from files labeled as *highly confidential*.
 
+This is an example scenario to give you an idea of the options available. You can use these procedures in different combinations to meet the security and compliance needs of your organization.
 
-- Set up multi-factor authentication for guests.
-- Set up a terms of use for guests.
-- Set up quarterly guest access reviews to periodically validate whether guests continue to need permissions to teams and sites.
-- Restrict guests to web-only access for unmanaged devices.
-- Configure a session timeout policy to ensure guests authenticate daily.
-- Create and publish sensitivity labels to classify content.
-- Create a sensitive information type for a highly confidential project.
-- Use Cloud App Security to assign a *highly confidential* label to documents that contain the sensitive information type.
-- Use Cloud App Security to remove guest access from files labeled as *highly confidential*.
-
+Note that we won't discuss enabling guest sharing settings in this article. See [Collaborating with people outside your organization](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization) for details about enabling guest sharing for different scenarios.
 
 ## Set up multi-factor authentication for guests
 
 Multi-factor authentication greatly reduces the chances of an account being compromised. Since guest users may be using personal email accounts that don't adhere to any governance policies or best practices, it is especially important to require multi-factor authentication for guests. If a guest user's username and password is stolen, requiring a second factor of authentication greatly reduces the chances of unknown parties gaining access to your sites and files.
 
-In this example, we'll set up multi-factor authentication for guests by using a conditional access policy in Azure AD.
+In this example, we'll set up multi-factor authentication for guests by using a conditional access policy in Azure Active Directory.
 
 To set up multi-factor authentication for guests
 1. In Microsoft Azure, search for *Conditional access*.
@@ -42,13 +44,15 @@ To set up multi-factor authentication for guests
 5. On the **Grant** blade, select the **Require multi-factor authentication** check box, and then click **Select**.
 6. On the **New** blade, under **Enable policy**, click **On**, and then click **Create**.
 
+Now, guest will be required to enrol in multi-factor authentication before they can access shared content, sites, or teams.
+
 ### More information
 
 [Planning a cloud-based Azure Multi-Factor Authentication deployment](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
 
 ## Set up a terms of use for guests
 
-Often times guest users may not have signed non-disclosure agreements or other legal agreements with your organization. You can require guests to agree to a terms of use before accessing files that are shared with them. The terms of use can be displayed the first time the attempt to access a shared file or site.
+Often times guest users may not have signed non-disclosure agreements or other legal agreements with your organization. You can require guests to agree to a terms of use before accessing files that are shared with them. The terms of use can be displayed the first time they attempt to access a shared file or site.
 
 To create a terms of use, you first need to create the document in Word or another authoring program, and then save it as a .pdf file. This file can then be uploaded to Azure AD.
 
@@ -57,8 +61,7 @@ To create an Azure AD terms of use
 2. Navigate to [Terms of use](https://aka.ms/catou).
 3. Click **New terms**.</br>
    ![Screenshot of Azure AD new terms of use settings](media/azure-ad-guest-terms-of-use.png)
-4. In the Name box, type *Guest terms of use*.
-5. In the Display name box, type *Contoso guest terms of use*.
+4. In the **Name** and **Display name** boxes, type *Guest terms of use*.
 6. For **Terms of use document**, browse to the pdf file that you created and select it.
 7. Select the language for your terms of use document.
 8. Set **Require users to expand the terms of use** to **On**.
@@ -81,6 +84,8 @@ To create a conditional access policy
 11. On the **Grant** blade, select **Guest terms of use**, and then click **Select**.
 12. On the **New** blade, under **Enable policy**, click **On**, and then click **Create**.
 
+Now, the first time a guest user attempts to access content or a team or site in your organization, they will be required to accept the terms of use.
+
 ### More information
 [Azure Active Directory terms of use](https://docs.microsoft.com/azure/active-directory/conditional-access/terms-of-use)
 
@@ -88,7 +93,7 @@ To create a conditional access policy
 
 With access reviews in Azure AD, you can automate a periodic review of user access to various teams and groups. By requiring an access review for guests specifically, you can help ensure that guest users do not retain access to your organization's sensitive information for longer than is necessary.
 
-Access reviews can be organized into programs. A program is a grouping of similar access reviews that can be used to organize reviews for reporting and auditing purposes.
+Access reviews can be organized into programs. A program is a grouping of similar access reviews that can be used to organize access reviews for reporting and auditing purposes.
 
 In this example, we'll create a program for guest access reviews.
 
@@ -126,7 +131,7 @@ It's important to note that guests can be given access to teams or groups, or to
 
 ## Set up web-only access for guest users
 
-You can reduce your management surface area by requiring guest users to access your teams, sites, and files by using a web browser. This is done with an Azure AD conditional access policy.
+You can reduce your attack surface and ease administration by requiring guest users to access your teams, sites, and files by using a web browser only. This is done with an Azure AD conditional access policy.
 
 To restrict guests to web-ony access
 1. In Microsoft Azure, search for *Conditional access*.
@@ -150,9 +155,9 @@ To restrict guests to web-ony access
 
 ## Configure a session timeout for guest users
 
-Requiring guests to authenticate on a regular basis can reduce the possibility of unknown users accessing your organization's content if a guest's device is not kept secure. You can configure a session timeout conditional access policy for guest users in Azure AD.
+Requiring guests to authenticate on a regular basis can reduce the possibility of unknown users accessing your organization's content if a guest user's device is not kept secure. You can configure a session timeout conditional access policy for guest users in Azure AD.
 
-To configure guest session timeout
+To configure a guest session timeout policy
 1. In Microsoft Azure, search for *Conditional access*.
 2. On the **Conditional Access - Policies** blade, click **New policy**.
 3. In the **Name** box, type *Guest session timeout*.
@@ -171,13 +176,13 @@ To configure guest session timeout
 
 Sensitivity labels can be used in a variety of ways to classify and protect your organization's information. In this example, we'll look at how labels can be used to help you manage guest access to shared files and folders.
 
-First, we'll create three sensitivity labels in the Security and Compliance Center:
+First, we'll create three sensitivity labels in the Microsoft 365 Compliance Center:
 
 - General
 - Confidential
 - Highly Confidential
 
-Use the following procedure to create the **General** and **Confidential** labels.
+Use the following procedure to create the *General* and *Confidential* labels.
 
 To create a classification label (General and Confidential)
 1. In the [Microsoft 365 Compliance Center](https://compliance.microsoft.com), in the left navigation, expand **Classification**, and then click **Sensitivity labels**.
@@ -190,7 +195,7 @@ To create a classification label (General and Confidential)
 8. Leave auto labeling **Off** and click **Next**.
 9. Click **Create**.
 
-With the *Highly Confidential* label, we'll add some additional controls.
+With the *Highly Confidential* label, we'll add automatic watermarking of documents with the label.
 
 To create a classification label (Highly confidential)
 1. Click **Create a label**.
@@ -210,7 +215,7 @@ To create a classification label (Highly confidential)
 
 ![Screenshot of sensitivity labels in the Microsoft 365 Compliance Center](media/microsoft-365-sharing-sensitivity-labels.png)
 
-Once you've created the labels, the next step is to publish them. This will make them available to your users.
+Once you've created the labels, the next step is to publish them. 
 
 To publish labels
 1. On the **Sensitivity labels** page, click **Publish labels**.
@@ -223,9 +228,14 @@ To publish labels
 8. On the **Policy settings** page, type *Document sensitivity* for the name, and then click **Next**.
 9. Click **Publish**.
 
+With the labels published, they are available to users of Office desktop apps. When users apply the **Highly Confidential** label, a watermark is automatically added to the document.
+
+### More information
+[Overview of sensitivity labels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
+
 ## Create a sensitive information type for a highly confidential project
 
-Sensitive information types are predefined strings of information that can be used in policy workflows to enforce compliance requirements. The Microsoft 365 Compliance Center comes with over one hundred sensitive information types, including driver's license numbers, credit card numbers, bank account numbers, etc.
+Sensitive information types are predefined strings that can be used in policy workflows to enforce compliance requirements. The Microsoft 365 Compliance Center comes with over one hundred sensitive information types, including driver's license numbers, credit card numbers, bank account numbers, etc.
 
 You can create custom sensitive information types to help manage content specific to your organization. In this example, we'll create a custom sensitive information type for a highly confidential project. We can then use this sensitive information type to automatically apply a classification label.
 
@@ -234,10 +244,12 @@ To create a sensitive information type
 2. Click **Create**.
 3. For **Name** and **Description**, type **Project Saturn**, and then click **Next**.
 4. Click **Add an element**.
-5. On the **Detect content containing** list, select **Keywords**, and then enter *Project Saturn* in the keyword box.
+5. On the **Detect content containing** list, select **Keywords**, and then type *Project Saturn* in the keyword box.
 6. Click **Next**, and then click **Finish**.
 7. If asked if you would like to test the sensitive information type, click **No**.
 
+### More information
+[Custom sensitive information types](https://docs.microsoft.com/Office365/SecurityCompliance/custom-sensitive-info-types)
 
 ## Create a policy to assign a label based on a sensitive information type
 
@@ -263,9 +275,12 @@ To create a sensitive information type-based file policy
 
 With the policy in place, when a user types "Project Saturn" into a document, Cloud App Security will automatically apply the *Highly Confidential* label when it scans the file.
 
+### More information
+[File policies](https://docs.microsoft.com/cloud-app-security/data-protection-policies)
+
 ## Create a policy to remove guest access to highly confidential files
 
-In this example, files with the *Highly Confidential* label should not be shared with guests. We can create a file policy in Cloud App Security that automatically removes guest access from files with that label.
+In the example in this article, files with the *Highly Confidential* label should not be shared with guests. We can create a file policy in Cloud App Security that automatically removes guest access from files with that label.
 
 Note that this does not prevent users from sharing or re-sharing these files. You are still reliant on your users to follow your governance policies for files that are stored in sites that allow guest sharing. However, this can be a useful mechanism for removing guest access from files that had confidential information added to them after they were shared with guests.
 
@@ -291,9 +306,11 @@ It's important to note, that this policy removes access for files shared using a
 
 To test the solution described in this article, create a Word document and save it to a document library. Share the file with a guest user. When the guest attempts to access the document, they should be required to enroll in multi-factor authentication, and then accept the terms of use.
 
-Once the guest has access to the document, type **Project Saturn** in the document and save it. Once Cloud App Security scans the document, the *Highly Confidential* label should be applied and the guest user should no longer have access to it.
+Once the guest has access to the document, type *Project Saturn* in the document and save it. Once Cloud App Security scans the document, the *Highly Confidential* label should be applied and the guest user should no longer have access to it.
 
 You can use the tools described in this article in various combinations to help create a productive but safe guest sharing environment for your organization.
 
 ## See Also
+[Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
+[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
