@@ -25,22 +25,17 @@ This article describes software boundaries and limits of modern portals in Share
 
 - **Supported limits:** Configurable limits that have been set by default to a tested value
 
-> [!NOTE]
-> The capacity planning information in this document provides guidelines for you to use in your planning. It is based on testing performed at Microsoft, on live properties. However, your results are likely to vary based on the equipment you use and the features and functionality that you implement for your sites.
-
 ## Overview of boundaries and limits
 <a name="Overview"> </a>
 
-This article contains information to help you understand the tested performance and capacity limits of SharePoint Server 2016, and offers guidelines for how limits relate to acceptable performance. Use the information in this article to determine whether your planned deployment falls within acceptable performance and capacity limits, and to appropriately configure limits in your environment.
+This article contains information to help you understand the boundaries and limits of modern portals in SharePoint Online, and offers guidelines for how limits relate to acceptable performance. Use the information in this article to determine whether your planned deployment falls within acceptable guidelines, and to appropriately configure limits in your environment.
   
-The test results and guidelines provided in this article apply to a single SharePoint Server farm. Adding servers to the installation might not increase the capacity limits of the objects that are listed in the tables in the [Limits and boundaries](#Limits) section later in this topic. On the other hand, adding server computers increases the throughput of a server farm, which might be necessary to achieve acceptable performance with many objects. In some cases, the requirements for high numbers of objects in a solution might require more servers in the farm.
-  
-Note that there are many factors that can affect performance in a given environment, and each of these factors can affect performance in different areas. Some of the test results and recommendations in this article might be related to features or user operations that do not exist in your environment, and therefore do not apply to your solution. Only thorough testing can give you exact data related to your own environment.
+Note that there are many factors that can affect performance in a given environment, and each of these factors can affect performance in different areas. Some of the recommendations in this article might be related to features or user operations that do not exist in your environment, and therefore do not apply to your architecture.
   
 ### Boundaries, thresholds and supported limits
 <a name="Boundaries"> </a>
 
-In SharePoint Server, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by the farm administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
+In SharePoint Online, there are certain limits that are by design and cannot be exceeded, and other limits that are set to default values that may be changed by and administrator. There are also certain limits that are not represented by a configurable value, such as the number of site collections per web application.
   
 - Boundaries are absolute limits that cannot be exceeded by design. It is important to understand these limits to ensure that you do not make incorrect assumptions when you design your farm.
 
