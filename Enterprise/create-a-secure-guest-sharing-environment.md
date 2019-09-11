@@ -177,32 +177,40 @@ First, we'll create three sensitivity labels in the Security and Compliance Cent
 - Confidential
 - Highly Confidential
 
+Use the following procedure to create the **General** and **Confidential** labels.
+
 To create a classification label (General and Confidential)
-1. In the [Security and Compliance Center](https://protection.office.com), in the left navigation, expand **Classification**, and then click **Sensitivity labels**.
+1. In the [Microsoft 365 Compliance Center](https://compliance.microsoft.com), in the left navigation, expand **Classification**, and then click **Sensitivity labels**.
 2. Click **Create a label**.
-3. In **Label name**, type *General*.
-4. In **Tooltip**, type *General information that can be shared with employees, guests, and partners*, and then click **Next**.
+3. In **Label name**, type *General* or *Confidential*.
+4. In **Tooltip**, type *General information that can be shared with employees, guests, and partners* or *Confidential information. Share only with employees and authorized guests*, and then click **Next**.
 5. Leave encryption **Off** and click **Next**.
 6. Leave content marking **Off** and click **Next**.
 7. Leave endpoint data loss prevention **Off** and click **Next**.
 8. Leave auto labeling **Off** and click **Next**.
 9. Click **Create**.
 
-Repeat the above procedure to create the *Confidential* label.
-
 With the *Highly Confidential* label, we'll add some additional controls.
 
 To create a classification label (Highly confidential)
 1. Click **Create a label**.
 2. In **Label name**, type *Highly confidential*.
-3. In **Tooltip**, type *Highly confidential information. Share only with employees and authorized guests*, and then click **Next**.
+3. In **Tooltip**, type *Highly confidential information. Do not share with guests*, and then click **Next**.
 4. Leave encryption **Off** and click **Next**.
 5. Turn content marking **On**, select the **Add a header** check box, and then click **Customize text**.
 6. Type *Highly confidential* for the header text and click **Save**.
-7. On the **Content marking** page, click **Next**.
-8. Leave endpoint data loss prevention **Off** and click **Next**.
-9. Leave auto labeling **Off** and click **Next**.
-10. Click **Create**.
+7. On the **Content marking** page, turn content marking **On**.
+8. Select the **Add a watermark** check box, and then click **Customize text**.
+9. For **Watermark text**, type *Highly Confidential*.
+10. Type *24* for **Font size**, and then click **Save**.
+11. On the **Content marking** page, click **Next**.
+12. Leave endpoint data loss prevention **Off** and click **Next**.
+13. Leave auto labeling **Off** and click **Next**.
+14. Click **Create**.
+
+
+![Screenshot of sensitivity labels in the Microsoft 365 Compliance Center](media/microsoft-365-sharing-sensitivity-labels.png)
+
 
 
 
@@ -225,7 +233,7 @@ To publish labels
 
 
 To create a sensitive information type
-1. In the [Security and Compliance Center](https://protection.office.com), in the left navigation, expand **Classification**, and then click **Sensitive info types**.
+1. In the [Microsoft 365 Compliance Center](https://compliance.microsoft.com), in the left navigation, expand **Classification**, and then click **Sensitive info types**.
 2. Click **Create**.
 3. For **Name** and **Description**, type **Project Saturn**, and then click **Next**.
 4. Click **Add an element**.
@@ -236,7 +244,7 @@ To create a sensitive information type
 
 ## Create a policy to assign a label based on a sensitive information type
 
-Check if DLP is adding the watermark
+
 
 Time delay as custom label replicated to MCAS
 
