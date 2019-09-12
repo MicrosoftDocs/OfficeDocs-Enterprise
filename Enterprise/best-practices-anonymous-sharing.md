@@ -14,19 +14,8 @@ description: "Learn best practices for sharing files and folders with anonymous 
 
 Anonymous sharing can be very convenient and is useful in a variety of scenarios. Usually, not all content in an organization is appropriate for anonymous sharing. This article covers the options available to help you create an environment where your users can share files and folders anonymously, but where there are safeguards in place to help protect your organization's content.
 
-## Enable Anyone links
-
-### Enable Anyone links for your organization
-
-To enable Anyone links for your organization
-
-### Enable Anyone links at site level
-
-
-![Screenshot of SharePoint site external sharing settings with Anyone links selected](media/sharepoint-site-external-sharing-settings-anyone.png)
-
-
-
+> [!NOTE]
+> For anonymous sharing to work, you must enable it for your organization and for the individual site or team that you'll be using. See [Collaborating with people outside your organization](collaborating-with-people-outside-your-organization.md) for the scenario that you want to enable.
 
 ## Set an expiration date for Anyone links
 
@@ -55,6 +44,8 @@ To set permissions for anonymous links
 3. Under **Advanced settings for "Anyone" links**, select the file and folder permissions that you want to use.</br>
    ![Screenshot of SharePoint organization-level Anyone link permissions settings](media/sharepoint-organization-anyone-link-permissions.png)
 
+With *Anyone* links set to **View**, users can still share files and folders with guests and give them edit permissions by using *Specific people* links. These links require guests to authenticate, and you can track and audit guest activity on files and folders shared with these links.
+
 ## Set default link type to only work for people in your organization
 
 When *Anyone* sharing is enabled for your organization, the default sharing link is normally set to **Anyone**. While this can be convenient for users, it can increase the risk of unintentional anonymous sharing. If a user forgets to change the link type while sharing a sensitive document, they might accidentally create a sharing link that doesn't require authentication.
@@ -67,9 +58,6 @@ To set the default file and folder sharing link
    ![Screenshot of SharePoint default link type setting](media/sharepoint-default-sharing-link-company-link.png)
 3. Click **Save**
 
-
-
-
 ## Protect against malicious files
 
 When you allow anonymous users to upload files, you're at an increased risk of someone uploading a malicious file. In Microsoft 365, you can use the *safe attachments* feature in Advanced Threat Protection to automatically scan uploaded files and quarantine files that are found to be unsafe.
@@ -81,12 +69,26 @@ To turn on safe attachments
 4. Select the **Turn on ATP for SharePoint, OneDrive, and Microsoft Teams** check box, and then click **Save**.</br>
    ![Screenshot of the safe attachments setting in the Security and Compliance center](media/safe-attachments-setting.png)
 
-## Label-added document footer
+## Add copyright information to your files
 
+If you use sensitivity labels in the Microsoft 365 Compliance admin center, you can configure your labels to automatically add a watermark or a header or footer to your organization's Office documents. In this way, you can make sure that shared files contain copyright or other ownership information.
 
+To add a footer to a labeled file
+1. Open the [Microsoft 365 compliance admin center](https://compliance.microsoft.com).
+2. In the left navigation, under **Classification**, click **Sensitivity labels**.
+3. Click the label that you want to have add a footer, and then click **Edit label**.
+4. Click the **Content marking** tab, and then turn **On** content marking.
+5. Select the check box for the type of text you want to add, and then click **Customize text**.
+6. Type the text that you want added to your documents, select the text options that you want, and then click **Save**.</br>
+   ![Screenshot of the content marking settings for a sensitivity label](media/content-marking-for-anonymous-sharing.png)
+7. Click **Save**, and then click **Close**.
 
-
+With content marking enabled for the label, the text you specified will be added to Office documents when a user applies that label.
 
 ## See Also
 
-SharingSecurity
+[Overview of sensitivity labels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
+
+[Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
+
+[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
