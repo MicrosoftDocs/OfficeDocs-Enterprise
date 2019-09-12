@@ -35,7 +35,7 @@ The Page Diagnostic Tool is a browser extension for Chrome and the new [Edge Chr
 
 When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about external calls in the **Requests to SharePoint** line of the _Diagnostic tests_ view of the results pane. The line will appear in green if the portal page meets the baseline standard of **20 calls per page**, and red if the page exceeds the baseline number of calls.
 
-![Page Diagnostic Tool results](media/modern-service-request-optimization/pagediag-requests.png)
+![Page Diagnostic Tool results](media/modern-service-request-optimization/pagediag-results.png)
 
 If the line is red, you can click the **Requests to Sharepoint** line for details, including the total number of calls on the page and a list of the URLs.
 
@@ -44,6 +44,8 @@ If the line is red, you can click the **Requests to Sharepoint** line for detail
 ## Reduce the number of calls on a page
 
 If a page contains too many calls, you can use the **Requests to Sharepoint** results in the Page Diagnostic Tool to determine whether there are any unnecessary calls and revise the page to omit them. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+
+![Page load time results](media/modern-service-request-optimization/pagediag-page-load-time.png)
 
 >[!NOTE]
 >Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
