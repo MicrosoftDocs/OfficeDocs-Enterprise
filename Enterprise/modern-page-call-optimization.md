@@ -27,7 +27,7 @@ When a portal page is rendered in a client browser, multiple calls are made from
 This article will help you understand how to determine the number and impact of external calls in your modern portal pages and how to limit their effect on user perceived latency.
 
 >[!NOTE]
->For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](modern-experience-performance.md).
+>For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance.md).
 
 ## Use the Page Diagnostic Tool to analyze page calls
 
@@ -55,3 +55,5 @@ If a page contains too many calls, you can use the **Requests to Sharepoint** re
 [Tune Office 365 performance](tune-office-365-performance.md)
 
 [Content delivery networks](content-delivery-networks.md)
+
+[Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance.md)
