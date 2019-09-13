@@ -68,7 +68,7 @@ Select **Start** to begin collecting data for analysis.
    - **Page load time** is the total time recorded by the page from the time of the request to the time the response was received and rendered in the browser. This value is affected by a variety of factors including network latency, the performance of the computer and the time it takes for the browser to load the page.
    - The **Page URL** (Uniform Resource Locator) is the web address of the current page.
 
-1. The [**Diagnostic tests**](#how-to-use-the-diagnostic-tab) tab displays the analysis results in two categories, **Attention required** and **No action required**. Each test result is represented by a line in one of these two categories. Results under **No action required** appear in green and indicate that the result falls within the test's baseline value, while results under **Attention required** are shown in red and indicate that the tested value falls outside the baseline value and could be contributing to performance issues for the page.
+1. The [**Diagnostic tests**](#how-to-use-the-diagnostic-tests-tab) tab displays the analysis results in two categories, **Attention required** and **No action required**. Each test result is represented by a line in one of these two categories. Results under **No action required** appear in green and indicate that the result falls within the test's baseline value, while results under **Attention required** are shown in red and indicate that the tested value falls outside the baseline value and could be contributing to performance issues for the page.
 
     Each failed check has its own "Learn more" link that will take you to the details behind that rule and how to remediate the issue.
 
