@@ -28,8 +28,7 @@ The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge v
 >[!NOTE]
 >Team sites that don't have the publishing feature enabled cannot make use of CDNs, but all of the remaining rules are applicable. The publishing feature adds additional overhead and can increase page load times, so it should not be enabled just to allow CDN functionality.
 
-> [!IMPORTANT]
-> The Page Diagnostics tool is designed to review SharePoint site pages and not system pages like *allitems.aspx* or *sharepoint.aspx* page. If you attempt to run the tool on a system page, you will receive an error message advising that it cannot be run for that type of page.<br/> ![Must run on a SharePoint page](media/pagediag-Error-StartPage.png)<br/>This is not an error in the tool as there is no value in assessing libraries or system pages. Please navigate to a SharePoint site page to use the tool. If this error occurs on a SharePoint page, please check the master page to ensure that the SharePoint metatags have not been removed.
+The Page Diagnostics tool is designed to review SharePoint site pages and not system pages like *allitems.aspx* or *sharepoint.aspx* page. If you attempt to run the tool on a system page, you will receive an error message advising that it cannot be run for that type of page.<br/> ![Must run on a SharePoint page](media/pagediag-Error-StartPage.png)<br/>This is not an error in the tool as there is no value in assessing libraries or system pages. Please navigate to a SharePoint site page to use the tool. If this error occurs on a SharePoint page, please check the master page to ensure that the SharePoint metatags have not been removed.
 
 To provide feedback about the tool, select the [give feedback link](https://go.microsoft.com/fwlink/?linkid=874109) in the **About** tab.
   
