@@ -12,7 +12,7 @@ description: "Learn best practices for sharing files and folders with anonymous 
 
 # Best practices for sharing files and folders with anonymous users
 
-Anonymous sharing can be very convenient and is useful in a variety of scenarios. Usually, not all content in an organization is appropriate for anonymous sharing. This article covers the options available to help you create an environment where your users can share files and folders anonymously, but where there are safeguards in place to help protect your organization's content.
+Anonymous sharing (*Anyone* links) can be very convenient and is useful in a variety of scenarios. Usually, not all content in an organization is appropriate for anonymous sharing. This article covers the options available to help you create an environment where your users can share files and folders anonymously, but where there are safeguards in place to help protect your organization's content.
 
 > [!NOTE]
 > For anonymous sharing to work, you must enable it for your organization and for the individual site or team that you'll be using. See [Collaborating with people outside your organization](collaborating-with-people-outside-your-organization.md) for the scenario that you want to enable.

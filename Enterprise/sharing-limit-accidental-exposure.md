@@ -14,27 +14,9 @@ description: "Learn how to limit accidental exposure of information when sharing
 
 When sharing files and folders with guests, there are a variety of options to reduce the chances of accidentally sharing confidential information. You can choose from the options in this article to best meet the needs of your organization.
 
-## Set Anyone link permissions to View
+## Use best practices for Anyone links
 
-If people in your organization need to do anonymous sharing, but you're concerned about unauthenticated guests modifying content, you can set the permissions for Anyone links to View. This will prevent unauthenticated users from modifying content in your organization.
-
-To set the default Anyone link permissions
-1. In the SharePoint admin center, in the left navigation, click **Sharing**.
-2. Under **Advanced settings for Anyone links**, select **View** for **Files** and **Folders**.</br>
-   ![Screenshot of SharePoint Anyone link settings set to View](media/sharepoint-organization-anyone-link-permissions-view.png)
-3. Click **Save**.
-
-## Set default link type to only work for people in your organization
-
-If you have *Anyone* sharing enabled for your organization, the default sharing link is normally set to Anyone. While this can be convenient if you have users who do a lot of anonymous sharing, it can increase the risk of unintentional anonymous sharing. If a user forgets to change the link type while sharing a sensitive document, they might accidentally create a sharing link that doesn't require authentication.
-
-An easy way to mitigate this risk, while still allowing anonymous sharing for those who need it, is to change the default link setting to a link that only works for people inside your organization. Users who want to share anonymously would then have to specifically select that option.
-
-To set the default file and folder sharing link
-1. In the SharePoint admin center, in the left navigation, click **Sharing**.
-2. Under **File and folder links**, select **Only people in your organization**.</br>
-   ![Screenshot of SharePoint default link type setting](media/sharepoint-default-sharing-link-company-link.png)
-3. Click **Save**
+If people in your organization need to do anonymous sharing, but you're concerned about unauthenticated guests modifying content, read [Best practices for anonymous sharing](best-practices-anonymous-sharing.md) for guidance on how to work with anonymous sharing in your organization.
 
 ## Turn off Anyone links
 
