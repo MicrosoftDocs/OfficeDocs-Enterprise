@@ -31,18 +31,16 @@ This article will help you understand how to reduce page weight in your modern p
 
 The Page Diagnostic Tool is a browser extension for Chrome and the new [Edge Chromium](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about page in the **Page weight <> 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value. The baseline value is the same for modern and classic pages.
-
-![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-results.png)
+When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about page in the **Page weight under 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value. The baseline value is the same for modern and classic pages.
 
 Possible results include:
 
 - **No attention required (green)**: Page weight is under 500KB
 - **Attention required (red)**: Page weight exceeds 500KB
 
-If the **Page weight over 500KB** result appears in the **Attention required** section, you can click the result for details.
+If the **Page weight under 500KB** result appears in the **Attention required** section, you can click the result for details.
 
-![Requests to SharePoint results](media/modern-portal-optimization/pagediag-requests.png)
+![Requests to SharePoint results](media/modern-portal-optimization/pagediag-page-weight.png)
 
 ## Reduce page weight
 
