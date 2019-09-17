@@ -19,3 +19,57 @@ description: "Learn how to optimize page weight in SharePoint Online modern port
 ---
 
 # Optimize page weight in SharePoint Online modern portal and classic publishing site pages
+
+Both SharePoint Online modern portal pages and classic publishing sites contain serialized code that is required to render page content of the page, including images, text, objects in the content area underneath navigation/command bars and other HTML code that forms the framework of the page. Page weight is a measurement of this HTML code, and should be limited to ensure optimal page load times.
+
+This article will help you understand how to reduce page weight in your modern portal and classic publishing site pages.
+
+>[!NOTE]
+>For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
+
+## Use the Page Diagnostic Tool to analyze page weight
+
+The Page Diagnostic Tool is a browser extension for Chrome and the new [Edge Chromium](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+
+When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about page in the **Page weight <> 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value. The baseline value is the same for modern and classic pages.
+
+![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-results.png)
+
+Possible results include:
+
+- **No attention required (green)**: Page weight is under 500KB
+- **Attention required (red)**: Page weight exceeds 500KB
+
+If the **Page weight over 500KB** result appears in the **Attention required** section, you can click the result for details.
+
+![Requests to SharePoint results](media/modern-portal-optimization/pagediag-requests.png)
+
+## Reduce page weight
+
+If page weight exceeds 500KB, you can improve overall page load time by reducing the relevant page content. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+
+![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
+
+General guidance for reducing page weight includes:
+
+- Limit the page content to a reasonable amount and use multiple pages for related content.
+- Minimize the use of web parts that have large property bags.
+- Use non-interactive rollup views when possible.
+- Optimize image sizes by sizing images appropriately and using compressed image formats.
+
+You can find additional guidance for limiting page weight in the following article:
+
+- [Optimize page performance in SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
+
+## Related topics
+
+[Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
+
+[Tune Office 365 performance](tune-office-365-performance.md)
+
+[Content delivery networks](content-delivery-networks.md)
+
+[Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance.md)
