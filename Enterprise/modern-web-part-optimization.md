@@ -55,23 +55,23 @@ If a page contains any web parts that take longer than 2 seconds to load, you ca
 There are three categories of possible causes for poor web part performance. Use the information below to determine which issues apply to your scenario.
 
 - Web part script size and dependencies
-    - Optimize initial script downloaded necessary to render the mainline scenario for view mode only
-    - Move the less frequent scenarios and edit mode code (like property pane) to separate chunks using import() statement
-    - Review dependencies of the package.json to remove any dead code completely. Move any test/build only dependencies to devDependencies
-    - CDN is required for optimal static resource download. Public is preferable for js/css
-    - Reuse frameworks like React and Fabric imports that come as part of spfx
-    - Use the latest version of the spfx framework and upgrade as the new ones come out
+  - Optimize the initial script that renders the mainline scenario for _view mode only_
+  - Move the less frequent scenarios and edit mode code (like property pane) to separate chunks using import() statement
+  - Review dependencies of the package.json to remove any dead code completely. Move any test/build only dependencies to devDependencies
+  - CDN is required for optimal static resource download. Public is preferable for js/css
+  - Reuse frameworks like React and Fabric imports that come as part of spfx
+  - Use the latest version of the spfx framework and upgrade as the new ones come out
 - Data fetching/caching
-    - If the webpart relies on extra server calls to fetch data for display, ensure those server APIs are fast and/or implement client side caching (such as using localStorage or IndexDB for larger sets). 
-    - If multiple calls are required to render the critical data consider batching on the server or other ways of minimizing down to a single call. 
-    - Alternatively, if some elements of data require a slower API, but it's not critical to initial rendering - decouple that to a separate call that happens after critical data is rendered
-    - If multiple parts use the same data, utilize a common data layer to avoid duplicate calls
+  - If the webpart relies on extra server calls to fetch data for display, ensure those server APIs are fast and/or implement client side caching (such as using localStorage or IndexDB for larger sets). 
+  - If multiple calls are required to render the critical data consider batching on the server or other ways of minimizing down to a single call. 
+  - Alternatively, if some elements of data require a slower API, but it's not critical to initial rendering - decouple that to a separate call that happens after critical data is rendered
+  - If multiple parts use the same data, utilize a common data layer to avoid duplicate calls
 - Rendering time
-    - Any media sources like images / videos should be sized to the container / device / network limitation to avoid downloading unnecessary large assets. See CDN for content dependencies
-    - When rendering does occur, avoid API calls that cause re-flow, complex CSS rules or overdone animations. See more in https://developers.google.com/speed/docs/insights/browser-reflow
-    - Avoid usage of chained long running tasks - instead break them apart into separate queues. See more at https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution
-    - Reserve corresponding space for asynchronously rendering media or  elements to avoid jank
-    - If browser doesn't support a feature used in rendering check for that right away to either load a polyfill or exclude running dependent code if not critical
+  - Any media sources like images / videos should be sized to the container / device / network limitation to avoid downloading unnecessary large assets. See CDN for content dependencies
+  - When rendering does occur, avoid API calls that cause re-flow, complex CSS rules or overdone animations. See more in <https://developers.google.com/speed/docs/insights/browser-reflow>
+  - Avoid usage of chained long running tasks - instead break them apart into separate queues. See more at <https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution>
+  - Reserve corresponding space for asynchronously rendering media or elements to avoid jank
+  - If browser doesn't support a feature used in rendering check for that right away to either load a polyfill or exclude running dependent code if not critical
 dispose resources such as event handlers to avoid leaking memory
 
 ## Related topics
