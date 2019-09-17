@@ -45,7 +45,7 @@ If the **Web parts using Iframes detected** result appears in either the **Impro
 
 ## Remediate iFrame performance issues
 
-If a page contains any web parts that use iFrames, you can use the **Web parts using Iframes detected** result in the Page Diagnostic Tool to determine which web parts contain iFrames and may be contributing to slow page load times. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+If a page contains any web parts that use iFrames, you can use the **Web parts using iFrames detected** result in the Page Diagnostic Tool to determine which web parts contain iFrames and may be contributing to slow page load times. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
