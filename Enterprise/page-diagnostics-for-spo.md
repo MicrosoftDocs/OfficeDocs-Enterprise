@@ -79,9 +79,9 @@ Select **Start** to begin collecting data for analysis.
 
     |Category  |Color  |Description  |
     |---------|---------|---------|
-    |**No action required** |Green |Test result falls within the test's baseline value.|
-    |**Improvement opportunities** |Yellow |Test result falls outside the baseline value and could be contributing to performance issues. Test-specific criteria may apply.|
     |**Attention required** |Red |Test result falls outside the baseline value and is affecting page performance. Follow remediation guidance.|
+    |**Improvement opportunities** |Yellow |Test result falls outside the baseline value and could be contributing to performance issues. Test-specific criteria may apply.|
+    |**No action required** |Green |Test result falls within the test's baseline value.|
 
     ![Page diagnostics](media/pagediag-results-general.PNG)
 
