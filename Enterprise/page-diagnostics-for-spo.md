@@ -3,7 +3,7 @@ title: "Use the Page Diagnostic Tool for SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/11/2019
+ms.date: 9/17/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
