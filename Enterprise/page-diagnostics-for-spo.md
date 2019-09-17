@@ -83,8 +83,6 @@ Select **Start** to begin collecting data for analysis.
     |**Improvement opportunities** |Yellow |Test result falls outside the baseline value and could be contributing to performance issues. Test-specific criteria may apply.|
     |**Attention required** |Red |Test result falls outside the baseline value and is affecting page performance. Follow remediation guidance.|
 
-    Each failed check has its own "Learn more" link that will take you to the details behind that rule and how to remediate the issue.
-
     ![Page diagnostics](media/pagediag-results-general.PNG)
 
 1. A [**Network trace**](#how-to-use-the-network-trace-tab) tab provides details about page build requests and responses.
