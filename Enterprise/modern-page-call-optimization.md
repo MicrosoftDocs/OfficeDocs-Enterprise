@@ -3,7 +3,7 @@ title: "Optimize page calls in SharePoint Online modern portal and classic publi
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/11/2019
+ms.date: 9/17/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
