@@ -680,6 +680,8 @@ You cannot test CDN URLs directly in a web browser because you must have a refer
 
 For more information on using the developer tools in the Microsoft Edge browser, see [Microsoft Edge Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
 
+For a video hosted in the [Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos) regarding CDNs and verifying they are working, please see [Verifying your CDN usage and ensuring optimal network connectivity](https://www.youtube.com/watch?v=ClCtBAtGjE8&list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA&index=5)
+
 ### Why are assets from a new origin unavailable?
 Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded from the origin to CDN storage. The time required for assets to be available in the CDN depends on how many assets and the files sizes.
 
