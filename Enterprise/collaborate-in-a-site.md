@@ -5,8 +5,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-localization_priority: Priority
+ms.service: sharepoint-online
+localization_priority: Normal
 description: "Learn how to collaborate with guests in a SharePoint site."
 ---
 
@@ -67,28 +67,6 @@ To set SharePoint organization level sharing settings
 2. In the SharePoint admin center, in the left navigation, click **Sharing**.
 3. Ensure that external sharing for SharePoint is set to **Anyone** or **New and existing guests**.
 4. If you made changes, click **Save**.
-
-
-## SharePoint organization level default link settings
-
-The default file and folder link settings determine which link option is shown to the user by default when they share a file or folder. Users can change the link type to one of the other options before sharing if desired.
-
-Keep in mind that this setting affects all teams and SharePoint sites in your organization.
-
-Choose the type of link that's selected by default when users share files and folders:
-
-- **Anyone with the link** - Choose this option if you expect to share a lot of files and folders with anonymous users. If you want to allow *Anyone* links but are concerned about accidental anonymous sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
-- **Only people in your organization** - Choose this option if you expect most file and folder sharing to be with people inside your organization.
-- **Specific people** - Consider this option if you expect to do a lot of file and folder sharing with guests. This type of link works with guests and requires them to authenticate.
- 
-![Screenshot of SharePoint organization-level files and folders sharing settings](media/sharepoint-organization-files-folders-sharing-settings.png)
-
-
-To set the SharePoint organization level default link settings
-
-1. Navigate to the Sharing page in the SharePoint admin center.
-2. Under **File and folder links**, select the default sharing link that you want to use.
-3. If you made changes, click **Save**.
 
 ## Create a site
 

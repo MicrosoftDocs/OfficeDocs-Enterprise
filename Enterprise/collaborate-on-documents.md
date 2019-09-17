@@ -5,8 +5,8 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: o365-solutions
-localization_priority: Priority
+ms.service: sharepoint-online
+localization_priority: Normal
 description: "Learn how to collaborate with guests on a document in SharePoint and OneDrive."
 ---
 
