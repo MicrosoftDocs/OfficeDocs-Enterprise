@@ -1,5 +1,5 @@
 ---
-title: "Optimize web part performance in SharePoint Online modern portal and classic publishing site pages"
+title: "Optimize web part performance in SharePoint Online modern portal site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -33,17 +33,28 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 
 Possible results include:
 
-- **Attention required** (red): At least one _custom_ web part takes longer than **2** seconds to return data
-- **Improvement opportunities** (yellow): At least one _OOTB_ web part takes longer than **2** seconds to return data
-- **No action required** (green): No web part takes longer than **2** seconds to return data
+- **Attention required (red)**: Any _custom_ web part that takes longer than **2** seconds to load. This includes the render time and the information provided in the tool is broken down into multiple parts as shown below.
+- **Improvement opportunities (yellow)**: Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Any Microsoft web parts shown in this section are automatically reported to Microsoft, so no action is required. A future Page Diagnostics tool update will further break down the results based on the configuration of the Microsoft web part. If however you are experiencing very slow performance on the page and all Microsoft web parts on the page show in this section, then please log a support ticket for the issue to be investigated.
+- **No attention required (green)**: No web part is taking longer than **2** seconds to return data.
 
 If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
+Future updates to the Page Dagnostics for SharePoint Tool will assess and re-evaluate these rules so please ensure to always have the latest update of the tool.
 
 ![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-web-part.png)
 
+- **Made by** shows whether it is a custom or Microsoft OOTB web part
+- **Name and ID** to help identify the web part on the page
+- **Total** to show the total time for the web part to load on the page
+- **Module Load** for the module load time which is the fetching and loading of the web part components
+- **Lazy Load** is the wait time as web parts not seen in the main section of the page on load will be deferred to load later
+- **Init**, which is the initialization time taken
+- **Render** to represent the time taken to actually fetch and render results
+
+This information is provided to help designers and developers troubleshoot issues experienced.This information should be provided to your design and development team.
+
 ## Remediate web part performance issues
 
-If a page contains any web parts that take longer than 2 seconds to load, you can use the **Web parts are impacting page load time** result in the Page Diagnostic Tool to determine which web parts are slow. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
