@@ -3,7 +3,7 @@ title: "Tune SharePoint Online performance"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/21/2018
+ms.date: 9/17/2019
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -26,31 +26,37 @@ This article contains links to other articles that tell you how to improve perfo
 Use these articles to fine tune SharePoint Online performance.
   
 - [Introduction to performance tuning for SharePoint Online](introduction-to-performance-tuning-for-sharepoint-online.md)
-    
+
 - [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md)
-    
+
 - [Navigation options for SharePoint Online](navigation-options-for-sharepoint-online.md)
 
 - [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
-    
-- [Image optimization for SharePoint Online](image-optimization-for-sharepoint-online.md)
-    
-- [Delay loading images and JavaScript in SharePoint Online](delay-loading-images-and-javascript-in-sharepoint-online.md)
-    
-- [Minification and bundling in SharePoint Online](minification-and-bundling-in-sharepoint-online.md)
-    
-- [Using content delivery networks](using-content-delivery-networks-with-sharepoint-online.md)
-    
- - [General availability of Office 365 CDN](https://dev.office.com/blogs/general-availability-of-office-365-cdn)
-    
-- [Using Content Search Web Part instead of Content Query Web Part to improve performance in SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
-    
-- [Capacity planning and load testing SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md)
-    
-- [Diagnosing performance issues with SharePoint Online](diagnosing-performance-issues-with-sharepoint-online.md)
-    
-- [Using the object cache with SharePoint Online](using-the-object-cache-with-sharepoint-online.md)
-    
-- [How to: Avoid getting throttled or blocked in SharePoint Online](https://msdn.microsoft.com/en-us/library/office/dn889829.aspx)
-    
 
+- [Image optimization for SharePoint Online](image-optimization-for-sharepoint-online.md)
+
+- [Delay loading images and JavaScript in SharePoint Online](delay-loading-images-and-javascript-in-sharepoint-online.md)
+
+- [Minification and bundling in SharePoint Online](minification-and-bundling-in-sharepoint-online.md)
+
+- [Using content delivery networks](using-content-delivery-networks-with-sharepoint-online.md)
+
+- [General availability of Office 365 CDN](https://dev.office.com/blogs/general-availability-of-office-365-cdn)
+
+- [Using Content Search Web Part instead of Content Query Web Part to improve performance in SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
+
+- [Capacity planning and load testing SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md)
+
+- [Diagnosing performance issues with SharePoint Online](diagnosing-performance-issues-with-sharepoint-online.md)
+
+- [Using the object cache with SharePoint Online](using-the-object-cache-with-sharepoint-online.md)
+
+- [How to: Avoid getting throttled or blocked in SharePoint Online](https://msdn.microsoft.com/en-us/library/office/dn889829.aspx)
+
+- [Optimizing iFrames in SharePoint Online modern portal pages](modern-iframe-optimization.md)
+
+- [Optimizing web part performance in SharePoint Online modern portal pages](modern-web-part-optimization.md)
+
+- [Optimizing page calls in SharePoint Online modern portal pages](modern-page-call-optimization.md)
+
+- [Optimizing page weight in SharePoint Online modern portal pages](modern-page-weight-optimization.md)
