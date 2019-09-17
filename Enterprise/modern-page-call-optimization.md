@@ -38,7 +38,12 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 
 ![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-results.png)
 
-If the **Requests to SharePoint** line is red, you can click the **Requests to Sharepoint** line for details, including the total number of calls on the page and a list of the URLs.
+Possible results include:
+
+- **No attention required (green)**: The page contains fewer than the baseline number of calls
+- **Attention required (red)**: The page exceeds the baseline number of calls
+
+If the **Requests to SharePoint** result appears in the **Attention required** section, you can click the result for details, including the total number of calls on the page and a list of the URLs.
 
 ![Requests to SharePoint results](media/modern-portal-optimization/pagediag-requests.png)
 
