@@ -39,15 +39,15 @@ The installation procedure in this section will work for both the Chrome and Mic
 > [!IMPORTANT]
 > Microsoft does not read data or page content that is analyzed by the Page Diagnostic Tool, and we do not capture any personal information, website or download information. The only information logged by the tool is the tenant name, rule count and whether the support logging option has been enabled when the tool is run. This information is used by Microsoft to understand modern portal and publishing site usage trends and common performance issues to inform product improvements.
 
-1. Using a Chrome or Microsoft Edge browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.
+1. Using the _Chrome_ or _Microsoft Edge version 77 or later_ browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.
 
     ![Extension permissions](media/pagediag-add-to-edge.png)
 
-    This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. This information is captured locally by the web browser and is available to you via the **Export to JSON** button in the tool's _Network trace_ tab. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)
+    This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. This information is captured locally by the web browser and is available to you via the **Export to JSON** or **Export to HAR** button in the tool's _Network trace_ tab. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)
 
     The _Manage your downloads_ permission covers use of the tool's **Export to JSON** functionality. Please follow your company's own privacy guidelines before sharing the JSON file outside of your organization, as the results contain URLs and that can be classified as PII (Personally Identifiable Information).
 1. If you want to use the tool in incognito mode, navigate to the extension and click **allow in incognito**.
-1. Navigate to the SharePoint site page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the **tool will not stop automatically**. Should you wish to stop collection, select **Stop**. (This is by design to accommodate all page load scenarios.) Make sure that the page load has completed before you stop data collection or you will only capture a partial trace.
+1. Navigate to the SharePoint site page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the tool will not stop automatically (this is by design to accommodate all page load scenarios). To stop collection, select **Stop**. Make sure that the page load has completed before you stop data collection or you will only capture a partial trace.
 1. Click on the extension's toolbar button ![Page Diagnostics for SharePoint logo](media/pagediag-icon32.png) to load the tool and you will be presented with the following extension popup window:
 
     ![Page Diagnostics tool Popup](media/pagediag-Landing.png)
@@ -103,7 +103,7 @@ The **Network Trace** tab provides detailed information about both requests to b
 
 3. **Share relevant details with others who can help investigate issues**. To share the details or information provided in the tool with your developers or a technical support person, click **Export to JSON** (as shown in the image above). That will enable you to download the results, viewable with a JSON file viewer.
 
-    If you have selected to use the preview feature to *enable Export to HAR* then the export type will change to _Export HAR_ instead of _Export to JSON_.
+    If you have opted to use the preview feature *enable Export to HAR* then the export type will show as **Export to HAR**.
 
     ![Network trace](media/pagediag-NetworkTraceHAR.PNG)
 
@@ -119,12 +119,12 @@ No change is visible except that you will be notified that you have enabled it a
 ### To enable the Microsoft Support level feature
 
 1. Open the Page Diagnostics Tool.
-2. On your keyboard, press **ALT-Shift-L**. This will display **Enable support level logging**.
-3. Select the checkbox, and then click **Start** to reload the page and generate verbose logging.
+2. On your keyboard, press **ALT-Shift-L**. This will display the **Enable support logging** check box.
+3. Select the check box, and then click **Start** to reload the page and generate verbose logging.
 
-    ![Support Option Enabled](media/ddef47de-8593-4b28-9346-eb48ebf6cdab.png)
+    ![Support Option Enabled](media/pagediag-support.png)
   
-An important element for this is the CorrelationID as the support team will then utilize that number to extract the information needed. Please copy the CorrelationID (at the top of the Page Diagnostics tool) and provide that to support as they cannot perform the required work without the complete ID.
+    You should note the CorrelationID (displayed at the top of the tool) and provide it to your support representative to enable them to gather additional information about the diagnostic session.
 
 ## Related topics
 
