@@ -1,5 +1,5 @@
 ---
-title: "Optimizing page calls in SharePoint Online modern portal and classic publishing site pages"
+title: "Optimize page calls in SharePoint Online modern portal and classic publishing site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,10 +15,10 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn about how to optimize modern portal and classic publishing site pages in SharePoint Online by limiting the number of calls to SharePoint Online service endpoints."
+description: "Learn how to optimize modern portal and classic publishing site pages in SharePoint Online by limiting the number of calls to SharePoint Online service endpoints."
 ---
 
-# Optimizing page calls in SharePoint Online modern portal and classic publishing site pages
+# Optimize page calls in SharePoint Online modern portal and classic publishing site pages
 
 Both SharePoint Online modern portal pages and classic publishing sites contain links that load data, or make calls, from SharePoint features and CDNs. The more calls made by a page, the longer the page takes to load. This is known as **user perceived latency**.
 

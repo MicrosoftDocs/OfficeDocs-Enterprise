@@ -1,5 +1,5 @@
 ---
-title: "Optimizing iFrames in SharePoint Online modern portal pages"
+title: "Optimize iFrames in SharePoint Online modern portal and classic publishing site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,10 +15,10 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn about how to optimize the performance of iFrames in SharePoint Online modern portal pages."
+description: "Learn how to optimize the performance of iFrames in SharePoint Online modern portal and classic publishing site pages."
 ---
 
-# Optimizing iFrames in SharePoint Online modern portal pages
+# Optimize iFrames in SharePoint Online modern portal and classic publishing site pages
 
 iFrames can be useful for previewing rich content such as videos or other media. However, because iFrames load a separate page within the SharePoint site page, content loaded in the iFrame could contain large images, videos or other elements that can contribute to overall page load times. This article will help you understand how to determine how iFrames in your pages affect user perceived latency, and how to remediate common issues.
 

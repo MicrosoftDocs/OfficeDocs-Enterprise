@@ -53,10 +53,10 @@ Use these articles to fine tune SharePoint Online performance.
 
 - [How to: Avoid getting throttled or blocked in SharePoint Online](https://msdn.microsoft.com/en-us/library/office/dn889829.aspx)
 
-- [Optimizing iFrames in SharePoint Online modern portal pages](modern-iframe-optimization.md)
+- [Optimize iFrames in SharePoint Online modern portal pages](modern-iframe-optimization.md)
 
-- [Optimizing web part performance in SharePoint Online modern portal pages](modern-web-part-optimization.md)
+- [Optimize web part performance in SharePoint Online modern portal pages](modern-web-part-optimization.md)
 
-- [Optimizing page calls in SharePoint Online modern portal pages](modern-page-call-optimization.md)
+- [Optimize page calls in SharePoint Online modern portal pages](modern-page-call-optimization.md)
 
-- [Optimizing page weight in SharePoint Online modern portal pages](modern-page-weight-optimization.md)
+- [Optimize page weight in SharePoint Online modern portal pages](modern-page-weight-optimization.md)

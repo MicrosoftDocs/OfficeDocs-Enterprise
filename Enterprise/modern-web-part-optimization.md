@@ -1,5 +1,5 @@
 ---
-title: "Optimizing web part performance in SharePoint Online modern portal pages"
+title: "Optimize web part performance in SharePoint Online modern portal and classic publishing site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,10 +15,10 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn about how to optimize the performance of web parts in SharePoint Online modern portal pages."
+description: "Learn how to optimize the performance of web parts in SharePoint Online modern portal and classic publishing site pages."
 ---
 
-# Optimizing web part performance in SharePoint Online modern portal pages
+# Optimize web part performance in SharePoint Online modern portal and classic publishing site pages
 
 Both SharePoint Online modern portal pages and classic publishing sites contain web parts that can contribute to overall page load times. This article will help you understand how to determine how web parts in your pages affect user perceived latency, and how to remediate common issues.
 

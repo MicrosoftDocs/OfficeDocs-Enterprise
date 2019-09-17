@@ -1,5 +1,5 @@
 ---
-title: "Optimizing page weight in SharePoint Online modern portal pages"
+title: "Optimize page weight in SharePoint Online modern portal and classic publishing site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,7 +15,7 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn about how to optimize page weight in SharePoint Online modern portal pages."
+description: "Learn how to optimize page weight in SharePoint Online modern portal and classic publishing site pages."
 ---
 
-# Optimizing page weight in SharePoint Online modern portal pages
+# Optimize page weight in SharePoint Online modern portal and classic publishing site pages
