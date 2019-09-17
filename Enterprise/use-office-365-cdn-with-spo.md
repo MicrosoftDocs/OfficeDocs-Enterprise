@@ -76,8 +76,8 @@ Before you deploy the Office 365 CDN for your Office 365 tenant, you should cons
   - [Determine where you want to store your assets](use-office-365-cdn-with-spo.md#CDNStoreAssets)
   - [Choose whether each origin should be public or private](use-office-365-cdn-with-spo.md#CDNOriginChoosePublicPrivate)
 
-### Determine which static assets you want to host on the CDN
 <a name="CDNAssets"> </a>
+### Determine which static assets you want to host on the CDN
 
 In general, CDNs are most effective for hosting _static assets_, or assets that don't change very often. A good rule of thumb is to identify files that meet some or all of these conditions:
 
@@ -90,8 +90,8 @@ For example, small files that are repeatedly requested like site images and scri
 
 Performance improvement on a per-file basis is dependent on many factors, including the client's proximity to the nearest CDN endpoint, transient conditions on the local network, and so forth. Many static files are quite small, and can be downloaded from Office 365 in less than a second. However, a web page may contain many embedded files with a cumulative download time of several seconds. Serving these files from the CDN can significantly reduce the overall page load time. See [What performance gains does a CDN provide?](content-delivery-networks.md#what-performance-gains-does-a-cdn-provide) for an example.
 
-### Determine where you want to store your assets
 <a name="CDNStoreAssets"> </a>
+### Determine where you want to store your assets
 
 The CDN fetches your assets from a location called an _origin_. An origin can be a SharePoint site, document library or folder that is accessible by a URL. You have great flexibility when you specify origins for your organization. For example, you can specify multiple origins or a single origin where you want to put all your CDN assets. You can choose to have both public or private origins for your organization. Most organizations will choose to implement a combination of the two.
 
@@ -103,8 +103,8 @@ You can define _CDN policies_ to exclude content in your origins from the CDN. C
   
 Keep in mind that the greater the number of origins, the greater the impact on the time it takes the CDN service to process requests. We recommend that you limit the number of origins as much as possible.
   
-### Choose whether each origin should be public or private
 <a name="CDNOriginChoosePublicPrivate"> </a>
+### Choose whether each origin should be public or private
 
 When you identify an origin, you specify whether it should be made _public_ or _private_. Access to CDN assets in public origins is anonymous, and CDN content in private origins is secured by dynamically generated tokens for greater security. Regardless of which option you choose, Microsoft does all the heavy lifting for you when it comes to administration of the CDN itself. Also, you can change your mind later, after you've set up the CDN and identified your origins.
 
@@ -156,8 +156,8 @@ Default public CDN origins:
 > [!NOTE]
 > _clientsideassets_ is a default public origin that was added to the Office 365 CDN service in December 2017. This origin must be present in order for SharePoint Framework solutions in the CDN to work. If you enabled the Office 365 CDN prior to December 2017, or if you skipped setup of default origins when you enabled the CDN, you can manually add this origin. For more information, see [My client-side web part or SharePoint Framework solution isn't working](use-office-365-cdn-with-spo.md#my-client-side-web-part-or-sharepoint-framework-solution-isnt-working).
 
-## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
 <a name="CDNSetupinPShell"> </a>
+## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
 
 The procedures in this section require you to use the SharePoint Online Management Shell to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
   
@@ -214,9 +214,9 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $true
 ```
 
 For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://technet.microsoft.com/en-us/library/mt790765.aspx).
-  
-### Change the list of file types to include in the Office 365 CDN (Optional)
+
 <a name="Office365CDNforSPOFileType"> </a>
+### Change the list of file types to include in the Office 365 CDN (Optional)
 
 > [!TIP]
 > When you define file types by using the **Set-SPOTenantCdnPolicy** cmdlet, you overwrite the currently defined list. If you want to add additional file types to the list, use the cmdlet first to find out what file types are already allowed and include them in the list along with your new ones.
@@ -242,9 +242,9 @@ Get-SPOTenantCdnPolicies -CdnType <Public | Private>
 ```
 
 For more information about these cmdlets, see [Set-SPOTenantCdnPolicy](https://technet.microsoft.com/en-us/library/mt800839.aspx) and [Get-SPOTenantCdnPolicies](https://technet.microsoft.com/en-us/library/mt800838.aspx).
-  
-### Change the list of site classifications you want to exclude from the Office 365 CDN (Optional)
+
 <a name="Office365CDNforSPOSiteClassification"> </a>
+### Change the list of site classifications you want to exclude from the Office 365 CDN (Optional)
 
 > [!TIP]
 > When you exclude site classifications by using the **Set-SPOTenantCdnPolicy** cmdlet, you overwrite the currently defined list. If you want to exclude additional site classifications, use the cmdlet first to find out what classifications are already excluded and then add them along with your new ones.
@@ -275,9 +275,9 @@ The _ExcludeRestrictedSiteClassifications_ property contains the site classifica
 The _ExcludeIfNoScriptDisabled_ property excludes content from the CDN based on the site-level _NoScript_ attribute settings. By default, the _NoScript_ attribute is set to **Enabled** for _Modern_ sites and **Disabled** for _Classic_ sites. This depends on your tenant settings.
 
 For more information about these cmdlets, see [Set-SPOTenantCdnPolicy](https://technet.microsoft.com/en-us/library/mt800839.aspx) and [Get-SPOTenantCdnPolicies](https://technet.microsoft.com/en-us/library/mt800838.aspx).
-  
-### Add an origin for your assets
+
 <a name="Office365CDNforSPOOrigin"> </a>
+### Add an origin for your assets
 
 Use the **Add-SPOTenantCdnOrigin** cmdlet to define an origin. You can define multiple origins. The origin is a URL that points to a SharePoint library or folder that contains the assets that you want to be hosted by the CDN.
   
@@ -327,9 +327,9 @@ For more information about this command and its syntax, see [Add-SPOTenantCdnOri
 > In private origins, assets being shared from an origin must have a major version published before they can be accessed from the CDN.
   
 Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
-  
-### Example: Configure a public origin for your master pages and for your style library for SharePoint Online
+
 <a name="ExamplePublicOrigin"> </a>
+### Example: Configure a public origin for your master pages and for your style library for SharePoint Online
 
 Normally, these origins are set up for you by default when you enable the Office 365 CDN. However, if you want to enable them manually, follow these steps.
   
@@ -349,8 +349,8 @@ For more information about this command and its syntax, see [Add-SPOTenantCdnOri
 
 Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
 
-### Example: Configure a private origin for your site assets, site pages, and publishing images for SharePoint Online
 <a name="ExamplePrivateOrigin"> </a>
+### Example: Configure a private origin for your site assets, site pages, and publishing images for SharePoint Online
 
 - Use the **Add-SPOTenantCdnOrigin** cmdlet to define the site assets folder as a private origin.
 
@@ -374,8 +374,8 @@ For more information about this command and its syntax, see [Add-SPOTenantCdnOri
 
 Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
 
-### Example: Configure a private origin for a site collection for SharePoint Online
 <a name="ExamplePrivateOriginSiteCollection"> </a>
+### Example: Configure a private origin for a site collection for SharePoint Online
 
 Use the **Add-SPOTenantCdnOrigin** cmdlet to define a site collection as a private origin. For example:
 
@@ -387,20 +387,20 @@ For more information about this command and its syntax, see [Add-SPOTenantCdnOri
   
 Once you've run the command, the system synchronizes the configuration across the datacenter. You may see a _Configuration pending_ message which is expected as the SharePoint Online tenant connects to the CDN service. This can take up to 15 minutes.
 
-### Manage the Office 365 CDN
 <a name="CDNManage"> </a>
+### Manage the Office 365 CDN
 
 Once you've set up the CDN, you can make changes to your configuration as you update content or as your needs change, as described in this section.
   
-#### Add, update, or remove assets from the Office 365 CDN
 <a name="Office365CDNforSPOaddremoveasset"> </a>
+#### Add, update, or remove assets from the Office 365 CDN
 
 Once you've completed the setup steps, you can add new assets, and update or remove existing assets whenever you want. Just make your changes to the assets in the folder or SharePoint library that you identified as an origin. If you add a new asset, it is available through the CDN immediately. However, if you update the asset, it will take up to 15 minutes for the new copy to propagate and become available in the CDN.
   
 If you need to retrieve the location of the origin, you can use the **Get-SPOTenantCdnOrigins** cmdlet. For information on how to use this cmdlet, see [Get-SPOTenantCdnOrigins](https://technet.microsoft.com/en-us/library/mt790770.aspx).
-  
-#### Remove an origin from the Office 365 CDN
+
 <a name="Office365CDNforSPORemoveOrigin"> </a>
+#### Remove an origin from the Office 365 CDN
 
 You can remove access to a folder or SharePoint library that you identified as an origin. To do this, use the **Remove-SPOTenantCdnOrigin** cmdlet.
 
@@ -409,14 +409,14 @@ Remove-SPOTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 ```
 
 For information on how to use this cmdlet, see [Remove-SPOTenantCdnOrigin](https://technet.microsoft.com/en-us/library/mt790761.aspx).
-  
-#### Modify an origin in the Office 365 CDN
+
 <a name="Office365CDNforSPORemoveOrigin"> </a>
+#### Modify an origin in the Office 365 CDN
 
 You cannot modify an origin you've created. Instead, remove the origin and then add a new one. For more information, see [To remove an origin from the Office 365 CDN](use-office-365-cdn-with-spo.md#Office365CDNforSPORemoveOrigin) and [To add an origin for your assets](use-office-365-cdn-with-spo.md#Office365CDNforSPOOrigin).
-  
-#### Disable the Office 365 CDN
+
 <a name="Office365CDNforSPODisable"> </a>
+#### Disable the Office 365 CDN
 
 Use the **Set-SPOTenantCdnEnabled** cmdlet to disable the CDN for your organization. If you have both the public and private origins enabled for the CDN, you need to run the cmdlet twice as shown in the following examples.
   
@@ -434,8 +434,8 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 
 For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://technet.microsoft.com/en-us/library/mt790765.aspx).
 
-## Set up and configure the Office 365 CDN using the Office 365 CLI
 <a name="CDNSetupinCLI"> </a>
+## Set up and configure the Office 365 CDN using the Office 365 CLI
 
 The procedures in this section require that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your SharePoint Online tenant using the [spo connect](https://pnp.github.io/office365-cli/cmd/spo/connect/) command.
 
@@ -663,11 +663,11 @@ It is important to note that SharePoint Online does not support item-level permi
 |User 3     |Does not have access to folder1, but is granted explicit permission to access image1.jpg in SharePoint Online         |Can access the asset image1.jpg directly from SharePoint Online, but not from the CDN         |
 |User 4     |Has access to folder1, but has been explicitly denied access to image1.jpg in SharePoint Online         |Cannot access the asset from SharePoint Online, but can access the asset from the CDN despite being denied access to the file in SharePoint Online         |
 
-## Troubleshooting the Office 365 CDN
 <a name="CDNTroubleshooting"> </a>
+## Troubleshooting the Office 365 CDN
 
-### How do I confirm that assets are being served by the CDN?
 <a name="CDNConfirm"> </a>
+### How do I confirm that assets are being served by the CDN?
 
 Once you have added links to CDN assets to a page, you can confirm that the asset is being served from the CDN by browsing to the page, right clicking on the image once it has rendered and reviewing the image URL.
 
@@ -680,7 +680,7 @@ You cannot test CDN URLs directly in a web browser because you must have a refer
 
 For more information on using the developer tools in the Microsoft Edge browser, see [Microsoft Edge Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
 
-For a video hosted in the [Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos) demonstrating that your CDN is working, please see [Verifying your CDN usage and ensuring optimal network connectivity](https://www.youtube.com/watch?v=ClCtBAtGjE8&list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA&index=5).
+For a video hosted in the [Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos) demonstrating how to verify that your CDN is working, please see [Verifying your CDN usage and ensuring optimal network connectivity](https://www.youtube.com/watch?v=ClCtBAtGjE8&list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA&index=5).
 
 ### Why are assets from a new origin unavailable?
 Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded from the origin to CDN storage. The time required for assets to be available in the CDN depends on how many assets and the files sizes.
@@ -731,4 +731,3 @@ You can choose to work with the Office 365 CDN using either the **SharePoint Onl
 [Content Delivery Networks](https://aka.ms/o365cdns)
 
 [Network planning and performance tuning for Office 365](https://aka.ms/tune)
-
