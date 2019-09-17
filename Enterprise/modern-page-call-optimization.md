@@ -36,8 +36,6 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 - Modern portal pages should contain no more than **20** calls
 - Classic publishing pages should contain no more than **6** calls
 
-![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-results.png)
-
 Possible results include:
 
 - **No attention required (green)**: The page contains fewer than the baseline number of calls
