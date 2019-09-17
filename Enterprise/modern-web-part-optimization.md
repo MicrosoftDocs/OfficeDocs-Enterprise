@@ -29,7 +29,7 @@ Both SharePoint Online modern portal pages and classic publishing sites contain 
 
 The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web parts in the **No web parts impacting page load time** result in the _Diagnostic tests_ pane.
+When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web parts in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane.
 
 Possible results include:
 
@@ -39,13 +39,13 @@ Possible results include:
 
 The baseline metric is the same for modern and classic pages.
 
-![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-results.png)
+![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-web-part.png)
 
-If the **Web parts impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
+If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
 
 ## Remediate web part performance issues
 
-If a page contains any web parts that take longer than 2 seconds to load, you can use the **Web parts impacting page load time** result in the Page Diagnostic Tool to determine which web parts are slow. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+If a page contains any web parts that take longer than 2 seconds to load, you can use the **Web parts are impacting page load time** result in the Page Diagnostic Tool to determine which web parts are slow. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
