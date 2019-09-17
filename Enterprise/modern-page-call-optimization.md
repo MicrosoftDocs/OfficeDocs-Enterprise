@@ -33,13 +33,13 @@ The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge v
 
 When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about external calls in the **Requests to SharePoint** result in the _Diagnostic tests_ pane. The line will appear in green if the portal page contains fewer than the baseline number of calls, and red if the page exceeds the baseline number. The baseline number is different for modern and classic pages:
 
-- Modern portal pages should contain no more than **20** calls
+- Modern portal pages should contain no more than **25** calls
 - Classic publishing pages should contain no more than **6** calls
 
 Possible results include:
 
-- **No attention required (green)**: The page contains fewer than the baseline number of calls
-- **Attention required (red)**: The page exceeds the baseline number of calls
+- **Attention required** (red): The page exceeds the baseline number of calls
+- **No action required** (green): The page contains fewer than the baseline number of calls
 
 If the **Requests to SharePoint** result appears in the **Attention required** section, you can click the result for details, including the total number of calls on the page and a list of the URLs.
 

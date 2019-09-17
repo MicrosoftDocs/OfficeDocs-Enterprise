@@ -35,8 +35,8 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 
 Possible results include:
 
-- **No attention required (green)**: Page weight is under 500KB
-- **Attention required (red)**: Page weight exceeds 500KB
+- **Attention required** (red): Page weight exceeds 500KB
+- **No action required** (green): Page weight is under 500KB
 
 If the **Page weight under 500KB** result appears in the **Attention required** section, you can click the result for details.
 

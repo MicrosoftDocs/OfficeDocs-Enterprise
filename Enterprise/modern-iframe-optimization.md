@@ -33,9 +33,9 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 
 Possible results include:
 
-- **No attention required (green)**: The page contains no web parts using iFrames
-- **Improvement opportunities (yellow)**: The page contains **one or two** web parts using iFrames
-- **Attention required (red)**: The page contains **three or more** web parts using iFrames
+- **Attention required** (red): The page contains **three or more** web parts using iFrames
+- **Improvement opportunities** (yellow): The page contains **one or two** web parts using iFrames
+- **No action required** (green): The page contains no web parts using iFrames
 
 If the **Web parts using iFrames detected** result appears in either the **Improvement opportunities** or **Attention required)** section of the results, you can click the result to see the web parts that contain iFrames.
 

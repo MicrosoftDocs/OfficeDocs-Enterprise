@@ -33,9 +33,9 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 
 Possible results include:
 
-- **No attention required (green)**: No web part takes longer than **2** seconds to return data
-- **Improvement opportunities (yellow)**: At least one _OOTB_ web part takes longer than **2** seconds to return data
-- **Attention required (red)**: At least one _custom_ web part takes longer than **2** seconds to return data
+- **Attention required** (red): At least one _custom_ web part takes longer than **2** seconds to return data
+- **Improvement opportunities** (yellow): At least one _OOTB_ web part takes longer than **2** seconds to return data
+- **No action required** (green): No web part takes longer than **2** seconds to return data
 
 If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
 
