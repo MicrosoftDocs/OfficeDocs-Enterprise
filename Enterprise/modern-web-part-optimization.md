@@ -34,20 +34,20 @@ When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, 
 Possible results include:
 
 - **No attention required (green)**: No web part takes longer than **2** seconds to return data
-- **Attention required (yellow)**: At least one _OOTB_ web part takes longer than **2** seconds to return data
+- **Improvement opportunities (yellow)**: At least one _OOTB_ web part takes longer than **2** seconds to return data
 - **Attention required (red)**: At least one _custom_ web part takes longer than **2** seconds to return data
 
 The baseline metric is the same for modern and classic pages.
 
-![Page Diagnostic Tool results](media/modern-service-request-optimization/pagediag-results.png)
+![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-results.png)
 
-If the **Web parts impacting page load time** result appears in red under the **Attention required** section of the results, you can click the result to see the web parts that are slow.
+If the **Web parts impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
 
 ## Remediate web part performance issues
 
 If a page contains any web parts that take longer than 2 seconds to load, you can use the **No web parts impacting page load time** results in the Page Diagnostic Tool to determine which web parts are slow. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
-![Page load time results](media/modern-service-request-optimization/pagediag-page-load-time.png)
+![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
 >[!NOTE]
 >Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
