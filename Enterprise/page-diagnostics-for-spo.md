@@ -67,21 +67,29 @@ Select **Start** to begin collecting data for analysis.
    - **Page load time** is the total time recorded by the page from the time of the request to the time the response was received and rendered in the browser. This value is affected by a variety of factors including network latency, the performance of the computer and the time it takes for the browser to load the page.
    - The **Page URL** (Uniform Resource Locator) is the web address of the current page.
 
-1. The [**Diagnostic tests**](#how-to-use-the-diagnostic-tests-tab) tab displays the analysis results in two categories, **Attention required** and **No action required**. Each test result is represented by a line in one of these two categories. Results under **No action required** appear in green and indicate that the result falls within the test's baseline value, while results under **Attention required** are shown in red and indicate that the tested value falls outside the baseline value and could be contributing to performance issues for the page.
+1. The [**Diagnostic tests**](#how-to-use-the-diagnostic-tests-tab) tab displays the analysis results in three categories; **No action required**, **Improvement opportunities** and **Attention required**. Each test result is represented by an item in one of these categories as described in the following table:
+
+    |Category  |Color  |Description  |
+    |---------|---------|---------|
+    |**No action required** |Green |Test result falls within the test's baseline value.|
+    |**Improvement opportunities** |Yellow |Test result falls outside the baseline value and could be contributing to performance issues. Test-specific criteria may apply.|
+    |**Attention required** |Red |Test result falls outside the baseline value and is affecting page performance. Follow remediation guidance.|
 
     Each failed check has its own "Learn more" link that will take you to the details behind that rule and how to remediate the issue.
 
-    ![Page diagnostics](media/pagediag-DiagnosticTest.PNG)
+    ![Page diagnostics](media/pagediag-results-general.PNG)
 
 1. A [**Network trace**](#how-to-use-the-network-trace-tab) tab provides details about page build requests and responses.
 
 ## How to use the Diagnostic tests tab
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, results are analyzed using pre-defined rules that compare results against baseline values. Items highlighted in red in the **Attention required** section indicate areas that should be reviewed against recommended practices. Each item has a _Learn more_ link which will take you directly to the appropriate guidance related to the test.
+When you analyze a SharePoint modern portal page or classic publishing site page with the Page Diagnostic Tool, results are analyzed using pre-defined rules that compare results against baseline values. Rules for certain tests may use different baseline values for modern portal and classic publishing sites depending on how specific performance characteristics differ between the two.
 
-The information in the Diagnostic tests tab will not tell you how to design pages, but will highlight factors that may impact page performance. The key is to examine the trade-off as some functionality or customizations will impact page performance.
+Test results that appear in the **Improvement opportunities** or **Attention required** categories indicate areas that should be reviewed against recommended practices, and can be selected to display additional information about the result. Details for each item include a _Learn more_ link which will take you directly to the appropriate guidance related to the test. Test results that appear in the **No action required** category indicate compliance with the relevant rule and do not display additional details when selected.
 
-Results under **Attention required** may also indicate web parts that refresh data too frequently. For example, corporate news is not updated every second but custom web parts are often built to fetch the latest news every second instead of implementing caching elements that could improve the overall user experience.
+The information in the Diagnostic tests tab will not tell you how to design pages, but will highlight factors that may impact page performance. Some page functionality and customizations have an unavoidable impact on page performance, and should be reviewed for potential remediation or omission from the page if their impact is substantial.
+
+Red or yellow results may also indicate web parts that refresh data too frequently. For example, corporate news is not updated every second but custom web parts are often built to fetch the latest news every second instead of implementing caching elements that could improve the overall user experience. Keep in mind when including web parts on a page that there are often simple ways to reduce their performance impact by evaluating the value of each available parameter to ensure it is set appropriately for its intended purpose.
 
 >[!IMPORTANT]
 >The rules are updated regularly so please refer to the latest version of the tool for the details of those rules. You can verify the version by managing your extensions and the extension will advise whether an update is available.
