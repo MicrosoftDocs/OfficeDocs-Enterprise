@@ -28,9 +28,15 @@ The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge v
 >[!NOTE]
 >Team sites that don't have the publishing feature enabled cannot make use of CDNs, but all of the remaining rules are applicable. The publishing feature adds additional overhead and can increase page load times, so it should not be enabled just to allow CDN functionality.
 
-The Page Diagnostics tool is designed to review SharePoint site pages and not system pages like *allitems.aspx* or *sharepoint.aspx* page. If you attempt to run the tool on a system page, you will receive an error message advising that it cannot be run for that type of page.<br/> ![Must run on a SharePoint page](media/pagediag-Error-StartPage.png)<br/>This is not an error in the tool as there is no value in assessing libraries or system pages. Please navigate to a SharePoint site page to use the tool. If this error occurs on a SharePoint page, please check the master page to ensure that the SharePoint metatags have not been removed.
+The Page Diagnostics tool is designed to review SharePoint site pages and not system pages like *allitems.aspx* or *sharepoint.aspx* page. If you attempt to run the tool on a system page, you will receive an error message advising that it cannot be run for that type of page.
 
-To provide feedback about the tool, select the [give feedback link](https://go.microsoft.com/fwlink/?linkid=874109) in the **About** tab.
+![Must run on a SharePoint page](media/pagediag-Error-StartPage.png)
+
+This is not an error in the tool as there is no value in assessing libraries or system pages. Please navigate to a SharePoint site page to use the tool. If this error occurs on a SharePoint page, please check the master page to ensure that the SharePoint metatags have not been removed.
+
+To provide feedback about the tool, select the ellipsis at the top right corner of the tool and then select [Give feedback](https://go.microsoft.com/fwlink/?linkid=874109).
+
+![Give feedback](media/pagediag-feedback.png)
   
 ## Install the Page Diagnostic Tool
 
@@ -46,7 +52,9 @@ The installation procedure in this section will work for both the Chrome and Mic
     This notice is in place because a page may contain content from locations outside of SharePoint depending on the webparts and customizations on the page. This means that the tool will read the requests and responses when the start button is clicked and only for the active SharePoint tab where the tool is running. This information is captured locally by the web browser and is available to you via the **Export to JSON** or **Export to HAR** button in the tool's _Network trace_ tab. **The information is not sent to or captured by Microsoft.** (The tool respects the Microsoft privacy policy accessible [here](https://go.microsoft.com/fwlink/p/?linkid=857875).)
 
     The _Manage your downloads_ permission covers use of the tool's **Export to JSON** functionality. Please follow your company's own privacy guidelines before sharing the JSON file outside of your organization, as the results contain URLs and that can be classified as PII (Personally Identifiable Information).
-1. If you want to use the tool in incognito mode, navigate to the extension and click **allow in incognito**.
+1. If you want to use the tool in Incognito or InPrivate mode, follow the procedure for your browser:
+    1. In Microsoft Edge, navigate to **Extensions** or type _edge://extensions_ in the URL bar and select **Details** for the extension. In the extension settings, select the checkbox for **allow in InPrivate**.
+    1. In Chrome, navigate to **Extensions** or type _chrome://extensions_ in the URL bar and select **Details** for the extension. In the extension settings, select the slider for **allow in Incognito**.
 1. Navigate to the SharePoint site page on SharePoint Online that you would like to review. We have allowed for "delay loading" of items on pages; therefore, the tool will not stop automatically (this is by design to accommodate all page load scenarios). To stop collection, select **Stop**. Make sure that the page load has completed before you stop data collection or you will only capture a partial trace.
 1. Click on the extension's toolbar button ![Page Diagnostics for SharePoint logo](media/pagediag-icon32.png) to load the tool and you will be presented with the following extension popup window:
 
