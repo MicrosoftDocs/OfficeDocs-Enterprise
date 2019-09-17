@@ -29,7 +29,7 @@ iFrames can be useful for previewing rich content such as videos or other media.
 
 The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web part performance in the _Diagnostic tests_ pane.
+When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web parts containing iFrames in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
 
 Possible results include:
 
@@ -37,11 +37,9 @@ Possible results include:
 - **Improvement opportunities (yellow)**: The page contains **one or two** web parts using iFrames
 - **Attention required (red)**: The page contains **three or more** web parts using iFrames
 
-The baseline metric is the same for modern and classic pages.
+If the **Web parts using iFrames detected** result appears in either the **Improvement opportunities** or **Attention required)** section of the results, you can click the result to see the web parts that contain iFrames.
 
 ![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-iframe-yellow.png)
-
-If the **Web parts using iFrames detected** result appears in either the **Improvement opportunities** or **Attention required)** section of the results, you can click the result to see the web parts that contain iFrames.
 
 ## Remediate iFrame performance issues
 

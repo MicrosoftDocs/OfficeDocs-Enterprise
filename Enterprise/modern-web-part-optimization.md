@@ -29,7 +29,7 @@ Both SharePoint Online modern portal pages and classic publishing sites contain 
 
 The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web parts in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane.
+When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
 
 Possible results include:
 
@@ -37,11 +37,9 @@ Possible results include:
 - **Improvement opportunities (yellow)**: At least one _OOTB_ web part takes longer than **2** seconds to return data
 - **Attention required (red)**: At least one _custom_ web part takes longer than **2** seconds to return data
 
-The baseline metric is the same for modern and classic pages.
+If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
 
 ![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-web-part.png)
-
-If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
 
 ## Remediate web part performance issues
 
