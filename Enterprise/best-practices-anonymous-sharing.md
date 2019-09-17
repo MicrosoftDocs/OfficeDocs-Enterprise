@@ -34,7 +34,7 @@ Note that once an *Anyone* link expires, the file or folder can be re-shared wit
 
 ## Set link permissions
 
-By default, *Anyone* links for a file allow people to edit the file, and *Anyone* links for a folder allow people to upload new files to the folder. You can change these permissions for files and for folders independently to view-only.
+By default, *Anyone* links for a file allow people to edit the file, and *Anyone* links for a folder allow people to edit and view files, and upload new files to the folder. You can change these permissions for files and for folders independently to view-only.
 
 If you want to allow anonymous sharing, but are concerned about unauthenticated users modifying your organization's content, consider setting the file and folder permissions to **View**.
 
@@ -86,6 +86,7 @@ To add a footer to a labeled file
 With content marking enabled for the label, the text you specified will be added to Office documents when a user applies that label.
 
 ## See Also
+
 
 [Overview of sensitivity labels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
 

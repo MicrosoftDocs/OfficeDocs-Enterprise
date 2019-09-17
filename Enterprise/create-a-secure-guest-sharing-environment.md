@@ -12,7 +12,9 @@ description: "Learn how to create a secure guest sharing environment in Microsof
 
 # Create a secure guest sharing environment
 
-In this article, we'll walk through a variety of options for creating a secure guest sharing environment in Microsoft 365. This includes:
+In this article, we'll walk through a variety of options for creating a secure guest sharing environment in Microsoft 365. This is an example scenario to give you an idea of the options available. You can use these procedures in different combinations to meet the security and compliance needs of your organization. At the end of the article, we'll walk through a test case to see how some of these options work together.
+
+This scenario includes:
 
 - Setting up multi-factor authentication for guests.
 - Setting up a terms of use for guests.
@@ -23,8 +25,6 @@ In this article, we'll walk through a variety of options for creating a secure g
 - Creating a sensitive information type for a highly confidential project.
 - Automatically assigning a *highly confidential* label to documents that contain the sensitive information type.
 - Automatically removing guest access from files labeled as *highly confidential*.
-
-This is an example scenario to give you an idea of the options available. You can use these procedures in different combinations to meet the security and compliance needs of your organization.
 
 Note that we won't discuss enabling guest sharing settings in this article. See [Collaborating with people outside your organization](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization) for details about enabling guest sharing for different scenarios.
 
@@ -311,6 +311,7 @@ Once the guest has access to the document, type *Project Saturn* in the document
 You can use the tools described in this article in various combinations to help create a productive but safe guest sharing environment for your organization.
 
 ## See Also
+
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
 [Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
