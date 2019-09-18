@@ -3,7 +3,7 @@ title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 5/14/2019
+ms.date: 9/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -671,7 +671,7 @@ It is important to note that SharePoint Online does not support item-level permi
 
 Once you have added links to CDN assets to a page, you can confirm that the asset is being served from the CDN by browsing to the page, right clicking on the image once it has rendered and reviewing the image URL.
 
-You can also use your browser's developer tools to view the URL for each asset on a page, or use a 3rd party network trace tool.
+You can also use your browser's developer tools to view the URL for each asset on a page, or use a third party network trace tool.
 
 > [!NOTE]
 > If you use a network tool such as Fiddler to test your assets outside of rendering the asset from a SharePoint page, you must manually add the referrer header “Referrer: `https://yourdomain.sharepoint.com`” to the GET request where the URL is the root URL of your SharePoint Online tenant.
@@ -680,7 +680,7 @@ You cannot test CDN URLs directly in a web browser because you must have a refer
 
 For more information on using the developer tools in the Microsoft Edge browser, see [Microsoft Edge Developer Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide).
 
-For a video hosted in the [Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos) demonstrating how to verify that your CDN is working, please see [Verifying your CDN usage and ensuring optimal network connectivity](https://www.youtube.com/watch?v=ClCtBAtGjE8&list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA&index=5).
+To watch a short video hosted in the [SharePoint Developer Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos) demonstrating how to verify that your CDN is working, please see [Verifying your CDN usage and ensuring optimal network connectivity](https://www.youtube.com/watch?v=ClCtBAtGjE8&list=PLR9nK3mnD-OWMfr1BA9mr5oCw2aJXw4WA&index=5).
 
 ### Why are assets from a new origin unavailable?
 Assets in new origins will not immediately be available for use, as it takes time for the registration to propagate through the CDN and for the assets to be uploaded from the origin to CDN storage. The time required for assets to be available in the CDN depends on how many assets and the files sizes.
