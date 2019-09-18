@@ -1,5 +1,5 @@
 ---
-title: "Optimize page weight in SharePoint Online modern portal and classic publishing site pages"
+title: "Optimize page weight in SharePoint Online modern site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,14 +15,14 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn how to optimize page weight in SharePoint Online modern portal and classic publishing site pages."
+description: "Learn how to optimize page weight in SharePoint Online modern site pages."
 ---
 
-# Optimize page weight in SharePoint Online modern portal and classic publishing site pages
+# Optimize page weight in SharePoint Online modern site pages
 
-Both SharePoint Online modern portal pages and classic publishing sites contain serialized code that is required to render page content of the page, including images, text, objects in the content area underneath navigation/command bars and other HTML code that forms the framework of the page. Page weight is a measurement of this HTML code, and should be limited to ensure optimal page load times.
+SharePoint Online modern site pages contain serialized code that is required to render page content of the page, including images, text, objects in the content area underneath navigation/command bars and other HTML code that forms the framework of the page. Page weight is a measurement of this HTML code, and should be limited to ensure optimal page load times.
 
-This article will help you understand how to reduce page weight in your modern portal and classic publishing site pages.
+This article will help you understand how to reduce page weight in your modern site pages.
 
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
@@ -31,7 +31,7 @@ This article will help you understand how to reduce page weight in your modern p
 
 The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about page in the **Page weight under 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value. The baseline value is the same for modern and classic pages.
+When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about page in the **Page weight under 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value.
 
 Possible results include:
 
@@ -44,7 +44,9 @@ If the **Page weight under 500KB** result appears in the **Attention required** 
 
 ## Reduce page weight
 
-If page weight exceeds 500KB, you can improve overall page load time by reducing the relevant page content. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+If page weight exceeds 500KB, you can improve overall page load time by reducing the number of web parts and limiting page content to an appropriate degree.
+
+Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
@@ -56,7 +58,7 @@ General guidance for reducing page weight includes:
 - Limit the page content to a reasonable amount and use multiple pages for related content.
 - Minimize the use of web parts that have large property bags.
 - Use non-interactive rollup views when possible.
-- Optimize image sizes by sizing images appropriately and using compressed image formats.
+- Optimize image sizes by sizing images appropriately, using compressed image formats and ensuring that they are downloaded from a CDN.
 
 You can find additional guidance for limiting page weight in the following article:
 
