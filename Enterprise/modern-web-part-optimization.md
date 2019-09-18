@@ -55,12 +55,7 @@ This information is provided to help designers and developers troubleshoot issue
 
 ## Remediate web part performance issues
 
-Follow the guidance in this section to identify and remediate performance issues with web parts listed in the **Web parts are impacting page load time** results. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
-
-![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
-
->[!NOTE]
->Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
+Follow the guidance in this section to identify and remediate performance issues with web parts listed in the **Web parts are impacting page load time** results.
 
 There are three categories of possible causes for poor web part performance. Use the information below to determine which issues apply to your scenario and remediate them.
 
@@ -83,6 +78,13 @@ There are three categories of possible causes for poor web part performance. Use
   - Reserve corresponding space for asynchronously rendering media or visual elements to avoid skipped frames and stuttering (also known as _jank_).
   - If a certain browser doesn't support a feature used in rendering, either load a polyfill or exclude running dependent code. If the feature is not critical,
 dispose resources such as event handlers to avoid memory leaks.
+
+Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+
+![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
 
 ## Related topics
 
