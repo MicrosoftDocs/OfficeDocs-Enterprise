@@ -44,7 +44,7 @@ If the **Large images detected** result appears in the **Attention required** se
 
 ## Remediate large image issues
 
-If a page contains images over 300KB in size, select the **Large images detected** result to see which images are too large. In modern SharePoint Online pages, renditions of images are automatically provided and sized depending on the size of the browser window and the resolution of the client monitor. Images uploaded for use on the page should be optimized for web use prior to upload. Very large images will be automatically reduced in size and resolution which can result in a larger image on the page than you intended.
+If a page contains images over 300KB in size, select the **Large images detected** result to see which images are too large. In modern SharePoint Online pages, renditions of images are automatically provided and sized depending on the size of the browser window and the resolution of the client monitor. You should always optimize images for web use prior to upload to SharePoint Online. Very large images will be automatically reduced in size and resolution which can result in unexpected rendering characteristics.
 
 Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
