@@ -27,7 +27,7 @@ SharePoint Online modern portal pages contain web parts that can contribute to o
 
 ## Use the Page Diagnostics for SharePoint tool to analyze web parts
 
-The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
 When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane.
 
@@ -41,8 +41,10 @@ If the **Web parts are impacting page load time** result appears in either the *
 
 ![Page Diagnostics tool results](media/modern-portal-optimization/pagediag-web-part.png)
 
+Information available in the results includes:
+
 - **Made by** shows whether the web part is custom or Microsoft OOTB
-- **Name and ID** identifies and helps you find the web part on the page
+- **Name and ID** shows identifying information that can help you find the web part on the page
 - **Total** shows the total time for the web part to load
 - **Module Load** shows the time taken to fetch and load the web part components
 - **Lazy Load** shows the wait time for loading of web parts not seen in the main section of the page on load to be deferred

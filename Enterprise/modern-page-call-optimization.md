@@ -20,9 +20,9 @@ description: "Learn how to optimize modern portal and classic publishing site pa
 
 # Optimize page calls in SharePoint Online modern portal and classic publishing site pages
 
-Both SharePoint Online modern portal pages and classic publishing sites contain links that load data, or make calls, from SharePoint features and CDNs. The more calls made by a page, the longer the page takes to load. This is known as **user perceived latency**.
+Both SharePoint Online modern portal pages and classic publishing sites contain links that load data from (or make calls to) SharePoint features and CDNs. The more calls made by a page, the longer the page takes to load. This is known as **end user perceived latency** or **EUPL**.
 
-This article will help you understand how to determine the number and impact of calls in your modern portal and classic publishing site pages and how to limit their effect on user perceived latency.
+This article will help you understand how to determine the number and impact of calls to external endpoints from your modern portal and classic publishing site pages and how to limit their effect on end user perceived latency.
 
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
