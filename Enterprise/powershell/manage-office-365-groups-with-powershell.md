@@ -117,7 +117,7 @@ If you don't want users from other organization to send email to a Office 365 gr
 Run the Set-UnifiedGroup cmdlet to update this setting, like this:
 
 ```
-Set-UnifiedGroup -Identity "Internal senders only" - RequireSenderAuthenticationEnabled $true
+Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
 ```
 
 ## Add MailTips to the Office 365 Groups
