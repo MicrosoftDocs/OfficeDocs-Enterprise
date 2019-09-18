@@ -3,7 +3,7 @@ title: "Optimize web part performance in SharePoint Online modern portal site pa
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/17/2019
+ms.date: 9/18/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
