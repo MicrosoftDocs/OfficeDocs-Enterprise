@@ -20,6 +20,9 @@ description: "Learn how to optimize the performance of web parts in SharePoint O
 
 # Optimize web part performance in SharePoint Online modern site pages
 
+>[!TIP]
+>For information about optimizing iFrames in SharePoint site pages, see [Optimize iFrames in SharePoint Online modern and classic publishing site pages](modern-iframe-optimization.md).
+
 SharePoint Online modern site pages contain web parts that can contribute to overall page load times. This article will help you understand how to determine how web parts in your pages affect user perceived latency, and how to remediate common issues.
 
 >[!NOTE]
