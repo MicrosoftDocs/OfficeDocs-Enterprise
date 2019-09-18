@@ -39,7 +39,7 @@ In order for guests to have access to a document in SharePoint or OneDrive, the 
 
 The organization-level settings for SharePoint determine what settings are available for individual SharePoint sites. Site settings cannot be more permissive than the organization-level settings. The organization-level setting for OneDrive determines what level of sharing is available in users' OneDrive libraries.
 
-For SharePiont and OneDrive, if you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. 
+For SharePoint and OneDrive, if you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
 
 For SharePoint, choose the most permissive setting that will be needed by any site in your organization.
 

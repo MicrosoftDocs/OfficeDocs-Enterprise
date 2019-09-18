@@ -12,7 +12,7 @@ description: "Learn how to configure Office 365 for collaboration with guest use
 
 # Collaborating with people outside your organization
 
-The steps to configure guest sharing in Microsoft 365 depend on the scenario that you want to enable. Choose from the following:
+By default, in Microsoft 365, guest sharing is enabled for SharePoint and OneDrive, but disabled for Teams. Many SharePoint and OneDrive guest sharing scenarios work without further configuration. To confirm the settings for a scenario that you're using, or enable a new one, choose from the following options:
 
 - [Collaborate on documents](collaborate-on-documents.md) - Learn how to configure Microsoft 365 to allow sharing and collaboration with guests on files and folders.
 - [Collaborate in a site](collaborate-in-a-site.md) - Learn how to configure Microsoft 365 to enable sharing SharePoint sites with guests.
