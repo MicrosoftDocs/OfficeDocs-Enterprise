@@ -19,14 +19,14 @@ description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint
 
 # Use the Page Diagnostics for SharePoint tool
 
-This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze your SharePoint Online modern portal and classic publishing site pages against a pre-defined set of performance criteria.  
+This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze your **SharePoint Online* modern and classic  site pages against a pre-defined set of performance criteria.  
 
-**Note that version 2.0 of the tool has been released**. The new version includes support for modern portal pages in addition to classic publishing site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version.
+**Note that version 2.0.1 of the tool has been released**. The new version includes support for modern pages in addition to classic  site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version.
 
 The Page Diagnostics for SharePoint tool is a browser extension for Chrome and [Microsoft Edge version 77 and later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) that analyzes both SharePoint Online modern portal and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria, which may differ between modern and classic site pages. SharePoint Online administrators and designers can use the tool to troubleshoot performance issues and to ensure that new pages are optimized prior to publishing.
 
 >[!NOTE]
->Team sites that don't have the publishing feature enabled cannot make use of CDNs, but all of the remaining rules are applicable. The publishing feature adds additional overhead and can increase page load times, so it should not be enabled just to allow CDN functionality.
+>Classic team sites that don't have the publishing feature enabled cannot make use of CDNs, but all of the remaining rules are applicable. The publishing feature adds additional overhead and can increase page load times, so it should not be enabled just to allow CDN functionality.
 
 The Page Diagnostics tool is designed to review SharePoint site pages and not system pages like *allitems.aspx* or *sharepoint.aspx* page. If you attempt to run the tool on a system page, you will receive an error message advising that it cannot be run for that type of page.
 
