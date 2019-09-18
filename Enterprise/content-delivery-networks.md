@@ -3,7 +3,7 @@ title: "Content delivery networks"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/2/2019
+ms.date: 9/18/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -60,6 +60,8 @@ Content in **public** origins within the Office 365 CDN is accessible anonymousl
 The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
 For more information about how to use the Office 365 CDN, see [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo).
+
+To watch a series of short videos that provide conceptual and HOWTO information about using the Office 365 CDN, visit the [SharePoint Developer Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos).
 
 ## Other Microsoft CDNs
 
@@ -191,3 +193,5 @@ Here's a short link you can use to come back: [https://aka.ms/o365cdns](https://
 [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)
 
 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
+
+[Tune Office 365 performance](tune-office-365-performance.md)
