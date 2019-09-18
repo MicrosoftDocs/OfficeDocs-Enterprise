@@ -25,11 +25,11 @@ This article will help you understand how to optimize images in SharePoint Onlin
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
 
-## Use the Page Diagnostic Tool to analyze image optimization
+## Use the Page Diagnostics for SharePoint Tool to analyze image optimization
 
-The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint Tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about large images in the _Diagnostic tests_ pane.
+When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint Tool, you can see information about large images in the _Diagnostic tests_ pane.
 
 Possible results include:
 
@@ -38,11 +38,11 @@ Possible results include:
 
 If the **Large images detected** result appears in the **Attention required** section of the results, you can click the result to see additional details.
 
-![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-large-images.png)
+![Page Diagnostics Tool results](media/modern-portal-optimization/pagediag-large-images.png)
 
 ## Remediate large image issues
 
-If a page contains images over 300KB in size, select the **Large images detected** result in the Page Diagnostic Tool to see which images are too large and update them with appropriately sized images. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+If a page contains images over 300KB in size, select the **Large images detected** result to see which images are too large and update them with appropriately sized images. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
