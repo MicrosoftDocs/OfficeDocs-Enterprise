@@ -25,36 +25,35 @@ Both SharePoint Online modern portal pages and classic publishing sites contain 
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
 
-## Use the Page Diagnostic Tool to analyze web parts
+## Use the Page Diagnostics Tool to analyze web parts
 
-The Page Diagnostic Tool is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostic Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The Page Diagnostics Tool is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostic Tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
+When you analyze a SharePoint modern portal page with the Page Diagnostics Tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
 
 Possible results include:
 
-- **Attention required (red)**: Any _custom_ web part that takes longer than **2** seconds to load. This includes the render time and the information provided in the tool is broken down into multiple parts as shown below.
-- **Improvement opportunities (yellow)**: Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Any Microsoft web parts shown in this section are automatically reported to Microsoft, so no action is required. A future Page Diagnostics tool update will further break down the results based on the configuration of the Microsoft web part. If however you are experiencing very slow performance on the page and all Microsoft web parts on the page show in this section, then please log a support ticket for the issue to be investigated.
+- **Attention required (red)**: Any _custom_ web part that takes longer than **2** seconds to load. Total load time as displayed in test results is broken down by module load, lazy load, init and render.
+- **Improvement opportunities (yellow)**: Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Results for any Microsoft web parts shown in this section are automatically reported to Microsoft, so no action is required. A future Page Diagnostics tool update will further break down the results based on the configuration of the Microsoft web part. If you are experiencing very slow performance on the page and all Microsoft web parts on the page show in this section, then please log a support ticket for the issue to be investigated.
 - **No attention required (green)**: No web part is taking longer than **2** seconds to return data.
 
-If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, you can click the result to see details about the web parts that are slow.
-Future updates to the Page Dagnostics for SharePoint Tool will assess and re-evaluate these rules so please ensure to always have the latest update of the tool.
+If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, click the result to see details about which web parts are loading slowly. Future updates to the Page Diagnostics for SharePoint Tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
-![Page Diagnostic Tool results](media/modern-portal-optimization/pagediag-web-part.png)
+![Page Diagnostics Tool results](media/modern-portal-optimization/pagediag-web-part.png)
 
-- **Made by** shows whether it is a custom or Microsoft OOTB web part
-- **Name and ID** to help identify the web part on the page
-- **Total** to show the total time for the web part to load on the page
-- **Module Load** for the module load time which is the fetching and loading of the web part components
-- **Lazy Load** is the wait time as web parts not seen in the main section of the page on load will be deferred to load later
-- **Init**, which is the initialization time taken
-- **Render** to represent the time taken to actually fetch and render results
+- **Made by** shows whether the web part is custom or Microsoft OOTB
+- **Name and ID** identifies and helps you find the web part on the page
+- **Total** shows the total time for the web part to load
+- **Module Load** shows the time taken to fetch and load the web part components
+- **Lazy Load** shows the wait time for loading of web parts not seen in the main section of the page on load to be deferred
+- **Init** shows the time taken for web part initialization
+- **Render** shows the time taken for the web part to fetch and render results
 
-This information is provided to help designers and developers troubleshoot issues experienced.This information should be provided to your design and development team.
+This information is provided to help designers and developers troubleshoot issues. This information should be provided to your design and development team.
 
 ## Remediate web part performance issues
 
-Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+Follow the guidance in this section to identify and remediate performance issues with web parts listed in the **Web parts are impacting page load time** results. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 

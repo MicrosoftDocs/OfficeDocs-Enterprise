@@ -47,7 +47,7 @@ If the **Requests to SharePoint** result appears in the **Attention required** s
 
 ## Reduce the number of calls on a page
 
-If a page contains too many calls, you can use the **Requests to Sharepoint** results in the Page Diagnostic Tool to determine whether there are any unnecessary calls and revise the page to omit them. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+If a page contains too many calls, you can use the list of URLs in the **Requests to Sharepoint** results to determine whether there are any unnecessary calls and revise the page to omit them. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 

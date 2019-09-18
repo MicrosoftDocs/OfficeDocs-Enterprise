@@ -44,7 +44,7 @@ If the **Page weight under 500KB** result appears in the **Attention required** 
 
 ## Reduce page weight
 
-If page weight exceeds 500KB, you can improve overall page load time by reducing the relevant page content. Before you make your revisions, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+If page weight exceeds 500KB, you can improve overall page load time by reducing the relevant page content. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
