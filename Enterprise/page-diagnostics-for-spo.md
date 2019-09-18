@@ -1,9 +1,9 @@
 ---
-title: "Use the Page Diagnostics for SharePoint tool"
+title: "Use the Page Diagnostics tool for SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/17/2019
+ms.date: 9/18/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
