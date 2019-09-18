@@ -1,5 +1,5 @@
 ---
-title: "Optimize web part performance in SharePoint Online modern portal site pages"
+title: "Optimize web part performance in SharePoint Online modern site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,26 +15,26 @@ ms.custom: Adm_O365
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn how to optimize the performance of web parts in SharePoint Online modern portal pages."
+description: "Learn how to optimize the performance of web parts in SharePoint Online modern site pages."
 ---
 
-# Optimize web part performance in SharePoint Online modern portal pages
+# Optimize web part performance in SharePoint Online modern site pages
 
-SharePoint Online modern portal pages contain web parts that can contribute to overall page load times. This article will help you understand how to determine how web parts in your pages affect user perceived latency, and how to remediate common issues.
+SharePoint Online modern site pages contain web parts that can contribute to overall page load times. This article will help you understand how to determine how web parts in your pages affect user perceived latency, and how to remediate common issues.
 
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
 
 ## Use the Page Diagnostics for SharePoint tool to analyze web parts
 
-The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
 When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane.
 
 Possible results include:
 
 - **Attention required** (red): Any _custom_ web part that takes longer than **two** seconds to load. Total load time as displayed in test results is broken down by module load, lazy load, init and render.
-- **Improvement opportunities** (yellow): Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Results for any Microsoft web parts shown in this section are automatically reported to Microsoft, so **no action is required**. A future Page Diagnostics tool update will further break down the results based on the configuration of the Microsoft web part. If you are experiencing very slow performance on the page and all Microsoft web parts on the page show in this section, then please log a support ticket for the issue to be investigated.
+- **Improvement opportunities** (yellow): Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Results for any Microsoft web parts shown in this section are automatically reported to Microsoft, so **no action is required**. You should only log a support ticket for investigation if you are experiencing very slow performance on the page and **all Microsoft web parts** on the page appear in the results in the **Improvement opportunities** section. Note that a future Page Diagnostics tool update will further break down the results based on the specific configuration of the Microsoft web part.
 - **No action required** (green): No web part is taking longer than **two** seconds to return data.
 
 If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, click the result to see details about which web parts are loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
@@ -55,12 +55,7 @@ This information is provided to help designers and developers troubleshoot issue
 
 ## Remediate web part performance issues
 
-Follow the guidance in this section to identify and remediate performance issues with web parts listed in the **Web parts are impacting page load time** results. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
-
-![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
-
->[!NOTE]
->Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
+Follow the guidance in this section to identify and remediate performance issues with web parts listed in the **Web parts are impacting page load time** results.
 
 There are three categories of possible causes for poor web part performance. Use the information below to determine which issues apply to your scenario and remediate them.
 
@@ -83,6 +78,13 @@ There are three categories of possible causes for poor web part performance. Use
   - Reserve corresponding space for asynchronously rendering media or visual elements to avoid skipped frames and stuttering (also known as _jank_).
   - If a certain browser doesn't support a feature used in rendering, either load a polyfill or exclude running dependent code. If the feature is not critical,
 dispose resources such as event handlers to avoid memory leaks.
+
+Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+
+![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
+
+>[!NOTE]
+>Page load time can vary based on a variety of factors such as network load, time of day, and other transient conditions. You should test page load time a few times before and after making changes to help you average the results.
 
 ## Related topics
 
