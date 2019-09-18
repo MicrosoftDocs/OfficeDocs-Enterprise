@@ -72,7 +72,7 @@ To set Office 365 Groups guest settings
 
 ## SharePoint organization level sharing settings
 
-In order for guests to have access to files in Teams, the SharePoint organization-level sharing settings must allow for sharing with guests.
+Teams content such as files, folders, and lists are all stored in SharePoint. In order for guests to have access to these items in Teams, the SharePoint organization-level sharing settings must allow for sharing with guests.
 
 The organization-level settings determine what settings are available for individual sites, including sites associated with teams. Site settings cannot be more permissive than the organization-level settings.
 
