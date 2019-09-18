@@ -33,9 +33,9 @@ When you analyze a SharePoint modern portal page with the Page Diagnostics for S
 
 Possible results include:
 
-- **Attention required** (red): Any _custom_ web part that takes longer than **2** seconds to load. Total load time as displayed in test results is broken down by module load, lazy load, init and render.
+- **Attention required** (red): Any _custom_ web part that takes longer than **two** seconds to load. Total load time as displayed in test results is broken down by module load, lazy load, init and render.
 - **Improvement opportunities** (yellow): Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Results for any Microsoft web parts shown in this section are automatically reported to Microsoft, so no action is required. A future Page Diagnostics tool update will further break down the results based on the configuration of the Microsoft web part. If you are experiencing very slow performance on the page and all Microsoft web parts on the page show in this section, then please log a support ticket for the issue to be investigated.
-- **No action required** (green): No web part is taking longer than **2** seconds to return data.
+- **No action required** (green): No web part is taking longer than **two** seconds to return data.
 
 If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, click the result to see details about which web parts are loading slowly. Future updates to the Page Diagnostics for SharePoint Tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
