@@ -25,11 +25,11 @@ This article will help you understand how to optimize images in SharePoint Onlin
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
 
-## Use the Page Diagnostics for SharePoint Tool to analyze image optimization
+## Use the Page Diagnostics for SharePoint tool to analyze image optimization
 
-The **Page Diagnostics for SharePoint Tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint Tool, you can see information about large images in the _Diagnostic tests_ pane.
+When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint tool, you can see information about large images in the _Diagnostic tests_ pane.
 
 Possible results include:
 
@@ -38,7 +38,7 @@ Possible results include:
 
 If the **Large images detected** result appears in the **Attention required** section of the results, you can click the result to see additional details.
 
-![Page Diagnostics Tool results](media/modern-portal-optimization/pagediag-large-images.png)
+![Page Diagnostics tool results](media/modern-portal-optimization/pagediag-large-images.png)
 
 ## Remediate large image issues
 

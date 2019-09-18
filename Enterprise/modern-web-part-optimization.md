@@ -25,11 +25,11 @@ Both SharePoint Online modern portal pages and classic publishing sites contain 
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
 
-## Use the Page Diagnostics for SharePoint Tool to analyze web parts
+## Use the Page Diagnostics for SharePoint tool to analyze web parts
 
-The **Page Diagnostics for SharePoint Tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint Tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
+When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
 
 Possible results include:
 
@@ -37,9 +37,9 @@ Possible results include:
 - **Improvement opportunities** (yellow): Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Results for any Microsoft web parts shown in this section are automatically reported to Microsoft, so no action is required. A future Page Diagnostics tool update will further break down the results based on the configuration of the Microsoft web part. If you are experiencing very slow performance on the page and all Microsoft web parts on the page show in this section, then please log a support ticket for the issue to be investigated.
 - **No action required** (green): No web part is taking longer than **two** seconds to return data.
 
-If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, click the result to see details about which web parts are loading slowly. Future updates to the Page Diagnostics for SharePoint Tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
+If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, click the result to see details about which web parts are loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
-![Page Diagnostics Tool results](media/modern-portal-optimization/pagediag-web-part.png)
+![Page Diagnostics tool results](media/modern-portal-optimization/pagediag-web-part.png)
 
 - **Made by** shows whether the web part is custom or Microsoft OOTB
 - **Name and ID** identifies and helps you find the web part on the page

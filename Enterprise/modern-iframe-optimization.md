@@ -25,11 +25,11 @@ iFrames can be useful for previewing rich content such as videos or other media.
 >[!NOTE]
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
 
-## Use the Page Diagnostics for SharePoint Tool to analyze web parts using iFrames
+## Use the Page Diagnostics for SharePoint tool to analyze web parts using iFrames
 
-The **Page Diagnostics for SharePoint Tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint Tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern portal pages and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
-When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint Tool, you can see information about web parts containing iFrames in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
+When you analyze a SharePoint modern portal page with the Page Diagnostics for SharePoint tool, you can see information about web parts containing iFrames in the _Diagnostic tests_ pane. The baseline metric is the same for modern and classic pages.
 
 Possible results include:
 
@@ -39,11 +39,11 @@ Possible results include:
 
 If the **Web parts using iFrames detected** result appears in either the **Improvement opportunities** or **Attention required)** section of the results, you can click the result to see the web parts that contain iFrames.
 
-![Page Diagnostics Tool results](media/modern-portal-optimization/pagediag-iframe-yellow.png)
+![Page Diagnostics tool results](media/modern-portal-optimization/pagediag-iframe-yellow.png)
 
 ## Remediate iFrame performance issues
 
-Use the **Web parts using iFrames detected** result in the Page Diagnostic Tool to determine which web parts contain iFrames and may be contributing to slow page load times. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
+Use the **Web parts using iFrames detected** result in the Page Diagnostic tool to determine which web parts contain iFrames and may be contributing to slow page load times. Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
 ![Page load time results](media/modern-portal-optimization/pagediag-page-load-time.png)
 
