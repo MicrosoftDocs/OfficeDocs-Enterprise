@@ -20,7 +20,7 @@ If people in your organization need to do anonymous sharing, but you're concerne
 
 ## Turn off Anyone links
 
-If you always want guests to authenticate when accessing content in SharePoint, Groups, or Teams, you can turn off *Anyone* sharing. This will prevent users from sharing content anonymously.
+We recommend leaving *Anyone* links enabled for appropriate content because it's the easiest way to share and can help reduce the risk of users seeking other solutions that are outside the control of your IT department. However, if you always want guests to authenticate when accessing content in SharePoint, Groups, or Teams, you can turn off *Anyone* sharing. This will prevent users from sharing content anonymously.
 
 If you disable *Anyone* links, users can still easily share with guests using *Specific people* links. In this case, all guests will be required to authenticate before they can access the shared content.
 

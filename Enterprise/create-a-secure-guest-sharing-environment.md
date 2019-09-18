@@ -26,6 +26,8 @@ This scenario includes:
 - Automatically assigning a *highly confidential* label to documents that contain the sensitive information type.
 - Automatically removing guest access from files labeled as *highly confidential*.
 
+Some of the options discussed in this article require guests to have an account in Azure Active Directory. To ensure that guests are included in the directory when you share files and folders with them, use the [SharePoint and OneDrive integration with Azure AD B2B Preview](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
+
 Note that we won't discuss enabling guest sharing settings in this article. See [Collaborating with people outside your organization](https://docs.microsoft.com/Office365/Enterprise/collaborating-with-people-outside-your-organization) for details about enabling guest sharing for different scenarios.
 
 ## Set up multi-factor authentication for guests
