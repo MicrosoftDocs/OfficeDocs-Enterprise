@@ -3,7 +3,7 @@ title: "Federated identity for your Office 365 dev/test environment"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/09/2018
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -83,11 +83,14 @@ To create an Azure virtual machine for ADFS1, fill in the name of your subscript
 ```
 $subscrName="<your Azure subscription name>"
 $rgName="<the resource group name of your Base Configuration>"
+$vnetName="TlgBaseConfig-01-VNET"
+# NOTE: If you built your simulated intranet with Azure PowerShell, comment the previous line with a "#" and remove the "#" from the next line.
+#$vnetName="TestLab"
 Connect-AzAccount
 Select-AzSubscription -SubscriptionName $subscrName
 $staticIP="10.0.0.100"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
-$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
 $pip = New-AzPublicIpAddress -Name ADFS1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
 $nic = New-AzNetworkInterface -Name ADFS1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress $staticIP
 $vm=New-AzVMConfig -VMName ADFS1 -VMSize Standard_D2_v2
@@ -131,9 +134,12 @@ To create an Azure virtual machine for PROXY1, fill in the name of your resource
   
 ```
 $rgName="<the resource group name of your Base Configuration>"
+$vnetName="TlgBaseConfig-01-VNET"
+# NOTE: If you built your simulated intranet with Azure PowerShell, comment the previous line with a "#" and remove the "#" from the next line.
+#$vnetName="TestLab"
 $staticIP="10.0.0.101"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
-$vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
+$vnet=Get-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName
 $pip = New-AzPublicIpAddress -Name PROXY1-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Static
 $nic = New-AzNetworkInterface -Name PROXY1-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id -PrivateIpAddress $staticIP
 $vm=New-AzVMConfig -VMName PROXY1 -VMSize Standard_D2_v2
