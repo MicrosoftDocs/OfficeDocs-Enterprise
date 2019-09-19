@@ -3,7 +3,7 @@ title: "Use the Page Diagnostics tool for SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/18/2019
+ms.date: 9/19/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -14,21 +14,20 @@ search.appverid:
 - SPO160
 - MOE150
 - BSA160
-description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint Online modern portal and classic publishing pages against a pre-defined set of performance criteria."
+description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint Online modern and classic site pages against a pre-defined set of performance criteria."
 ---
 
 # Use the Page Diagnostics for SharePoint tool
 
-This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze your **SharePoint Online* modern and classic  site pages against a pre-defined set of performance criteria.  
+This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze **SharePoint Online** modern and classic site pages against a pre-defined set of performance criteria.  
 
-**Note that version 2.0.1 of the tool has been released**. The new version includes support for modern pages in addition to classic  site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version.
+**Note that version 2.0.1 of the tool has been released**. The new version includes support for modern pages in addition to classic site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version.
 
-The Page Diagnostics for SharePoint tool is a browser extension for Chrome and [Microsoft Edge version 77 and later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) that analyzes both SharePoint Online modern portal and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria, which may differ between modern and classic site pages. SharePoint Online administrators and designers can use the tool to troubleshoot performance issues and to ensure that new pages are optimized prior to publishing.
+The Page Diagnostics for SharePoint tool is a browser extension for Chrome and [Microsoft Edge version 77 and later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) that analyzes both SharePoint Online modern portal and classic publishing site pages. This tool only works for SharePoint Online, and will fail with an error if used on a SharePoint Server site page.
 
->[!NOTE]
->Classic team sites that don't have the publishing feature enabled cannot make use of CDNs, but all of the remaining rules are applicable. The publishing feature adds additional overhead and can increase page load times, so it should not be enabled just to allow CDN functionality.
+The tool generates a report for each analyzed page showing how the page performs against a pre-defined set of rules and displays detailed information when results for a test fall outside the baseline value. SharePoint Online administrators and designers can use the tool to troubleshoot performance issues and to ensure that new pages are optimized prior to publishing.
 
-The Page Diagnostics tool is designed to review SharePoint site pages and not system pages like *allitems.aspx* or *sharepoint.aspx* page. If you attempt to run the tool on a system page, you will receive an error message advising that it cannot be run for that type of page.
+The Page Diagnostics tool is designed to analyze SharePoint site pages only, not system pages such as *allitems.aspx* or *sharepoint.aspx*. If you attempt to run the tool on a system page or any other non-site page, you will receive an error message advising that the tool cannot be run for that type of page.
 
 ![Must run on a SharePoint page](media/page-diagnostics-for-spo/pagediag-Error-StartPage.png)
 
@@ -97,8 +96,11 @@ The information in the Diagnostics tests tab will not tell you how to design pag
 
 Red or yellow results may also indicate web parts that refresh data too frequently. For example, corporate news is not updated every second but custom web parts are often built to fetch the latest news every second instead of implementing caching elements that could improve the overall user experience. Keep in mind when including web parts on a page that there are often simple ways to reduce their performance impact by evaluating the value of each available parameter to ensure it is set appropriately for its intended purpose.
 
+>[!NOTE]
+>Classic team sites that don't have the publishing feature enabled cannot make use of CDNs. When you run the tool on these sites, the CDN test is expected to fail and can be ignored, but all of the remaining tests are applicable. The additional functionality of the SharePoint publishing feature can increase page load times, so it should not be enabled just to allow CDN functionality.
+
 >[!IMPORTANT]
->The rules are updated regularly so please refer to the latest version of the tool for the details of those rules. You can verify the version by managing your extensions and the extension will advise whether an update is available.
+>Test rules are added and updated regularly so please refer to the latest version of the tool for details about current rules and specific information included in test results. You can verify the version by managing your extensions and the extension will advise whether an update is available.
 
 ## How to use the Network Trace tab
 
