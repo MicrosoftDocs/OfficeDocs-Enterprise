@@ -12,7 +12,7 @@ description: "Learn how to collaborate with guests on a document in SharePoint a
 
 # Collaborate with guests on a document
 
-If you need to collaborate with guests on documents in SharePoint or OneDrive, you can send them a sharing link to the document. In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up sharing links for SharePoint and OneDrive.
+If you need to collaborate with guests on documents in SharePoint or OneDrive, you can send them a sharing link to the document. In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up sharing links for SharePoint and OneDrive for the needs of your organization.
 
 ## Azure Organizational relationships settings
 
