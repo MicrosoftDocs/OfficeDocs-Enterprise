@@ -238,7 +238,7 @@
 ### [Managing ExpressRoute](managing-expressroute-for-connectivity.md)
 
 # Service assurance
-## [Service assurance in the Office 365 Security & Compliance Center](service-assurance.md)
+## [Service assurance in the Office 365 Security & Compliance Center](\microsoft-365\compliance\service-assurance.md)
 ## [Administrative Access Controls in Office 365](office-365-administrative-access-controls-overview.md)
 ### [Monitoring and Auditing Access Controls](office-365-monitoring-and-auditing-access-controls.md)
 ### [Office 365 Isolation Controls](office-365-isolation-controls.md)
@@ -266,10 +266,10 @@
 ### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
 ### [Core Principles of Defense Against Denial-of-Service Attacks](office-365-core-principles-of-defense-against-dos-attacks.md)
 ## [Encryption in the Microsoft Cloud](\microsoft-365\compliance\office-365-encryption-in-the-microsoft-cloud-overview.md)
-### [Office 365 Service Encryption](office-365-service-encryption.md)
+### [Office 365 Service Encryption](\microsoft-365\compliance\office-365-service-encryption.md)
 ### [Encryption for Data in Transit](\microsoft-365\compliance\office-365-encryption-for-data-in-transit.md)
 ### [Customer-Managed Encryption Features](\microsoft-365\compliance\office-365-customer-managed-encryption-features.md)
-### [Encryption Risks and Protections](office-365-encryption-risks-and-protections.md)
+### [Encryption Risks and Protections](\microsoft-365\compliance\office-365-encryption-risks-and-protections.md)
 ### [Encryption for Skype for Business, OneDrive for Business, SharePoint Online, and Exchange Online](\microsoft-365\compliance\office-365-encryption-for-skype-onedrive-sharepoint-and-exchange.md)
 ### [Encryption in Microsoft Dynamics 365](\microsoft-365\compliance\office-365-encryption-in-microsoft-dynamics-365.md)
 ### [Encryption in Azure](\microsoft-365\compliance\office-365-azure-encryption.md)
