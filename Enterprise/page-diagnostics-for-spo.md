@@ -14,7 +14,7 @@ search.appverid:
 - SPO160
 - MOE150
 - BSA160
-description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint Online modern and classic site pages against a pre-defined set of performance criteria."
+description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint Online modern portal and classic publishing pages against a pre-defined set of performance criteria."
 ---
 
 # Use the Page Diagnostics for SharePoint tool
