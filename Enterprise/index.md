@@ -287,6 +287,8 @@ ms.author: robmazz
                     <div class="cardText">
                         <h3>Microsoft 365</h3>
                         <p><a href="https://docs.microsoft.com/microsoft-365">Learn more about Microsoft 365.</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/compliance/">Learn more about Microsoft 365 compliance.</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/">Learn more about Microsoft 365 security.</a></p>
                     </div>
                 </div>
             </div>
