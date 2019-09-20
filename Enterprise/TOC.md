@@ -283,6 +283,7 @@
 ### [Tenant Isolation in the Office Graph and Delve](office-365-isolation-in-graph-and-delve.md)
 
 # [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
-# [Security & Compliance](https://docs.microsoft.com/Office365/SecurityCompliance)
+# [Microsoft 365 Compliance](https://docs.microsoft.com/microsoft-365/compliance/)
+# [Microsoft 365 Security](https://docs.microsoft.com/microsoft-365/security/)
 # [Office 365 for Business](https://docs.microsoft.com/office365/admin/admin-home)
 # [Microsoft 365](https://docs.microsoft.com/microsoft-365)
