@@ -238,7 +238,7 @@
 ### [Managing ExpressRoute](managing-expressroute-for-connectivity.md)
 
 # Service assurance
-## [Service assurance in the Office 365 Security & Compliance Center](\microsoft-365\compliance\service-assurance.md)
+## [Service assurance in the Office 365 Security & Compliance Center](https://docs.microsoft.com/microsoft-365/compliance/service-assurance)
 ## [Administrative Access Controls in Office 365](office-365-administrative-access-controls-overview.md)
 ### [Monitoring and Auditing Access Controls](office-365-monitoring-and-auditing-access-controls.md)
 ### [Office 365 Isolation Controls](office-365-isolation-controls.md)
