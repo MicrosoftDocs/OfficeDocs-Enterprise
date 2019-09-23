@@ -67,8 +67,8 @@ After you have explored your upgrade options, your next step is to prepare an up
   
 |**Option**|**In the cloud or on-premises?**|
 |:-----|:-----|
-|[Excel](#use-excel-with-excel-online-in-the-cloud-or-on-premises) <br/> |Both  <br/> |
-|[Power BI](#use-power-bi-in-the-cloud-or-on-premises) <br/> |Both  <br/> |
+|[Excel](#excel-with-sharepoint-server-on-premises) <br/> |Both  <br/> |
+|[Power BI](#use-power-bi-in-the-cloud-or on-premises) <br/> |Both  <br/> |
 |[Reporting Services](#use-reporting-services-on-premises) <br/> |On-premises only  <br/> |
 |[PerformancePoint Services](#use-performancepoint-services-on-premises) <br/> |On-premises only  <br/> |
    
