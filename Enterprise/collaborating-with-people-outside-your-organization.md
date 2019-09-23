@@ -18,4 +18,10 @@ By default, in Microsoft 365, guest sharing is enabled for SharePoint and OneDri
 - [Collaborate in a site](collaborate-in-a-site.md) - Learn how to configure Microsoft 365 to enable sharing SharePoint sites with guests.
 - [Collaborate as a team](collaborate-as-a-team.md) - Learn how to configure Microsoft 365 to enable guest collaboration in Teams.
 
+## See Also
 
+[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+
+[Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
+
+[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md))
