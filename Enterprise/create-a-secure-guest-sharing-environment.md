@@ -32,7 +32,7 @@ Note that we won't discuss enabling guest sharing settings in this article. See 
 
 ## Set up multi-factor authentication for guests
 
-Multi-factor authentication greatly reduces the chances of an account being compromised. Since guest users may be using personal email accounts that don't adhere to any governance policies or best practices, it is especially important to require multi-factor authentication for guests. If a guest user's username and password is stolen, requiring a second factor of authentication greatly reduces the chances of unknown parties gaining access to your sites and files.
+Multi-factor authentication greatly reduces the chances of an account being compromised. Since guest users may be using personal email accounts that don't adhere to any governance policies or best practices, it's especially important to require multi-factor authentication for guests. If a guest user's username and password is stolen, requiring a second factor of authentication greatly reduces the chances of unknown parties gaining access to your sites and files.
 
 In this example, we'll set up multi-factor authentication for guests by using a conditional access policy in Azure Active Directory.
 
@@ -46,7 +46,7 @@ To set up multi-factor authentication for guests
 5. On the **Grant** blade, select the **Require multi-factor authentication** check box, and then click **Select**.
 6. On the **New** blade, under **Enable policy**, click **On**, and then click **Create**.
 
-Now, guest will be required to enrol in multi-factor authentication before they can access shared content, sites, or teams.
+Now, guest will be required to enroll in multi-factor authentication before they can access shared content, sites, or teams.
 
 ### More information
 
@@ -93,7 +93,7 @@ Now, the first time a guest user attempts to access content or a team or site in
 
 ## Set up guest access reviews
 
-With access reviews in Azure AD, you can automate a periodic review of user access to various teams and groups. By requiring an access review for guests specifically, you can help ensure that guest users do not retain access to your organization's sensitive information for longer than is necessary.
+With access reviews in Azure AD, you can automate a periodic review of user access to various teams and groups. By requiring an access review for guests specifically, you can help ensure guest users do not retain access to your organization's sensitive information for longer than is necessary.
 
 Access reviews can be organized into programs. A program is a grouping of similar access reviews that can be used to organize access reviews for reporting and auditing purposes.
 
@@ -124,7 +124,7 @@ To set up a guest user access review
 
 A separate access review is created for each group that you specify. Group owners of each groups will be emailed quarterly to approve or deny guest access to their groups.
 
-It's important to note that guests can be given access to teams or groups, or to individual files and folders. When given access to files and folders, guests may not be added to any particular group. If you want to perform access reviews on guest users who don't belong to a team or group, you can create a dynamic group in Azure AD to contain all guests and then create an access review for that group.
+It's important to note that guests can be given access to teams or groups, or to individual files and folders. When given access to files and folders, guests may not be added to any particular group. If you want to do access reviews on guest users who don't belong to a team or group, you can create a dynamic group in Azure AD to contain all guests and then create an access review for that group.
 
 ### More information
 [Manage guest access with Azure AD access reviews](https://docs.microsoft.com/azure/active-directory/governance/manage-guest-access-with-access-reviews)
@@ -157,7 +157,7 @@ To restrict guests to web-ony access
 
 ## Configure a session timeout for guest users
 
-Requiring guests to authenticate on a regular basis can reduce the possibility of unknown users accessing your organization's content if a guest user's device is not kept secure. You can configure a session timeout conditional access policy for guest users in Azure AD.
+Requiring guests to authenticate on a regular basis can reduce the possibility of unknown users accessing your organization's content if a guest user's device isn't kept secure. You can configure a session timeout conditional access policy for guest users in Azure AD.
 
 To configure a guest session timeout policy
 1. In Microsoft Azure, search for *Conditional access*.
@@ -230,7 +230,7 @@ To publish labels
 8. On the **Policy settings** page, type *Document sensitivity* for the name, and then click **Next**.
 9. Click **Publish**.
 
-With the labels published, they are available to users of Office desktop apps. When users apply the **Highly Confidential** label, a watermark is automatically added to the document.
+With the labels published, they're available to users of Office desktop apps. When users apply the **Highly Confidential** label, a watermark is automatically added to the document.
 
 ### More information
 [Overview of sensitivity labels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)
@@ -255,7 +255,7 @@ To create a sensitive information type
 
 ## Create a policy to assign a label based on a sensitive information type
 
-Once the sensitive information type is created, we can create a file policy in Microsoft Cloud App Security to automatically apply the *Highly Confidential* label to documents that contain the *Project Saturn* string.
+Once the sensitive information type is created, we can create a file policy in Microsoft Cloud App Security to apply the *Highly Confidential* label to documents that contain the *Project Saturn* string automatically.
 
 > [!NOTE]
 > There is a replication process that makes sensitivity labels available in Cloud App Security. You may not see the label available for a policy right away.
@@ -282,9 +282,9 @@ With the policy in place, when a user types "Project Saturn" into a document, Cl
 
 ## Create a policy to remove guest access to highly confidential files
 
-In the example in this article, files with the *Highly Confidential* label should not be shared with guests. We can create a file policy in Cloud App Security that automatically removes guest access from files with that label.
+In the example in this article, files with the *Highly Confidential* label shouldn't be shared with guests. We can create a file policy in Cloud App Security that automatically removes guest access from files with that label.
 
-Note that this does not prevent users from sharing or re-sharing these files. You are still reliant on your users to follow your governance policies for files that are stored in sites that allow guest sharing. However, this can be a useful mechanism for removing guest access from files that had confidential information added to them after they were shared with guests.
+Note that this doesn't prevent users from sharing or re-sharing these files. You're still reliant on your users to follow your governance policies for files that are stored in sites that allow guest sharing. However, this can be a useful tool for removing guest access from files that had confidential information added to them after they were shared with guests.
 
 To create a label-based file policy
 1. Open [Microsoft Cloud App Security](https://portal.cloudappsecurity.com).
@@ -302,7 +302,7 @@ To create a label-based file policy
 12. For the custom notification message, type *This file is highly confidential. Company policy prohibits sharing it with guests*.
 13. Click **Create**.
 
-It's important to note, that this policy removes access for files shared using a *Specific people* link. It does not remove access from anonymous (*Anyone*) links. It also does not remove access if the guest is a member of the site or team as a whole. If you plan to have highly confidential documents in a site or team with guest members, consider using [private channels in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) and only allowing members of your organization in the private channels.
+It's important to note, that this policy removes access for files shared using a *Specific people* link. It doesn't remove access from anonymous (*Anyone*) links. It also doesn't remove access if the guest is a member of the site or team as a whole. If you plan to have highly confidential documents in a site or team with guest members, consider using [private channels in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) and only allowing members of your organization in the private channels.
 
 ## Test the solution
 

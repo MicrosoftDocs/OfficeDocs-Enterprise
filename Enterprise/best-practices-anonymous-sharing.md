@@ -12,7 +12,7 @@ description: "Learn best practices for sharing files and folders with anonymous 
 
 # Best practices for sharing files and folders with anonymous users
 
-Anonymous sharing (*Anyone* links) can be very convenient and is useful in a variety of scenarios. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
+Anonymous sharing (*Anyone* links) can be convenient and is useful in various scenarios. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
 
 Usually, not all content in an organization is appropriate for anonymous sharing. This article covers the options available to help you create an environment where your users can share files and folders anonymously, but where there are safeguards in place to help protect your organization's content.
 
@@ -73,7 +73,7 @@ To turn on safe attachments
 
 ## Add copyright information to your files
 
-If you use sensitivity labels in the Microsoft 365 Compliance admin center, you can configure your labels to automatically add a watermark or a header or footer to your organization's Office documents. In this way, you can make sure that shared files contain copyright or other ownership information.
+If you use sensitivity labels in the Microsoft 365 Compliance admin center, you can configure your labels to add a watermark or a header or footer automatically to your organization's Office documents. In this way, you can make sure that shared files contain copyright or other ownership information.
 
 To add a footer to a labeled file
 1. Open the [Microsoft 365 compliance admin center](https://compliance.microsoft.com).
