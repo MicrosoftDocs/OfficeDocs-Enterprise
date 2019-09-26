@@ -156,3 +156,10 @@ To invite guests to a team
 
 ## See Also
 
+[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+
+[Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
+
+[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md))
+
+
