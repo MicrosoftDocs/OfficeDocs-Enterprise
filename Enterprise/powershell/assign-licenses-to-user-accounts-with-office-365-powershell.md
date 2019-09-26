@@ -146,7 +146,7 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
   
 Next, get the sign-in name of the user account for which you want switch subscriptions, also known as the user principal name (UPN).
 
-Next, list the license plans for your tenant with this command.
+Next, list the subscriptions (license plans) for your tenant with this command.
 
 ```
 Get-AzureADSubscribedSku | Select SkuPartNumber
@@ -161,7 +161,7 @@ $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty Assigned
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
 ```
 
-Identify the license plan (subscription) the user currently has (the FROM subscription) and the subscription to which the user is moving (the TO subscription).
+Identify the subscription the user currently has (the FROM subscription) and the subscription to which the user is moving (the TO subscription).
 
 Finally, specify the TO and FROM subscription names (SKU part numbers) and run these commands.
 
