@@ -155,7 +155,7 @@ Get-AzureADSubscribedSku | Select SkuPartNumber
 Next, list the subscriptions that the user account currently has with these commands.
 
 ```
-$userUPN=”<user account UPN>”
+$userUPN="<user account UPN>"
 $licensePlanList = Get-AzureADSubscribedSku
 $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty AssignedLicenses | Select SkuID 
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
