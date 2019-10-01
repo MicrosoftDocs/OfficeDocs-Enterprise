@@ -53,4 +53,25 @@ An example of a supported limit is the number of site collections per farm. The 
   
 It is important to be aware that many of the limit values that are provided in this document represent a point in a curve that describes an increasing resource load and concomitant decrease in performance as the value increases. Therefore, exceeding certain limits, such as the number of site collections per web application, may only result in a fractional decrease in farm performance. However, in most cases, operating at or near an established limit is not a best practice, as acceptable performance and reliability targets are best achieved when a farm's design provides for a reasonable balance of limits values.
   
-Thresholds and supported limits guidelines are determined by performance. In other words, you can exceed the default values of the limits, but as you increase the limit value, farm performance and the effective value of other limits may be affected. Many limits in SharePoint Server 2016 can be changed, but it is important to understand how changing a given limit affects other parts of the farm.
+Thresholds and supported limits guidelines are determined by performance. In other words, you can exceed the default values of the limits, but as you increase the limit value, farm performance and the effective value of other limits may be affected. Many limits in SharePoint Online can be changed, but it is important to understand how changing a given limit affects other parts of the farm.
+
+## Limits and boundaries
+<a name="Limits"> </a>
+
+This section lists the objects that can be a part of a solution and provides guidelines for acceptable performance for each kind of object. Acceptable performance means that the system as tested can support that number of objects, but that the number cannot be exceeded without some decrease in performance or a reduction in the value of related limits. Objects are listed both by scope and by feature. Limits data is provided, together with notes that describe the conditions under which the limit is obtained and links to additional information where available.
+  
+Use the guidelines in this article to review your overall solution plans. If your solution plans exceed the recommended guidelines for one or more objects, take one or more of the following actions:
+  
+- Evaluate the solution to ensure that compensations are made in other areas.
+- Flag these areas for testing and monitoring as you build your deployment.
+- Redesign or partition the solution to ensure that you do not exceed capacity guidelines.
+
+|**Limit**|**Maximum value**|**Limit type**|**Notes**|
+|:-----|:-----|:-----|:-----|
+|News/Pages  <br/> |5,000  <br/> |Supported  <br/> |We recommended limiting the number of pages in a modern portal site as much as possible.  <br/> |
+|Web parts on a page  <br/> |20  <br/> |Supported  <br/> |  <br/> |
+|Dynamic web parts on a page  <br/> |4  <br/> |Supported  <br/> |  <br/> |
+|Security groups  <br/> |20  <br/> |Supported  <br/> |  <br/> |
+|Items in the navigation bar  <br/> |100  <br/> |Supported  <br/> |  <br/> |
+|Images in the main window  <br/> |5  <br/> |Supported  <br/> |  <br/> |
+|Maximum image size  <br/> |100  <br/> |Supported  <br/> |  <br/> |
