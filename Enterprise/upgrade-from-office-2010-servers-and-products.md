@@ -3,7 +3,7 @@ title: "Resources to help you upgrade from Office 2010 servers and clients"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/04/2019
+ms.date: 09/16/2019
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -25,11 +25,7 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
-Note that:
-
-- Exchange Server 2010 will reach its end of support on **January 14, 2020**. 
-
-- Office 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. 
+Office 2010, Exchange Server 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. 
 
 While you're planning your upgrade, this is a great time to consider moving to Office 365 or Microsoft 365. 
 
@@ -50,7 +46,7 @@ You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/
 |**For this product**|**With this end of support date**|**See this resource**|
 |:-----|:-----|:-----|
 |Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> | October 13, 2020 |[Office 2010 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) <br/> |
-|Exchange Server 2010  <br/> | January 14, 2020  |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
+|Exchange Server 2010  <br/> | October 13, 2020  |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
 |SharePoint 2010 or SharePoint Server 2010  <br/> | October 13, 2020 |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
 |Project Server 2010 <br/> | October 13, 2020 | [Project Server 2010 end of support roadmap](project-server-2010-end-of-support.md) <br/> |
 |Lync Server 2010 <br/> | April 13, 2021 | [Plan to upgrade to Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) <br/> |
