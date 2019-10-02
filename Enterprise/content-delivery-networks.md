@@ -3,7 +3,7 @@ title: "Content delivery networks"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/2/2019
+ms.date: 10/2/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -45,9 +45,7 @@ CDNs help to improve cloud service performance in several ways:
 The built-in Office 365 Content Delivery Network (CDN) allows Office 365 administrators to provide better performance for their organization's SharePoint Online pages by caching static assets closer to the browsers requesting them, which helps to speed up downloads and reduce latency. The Office 365 CDN uses the [HTTP/2 protocol](https://en.wikipedia.org/wiki/HTTP/2) for improved compression and download speeds.
 
 > [!NOTE]
-> Restrictions for use of the Office 365 CDN:
-> + The Office 365 CDN is only available to tenants in the **Production** (worldwide) cloud. Tenants in the US Government, China and Germany clouds do not currently support the Office 365 CDN.
-> + The Office 365 CDN does not currently support tenants configured with custom or "vanity" domains. If you have added a domain to your tenant using the instructions in the topic [Add a domain to Office 365](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain?view=o365-worldwide), the Office 365 CDN will return errors when you try to access content from the CDN.
+> The Office 365 CDN is only available to tenants in the **Production** (worldwide) cloud. Tenants in the US Government, China and Germany clouds do not currently support the Office 365 CDN.
 
 The Office 365 CDN is composed of multiple CDNs that allow you to host static assets in multiple locations, or _origins_, and serve them from global high-speed networks. Depending on the kind of content you want to host in the Office 365 CDN, you can add **public** origins, **private** origins or both.
 
@@ -60,6 +58,8 @@ Content in **public** origins within the Office 365 CDN is accessible anonymousl
 The Office 365 CDN service is included as part of your SharePoint Online subscription.
 
 For more information about how to use the Office 365 CDN, see [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo).
+
+To watch a series of short videos that provide conceptual and HOWTO information about using the Office 365 CDN, visit the [SharePoint Developer Patterns and Practices YouTube channel](https://aka.ms/sppnp-videos).
 
 ## Other Microsoft CDNs
 
@@ -191,3 +191,5 @@ Here's a short link you can use to come back: [https://aka.ms/o365cdns](https://
 [Use the Office 365 content delivery network with SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/use-office-365-cdn-with-spo)
 
 [Microsoft Trust Center](https://www.microsoft.com/trustcenter)
+
+[Tune Office 365 performance](tune-office-365-performance.md)
