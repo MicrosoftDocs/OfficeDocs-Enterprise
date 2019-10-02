@@ -3,7 +3,7 @@ title: "Tune SharePoint Online performance"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/17/2019
+ms.date: 10/2/2019
 audience: Admin
 ms.topic: troubleshooting
 ms.service: o365-administration
@@ -20,7 +20,7 @@ description: "Contains links to other articles that tell you how to improve perf
 # Tune SharePoint Online performance
 
 This article contains links to other articles that tell you how to improve performance of page download times for SharePoint Online. This article is part of the [Network planning and performance tuning for Office 365](https://aka.ms/tune) project.
-   
+
 ## Articles about fine tuning SharePoint Online performance
 
 Use these articles to fine tune SharePoint Online performance.
@@ -41,7 +41,7 @@ Use these articles to fine tune SharePoint Online performance.
 
 - [Using content delivery networks](using-content-delivery-networks-with-sharepoint-online.md)
 
-- [General availability of Office 365 CDN](https://dev.office.com/blogs/general-availability-of-office-365-cdn)
+- [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](use-office-365-cdn-with-spo.md)
 
 - [Using Content Search Web Part instead of Content Query Web Part to improve performance in SharePoint Online](using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md)
 
@@ -60,3 +60,5 @@ Use these articles to fine tune SharePoint Online performance.
 - [Optimize page calls in SharePoint Online modern portal pages](modern-page-call-optimization.md)
 
 - [Optimize page weight in SharePoint Online modern portal pages](modern-page-weight-optimization.md)
+
+- [Optimize images in SharePoint Online modern portal pages](modern-image-optimization.md)
