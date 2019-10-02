@@ -155,7 +155,7 @@ The attributes that you need to prepare are listed here:
 
 See [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md) to use the IdFIx tool to identify errors in the attributes of your AD DS.
     
-## 2. Prepare the userPrincipalName attribute
+## 3. Prepare the userPrincipalName attribute
 
 Active Directory is designed to allow the end users in your organization to sign in to your directory by using either **sAMAccountName** or **userPrincipalName**. Similarly, end users can sign in to Office 365 by using the user principal name (UPN) of their work or school account. Directory synchronization attempts to create new users in Azure Active Directory by using the same UPN that's in your AD DS. The UPN is formatted like an email address. 
 

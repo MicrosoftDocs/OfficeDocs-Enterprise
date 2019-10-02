@@ -145,7 +145,7 @@ The following table describes how you can combine multiple Microsoft cloud offer
 |**Intune/EMS** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |NA  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
 |**Dynamics 365** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |NA  <br/> |
    
-An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the Office 365 Admin center:
+An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the admin center:
   
 1. Sign in to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)) with your global administrator account.
     
@@ -153,7 +153,7 @@ An easy way to add subscriptions to your organization for Microsoft SaaS-based s
     
 3. On the **Purchase services** page, purchase your new subscriptions.
     
-The Office 365 Admin center assigns the organization and Azure AD tenant of your Office 365 subscription to the new subscriptions for SaaS-based cloud offerings.
+The admin center assigns the organization and Azure AD tenant of your Office 365 subscription to the new subscriptions for SaaS-based cloud offerings.
   
 To add an Azure subscription with the same organization and Azure AD tenant as your Office 365 subscription:
   
@@ -163,8 +163,8 @@ To add an Azure subscription with the same organization and Azure AD tenant as y
     
 3. On the **Add subscription** page, select an offer and complete the payment information and agreement.
     
-If you purchased Azure and Office 365 subscriptions separately and want to access the Office 365 Azure AD tenant from your Azure subscription, see the instructions in [Associate an Office 365 tenant with an Azure subscription](https://channel9.msdn.com/Series/Microsoft-Azure-Tutorials/Associate-an-Office-365-tenant-with-an-Azure-subscription).
-  
+If you purchased Azure and Office 365 subscriptions separately and want to access the Office 365 Azure AD tenant from your Azure subscription, see the instructions in [Associate or add an Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+ 
 ## See Also
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)

@@ -3,7 +3,7 @@ title: "Exchange 2010 end of support roadmap"
 ms.author: dstrome
 author: dstrome
 manager: laurawi
-ms.date: 1/31/2018
+ms.date: 09/16/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -15,14 +15,13 @@ description: "Exchange 2010 is nearing end of support. Use this planning roadmap
 
 # Exchange 2010 end of support roadmap
 
-On **January 14, 2020**, Exchange Server 2010 will reach end of support. If you haven't already begun your migration from Exchange 2010 to Office 365 or
-Exchange 2016, now's the time to start your planning.
+On **October 13, 2020**, Exchange Server 2010 will reach end of support. If you haven't already begun your migration from Exchange 2010 to Office 365 or Exchange 2016, now's the time to start your planning.
 
 ## What does end of support mean?
 
 Exchange Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, security fixes, and so on. This
 lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support.
-When Exchange 2010 reaches its end of support on January 14, 2020, Microsoft will no longer provide:
+When Exchange 2010 reaches its end of support on October 13, 2020, Microsoft will no longer provide:
 
 - Technical support for problems that may occur;
 - Bug fixes for issues that are discovered and that may impact the stability and usability of the server;
@@ -43,11 +42,15 @@ With Exchange 2010 reaching its end of support, this is a great time to explore 
 > [!IMPORTANT]
 > If your organization chooses to migrate mailboxes to Office 365 but intends to keep DirSync or Azure AD Connect in place to continue managing user accounts from on-premises Active Directory, you need to keep at least one Exchange server on-premises. If the last Exchange server is removed, you won’t be able to make changes to Exchange recipients in Exchange Online. This is because the source of authority remains in your on-premises Active Directory and changes need to be made there. In this scenario, you have the following options:
 
-- (**Recommended**) If you can migrate your mailboxes to Office 365 and upgrade your servers by January 14, 2020, use Exchange 2010 to connect to Office 365 and migrate mailboxes. Next, migrate Exchange 2010 to Exchange 2016 and decommission any remaining Exchange 2010 servers.
-- If you can’t complete the mailbox migration and on-premises server upgrade by January 14, 2020, upgrade your on-premises Exchange 2010 servers to Exchange 2016 first, then use Exchange 2016 to connect to Office 365 and migrate mailboxes.
+- (**Recommended**) If you can migrate your mailboxes to Office 365 and upgrade your servers by October 13, 2020, use Exchange 2010 to connect to Office 365 and migrate mailboxes. Next, migrate Exchange 2010 to Exchange 2016 and decommission any remaining Exchange 2010 servers.
+- If you can’t complete the mailbox migration and on-premises server upgrade by October 13, 2020, upgrade your on-premises Exchange 2010 servers to Exchange 2016 first, then use Exchange 2016 to connect to Office 365 and migrate mailboxes.
 
 > [!NOTE]
 > While a little more complicated, you may also migrate mailboxes to Office 365 while migrating your on-premises Exchange 2010 servers to Exchange 2016.
+
+Here are the three paths you can take to avoid the end of support for Exchange Server 2010.
+
+![Exchange Server 2010 upgrade paths](./media/exchange-2010-end-of-support/exchange-2010-end-of-support-options.png)
 
 The following sections explore each option in more detail.
 
@@ -311,6 +314,16 @@ You can use the following resources to help you with your migration:
 - System requirements for Exchange [2016](https://technet.microsoft.com/en-us/library/aa996719%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/en-us/library/aa996719%28v=exchg.150%29.aspx)
 - Prerequisites for Exchange [2016](https://technet.microsoft.com/en-us/library/bb691354%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/en-us/library/bb691354%28v=exchg.150%29.aspx)
 
+## Summary of options for Office 2010 client and servers and Windows 7
+
+For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
+
+![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+
+This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
+
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+      
 ## What if I need help?
 
 If you're migrating to Office 365, you might be eligible to use our Microsoft

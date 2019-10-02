@@ -19,6 +19,7 @@ ms.assetid: eb15194b-63ec-41b0-8d90-1823d3f558e4
 description: "This article is for administrators. Did a user permanently delete items from their Outlook mailbox? The user wants them back but can't recover them. You may be able recover the purged items if they haven't been permanently removed from the user's mailbox. "
 ---
 
+<a name="__top"></a>
 # Recover deleted items in a user mailbox - Admin Help
 
 **This article is for administrators. Are you trying to recover deleted items in your own mailbox?** Try one of the following:
@@ -43,7 +44,7 @@ The first step is to assign yourself the necessary permissions in Exchange Onlin
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
-3. In the left navigation in the Office 365 admin center, expand **Admin centers**, and then click **Exchange**.
+3. In the left navigation in the Microsoft 365 admin center, expand **Admin centers**, and then click **Exchange**.
     
     ![Admin center list](media/7d308eb7-ba63-4156-a845-3770facc5de4.PNG)
   
@@ -80,7 +81,7 @@ When you run an In-Place eDiscovery search, the Recoverable Items folder in the 
     
 2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
-3. In the left navigation in the Office 365 admin center, expand **Admin**, and then click **Exchange**.
+3. In the left navigation in the Microsoft 365 admin center, expand **Admin**, and then click **Exchange**.
     
 4. In the Exchange admin center, click **Compliance management**, click **In-Place eDiscovery &amp; Hold**, and then click **New**![Add icon](media/8ee52980-254b-440b-99a2-18d068de62d3.gif).
     
@@ -114,10 +115,10 @@ When you run an In-Place eDiscovery search, the Recoverable Items folder in the 
 |![Number 4 in a pink circle.](media/1a0ff2ce-0942-405a-94e3-9bfeb1e5059e.png)           <br/> |Search for messages received from or sent to specific people.  <br/> |
 |![Number five in a pink circle.](media/878cc815-0165-49ba-a1ee-9236e5980403.png)           <br/> |Search for all message types or select specific ones.  <br/> |
    
-    > [!TIP]
-    >  Here's a few tips about how to build a search query to find missing items. Try to get as much information from the user to help you create a search query so you can find what you're looking for. >  If you not sure how to find a missing message, consider using the **Include all content** option. The search results will include all items in the user's Recoverable Items folder, including the hidden folder (called the Purges folder) that contain items that have been purged by the user. Then you can go to Step 3, copy the results to a discovery mailbox, and look at the message in the hidden folder. >  If you know approximately when the missing message was originally sent or received by the user, use the **Specify start date** and **Specify end date** options to provide a date range. This will return all messages sent or received by the user within that date range. Specifying a date range is a really good way to narrow the search results. >  If you know who sent the missing email, use the **From** box to specify this sender. >  If you want to narrow the search results to different types of mailbox items, click **Select message types**, click **Select the message types to search**, and then choose a specific message type to search for. For example, you can search only for calendar items or contacts. Here's a screenshot of the different message types you can search for; the default is to search for all message types. 
+   > [!TIP]
+   >  Here are a few tips about how to build a search query to find missing items. Try to get as much information from the user to help you create a search query so you can find what you're looking for. If you are not sure how to find a missing message, consider using the **Include all content** option. The search results will include all items in the user's Recoverable Items folder, including the hidden folder (called the Purges folder) that contain items that have been purged by the user. Then you can go to Step 3, copy the results to a discovery mailbox, and look at the message in the hidden folder. If you know approximately when the missing message was originally sent or received by the user, use the **Specify start date** and **Specify end date** options to provide a date range. This will return all messages sent or received by the user within that date range. Specifying a date range is a really good way to narrow the search results. If you know who sent the missing email, use the **From** box to specify this sender. If you want to narrow the search results to different types of mailbox items, click **Select message types**, click **Select the message types to search**, and then choose a specific message type to search for. For example, you can search only for calendar items or contacts. Here's a screenshot of the different message types you can search for; the default is to search for all message types. 
   
-    Click **Next** when you've completed the **Search query** page. 
+   Click **Next** when you've completed the **Search query** page. 
     
 10. On the **In-Place Hold settings** page, click **Finish** to start the search. To recover deleted email, there's no reason to place the user's mailbox on hold. 
     
@@ -226,7 +227,8 @@ The final step that you need to perform is sending the PST file that was exporte
     
 The steps in the next section are performed by the user to restore the deleted items to their mailbox.
   
- **Restore deleted items to a mailbox using a PST file**
+ <a name="restoredeleteditems"></a>
+**Restore deleted items to a mailbox using a PST file**
   
 You have to use the Outlook desktop app to restore a deleted item by using a PST file. You can't use Outlook Web App or Outlook on the web to open a PST file.
   
@@ -265,7 +267,8 @@ You have to use the Outlook desktop app to restore a deleted item by using a PST
     
 ![Select a folder to move other types of items](media/f8290131-43f2-46f1-bc07-228c2d83b96c.png)
   
-    Note that calendar items, contacts, and tasks are located directly in the Purges folder, and not in a Calendar, Contacts, or Tasks subfolder. However, you can sort by **Type** to group similar types of items. 
+   > [!NOTE]
+   > Calendar items, contacts, and tasks are located directly in the Purges folder, and not in a Calendar, Contacts, or Tasks subfolder. However, you can sort by **Type** to group similar types of items. 
     
 8. When you're finished recovering deleted items, right-click the PST file in the left-nav bar and select **Close "name of PST file"**.
     

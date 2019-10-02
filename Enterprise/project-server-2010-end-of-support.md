@@ -3,7 +3,7 @@ title: "Project Server 2010 end-of-support roadmap"
 ms.author: efrene
 author: efrene
 manager: pamg
-ms.date: 06/03/2019
+ms.date: 08/21/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -51,6 +51,11 @@ If you are using Project Server 2010, you need to explore your migration options
 - Migrate to Project Online
     
 - Migrate to a newer on-premises version of Project Server (preferably Project Server 2019).
+
+Here are the two paths you can take to avoid the end of support for Project Server 2010.
+
+![Project Server 2010 upgrade paths](./media/project-server-2010-end-of-support/project-server-2010-end-of-support-timeline.png)
+
     
 |**Why would I prefer to migrate to Project Online?**|**Why would I prefer to migrate to Project Server 2019?**|
 |:-----|:-----|
@@ -181,17 +186,23 @@ Key resources:
 
 - After upgrade, be aware of several changes in Project Web App.  For a description of these, see [What's new in Project Server 2019](https://docs.microsoft.com/en-us/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges).
 
-
-## Migrate from Portfolio Server 2010
-
-Project Portfolio Server 2010 was used with Project Server 2010 for portfolio strategy, prioritization, and optimization. No additional versions of Project Portfolio Server were created after this version. However, portfolio management features are available in later Project Server versions and the Premium version of Project Online. Data from Project Portfolio Server 2010 cannot be migrated to either. Data such as business drivers will need to be recreated.
   
 Other resources:
   
 - [Project Online Service Descriptions](https://go.microsoft.com/fwlink/p/?linkid=841280): See the portfolio management features that are included with Project Server 2016 and Project Online Premium.
     
 - [Microsoft Office Project Portfolio Server 2010 migration guide](https://go.microsoft.com/fwlink/p/?linkid=841279)
-    
+
+## Summary of options for Office 2010 client and servers and Windows 7
+
+For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
+
+![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+
+This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
+
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+   
 ## Related topics
 
 [Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md)

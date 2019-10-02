@@ -3,7 +3,7 @@ title: "Upgrading from SharePoint 2010"
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 06/04/2019
+ms.date: 08/21/2019
 audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -19,11 +19,11 @@ description: "Support ends for SharePoint 2010 and SharePoint Server 2010 ends o
 
 # Upgrading from SharePoint 2010
 
-Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **October 13, 2020**. This article details resources to help people migrate their existing SharePoint Server 2010 data to SharePoint Online, or upgrade your on-premises SharePoint Server 2010 environment.
+Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **October 13, 2020**. This article details resources to help you migrate your existing SharePoint Server 2010 data to SharePoint Online in Office 365, or upgrade your on-premises SharePoint Server 2010 environment.
   
 ## What is end of support?
 
-When your SharePoint Server 2010, and SharePoint Foundation 2010 software reaches the end of its support lifecycle (the time during which Microsoft provides new features, bug fixes, security fixes, and so on) this is called the software's 'end of support', or, sometimes, its 'Retirement'. Upon the end of support (or EOS) of a product, nothing actually shuts down or stops working; however, at the end of support of software, Microsoft no longer provides:
+When your SharePoint Server 2010, and SharePoint Foundation 2010 software reaches the end of its support lifecycle (the time during which Microsoft provides new features, bug fixes, security fixes, and so on), this is called the software's 'end of support', or, sometimes, its 'Retirement'. Upon the end of support (or EOS) of a product, nothing actually shuts down or stops working; however, at the end of support of software, Microsoft no longer provides:
   
 - Technical support for problems that may occur;
     
@@ -52,12 +52,14 @@ This matrix helps plot a course when it comes to migrating product features and 
    
 If you choose options on the low end of the scale (good options), you'll need to start planning for another upgrade soon after migration from SharePoint Server 2010 completes. 
 
+Here are the three  paths you can take to avoid the end of support for SharePoint Server 2010.
+
+![SharePoint Server 2010 upgrade paths](./media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
+
 >[!Note]
 >End of support for SharePoint Server 2010 and SharePoint Foundation 2010 are scheduled for Oct 13, 2020, but *please be aware* that you should always check the [Product Lifecycle site](https://support.microsoft.com/en-us/lifecycle) for the most current dates.
 >
 
-
- 
   
 ## Where should I go next?
 
@@ -69,7 +71,7 @@ SharePoint Server 2013 and SharePoint Foundation 2013 can be installed on-premis
     
 - Do both of the above
     
-- Implement a [SharePoint hybrid](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx) solution 
+- Implement a [SharePoint hybrid](https://docs.microsoft.com/sharepoint/hybrid/hybrid) solution 
     
 Be aware of hidden costs associated with maintaining a server farm going forward, maintaining or migrating customizations, and upgrading the hardware upon which SharePoint Server depends. If you're aware and have accounted for all of these, it will be easier to continue upgrading on-premises. Otherwise, if you run your farm on legacy SharePoint Servers without heavy customization, you could benefit from a planned migration to SharePoint Online. It's also possible that for your on-premises SharePoint Server environment, you might opt to put some data in SharePoint Online to reduce the amount of hardware management that keeping that all your data on-premises involves. It may be more economical to move some of your data into SharePoint Online.
   
@@ -171,7 +173,17 @@ One good way to see how a hybrid SharePoint farm works is by creating an [Office
   
 > [!NOTE]
 > Remember that your SharePoint Server 2010 farm will first need to be upgraded, on-premises, to either SharePoint Server 2013 or SharePoint Server 2016 to use the hybrid option. SharePoint Foundation 2010 and SharePoint Foundation 2013 cannot create hybrid connections with SharePoint Online. 
-  
+
+## Summary of options for Office 2010 client and servers and Windows 7
+
+For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
+
+![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+
+This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
+
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+        
 ## Related topics
 
 [Resources to help you upgrade from Office 2007 or 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)

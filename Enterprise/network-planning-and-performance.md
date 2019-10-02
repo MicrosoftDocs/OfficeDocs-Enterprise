@@ -1,7 +1,7 @@
 ---
 title: "Network planning and performance tuning for Office 365"
-ms.author: krowley
-author: kccross
+ms.author: kvice
+author: kelleyvice-msft
 manager: laurawi
 ms.date: 1/15/2019
 audience: Admin
