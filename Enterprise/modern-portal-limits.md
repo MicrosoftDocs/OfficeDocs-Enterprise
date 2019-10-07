@@ -71,18 +71,17 @@ Use the guidelines in this article to review your overall solution plans. If you
 
 |**Limit**|**Maximum value**|**Limit type**|**Notes**|
 |:-----|:-----|:-----|:-----|
-|News/Pages  <br/> |5,000 per site  <br/> |Supported  <br/> |We recommended limiting the number of pages in a modern portal site as much as possible.  <br/> |
-|Web parts on a page  <br/> |20 per page  <br/> |Supported  <br/> |  <br/> |
-|Dynamic web parts on a page  <br/> |4 per page  <br/> |Supported  <br/> |  <br/> |
-|Security groups  <br/> |20 per site  <br/> |Supported  <br/> |  <br/> |
-|Items in the navigation bar  <br/> |100 per site  <br/> |Supported  <br/> |  <br/> |
-|Images in the viewport  <br/> |5 per page  <br/> |Supported  <br/> |The number of images in the viewport (the top of the page that is visible without scrolling) should be limited to 5.   <br/> |
-|Maximum image size  <br/> |300 Kb per image  <br/> |Supported  <br/> |  <br/> |
-|Users with edit rights  <br/> |100 users per site  <br/> |Supported  <br/> |  <br/> |
-|Third party iFrames  <br/> |0  <br/> |Supported  <br/> |  <br/> |
-|Calls to the UPA service  <br/> |x per page  <br/> |Supported  <br/> |  <br/> |
-|Calls to the Taxonomy service  <br/> |x per page  <br/> |Supported  <br/> |  <br/> |
-|Calls per web part  <br/> |x per web part  <br/> |Supported  <br/> |  <br/> |
+|News/Pages  <br/> |5,000 per site  <br/> |Threshold  <br/> |We recommended limiting the number of pages in a modern portal site as much as possible.  <br/> |
+|Web parts on a page  <br/> |20 per page  <br/> |Threshold  <br/> |  <br/> |
+|Dynamic web parts on a page  <br/> |4 per page  <br/> |Threshold  <br/> |Dynamic web parts are the web parts that make one or more queries to SharePoint to fetch latest data. News web part is an example of dynamic web part.  <br/> |
+|Security groups  <br/> |20 per site  <br/> |Threshold  <br/> |The number of security groups affects the scale of many queries in SharePoint. For Portals we recommend that you limit the permission set to a small set of Security Groups.  <br/> |
+|Items in the navigation bar  <br/> |100 per site  <br/> |Threshold  <br/> |Navigation is a tool for way finding in a site so it it not recommended to have a large number of items in here. Additionally the performance is optimal if you have less than the recommended number of items in Navigation.  <br/> |
+|Images in the viewport  <br/> |5 per page  <br/> |Threshold  <br/> |The number of images in the viewport (the top of the page that is visible without scrolling) should be limited to 5.   <br/> |
+|Maximum image size  <br/> |300 Kb per image  <br/> |Threshold  <br/> |  <br/> |
+|Users with edit rights  <br/> |200 users per site  <br/> |Threshold  <br/> |Since Portals are places where the information is curated by a few and consumed by many the Communication sites have more optimal experience for Visitors than Editors hence we recommend a limited number of editors.  <br/> |
+|Third party iFrames  <br/> |0  <br/> |Threshold  <br/> |In general due to sandboxing Iframes are heavier, need reload a number of components and can be expensive we recommend no third party IFrame  based solutions on a large Portal.  <br/> |
+|Calls to the UPA service  <br/> |1 per user per hour  <br/> |Threshold  <br/> |We recommend that you have no per request calls to UPA service. You can make few calls per user and then cache that information.  <br/> |
+|Calls to the Taxonomy service  <br/> |5 per user per hour  <br/> |Threshold  <br/> |We recommend that you have no per request calls to Taxonomy service. You can make few calls per user and then cache that information.  <br/> |
 
 ## Related topics
 
