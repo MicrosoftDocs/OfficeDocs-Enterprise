@@ -36,7 +36,7 @@ When your SharePoint Server 2010, and SharePoint Foundation 2010 software reache
 That means, there will be no further updates, patches, or fixes will be shipped for the product (including security patches/fixes), and Microsoft Support will have fully shifted its support efforts to more recent versions. As the end of support of SharePoint Server 2010 approaches, you should take advantage of opportunities to trim data you no longer need prior to upgrading the product, and/or migrating your important data.
   
 > [!NOTE]
-> A software lifecycle typically lasts for 10 years from the date of the product's initial release. You can search for [Microsoft solution providers](https://go.microsoft.com/fwlink/?linkid=841249) who can help with upgrade to the next version of your software, or with Office 365 migration (or both). Be certain you're aware of end of support dates on critical underlying technologies as well, particularly of the version of SQL Server you're using with SharePoint. 
+> A software lifecycle typically lasts for 10 years from the date of the product's initial release. You can search for [Microsoft solution providers](https://go.microsoft.com/fwlink/?linkid=841249) who can help with upgrade to the next version of your software, or with Office 365 migration (or both). Be certain you're aware of end of support dates on critical underlying technologies as well, particularly of the version of SQL Server you're using with SharePoint. See [Fixed Lifecycle Policy](https://support.microsoft.com/help/14085) to understand product lifecycle in detail.
   
 ## What are my options?
 
