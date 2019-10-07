@@ -3,7 +3,6 @@ title: "Planning your portal launch roll-out plan in SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/10/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -11,40 +10,40 @@ localization_priority: Normal
 ms.collection: Ent_O365
 ms.custom: Adm_O365
 search.appverid: SPO160
-ms.assetid: c932bd9b-fb9a-47ab-a330-6979d03688c0
 description: "This article describes how you can plan your portal launch in SharePoint Online and what steps to take for a successful launch"
 ---
 
 # Planning your portal launch roll-out plan in SharePoint Online
-A portal is a SharePoint site where your default landing page(s) for your company is created. In large organizations there could be several of these. If you expect more than 20% of your users within your organization to access the page, you should consider that a portal page. This shouldn't be confused with a team site your department uses to collaborate and share documents within your team.
+A portal is the default SharePoint site for your company; in large organizations there could be several of these. If you expect more than 20% of your users within your organization to access the page, you should consider that a portal page. This shouldn't be confused with a team site your department uses to collaborate and share documents within your team.
 
-This article describes how to plan your deployment and roll-out plan to SharePoint Online as well as approaches to follow as you cannot perform traditional load testing as it is not permitted on SharePoint Online. SharePoint Online is a cloud service and the load capabilities, health and overall balance of load in the service are managed by Microsoft.
+This article describes how to plan your deployment and roll-out plan to SharePoint Online. It also provides approaches to follow as traditional load testing is not permitted on SharePoint Online. SharePoint Online is a cloud service and the load capabilities, health and overall balance of load in the service are managed by Microsoft.
 
-The best approach to ensuring the success of launching your portal is to follow basic principles, practices and recommendations detailed in the [Creating, launching and maintaining a healthy portal](https://go.microsoft.com/fwlink/?linkid=2105838) but the deployment approach is highlighted below.
+To help in creating a successful portal, follow the basic principles, practices and recommendations detailed in the [Creating, launching and maintaining a healthy portal](https://go.microsoft.com/fwlink/?linkid=2105838) 
+
+The deployment approach is highlighted below.
 
 ## Overview of capacity planning in SharePoint Online
 In order to efficiently use capacity and deal with unexpected growth, in any farm, we have automation that tracks certain usage scenarios. While exact growth is unpredictable for any one tenant in any one farm, the aggregated sum of requests is predictable over time. By identifying the growth trends in SharePoint Online, we can plan for future expansion. For more information on [Capacity planning and load testing SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online).
 
-A key part of a successful launch is the wave / phased roll-out approach detailed below. 
+A key part of a successful launch is the "wave" or "phased roll-out" approach detailed below. 
 
 ## Can I load test SharePoint Online?
 SharePoint Online is a shared multi-tenanted environment which is balanced across farms and scale is adjusted in an on-going basis. Load testing an environment, like SharePoint Online, whose scale changes continuously will not only  give you unexpected results but it is not permitted. 
 
-Further information is available in the [Capacity planning and load testing SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online) article.
+Learn more:  [Capacity planning and load testing SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online)
 
 ## Optimize pages by following recommended guidelines
 Pages from an on-Premise deployment should not simply be moved as they are onto SharePoint Online without reviewing them against recommended guidelines for SharePoint Online. The best approach is to always optimize any home page for any site or portal in SharePoint, as this is where most users in your organization will access as the starting point for your site(s).
 
 A few basic factors should be considered:
-- On-Premise deployments can leverage traditional server-side caches like object cache, output cache and blob cache.
-With the topology differences in the cloud, these options are not necessarily available as the sheer scale differences make them less viable approaches.
+- On-Premise deployments can leverage traditional server-side caches like object cache, output cache and blob cache. With the topology differences in the cloud, these options are not necessarily available as the sheer scale differences make them less viable approaches.
 - Any pages / features / customizations used for cloud consumption should be optimized for higher latency as well as the distributed locations of users, so that users in different areas or regions have a more consistent experience. Cloud offers optimizations like Content Delivery Networks (CDN) to optimize for a distributed user base as well as for modern SharePoint, the last known good (LKG) is utilized by our out of the box (OOTB) web parts.
 
 ### What to do:
  - For all site pages in SharePoint Online use the [Page Diagnostics tool](https://aka.ms/perftool), which is a Chromium extension which will assist with analyzing and providing guidance. This can be used by site owners, editors, administrators and developers as it is designed to be a starting point for analysis and optimization.
  - Developers should also use development tools like F12 browser developer tool as well as CTRL-F12 in the browser on modern pages. [Fiddler](https://www.telerik.com/download/fiddler) can also be used to review the size weight (how large the page is in megabytes) of the page and the number of calls and elements impacting the overall page load. 
 
-This section was a brief summary for optimizing pages and for greater detail on what to do please review [Creating, launching and maintaining a healthy portal](https://go.microsoft.com/fwlink/?linkid=2105838).
+This section was a brief summary for optimizing pages.  To learn more see:  [Creating, launching and maintaining a healthy portal](https://go.microsoft.com/fwlink/?linkid=2105838).
 
 ## Follow a Wave / Phased roll-out approach
 The traditional big bang approach for site launches will not allow verification that customizations, external sources, services or processes have been tested at the right scale. This doesn't mean that it will take months to launch, but it is recommended over at least several days dependent on your organization size. Following a wave roll-out plan therefore gives you the option to pause and resolve issues before proceeding with the next phase and therefore lowers the potential number of users impacted by any issues. SharePoint as a service scales your capacity based on usage and predicted usage and whilst we don't need you to notify us of your launch, you should follow the guidelines to ensure success.
