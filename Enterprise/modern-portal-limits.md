@@ -3,7 +3,7 @@ title: "SharePoint Online modern site limits and boundaries"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 10/1/2019
+ms.date: 10/8/2019
 audience: Admin
 ms.topic: interactive-tutorial
 ms.service: o365-administration
