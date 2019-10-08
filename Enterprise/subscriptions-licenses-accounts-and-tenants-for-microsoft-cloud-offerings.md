@@ -30,7 +30,7 @@ Microsoft provides a hierarchy of organizations, subscriptions, licenses, and us
 - Microsoft Intune and the Enterprise Mobility + Security (EMS)
 - Microsoft Dynamics 365
 
-[Microsoft 365](https://docs.microsoft.com/microsoft-365/) is a new offering that combines Office 365, EMS, and Windows 10 Enterprise into a single subscription and set of integrated services.
+[Microsoft 365](https://docs.microsoft.com/microsoft-365/) combines Office 365, EMS, and Windows 10 Enterprise into a single subscription and set of integrated services.
 
 ## Elements of the hierarchy
 
@@ -155,7 +155,7 @@ To add an Azure subscription with the same organization and Azure AD tenant as y
     
 If you purchased Azure and Office 365 subscriptions separately and want to access the Office 365 Azure AD tenant from your Azure subscription, see the instructions in [Add an existing Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
  
-## See Also
+## See also
 
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   
