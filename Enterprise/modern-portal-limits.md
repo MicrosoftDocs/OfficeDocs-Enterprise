@@ -53,6 +53,8 @@ Many of the guidelines in this article focus on minimizing and optimizing calls 
 
 ## Related topics
 
+[Creating a healthy SharePoint portal](https://docs.microsoft.com/sharepoint/portal-health)
+
 [Tune SharePoint Online performance](tune-sharepoint-online-performance.md)
 
 [Tune Office 365 performance](tune-office-365-performance.md)
