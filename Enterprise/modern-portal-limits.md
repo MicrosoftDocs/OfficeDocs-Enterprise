@@ -12,19 +12,32 @@ ms.collection: Strat_O365_Enterprise
 ms.custom: Adm_O365
 search.appverid: 
 - MET150
-description: "Learn about performance recommendations for modern sites in SharePoint Online and how these recommendations relate to acceptable performance."
+description: "Learn about performance recommendations for modern sites in SharePoint Online."
 ---
 
-# SharePoint Online modern site performance recommendations
+# SharePoint Online modern portal site performance recommendations
 
 This article provides performance recommendations for modern portal sites in SharePoint Online. Use the guidelines in this article to optimize modern portal site performance and avoid common performance issues.
+
+## Performance considerations for modern portal sites
+
+From the standpoint of performance optimization, there are a few characteristics that make modern portal sites unique. The principal difference between collaboration and portal sites in SharePoint Online is scale. Portal sites are generally expected to serve more page views to a greater number of users than collaboration sites, and are likely to contain more static content and fewer editable resources. Additionally, the architecture of modern sites differs from classic sites in that most of the processing involved in rendering pages and executing code takes place on the client rather than the server.
+
+Performance optimization for modern portal sites is primarily focused on a few overall objectives:
+
+- Reduce the total size of the components of each site page
+- Offload hosting of common static files such as images, stylesheets and scripts to CDN
+- Limit calls to SharePoint and external endpoints to only what is necessary
+- Avoid duplicate requests for the same content
 
 Many of the guidelines in this article focus on minimizing and optimizing calls to SharePoint Online. Making repetitive calls each time a page is loaded will impact performance for users as the information will be retrieved from the service each time even if it has not changed. As such, requests to SharePoint can be categorized either as calls that are common for all users or calls required for each individual user. Results from these two call categories should be cached to optimize the user experience.
 
 >[!NOTE]
 >Use the [Page Diagnostics for SharePoint tool](https://aka.ms/perftool) as a starting point to analyze specific performance metrics on SharePoint Online site pages.
 
-|**Limit**|**Maximum value**|**Notes**|
+## Modern portal site limits and recommendations
+
+|**Limit**|**Maximum recommended value**|**Notes**|
 |:-----|:-----|:-----|:-----|
 |Pages and news items  <br/> |5,000 per site  <br/> |We recommend limiting the number of pages and news items in a modern portal site to below 5,000.  <br/> |
 |Web parts on a page  <br/> |20 per page  <br/> |We recommend using 20 or fewer total web parts per page, including both out-of-the-box Microsoft web parts and custom web parts. <br/> For more information, see [Optimize web part performance in SharePoint Online modern site pages](modern-web-part-optimization.md).  <br/> |
@@ -48,4 +61,4 @@ Many of the guidelines in this article focus on minimizing and optimizing calls 
 
 [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance)
 
-[Use the Page Diagnostics for SharePoint tool](https://docs.microsoft.com/en-us/Office365/Enterprise/page-diagnostics-for-spo)
+[Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
