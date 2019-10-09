@@ -21,6 +21,8 @@ description: "Contains links to information about network planning and testing, 
 
 # Network and migration planning for Office 365
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+
 This article contains links to information about network planning and testing, and migration to Office 365.
   
 Before you deploy for the first time or migrate to Office 365, you can use the information in these topics to estimate the bandwidth you need and then to test and verify that you have enough bandwidth to deploy or migrate to Office 365.
@@ -107,3 +109,6 @@ These topics contain detailed Office 365 network reference information.
     
 - [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
  
+## See also
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)
