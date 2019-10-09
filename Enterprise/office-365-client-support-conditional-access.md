@@ -12,16 +12,16 @@ search.appverid:
 ms.collection: 
 - Strat_O365_Enterprise
 - M365-subscription-management
-description: "Understand Office 365 client app support for conditional access"
+description: "Understand Office 365 client app support for Conditional Access"
 ---
 
 # Office 365 Client App Support — Conditional Access
 
 In the modern workplace, users can access your organization's resources using various devices and apps from anywhere. As a result, just focusing on who can access a resource is not sufficient anymore. Your organization must also support how and where a resource is accessed in your access control infrastructure.
 
-With Azure AD device, location, and multi-factor authentication-based conditional access, you can meet this new requirement. Conditional access is a capability of Azure Active Directory that enables you to enforce controls on the access to apps in your environment, all based on specific conditions and managed from a central location.
+With Azure Active Directory (Azure AD) device, location, and multi-factor authentication-based Conditional Access, you can meet this new requirement. Conditional Access is a capability of Azure AD that enables you to enforce controls on the access to apps in your environment, all based on specific conditions and managed from a central location.
 
-Learn more about [conditional access](https://docs.microsoft.com/azure/active-directory/conditional-access/).
+Learn more about [Azure AD Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/).
 
 ## Supported platforms
 
@@ -36,7 +36,7 @@ For more information about platform support in Office 365, see [System requireme
 
 ## Supported clients
 
-The latest versions of the following clients support conditional access:
+The latest versions of the following clients support Conditional Access:
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -52,8 +52,12 @@ The latest versions of the following clients support conditional access:
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Azure icon](media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![SharePoint icon](media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/sharepoint/manage-team-and-communication-sites-in-powershell)
+| ![Azure icon](media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![SharePoint icon](media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/en-us/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 > [!NOTE]
 > <sup>1</sup> Support for Delve on Android available soon. <br>
 > <sup>2</sup> Support for OneDrive on macOS available soon.
+
+## See also
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)
