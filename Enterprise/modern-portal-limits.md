@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Online modern site performance recommendations"
+title: "SharePoint Online modern portal site limits"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,7 +15,7 @@ search.appverid:
 description: "Learn about performance recommendations for modern sites in SharePoint Online."
 ---
 
-# SharePoint Online modern portal site performance recommendations
+# SharePoint Online modern portal site limits
 
 This article provides performance recommendations for modern portal sites in SharePoint Online. Use the guidelines in this article to optimize modern portal site performance and avoid common performance issues.
 
