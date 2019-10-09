@@ -17,6 +17,8 @@ description: "Office 365 Client App support for single sign-on."
 
 # Office 365 Client App Support — Single Sign-On
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+
 Single sign-on (SSO) adds security and convenience when your users sign on to applications in Azure Active Directory (Azure AD). With single sign-on, users sign in once with one account to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications.
 
 Learn more about [single sign-on](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on).
@@ -49,10 +51,14 @@ The latest versions of the following clients support single sign-on:
 
 | | | | | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![Azure icon](media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange icon](media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) | ![SharePoint icon](media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/sharepoint/manage-team-and-communication-sites-in-powershell)
+| ![Azure icon](media/o365-azure-64x64.png) <br> [Azure AD <br> PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0) | ![Exchange icon](media/o365-exchange-64x64.png) <br> [Exchange Online <br> PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps) | ![SharePoint icon](media/o365-sharepoint-64x64.png) <br> [SharePoint Online <br> PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 > [!NOTE]
 > <sup>1</sup> Support for Kaizala on iOS available soon. <br>
 > <sup>2</sup> Support for OneNote, PowerBI, Teams, and Yammer on Windows 10 Desktop available soon. <br>
 > <sup>3</sup> Support for Whiteboard on Android available soon. <br>
 > <sup>4</sup> Support for Office Lens on Windows 10 Modern Apps available soon. <br>
+
+## See also
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)

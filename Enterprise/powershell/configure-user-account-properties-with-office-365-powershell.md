@@ -67,10 +67,7 @@ You identify the account with the **-ObjectID** parameter and set or change spec
     
 See [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) for additional parameters.
 
->[!Note]
-> You set the **Mail** property with the **-OtherMails** parameter.
->
- 
+
 To display the User Principal Name for your user accounts, run the following command.
   
 ```
@@ -186,10 +183,6 @@ You identify the account with the **-UserPrincipalName** parameter and set or ch
     
 See [Set-MsolUser](https://msdn.microsoft.com/library/azure/dn194136.aspx) for additional parameters.
 
->[!Note]
-> You set the **Mail** property with the **-AlternateEmailAddresses** parameter.
->
- 
 To see the User Principal Names of all your users, run the following command.
   
 ```
