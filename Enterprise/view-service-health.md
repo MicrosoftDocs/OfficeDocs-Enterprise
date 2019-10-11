@@ -66,7 +66,7 @@ The advisory or incident summary provides the following information:
 - **Start time** - The time when the issue started.
 - **Last updated** - The last time that the service health message was updated. We post frequent messages to let you know the progress that we're making in applying a solution.
 
-To see more information about a specific issue, select the issue title. The issue detail page appears, showing more information about the issue, including the [history](#history) of all messages posted while we work on a solution.
+Select the issue title to see the issue detail page, which shows more information about the issue, including the [history](#history) of all messages posted while we work on a solution.
 
 ![A screenshot showing issue details](media/service-health-advisory-detail.png)
 
