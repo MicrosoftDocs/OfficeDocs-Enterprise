@@ -22,38 +22,38 @@ search.appverid:
 - BCS160
 - IWA160
 ms.assetid: 932ad3ad-533c-418a-b938-6e44e8bc33b0
-description: "View the health status of Office 365 services before you call support to see if there is an active service interruption"
+description: "View the health status of Office 365 services before you call support to see if there is an active service interruption."
 ---
 
 # How to check Office 365 service health
 
-You can view the health of Office 365, Yammer, Microsoft Dynamics CRM, and Microsoft Intune cloud services on the Office 365 **Service health** page in the [Microsoft 365 admin center](https://admin.microsoft.com). If you are experiencing problems with a cloud service, you can check the service health to determine whether this is a known issue with a resolution in progress before you call support or spend time troubleshooting. 
+You can view the health of Office 365, Yammer, Microsoft Dynamics CRM, and Microsoft Intune cloud services on the Office 365 **Service health** page in the [admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339). If you are experiencing problems with a cloud service, you can check the service health to determine whether this is a known issue with a resolution in progress before you call support or spend time troubleshooting. 
 
 If you are unable to sign in to the service portal, you can use the [service status page](https://status.office365.com) to check for known issues preventing you from logging into your tenant.
   
 ### How to check service health
 
-1. Go to [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) and sign in with an admin account. 
-    
+1. Go to [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) and sign in with an admin account.
+
     > [!NOTE]
     > People who are assigned the global admin or service administrator role can view service health. To allow Exchange, SharePoint, and Skype for Business admins to view service health, they must also be assigned the Service admin role.
   
 2. To open service health, in the admin center, go to **Health** > **Service health**, or click the **Service health card** on the **Home dashboard**. The dashboard card indicates whether there is an active service issue and links to the detailed service health page.
-    
+
     ![Dashboard card for service health](media/8ae3de43-7bd5-4ee9-90ed-8b5ba5f9b474.png)
   
 3. The health state of each cloud service is shown in a table format with an icon to indicate possible states.
-    
+
 > [!TIP]
 > You can also use the [Office 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view Service health, which is a great way to stay current with push notifications. 
   
 ### View details of posted service health
 
-In the default view, all services and their current health state are displayed. To filter your view to services currently experiencing an incident, select **Incidents** from the shaded bar on the left. Selecting **Advisories** will show only services that currently have an advisory posted. From the **All services** view, clicking the displayed service state will open a summary view of the advisory or incident. 
+In the default view, all services and their current health state are displayed. To filter your view to services currently experiencing an incident, select the **Incidents** tab at the top of the page. Selecting the **Advisories** tab will show only services that currently have an advisory posted. The History tab shows the history of incidents and advisories that have been resolved. On the **All services** view, clicking the displayed service state will open a summary view of the advisory or incident.
   
-![View of current issues in service health](media/f829a3af-1aca-4dc2-97eb-15d805349b24.png)
+![View of current issues in service health](media/service-health-all-services.png)
   
-The advisory or incident summary provides the following information: 
+The advisory or incident summary provides the following information:
   
 ![A screenshot labeling the fields in a service advisory](media/0dd6065c-1381-4a5c-8ca0-854c3e043a5c.png)
   
