@@ -48,12 +48,14 @@ If you are unable to sign in to the service portal, you can use the [service sta
 
 The **All services** tab (the default view) shows all services and their current health state. An icon and the **Status** column indicate the state of each service. To filter your view to services currently experiencing an incident, select the **Incidents** tab at the top of the page. Selecting the **Advisories** tab will show only services that currently have an advisory posted. The **History** tab shows the history of incidents and advisories that have been resolved.
 
+If you're experiencing an issue that doesn't appear on the list, select **Report an issue**, complete the short form to tell us about the problem, and then select **Submit**.
+
 > [!TIP]
 > You can also use the [Office 365 Admin app](https://go.microsoft.com/fwlink/p/?linkid=627216) on your mobile device to view Service health, which is a great way to stay current with push notifications. 
   
 ### View details of posted service health
 
-On the **All services** view, selecting the service status will open a summary view of the advisories or incidents.
+On the **All services** view, selecting the service status will open a summary view of advisories or incidents.
   
 ![A screenshot showing the service advisory](media/service-health-advisory.png)
 
