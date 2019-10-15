@@ -157,6 +157,9 @@ Default public CDN origins:
 ## Set up and configure the Office 365 CDN by using the SharePoint Online Management Shell
 
 The procedures in this section require you to use the SharePoint Online Management Shell to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
+
+<details>
+  <summary>Click to expand</summary>
   
 Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using the SharePoint Online Management Shell.
   
@@ -431,10 +434,15 @@ Set-SPOTenantCdnEnabled -CdnType Private -Enable $false
 
 For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://technet.microsoft.com/en-us/library/mt790765.aspx).
 
+</details>
+
 <a name="CDNSetupinCLI"> </a>
 ## Set up and configure the Office 365 CDN using the Office 365 CLI
 
 The procedures in this section require that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your SharePoint Online tenant using the [spo connect](https://pnp.github.io/office365-cli/cmd/spo/connect/) command.
+
+<details>
+  <summary>Click to expand</summary>
 
 Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using the Office 365 CLI.
 
@@ -552,6 +560,8 @@ To disable the Office 365 CDN use the `spo cdn set` command, for example:
 ```sh
 spo cdn set --type Public --enabled false
 ```
+
+</details>
 
 ## Using your CDN assets
 
