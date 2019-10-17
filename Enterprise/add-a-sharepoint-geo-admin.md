@@ -1,5 +1,5 @@
 ﻿---
-title: "Add or remove a geo administrator"
+title: Add or remove a geo administrator
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
-description: "Learn how to add or remove a geo administrator in Office 365 Multi-Geo."
+description: Learn how to add or remove a geo administrator in Office 365 Multi-Geo
 ---
 
 # Add or remove a geo administrator in Office 365 Multi-Geo
@@ -17,6 +17,10 @@ You can configure separate administrators for each geo location that you have in
 Some services - such as the term store - are administered from the central location and replicated to satellite locations. The geo admin for the central location has access to these, whereas geo admins for satellite locations don't.
 
 Global administrators and SharePoint Online administrators continue to have access to settings in the central location and all satellite locations.
+
+>[!Note]
+> Geo Admins cannot manage Office 365 group-connected SharePoint sites but can add themselves as Site Collection Admins to an Office 365 group-connected SharePoint sites using [Set-SPOUser](https://docs.microsoft.com/powershell/module/sharepoint-online/set-spouser?view=sharepoint-ps) PowerShell cmdlet.
+>
 
 ## Configuring geo administrators
 
