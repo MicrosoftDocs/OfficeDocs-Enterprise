@@ -36,7 +36,7 @@ When your SharePoint Server 2010, and SharePoint Foundation 2010 software reache
 That means, there will be no further updates, patches, or fixes will be shipped for the product (including security patches/fixes), and Microsoft Support will have fully shifted its support efforts to more recent versions. As the end of support of SharePoint Server 2010 approaches, you should take advantage of opportunities to trim data you no longer need prior to upgrading the product, and/or migrating your important data.
   
 > [!NOTE]
-> A software lifecycle typically lasts for 10 years from the date of the product's initial release. You can search for [Microsoft solution providers](https://go.microsoft.com/fwlink/?linkid=841249) who can help with upgrade to the next version of your software, or with Office 365 migration (or both). Be certain you're aware of end of support dates on critical underlying technologies as well, particularly of the version of SQL Server you're using with SharePoint. 
+> A software lifecycle typically lasts for ten years from the date of the product's initial release. You can search for [Microsoft solution providers](https://go.microsoft.com/fwlink/?linkid=841249) who can help with upgrading to the next version of your software, or with Office 365 migration (or both). Be certain you're aware of end of support dates on critical underlying technologies as well, particularly of the version of SQL Server you're using with SharePoint. See [Fixed Lifecycle Policy](https://support.microsoft.com/help/14085) to understand product lifecycle in detail.
   
 ## What are my options?
 
@@ -113,7 +113,7 @@ If you've decided to create a new Office 365 site, and will manually migrate dat
   
 ### Upgrade SharePoint Server on-premises
 
-As of the latest version of the SharePoint on-premises product (SharePoint Server 2016), SharePoint Server upgrades must go  *serially*, that means there is no way to upgrade from SharePoint Server 2010 to SharePoint Server 2016, directly. 
+As of the latest version of the SharePoint on-premises product (SharePoint Server 2019), SharePoint Server upgrades must go  *serially*, that means there is no way to upgrade from SharePoint Server 2010 to SharePoint Server 2016 or to SharePoint 2019, directly. 
   
 |||
 |:-----|:-----|
@@ -163,7 +163,7 @@ Begin by comparing hardware and software requirements. If you don't meet basic r
     
 ### Create a SharePoint hybrid solution between SharePoint Online and SharePoint Server on-premises
 
-Another option (one that may be the best of both on-premises and online worlds for some migration needs) is a hybrid, you can connect SharePoint Server 2013 or 2016 farms to SharePoint Online to create a SharePoint hybrid: [Learn about SharePoint hybrid solutions](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx).
+Another option (one that may be the best of both on-premises and online worlds for some migration needs) is a hybrid, you can connect SharePoint Server 2013 or 2016 or 2019 farms to SharePoint Online to create a SharePoint hybrid: [Learn about SharePoint hybrid solutions](https://support.office.com/article/4c89a95a-a58c-4fc1-974a-389d4f195383.aspx).
   
 If you decide a hybrid SharePoint Server farm is your migration goal, be sure to plan what sites and users you should move to online, and which need to remain on-premises. A review and ranking of your SharePoint Server farm's content (determining what data is High, Medium, or Low impact to your company) can be helpful to making this decision. It may be that the only thing you need to share with SharePoint Online is (a) user accounts for login, and (b) the SharePoint Server search index -- this may not be clear until you look at how your sites are used. If your company later decides to migrate all of your content to SharePoint Online, you can move all remaining accounts and data online and decommission your on-premises farm, and management/administration of the SharePoint farm will be done through Office 365 consoles from that point on.
   
