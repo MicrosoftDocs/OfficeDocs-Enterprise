@@ -3,7 +3,7 @@ title: "Configure user account properties with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 10/07/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -66,7 +66,8 @@ You identify the account with the **-ObjectID** parameter and set or change spec
     This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.
     
 See [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) for additional parameters.
-  
+
+
 To display the User Principal Name for your user accounts, run the following command.
   
 ```
@@ -181,7 +182,7 @@ You identify the account with the **-UserPrincipalName** parameter and set or ch
     This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.
     
 See [Set-MsolUser](https://msdn.microsoft.com/library/azure/dn194136.aspx) for additional parameters.
-  
+
 To see the User Principal Names of all your users, run the following command.
   
 ```

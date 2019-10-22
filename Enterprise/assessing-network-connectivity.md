@@ -20,6 +20,8 @@ description: "Office 365 is designed to enable customers all over the world to c
 
 # Assessing Office 365 network connectivity
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+
 Office 365 is designed to enable customers all over the world to connect to the service using an internet connection. As the service evolves, the security, performance, and reliability of Office 365 are improved based on customers using the internet to establish a connection to the service.
   
 Customers planning to use Office 365 should assess their existing and forecasted internet connectivity needs as a part of the deployment project. For enterprise class deployments reliable and appropriately sized internet connectivity is a critical part of consuming Office 365 features and scenarios.
@@ -111,3 +113,5 @@ Here's a short link you can use to come back: [https://aka.ms/o365networkconnect
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)
