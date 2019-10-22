@@ -1,5 +1,5 @@
 ---
-title: "Network performance recommendations in the M365 Admin Center"
+title: "Network performance Insights"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Network performance recommendations in the M365 Admin Center"
+description: "Network performance insights"
 ---
 
-# Network performance recommendations in the M365 Admin Center
+# Network performance insights
