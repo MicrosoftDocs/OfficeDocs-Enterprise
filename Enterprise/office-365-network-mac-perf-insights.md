@@ -1,5 +1,5 @@
 ---
-title: "Network performance Insights"
+title: "Network performance insights"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
