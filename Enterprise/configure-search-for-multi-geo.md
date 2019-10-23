@@ -172,7 +172,7 @@ For each geo location, you must ensure that all users in the organization have b
 
 ### Query parameters
 
-EnableMultiGeoSearch - This is a Boolean value that specifies whether the query shall be fanned out to the indexes of other geo locations of the multi-geo tenant. Set it to **true** to fan out the query; **false** to not fan out the query. The default value is **false**. If you don't include this parameter, the query is not fanned out to other geo locations. If you use the parameter in an environment that isn't multi-geo, the parameter is ignored.
+EnableMultiGeoSearch - This is a Boolean value that specifies whether the query shall be fanned out to the indexes of other geo locations of the multi-geo tenant. Set it to **true** to fan out the query; **false** to not fan out the query. If you don't include this parameter, the default value is **false**, except when making a REST API call against a site which uses the Enterprise Search Center template, in this case the default value is **true**. If you use the parameter in an environment that isn't multi-geo, the parameter is ignored.
 
 ClientType - This is a string. Enter a unique client name for each search application. If you don't include this parameter, the query is not fanned out to other geo locations.
 
