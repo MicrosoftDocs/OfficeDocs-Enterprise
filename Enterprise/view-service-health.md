@@ -38,11 +38,9 @@ If you are unable to sign in to the service portal, you can use the [service sta
     > [!NOTE]
     > People who are assigned the global admin or service administrator role can view service health. To allow Exchange, SharePoint, and Skype for Business admins to view service health, they must also be assigned the Service admin role.
   
-2. To open service health, in the admin center, go to **Health** > **Service health**, or click the **Service health card** on the **Home dashboard**. The dashboard card indicates whether there is an active service issue and links to the detailed service health page.
-
-    ![Dashboard card for service health](media/8ae3de43-7bd5-4ee9-90ed-8b5ba5f9b474.png)
+2. To view service health, in the admin center, go to **Health** > **Service health**, or select the **Service health** card on the **Home dashboard**. The dashboard card indicates whether there is an active service issue and links to the detailed **Service health** page.
   
-3. The health state of each cloud service is shown in a table format.
+3. On the **Service health** page, the health state of each cloud service is shown in a table format.
 
    ![View of current issues in service health](media/service-health-all-services.png)
 
