@@ -33,7 +33,7 @@ If you are unable to sign in to the service portal, you can use the [service sta
   
 ### How to check service health
 
-1. Go to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=20243390, and sign in with an admin account.
+1. Go to the admin center at [https://admin.microsoft.com](https://go.microsoft.com/fwlink/p/?linkid=2024339), and sign in with an admin account.
 
     > [!NOTE]
     > People who are assigned the global admin or service administrator role can view service health. To allow Exchange, SharePoint, and Skype for Business admins to view service health, they must also be assigned the Service admin role. For more information about roles that can view service health, see [About admin roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide#roles-available-in-the-microsoft-365-admin-center).
