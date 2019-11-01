@@ -16,7 +16,7 @@ If you need to collaborate with guests on documents in SharePoint or OneDrive, y
 
 ## Video demonstration
 
-This video shows the configuration steps described in this document.
+This video shows the configuration steps described in this document.</br>
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE450Vt?autoplay=false]
 
