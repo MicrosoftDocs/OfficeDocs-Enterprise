@@ -14,6 +14,12 @@ description: "Learn how to collaborate with guests on a document in SharePoint a
 
 If you need to collaborate with guests on documents in SharePoint or OneDrive, you can send them a sharing link to the document. In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up sharing links for SharePoint and OneDrive for the needs of your organization.
 
+## Video demonstration
+
+This video shows the configuration steps described in this document.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE450Vt?autoplay=false]
+
 ## Azure Organizational relationships settings
 
 Sharing in Microsoft 365 is governed at its highest level by the organizational relationships settings in Azure Active Directory. If guest sharing is disabled or restricted in Azure AD, this will override any sharing settings that you configure in Microsoft 365.
