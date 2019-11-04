@@ -77,7 +77,7 @@ Verify and check these items off your list before you continue:
   
 - **Skype for Business specific**
     
-  - All servers must have SFB Server 2015 CU5 or later
+  - All servers must have May 2017 cumulative update (CU5) for Skype for Business Server 2015 or later
     
   - **Exception** - Survivability Branch Appliance (SBA) can be on the current version (based on Lync 2013) 
     
