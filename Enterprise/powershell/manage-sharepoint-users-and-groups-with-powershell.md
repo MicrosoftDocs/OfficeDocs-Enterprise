@@ -3,7 +3,7 @@ title: "Manage SharePoint Online users and groups with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/07/2018
+ms.date: 10/05/2019
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -78,7 +78,7 @@ Set-SPOUser -Site https://$tenant.sharepoint.com/sites/$site -LoginName $user@$t
 
 You can copy and paste these commands into Notepad, change the variable values for $tenant, $site, and $user to actual values from your environment, and then paste this into your SharePoint Online Management Shell window to run them.
 
-## Add a user to other Site Collection Administrators groups
+## Add a user to other site collection groups
 
 In this task, we'll use the **Add-SPOUser** command to add a user to a SharePoint group on a site collection.
 
@@ -103,7 +103,7 @@ Add-SPOUser -Group $group -LoginName $user@$tenant.onmicrosoft.com -Site https:/
 
 ## Create a site collection group
 
-You use the **Set-SPOSiteGroup** command to create a new SharePoint group and add it to the ContosoTest site collection.
+You use the **New-SPOSiteGroup** command to create a new SharePoint group and add it to the ContosoTest site collection.
 
 ```
 $tenant = "<tenant name, such as litwareinc for litwareinc.onmicrosoft.com>"

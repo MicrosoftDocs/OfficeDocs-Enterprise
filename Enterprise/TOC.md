@@ -124,7 +124,7 @@
 #### [Set up directory synchronization](set-up-directory-synchronization.md)
 ### [Assign licenses to user accounts](assign-licenses-to-user-accounts.md)
 
-## [3. Implement security capabilities](https://docs.microsoft.com/office365/securitycompliance/security-best-practices)
+## [3. Implement security capabilities](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 
 ## 4. Deploy client software
 ### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
