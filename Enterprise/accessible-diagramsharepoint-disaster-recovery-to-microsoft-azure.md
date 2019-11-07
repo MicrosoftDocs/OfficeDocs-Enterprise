@@ -191,7 +191,7 @@ The configuration of AD DS for this solution constitutes a hybrid deployment sce
   
 Important — Before you deploy AD DS in Azure, read Guidelines for Deploying Windows Server Active Directory on Microsoft Azure Virtual Machines (http://msdn.microsoft.com/library/windowsazure/jj156090.aspx). 
   
-For complete guidance on designing and deploying Active Directory environments, see http://TechNet.microsoft.com. 
+For complete guidance on designing and deploying Active Directory environments, see https://TechNet.microsoft.com. 
   
 This reference architecture includes two virtual machines configured as domain controllers. Each is configured as follows: 
   

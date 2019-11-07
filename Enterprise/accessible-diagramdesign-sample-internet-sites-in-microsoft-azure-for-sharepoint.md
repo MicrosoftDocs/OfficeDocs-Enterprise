@@ -45,13 +45,13 @@ This poster shows an example of how to design the following aspects of SharePoin
 
 There are four types of user accounts in this design. Each type of account is associated with a site for access and with a zone that uses a specific type of authentication. 
   
-- Anonymous customers — Anonymous customers have access through a site such as http://www.contoso.com. The zone they use is the "Internet zone / anonymous", which uses anonymous authentication.
+- Anonymous customers — Anonymous customers have access through a site such as https://www.contoso.com. The zone they use is the "Internet zone / anonymous", which uses anonymous authentication.
     
 - Authenticated customers — Authenticated customers have access through a site such as https://secure.contoso.com. The zone they use is the "Extranet zone / SAML", which uses Azure Active Directory with SAML authentication.
     
-- Site authors and developers — Site authors and developers have access through sites such as http://authoring.contoso.com:8000 or http://www.contoso.com:8000. The zone they use is the "Default zone / Windows integrated", which uses Active Directory Domain Services (AD DS).
+- Site authors and developers — Site authors and developers have access through sites such as https://authoring.contoso.com:8000 or https://www.contoso.com:8000. The zone they use is the "Default zone / Windows integrated", which uses Active Directory Domain Services (AD DS).
     
-- Search Crawl Account — The search crawl account has access through sites such as http://authoring.contoso.com:8000 or http://www.contoso.com:8000. The zone it uses is the "Default zone / Windows integrated", which uses AD DS with Windows NTLM authentication.
+- Search Crawl Account — The search crawl account has access through sites such as https://authoring.contoso.com:8000 or https://www.contoso.com:8000. The zone it uses is the "Default zone / Windows integrated", which uses AD DS with Windows NTLM authentication.
     
 ## Server farm
 
@@ -75,21 +75,21 @@ Notes on Services for Internet sites:
     
 ## Application pools and web applications
 
-The Default Group in Azure shows Application Pool 3, which contains a web application named Contoso Sites. This path-based site collection is located at http://internal:8000.
+The Default Group in Azure shows Application Pool 3, which contains a web application named Contoso Sites. This path-based site collection is located at https://internal:8000.
   
 ## Site collections and sites
 
 The site collections contained in the application pool include:
   
-- Host-named site collection 1 for crawling (example location http://authoring.contoso.com:8000)
+- Host-named site collection 1 for crawling (example location https://authoring.contoso.com:8000)
     
-- Host-named site collection 2 for queries (sample locations http://www.contoso.com, https://secure.contoso.com, http://www.contoso.com:8000)
+- Host-named site collection 2 for queries (sample locations https://www.contoso.com, https://secure.contoso.com, https://www.contoso.com:8000)
     
-- Host-named site collection 3 for queries (sample locations http://assets.contoso.com, https://secureassets.contoso.com, http://assets.contoso.com:8000)
+- Host-named site collection 3 for queries (sample locations https://assets.contoso.com, https://secureassets.contoso.com, https://assets.contoso.com:8000)
     
 ## Content databases
 
-The example shows two content databases. One is for the site collection 1 used for crawling (http://authoring.contoso.com:8000). The other is for the two site collections 2 and 3 used for queries (http://www.contoso.com, https://secure.contoso.com, http://www.contoso.com:8000, or http://assets.contoso.com, https://secureassets.contoso.com, http://assets.contoso.com:8000).
+The example shows two content databases. One is for the site collection 1 used for crawling (https://authoring.contoso.com:8000). The other is for the two site collections 2 and 3 used for queries (https://www.contoso.com, https://secure.contoso.com, https://www.contoso.com:8000, or https://assets.contoso.com, https://secureassets.contoso.com, https://assets.contoso.com:8000).
   
 ## Zones and URLs
 
@@ -101,7 +101,7 @@ The first list of zones and URLs is related to site collection 1, and it contain
     
 - Zone - Default
     
-- Load-balanced URL - http://authoring.contoso.com:8000
+- Load-balanced URL - https://authoring.contoso.com:8000
     
 The second list of zones and URLs has three different types of users in three different zones. It is related to site collection 2, and it contains the following information:
   
@@ -111,7 +111,7 @@ First zone:
     
 - Zone - Default
     
-- Load-balanced URL - http://www.contoso.com:8000
+- Load-balanced URL - https://www.contoso.com:8000
     
 Second zone:
   
@@ -119,7 +119,7 @@ Second zone:
     
 - Zone - Internet
     
-- Load-balanced URL - http://www.contoso.com
+- Load-balanced URL - https://www.contoso.com
     
 Third zone:
   
@@ -137,7 +137,7 @@ First zone:
     
 - Zone - Internet
     
-- Load-balanced URL - http://assets.contoso.com:8000
+- Load-balanced URL - https://assets.contoso.com:8000
     
 Second zone:
   
@@ -145,7 +145,7 @@ Second zone:
     
 - Zone - Internet
     
-- Load-balanced URL - http://assets.contoso.com
+- Load-balanced URL - https://assets.contoso.com
     
 Third zone:
   
@@ -153,6 +153,6 @@ Third zone:
     
 - Zone - Extranet
     
-- Load-balanced URL - http://secureassets.contoso.com
+- Load-balanced URL - https://secureassets.contoso.com
     
 

@@ -19,7 +19,7 @@ description: "An overview of Microsoft policies about recycling, disposal, or de
 
 ## Physical data destruction
 
-Microsoft has Data Handling Standard policies that addresses recycle and disposal of disk drives and failed or retiring servers. Before reusing any Office 365 disk drives, Microsoft performs a physical sanitization process consistent with National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)). Since all disk drives in Office 365 are encrypted using BitLocker volume level encryption, NIST SP 800-88-compliant erasure isn't technically necessary. Nonetheless, Microsoft performs this process.
+Microsoft has Data Handling Standard policies that addresses recycle and disposal of disk drives and failed or retiring servers. Before reusing any Office 365 disk drives, Microsoft performs a physical sanitization process consistent with National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)). Since all disk drives in Office 365 are encrypted using BitLocker volume level encryption, NIST SP 800-88-compliant erasure isn't technically necessary. Nonetheless, Microsoft performs this process.
 
 Failed disks used within Office 365 datacenters are physically destroyed and audited through the ISO process. Asset type determines the appropriate means of disposal. For hard drives that can't be wiped, Microsoft uses a destruction process to destroy the media and render the recovery of information impossible. For example, disks are physically destroyed, pulverized, or incinerated. Microsoft retains all records of the destruction and performs a similar sanitization process on servers reused within Office 365. These guidelines encompass both electronic and physical sanitization.
 
@@ -27,7 +27,7 @@ Each datacenter uses an on-site physical destruction process to dispose of its d
 
 In the data destruction process, disks are erased in a manner compliant with NIST 800-88 (if possible) and then placed into an industrial shredder and physically demolished. Microsoft maintains accountability for assets leaving the datacenter using NIST SP 800-88 consistent cleansing/purging, asset destruction, encryption, accurate inventorying, tracking, and protection of chain of custody during transport. This process is monitored via closed-circuit television and a Certificate of Destruction is issued upon completion.
 
-Microsoft uses data erasure units from [Extreme Protocol Solutions](http://www.enterprisedataerasure.com/) (EPS). EPS software supports NIST SP 800-88 requirements for cleansing and purging/secure erasure. Before cleansing or destruction, an inventory is created by the Microsoft asset manager. If a vendor is used for destruction, the vendor provides a certificate of destruction for each asset destroyed, which is validated by the asset manager.
+Microsoft uses data erasure units from [Extreme Protocol Solutions](https://www.enterprisedataerasure.com/) (EPS). EPS software supports NIST SP 800-88 requirements for cleansing and purging/secure erasure. Before cleansing or destruction, an inventory is created by the Microsoft asset manager. If a vendor is used for destruction, the vendor provides a certificate of destruction for each asset destroyed, which is validated by the asset manager.
 
 ## Virtual data destruction
 
