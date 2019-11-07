@@ -25,7 +25,7 @@ description: "Summary: Configure and demonstrate data classification and labelin
 The Azure Information Protection client lets you classify a document before you upload it to a SharePoint Online folder in Office 365. With the instructions in this article, you install the Azure Information Protection client and demonstrate data classification. For more information, see [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection).
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
+> Click [here](https://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Build out your Office 365 dev/test environment
 
@@ -33,13 +33,13 @@ Follow the instructions in [Office 365 dev/test environment](office-365-dev-test
   
 ## Phase 2: Add the Azure Information Protection trial subscription
 
-In this phase, you add Azure Information Protection to your Office 365 dev/test environment and enable it for your user accounts. If you have configured the [Office 365 and EMS dev/test environment](http://technet.microsoft.com/library/c76eea86-d4b6-4d35-ad89-341696e89ef7.aspx), skip this phase. The Enterprise Mobility Suite trial subscription includes Azure Information Protection licenses.
+In this phase, you add Azure Information Protection to your Office 365 dev/test environment and enable it for your user accounts. If you have configured the [Office 365 and EMS dev/test environment](https://technet.microsoft.com/library/c76eea86-d4b6-4d35-ad89-341696e89ef7.aspx), skip this phase. The Enterprise Mobility Suite trial subscription includes Azure Information Protection licenses.
   
 First, sign up for an Azure Information Protection trial subscription.
   
 ### Sign up for an Azure Information Protection trial subscription
 
-1. In Internet Explorer or your browser, go to [http://admin.microsoft.com](http://admin.microsoft.com) and sign in with your Office 365 global administrator account.
+1. In Internet Explorer or your browser, go to [https://admin.microsoft.com](https://admin.microsoft.com) and sign in with your Office 365 global administrator account.
     
 2. On the **Microsoft Office Home** tab, click the **Admin** tile.
     
@@ -73,11 +73,11 @@ In this phase, you demonstrate data classification using the Azure Information P
   
 If you are using the simulated enterprise Office 365 dev/test environment, you must first install Office 2016 on CLIENT1.
   
-1. Use your browser and go to the [Azure portal](http://portal.azure.com).
+1. Use your browser and go to the [Azure portal](https://portal.azure.com).
     
 2. Click **Resource Groups >** [your resource group name] **> CLIENT1 > Connect**.
     
-3. From CLIENT1, run Internet Explorer, go to the Office portal at [http://admin.microsoft.com](http://admin.microsoft.com), and then sign in with the User5 account name and password.
+3. From CLIENT1, run Internet Explorer, go to the Office portal at [https://admin.microsoft.com](https://admin.microsoft.com), and then sign in with the User5 account name and password.
     
 4. On the **Microsoft Office Home** tab, click **Install Office 2016**.
     
@@ -145,7 +145,7 @@ Next, you sign in with your User5 account and upload the AIP-protected document 
   
 1. On the **Microsoft Office Home** tab, in the upper right, click the user icon, and then click **Sign out**.
     
-2. Go to [http://admin.microsoft.com](http://admin.microsoft.com).
+2. Go to [https://admin.microsoft.com](https://admin.microsoft.com).
     
 3. On the **Office 365 sign in** page, click the User5 account name and sign in.
     
@@ -159,7 +159,7 @@ Next, you sign in with your User5 account and upload the AIP-protected document 
 
 [Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
 
-[Office 365 and EMS dev/test environment](http://technet.microsoft.com/library/c76eea86-d4b6-4d35-ad89-341696e89ef7.aspx)
+[Office 365 and EMS dev/test environment](https://technet.microsoft.com/library/c76eea86-d4b6-4d35-ad89-341696e89ef7.aspx)
   
 [Azure Information Protection](https://www.microsoft.com/cloud-platform/azure-information-protection)
 

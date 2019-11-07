@@ -193,23 +193,23 @@ Web application and root site URLs
     
 The accompanying diagram shows application pool services such as Search interacting with site collections using web applications. The site collections shown include: 
   
-- Path-based site collection located at http://internal:8000 (root site). 
+- Path-based site collection located at https://internal:8000 (root site). 
     
 - Crawl: Host-named site collections located at an address such as https://authoring.contoso.com:8000. 
     
 - Queries: 2 separate Host-named site collections located at addresses such as: 
     
-  - http://www.contoso.com 
+  - https://www.contoso.com 
     
   - https://secure.contoso.com 
     
-  - http://www.contoso.com:8000 
+  - https://www.contoso.com:8000 
     
-  - http://assets.contoso.com 
+  - https://assets.contoso.com 
     
   - https://secureassets.contoso.com 
     
-  - http://assets.contoso.com:8000 
+  - https://assets.contoso.com:8000 
     
 ## Design the Azure environment
 

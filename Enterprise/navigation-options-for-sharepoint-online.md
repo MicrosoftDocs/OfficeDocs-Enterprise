@@ -451,9 +451,9 @@ In the [example implementation](#example-replace-the-out-of-the-box-navigation-c
 
 The [above code](#about-the-javascript-file) has the following dependencies:
 
-- jQuery - http://jquery.com/
-- KnockoutJS - http://knockoutjs.com/
-- Linq.js - http://linqjs.codeplex.com/, or github.com/neuecc/linq.js
+- jQuery - https://jquery.com/
+- KnockoutJS - https://knockoutjs.com/
+- Linq.js - https://linqjs.codeplex.com/, or github.com/neuecc/linq.js
 
 The current version of LinqJS does not contain the ByHierarchy method used in the above code and will break the navigation code. To fix this, add the following method to the Linq.js file before the line `Flatten: function ()`.
 

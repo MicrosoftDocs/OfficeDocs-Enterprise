@@ -34,7 +34,7 @@ Customer Lockbox for Office 365 helps you meet compliance obligations if you nee
 
 In the rare instance when a Microsoft service engineer needs access to your data, you grant access only to data required to resolve the issue and for a limited amount of time. If you reject an access request, Microsoft engineers do not have access to your content and will not be able to complete service operations. If you approve the request, Microsoft engineers have limited just-in-time access to your content through monitored and constrained management interfaces.
 
-Actions taken by the support engineer are logged for auditing purposes and are accessible via the [Office 365 Management Activity API](https://msdn.microsoft.com/library/office/dn707383.aspx) and the [Security and Compliance Center](http://protection.office.com/).
+Actions taken by the support engineer are logged for auditing purposes and are accessible via the [Office 365 Management Activity API](https://msdn.microsoft.com/library/office/dn707383.aspx) and the [Security and Compliance Center](https://protection.office.com/).
 
 >[!NOTE]
 > Customer Lockbox is available in [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) as an add-on purchase. For more information, see [Office 365 Customer Lockbox Requests](https://support.office.com/article/Office-365-Customer-Lockbox-Requests-36f9cdd1-e64c-421b-a7e4-4a54d16440a2).

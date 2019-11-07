@@ -127,7 +127,7 @@ Meeting recordings. This feature is applicable to:
 
 Office Web Apps Server is an Office server product that provides browser-based file viewing and editing services for Office files. Office Web Apps Server works with products and services that support the Web Application Open Platform Interface Protocol (WOPI). These products, known as hosts, include SharePoint 2013, Lync Server 2013, and Exchange Server 2013. 
   
-To learn more about Office Web Apps Server, download the Office Web Apps deployment simplified poster at http://aka.ms/OfficeWebAppsPoster. 
+To learn more about Office Web Apps Server, download the Office Web Apps deployment simplified poster at https://aka.ms/OfficeWebAppsPoster. 
   
 ## Server-to-Server Authentication tab
 
@@ -231,9 +231,9 @@ Users can upload pictures with pixel ranges from 48 × 48 to 648 × 648. The pho
     
 For example configuration scripts, see Jens Trier Rasmussen's blog articles: 
   
-- Using Exchange 2013 high-resolution photos from SharePoint Server 2013 (http://aka.ms/Bhr4d2) 
+- Using Exchange 2013 high-resolution photos from SharePoint Server 2013 (https://aka.ms/Bhr4d2) 
     
-- Integrating Exchange 2013 and Lync Server 2013 (http://aka.ms/Pn08dw) 
+- Integrating Exchange 2013 and Lync Server 2013 (https://aka.ms/Pn08dw) 
     
 The poster also contains QR codes for these two blog articles. 
   
@@ -278,7 +278,7 @@ Unified contact store (UCS) provides a consistent contact experience across Micr
     
 For example configuration scripts, see Jens Trier Rasmussen's blog article: 
   
-- Integrating Exchange 2013 and Lync Server 2013 (http://aka.ms/Oyg7fh) 
+- Integrating Exchange 2013 and Lync Server 2013 (https://aka.ms/Oyg7fh) 
     
  **How it works**
   
@@ -662,7 +662,7 @@ To prepare for publishing meeting recordings:
     
  **Digital asset libraries**
   
-Digital asset libraries are asset libraries that contain videos that have certain capacity and performance implications. For more information, see Plan digital asset libraries in SharePoint Server 2013 located at http://aka.ms/O1vq5w. The poster also includes a QR code to access this information. 
+Digital asset libraries are asset libraries that contain videos that have certain capacity and performance implications. For more information, see Plan digital asset libraries in SharePoint Server 2013 located at https://aka.ms/O1vq5w. The poster also includes a QR code to access this information. 
   
 ### Recording and publishing a meeting using the Lync client
 
@@ -678,10 +678,10 @@ The diagram shows a user using Lync to join a meeting. The meeting is recorded u
     
 4. Drag and drop the meeting recording into your SharePoint asset library. 
     
-5. Optional: Once the recording is in your asset library, you can insert it in any SharePoint page. For more information about this step, see the Office 365 blog entry, Create and Publish Training Videos with SharePoint and Lync Online, located at http://aka.ms/R61q35. 
+5. Optional: Once the recording is in your asset library, you can insert it in any SharePoint page. For more information about this step, see the Office 365 blog entry, Create and Publish Training Videos with SharePoint and Lync Online, located at https://aka.ms/R61q35. 
     
  **Video thumbnails**
   
-Video thumbnails improve the look and feel of your asset library. To learn more about creating thumbnails for your meeting recordings, see Capture or change a video thumbnail, located at http://aka.ms/Kupj85. The poster also includes a QR code to access this information. 
+Video thumbnails improve the look and feel of your asset library. To learn more about creating thumbnails for your meeting recordings, see Capture or change a video thumbnail, located at https://aka.ms/Kupj85. The poster also includes a QR code to access this information. 
   
 

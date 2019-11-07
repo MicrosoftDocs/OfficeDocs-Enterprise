@@ -296,9 +296,9 @@ param ([String]$SourcePath,[String]$MailboxAlias)
 $FolderIdentifier = "zzImportedPSTs_"
 
 # Connect to Exchange remote powershell using the connection Uri below
-# This would be the format http://<exchange server FQDN>/Powershell
+# This would be the format https://<exchange server FQDN>/Powershell
 
-$ConnectionUri = 'http://h10-exch/PowerShell'
+$ConnectionUri = 'https://h10-exch/PowerShell'
 $RemoteEx2013Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri $ConnectionUri -Authentication Kerberos
 Import-PSSession $RemoteEx2013Session
 

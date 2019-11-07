@@ -20,7 +20,7 @@ In a multi-geo configuration, your Office 365 tenant consists of a central locat
 
 Here are some key multi-geo terms to help you understand the basic concepts of the configuration:
 
--   **Tenant** – An organization's representation in Office 365 which typically has one or more domains associated with it (for example, http://contoso.sharepoint.com). 
+-   **Tenant** – An organization's representation in Office 365 which typically has one or more domains associated with it (for example, https://contoso.sharepoint.com). 
 
 -   **Geo locations** – The geographic locations available to host data in an Office 365 tenant.
 
