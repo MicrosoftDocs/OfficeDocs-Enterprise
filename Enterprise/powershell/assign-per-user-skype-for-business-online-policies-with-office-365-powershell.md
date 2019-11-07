@@ -24,7 +24,7 @@ Using Office 365 PowerShell is an efficient way to assign per-user communication
 
 Use these instructions to get set up to run the commands (skip the steps you have already completed):
   
-1. Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+1. Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366).
     
 2. Open a Windows PowerShell command prompt and run the following commands: 
     

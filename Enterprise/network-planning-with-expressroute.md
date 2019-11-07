@@ -71,7 +71,7 @@ All of our recommendations on what type of network processing is recommended app
 
 Securing Azure ExpressRoute connectivity starts with the same principles as securing Internet connectivity. Many customers choose to deploy network and perimeter controls along the ExpressRoute path connecting their on-premises network to Office 365 and other Microsoft clouds. These controls may include firewalls, application proxies, data leakage prevention, intrusion detection, intrusion prevention systems, and so on. In many cases customers apply different levels of controls to traffic initiated from on-premises going to Microsoft, versus traffic initiated from Microsoft going to customer on-premises network, versus traffic initiated from on-premises going to a general Internet destination.
   
-Here's a few examples of integrating security with the [ExpressRoute connectivity model](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-connectivity-models) you choose to deploy.
+Here's a few examples of integrating security with the [ExpressRoute connectivity model](https://docs.microsoft.com/azure/expressroute/expressroute-connectivity-models) you choose to deploy.
 
 |**ExpressRoute integration option**|**Network security perimeter model**|
 |:-----|:-----|

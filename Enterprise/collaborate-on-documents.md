@@ -18,7 +18,7 @@ If you need to collaborate with guests on documents in SharePoint or OneDrive, y
 
 This video shows the configuration steps described in this document.</br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE450Vt?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE450Vt?autoplay=false]
 
 ## Azure Organizational relationships settings
 

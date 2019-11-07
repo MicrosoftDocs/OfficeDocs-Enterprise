@@ -26,7 +26,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="A cloud and a ruler" />
+                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="A cloud and a ruler" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +45,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow.svg" alt="A flow chart" />
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow.svg" alt="A flow chart" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,7 +64,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-devtest.svg" alt="A cloud with test tubes" />
+                            <img src="https://docs.microsoft.com/office/media/icons/cloud-devtest.svg" alt="A cloud with test tubes" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid.svg" alt="A building, a cloud, and two arrows" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid.svg" alt="A building, a cloud, and two arrows" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +102,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lock-protected.svg" alt="A padlock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/lock-protected.svg" alt="A padlock" />
                         </div>
                     </div>
                     <div class="cardText">

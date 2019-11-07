@@ -104,7 +104,7 @@ For the set of local network address spaces, fill in Table L. Note that three bl
 Now let's begin building the Azure infrastructure to host your federated authentication for Office 365.
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/en-us/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
   
 First, start an Azure PowerShell prompt and login to your account.
   

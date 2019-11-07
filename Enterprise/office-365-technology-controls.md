@@ -55,7 +55,7 @@ Office 365 servers restrict concurrent sessions to one session per-service team 
 
 Usage restrictions and connection and configuration requirements for Office 365 personnel are established by Active Directory group policies. These policies include the following characteristics:
 
-- TSGs use only [FIPS](https://www.microsoft.com/en-us/TrustCenter/Compliance/FIPS) 140-2 validated encryption.
+- TSGs use only [FIPS](https://www.microsoft.com/TrustCenter/Compliance/FIPS) 140-2 validated encryption.
 - TSG sessions disconnect after 30 minutes of inactivity.
 - TSG sessions automatically log off after 24 hours.
 
