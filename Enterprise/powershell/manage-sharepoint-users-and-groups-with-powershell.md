@@ -3,7 +3,7 @@ title: "Manage SharePoint Online users and groups with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/05/2019
+ms.date: 11/05/2019
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
