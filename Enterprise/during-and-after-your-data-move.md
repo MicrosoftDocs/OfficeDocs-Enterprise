@@ -114,7 +114,7 @@ All users will be signed out from the Skype for Business client software during 
    
 |**After the move**|
 |:-----|
-| Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. Ask users to run the [troubleshooting wizard](https://support.microsoft.com/en-us/kb/2541980) and follow directions on how to clear the client cache. Lync for Mac client users should follow [these instructions](https://support.microsoft.com/en-us/kb/2629861).  <br/> |
+| Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. Ask users to run the [troubleshooting wizard](https://support.microsoft.com/kb/2541980) and follow directions on how to clear the client cache. Lync for Mac client users should follow [these instructions](https://support.microsoft.com/kb/2629861).  <br/> |
    
 ### Skype for Business moves that involve a third-party Audio Conferencing Provider
 Third-party Audio Conferencing Provider add-on services for Skype for Business are not available for users homed in new geo-specific data centers.  Existing customers using a third-party Audio Conferencing Provider service should not request a move to a new geo-specific data center.  New customers deployed into the new geo-specific data centers will need to request a move to a regional data center to use a third-party Audio Conferencing Provider.
@@ -131,5 +131,5 @@ We only move customer data for Exchange Online, SharePoint Online, and Skype for
   
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)
 

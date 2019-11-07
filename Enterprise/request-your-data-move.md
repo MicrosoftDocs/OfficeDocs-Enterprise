@@ -105,6 +105,6 @@ If users have a mobile device with the Exchange Server set to **m.outlook.com** 
 
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)
   
 

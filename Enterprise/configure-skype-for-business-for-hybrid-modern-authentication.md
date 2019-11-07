@@ -62,7 +62,7 @@ Note These steps turn on MA for SFB, SFBO, EXCH, and EXO -- that is, all the pro
   
 As you can see there are four different places to turn on MA! For the best user experience we recommend you turn on MA in all four of these locations. If you can't turn MA on in all these locations, adjust the steps so that you turn on MA only in the locations that are necessary for your environment.
   
-See the [Supportability topic for Skype for Business with MA](https://technet.microsoft.com/en-us/library/mt803262.aspx) for supported topologies. 
+See the [Supportability topic for Skype for Business with MA](https://technet.microsoft.com/library/mt803262.aspx) for supported topologies. 
   
  **Important** Double-check that you've met all the prerequisites before you begin. You'll find that information [here](hybrid-modern-auth-overview.md).
   
@@ -112,7 +112,7 @@ Now you'll need to run commands to add the URLs (collected earlier) as Service P
   
  **Note** Service principal names (SPNs) identify web services and associate them with a security principal (such as an account name or group) so that the service can act on the behalf of an authorized user. Clients authenticating to a server make use of information that's contained in SPNs. 
   
-1. First, connect to AAD with [these instructions](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0).
+1. First, connect to AAD with [these instructions](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
     
 2. Run this command, on-premises, to get a list of SFB web service URLs.
 
@@ -169,7 +169,7 @@ You should also hold down the CTRL key at the same time you right click the icon
 
 [Link back to the Modern Authentication overview](hybrid-modern-auth-overview.md) . 
   
-Do you need to know how to use Modern Authentication (ADAL) for your Skype for Business clients? We've got steps [here](https://technet.microsoft.com/en-us/library/mt710548.aspx).
+Do you need to know how to use Modern Authentication (ADAL) for your Skype for Business clients? We've got steps [here](https://technet.microsoft.com/library/mt710548.aspx).
   
 Would you like to read these steps as they appear for Exchange Server, on-premises, running without SFB? Those steps are available here.
   

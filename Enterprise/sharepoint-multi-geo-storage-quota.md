@@ -22,7 +22,7 @@ The SharePoint storage quota for any geo location can be allocated by the ShareP
 
 ## Configure a storage quota for a geo location
 
-Use the [Microsoft SharePoint Online Module](https://www.microsoft.com/en-us/download/details.aspx?id=35588 ) and connect to the central location to allocate the storage quota for a geo location. 
+Use the [Microsoft SharePoint Online Module](https://www.microsoft.com/download/details.aspx?id=35588 ) and connect to the central location to allocate the storage quota for a geo location. 
 
 To allocate Storage Quota for a location, run cmdlet:
 

@@ -108,7 +108,7 @@ In this step, you the TestLab virtual network in Azure.
 First, start an Azure PowerShell prompt.
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/en-us/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
   
 Sign in to your Azure account with the following command.
   

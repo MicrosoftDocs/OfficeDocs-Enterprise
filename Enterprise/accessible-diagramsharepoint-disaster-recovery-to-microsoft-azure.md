@@ -189,7 +189,7 @@ There are three cloud services in the Azure virtual network:
 
 The configuration of AD DS for this solution constitutes a hybrid deployment scenario in which AD DS is partly deployed on-premises and partly deployed on Azure virtual machines. 
   
-Important — Before you deploy AD DS in Azure, read Guidelines for Deploying Windows Server Active Directory on Microsoft Azure Virtual Machines (https://msdn.microsoft.com/en-us/library/windowsazure/jj156090.aspx). 
+Important — Before you deploy AD DS in Azure, read Guidelines for Deploying Windows Server Active Directory on Microsoft Azure Virtual Machines (http://msdn.microsoft.com/library/windowsazure/jj156090.aspx). 
   
 For complete guidance on designing and deploying Active Directory environments, see https://TechNet.microsoft.com. 
   

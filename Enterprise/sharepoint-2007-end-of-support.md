@@ -67,7 +67,7 @@ Your first stop should be the [Product Lifecycle site](https://go.microsoft.com/
 ||SharePoint Hybrid  <br/> |SharePoint Server 2016  <br/> |
 |||SharePoint Hybrid  <br/> |
    
-If you choose options on the low end of the scale (good enough), remember you will need to begin planning for upgrade very soon after migration from SharePoint Server 2007 is complete. (end of support for SharePoint Server 2007 is October 10, 2017. Please note that these dates are subject to change and check the [Product Lifecycle site](https://support.microsoft.com/en-us/lifecycle).)
+If you choose options on the low end of the scale (good enough), remember you will need to begin planning for upgrade very soon after migration from SharePoint Server 2007 is complete. (end of support for SharePoint Server 2007 is October 10, 2017. Please note that these dates are subject to change and check the [Product Lifecycle site](https://support.microsoft.com/lifecycle).)
   
 ## Where can I go next?
 
