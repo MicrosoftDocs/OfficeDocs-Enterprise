@@ -40,7 +40,7 @@ Before you begin configuring Azure components, fill in the following tables. To 
 |2.  <br/> |VNet location  <br/> |The regional Azure datacenter that will contain the virtual network.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
 |3.  <br/> |VPN device IP address  <br/> |The public IPv4 address of your VPN device's interface on the Internet.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
 |4.  <br/> |VNet address space  <br/> |The address space for the virtual network. Work with your IT department to determine this address space.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
-|5.  <br/> |IPsec shared key  <br/> |A 32-character random, alphanumeric string that will be used to authenticate both sides of the site-to-site VPN connection. Work with your IT or security department to determine this key value. Alternately, see [Create a random string for an IPsec preshared key](http://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx).  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
+|5.  <br/> |IPsec shared key  <br/> |A 32-character random, alphanumeric string that will be used to authenticate both sides of the site-to-site VPN connection. Work with your IT or security department to determine this key value. Alternately, see [Create a random string for an IPsec preshared key](https://social.technet.microsoft.com/wiki/contents/articles/32330.create-a-random-string-for-an-ipsec-preshared-key.aspx).  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
    
  **Table V: Cross-premises virtual network configuration**
   
@@ -104,7 +104,7 @@ For the set of local network address spaces, fill in Table L. Note that three bl
 Now let's begin building the Azure infrastructure to host your federated authentication for Office 365.
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/en-us/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
   
 First, start an Azure PowerShell prompt and login to your account.
   

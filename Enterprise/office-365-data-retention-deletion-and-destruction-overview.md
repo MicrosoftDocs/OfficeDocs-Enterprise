@@ -19,8 +19,8 @@ description: "An overview of Microsoft policies for Office 365 regarding data re
 
 Microsoft has a Data Handling Standard policy for Office 365 that specifies how long customer data is retained after deletion. There are generally two scenarios in which customer data is deleted:
 
-- **Active Deletion:** The tenant has an active subscription and a user deletes data, or administrators delete data provided by a user.
-- **Passive Deletion:** The tenant subscription ends.
+- **Active Deletion**: The tenant has an active subscription and a user or administrator deletes data, or administrators delete a user.
+- **Passive Deletion**: The tenant subscription ends.
 
 ## Data Retention
 
@@ -45,6 +45,7 @@ For any subscription, a subscriber can contact Microsoft Support and request exp
 For more information on expedited de-provisioning, see [Cancel Office 365](https://support.office.com/article/Cancel-Office-365-for-business-b1bc0bef-4608-4601-813a-cdd9f746709a).
 
 ## Related Links
+
 - [Data Destruction](office-365-data-destruction.md)
 - [Immutability in Office 365](office-365-data-immutability.md)
 - [Exchange Online Data Deletion](office-365-exchange-online-data-deletion.md)

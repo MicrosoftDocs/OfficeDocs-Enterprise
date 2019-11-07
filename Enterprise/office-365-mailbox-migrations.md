@@ -16,6 +16,7 @@ description: "A brief summary of the cmdlets used for Office 365 mailbox migrati
 ---
 
 # Office 365 Mailbox Migrations
+
 With an Exchange-based hybrid deployment, customers can choose to either move on-premises Exchange mailboxes to an [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) organization or move Exchange Online mailboxes to an [Exchange on-premises](https://docs.microsoft.com/Exchange/exchange-server) organization. Migration batches are used when moving mailboxes between on-premises and Exchange Online organizations.
 
 Customers can review statistics and other information about mailbox migrations with the following cmdlets:

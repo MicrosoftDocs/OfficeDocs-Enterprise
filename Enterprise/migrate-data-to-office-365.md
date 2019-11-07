@@ -35,7 +35,7 @@ If you want help getting Office 365 set up, [FastTrack](https://fasttrack.micros
 
 ## Migrate Skype for Business users
 - [Migrate to Skype for Business Online](https://technet.microsoft.com/library/jj204969.aspx). (Administrator)
-- Download the [Skype for Business meeting update tool](https://www.microsoft.com/en-us/download/details.aspx?id=51659) and [run it on each workstation](https://support.office.com/article/Meeting-Update-Tool-for-Skype-for-Business-and-Lync-2b525fe6-ed0f-4331-b533-c31546fcf4d4). (Administrator and/or end user)
+- Download the [Skype for Business meeting update tool](https://www.microsoft.com/download/details.aspx?id=51659) and [run it on each workstation](https://support.office.com/article/Meeting-Update-Tool-for-Skype-for-Business-and-Lync-2b525fe6-ed0f-4331-b533-c31546fcf4d4). (Administrator and/or end user)
   
 ## Need to talk to Support?
 [Contact support](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) for business products.

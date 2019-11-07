@@ -23,11 +23,11 @@ Use these community forums and Wikis to get you connected to your peers and get 
     
 - [Office 365 technical community](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
     
-- [Exchange TechCenter community forum](https://social.technet.microsoft.com/Forums/exchange/en-US/home?forum=exchangesvrgeneral)
+- [Exchange TechCenter community forum](https://social.technet.microsoft.com/Forums/exchange/home?forum=exchangesvrgeneral)
     
 - [Office Blogs](https://blogs.office.com/)
     
-- [Manage Office 365 Wiki](https://community.office365.com/en-us/w/manage/default.aspx)
+- [Manage Office 365 Wiki](https://community.office365.com/w/manage/default.aspx)
     
 ## See also
 

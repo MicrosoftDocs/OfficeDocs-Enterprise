@@ -58,7 +58,7 @@ The following are scenarios where communications from Office 365 to your on-prem
 
 - [SharePoint hybrid BCS](https://technet.microsoft.com/library/dn197239.aspx ).
 
-- [Skype for Business hybrid](https://technet.microsoft.com/en-us/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
+- [Skype for Business hybrid](https://technet.microsoft.com/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
 
 - [Skype for Business Cloud Connector](https://technet.microsoft.com/library/mt605227.aspx ).
 
@@ -208,7 +208,7 @@ In this scenario, traffic from the remote office would resolve the Office 365 fr
   
 If Humongous has major offices in multiple continents, a minimum of two active/active circuits per region are recommended in order to reduce latency for sensitive applications such as Skype for Business Online. If all offices are in a single continent, or is not using real time collaboration, having a consolidated or distributed egress point is a customer specific decision. When multiple circuits are available, BGP routing will ensure failover should any single circuit become unavailable.
   
-Learn more about sample [routing configurations](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-routing/) and [https://azure.microsoft.com/en-us/documentation/articles/expressroute-config-samples-nat/](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/).
+Learn more about sample [routing configurations](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-routing/) and [https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/).
   
 ## Selective routing with ExpressRoute
 

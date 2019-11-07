@@ -48,7 +48,7 @@ For most customers, Office 365 users are distributed across many locations. To a
 
 Microsoft recommends the following principles to achieve optimal Office 365 connectivity and performance. Use these Office 365 connectivity principles to manage your traffic and get the best performance when connecting to Office 365.
   
-The primary goal in the network design should be to minimize latency by reducing the round-trip time (RTT) from your network into the Microsoft Global Network, Microsoft's public network backbone that interconnects all of Microsoft's datacenters with low latency and cloud application entry points spread around the world. You can learn more about the Microsoft Global Network at [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
+The primary goal in the network design should be to minimize latency by reducing the round-trip time (RTT) from your network into the Microsoft Global Network, Microsoft's public network backbone that interconnects all of Microsoft's datacenters with low latency and cloud application entry points spread around the world. You can learn more about the Microsoft Global Network at [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/).
   
 <a name="BKMK_P1"> </a>
 ### Identify and differentiate Office 365 traffic
@@ -61,14 +61,14 @@ Previous Office 365 optimization guidance divided Office 365 endpoints into two 
   
 For more details on Office 365 endpoint categories and optimization methods, see the [New Office 365 endpoint categories](office-365-network-connectivity-principles.md#BKMK_Categories) section.
   
-Microsoft now publishes all Office 365 endpoints as a web service and provides guidance on how best to use this data. For more information on how to fetch and work with Office 365 endpoints, see the article [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Microsoft now publishes all Office 365 endpoints as a web service and provides guidance on how best to use this data. For more information on how to fetch and work with Office 365 endpoints, see the article [Office 365 URLs and IP address ranges](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US).
   
 <a name="BKMK_P2"> </a>
 ### Egress network connections locally
 
 ![Egress network connections locally](media/b42a45be-1ab4-4073-a7dc-fbdfb4aedd24.png)
   
-Local DNS and Internet egress is of critical importance for reducing connection latency and ensuring that user connections are made to the nearest point of entry to Office 365 services. In a complex network topology, it is important to implement both local DNS and local Internet egress together. For more information about how Office 365 routes client connections to the nearest point of entry, see the article [Client Connectivity](https://support.office.com/en-us/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b).
+Local DNS and Internet egress is of critical importance for reducing connection latency and ensuring that user connections are made to the nearest point of entry to Office 365 services. In a complex network topology, it is important to implement both local DNS and local Internet egress together. For more information about how Office 365 routes client connections to the nearest point of entry, see the article [Client Connectivity](https://support.office.com/article/client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b).
   
 Prior to the advent of cloud services such as Office 365, end user Internet connectivity as a design factor in network architecture was relatively simple. When Internet services and web sites are distributed around the globe, latency between corporate egress points and any given destination endpoint is largely a function of geographical distance.
   
@@ -123,7 +123,7 @@ Most enterprise networks enforce network security for Internet traffic using tec
 <a name="BKMK_WebSvc"> </a>
 #### Office 365 Endpoints web service
 
-Office 365 administrators can use a script or REST call to consume a structured list of endpoints from the Office 365 Endpoints web service and update the configurations of perimeter firewalls and other network devices. This will ensure that traffic bound for Office 365 is identified, treated appropriately and managed differently from network traffic bound for generic and often unknown Internet web sites. For more information on how to use the Office 365 Endpoints web service, see the article [Office 365 URLs and IP address ranges](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US).
+Office 365 administrators can use a script or REST call to consume a structured list of endpoints from the Office 365 Endpoints web service and update the configurations of perimeter firewalls and other network devices. This will ensure that traffic bound for Office 365 is identified, treated appropriately and managed differently from network traffic bound for generic and often unknown Internet web sites. For more information on how to use the Office 365 Endpoints web service, see the article [Office 365 URLs and IP address ranges](https://support.office.com/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US).
   
 #### PAC (Proxy Automatic Configuration) scripts
 <a name="BKMK_WebSvc"> </a>
@@ -135,7 +135,7 @@ Office 365 administrators can create PAC (Proxy Automatic Configuration) scripts
 
 Microsoft is transparent about datacenter security, operational security and risk reduction around Office 365 servers and the network endpoints that they represent. Office 365 built-in security features are available for reducing network security risk, such as Data Loss Prevention, Anti-Virus, Multi-Factor Authentication, Customer Lock Box, Advanced Threat Protection, Office 365 Threat Intelligence, Office 365 Secure Score, Exchange Online Protection, and Network DDOS Security.
   
-For more information on Microsoft datacenter and Global Network security, see the [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter/security).
+For more information on Microsoft datacenter and Global Network security, see the [Microsoft Trust Center](https://www.microsoft.com/trustcenter/security).
   
 ## New Office 365 endpoint categories
 <a name="BKMK_Categories"> </a>
@@ -181,7 +181,7 @@ In the new model, endpoints are segregated into three categories, **Optimize**, 
 
 - **Default** endpoints represent Office 365 services and dependencies that do not require any optimization, and can be treated by customer networks as normal Internet bound traffic. Note that some endpoints in this category may not be hosted in Microsoft datacenters. Examples include  *https://odc.officeapps.live.com*  and  *https://appexsin.stb.s-msn.com*.
 
-For more information about Office 365 network optimization techniques, see the article [Managing Office 365 endpoints](https://support.office.com/en-us/article/managing-office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a#ID0EAEAAA=0._Overview).
+For more information about Office 365 network optimization techniques, see the article [Managing Office 365 endpoints](https://support.office.com/article/managing-office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a#ID0EAEAAA=0._Overview).
   
 ## Comparing network perimeter security with endpoint security
 <a name="BKMK_SecurityComparison"> </a>
@@ -223,7 +223,7 @@ A holistic approach to enhanced security should include consideration of the fol
   - Ensures local egress for Office 365 traffic
 - Improvements can be addressed incrementally as described in the [Incremental optimization](office-365-network-connectivity-principles.md#BKMK_IncOpt) section. Some optimization techniques may offer better cost/benefit ratios depending on your network architecture, and you should choose optimizations that make the most sense for your organization.
 
-For more information on Office 365 security and compliance, see the article [Overview of security and compliance in Office 365](https://support.office.com/en-us/article/overview-of-security-and-compliance-in-office-365-dcb83b2c-ac66-4ced-925d-50eb9698a0b2?ui=en-US&amp;rs=en-US&amp;ad=US).
+For more information on Office 365 security and compliance, see the article [Overview of security and compliance in Office 365](https://support.office.com/article/overview-of-security-and-compliance-in-office-365-dcb83b2c-ac66-4ced-925d-50eb9698a0b2?ui=en-US&amp;rs=en-US&amp;ad=US).
   
 ## Incremental optimization
 <a name="BKMK_IncOpt"> </a>
@@ -266,6 +266,6 @@ You can approach optimization as an incremental process, applying each method su
 
 [Office 365 Network Onboarding tool](https://aka.ms/netonboard)
 
-[How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/en-us/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
+[How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 
 [Office 365 Networking blog](https://techcommunity.microsoft.com/t5/Office-365-Networking/bd-p/Office365Networking)

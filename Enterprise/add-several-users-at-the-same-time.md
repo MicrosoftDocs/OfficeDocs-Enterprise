@@ -91,7 +91,7 @@ Each person on your team needs a user account before they can sign in and access
 
 A CSV file is a file with comma separated values. You can create or edit a file like this with any text editor or spreadsheet program, such as Excel.
   
-You can download [this sample spreadsheet](https://www.microsoft.com/en-us/download/details.aspx?id=45485) as a starting point. Remember that Office 365 requires column headings in the first row so don't replace them with something else. 
+You can download [this sample spreadsheet](https://www.microsoft.com/download/details.aspx?id=45485) as a starting point. Remember that Office 365 requires column headings in the first row so don't replace them with something else. 
   
 Save the file with a new name, and specify CSV format.
   
@@ -142,7 +142,7 @@ When you save the file, you'll probably get a prompt that some features in your 
     
 ## Add multiple users to Office 365 in the old admin center
 
-1. Download [this sample spreadsheet](https://www.microsoft.com/en-us/download/details.aspx?id=45485) and open it in Excel. 
+1. Download [this sample spreadsheet](https://www.microsoft.com/download/details.aspx?id=45485) and open it in Excel. 
     
     Your spreadsheet needs to include the **exact same column headings** as the sample one (User Name, First Name, etc...). If you use the template, consider leaving all the data in row 1 alone, and only entering data in rows 2 and below. 
     

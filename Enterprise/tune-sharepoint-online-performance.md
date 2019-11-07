@@ -11,7 +11,9 @@ localization_priority: Normal
 search.appverid:
 - MET150
 - SPO160
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- SPO_Content
 ms.custom: Adm_O365
 ms.assetid: f0522d4a-fbf4-41f9-854e-c9b59555091d
 description: "Contains links to other articles that tell you how to improve performance of page download times for SharePoint Online."
@@ -31,7 +33,7 @@ Use these articles to fine tune SharePoint Online performance.
 
 - [Navigation options for SharePoint Online](navigation-options-for-sharepoint-online.md)
 
-- [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/portal-performance)
+- [Performance guidance for SharePoint Online portals](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-performance)
 
 - [Image optimization for SharePoint Online](image-optimization-for-sharepoint-online.md)
 
@@ -51,7 +53,7 @@ Use these articles to fine tune SharePoint Online performance.
 
 - [Using the object cache with SharePoint Online](using-the-object-cache-with-sharepoint-online.md)
 
-- [How to: Avoid getting throttled or blocked in SharePoint Online](https://msdn.microsoft.com/en-us/library/office/dn889829.aspx)
+- [How to: Avoid getting throttled or blocked in SharePoint Online](https://msdn.microsoft.com/library/office/dn889829.aspx)
 
 - [Optimize iFrames in SharePoint Online modern portal pages](modern-iframe-optimization.md)
 

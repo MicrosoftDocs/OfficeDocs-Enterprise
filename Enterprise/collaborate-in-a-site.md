@@ -20,7 +20,7 @@ In this article, we'll walk through the Microsoft 365 configuration steps necess
 
 This video shows the configuration steps described in this document.</br>
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE44Llg?autoplay=false]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44Llg?autoplay=false]
 
 ## Azure Organizational relationships settings
 

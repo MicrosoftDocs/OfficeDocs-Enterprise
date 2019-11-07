@@ -152,9 +152,9 @@ This URI shows an RSS feed of the published versions that include links to the l
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<rss version="2.0" xmlns:a10="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:a10="https://www.w3.org/2005/Atom">
 <channel>
-<link>http://aka.ms/o365ip</link>
+<link>https://aka.ms/o365ip</link>
 <description/>
 <language>en-us</language>
 <lastBuildDate>Thu, 02 Aug 2018 00:00:00 Z</lastBuildDate>
@@ -598,7 +598,7 @@ You can use a few different methods to get email notifications when changes to t
 
 - To use a Microsoft Flow solution, see [Use Microsoft Flow to receive an email for changes to Office 365 IP Addresses and URLs](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
 - To deploy an Azure Logic App using an ARM template, see [Office 365 Update Notification (v1.1)](https://aka.ms/ipurlws-updates-template).
-- To write your own notification script using PowerShell, see [Send-MailMessage](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage).
+- To write your own notification script using PowerShell, see [Send-MailMessage](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage).
 
 ## Exporting a Proxy PAC file
 

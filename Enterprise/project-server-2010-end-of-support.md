@@ -152,7 +152,7 @@ Key resources:
 
 After migrating to Project Server 2013 and verifying that your data has migrated successfully, the next step is to migrate your data to Project Server 2016.
   
-For a comprehensive understanding of what you need to do to upgrade from Project Server 2013 to Project Server 2016, see [Upgrade to Project Server 2016](https://docs.microsoft.com/en-us/Project/upgrade-to-project-server-2016).
+For a comprehensive understanding of what you need to do to upgrade from Project Server 2013 to Project Server 2016, see [Upgrade to Project Server 2016](https://docs.microsoft.com/Project/upgrade-to-project-server-2016).
   
 Key resources:
   
@@ -171,7 +171,7 @@ Key resources:
 
 After migrating to Project Server 2016 and verifying that your data has migrated successfully, the next step is to migrate your data to Project Server 2019.
   
-For a comprehensive understanding of what you need to do to upgrade from Project Server 2016 to Project Server 2019, see [Upgrade to Project Server 2019](https://docs.microsoft.com/en-us/Project/upgrade-to-project-server-2016).
+For a comprehensive understanding of what you need to do to upgrade from Project Server 2016 to Project Server 2019, see [Upgrade to Project Server 2019](https://docs.microsoft.com/Project/upgrade-to-project-server-2016).
   
 Key resources:
   
@@ -184,7 +184,7 @@ Key resources:
   
 - The upgrade process will migrate your data from your Project Server 2016 database to the SharePoint Server 2019 Content database.  Project Server 2019 will no longer create its own Project Server database in the SharePoint Server farm.
 
-- After upgrade, be aware of several changes in Project Web App.  For a description of these, see [What's new in Project Server 2019](https://docs.microsoft.com/en-us/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges).
+- After upgrade, be aware of several changes in Project Web App.  For a description of these, see [What's new in Project Server 2019](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2019#PWAChanges).
 
   
 Other resources:

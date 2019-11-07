@@ -69,7 +69,7 @@ In this phase, you demonstrate that before configuring ATP policies, potentially
     
 13. In the body, select the **this site** text and click the hyperlink icon in the toolbar.
     
-14. In **URL**, type **http://www.spamlink.contoso.com/**, click **OK**, and then click **Send**.
+14. In **URL**, type **https://www.spamlink.contoso.com/**, click **OK**, and then click **Send**.
     
 15. Open a separate instance of Internet Explorer in private browsing mode, go to the Microsoft 365 admin center ([https://admin.microsoft.com](https://admin.microsoft.com)), and sign in to your Office 365 trial subscription with your global administrator account.
     
@@ -151,7 +151,7 @@ In this phase, you demonstrate how ATP deals with potentially malicious email.
 You can now use this environment to create new policies and experiment with ATP.
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
+> Click [here](https://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## See Also
 

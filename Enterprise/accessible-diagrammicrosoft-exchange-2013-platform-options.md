@@ -14,7 +14,7 @@ description: "This article is an accessible text version of the diagram named Mi
 
 # Accessible diagram - Microsoft Exchange 2013 Platform Options
 
-**Summary:** This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at [Technical Diagrams](http://go.microsoft.com/fwlink/?LinkID=519139&amp;clcid=0x409).
+**Summary:** This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at [Technical Diagrams](https://go.microsoft.com/fwlink/?LinkID=519139&amp;clcid=0x409).
   
 This poster describes what business decision makers (BDMs) and architects need to know about Exchange Online and Exchange Server deployments and includes: 
   
