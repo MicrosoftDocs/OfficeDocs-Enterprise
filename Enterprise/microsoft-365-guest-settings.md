@@ -55,7 +55,7 @@ The Microsoft 365 admin center has organization-level settings for sharing and f
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-|Let users add new guests to the organization|On|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. <br><br>Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or gorup members in  Microsoft 365. <br><br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
+|Let users add new guests to the organization|On|When set to **Yes**, Azure AD members can invite guests via Azure AD; when set to **No**, they cannot. When set to **Yes**, Office 365 Group members can invite guests with owner approval; when set to **No**, Office 365 Group members can invite guests with owner approval but owners must be global administrators to approve. <br><br>Note that **Members can invite** refers to members in Azure AD (as opposed to guests) and not to site or group members in  Microsoft 365. <br><br>This is identical to the **Members can invite** setting in Azure Active Directory Organizational relationships settings.|
 
 ### Office 365 Groups
 
