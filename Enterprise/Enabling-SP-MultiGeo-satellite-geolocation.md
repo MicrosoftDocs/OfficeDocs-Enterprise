@@ -7,7 +7,9 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-ms.collection: Strat_SP_gtc
+ms.collection: 
+- Strat_SP_gtc
+- SPO_Content
 localization_priority: Priority
 description: "Enabling SharePoint Multi-Geo in your satellite geo location."
 ---
