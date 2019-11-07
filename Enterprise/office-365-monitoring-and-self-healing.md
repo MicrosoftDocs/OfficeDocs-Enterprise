@@ -16,6 +16,7 @@ description: "Information about Office 365's monitoring and self-healing capabil
 ---
 
 # Office 365 Monitoring and Self-Healing
+
 Given the scale of Office 365, it would be impossible to keep customer data resilient and safe from malware without built-in monitoring that is comprehensive, alerting that is intelligent, and self-healing that is fast and reliable. Monitoring a set of services at the scale of Office 365 is very challenging. New mindsets and methodologies needed to be introduced, and whole new sets of technology needed to be created to operate and manage the service in a connected global environment. We have moved away from the traditional monitoring approach of data collection and filtering to create alerts to an approach that is based on data analysis; taking signals and building confidence in that data and then using automation to recover or resolve the issue. This approach helps take humans out of the recovery equation, which in turn makes operations less expensive, faster, and less error prone. 
 
 Fundamental to Office 365 monitoring is a collection of technologies that comprise our Data Insights Engine, which is built on Azure, SQL Azure, and [open-source streaming database technology](https://cassandra.apache.org/). It is designed to collect and aggregate data and reach conclusions. Currently, it processes more than 500 million events per hour from more than 100,000 servers (~15 TB per day) scattered across dozens of datacenters in many regions, and these numbers are growing. 
@@ -29,14 +30,17 @@ Based on the combination of the failure alert and the Red Alerts, this alert ind
 In addition to self-healing capabilities such as single page restore, Exchange Online includes several features that take an approach to monitoring and self-healing which focuses on preserving the end-user experience. These features include *Managed Availability*, which provides built-in monitoring and recovery actions, and AutoReseed, which automatically restores database redundancy after a disk failure. 
 
 ## Managed Availability 
-Managed availability provides a native health checking and recovery solution that monitors and protects the end user's experience through recovery-oriented actions. Managed availability is the integration of built-in monitoring and recovery actions with the Exchange high availability platform. It's designed to detect and recover from problems as soon as they occur and are discovered by the system. Unlike previous external monitoring solutions and techniques for Exchange, managed availability doesn't try to identify or communicate the root cause of an issue. Instead, it's focused on recovery aspects that address three key areas of the end-user experience: 
+
+Managed availability provides a native health checking and recovery solution that monitors and protects the end user's experience through recovery-oriented actions. Managed availability is the integration of built-in monitoring and recovery actions with the Exchange high availability platform. It's designed to detect and recover from problems as soon as they occur and are discovered by the system. Unlike previous external monitoring solutions and techniques for Exchange, managed availability doesn't try to identify or communicate the root cause of an issue. Instead, it's focused on recovery aspects that address three key areas of the end-user experience:
+
 - **Availability** - Can users access the service? 
 - **Latency** - How is the experience for users? 
 - **Errors** - Are users able to accomplish what they want? 
 
-Managed availability is an internal feature that runs on every Office 365 server running Exchange Online. It polls and analyzes hundreds of health metrics every second. If something is found to be wrong, most of the time it is fixed automatically. But there will always be issues that managed availability will not be able to fix on its own. In those cases, managed availability will escalate the issue to an Office 365 support team by means of event logging. 
+Managed availability is an internal feature that runs on every Office 365 server running Exchange Online. It polls and analyzes hundreds of health metrics every second. If something is found to be wrong, most of the time it is fixed automatically. But there will always be issues that managed availability will not be able to fix on its own. In those cases, managed availability will escalate the issue to an Office 365 support team by means of event logging.
 
-## AutoReseed 
+## AutoReseed
+
 Exchange Online servers are deployed in a configuration that stores multiple databases and their log streams on the same non-RAID disk. This configuration is often referred to as *just a bunch of disks* (JBOD) because no storage redundancy mechanisms, such as RAID, are being used to duplicate the data on the disk. When a disk fails in a JBOD environment, the data on that disk is lost. 
 
 Given the size of Exchange Online and the fact that deployed within it are millions of disk drives, disk drive failures are a regular occurrence in Exchange Online. In fact, more than 100 fail every day. When a disk fails in an on-premises enterprise deployment, an administrator must manually replace the failed disk and restore the affected data. In a cloud deployment the size of Office 365, having operators (cloud administrators) manually replacing disks is neither practical nor economically feasible. 
