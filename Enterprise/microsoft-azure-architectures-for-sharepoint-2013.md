@@ -51,7 +51,7 @@ While this article uses example SharePoint topologies, you can use these design 
   
 - [Architecture design for SharePoint 2013 IT pros](http://technet.microsoft.com/sharepoint/fp123594.aspx)
     
-- [Plan for performance and capacity management in SharePoint Server 2013](http://technet.microsoft.com/library/8dd52916-f77d-4444-b593-1f7d6f330e5f.aspx)
+- [Plan for performance and capacity management in SharePoint Server 2013](https://technet.microsoft.com/library/8dd52916-f77d-4444-b593-1f7d6f330e5f.aspx)
     
 ## Determine the Active Directory domain type
 

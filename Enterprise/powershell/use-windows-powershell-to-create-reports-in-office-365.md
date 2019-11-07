@@ -42,15 +42,15 @@ These articles that describe how to use Office 365 PowerShell to obtain informat
     
 - Reports for SharePoint Online:
     
-  - [Manage SharePoint Online users and groups with Office 365 PowerShell](http://technet.microsoft.com/library/9680af2e-a965-4e62-92ee-da72105c7800.aspx)
+  - [Manage SharePoint Online users and groups with Office 365 PowerShell](https://technet.microsoft.com/library/9680af2e-a965-4e62-92ee-da72105c7800.aspx)
     
-  - [Manage SharePoint Online site groups with Office 365 PowerShell](http://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
+  - [Manage SharePoint Online site groups with Office 365 PowerShell](https://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
     
 - Reports for Exchange Online:
     
-  - [Display Exchange Online mailbox information with Office 365 PowerShell](http://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
+  - [Display Exchange Online mailbox information with Office 365 PowerShell](https://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
     
-  - [Display Exchange Online reports with Office 365 PowerShell](http://technet.microsoft.com/library/4873a063-9fc4-4ed9-826a-6e935fef61d4.aspx)
+  - [Display Exchange Online reports with Office 365 PowerShell](https://technet.microsoft.com/library/4873a063-9fc4-4ed9-826a-6e935fef61d4.aspx)
     
 ## See also
 

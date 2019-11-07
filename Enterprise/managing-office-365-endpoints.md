@@ -120,7 +120,7 @@ Click the link at the bottom to indicate if the article was helpful or not and s
   
 ### How do I determine the location of my tenant?
 
- **Tenant location** is best determined using our [datacenter map](http://aka.ms/datamaps).
+ **Tenant location** is best determined using our [datacenter map](https://aka.ms/datamaps).
   
 ### Am I peering appropriately with Microsoft?
 
@@ -135,7 +135,7 @@ We only provide IP addresses for the Office 365 servers you should route directl
   
 See an IP associated with Office 365 that you want more information on?
   
-1. Check if the IP address is included in a larger published range using a [CIDR calculator](http://jodies.de/ipcalc).
+1. Check if the IP address is included in a larger published range using a [CIDR calculator](https://jodies.de/ipcalc).
 2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner.
 3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
 

@@ -56,7 +56,7 @@ To step through a production deployment of federated authentication for Office 3
 > You cannot configure this dev/test environment with an Azure Trial subscription. 
   
 > [!TIP]
-> Click [here](http://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
+> Click [here](https://aka.ms/catlgstack) for a visual map to all the articles in the Office 365 Test Lab Guide stack.
   
 ## Phase 1: Create the simulated enterprise Office 365 dev/test environment with DirSync
 
@@ -106,7 +106,7 @@ New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 > Click [here](https://gallery.technet.microsoft.com/PowerShell-commands-for-f79bc2c2?redir=0) for a text file that has all the PowerShell commands in this article.
 -->
   
-Next, use the [Azure portal](http://portal.azure.com) to connect to the ADFS1 virtual machine using the ADFS1 local administrator account name and password, and then open a Windows PowerShell command prompt.
+Next, use the [Azure portal](https://portal.azure.com) to connect to the ADFS1 virtual machine using the ADFS1 local administrator account name and password, and then open a Windows PowerShell command prompt.
   
 To check name resolution and network communication between ADFS1 and DC1, run the **ping dc1.corp.contoso.com** command and check that there are four replies.
   
@@ -161,7 +161,7 @@ $rgName="<the resource group name of your Base Configuration>"
 Get-AzNetworkSecurityGroup -Name CorpNet -ResourceGroupName $rgName | Add-AzNetworkSecurityRuleConfig -Name "HTTPS-to-PROXY1" -Description "Allow TCP 443 to PROXY1" -Access "Allow" -Protocol "Tcp" -Direction "Inbound" -Priority 101 -SourceAddressPrefix "Internet" -SourcePortRange "*" -DestinationAddressPrefix "10.0.0.101" -DestinationPortRange "443" | Set-AzNetworkSecurityGroup
 ```
 
-Next, use the [Azure portal](http://portal.azure.com) to connect to the PROXY1 virtual machine using the PROXY1 local administrator account name and password, and then open a Windows PowerShell command prompt on PROXY1.
+Next, use the [Azure portal](https://portal.azure.com) to connect to the PROXY1 virtual machine using the PROXY1 local administrator account name and password, and then open a Windows PowerShell command prompt on PROXY1.
   
 To check name resolution and network communication between PROXY1 and DC1, run the **ping dc1.corp.contoso.com** command and check that there are four replies.
   
@@ -181,7 +181,7 @@ Write-Host (Get-AzPublicIpaddress -Name "PROXY1-PIP" -ResourceGroup $rgName).IPA
 
 Next, work with your public DNS provider and create a new public DNS A record for **fs.testlab.**\<your DNS domain name> that resolves to the IP address displayed by the **Write-Host** command. The **fs.testlab.**\<your DNS domain name> is hereafter referred to as the  *federation service FQDN*.
   
-Next, use the [Azure portal](http://portal.azure.com) to connect to the DC1 virtual machine using the CORP\\User1 credentials, and then run the following commands at an administrator-level Windows PowerShell command prompt:
+Next, use the [Azure portal](https://portal.azure.com) to connect to the DC1 virtual machine using the CORP\\User1 credentials, and then run the following commands at an administrator-level Windows PowerShell command prompt:
   
 ```
 Add-DnsServerPrimaryZone -Name corp.contoso.com -ZoneFile corp.contoso.com.dns
@@ -201,7 +201,7 @@ Figure 4 shows the addition of the PROXY1 server.
 
 In this phase, you create a self-signed digital certificate for your federation service FQDN and configure ADFS1 and PROXY1 as an AD FS farm.
   
-First, use the [Azure portal](http://portal.azure.com) to connect to the DC1 virtual machine using the CORP\\User1 credentials, and then open an administrator-level Windows PowerShell command prompt.
+First, use the [Azure portal](https://portal.azure.com) to connect to the DC1 virtual machine using the CORP\\User1 credentials, and then open an administrator-level Windows PowerShell command prompt.
   
 Next, create AD FS service account with this command at the Windows PowerShell command prompt on DC1:
   
@@ -211,7 +211,7 @@ New-ADUser -SamAccountName ADFS-Service -AccountPassword (read-host "Set user pa
 
 Note that this command prompts you to supply the account password. Choose a strong password and record it in a secured location. You will need it for this phase and Phase 5.
   
-Use the [Azure portal](http://portal.azure.com) to connect to the ADFS1 virtual machine using the CORP\\User1 credentials. Open an administrator-level Windows PowerShell command prompt on ADFS1, fill in your federation service FQDN, and then run these commands to create a self-signed certificate:
+Use the [Azure portal](https://portal.azure.com) to connect to the ADFS1 virtual machine using the CORP\\User1 credentials. Open an administrator-level Windows PowerShell command prompt on ADFS1, fill in your federation service FQDN, and then run these commands to create a self-signed certificate:
   
 ```
 $fedServiceFQDN="<federation service FQDN>"
@@ -294,7 +294,7 @@ Next, configure the AD FS service with these steps:
     
 14. Click **Start**, click the power icon, click **Restart**, and then click **Continue**.
     
-From the [Azure portal](http://portal.azure.com), connect to PROXY1 with the CORP\\User1 account credentials.
+From the [Azure portal](https://portal.azure.com), connect to PROXY1 with the CORP\\User1 account credentials.
   
 Next, use these steps to install the self-signed certificate and configure PROXY1.
   
@@ -368,7 +368,7 @@ Use these steps to configure the web application proxy service to use ADFS1 as i
     
 ## Phase 5: Configure Office 365 for federated identity
 
-Use the [Azure portal](http://portal.azure.com) to connect to the APP1 virtual machine with the CORP\\User1 account credentials.
+Use the [Azure portal](https://portal.azure.com) to connect to the APP1 virtual machine with the CORP\\User1 account credentials.
   
 Use these steps to configure Azure AD Connect and your Office 365 subscription for federated authentication:
   

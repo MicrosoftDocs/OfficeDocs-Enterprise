@@ -48,7 +48,7 @@ We're making it easier to identify Office 365 network traffic and making it simp
 
 - New categories of network endpoints to differentiate highly critical network traffic from network traffic which is not impacted by Internet latencies. There are just a handful of URLs and supporting IP Addresses in the most critical “Optimize” category.
 - Web services for script usage or direct device configuration and change management of Office 365 network identification. Changes are available from the web service, or in RSS format, or on email using a Microsoft Flow template.
-- [Office 365 Network partner program](http://aka.ms/Office365NPP) with Microsoft partners who provide devices or services that follow Office 365 network connectivity principles and have simple configuration.
+- [Office 365 Network partner program](https://aka.ms/Office365NPP) with Microsoft partners who provide devices or services that follow Office 365 network connectivity principles and have simple configuration.
 
 ## Securing Office 365 connections
 

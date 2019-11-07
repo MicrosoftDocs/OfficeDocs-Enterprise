@@ -108,7 +108,7 @@ Verify and check these items off your list before you continue:
   <system.net>
     <defaultProxy>
       <proxy
-        proxyaddress="http://192.168.100.60:8080"
+        proxyaddress="https://192.168.100.60:8080"
         bypassonlocal="true" />
     </defaultProxy>
   </system.net>
