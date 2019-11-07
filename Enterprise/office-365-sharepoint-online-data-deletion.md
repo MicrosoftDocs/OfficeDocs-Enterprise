@@ -23,6 +23,7 @@ In SharePoint Online, items are retained for 93 days from the time you delete th
 ) and [Restore deleted items from the site collection recycle bin](https://support.office.com/article/5fa924ee-16d7-487b-9a0a-021b9062d14b). The Recycle Bin retention time is not configurable in SharePoint Online.
 
 When you delete a site collection, you're also deleting the hierarchy of sites in the collection, and all content within them:
+
 - Documents and document libraries
 - Lists and list data
 - Site configuration settings

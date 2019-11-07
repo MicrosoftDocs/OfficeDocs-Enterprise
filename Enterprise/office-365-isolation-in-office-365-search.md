@@ -16,7 +16,9 @@ description: "Summary: An explanation of tenant isolation in Office 365 Search."
 ---
 
 # Tenant Isolation in Office 365 Search
+
 SharePoint Online search uses a tenant separation model that balances the efficiency of shared data structures with protection against information leaking between tenants. With this model, we prevent the Search features from:
+
 - Returning query results that contain documents from other tenants
 - Exposing sufficient information in query results that a skilled user could infer information about other tenants
 - Showing schema or settings from another tenant
@@ -26,7 +28,9 @@ SharePoint Online search uses a tenant separation model that balances the effici
 For each type of tenant data, we use one or more layers of protection in the code to prevent accidental leaking of information. The most critical data has the most layers of protection to make sure that a single defect doesn't result in actual or perceived information leakage.
 
 ## Tenant Separation for the Search Index
+
 The search index is stored on disk in the servers hosting the index components and the tenants share the index files. A tenant's indexed documents are visible only for queries for that tenant. Three independent mechanisms prevent information leakage:
+
 - Tenant ID filtering
 - Tenant ID term prefixing
 - ACL checks
@@ -34,6 +38,7 @@ The search index is stored on disk in the servers hosting the index components a
 All three mechanisms would have to fail for Search to return documents to the wrong tenant.
 
 ## Tenant ID Filtering and Tenant ID Term Prefixing
+
 Search prefixes every term that is indexed in the full-text index with the tenant ID. For example, when the term "*foo*" is indexed for a tenant with an ID of "*123*", the entry in the full-text index is "*123foo.*"
 
 Every query is converted to include the tenant ID using a process called tenant ID filtering. For example, the query "*foo*" is converted to "<*guid*>.*foo* AND *tenantID*:<*guid*>", where <*guid*> represents the tenant performing the query. This query conversion occurs within each index node and neither query nor content processing can influence it. Because the tenant ID is added to every query, the frequency of a term in other tenants can't be inferred by looking at best match ranking in one tenant.
@@ -41,6 +46,7 @@ Every query is converted to include the tenant ID using a process called tenant 
 Tenant ID term prefixing occurs only in the full-text index. Fielded searches, such as "*title:foo*", go to a synthetic search index where terms aren't prefixed by tenant ID. Instead, fielded searches are prefixed with the field name. For example, the query "*title:foo*" is converted to "*fields.title:foo AND fields.tenantID*:<*guid*>." Because the frequency of a term doesn't influence ranking of hits in the synthetic search index, there's no need for tenant separation by term prefixing. For a fielded search like "*title:foo*", tenant content separation depends on tenant ID filtering by query conversion.
 
 ## Document Access Control List Checks
+
 Search controls access to documents through ACLs that are saved in the search index. Every item is indexed with a set of terms in a special ACL field. The ACL field contains one term per group or user that can view the document. Every query is augmented with a list of access control entry (ACE) terms, one for each group to which the authenticated user belongs.
 
 For example, a query like "<*guid*>.*foo AND tenantID*:<*guid*>" becomes:

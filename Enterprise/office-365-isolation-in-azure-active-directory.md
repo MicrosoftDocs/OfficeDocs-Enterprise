@@ -18,6 +18,7 @@ description: "Summary: How Isolation and Access Control work within Azure Active
 # Isolation and Access Control in Azure Active Directory
 
 Azure Active Directory was designed to host multiple tenants in a highly secure way through logical data isolation. Access to Azure Active Directory is gated by an authorization layer. Azure Active Directory isolates customers using tenant containers as security boundaries to safeguard a customer's content so that the content cannot be accessed or compromised by co-tenants. Three checks are performed by Azure Active Directory's authorization layer:
+
 - Is the principal enabled for access to Azure Active Directory tenant?
 - Is the principal enabled for access to data in this tenant?
 - Is the principal's role in this tenant authorized for the type of data access requested?
