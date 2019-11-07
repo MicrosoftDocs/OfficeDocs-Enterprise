@@ -11,7 +11,9 @@ localization_priority: Normal
 search.appverid:
 - MET150
 - SPO160
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- SPO_Content
 ms.custom: Adm_O365
 ms.assetid: f0522d4a-fbf4-41f9-854e-c9b59555091d
 description: "Contains links to other articles that tell you how to improve performance of page download times for SharePoint Online."
