@@ -86,7 +86,7 @@ There are several optional scenarios that require Microsoft to initiate connecti
 
 - [SharePoint hybrid BCS](https://technet.microsoft.com/library/dn197239.aspx ).
 
-- [Skype for Business hybrid](https://technet.microsoft.com/en-us/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
+- [Skype for Business hybrid](https://technet.microsoft.com/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
 
 - [Skype for Business Cloud Connector](https://technet.microsoft.com/library/mt605227.aspx ).
 

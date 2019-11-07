@@ -22,7 +22,7 @@ One of the primary tasks of any Skype for Business Online administrator is manag
 
 ## Before you start
 
-Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/en-us/download/details.aspx?id=39366), and then restart your computer if prompted.
+Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.
 
 
 ## Connect using a Skype for Business Online administrator account name and password

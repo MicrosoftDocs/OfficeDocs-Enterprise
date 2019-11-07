@@ -25,11 +25,11 @@ SharePoint Online modern site pages contain serialized code that is required to 
 This article will help you understand how to reduce page weight in your modern site pages.
 
 >[!NOTE]
->For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance).
+>For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance).
 
 ## Use the Page Diagnostics for SharePoint tool to analyze page weight
 
-The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/en-us/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
 When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about page in the **Page weight under 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value.
 
@@ -55,7 +55,7 @@ General guidance for reducing page weight includes:
 
 You can find additional guidance for limiting page weight in the following article:
 
-- [Optimize page performance in SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
+- [Optimize page performance in SharePoint](https://docs.microsoft.com/sharepoint/dev/general-development/optimize-page-performance-in-sharepoint)
 
 Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
@@ -70,7 +70,7 @@ Before you make page revisions to remediate performance issues, make a note of t
 
 [Tune Office 365 performance](tune-office-365-performance.md)
 
-[Performance in the modern SharePoint experience](https://docs.microsoft.com/en-us/sharepoint/modern-experience-performance.md)
+[Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance.md)
 
 [Content delivery networks](content-delivery-networks.md)
 

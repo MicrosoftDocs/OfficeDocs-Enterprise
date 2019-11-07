@@ -30,7 +30,7 @@ When Exchange 2010 reaches its end of support on October 13, 2020, Microsoft wil
 
 Your installation of Exchange 2010 will continue to run after this date. However, because of the changes listed above, we strongly recommend that you migrate from Exchange 2010 as soon as possible.
 
-For more information about Office 2010 servers nearing the end of support, see [Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/en-us/office365/enterprise/upgrade-from-office-2010-servers-and-products).
+For more information about Office 2010 servers nearing the end of support, see [Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/office365/enterprise/upgrade-from-office-2010-servers-and-products).
 
 ## What are my options?
 
@@ -94,7 +94,7 @@ method you'll use.
 
 The following sections give you an overview of these methods. Check out [Decide
 on a migration
-path](https://support.office.com/en-us/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27)
+path](https://support.office.com/article/Decide-on-a-migration-path-0d4f2396-9cef-43b8-9bd6-306d01df1e27)
 to learn the details of each method.
 
 ### Cutover migration
@@ -136,14 +136,14 @@ think consider:
 - Users will need to set up a new Outlook profile on each of their devices and
     download their email again. The amount of email that Outlook will download
     can vary. For more information, take a look at [Change how much mail to keep
-    offline](https://support.office.com/en-us/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&rs=en-US&ad=US&fromAR=1).
+    offline](https://support.office.com/article/Change-how-much-mail-to-keep-offline-f3a1251c-6dd5-4208-aef9-7c8c9522d633?ui=en-US&rs=en-US&ad=US&fromAR=1).
 
 To learn more about cutover migration, take a look at:
 
 - [What you need to know about a cutover email migration to Office
-    365](https://support.office.com/en-us/article/What-you-need-to-know-about-a-cutover-email-migration-to-Office-365-961978ef-f434-472d-a811-1801733869da)
+    365](https://support.office.com/article/What-you-need-to-know-about-a-cutover-email-migration-to-Office-365-961978ef-f434-472d-a811-1801733869da)
 - [Perform a cutover migration of email to Office
-    365](https://support.office.com/en-us/article/Perform-a-cutover-migration-of-email-to-Office-365-9496e93c-1e59-41a8-9bb3-6e8df0cd81b4)
+    365](https://support.office.com/article/Perform-a-cutover-migration-of-email-to-Office-365-9496e93c-1e59-41a8-9bb3-6e8df0cd81b4)
 
 ### Minimal hybrid migration
 
@@ -241,10 +241,10 @@ If a full hybrid migration sounds right for you, take a look at the following
 resources to help you with your migration:
 
 - [Exchange Deployment Assistant](https://aka.ms/exdeploy)
-- [Exchange Server Hybrid Deployments](https://technet.microsoft.com/en-us/library/jj200581%28v=exchg.150%29.aspx)
-- [Hybrid Configuration wizard](https://technet.microsoft.com/en-us/library/hh529921%28v=exchg.150%29.aspx)
-- [Hybrid Configuration wizard FAQs](https://technet.microsoft.com/en-us/library/mt488940%28v=exchg.150%29.aspx)
-- [Hybrid deployment prerequisites](https://technet.microsoft.com/en-us/library/hh534377%28v=exchg.150%29.aspx)
+- [Exchange Server Hybrid Deployments](https://technet.microsoft.com/library/jj200581%28v=exchg.150%29.aspx)
+- [Hybrid Configuration wizard](https://technet.microsoft.com/library/hh529921%28v=exchg.150%29.aspx)
+- [Hybrid Configuration wizard FAQs](https://technet.microsoft.com/library/mt488940%28v=exchg.150%29.aspx)
+- [Hybrid deployment prerequisites](https://technet.microsoft.com/library/hh534377%28v=exchg.150%29.aspx)
 
 ## Upgrade to a newer version of Exchange Server On-Premises
 
@@ -291,28 +291,28 @@ just a few of the things you've been missing out on:
 |                                          | Install Exchange 2013 or 2016 into your existing Exchange 2010 organization Move services and other infrastructure to Exchange 2013 or 2016 Move mailboxes and public folders to Exchange 2013 or 2016 Decommission remaining Exchange 2010 servers  |
 | Version coexistence                      | When migrating to Exchange 2013 or Exchange 2016, you can install either version into an existing Exchange 2010 organization. This enables you to install one or more Exchange 2013 or Exchange 2016 servers and perform your migration.             |
 | Server hardware                          | Server hardware requirements have changed from Exchange 2010. You'll need to make sure the hardware you're going to use is compatible. You can find out more about hardware requirements for each version here:                                      |
-|                                          | [Exchange 2016 System Requirements](https://technet.microsoft.com/en-us/library/aa996719%28v=exchg.160%29.aspx)                                                                                                                                      |
-|                                          | [Exchange 2013 System Requirements](https://technet.microsoft.com/en-us/library/aa996719%28v=exchg.150%29.aspx)                                                                                                                                      |
+|                                          | [Exchange 2016 System Requirements](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx)                                                                                                                                      |
+|                                          | [Exchange 2013 System Requirements](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx)                                                                                                                                      |
 |                                          | You'll find that with the significant improvements in Exchange performance, and the increased computing power and storage capacity in newer servers, you'll likely need fewer servers to support the same number of mailboxes.                       |
 | Operating system version                 | The minimum supported operating system versions for each version are:                                                                                                                                                                                |
 |                                          | **Exchange 2016** Windows Server 2012                                                                                                                                                                                                                |
 |                                          | **Exchange 2013** Windows Server 2008 R2 SP1                                                                                                                                                                                                         |
-|                                          | You can find more information about operating system support at [Exchange Supportability Matrix](https://technet.microsoft.com/en-us/library/ff728623%28v=exchg.150%29.aspx).                                                                        |
+|                                          | You can find more information about operating system support at [Exchange Supportability Matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).                                                                        |
 | Active Directory forest functional level | The minimum supported Active Directory forest functional levels for each version are:                                                                                                                                                                |
 |                                          | **Exchange 2016** Windows Server 2008 R2 SP1                                                                                                                                                                                                         |
 |                                          | **Exchange 2013** Windows Server 2003                                                                                                                                                                                                                |
-|                                          | You can find more information about forest functional level support at [Exchange Supportability Matrix](https://technet.microsoft.com/en-us/library/ff728623%28v=exchg.150%29.aspx).                                                                 |
+|                                          | You can find more information about forest functional level support at [Exchange Supportability Matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).                                                                 |
 | Office client versions                   | The minimum supported Office client versions for each version are:                                                                                                                                                                                   |
 |                                          | **Exchange 2016** Office 2010 (with the latest updates)                                                                                                                                                                                              |
 |                                          | **Exchange 2013** Office 2007 SP3                                                                                                                                                                                                                    |
-|                                          | You can find more information about Office client support at [Exchange Supportability Matrix](https://technet.microsoft.com/en-us/library/ff728623%28v=exchg.150%29.aspx).                                                                           |
+|                                          | You can find more information about Office client support at [Exchange Supportability Matrix](https://technet.microsoft.com/library/ff728623%28v=exchg.150%29.aspx).                                                                           |
 
 You can use the following resources to help you with your migration:
 
 - [Exchange Deployment Assistant](https://aka.ms/exdeploy)
-- Active Directory schema changes for Exchange [2016](https://technet.microsoft.com/EN-US/library/bb738144%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/EN-US/library/bb738144%28v=exchg.150%29.aspx)
-- System requirements for Exchange [2016](https://technet.microsoft.com/en-us/library/aa996719%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/en-us/library/aa996719%28v=exchg.150%29.aspx)
-- Prerequisites for Exchange [2016](https://technet.microsoft.com/en-us/library/bb691354%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/en-us/library/bb691354%28v=exchg.150%29.aspx)
+- Active Directory schema changes for Exchange [2016](https://technet.microsoft.com/library/bb738144%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb738144%28v=exchg.150%29.aspx)
+- System requirements for Exchange [2016](https://technet.microsoft.com/library/aa996719%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/aa996719%28v=exchg.150%29.aspx)
+- Prerequisites for Exchange [2016](https://technet.microsoft.com/library/bb691354%28v=exchg.160%29.aspx), [2013](https://technet.microsoft.com/library/bb691354%28v=exchg.150%29.aspx)
 
 ## Summary of options for Office 2010 client and servers and Windows 7
 
@@ -338,11 +338,11 @@ If you run into any problems during your migration to Office 365 and you aren't
 using FastTrack, or your migration to a newer version of Exchange Server, we're
 here to help. Here are some resources you can use:
 
-- [Technical community](https://social.technet.microsoft.com/Forums/office/en-US/home?category=exchangeserver)
-- [Customer support](https://support.microsoft.com/en-us/gp/support-options-for-business)
+- [Technical community](https://social.technet.microsoft.com/Forums/office/home?category=exchangeserver)
+- [Customer support](https://support.microsoft.com/gp/support-options-for-business)
 
 ## Related topics
 
-[Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/en-us/office365/enterprise/upgrade-from-office-2010-servers-and-products)
+[Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/office365/enterprise/upgrade-from-office-2010-servers-and-products)
 
 [Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
