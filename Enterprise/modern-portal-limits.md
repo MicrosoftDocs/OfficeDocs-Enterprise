@@ -8,7 +8,9 @@ audience: Admin
 ms.topic: interactive-tutorial
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Strat_O365_Enterprise
+ms.collection: 
+- Strat_O365_Enterprise
+- SPO_Content
 ms.custom: Adm_O365
 search.appverid: 
 - MET150

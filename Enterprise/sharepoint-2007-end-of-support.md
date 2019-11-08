@@ -15,7 +15,9 @@ f1_keywords:
 - 'AppDefToBDC'
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- SPO_Content
 search.appverid:
 - MET150
 - OFU120

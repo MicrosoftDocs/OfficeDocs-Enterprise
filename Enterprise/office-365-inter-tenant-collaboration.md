@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - M365-subscription-management
+- SPO_Content
 search.appverid:
 - MET150
 - MOE150
