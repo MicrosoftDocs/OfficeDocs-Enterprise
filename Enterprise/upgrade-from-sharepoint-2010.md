@@ -8,7 +8,9 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- SPO_Content
 search.appverid:
 - MET150
 - WSU140
