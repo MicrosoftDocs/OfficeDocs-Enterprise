@@ -7,7 +7,9 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-ms.collection: Strat_SP_gtc
+ms.collection: 
+- Strat_SP_gtc
+- SPO_Content
 localization_priority: Priority
 description: "Learn about Office 365 Multi-Geo, how multi-geo works, and what geo-locations are available for data storage."
 ---
