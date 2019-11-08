@@ -12,6 +12,7 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 description: "Summary: An explanation of isolation and access control within the various applications of Office 365."
 ---
 

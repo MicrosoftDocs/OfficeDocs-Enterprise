@@ -6,6 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
+ms.collection: SPO_Content
 localization_priority: Priority
 description: "Learn how to create a secure guest sharing environment in Microsoft 365."
 ---

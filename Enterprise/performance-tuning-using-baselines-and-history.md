@@ -17,6 +17,7 @@ ms.assetid: 1492cb94-bd62-43e6-b8d0-2a61ed88ebae
 ms.collection:
 - M365-security-compliance
 - Ent_O365
+- SPO_Content
 description: "There are some simple ways to check the connection performance between Office 365 and your business that will let you establish a rough baseline of your connectivity. Knowing the performance history of your client computer connections can help you detect emerging issues early, identify, and predict problems."
 ---
 
