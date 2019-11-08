@@ -6,6 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+ms.collection: SPO_Content
 ms.custom: 
 localization_priority: Priority
 description: "Learn about the guest sharing settings available in  Microsoft 365."

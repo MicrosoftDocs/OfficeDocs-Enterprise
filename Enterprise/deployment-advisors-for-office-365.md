@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-subscription-management
+- SPO_Content
 ms.custom: Adm_O365_Setup
 search.appverid:
 - MET150

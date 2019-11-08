@@ -13,6 +13,7 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 - M365-analytics
+- SPO_Content
 description: "An overview of auditing and reporting features within Office 365, Microsoft 365, and Service Assurance."
 ---
 
