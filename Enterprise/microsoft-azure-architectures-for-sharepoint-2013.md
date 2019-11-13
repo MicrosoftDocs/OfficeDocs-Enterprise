@@ -49,7 +49,7 @@ For intranet and collaboration solutions and workloads, consider the following o
 
 While this article uses example SharePoint topologies, you can use these design concepts with any SharePoint farm topology. Before you design the Azure environment, use the following topology, architecture, capacity, and performance guidance to design the SharePoint farm:
   
-- [Architecture design for SharePoint 2013 IT pros](http://technet.microsoft.com/sharepoint/fp123594.aspx)
+- [Architecture design for SharePoint 2013 IT pros](https://technet.microsoft.com/sharepoint/fp123594.aspx)
     
 - [Plan for performance and capacity management in SharePoint Server 2013](https://technet.microsoft.com/library/8dd52916-f77d-4444-b593-1f7d6f330e5f.aspx)
     
