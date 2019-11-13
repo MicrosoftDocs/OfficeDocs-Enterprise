@@ -69,7 +69,7 @@ The first step is to assign yourself the necessary permissions in Exchange Onlin
 > [!CAUTION]
 > Members of the Discovery Management role group can access sensitive message content. This includes searching all mailboxes in your organization, previewing the search results (and other mailbox items), copying the results to a discovery mailbox, and exporting the search results to a PST file. 
   
-[Return to top](recover-deleted-items-in-a-mailbox.md#__top)
+[Return to top](recover-deleted-items-in-a-mailbox.md)
   
 ## Step 2: Search the user's mailbox for deleted items
 <a name="step2"> </a>
@@ -131,7 +131,7 @@ When you run an In-Place eDiscovery search, the Recoverable Items folder in the 
   
 13. If you don't find what you're looking for, you can revise your search criteria by selecting the search, clicking **Edit**![Edit icon](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif), and then clicking **Search query**. Change the search criteria and then rerun the search.
     
-[Return to top](recover-deleted-items-in-a-mailbox.md#__top)
+[Return to top](recover-deleted-items-in-a-mailbox.md)
   
 ## (Optional) Step 3: Copy the search results to a discovery mailbox
 <a name="step3"> </a>
@@ -176,7 +176,7 @@ If you can't find an items by previewing the search results or if you want to se
     > [!TIP]
     > If a user can't find a deleted item using the Recoverable Items tool, but that item is still recoverable (meaning that it hasn't been permanently removed from the mailbox), it's more than likely located in the Purges folder. So, be sure to look in the Purges folder for the deleted item you're trying to recover for a user. 
   
-[Return to top](recover-deleted-items-in-a-mailbox.md#__top)
+[Return to top](recover-deleted-items-in-a-mailbox.md)
   
 ## Step 4: Export the search results to a PST file
 <a name="step4"> </a>
@@ -203,7 +203,7 @@ After you find the item you're trying to recover for a user, the next step is to
     
     The **eDiscovery PST Export Tool** displays status information about the export process. When the export is complete, you can access the file in the location where it was downloaded. 
     
-[Return to top](recover-deleted-items-in-a-mailbox.md#__top)
+[Return to top](recover-deleted-items-in-a-mailbox.md)
   
 ## Step 5: Restore the recovered items to the user's mailbox
 <a name="step5"> </a>
@@ -271,7 +271,7 @@ You have to use the Outlook desktop app to restore a deleted item by using a PST
     
 8. When you're finished recovering deleted items, right-click the PST file in the left-nav bar and select **Close "name of PST file"**.
     
-[Return to top](recover-deleted-items-in-a-mailbox.md#__top)
+[Return to top](recover-deleted-items-in-a-mailbox.md)
   
 ## More information
 <a name="moreinfo"> </a>
@@ -292,6 +292,6 @@ You have to use the Outlook desktop app to restore a deleted item by using a PST
     
   - [Restore deleted email messages in Outlook.com](https://go.microsoft.com/fwlink/p/?LinkID=623435)
     
-[Return to top](recover-deleted-items-in-a-mailbox.md#__top)
+[Return to top](recover-deleted-items-in-a-mailbox.md)
   
 
