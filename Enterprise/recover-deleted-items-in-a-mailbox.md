@@ -19,7 +19,6 @@ ms.assetid: eb15194b-63ec-41b0-8d90-1823d3f558e4
 description: "This article is for administrators. Did a user permanently delete items from their Outlook mailbox? The user wants them back but can't recover them. You may be able recover the purged items if they haven't been permanently removed from the user's mailbox. "
 ---
 
-<a name="__top"></a>
 # Recover deleted items in a user mailbox - Admin Help
 
 **This article is for administrators. Are you trying to recover deleted items in your own mailbox?** Try one of the following:
