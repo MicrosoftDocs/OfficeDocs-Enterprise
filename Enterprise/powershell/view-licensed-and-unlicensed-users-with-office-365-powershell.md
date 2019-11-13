@@ -3,7 +3,7 @@ title: "View licensed and unlicensed users with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 11/13/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -30,15 +30,18 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
  
 To view the list of all user accounts in your organization that have NOT been assigned any of your licensing plans (unlicensed users), run the following command:
   
-```
+```powershell
 Get-AzureAdUser | ForEach{ $licensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If( [string]::IsNullOrEmpty(  $_.AssignedLicenses[$i].disabledplans ) -ne $True) { $licensed=$true } } ; If( $licensed -eq $false) { Write-Host $_.UserPrincipalName} }
 ```
 
 To view the list of all user accounts in your organization that have been assigned any of your licensing plans (licensed users), run the following command:
   
-```
+```powershell
 Get-AzureAdUser | ForEach { $licensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If( [string]::IsNullOrEmpty(  $_.AssignedLicenses[$i].disabledplans ) -ne $True) { $licensed=$true } } ; If( $licensed -eq $true) { Write-Host $_.UserPrincipalName} }
 ```
+>[!Note]
+>To list all of the users in your subscription, use the `Get-AzureAdUser -All $true` command.
+>
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
@@ -46,19 +49,19 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 To view the list of all user accounts and their licensing status in your organization, run the following command in Office 365 PowerShell:
   
-```
+```powershell
 Get-MsolUser -All
 ```
 
 To view the list of all unlicensed user accounts in your organization, run the following command:
   
-```
+```powershell
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
 
 To view the list of all licensed user accounts in your organization, run the following command:
   
-```
+```powershell
 Get-MsolUser -All | where {$_.isLicensed -eq $true}
 ```
 
