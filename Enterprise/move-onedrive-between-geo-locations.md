@@ -50,11 +50,11 @@ To perform a OneDrive geo move, the tenant administrator must first set the user
 
 When using the geo move cmdlets, connect to SPO Service at the user’s current OneDrive geo location, using the following syntax:
 
-`connect-sposervice -url https://<tenantName>-admin.sharepoint.com`
+`Connect-SPOService -url https://<tenantName>-admin.sharepoint.com`
 
 For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, connect to EUR SharePoint Admin center as the user’s OneDrive is in EUR geo location:
 
-`connect-sposervice -url https://contosoenergyeur-admin.sharepoint.com`
+`Connect-SPOSservice -url https://contosoenergyeur-admin.sharepoint.com`
 
 ![Screenshot of PowerShell window showing connect-sposervice cmdlet](media/move-onedrive-between-geo-locations-image1.png)
 
