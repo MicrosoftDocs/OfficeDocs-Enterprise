@@ -415,6 +415,100 @@
     },
     {
 
+      "source_path": "Enterprise/base-configuration-dev-test-environment.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise",
+
+      "redirect_document_id": false
+      
+   },
+    {
+
+      "source_path": "Enterprise/office-365-dev-test-environment.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise",
+
+      "redirect_document_id": false
+      
+   },
+    {
+
+      "source_path": "Enterprise/dirsync-for-your-office-365-dev-test-environment.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment",
+
+      "redirect_document_id": false
+      
+   },
+    {
+
+      "source_path": "Enterprise/multi-factor-authentication-for-your-office-365-dev-test-environment.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/multi-factor-authentication-microsoft-365-test-environment",
+
+      "redirect_document_id": false
+      
+   },
+    {
+
+      "source_path": "Enterprise/federated-identity-for-your-office-365-dev-test-environment.md",
+
+      "redirect_url": "https://docs.microsoft.com/en-us/microsoft-365/enterprise/m365-enterprise-test-lab-guides#identity",
+
+      "redirect_document_id": false
+      
+   },
+    {
+
+      "source_path": "Enterprise/advanced-threat-protection-for-your-office-365-dev-test-environment.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp",
+
+      "redirect_document_id": false
+   },
+
+    {
+
+      "source_path": "Enterprise/simulated-cross-premises-virtual-network-in-azure.md.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/simulated-cross-premises-microsoft-365-enterprise",
+
+      "redirect_document_id": false
+      
+   },
+
+   {
+
+       "source_path": "Enterprise/advanced-ediscovery-for-your-office-365-dev-test-environment.md",
+
+       "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery",
+
+       "redirect_document_id": false
+       
+    },
+
+   {
+
+       "source_path": "Enterprise/sensitive-file-protection-in-the-office-365-dev-test-environment.md",
+
+       "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels",
+
+       "redirect_document_id": false
+       
+    },
+
+   {
+
+       "source_path": "Enterprise/data-classification-and-labeling-in-the-office-365-dev-test-environment.md",
+
+       "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/protect-information",
+
+       "redirect_document_id": false
+       
+    },
+
+   {
+
       "source_path": "enterprise/network-connectivity.md",
 
       "redirect_url": "https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity",
