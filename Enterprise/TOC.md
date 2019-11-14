@@ -198,7 +198,7 @@
 ### [Turn off directory synchronization](turn-off-directory-synchronization.md)
 
 ## Users
-### [Office 365 Admin help center](https://support.office.com/article/Management-tools-for-Office-365-8e715d2a-c20e-492b-a9cb-60f3708f9241)
+### [Office 365 Admin help center](https://docs.microsoft.com/office365/admin/admin-home)
 ### [Tools to manage user accounts](manage-office-365-accounts.md)
 ### [Add several users at the same time](add-several-users-at-the-same-time.md)
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
