@@ -15,7 +15,7 @@ ms.collection:
 description: "Summary: An overview of Microsoft personnel screening practices for Office 365."
 ---
 
-# Office 365 Personnel Controls 
+# Office 365 Personnel Controls
 
 Microsoft works to maintain a safe and secure environment that properly protects our employees, customers, property, personal data, and proprietary information. A comprehensive background screening program is essential for achieving this goal. All candidates for employment and internship are required to satisfactorily complete a background screening prior to commencing employment at Microsoft. Current employees in specific roles may also be subject to periodic re-screening.
 
