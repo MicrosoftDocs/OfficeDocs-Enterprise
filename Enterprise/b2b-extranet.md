@@ -25,7 +25,7 @@ To add a connected organization
 10. Review the settings that you've chosen and then click **Create**.
 
 
-   ![Screenshot of connected organizations page in Azure Active Directory](media/identity-governance-connected-organizations.png)
+   ![Screenshot of the connected organizations page in Azure Active Directory](media/identity-governance-connected-organizations.png)
 
 
 To create a catalog
@@ -42,7 +42,7 @@ To add resources to a catalog
 2. Click **Resources** and then click **Add resources**.
 3. Select the teams or SharePoint sites that you want to include in your extranet, and then click **Add**.
 
-   ![Screenshot of catalog resources page in Azure Active Directory Identity Governance](media/identity-governance-catalog-resource.png)
+   ![Screenshot of the catalog resources page in Azure Active Directory Identity Governance](media/identity-governance-catalog-resource.png)
 
 
 To add an access package manager
@@ -66,7 +66,7 @@ To create an access package
 15. Choose the expiration and access review settings that you want to use, and then click **Next: Review + Create**.
 16. Review your settings, and then click **Create**.
 
-
+   ![Screenshot of the access packages screen in Azure Active Directory Identity Governance](media/identity-governance-access-packages.png)
 
 
 
