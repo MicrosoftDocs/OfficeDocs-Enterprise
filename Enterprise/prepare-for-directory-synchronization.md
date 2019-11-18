@@ -3,6 +3,7 @@ title: "Prepare for directory synchronization to Office 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 11/18/2019
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -49,6 +50,9 @@ Before you synchronize your AD DS to your Azure AD tenant, you need to clean up 
 In your AD DS, complete the following clean-up tasks for each user account that will be assigned an Office 365 license:
   
 1. Ensure a valid and unique email address in the **proxyAddresses** attribute. 
+
+  >[!Note]
+  >A tilde (~) character in email addresses will be ignored. This can lead to false-positive directory synchronization errors about duplicate proxyAddresses.
     
 2. Remove any duplicate values in the **proxyAddresses** attribute. 
     
