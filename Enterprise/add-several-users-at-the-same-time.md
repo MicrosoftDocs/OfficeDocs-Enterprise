@@ -38,7 +38,7 @@ Each person on your team needs a user account before they can sign in and access
     
 2. In the admin center, choose **Users** \> **Active users**.
 
-3. Select **Add multiple users**."
+3. Select **Add multiple users**.
 
 4. On the **Import multiple users** panel, you can optionally download a sample CSV file with or without sample data filled in. 
     
