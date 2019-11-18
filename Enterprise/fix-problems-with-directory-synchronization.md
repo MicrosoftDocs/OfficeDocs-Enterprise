@@ -25,7 +25,7 @@ With directory synchronization, you can continue to manage users and groups on-p
   
 ## How do I know if something is wrong?
 
-The first indication that something is wrong is when the DirSync Status tile in the Microsoft 365 admin center indicates there is a problem:
+The first indication that something is wrong is when the DirSync Status tile in the Microsoft 365 admin center indicates there is a problem.
   
 You will also receive a mail (to the alternate email and to your admin email) from Office 365 that indicates your tenant has encountered directory synchronization errors. For details see [Identify directory synchronization errors in Office 365](identify-directory-synchronization-errors.md).
   
