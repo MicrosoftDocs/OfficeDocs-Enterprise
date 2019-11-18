@@ -3,7 +3,6 @@ title: "Add several users at the same time to Office 365 - Admin Help"
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.date: 6/29/2018
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -30,19 +29,19 @@ description: "Learn how to add multiple users to Office 365 for business from a 
 
 Each person on your team needs a user account before they can sign in and access Office 365 services, such as email and Office. If you have a lot of people, you can add their accounts all at once from an Excel spreadsheet or other file saved in CSV format. [Not sure what CSV format is?](add-several-users-at-the-same-time.md#__toc316652088)
   
+> [!NOTE] 
+> If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.
+
 ## Add multiple users to Office 365 in the Microsoft 365 admin center
 
 1. Sign in to Office 365 with your work or school account. 
     
 2. In the admin center, choose **Users** \> **Active users**.
+
+3. Select **Add multiple users**."
+
+4. On the **Import multiple users** panel, you can optionally download a sample CSV file with or without sample data filled in. 
     
-    ![In the admin center choose Users and then Active users](media/12086d98-a8b4-4c48-89cf-b78ad8058ff1.png)
-  
-    
-3. On the **Import multiple users** panel, you can optionally download a sample CSV file with or without sample data filled in. 
-    
-    ![In the More drop-down, choose Import multiple users](media/77df8a4a-fd00-4fbe-bf1c-d234fc1d5e93.png)
-  
     Your spreadsheet needs to include the **exact same column headings** as the sample one (User Name, First Name, etc...). If you use the template, open it in a text editing tool, like Notepad, and consider leaving all the data in row 1 alone, and only entering data in rows 2 and below. 
     
     Your spreadsheet also needs to include values for the user name (like bob@contoso.com) and a display name (like Bob Kelly) for each user. 
@@ -57,9 +56,7 @@ Each person on your team needs a user account before they can sign in and access
   
   ```
 
-4. Enter a file path into the box, or choose **Browse** to browse to the CSV file location, then choose **Verify**.
-    
-    ![Your CSV file is verified](media/a43d49db-b2ab-4200-8ddf-0bc846ac6fe5.png)
+5. Enter a file path into the box, or choose **Browse** to browse to the CSV file location, then choose **Verify**.
   
     If there are problems with the file, the problem is displayed in the panel. You can also download a log file.
     
@@ -138,70 +135,5 @@ When you save the file, you'll probably get a prompt that some features in your 
 
 - **Double-check that the spreadsheet is formatted correctly.** Check the column headings to make sure they match the headings in the sample file. Make sure you're following the rules for character lengths and that each field is separated by a comma. 
     
-- ** If you don't see the new users in Office 365 right away, wait a few minutes. ** It can take a little while for changes to go across all the services in Office 365. 
+- **If you don't see the new users in Office 365 right away, wait a few minutes.** It can take a little while for changes to go across all the services in Office 365. 
     
-## Add multiple users to Office 365 in the old admin center
-
-1. Download [this sample spreadsheet](https://www.microsoft.com/download/details.aspx?id=45485) and open it in Excel. 
-    
-    Your spreadsheet needs to include the **exact same column headings** as the sample one (User Name, First Name, etc...). If you use the template, consider leaving all the data in row 1 alone, and only entering data in rows 2 and below. 
-    
-    Your spreadsheet also needs to include values for the user name (like bob@contoso.com) and a display name (like Bob Kelly) for each user. To leave other fields blank, enter a space plus a comma in the field as shown in the following figure. 
-    
-    ![A sample CVS file that has blank rows specified](media/9c596ba1-1053-4687-a46c-c9359e9818c9.png)
-  
-    If you have people working in different countries, you'll need to create one spreadsheet for users in each country. For example, one spreadsheet that lists everyone who works in the US, and another that lists everyone who works in Japan. This is because the availability of Office 365 services varies by region. 
-    
-    **Tip:** Before you add many users to Office 365, you might want to practice with the sample spreadsheet. For example, edit the sample spreadsheet with data for a few of your users, say 5 or 10, and save the file with a new name. Run through steps described in this procedure, check the results, and then delete the new accounts and start over again. This way you can practice getting all of the data right for your situation. Also check out [Tips for formatting your spreadsheet](add-several-users-at-the-same-time.md#__toc314595848).
-    
-2. Sign in to Office 365 with your work or school account. 
-    
-3. Go to the admin center.
-    
-4. For people to use Office 365 services, they need to be assigned a license. Before continuing, you might want to check that you have enough licenses for everyone listed in your spreadsheet. Choose **Billing** \> **Subscriptions** to see if you have enough. If you need to buy more licenses, choose ** Change license quantity **. Or, you can run the wizard and assign the licenses you have, then buy more licenses later and rerun the wizard. 
-    
-5. Now go to the Bulk add users wizard: choose **Users** \> **Active Users**. Choose ![The icon for adding many users to Office 365](media/3481ffea-d552-4a7f-9a3b-014504e69746.png) as shown in the following figure. 
-    
-    ![An image of the Users section of the admin center](media/2cd5ff86-9c0b-438e-9bb9-13b12a2675de.png)
-  
-    The Bulk add users wizard appears and steps you through adding a group of users to Office 365. 
-    
-6. In Step 1 - Select a CSV file, specify your own spreadsheet as shown in the following figure.
-    
-    ![Step 1 of the Bulk Add Users Wizard - Select CSV File](media/aeb837ed-1f86-427d-b038-c643c383829c.png)
-  
-7. In Step 2 - Verification, the wizard tells you whether the content in the spreadsheet is formatted correctly.
-    
-    ![Step 2 of the Bulk Add Users Wizard - Verification](media/3fd3cd2c-44d4-4593-b02c-b87c176affb3.png)
-  
-8. In Step 3 - Settings, choose **Allowed** so that the people listed in your spreadsheet will be able to use Office 365. Also choose the country in which these people will use Office 365. Remember if some people in your organization are going to use Office 365 in a different country, create a separate spreadsheet with their names and run the Bulk add users wizard again to add them. 
-    
-    ![Step 3 of the Bulk Add Users Wizard - Settings](media/ff12ad34-5d8b-4e89-a02f-d827a94095b3.png)
-  
-9. The assign licenses page tells you how many licenses are available. 
-    
-    ![Step 4 of the Bulk Add Users wizard - Licenses](media/161ea34c-c67e-43be-962f-029f5426ff1b.png)
-  
-    You can choose **Buy more licenses**, but you'll leave the Bulk add users wizard and go to **Billing** in the Microsoft 365 admin center. After buying more licenses, you'll have to wait a few minutes for the order to be processed and then start the Bulk add users wizard from the beginning. 
-    
-    If you don't buy more licenses, accounts won't be created for everyone listed in your spreadsheet. 
-    
-    In this example, we don't buy any more licenses and continue with the Bulk add users wizard.
-    
-10. In Step 5 - Send Results, type the email addresses of the people who you want to get an email that lists  *all*  of the Office 365 user names and temporary passwords for the people in the spreadsheet. 
-    
-    ![Step 5 of the Bulk Add Users Wizard - Send Results](media/5beeb825-4ba7-4ae0-bfb5-a1f8a785ebdb.png)
-  
-    The following email is sent to all the email addresses you specified in Step 5 - Send results. This email indicates which accounts were created. Notice that accounts weren't created for some people because there weren't enough licenses. 
-    
-    ![A sample e-mail with user credential information](media/0a40c612-2078-4b5b-813e-f99bc53635a6.png)
-  
-    You can buy more licenses later and rerun the Bulk add users wizard with the same spreadsheet. The wizard skips over the users that already have accounts; on the results report, it will say "duplicate user name" to indicate someone with that information already has an account.
-    
-11. The final page in the Bulk add users wizard lists the user names and temporary passwords, as shown in the following figure.
-    
-    ![Step 6 of the Bulk Add Users Wizard - Send Results](media/0cd43832-071b-4b33-b57a-5d07959985ad.png)
-  
-12. After you've added users to Office 365, you need to tell them about their Office 365 account information. Use your normal process for communicating new passwords.
-    
-
