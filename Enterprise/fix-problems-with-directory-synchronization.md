@@ -27,15 +27,11 @@ With directory synchronization, you can continue to manage users and groups on-p
 
 The first indication that something is wrong is when the DirSync Status tile in the Microsoft 365 admin center indicates there is a problem:
   
-![The DirSync Status tile in admin center preview](media/060006e9-de61-49d5-8979-e77cda198e71.png)
-  
 You will also receive a mail (to the alternate email and to your admin email) from Office 365 that indicates your tenant has encountered directory synchronization errors. For details see [Identify directory synchronization errors in Office 365](identify-directory-synchronization-errors.md).
   
 ## How do I get Azure Active Directory Connect tool?
 
-In the [Microsoft 365 admin center](https://admin.microsoft.com), navigate to ** Users ** \> **Active users**. Click the **More** menu and select **Directory synchronization**. 
-  
-![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
+In the [Microsoft 365 admin center](https://admin.microsoft.com), navigate to **Users** \> **Active users**. Click the **More** menu (three dots) and select **Directory synchronization**. 
   
 Follow the [instructions in the wizard](set-up-directory-synchronization.md) to download Azure AD Connect. 
   
