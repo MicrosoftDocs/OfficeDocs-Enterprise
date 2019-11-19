@@ -70,7 +70,7 @@ These steps are required once on your computer, not every time you connect. Howe
     
 2. In the **Administrator: Windows PowerShell** command window, run this command:
     
-  ```
+  ```powershell
   Install-Module -Name AzureAD
   ```
 
@@ -150,7 +150,7 @@ If you receive errors, check the following requirements:
   
 - **Your version of the Microsoft Azure Active Directory Module for Windows PowerShell might be out of date.** To check, run the following command in Office 365 PowerShell or the Microsoft Azure Active Directory Module for Windows PowerShell:
     
-  ```
+  ```powershell
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion
   ```
 

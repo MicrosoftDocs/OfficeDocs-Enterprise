@@ -36,7 +36,7 @@ The Office 365 PowerShell cmdlet imports the .csv file and pipes it to a loop in
 
 1. Open Notepad, and paste the following text block into it:<br/>
 
-```
+```powershell
 Owner,StorageQuota,Url,ResourceQuota,Template,TimeZoneID,Name
 owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/TeamSite01,25,EHS#1,10,Contoso Team Site
 owner@tenant.onmicrosoft.com,100,https://tenant.sharepoint.com/sites/Blog01,25,BLOG#0,10,Contoso Blog
@@ -53,7 +53,7 @@ owner@tenant.onmicrosoft.com,150,https://tenant.sharepoint.com/sites/Community01
 ### Run the Windows PowerShell command
 
 1. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:<br/>
-```
+```powershell
 Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SPOSite -Owner $_.Owner -StorageQuota $_.StorageQuota -Url $_.Url -NoWait -ResourceQuota $_.ResourceQuota -Template $_.Template -TimeZoneID $_.TimeZoneID -Title $_.Name}
 ```
 <br/>Where *MyAlias* equals your user alias.<br/>
@@ -62,7 +62,7 @@ Import-Csv C:\users\MyAlias\desktop\SiteCollections.csv | ForEach-Object {New-SP
 
 3. At the Windows PowerShell prompt, type or copy and paste the following cmdlet, and press Enter:<br/>
 
-```
+```powershell
 Get-SPOSite -Detailed | Format-Table -AutoSize
 ```
 <br/>
@@ -80,7 +80,7 @@ The following procedures assume that you successfully created the site collectio
 ### Create .csv and .ps1 files
 
 1. Open Notepad, and paste the following text block into it:<br/>
-```
+```powershell
 Site,Group,PermissionLevels
 https://tenant.sharepoint.com/sites/contosotest,Contoso Project Leads,Full Control
 https://tenant.sharepoint.com/sites/contosotest,Contoso Auditors,View Only
@@ -97,7 +97,7 @@ https://tenant.sharepoint.com/sites/Project01,Project Alpha Approvers,Full Contr
 
 3. Open a new instance of Notepad, and paste the following text block into it:<br/>
 
-```
+```powershell
 Group,LoginName,Site
 Contoso Project Leads,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
 Contoso Auditors,username@tenant.onmicrosoft.com,https://tenant.sharepoint.com/sites/contosotest
@@ -114,7 +114,7 @@ Project Alpha Approvers,username@tenant.onmicrosoft.com,https://tenant.sharepoin
 
 5. Open a new instance of Notepad, and paste the following text block into it:<br/>
 
-```
+```powershell
 Import-Csv C:\users\MyAlias\desktop\GroupsAndPermissions.csv | ForEach-Object {New-SPOSiteGroup -Group $_.Group -PermissionLevels $_.PermissionLevels -Site $_.Site}
 Import-Csv C:\users\MyAlias\desktop\Users.csv | where {Add-SPOUser -Group $_.Group –LoginName $_.LoginName -Site $_.Site}
 ```
@@ -128,7 +128,7 @@ You’re now ready to run the UsersAndGroup.ps1 script to add users and groups t
 
 1. Return to the SharePoint Online Management Shell.<br/>
 2. At the Windows PowerShell prompt, type or copy and paste the following line, and press Enter:<br/>
-```
+```powershell
 Set-ExecutionPolicy Bypass
 ```
 <br/>
@@ -137,7 +137,7 @@ Set-ExecutionPolicy Bypass
 
 4. At the Windows PowerShell prompt, type or copy and paste the following, and press Enter:<br/>
 
-```
+```powershell
 c:\users\MyAlias\desktop\UsersAndGroups.ps1
 ```
 <br/>Where *MyAlias* equals your user name.<br/>
