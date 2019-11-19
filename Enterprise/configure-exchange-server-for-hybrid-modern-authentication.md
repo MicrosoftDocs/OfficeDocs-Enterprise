@@ -18,6 +18,8 @@ description: "Hybrid Modern Authentication (HMA), is a method of identity manage
 
 # How to configure Exchange Server on-premises to use Hybrid Modern Authentication
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Hybrid Modern Authentication (HMA), is a method of identity management that offers more secure user authentication and authorization, and is available for Exchange server on-premises hybrid deployments.
   
 ## FYI

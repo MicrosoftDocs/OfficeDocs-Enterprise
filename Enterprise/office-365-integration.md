@@ -23,7 +23,7 @@ description: "Learn how to integrate Office 365 with your existing directory ser
 
 # Office 365 integration with on-premises environments
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 You can integrate Office 365 with your existing directory services and with an on-premises installation of Exchange Server, Skype for Business Server 2015, or SharePoint Server.
   

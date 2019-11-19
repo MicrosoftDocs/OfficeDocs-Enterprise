@@ -25,6 +25,8 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Office 2010, Exchange Server 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. 
 
 While you're planning your upgrade, this is a great time to consider moving to Office 365 or Microsoft 365. 

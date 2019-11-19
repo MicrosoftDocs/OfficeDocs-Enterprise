@@ -16,6 +16,8 @@ description: "Modern Authentication is a method of identity management that offe
 
 # Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for Office 365 hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as, split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information. 
   
 - [What is Modern Authentication?](hybrid-modern-auth-overview.md#BKMK_WhatisModAuth)

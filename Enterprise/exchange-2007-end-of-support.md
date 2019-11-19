@@ -15,6 +15,8 @@ description: "On April 11, 2017 , Exchange Server 2007 reached end of support. I
 
 # Exchange 2007 end of support roadmap
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 On **April 11, 2017**, Exchange Server 2007 reached end of support. If you haven't already begun your migration from Exchange 2007 to Office 365 or Exchange 2016, now's the time to start your planning. 
   
 ## What does end of support mean?
