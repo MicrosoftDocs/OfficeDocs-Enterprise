@@ -27,6 +27,8 @@ description: "Describes how to assign Office 365 licenses to user accounts, eith
 
 # Assign Office 365 licenses to user accounts
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 For the cloud-only identity model, you can assign Office 365 licenses to user accounts as they are created, depending on how you create them.
 
 For the hybrid identity model, when Active Directory Domain Services (AD DS) user accounts are synchronized for the first time, they are not automatically assigned an Office 365 license.
@@ -46,6 +48,7 @@ For automatic license assignment, see [group-based licensing in Azure AD](https:
 
 With the full set of user accounts that have been assigned licenses, you are now ready to:
 
+- [Implement security](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 - [Deploy client software, such as Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
 - [Configure mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 - [Configure services and applications](configure-services-and-applications.md)

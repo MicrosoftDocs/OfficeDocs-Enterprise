@@ -38,6 +38,8 @@ description: "On October 10, 2017, support ended for SharePoint Server 2007. Rea
 
 # SharePoint Server 2007 end of support roadmap
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 On **October 10, 2017**, Microsoft Office SharePoint Server 2007 reached end of support. If you haven't begun your migration from SharePoint Server 2007 to Office 365 or a newer version of SharePoint Server on-premises, now's the time to start planning. This article details resources to help people migrate data to SharePoint Online, or upgrade your SharePoint Server on-premises. 
   
 ## What does end of support mean?

@@ -17,7 +17,7 @@ description: "Office 365 Client App support for certificate-based authentication
 
 # Office 365 Client App Support — Certificate-based Authentication
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Certificate-based authentication enables you to authenticate to Azure Active Directory with a client certificate on Windows, Android, or iOS devices. Configuring this feature eliminates the need to enter a username and password combination into certain mail and Microsoft Office applications on your mobile device.
 

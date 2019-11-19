@@ -21,7 +21,7 @@ description: "Describes directory synchronization with Office 365, Active Direct
 
 # Hybrid identity and directory synchronization for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Depending on business needs and technical requirements, the hybrid identity model and directory synchronization is the most common choice for enterprise customers who are adopting Office 365. Directory synchronization allows you to manage identities in your Active Directory Domain Services (AD DS) and all updates to user accounts, groups, and contacts are synchronized to the Azure Active Directory (Azure AD) tenant of your Office 365 subscription.
 

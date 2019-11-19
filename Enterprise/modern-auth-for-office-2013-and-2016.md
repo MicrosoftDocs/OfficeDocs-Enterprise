@@ -25,7 +25,7 @@ description: "Learn how Office 365 modern authentication works differently for O
 
 # How modern authentication works for Office 2013 and Office 2016 client apps
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Read this article to learn how Office 2013 and Office 2016 client apps use modern authentication features based on the authentication configuration on the Office 365 tenant for Exchange Online, SharePoint Online, and Skype for Business Online.
 
