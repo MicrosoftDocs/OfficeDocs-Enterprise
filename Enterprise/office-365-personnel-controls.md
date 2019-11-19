@@ -35,29 +35,6 @@ In countries with robust privacy laws that restrict access to personal informati
 - Internal Microsoft staff transferred or moved to an existing role that currently includes screening as a defined requirement.
 - Existing roles that change scope to include screening as a defined requirement.
 
-## Screening enforcement criteria
-
-To ensure that only approved personnel have access to customer data or environments that require screening, the following enforcement criteria applies.
-
-**United States cloud environments only**:
-
-- Access to customer data or environments that require screening is permitted only after adjudication is completed and screening requirements are passed.
-- Microsoft staff who no longer require access to customer data or related environments have access removed upon leaving Microsoft or moving to a new role.
-- Microsoft staff leave screened environment smart cards with management before leaving the United States.
-
-**National cloud environments**:
-
-- Third-party operator or data trustee personnel are responsible for managing and enforcing access for National Cloud environments.
-
-Within Microsoft's cloud services environments, access is restricted based on a person's role and the type of data involved, as detailed in the table below. Qualified or unqualified personnel physically located outside of the United States are not permitted to have access to customer data within a United States cloud. Access to National Cloud environments is restricted so that Microsoft personnel do not have technical access to customer data, or systems that contain customer data, without approval by the third-party operator or data trustee.
-
-| Role | Access to customer data | Access to system data |
-|---------------------------------------------------------------------------|------------------------------|---------------------------------|
-| Qualified Personnel physically located in the United States | Permitted | Permitted |
-| Qualified Personnel physically located outside of the United States | Not Permitted | Permitted |
-| International Exception Access for Microsoft Staff: Enables logical access for Microsoft staff not residing in the country where the government or commercial customer data is at rest | Not Permitted | Permitted |
-| Unqualified Personnel (unscreened personnel that require an escort by qualified personnel) | Permitted with authorization | Permitted with escort oversight |
-
 ## Microsoft pre-employment screening
 
 Microsoft's Global Security Department is responsible for ensuring candidates are background screened before commencing employment with Microsoft.
