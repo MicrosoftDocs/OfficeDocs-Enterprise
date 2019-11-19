@@ -18,10 +18,7 @@ description: "Learn how to assign licenses to user accounts and disable specific
 
 # Disable access to services while assigning user licenses
 
-**Summary:**  Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell.
-  
 Office 365 subscriptions come with service plans for individual services. Office 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign an Office 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
-
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -30,7 +27,7 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 Next, list the license plans for your tenant with this command.
 
-```
+```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
@@ -40,7 +37,7 @@ Next, compile a list of services to enable. For a complete list of license plans
 
 For the command block below, fill in the user principal name of the user account, the SKU part number, and the list of service plans to enable and remove the explanatory text and the \< and > characters. Then, run the resulting commands at the PowerShell command prompt.
   
-```
+```powershell
 $userUPN="<user account UPN>"
 $skuPart="<SKU part number>"
 $serviceList=<double-quoted enclosed, comma-separated list of enabled services>
@@ -63,7 +60,7 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 Next, run this command to see your current subscriptions:
   
-```
+```powershell
 Get-MsolAccountSku
 ```
 
@@ -81,7 +78,7 @@ Note the AccountSkuId for your Office 365 subscription that contains the users y
   
 Next, run this command to see the details about the Office 365 service plans that are available in all your subscriptions:
   
-```
+```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
@@ -111,7 +108,7 @@ Now that you have the AccountSkuId and the service plans to disable, you can ass
 
 For a single user, fill in the user principal name of the user account, the AccountSkuId, and the list of service plans to disable and remove the explanatory text and the \< and > characters. Then, run the resulting commands at the PowerShell command prompt.
   
-```
+```powershell
 $userUPN="<the user's account name in email format>"
 $accountSkuId="<the AccountSkuId from the Get-MsolAccountSku command>"
 $planList=@( <comma-separated, double-quote enclosed list of the service plans to disable> )
@@ -126,7 +123,7 @@ Set-MsolUser -UserPrincipalName $userUpn -UsageLocation $usageLocation
 
 Here is an example command block for the account named belindan@contoso.com, for the contoso:ENTERPRISEPACK license, and the service plans to disable are RMS_S_ENTERPRISE, SWAY, INTUNE_O365, and YAMMER_ENTERPRISE:
   
-```
+```powershell
 $userUPN="belindan@contoso.com"
 $accountSkuId="contoso:ENTERPRISEPACK"
 $planList=@( "RMS_S_ENTERPRISE","SWAY","INTUNE_O365","YAMMER_ENTERPRISE" )
@@ -143,7 +140,7 @@ Set-MsolUser -UserPrincipalName $userUpn -UsageLocation $UsageLocation
 
 To perform this administration task for multiple users, create a comma-separated value (CSV) text file that contains the UserPrincipalName and UsageLocation fields. Here is an example:
   
-```
+```powershell
 UserPrincipalName,UsageLocation
 ClaudeL@contoso.onmicrosoft.com,FR
 LynneB@contoso.onmicrosoft.com,US
@@ -152,7 +149,7 @@ ShawnM@contoso.onmicrosoft.com,US
 
 Next, fill in the location of the input and output CSV files, the account SKU ID, and the list of service plans to disable, and then run the resulting commands at the PowerShell command prompt.
   
-```
+```powershell
 $inFileName="<path and file name of the input CSV file that contains the users, example: C:\admin\Users2License.CSV>"
 $outFileName="<path and file name of the output CSV file that records the results, example: C:\admin\Users2License-Done.CSV>"
 $accountSkuId="<the AccountSkuId from the Get-MsolAccountSku command>"

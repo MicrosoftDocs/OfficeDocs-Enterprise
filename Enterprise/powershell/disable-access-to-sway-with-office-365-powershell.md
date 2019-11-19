@@ -18,8 +18,6 @@ description: "Learn where to download the ManageSway.ps1 PowerShell script that 
 
 # Disable access to Sway with Office 365 PowerShell
 
-**Summary** Use the ManageSway.ps1 PowerShell script to disable access to Sway in your Office 365 organization.
-  
 The ManageSway.ps1 PowerShell script lets you view and disable services in your Office 365 organization, including Sway. This script automates the procedures that are described in the following topics:
   
 - [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md)
