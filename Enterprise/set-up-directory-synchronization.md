@@ -78,11 +78,9 @@ Before you begin, make sure you have:
 Follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) (https://admin.microsoft.com) and choose **Users** \> **Active Users** on the left navigation.
-2. In the admin center, on the **Active users** page, choose **More** \> **Directory synchronization**.
-
-    ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
+2. On the **Active users** page, choose **More** (three dots) \> **Directory synchronization**.
   
-3. On the **Active Directory preparation** page, select the **Download Microsoft Azure Active Directory Connect tool** link to get started. 
+3. On the **Azure Active Directory preparation** page, select the **Go to the Download center to get the Azure AD Connect tool** link to get started. 
 4. Follow the steps in [Azure AD Connect and Azure AD Connect Health installation roadmap](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-roadmap).
 
 ## 3. Finish setting up domains
