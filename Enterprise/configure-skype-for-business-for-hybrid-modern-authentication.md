@@ -18,6 +18,8 @@ description: "Modern Authentication, is a method of identity management that off
 
 # How to configure Skype for Business on-premises to use Hybrid Modern Authentication
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Modern Authentication, is a method of identity management that offers more secure user authentication and authorization, is available for Skype for Business server on-premises and Exchange server on-premises, as well as split-domain Skype for Business hybrids.
   
  **Important** Would you like to know more about Modern Authentication (MA) and why you might prefer to use it in your company or organization? Check [this document](hybrid-modern-auth-overview.md) for an overview. If you need to know what Skype for Business topologies are supported with MA, that's documented here! 
