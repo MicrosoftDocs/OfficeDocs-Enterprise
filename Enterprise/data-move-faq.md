@@ -1,7 +1,7 @@
 ---
 title: "Data move general FAQ"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/05/2018
 audience: ITPro
