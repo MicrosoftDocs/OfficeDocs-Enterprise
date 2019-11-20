@@ -119,10 +119,6 @@ All users will be signed out from the Skype for Business client software during 
    
 ### Skype for Business moves that involve a third-party Audio Conferencing Provider
 Third-party Audio Conferencing Provider add-on services for Skype for Business are not available for users homed in new geo-specific data centers.  Existing customers using a third-party Audio Conferencing Provider service should not request a move to a new geo-specific data center.  New customers deployed into the new geo-specific data centers will need to request a move to a regional data center to use a third-party Audio Conferencing Provider.
-
-## Data for other services, including Teams, Yammer and Power BI
-
-We only move customer data for Exchange Online, SharePoint Online, and Skype for Business. We do not move data for other services. There is no change or impact to you as a customer or user of these other services. The move process does not influence them, and the location of their customer data remains unchanged.
   
 ## Related topics 
  
