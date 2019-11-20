@@ -24,7 +24,7 @@ Existing Office 365 commercial customers who selected a country eligible for the
 
 ## How do we define Core Customer Data?
  
-Core customer data is a term that refers to a subset of customer data defined in the [Microsoft Online Services Terms](https://go.microsoft.com/fwlink/p/?LinkID=249048): 
+Core customer data is a term that refers to a subset of customer data defined in the [Microsoft Online Services Terms](https://aka.ms/ost): 
 - Exchange Online mailbox content (email body, calendar entries, and the content of email attachments)
 - SharePoint Online site content and the files stored within that site
 - Files uploaded to OneDrive for Business 
