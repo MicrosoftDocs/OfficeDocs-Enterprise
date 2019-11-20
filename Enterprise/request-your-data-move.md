@@ -1,7 +1,7 @@
 ---
 title: "How to request your data move"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/20/2019
 audience: ITPro
