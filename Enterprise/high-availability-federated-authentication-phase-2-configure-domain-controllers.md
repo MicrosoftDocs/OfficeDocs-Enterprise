@@ -64,12 +64,7 @@ Recall that you defined Tables R, V, S, I, and A in [High availability federated
   
 When you have supplied all the correct values, run the resulting block at the Azure PowerShell prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
-<!--
-> [!TIP]
-> For a text file that has all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [Federated Authentication for Office 365 in Azure Deployment Kit](https://gallery.technet.microsoft.com/Federated-Authentication-8a9f1664). 
--->
-  
-```
+```powershell
 # Set up variables common to both virtual machines
 $locName="<your Azure location>"
 $vnetName="<Table V - Item 1 - Value column>"
@@ -149,7 +144,7 @@ Use the remote desktop client of your choice and create a remote desktop connect
   
 Next, add the extra data disk to the first domain controller with this command from a Windows PowerShell command prompt **on the first domain controller virtual machine**:
   
-```
+```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
@@ -159,7 +154,7 @@ This procedure ensures that DNS name resolution is working correctly (that the v
   
 Next, from the Windows PowerShell command prompt on the first domain controller, run the following commands:
   
-```
+```powershell
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
 $cred = Get-Credential -Message "Enter credentials of an account with permission to join a new domain controller to the domain"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
@@ -174,13 +169,13 @@ Use the remote desktop client of your choice and create a remote desktop connect
   
 Next, you need to add the extra data disk to the second domain controller with this command from a Windows PowerShell command prompt **on the second domain controller virtual machine**:
   
-```
+```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
 Next, run the following commands:
   
-```
+```powershell
 $domname="<DNS domain name of the domain for which this computer will be a domain controller, such as corp.contoso.com>"
 $cred = Get-Credential -Message "Enter credentials of an account with permission to join a new domain controller to the domain"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
@@ -192,7 +187,7 @@ You will be prompted to supply the credentials of a domain administrator account
   
 Next, you need to update the DNS servers for your virtual network so that Azure assigns virtual machines the IP addresses of the two new domain controllers to use as their DNS servers. Fill in the variables and then run these commands from a Windows PowerShell command prompt on your local computer:
   
-```
+```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
 $adrgName="<Table R - Item 1 - Resource group name column>"
 $locName="<your Azure location>"
@@ -218,7 +213,7 @@ Note that we restart the two domain controllers so that they are not configured 
   
 Next, we need to create an Active Directory replication site to ensure that servers in the Azure virtual network use the local domain controllers. Connect to either domain controller with a domain administrator account and run the following commands from an administrator-level Windows PowerShell prompt:
   
-```
+```powershell
 $vnet="<Table V - Item 1 - Value column>"
 $vnetSpace="<Table V - Item 4 - Value column>"
 New-ADReplicationSite -Name $vnet 
@@ -231,7 +226,7 @@ Use the remote desktop client of your choice and create a remote desktop connect
   
 Next, join it to the appropriate AD DS domain with these commands at the Windows PowerShell prompt.
   
-```
+```powershell
 $domName="<AD DS domain name to join, such as corp.contoso.com>"
 $cred=Get-Credential -Message "Type the name and password of a domain acccount."
 Add-Computer -DomainName $domName -Credential $cred

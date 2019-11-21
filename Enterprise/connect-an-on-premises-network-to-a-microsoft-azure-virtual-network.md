@@ -204,11 +204,7 @@ Here is your resulting configuration.
 
 First, open an Azure PowerShell prompt. If you have not installed Azure PowerShell, see [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).
 
-<!--
-> [!TIP]
-> For a text file that has all the PowerShell commands in this article, click [here](https://gallery.technet.microsoft.com/scriptcenter/PowerShell-commands-for-5c5a7c19). 
---> 
-  
+ 
 Next, login to your Azure account with this command.
   
 ```powershell
