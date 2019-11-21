@@ -115,11 +115,7 @@ Deploying Azure AD Connect on a virtual machine in Azure consists of three phase
     
 After deployment, you must also assign locations and licenses for the new user accounts in Office 365.
 
-<!--  
-> [!TIP]
-> The [Directory Synchronization Server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded) has all of the Azure PowerShell blocks to build out this solution, the diagrams in Microsoft PowerPoint and Visio format, and a Microsoft Excel configuration workbook that generates Azure PowerShell command blocks customized for your settings.
--->
-  
+
 ### Phase 1: Create and configure the Azure virtual network
 
 To create and configure the Azure virtual network, complete [Phase 1: Prepare your on-premises network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#phase-1-prepare-your-on-premises-network) and [Phase 2: Create the cross-premises virtual network in Azure](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#phase-2-create-the-cross-premises-virtual-network-in-azure) in the deployment roadmap of [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md).
@@ -197,8 +193,3 @@ Azure AD Connect adds accounts to your Office 365 subscription from the on-premi
   
 [Set up directory synchronization for Office 365](set-up-directory-synchronization.md)
   
-<!--
-[Directory Synchronization server in Azure Deployment Kit](https://gallery.technet.microsoft.com/DirSync-Server-in-Azure-32cb2ded)
--->
-
-
