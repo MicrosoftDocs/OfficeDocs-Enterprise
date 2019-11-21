@@ -105,8 +105,3 @@ To build a dev/test environment or a proof-of-concept of this configuration, see
 
 Start the configuration of this workload with [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md). 
   
-<!--
-> [!TIP]
-> For a set of files to more quickly deploy your high availability federated authentication for Office 365 in Azure, see the [Federated Authentication for Office 365 in Azure Deployment Kit](https://gallery.technet.microsoft.com/Federated-Authentication-8a9f1664). 
---> 
-

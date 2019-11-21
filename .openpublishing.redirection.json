@@ -507,7 +507,17 @@
        
     },
 
-   {
+    {
+
+      "source_path": "Enterprise/simulated-cross-premises-virtual-network-in-azure.md",
+
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/simulated-cross-premises-microsoft-365-enterprise",
+
+      "redirect_document_id": false
+      
+   },
+
+  {
 
       "source_path": "enterprise/network-connectivity.md",
 
