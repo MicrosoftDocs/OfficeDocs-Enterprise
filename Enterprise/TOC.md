@@ -1,17 +1,4 @@
 ﻿# [Cloud architecture models](microsoft-cloud-it-architecture-resources.md)
-## [Microsoft Cloud Networking for Enterprise Architects](microsoft-cloud-networking-for-enterprise-architects.md)
-### [Evolving your network for cloud connectivity](evolving-your-network-for-cloud-connectivity.md)
-### [Common elements of Microsoft cloud connectivity](common-elements-of-microsoft-cloud-connectivity.md)
-### [ExpressRoute for Microsoft cloud connectivity](expressroute-for-microsoft-cloud-connectivity.md)
-### [Designing networking for Microsoft SaaS](designing-networking-for-microsoft-saas.md)
-### [Designing networking for Microsoft Azure PaaS](designing-networking-for-microsoft-azure-paas.md)
-### [Designing networking for Microsoft Azure IaaS](designing-networking-for-microsoft-azure-iaas.md)
-## [Microsoft Hybrid Cloud for Enterprise Architects](microsoft-hybrid-cloud-for-enterprise-architects.md)
-### [Hybrid cloud overview](hybrid-cloud-overview.md)
-### [Architecture of Microsoft hybrid cloud scenarios](architecture-of-microsoft-hybrid-cloud-scenarios.md)
-### [Hybrid cloud scenarios for Microsoft SaaS (Office 365)](hybrid-cloud-scenarios-for-microsoft-saas-office-365.md)
-### [Hybrid cloud scenarios for Azure PaaS](hybrid-cloud-scenarios-for-azure-paas.md)
-### [Hybrid cloud scenarios for Azure IaaS](hybrid-cloud-scenarios-for-azure-iaas.md)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # [Plan for Office 365](get-your-organization-ready-for-office-365.md)
@@ -77,7 +64,7 @@
 
 ## 1. Set up your network
 ### [Set up your enterprise network](set-up-network-for-office-365.md)
-### [Domains](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
+### [Add a domain](https://support.office.com/article/6383f56d-3d09-4dcb-9b41-b5f5a5efd611)
 ### [Office 365 networking connectivity overview](office-365-networking-overview.md)
 ### [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### [Network planning and performance tuning for Office 365](network-planning-and-performance.md)
@@ -116,7 +103,7 @@
 #### [Set up directory synchronization](set-up-directory-synchronization.md)
 ### [Assign licenses to user accounts](assign-licenses-to-user-accounts.md)
 
-## [3. Implement security capabilities](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
+## [3. Implement security](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 
 ## 4. Deploy client software
 ### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)

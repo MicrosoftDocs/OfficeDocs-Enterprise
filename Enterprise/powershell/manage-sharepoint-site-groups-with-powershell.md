@@ -19,8 +19,6 @@ description: "Summary: Use Office 365 PowerShell to manage SharePoint Online sit
 
 # Manage SharePoint Online site groups with Office 365 PowerShell
 
- **Summary:** Use Office 365 PowerShell to manage SharePoint Online site groups.
-  
 Although you can use the Microsoft 365 admin center, you can also use Office 365 PowerShell to manage your SharePoint Online site groups.
 
 ## Before you begin
@@ -41,7 +39,7 @@ And then repeat the process for the next site you want to look at.
 
 To get a list of the groups with Office 365 PowerShell, you would use the following command set:
 
-```
+```powershell
 $siteURL = "https://litwareinc.sharepoint.com/sites/finance"
 $x = Get-SPOSiteGroup -Site $siteURL
 foreach ($y in $x)
@@ -57,7 +55,7 @@ There are two ways to run this command set in the SharePoint Online Management S
 - Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, select the commands, and then paste them into the SharePoint Online Management Shell command prompt. When you do, PowerShell will stop at a **>>** prompt. Press Enter to execute the **foreach** command.<br/>
 - Copy the commands into Notepad (or another text editor), modify the value of the **$siteURL** variable, and then save this text file with a name and the .ps1 extension in a suitable folder. Next, run the script from the SharePoint Online Management Shell command prompt by specifying its path and file name. Here is an example command:
 
-```
+```powershell
 C:\Scripts\SiteGroupsAndUsers.ps1
 ```
 
@@ -69,7 +67,7 @@ These are all the groups that have been created for the site `https://litwareinc
 
 As another example, here is a command set that lists the groups, and all the group memberships, for all of your SharePoint Online sites.
 
-```
+```powershell
 $x = Get-SPOSite
 foreach ($y in $x)
     {

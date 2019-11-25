@@ -108,37 +108,32 @@ Now let's begin building the Azure infrastructure to host your federated authent
   
 First, start an Azure PowerShell prompt and login to your account.
   
-```
+```powershell
 Connect-AzAccount
 ```
-
-<!--
-> [!TIP]
-> For a text file that has all of the PowerShell commands in this article and a Microsoft Excel configuration workbook that generates ready-to-run PowerShell command blocks based on your custom settings, see the [Federated Authentication for Office 365 in Azure Deployment Kit](https://gallery.technet.microsoft.com/Federated-Authentication-8a9f1664). 
--->
   
 Get your subscription name using the following command.
   
-```
+```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
 For older versions of Azure PowerShell, use this command instead.
   
-```
+```powershell
 Get-AzSubscription | Sort Name | Select SubscriptionName
 ```
 
 Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct name.
   
-```
+```powershell
 $subscrName="<subscription name>"
 Select-AzSubscription -SubscriptionName $subscrName
 ```
 
 Next, create the new resource groups. To determine a unique set of resource group names, use this command to list your existing resource groups.
   
-```
+```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
@@ -155,7 +150,7 @@ Fill in the following table for the set of unique resource group names.
   
 Create your new resource groups with these commands.
   
-```
+```powershell
 $locName="<an Azure location, such as West US>"
 $rgName="<Table R - Item 1 - Name column>"
 New-AzResourceGroup -Name $rgName -Location $locName
@@ -169,7 +164,7 @@ New-AzResourceGroup -Name $rgName -Location $locName
 
 Next, you create the Azure virtual network and its subnets.
   
-```
+```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
 $locName="<your Azure location>"
 $vnetName="<Table V - Item 1 - Value column>"
@@ -198,7 +193,7 @@ New-AzVirtualNetwork -Name $vnetName -ResourceGroupName $rgName -Location $locNa
 
 Next, you create network security groups for each subnet that has virtual machines. To perform subnet isolation, you can add rules for the specific types of traffic allowed or denied to the network security group of a subnet.
   
-```
+```powershell
 # Create network security groups
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name $vnetName
 
@@ -218,7 +213,7 @@ $vnet | Set-AzVirtualNetwork
 
 Next, use these commands to create the gateways for the site-to-site VPN connection.
   
-```
+```powershell
 $rgName="<Table R - Item 4 - Resource group name column>"
 $locName="<Azure location>"
 $vnetName="<Table V - Item 1 - Value column>"
@@ -254,7 +249,7 @@ $vnetConnection=New-AzVirtualNetworkGatewayConnection -Name $vnetConnectionName 
   
 Next, record the public IPv4 address of the Azure VPN gateway for your virtual network from the display of this command:
   
-```
+```powershell
 Get-AzPublicIpAddress -Name $publicGatewayVipName -ResourceGroupName $rgName
 ```
 
@@ -282,7 +277,7 @@ You will need these names when you create the virtual machines in phases 2, 3, a
   
 Create the new availability sets with these Azure PowerShell commands.
   
-```
+```powershell
 $locName="<the Azure location for your new resource group>"
 $rgName="<Table R - Item 1 - Resource group name column>"
 $avName="<Table A - Item 1 - Availability set name column>"

@@ -23,7 +23,7 @@ description: "Learn how user identity is managed in Office 365."
 
 # Office 365 identity models and Azure Active Directory
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Office 365 uses Azure Active Directory (Azure AD), a cloud-based user identity and authentication service that is included with your Office 365 subscription, to manage identities and authentication for Office 365. Getting your identity infrastructure configured correctly is vital to managing Office 365 user access and permissions for your organization.
 

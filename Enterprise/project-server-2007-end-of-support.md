@@ -21,9 +21,11 @@ description: "On October 10, 2017, support ended for Project Server 2007, Projec
 
 # Project Server 2007 end of support roadmap
 
-Support is ending for Office 2007 servers and applications in 2017, and you need to consider plans for migration. If you are currently using Project Server 2007, note that it and these other related products will have the following end-of-support dates:
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
+Support ended for Office 2007 servers and applications in 2017, and you need to consider plans for migration. If you are currently using Project Server 2007, note that it and these other related products had the following end-of-support dates:
   
-|**Product**|**end of support date**|
+|**Product**|**End of support date**|
 |:-----|:-----|
 |Project Server 2007  <br/> |October 10, 2017  <br/> |
 |Project Portfolio Server 2007  <br/> |October 10, 2017  <br/> |
@@ -34,7 +36,7 @@ For more information about Office 2007 servers reaching retirement, see [Upgrade
   
 ## What does end of support mean?
 
-Project Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, security fixes, and so on. This lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support. Because Project Server 2007 reached its end of support on October 10, 2017, Microsoft will no longer provide:
+Project Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, security fixes, and so on. This lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support. Because Project Server 2007 reached its end of support on October 10, 2017, Microsoft no longer provides:
   
 - Technical support for problems that may occur.
     

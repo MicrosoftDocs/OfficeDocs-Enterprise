@@ -3,7 +3,7 @@ title: "Set up your network for Office 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/01/2018
+ms.date: 11/19/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -21,11 +21,11 @@ description: "Summary: See these articles to understand networking for Office 36
 
 # Set up your network for Office 365
 
-**Summary:** See these articles to understand networking for Office 365.
-  
-An important part of your Office 365 onboarding is to first ensure that your network and Internet connections are set up for optimized access. Configuring your on-premises network to access a globally distributed Software-as-a-Service (SaaS) cloud is different from a traditional network that is optimized for traffic to on-premises datacenters. 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Use these articles to understand the key differences and to modify your  edge devices, client computers, and on-premises network to get the best user performance.
+An important part of your Office 365 onboarding is to ensure that your network and Internet connections are set up for optimized access. Configuring your on-premises network to access a globally distributed Software-as-a-Service (SaaS) cloud is different from a traditional network that is optimized for traffic to on-premises datacenters and a central Internet connection. 
+
+Use these articles to understand the key differences and to modify your edge devices, client computers, and on-premises network to get the best performance for your on-premises users.
 
 ## How Office 365 networking works
 
@@ -45,7 +45,7 @@ If you are a network equipment vendor, join the [Office 365 Networking Partner P
 
 Endpoints are the set of destination IP addresses, DNS domain names, and URLs for Office 365 traffic on the Internet. 
 
-To optimize performance to Office 365 cloud-based services, these endpoints need special handling by your client browsers and the devices in your edge network. These devices include firewalls, SSL Break and Inspect and packet inspection devices, and data loss prevention systems.
+To optimize performance to Office 365 cloud-based services, some endpoints need special handling by your client browsers and the devices in your edge network. These devices include firewalls, SSL Break and Inspect and packet inspection devices, and data loss prevention systems.
 
 See [Managing Office 365 endpoints](managing-office-365-endpoints.md) for the details.
 

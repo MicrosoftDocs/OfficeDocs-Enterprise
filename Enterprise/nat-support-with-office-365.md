@@ -19,8 +19,8 @@ description: "Summary: Provides details about how to approximate the correct num
 
 # NAT support with Office 365
 
- **Summary:** Provides details about how to approximate the correct number of clients you can use per IP address within your organization using Network Address Translation (NAT). 
-  
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Previously, guidance suggested that the maximum number of Exchange clients you should use per IP address to connect to Office 365 was about 2,000 clients per network port.
   
 ## Why use NAT?

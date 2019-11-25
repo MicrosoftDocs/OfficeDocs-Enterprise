@@ -15,6 +15,8 @@ description: "Exchange 2010 is nearing end of support. Use this planning roadmap
 
 # Exchange 2010 end of support roadmap
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 On **October 13, 2020**, Exchange Server 2010 will reach end of support. If you haven't already begun your migration from Exchange 2010 to Office 365 or Exchange 2016, now's the time to start your planning.
 
 ## What does end of support mean?

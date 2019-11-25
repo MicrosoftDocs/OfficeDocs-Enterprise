@@ -19,10 +19,7 @@ description: "Learn how to use Office 365 PowerShell to delete Office 365 user a
 
 # Delete user accounts with Office 365 PowerShell
 
-**Summary:**  Learn how to use Office 365 PowerShell to delete Office 365 user accounts.
-  
 You can use Office 365 PowerShell to delete a user account.
-
    
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -30,13 +27,13 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 After you have connected, use the following syntax to remove an individual user account:
   
-```
+```powershell
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
 This example removes the user account fabricec@litwareinc.com.
   
-```
+```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
@@ -45,21 +42,21 @@ Remove-AzureADUser -ObjectID fabricec@litwareinc.com
   
 To display the account name based on the user's name, use the following commands:
   
-```
+```powershell
 $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
 This example displays the account name for the user named Caleb Sills.
   
-```
+```powershell
 $userName="Caleb Sills"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
 To remove an account based on the user's display name, use the following commands:
   
-```
+```powershell
 $userName="<display name>"
 Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
@@ -73,25 +70,25 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 To delete a user account, use the following syntax:
   
-```
+```powershell
 Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 This example deletes the user account BelindaN@litwareinc.com.
   
-```
+```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 ```
 
 To restore a deleted user account within the 30-day grace period, use the following syntax:
   
-```
+```powershell
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 This example restores the deleted account BelindaN@litwareinc.com.
   
-```
+```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 ```
 
@@ -99,7 +96,7 @@ Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
   
 - To see the list of deleted users that can be restored, run the following command:
     
-  ```
+  ```powershell
   Get-MsolUser -All -ReturnDeletedUsers
   ```
 

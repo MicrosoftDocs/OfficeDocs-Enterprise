@@ -17,8 +17,6 @@ description: "Summary: Learn how to use Windows PowerShell to perform a staged m
 
 # Use PowerShell to perform a staged migration to Office 365
 
- **Summary:** Learn how to use Windows PowerShell to perform a staged migration to Office 365.
-  
 You can migrate the contents of user mailboxes from a source email system to Office 365 over time using a staged migration.
   
 This article walks you through the tasks involved with for a staged email migration using Exchange Online PowerShell. The topic, [What you need to know about a staged email migration to Office 365](https://go.microsoft.com/fwlink/p/?LinkId=536487), gives you an overview of the migration process. When you're comfortable with the contents of that article, use this one to begin migrating mailboxes from one email system to another.
@@ -59,11 +57,11 @@ Before you migrate mailboxes to Office 365 by using a staged migration, there ar
     
 - Run the following commands in Exchange Online PowerShell:
     
-  ```
+  ```powershell
   $Credentials = Get-Credential
   ```
 
-  ```
+  ```powershell
   Test-MigrationServerAvailability -ExchangeOutlookAnywhere -Autodiscover -EmailAddress <email address for on-premises administrator> -Credentials $credentials
   ```
 
@@ -114,7 +112,7 @@ Here's an example of the format for the CSV file. In this example, three on-prem
   
 The first row, or header row, of the CSV file lists the names of the attributes, or fields, specified in the rows that follow. Each attribute name is separated by a comma.
   
-```
+```powershell
 EmailAddress,Password,ForceChangePassword 
 pilarp@contoso.com,Pa$$w0rd,False 
 tobyn@contoso.com,Pa$$w0rd,False 
@@ -137,11 +135,11 @@ For a full list of migration commands, see [Move and migration cmdlets](https://
   
 To create an Outlook Anywhere migration endpoint called "StagedEndpoint" in Exchange Online PowerShell, run the following commands:
   
-```
+```powershell
 $Credentials = Get-Credential
 ```
 
-```
+```powershell
 New-MigrationEndpoint -ExchangeOutlookAnywhere -Name StagedEndpoint -Autodiscover -EmailAddress administrator@contoso.com -Credentials $Credentials
 ```
 
@@ -154,7 +152,7 @@ For more information about the **New-MigrationEndpoint** cmdlet, see[New-Migrati
 
 In Exchange Online PowerShell, run the following command to display information about the "StagedEndpoint" migration endpoint:
   
-```
+```powershell
 Get-MigrationEndpoint StagedEndpoint | Format-List EndpointType,ExchangeServer,UseAutoDiscover,Max*
 ```
 
@@ -163,13 +161,13 @@ Get-MigrationEndpoint StagedEndpoint | Format-List EndpointType,ExchangeServer,U
 
 You can use the **New-MigrationBatch** cmdlet in Exchange Online PowerShell to create a migration batch for a cutover migration. You can create a migration batch and start it automatically by including the _AutoStart_ parameter. Alternatively, you can create the migration batch and then manually start it afterwards by using the **Start-MigrationBatch** cmdlet. This example creates a migration batch called "StagedBatch1" and uses the migration endpoint that was created in the previous step.
   
-```
+```powershell
 New-MigrationBatch -Name StagedBatch1 -SourceEndpoint StagedEndpoint -AutoStart
 ```
 
 This example also creates a migration batch called "StagedBatch1" and uses the migration endpoint that was created in the previous step. Because the  _AutoStart_ parameter isn't included, the migration batch has to be manually started on the migration dashboard or by using **Start-MigrationBatch** cmdlet. As previously stated, only one cutover migration batch can exist at a time.
   
-```
+```powershell
 New-MigrationBatch -Name StagedBatch1 -SourceEndpoint StagedEndpoint
 ```
 
@@ -177,13 +175,13 @@ New-MigrationBatch -Name StagedBatch1 -SourceEndpoint StagedEndpoint
 
 Run the following command in Exchange Online PowerShell to display information about the "StagedBatch1":
   
-```
+```powershell
 Get-MigrationBatch -Identity StagedBatch1 | Format-List
 ```
 
 You can also verify that the batch has started by running the following command:
   
-```
+```powershell
 Get-MigrationBatch -Identity StagedBatch1 | Format-List Status
 ```
 
@@ -211,7 +209,7 @@ For more information, and to download scripts that you can run to convert mailbo
   
 To delete the "StagedBatch1" migration batch in Exchange Online PowerShell, run the following command.
   
-```
+```powershell
 Remove-MigrationBatch -Identity StagedBatch1
 ```
 
@@ -221,7 +219,7 @@ For more information about the **Remove-MigrationBatch** cmdlet, see[Remove-Migr
 
 Run the following command in Exchange Online PowerShell to display information about the "IMAPBatch1":
   
-```
+```powershell
 Get-MigrationBatch StagedBatch1
 ```
 

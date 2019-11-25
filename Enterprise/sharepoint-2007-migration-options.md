@@ -27,6 +27,8 @@ description: "SharePoint Server 2007 has reached end of support, and it's time t
 
 # SharePoint 2007 migration options to consider
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Microsoft SharePoint 2007 and SharePoint Server 2007 have reached end of support. It's time to upgrade! This article provides information about your migration options.
   
 ## Common upgrade strategies for SharePoint
