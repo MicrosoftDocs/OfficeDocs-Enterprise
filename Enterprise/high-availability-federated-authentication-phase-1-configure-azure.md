@@ -3,7 +3,7 @@ title: "High availability federated authentication Phase 1 Configure Azure"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/15/2019
+ms.date: 11/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,9 +16,7 @@ description: "Summary: Configure the Microsoft Azure infrastructure to host high
 
 # High availability federated authentication Phase 1: Configure Azure
 
- **Summary:** Configure the Microsoft Azure infrastructure to host high availability federated authentication for Office 365.
-  
-In this phase, you create the resource groups, virtual network (VNet), and availability sets in Azure that will host the virtual machines in phases 2, 3, and 4. You must complete this phase before moving on to [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
+In this phase, you create the resource groups, virtual network (VNet), and availability sets in Azure that will host the virtual machines in phases 2, 3, and 4. You must complete this phase before moving on to [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
 Azure must be provisioned with these basic components:
   
@@ -58,7 +56,7 @@ Work with your IT department to determine these address spaces from the virtual 
   
 |**Item**|**Subnet name**|**Subnet address space**|**Purpose**|
 |:-----|:-----|:-----|:-----|
-|1.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the Active Directory Domain Services (AD DS) domain controller and DirSync server virtual machines (VMs).  <br/> |
+|1.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the Active Directory Domain Services (AD DS) domain controller and directory synchronization server virtual machines (VMs).  <br/> |
 |2.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the AD FS VMs.  <br/> |
 |3.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the web application proxy VMs.  <br/> |
 |4.  <br/> |GatewaySubnet  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |The subnet used by the Azure gateway VMs.  <br/> |
@@ -71,7 +69,7 @@ Next, fill in Table I for the static IP addresses assigned to virtual machines a
 |:-----|:-----|:-----|:-----|
 |1.  <br/> |Static IP address of the first domain controller  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 1 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
 |2.  <br/> |Static IP address of the second domain controller  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 1 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
-|3.  <br/> |Static IP address of the DirSync server  <br/> |The sixth possible IP address for the address space of the subnet defined in Item 1 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
+|3.  <br/> |Static IP address of the directory synchronization server  <br/> |The sixth possible IP address for the address space of the subnet defined in Item 1 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
 |4.  <br/> |Static IP address of the internal load balancer for the AD FS servers  <br/> |The fourth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
 |5.  <br/> |Static IP address of the first AD FS server  <br/> |The fifth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
 |6.  <br/> |Static IP address of the second AD FS server  <br/> |The sixth possible IP address for the address space of the subnet defined in Item 2 of Table S.  <br/> |![](./media/Common-Images/TableLine.png)  <br/> |
@@ -104,13 +102,16 @@ For the set of local network address spaces, fill in Table L. Note that three bl
 Now let's begin building the Azure infrastructure to host your federated authentication for Office 365.
   
 > [!NOTE]
-> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). 
+> The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps). 
   
 First, start an Azure PowerShell prompt and login to your account.
   
 ```powershell
 Connect-AzAccount
 ```
+
+> [!TIP]
+> To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/office365/enterprise/media/deploy-high-availability-federated-authentication-for-office-365-in-azure/O365FedAuthInAzure_Config.xlsx?raw=true). 
   
 Get your subscription name using the following command.
   
@@ -298,7 +299,7 @@ This is the configuration resulting from the successful completion of this phase
   
 ## Next step
 
-Use [High availability federated authentication Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) to continue with the configuration of this workload.
+Use [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md) to continue with the configuration of this workload.
   
 ## See Also
 
