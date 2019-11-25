@@ -95,6 +95,10 @@ Here are the steps to connect to all the services in a single PowerShell window.
   Connect-MsolService -Credential $credential
  ```
 
+>[!Note]
+>PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 4. Run these commands to connect to SharePoint Online. Replace  _\<domainhost>_ with the actual value for your domain. For example, for "litwareinc.onmicrosoft.com", the  _\<domainhost>_ value is "litwareinc".
     
   ```powershell

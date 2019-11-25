@@ -64,6 +64,10 @@ Next, run this command to see your current subscriptions:
 Get-MsolAccountSku
 ```
 
+>[!Note]
+>PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 In the display of the  `Get-MsolAccountSku` command:
   
 - **AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format. The \<OrganizationName> is the value that you provided when you enrolled in Office 365, and is unique for your organization. The \<Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).

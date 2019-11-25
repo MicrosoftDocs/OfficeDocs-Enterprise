@@ -70,6 +70,10 @@ To remove licenses from an existing user account, use the following syntax:
 Set-MsolUserLicense -UserPrincipalName <Account> -RemoveLicenses "<AccountSkuId1>", "<AccountSkuId2>"...
 ```
 
+>[!Note]
+>PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 This example removes the `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) license from the user account BelindaN@litwareinc.com.
   
 ```powershell

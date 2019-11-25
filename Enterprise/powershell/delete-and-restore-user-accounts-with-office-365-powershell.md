@@ -31,6 +31,10 @@ After you have connected, use the following syntax to remove an individual user 
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
+>[!Note]
+>PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 This example removes the user account fabricec@litwareinc.com.
   
 ```powershell

@@ -38,6 +38,10 @@ Next, use this command to view your available licensing plans, also known as Acc
 Get-MsolAccountSku | Select AccountSkuId | Sort AccountSkuId
 ```
 
+>[!Note]
+>PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 For more information, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
     
 To see the before and after results of the procedures in this topic, see [View account license and service details with Office 365 PowerShell](view-account-license-and-service-details-with-office-365-powershell.md).

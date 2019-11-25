@@ -53,6 +53,10 @@ This command creates the domain in Azure Active Directory but does not associate
 New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
 ```
 
+>[!Note]
+>PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 ### Get the data for the DNS TXT verification record
 
  Office 365 will generate the specific data that you need to place into the DNS TXT verification record. To get the data, run this command.
