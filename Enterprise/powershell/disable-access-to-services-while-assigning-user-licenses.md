@@ -65,7 +65,7 @@ Get-MsolAccountSku
 ```
 
 >[!Note]
->PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
 >
 
 In the display of the  `Get-MsolAccountSku` command:

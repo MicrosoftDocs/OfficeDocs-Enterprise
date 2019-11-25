@@ -100,7 +100,7 @@ After connecting, you can use the new cmdlets for the [Azure Active Directory Po
 Commands in the Microsoft Azure Active Directory Module for Windows PowerShell have **Msol** in their cmdlet name.
 
 >[!Note]
->PowerShell Core does not support the MSOline module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
 >
     
 ### Step 1: Install required software
