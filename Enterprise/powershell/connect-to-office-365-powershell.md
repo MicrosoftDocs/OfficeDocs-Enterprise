@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/30/2019
+ms.date: 11/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -19,8 +19,6 @@ description: "Summary: Connect to your Office 365 organization using Office 365 
 
 # Connect to Office 365 PowerShell
 
- **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform administration tasks from the command line.
-  
 Office 365 PowerShell lets you manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple process where you install the required software and then connect to your Office 365 organization. 
 
 There are two versions of the PowerShell module that you use to connect to Office 365 and administer user accounts, groups, and licenses:
@@ -100,6 +98,10 @@ After connecting, you can use the new cmdlets for the [Azure Active Directory Po
 ## Connect with the Microsoft Azure Active Directory Module for Windows PowerShell
 
 Commands in the Microsoft Azure Active Directory Module for Windows PowerShell have **Msol** in their cmdlet name.
+
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
     
 ### Step 1: Install required software
 
