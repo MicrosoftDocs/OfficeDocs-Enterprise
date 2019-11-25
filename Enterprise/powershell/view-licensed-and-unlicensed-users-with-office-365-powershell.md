@@ -50,6 +50,10 @@ To view the list of all user accounts and their licensing status in your organiz
 Get-MsolUser -All
 ```
 
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 To view the list of all unlicensed user accounts in your organization, run the following command:
   
 ```powershell

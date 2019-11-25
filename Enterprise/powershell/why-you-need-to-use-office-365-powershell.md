@@ -78,9 +78,11 @@ You must repeat this procedure for each user. For many users, this can be a tedi
 Get-MsolUser | Select DisplayName, UsageLocation
 ```
 
-> [!NOTE]
-> This command requires you to install the [Windows Azure Active Directory module](https://docs.microsoft.com/powershell/module/Azuread/?view=azureadps-2.0). 
-  
+
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 Here is an example of the display:
   
 ```powershell
