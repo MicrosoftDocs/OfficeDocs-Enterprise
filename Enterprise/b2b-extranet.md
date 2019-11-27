@@ -12,7 +12,7 @@ description: "Learn how to create a B2B extranet site or team with managed guest
 
 # Create a B2B extranet with managed guests
 
-You can use Azure Active Directory Entitlement Management to create a B2B extranet to collaborate with a partner organization. (The partner organization must also have use Azure Active Directory.) This allows users to self-enroll in the extranet site or team and receive access via an approval workflow.
+You can use [Azure Active Directory Entitlement Management](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) to create a B2B extranet to collaborate with a partner organization. (The partner organization must also have use Azure Active Directory.) This allows users to self-enroll in the extranet site or team and receive access via an approval workflow.
 
 With this method of sharing resources for collaboration, the partner organization can help maintain and approve the guest users on their end, reducing the burden on your IT department and allowing those most familiar with the collaboration agreement to manage user access.
 
@@ -27,18 +27,16 @@ In order to invite guests from a partner organization, you need to add the the p
 To add a connected organization
 1. In [Azure Active Directory](https://aad.portal.azure.com), click **Identity Governance**.
 2. Click **Connected organizations**.
-3. Click **Add connected organization**.
-4. Type a name and description for the organization, and then click **Next: Directory + domain**.
-5. Click **Add directory + domain**.
-6. Type the domain for the organization that you want to connect, and then click **Add**.
-7. Click **Connect**, and then click **Next: Sponsors**.
-8. Add people from your organization or the organization that you're connecting to who you want to approve access for guest users.
-9. Click **Next: Review + Create**.
-10. Review the settings that you've chosen and then click **Create**.
+4. Click **Add connected organization**.
+5. Type a name and description for the organization, and then click **Next: Directory + domain**.
+6. Click **Add directory + domain**.
+7. Type the domain for the organization that you want to connect, and then click **Add**.
+8. Click **Connect**, and then click **Next: Sponsors**.
+9. Add people from your organization or the organization that you're connecting to who you want to approve access for guest users.
+10. Click **Next: Review + Create**.
+11. Review the settings that you've chosen and then click **Create**.
 
-
-   ![Screenshot of the connected organizations page in Azure Active Directory](media/identity-governance-connected-organizations.png)
-
+    ![Screenshot of the connected organizations page in Azure Active Directory](media/identity-governance-connected-organizations.png)
 
 ## Choose the resources to share
 
@@ -62,9 +60,6 @@ To add resources to a catalog
 
    ![Screenshot of the catalog resources page in Azure Active Directory Identity Governance](media/identity-governance-catalog-resource.png)
 
-
-To add an access package manager
-
 Once you've defined the resources that you want to share, the next step is to create an access package, which defines the type of access that partner users are granted and the approval process for new partner users requesting access.
 
 To create an access package
@@ -85,7 +80,7 @@ To create an access package
 15. Choose the expiration and access review settings that you want to use, and then click **Next: Review + Create**.
 16. Review your settings, and then click **Create**.
 
-   ![Screenshot of the access packages screen in Azure Active Directory Identity Governance](media/identity-governance-access-packages.png)
+    ![Screenshot of the access packages screen in Azure Active Directory Identity Governance](media/identity-governance-access-packages.png)
 
 If you're partnering with a large organization, you may want to hide the access package. If the package is hidden, then users in the partner organization will not see the package on their *My Access* portal. Instead, they must be sent a direct link to sign up for the package. Hiding the access package can reduce the number of inappropriate access requests and can also help keep available access packages organized in the partner organization's portal.
 
