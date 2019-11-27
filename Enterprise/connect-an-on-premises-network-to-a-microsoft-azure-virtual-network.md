@@ -202,7 +202,7 @@ Here is your resulting configuration.
 ### Phase 2: Create the cross-premises virtual network in Azure
 <a name="Phase2"></a>
 
-First, open an Azure PowerShell prompt. If you have not installed Azure PowerShell, see [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/).
+First, open an Azure PowerShell prompt. If you have not installed Azure PowerShell, see [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps).
 
  
 Next, login to your Azure account with this command.
