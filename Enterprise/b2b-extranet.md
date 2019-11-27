@@ -6,11 +6,21 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn how to create a B2B extranet site or team with managed guest users from a partner organization."
 ---
 
 # Create a B2B extranet with managed guests
+
+You can use Azure Active Directory Entitlement Management to create a B2B extranet to collaborate with a partner organization. (The partner organization must also have use Azure Active Directory.) This allows users to self-enroll in the extranet site or team and receive access via an approval workflow.
+
+With this method of sharing resources for collaboration, the partner organization can help maintain and approve the guest users on their end, reducing the burden on your IT department and allowing those most familiar with the collaboration agreement to manage user access.
+
+This article walks through the steps to create a package of resources (in this case, a site or team) that you can share with a partner organization through a self-service access registration model. Before you begin, create the site or team that you want to share with the partner organization and enable it for guest sharing. See [Collaborate with guests in a site](collaborate-in-a-site.md) or [Collaborate with guests in a team](collaborate-as-a-team.md) for more information.
+
+## Connect the partner organization
+
+In order to invite guests from a partner organization, you need to add the the partner's domain as a connected organization in Azure Active Directory.
 
 To add a connected organization
 1. In [Azure Active Directory](https://aad.portal.azure.com), click **Identity Governance**.
@@ -28,6 +38,10 @@ To add a connected organization
    ![Screenshot of the connected organizations page in Azure Active Directory](media/identity-governance-connected-organizations.png)
 
 
+## Choose the resources to share
+
+The first step in selecting resources to share with a partner organization is to create a catalog to contain them.
+
 To create a catalog
 1. In [Azure Active Directory](https://aad.portal.azure.com), click **Identity Governance**.
 2. Click **Catalogs**.
@@ -36,6 +50,8 @@ To create a catalog
 5. Click **Create**.
 
    ![Screenshot of the catalogs page in Azure Active Directory Identity Governance](media/identity-governance-catalogs.png)
+
+Once the catalog has been created, you add the SharePoint site or team that you want to share with the partner organization.
 
 To add resources to a catalog
 1. In Azure AD Identity Governance, click **Catalogs**, and then click the catalog where you want to add resources.
@@ -47,6 +63,7 @@ To add resources to a catalog
 
 To add an access package manager
 
+Once you've defined the resources that you want to share, the next step is to create an access package, which defines the type of access that partner users are granted and the approval process for new partner users requesting access.
 
 To create an access package
 1. In Azure AD Identity Governance, click **Catalogs**, and then click the catalog where you want to create an access package.
@@ -71,6 +88,16 @@ To create an access package
 
 
 To set an access package to hidden
+
+
+
+   ![Screenshot of an edit access package properties screen](media/identity-governance-access-package-hidden.png)
+
+
+
+## Invite partner users
+
+
 
 ## See Also
 
