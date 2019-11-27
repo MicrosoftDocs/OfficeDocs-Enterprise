@@ -16,7 +16,9 @@ You can use Azure Active Directory Entitlement Management to create a B2B extran
 
 With this method of sharing resources for collaboration, the partner organization can help maintain and approve the guest users on their end, reducing the burden on your IT department and allowing those most familiar with the collaboration agreement to manage user access.
 
-This article walks through the steps to create a package of resources (in this case, a site or team) that you can share with a partner organization through a self-service access registration model. Before you begin, create the site or team that you want to share with the partner organization and enable it for guest sharing. See [Collaborate with guests in a site](collaborate-in-a-site.md) or [Collaborate with guests in a team](collaborate-as-a-team.md) for more information.
+This article walks through the steps to create a package of resources (in this case, a site or team) that you can share with a partner organization through a self-service access registration model. 
+
+Before you begin, create the site or team that you want to share with the partner organization and enable it for guest sharing. See [Collaborate with guests in a site](collaborate-in-a-site.md) or [Collaborate with guests in a team](collaborate-as-a-team.md) for more information. We also recommend that you review [Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md) for information about security and compliance features that you can use to help maintain your governance policies when collaborating with guests.
 
 ## Connect the partner organization
 
@@ -85,19 +87,26 @@ To create an access package
 
    ![Screenshot of the access packages screen in Azure Active Directory Identity Governance](media/identity-governance-access-packages.png)
 
-
+If you're partnering with a large organization, you may want to hide the access package. If the package is hidden, then users in the partner organization will not see the package on their *My Access* portal. Instead, they must be sent a direct link to sign up for the package. Hiding the access package can reduce the number of inappropriate access requests and can also help keep available access packages organized in the partner organization's portal.
 
 To set an access package to hidden
-
-
+1. In Azure AD Identity Governance, click **Access packages**, and then click your access package.
+2. On the **Overview** page, click **Edit**.
+3. Under **Properties**, choose **Yes** for **Hidden**, and then click **Save**.
 
    ![Screenshot of an edit access package properties screen](media/identity-governance-access-package-hidden.png)
 
-
-
 ## Invite partner users
 
+If you set the access package to hidden, you need to send a direct link to the partner organization so that they can request access to your site or team.
 
+To find the access portal link
+1. In Azure AD Identity Governance, click **Access packages**, and then click your access package.
+2. On the **Overview** page, click **Copy to clipboard** link for the **My Access portal link**.
+
+   ![Screenshot of access package properties with access portal link](media/identity-governance-access-portal-link.png)
+
+Once you have copied the link, you can share it with your contact at the partner organization and they can send it to the users on their collaboration team.
 
 ## See Also
 
