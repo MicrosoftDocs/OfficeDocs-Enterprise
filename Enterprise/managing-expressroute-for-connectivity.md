@@ -38,8 +38,6 @@ There are a number of reasons to avoid the use of the [Office 365 URLs and IP ad
 
 - The Office 365 URLs and IP address ranges do not cover other Microsoft services that may be in scope for your ExpressRoute connections.
 
-|
-|
 |**Option**|**Complexity**|**Change Control**|
 |:-----|:-----|:-----|
 |Accept all Microsoft routes  <br/> |**Low:** Customer relies upon Microsoft controls to ensure all routes are properly owned.  <br/> |None  <br/> |
