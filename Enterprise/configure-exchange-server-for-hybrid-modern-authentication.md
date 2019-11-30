@@ -152,7 +152,7 @@ You should also hold down the CTRL key at the same time you right click the icon
  
 ## Using hybrid Modern Authentication with Outlook for iOS and Android
 
-Customer on premise Customer when using Exchange server on TCP 443 should whitelist the below IP ranges
+If you are an on-premises customer using Exchange server on TCP 443, please whitelist the following IP ranges:
 
  <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR> 
   
@@ -161,4 +161,3 @@ Customer on premise Customer when using Exchange server on TCP 443 should whitel
 
 [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md) 
   
-
