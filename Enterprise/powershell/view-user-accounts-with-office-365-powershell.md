@@ -131,6 +131,10 @@ To display the full list of user accounts, run this command:
 Get-MsolUser
 ```
 
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 You should see information similar to this:
   
 ```powershell

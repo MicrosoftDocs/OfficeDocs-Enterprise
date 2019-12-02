@@ -66,6 +66,9 @@ Next, run this command to list the licensing plans that are available in your or
 ```powershell
 Get-MsolAccountSku
 ```
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
 
 Next, run this command to list the services that are available in each licensing plan, and the order in which they are listed (the index number).
 
