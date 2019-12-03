@@ -75,9 +75,7 @@ For Microsoft to route back to your network for these bi-directional traffic flo
 When you configure a peering relationship using the Microsoft peering routing domain and are approved for the appropriate access, you'll be able to see all PaaS and SaaS services available over ExpressRoute. The Office 365 services designed for ExpressRoute can be managed with [BGP communities](https://aka.ms/bgpexpressroute365) or [route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal).
   
 Other applications such as Office 365 Video, is an Office 365 application; however, Office 365 Video is comprised of three different components, the portal, the streaming service, and the content delivery network. The portal lives within SharePoint Online, the streaming service lives within Azure Media Services, and the content delivery network lives within the Azure CDN. The following table outlines these components.
-  
-|
-|
+
 |**Component**|**Underlying application**|**Included in SharePoint Online BGP Community?**|**Use**|
 |:-----|:-----|:-----|:-----|
 |Office 365 Video portal  <br/> |SharePoint Online  <br/> |Yes  <br/> |Configuration, upload  <br/> |

@@ -30,19 +30,19 @@ The second option, [**Structural navigation**](#using-structural-navigation-in-s
 
 In addition to the out-of-the-box navigation providers, many customers have successfully implemented alternative custom navigation implementations. One common class of custom navigation implementations embraces client-rendered design patterns that store a local cache of navigation nodes. (See **[Search-driven client-side scripting](#using-search-driven-client-side-scripting)** in this article.)
 
-These navigation providers have a couple of key advantages: 
-- They generally work well with responsive page designs.
-- They are extremely scalable and performant because they can render with no resource cost (and refresh in the background after a timeout). 
-- These navigation providers can retrieve navigation data using various strategies, ranging from simple static configurations to various dynamic data providers. 
+These navigation providers have a couple of key advantages:
 
-An example of a data provider is to use a **Search-driven navigation**, which allows flexibility for enumerating navigation nodes and handling security trimming efficiently. 
+- They generally work well with responsive page designs.
+- They are extremely scalable and performant because they can render with no resource cost (and refresh in the background after a timeout).
+- These navigation providers can retrieve navigation data using various strategies, ranging from simple static configurations to various dynamic data providers.
+
+An example of a data provider is to use a **Search-driven navigation**, which allows flexibility for enumerating navigation nodes and handling security trimming efficiently.
 
 There are other popular options to build **Custom navigation providers**. Please review [Navigation solutions for SharePoint Online portals](https://docs.microsoft.com/sharepoint/dev/solution-guidance/portal-navigation) for further guidance on building a Custom navigation provider.
   
 ## Pros and Cons of SharePoint Online navigation options
 
-The following table summarizes the pros and cons of each option. 
-
+The following table summarizes the pros and cons of each option.
 
 |Managed navigation  |Structural navigation  |Search-driven navigation  |Custom-navigation provider  |
 |---------|---------|---------|---------|
@@ -53,8 +53,7 @@ The most appropriate option for your site will depend on your site requirements 
 
 The Managed navigation option can be maintained through configuration, does not involve code customization files, and it is significantly faster than structural navigation. If you require security trimming and are comfortable using a custom master page and have some capability in the organization to maintain the changes that may occur in the default master page for SharePoint Online, then the Search-driven option may produce a better user experience. If you have more complex requirements, then a custom navigation provider may be the right choice. Structural navigation is NOT recommended.
 
-Finally, it’s important to note that SharePoint is adding additional navigation providers and functionality for modern SharePoint site architectures leveraging a more flattened site hierarchy and a hub-and-spoke model with SharePoint hub sites. This allows many scenarios to be achieved that do NOT require the use of SharePoint Publishing feature, and these navigation configurations are optimized for scalability and latency within SharePoint Online. Note that applying the same principle - simplifying the overall structure of your SharePoint Publishing site to a flatter structure, often helps with overall performance and scale as well. What this means is that instead of having a single Site Collection with hundreds of sites (subwebs), a better approach is to have many site collections with very few subsites (subwebs).
-
+Finally, it’s important to note that SharePoint is adding additional navigation providers and functionality for modern SharePoint site architectures leveraging a more flattened site hierarchy and a hub-and-spoke model with SharePoint hub sites. This allows many scenarios to be achieved that do NOT require the use of SharePoint Publishing feature, and these navigation configurations are optimized for scalability and latency within SharePoint Online. Note that applying the same principle of simplifying the overall structure of your SharePoint Publishing site to a flatter structure often helps with overall performance and scale as well. What this means is that instead of having a single Site Collection with hundreds of sites (subwebs), a better approach is to have many site collections with very few subsites (subwebs).
 
 ## Using managed navigation and metadata in SharePoint Online
 
@@ -90,7 +89,7 @@ To illustrate how the performance in a standard SharePoint Online solution with 
   
 ### Analyzing structural navigation performance in SharePoint Online
 
-To analyze the performance of a SharePoint page, use the **Network** tab of the F12 developer tools in Internet Explorer. 
+To analyze the performance of a SharePoint page, use the **Network** tab of the F12 developer tools in Internet Explorer.
   
 ![Screenshot showing F12 dev tools Network tab](media/SPONavOptionsNetworks.png)
   
@@ -109,13 +108,13 @@ This approach involves creating a custom master page and replacing the out-of-th
 
 ### Example: Replace the out-of-the-box navigation code in a master page
 
-1.	Navigate to the Site Settings page.
-2.	Open the master page gallery by clicking **Master Pages**.
-3.	From here you can navigate through the library and download the file `seattle.master`.
-4.	Edit the code using a text editor and delete the code block in the following screen shot.<br/>![Delete the code block shown](media/SPONavOptionsDeleteCodeBlock.png)<br/>
+1. Navigate to the Site Settings page.
+2. Open the master page gallery by clicking **Master Pages**.
+3. From here you can navigate through the library and download the file `seattle.master`.
+4. Edit the code using a text editor and delete the code block in the following screen shot.<br/>![Delete the code block shown](media/SPONavOptionsDeleteCodeBlock.png)<br/>
 5. Remove the code between the `<SharePoint:AjaxDelta id=”DeltaTopNavigation”>` and `<\SharePoint:AjaxDelta>` tags and replace it with the following snippet:<br/>
 
-```
+```javascript
 <div id="loading">
   <!--Replace with path to loading image.-->
   <div style="background-image: url(''); height: 22px; width: 22px; ">
@@ -138,15 +137,15 @@ This approach involves creating a custom master page and replacing the out-of-th
                         </span>
                     </span>
                 <!-- /ko -->
-                <!-- ko if: children.length == 0-->   
+                <!-- ko if: children.length == 0-->
                     <span aria-haspopup="true" class="ms-navedit-flyoutArrow dynamic-children">
                         <span class="menu-item-text" data-bind="text: item.Title">
                         </span>
                     </span>
-                <!-- /ko -->   
+                <!-- /ko -->
                 </a>
                
-                <!-- ko if: children.length > 0-->                                                       
+                <!-- ko if: children.length > 0-->
                 <ul id="menu"  data-bind="foreach: children;" class="dynamic  level2" >
                     <li class="dynamic level2">
                         <a class="dynamic menu-item ms-core-listMenu-item ms-displayInline  ms-navedit-linkNode" data-bind="attr: { href: item.Url, title: item.Title }">
@@ -161,8 +160,8 @@ This approach involves creating a custom master page and replacing the out-of-th
           <span aria-haspopup="true" class="ms-navedit-flyoutArrow dynamic-children">
            <span class="menu-item-text" data-bind="text: item.Title">
            </span>
-          </span>                 
-          <!-- /ko -->   
+          </span>
+          <!-- /ko -->
                         </a>
           <!-- ko if: children.length > 0-->
          <ul id="menu" data-bind="foreach: children;" class="dynamic level3" >
@@ -186,13 +185,13 @@ This approach involves creating a custom master page and replacing the out-of-th
 6. Replace the URL in the loading image anchor tag at the beginning, with a link to a loading image in your site collection. After you have made the changes, rename the file and then upload it to the master page gallery. This generates a new .master file.<br/>
 7. This HTML is the basic markup that will be populated by the search results returned from JavaScript code. You will need to edit the code to change the value for var root = “site collection URL” as demonstrated in the following snippet:<br/>
 
-```
+```javascript
 var root = “https://spperformance.sharepoint.com/sites/NavigationBySearch”;
 ```
 <br/>
 8. The results are assigned to the self.nodes array and a hierarchy is built out of the objects using linq.js assigning the output to an array self.hierarchy. This array is the object that is bound to the HTML. This is done in the toggleView() function by passing the self object to the ko.applyBinding() function.<br/>This then causes the hierarchy array to be bound to the following HTML:<br/>
 
-```
+```javascript
 <div data-bind=”foreach: hierarchy” class=”noindex ms-core-listMenu-horizontalBox”>
 ```
 
@@ -204,7 +203,7 @@ In our complex navigation example, a fresh page load without the local caching s
 
 The entire JavaScript file is as follows:
 
-```
+```javascript
 //Models and Namespaces
 var SPOCustom = SPOCustom || {};
 SPOCustom.Models = SPOCustom.Models || {}
@@ -388,7 +387,7 @@ function NavigationViewModel() {
         }
     };
 
-    // ByHierarchy method breaks the sorting in chrome and firefix 
+    // ByHierarchy method breaks the sorting in chrome and firefox
     // we need to resort  as ascending
     self.sortObjectsInArray2 = function (a, b) {
         if (a.item.Title() > b.item.Title())
@@ -435,7 +434,7 @@ function addEventsToElements() {
     });
 } _spBodyOnLoadFunctionNames.push("InitCustomNav");
 
-``` 
+```
 
 To summarize the code shown above in the `jQuery $(document).ready` function there is a `viewModel object` created and then the `loadNavigationNodes()` function on that object is called. This function either loads the previously built navigation hierarchy stored in the HTML5 local storage of the client browser or it calls the function `queryRemoteInterface()`.
 
@@ -459,7 +458,7 @@ The [above code](#about-the-javascript-file) has the following dependencies:
 
 The current version of LinqJS does not contain the ByHierarchy method used in the above code and will break the navigation code. To fix this, add the following method to the Linq.js file before the line `Flatten: function ()`.
 
-```
+```javascript
 ByHierarchy: function(firstLevel, connectBy, orderBy, ascending, parent) {
      ascending = ascending == undefined ? true : ascending;
      var orderMethod = ascending == true ? 'OrderBy' : 'OrderByDescending';
@@ -525,4 +524,3 @@ ByHierarchy: function(firstLevel, connectBy, orderBy, ascending, parent) {
 ## Related topics
 
 [Overview of managed navigation in SharePoint Server](https://docs.microsoft.com/sharepoint/administration/overview-of-managed-navigation)
-
