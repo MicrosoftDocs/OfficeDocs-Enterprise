@@ -3,7 +3,7 @@ title: "Routing with ExpressRoute for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 12/14/2017
+ms.date: 12/3/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -68,7 +68,7 @@ For Microsoft to route back to your network for these bi-directional traffic flo
 
 2) Use separate NAT IP pools per ExpressRoute circuit and separate to that of your internet circuits.
 
-3) Be aware that any route advertised to Microsoft will attract network traffic from any server in Microsoft's network, not only those for which routes are advertised to your network over ExpressRoute. Only advertise routes to servers where routing scenarios are defined and well understood by your team. Advertise separate IP Address route prefixes at each of multiple ExpressRoute circuits from your network. 
+3) Be aware that any route advertised to Microsoft will attract network traffic from any server in Microsoft's network, not only those for which routes are advertised to your network over ExpressRoute. Only advertise routes to servers where routing scenarios are defined and well understood by your team. Advertise separate IP Address route prefixes at each of multiple ExpressRoute circuits from your network.
   
 ## Deciding which applications and features route over ExpressRoute
 
@@ -105,7 +105,7 @@ This table displays the wildcard domains that are advertised to Internet circuit
 
 |**Wildcard domain advertised to Internet circuits only**|**Sub-FQDN advertised to ExpressRoute and Internet circuits**|
 |:-----|:-----|
-|\*.office.com  <br/> |\*.outlook.office.com  <br/> home.office.com  <br/> outlook.office.com  <br/> portal.office.com  <br/> www.office.com  <br/> |
+|\*.office.com  <br/> |\*.outlook.office.com  <br/> home.office.com  <br/> outlook.office.com  <br/> portal.office.com  <br/> <div style="display: inline">www.office.com</div>  <br/> |
 |\*.office.net  <br/> |agent.office.net  <br/> |
 |\*.office365.com  <br/> |outlook.office365.com  <br/> smtp.office365.com  <br/> |
 |\*.outlook.com  <br/> |\*.protection.outlook.com  <br/> \*.mail.protection.outlook.com  <br/> autodiscover-\<tenant\>.outlook.com  <br/> |
