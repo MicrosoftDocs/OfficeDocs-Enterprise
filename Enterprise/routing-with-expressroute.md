@@ -22,6 +22,8 @@ description: "To properly understand routing traffic to Office 365 using Azure E
 
 # Routing with ExpressRoute for Office 365
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 To properly understand routing traffic to Office 365 using Azure ExpressRoute, you'll need a firm grasp of the core [ExpressRoute routing requirements](https://azure.microsoft.com/documentation/articles/expressroute-routing/) and the [ExpressRoute circuits and routing domains](https://azure.microsoft.com/documentation/articles/expressroute-circuit-peerings/). These lay out the fundamentals for using ExpressRoute that Office 365 customers will rely on.
   
 Some of the key items in the above articles that you'll need to understand include:
