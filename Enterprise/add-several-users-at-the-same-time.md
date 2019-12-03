@@ -137,3 +137,10 @@ When you save the file, you'll probably get a prompt that some features in your 
     
 - **If you don't see the new users in Office 365 right away, wait a few minutes.** It can take a little while for changes to go across all the services in Office 365. 
     
+## Related articles
+
+[Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+
+
+
+
