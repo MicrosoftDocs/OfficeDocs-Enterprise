@@ -19,6 +19,9 @@ description: "Provides instructions on using IdFix to prepare and clean up your 
 ---
 
 # Prepare directory attributes for synchronization with Office 365 by using the IdFix tool
+
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 This topic contains detailed instructions about running the IdFix tool, some common errors you may encounter, suggested fixes, examples, and best practices for what to do if you have a large number of errors.
   
 ## Fixing errors in your directory by using the IdFix GUI

@@ -3,6 +3,7 @@ title: "Assign Office 365 licenses to user accounts"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 12/03/2019
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -50,5 +51,5 @@ With the full set of user accounts that have been assigned licenses, you are now
 
 - [Implement security](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 - [Deploy client software, such as Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
-- [Configure mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
+- [Set up Mobile Device Management in Office 365](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 - [Configure services and applications](configure-services-and-applications.md)

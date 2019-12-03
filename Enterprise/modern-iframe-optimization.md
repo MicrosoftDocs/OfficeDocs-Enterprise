@@ -70,4 +70,4 @@ Before you make page revisions to remediate performance issues, make a note of t
 
 [Tune Office 365 performance](tune-office-365-performance.md)
 
-[Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance.md)
+[Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance)
