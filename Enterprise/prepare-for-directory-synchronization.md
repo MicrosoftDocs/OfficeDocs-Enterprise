@@ -52,10 +52,7 @@ Before you synchronize your AD DS to your Azure AD tenant, you need to clean up 
 In your AD DS, complete the following clean-up tasks for each user account that will be assigned an Office 365 license:
   
 1. Ensure a valid and unique email address in the **proxyAddresses** attribute. 
-
-  >[!Note]
-  >A tilde (~) character in email addresses will be ignored. This can lead to false-positive directory synchronization errors about duplicate proxyAddresses.
-    
+  
 2. Remove any duplicate values in the **proxyAddresses** attribute. 
     
 3.  If possible, ensure a valid and unique value for the **userPrincipalName** attribute in the user's **user** object. For the best synchronization experience, ensure that the AD DS UPN matches the Azure AD UPN. If a user does not have a value for the **userPrincipalName** attribute, then the **user** object must contain a valid and unique value for the **sAMAccountName** attribute. Remove any duplicate values in the **userPrincipalName** attribute. 
