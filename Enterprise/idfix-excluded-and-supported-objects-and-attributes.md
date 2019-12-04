@@ -19,6 +19,9 @@ description: "Lists the attributes that are excluded and supported by IdFix tool
 ---
 
 # IdFix excluded and supported objects and attributes
+
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 There are two sets of rules maintained by IdFix; Multi-tenant and Dedicated/ITAR. At this time, the two rule sets exclude the same objects, attributes, and attribute values from its search. This may change in future releases.
   
 ## Multi-tenant and Dedicated error exclusions used by IdFix

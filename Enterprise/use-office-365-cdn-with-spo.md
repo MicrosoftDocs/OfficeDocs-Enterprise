@@ -441,7 +441,7 @@ For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://te
 <a name="CDNSetupinCLI"> </a>
 ## Set up and configure the Office 365 CDN using the Office 365 CLI
 
-The procedures in this section require that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your SharePoint Online tenant using the [spo connect](https://pnp.github.io/office365-cli/cmd/spo/connect/) command.
+The procedures in this section require that you have installed the [Office 365 CLI](https://aka.ms/o365cli). Next, connect to your Office 365 tenant using the [login](https://pnp.github.io/office365-cli/cmd/login/) command.
 
 Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using the Office 365 CLI.
 

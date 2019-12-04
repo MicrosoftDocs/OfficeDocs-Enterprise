@@ -63,14 +63,7 @@ Each person on your team needs a user account before they can sign in and access
 5. On the **Set user options** dialog you can set the sign-in status and choose the product license that will be assigned to all users. 
     
 6. On the **View your result** dialog you can choose to send the results to either yourself or other users (passwords will be in plain text) and you can see how many users were created, and if you need to purchase more licenses to assign to some of the new users. 
-    
-## Watch the video
-<a name="bk_preview"> </a>
 
- Watch a short video that shows you how to bulk add users. 
-  
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/f4e7f161-8ae6-4264-a429-9297b539a8de?autoplay=false]
-  
 ## Next steps
 <a name="bk_preview"> </a>
 
@@ -137,3 +130,10 @@ When you save the file, you'll probably get a prompt that some features in your 
     
 - **If you don't see the new users in Office 365 right away, wait a few minutes.** It can take a little while for changes to go across all the services in Office 365. 
     
+## Related articles
+
+[Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+
+
+
+
