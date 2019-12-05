@@ -26,13 +26,9 @@ When an Office 365 account is assigned a license from a licensing plan, Office 3
 - A group of accounts.
 - All accounts in your organization.
 
-<!--
-
 >[!Note]
->Disabling services can affect other services t.
+>There are Office 365 service dependencies that can prevent you from disabling a specified service when other services depend on it.
 >
-
---> 
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
