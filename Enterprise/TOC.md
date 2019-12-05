@@ -170,11 +170,11 @@
 ##### [Administering Exchange Multi-Geo](administering-exchange-online-multi-geo.md)
 
 ### [Move to a new Office 365 datacenter geo](moving-data-to-new-datacenter-geos.md)
-#### [Microsoft Cloud Germany transition: Office 365](ms-cloud-germany-transition.md)
-#### [Microsoft Cloud Germany: Opt-in for migration](ms-cloud-germany-migration-opt-in.md)
 #### [How to request your data move](request-your-data-move.md)
 #### [During and after your data move](during-and-after-your-data-move.md)
 #### [Data move general FAQ](data-move-faq.md)
+#### [Microsoft Cloud Deutschland: Office 365 migration program](ms-cloud-germany-transition.md)
+#### [Microsoft Cloud Deutschland: Opt-in for migration](ms-cloud-germany-migration-opt-in.md)
 
 ### Hybrid solutions
 #### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
