@@ -14,11 +14,28 @@ description: "Learn how to create an Office 365 group with a specified preferred
 
 # Create an Office 365 Group with a specific PDL
 
-When users in a multi-geo environment create an Office 365 Group, the group preferred data location is automatically set to that of the user. If you need to create a group with a specific PDL, you can do that using the Exchange Online New-UnifiedGroup Microsoft PowerShell cmdlet. When you do this, both the group mailbox and SharePoint site associated with the group will be provisioned in the specified PDL.
+When users in a multi-geo environment create an Office 365 Group, the group preferred data location is automatically set to that of the user. Global, SharePoint, and Exchange Administrators can create groups in any region they select. 
 
-You must be a global administrator or a SharePoint Online or Exchange Online administrator to do this.
+If you need to create a group with a specific PDL, you can do that using from the Modern SharePoint Site Administration Experience or through the Exchange Online New-UnifiedGroup Microsoft PowerShell cmdlet. When you do this, both the group mailbox and SharePoint site associated with the group will be provisioned in the specified PDL.
 
-To create an Office 365 Group with the PDL that you specify, connect to Exchange Online PowerShell and pass the parameter *-MailBoxRegion* with the geo location code.
+To create an Office 365 Group with the PDL that you specify:
+
+From the Modern SharePoint Admin Center
+
+Go to the Modern SharePoint Admin Center in the Geo location where you want to create the group site.
+
+For example:
+
+If you wan to create a group site in your Australtia location, you can go to https://ContosoAUS-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/siteManagement
+
+1. Select "+ Create" 
+2. Follow the process to create a group site.
+
+Your group site will be provisioned in the geo location corresponding to the Modern SharePoint Admin Center from which you initiated the site creation request. 
+
+Using Exchange PowerShell 
+
+Connect to Exchange Online PowerShell and pass the parameter *-MailBoxRegion* with the geo location code.
 
 For example: 
 
