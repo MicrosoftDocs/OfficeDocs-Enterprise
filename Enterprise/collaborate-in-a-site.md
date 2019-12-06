@@ -62,7 +62,7 @@ In order for guests to have access to SharePoint sites, the SharePoint organizat
 
 The organization-level settings determine what settings are available for individual sites. Site settings cannot be more permissive than the organization-level settings.
 
-If you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
+If you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
 
 ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
 
@@ -93,7 +93,7 @@ We'll invite users later. Next, it's important to check the site-level sharing s
 
 Check the site-level sharing settings to make sure that they allow the type of access that you want for this site. For example, if you set the organization-level settings to **Anyone**, but you want all guests to authenticate for this site, then make sure the site-level sharing settings are set to **New and existing guests**.
 
-Note that the site cannot be shared with anonymous users (**Anyone** setting), but individual files and folders can.
+Note that the site cannot be shared with unauthenticated people (**Anyone** setting), but individual files and folders can.
 
 ![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
 
@@ -124,7 +124,7 @@ To invite guests to a site
 
 ## See Also
 
-[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+[Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)
 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
