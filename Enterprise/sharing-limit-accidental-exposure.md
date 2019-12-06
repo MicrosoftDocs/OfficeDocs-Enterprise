@@ -16,13 +16,13 @@ When sharing files and folders with guests, there are a variety of options to re
 
 ## Use best practices for Anyone links
 
-If people in your organization need to do anonymous sharing, but you're concerned about unauthenticated guests modifying content, read [Best practices for anonymous sharing](best-practices-anonymous-sharing.md) for guidance on how to work with anonymous sharing in your organization.
+If people in your organization need to do unauthenticated sharing, but you're concerned about unauthenticated guests modifying content, read [Best practices for unauthenticated sharing](best-practices-anonymous-sharing.md) for guidance on how to work with unauthenticated sharing in your organization.
 
 ## Turn off Anyone links
 
 We recommend leaving *Anyone* links enabled for appropriate content because it's the easiest way to share and can help reduce the risk of users seeking other solutions that are outside the control of your IT department. *Anyone* links can be forwarded to others, but file access is only available to those who have the link.
 
-If you always want guests to authenticate when accessing content in SharePoint, Groups, or Teams, you can turn off *Anyone* sharing. This will prevent users from sharing content anonymously.
+If you always want guests to authenticate when accessing content in SharePoint, Groups, or Teams, you can turn off *Anyone* sharing. This will prevent users from unauthenticated sharing of content.
 
 If you disable *Anyone* links, users can still easily share with guests using *Specific people* links. In this case, all guests will be required to authenticate before they can access the shared content.
 

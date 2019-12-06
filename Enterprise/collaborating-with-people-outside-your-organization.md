@@ -21,7 +21,7 @@ By default, in Microsoft 365, guest sharing is enabled for SharePoint and OneDri
 
 ## See Also
 
-[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+[Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)
 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
