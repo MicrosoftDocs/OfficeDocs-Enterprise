@@ -52,11 +52,7 @@ Note that after the subscription migration completes, pricing will decrease to r
 - Office 365 Groups
 - Dynamics 365 / Power Platform
 
-  Pre-requisites and impact of migration for these services are described in the [Dynamics 365 Customer engagement](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/overview) article.
-
->[!Reviewer]
->Please check Dynamics 365 link.
->
+  Pre-requisites and impact of migration for these services are described in the [Dynamics 365 Customer engagement](https://aka.ms/d365ceoptin) article.
 
 ## How to prepare for migration to Office 365 services in the new German datacenter regions
 
@@ -166,6 +162,6 @@ If you have questions, you can contact us as follows, or through your partner:
 - Microsoft Cloud Deutschland Migration Assistance at [https://aka.ms/germanymigrateassist](https://aka.ms/germanymigrateassist)
 - How to opt-in for migration at [https://aka.ms/office365germanymoveoptin](https://aka.ms/office365germanymoveoptin)
 - Dynamics 365 migration at [https://aka.ms/d365ceoptin](https://aka.ms/d365ceoptin)
-- Power Apps Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
+-  Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
 - Office 365 URLs and IP address ranges at [https://aka.ms/o365endpoints](https://aka.ms/o365endpoints)
 - Office 365 Hybrid Configuration Wizard at [https://aka.ms/HybridWizard](https://aka.ms/HybridWizard)

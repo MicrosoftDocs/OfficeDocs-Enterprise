@@ -54,5 +54,5 @@ Migrations are expected to take place in 2020 for organizations that opt-in to t
 - Microsoft Cloud Deutschland Migration Assistance at [https://aka.ms/germanymigrateassist](https://aka.ms/germanymigrateassist)
 - Office 365 migration at [https://aka.ms/office365germanymove](https://aka.ms/office365germanymove)
 - Dynamics 365 migration at [https://aka.ms/d365ceoptin](https://aka.ms/d365ceoptin)
-- Power Apps Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
+- Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
 - Submit questions using the “Need Help?” link of the [Microsoft 365 admin center](https://portal.office.de/)
