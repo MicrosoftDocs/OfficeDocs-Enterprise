@@ -48,7 +48,7 @@ ID | Category | ER | Addresses | Ports
 27 | Default<BR>Required | No | `*.mstea.ms, *.secure.skypeassets.com, mlccdnprod.azureedge.net, videoplayercdn.osi.office.net` | **TCP:** 443
 29 | Default<BR>Optional<BR>**Notes:** Yammer third-party integration | No | `*.tenor.com` | **TCP:** 443, 80
 127 | Default<BR>Required | No | `*.skype.com` | **TCP:** 443, 80
-146 | Default<BR>Required | No | `statics.teams.microsoft.com` | **TCP:** 443
+146 | Default<BR>Required | No | `statics.teams.cdn.office.net` | **TCP:** 443
 
 ## Microsoft 365 Common and Office Online
 
