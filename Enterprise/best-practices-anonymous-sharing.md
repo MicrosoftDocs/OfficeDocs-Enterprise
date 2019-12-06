@@ -12,7 +12,7 @@ description: "Learn best practices for sharing files and folders with unauthenti
 
 # Best practices for sharing files and folders with unauthenticated users
 
-Unauthenticated sharing (*Anyone* links) can be convenient and is useful in various scenarios. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
+Unauthenticated sharing (*Anyone* links) can be convenient and is useful in various scenarios. *Anyone* links are the easiest way to share: people can open the link without authentication and are free to pass it on to others.
 
 Usually, not all content in an organization is appropriate for unauthenticated sharing. This article covers the options available to help you create an environment where your users can use unauthenticated sharing of files and folders, but where there are safeguards in place to help protect your organization's content.
 
@@ -46,7 +46,7 @@ To set permissions for Anyone links
 3. Under **Advanced settings for "Anyone" links**, select the file and folder permissions that you want to use.</br>
    ![Screenshot of SharePoint organization-level Anyone link permissions settings](media/sharepoint-organization-anyone-link-permissions.png)
 
-With *Anyone* links set to **View**, users can still share files and folders with guests and give them edit permissions by using *Specific people* links. These links require guests to authenticate, and you can track and audit guest activity on files and folders shared with these links.
+With *Anyone* links set to **View**, users can still share files and folders with guests and give them edit permissions by using *Specific people* links. These links require people outside your organization to authenticate as guests, and you can track and audit guest activity on files and folders shared with these links.
 
 ## Set default link type to only work for people in your organization
 
