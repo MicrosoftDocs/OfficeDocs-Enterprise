@@ -46,7 +46,7 @@ In order for guests to have access to a document in SharePoint or OneDrive, the 
 
 The organization-level settings for SharePoint determine what settings are available for individual SharePoint sites. Site settings cannot be more permissive than the organization-level settings. The organization-level setting for OneDrive determines what level of sharing is available in users' OneDrive libraries.
 
-For SharePoint and OneDrive, if you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
+For SharePoint and OneDrive, if you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
 
 For SharePoint, choose the most permissive setting that will be needed by any site in your organization.
 
@@ -68,7 +68,7 @@ Keep in mind that this setting affects SharePoint sites in your organization, as
 
 Choose the type of link that's selected by default when users share files and folders:
 
-- **Anyone with the link** - Choose this option if you expect to share a lot of files and folders with anonymous users. If you want to allow *Anyone* links but are concerned about accidental anonymous sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
+- **Anyone with the link** - Choose this option if you expect to do a lot of unauthenticated file and folder sharing. If you want to allow *Anyone* links but are concerned about accidental unauthenticated sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
 - **Only people in your organization** - Choose this option if you expect most file and folder sharing to be with people inside your organization.
 - **Specific people** - Consider this option if you expect to do a lot of file and folder sharing with guests. This type of link works with guests and requires them to authenticate.
  
@@ -100,6 +100,6 @@ Guest sharing settings are now configured, so users can now share files and fold
 
 ## See Also
 
-[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+[Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)
 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
