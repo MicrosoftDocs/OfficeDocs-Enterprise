@@ -3,7 +3,7 @@ title: "How to request your data move"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2019
+ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -23,7 +23,7 @@ Existing Office 365 customers are eligible to request early migration for their 
   
 ## When can I request a move?
 
-|**Customers with billing address in**|**Request period begins**|**Request deadline**|
+|**Customers with signup country in**|**Request period begins**|**Request deadline**|
 |:-----|:-----|:-----|
 |Japan  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
 |Australia, New Zealand, Fiji  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
