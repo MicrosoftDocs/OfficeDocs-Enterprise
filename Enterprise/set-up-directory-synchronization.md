@@ -3,6 +3,7 @@ title: "Set up directory synchronization for Office 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 12/03/2019
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -22,6 +23,8 @@ description: "Learn how to set up directory synchronization between Office 365 a
 ---
 
 # Set up directory synchronization for Office 365
+
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Office 365 uses an Azure Active Directory (Azure AD) tenant to store and manage identities for authentication and permissions to access cloud-based resources. 
 
@@ -78,17 +81,15 @@ Before you begin, make sure you have:
 Follow these steps:
 
 1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com) (https://admin.microsoft.com) and choose **Users** \> **Active Users** on the left navigation.
-2. In the admin center, on the **Active users** page, choose **More** \> **Directory synchronization**.
-
-    ![In the More menu, choose Directory synchronization](media/dc6669e5-c01b-471e-9cdf-04f5d44e1c4b.png)
+2. On the **Active users** page, choose **More** (three dots) \> **Directory synchronization**.
   
-3. On the **Active Directory preparation** page, select the **Download Microsoft Azure Active Directory Connect tool** link to get started. 
+3. On the **Azure Active Directory preparation** page, select the **Go to the Download center to get the Azure AD Connect tool** link to get started. 
 4. Follow the steps in [Azure AD Connect and Azure AD Connect Health installation roadmap](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-roadmap).
 
 ## 3. Finish setting up domains
 
-Follow the steps in [Create DNS records for Office 365 when you manage your DNS records](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23) to finish setting up your domains.
+Follow the steps in [Create DNS records for Office 365 when you manage your DNS records](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) to finish setting up your domains.
 
 ## Next step
 
-[Assign licenses to user accounts](assign-licenses-to-user-accounts.md).
+[Assign licenses to user accounts](assign-licenses-to-user-accounts.md)

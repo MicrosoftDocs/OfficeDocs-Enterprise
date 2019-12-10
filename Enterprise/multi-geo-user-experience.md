@@ -6,6 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+ms.collection: SPO_Content
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority

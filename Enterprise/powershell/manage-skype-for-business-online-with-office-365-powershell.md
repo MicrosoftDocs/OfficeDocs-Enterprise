@@ -16,20 +16,18 @@ description: "Summary: Use Office 365 PowerShell to manage Skype for Business On
 
 # Manage Skype for Business Online with Office 365 PowerShell
 
- **Summary:** Use Office 365 PowerShell to manage Skype for Business Online policies, per-user policies, and meeting settings.
-  
 One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in Office 365 PowerShell. 
 
 ## Before you start
 
-Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/en-us/download/details.aspx?id=39366), and then restart your computer if prompted.
+Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.
 
 
 ## Connect using a Skype for Business Online administrator account name and password
 
 1. Open a Windows PowerShell command prompt and run the following commands: 
     
-  ```
+  ```powershell
   Import-Module SkypeOnlineConnector
   $userCredential = Get-Credential
   $sfbSession = New-CsOnlineSession -Credential $userCredential
@@ -43,7 +41,7 @@ Download and install the [Skype for Business Online Connector module](https://ww
 
 1. Open a Windows PowerShell command prompt and run the following commands:
 
-  ```
+  ```powershell
   Import-Module SkypeOnlineConnector
   $sfbSession = New-CsOnlineSession
   Import-PSSession $sfbSession

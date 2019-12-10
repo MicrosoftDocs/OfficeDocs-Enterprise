@@ -16,8 +16,6 @@ description: "Summary: Use Office 365 PowerShell to manage your Skype for Busine
 
 # Manage Skype for Business Online policies with Office 365 PowerShell
 
- **Summary:** Use Office 365 PowerShell to manage your Skype for Business Online user account properties with policies.
-  
 To manage many properties of user account for Skype for Business Online, you must specify them as properties of policies with Office 365 PowerShell.
   
 ## Before you begin
@@ -28,7 +26,7 @@ Use these instructions to get set up to run the commands (skip the steps you hav
     
 2. Open a Windows PowerShell command prompt and run the following commands: 
     
-```
+```powershell
 Import-Module SkypeOnlineConnector
 $userCredential = Get-Credential
 $sfbSession = New-CsOnlineSession -Credential $userCredential
@@ -41,13 +39,13 @@ When prompted, enter your Skype for Business Online administrator account name a
 
 Many Skype for Business Online user account properties are configured by using policies. Policies are simply collections of settings that can be applied to one or more users. To take a look at how the a policy has been configured, you can run this example command for the FederationAndPICDefault policy:
   
-```
+```powershell
 Get-CsExternalAccessPolicy -Identity "FederationAndPICDefault"
 ```
 
 In turn, you should get back something similar to this:
   
-```
+```powershell
 Identity                          : Tag:FederationAndPICDefault
 Description                       :
 EnableFederationAccess            : True
@@ -73,7 +71,7 @@ If you want to know whether or not someone can communicate with users from outsi
     
 For example, you can do that by using this command:
   
-```
+```powershell
 Get-CsOnlineUser -Identity "Alex Darrow" | ForEach {Get-CsExternalAccessPolicy -Identity $_.ExternalAccessPolicy}
 ```
 
@@ -93,14 +91,14 @@ To manage Skype for Business Online policies with PowerShell, see the cmdlets fo
   
 For example, to look at all the voice policies available for your use, run this command:
   
-```
+```powershell
 Get-CsVoicePolicy
 ```
 
 > [!NOTE]
-> That returns a list of all the voice policies available to you. Keep in mind, however, that not all policies can be assigned to all users. This is due to various restrictions involving licensing and geographic location. (The so-called "[usage location](https://msdn.microsoft.com/en-us/library/azure/dn194136.aspx).") If you want to know the external access policies and the conferencing policies that can be assigned to a particular user, use commands similar to these: 
+> That returns a list of all the voice policies available to you. Keep in mind, however, that not all policies can be assigned to all users. This is due to various restrictions involving licensing and geographic location. (The so-called "[usage location](https://msdn.microsoft.com/library/azure/dn194136.aspx).") If you want to know the external access policies and the conferencing policies that can be assigned to a particular user, use commands similar to these: 
 
-```
+```powershell
 Get-CsConferencingPolicy -ApplicableTo "Alex Darrow"
 Get-CsExternalAccessPolicy -ApplicableTo "Alex Darrow"
 ```
@@ -111,13 +109,11 @@ In some cases, properties of policies are not used with Office 365, while others
   
 With Skype for Business Online, users must be managed by a policy of some kind. If a valid policy-related property is blank, that means that the user in question is being managed by a global policy, which is a policy that is automatically applied to a user unless he or she is specifically assigned a per-user policy. Because we don't see a client policy listed for a user account, it is managed by the global policy. You can determine the global client policy with this command:
   
-```
+```powershell
 Get-CsClientPolicy -Identity "Global"
 ```
 
 ## See also
-
-#### 
 
 [Manage Skype for Business Online with Office 365 PowerShell](manage-skype-for-business-online-with-office-365-powershell.md)
   

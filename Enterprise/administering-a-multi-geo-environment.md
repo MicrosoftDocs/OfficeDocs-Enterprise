@@ -7,7 +7,9 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.custom: 
-ms.collection: Strat_SP_gtc
+ms.collection: 
+- Strat_SP_gtc
+- SPO_Content
 localization_priority: Priority
 description: "Learn about administering SharePoint and OneDrive services in a multi-geo environment."
 ---

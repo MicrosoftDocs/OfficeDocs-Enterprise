@@ -6,7 +6,9 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.collection: Strat_SP_gtc
+ms.collection: 
+- Strat_SP_gtc
+- SPO_Content
 localization_priority: Priority
 description: "Learn how to move a SharePoint site to a different geo location."
 ---
@@ -64,7 +66,7 @@ SharePoint site geo move requires that you connect and perform the move from the
 
 For example, if the site URL is https://contosohealthcare.sharepoint.com/sites/Turbines, connect to the SharePoint Admin URL at https://contosohealthcare-admin.sharepoint.com:
 
-`connect-sposervice -url https://contosohealthcare-admin.sharepoint.com`
+`Connect-SPOService -url https://contosohealthcare-admin.sharepoint.com`
 
 ![](media/move-onedrive-between-geo-locations-image1.png)
  

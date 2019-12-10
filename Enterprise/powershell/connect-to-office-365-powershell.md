@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/16/2018
+ms.date: 11/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -19,8 +19,6 @@ description: "Summary: Connect to your Office 365 organization using Office 365 
 
 # Connect to Office 365 PowerShell
 
- **Summary:** Connect to your Office 365 organization using Office 365 PowerShell to perform administration tasks from the command line.
-  
 Office 365 PowerShell lets you manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple process where you install the required software and then connect to your Office 365 organization. 
 
 There are two versions of the PowerShell module that you use to connect to Office 365 and administer user accounts, groups, and licenses:
@@ -31,7 +29,7 @@ There are two versions of the PowerShell module that you use to connect to Offic
 As of the date of this article, the Azure Active Directory PowerShell for Graph module does not completely replace the functionality in the cmdlets of Microsoft Azure Active Directory Module for Windows PowerShell module for user, group, and license administration. In many cases, you need to use both versions. You can safely install both versions on the same computer.
 
 > [!TIP]
-> **New to PowerShell?** See a [video Overview of PowerShell](https://support.office.com/en-us/article/7d0107d4-f672-4d0f-ad7d-417844b926c7.aspx), brought to you by LinkedIn Learning. 
+> **New to PowerShell?** See a [video Overview of PowerShell](https://support.office.com/article/7d0107d4-f672-4d0f-ad7d-417844b926c7.aspx), brought to you by LinkedIn Learning. 
   
 ## What do you need to know before you begin?
 
@@ -42,6 +40,9 @@ As of the date of this article, the Azure Active Directory PowerShell for Graph 
   - Windows 10, Windows 8.1, Windows 8, or Windows 7 Service Pack 1 (SP1) 
     
   - Windows Server 2019, Windows Server 2016, Windows Server 2012 R2, Windows Server 2012, or Windows Server 2008 R2 SP1
+
+    > [!NOTE]
+    > You must use PowerShell version 5.1 or later. For Windows 8.1, Windows 8, Windows 7 Service Pack 1 (SP1), Windows Server 2012 R2, Windows Server 2012, and Windows Server 2008 R2 SP1, download and install the [Windows Management Framework 5.1](https://www.microsoft.com/download/details.aspx?id=54616). 
     
     > [!NOTE]
     >Use a 64-bit version of Windows. Support for the 32-bit version the Microsoft Azure Active Directory Module for Windows PowerShell was discontinued in October of 2014.
@@ -67,7 +68,7 @@ These steps are required once on your computer, not every time you connect. Howe
     
 2. In the **Administrator: Windows PowerShell** command window, run this command:
     
-  ```
+  ```powershell
   Install-Module -Name AzureAD
   ```
 
@@ -97,6 +98,10 @@ After connecting, you can use the new cmdlets for the [Azure Active Directory Po
 ## Connect with the Microsoft Azure Active Directory Module for Windows PowerShell
 
 Commands in the Microsoft Azure Active Directory Module for Windows PowerShell have **Msol** in their cmdlet name.
+
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
     
 ### Step 1: Install required software
 
@@ -142,12 +147,12 @@ If you receive errors, check the following requirements:
     
   - For Windows 7 or Windows Server 2008 R2, see [You can't open the Azure Active Directory Module for Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=532370)
 
-  - For Windows 10, Windows 8.1, and Windows 8, see [Install the .NET Framework 3.5 on Windows 10, Windows 8.1, and Windows 8](https://docs.microsoft.com/en-us/dotnet/framework/install/dotnet-35-windows-10)
+  - For Windows 10, Windows 8.1, and Windows 8, see [Install the .NET Framework 3.5 on Windows 10, Windows 8.1, and Windows 8](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10)
 
   
 - **Your version of the Microsoft Azure Active Directory Module for Windows PowerShell might be out of date.** To check, run the following command in Office 365 PowerShell or the Microsoft Azure Active Directory Module for Windows PowerShell:
     
-  ```
+  ```powershell
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion
   ```
 

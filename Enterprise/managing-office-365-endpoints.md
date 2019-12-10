@@ -48,7 +48,7 @@ The PAC file is deployed to web browsers at point 1 in Figure 1. When using a PA
 
 Separately if you choose to only do direct routing for the Optimize category endpoints, any required Allow category endpoints that you send to the proxy server will need to be listed in the proxy server to bypass further processing. For example, SSL break and Inspect and Proxy Authentication are incompatible with both the Optimize and Allow category endpoints. The proxy server is point 2 in Figure 1.
 
-The common configuration is to permit without processing all outbound traffic from the proxy server for the destination IP addresses for Office 365 network traffic that hits the proxy server. For information about issues with SSL Break and Inspect, see [Using third-party network devices or solutions on Office 365 traffic](https://support.microsoft.com/en-us/help/2690045/using-third-party-network-devices-or-solutions-with-office-365).
+The common configuration is to permit without processing all outbound traffic from the proxy server for the destination IP addresses for Office 365 network traffic that hits the proxy server. For information about issues with SSL Break and Inspect, see [Using third-party network devices or solutions on Office 365 traffic](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365).
 
 There are two types of PAC files that the Get-PacFile script will generate.
 
@@ -120,7 +120,7 @@ Click the link at the bottom to indicate if the article was helpful or not and s
   
 ### How do I determine the location of my tenant?
 
- **Tenant location** is best determined using our [datacenter map](http://aka.ms/datamaps).
+ **Tenant location** is best determined using our [datacenter map](https://aka.ms/datamaps).
   
 ### Am I peering appropriately with Microsoft?
 
@@ -135,7 +135,7 @@ We only provide IP addresses for the Office 365 servers you should route directl
   
 See an IP associated with Office 365 that you want more information on?
   
-1. Check if the IP address is included in a larger published range using a [CIDR calculator](http://jodies.de/ipcalc).
+1. Check if the IP address is included in a larger published range using a [CIDR calculator](https://jodies.de/ipcalc).
 2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner.
 3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
 
@@ -152,7 +152,7 @@ These CNAME redirects are a normal part of the DNS and are transparent to the cl
 
 A proxy server validates the initial URL which in the above example is serviceA.office.com and this URL would be included in Office 365 publishing. The proxy server requests DNS resolution of that URL to an IP Address and will receive back IP_1. It does not validate the intermediary CNAME redirection records.
 
-Hard-coded configurations or whitelisting based on indirect Office 365 FQDNs is not recommended, not supported by Microsoft, and is known to cause customer connectivity issues. DNS solutions that block on CNAME redirection, or that otherwise incorrectly resolve Office 365 DNS entries, can be solved via DNS conditional forwarding (scoped to directly used Office 365 FQDNs) with DNS recursion enabled. Many third party network perimeter products natively integrate recommended Office 365 endpoint whitelisting in their configuration using the [Office 365 IP Address and URL Web service](https://docs.microsoft.com/en-us/office365/enterprise/office-365-ip-web-service).
+Hard-coded configurations or whitelisting based on indirect Office 365 FQDNs is not recommended, not supported by Microsoft, and is known to cause customer connectivity issues. DNS solutions that block on CNAME redirection, or that otherwise incorrectly resolve Office 365 DNS entries, can be solved via DNS conditional forwarding (scoped to directly used Office 365 FQDNs) with DNS recursion enabled. Many third party network perimeter products natively integrate recommended Office 365 endpoint whitelisting in their configuration using the [Office 365 IP Address and URL Web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
 
 ### Why do I see names such as nsatc.net or akadns.net in the Microsoft domain names?
 <a name="bkmk_akamai"> </a>

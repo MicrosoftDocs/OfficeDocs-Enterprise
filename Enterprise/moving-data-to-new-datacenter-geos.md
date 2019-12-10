@@ -18,7 +18,7 @@ description: "New datacenter geos add capacity and compute resources to support 
 
 We continue to open new datacenter geos for Office 365 for business services. These new datacenter geos add capacity and compute resources to support our ongoing customer demand and usage growth. Additionally, the new datacenter geos offer in-geo data residency for core customer data. 
 
-Core customer data is a term that refers to a subset of customer data defined in the [Microsoft Online Services Terms](https://go.microsoft.com/fwlink/p/?LinkID=249048): 
+Core customer data is a term that refers to a subset of customer data including: 
 - Exchange Online mailbox content (email body, calendar entries, and the content of email attachments)
 - SharePoint Online site content and the files stored within that site
 - Files uploaded to OneDrive for Business 
@@ -67,4 +67,4 @@ Data moves to the new datacenter geo are completed at no additional cost to the 
   
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)

@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-subscription-management
+- SPO_Content
 ms.custom: Adm_O365_Setup
 search.appverid:
 - MET150
@@ -315,7 +316,7 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 
 ### Microsoft 365 admin center
 
-- [Admin center orientation](https://www.microsoft.com/en-us/videoplayer/embed/RWfMut)
+- [Admin center orientation](https://www.microsoft.com/videoplayer/embed/RWfMut)
 
 - [Create users in the admin center](https://aka.ms/ac-createusers)
 

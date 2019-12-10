@@ -67,7 +67,7 @@ Moves may take up to 24 months from the request deadline for your country to com
   
 ## Microsoft Teams
 
-Microsoft Teams does not yet support migration of customer content at rest from in-region to in-country data centers where data residency for Microsoft Teams is available.  Therefore, only new customers will have all of their data stored within country in the new regions where Microsoft Teams supports data residency.  Learn more about Office 365 data residency for your company location at [Where is your data located?](https://products.office.com/where-is-your-data-located)   
+Migration support for Microsoft Teams chat and channel message data will be added to the Office 365 local migration program.  We plan to open program enrollment in January 2020 for all eligible customers, including customers that previously opted-in for Exchange Online and SharePoint Online/OneDrive for Business migration.  We will expose the opt-in control in the Microsoft 365 Admin Center and send a notification in Message Center to all eligible customers.   
 
 ## Optional actions before you request a move
 
@@ -105,6 +105,6 @@ If users have a mobile device with the Exchange Server set to **m.outlook.com** 
 
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)
   
 

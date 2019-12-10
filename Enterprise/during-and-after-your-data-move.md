@@ -7,6 +7,7 @@ ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
+ms.collection: SPO_Content
 search.appverid:
 - MET150
 localization_priority: Normal
@@ -35,7 +36,7 @@ Watch the Office 365 Message Center for confirmation when moves for each of Exch
 |United Kingdom  <br/> |September 15, 2019  <br/> |
 |France  <br/> |September 15, 2020  <br/> |
 |United Arab Emirates  <br/> |February 1, 2022  <br/> |
-|South Africa  <br/> |Announced  <br/> |
+|South Africa  <br/> |February 1, 2022  <br/> |
    
 ## Exchange Online
 
@@ -49,14 +50,6 @@ Some users open a shared mail folder from another mailbox (that the user has rea
 |:-----|:-----|
 |User has mailbox folder permission to another mailbox  <br/> |Potentially limited.  <br/> If User A and Mailbox B aren't in the same geo during the tenant move, User A can't open Mailbox B's folder in Outlook Web Access if User A only has permission to a specific folder in Mailbox B.  <br/> To add a shared folder, right-click the user name in the left navigation panel and select **Add shared folder**.  <br/> |
 |User with full mailbox permission to another mailbox  <br/> |Fully supported.  <br/> If User A has "Full Access" permission to Mailbox B, then User A can click the shared folder in the left navigation panel in Outlook Web Access to open a window showing Mailbox B.  A user can open a shared mailbox using Outlook Web Access during the move without any adverse impact. The limitation only applies to folder-level sharing in a mailbox.           |
-   
-### Public folders
-
-If the public folder mailbox is temporarily in a different datacenter geo from the user trying to access it, the user may not be able to access the public folder mailbox. 
-  
-### Online archives
-
-While the move is in progress, users connecting via Outlook for Mac may not be able to connect to their online archive mailbox. Access to the archive mailbox for users connecting with Outlook and Outlook Web Access is supported.
   
 ## SharePoint Online
 
@@ -114,14 +107,10 @@ All users will be signed out from the Skype for Business client software during 
    
 |**After the move**|
 |:-----|
-| Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. Ask users to run the [troubleshooting wizard](https://support.microsoft.com/en-us/kb/2541980) and follow directions on how to clear the client cache. Lync for Mac client users should follow [these instructions](https://support.microsoft.com/en-us/kb/2629861).  <br/> |
+| Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. See [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](https://docs.microsoft.com/skypeforbusiness/troubleshoot/online-configuration/dns-configuration-issue). Lync for Mac client users should follow [these instructions](https://support.microsoft.com/kb/2629861).  <br/> |
    
 ### Skype for Business moves that involve a third-party Audio Conferencing Provider
 Third-party Audio Conferencing Provider add-on services for Skype for Business are not available for users homed in new geo-specific data centers.  Existing customers using a third-party Audio Conferencing Provider service should not request a move to a new geo-specific data center.  New customers deployed into the new geo-specific data centers will need to request a move to a regional data center to use a third-party Audio Conferencing Provider.
-
-## Data for other services, including Teams, Yammer and Power BI
-
-We only move customer data for Exchange Online, SharePoint Online, and Skype for Business. We do not move data for other services. There is no change or impact to you as a customer or user of these other services. The move process does not influence them, and the location of their customer data remains unchanged.
   
 ## Related topics 
  
@@ -131,5 +120,5 @@ We only move customer data for Exchange Online, SharePoint Online, and Skype for
   
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)
 

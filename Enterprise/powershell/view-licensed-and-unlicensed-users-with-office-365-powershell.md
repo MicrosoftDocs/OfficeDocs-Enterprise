@@ -3,7 +3,7 @@ title: "View licensed and unlicensed users with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 11/13/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,10 +19,7 @@ description: "Explains how to use Office 365 PowerShell to view licensed and unl
 
 # View licensed and unlicensed users with Office 365 PowerShell
 
-**Summary:** Explains how to use Office 365 PowerShell to view licensed and unlicensed user accounts.
-  
 User accounts in your Office 365 organization may have some, all, or none of the available licenses assigned to them from the licensing plans that are available in your organization. You can use Office 365 PowerShell to quickly find the licensed and unlicensed users in your organization.
-
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -30,15 +27,18 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
  
 To view the list of all user accounts in your organization that have NOT been assigned any of your licensing plans (unlicensed users), run the following command:
   
-```
+```powershell
 Get-AzureAdUser | ForEach{ $licensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If( [string]::IsNullOrEmpty(  $_.AssignedLicenses[$i].disabledplans ) -ne $True) { $licensed=$true } } ; If( $licensed -eq $false) { Write-Host $_.UserPrincipalName} }
 ```
 
 To view the list of all user accounts in your organization that have been assigned any of your licensing plans (licensed users), run the following command:
   
-```
+```powershell
 Get-AzureAdUser | ForEach { $licensed=$False ; For ($i=0; $i -le ($_.AssignedLicenses | Measure).Count ; $i++) { If( [string]::IsNullOrEmpty(  $_.AssignedLicenses[$i].disabledplans ) -ne $True) { $licensed=$true } } ; If( $licensed -eq $true) { Write-Host $_.UserPrincipalName} }
 ```
+>[!Note]
+>To list all of the users in your subscription, use the `Get-AzureAdUser -All $true` command.
+>
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
@@ -46,19 +46,23 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 To view the list of all user accounts and their licensing status in your organization, run the following command in Office 365 PowerShell:
   
-```
+```powershell
 Get-MsolUser -All
 ```
 
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 To view the list of all unlicensed user accounts in your organization, run the following command:
   
-```
+```powershell
 Get-MsolUser -All -UnlicensedUsersOnly
 ```
 
 To view the list of all licensed user accounts in your organization, run the following command:
   
-```
+```powershell
 Get-MsolUser -All | where {$_.isLicensed -eq $true}
 ```
 

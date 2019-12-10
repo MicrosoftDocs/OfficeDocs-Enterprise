@@ -26,7 +26,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="A cloud and a ruler" />
+                            <img src="https://docs.microsoft.com/office/media/icons/cloud-architecture2.svg" alt="A cloud and a ruler" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +45,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/process-flow.svg" alt="A flow chart" />
+                            <img src="https://docs.microsoft.com/office/media/icons/process-flow.svg" alt="A flow chart" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,7 +64,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-devtest.svg" alt="A cloud with test tubes" />
+                            <img src="https://docs.microsoft.com/office/media/icons/cloud-devtest.svg" alt="A cloud with test tubes" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid.svg" alt="A building, a cloud, and two arrows" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid.svg" alt="A building, a cloud, and two arrows" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +102,7 @@ ms.date: 2/14/2018
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/lock-protected.svg" alt="A padlock" />
+                            <img src="https://docs.microsoft.com/office/media/icons/lock-protected.svg" alt="A padlock" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -118,9 +118,5 @@ ms.date: 2/14/2018
 
 ---
 
-<h2>Contact Us</h2>
-<ul>
-    <li><a href="mailto:cloudadopt@microsoft.com?Subject=[Cloud%20Adoption%20Content%20Feedback]:%20">What cloud adoption content do you need?</a><br>We are creating content for cloud adoption that spans multiple Microsoft cloud platforms and services. Let us know what you think about our cloud adoption content, or ask for specific content by sending email to cloudadopt@microsoft.com.</li><br>
-    <li><a href="https://aka.ms/caab">Join the cloud adoption discussion</a><br>If you are passionate about cloud-based solutions, consider joining the Cloud Adoption Advisory Board (CAAB) to connect with a larger, vibrant community of Microsoft content developers, industry professionals, and customers from around the globe. To join, add yourself as a member of the CAAB (Cloud Adoption Advisory Board) space of the Microsoft Tech Community and send us a quick email at <a href="mailto:caab@microsoft.com?Subject=I%20just%20joined%20the%20Cloud%20Adoption%20Advisory%20Board!">CAAB@microsoft.com</a>. Anyone can read community-related content on the CAAB <a href="https://blogs.technet.com/b/solutions_advisory_board/">blog</a>. However, CAAB members get invitations to private webinars that describe new cloud adoption resources and solutions.</li><br>
-    <li><a href="mailto:cloudadopt@microsoft.com?subject=[Art%20Request]:%20">Get the art you see here</a><br>If you want an editable copy of the art you see in this article, we’ll be glad to send it to you. Email your request, including the URL and title of the art, to cloudadopt@microsoft.com</li>
-</ul>
+
+
