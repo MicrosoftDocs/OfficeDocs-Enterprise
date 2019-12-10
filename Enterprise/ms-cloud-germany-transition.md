@@ -38,7 +38,7 @@ Existing Microsoft Cloud Germany (Microsoft Cloud Deutschland) customers can now
 
 For organizations who opt-in to the Microsoft-driven approach, migrations are expected to take place in 2020. As a result of the migration, core customer data and subscriptions are moved to the new German regions. 
 
-Note that after the subscription migration completes, pricing will decrease to reflect the public cloud pricing. Direct customers will see a new subscription will be extended to a new 12-month term, and the migration completion date will be your new annual renewal date. The following services will be migrated as part of the Microsoft-driven approach:
+The following services will be migrated as part of the Microsoft-driven approach:
 
 - Azure Active Directory
 - Exchange Online
@@ -47,12 +47,12 @@ Note that after the subscription migration completes, pricing will decrease to r
 - OneDrive for Business
 - Skype for Business Online
 
-  As part of the migration from Microsoft Cloud Germany to the German region, existing Skype for Business Online customers will transition to Microsoft Teams. See [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) for more information.
+During the migration from Microsoft Cloud Germany to the German datacenter regions, existing Skype for Business Online customers will transition to Microsoft Teams. See [Getting started with your Microsoft Teams upgrade](https://aka.ms/SkypeToTeams-Home) for more information.
 
 - Office 365 Groups
 - Dynamics 365 / Power Platform
 
-  Pre-requisites and impact of migration for these services are described in the [Dynamics 365 Customer engagement](https://aka.ms/d365ceoptin) article.
+Prerequisites and impact of migration for these services are described in the [Dynamics 365 Customer engagement](https://aka.ms/d365ceoptin) article.
 
 ## How to prepare for migration to Office 365 services in the new German datacenter regions
 
@@ -60,13 +60,13 @@ The first step is to notify Microsoft so that we have your permission to migrate
 
 - All migrating customers need to verify connectivity to the worldwide [Office 365 URLs and IP addresses](urls-and-ip-address-ranges.md), which include the new German datacenter regions.
 - Review the Office 365 platform service description to understand which features and services will become available to your organization following the completion to the German region. 
-- The migration will transition paid subscriptions.
+- The migration will transition paid subscriptions.  We cannot migrate trial subscriptions.
 
 Tenant migrations are executed as back-end service operations with minimal customer interaction required.  Any additional customer-led tasks and overall migration status will be communicated via Message Center during the migration process.  Example of tasks may include customer managed DNS updates or reconfiguration of hybrid setup for Exchange hybrid customers.
 
 ## Customer experience during the migration to Office 365 services in the new German datacenter regions
 
-Tenant migrations are executed as back-end service operations with minimal impact to end customers or actions required by administrators.  However, there are considerations for each workload.  
+Tenant migrations are designed to have minimal impact to end customers and administrators.  However, there are considerations for each workload.  
 
 ### Azure Active Directory
 
@@ -125,11 +125,9 @@ Office 365 services in the new German datacenter regions have additional benefit
 - Offer full functionality, enterprise-grade security, and comprehensive features to help customers meet compliance and regulatory requirements. 
 - Are accessible through existing online services contracts.
 
-#### What is the service availability?
+#### What is the service availability between the different Office 365 cloud service offerings?
 
-Microsoft 365 services are available for subscriptions with just one Office 365 tenant.
-
-For Microsoft Cloud Germany (Microsoft Cloud Deutschland), we offer these services. We are not adding new services to this cloud offering.
+The following 15 services are available in the Microsoft Cloud Germany (Microsoft Cloud Deutschland) cloud service offering.  We are not adding new services to Microsoft Cloud Germany.
 
 1. Exchange Online
 2. Customer Lockbox (Exchange Online)
@@ -147,7 +145,7 @@ For Microsoft Cloud Germany (Microsoft Cloud Deutschland), we offer these servic
 14. Office 365 Pro Plus
 15. Outlook Mobile
 
-For Office 365 services in the new German datacenter regions, we offer these services. We are continuously adding new services to this cloud offering.
+There are currently 29 services available as part of Office 365 services in the new German datacenter regions.  New features and services will be available consistent with global Office 365 services on an ongoing basis.
 
 1. Exchange Online
 2. Customer Lockbox (Exchange Online)
@@ -165,14 +163,14 @@ For Office 365 services in the new German datacenter regions, we offer these ser
 14. Customer Lockbox (SharePoint Online)
 15. OneDrive for Business
 16. Microsoft Stream
-17. Skype for Business (will transition to Microsoft Teams)
+17. Skype for Business (will transition to Microsoft Teams during the migration)
 18. Cloud PBX
 19. PSTN Conferencing
 20. PSTN calling
 21. Microsoft Teams
 22. Admin Reports / Usage Reports
-23. Word Online, Excel Online, PowerPoint, OneNote, Visio Online
-24. 24. Planner
+23. Word Online, Excel Online, PowerPoint, OneNote, and Visio Online
+24. Planner
 25. Sway
 26. Office 365 Pro Plus
 27. Outlook Mobile
@@ -181,17 +179,17 @@ For Office 365 services in the new German datacenter regions, we offer these ser
 
 ### When will migration happen?
 
-- Azure 
+#### Azure 
 
- You can begin [migrating](https://docs.microsoft.com/azure/germany/germany-migration-main) your Azure resources to another region today. If you have Azure with Office 365, Dynamics 365, and/or Power BI, please follow the steps below.
+You can begin [migrating](https://docs.microsoft.com/azure/germany/germany-migration-main) your Azure resources to another region today. If you have Azure with Office 365, Dynamics 365, and/or Power BI, please follow the steps below.
 
-- Office 365
+#### Office 365
 
-  [Opt-in](https://aka.ms/office365germanymoveoptin) to the Microsoft-driven migration today. When we are ready to start your migration, we will inform you through the [Message Center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide) in the Microsoft 365 admin center.
+[Opt-in](https://aka.ms/office365germanymoveoptin) to the Microsoft-driven migration today. When we are ready to start your migration, we will inform you through the [Message Center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide) in the Microsoft 365 admin center.
 
-- Dynamics 365 and Power BI
+#### Dynamics 365 and Power BI
 
-  Opt-in to the Microsoft-driven migration for [Dynamics 365 Customer Engagement](https://aka.ms/D365ceOptIn) and [Power BI today](https://aka.ms/PBIOptIn). When we are ready to start your migration, we will inform you through the [Message center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide) in the Microsoft 365 admin center.
+Opt-in to the Microsoft-driven migration for [Dynamics 365 Customer Engagement](https://aka.ms/D365ceOptIn) and [Power BI today](https://aka.ms/PBIOptIn). When we are ready to start your migration, we will inform you through the [Message center](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide) in the Microsoft 365 admin center.
 
 ### Will the price change for the Office services that I use?
 
@@ -207,9 +205,10 @@ If you have questions, you can contact us as follows, or through your partner:
 
 ## More information
 
-- Microsoft Cloud Deutschland Migration Assistance at [https://aka.ms/germanymigrateassist](https://aka.ms/germanymigrateassist)
-- How to opt-in for migration at [https://aka.ms/office365germanymoveoptin](https://aka.ms/office365germanymoveoptin)
-- Dynamics 365 migration at [https://aka.ms/d365ceoptin](https://aka.ms/d365ceoptin)
-- Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
-- Office 365 URLs and IP address ranges at [https://aka.ms/o365endpoints](https://aka.ms/o365endpoints)
-- Office 365 Hybrid Configuration Wizard at [https://aka.ms/HybridWizard](https://aka.ms/HybridWizard)
+- [Microsoft Cloud Deutschland Migration Assistance](https://aka.ms/germanymigrateassist)
+- [How to opt-in for migration](https://aka.ms/office365germanymoveoptin)
+- [Dynamics 365 migration program information](https://aka.ms/d365ceoptin)
+- [Power BI migration program information](https://aka.ms/pbioptin)
+- [Office 365 URLs and IP address ranges](https://aka.ms/o365endpoints)
+- [Office 365 Hybrid Configuration Wizard](https://aka.ms/HybridWizard)
+- [Getting started with your Microsoft Teams upgrade](https://aka.ms/SkypeToTeams-Home)
