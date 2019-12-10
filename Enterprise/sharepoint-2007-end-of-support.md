@@ -15,7 +15,9 @@ f1_keywords:
 - 'AppDefToBDC'
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: 
+- Ent_O365
+- SPO_Content
 search.appverid:
 - MET150
 - OFU120
@@ -35,6 +37,8 @@ description: "On October 10, 2017, support ended for SharePoint Server 2007. Rea
 ---
 
 # SharePoint Server 2007 end of support roadmap
+
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 On **October 10, 2017**, Microsoft Office SharePoint Server 2007 reached end of support. If you haven't begun your migration from SharePoint Server 2007 to Office 365 or a newer version of SharePoint Server on-premises, now's the time to start planning. This article details resources to help people migrate data to SharePoint Online, or upgrade your SharePoint Server on-premises. 
   
@@ -67,7 +71,7 @@ Your first stop should be the [Product Lifecycle site](https://go.microsoft.com/
 ||SharePoint Hybrid  <br/> |SharePoint Server 2016  <br/> |
 |||SharePoint Hybrid  <br/> |
    
-If you choose options on the low end of the scale (good enough), remember you will need to begin planning for upgrade very soon after migration from SharePoint Server 2007 is complete. (end of support for SharePoint Server 2007 is October 10, 2017. Please note that these dates are subject to change and check the [Product Lifecycle site](https://support.microsoft.com/en-us/lifecycle).)
+If you choose options on the low end of the scale (good enough), remember you will need to begin planning for upgrade very soon after migration from SharePoint Server 2007 is complete. (end of support for SharePoint Server 2007 is October 10, 2017. Please note that these dates are subject to change and check the [Product Lifecycle site](https://support.microsoft.com/lifecycle).)
   
 ## Where can I go next?
 

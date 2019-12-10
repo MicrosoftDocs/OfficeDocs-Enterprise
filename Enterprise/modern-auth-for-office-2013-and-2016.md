@@ -25,6 +25,8 @@ description: "Learn how Office 365 modern authentication works differently for O
 
 # How modern authentication works for Office 2013 and Office 2016 client apps
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Read this article to learn how Office 2013 and Office 2016 client apps use modern authentication features based on the authentication configuration on the Office 365 tenant for Exchange Online, SharePoint Online, and Skype for Business Online.
 
 > [!NOTE]
@@ -39,6 +41,9 @@ For the Office 365 services, the default state of modern authentication is:
 - Turned **on** for SharePoint Online by default. 
     
 - Turned **on** for Skype for Business Online by default. See [Enable Skype for Business Online for modern authentication ](https://social.technet.microsoft.com/wiki/contents/articles/34339.skype-for-business-online-enable-your-tenant-for-modern-authentication.aspx)to turn it off or on.
+
+> [!NOTE]
+> For tenants created **before** August 1, 2017, modern authentication is turned **off** by default for Exchange Online and Skype for Business Online.
     
 ## Sign-in behavior of Office client apps
 
@@ -102,3 +107,5 @@ The following table describes the authentication behavior for Office 2013 or Off
 [Plan for multi-factor authentication for Office 365 Deployments (for Office 365 administrators)](https://support.office.com/article/plan-for-multi-factor-authentication-for-office-365-deployments-043807b2-21db-4d5c-b430-c8a6dee0e6ba)
 
 [Sign in to Office 365 with 2-step verification (for end users)](https://support.office.com/article/sign-in-to-office-365-with-2-step-verification-2b856342-170a-438e-9a4f-3c092394d3cb)
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)

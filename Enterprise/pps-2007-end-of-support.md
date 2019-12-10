@@ -18,6 +18,8 @@ description: PerformancePoint Server 2007, ProClarity, and SharePoint Server 200
 
 # PerformancePoint Server 2007 end of support roadmap
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Office 2007 servers and applications have reached their end of support, including servers and applications that you might be using as part of your business intelligence (BI) solutions. The following table lists BI applications that are affected:
   
 |**Microsoft BI Applications**|**Date Support Ended**|
@@ -67,8 +69,8 @@ After you have explored your upgrade options, your next step is to prepare an up
   
 |**Option**|**In the cloud or on-premises?**|
 |:-----|:-----|
-|[Excel](#use-excel-with-excel-online-in-the-cloud-or-on-premises) <br/> |Both  <br/> |
-|[Power BI](#use-power-bi-in-the-cloud-or-on-premises) <br/> |Both  <br/> |
+|[Excel](#excel-with-sharepoint-server-on-premises) <br/> |Both  <br/> |
+|[Power BI](#use-power-bi-in-the-cloud-or on-premises) <br/> |Both  <br/> |
 |[Reporting Services](#use-reporting-services-on-premises) <br/> |On-premises only  <br/> |
 |[PerformancePoint Services](#use-performancepoint-services-on-premises) <br/> |On-premises only  <br/> |
    

@@ -20,8 +20,6 @@ description: "Explains how to use Office 365 PowerShell to determine the Office 
 
 # View account license and service details with Office 365 PowerShell
 
-**Summary:** Explains how to use Office 365 PowerShell to determine the Office 365 services that have been assigned to users.
-  
 In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use Office 365 PowerShell to view the status of services on user accounts. 
 
 For more information about licensing plans, license, and services, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
@@ -32,13 +30,13 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
   
 Next, list the license plans for your tenant with this command.
 
-```
+```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
 ```
 
 Use these commands to list the services that are available in each licensing plan.
 
-```
+```powershell
 $allSKUs=Get-AzureADSubscribedSku
 $licArray = @()
 for($i = 0; $i -lt $allSKUs.Count; $i++)
@@ -48,16 +46,16 @@ $licArray +=  Get-AzureADSubscribedSku -ObjectID $allSKUs[$i].ObjectID | Select 
 $licArray +=  ""
 }
 $licArray
-````
+```
 
 Use these commands to list the licenses that are assigned to a user account.
 
-````
+```powershell
 $userUPN="<user account UPN, such as belindan@contoso.com>"
 $licensePlanList = Get-AzureADSubscribedSku
 $userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty AssignedLicenses | Select SkuID 
 $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq $_.ObjectId.substring($_.ObjectId.length - 36, 36) ) { Write-Host $_.SkuPartNumber } } }
-````
+```
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
@@ -65,21 +63,24 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 Next, run this command to list the licensing plans that are available in your organization. 
 
-```
+```powershell
 Get-MsolAccountSku
 ```
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
 
 Next, run this command to list the services that are available in each licensing plan, and the order in which they are listed (the index number).
 
-````
+```powershell
 (Get-MsolAccountSku | where {$_.AccountSkuId -eq '<AccountSkuId>'}).ServiceStatus
-````
+```
   
 Use this command to list the licenses that are assigned to a user, and the order in which they are listed (the index number).
 
-````
+```powershell
 Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Licenses
-````
+```
 
 >[!Note]
 >If you use the **Get-MsolUser** cmdlet without using the _All_ parameter, only the first 500 accounts are returned.
@@ -90,25 +91,25 @@ Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Lic
 
 To view all the Office 365 services that a user has access to, use the following syntax:
   
-```
+```powershell
 (Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber>].ServiceStatus
 ```
 
 This example shows the services to which the user BelindaN@litwareinc.com has access. This shows the services that are associated with all licenses that are assigned to her account.
   
-```
+```powershell
 (Get-MsolUser -UserPrincipalName belindan@litwareinc.com).Licenses.ServiceStatus
 ```
 
 This example shows the services that user BelindaN@litwareinc.com has access to from the first license that's assigned to her account (the index number is 0).
   
-```
+```powershell
 (Get-MsolUser -UserPrincipalName belindan@litwareinc.com).Licenses[0].ServiceStatus
 ```
 
 To view all the services for a user who has been assigned *multiple licenses*, use the following syntax:
 
-```
+```powershell
 $userAccountUPN="<user account UPN>"
 $AllLicenses=(Get-MsolUser -UserPrincipalName $userAccountUPN).Licenses
 $licArray = @()

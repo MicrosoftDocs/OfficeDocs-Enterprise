@@ -41,7 +41,7 @@ Use the Azure Active Directory PowerShell to point your users to your organizati
   
 If you want to enable your Office 365 groups to "Send As", use the [Add-RecipientPermission](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Add-RecipientPermission) and the [Get-RecipientPermission](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/Get-Recipient) cmdlets to configure this. Once you enable this setting, Office 365 group users can use Outlook or Outlook on the web to send and reply to email as the Office 365 group. Users can go to the group, create a new email, and change the "Send As" field to the group's email address. 
 
-([You can also do this in the Exchange Admin Center](https://docs.microsoft.com/en-us/office365/admin/create-groups/allow-members-to-send-as-or-send-on-behalf-of-group).)
+([You can also do this in the Exchange Admin Center](https://docs.microsoft.com/office365/admin/create-groups/allow-members-to-send-as-or-send-on-behalf-of-group).)
   
 Use the following script, replacing *\<GroupAlias\>* with the alias of the group that you want to update, and *\<UserAlias\>* with the alias of the user to whom you want to grant permssions. [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) to run this script.
 
@@ -117,7 +117,7 @@ If you don't want users from other organization to send email to a Office 365 gr
 Run the Set-UnifiedGroup cmdlet to update this setting, like this:
 
 ```
-Set-UnifiedGroup -Identity "Internal senders only" - RequireSenderAuthenticationEnabled $true
+Set-UnifiedGroup -Identity "Internal senders only" -RequireSenderAuthenticationEnabled $true
 ```
 
 ## Add MailTips to the Office 365 Groups
@@ -181,9 +181,9 @@ The following cmdlets can be used with Office 365 Groups.
 
 ## Related topics
 
-[Upgrade distribution lists to Office 365 Groups](https://docs.microsoft.com/en-us/office365/admin/manage/upgrade-distribution-lists)
+[Upgrade distribution lists to Office 365 Groups](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 
-[Manage who can create Office 365 Groups](https://docs.microsoft.com/en-us/office365/admin/create-groups/manage-creation-of-groups)
+[Manage who can create Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-creation-of-groups)
 
 [Manage guest access to Office 365 Groups](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
 

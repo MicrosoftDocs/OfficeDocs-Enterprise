@@ -3,7 +3,7 @@ title: "Routing with ExpressRoute for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 12/14/2017
+ms.date: 12/3/2019
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -21,6 +21,8 @@ description: "To properly understand routing traffic to Office 365 using Azure E
 ---
 
 # Routing with ExpressRoute for Office 365
+
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 To properly understand routing traffic to Office 365 using Azure ExpressRoute, you'll need a firm grasp of the core [ExpressRoute routing requirements](https://azure.microsoft.com/documentation/articles/expressroute-routing/) and the [ExpressRoute circuits and routing domains](https://azure.microsoft.com/documentation/articles/expressroute-circuit-peerings/). These lay out the fundamentals for using ExpressRoute that Office 365 customers will rely on.
   
@@ -58,7 +60,7 @@ The following are scenarios where communications from Office 365 to your on-prem
 
 - [SharePoint hybrid BCS](https://technet.microsoft.com/library/dn197239.aspx ).
 
-- [Skype for Business hybrid](https://technet.microsoft.com/en-us/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
+- [Skype for Business hybrid](https://technet.microsoft.com/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
 
 - [Skype for Business Cloud Connector](https://technet.microsoft.com/library/mt605227.aspx ).
 
@@ -68,16 +70,14 @@ For Microsoft to route back to your network for these bi-directional traffic flo
 
 2) Use separate NAT IP pools per ExpressRoute circuit and separate to that of your internet circuits.
 
-3) Be aware that any route advertised to Microsoft will attract network traffic from any server in Microsoft's network, not only those for which routes are advertised to your network over ExpressRoute. Only advertise routes to servers where routing scenarios are defined and well understood by your team. Advertise separate IP Address route prefixes at each of multiple ExpressRoute circuits from your network. 
+3) Be aware that any route advertised to Microsoft will attract network traffic from any server in Microsoft's network, not only those for which routes are advertised to your network over ExpressRoute. Only advertise routes to servers where routing scenarios are defined and well understood by your team. Advertise separate IP Address route prefixes at each of multiple ExpressRoute circuits from your network.
   
 ## Deciding which applications and features route over ExpressRoute
 
 When you configure a peering relationship using the Microsoft peering routing domain and are approved for the appropriate access, you'll be able to see all PaaS and SaaS services available over ExpressRoute. The Office 365 services designed for ExpressRoute can be managed with [BGP communities](https://aka.ms/bgpexpressroute365) or [route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal).
   
 Other applications such as Office 365 Video, is an Office 365 application; however, Office 365 Video is comprised of three different components, the portal, the streaming service, and the content delivery network. The portal lives within SharePoint Online, the streaming service lives within Azure Media Services, and the content delivery network lives within the Azure CDN. The following table outlines these components.
-  
-|
-|
+
 |**Component**|**Underlying application**|**Included in SharePoint Online BGP Community?**|**Use**|
 |:-----|:-----|:-----|:-----|
 |Office 365 Video portal  <br/> |SharePoint Online  <br/> |Yes  <br/> |Configuration, upload  <br/> |
@@ -107,7 +107,7 @@ This table displays the wildcard domains that are advertised to Internet circuit
 
 |**Wildcard domain advertised to Internet circuits only**|**Sub-FQDN advertised to ExpressRoute and Internet circuits**|
 |:-----|:-----|
-|\*.office.com  <br/> |\*.outlook.office.com  <br/> home.office.com  <br/> outlook.office.com  <br/> portal.office.com  <br/> www.office.com  <br/> |
+|\*.office.com  <br/> |\*.outlook.office.com  <br/> home.office.com  <br/> outlook.office.com  <br/> portal.office.com  <br/> <div style="display: inline">www.office.com</div>  <br/> |
 |\*.office.net  <br/> |agent.office.net  <br/> |
 |\*.office365.com  <br/> |outlook.office365.com  <br/> smtp.office365.com  <br/> |
 |\*.outlook.com  <br/> |\*.protection.outlook.com  <br/> \*.mail.protection.outlook.com  <br/> autodiscover-\<tenant\>.outlook.com  <br/> |
@@ -208,7 +208,7 @@ In this scenario, traffic from the remote office would resolve the Office 365 fr
   
 If Humongous has major offices in multiple continents, a minimum of two active/active circuits per region are recommended in order to reduce latency for sensitive applications such as Skype for Business Online. If all offices are in a single continent, or is not using real time collaboration, having a consolidated or distributed egress point is a customer specific decision. When multiple circuits are available, BGP routing will ensure failover should any single circuit become unavailable.
   
-Learn more about sample [routing configurations](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-routing/) and [https://azure.microsoft.com/en-us/documentation/articles/expressroute-config-samples-nat/](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/).
+Learn more about sample [routing configurations](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-routing/) and [https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/](https://azure.microsoft.com/documentation/articles/expressroute-config-samples-nat/).
   
 ## Selective routing with ExpressRoute
 

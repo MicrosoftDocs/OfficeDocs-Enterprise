@@ -26,7 +26,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us//office/media/icons/get-started.svg" alt="Get Started icon" />
+                            <img src="https://docs.microsoft.com//office/media/icons/get-started.svg" alt="Get Started icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -45,7 +45,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/connector.svg" alt="Connector icon" />
+                            <img src="https://docs.microsoft.com/office/media/icons/connector.svg" alt="Connector icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -64,7 +64,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks.svg" alt="Blocks icon" />
+                            <img src="https://docs.microsoft.com/office/media/icons/blocks.svg" alt="Blocks icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -83,7 +83,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy.svg" alt="Deploy icon" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy.svg" alt="Deploy icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,7 +102,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/hybrid.svg" alt="Hybrid icon" />
+                            <img src="https://docs.microsoft.com/office/media/icons/hybrid.svg" alt="Hybrid icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -121,7 +121,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/education-tutorial.svg" alt="Education icon" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial.svg" alt="Education icon" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -247,7 +247,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="New Office 365 Content" data-linktype="external">
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="New Office 365 Content" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
@@ -264,7 +264,7 @@ ms.author: robmazz
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat image" data-linktype="external">
+                            <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="Chat image" data-linktype="external">
                         </div>
                     </div>
                     <div class="cardText">
@@ -287,6 +287,8 @@ ms.author: robmazz
                     <div class="cardText">
                         <h3>Microsoft 365</h3>
                         <p><a href="https://docs.microsoft.com/microsoft-365">Learn more about Microsoft 365.</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/compliance/">Learn more about Microsoft 365 compliance.</a></p>
+                        <p><a href="https://docs.microsoft.com/microsoft-365/security/">Learn more about Microsoft 365 security.</a></p>
                     </div>
                 </div>
             </div>

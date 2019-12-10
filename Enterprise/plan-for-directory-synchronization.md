@@ -5,6 +5,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: conceptual
+ms.date: 05/20/2019
 ms.service: o365-administration
 localization_priority: Normal
 ms.custom: Adm_O365
@@ -20,8 +21,9 @@ description: "Describes directory synchronization with Office 365, Active Direct
 
 # Hybrid identity and directory synchronization for Office 365
 
-Depending on business needs and technical requirements, the hybrid identity model and directory synchronization is the most common choice for enterprise customers who are adopting Office 365. Directory synchronization allows you to manage identities in your Active Directory Domain Services (AD DS) and all updates to user accounts, groups, and contacts are synchronized to the Azure Active Directory (Azure AD) tenant of your Office 365 subscription.
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
+Depending on business needs and technical requirements, the hybrid identity model and directory synchronization is the most common choice for enterprise customers who are adopting Office 365. Directory synchronization allows you to manage identities in your Active Directory Domain Services (AD DS) and all updates to user accounts, groups, and contacts are synchronized to the Azure Active Directory (Azure AD) tenant of your Office 365 subscription.
 
 >[!Note]
 >When AD DS user accounts are synchronized for the first time, they are not automatically assigned an Office 365 license and cannot access Office 365 services, such as email. You must assign a license to these user accounts, either individually or dynamically through group membership.
@@ -138,4 +140,7 @@ Directory synchronization is required for the following features and functionali
 
 When you are ready to deploy hybrid identity, see [prepare to provision users](prepare-for-directory-synchronization.md).
   
+## See also
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)
 

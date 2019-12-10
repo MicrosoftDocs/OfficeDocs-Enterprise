@@ -3,6 +3,7 @@ title: "Prepare for directory synchronization to Office 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 11/25/2019
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -27,6 +28,8 @@ description: "Describes how to prepare to provision users to Office 365 by using
 
 # Prepare for directory synchronization to Office 365
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 The benefits to hybrid identity and directory synchronization your organization include:
   
 - Reducing the administrative programs in your organization
@@ -49,7 +52,7 @@ Before you synchronize your AD DS to your Azure AD tenant, you need to clean up 
 In your AD DS, complete the following clean-up tasks for each user account that will be assigned an Office 365 license:
   
 1. Ensure a valid and unique email address in the **proxyAddresses** attribute. 
-    
+  
 2. Remove any duplicate values in the **proxyAddresses** attribute. 
     
 3.  If possible, ensure a valid and unique value for the **userPrincipalName** attribute in the user's **user** object. For the best synchronization experience, ensure that the AD DS UPN matches the Azure AD UPN. If a user does not have a value for the **userPrincipalName** attribute, then the **user** object must contain a valid and unique value for the **sAMAccountName** attribute. Remove any duplicate values in the **userPrincipalName** attribute. 
@@ -101,7 +104,11 @@ The attributes that you need to prepare are listed here:
     
   - The attribute value cannot begin with a period (.).
   - The attribute value must be unique within the directory.
-    
+  
+    > [!NOTE]
+    > Underscores ("_") in the synchronized name indicates that the original value of this attribute contains invalid characters. The original value can contain letters, numbers, and the characters !, #, $, %, &, ', \*, +, -, /, =, ?, ^, _, `, {, |, } and ~. For more information on this attribute, see [Exchange alias attribute](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps).
+    >
+      
 - **proxyAddresses**
     
   - Multiple-value attribute

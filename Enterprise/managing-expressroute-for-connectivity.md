@@ -38,8 +38,6 @@ There are a number of reasons to avoid the use of the [Office 365 URLs and IP ad
 
 - The Office 365 URLs and IP address ranges do not cover other Microsoft services that may be in scope for your ExpressRoute connections.
 
-|
-|
 |**Option**|**Complexity**|**Change Control**|
 |:-----|:-----|:-----|
 |Accept all Microsoft routes  <br/> |**Low:** Customer relies upon Microsoft controls to ensure all routes are properly owned.  <br/> |None  <br/> |
@@ -86,7 +84,7 @@ There are several optional scenarios that require Microsoft to initiate connecti
 
 - [SharePoint hybrid BCS](https://technet.microsoft.com/library/dn197239.aspx ).
 
-- [Skype for Business hybrid](https://technet.microsoft.com/en-us/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
+- [Skype for Business hybrid](https://technet.microsoft.com/library/jj205403.aspx) and/or [Skype for Business federation](https://technet.microsoft.com/library/skype-for-business-online-federation-and-public-im-conectivity.aspx).
 
 - [Skype for Business Cloud Connector](https://technet.microsoft.com/library/mt605227.aspx ).
 

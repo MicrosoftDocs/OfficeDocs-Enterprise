@@ -3,7 +3,7 @@ title: "External Domain Name System records for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 8/13/2019
+ms.date: 10/21/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -27,7 +27,7 @@ description: "Summary: Reference list of DNS records to use when planning an Off
   
 |||
 |:-----|:-----|
-|![Domain](media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Want to see a customized list of DNS records for your Office 365 organization?** You can [find the info you need to create Office 365 DNS records](https://support.office.microsoft.com/en-us/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) for your domain in Office 365.  <br/> **Need step-by-step help to add these records at your domain's DNS host, such as GoDaddy or eNom?** [Find links to step-by-step instructions for many popular DNS hosts](https://go.microsoft.com/fwlink/?LinkId=286745). <br/>  **Sticking around to use the reference list for your own custom deployment?** The below list should be used as a reference for your custom Office 365 deployment. You will need to select which records apply to your organization and fill in the appropriate values. <br/> **Go back to** [Network planning and performance tuning for Office 365](https://aka.ms/tune).  <br/> |
+|![Domain](media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Want to see a customized list of DNS records for your Office 365 organization?** You can [find the info you need to create Office 365 DNS records](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) for your domain in Office 365.  <br/> **Need step-by-step help to add these records at your domain's DNS host, such as GoDaddy or eNom?** [Find links to step-by-step instructions for many popular DNS hosts](https://go.microsoft.com/fwlink/?LinkId=286745). <br/>  **Sticking around to use the reference list for your own custom deployment?** The below list should be used as a reference for your custom Office 365 deployment. You will need to select which records apply to your organization and fill in the appropriate values. <br/> **Go back to** [Network planning and performance tuning for Office 365](https://aka.ms/tune).  <br/> |
 
 Often the SPF and MX records are the hardest to figure out. We've updated our SPF records guidance at the end of this article. The important thing to remember is that _you can only have a single SPF record for your domain_. You can have multiple MX records; however, that can cause problems for mail delivery. Having a single MX record that directs email to one mail system removes many potential problems.
   
@@ -41,7 +41,7 @@ Every Office 365 customer needs to add two records to their external DNS. The fi
 ||||
 |:-----|:-----|:-----|
 |**DNS record** <br/> |**Purpose** <br/> |**Value to use** <br/> |
-|**CNAME** <br/> **(Suite)** <br/> |Used by Office 365 to direct authentication to the correct identity platform. [More information](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **Note:** This CNAME only applies to Office 365 operated by 21Vianet.   |**Alias:** msoid  <br/> **Target:** clientconfig.microsoftonline-p.net  <br/> |
+|**CNAME** <br/> **(Suite)** <br/> |Used by Office 365 to direct authentication to the correct identity platform. [More information](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **Note:** This CNAME only applies to Office 365 operated by 21Vianet.   |**Alias:** msoid  <br/> **Target:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
 |**TXT** <br/> **(Domain verification)** <br/> |Used by Office 365 to verify only that you own your domain. It doesn't affect anything else.  <br/> |**Host:** @ (or, for some DNS hosting providers, your domain name)  <br/> **TXT Value:** _A text string provided by_ Office 365  <br/> The Office 365 **domain setup wizard** provides the values that you use to create this record.  <br/> |
 
 
@@ -62,12 +62,12 @@ Email customers who are using Exchange Federation will also need the additional 
 ||||
 |:-----|:-----|:-----|
 |**DNS record** <br/> |**Purpose** <br/> |**Value to use** <br/> |
-|**CNAME** <br/> **(Exchange Online)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for users.  <br/> |**Alias:** Autodiscover  <br/> **Target:** autodiscover.outlook.com  <br/> |
-|**MX** <br/> **(Exchange Online)** <br/> |Sends incoming mail for your domain to the Exchange Online service in Office 365.  <br/> **Note:** Once email is flowing to Exchange Online, you should remove the MX records that are pointing to your old system.   |**Domain:** For example, contoso.com  <br/> **Target email server:** \<MX token\>.mail.protection.outlook.com  <br/> **Preference/Priority:** lower than any other MX records (this ensures mail is delivered to Exchange Online) - for example 1 or 'low'  <br/>  Find your MX token by following these steps:  <br/>  1. Sign in to Office 365, go to Office 365 admin \> Domains.  <br/>  2. In the Action column for your domain, choose **Fix issues**.  <br/>  3. In the MX records section, choose **What do I fix?**  <br/>  4. Follow the directions on this page to update your MX record:  <br/> [What is MX priority?](https://go.microsoft.com/fwlink/p/?LinkId=396471) <br/> |
-|**SPF (TXT)** <br/> (Exchange Online)  <br/> |Helps to prevent other people from using your domain to send spam or other malicious email. Sender policy framework (SPF) records work by identifying the servers that are authorized to send email from your domain.  <br/> |[External DNS records required for SPF](external-domain-name-system-records.md#BKMK_SPFrecords) <br/> |
-
+|**CNAME** <br/> **(Exchange Online)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for users.  <br/> |**Alias:** Autodiscover  <br/> **Target:**autodiscover.outlook.com  <br/> |
+|**MX** <br/> **(Exchange Online)** <br/> |Sends incoming mail for your domain to the Exchange Online service in Office 365.  <br/> [!NOTE] Once email is flowing to Exchange Online, you should remove the MX records that are pointing to your old system.   |**Domain:** For example, contoso.com  <br/> **Target email server:**\<MX token\>.mail.protection.outlook.com  <br/> **Preference/Priority:** Lower than any other MX records (this ensures mail is delivered to Exchange Online) - for example 1 or 'low'  <br/>  Find your \<MX token\> by following these steps:  <br/>  Sign in to Office 365, go to Office 365 admin \> Domains.  <br/>  In the Action column for your domain, choose Fix issues.  <br/>  In the MX records section, choose What do I fix?  <br/>  Follow the directions on this page to update your MX record.  <br/> [What is MX priority?](https://go.microsoft.com/fwlink/p/?LinkId=396471) <br/> |
+|**SPF (TXT)** <br/> **(Exchange Online)**  <br/> |Helps to prevent other people from using your domain to send spam or other malicious email. Sender policy framework (SPF) records work by identifying the servers that are authorized to send email from your domain.  <br/> |[External DNS records required for SPF](external-domain-name-system-records.md#BKMK_SPFrecords) <br/> |
 |**TXT** <br/> **(Exchange federation)** <br/> |Used for Exchange federation for hybrid deployment.  <br/> |**TXT record 1:** For example, contoso.com and associated custom-generated, domain-proof hash text (for example, Y96nu89138789315669824)  <br/> **TXT record 2:** For example, exchangedelegation.contoso.com and associated custom-generated, domain-proof hash text (for example, Y3259071352452626169)  <br/> |
-|**CNAME** <br/> **(Exchange federation)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service when your company is using Exchange federation. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for your users.  <br/> |**Alias:** For example, Autodiscover.service.contoso.com  <br/> **Target:** autodiscover.outlook.com  <br/> |
+|**CNAME** <br/> **(Exchange federation)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service when your company is using Exchange federation. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for your users.  <br/> |**Alias:** For example, Autodiscover.service.contoso.com  <br/> **Target:**autodiscover.outlook.com  <br/> |
+
 
 ## External DNS records required for Skype for Business Online
 <a name="BKMK_ReqdCore"> </a>
@@ -79,7 +79,6 @@ There are specific steps to take when you use  [Office 365 URLs and IP address r
 |**DNS record** <br/> |**Purpose** <br/> |**Value to use** <br/> |
 |**SRV** <br/> **(Skype for Business Online)** <br/> |Allows your Office 365 domain to share instant messaging (IM) features with external clients by enabling SIP federation. Read more about [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO).  <br/> |**Service:** sipfederationtls  <br/> **Protocol:** TCP  <br/> **Priority:** 100  <br/> **Weight:** 1  <br/> **Port:** 5061  <br/> **Target:** sipfed.online.lync.com  <br/> **Note:** If the firewall or proxy server blocks SRV lookups on an external DNS, you should add this record to the internal DNS record.   |
 |**SRV** <br/> **(Skype for Business Online)** <br/> |Used by Skype for Business to coordinate the flow of information between Lync clients.  <br/> |**Service:** sip  <br/> **Protocol:** TLS  <br/> **Priority:** 100  <br/> **Weight:** 1  <br/> **Port:** 443  <br/> **Target:** sipdir.online.lync.com  <br/> |
-
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Used by the Lync client to help find the Skype for Business Online service and sign in.  <br/> |**Alias:** sip  <br/> **Target:** sipdir.online.lync.com  <br/> For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO).  <br/> |
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Used by the Lync mobile client to help find the Skype for Business Online service and sign in.  <br/> |**Alias:** lyncdiscover  <br/> **Target:** webdir.online.lync.com  <br/> |
 
@@ -100,7 +99,7 @@ SharePoint Online only requires a DNS record if your organization usesSharePoint
 <a name="BKMK_SPFrecords"> </a>
 
 > [!IMPORTANT]
-> SPF is designed to help prevent spoofing, but there are spoofing techniques that SPF cannot protect against. In order to protect against these, once you have set up SPF, you should also configure DKIM and DMARC for Office 365. To get started, see [Use DKIM to validate outbound email sent from your domain in Office 365](https://technet.microsoft.com/en-us/library/mt695945%28v=exchg.150%29.aspx). Next, see [Use DMARC to validate email in Office 365](https://technet.microsoft.com/en-us/library/mt734386%28v=exchg.150%29.aspx).
+> SPF is designed to help prevent spoofing, but there are spoofing techniques that SPF cannot protect against. In order to protect against these, once you have set up SPF, you should also configure DKIM and DMARC for Office 365. To get started, see [Use DKIM to validate outbound email sent from your domain in Office 365](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx). Next, see [Use DMARC to validate email in Office 365](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx).
   
 SPF records are TXT records that help to prevent other people from using your domain to send spam or other malicious email. Sender policy framework (SPF) records work by identifying the servers that are authorized to send email from your domain.
   

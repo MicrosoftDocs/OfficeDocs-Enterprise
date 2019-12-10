@@ -20,6 +20,8 @@ description: "Office 365 is designed to enable customers all over the world to c
 
 # Assessing Office 365 network connectivity
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Office 365 is designed to enable customers all over the world to connect to the service using an internet connection. As the service evolves, the security, performance, and reliability of Office 365 are improved based on customers using the internet to establish a connection to the service.
   
 Customers planning to use Office 365 should assess their existing and forecasted internet connectivity needs as a part of the deployment project. For enterprise class deployments reliable and appropriately sized internet connectivity is a critical part of consuming Office 365 features and scenarios.
@@ -34,7 +36,7 @@ Some resources to help you assess your network:
 
 - See [Office 365 network connectivity overview](office-365-networking-overview.md) for conceptual information about Office 365 networking.
 - See [Office 365 Network Connectivity Principles](https://aka.ms/o365networkingprinciples) to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance.
-- Sign up for [Microsoft FastTrack](https://www.microsoft.com/en-us/fasttrack) for guided assistance with Office 365 planning, design and deployment. 
+- Sign up for [Microsoft FastTrack](https://www.microsoft.com/fasttrack) for guided assistance with Office 365 planning, design and deployment. 
 - See the [Office 365 Network Onboarding tool](assessing-network-connectivity.md#the-office-365-network-onboarding-tool) section below to run basic connectivity tests that provide specific guidance about networking connectivity improvements that can be made between a given user location and Office 365.
 
 > [!NOTE]
@@ -46,7 +48,7 @@ Key points to consider when planning your network assessment for Office 365:
 
 - We are continually optimizing core aspects of Office 365 such as availability, global reach, and performance for internet based connectivity. For example, many Office 365 services leverage an expanding set of internet facing edge nodes. This edge network offers the best proximity and performance to connections coming over the internet.
 
-- When considering using Office 365 for any of the included services such as Teams or Skype for Business Online voice, video, or meeting capabilities, customers should complete an end to end network assessment and meet connectivity requirements using [Microsoft FastTrack](https://www.microsoft.com/en-us/fasttrack).
+- When considering using Office 365 for any of the included services such as Teams or Skype for Business Online voice, video, or meeting capabilities, customers should complete an end to end network assessment and meet connectivity requirements using [Microsoft FastTrack](https://www.microsoft.com/fasttrack).
 
 If you're evaluating Office 365 and aren't sure where to begin with your network assessment or have found network design challenges that you need assistance to overcome, please work with your Microsoft account team.
 
@@ -111,3 +113,5 @@ Here's a short link you can use to come back: [https://aka.ms/o365networkconnect
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 
 [Office 365 network and performance tuning](network-planning-and-performance.md)
+
+[Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)
