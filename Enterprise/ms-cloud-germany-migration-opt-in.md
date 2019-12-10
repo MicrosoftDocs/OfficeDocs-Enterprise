@@ -1,5 +1,5 @@
 ---
-title: "How to opt-In for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions"
+title: "How to opt-in for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,7 +19,7 @@ ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: "Summary: "
 ---
 
-# How to opt-In for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions
+# How to opt-in for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions
 
 >[!Note]
 >This article only applies to eligible Microsoft Cloud Germany/Deutschland customers.
@@ -41,7 +41,7 @@ A new section will appear on the right side of your screen to accept your confir
  
 ![Opt-in acceptance](./media/ms-cloud-germany-migration-opt-in/tenant-migration-new-regions.png)
 
-Once an administrator has opted-in on behalf of your tenant then all administrators will see the confirmation in **Migrate from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions** section, including the date of opt-in. Administrators will also have a confirmation in Message Center of the Microsoft 365 admin center. 
+Once an administrator has opted-in on behalf of your tenant then all administrators will see the confirmation in **Migrate from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions** section, including the date of opt-in. Administrators will also receive a confirmation in Message Center of the Microsoft 365 admin center. 
  
 ![Opt-in confirmation](./media/ms-cloud-germany-migration-opt-in/tenant-migration2.png)
 
@@ -51,8 +51,8 @@ Migrations are expected to take place in 2020 for organizations that opt-in to t
 
 ## More information
 
-- Microsoft Cloud Deutschland Migration Assistance at [https://aka.ms/germanymigrateassist](https://aka.ms/germanymigrateassist)
-- Office 365 migration at [https://aka.ms/office365germanymove](https://aka.ms/office365germanymove)
-- Dynamics 365 migration at [https://aka.ms/d365ceoptin](https://aka.ms/d365ceoptin)
-- Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
+- [Microsoft Cloud Deutschland Migration Assistance](https://aka.ms/germanymigrateassist)
+- [Office 365 migration program for Microsoft Cloud Deutschland customers](https://aka.ms/office365germanymove)
+- [Dynamics 365 migration program for Microsoft Cloud Deutschland customers](https://aka.ms/d365ceoptin)
+- [Power BI migration program for Microsoft Cloud Deutschland customers](https://aka.ms/pbioptin)
 - Submit questions using the “Need Help?” link of the [Microsoft 365 admin center](https://portal.office.de/)
