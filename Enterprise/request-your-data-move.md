@@ -34,10 +34,12 @@ Existing Office 365 customers are eligible to request early migration for their 
 |France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
 |United Arab Emirates  <br/> |July 15, 2019  <br/> |January 31, 2020  <br/> |
 |South Africa  <br/> |July 25, 2019  <br/> |January 31, 2020  <br/> |
+|Switzerland, Liechtenstein  <br/> |December 10, 2019  <br/> |June 30, 2020  <br/> |
+|Germany  <br/> |Planned  <br/> |Planned  <br/> |
    
 ## How to request a move
 
-Eligible customers will see a page in their [admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
+Eligible customers will see a page in the [Microsoft 365 admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
 To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
   
