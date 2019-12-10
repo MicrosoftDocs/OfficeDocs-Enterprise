@@ -3,7 +3,7 @@ title: "Moving core data to new Office 365 datacenter geos"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/25/2019
+ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -41,7 +41,7 @@ Existing customers that have their core customer data stored in an already exist
   
 New customers or Office 365 tenants created after the availability of the new datacenter geo will have their core customer data stored at rest in the new datacenter geo automatically.
 
-We launched the Germany datacenter region in December 2019.  New Office 365 customers with a German signup address associated with their tenant will have their core customer data stored at rest in Germany.  We plan to offer migration from Europe to Germany for German customers in the future.  Today, Microsoft Cloud Germany/Deutschland customers can request migration to Office 365 services in the new German datacenter regions.  Please refer to [How to opt-in for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions](https://aka.ms/office365germanymoveoptin) for more information.
+We launched the Germany datacenter region in December 2019. New Office 365 customers with a German signup address associated with their tenant will have their core customer data stored at rest in Germany. We plan to offer migration from Europe to Germany for German customers in the future. Today, Microsoft Cloud Germany/Deutschland customers can request migration to Office 365 services in the new German datacenter regions. Please see [How to opt-in for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions](https://aka.ms/office365germanymoveoptin) for more information.
   
 A complete list of all datacenter geos, datacenters, and the location of customer data at rest is available as part of the [interactive datacenter maps](https://office.com/datamaps). 
   
