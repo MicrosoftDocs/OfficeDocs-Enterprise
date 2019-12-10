@@ -16,7 +16,7 @@ ms.collection:
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: "Summary: "
+description: "Summary: Understand the migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter region."
 ---
 
 # Migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions
@@ -60,7 +60,7 @@ The first step is to notify Microsoft so that we have your permission to migrate
 
 - All migrating customers need to verify connectivity to the worldwide [Office 365 URLs and IP addresses](urls-and-ip-address-ranges.md), which include the new German datacenter regions.
 - Review the Office 365 platform service description to understand which features and services will become available to your organization following the completion to the German region. 
-- Cancel any unused trial subscriptions in your organization, the migration only will transition paid subscriptions
+- The migration will transition paid subscriptions.
 
 Tenant migrations are executed as back-end service operations with minimal customer interaction required.  Any additional customer-led tasks and overall migration status will be communicated via Message Center during the migration process.  Example of tasks may include customer managed DNS updates or reconfiguration of hybrid setup for Exchange hybrid customers.
 
@@ -94,15 +94,15 @@ Upon completion of the OneDrive for Business migration to the German region, dat
 
 ### Skype for Business Online
 
-Existing Skype for Business Online customers will transition to Microsoft Teams. See [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) for more information
+Existing Skype for Business Online customers will transition to Microsoft Teams. See [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) for more information.
 
 
 ## Key differences between Microsoft Cloud Germany (Microsoft Cloud Deutschland) and Office 365 services in the new German datacenter regions
 
-||||
+
+|| Microsoft Cloud Germany (Microsoft Cloud Deutschland) | Office 365 services in the new German datacenter regions |
 |:-------|:-----|:-----|
-|  | Microsoft Cloud Germany (Microsoft Cloud Deutschland) | Office 365 services in the new German datacenter regions |
-| Microsoft 365 services available for subscription with just one Office 365 tenant | <ul><li>Exchange Online</li><li>Customer Lockbox (Exchange Online)</li><li>Groups (Modern groups)</li><li>Delve Profile</li><li>Exchange Online Protection</li><li>Advanced Threat Protection (ATP)</li><li>Advanced eDiscovery</li><li>Advance Data Governance</li><li>SharePoint Online</li><li>Customer Lockbox (SharePoint Online)</li><li>OneDrive for Business</li><li>Skype for Business</li><li>Word Online, Excel Online, PowerPoint, OneNote, Visio Online</li><li>Office 365 Pro Plus</li><li>Outlook Mobile</li></ul>	 | <ul><li>Exchange Online</li><li>Customer Lockbox (Exchange Online)</li><li>Groups (Modern groups)</li><li>Delve Profile</li><li>MyAnalytics</li><li>Workplace Analytics</li><li>Exchange Online Protection</li><li>Advanced Threat Protection (ATP)</li><li>Advanced eDiscovery</li><li>Advanced Security Management</li><li>Information Rights Management</li><li>Advance Data Governance</li><li>SharePoint Online</li><li>Customer Lockbox (SharePoint Online)</li><li>OneDrive for Business</li><li>Microsoft Stream</li><li>Skype for Business (will transition to Microsoft Teams)</li><li>Cloud PBX</li><li>PSTN Conferencing</li><li>PSTN calling</li><li>Microsoft Teams</li><li>Admin Reports / Usage Reports</li><li>Word Online, Excel Online, PowerPoint, OneNote, Visio Online</li><li>Planner</li><li>Sway</li><li>Office 365 Pro Plus</li><li>Outlook Mobile</li><li>EMS E3 (Azure Active Directory Premium P1 + Intune + Rights Management Service)</li><li>Yammer Online</li></ul> |
+| Microsoft 365 services available for subscription with just one Office 365 tenant | 15 services (see REF) | 29 services (see REF) |
 | New features | No new features are available. | New features will be available consistent with global Office 365 services. |
 | Data trustee | Yes | No |
 | Cross-tenant collaboration with global Office 365 tenants | No | Yes |
@@ -114,7 +114,9 @@ Existing Skype for Business Online customers will transition to Microsoft Teams.
 
 ### Is migration required?
 
-We recommend that all customers opt-in for migration, but it is not required.  We are no longer accepting new customers or deploying any new features or services in Microsoft Cloud Germany. Besides that, the new regions in Germany:
+Microsoft offers Office 365 tenant migration from Microsoft Cloud Germany to Office 365 services in the new German datacenter regions at no additional charge.  While we do strongly recommend that you opt-in to migrate to the new German datacenter regions, we will continue to provide the necessary security updates to the Microsoft Cloud Germany region.  
+
+Office 365 services in the new German datacenter regions have additional benefits:
 
 - Offer market competitive pricing for [Azure](https://azure.microsoft.com/pricing/calculator/), [Office 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), [Dynamics 365 Customer Engagement](https://dynamics.microsoft.com/pricing/), and [Power BI](https://powerbi.microsoft.com/pricing/). 
 - Are connected to Microsoft global network, offering hundreds of network edge sites, peering locations, and egress points to deliver a robust user experience anywhere in the world. 
@@ -122,6 +124,60 @@ We recommend that all customers opt-in for migration, but it is not required.  W
 - Deliver our full featured global cloud offering, including the latest version of our services and new capabilities including Microsoft Teams and Multi-Geo in Office 365. Compare products by region for [Azure](https://azure.microsoft.com/global-infrastructure/services/?products=all&regions=germany-non-regional,germany-central,germany-north,germany-northeast,germany-west-central), [Office 365](https://products.office.com/en-us/where-is-your-data-located), and [Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability).
 - Offer full functionality, enterprise-grade security, and comprehensive features to help customers meet compliance and regulatory requirements. 
 - Are accessible through existing online services contracts.
+
+#### What is the service availability?
+
+Microsoft 365 services are available for subscriptions with just one Office 365 tenant.
+
+For Microsoft Cloud Germany (Microsoft Cloud Deutschland), we offer these services. We are not adding new services to this cloud offering.
+
+1. Exchange Online
+2. Customer Lockbox (Exchange Online)
+3. Groups (Modern groups)
+4. Delve Profile
+5. Exchange Online Protection
+6. Advanced Threat Protection (ATP)
+7. Advanced eDiscovery
+8. Advance Data Governance
+9. SharePoint Online
+10. Customer Lockbox (SharePoint Online)
+11. OneDrive for Business
+12. Skype for Business
+13. Word Online, Excel Online, PowerPoint, OneNote, Visio Online
+14. Office 365 Pro Plus
+15. Outlook Mobile
+
+For Office 365 services in the new German datacenter regions, we offer these services. We are continuously adding new services to this cloud offering.
+
+1. Exchange Online
+2. Customer Lockbox (Exchange Online)
+3. Groups (Modern groups)
+4. Delve Profile
+5. MyAnalytics
+6. Workplace Analytics
+7. Exchange Online Protection
+8. Advanced Threat Protection (ATP)
+9. Advanced eDiscovery
+10. Advanced Security Management
+11. Information Rights Management
+12. Advance Data Governance
+13. SharePoint Online
+14. Customer Lockbox (SharePoint Online)
+15. OneDrive for Business
+16. Microsoft Stream
+17. Skype for Business (will transition to Microsoft Teams)
+18. Cloud PBX
+19. PSTN Conferencing
+20. PSTN calling
+21. Microsoft Teams
+22. Admin Reports / Usage Reports
+23. Word Online, Excel Online, PowerPoint, OneNote, Visio Online
+24. 24. Planner
+25. Sway
+26. Office 365 Pro Plus
+27. Outlook Mobile
+28. EMS E3 (Azure Active Directory Premium P1 + Intune + Rights Management Service)
+29. Yammer Online
 
 ### When will migration happen?
 
@@ -141,14 +197,6 @@ We recommend that all customers opt-in for migration, but it is not required.  W
 
 Yes, pricing in Microsoft’s global cloud regions (including the new datacenter regions) is generally lower.
 
-### For direct customers: Once licensing migration is completed, my subscription will extend to a new 12-month term. However, I prefer to subscribe for a shorter period. Can I cancel before the end of the term without paying cancellations fees?
-
-- Cancelation within 24 hours of new purchase or renewal: You get your full money back.
-
-- Cancelation between 1 day and the end of first month of new purchase or renewal: You get prorated money back. Proration is based on purchase price.
-
-- Cancelation after 1 month of new purchase or renewal: This is allowed but you don't get any money back (i.e. 100% ETF). This rate can be adjusted by Office by Product/Geo/Segment.
-
 ### How do I get help from Microsoft to migrate to a new region or answer support questions?
 
 If you have questions, you can contact us as follows, or through your partner:
@@ -162,6 +210,6 @@ If you have questions, you can contact us as follows, or through your partner:
 - Microsoft Cloud Deutschland Migration Assistance at [https://aka.ms/germanymigrateassist](https://aka.ms/germanymigrateassist)
 - How to opt-in for migration at [https://aka.ms/office365germanymoveoptin](https://aka.ms/office365germanymoveoptin)
 - Dynamics 365 migration at [https://aka.ms/d365ceoptin](https://aka.ms/d365ceoptin)
--  Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
+- Power BI migration at [https://aka.ms/pbioptin](https://aka.ms/pbioptin)
 - Office 365 URLs and IP address ranges at [https://aka.ms/o365endpoints](https://aka.ms/o365endpoints)
 - Office 365 Hybrid Configuration Wizard at [https://aka.ms/HybridWizard](https://aka.ms/HybridWizard)
