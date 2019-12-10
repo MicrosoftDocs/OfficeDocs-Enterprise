@@ -33,7 +33,7 @@ Select the topic based on your needs:
 
     Start here if you have installed the Office 365 PowerShell modules and want to learn more about using automation commands to manage user accounts, licenses, and groups.
 
-- [SharePoint Online](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell)
+- [SharePoint Online](https://docs.microsoft.com/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell)
 
     Start here if you have installed the Office 365 PowerShell modules and want to use automation commands to perform management of SharePoint Online.
 
