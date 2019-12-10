@@ -49,7 +49,7 @@ Select the topic based on your needs:
 
     Start here if you want to use automation commands to manage the Security & Compliance Center.
 
-- [elegated Access Permissions (DAP) partners](manage-office-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md)
+- [Delegated Access Permissions (DAP) partners](manage-office-365-with-windows-powershell-for-delegated-access-permissions-dap-p.md)
 
     Start here if you want to use Syndication and Cloud Solution Provider (CSP) partners to manage your Office 365 customer tenants.
 
