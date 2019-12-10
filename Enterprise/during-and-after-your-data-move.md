@@ -37,6 +37,8 @@ Watch the Office 365 Message Center for confirmation when moves for each of Exch
 |France  <br/> |September 15, 2020  <br/> |
 |United Arab Emirates  <br/> |February 1, 2022  <br/> |
 |South Africa  <br/> |February 1, 2022  <br/> |
+|Switzerland, Liechtenstein  <br/> |July 1, 2022  <br/> |
+|Germany  <br/> |Planned  <br/> |
    
 ## Exchange Online
 
