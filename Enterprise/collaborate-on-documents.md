@@ -13,7 +13,7 @@ description: "Learn how to collaborate with guests on a document in SharePoint a
 
 # Collaborate with guests on a document
 
-If you need to collaborate with guests on documents in SharePoint or OneDrive, you can send them a sharing link to the document. In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up sharing links for SharePoint and OneDrive for the needs of your organization.
+If you need to collaborate with people outside your organization on documents in SharePoint or OneDrive, you can send them a sharing link to the document. In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up sharing links for SharePoint and OneDrive for the needs of your organization.
 
 ## Video demonstration
 
@@ -42,11 +42,11 @@ Note the settings in the **Collaboration restrictions** section. Make sure that 
 
 ## SharePoint organization level sharing settings
 
-In order for guests to have access to a document in SharePoint or OneDrive, the SharePoint and OneDrive organization-level sharing settings must allow for sharing with guests.
+In order for people outside your organization to have access to a document in SharePoint or OneDrive, the SharePoint and OneDrive organization-level sharing settings must allow for sharing with people outside your organization.
 
 The organization-level settings for SharePoint determine what settings are available for individual SharePoint sites. Site settings cannot be more permissive than the organization-level settings. The organization-level setting for OneDrive determines what level of sharing is available in users' OneDrive libraries.
 
-For SharePoint and OneDrive, if you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
+For SharePoint and OneDrive, if you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that people outside your organization have to authenticate, choose **New and existing guests**. *Anyone* links are the easiest way to share: people outside your organization can open the link without authentication and are free to pass it on to others.
 
 For SharePoint, choose the most permissive setting that will be needed by any site in your organization.
 
@@ -96,7 +96,7 @@ To set site-level sharing settings
 
 ## Invite users
 
-Guest sharing settings are now configured, so users can now share files and folders with guests. See [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) for more information.
+Guest sharing settings are now configured, so users can now share files and folders with people outside your organization. See [Share OneDrive files and folders](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) and [Share SharePoint files or folders](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) for more information.
 
 ## See Also
 

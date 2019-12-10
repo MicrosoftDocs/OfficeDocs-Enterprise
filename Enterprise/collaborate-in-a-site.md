@@ -62,7 +62,7 @@ In order for guests to have access to SharePoint sites, the SharePoint organizat
 
 The organization-level settings determine what settings are available for individual sites. Site settings cannot be more permissive than the organization-level settings.
 
-If you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
+If you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that all people outside your organization have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
 
 ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
 

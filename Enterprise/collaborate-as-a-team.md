@@ -103,7 +103,7 @@ Keep in mind that this setting affects all teams and SharePoint sites in your or
 
 Choose the type of link that's selected by default when users share files and folders:
 
-- **Anyone with the link** - Choose this option if you expect to share a lot of files and folders with unauthenticated people. If you want to allow *Anyone* links but are concerned about accidental unauthenticated sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
+- **Anyone with the link** - Choose this option if you expect to do a lot of unauthenticated sharing of files and folders. If you want to allow *Anyone* links but are concerned about accidental unauthenticated sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
 - **Only people in your organization** - Choose this option if you expect most file and folder sharing to be with people inside your organization.
 - **Specific people** - Consider this option if you expect to do a lot of file and folder sharing with guests. This type of link works with guests and requires them to authenticate.
  
