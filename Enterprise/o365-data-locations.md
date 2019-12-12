@@ -27,13 +27,9 @@ description: "Summary: "
 
 | Column1 | Column2 | Column3 |
 |:-------|:-----|
-
 |  |  |  |
-
 |  |  |  |
-
 |  |  |  |
-
 |||
 
 
