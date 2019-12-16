@@ -75,4 +75,3 @@ Data columns shown are:
 [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653)
   
 [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
-
