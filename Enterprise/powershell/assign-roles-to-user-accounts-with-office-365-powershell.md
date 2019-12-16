@@ -3,7 +3,7 @@ title: "Assign roles to user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/30/2019
+ms.date: 12/16/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -47,7 +47,7 @@ $role = Get-AzureADDirectoryRole | Where {$_.displayName -eq $roleName}
 Add-AzureADDirectoryRoleMember -ObjectId $role.ObjectId -RefObjectId (Get-AzureADUser | Where {$_.UserPrincipalName -eq $userName}).ObjectID
 ```
 
-Here is an example of a completed command set:
+Here is an example of a completed command set that assigns the SharePoint Service Administrator role to the belindan@contoso.com account:
   
 ```powershell
 $userName="belindan@contoso.com"
@@ -74,7 +74,7 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
   
 ### For a single role change
 
-The most common ways of specific user account is with its display name or its email name, also known its sign-in name user principal name (UPN).
+The most common ways of specific user account is with its display name or its email name, also known its sign-in name or user principal name (UPN).
 
 #### Display names of user accounts
 
@@ -172,9 +172,9 @@ $roleName="SharePoint Service Administrator"
 Add-MsolRoleMember -RoleMemberEmailAddress $upnName -RoleName $roleName
 ```
 
-### For multiple role changes
+### Multiple role changes
 
-Determine the following:
+For multiple role changes, determine the following:
   
 - Which user accounts that you want to configure. You can use the methods in the previous section to gather the set of display names or UPNs.
     
@@ -219,7 +219,6 @@ $fileName="<path and file name of the input CSV file that has the role changes, 
 $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmailAddress $_.UserPrincipalName -RoleName $_.RoleName }
 
 ```
-
 
 ## See also
 
