@@ -160,7 +160,7 @@ This example shows the Office 365 services that are available in the litwareinc:
    
 ## See also
 
-[Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   

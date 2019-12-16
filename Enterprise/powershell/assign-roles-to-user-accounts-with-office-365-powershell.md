@@ -223,6 +223,6 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ## See also
 
-- [Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+- [Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
 - [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
 - [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
