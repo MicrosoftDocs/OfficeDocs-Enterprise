@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Collaborate with guests in a site"
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -116,7 +116,7 @@ To invite internal users to a group
 
 Guest users can't be added from the site. You need to add them using Outlook on the web.
 
-To invite guests to a site
+To invite guests to a group
 1. In Outlook on the web, under **Groups**, click the group where you want to add members.
 2. Open the group contact card, and then, under **More options** (...), click **Add members**.
 3. Type the email addresses of the guests that you want to invite, and then click **Add**.
