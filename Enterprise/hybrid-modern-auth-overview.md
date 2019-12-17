@@ -12,66 +12,65 @@ localization_priority: Normal
 ms.assetid: ef753b32-7251-4c9e-b442-1a5aec14e58d
 ms.collection:
 - M365-security-compliance
-description: "Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information."
+description: "Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling modern authentication, and to some of the related client (ex. Outlook and Skype clients) information."
 ---
 
-# Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
+# Hybrid modern authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for Office 365 hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as, split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling Modern Authentication, and to some of the related client (ex. Outlook and Skype clients) information. 
+_Modern Authentication_ is a method of identity management that offers more secure user authentication and authorization. It's available for Office 365 hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as, split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling modern authentication, and to some of the related client (ex. Outlook and Skype clients) information.
   
-- [What is Modern Authentication?](hybrid-modern-auth-overview.md#BKMK_WhatisModAuth)
-- [What changes when I use Modern Authentication?](hybrid-modern-auth-overview.md#BKMK_WhatChanges)
-- [Check the Modern Authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
-- [Do you meet Modern Authentication prerequisites?](#do-you-meet-modern-authentication-prerequisites)
+- [What is modern authentication?](hybrid-modern-auth-overview.md#BKMK_WhatisModAuth)
+- [What changes when I use modern authentication?](hybrid-modern-auth-overview.md#BKMK_WhatChanges)
+- [Check the modern authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus)
+- [Do you meet modern authentication prerequisites?](#do-you-meet-modern-authentication-prerequisites)
 - [What else do I need to know before I begin?](hybrid-modern-auth-overview.md#BKMK_Whatelse)
-- [List of Modern Authentication URLs](hybrid-modern-auth-overview.md#BKMK_URLListforMA)
 
-## What is Modern Authentication?
+## What is modern authentication?
 <a name="BKMK_WhatisModAuth"> </a>
 
-When talking about communication between a client (for example, your laptop or your phone) and a server, Microsoft uses the phrase _Modern Authentication_.
+Modern authentication is an umbrella term for a combination of authentication and authorization methods between a client (for example, your laptop or your phone) and a server, as well as some security measures that rely on access policies that you may already be familiar with. It includes:
   
-Modern Authentication is an umbrella term for a combination of authentication and authorization methods, as well as some security measures that rely on access policies that you may already be familiar with. It includes:
-  
-- **Authentication methods**: Multi-factor Authentication; Client Certificate-based authentication.
-- **Authorization methods**: Microsoft's implementation of Open Authorization (OAuth).
-- **Conditional access policies**: Mobile Application Management (MAM) and Azure Active Directory Conditional Access.
+- **Authentication methods**: Multi-factor authentication (MFA); smart card authentication; client certificate-based authentication
+- **Authorization methods**: Microsoft's implementation of Open Authorization (OAuth)
+- **Conditional access policies**: Mobile Application Management (MAM) and Azure Active Directory Conditional Access
 
-Managing user identities with Modern Authentication gives administrators many different tools to use when it comes to securing resources and offers more secure methods of identity management to both on-premises (Exchange and Skype for Business), Exchange hybrid, and Skype for Business hybrid/split-domain scenarios.
+Managing user identities with modern authentication gives administrators many different tools to use when it comes to securing resources and offers more secure methods of identity management to both on-premises (Exchange and Skype for Business), Exchange hybrid, and Skype for Business hybrid/split-domain scenarios.
   
-Be aware that because Skype for Business works closely with Exchange, the login behavior Skype for Business client users will see will be affected by the Modern Authentication status of Exchange. This will also apply if you have a Skype for Business _split-domain_ hybrid architecture, in which you have both Skype for Business Online and Skype for Business on-premises, with users homed in both locations.
+Be aware that because Skype for Business works closely with Exchange, the login behavior Skype for Business client users will see will be affected by the modern authentication status of Exchange. This will also apply if you have a Skype for Business _split-domain_ hybrid architecture, in which you have both Skype for Business Online and Skype for Business on-premises, with users homed in both locations.
+
+For more information about modern authentication in Office 365, see [Office 365 Client App Support - Modern Authentication](office-365-client-support-modern-authentication.md).
   
 > [!IMPORTANT]
-> As of August of 2017, all new Office 365 tenants that include Skype for Business online and Exchange online will have Modern Authentication enabled by default. Pre-existing tenants won't have a change in their default MA state, but all new tenants automatically support the expanded set of identity features you see listed above. To check your MA status, see the [Check the Modern Authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus) section.
+> As of August of 2017, all new Office 365 tenants that include Skype for Business online and Exchange online will have modern authentication enabled by default. Pre-existing tenants won't have a change in their default MA state, but all new tenants automatically support the expanded set of identity features you see listed above. To check your MA status, see the [Check the modern authentication status of your on-premises environment](hybrid-modern-auth-overview.md#BKMK_CheckStatus) section.
   
-## What changes when I use Modern Authentication?
+## What changes when I use modern authentication?
 <a name="BKMK_WhatChanges"> </a>
 
-When using Modern Authentication with on-premises Skype for Business or Exchange server, you're still *authenticating* users on-premises, but the story of *authorizing* their access to resources (like files or emails) changes. This is why, though Modern Authentication is about client and server communication, the steps taken during configuring MA result in evoSTS (a Security Token Service used by Azure AD) being set as Auth Server for Skype for Business and Exchange server on-premises.
+When using modern authentication with on-premises Skype for Business or Exchange server, you're still *authenticating* users on-premises, but the story of *authorizing* their access to resources (like files or emails) changes. This is why, though modern authentication is about client and server communication, the steps taken during configuring MA result in evoSTS (a Security Token Service used by Azure AD) being set as Auth Server for Skype for Business and Exchange server on-premises.
   
-The change to evoSTS allows your on-premises servers to take advantage of OAuth (token issuance) for authorizing your clients, and also lets your on-premises use security methods common in the cloud (like Multi-factor Authentication). Additionally, the evoSTS issues tokens that allow users to request access to resources without supplying their password as part of the request. No matter where your users are homed (of online or on-premises), and no matter which location hosts the needed resource, EvoSTS will become the core of authorizing users and clients once Modern Authentication is configured.
+The change to evoSTS allows your on-premises servers to take advantage of OAuth (token issuance) for authorizing your clients, and also lets your on-premises use security methods common in the cloud (like Multi-factor Authentication). Additionally, the evoSTS issues tokens that allow users to request access to resources without supplying their password as part of the request. No matter where your users are homed (of online or on-premises), and no matter which location hosts the needed resource, EvoSTS will become the core of authorizing users and clients once modern authentication is configured.
   
-For example, if a Skype for Business client needs to access Exchange server to get calendar information on behalf of a user, it uses the Active Directory Authentication Library (ADAL) to do so. ADAL is a code library designed to make secured resources in your directory available to client applications using OAuth security tokens. ADAL works with OAuth to verify claims and to exchange tokens (rather than passwords), to grant a user access to a resource. In the past, the authority in a transaction like this one -- the server that knows how to validate user claims and issue the needed tokens -- might have been a Security Token Service on-premises, or even Active Directory Federation Services. However, Modern Authentication centralizes that authority by using Azure Active Directory (AAD).
+For example, if a Skype for Business client needs to access Exchange server to get calendar information on behalf of a user, it uses the Active Directory Authentication Library (ADAL) to do so. ADAL is a code library designed to make secured resources in your directory available to client applications using OAuth security tokens. ADAL works with OAuth to verify claims and to exchange tokens (rather than passwords), to grant a user access to a resource. In the past, the authority in a transaction like this one -- the server that knows how to validate user claims and issue the needed tokens -- might have been a Security Token Service on-premises, or even Active Directory Federation Services. However, modern authentication centralizes that authority by using Azure Active Directory (AAD).
   
 This also means that even though your Exchange server and Skype for Business environments may be entirely on-premises, the authorizing server will be online, and your on-premises environment must have the ability to create and maintain a connection to your Office 365 subscription in the Cloud (and the Azure Active Directory instance that your subscription uses as its directory).
   
-What doesn't change? Whether you're in a split-domain hybrid or using Skype for Business and Exchange server on-premises, all users must first authenticate *on-premises*. In a hybrid implementation of Modern Authentication, _Lyncdiscovery_ and _Autodiscovery_ both point to your on-premises server.
+What doesn't change? Whether you're in a split-domain hybrid or using Skype for Business and Exchange server on-premises, all users must first authenticate *on-premises*. In a hybrid implementation of modern authentication, _Lyncdiscovery_ and _Autodiscovery_ both point to your on-premises server.
   
 > [!IMPORTANT]
 > If you need to know the specific Skype for Business topologies supported with MA, that's [documented right here](https://technet.microsoft.com/library/mt803262.aspx).
   
-## Check the Modern Authentication status of your on-premises environment
+## Check the modern authentication status of your on-premises environment
 <a name="BKMK_CheckStatus"> </a>
 
-Because Modern Authentication changes the authorization server used when services leverage OAuth/S2S, you need to know if Modern Authentication is enabled or disabled for your on-premises Skype for Business and Exchange environments. You can check the status on your Exchange servers by running the following PowerShell command:
+Because modern authentication changes the authorization server used when services leverage OAuth/S2S, you need to know if modern authentication is enabled or disabled for your on-premises Skype for Business and Exchange environments. You can check the status on your Exchange servers by running the following PowerShell command:
 
 ```powershell
 Get-OrganizationConfig | ft OAuth*
 ```
 
-If the value of the _OAuth2ClientProfileEnabled_ property is **False**, then Modern Authentication is disabled.
+If the value of the _OAuth2ClientProfileEnabled_ property is **False**, then modern authentication is disabled.
 
 For more information about the Get-OrganizationConfig cmdlet, see [Get-OrganizationConfig](https://docs.microsoft.com/powershell/module/exchange/organization/get-organizationconfig).
 
@@ -81,11 +80,11 @@ You can check your Skype for Business servers by running the following PowerShel
 Get-CSOAuthConfiguration
 ```
 
-If the command returns an empty _OAuthServers_ property, or if the value of the _ClientADALAuthOverride_ property is not **Allowed**, then Modern Authentication is disabled.
+If the command returns an empty _OAuthServers_ property, or if the value of the _ClientADALAuthOverride_ property is not **Allowed**, then modern authentication is disabled.
 
 For more information about the Get-CsOAuthConfiguration cmdlet, see [Get-CsOAuthConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csoauthconfiguration).
   
-## Do you meet Modern Authentication prerequisites?
+## Do you meet modern authentication prerequisites?
 
 Verify and check these items off your list before you continue:
   
@@ -155,17 +154,17 @@ Verify and check these items off your list before you continue:
   - You have AAD Connect configured and functioning for user replication and sync.
   - You have verified that hybrid is configured using Exchange Classic Hybrid Topology mode between your on-premises and Office 365 environment. Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
     > [!NOTE]
-    > Hybrid Modern Authentication is not supported with the [Hybrid Agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
+    > Hybrid modern authentication is not supported with the [Hybrid Agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
 
-  - Make sure both an on-premises test user, as well as a hybrid test user homed in Office 365, can login to the Skype for Business desktop client (if you want to use Modern Authentication with Skype) and Microsoft Outlook (if you want so use Modern Authentication with Exchange).
+  - Make sure both an on-premises test user, as well as a hybrid test user homed in Office 365, can login to the Skype for Business desktop client (if you want to use modern authentication with Skype) and Microsoft Outlook (if you want to use modern authentication with Exchange).
 
 ## What else do I need to know before I begin?
 <a name="BKMK_Whatelse"> </a>
 
-- All the scenarios for on-premises servers involve setting up Modern Authentication on-premises (in fact, for Skype for Business there is a list of supported topologies) so that the server responsible for authentication and authorization is in the Microsoft Cloud (AAD's security token service, called 'evoSTS'), and updating Azure Active Directory (AAD) about the URLs or namespaces used by your on-premises installation of either Skype for Business or Exchange. Therefore, on-premises servers take on a Microsoft Cloud dependency. Taking this action could be considered configuring 'hybrid auth'.
-- This article links out to others that will help you choose supported Modern Authentication topologies (necessary only for Skype for Business), and how-to articles that outline the setup steps, or steps to disable Modern Authentication, for Exchange on-premises and Skype for Business on-premises. Favorite this page in your browser if you're going to need a home-base for using Modern Authentication in your server environment.
+- All the scenarios for on-premises servers involve setting up modern authentication on-premises (in fact, for Skype for Business there is a list of supported topologies) so that the server responsible for authentication and authorization is in the Microsoft Cloud (AAD's security token service, called 'evoSTS'), and updating Azure Active Directory (AAD) about the URLs or namespaces used by your on-premises installation of either Skype for Business or Exchange. Therefore, on-premises servers take on a Microsoft Cloud dependency. Taking this action could be considered configuring 'hybrid auth'.
+- This article links out to others that will help you choose supported modern authentication topologies (necessary only for Skype for Business), and how-to articles that outline the setup steps, or steps to disable modern authentication, for Exchange on-premises and Skype for Business on-premises. Favorite this page in your browser if you're going to need a home-base for using modern authentication in your server environment.
 
-## List of Modern Authentication URLs
+## Related Topics
 <a name="BKMK_URLListforMA"> </a>
 
 - [How to configure Exchange Server on-premises to use Modern Authentication](configure-exchange-server-for-hybrid-modern-authentication.md)
