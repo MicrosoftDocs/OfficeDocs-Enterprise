@@ -132,7 +132,7 @@ Verify and check these items off your list before you continue:
   
 - **Exchange Server on-premises in a hybrid Office 365 environment**
 
-  - If you are using Exchange server 2013, At least one server must have the Mailbox and Client Access server roles installed. While it is possible to install the Mailbox and Client Access roles on separate servers, we strongly recommend that you install both roles on each server to provide additional reliability and improved performance.
+  - If you are using Exchange Server 2013, at least one server must have the Mailbox and Client Access server roles installed. While it is possible to install the Mailbox and Client Access roles on separate servers, we strongly recommend that you install both roles on the same server to provide additional reliability and improved performance.
   
   - If you are using Exchange server 2016 or later version, at least one server must have the Mailbox server role installed.
   
@@ -184,4 +184,3 @@ Verify and check these items off your list before you continue:
     
 - [Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange](remove-or-disable-hybrid-modern-authentication-from-skype-for-business-and-excha.md)
     
-
