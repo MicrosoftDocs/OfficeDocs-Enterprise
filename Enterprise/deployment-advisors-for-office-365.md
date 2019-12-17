@@ -32,13 +32,13 @@ If you don't sign in as a tenant admin, you will eventually see a message that y
 
 Each advisor is a wizard that guides you through your choices for the features and options you want to deploy. In some cases, you can use the wizard to configure something or activate a setting. Here is an example.
 
-![](./media/deployment-advisors-for-office-365/m365-deploy-advisor1.png)
+![Example of a deployment advisor](./media/deployment-advisors-for-office-365/m365-deploy-advisor1.png)
 
 The advisor steps you through decisions for customization to your needs. Along the way, you'll get instructions, scripts, and other resources to make the configuration changes.
 
 At the end, you'll get links to videos and reference articles. Here is an example.
 
-![](./media/deployment-advisors-for-office-365/m365-deploy-advisor2.png)
+![Example of links to videos and reference articles](./media/deployment-advisors-for-office-365/m365-deploy-advisor2.png)
 
 You can use these advisors anytime to learn more about Office 365 features and options. This includes during planning or after you've already set up the services.
   

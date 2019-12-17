@@ -3,7 +3,7 @@ title: "Create user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 12/16/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,8 +19,6 @@ description: "Learn how to use Office 365 PowerShell to create user accounts in 
 
 # Create user accounts with Office 365 PowerShell
 
-**Summary:** Learn how to use Office 365 PowerShell to create user accounts in Office 365.
-  
 You can use Office 365 PowerShell to efficiently create user accounts, especially multiple user accounts. When you create user accounts in Office 365 PowerShell, certain account properties are always required. Other properties aren't required to create the account, but are otherwise important. These properties are described in the following table:
   
 |**Property name**|**Required?**|**Description**|
@@ -112,7 +110,7 @@ This example creates the user accounts from the file named C:\My Documents\NewAc
     
 ## See also
 
-[Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
