@@ -7,22 +7,31 @@
 ### [Use Windows PowerShell to create reports in Office 365](use-windows-powershell-to-create-reports-in-office-365.md)
 ### [Cmdlet references for Office 365 services](cmdlet-references-for-office-365-services.md)
 ### [Office 365 PowerShell community resources](office-365-powershell-community-resources.md)
-## [Manage user accounts and licenses](manage-user-accounts-and-licenses-with-office-365-powershell.md)
-### [View licenses and services](view-licenses-and-services-with-office-365-powershell.md)
-### [View licensed and unlicensed users](view-licensed-and-unlicensed-users-with-office-365-powershell.md)
-### [Assign licenses to user accounts](assign-licenses-to-user-accounts-with-office-365-powershell.md)
-### [View account license and service details](view-account-license-and-service-details-with-office-365-powershell.md)
-### [Assign roles to user accounts](assign-roles-to-user-accounts-with-office-365-powershell.md)
-### [Disable access to services](disable-access-to-services-with-office-365-powershell.md)
-#### [Disable access to Sway](disable-access-to-sway-with-office-365-powershell.md)
-#### [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md)
-### [Remove licenses from user accounts](remove-licenses-from-user-accounts-with-office-365-powershell.md)
-### [Block user accounts](block-user-accounts-with-office-365-powershell.md)
-### [Delete and restore user accounts](delete-and-restore-user-accounts-with-office-365-powershell.md)
-### [Create user accounts](create-user-accounts-with-office-365-powershell.md)
-### [View user accounts](view-user-accounts-with-office-365-powershell.md)
-### [Configure user account properties](configure-user-account-properties-with-office-365-powershell.md)
-## [Manage groups](manage-office-365-groups-with-powershell.md)
+
+## [Manage user accounts, licenses, and groups](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+
+### User accounts
+#### [Create user accounts](create-user-accounts-with-office-365-powershell.md)
+#### [View user accounts](view-user-accounts-with-office-365-powershell.md)
+#### [Configure user account properties](configure-user-account-properties-with-office-365-powershell.md)
+#### [Assign roles to user accounts](assign-roles-to-user-accounts-with-office-365-powershell.md)
+#### [Delete and restore user accounts](delete-and-restore-user-accounts-with-office-365-powershell.md)
+#### [Block user accounts](block-user-accounts-with-office-365-powershell.md)
+
+### Licenses and services
+#### [View licenses and services](view-licenses-and-services-with-office-365-powershell.md)
+#### [View licensed and unlicensed users](view-licensed-and-unlicensed-users-with-office-365-powershell.md)
+#### [Assign licenses to user accounts](assign-licenses-to-user-accounts-with-office-365-powershell.md)
+#### [View account license and service details](view-account-license-and-service-details-with-office-365-powershell.md)
+#### [Disable access to services](disable-access-to-services-with-office-365-powershell.md)
+##### [Disable access to Sway](disable-access-to-sway-with-office-365-powershell.md)
+##### [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md)
+#### [Remove licenses from user accounts](remove-licenses-from-user-accounts-with-office-365-powershell.md)
+
+### Groups
+#### [Maintain group membership](maintain-group-membership-with-office-365-powershell.md)
+#### [Manage Office 365 groups](manage-office-365-groups-with-powershell.md)
+
 ## [Manage SharePoint Online](manage-sharepoint-online-with-office-365-powershell.md)
 ### [Create SharePoint Online sites and add users](create-sharepoint-sites-and-add-users-with-powershell.md)
 ### [Manage SharePoint Online users and groups](manage-sharepoint-users-and-groups-with-powershell.md)

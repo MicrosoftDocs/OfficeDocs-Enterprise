@@ -303,7 +303,7 @@ To create a label-based file policy
 12. For the custom notification message, type *This file is highly confidential. Company policy prohibits sharing it with guests*.
 13. Click **Create**.
 
-It's important to note, that this policy removes access for files shared using a *Specific people* link. It doesn't remove access from anonymous (*Anyone*) links. It also doesn't remove access if the guest is a member of the site or team as a whole. If you plan to have highly confidential documents in a site or team with guest members, consider using [private channels in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) and only allowing members of your organization in the private channels.
+It's important to note, that this policy removes access for files shared using a *Specific people* link. It doesn't remove access from unauthenticated (*Anyone*) links. It also doesn't remove access if the guest is a member of the site or team as a whole. If you plan to have highly confidential documents in a site or team with guest members, consider using [private channels in Teams](https://support.office.com/article/60ef929a-4d68-418b-bf4f-5784db184ec9) and only allowing members of your organization in the private channels.
 
 ## Test the solution
 
@@ -317,4 +317,4 @@ You can use the tools described in this article in various combinations to help 
 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
-[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+[Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)

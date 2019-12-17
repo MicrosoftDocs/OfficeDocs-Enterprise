@@ -3,7 +3,7 @@ title: "Why you need to use Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/11/2019
+ms.date: 12/13/2019
 audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -16,21 +16,21 @@ description: "Summary: Understand why you must use Office 365 PowerShell to mana
 
 # Why you need to use Office 365 PowerShell
 
-With the Microsoft 365 admin center, you can not only manage your Office 365 user accounts and licenses, but you can also manage your Office 365 server products: Exchange, Skype for Business Online, and SharePoint Online. However, you can also manage these elements with Office 365 PowerShell commands, taking advantage of a command-line and scripting language environment for speed, automation, and additional capability.
+With the Microsoft 365 admin center, you can not only manage your Office 365 user accounts and licenses, but you can also manage your Office 365 services such as Exchange Online, Teams, and SharePoint Online. However, you can also manage these elements with Office 365 PowerShell commands, taking advantage of a command-line and scripting language environment for speed, automation, and additional capability.
   
-In this article, we'll show you these ways in which you can use Office 365 PowerShell to manage Office 365.
+In this article, we'll show you these ways in which you can use Office 365 PowerShell to manage Office 365:
   
-- Office 365 PowerShell can reveal additional information that you cannot see with the Microsoft 365 admin center
+- Reveal additional information that you cannot see with the Microsoft 365 admin center
     
-- Office 365 has features that you can only configure by using Office 365 PowerShell
+- Configure features and settings only possible with Office 365 PowerShell
     
-- Office 365 PowerShell is great at performing bulk operations
+- Perform bulk operations
     
-- Office 365 PowerShell is great at filtering data
+- Filtering data
     
-- Office 365 PowerShell makes it easy to print or save data
+- Print or save data
     
-- Office 365 PowerShell lets you manage across server products
+- Manage across services
     
 Before you begin, understand that Office 365 PowerShell is a set of modules for Windows PowerShell, a command-line environment for Windows-based services and platforms. This environment creates a command shell language that can be extended with additional modules and provides a way to execute simple or complex commands or scripts. For example, after you install the Office 365 PowerShell modules and connect to your Office 365 subscription, you can run this command to list all of the user mailboxes for Microsoft Exchange Online:
   
@@ -154,7 +154,6 @@ $x = Get-MsolUser
 $x | Select DisplayName, UsageLocation
 ```
 
-
 The interpretation of this set of Office 365 PowerShell commands is:
 - Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).
 - Display the contents of the variable $x, but only include the name and location for each user ( **$x | Select DisplayName, UsageLocation** ).
@@ -226,7 +225,7 @@ Get-SPOSite | ForEach {Remove-SPOUser -Site $_.Url -LoginName "kenmyer@litwarein
 ```
 
 > [!NOTE]
-> This command requires that you install the [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps). 
+> This command requires that you install the [SharePoint Online PowerShell module](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps). 
   
 > [!TIP]
 >  The interpretation of this Office 365 PowerShell command is:  Get all of the SharePoint sites in the current Office 365 subscription ( **Get-SPOSite** ) and for each site, remove Ken Meyer from the list of users who can access it ( **ForEach {Remove-SPOUser -Site $\_.Url -LoginName "kenmyer@litwareinc.com"}** ).
@@ -422,7 +421,7 @@ The interpretation of this Office 365 PowerShell script is:
 
 [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
   
-[Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Use Windows PowerShell to create reports in Office 365](use-windows-powershell-to-create-reports-in-office-365.md)
 

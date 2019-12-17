@@ -152,6 +152,8 @@
 #### [How to request your data move](request-your-data-move.md)
 #### [During and after your data move](during-and-after-your-data-move.md)
 #### [Data move general FAQ](data-move-faq.md)
+#### [Microsoft Cloud Deutschland: Office 365 migration program](ms-cloud-germany-transition.md)
+#### [Microsoft Cloud Deutschland: Opt-in for migration](ms-cloud-germany-migration-opt-in.md)
 
 ### Hybrid solutions
 #### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
@@ -189,7 +191,7 @@
 ##### [Collaborate in a site](collaborate-in-a-site.md)
 ##### [Collaborate as a team](collaborate-as-a-team.md)
 #### Guest sharing security
-##### [Anonymous sharing](best-practices-anonymous-sharing.md)
+##### [unauthenticated sharing](best-practices-anonymous-sharing.md)
 ##### [Limit accidental exposure](sharing-limit-accidental-exposure.md)
 ##### [Secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
 
