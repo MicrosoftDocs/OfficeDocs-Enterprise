@@ -146,7 +146,7 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 ### Change properties for a specific user account
 
-To configure properties for a specific user account, you use the [Set-MsolUser](https://docs.microsoft.com/en-us/previous-versions/azure/dn194136(v=azure.100)) cmdlet and specify the properties to set or change. 
+To configure properties for a specific user account, you use the [Set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) cmdlet and specify the properties to set or change. 
 
 You identify the account with the **-UserPrincipalName** parameter and set or change specific properties with additional parameters. Here is a list of the most common parameters.
   
@@ -184,7 +184,7 @@ You identify the account with the **-UserPrincipalName** parameter and set or ch
     
     This is the ISO 3166-1 alpha-2 (A2) two-letter country or region code.
     
-See [Set-MsolUser](https://docs.microsoft.com/en-us/previous-versions/azure/dn194136(v=azure.100)) for additional parameters.
+See [Set-MsolUser](https://docs.microsoft.com/previous-versions/azure/dn194136(v=azure.100)) for additional parameters.
 
 To see the User Principal Names of all your users, run the following command.
   
