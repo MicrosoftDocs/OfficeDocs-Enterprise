@@ -31,6 +31,6 @@ To turn off Directory synchronization:
     
 2. Use [Set-MsolDirSyncEnabled](https://go.microsoft.com/fwlink/p/?LinkId=821939) to disable directory synchronization: 
     
-  ```
+  ```powershell
   Set-MsolDirSyncEnabled -EnableDirSync $false
   ```

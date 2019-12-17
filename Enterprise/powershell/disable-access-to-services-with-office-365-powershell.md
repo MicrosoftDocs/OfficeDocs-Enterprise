@@ -151,11 +151,6 @@ If you want to disable access to services for multiple licensing plans, repeat t
 To disable Office 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
 
 
-## New to Office 365?
-<a name="LinkedIn"> </a>
-
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
-   
 ## See also
 <a name="SeeAlso"> </a>
 
