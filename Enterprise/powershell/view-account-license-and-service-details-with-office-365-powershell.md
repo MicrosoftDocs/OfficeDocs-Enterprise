@@ -3,7 +3,7 @@ title: "View account license and service details with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/13/2019
+ms.date: 12/17/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -73,7 +73,7 @@ Get-MsolAccountSku
 Next, run this command to list the services that are available in each licensing plan, and the order in which they are listed (the index number).
 
 ```powershell
-(Get-MsolAccountSku | where {$_.AccountSkuId -eq '<AccountSkuId>'}).ServiceStatus
+(Get-MsolAccountSku | where {$_.AccountSkuId -eq "<AccountSkuId>"}).ServiceStatus
 ```
   
 Use this command to list the licenses that are assigned to a user, and the order in which they are listed (the index number).
@@ -81,11 +81,6 @@ Use this command to list the licenses that are assigned to a user, and the order
 ```powershell
 Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Licenses
 ```
-
->[!Note]
->If you use the **Get-MsolUser** cmdlet without using the _All_ parameter, only the first 500 accounts are returned.
->
-   
 
 ### To view services for a user account
 
@@ -110,8 +105,8 @@ This example shows the services that user BelindaN@litwareinc.com has access to 
 To view all the services for a user who has been assigned *multiple licenses*, use the following syntax:
 
 ```powershell
-$userAccountUPN="<user account UPN>"
-$AllLicenses=(Get-MsolUser -UserPrincipalName $userAccountUPN).Licenses
+$userUPN="<user account UPN>"
+$AllLicenses=(Get-MsolUser -UserPrincipalName $userUPN).Licenses
 $licArray = @()
 for($i = 0; $i -lt $AllLicenses.Count; $i++)
 {
