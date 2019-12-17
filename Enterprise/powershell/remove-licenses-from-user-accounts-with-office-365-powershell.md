@@ -3,7 +3,7 @@ title: "Remove licenses from user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/23/2019
+ms.date: 12/17/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -24,7 +24,6 @@ description: "Explains how to use Office 365 PowerShell to remove Office 365 lic
 ## Use the Azure Active Directory PowerShell for Graph module
 
 First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
-  
 
 Next, list the license plans for your tenant with this command.
 
@@ -52,7 +51,6 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
 First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
-
    
 To view the licensing plan (**AccountSkuID** ) information in your organization, see the following topics:
     
@@ -74,14 +72,14 @@ Set-MsolUserLicense -UserPrincipalName <Account> -RemoveLicenses "<AccountSkuId1
 >PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
 >
 
-This example removes the `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) license from the user account BelindaN@litwareinc.com.
+This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from the user account BelindaN@litwareinc.com.
   
 ```powershell
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -RemoveLicenses "litwareinc:ENTERPRISEPACK"
 ```
 
 >[!Note]
->You cannot use the Set-MsolUserLicense cmdlet to unassign users from *canceled* licenses. You must do this individually for each user account in the Microsoft 365 admin center.
+>You cannot use the `Set-MsolUserLicense` cmdlet to unassign users from *canceled* licenses. You must do this individually for each user account in the Microsoft 365 admin center.
 >
 
 To remove licenses from a group of existing licensed users, use either of the following methods:
@@ -93,7 +91,7 @@ $x = Get-MsolUser -All <FilterableAttributes> | where {$_.isLicensed -eq $true}
 $x | foreach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalName -RemoveLicenses "<AccountSkuId1>", "<AccountSkuId2>"...}
 ```
 
-This example removes the  `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) licenses from all accounts for users in the Sales department in the United States.
+This example removes the  **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) licenses from all accounts for users in the Sales department in the United States.
     
 ```powershell
 $USSales = Get-MsolUser -All -Department "Sales" -UsageLocation "US" | where {$_.isLicensed -eq $true}
@@ -116,7 +114,7 @@ kakers@contoso.com
   Get-Content "<FileNameAndPath>" | ForEach { Set-MsolUserLicense -UserPrincipalName $_ -RemoveLicenses "<AccountSkuId1>", "<AccountSkuId2>"... }
   ```
 
-This example removes the  `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) license from the user accounts defined in the text file C:\My Documents\Accounts.txt.
+This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from the user accounts defined in the text file C:\My Documents\Accounts.txt.
     
   ```powershell
   Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-MsolUserLicense -UserPrincipalName $_ -RemoveLicenses "litwareinc:ENTERPRISEPACK" }
@@ -129,7 +127,7 @@ $x = Get-MsolUser -All  | Where {$_.isLicensed -eq $true}
 $x | ForEach {Set-MsolUserLicense -UserPrincipalName $_.UserPrincipalName -RemoveLicenses "<AccountSkuId1>", "<AccountSkuId2>"...}
 ```
 
-This example removes the  `litwareinc:ENTERPRISEPACK` (Office 365 Enterprise E3) license from all existing licensed user accounts.
+This example removes the **litwareinc:ENTERPRISEPACK** (Office 365 Enterprise E3) license from all existing licensed user accounts.
   
 ```powershell
 $x = Get-MsolUser -All  | Where {$_.isLicensed -eq $true}
