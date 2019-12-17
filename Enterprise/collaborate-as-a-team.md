@@ -168,4 +168,4 @@ To invite guests to a team
 
 [Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md))
 
-
+[Create a B2B extranet with managed guests](b2b-extranet.md)
