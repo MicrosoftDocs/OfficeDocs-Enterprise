@@ -1,7 +1,7 @@
 ---
 title: "Office 365 Germany endpoints"
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: laurawi
+author: Laura Williams [MSFT]
 manager: laurawi
 ms.date: 11/27/2019
 audience: ITPro

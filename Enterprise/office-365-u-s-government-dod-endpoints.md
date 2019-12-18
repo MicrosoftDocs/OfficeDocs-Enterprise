@@ -1,7 +1,7 @@
 ---
 title: "Office 365 U.S. Government DoD endpoints"
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: laurawi
+author: Laura Williams [MSFT]
 manager: laurawi
 ms.date: 12/04/2019
 audience: ITPro
