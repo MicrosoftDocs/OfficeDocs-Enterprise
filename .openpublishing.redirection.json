@@ -517,7 +517,137 @@
       
    },
 
+   {
+
+    "source_path": "Enterprise/microsoft-cloud-networking-for-enterprise-architects.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
   {
+
+    "source_path": "Enterprise/evolving-your-network-for-cloud-connectivity.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/common-elements-of-microsoft-cloud-connectivity.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/expressroute-for-microsoft-cloud-connectivity.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/designing-networking-for-microsoft-saas.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/designing-networking-for-microsoft-azure-paas.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/designing-networking-for-microsoft-azure-iaas.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/microsoft-hybrid-cloud-for-enterprise-architects.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/hybrid-cloud-overview.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/architecture-of-microsoft-hybrid-cloud-scenarios.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/hybrid-cloud-scenarios-for-microsoft-saas-office-365.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/hybrid-cloud-scenarios-for-azure-paas.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+  {
+
+    "source_path": "Enterprise/hybrid-cloud-scenarios-for-azure-iaas.md",
+
+    "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
+
+    "redirect_document_id": false
+    
+ },
+
+{
 
       "source_path": "enterprise/network-connectivity.md",
 
