@@ -1,7 +1,7 @@
 ---
 title: "Office 365 URLs and IP address ranges"
 ms.author: laurawi
-author: Laura Williams [MSFT]
+author: LauraWi
 manager: laurawi
 ms.date: 11/27/2019
 audience: Admin

@@ -1,7 +1,7 @@
 ---
 title: "Office 365 U.S. Government GCC High endpoints"
 ms.author: laurawi
-author: Laura Williams [MSFT]
+author: LauraWi
 manager: laurawi
 ms.date: 12/04/2019
 audience: ITPro
