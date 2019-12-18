@@ -21,38 +21,13 @@ description: "Summary: Office 365 data locations"
 
 # Where your customer data is stored in Office 365 datacenters
 
-The following tables show where customer data is stored at-rest for Office 365 services across all of Microsoft’s global cloud Geos. Click your country to find out where customer data for each service is being stored.
+The tables in this article show where customer data is stored at-rest for Office 365 services across all of Microsoft’s global cloud Geos. Click your country name in the list on the right to find out where customer data for each service is being stored.
  
-You can also view tenant specific data location information in your Office 365 Admin Center. Go to **Settings > Organization profile > Data location**.
+You can also view tenant-specific data location information in your Office 365 Admin Center. Go to **Settings > Organization profile > Data location > View details**.
 
-
-## Afghanistan
-
-| Office 365 service | Datacenter locations |
-|:-------|:-----|
-| Exchange Online | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
-| OneDrive for Business | Hong Kong <BR> Singapore |
-| SharePoint Online | Hong Kong <BR> Singapore |
-| Skype for Business | Hong Kong <BR> Singapore |
-| Microsoft Teams | Hong Kong <BR> Singapore <BR> South Korea |
-| Office Online & Mobile | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
-| EOP | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
-| MyAnalytics | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
-| Planner | Hong Kong <BR> Singapore |
-| Sway | United States |
-| Yammer | United States |
-| OneNote Services | South Korea |
-| Stream | Hong Kong <BR> Singapore |
-| Whiteboard | United States |
-| Forms | United States |
-|||
-
-
-## Country
-
-
-Table for an additional country.
-
+<!--
+Note to new owner: Links in the Notes and FAQ sections need to be added from the source document at https://microsoft.sharepoint.com/:w:/t/golocalteam/Ebv6_Lw6FvNKucfA1eESTPUBy6O1MdvWEeT-L8O5a2HsIg?e=4%3AUfF1Uj&at=9&xsdata=MDR8MDF8am9zZXBoZEBtaWNyb3NvZnQuY29tfGM1ZTg1ODI0ZWRmMTRlN2E3MDkzMDhkNzgzNDMxYTczfDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDF8MHw2MzcxMjIxOTY1MzQ5NjM5NDl8VW5rbm93bnxUV0ZwYkdac2IzZDhleUpXSWpvaU1DNHdMakF3TURBaUxDSlFJam9pVjJsdU16SWlMQ0pCVGlJNklrMWhhV3dpTENKWFZDSTZNbjA9fC0x&sdata=MkxOUXhlZEdyR0I1SzBvd044d2hkd2RPaGN2RUpaS09jMkZTcys0dkZQRT0%3D
+--> 
 
 ## Notes
 
@@ -60,7 +35,6 @@ Table for an additional country.
 New Office 365 tenants are defaulted to Geo based on the country of the transaction associated with that tenant’s first subscription.
 Find information about the contractual commitments for the storage location of customer data at rest in the Microsoft Online Services Terms (OST).
 For Azure Active Directory data locations, please visit ADD Data Map.
-
 
 ## FAQ
 
@@ -117,3 +91,32 @@ Multi-Geo enables a single Office 365 tenant to span across multiple Office 365 
 ### What services support Multi-Geo? 
 
 Multi-Geo is available for Exchange Online and OneDrive. Microsoft is investigating Multi-Geo for other Office 365 services.
+
+
+## Afghanistan
+
+| Office 365 service | Datacenter locations |
+|:-------|:-----|
+| Exchange Online | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
+| OneDrive for Business | Hong Kong <BR> Singapore |
+| SharePoint Online | Hong Kong <BR> Singapore |
+| Skype for Business | Hong Kong <BR> Singapore |
+| Microsoft Teams | Hong Kong <BR> Singapore <BR> South Korea |
+| Office Online & Mobile | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
+| EOP | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
+| MyAnalytics | Hong Kong <BR> Japan <BR> Malaysia <BR> Singapore <BR> South Korea |
+| Planner | Hong Kong <BR> Singapore |
+| Sway | United States |
+| Yammer | United States |
+| OneNote Services | South Korea |
+| Stream | Hong Kong <BR> Singapore |
+| Whiteboard | United States |
+| Forms | United States |
+|||
+
+
+## Additional country
+
+Table for an additional country.
+
+
