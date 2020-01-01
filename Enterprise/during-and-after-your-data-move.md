@@ -28,18 +28,21 @@ Watch the Office 365 Message Center for confirmation when moves for each of Exch
 
 |**Customers with signup country in**|**All moves completed by**|
 |:-----|:-----|
-|Australia, New Zealand, Fiji  <br/> |October 31, 2017  <br/> |
-|Japan  <br/> |October 31, 2018  <br/> |
-|India  <br/> |October 31, 2018  <br/> |
-|Canada  <br/> |June 30, 2019  <br/> |
-|South Korea  <br/> |October 31, 2018  <br/> |
-|United Kingdom  <br/> |September 15, 2019  <br/> |
-|France  <br/> |September 15, 2020  <br/> |
-|United Arab Emirates  <br/> |February 1, 2022  <br/> |
-|South Africa  <br/> |February 1, 2022  <br/> |
+|Australia, New Zealand, Fiji  <br/> |July 1, 2022  <br/> |
+|Japan  <br/> |July 1, 2022  <br/> |
+|India  <br/> |July 1, 2022  <br/> |
+|Canada  <br/> |July 1, 2022  <br/> |
+|South Korea  <br/> |July 1, 2022  <br/> |
+|United Kingdom  <br/> |July 1, 2022  <br/> |
+|France  <br/> |July 1, 2022  <br/> |
+|United Arab Emirates  <br/> |July 1, 2022  <br/> |
+|South Africa  <br/> |July 1, 2022  <br/> |
 |Switzerland, Liechtenstein  <br/> |July 1, 2022  <br/> |
 |Germany  <br/> |Planned  <br/> |
-   
+
+> [!NOTE]
+> Customers in eligible Office 365 countries may opt-in for Microsoft Teams chat service data migration from January 1, 2020 through June 30, 2020, which will also signal migration for any other eligible workloads.  Customers that opted-in for migration prior to 2020 can expect Exchange Online and SharePoint Online/OneDrive for Business moves to complete by the original deadline, while Teams will complete by July 1, 2022 for all customers. 
+
 ## Exchange Online
 
 Because it takes time to move each user to the new datacenter geo for a single tenant, some users will still be in the old datacenter geo during the move, while others will be in the new datacenter geo. This means that some features that involve accessing multiple mailboxes may not fully work during a period of the move process, which can last weeks. These features are described in the following sections.
@@ -98,7 +101,11 @@ The following search features are affected:
 - eDiscovery: Items that changed during the migration aren't shown until crawling picks up the changes.
     
 - Data Loss Protection (DLP): Policies aren't enforced on items that change until crawling picks up the changes.
-    
+
+## Microsoft Teams
+
+Customers in eligible Office 365 countries may opt-in for Microsoft Teams chat service data migration as of January 1, 2020.  
+
 ## Skype for Business
 
 All users will be signed out from the Skype for Business client software during cut-over. The automatic sign-in will reconnect users within two minutes.
