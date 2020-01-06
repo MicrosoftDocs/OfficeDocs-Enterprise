@@ -25,15 +25,15 @@ Existing Office 365 customers are eligible to request early migration for their 
 
 |**Customers with signup country in**|**Request period begins**|**Request deadline**|
 |:-----|:-----|:-----|
-|Japan  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|Australia, New Zealand, Fiji  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|India  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|Canada  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|United Kingdom  <br/> |March 15, 2017  <br/> |September 15, 2017  <br/> |
-|South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
-|France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
-|United Arab Emirates  <br/> |July 15, 2019  <br/> |January 31, 2020  <br/> |
-|South Africa  <br/> |July 25, 2019  <br/> |January 31, 2020  <br/> |
+|Japan  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|Australia, New Zealand, Fiji  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|India  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|Canada  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|United Kingdom  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|South Korea  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|France  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|United Arab Emirates  <br/> |July 15, 2019  <br/> |June 30, 2020  <br/> |
+|South Africa  <br/> |July 25, 2019  <br/> |June 30, 2020  <br/> |
 |Switzerland, Liechtenstein  <br/> |December 10, 2019  <br/> |June 30, 2020  <br/> |
 |Germany  <br/> |Planned  <br/> |Planned  <br/> |
    
@@ -69,7 +69,7 @@ Moves may take up to 24 months from the request deadline for your country to com
   
 ## Microsoft Teams
 
-Migration support for Microsoft Teams chat and channel message data will be added to the Office 365 local migration program.  We plan to open program enrollment in January 2020 for all eligible customers, including customers that previously opted-in for Exchange Online and SharePoint Online/OneDrive for Business migration.  We will expose the opt-in control in the Microsoft 365 Admin Center and send a notification in Message Center to all eligible customers.   
+As of January 2020, customers in eligible Office 365 countries can opt-in for migration of Microsoft Teams chat service data.  Opt-in timelines have been reopened or extended for all eligible countries to give customers an opportunity to consider the early migration program with Microsoft Teams in scope.   
 
 ## Optional actions before you request a move
 

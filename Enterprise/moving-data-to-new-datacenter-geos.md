@@ -21,7 +21,8 @@ We continue to open new datacenter geos for Office 365 for business services. Th
 Core customer data is a term that refers to a subset of customer data including: 
 - Exchange Online mailbox content (email body, calendar entries, and the content of email attachments)
 - SharePoint Online site content and the files stored within that site
-- Files uploaded to OneDrive for Business 
+- Files uploaded to OneDrive for Business
+- Teams chat messages, including private messages, channel messages, and images used in chats
   
 Existing customers that have their core customer data stored in an already existing datacenter geo are not impacted by the launch of a new datacenter geo. We introduce no unique capabilities, features or compliance certifications with the new datacenter geo. As a customer in any of those two geos, you will experience the same quality of service, performance and security controls as you did before. We offer existing customers listed in the table below an option to request early migration of their organization's core customer data at rest to their new datacenter geo.
   
