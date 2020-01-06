@@ -3,7 +3,7 @@ title: "Office 365 U.S. Government DoD endpoints"
 ms.author: laurawi
 author: LauraWi
 manager: laurawi
-ms.date: 12/04/2019
+ms.date: 01/02/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration

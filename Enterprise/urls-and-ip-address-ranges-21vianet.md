@@ -3,7 +3,7 @@ title: "URLs and IP address ranges for Office 365 operated by 21Vianet"
 ms.author: laurawi
 author: LauraWi
 manager: laurawi
-ms.date: 09/30/2019
+ms.date: 01/02/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration

@@ -3,7 +3,7 @@ title: "Office 365 URLs and IP address ranges"
 ms.author: laurawi
 author: LauraWi
 manager: laurawi
-ms.date: 11/27/2019
+ms.date: 01/02/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
