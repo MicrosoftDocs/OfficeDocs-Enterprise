@@ -585,7 +585,7 @@ Add-PnPTenantCdnOrigin -CdnType Public -OriginUrl */masterpage
 
 You can add an origin with a specific relative path. You cannot add an origin using the full path.
 
-This example adds a private origin of the siteassets library on a specific site:
+This example adds a private origin of the site assets library on a specific site:
 
 ``` powershell
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
