@@ -499,7 +499,7 @@ To enable your organization to use private origins, type the following command:
 Set-PnPTenantCdnEnabled -CdnType Private -Enable $true
 ```
 
-For more information about this cmdlet, see [Set-PnPTenantCdnEnabled](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/set-pnptenantcdnenabled).
+For more information about this cmdlet, see [Set-PnPTenantCdnEnabled](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnptenantcdnenabled).
 
 <a name="Office365CDNforPnPPoshFileType"> </a>
 ### Change the list of file types to include in the Office 365 CDN (Optional)
