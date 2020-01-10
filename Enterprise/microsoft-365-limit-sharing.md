@@ -27,32 +27,67 @@ The methods of sharing files in Microsoft 365 are listed in the table below. Cli
 |[Email](#email)|People with access to a file can send it to others via email.|Admins can encrypt files by using sensitivity labels to prevent them being shared with unauthorized people.|
 |[Download of file copy](#download-of-file-copy)|People with access to a file can download or copy it and share it with others outside the scope of Microsoft 365.|Admins can encrypt files by using sensitivity labels to prevent them being shared with unauthorized people.|
 
+Discussion of the downsides of limiting sharing
 
 ## Office 365 group or team
 
+Make the team private
+
+### Guest sharing
+
+Turn off guest sharing for Teams
+
+Turn off guest sharing for Office 365 groups
+
+Turn off guest sharing for a specific group or team
+
+PowerShell - turn off external users for group/team
+[Block guest users from a specific group](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group)
+
+block domain at SharePoint or Azure AD level
+
 ## SharePoint site
+
+Limit sharing of files, folders, and the site to site owners
+
+Turn off access requests
+
+Turn off guest sharing
+
 
 ## Direct file permissions
 
+Limit sharing of files, folders, and the site to site owners
+
+
 ## *Anyone* sharing link
+
+Turn off Anyone links at the organization level
+
+Turn off Anyone links at the site level
 
 ## *People in your organization* sharing link
 
+PowerShell - turn off company links for site
+Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingLinks
+
 ## *Specific people* sharing link
+
+Limit sharing of files, folders, and the site to site owners
 
 ## Email
 
+Encrypt the content by using sensitivity labels.
+
 ## Download or file copy
+
+Encrypt the content by using sensitivity labels.
 
 ## Alternatives to limiting sharing
 
-
-PowerShell - turn off company links for site
--DisableCompanyWideSharingLinks
-
-PowerShell - turn off external users for group/team
-https://docs.microsoft.com/en-us/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group
-
+Encrypt
+Use DLP to restrict sharing
+Domain filtering
 
 
 
@@ -66,12 +101,10 @@ At the team/group level
 At the site level
 At the OneDrive level
 
-Discussion of the downsides of limiting sharing
+
 
 Alternatives
-Encrypt
-Use DLP to restrict sharing
-Domain filtering
+
 
 Reporting
 
