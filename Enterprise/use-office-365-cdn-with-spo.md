@@ -669,7 +669,7 @@ Use the **Add-PnPTenantCdnOrigin** cmdlet to define a site collection as a priva
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/site1/siteassets
 ```
 
-For more information about this command and its syntax, see [Add-PnPTenantCdnOrigin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin).
+For more information about this command and its syntax, see [Add-PnPTenantCdnOrigin](https://docs.microsoft.com/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin).
   
 Once you've run the command, the system synchronizes the configuration across the datacenter. You may see a _Configuration pending_ message which is expected as the SharePoint Online tenant connects to the CDN service. This can take up to 15 minutes.
 
