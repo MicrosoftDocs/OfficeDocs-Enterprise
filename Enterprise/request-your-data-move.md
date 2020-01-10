@@ -41,13 +41,8 @@ Existing Office 365 customers are eligible to request early migration for their 
 
 Eligible customers will see a page in the [Microsoft 365 admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
-To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
-  
-![Settings menu with Organizational Profile highlighted](media/22799fac-32b4-4f79-ae60-3f6ffb7cfbd7.png)
-  
-On the **Organization Profile** page, scroll down to the **Data Residency Option** section. 
-  
-![Data residency card](media/dataresidencyae.jpg)
+To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Settings**.
+Select the tab **Organisation profile**, then select the option **Data residency**.
   
 **You may not see this section if one of the following apply**:
 - Your tenant is not eligible for the Office 365 Move Program.  Eligibility is determined by tenant signup country.
