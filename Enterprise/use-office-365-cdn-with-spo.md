@@ -444,7 +444,7 @@ For more information about this cmdlet, see [Set-SPOTenantCdnEnabled](https://te
 
 The procedures in this section require you to use PnP PowerShell to connect to SharePoint Online. For instructions, see [Getting started with PnP PowerShell](https://github.com/SharePoint/PnP-PowerShell#getting-started).
 
-Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using PnP Powershell.
+Complete these steps to set up and configure the CDN to host your assets in SharePoint Online using PnP PowerShell.
 
 <details>
   <summary>Click to expand</summary>
