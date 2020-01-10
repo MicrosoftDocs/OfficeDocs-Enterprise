@@ -694,7 +694,7 @@ You can remove access to a folder or SharePoint library that you identified as a
 Remove-PnPTenantCdnOrigin -OriginUrl <path> -CdnType <Public | Private | Both>
 ```
 
-For information on how to use this cmdlet, see [Remove-PnPTenantCdnOrigin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/remove-pnptenantcdnorigin).
+For information on how to use this cmdlet, see [Remove-PnPTenantCdnOrigin](https://docs.microsoft.com/powershell/module/sharepoint-pnp/remove-pnptenantcdnorigin).
 
 <a name="Office365CDNforSPORemoveOriginPnPPosh"> </a>
 #### Modify an origin in the Office 365 CDN
