@@ -656,7 +656,7 @@ Once you've run the command, the system synchronizes the configuration across th
   Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl */publishingimages
   ```
 
-For more information about this command and its syntax, see [Add-PnPTenantCdnOrigin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin).
+For more information about this command and its syntax, see [Add-PnPTenantCdnOrigin](https://docs.microsoft.com/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin).
 
 Once you've run the command, the system synchronizes the configuration across the datacenter. This can take up to 15 minutes.
 
