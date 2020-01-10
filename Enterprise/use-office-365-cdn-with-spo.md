@@ -607,7 +607,7 @@ Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl sites/test/siteassets/folder%
 Add-PnPTenantCdnOrigin -CdnType Private -OriginUrl "sites/test/siteassets/folder 1"
 ```
 
-For more information about this command and its syntax, see [Add-PnPTenantCdnOrigin](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin).
+For more information about this command and its syntax, see [Add-PnPTenantCdnOrigin](https://docs.microsoft.com/powershell/module/sharepoint-pnp/add-pnptenantcdnorigin).
 
 > [!NOTE]
 > In private origins, assets being shared from an origin must have a major version published before they can be accessed from the CDN.
