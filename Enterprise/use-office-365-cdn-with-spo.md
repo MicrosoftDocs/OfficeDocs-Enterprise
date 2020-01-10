@@ -527,7 +527,7 @@ To see what file types are currently allowed by the CDN, use the **Get-PnPTenant
 Get-PnPTenantCdnPolicies -CdnType <Public | Private>
 ```
 
-For more information about these cmdlets, see [Set-PnPTenantCdnPolicy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/set-pnptenantcdnpolicy) and [Get-PnPTenantCdnPolicies](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/get-pnptenantcdnpolicies).
+For more information about these cmdlets, see [Set-PnPTenantCdnPolicy](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnptenantcdnpolicy) and [Get-PnPTenantCdnPolicies](https://docs.microsoft.com/powershell/module/sharepoint-pnp/get-pnptenantcdnpolicies).
 
 <a name="Office365CDNforPnPPoshSiteClassification"> </a>
 ### Change the list of site classifications you want to exclude from the Office 365 CDN (Optional)
