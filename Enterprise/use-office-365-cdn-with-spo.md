@@ -560,7 +560,7 @@ The _ExcludeRestrictedSiteClassifications_ property contains the site classifica
 
 The _ExcludeIfNoScriptDisabled_ property excludes content from the CDN based on the site-level _NoScript_ attribute settings. By default, the _NoScript_ attribute is set to **Enabled** for _Modern_ sites and **Disabled** for _Classic_ sites. This depends on your tenant settings.
 
-For more information about these cmdlets, see [Set-PnPTenantCdnPolicy](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/set-pnptenantcdnpolicy) and [Get-PnPTenantCdnPolicies](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/get-pnptenantcdnpolicies).
+For more information about these cmdlets, see [Set-PnPTenantCdnPolicy](https://docs.microsoft.com/powershell/module/sharepoint-pnp/set-pnptenantcdnpolicy) and [Get-PnPTenantCdnPolicies](https://docs.microsoft.com/powershell/module/sharepoint-pnp/get-pnptenantcdnpolicies).
 
 <a name="Office365CDNforPnPPoshOrigin"> </a>
 ### Add an origin for your assets
