@@ -37,7 +37,7 @@ Download and install the [Skype for Business Online Connector module](https://ww
 2. In the **Windows PowerShell Credential Request** dialog box, type your Skype for Business Online administrator account name and password, and then click **OK**.
 
 
-## Connect using a Skype for Business Online administrator account with multifactor authentication
+## Connect using a Skype for Business Online administrator account with multi-factor authentication
 
 1. Open a Windows PowerShell command prompt and run the following commands:
 
