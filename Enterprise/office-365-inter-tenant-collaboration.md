@@ -99,6 +99,6 @@ No. Vanity domains, such as fabrikam.com or tailspintoys.com, can only be associ
   
 ### What about hybrid components and Office 365 inter-tenant collaboration?
 
-On-premises hybrid components, such as an Exchange organization and Azure AD Connect, cannot be split across multiple tenants.
+On-premises hybrid components, such as an Exchange organization cannot be split across multiple tenants.
   
 
