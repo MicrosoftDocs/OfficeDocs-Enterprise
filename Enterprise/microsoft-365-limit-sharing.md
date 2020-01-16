@@ -31,29 +31,54 @@ Discussion of the downsides of limiting sharing
 
 ## Office 365 group or team
 
-Make the team private
+If you want to limit sharing in an Office 365, it's important to make the group private. People inside your organization can join a public team anytime. Unless the team is private, there's no way to limit sharing within the organization.
 
 ### Guest sharing
 
 Turn off guest sharing for Teams
 
+To turn off guest sharing for Teams
+1. In the Teams admin center, expand **Org-wide settings**, and then click **Guest access**.
+2. Turn off **Allow guest access in Teams**.
+3. Click **Save**.
+
+
+
 Turn off guest sharing for Office 365 groups
+
+To turn off guest sharing in Office 365 groups
+1. In the Microsoft 365 admin center, click **Settings**, and then click **Settings**.
+2. On the **Services** tab, click **Office 365 Groups**.
+3. Clear the **Let group members outside your organization access group content** and **Let group owners add people outside your organization to groups** check boxes.
+4. Click **Save changes**.
+
+    ![Screenshot of Office 365 groups sharing settings in the Microsoft 365 admin center](media/office-365-groups-guest-settings-off.png)
+
 
 Turn off guest sharing for a specific group or team
 
 PowerShell - turn off external users for group/team
 [Block guest users from a specific group](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group)
 
-block domain at SharePoint or Azure AD level
+To allow sharing invitations only from specified domains
+1. In Azure Active Directory, on the Overview page, click **Organizational relationships**.
+2. Click **Settings**.
+3. Under **Collaboration restrictions**, select **Deny invitations to the specified domains** or **Allow invitations only to the specified domains**, and then type the domains that you want to use.
+4. Click **Save**.
+
+    ![Screenshot of collaboration restrictions settings in Azure Active Directory](media/azure-ad-allow-only-specified-domains.png)
 
 ## SharePoint site
 
 Limit sharing of files, folders, and the site to site owners
 
+![Screenshot of sharing permissions settings in a SharePoint site](media/sharepoint-site-only-site-owners-can-share.png)
+
 Turn off access requests
 
 Turn off guest sharing
 
+limit by domain
 
 ## Direct file permissions
 
