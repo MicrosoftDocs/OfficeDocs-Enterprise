@@ -1,8 +1,8 @@
 ---
 title: "Use the Centralized Deployment PowerShell cmdlets to manage add-ins"
-ms.author: twerner
-author: twernermsft
-manager: scotv
+ms.author: kvice
+author: kelleyvice-msft
+manager: laurawi
 ms.date: 5/31/2017
 audience: Admin
 ms.topic: article
@@ -101,7 +101,7 @@ Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 To get full details of all the add-ins plus the assigned users and groups, pipe the output of the **Get-OrganizationAddIn** cmdlet to the Format-List cmdlet, as shown in the following example.
   
 ```powershell
-Get-OrganizationAddIn |Format-List
+foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.ProductId | Format-List}
 ```
 
 ## Turn on or turn off an add-in
