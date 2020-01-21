@@ -60,7 +60,7 @@ We calculate a potential improvement in TCP latency to the Exchange Online servi
 
 The network TCP latency of the user office location to the Exchange Online service front door is compared to other Office 365 customers in the same metro area. A network insight is shown if 10% or more of customers in the same metro area have better performance.
 
-This network insight is generated on the basis that all users in a city have access to the same telecommunications infrastructure and the same proximity to Internet circuits and Microsoft&#39;s network.
+This network insight is generated on the basis that all users in a city have access to the same telecommunications infrastructure and the same proximity to Internet circuits and Microsoft's network.
 
 ## In use default gateway
 
@@ -92,21 +92,21 @@ We identify proxy server(s) configured on the local machine. We identify if any 
 
 ## Media quality checks
 
-This test installs and runs the Skype for Business network assessment tool and interprets the results. The tool can be found at [https://www.microsoft.com/en-us/download/details.aspx?id=53885](https://www.microsoft.com/en-us/download/details.aspx?id=53885)
+This test installs and runs the Skype for Business network assessment tool and interprets the results. The tool can be found at [https://www.microsoft.com/download/details.aspx?id=53885](https://www.microsoft.com/download/details.aspx?id=53885).
 
 These are UDP protocol tests as is used by Microsoft Teams audio and video call and conferencing functionality. We test for UDP packet loss, UDP network latency, UDP jitter, and UDP packet reorder. A network insight is shown if any of these are over the allowable range.
 
 ## TCP Connectivity tests
 
-We test for HTTP connectivity from the user office location to all of the required Office 365 network endpoints. These are published at [http://aka.ms/o365ip](http://aka.ms/o365ip). A network insight is shown for any required network endpoints which cannot be connected to.
+We test for HTTP connectivity from the user office location to all of the required Office 365 network endpoints. These are published at [https://aka.ms/o365ip](https://aka.ms/o365ip). A network insight is shown for any required network endpoints which cannot be connected to.
 
 Connectivity ay be blocked by a proxy server, a firewall, or another network security device on the enterprise network perimeter or in use as a cloud proxy.
 
 ## SSL interception tests
 
-We test the SSL certificate at each required Office 365 network endpoint that is in the optimize or allow category as defined at [http://aka.ms/o365ip](http://aka.ms/o365ip). If any tests do not find a Microsoft SSL certificate, then the encrypted network connected must have been intercepted by an intermediary network device. A network insight is shown on any intercepted encrypted network endpoints.
+We test the SSL certificate at each required Office 365 network endpoint that is in the optimize or allow category as defined at [https://aka.ms/o365ip](https://aka.ms/o365ip). If any tests do not find a Microsoft SSL certificate, then the encrypted network connected must have been intercepted by an intermediary network device. A network insight is shown on any intercepted encrypted network endpoints.
 
-Where an SSL certificate is found that isn&#39;t provided by Microsoft, we show the FQDN for the test and the in-use SSL certificate owner. This SSL certificate owner may be a proxy server vendor, or it may be an enterprise self-signed certificate.
+Where an SSL certificate is found that isn't provided by Microsoft, we show the FQDN for the test and the in-use SSL certificate owner. This SSL certificate owner may be a proxy server vendor, or it may be an enterprise self-signed certificate.
 
 ## Network path diagnostics
 
