@@ -31,20 +31,18 @@ Discussion of the downsides of limiting sharing
 
 ## Office 365 group or team
 
-If you want to limit sharing in an Office 365, it's important to make the group private. People inside your organization can join a public team anytime. Unless the team is private, there's no way to limit sharing within the organization.
+If you want to limit sharing in an Office 365 group or Microsoft Teams team, it's important to make the group or team private. People inside your organization can join a public group or team anytime. Unless the group or team is private, there's no way to limit sharing within the organization.
 
 ### Guest sharing
 
-Turn off guest sharing for Teams
+If you want to prevent guest access in Teams, you can turn off guest sharing in the Teams admin center.
 
 To turn off guest sharing for Teams
 1. In the Teams admin center, expand **Org-wide settings**, and then click **Guest access**.
 2. Turn off **Allow guest access in Teams**.
 3. Click **Save**.
 
-
-
-Turn off guest sharing for Office 365 groups
+If you want to prevent guest access in Office 365 groups, you can turn off the groups guest access settings in the Microsoft 365 admin center.
 
 To turn off guest sharing in Office 365 groups
 1. In the Microsoft 365 admin center, click **Settings**, and then click **Settings**.
@@ -54,11 +52,10 @@ To turn off guest sharing in Office 365 groups
 
     ![Screenshot of Office 365 groups sharing settings in the Microsoft 365 admin center](media/office-365-groups-guest-settings-off.png)
 
+> [!NOTE]
+> If you want to prevent guest sharing for a particular group or team, you can do so by using Microsoft PowerShell. See [Block guest users from a specific group](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group) for details.
 
-Turn off guest sharing for a specific group or team
-
-PowerShell - turn off external users for group/team
-[Block guest users from a specific group](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group)
+You can limit guest sharing to users from specific domains by allowing or blocking domains in Azure Active Directory. This will also affect guest sharing in SharePoint if you have enabled [SharePoint and OneDrive integration with Azure AD B2B](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview).
 
 To allow sharing invitations only from specified domains
 1. In Azure Active Directory, on the Overview page, click **Organizational relationships**.
