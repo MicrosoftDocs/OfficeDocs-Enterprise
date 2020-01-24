@@ -95,29 +95,41 @@ To limit site sharing by domain
 
     ![Screenshot of allowed domains site-level setting](media/limit-site-sharing-by-domain.png)
 
-Turn off guest sharing
-
-limit by domain
-
 ## Sharing with specific people
 
 Limit sharing of files, folders, and the site to site owners
 
-![Screenshot of sharing permissions settings in a SharePoint site](media/sharepoint-site-only-site-owners-can-share.png)
+To limit site, file, and folder sharing to owners
+1. In the site, click the gear icon, and then click **Site permissions**.
+2. Under **Sharing settings**, click **Change sharing settings**.
+3. Select **Only site owners can share files, folders, and the site**.
+4. Click **Save**.
+
+    ![Screenshot of sharing permissions settings in a SharePoint site](media/sharepoint-site-only-site-owners-can-share.png)
 
 *Specific people* sharing link
 
 ## SharePoint guest sharing
 
+To turn off SharePoint guest sharing for your organization
+1. In the SharePoint admin center, under **Policies**, click **Sharing**.
+2. Under **External sharing**, drag the SharePoint slider down to **Only people in your organization**.
+3. Click **Save**.
 
-![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-tenant-sharing-off.png)
+    ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-tenant-sharing-off.png)
 
 
 Turn off Anyone links at the organization level
 
 Turn off Anyone links at the site level
 
-![Screenshot of SharePoint site-level sharing settings](media/sharepoint-site-external-sharing-settings-off.png)
+To turn off guest sharing for a site
+1. In the SharePoint admin center, under **Sites**, click **Active sites**.
+2. Click the site that you want to configure.
+3. On the **Policies** tab, under **External sharing** click **Edit**.
+4. Under **External sharing**, choose **Only people in your organization**, and then click **Save**.
+
+    ![Screenshot of SharePoint site-level sharing settings](media/sharepoint-site-external-sharing-settings-off.png)
 
 
 ## *People in your organization* sharing link
