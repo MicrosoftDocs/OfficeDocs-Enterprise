@@ -3,7 +3,7 @@ title: "Use the Centralized Deployment PowerShell cmdlets to manage add-ins"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 5/31/2017
+ms.date: 1/24/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -163,6 +163,7 @@ To delete an add-in, run the **Remove-OrganizationAddIn** cmdlet with the  _Prod
 Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 ```
 
+<!--
 ## Customize Microsoft Store add-ins for your organization
 
 You must customize the add-in before you deploy it to your organization. Add-ins older than version 1.1 are not supported by this feature. 
@@ -257,6 +258,8 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 1. Go to your user folder
 1. Navigate to AppData\Local\Microsoft\Office and select the folder associated with your version of Office
 1. In the *Wef* folder delete the *Manifests* folder.
+
+-->
 
 ## Get detailed help for each cmdlet
 
