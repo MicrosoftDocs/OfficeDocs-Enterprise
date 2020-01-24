@@ -139,7 +139,7 @@ Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingL
 
 ## Email
 
-Encrypt the content by using sensitivity labels.
+You can prevent unwanted sharing of emails by using encryption. This prevents emails being forwarded or otherwise shared with unauthorized users. Email encryption can be enabled by using sensitivity labels. See [Restrict access to content by using encryption in sensitivity labels](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels) for details.
 
 ## Download or file copy
 
@@ -153,14 +153,6 @@ Domain filtering
 
 
 
-Site settings - owners-only sharing
-Site settings - Only people in the organization
-PowerShell - turn off company links for OneDrive?
-Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingLinks
-
-At the tenant level
-At the team/group level
-At the site level
 At the OneDrive level
 
 
