@@ -66,13 +66,34 @@ To allow sharing invitations only from specified domains
 
 ## SharePoint site
 
-You can limit SharePoint site sharing to site owners. 
+You can limit SharePoint site sharing to site owners only. This prevents site members from sharing the site. Keep in mind that if the site is connected to an Office 365 group, group members can invite others to the group and those users will have site access.
 
-Limit sharing of files, folders, and the site to site owners
+To limit site sharing to owners
+1. In the site, click the gear icon, and then click **Site permissions**.
+2. Under **Sharing settings**, click **Change sharing settings**.
+3. Select **Site owners and members, and people with Edit permissions can share files and folders, but only site owners can share the site**.
+4. Click **Save**.
 
-![Screenshot of sharing permissions settings in a SharePoint site](media/sharepoint-site-sharing-permissions-level-two.png)
+    ![Screenshot of sharing permissions settings in a SharePoint site](media/sharepoint-site-sharing-permissions-level-two.png)
 
-Turn off access requests
+You can prevent users who are not members of the site from requesting access by turning off access requests.
+
+To turn off access requests
+1. In the site, click the gear icon, and then click **Site permissions**.
+2. Under **Sharing settings**, click **Change sharing settings**.
+3. Turn off **Allow access requests**, and then click **Save**.
+
+You can limit site sharing to specific domains by allowing or blocking domains for the site.
+
+To limit site sharing by domain
+1. In the SharePoint admin center, under **Sites**, click **Active sites**.
+2. Click the site that you want to configure.
+3. On the **Policies** tab, under **External sharing** click **Edit**.
+4. Under **Advanced settings for external sharing**, select the **Limit sharing by domain**.
+5. Add the domains that you want to allow or block, and then click **Save**.
+6. Click **Save**.
+
+    ![Screenshot of allowed domains site-level setting](media/limit-site-sharing-by-domain.png)
 
 Turn off guest sharing
 
