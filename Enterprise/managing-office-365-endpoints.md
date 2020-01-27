@@ -3,7 +3,7 @@ title: "Managing Office 365 endpoints"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/21/2019
+ms.date: 1/24/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -135,9 +135,10 @@ We only provide IP addresses for the Office 365 servers you should route directl
   
 See an IP associated with Office 365 that you want more information on?
   
-1. Check if the IP address is included in a larger published range using a CIDR calculator, such as these for [IPv4](https://www.ipaddressguide.com/cidr) or [IPv6]https://www.ipaddressguide.com/ipv6-cidr).
-2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner.
-3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
+1. Check if the IP address is included in a larger published range using a CIDR calculator, such as these for [IPv4](https://www.ipaddressguide.com/cidr) or [IPv6](https://www.ipaddressguide.com/ipv6-cidr). For example, 40.96.0.0/13 includes the IP Address 40.103.0.1 despite 40.96 not matching 40.103.
+2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner. Many partner network endpoints are listed as belonging to the _default_ category, for which IP addresses are not published.
+3. The IP address may not be part of Office 365 or a dependency. Office 365 network endpoint publishing does not include all of Microsoft network endpoints.
+4. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
 
 <a name="bkmk_cname"> </a>
 ### Some Office 365 URLs point to CNAME records instead of A records in the DNS. What do I have to do with the CNAME records?
@@ -201,7 +202,12 @@ If you're trying to use Office 365 and are finding third party services aren't a
 Restricting access to our consumer services should be done at your own risk. The only reliable way to block consumer services is to restrict access to the  *login.live.com*  FQDN. This FQDN is used by a broad set of services including non-consumer services such as MSDN, TechNet, and others. This FQDN is also used by Microsoft Support's Secure File Exchange program and is necessary to transfer files to facilitate troubleshooting for Microsoft products.  Restricting access to this FQDN may result in the need to also include exceptions to the rule for network requests associated with these services.
   
 Keep in mind that blocking access to the Microsoft consumer services alone won't prevent the ability for someone on your network to exfiltrate information using an Office 365 tenant or other service.
-  
+
+<a name="bkmk_IPOnlyFirewall"> </a>
+### My firewall requires IP Addresses and cannot process URLs. How do I configure it for Office 365?
+
+Office 365 does not provide IP addresses of all required network endpoints. Some are provided as URLs only and are categorized as default. URLs in the default category which are required should be allowed through a proxy server. If you do not have a proxy server then look at how you have configured web requests for URLs that users type into the address bar of a web browser; the user doesn’t provide an IP address either. The Office 365 default category URLs which do not provide IP addresses should be configured in the same way.
+
 ## Related Topics
 
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
