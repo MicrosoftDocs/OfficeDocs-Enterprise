@@ -20,17 +20,17 @@ The methods of sharing files in Microsoft 365 are listed in the table below. Cli
 |:-------------|:----------|:-------------|
 |[Office 365 group or team](#office-365-group-or-team)|People granted access to a Microsoft Teams team or Office 365 group have edit access to files in the associated SharePoint site.|If the group or team is private, sharing invitations to join the team go to the owner for approval. Admins can disable guest access to prevent access by people from outside the organization.|
 |[SharePoint site](#sharePoint-site)|People can be granted Owner, Member, or Visitor access to a SharePoint site and will have that level of access to files in the site.|Site permissions can be restricted so that only site owners can share the site.|
-|[Sharing with specific people](#sharing-with-specific-people)|Site members and people with edit permissions can give direct permissions to files and folders or share them by using *Specific people* links.|Site permissions can be restricted so that only site owners can share files and folders. Direct access and *Specific people* link sharing by site members goes to site owner for approval.|
+|[Sharing with specific people](#sharing-with-specific-people)|Site members and people with edit permissions can give direct permissions to files and folders or share them by using *Specific people* links.|Site permissions can be restricted so that only site owners can share files and folders. In this case, direct access and *Specific people* link sharing by site members goes to site owner for approval.|
 |[SharePoint guest sharing](#sharepoint-guest-sharing)|SharePoint site owners and members can share files and folders with people outside the organization.|Guest sharing can be disabled for the entire organization or for individual sites.|
-|[*People in your organization* sharing link](#people-in-your-organization-sharing-link)|SharePoint site owners and members can share files using *People in your organization* links, which will work for anyone inside the organization.|*People in your organization* links can be disabled at the site level.|
+|[*People in your organization* sharing links](#people-in-your-organization-sharing-link)|SharePoint site owners and members can share files using *People in your organization* links, which will work for anyone inside the organization.|*People in your organization* links can be disabled at the site level.|
 |[Email](#email)|People with access to a file can send it to others via email.|Admins can encrypt files by using sensitivity labels to prevent them being shared with unauthorized people.|
-|[Download of file copy](#download-of-file-copy)|People with access to a file can download or copy it and share it with others outside the scope of Microsoft 365.|Admins can encrypt files by using sensitivity labels to prevent them being shared with unauthorized people.|
+|[Download or file copy](#download-of-file-copy)|People with access to a file can download or copy it and share it with others outside the scope of Microsoft 365.|Admins can encrypt files by using sensitivity labels to prevent them being shared with unauthorized people.|
 
-Discussion of the downsides of limiting sharing
+While you can use the admin controls described in this article to limit sharing in your organization, we highly recommend that you consider using the security and compliance features available in Microsoft 365 to create a secure sharing environment. See [File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration) and [Teams for highly regulated data](https://docs.microsoft.com/microsoft-365/enterprise/secure-teams-highly-regulated-data-scenario) for information.
 
 ## Office 365 group or team
 
-If you want to limit sharing in an Office 365 group or Microsoft Teams team, it's important to make the group or team private. People inside your organization can join a public group or team anytime. Unless the group or team is private, there's no way to limit sharing within the organization.
+If you want to limit sharing in an Office 365 group or Microsoft Teams team, it's important to make the group or team private. People inside your organization can join a public group or team anytime. Unless the group or team is private, there's no way to limit sharing of the team or its files within the organization.
 
 ### Guest sharing
 
@@ -97,7 +97,7 @@ To limit site sharing by domain
 
 ## Sharing with specific people
 
-Limit sharing of files, folders, and the site to site owners
+if you want to limit the sharing of a site or its contents, you can configure the site to only allow site owners to share files, folders, and the site. When this is configured, site members' attempts to share files or folders by using *Specific people* links will go to the site owner for approval.
 
 To limit site, file, and folder sharing to owners
 1. In the site, click the gear icon, and then click **Site permissions**.
@@ -107,9 +107,9 @@ To limit site, file, and folder sharing to owners
 
     ![Screenshot of sharing permissions settings in a SharePoint site](media/sharepoint-site-only-site-owners-can-share.png)
 
-*Specific people* sharing link
-
 ## SharePoint guest sharing
+
+If you want to prevent sharing SharePoint or OneDrive files and folders with people outside your organization, you can turn off guest sharing for the entire organization or for an individual site.
 
 To turn off SharePoint guest sharing for your organization
 1. In the SharePoint admin center, under **Policies**, click **Sharing**.
@@ -119,10 +119,6 @@ To turn off SharePoint guest sharing for your organization
     ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-tenant-sharing-off.png)
 
 
-Turn off Anyone links at the organization level
-
-Turn off Anyone links at the site level
-
 To turn off guest sharing for a site
 1. In the SharePoint admin center, under **Sites**, click **Active sites**.
 2. Click the site that you want to configure.
@@ -131,11 +127,32 @@ To turn off guest sharing for a site
 
     ![Screenshot of SharePoint site-level sharing settings](media/sharepoint-site-external-sharing-settings-off.png)
 
+If you would like to allow sharing with people outside your organization but you want to make sure that everyone authenticates, you can disable *Anyone* (anonymous sharing) links for the entire organization or for an individual site.
+
+To turn off *Anyone* links at the organization level
+1. In the SharePoint admin center, under **Policies**, click **Sharing**.
+2. Under **External sharing**, drag the SharePoint slider down to **New and existing guests**.
+3. Click **Save**.
+
+    ![Screenshot of SharePoint site-level sharing settings](media/sharepoint-guest-sharing-new-and-existing-guests.png)
+
+To turn off *Anyone* links for a site
+1. In the SharePoint admin center, under **Sites**, click **Active sites**.
+2. Click the site that you want to configure.
+3. On the **Policies** tab, under **External sharing** click **Edit**.
+4. Under **External sharing**, choose **New and existing guests**, and then click **Save**.
+
+    ![Screenshot of SharePoint site-level sharing settings](media/sharepoint-site-external-sharing-settings-new-and-existing-guests.png)
 
 ## *People in your organization* sharing link
 
-PowerShell - turn off company links for site
-Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingLinks
+By default, members of a site can share files and folders with other people in your organization by using a *People in your organization* link. You can disable *People in your organization* links by using PowerShell:
+
+`Set-SPOSite -Identity <*site*> -DisableCompanyWideSharingLinks`
+
+For example:
+
+`Set-SPOSite -Identity https://contoso.sharepoint.com -DisableCompanyWideSharingLinks`
 
 ## Email
 
