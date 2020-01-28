@@ -28,6 +28,8 @@ The methods of sharing files in Microsoft 365 are listed in the table below. Cli
 
 While you can use the admin controls described in this article to limit sharing in your organization, we highly recommend that you consider using the security and compliance features available in Microsoft 365 to create a secure sharing environment. See [File collaboration in SharePoint with Microsoft 365](https://docs.microsoft.com/sharepoint/deploy-file-collaboration) and [Teams for highly regulated data](https://docs.microsoft.com/microsoft-365/enterprise/secure-teams-highly-regulated-data-scenario) for information.
 
+To understand how sharing is being used in your organization, [run a report on file and folder sharing](https://docs.microsoft.com/sharepoint/sharing-reports).
+
 ## Office 365 group or team
 
 If you want to limit sharing in an Office 365 group or Microsoft Teams team, it's important to make the group or team private. People inside your organization can join a public group or team anytime. Unless the group or team is private, there's no way to limit sharing of the team or its files within the organization.
@@ -148,7 +150,7 @@ To turn off *Anyone* links for a site
 
 By default, members of a site can share files and folders with other people in your organization by using a *People in your organization* link. You can disable *People in your organization* links by using PowerShell:
 
-`Set-SPOSite -Identity <*site*> -DisableCompanyWideSharingLinks`
+`Set-SPOSite -Identity <site> -DisableCompanyWideSharingLinks`
 
 For example:
 
@@ -162,23 +164,11 @@ You can prevent unwanted sharing of emails by using encryption. This prevents em
 
 Encrypt the content by using sensitivity labels.
 
-## Alternatives to limiting sharing
-
-Encrypt
-Use DLP to restrict sharing
-Domain filtering
-
-
 
 At the OneDrive level
 
 
 
-Alternatives
-
-
-Reporting
-
-
 ## See also
 
+[Microsoft 365 guest sharing settings reference](microsoft-365-guest-settings.md)
