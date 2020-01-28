@@ -162,12 +162,7 @@ You can prevent unwanted sharing of emails by using encryption. This prevents em
 
 ## Download or file copy
 
-Encrypt the content by using sensitivity labels.
-
-
-At the OneDrive level
-
-
+Users who have access to files and folders in Microsoft 365 can download files and copy them to external media. To reduce the risk of unwanted file sharing, you can encrypt the content by using sensitivity labels.
 
 ## See also
 
