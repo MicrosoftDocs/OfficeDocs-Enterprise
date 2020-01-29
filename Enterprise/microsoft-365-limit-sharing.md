@@ -14,9 +14,11 @@ description: "Learn about to limit sharing in Microsoft 365."
 
 # Limit sharing in Microsoft 365
 
-The methods of sharing files in Microsoft 365 are listed in the table below. Click the link in the **Sharing method** column for detailed information.
+While you can't disable internal sharing entirely or remove the Share button from sites, there are a variety of ways that you can limit sharing in Microsoft 365 to meet the needs of your organization.
 
-|Sharing method|Description|Admin controls|
+The methods of sharing files are listed in the table below. Click the link in the **Sharing method** column for detailed information.
+
+|Sharing method|Description|Limiting options|
 |:-------------|:----------|:-------------|
 |[Office 365 group or team](#office-365-group-or-team)|People granted access to a Microsoft Teams team or Office 365 group have edit access to files in the associated SharePoint site.|If the group or team is private, sharing invitations to join the team go to the owner for approval. Admins can disable guest access to prevent access by people from outside the organization.|
 |[SharePoint site](#sharePoint-site)|People can be granted Owner, Member, or Visitor access to a SharePoint site and will have that level of access to files in the site.|Site permissions can be restricted so that only site owners can share the site.|
