@@ -163,7 +163,7 @@ See this guide for the steps to install Office on either a PC or a Mac for your 
 | **Run:** |  [Office 365 ProPlus quick start guide](https://aka.ms/OPPquickstartguide) <BR> |
 |||
 
-The Office 365 ProPlus deployment advisor walks through the steps for helping users install Office 365 ProPlus directly from the Office 365 portal online or for deploying Office 365 ProPlus to your users from an on-premises location. Included are instructions for using System Center Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
+The Office 365 ProPlus deployment advisor walks through the steps for helping users install Office 365 ProPlus directly from the Office 365 portal online or for deploying Office 365 ProPlus to your users from an on-premises location. Included are instructions for using Microsoft Endpoint Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
 
 |||
 |:-------|:-----|
