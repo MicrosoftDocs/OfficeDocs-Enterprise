@@ -149,7 +149,7 @@ Outside of using Office Mobile, users can view Office documents on mobile device
     
 ### Device Management and Software Distribution
 
-Microsoft has new offerings for device management across multiple device brands. Windows Intune is a cloud-based management platform for mobile devices. It can be used either by itself to manage your devices, or coupled with System Center 2012 R2 Configuration Manager and administered within that console. Some benefits of this joint operation include:
+Microsoft has new offerings for device management across multiple device brands. Windows Intune is a cloud-based management platform for mobile devices. It can be used either by itself to manage your devices, or coupled with Microsoft Endpoint Configuration Manager and administered within that console. Some benefits of this joint operation include:
   
 - Policy enforcement and management across multiple devices including Windows RT, Windows 8.1, Windows Phone 8, iOS, and Android
     
@@ -163,15 +163,15 @@ Microsoft has new offerings for device management across multiple device brands.
     
 - Management from a familiar Configuration Manager console
     
-An accompanying diagram shows how you can use System Center 2012 R2 Configuration Manager and Windows Intune for device management.
+An accompanying diagram shows how you can use Configuration Manager and Windows Intune for device management.
   
- **Considerations for using System Center 2012 R2 Configuration Manager and Windows Intune:**
+ **Considerations for using Configuration Manager and Windows Intune:**
   
-- When using both System Center 2012 R2 Configuration Manager and Windows Intune, you can manage and administer all devices in your organization under one console.
+- When using both Configuration Manager and Windows Intune, you can manage and administer all devices in your organization under one console.
     
 - To connect Configuration Manager to Windows Intune, you need a Windows Intune Subscription, and the Windows Intune Connector site server role must be deployed on a server in your Configuration Manager environment.
     
-- System Center 2012 R2 Configuration Manager provides management and software distribution for your on-premises PCs.
+- Microsoft Endpoint Configuration Manager provides management and software distribution for your on-premises PCs.
     
 - Managed modern devices will receive policy enforcement and software distribution from Windows Intune. The supported types of devices include: Windows RT, Windows 8.1, Windows Phone 8, iOS, Android.
     
