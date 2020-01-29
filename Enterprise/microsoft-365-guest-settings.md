@@ -215,7 +215,7 @@ You can set defaults for link type and permissions, and expiration settings for 
 
 |**Setting**|**Default**|**Description**|
 |:-----|:-----|:-----|
-||Limit sharing by domain|Off|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br><br> This setting cannot be used to override domain restrictions set at the organization or Azure AD level.|
+|Limit sharing by domain|Off|This setting allows you to specify a list of allowed or blocked domains for sharing. When allowed domains are specified, then sharing invitations can only be sent to those domains. When denied domains are specified, then sharing invitations cannot be sent to those domains.<br><br> This setting cannot be used to override domain restrictions set at the organization or Azure AD level.|
 |Default sharing link type|Same as organization-level setting|This setting allows you to specify the default sharing link presented to users in this site. The *Same as organization-level setting* option is defined by a combination of organization and site sharing settings.|
 |Advanced settings for Anyone links|Same as organization-level setting|Specifies the number of days after an *Anyone* link is created for a file in this site that it expires. Expired links cannot be renewed. Create a new link if you need to continue sharing past the expiration.|
 |Default link permission|Same as organization-level setting|This setting allows you to specify the default permission (View or Edit) for sharing links created for files in this site.|
