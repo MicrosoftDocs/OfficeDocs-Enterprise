@@ -69,3 +69,5 @@ Follow these steps to get started with multi-geo:
 [Multi-Geo Capabilities in OneDrive and SharePoint Online](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365)
 
 [Multi-Geo Capabilities in Exchange Online](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-exchange-online)
+
+[Teams experience in a multi-geo environment](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo)
