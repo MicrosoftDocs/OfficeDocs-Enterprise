@@ -148,7 +148,7 @@ To turn off *Anyone* links for a site
 
     ![Screenshot of SharePoint site-level sharing settings](media/sharepoint-site-external-sharing-settings-new-and-existing-guests.png)
 
-## *People in your organization* sharing link
+## *People in your organization* sharing links
 
 By default, members of a site can share files and folders with other people in your organization by using a *People in your organization* link. You can disable *People in your organization* links by using PowerShell:
 
