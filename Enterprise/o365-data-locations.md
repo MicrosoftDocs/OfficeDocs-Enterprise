@@ -4661,7 +4661,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | Office Online &amp; Mobile | South Africa |
 | EOP | South Africa |
 | MyAnalytics | South Africa |
-| Planner | Global Geography 1 – EMEA |
+| Planner | United States |
 | Sway | United States |
 | Yammer | Global Geography 1 – EMEA |
 | OneNote Services | South Africa |
