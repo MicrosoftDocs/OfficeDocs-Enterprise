@@ -20,6 +20,9 @@ description: "Overview of network performance recommendations in the Microsoft 3
 
 The network performance page in the Microsoft 365 Admin Center show network insights and a network score for enterprise customers. Network insights are specific recommended network architecture design changes to improve user experience related to network connectivity to Office 365 and the network score shows how network connectivity impacts user experience allowing for comparison of different user location network connections. Enterprises using Office 365 with multiple office locations and non-trivial network perimeter architectures can benefit from this either during their initial onboarding to Office 365, or in order to remediate network performance issues discovered with usage growth. This is usually not necessary for small businesses using Office 365, or any enterprises who already have simple and direct network connectivity. Enterprises with over 500 users and multiple office locations are expected to benefit the most.
 
+>[!IMPORTANT]
+>Network performance recommendations, insights and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+
 ## Enterprise network connectivity challenges
 
 ![Customer network to cloud](Media/m365-mac-perf/m365-mac-perf-first-last-mile.png)

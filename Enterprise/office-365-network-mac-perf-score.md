@@ -24,6 +24,9 @@ It is calculated from measurements that impact user experience in key Office 365
 
 A very low network score suggests that Office 365 clients will have significant problems connecting or remaining user responsive. A score of 80% represents network connectivity where you should not expect to receive user complaints about your Office 365 user experience due to your network performance. As network connectivity improvements are made, this score will increase along with user experience.
 
+>[!IMPORTANT]
+>Network performance recommendations, insights and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+
 ## Exchange Online
 
 For Exchange Online the TCP latency from the client machine to the Exchange front end server is measured. This can be impacted by the distance the network travels over the customers LAN and WAN. It can also be impacted by network intermediary devices or services which delay the connectivity or cause packets to be resent.

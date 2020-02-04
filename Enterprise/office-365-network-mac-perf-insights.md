@@ -20,6 +20,9 @@ description: "Office 365 network performance insights (preview)"
 
 The Microsoft 365 Admin Center network performance pages show Office 365 network insights which can help in designing network perimeters for your office locations. There are five specific network insights that may be shown for each office location.
 
+>[!IMPORTANT]
+>Network performance recommendations, insights and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+
 ## Backhauled network egress
 
 The distance from the user location to the network egress is greater than 500 miles (800 kilometers) and this is expected to be impacting performance. Local egress closer to the user is recommended.
