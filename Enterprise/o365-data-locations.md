@@ -119,8 +119,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Afghanistan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -140,8 +141,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Aland Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -161,8 +163,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Albania
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -182,8 +185,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Algeria
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -203,8 +207,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## American Samoa
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -224,8 +229,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Andorra
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -245,8 +251,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Angola
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -266,8 +273,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Anguilla
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -287,8 +295,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Antarctica
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -308,8 +317,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Antigua and Barbuda
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -329,8 +339,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Argentina
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -350,8 +361,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Armenia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -371,8 +383,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Aruba
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -392,8 +405,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Australia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Australia |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Australia |
 | OneDrive for Business | Australia |
 | SharePoint Online | Australia |
 | Skype for Business | Australia |
@@ -413,8 +427,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Austria
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -434,8 +449,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Azerbaijan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -455,8 +471,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bahamas
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -476,8 +493,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bahrain
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -497,8 +515,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bangladesh
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -518,8 +537,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Barbados
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -539,8 +559,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Belarus
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -560,8 +581,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Belgium
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -581,8 +603,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Belize
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -602,8 +625,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Benin
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -623,8 +647,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bermuda
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -644,8 +669,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bhutan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -665,8 +691,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Boliva
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -686,8 +713,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bonaire
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -707,8 +735,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bosnia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -728,8 +757,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Botswana
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -749,8 +779,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bouvet Island
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -770,8 +801,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Brazil
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -791,8 +823,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## British Indian Ocean Territory
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -812,8 +845,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## British Virgin Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -833,8 +867,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Brunei
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -854,8 +889,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Bulgaria
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -875,8 +911,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Burkina Faso
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -896,8 +933,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Burundi
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -917,8 +955,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cambodia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -938,8 +977,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cameroon
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -959,8 +999,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Canada
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Canada |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Canada |
 | OneDrive for Business | Canada |
 | SharePoint Online | Canada |
 | Skype for Business | Canada |
@@ -980,8 +1021,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cape Verde
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1001,8 +1043,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cayman Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1022,8 +1065,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Central African Republic
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1043,8 +1087,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Chad
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1064,8 +1109,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Chile
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -1085,8 +1131,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## China
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -1106,8 +1153,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Christmas Island
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -1127,8 +1175,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cocos (Keeling) Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -1148,8 +1197,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Colombia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1169,8 +1219,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Comoros
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1190,8 +1241,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Congo (Brazzaville)
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1211,8 +1263,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Congo, (Kinshasa)
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1232,8 +1285,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cook Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -1253,8 +1307,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Costa Rica
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1274,8 +1329,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cote D'Ivoire
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1295,8 +1351,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Croatia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1316,8 +1373,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Curacao
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -1337,8 +1395,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Cyprus
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1358,8 +1417,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Czech Republic
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1379,8 +1439,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Denmark
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1400,8 +1461,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Djibouti
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1421,8 +1483,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Dominica
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1442,8 +1505,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Dominican Republic
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1463,8 +1527,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Ecuador
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -1484,8 +1549,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Egypt
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1505,8 +1571,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## El Salvador
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1526,8 +1593,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Equatorial Guinea
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1547,8 +1615,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Eritrea
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1568,8 +1637,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Estonia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1589,8 +1659,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Ethiopia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1610,8 +1681,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Falkland Islands (Malvinas)
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -1631,8 +1703,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Faroe Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1652,8 +1725,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Federated States of Micronesia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -1673,8 +1747,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Federated States of Micronesia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1694,8 +1769,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Fiji
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Australia |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Australia |
 | OneDrive for Business | Australia |
 | SharePoint Online | Australia |
 | Skype for Business | Australia |
@@ -1715,8 +1791,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Finland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1736,8 +1813,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## France
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | France |
+| Service | Location |
 | --- | --- |
+| Exchange Online | France |
 | OneDrive for Business | France |
 | SharePoint Online | France |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1757,8 +1835,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## French Guiana
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -1778,8 +1857,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## French Polynesia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -1799,8 +1879,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## French Southern Territories
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1820,8 +1901,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Gabon
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1841,8 +1923,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Gambia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1862,8 +1945,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Georgia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1883,8 +1967,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Germany
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Germany |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Germany |
 | OneDrive for Business | Germany |
 | SharePoint Online | Germany |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1904,8 +1989,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Ghana
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1925,8 +2011,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Gibraltar
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1946,8 +2033,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Greece
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -1967,8 +2055,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Greenland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -1988,8 +2077,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Grenada
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2009,8 +2099,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guadeloupe
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2030,8 +2121,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guam
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2051,8 +2143,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guatemala
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2072,8 +2165,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guernsey
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2093,8 +2187,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guinea
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2114,8 +2209,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guinea-Bissau
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2135,8 +2231,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Guyana
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -2156,8 +2253,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Haiti
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2177,8 +2275,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Heard and Mcdonald Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2198,8 +2297,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Herzegovina
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2219,8 +2319,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Holy See (Vatican City State)
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2240,8 +2341,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Honduras
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2261,8 +2363,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Hong Kong SAR
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2282,8 +2385,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Hungary
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2303,8 +2407,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Iceland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2324,8 +2429,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## India
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | India |
+| Service | Location |
 | --- | --- |
+| Exchange Online | India |
 | OneDrive for Business | India |
 | SharePoint Online | India |
 | Skype for Business | India |
@@ -2345,8 +2451,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Indonesia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2366,8 +2473,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Iraq
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2387,8 +2495,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Ireland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2408,8 +2517,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Isle of Man
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2429,8 +2539,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Israel
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2450,8 +2561,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Italy
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2471,8 +2583,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Jamaica
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -2492,8 +2605,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Japan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Japan |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Japan |
 | OneDrive for Business | Japan |
 | SharePoint Online | Japan |
 | Skype for Business | Japan |
@@ -2513,8 +2627,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Jersey
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2534,8 +2649,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Jordan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2555,8 +2671,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Kazakhstan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2576,8 +2693,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Kenya
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2597,8 +2715,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Kiribati
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2618,8 +2737,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Korea
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Korea |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Korea |
 | OneDrive for Business | Korea |
 | SharePoint Online | Korea |
 | Skype for Business | Korea |
@@ -2639,8 +2759,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Kosovo
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2660,8 +2781,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Kuwait
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2681,8 +2803,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Kyrgyzstan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2702,8 +2825,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Laos
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2723,8 +2847,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Latvia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2744,8 +2869,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Lebanon
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2765,8 +2891,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Lesotho
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2786,8 +2913,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Liberia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2807,8 +2935,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Libya
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2828,8 +2957,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Liechtenstein
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Switzerland |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Switzerland |
 | OneDrive for Business | Switzerland |
 | SharePoint Online | Switzerland |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2849,8 +2979,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Lithuania
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2870,8 +3001,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Luxembourg
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2891,8 +3023,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Madagascar
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2912,8 +3045,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Malawi
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2933,8 +3067,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Malaysia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2954,8 +3089,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Maldives
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -2975,8 +3111,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mali
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -2996,8 +3133,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Malta
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3017,8 +3155,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Marshall Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3038,8 +3177,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Martinique
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3059,8 +3199,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mauritania
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3080,8 +3221,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mauritius
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3101,8 +3243,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mayotte
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3122,8 +3265,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mexico
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3143,8 +3287,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Moldova
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3164,8 +3309,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Monaco
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3185,8 +3331,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mongolia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3206,8 +3353,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Montenegro
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3227,8 +3375,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Montserrat
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3248,8 +3397,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Morocco
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3269,8 +3419,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Mozambique
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3290,8 +3441,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Myanmar
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3311,8 +3463,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Namibia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3332,8 +3485,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Nauru
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3353,8 +3507,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Nepal
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3374,8 +3529,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Netherlands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3395,8 +3551,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Netherlands Antilles
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3416,8 +3573,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## New Caledonia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3437,8 +3595,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## New Zealand
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Australia |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Australia |
 | OneDrive for Business | Australia |
 | SharePoint Online | Australia |
 | Skype for Business | Australia |
@@ -3458,8 +3617,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Nicaragua
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3479,8 +3639,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Niger
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3500,8 +3661,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Nigeria
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3521,8 +3683,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Niue
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3542,8 +3705,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Norfolk Island
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3563,8 +3727,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Northern Mariana Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3584,8 +3749,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Norway
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3605,8 +3771,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Oman
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3626,8 +3793,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Pakistan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3647,8 +3815,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Palau
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3668,8 +3837,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Palestinian Authority
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3689,8 +3859,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Panama
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3710,8 +3881,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Papaua New Guinea
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3731,8 +3903,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Paraguay
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -3752,8 +3925,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Peru
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -3773,8 +3947,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Philippines
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3794,8 +3969,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Pitcairn
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -3815,8 +3991,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Poland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3836,8 +4013,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Portugal
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3857,8 +4035,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Puerto Rico
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -3878,8 +4057,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Qatar
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3899,8 +4079,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Republic of Macedonia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3920,8 +4101,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Réunion
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3941,8 +4123,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Romania
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3962,8 +4145,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Russian Federation
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -3983,8 +4167,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Rwanda
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4004,8 +4189,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint Helena
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4025,8 +4211,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint Kitts and Nevis
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4046,8 +4233,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint Lucia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4067,8 +4255,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint Martin
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4088,8 +4277,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint Pierre and Miquelon
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4109,8 +4299,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint Vincent and the Grenadines
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4130,8 +4321,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saint-Barthélemy
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4151,8 +4343,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Samoa
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4172,8 +4365,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## San Marino
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4193,8 +4387,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Sao Tome and Principe
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4214,8 +4409,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Saudi Arabia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4235,8 +4431,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Senegal
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4256,8 +4453,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Serbia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4277,8 +4475,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Seychelles
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4298,8 +4497,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Sierra Leone
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4319,8 +4519,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Singapore
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4340,8 +4541,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Sint Maarten
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4361,8 +4563,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Slovakia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4382,8 +4585,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Slovenia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4403,8 +4607,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Solomon Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4424,8 +4629,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Somalia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4445,8 +4651,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## South Africa
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | South Africa |
+| Service | Location |
 | --- | --- |
+| Exchange Online | South Africa |
 | OneDrive for Business | South Africa |
 | SharePoint Online | South Africa |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4466,8 +4673,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## South Georgia and the South Sandwich Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4487,8 +4695,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Spain
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4508,8 +4717,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Sri Lanka
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4529,8 +4739,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Suriname
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4550,8 +4761,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Svalbard and Jan Mayen Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4571,8 +4783,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Swaziland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4592,8 +4805,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Sweden
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4613,8 +4827,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Switzerland
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Switzerland |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Switzerland |
 | OneDrive for Business | Switzerland |
 | SharePoint Online | Switzerland |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4634,8 +4849,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Taiwan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4655,8 +4871,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Tajikistan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4676,8 +4893,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## United Republic of Tanzania
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4697,8 +4915,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Thailand
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4718,8 +4937,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Timor-Leste
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4739,8 +4959,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Togo
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4760,8 +4981,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Tokelau
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4781,8 +5003,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Tonga
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4802,8 +5025,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Trinidad and Tobago
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4823,8 +5047,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Tunisia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4844,8 +5069,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Turkey
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4865,8 +5091,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Turkmenistan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4886,8 +5113,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Turks and Caicos Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4907,8 +5135,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Tuvalu
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -4928,8 +5157,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## U.S. Virgin Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -4949,8 +5179,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Uganda
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4970,8 +5201,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Ukraine
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -4991,8 +5223,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## United Arab Emirates
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United Arab Emirates |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United Arab Emirates |
 | OneDrive for Business | United Arab Emirates |
 | SharePoint Online | United Arab Emirates |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -5012,8 +5245,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## United Kingdom
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United Kingdom |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United Kingdom |
 | OneDrive for Business | United Kingdom |
 | SharePoint Online | United Kingdom |
 | Skype for Business | United Kingdom |
@@ -5033,8 +5267,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## United States
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -5054,8 +5289,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Uruguay
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 3 – Americas |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 3 – Americas |
 | OneDrive for Business | Global Geography 3 – Americas |
 | SharePoint Online | Global Geography 3 – Americas |
 | Skype for Business | United States |
@@ -5075,8 +5311,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## US Minor Outlying Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -5096,8 +5333,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Uzbekistan
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -5117,29 +5355,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Vanuatu
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
-| OneDrive for Business | Global Geography 2 – Asia Pacific |
-| SharePoint Online | Global Geography 2 – Asia Pacific |
-| Skype for Business | Global Geography 2 – Asia Pacific |
-| Microsoft Teams | Global Geography 2 – Asia Pacific |
-| Office Online &amp; Mobile | Global Geography 2 – Asia Pacific |
-| EOP | Global Geography 2 – Asia Pacific |
-| MyAnalytics | Global Geography 2 – Asia Pacific |
-| Planner | Global Geography 2 – Asia Pacific |
-| Sway | United States |
-| Yammer | United States |
-| OneNote Services | Global Geography 2 – Asia Pacific |
-| Stream | Global Geography 2 – Asia Pacific |
-| Whiteboard | United States |
-| Forms | United States |
-</p></details>
-
-## Vanuatu
-<details><summary>Click to expand</summary><p>
-
 | Exchange Online | Global Geography 2 – Asia Pacific |
-| --- | --- |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -5159,8 +5377,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Venezuela
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | United States |
+| Service | Location |
 | --- | --- |
+| Exchange Online | United States |
 | OneDrive for Business | United States |
 | SharePoint Online | United States |
 | Skype for Business | United States |
@@ -5180,8 +5399,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Vietnam
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -5201,8 +5421,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Wallis and Futuna Islands
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 2 – Asia Pacific |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 2 – Asia Pacific |
 | OneDrive for Business | Global Geography 2 – Asia Pacific |
 | SharePoint Online | Global Geography 2 – Asia Pacific |
 | Skype for Business | Global Geography 2 – Asia Pacific |
@@ -5222,8 +5443,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Western Sahara
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -5243,8 +5465,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Yemen
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -5264,8 +5487,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Zambia
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
@@ -5285,8 +5509,9 @@ Expand the country that your tenant is based in to find out where customer data 
 ## Zimbabwe
 <details><summary>Click to expand</summary><p>
 
-| Exchange Online | Global Geography 1 – EMEA |
+| Service | Location |
 | --- | --- |
+| Exchange Online | Global Geography 1 – EMEA |
 | OneDrive for Business | Global Geography 1 – EMEA |
 | SharePoint Online | Global Geography 1 – EMEA |
 | Skype for Business | Global Geography 1 – EMEA |
