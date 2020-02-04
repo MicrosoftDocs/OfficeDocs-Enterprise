@@ -110,7 +110,7 @@ Verify and check these items off your list before you continue:
 - C:\Program Files\Skype for Business Server 2015\Web Components\Web ticket\ext\web.config
 
 ```xml
-<system.identityModel.services>
+<configuration>
   <system.net>
     <defaultProxy>
       <proxy
@@ -118,7 +118,7 @@ Verify and check these items off your list before you continue:
         bypassonlocal="true" />
     </defaultProxy>
   </system.net>
-</system.identityModel.services>
+</configuration>
 ```
 
 > [!IMPORTANT]
