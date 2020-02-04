@@ -25,11 +25,11 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 # Where your customer data is stored
 
-The tables below shows where customer data is stored at-rest for Office 365 services across all of Microsoft&#39;s global cloud Geos. Expand the Geo that your tenant is based in to find out where customer data for each service is being stored.
+The tables below shows where customer data is stored at-rest for Office 365 services across all of Microsoft's global cloud locations. Expand the location that your tenant is based in to find out where customer data for each service is being stored.
 
-Customers can view tenant specific data location information in your Office 365 Admin Center. Admins go to **Settings | Organization profile | Data location card**.
+Customers can view tenant specific data location information in your Office 365 Admin Center in **Settings | Organization profile | Data location card**.
 
-New Office 365 tenants are defaulted to Geo based on the country of the transaction associated with that tenant&#39;s first subscription.
+New Office 365 tenants are defaulted to Geo based on the country of the transaction associated with that tenant's first subscription.
 
 Find information about the contractual commitments for the storage location of customer data at rest in the [Microsoft Online Services Terms (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
 
@@ -45,13 +45,13 @@ Review our [definitions for different types of data](https://go.microsoft.com/fw
 
 Microsoft does not disclose the exact addresses of its data centers. We established this policy to help secure our data center facilities.
 
-### Does the location of your customer data have a direct impact on your end users&#39; experience?
+### Does the location of your customer data have a direct impact on your end users' experience?
 
-The performance of Office 365 is not simply proportional to a user&#39;s distance to data center locations. Microsoft&#39;s continued investments in its global cloud network, global cloud infrastructure, and the Office 365 services architecture help provide users with a singular, consistent experience independent of where customer data is stored at rest. If your users are experiencing performance issues, you should troubleshoot those in depth. Microsoft has published guidance for Office 365 customers to plan for and optimize end-user performance on the [Office Support web site](https://go.microsoft.com/fwlink/p/?linkid=862645).
+The performance of Office 365 is not simply proportional to a user's distance to data center locations. Microsoft's continued investments in its global cloud network, global cloud infrastructure, and the Office 365 services architecture help provide users with a singular, consistent experience independent of where customer data is stored at rest. If your users are experiencing performance issues, you should troubleshoot those in depth. Microsoft has published guidance for Office 365 customers to plan for and optimize end-user performance on the [Office Support web site](https://go.microsoft.com/fwlink/p/?linkid=862645).
 
 ### How does Microsoft help me comply with my national, regional, and industry-specific regulations?
 
-To help you comply with national, regional, and industry-specific requirements governing the collection and use of individuals&#39; data, Office 365 offers the most comprehensive set of compliance offerings of any global cloud productivity provider. Please review [our compliance offerings](https://go.microsoft.com/fwlink/p/?linkid=864391) and more details in the [Office 365 Compliance](https://go.microsoft.com/fwlink/p/?linkid=862317) section on the Microsoft Trust Center. Also, certain Office 365 plans offer further compliance solutions to help you manage your data, comply with legal and regulatory requirements, and monitor actions taken on your data.
+To help you comply with national, regional, and industry-specific requirements governing the collection and use of individuals' data, Office 365 offers the most comprehensive set of compliance offerings of any global cloud productivity provider. Please review [our compliance offerings](https://go.microsoft.com/fwlink/p/?linkid=864391) and more details in the [Office 365 Compliance](https://go.microsoft.com/fwlink/p/?linkid=862317) section on the Microsoft Trust Center. Also, certain Office 365 plans offer further compliance solutions to help you manage your data, comply with legal and regulatory requirements, and monitor actions taken on your data.
 
 ### Who can access your data and according to what rules?
 
@@ -71,7 +71,7 @@ Office 365 uses service-side technologies that encrypt customer data at rest and
 
 ### Where can I find data residency information for Microsoft Azure?
 
-Please review the[Products available by region](https://go.microsoft.com/fwlink/p/?linkid=2093451) page to find data residency information for Microsoft Azure.
+Please review the [Products available by region](https://go.microsoft.com/fwlink/p/?linkid=2093451) page to find data residency information for Microsoft Azure.
 
 ### What are Multi-Geo Capabilities in Office 365?
 
@@ -87,7 +87,7 @@ The table below defines the data location for various services. When determining
 
 ### Data Center Geographies
 
-The following global geographies can store data at rest.  The countries/regions can change and you can find the current information in the[Microsoft Online Services Terms (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
+The following global geographies can store data at rest.  The countries/regions can change and you can find the current information in the [Microsoft Online Services Terms (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
 
 | Global Geographies | Countries/regions where customer data may be stored |
 | --- | --- |
@@ -114,7 +114,7 @@ For country/region specific data centers, the following defines the cities where
 | United Kingdom | Durham, London, Cardiff |
 | United States | Bay Area, Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio |
 
-Expand the country that your tenant is based in to find out where customer data for each service is being stored.
+Expand the country that your tenant is based in to find out where customer data for each service is stored.
 
 ## Afghanistan
 <details><summary>Click to expand</summary><p>
@@ -1271,7 +1271,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-## Cote D&#39;Ivoire
+## Cote D'Ivoire
 <details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
