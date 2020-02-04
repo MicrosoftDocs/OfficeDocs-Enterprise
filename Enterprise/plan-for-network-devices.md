@@ -20,7 +20,7 @@ description: "Summary: Describes considerations for network capacity, WAN accele
 
 # Plan for network devices that connect to Office 365 services
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
   
 **Summary**: Describes considerations for network capacity, WAN accelerators, and load balancing devices that are used to connect to Office 365.
 

@@ -73,7 +73,7 @@ MDM compliance reports provide an overview of policies set up by an organization
 
 DLP policies help manage the security and flow of information in an organization. You can set up policies to block access to content, encrypt data, or notify users of policy and policy violations using in-application DLP Policy Tips. DLP reports provide insight into the number of policy and rule matches, overrides, and false positives.
 
-You use the Microsoft 365 admin center to view information about the number of messages detected by your DLP policies. DLP reports provide insights into policy and rule matches for sent and received mail. You can also view the number of matches, overrides, and false positives for each policy within the past 24 hours using the Exchange admin center. If you download an Excel report, you can view even more detail, such as who sent which message, on what day, and what policy matches were triggered. For more information, see [View reports about DLP policy detections](https://technet.microsoft.com/en-us/library/jj889415(v=exchg.150).aspx).
+You use the Microsoft 365 admin center to view information about the number of messages detected by your DLP policies. DLP reports provide insights into policy and rule matches for sent and received mail. You can also view the number of matches, overrides, and false positives for each policy within the past 24 hours using the Exchange admin center. If you download an Excel report, you can view even more detail, such as who sent which message, on what day, and what policy matches were triggered. For more information, see [View reports about DLP policy detections](https://technet.microsoft.com/library/jj889415(v=exchg.150).aspx).
 
 ## Auditing in Yammer Enterprise
 

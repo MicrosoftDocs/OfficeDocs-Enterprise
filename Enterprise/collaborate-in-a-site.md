@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Collaborate with guests in a site"
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -15,6 +15,12 @@ description: "Learn how to collaborate with guests in a SharePoint site."
 If you need to collaborate with guests across documents, data, and lists, you can use a SharePoint site. Modern SharePoint sites are connected to Office 365 Groups which can manage the site membership and provide additional collaboration tools such as a shared mailbox and calendar.
 
 In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up a SharePoint site for collaboration with guests.
+
+## Video demonstration
+
+This video shows the configuration steps described in this document.</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44Llg?autoplay=false]
 
 ## Azure Organizational relationships settings
 
@@ -56,7 +62,7 @@ In order for guests to have access to SharePoint sites, the SharePoint organizat
 
 The organization-level settings determine what settings are available for individual sites. Site settings cannot be more permissive than the organization-level settings.
 
-If you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
+If you want to allow unauthenticated file and folder sharing, choose **Anyone**. If you want to ensure that all people outside your organization have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
 
 ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
 
@@ -87,7 +93,7 @@ We'll invite users later. Next, it's important to check the site-level sharing s
 
 Check the site-level sharing settings to make sure that they allow the type of access that you want for this site. For example, if you set the organization-level settings to **Anyone**, but you want all guests to authenticate for this site, then make sure the site-level sharing settings are set to **New and existing guests**.
 
-Note that the site cannot be shared with anonymous users (**Anyone** setting), but individual files and folders can.
+Note that the site cannot be shared with unauthenticated people (**Anyone** setting), but individual files and folders can.
 
 ![Screenshot of SharePoint site external sharing settings](media/sharepoint-site-external-sharing-settings.png)
 
@@ -110,7 +116,7 @@ To invite internal users to a group
 
 Guest users can't be added from the site. You need to add them using Outlook on the web.
 
-To invite guests to a site
+To invite guests to a group
 1. In Outlook on the web, under **Groups**, click the group where you want to add members.
 2. Open the group contact card, and then, under **More options** (...), click **Add members**.
 3. Type the email addresses of the guests that you want to invite, and then click **Add**.
@@ -118,9 +124,11 @@ To invite guests to a site
 
 ## See Also
 
-[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+[Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)
 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
-[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md))
+[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
+
+[Create a B2B extranet with managed guests](b2b-extranet.md)
 

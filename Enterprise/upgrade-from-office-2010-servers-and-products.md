@@ -25,6 +25,8 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Office 2010, Exchange Server 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. 
 
 While you're planning your upgrade, this is a great time to consider moving to Office 365 or Microsoft 365. 
@@ -35,7 +37,7 @@ While you're planning your upgrade, this is a great time to consider moving to O
 
 For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
 
-![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+![Office 2010 clients and servers and Windows 7 end of support poster](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
 
 This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
 

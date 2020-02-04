@@ -152,9 +152,9 @@ This URI shows an RSS feed of the published versions that include links to the l
 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<rss version="2.0" xmlns:a10="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:a10="https://www.w3.org/2005/Atom">
 <channel>
-<link>http://aka.ms/o365ip</link>
+<link>https://aka.ms/o365ip</link>
 <description/>
 <language>en-us</language>
 <lastBuildDate>Thu, 02 Aug 2018 00:00:00 Z</lastBuildDate>
@@ -524,7 +524,8 @@ Here is a Python script, tested with Python 3.6.3 on Windows 10, that you can ru
 
 ```python
 import json
-import os
+import tempfile
+from pathlib import Path
 import urllib.request
 import uuid
 # helper to call the webservice and parse the response
@@ -535,9 +536,9 @@ def webApiGet(methodName, instanceName, clientRequestId):
     with urllib.request.urlopen(request) as response:
         return json.loads(response.read().decode())
 # path where client ID and latest version number will be stored
-datapath = os.environ['TEMP'] + '\endpoints_clientid_latestversion.txt'
+datapath = Path(tempfile.gettempdir() + '/endpoints_clientid_latestversion.txt')
 # fetch client ID and version if data exists; otherwise create new file
-if os.path.exists(datapath):
+if datapath.exists():
     with open(datapath, 'r') as fin:
         clientRequestId = fin.readline().strip()
         latestVersion = fin.readline().strip()
@@ -598,7 +599,7 @@ You can use a few different methods to get email notifications when changes to t
 
 - To use a Microsoft Flow solution, see [Use Microsoft Flow to receive an email for changes to Office 365 IP Addresses and URLs](https://techcommunity.microsoft.com/t5/Office-365-Networking/Use-Microsoft-Flow-to-receive-an-email-for-changes-to-Office-365/m-p/240651).
 - To deploy an Azure Logic App using an ARM template, see [Office 365 Update Notification (v1.1)](https://aka.ms/ipurlws-updates-template).
-- To write your own notification script using PowerShell, see [Send-MailMessage](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/send-mailmessage).
+- To write your own notification script using PowerShell, see [Send-MailMessage](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/send-mailmessage).
 
 ## Exporting a Proxy PAC file
 

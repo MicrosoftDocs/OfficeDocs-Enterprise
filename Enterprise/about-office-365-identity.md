@@ -23,7 +23,7 @@ description: "Learn how user identity is managed in Office 365."
 
 # Office 365 identity models and Azure Active Directory
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Office 365 uses Azure Active Directory (Azure AD), a cloud-based user identity and authentication service that is included with your Office 365 subscription, to manage identities and authentication for Office 365. Getting your identity infrastructure configured correctly is vital to managing Office 365 user access and permissions for your organization.
 
@@ -54,7 +54,7 @@ A cloud-only identity uses user accounts that exist only in Azure AD. Cloud iden
 
 Here are the basic components of cloud-only identity.
  
-![](./media/about-office-365-identity/cloud-only-identity.png)
+![Basic components of cloud-only identity](./media/about-office-365-identity/cloud-only-identity.png)
 
 Both on-premises and remote (online) users use their Azure AD user accounts and passwords to access Office 365 cloud services. Azure AD authenticates user credentials based on its stored user accounts and passwords.
 
@@ -71,7 +71,7 @@ When you implement hybrid identity, your on-premises AD DS is the authoritative 
 
 Here are the components of hybrid identity.
 
-![](./media/about-office-365-identity/hybrid-identity.png)
+![Components of hybrid identity](./media/about-office-365-identity/hybrid-identity.png)
 
 The Azure AD tenant has a copy of the AD DS accounts. In this configuration, both on-premises and remote users accessing Microsoft 365 cloud services authenticate against Azure AD.
 

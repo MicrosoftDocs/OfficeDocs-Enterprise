@@ -1,9 +1,9 @@
 ---
 title: "Use the Centralized Deployment PowerShell cmdlets to manage add-ins"
-ms.author: twerner
-author: twernermsft
-manager: scotv
-ms.date: 5/31/2017
+ms.author: kvice
+author: kelleyvice-msft
+manager: laurawi
+ms.date: 1/24/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -101,7 +101,7 @@ Get-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 To get full details of all the add-ins plus the assigned users and groups, pipe the output of the **Get-OrganizationAddIn** cmdlet to the Format-List cmdlet, as shown in the following example.
   
 ```powershell
-Get-OrganizationAddIn |Format-List
+foreach($G in (Get-organizationAddIn)){Get-OrganizationAddIn -ProductId $G.ProductId | Format-List}
 ```
 
 ## Turn on or turn off an add-in
@@ -163,6 +163,7 @@ To delete an add-in, run the **Remove-OrganizationAddIn** cmdlet with the  _Prod
 Remove-OrganizationAddIn -ProductId 6a75788e-1c6b-4e9b-b5db-5975a2072122
 ```
 
+<!--
 ## Customize Microsoft Store add-ins for your organization
 
 You must customize the add-in before you deploy it to your organization. Add-ins older than version 1.1 are not supported by this feature. 
@@ -184,12 +185,12 @@ If you want to customize an add-in that has been deployed, you have to uninstall
 To customize an add-in, run the **Set –OrganizationAddInOverrides** cmdlet with the *ProductId* as a parameter, followed by the tag you want to overwrite and the new value. To find out how to get the *ProductId* see [get details of an add-in](#get-details-of-an-add-in) in this article. For example:
 
 ```powershell
- Set-OrganizationAddInOverrides -ProductId 5b31b349-2c41-4f94-b720-6ee40349d391 -IconUrl "http://site.com/img.jpg" 
+ Set-OrganizationAddInOverrides -ProductId 5b31b349-2c41-4f94-b720-6ee40349d391 -IconUrl "https://site.com/img.jpg" 
 ```
 To customize multiple tags for an add-in, add those tags to the commandline:
 
 ```powershell
-Set-OrganizationAddInOverrides -ProductId 5b31b349-2c41-4f94-b720-6ee40349d391 -Hosts h1, 2 -DisplayName "New DocuSign W" -IconUrl "http://site.com/img.jpg" 
+Set-OrganizationAddInOverrides -ProductId 5b31b349-2c41-4f94-b720-6ee40349d391 -Hosts h1, 2 -DisplayName "New DocuSign W" -IconUrl "https://site.com/img.jpg" 
 ```
 
 > [!IMPORTANT]
@@ -214,7 +215,7 @@ Any element in the <Resources> tag of the manifest can be customized dynamically
 ```
 <Resources>  
     <bt:Images> 
-          <bt:Image id=”img16icon” DefaultValue=”http://site.com/img.jpg” 
+          <bt:Image id=”img16icon” DefaultValue=”https://site.com/img.jpg” 
     </bt:Images> 
 </Resources> 
 ``` 
@@ -257,6 +258,8 @@ If an add-in has been deployed, it has to be removed from the cache in each comp
 1. Go to your user folder
 1. Navigate to AppData\Local\Microsoft\Office and select the folder associated with your version of Office
 1. In the *Wef* folder delete the *Manifests* folder.
+
+-->
 
 ## Get detailed help for each cmdlet
 

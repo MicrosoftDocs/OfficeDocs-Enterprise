@@ -1,9 +1,9 @@
 ---
 title: "Moving core data to new Office 365 datacenter geos"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/25/2019
+ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -18,14 +18,15 @@ description: "New datacenter geos add capacity and compute resources to support 
 
 We continue to open new datacenter geos for Office 365 for business services. These new datacenter geos add capacity and compute resources to support our ongoing customer demand and usage growth. Additionally, the new datacenter geos offer in-geo data residency for core customer data. 
 
-Core customer data is a term that refers to a subset of customer data defined in the [Microsoft Online Services Terms](https://go.microsoft.com/fwlink/p/?LinkID=249048): 
+Core customer data is a term that refers to a subset of customer data including: 
 - Exchange Online mailbox content (email body, calendar entries, and the content of email attachments)
 - SharePoint Online site content and the files stored within that site
-- Files uploaded to OneDrive for Business 
+- Files uploaded to OneDrive for Business
+- Teams chat messages, including private messages, channel messages, and images used in chats
   
 Existing customers that have their core customer data stored in an already existing datacenter geo are not impacted by the launch of a new datacenter geo. We introduce no unique capabilities, features or compliance certifications with the new datacenter geo. As a customer in any of those two geos, you will experience the same quality of service, performance and security controls as you did before. We offer existing customers listed in the table below an option to request early migration of their organization's core customer data at rest to their new datacenter geo.
   
-|****Customers with billing address in****|****Previous datacenter geo****|****New datacenter geo****|****Geo available since****|
+|****Customers with tenant signup country in****|****Previous datacenter geo****|****New datacenter geo****|****Geo available since****|
 |:-----|:-----|:-----|:-----|
 |****Japan****| Asia/Pacific | Japan | December 2014 |
 |****Australia, New Zealand, Fiji****| Asia/Pacific | Australia | March 2015 |
@@ -36,8 +37,15 @@ Existing customers that have their core customer data stored in an already exist
 |****France****| Europe | France | March 2018 |
 |****United Arab Emirates****| Europe | United Arab Emirates | June 2019 |
 |****South Africa****| Europe | South Africa | July 2019 |
+|****Switzerland, Liechtenstein****| Europe | Switzerland | December 2019 |
+|****Germany****| Europe | Germany | December 2019 |
   
 New customers or Office 365 tenants created after the availability of the new datacenter geo will have their core customer data stored at rest in the new datacenter geo automatically.
+
+
+>[!Note]
+>We launched the Germany datacenter region in December 2019. New Office 365 customers with a German signup address associated with their tenant will have their core customer data stored at rest in Germany. We plan to offer migration from Europe to Germany for German customers in the future. Today, Microsoft Cloud Germany/Deutschland customers can request migration to Office 365 services in the new German datacenter regions. Please see [How to opt-in for migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions](https://aka.ms/office365germanymoveoptin) for more information.
+>
   
 A complete list of all datacenter geos, datacenters, and the location of customer data at rest is available as part of the [interactive datacenter maps](https://office.com/datamaps). 
   
@@ -63,4 +71,4 @@ Data moves to the new datacenter geo are completed at no additional cost to the 
   
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)

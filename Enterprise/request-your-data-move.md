@@ -1,9 +1,9 @@
 ---
 title: "How to request your data move"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/25/2019
+ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -23,21 +23,23 @@ Existing Office 365 customers are eligible to request early migration for their 
   
 ## When can I request a move?
 
-|**Customers with billing address in**|**Request period begins**|**Request deadline**|
+|**Customers with signup country in**|**Request period begins**|**Request deadline**|
 |:-----|:-----|:-----|
-|Japan  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|Australia, New Zealand, Fiji  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|India  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|Canada  <br/> |August 1, 2016  <br/> |October 31, 2016  <br/> |
-|United Kingdom  <br/> |March 15, 2017  <br/> |September 15, 2017  <br/> |
-|South Korea  <br/> |May 1, 2017  <br/> |October 31, 2017  <br/> |
-|France  <br/> |March 14, 2018  <br/> |September 15, 2018  <br/> |
-|United Arab Emirates  <br/> |July 15, 2019  <br/> |January 31, 2020  <br/> |
-|South Africa  <br/> |July 25, 2019  <br/> |January 31, 2020  <br/> |
+|Japan  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|Australia, New Zealand, Fiji  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|India  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|Canada  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|United Kingdom  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|South Korea  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|France  <br/> |January 1, 2020  <br/> |June 30, 2020  <br/> |
+|United Arab Emirates  <br/> |July 15, 2019  <br/> |June 30, 2020  <br/> |
+|South Africa  <br/> |July 25, 2019  <br/> |June 30, 2020  <br/> |
+|Switzerland, Liechtenstein  <br/> |December 10, 2019  <br/> |June 30, 2020  <br/> |
+|Germany  <br/> |Planned  <br/> |Planned  <br/> |
    
 ## How to request a move
 
-Eligible customers will see a page in their [admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
+Eligible customers will see a page in the [Microsoft 365 admin center](https://aka.ms/365admin), which will allow them to request to have their core customer data moved to their new datacenter region.  
   
 To access the page in the Microsoft 365 admin center, in the navigation pane on the left, expand **Settings**, and then click **Organization Profile**.
   
@@ -67,7 +69,7 @@ Moves may take up to 24 months from the request deadline for your country to com
   
 ## Microsoft Teams
 
-Microsoft Teams does not yet support migration of customer content at rest from in-region to in-country data centers where data residency for Microsoft Teams is available.  Therefore, only new customers will have all of their data stored within country in the new regions where Microsoft Teams supports data residency.  Learn more about Office 365 data residency for your company location at [Where is your data located?](https://products.office.com/where-is-your-data-located)   
+As of January 2020, customers in eligible Office 365 countries can opt-in for migration of Microsoft Teams chat service data.  Opt-in timelines have been reopened or extended for all eligible countries to give customers an opportunity to consider the early migration program with Microsoft Teams in scope.   
 
 ## Optional actions before you request a move
 
@@ -105,6 +107,6 @@ If users have a mobile device with the Exchange Server set to **m.outlook.com** 
 
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)
   
 

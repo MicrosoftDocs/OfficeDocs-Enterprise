@@ -1,12 +1,13 @@
 ---
 title: "During and after your data move"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/18/2019
+ms.date: 12/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
+ms.collection: SPO_Content
 search.appverid:
 - MET150
 localization_priority: Normal
@@ -25,18 +26,23 @@ Data moves are a back-end operation with minimal impact to end-users. No action 
 Watch the Office 365 Message Center for confirmation when moves for each of Exchange Online, SharePoint Online, and Skype for Business are complete. As shown in the table below, it can take up to 24 months, after the end of the enrollment period, to complete all the requested data moves for all customers in a specific geo. If you see any issues with your tenant after the move, contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to get assistance. 
   
 
-|**Customers with billing address in**|**All moves completed by**|
+|**Customers with signup country in**|**All moves completed by**|
 |:-----|:-----|
-|Australia, New Zealand, Fiji  <br/> |October 31, 2017  <br/> |
-|Japan  <br/> |October 31, 2018  <br/> |
-|India  <br/> |October 31, 2018  <br/> |
-|Canada  <br/> |June 30, 2019  <br/> |
-|South Korea  <br/> |October 31, 2018  <br/> |
-|United Kingdom  <br/> |September 15, 2019  <br/> |
-|France  <br/> |September 15, 2020  <br/> |
-|United Arab Emirates  <br/> |February 1, 2022  <br/> |
-|South Africa  <br/> |Announced  <br/> |
-   
+|Australia, New Zealand, Fiji  <br/> |July 1, 2022  <br/> |
+|Japan  <br/> |July 1, 2022  <br/> |
+|India  <br/> |July 1, 2022  <br/> |
+|Canada  <br/> |July 1, 2022  <br/> |
+|South Korea  <br/> |July 1, 2022  <br/> |
+|United Kingdom  <br/> |July 1, 2022  <br/> |
+|France  <br/> |July 1, 2022  <br/> |
+|United Arab Emirates  <br/> |July 1, 2022  <br/> |
+|South Africa  <br/> |July 1, 2022  <br/> |
+|Switzerland, Liechtenstein  <br/> |July 1, 2022  <br/> |
+|Germany  <br/> |Planned  <br/> |
+
+> [!NOTE]
+> Customers in eligible Office 365 countries may opt-in for Microsoft Teams chat service data migration from January 1, 2020 through June 30, 2020, which will also signal migration for any other eligible workloads.  Customers that opted-in for migration prior to 2020 can expect Exchange Online and SharePoint Online/OneDrive for Business moves to complete by the original deadline, while Teams will complete by July 1, 2022 for all customers. 
+
 ## Exchange Online
 
 Because it takes time to move each user to the new datacenter geo for a single tenant, some users will still be in the old datacenter geo during the move, while others will be in the new datacenter geo. This means that some features that involve accessing multiple mailboxes may not fully work during a period of the move process, which can last weeks. These features are described in the following sections.
@@ -49,14 +55,6 @@ Some users open a shared mail folder from another mailbox (that the user has rea
 |:-----|:-----|
 |User has mailbox folder permission to another mailbox  <br/> |Potentially limited.  <br/> If User A and Mailbox B aren't in the same geo during the tenant move, User A can't open Mailbox B's folder in Outlook Web Access if User A only has permission to a specific folder in Mailbox B.  <br/> To add a shared folder, right-click the user name in the left navigation panel and select **Add shared folder**.  <br/> |
 |User with full mailbox permission to another mailbox  <br/> |Fully supported.  <br/> If User A has "Full Access" permission to Mailbox B, then User A can click the shared folder in the left navigation panel in Outlook Web Access to open a window showing Mailbox B.  A user can open a shared mailbox using Outlook Web Access during the move without any adverse impact. The limitation only applies to folder-level sharing in a mailbox.           |
-   
-### Public folders
-
-If the public folder mailbox is temporarily in a different datacenter geo from the user trying to access it, the user may not be able to access the public folder mailbox. 
-  
-### Online archives
-
-While the move is in progress, users connecting via Outlook for Mac may not be able to connect to their online archive mailbox. Access to the archive mailbox for users connecting with Outlook and Outlook Web Access is supported.
   
 ## SharePoint Online
 
@@ -103,7 +101,11 @@ The following search features are affected:
 - eDiscovery: Items that changed during the migration aren't shown until crawling picks up the changes.
     
 - Data Loss Protection (DLP): Policies aren't enforced on items that change until crawling picks up the changes.
-    
+
+## Microsoft Teams
+
+Customers in eligible Office 365 countries may opt-in for Microsoft Teams chat service data migration as of January 1, 2020.  
+
 ## Skype for Business
 
 All users will be signed out from the Skype for Business client software during cut-over. The automatic sign-in will reconnect users within two minutes.
@@ -114,14 +116,10 @@ All users will be signed out from the Skype for Business client software during 
    
 |**After the move**|
 |:-----|
-| Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. Ask users to run the [troubleshooting wizard](https://support.microsoft.com/en-us/kb/2541980) and follow directions on how to clear the client cache. Lync for Mac client users should follow [these instructions](https://support.microsoft.com/en-us/kb/2629861).  <br/> |
+| Meeting data (uploaded presentations, etc.) will not move and will need to be re-uploaded.  <br/>  Older Lync clients, such as the Lync 2010 client and Lync for Mac 2011 client, are known to cache DNS information to the service causing sign-in issues. Clearing the DNS cache may be required if the user is not on the latest Skype for Business Windows client. See [Troubleshooting Skype for Business Online DNS configuration issues in Office 365](https://docs.microsoft.com/skypeforbusiness/troubleshoot/online-configuration/dns-configuration-issue). Lync for Mac client users should follow [these instructions](https://support.microsoft.com/kb/2629861).  <br/> |
    
 ### Skype for Business moves that involve a third-party Audio Conferencing Provider
 Third-party Audio Conferencing Provider add-on services for Skype for Business are not available for users homed in new geo-specific data centers.  Existing customers using a third-party Audio Conferencing Provider service should not request a move to a new geo-specific data center.  New customers deployed into the new geo-specific data centers will need to request a move to a regional data center to use a third-party Audio Conferencing Provider.
-
-## Data for other services, including Teams, Yammer and Power BI
-
-We only move customer data for Exchange Online, SharePoint Online, and Skype for Business. We do not move data for other services. There is no change or impact to you as a customer or user of these other services. The move process does not influence them, and the location of their customer data remains unchanged.
   
 ## Related topics 
  
@@ -131,5 +129,5 @@ We only move customer data for Exchange Online, SharePoint Online, and Skype for
   
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)
 

@@ -21,7 +21,7 @@ description: "Describes directory synchronization with Office 365, Active Direct
 
 # Hybrid identity and directory synchronization for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Depending on business needs and technical requirements, the hybrid identity model and directory synchronization is the most common choice for enterprise customers who are adopting Office 365. Directory synchronization allows you to manage identities in your Active Directory Domain Services (AD DS) and all updates to user accounts, groups, and contacts are synchronized to the Azure Active Directory (Azure AD) tenant of your Office 365 subscription.
 
@@ -58,7 +58,7 @@ There are two types of managed authentication:
 
 With password hash synchronization (PHS), you synchronize your AD DS user accounts with Office 365 and manage your users on-premises. Hashes of user passwords are synchronized from your AD DS to Azure AD so that the users have the same password on-premises and in the cloud. This is the simplest way to enable authentication for AD DS identities in Azure AD. 
 
-![](./media/plan-for-directory-synchronization/phs-authentication.png)
+![Password hash synchronization (PHS)](./media/plan-for-directory-synchronization/phs-authentication.png)
 
 When passwords are changed or reset on-premises, the new password hashes are synchronized to Azure AD so that your users can always use the same password for cloud resources and on-premises resources. The user passwords are never sent to Azure AD or stored in Azure AD in clear text. Some premium features of Azure AD, such as Identity Protection, require PHS regardless of which authentication method is selected.
   
@@ -68,7 +68,7 @@ See [choosing PHS](https://docs.microsoft.com/azure/security/azure-ad-choose-aut
 
 Pass-through authentication (PTA) provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your AD DS. With pass-through authentication (PTA), you synchronize AD DS user accounts with Office 365 and manage your users on-premises. 
 
-![](./media/plan-for-directory-synchronization/pta-authentication.png)
+![Pass-through authentication (PTA)](./media/plan-for-directory-synchronization/pta-authentication.png)
 
 PTA allows your users to sign in to both on-premises and Office 365 resources and applications using their on-premises account and password. This configuration validates users passwords directly against your on-premises AD DS without storing password hashes in Azure AD. 
 

@@ -21,7 +21,7 @@ description: "Contains links to information about network planning and testing, 
 
 # Network and migration planning for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise*
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 This article contains links to information about network planning and testing, and migration to Office 365.
   
@@ -54,8 +54,6 @@ To estimate the bandwidth, use the following steps:
 <a name="calculators"> </a>
 
  **Network tools.** Test and validate your Internet bandwidth to determine download, upload, and latency constraints. These tools will help you determine the capabilities of your network for migration as well as after you're fully deployed. 
-  
-- [Microsoft Message Analyzer](https://technet.microsoft.com/library/jj649776.aspx): Message Analyzer is an effective tool for troubleshooting network issues. Message Analyzer captures, displays, and analyzes protocol-based messaging traffic and system messages. Message Analyzer also lets you import, aggregate, and analyze data from log and trace files.
     
 - [Microsoft Remote Connectivity Analyzer](https://go.microsoft.com/fwlink/p/?LinkId=517243): Tests connectivity in your Exchange Online environment.
     

@@ -16,6 +16,12 @@ If you need to collaborate with guests across documents, tasks, and conversation
 
 In this article, we'll walk through the Microsoft 365 configuration steps necessary to set up a team for collaboration with guests.
 
+## Video demonstration
+
+This video shows the configuration steps described in this document.</br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44NTr?autoplay=false]
+
 ## Azure Organizational relationships settings
 
 Sharing in Microsoft 365 is governed at its highest level by the organizational relationships settings in Azure Active Directory. If guest sharing is disabled or restricted in Azure AD, this will override any sharing settings that you configure in Microsoft 365.
@@ -76,7 +82,7 @@ Teams content such as files, folders, and lists are all stored in SharePoint. In
 
 The organization-level settings determine what settings are available for individual sites, including sites associated with teams. Site settings cannot be more permissive than the organization-level settings.
 
-If you want to allow file and folder sharing with anonymous users, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
+If you want to allow file and folder sharing with unauthenticated people, choose **Anyone**. If you want to ensure that all guests have to authenticate, choose **New and existing guests**. Choose the most permissive setting that will be needed by any site in your organization.
 
 ![Screenshot of SharePoint organization-level sharing settings](media/sharepoint-organization-external-sharing-controls.png)
 
@@ -97,7 +103,7 @@ Keep in mind that this setting affects all teams and SharePoint sites in your or
 
 Choose the type of link that's selected by default when users share files and folders:
 
-- **Anyone with the link** - Choose this option if you expect to share a lot of files and folders with anonymous users. If you want to allow *Anyone* links but are concerned about accidental anonymous sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
+- **Anyone with the link** - Choose this option if you expect to do a lot of unauthenticated sharing of files and folders. If you want to allow *Anyone* links but are concerned about accidental unauthenticated sharing, consider one of the other options as the default. This link type is only available if you've enabled **Anyone** sharing.
 - **Only people in your organization** - Choose this option if you expect most file and folder sharing to be with people inside your organization.
 - **Specific people** - Consider this option if you expect to do a lot of file and folder sharing with guests. This type of link works with guests and requires them to authenticate.
  
@@ -156,10 +162,10 @@ To invite guests to a team
 
 ## See Also
 
-[Best practices for sharing files and folders with anonymous users](best-practices-anonymous-sharing.md)
+[Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)
 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
-[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md))
+[Create a secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
 
-
+[Create a B2B extranet with managed guests](b2b-extranet.md)

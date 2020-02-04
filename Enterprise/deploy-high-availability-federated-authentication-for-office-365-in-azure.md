@@ -3,7 +3,7 @@ title: "Deploy high availability federated authentication for Office 365 in Azur
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/06/2018
+ms.date: 11/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -21,8 +21,6 @@ description: "Summary: Configure high availability federated authentication for 
 
 # Deploy high availability federated authentication for Office 365 in Azure
 
- **Summary:** Configure high availability federated authentication for your Office 365 subscription in Microsoft Azure.
-  
 This article has links to the step-by-step instructions for deploying high availability federated authentication for Microsoft Office 365 in Azure infrastructure services with these virtual machines:
   
 - Two web application proxy servers
@@ -31,7 +29,7 @@ This article has links to the step-by-step instructions for deploying high avail
     
 - Two replica domain controllers
     
-- One directory synchronization (DirSync) server running Azure AD Connect
+- One directory synchronization server running Azure AD Connect
     
 Here is the configuration, with placeholder names for each server.
   
@@ -49,7 +47,7 @@ Each pair of virtual machines for a specific role is in its own subnet and avail
 > [!NOTE]
 > Because this VNet is connected to the on-premises network, this configuration does not include jumpbox or monitoring virtual machines on a management subnet. For more information, see [Running Windows VMs for an N-tier architecture](https://docs.microsoft.com/azure/guidance/guidance-compute-n-tier-vm). 
   
-The result of this configuration is that you will have federated authentication for all of your Office 365 users, in which they can use their Active Directory Domain Services credentials to sign in rather than their Office 365 account. The federated authentication infrastructure uses a redundant set of servers that are more easily deployed in Azure infrastructure services, rather than in your on-premises edge network.
+The result of this configuration is that you will have federated authentication for all of your Office 365 users, in which they can use their AD DS credentials to sign in rather than their Office 365 account. The federated authentication infrastructure uses a redundant set of servers that are more easily deployed in Azure infrastructure services, rather than in your on-premises edge network.
   
 ## Bill of materials
 
@@ -85,7 +83,7 @@ You deploy this workload in the following phases:
   
 - [Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md). Create resource groups, storage accounts, availability sets, and a cross-premises virtual network.
     
-- [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). Create and configure replica Active Directory Domain Services (AD DS) domain controllers and the DirSync server.
+- [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). Create and configure replica AD DS domain controllers and the directory synchronization server.
     
 - [Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). Create and configure the two AD FS servers.
     
@@ -103,10 +101,5 @@ To build a dev/test environment or a proof-of-concept of this configuration, see
   
 ## Next step
 
-Start the configuration of this workload with [High availability federated authentication Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md). 
+Start the configuration of this workload with [Phase 1: Configure Azure](high-availability-federated-authentication-phase-1-configure-azure.md). 
   
-<!--
-> [!TIP]
-> For a set of files to more quickly deploy your high availability federated authentication for Office 365 in Azure, see the [Federated Authentication for Office 365 in Azure Deployment Kit](https://gallery.technet.microsoft.com/Federated-Authentication-8a9f1664). 
---> 
-

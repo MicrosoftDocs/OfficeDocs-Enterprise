@@ -3,7 +3,7 @@ title: "Delete user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 12/16/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,10 +19,7 @@ description: "Learn how to use Office 365 PowerShell to delete Office 365 user a
 
 # Delete user accounts with Office 365 PowerShell
 
-**Summary:**  Learn how to use Office 365 PowerShell to delete Office 365 user accounts.
-  
 You can use Office 365 PowerShell to delete a user account.
-
    
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -30,13 +27,13 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
 
 After you have connected, use the following syntax to remove an individual user account:
   
-```
+```powershell
 Remove-AzureADUser -ObjectID <sign-in name>
 ```
 
 This example removes the user account fabricec@litwareinc.com.
   
-```
+```powershell
 Remove-AzureADUser -ObjectID fabricec@litwareinc.com
 ```
 
@@ -45,21 +42,21 @@ Remove-AzureADUser -ObjectID fabricec@litwareinc.com
   
 To display the account name based on the user's name, use the following commands:
   
-```
+```powershell
 $userName="<User name>"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
 This example displays the account name for the user named Caleb Sills.
   
-```
+```powershell
 $userName="Caleb Sills"
 Write-Host (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
 
 To remove an account based on the user's display name, use the following commands:
   
-```
+```powershell
 $userName="<display name>"
 Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userName}).UserPrincipalName
 ```
@@ -70,28 +67,31 @@ When you delete a user account with the Microsoft Azure Active Directory Module 
 
 First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-
 To delete a user account, use the following syntax:
   
-```
+```powershell
 Remove-MsolUser -UserPrincipalName <sign-in name>
 ```
 
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 This example deletes the user account BelindaN@litwareinc.com.
   
-```
+```powershell
 Remove-MsolUser -UserPrincipalName belindan@litwareinc.com
 ```
 
 To restore a deleted user account within the 30-day grace period, use the following syntax:
   
-```
+```powershell
 Restore-MsolUser -UserPrincipalName <sign-in name>
 ```
 
 This example restores the deleted account BelindaN@litwareinc.com.
   
-```
+```powershell
 Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 ```
 
@@ -99,7 +99,7 @@ Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
   
 - To see the list of deleted users that can be restored, run the following command:
     
-  ```
+  ```powershell
   Get-MsolUser -All -ReturnDeletedUsers
   ```
 
@@ -108,9 +108,8 @@ Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 
 ## See also
 
-[Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
 [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
-

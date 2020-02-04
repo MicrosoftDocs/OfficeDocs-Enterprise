@@ -6,6 +6,7 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+ms.collection: SPO_Content
 localization_priority: Priority
 description: "Learn how to add or remove a geo administrator in Office 365 Multi-Geo."
 ---
@@ -40,7 +41,7 @@ To add a group as a geo administrator, run `Add-SPOGeoAdministrator -GroupAlias 
 
 To remove a group as a geo administrator, run `Remove-SPOGeoAdministrator -GroupAlias <alias>`
 
-Note that not all security groups have a group alias. If you want to add a security group that does not have an alias, run [Get-MsolGroup](https://docs.microsoft.com/en-us/powershell/module/msonline/get-msolgroup) to retrieve a list of groups, find your security group's ObjectID, and then run:
+Note that not all security groups have a group alias. If you want to add a security group that does not have an alias, run [Get-MsolGroup](https://docs.microsoft.com/powershell/module/msonline/get-msolgroup) to retrieve a list of groups, find your security group's ObjectID, and then run:
 
 `Add-SPOGeoAdministrator -ObjectID <ObjectID>`
 
@@ -54,4 +55,4 @@ To remove a group by using the ObjectID, run `Remove-SPOGeoAdministrator -Object
 
 [Remove-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/remove-spogeoadministrator)
 
-[Set an alias (MailNickName) for a security group](https://docs.microsoft.com/en-us/powershell/module/azuread/set-azureadgroup)
+[Set an alias (MailNickName) for a security group](https://docs.microsoft.com/powershell/module/azuread/set-azureadgroup)

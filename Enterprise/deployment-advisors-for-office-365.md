@@ -11,6 +11,7 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-subscription-management
+- SPO_Content
 ms.custom: Adm_O365_Setup
 search.appverid:
 - MET150
@@ -31,13 +32,13 @@ If you don't sign in as a tenant admin, you will eventually see a message that y
 
 Each advisor is a wizard that guides you through your choices for the features and options you want to deploy. In some cases, you can use the wizard to configure something or activate a setting. Here is an example.
 
-![](./media/deployment-advisors-for-office-365/m365-deploy-advisor1.png)
+![Example of a deployment advisor](./media/deployment-advisors-for-office-365/m365-deploy-advisor1.png)
 
 The advisor steps you through decisions for customization to your needs. Along the way, you'll get instructions, scripts, and other resources to make the configuration changes.
 
 At the end, you'll get links to videos and reference articles. Here is an example.
 
-![](./media/deployment-advisors-for-office-365/m365-deploy-advisor2.png)
+![Example of links to videos and reference articles](./media/deployment-advisors-for-office-365/m365-deploy-advisor2.png)
 
 You can use these advisors anytime to learn more about Office 365 features and options. This includes during planning or after you've already set up the services.
   
@@ -162,7 +163,7 @@ See this guide for the steps to install Office on either a PC or a Mac for your 
 | **Run:** |  [Office 365 ProPlus quick start guide](https://aka.ms/OPPquickstartguide) <BR> |
 |||
 
-The Office 365 ProPlus deployment advisor walks through the steps for helping users install Office 365 ProPlus directly from the Office 365 portal online or for deploying Office 365 ProPlus to your users from an on-premises location. Included are instructions for using System Center Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
+The Office 365 ProPlus deployment advisor walks through the steps for helping users install Office 365 ProPlus directly from the Office 365 portal online or for deploying Office 365 ProPlus to your users from an on-premises location. Included are instructions for using Microsoft Endpoint Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
 
 |||
 |:-------|:-----|
@@ -315,7 +316,7 @@ Microsoft StaffHub is a cloud-based platform that works across all your devices.
 
 ### Microsoft 365 admin center
 
-- [Admin center orientation](https://www.microsoft.com/en-us/videoplayer/embed/RWfMut)
+- [Admin center orientation](https://www.microsoft.com/videoplayer/embed/RWfMut)
 
 - [Create users in the admin center](https://aka.ms/ac-createusers)
 

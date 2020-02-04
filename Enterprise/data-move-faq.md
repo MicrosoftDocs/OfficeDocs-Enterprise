@@ -1,9 +1,9 @@
 ---
 title: "Data move general FAQ"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/05/2018
+ms.date: 11/20/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -24,7 +24,7 @@ Existing Office 365 commercial customers who selected a country eligible for the
 
 ## How do we define Core Customer Data?
  
-Core customer data is a term that refers to a subset of customer data defined in the [Microsoft Online Services Terms](https://go.microsoft.com/fwlink/p/?LinkID=249048): 
+Core customer data is a term that refers to a subset of customer data defined in the [Microsoft Online Services Terms](https://aka.ms/ost): 
 - Exchange Online mailbox content (email body, calendar entries, and the content of email attachments)
 - SharePoint Online site content and the files stored within that site
 - Files uploaded to OneDrive for Business 
@@ -50,6 +50,14 @@ There are two actions that you can take as a tenant administrator.
 Data moves are a back-end service operation with minimal impact to end-users. Features that can be impacted are listed in [During and after your data move](during-and-after-your-data-move.md). We adhere to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for availability so there is nothing that customers need to prepare for or to monitor during the move. 
   
 All Office 365 services run the same versions in the datacenters, so you can be assured of consistent functionality. Your service is fully supported throughout the process.
+
+## What is in scope for Teams migration?
+
+In addition to Exchange Online, SharePoint Online, and OneDrive for Business; Microsoft will migrate Teams data to the local datacenter.  
+- Teams chat messages, including private messages and channel messages. 
+- Teams images used in chats. 
+
+Teams files are stored in SharePoint Online and Teams chat files are stored in OneDrive for Business.  Voicemail, calendar, chat history, and contacts are stored in Exchange Online.  In many cases, Exchange Online, SharePoint Online and OneDrive for Business are already used by the customer in the local datacenter geo and are also part of the Office 365 migration program for eligible customer countries.
   
 ## What is the impact of having different services located in different geos?
 
@@ -162,4 +170,4 @@ Yes, your tenant is eligible to enroll.  We will move all EXO mailboxes from you
 
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
-[Azure services by region](https://azure.microsoft.com/en-us/regions/)
+[Azure services by region](https://azure.microsoft.com/regions/)

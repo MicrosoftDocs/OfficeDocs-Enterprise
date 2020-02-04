@@ -3,6 +3,7 @@ title: "Office 365 cloud-only identities"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
+ms.date: 12/03/2019
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -27,9 +28,11 @@ description: "Describes how to create users and groups when your Office 365 subs
 
 # Office 365 cloud-only identities
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 With cloud-only identity, all your users, groups, and contacts are stored in the Azure Active Directory (Azure AD) tenant of your Office 365 subscription. Here are the basic components of cloud-only identity.
  
-![](./media/about-office-365-identity/cloud-only-identity.png)
+![The basic components of cloud-only identity](./media/about-office-365-identity/cloud-only-identity.png)
 
 Users and their user accounts in organizations can be categorized in a number of ways. For example, some are employees and have a permanent status. Some are vendors, contractors, or partners that have a temporary status. Some are external users that have no user accounts but must still be granted access to specific services and resources to support interaction and collaboration. For example:
 

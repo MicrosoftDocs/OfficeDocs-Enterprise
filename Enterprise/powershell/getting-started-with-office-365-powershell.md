@@ -3,7 +3,7 @@ title: "Getting started with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 12/13/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -18,8 +18,6 @@ description: "Summary: Understand the importance of Office 365 PowerShell, get c
 
 # Getting started with Office 365 PowerShell
 
- **Summary:** Understand the importance of Office 365 PowerShell, get connected to your Office 365 tenant, and get help.
-  
 With Office 365 PowerShell, you can manage Office 365 with commands and scripts to streamline your daily work. Learn why Office 365 PowerShell skills are crucial to managing Office 365, how to connect to your Office 365 subscription, create reports, and get additional information and help from the Office 365 community.
   
 Select the article based on your needs:
@@ -49,8 +47,6 @@ Select the article based on your needs:
     Start here to connect to the PowerShell community venues and get help or ongoing information about using Office 365 PowerShell .
     
 ## See also
-
-#### 
 
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
 

@@ -20,6 +20,8 @@ description: "Provides an example and describes the naming convention and defaul
 
 # Office 365 IdFix transaction log
 
+*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+
 Provides an example and describes the naming convention and default log level of the Office 365 IdFix transaction log.
   
 ## IdFix transaction log location
@@ -61,5 +63,4 @@ IdFix writes the results of each **UPDATE** action to a transaction log as shown
 5/22/2018 6:37:57 AM Update: [CN=user000001,OU=e2k10OU1,DC=e2k10,DC=com][user][mailnickname][character][user?^|000001][user000001][UNDO]
 5/22/2018 6:37:57 AM Update: [CN=user000008,OU=e2k10OU1,DC=e2k10,DC=com][user][targetAddress][duplicate][smtp:user000008@customer.com][][UNDO]
 5/22/2018 6:37:57 AM COMPLETE
-
 ```

@@ -1,5 +1,5 @@
 ﻿---
-title: "Best practices for anonymous sharing"
+title: "Best practices for unauthenticated sharing"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -7,21 +7,21 @@ audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
-description: "Learn best practices for sharing files and folders with anonymous users."
+description: "Learn best practices for sharing files and folders with unauthenticated users."
 ---
 
-# Best practices for sharing files and folders with anonymous users
+# Best practices for sharing files and folders with unauthenticated users
 
-Anonymous sharing (*Anyone* links) can be convenient and is useful in various scenarios. *Anyone* links are the easiest way to share: guests can open the link without authentication and are free to pass it on to others.
+Unauthenticated sharing (*Anyone* links) can be convenient and is useful in various scenarios. *Anyone* links are the easiest way to share: people can open the link without authentication and are free to pass it on to others.
 
-Usually, not all content in an organization is appropriate for anonymous sharing. This article covers the options available to help you create an environment where your users can share files and folders anonymously, but where there are safeguards in place to help protect your organization's content.
+Usually, not all content in an organization is appropriate for unauthenticated sharing. This article covers the options available to help you create an environment where your users can use unauthenticated sharing of files and folders, but where there are safeguards in place to help protect your organization's content.
 
 > [!NOTE]
-> For anonymous sharing to work, you must enable it for your organization and for the individual site or team that you'll be using. See [Collaborating with people outside your organization](collaborating-with-people-outside-your-organization.md) for the scenario that you want to enable.
+> For unauthenticated sharing to work, you must enable it for your organization and for the individual site or team that you'll be using. See [Collaborating with people outside your organization](collaborating-with-people-outside-your-organization.md) for the scenario that you want to enable.
 
 ## Set an expiration date for Anyone links
 
-Files are often stored in sites, groups, and teams for long periods of time. Occasionally there are data retention policies that require files to be retained for years. If such files are shared anonymously, this could lead to unexpected access and changes to files in the future. To mitigate this possibility, you can configure an expiration time for *Anyone* links.
+Files are often stored in sites, groups, and teams for long periods of time. Occasionally there are data retention policies that require files to be retained for years. If such files are shared with unauthenticated people, this could lead to unexpected access and changes to files in the future. To mitigate this possibility, you can configure an expiration time for *Anyone* links.
 
 Once an *Anyone* link expires, it can no longer be used to access content.
 
@@ -38,21 +38,21 @@ Note that once an *Anyone* link expires, the file or folder can be re-shared wit
 
 By default, *Anyone* links for a file allow people to edit the file, and *Anyone* links for a folder allow people to edit and view files, and upload new files to the folder. You can change these permissions for files and for folders independently to view-only.
 
-If you want to allow anonymous sharing, but are concerned about unauthenticated users modifying your organization's content, consider setting the file and folder permissions to **View**.
+If you want to allow unauthenticated sharing, but are concerned about unauthenticated people modifying your organization's content, consider setting the file and folder permissions to **View**.
 
-To set permissions for anonymous links
+To set permissions for Anyone links
 1. Open the SharePoint Online admin center.
 2. In the left navigation, click **Sharing**.
 3. Under **Advanced settings for "Anyone" links**, select the file and folder permissions that you want to use.</br>
    ![Screenshot of SharePoint organization-level Anyone link permissions settings](media/sharepoint-organization-anyone-link-permissions.png)
 
-With *Anyone* links set to **View**, users can still share files and folders with guests and give them edit permissions by using *Specific people* links. These links require guests to authenticate, and you can track and audit guest activity on files and folders shared with these links.
+With *Anyone* links set to **View**, users can still share files and folders with guests and give them edit permissions by using *Specific people* links. These links require people outside your organization to authenticate as guests, and you can track and audit guest activity on files and folders shared with these links.
 
 ## Set default link type to only work for people in your organization
 
-When *Anyone* sharing is enabled for your organization, the default sharing link is normally set to **Anyone**. While this can be convenient for users, it can increase the risk of unintentional anonymous sharing. If a user forgets to change the link type while sharing a sensitive document, they might accidentally create a sharing link that doesn't require authentication.
+When *Anyone* sharing is enabled for your organization, the default sharing link is normally set to **Anyone**. While this can be convenient for users, it can increase the risk of unintentional unauthenticated sharing. If a user forgets to change the link type while sharing a sensitive document, they might accidentally create a sharing link that doesn't require authentication.
 
-You can mitigate this risk by changing the default link setting to a link that only works for people inside your organization. Users who want to share anonymously would then have to specifically select that option.
+You can mitigate this risk by changing the default link setting to a link that only works for people inside your organization. Users who want to share with unauthenticated people would then have to specifically select that option.
 
 To set the default file and folder sharing link
 1. In the SharePoint admin center, in the left navigation, click **Sharing**.

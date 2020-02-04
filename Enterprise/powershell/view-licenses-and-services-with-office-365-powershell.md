@@ -3,7 +3,7 @@ title: "View licenses and services with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 12/16/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,8 +21,6 @@ description: "Explains how to use Office 365 PowerShell to view information abou
 
 # View licenses and services with Office 365 PowerShell
 
-**Summary:** Explains how to use Office 365 PowerShell to view information about the licensing plans, services, and licenses that are available in your Office 365 organization.
-  
 Every Office 365 subscription consists of the following elements:
 
 - **Licensing plans** These are also known as license plans or Office 365 plans. Licensing plans define the Office 365 services that are available to users. Your Office 365 subscription may contain multiple licensing plans. An example licensing plan would be Office 365 Enterprise E3.
@@ -38,13 +36,13 @@ You can use Office 365 PowerShell to view details about the available licensing 
 
 First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
-To view summary information about your current licensing plans and the available licenses for each plan, run the following command:
+To view summary information about your current licensing plans and the available licenses for each plan, run this command:
   
-```
+```powershell
 Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
 ```
 
-The results contain the following information:
+The results contain:
   
 - **SkuPartNumber:** Shows the available licensing plans for your organization. For example, `ENTERPRISEPACK` is the license plan name for Office 365 Enterprise E3.
     
@@ -54,40 +52,40 @@ The results contain the following information:
     
 To view details about the Office 365 services that are available in all of your license plans, first display a list of your license plans.
 
-````
+```powershell
 Get-AzureADSubscribedSku | Select SkuPartNumber
-````
+```
 
 Next, store the license plans information in a variable.
 
-````
+```powershell
 $licenses = Get-AzureADSubscribedSku
-````
+```
 
 Next, display the services in a specific license plan.
 
-````
+```powershell
 $licenses[<index>].ServicePlans
-````
+```
 
 \<index> is an integer that specifies the row number of the license plan from the display of the `Get-AzureADSubscribedSku | Select SkuPartNumber` command, minus 1.
 
 For example, if the display of the `Get-AzureADSubscribedSku | Select SkuPartNumber` command is this:
 
-````
+```powershell
 SkuPartNumber
 -------------
 WIN10_VDA_E5
 EMSPREMIUM
 ENTERPRISEPREMIUM
 FLOW_FREE
-````
+```
 
 Then the command to display the services for the ENTERPRISEPREMIUM license plan is this:
 
-````
+```powershell
 $licenses[2].ServicePlans
-````
+```
 
 ENTERPRISEPREMIUM is the third row. Therefore, the index value is (3 - 1), or 2.
 
@@ -103,13 +101,17 @@ First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#c
     
 To view summary information about your current licensing plans and the available licenses for each plan, run the following command:
   
-```
+```powershell
 Get-MsolAccountSku
 ```
 
+>[!Note]
+>PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
+>
+
 The results contain the following information:
   
-- **AccountSkuId:** Show the available licensing plans for your organization by using the syntax `<CompanyName>:<LicensingPlan>`.  _<CompanyName>_ is the value that you provided when you enrolled in Office 365, and is unique for your organization. The _<LicensingPlan>_ value is the same for everyone. For example, in the value `litwareinc:ENTERPRISEPACK`, the company name is  `litwareinc`, and the licensing plan name  `ENTERPRISEPACK`, which is the system name for Office 365 Enterprise E3.
+- **AccountSkuId:** Show the available licensing plans for your organization by using the syntax `<CompanyName>:<LicensingPlan>`.  _\<CompanyName>_ is the value that you provided when you enrolled in Office 365, and is unique for your organization. The _\<LicensingPlan>_ value is the same for everyone. For example, in the value `litwareinc:ENTERPRISEPACK`, the company name is  `litwareinc`, and the licensing plan name  `ENTERPRISEPACK`, which is the system name for Office 365 Enterprise E3.
     
 - **ActiveUnits:** Number of licenses that you've purchased for a specific licensing plan.
     
@@ -119,7 +121,7 @@ The results contain the following information:
     
 To view details about the Office 365 services that are available in all of your license plans, run the following command:
   
-```
+```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 ```
 
@@ -141,25 +143,19 @@ For a complete list of license plans (also known as product names), their includ
 
 To view details about the Office 365 services that are available in a specific licensing plan, use the following syntax.
   
-```
+```powershell
 (Get-MsolAccountSku | where {$_.AccountSkuId -eq "<AccountSkuId>"}).ServiceStatus
 ```
 
 This example shows the Office 365 services that are available in the litwareinc:ENTERPRISEPACK (Office 365 Enterprise E3) licensing plan.
   
-```
+```powershell
 (Get-MsolAccountSku | where {$_.AccountSkuId -eq "litwareinc:ENTERPRISEPACK"}).ServiceStatus
 ```
 
-
-## New to Office 365?
-
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
-   
 ## See also
 
-
-[Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
