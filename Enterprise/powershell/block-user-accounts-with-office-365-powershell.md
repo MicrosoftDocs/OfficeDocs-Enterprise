@@ -3,7 +3,7 @@ title: "Block user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/03/2019
+ms.date: 12/16/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,8 +18,6 @@ description: "Explains how to use Office 365 PowerShell to block and unblock acc
 
 # Block user accounts with Office 365 PowerShell
 
-**Summary:**  Explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts.
-  
 Blocking access to an Office 365 account prevents anyone from using the account to sign in and access the services and data in your Office 365 organization. You can use Office 365 PowerShell to block access to individual and multiple user accounts.
 
 ## Use the Azure Active Directory PowerShell for Graph module
@@ -105,7 +103,6 @@ Get-Content "C:\My Documents\Accounts.txt" | ForEach { Set-​AzureADUSer -Objec
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
 First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
-
     
 ### Block access to individual user accounts
 
@@ -141,11 +138,12 @@ Get-MsolUser -UserPrincipalName <sign-in name of user account> | Select DisplayN
 
 First, create a text file that contains one account on each line like this:
     
-  ```powershell
+```powershell
 akol@contoso.com
 tjohnston@contoso.com
 kakers@contoso.com
-  ```
+```
+
 In the following commands, the example text file is C:\My Documents\Accounts.txt. Replace this with the path and file name of your text file.
     
 To block access to the accounts listed in the text file, run the following command:
@@ -161,7 +159,7 @@ To unblock the accounts listed in the text file, run the following command:
 
 ## See also
 
-[Manage user accounts and licenses with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   

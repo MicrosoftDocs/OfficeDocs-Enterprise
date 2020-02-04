@@ -3,7 +3,7 @@ title: "Disable access to services with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/04/2019
+ms.date: 12/17/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -151,23 +151,10 @@ If you want to disable access to services for multiple licensing plans, repeat t
 To disable Office 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
 
 
-## New to Office 365?
-<a name="LinkedIn"> </a>
-
-[!INCLUDE [LinkedIn Learning Info](../common/office/linkedin-learning-info.md)]
-   
 ## See also
-<a name="SeeAlso"> </a>
 
-See the following additional topics about managing users with Office 365 PowerShell:
+[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-- [Delete and restore user accounts with Office 365 PowerShell](delete-and-restore-user-accounts-with-office-365-powershell.md)
-    
-- [Delete and restore user accounts with Office 365 PowerShell](delete-and-restore-user-accounts-with-office-365-powershell.md)
-    
-- [Block user accounts with Office 365 PowerShell](block-user-accounts-with-office-365-powershell.md)
-    
-- [Assign licenses to user accounts with Office 365 PowerShell](assign-licenses-to-user-accounts-with-office-365-powershell.md)
-    
-- [Create user accounts with Office 365 PowerShell](create-user-accounts-with-office-365-powershell.md)
-    
+[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+  
+[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)

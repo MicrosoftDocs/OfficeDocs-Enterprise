@@ -524,7 +524,8 @@ Here is a Python script, tested with Python 3.6.3 on Windows 10, that you can ru
 
 ```python
 import json
-import os
+import tempfile
+from pathlib import Path
 import urllib.request
 import uuid
 # helper to call the webservice and parse the response
@@ -535,9 +536,9 @@ def webApiGet(methodName, instanceName, clientRequestId):
     with urllib.request.urlopen(request) as response:
         return json.loads(response.read().decode())
 # path where client ID and latest version number will be stored
-datapath = os.environ['TEMP'] + '\endpoints_clientid_latestversion.txt'
+datapath = Path(tempfile.gettempdir() + '/endpoints_clientid_latestversion.txt')
 # fetch client ID and version if data exists; otherwise create new file
-if os.path.exists(datapath):
+if datapath.exists():
     with open(datapath, 'r') as fin:
         clientRequestId = fin.readline().strip()
         latestVersion = fin.readline().strip()

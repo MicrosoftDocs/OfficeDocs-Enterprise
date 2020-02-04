@@ -44,7 +44,7 @@ There are relatively few administrative tasks, such as assigning roles to user a
   
 1. Determine the set of user accounts that have been assigned the global admin role. You can do this with Azure Active (Azure AD) Directory PowerShell for Graph  command:
   
-  ```
+  ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 
@@ -70,7 +70,7 @@ The result should be:
   
 - The only user accounts in your subscription that have the global admin role are the new set of dedicated global administrator accounts. Verify this with the following PowerShell command:
     
-  ```
+  ```powershell
   Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 

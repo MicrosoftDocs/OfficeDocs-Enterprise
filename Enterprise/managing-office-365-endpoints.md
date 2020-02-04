@@ -3,7 +3,7 @@ title: "Managing Office 365 endpoints"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/21/2019
+ms.date: 1/24/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -128,16 +128,17 @@ Click the link at the bottom to indicate if the article was helpful or not and s
   
 With over 2500 ISP peering relationships globally and 70 points of presence, getting from your network to ours should be seamless. It can't hurt to spend a few minutes making sure your ISP's peering relationship is the most optimal, [here's a few examples](https://blogs.technet.microsoft.com/onthewire/2017/03/22/__guidance/) of good and not so good peering hand-offs to our network.
   
-### I see network requests to IP addresses not on the published list, do I need to provide access to them?
 <a name="bkmk_MissingIP"> </a>
+### I see network requests to IP addresses not on the published list, do I need to provide access to them?
 
 We only provide IP addresses for the Office 365 servers you should route directly to. This isn't a comprehensive list of all IP addresses you'll see network requests for. You will see network requests to Microsoft and third-party owned, unpublished, IP addresses. These IP addresses are dynamically generated or managed in a way that prevents timely notice when they change. If your firewall can't allow access based on the FQDNs for these network requests, use a PAC or WPAD file to manage the requests.
   
 See an IP associated with Office 365 that you want more information on?
   
-1. Check if the IP address is included in a larger published range using a [CIDR calculator](https://jodies.de/ipcalc).
-2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner.
-3. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
+1. Check if the IP address is included in a larger published range using a CIDR calculator, such as these for [IPv4](https://www.ipaddressguide.com/cidr) or [IPv6](https://www.ipaddressguide.com/ipv6-cidr). For example, 40.96.0.0/13 includes the IP Address 40.103.0.1 despite 40.96 not matching 40.103.
+2. See if a partner owns the IP with a [whois query](https://dnsquery.org/). If it's Microsoft owned, it may be an internal partner. Many partner network endpoints are listed as belonging to the _default_ category, for which IP addresses are not published.
+3. The IP address may not be part of Office 365 or a dependency. Office 365 network endpoint publishing does not include all of Microsoft network endpoints.
+4. Check the certificate, in a browser connect to the IP address using  *HTTPS://\<IP_ADDRESS\>*  , check the domains listed on the certificate to understand what domains are associated with the IP address. If it's a Microsoft owned IP address and not on the list of Office 365 IP addresses, it's likely the IP address is associated with a Microsoft CDN such as  *MSOCDN.NET*  or another Microsoft domain without published IP information. If you do find the domain on the certificate is one where we claim to list the IP address, please let us know.
 
 <a name="bkmk_cname"> </a>
 ### Some Office 365 URLs point to CNAME records instead of A records in the DNS. What do I have to do with the CNAME records?
@@ -154,8 +155,8 @@ A proxy server validates the initial URL which in the above example is serviceA.
 
 Hard-coded configurations or whitelisting based on indirect Office 365 FQDNs is not recommended, not supported by Microsoft, and is known to cause customer connectivity issues. DNS solutions that block on CNAME redirection, or that otherwise incorrectly resolve Office 365 DNS entries, can be solved via DNS conditional forwarding (scoped to directly used Office 365 FQDNs) with DNS recursion enabled. Many third party network perimeter products natively integrate recommended Office 365 endpoint whitelisting in their configuration using the [Office 365 IP Address and URL Web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service).
 
-### Why do I see names such as nsatc.net or akadns.net in the Microsoft domain names?
 <a name="bkmk_akamai"> </a>
+### Why do I see names such as nsatc.net or akadns.net in the Microsoft domain names?
 
 Office 365 and other Microsoft services use several third-party services such as Akamai and MarkMonitor to improve your Office 365 experience. To keep giving you the best experience possible, we may change these services in the future. Third party domains may host content, such as a CDN, or they may host a service, such as a geographical traffic management service. Some of the services currently in use include:
   
@@ -177,8 +178,8 @@ Office 365 and other Microsoft services use several third-party services such as
 *.edgesuite.net
 ```
 
-### I have to have the minimum connectivity possible for Office 365
 <a name="bkmk_thirdparty"> </a>
+### I have to have the minimum connectivity possible for Office 365
 
 As Office 365 is a suite of services built to function over the internet, the reliability and availability promises are based on many standard internet services being available. For example, standard internet services such as DNS, CRL, and CDNs must be reachable to use Office 365 just as they must be reachable to use most modern internet services.
 
@@ -195,13 +196,18 @@ In addition to basic internet services, there are third-party services that are 
   
 If you're trying to use Office 365 and are finding third party services aren't accessible you'll want to [ensure all FQDNs marked required or optional in this article are allowed through the proxy and firewall](urls-and-ip-address-ranges.md).
   
-### How do I block access to Microsoft's consumer services?
 <a name="bkmk_consumer"> </a>
+### How do I block access to Microsoft's consumer services?
 
 Restricting access to our consumer services should be done at your own risk. The only reliable way to block consumer services is to restrict access to the  *login.live.com*  FQDN. This FQDN is used by a broad set of services including non-consumer services such as MSDN, TechNet, and others. This FQDN is also used by Microsoft Support's Secure File Exchange program and is necessary to transfer files to facilitate troubleshooting for Microsoft products.  Restricting access to this FQDN may result in the need to also include exceptions to the rule for network requests associated with these services.
   
 Keep in mind that blocking access to the Microsoft consumer services alone won't prevent the ability for someone on your network to exfiltrate information using an Office 365 tenant or other service.
-  
+
+<a name="bkmk_IPOnlyFirewall"> </a>
+### My firewall requires IP Addresses and cannot process URLs. How do I configure it for Office 365?
+
+Office 365 does not provide IP addresses of all required network endpoints. Some are provided as URLs only and are categorized as default. URLs in the default category which are required should be allowed through a proxy server. If you do not have a proxy server then look at how you have configured web requests for URLs that users type into the address bar of a web browser; the user doesn’t provide an IP address either. The Office 365 default category URLs which do not provide IP addresses should be configured in the same way.
+
 ## Related Topics
 
 [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)

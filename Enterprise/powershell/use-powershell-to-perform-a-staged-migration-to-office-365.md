@@ -53,7 +53,7 @@ Before you migrate mailboxes to Office 365 by using a staged migration, there ar
   
 - Use Outlook from outside your corporate network to connect to your on-premises Exchange mailbox.
     
-- Use the [Microsoft Exchange Remote Connectivity Analyzer](https://www.testexchangeconnectivity.com/) to test your connection settings. Use the Outlook Anywhere (RPC over HTTP) or Outlook Autodiscover tests.
+- Use the [Microsoft Remote Connectivity Analyzer](https://https://testconnectivity.microsoft.com/) to test your connection settings. Use the Outlook Anywhere (RPC over HTTP) or Outlook Autodiscover tests.
     
 - Run the following commands in Exchange Online PowerShell:
     
@@ -195,12 +195,6 @@ After you have successfully migrated a batch of mailboxes, you need some way to 
 Because you are not done with your migrations, you are not yet ready to direct all users to Office 365 for their email. So what do you do for those people who have both? What you can do is change the on-premises mailboxes that you've already migrated to mail-enabled users. When you change from a mailbox to a mail-enabled user, you can direct the user to Office 365 for their email instead of going to their on-premises mailbox. 
   
 Another important reason to convert on-premises mailboxes to mail-enabled users is to retain proxy addresses from the Office 365 mailboxes by copying proxy addresses to the mail-enabled users. This lets you manage cloud-based users from your on-premises organization by using Active Directory. Also, if you decide to decommission your on-premises Exchange Server organization after all mailboxes are migrated to Office 365, the proxy addresses you've copied to the mail-enabled users will remain in your on-premises Active Directory.
-  
-For more information, and to download scripts that you can run to convert mailboxes to mail-enabled users, see the following:
-  
-- [Convert Exchange 2007 mailboxes to mail-enabled users](https://go.microsoft.com/fwlink/p/?LinkId=233648)
-    
-- [Convert Exchange 2003 mailboxes to mail-enabled users](https://go.microsoft.com/fwlink/p/?LinkId=233647)
     
 ### Step 6: Delete a staged migration batch
 <a name="BK_Endpoint"> </a>

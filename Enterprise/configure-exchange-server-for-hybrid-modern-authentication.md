@@ -149,10 +149,16 @@ Once you enable HMA, a client's next login will use the new auth flow. Note that
 You should also hold down the CTRL key at the same time you right click the icon for the Outlook client (also in the Windows Notifications tray) and click 'Connection Status'. Look for the client's SMTP address against an 'Authn' type of 'Bearer\*', which represents the bearer token used in OAuth.
   
  **Note** Need to configure Skype for Business with HMA? You'll need two articles: One that lists [supported topologies](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported), and one that shows you [how to do the configuration](configure-skype-for-business-for-hybrid-modern-authentication.md).
+ 
+## Using hybrid Modern Authentication with Outlook for iOS and Android
+
+If you are an on-premises customer using Exchange server on TCP 443, please whitelist the following IP ranges:
+ <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR> 
   
 
 ## Related topics
 
 [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md) 
   
-
+Force Outlook users to Modern Authentication  
+[Modern Authentication configuration requirements for transition from Office 365 dedicated/ITAR to vNext](modern-authentication-configuration.md)
