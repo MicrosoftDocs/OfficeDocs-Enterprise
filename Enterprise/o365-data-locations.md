@@ -2888,9 +2888,6 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-## Macao SAR
-<details><summary>Click to expand</summary><p>
-
 ## Madagascar
 <details><summary>Click to expand</summary><p>
 
