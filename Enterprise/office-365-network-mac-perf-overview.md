@@ -1,9 +1,9 @@
 ---
-title: "Network performance recommendations in the Microsoft 365 Admin Center"
+title: "Network performance recommendations in the Microsoft 365 Admin Center (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/21/2020
+ms.date: 02/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,10 +13,10 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Overview of network performance recommendations in the Microsoft 365 Admin Center"
+description: "Overview of network performance recommendations in the Microsoft 365 Admin Center (preview)"
 ---
 
-# Network performance recommendations in the Microsoft 365 Admin Center
+# Network performance recommendations in the Microsoft 365 Admin Center (preview)
 
 The network performance page in the Microsoft 365 Admin Center show network insights and a network score for enterprise customers. Network insights are specific recommended network architecture design changes to improve user experience related to network connectivity to Office 365 and the network score shows how network connectivity impacts user experience allowing for comparison of different user location network connections. Enterprises using Office 365 with multiple office locations and non-trivial network perimeter architectures can benefit from this either during their initial onboarding to Office 365, or in order to remediate network performance issues discovered with usage growth. This is usually not necessary for small businesses using Office 365, or any enterprises who already have simple and direct network connectivity. Enterprises with over 500 users and multiple office locations are expected to benefit the most.
 
@@ -59,3 +59,11 @@ An optimal Office 365 service front door is one that is closest to your network 
 ### What is an internet egress location?
 
 The internet egress Location is the location where your network traffic exits your enterprise network and connects to the Internet. This is also identified as the location where you have a Network Address Translation (NAT) device and usually where you connect with an Internet Service Provider (ISP). If you see a long distance between your location and your internet egress Location, then this may identify a significant WAN backhaul.
+
+## Related topics
+
+[Office 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
+
+[Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
+
+[Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)

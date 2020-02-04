@@ -1,9 +1,9 @@
 ---
-title: "Office 365 network performance insights"
+title: "Office 365 network performance insights (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/21/2020
+ms.date: 02/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,10 +13,10 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 network performance insights"
+description: "Office 365 network performance insights (preview)"
 ---
 
-# Office 365 network performance insights
+# Office 365 network performance insights (preview)
 
 The Microsoft 365 Admin Center network performance pages show Office 365 network insights which can help in designing network perimeters for your office locations. There are five specific network insights that may be shown for each office location.
 
@@ -71,3 +71,11 @@ The download speed that a user can get from SharePoint Online and OneDrive for B
 To improve download speed that a user can get bandwidth may need to be increased. Alternatively, there may be network congestion between user machines at the office location and the SharePoint Online service front door. This is sometimes called congestive loss and it restricts the download speed available to users even if sufficient bandwidth is available.
 
 This insight is abbreviated as "Throughput" in some summary views.
+
+## Related topics
+
+[Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
+
+[Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
+
+[Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)

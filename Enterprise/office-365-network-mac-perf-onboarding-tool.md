@@ -1,9 +1,9 @@
 ---
-title: "Office 365 Network Onboarding Tool in the M365 Admin Center"
+title: "Office 365 Network Onboarding Tool in the M365 Admin Center (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/21/2020
+ms.date: 02/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,10 +13,10 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 Network Onboarding Tool in the M365 Admin Center"
+description: "Office 365 Network Onboarding Tool in the M365 Admin Center (preview)"
 ---
 
-# Office 365 Network Onboarding Tool in the M365 Admin Center
+# Office 365 Network Onboarding Tool in the M365 Admin Center (preview)
 
 The Office 365 network onboarding tool is located at <https://connectivity.office.com.> It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the Health -> Network Performance menu.
 
@@ -111,3 +111,11 @@ Where an SSL certificate is found that isn't provided by Microsoft, we show the 
 ## Network path diagnostics
 
 This section shows the results of an ICMP traceroute to the Exchange Online service front door, the SharePoint Online service front door, and the Microsoft Teams service front door. It is provided for information only and there is no associated network insight.
+
+## Related topics
+
+[Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
+
+[Office 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
+
+[Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)

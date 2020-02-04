@@ -1,9 +1,9 @@
 ---
-title: "Office 365 network assessment"
+title: "Office 365 network assessment (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 1/21/2020
+ms.date: 02/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,10 +13,10 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 network assessment."
+description: "Office 365 network assessment (preview)"
 ---
 
-# Office 365 network assessment
+# Office 365 network assessment (preview)
 
 The Office 365 network assessment indicates the relative user experience impact from customer network connectivity. The impact of any Microsoft owned network connectivity is excluded from this to enable customers to optimize network designs for which they are responsible.
 
@@ -48,3 +48,11 @@ Each network score whether for the tenant or for a specific office location show
 The score breakdown in the panel shows the score for each of the component workloads.
 
 The score history shows the past 30 days of the score and the benchmark.
+
+## Related topics
+
+[Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
+
+[Office 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
+
+[Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
