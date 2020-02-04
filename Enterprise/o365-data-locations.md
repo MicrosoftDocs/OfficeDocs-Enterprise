@@ -140,7 +140,7 @@ Expand the country that your tenant is based in to find out where customer data 
 <details><summary>
 
 ## Aland Islands
-</summary><p>
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -160,7 +160,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Albania</summary><p>
+## Albania
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -180,7 +181,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Algeria</summary><p>
+## Algeria
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -200,7 +202,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>American Samoa</summary><p>
+## American Samoa
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -220,7 +223,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Andorra</summary><p>
+## Andorra
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -240,7 +244,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Angola</summary><p>
+## Angola
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -260,7 +265,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Anguilla</summary><p>
+## Anguilla
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -280,7 +286,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Antarctica</summary><p>
+## Antarctica
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -300,7 +307,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Antigua and Barbuda</summary><p>
+## Antigua and Barbuda
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -320,7 +328,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Argentina</summary><p>
+## Argentina
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -340,7 +349,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Armenia</summary><p>
+## Armenia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -360,7 +370,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Aruba</summary><p>
+## Aruba
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -380,7 +391,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Australia</summary><p>
+## Australia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Australia |
 | --- | --- |
@@ -400,7 +412,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Austria</summary><p>
+## Austria
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -420,7 +433,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Azerbaijan</summary><p>
+## Azerbaijan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -440,7 +454,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Bahamas</summary><p>
+## Bahamas
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -460,7 +475,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bahrain</summary><p>
+## Bahrain
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -480,7 +496,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Bangladesh</summary><p>
+## Bangladesh
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -500,7 +517,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Barbados</summary><p>
+## Barbados
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -520,7 +538,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Belarus</summary><p>
+## Belarus
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -540,7 +559,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Belgium</summary><p>
+## Belgium
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -560,7 +580,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Belize</summary><p>
+## Belize
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -580,7 +601,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Benin</summary><p>
+## Benin
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -600,7 +622,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bermuda</summary><p>
+## Bermuda
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -620,7 +643,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bhutan</summary><p>
+## Bhutan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -640,7 +664,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Boliva</summary><p>
+## Boliva
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -660,7 +685,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bonaire</summary><p>
+## Bonaire
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -680,7 +706,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bosnia</summary><p>
+## Bosnia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -700,7 +727,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Botswana</summary><p>
+## Botswana
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -720,7 +748,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bouvet Island</summary><p>
+## Bouvet Island
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -740,7 +769,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Brazil</summary><p>
+## Brazil
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -760,7 +790,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>British Indian Ocean Territory</summary><p>
+## British Indian Ocean Territory
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -780,7 +811,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>British Virgin Islands</summary><p>
+## British Virgin Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -800,7 +832,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Brunei</summary><p>
+## Brunei
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -820,7 +853,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Bulgaria</summary><p>
+## Bulgaria
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -840,7 +874,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Burkina Faso</summary><p>
+## Burkina Faso
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -860,7 +895,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Burundi</summary><p>
+## Burundi
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -880,7 +916,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cambodia</summary><p>
+## Cambodia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -900,7 +937,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cameroon</summary><p>
+## Cameroon
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -920,7 +958,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Canada</summary><p>
+## Canada
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Canada |
 | --- | --- |
@@ -940,7 +979,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cape Verde</summary><p>
+## Cape Verde
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -960,7 +1000,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cayman Islands</summary><p>
+## Cayman Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -980,7 +1021,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Central African Republic</summary><p>
+## Central African Republic
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1000,7 +1042,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Chad</summary><p>
+## Chad
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1020,7 +1063,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Chile</summary><p>
+## Chile
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -1040,7 +1084,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>China</summary><p>
+## China
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1060,7 +1105,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Christmas Island</summary><p>
+## Christmas Island
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1080,7 +1126,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cocos (Keeling) Islands</summary><p>
+## Cocos (Keeling) Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1100,7 +1147,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Colombia</summary><p>
+## Colombia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1120,7 +1168,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Comoros</summary><p>
+## Comoros
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1140,7 +1189,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Congo (Brazzaville)</summary><p>
+## Congo (Brazzaville)
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1160,7 +1210,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Congo, (Kinshasa)</summary><p>
+## Congo, (Kinshasa)
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1180,7 +1231,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cook Islands</summary><p>
+## Cook Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1200,7 +1252,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Costa Rica</summary><p>
+## Costa Rica
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1220,7 +1273,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cote D&#39;Ivoire</summary><p>
+## Cote D&#39;Ivoire
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1240,7 +1294,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Croatia</summary><p>
+## Croatia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1260,7 +1315,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Curacao</summary><p>
+## Curacao
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -1280,7 +1336,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Cyprus</summary><p>
+## Cyprus
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1300,7 +1357,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Czech Republic</summary><p>
+## Czech Republic
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1320,7 +1378,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Denmark</summary><p>
+## Denmark
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1340,7 +1399,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Djibouti</summary><p>
+## Djibouti
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1360,7 +1420,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Dominica</summary><p>
+## Dominica
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1380,7 +1441,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Dominican Republic</summary><p>
+## Dominican Republic
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1400,7 +1462,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Ecuador</summary><p>
+## Ecuador
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -1420,7 +1483,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Egypt</summary><p>
+## Egypt
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1440,7 +1504,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>El Salvador</summary><p>
+## El Salvador
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1460,7 +1525,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Equatorial Guinea</summary><p>
+## Equatorial Guinea
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1480,7 +1546,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Eritrea</summary><p>
+## Eritrea
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1500,7 +1567,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Estonia</summary><p>
+## Estonia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1520,7 +1588,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Ethiopia</summary><p>
+## Ethiopia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1540,7 +1609,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Falkland Islands (Malvinas)</summary><p>
+## Falkland Islands (Malvinas)
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -1560,7 +1630,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Faroe Islands</summary><p>
+## Faroe Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1580,7 +1651,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Federated States of Micronesia</summary><p>
+## Federated States of Micronesia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1600,7 +1672,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Federated States of Micronesia</summary><p>
+## Federated States of Micronesia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1620,7 +1693,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Fiji</summary><p>
+## Fiji
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Australia |
 | --- | --- |
@@ -1640,7 +1714,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Finland</summary><p>
+## Finland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1660,7 +1735,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>France</summary><p>
+## France
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | France |
 | --- | --- |
@@ -1680,7 +1756,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>French Guiana</summary><p>
+## French Guiana
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -1700,7 +1777,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>French Polynesia</summary><p>
+## French Polynesia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1720,7 +1798,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>French Southern Territories</summary><p>
+## French Southern Territories
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1740,7 +1819,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Gabon</summary><p>
+## Gabon
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1760,7 +1840,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Gambia</summary><p>
+## Gambia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1780,7 +1861,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Georgia</summary><p>
+## Georgia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1800,7 +1882,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Germany</summary><p>
+## Germany
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Germany |
 | --- | --- |
@@ -1820,7 +1903,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Ghana</summary><p>
+## Ghana
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1840,7 +1924,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Gibraltar</summary><p>
+## Gibraltar
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1860,7 +1945,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Greece</summary><p>
+## Greece
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -1880,7 +1966,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Greenland</summary><p>
+## Greenland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1900,7 +1987,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Grenada</summary><p>
+## Grenada
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1920,7 +2008,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Guadeloupe</summary><p>
+## Guadeloupe
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1940,7 +2029,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Guam</summary><p>
+## Guam
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -1960,7 +2050,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Guatemala</summary><p>
+## Guatemala
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -1980,7 +2071,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Guernsey</summary><p>
+## Guernsey
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2000,7 +2092,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Guinea</summary><p>
+## Guinea
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2020,7 +2113,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Guinea-Bissau</summary><p>
+## Guinea-Bissau
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2040,7 +2134,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Guyana</summary><p>
+## Guyana
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -2060,7 +2155,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Haiti</summary><p>
+## Haiti
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -2080,7 +2176,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Heard and Mcdonald Islands</summary><p>
+## Heard and Mcdonald Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -2100,7 +2197,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Herzegovina</summary><p>
+## Herzegovina
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2120,7 +2218,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Holy See (Vatican City State)</summary><p>
+## Holy See (Vatican City State)
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2140,7 +2239,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Honduras</summary><p>
+## Honduras
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -2160,7 +2260,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Hong Kong SAR</summary><p>
+## Hong Kong SAR
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2180,7 +2281,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Hungary</summary><p>
+## Hungary
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2200,7 +2302,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Iceland</summary><p>
+## Iceland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2220,7 +2323,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>India</summary><p>
+## India
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | India |
 | --- | --- |
@@ -2240,7 +2344,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Indonesia</summary><p>
+## Indonesia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2260,7 +2365,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Iraq</summary><p>
+## Iraq
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2280,7 +2386,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Ireland</summary><p>
+## Ireland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2300,7 +2407,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Isle of Man</summary><p>
+## Isle of Man
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2320,7 +2428,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Israel</summary><p>
+## Israel
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2340,7 +2449,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Italy</summary><p>
+## Italy
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2360,7 +2470,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Jamaica</summary><p>
+## Jamaica
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -2380,7 +2491,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Japan</summary><p>
+## Japan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Japan |
 | --- | --- |
@@ -2400,7 +2512,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Jersey</summary><p>
+## Jersey
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2420,7 +2533,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Jordan</summary><p>
+## Jordan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2440,7 +2554,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Kazakhstan</summary><p>
+## Kazakhstan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2460,7 +2575,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Kenya</summary><p>
+## Kenya
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2480,7 +2596,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Kiribati</summary><p>
+## Kiribati
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2500,7 +2617,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Korea</summary><p>
+## Korea
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Korea |
 | --- | --- |
@@ -2520,7 +2638,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Kosovo</summary><p>
+## Kosovo
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2540,7 +2659,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Kuwait</summary><p>
+## Kuwait
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2560,7 +2680,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Kyrgyzstan</summary><p>
+## Kyrgyzstan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2580,7 +2701,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Laos</summary><p>
+## Laos
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2600,7 +2722,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Latvia</summary><p>
+## Latvia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2620,7 +2743,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Lebanon</summary><p>
+## Lebanon
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2640,7 +2764,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Lesotho</summary><p>
+## Lesotho
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2660,7 +2785,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Liberia</summary><p>
+## Liberia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2680,7 +2806,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Libya</summary><p>
+## Libya
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2700,7 +2827,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Liechtenstein</summary><p>
+## Liechtenstein
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Switzerland |
 | --- | --- |
@@ -2720,7 +2848,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Lithuania</summary><p>
+## Lithuania
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2740,7 +2869,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Luxembourg</summary><p>
+## Luxembourg
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2760,29 +2890,11 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Macao SAR</summary><p>
+## Macao SAR
+<details><summary>Click to expand</summary><p>
 
-### <details><summary>Madagascar</summary><p>
-
-| Exchange Online | Global Geography 1 – EMEA |
-| --- | --- |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | United States |
-| Sway | United States |
-| Yammer | United States |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
-| Forms | United States |
-</p></details>
-
-### <details><summary>Malawi</summary><p>
+## Madagascar
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2802,7 +2914,29 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Malaysia</summary><p>
+## Malawi
+<details><summary>Click to expand</summary><p>
+
+| Exchange Online | Global Geography 1 – EMEA |
+| --- | --- |
+| OneDrive for Business | Global Geography 1 – EMEA |
+| SharePoint Online | Global Geography 1 – EMEA |
+| Skype for Business | Global Geography 1 – EMEA |
+| Microsoft Teams | Global Geography 1 – EMEA |
+| Office Online &amp; Mobile | Global Geography 1 – EMEA |
+| EOP | Global Geography 1 – EMEA |
+| MyAnalytics | Global Geography 1 – EMEA |
+| Planner | United States |
+| Sway | United States |
+| Yammer | United States |
+| OneNote Services | Global Geography 1 – EMEA |
+| Stream | Global Geography 1 – EMEA |
+| Whiteboard | United States? |
+| Forms | United States |
+</p></details>
+
+## Malaysia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2822,7 +2956,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Maldives</summary><p>
+## Maldives
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2842,7 +2977,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Mali</summary><p>
+## Mali
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2862,7 +2998,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Malta</summary><p>
+## Malta
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2882,7 +3019,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Marshall Islands</summary><p>
+## Marshall Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -2902,7 +3040,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Martinique</summary><p>
+## Martinique
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -2922,7 +3061,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Mauritania</summary><p>
+## Mauritania
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2942,7 +3082,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Mauritius</summary><p>
+## Mauritius
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2962,7 +3103,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Mayotte</summary><p>
+## Mayotte
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -2982,7 +3124,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Mexico</summary><p>
+## Mexico
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3002,7 +3145,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Moldova</summary><p>
+## Moldova
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3022,7 +3166,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Monaco</summary><p>
+## Monaco
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3042,7 +3187,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Mongolia</summary><p>
+## Mongolia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3062,7 +3208,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Montenegro</summary><p>
+## Montenegro
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3082,7 +3229,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Montserrat</summary><p>
+## Montserrat
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3102,7 +3250,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Morocco</summary><p>
+## Morocco
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3122,7 +3271,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Mozambique</summary><p>
+## Mozambique
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3142,7 +3292,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Myanmar</summary><p>
+## Myanmar
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3162,7 +3313,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Namibia</summary><p>
+## Namibia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3182,7 +3334,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States+ |
 </p></details>
 
-### <details><summary>Nauru</summary><p>
+## Nauru
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3202,7 +3355,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Nepal</summary><p>
+## Nepal
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3222,7 +3376,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Netherlands</summary><p>
+## Netherlands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3242,7 +3397,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Netherlands Antilles</summary><p>
+## Netherlands Antilles
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3262,7 +3418,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>New Caledonia</summary><p>
+## New Caledonia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3282,7 +3439,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>New Zealand</summary><p>
+## New Zealand
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Australia |
 | --- | --- |
@@ -3302,7 +3460,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Nicaragua</summary><p>
+## Nicaragua
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3322,7 +3481,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Niger</summary><p>
+## Niger
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3342,7 +3502,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Nigeria</summary><p>
+## Nigeria
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3362,7 +3523,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Niue</summary><p>
+## Niue
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3382,7 +3544,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Norfolk Island</summary><p>
+## Norfolk Island
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3402,7 +3565,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Northern Mariana Islands</summary><p>
+## Northern Mariana Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3422,7 +3586,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Norway</summary><p>
+## Norway
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3442,27 +3607,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Oman</summary><p>
-
-| Exchange Online | Global Geography 1 – EMEA |
-| --- | --- |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
-| Sway | United States |
-| Yammer | United States |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
-| Forms | Global Geography 1 – EMEA |
-</p></details>
-
-### <details><summary>Pakistan</summary><p>
+## Oman
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3482,7 +3628,29 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Palau</summary><p>
+## Pakistan
+<details><summary>Click to expand</summary><p>
+
+| Exchange Online | Global Geography 1 – EMEA |
+| --- | --- |
+| OneDrive for Business | Global Geography 1 – EMEA |
+| SharePoint Online | Global Geography 1 – EMEA |
+| Skype for Business | Global Geography 1 – EMEA |
+| Microsoft Teams | Global Geography 1 – EMEA |
+| Office Online &amp; Mobile | Global Geography 1 – EMEA |
+| EOP | Global Geography 1 – EMEA |
+| MyAnalytics | Global Geography 1 – EMEA |
+| Planner | Global Geography 1 – EMEA |
+| Sway | United States |
+| Yammer | United States |
+| OneNote Services | Global Geography 1 – EMEA |
+| Stream | Global Geography 1 – EMEA |
+| Whiteboard | United States? |
+| Forms | Global Geography 1 – EMEA |
+</p></details>
+
+## Palau
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3502,7 +3670,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Palestinian Authority</summary><p>
+## Palestinian Authority
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3522,7 +3691,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Panama</summary><p>
+## Panama
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3542,7 +3712,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Papaua New Guinea</summary><p>
+## Papaua New Guinea
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3562,7 +3733,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Paraguay</summary><p>
+## Paraguay
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -3582,7 +3754,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Peru</summary><p>
+## Peru
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -3602,7 +3775,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Philippines</summary><p>
+## Philippines
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3622,7 +3796,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Pitcairn</summary><p>
+## Pitcairn
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3642,7 +3817,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Poland</summary><p>
+## Poland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3662,7 +3838,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Portugal</summary><p>
+## Portugal
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3682,7 +3859,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Puerto Rico</summary><p>
+## Puerto Rico
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3702,7 +3880,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Qatar</summary><p>
+## Qatar
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3722,7 +3901,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Republic of Macedonia</summary><p>
+## Republic of Macedonia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3742,7 +3922,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Réunion</summary><p>
+## Réunion
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3762,7 +3943,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Romania</summary><p>
+## Romania
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3782,7 +3964,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Russian Federation</summary><p>
+## Russian Federation
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3802,7 +3985,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Rwanda</summary><p>
+## Rwanda
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3822,7 +4006,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint Helena</summary><p>
+## Saint Helena
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -3842,7 +4027,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint Kitts and Nevis</summary><p>
+## Saint Kitts and Nevis
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3862,7 +4048,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint Lucia</summary><p>
+## Saint Lucia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3882,7 +4069,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint Martin</summary><p>
+## Saint Martin
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3902,7 +4090,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint Pierre and Miquelon</summary><p>
+## Saint Pierre and Miquelon
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3922,7 +4111,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint Vincent and the Grenadines</summary><p>
+## Saint Vincent and the Grenadines
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3942,7 +4132,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saint-Barthélemy</summary><p>
+## Saint-Barthélemy
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -3962,7 +4153,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Samoa</summary><p>
+## Samoa
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -3982,7 +4174,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>San Marino</summary><p>
+## San Marino
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4002,7 +4195,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Sao Tome and Principe</summary><p>
+## Sao Tome and Principe
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4022,7 +4216,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Saudi Arabia</summary><p>
+## Saudi Arabia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4042,7 +4237,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Senegal</summary><p>
+## Senegal
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4062,7 +4258,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Serbia</summary><p>
+## Serbia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4082,7 +4279,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Seychelles</summary><p>
+## Seychelles
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4102,7 +4300,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Sierra Leone</summary><p>
+## Sierra Leone
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4122,7 +4321,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Singapore</summary><p>
+## Singapore
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4142,7 +4342,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Sint Maarten</summary><p>
+## Sint Maarten
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4162,7 +4363,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Slovakia</summary><p>
+## Slovakia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4182,7 +4384,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Slovenia</summary><p>
+## Slovenia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4202,7 +4405,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Solomon Islands</summary><p>
+## Solomon Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4222,7 +4426,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Somalia</summary><p>
+## Somalia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4242,7 +4447,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>South Africa</summary><p>
+## South Africa
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | South Africa |
 | --- | --- |
@@ -4262,7 +4468,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>South Georgia and the South Sandwich Islands</summary><p>
+## South Georgia and the South Sandwich Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4282,7 +4489,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Spain</summary><p>
+## Spain
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4302,7 +4510,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Sri Lanka</summary><p>
+## Sri Lanka
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4322,7 +4531,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Suriname</summary><p>
+## Suriname
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4342,7 +4552,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Svalbard and Jan Mayen Islands</summary><p>
+## Svalbard and Jan Mayen Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4362,7 +4573,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Swaziland</summary><p>
+## Swaziland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4382,7 +4594,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Sweden</summary><p>
+## Sweden
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4402,7 +4615,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Switzerland</summary><p>
+## Switzerland
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Switzerland |
 | --- | --- |
@@ -4422,7 +4636,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Taiwan</summary><p>
+## Taiwan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4442,7 +4657,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Tajikistan</summary><p>
+## Tajikistan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4462,7 +4678,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>United Republic of Tanzania</summary><p>
+## United Republic of Tanzania
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4482,7 +4699,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Thailand</summary><p>
+## Thailand
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4502,7 +4720,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Timor-Leste</summary><p>
+## Timor-Leste
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4522,7 +4741,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Togo</summary><p>
+## Togo
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4542,7 +4762,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Tokelau</summary><p>
+## Tokelau
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4562,7 +4783,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Tonga</summary><p>
+## Tonga
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4582,7 +4804,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Trinidad and Tobago</summary><p>
+## Trinidad and Tobago
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4602,7 +4825,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Tunisia</summary><p>
+## Tunisia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4622,7 +4846,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Turkey</summary><p>
+## Turkey
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4642,7 +4867,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Turkmenistan</summary><p>
+## Turkmenistan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4662,7 +4888,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Turks and Caicos Islands</summary><p>
+## Turks and Caicos Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4682,7 +4909,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Tuvalu</summary><p>
+## Tuvalu
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4702,7 +4930,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>U.S. Virgin Islands</summary><p>
+## U.S. Virgin Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4722,7 +4951,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Uganda</summary><p>
+## Uganda
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4742,7 +4972,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Ukraine</summary><p>
+## Ukraine
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4762,7 +4993,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>United Arab Emirates</summary><p>
+## United Arab Emirates
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United Arab Emirates |
 | --- | --- |
@@ -4782,7 +5014,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>United Kingdom</summary><p>
+## United Kingdom
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United Kingdom |
 | --- | --- |
@@ -4802,7 +5035,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>United States</summary><p>
+## United States
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4822,7 +5056,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Uruguay</summary><p>
+## Uruguay
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 3 – Americas |
 | --- | --- |
@@ -4842,7 +5077,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>US Minor Outlying Islands</summary><p>
+## US Minor Outlying Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4862,7 +5098,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Uzbekistan</summary><p>
+## Uzbekistan
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -4882,7 +5119,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Vanuatu</summary><p>
+## Vanuatu
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4902,7 +5140,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Vanuatu</summary><p>
+## Vanuatu
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4922,7 +5161,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Venezuela</summary><p>
+## Venezuela
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | United States |
 | --- | --- |
@@ -4942,7 +5182,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Vietnam</summary><p>
+## Vietnam
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4962,7 +5203,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Wallis and Futuna Islands</summary><p>
+## Wallis and Futuna Islands
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 2 – Asia Pacific |
 | --- | --- |
@@ -4982,7 +5224,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Western Sahara</summary><p>
+## Western Sahara
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -5002,7 +5245,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Yemen</summary><p>
+## Yemen
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -5022,7 +5266,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
-### <details><summary>Zambia</summary><p>
+## Zambia
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
@@ -5042,7 +5287,8 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-### <details><summary>Zimbabwe</summary><p>
+## Zimbabwe
+<details><summary>Click to expand</summary><p>
 
 | Exchange Online | Global Geography 1 – EMEA |
 | --- | --- |
