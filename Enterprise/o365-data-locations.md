@@ -137,8 +137,6 @@ Expand the country that your tenant is based in to find out where customer data 
 | Forms | United States |
 </p></details>
 
-<details><summary>
-
 ## Aland Islands
 <details><summary>Click to expand</summary><p>
 
