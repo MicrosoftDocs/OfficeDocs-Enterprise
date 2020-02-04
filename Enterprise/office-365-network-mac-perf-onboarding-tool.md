@@ -18,7 +18,7 @@ description: "Office 365 Network Onboarding Tool in the M365 Admin Center (previ
 
 # Office 365 Network Onboarding Tool in the M365 Admin Center (preview)
 
-The Office 365 network onboarding tool is located at <https://connectivity.office.com.> It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
+The Office 365 network onboarding tool is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
 
 The network insights in the Microsoft 365 Admin Center are based on in-product measurements for your Office 365 tenant. In comparison, the network insights from the Office 365 network onboarding tool are run locally in the tool. Testing that can be done in-product is limited and by running tests local to the user more data can be gathered resulting in deeper insights. Consider then that the network insights in the Microsoft 365 Admin Center will show that there is a networking problem for use of Office 365 at a specific office location. The Office 365 network onboarding tool can help to identify the root cause of that problem leading to a recommended network performance improvement action.
 
