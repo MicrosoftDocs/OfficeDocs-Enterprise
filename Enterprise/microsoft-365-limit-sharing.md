@@ -12,7 +12,7 @@ search.appverid:
 - MET150
 ms.custom: 
 localization_priority: Priority
-description: "Learn about to the options to limit or disable sharing in Microsoft 365."
+description: "Learn about the options to limit or disable sharing in Microsoft 365."
 ---
 
 # Limit sharing in Microsoft 365
