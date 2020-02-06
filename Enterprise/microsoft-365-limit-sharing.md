@@ -7,9 +7,12 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.collection: SPO_Content
+search.appverid:
+- SPO160
+- MET150
 ms.custom: 
 localization_priority: Priority
-description: "Learn about to limit sharing in Microsoft 365."
+description: "Learn about the options to limit or disable sharing in Microsoft 365."
 ---
 
 # Limit sharing in Microsoft 365
