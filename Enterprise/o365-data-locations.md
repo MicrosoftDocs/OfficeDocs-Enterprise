@@ -25,7 +25,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 # Where your customer data is stored
 
-The tables below shows where customer data is stored at-rest for Office 365 services across all of Microsoft's global cloud locations. Expand the location that your tenant is based in to find out where customer data for each service is being stored.
+The tables below shows where customer data is stored at-rest for Office 365 services across all of Microsoft's global cloud locations. Expand the location of your billing address country to find out where customer data for each service would being stored.
 
 Customers can view tenant specific data location information in your Office 365 Admin Center in **Settings | Organization profile | Data location card**.
 
@@ -33,7 +33,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the transact
 
 Find information about the contractual commitments for the storage location of customer data at rest in the [Microsoft Online Services Terms (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
 
-For Azure Active Directory data locations, please visit [ADD Data Map](https://go.microsoft.com/fwlink/p/?linkid=2092972).
+For Azure Active Directory data locations, please visit [AAD Data Map](https://go.microsoft.com/fwlink/p/?linkid=2092972).
 
 ## FAQ
 
@@ -87,9 +87,9 @@ The table below defines the data location for various services. When determining
 
 ### Data Center Geographies
 
-The following global geographies can store data at rest.  The countries/regions can change and you can find the current information in the [Microsoft Online Services Terms (OST)](https://go.microsoft.com/fwlink/p/?LinkId=2098215).
+The following global geographies can store data at rest. The locations where customer data may be stored can change. 
 
-| Global Geographies | Countries/regions where customer data may be stored |
+| Global Geographies | Locations where customer data may be stored |
 | --- | --- |
 | Global Geography 1 – EMEA (Europe, Middle East and Africa) | Austria, Finland, France, Germany, Ireland, Netherlands, United Kingdom |
 | Global Geography 2 – Asia Pacific | Australia, Hong Kong, India, Japan, Malaysia, Singapore, South Korea |
@@ -112,9 +112,9 @@ For country/region specific data centers, the following defines the cities where
 | Switzerland | Geneva, Zurick |
 | United Arab Emirates | Dubai, Abu Dhabi |
 | United Kingdom | Durham, London, Cardiff |
-| United States | Bay Area, Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio |
+| United States |  Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose |
 
-Expand the country that your tenant is based in to find out where customer data for each service is stored.
+New Office 365 tenants are defaulted to Geo based on the country of the billing address associated with that tenant's first subscription. To confirm where customer data is stored for existing Office 365 services, please view tenant specific data location information in your Office 365 Admin Center in Settings | Organization profile | Data location card. Alternatively, expand the country that your business is based in, from the list below, to find out where customer data would be stored if you were to start using an Office 365 Service today.
 
 ## Afghanistan
 <details><summary>Click to expand</summary><p>
@@ -153,7 +153,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -175,7 +175,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -197,7 +197,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -241,7 +241,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -263,7 +263,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -373,7 +373,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -439,7 +439,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer |   |
+| Yammer | Global Geography 1 – EMEA  |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | Global Geography 1 – EMEA |
@@ -461,7 +461,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner |  Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -505,7 +505,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -571,7 +571,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -637,10 +637,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -747,10 +747,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner |  Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -769,10 +769,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -923,10 +923,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -945,10 +945,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -989,10 +989,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1033,10 +1033,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1077,10 +1077,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1099,10 +1099,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1231,10 +1231,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1253,10 +1253,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1275,10 +1275,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1341,10 +1341,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1473,10 +1473,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1561,10 +1561,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1605,10 +1605,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1627,10 +1627,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1671,10 +1671,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner |  United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1715,10 +1715,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -1759,10 +1759,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -1913,10 +1913,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1935,10 +1935,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -1957,10 +1957,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2001,10 +2001,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -2023,10 +2023,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2177,10 +2177,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2199,10 +2199,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -2221,10 +2221,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -2307,12 +2307,12 @@ Expand the country that your tenant is based in to find out where customer data 
 | Office Online &amp; Mobile | Global Geography 1 – EMEA |
 | EOP | Global Geography 1 – EMEA |
 | MyAnalytics | Global Geography 1 – EMEA |
-| Planner | ? |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2331,10 +2331,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2419,10 +2419,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2485,10 +2485,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2529,10 +2529,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2551,10 +2551,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2639,10 +2639,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer |  United States |
+| Yammer |  Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2661,10 +2661,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2681,12 +2681,12 @@ Expand the country that your tenant is based in to find out where customer data 
 | Office Online &amp; Mobile | Global Geography 1 – EMEA |
 | EOP | Global Geography 1 – EMEA |
 | MyAnalytics | Global Geography 1 – EMEA |
-| Planner | ? |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2705,10 +2705,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -2771,10 +2771,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2791,12 +2791,12 @@ Expand the country that your tenant is based in to find out where customer data 
 | Office Online &amp; Mobile | Global Geography 1 – EMEA |
 | EOP | Global Geography 1 – EMEA |
 | MyAnalytics | Global Geography 1 – EMEA |
-| Planner | ? |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2815,10 +2815,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2881,10 +2881,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer |  United States |
+| Yammer |  Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -2903,10 +2903,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -2925,10 +2925,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -2947,10 +2947,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3035,10 +3035,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3057,10 +3057,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3123,10 +3123,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3211,10 +3211,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3233,10 +3233,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3255,10 +3255,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3297,12 +3297,12 @@ Expand the country that your tenant is based in to find out where customer data 
 | Office Online &amp; Mobile | Global Geography 1 – EMEA |
 | EOP | Global Geography 1 – EMEA |
 | MyAnalytics | Global Geography 1 – EMEA |
-| Planner | ? |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -3321,10 +3321,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -3365,10 +3365,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -3409,10 +3409,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3431,10 +3431,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -3475,10 +3475,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States+ |
 </p></details>
 
@@ -3651,10 +3651,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -3673,10 +3673,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -3761,7 +3761,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -3783,10 +3783,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -3805,10 +3805,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4069,10 +4069,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4091,10 +4091,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4113,10 +4113,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -4157,10 +4157,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4179,10 +4179,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -4201,10 +4201,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -4377,10 +4377,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4399,10 +4399,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -4421,10 +4421,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4443,10 +4443,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4465,10 +4465,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
 </p></details>
 
@@ -4487,10 +4487,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -4509,10 +4509,10 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States? |
+| Whiteboard | United States |
 | Forms | United States |
 </p></details>
 
@@ -4641,7 +4641,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -4771,9 +4771,9 @@ Expand the country that your tenant is based in to find out where customer data 
 | Office Online &amp; Mobile | Global Geography 1 – EMEA |
 | EOP | Global Geography 1 – EMEA |
 | MyAnalytics | Global Geography 1 – EMEA |
-| Planner | ? |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | ? |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -4795,7 +4795,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -4883,7 +4883,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -4905,7 +4905,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -4971,7 +4971,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5059,7 +5059,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5081,7 +5081,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5103,7 +5103,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5191,7 +5191,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5213,7 +5213,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5345,7 +5345,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5455,7 +5455,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5477,7 +5477,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5499,7 +5499,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
@@ -5521,7 +5521,7 @@ Expand the country that your tenant is based in to find out where customer data 
 | MyAnalytics | Global Geography 1 – EMEA |
 | Planner | United States |
 | Sway | United States |
-| Yammer | United States |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
