@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "An overview of Microsoft defense strategy for denial-of-service (DoS) attacks."
 ---
 

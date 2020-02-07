@@ -14,6 +14,8 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-subscription-management
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
 description: "These overview steps are designed to help you set up your network, create your identities, deploy Office 365 ProPlus, migrate your data, and help the people in your organization begin using Office 365."

@@ -11,6 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: 
 - TLG
 - Ent_TLGs

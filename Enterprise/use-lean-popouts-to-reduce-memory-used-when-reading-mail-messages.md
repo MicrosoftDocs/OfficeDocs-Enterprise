@@ -11,6 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: a6d6ba01-2562-4c3d-a8f1-78748dd506cf
+f1.keywords:
+- NOCSH
 description: "This article contains information for improving message download performance in Outlook on the web."
 ---
 

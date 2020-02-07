@@ -10,6 +10,8 @@ ms.collection: SPO_Content
 search.appverid:
 - SPO160
 - MET150
+f1.keywords:
+- NOCSH
 ms.custom: 
 localization_priority: Priority
 description: "Learn about the options to limit or disable sharing in Microsoft 365."

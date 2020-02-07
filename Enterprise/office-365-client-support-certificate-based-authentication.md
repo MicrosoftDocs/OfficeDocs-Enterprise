@@ -12,6 +12,8 @@ ms.collection:
 - M365-subscription-management
 search.appverid:
 - MET150
+f1.keywords:
+- NOCSH
 description: "Office 365 Client App support for certificate-based authentication."
 ---
 

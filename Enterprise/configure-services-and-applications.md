@@ -15,6 +15,8 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 7cec08a5-97fd-4761-b23b-ef3d66519e30
+f1.keywords:
+- NOCSH
 description: "Configure Office 365 Enterprise services and applications"
 ---
 

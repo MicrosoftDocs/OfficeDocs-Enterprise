@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.assetid: ae5f1a87-8b77-4f93-a1b8-56f800aeb283
 description: "Summary: Use remote Windows PowerShell to connect to Exchange Online by using the DelegatedOrg value."

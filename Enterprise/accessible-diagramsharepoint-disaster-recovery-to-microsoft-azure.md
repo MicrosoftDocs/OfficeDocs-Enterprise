@@ -10,6 +10,8 @@ ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 4b855224-8e67-4efa-a3a4-908ee0ca6412
+f1.keywords:
+- NOCSH
 description: "This article is an accessible text version of the diagram named SharePoint Disaster Recovery to Microsoft Azure."
 ---
 

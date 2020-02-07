@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: "Summary: Use Office 365 PowerShell to assign per-user communication settings with Skype for Business Online policies."

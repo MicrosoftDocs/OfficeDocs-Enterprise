@@ -5,13 +5,15 @@ author: Sirkkuw
 manager: scotv
 audience: Admin
 ms.topic: article
-f1_keywords:
+ms.service: o365-administration
+localization_priority: Normal
+f1.keywords:
+- CSH
+ms.custom: 
+- Adm_O365
 - 'O365P_AddUsersCSV'
 - 'O365M_AddUsersCSV'
 - 'O365E_AddUsersCSV'
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Adm_O365
 search.appverid:
 - MET150
 - MOP150

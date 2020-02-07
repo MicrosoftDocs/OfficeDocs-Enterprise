@@ -9,6 +9,8 @@ ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: 129f4e45-647e-4cf1-92a6-4d86d8396e73
+f1.keywords:
+- NOCSH
 description: "This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at Technical Diagrams."
 ---
 

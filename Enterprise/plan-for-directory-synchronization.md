@@ -8,6 +8,8 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.service: o365-administration
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 ms.collection:
 - Ent_O365

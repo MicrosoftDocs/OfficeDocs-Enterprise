@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "Summary: An explanation of how Microsoft monitors and tests tenant boundaries for Office 365."
 ---
 

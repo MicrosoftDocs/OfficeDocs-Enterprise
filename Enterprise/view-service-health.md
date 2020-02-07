@@ -5,14 +5,16 @@ author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
-f1_keywords:
+ms.service: o365-administration
+localization_priority: Normal
+f1.keywords:
+- CSH
+ms.custom: 
+- Adm_O365
 - 'O365P_ServiceHealthModern'
 - 'O365M_ServiceHealthModern'
 - 'O365E_ViewStatusServices'
 - 'O365E_ServiceHealthModern'
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Adm_O365
 ms.collection:
 - Ent_O365
 - M365-subscription-management

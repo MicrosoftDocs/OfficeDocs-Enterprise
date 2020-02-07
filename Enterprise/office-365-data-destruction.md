@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "An overview of Microsoft policies about recycling, disposal, or destruction of Office 365 data center disk drives and servers."
 ---
 

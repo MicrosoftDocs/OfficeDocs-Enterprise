@@ -6,6 +6,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+f1.keywords:
+- NOCSH
 ms.custom: 
 localization_priority: Priority
 description: "Learn about multi-geo capabilities in Exchange Online."

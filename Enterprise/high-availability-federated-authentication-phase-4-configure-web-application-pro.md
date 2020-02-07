@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
 description: "Summary: Configure the web application proxy servers for your high availability federated authentication for Office 365 in Microsoft Azure."

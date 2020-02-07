@@ -12,6 +12,8 @@ search.appverid:
 ms.collection: 
 - Strat_O365_Enterprise
 - M365-subscription-management
+f1.keywords:
+- NOCSH
 description: "Understand Office 365 client app support for Conditional Access"
 ---
 

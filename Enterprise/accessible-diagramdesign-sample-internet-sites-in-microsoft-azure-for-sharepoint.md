@@ -10,6 +10,8 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b91124bc-c7ec-4929-b77c-d6293db9f15e
+f1.keywords:
+- NOCSH
 description: "This article is an accessible text version of the diagram named Design sample: Internet sites in Microsoft Azure for SharePoint 2013."
 ---
 
