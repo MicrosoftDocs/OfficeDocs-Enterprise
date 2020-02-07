@@ -25,7 +25,7 @@ Note to new owner: Links in the Notes and FAQ sections need to be added from the
 
 # Where your customer data is stored
 
-The tables below shows where customer data is stored at-rest for Office 365 services across all of Microsoft's global cloud locations. Expand the location of your billing address country to find out where customer data for each service would being stored.
+The tables below shows where customer data is stored at-rest for Office 365 services across all of Microsoft's global cloud locations. Expand the location of your billing address country to find out where customer data for each service would be stored.
 
 Customers can view tenant specific data location information in your Office 365 Admin Center in **Settings | Organization profile | Data location card**.
 
