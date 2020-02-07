@@ -10,6 +10,8 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-subscription-management
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
 description: "Summary: Use Windows PowerShell for Office 365 to manage your customer tenancies."

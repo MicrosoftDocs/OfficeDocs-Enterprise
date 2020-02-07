@@ -13,6 +13,8 @@ search.appverid:
 - PDD140
 - MET150
 ms.assetid: 89d9feee-2285-419c-8c14-0f7f583536e0
+f1.keywords:
+- NOCSH
 description: PerformancePoint Server 2007, ProClarity, and SharePoint Server 2007 have reached end of support. Read this article to plan your BI solution upgrade.
 ---
 

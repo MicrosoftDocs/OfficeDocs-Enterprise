@@ -13,6 +13,8 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: e2fdfc8d-547e-4419-8628-2738ed4e0f46
+f1.keywords:
+- NOCSH
 description: "If you've opted out of FastTrack deployment and you are ready to migrate data to Office 365, this is the place to start."
 ---
 

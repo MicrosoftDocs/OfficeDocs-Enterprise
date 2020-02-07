@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "A brief summary of the cmdlets used for Office 365 mailbox migrations."
 ---
 

@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "An explanation of data corruption in Office 365, and Microsoft's efforts of prevention and recovery."
 ---
 

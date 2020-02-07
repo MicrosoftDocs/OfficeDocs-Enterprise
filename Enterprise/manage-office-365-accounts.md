@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 ms.collection:
 - Ent_O365

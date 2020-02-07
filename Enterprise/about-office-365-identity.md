@@ -12,6 +12,8 @@ ms.collection:
 - Ent_O365
 - M365-identity-device-management
 - M365-security-compliance
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 search.appverid:
 - MET150

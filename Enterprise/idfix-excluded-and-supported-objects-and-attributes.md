@@ -10,6 +10,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 - MOE150
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 ms.collection:
 - Ent_O365

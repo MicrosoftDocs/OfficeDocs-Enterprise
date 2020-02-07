@@ -9,6 +9,8 @@ ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: Adm_O365_Setup
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b

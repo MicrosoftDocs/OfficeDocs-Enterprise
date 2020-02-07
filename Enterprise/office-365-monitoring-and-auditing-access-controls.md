@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "Summary: A summary of the various monitoring and auditing access controls available within Office 365."
 ---
 

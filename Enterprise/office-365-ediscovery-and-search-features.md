@@ -13,6 +13,8 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 - SPO_Content
+f1.keywords:
+- NOCSH
 description: "An overview of the eDiscovery feature, and other search features within Office 365 for audit use and transparency."
 ---
 

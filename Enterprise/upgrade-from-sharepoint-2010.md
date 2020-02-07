@@ -16,6 +16,8 @@ search.appverid:
 - WSU140
 - OSU140
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
+f1.keywords:
+- NOCSH
 description: "Support ends for SharePoint 2010 and SharePoint Server 2010 ends on October 13, 2020. Use this article as a guide to upgrade to SharePoint Online or a newer version of SharePoint Server on-premises."
 ---
 

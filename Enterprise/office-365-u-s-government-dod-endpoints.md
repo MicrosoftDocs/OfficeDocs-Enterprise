@@ -17,6 +17,8 @@ search.appverid:
 - OGD150
 - MOE150
 ms.assetid: 5d7dce60-4892-4b58-b45e-ee42fe8a907f
+f1.keywords:
+- NOCSH
 description: "Summary: Office 365 requires connectivity to the Internet. The endpoints below should be reachable for customers using Office 365 U.S. Government DoD plans only."
 hideEdit: true
 ---

@@ -15,7 +15,8 @@ search.appverid:
 - MBS150
 - BCS160
 ms.assetid: eb15194b-63ec-41b0-8d90-1823d3f558e4
-
+f1.keywords:
+- NOCSH
 description: "This article is for administrators. Did a user permanently delete items from their Outlook mailbox? The user wants them back but can't recover them. You may be able recover the purged items if they haven't been permanently removed from the user's mailbox. "
 ---
 
