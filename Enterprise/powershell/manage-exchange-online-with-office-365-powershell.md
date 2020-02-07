@@ -9,6 +9,8 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: 
 - Ent_Office_Other
 - PowerShell

@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "An explanation of the various aspects of data resiliency within Exchange Online and Office 365."
 ---
 

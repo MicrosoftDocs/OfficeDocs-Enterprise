@@ -11,6 +11,8 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 0a35176a-e585-4dec-a90b-36be8314667f
+f1.keywords:
+- NOCSH
 description: "New datacenter geos add capacity and compute resources to support our ongoing customer demand and usage growth. Additionally, the new datacenter geos offer in-geo data residency for core customer data. Core customer data is a term that refers to a subset of customer data defined in the Microsoft Online Services Terms: Exchange Online mailbox content (email body, calendar entries, and the content of email attachments) and SharePoint Online site content and the files stored within that site, and files uploaded to OneDrive for Business."
 ---
 

@@ -12,6 +12,8 @@ ms.collection:
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b88200bf-ced0-4ae6-bbe5-5517377d1be1
+f1.keywords:
+- NOCSH
 description: "This article is an accessible text version of the diagram named Microsoft SharePoint 2013 Platform Options."
 ---
 

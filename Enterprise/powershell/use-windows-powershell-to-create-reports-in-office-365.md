@@ -9,6 +9,8 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: Ent_Office_Other
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: "Summary: Use Office 365 PowerShell to create reports that you cannot produce in the Microsoft 365 admin center."

@@ -9,6 +9,8 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.assetid: 795158e1-7dfc-4d9e-b805-373dd576c4e7
 description: "Summary: Learn how to migrate email to Office 365 using Windows PowerShell."

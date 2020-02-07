@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
+f1.keywords:
+- NOCSH
 description: "Learn how to limit accidental exposure of information when sharing files with people outside your organization."
 ---
 

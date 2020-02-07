@@ -15,6 +15,8 @@ search.appverid:
 - MED150
 - MBS150
 - BCS160
+f1.keywords:
+- NOCSH
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
 description: "Protect global administrator access to your Office 365 subscription."
 ---

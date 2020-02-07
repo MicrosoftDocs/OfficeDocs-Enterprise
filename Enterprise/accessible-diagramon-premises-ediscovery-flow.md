@@ -10,6 +10,8 @@ ms.collection: Ent_O365
 ms.service: o365-solutions
 localization_priority: Normal
 ms.assetid: b9dcd692-0485-4eec-870d-87ab6b89d97b
+f1.keywords:
+- NOCSH
 description: "This article is an accessible text version of the diagram named On-premises eDiscovery Flow."
 ---
 

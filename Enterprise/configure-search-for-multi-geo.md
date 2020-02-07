@@ -6,9 +6,13 @@ manager: arnek
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+f1.keywords:
+- CSH
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
+f1.keywords:
+- NOCSH
 description: "Learn about how to configure search in a multi geo environment."
 ---
 
