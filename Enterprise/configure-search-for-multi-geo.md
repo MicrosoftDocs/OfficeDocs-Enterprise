@@ -1,5 +1,6 @@
 ---
 title: "Configure search for Office 365 Multi-Geo"
+ms.reviewer: adwood
 ms.author: tlarsen
 author: tklarsen
 manager: arnek

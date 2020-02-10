@@ -1,5 +1,6 @@
 ---
 title: "Plan for Office 365 Multi-Geo"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
