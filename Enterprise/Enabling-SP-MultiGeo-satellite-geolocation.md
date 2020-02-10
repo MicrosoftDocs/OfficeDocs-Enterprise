@@ -1,5 +1,6 @@
 ---
 title: "Enabling SharePoint Multi-Geo in your satellite geo location"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

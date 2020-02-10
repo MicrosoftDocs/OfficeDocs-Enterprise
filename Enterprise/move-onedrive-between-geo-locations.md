@@ -1,5 +1,6 @@
 ---
 title: "Move a OneDrive site to a different geo location"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
