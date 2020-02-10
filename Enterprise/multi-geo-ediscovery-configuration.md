@@ -1,5 +1,6 @@
 ---
 title: "Configure Office 365 Multi-Geo eDiscovery"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

@@ -1,5 +1,6 @@
 ---
 title: "Multi-Geo Capabilities in OneDrive and SharePoint Online"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen

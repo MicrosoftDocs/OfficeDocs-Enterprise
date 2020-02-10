@@ -1,5 +1,6 @@
 ---
 title: "Administering Exchange Online mailboxes in a multi-geo environment"
+ms.reviewer: adwood
 ms.author: chrisda
 author: chrisda
 manager: serdars
