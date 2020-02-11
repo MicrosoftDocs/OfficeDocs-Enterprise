@@ -13,6 +13,8 @@ search.appverid:
 ms.collection: 
 - M365-subscription-management
 - Strat_O365_Enterprise
+f1.keywords:
+- CSH
 ms.custom:
 - Ent_TLGs
 ms.assetid: 

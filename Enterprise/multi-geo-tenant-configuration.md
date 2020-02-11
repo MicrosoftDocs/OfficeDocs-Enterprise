@@ -1,5 +1,6 @@
 ---
 title: "Office 365 Multi-Geo tenant configuration"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -7,6 +8,8 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.collection: SPO_Content
+f1.keywords:
+- NOCSH
 ms.custom: 
 localization_priority: Priority
 ms.collection: Strat_SP_gtc

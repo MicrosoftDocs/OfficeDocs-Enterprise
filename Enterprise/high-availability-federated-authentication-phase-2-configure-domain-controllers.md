@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
 description: "Summary: Configure the domain controllers and directory synchronization server for your high availability federated authentication for Office 365 in Microsoft Azure."

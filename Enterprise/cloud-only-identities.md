@@ -6,14 +6,16 @@ manager: laurawi
 ms.date: 12/03/2019
 audience: Admin
 ms.topic: article
-f1_keywords:
+ms.service: o365-administration
+localization_priority: Normal
+f1.keywords:
+- CSH
+ms.custom: 
+- Adm_O365
 - 'O365p_AddUsersWithDirSync'
 - 'O365M_AddUsersWithDirSync'
 - 'O365E_HRCSetupAADConnectAboutLM617031'
 - 'O365E_AddUsersWithDirSync'
-ms.service: o365-administration
-localization_priority: Normal
-ms.custom: Adm_O365
 ms.collection:
 - Ent_O365
 - M365-identity-device-management

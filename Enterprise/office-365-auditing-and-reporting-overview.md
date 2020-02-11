@@ -14,6 +14,8 @@ ms.collection:
 - M365-security-compliance
 - M365-analytics
 - SPO_Content
+f1.keywords:
+- NOCSH
 description: "An overview of auditing and reporting features within Office 365, Microsoft 365, and Service Assurance."
 ---
 

@@ -6,11 +6,13 @@ manager: scotv
 ms.date: 6/29/2018
 audience: Admin
 ms.topic: hub-page
-f1_keywords:
-- 'ms.lync.lac.ProviderManagedFeature'
 ms.service: o365-administration
 localization_priority: Normal
-ms.custom: Adm_O365
+f1.keywords:
+- CSH
+ms.custom: 
+- Adm_O365
+- 'ms.lync.lac.ProviderManagedFeature'
 search.appverid:
 - MET150
 - MOE150

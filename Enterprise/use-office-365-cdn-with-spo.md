@@ -11,6 +11,8 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - SPO_Content
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 search.appverid:
 - MET150
@@ -988,10 +990,10 @@ When you enable the Office 365 CDN for public origins, the CDN service automatic
 
 If the */clientsideassets origin is missing, SharePoint Framework solutions will fail, and no warning or error messages are generated. This origin may be missing either because the CDN was enabled with the _-NoDefaultOrigins_ parameter set to **$true**, or because the origin was manually deleted.
 
-You can check to see if the */CLIENTSIDEASSETS origin is present with the following PowerShell command:
+You can check to see which origins are present with the following PowerShell command:
 
 ``` powershell
-Get-SPOTenantCdnOrigin -CdnType Public -OriginUrl */CLIENTSIDEASSETS
+Get-SPOTenantCdnOrigins -CdnType Public
 ```
 
 Or you can check with the Office 365 CLI:

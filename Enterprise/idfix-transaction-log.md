@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 ms.collection:
 - Ent_O365

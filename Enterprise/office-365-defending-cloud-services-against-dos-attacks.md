@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "How Microsoft defends its cloud services against denial-of-service (DoS) attacks."
 ---
 

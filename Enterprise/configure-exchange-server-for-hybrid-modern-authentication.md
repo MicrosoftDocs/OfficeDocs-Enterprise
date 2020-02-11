@@ -13,6 +13,8 @@ search.appverid:
 ms.assetid: cef3044d-d4cb-4586-8e82-ee97bd3b14ad
 ms.collection:
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "Hybrid Modern Authentication (HMA), is a method of identity management that offers more secure user authentication and authorization, and is available for Exchange server on-premises hybrid deployments."
 ---
 

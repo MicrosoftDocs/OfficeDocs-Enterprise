@@ -9,6 +9,8 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: "Summary: Use Office 365 PowerShell to manage Skype for Business Online policies, per-user policies, and meeting settings."
@@ -37,7 +39,7 @@ Download and install the [Skype for Business Online Connector module](https://ww
 2. In the **Windows PowerShell Credential Request** dialog box, type your Skype for Business Online administrator account name and password, and then click **OK**.
 
 
-## Connect using a Skype for Business Online administrator account with multifactor authentication
+## Connect using a Skype for Business Online administrator account with multi-factor authentication
 
 1. Open a Windows PowerShell command prompt and run the following commands:
 

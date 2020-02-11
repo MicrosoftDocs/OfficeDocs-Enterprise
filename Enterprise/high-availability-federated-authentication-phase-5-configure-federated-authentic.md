@@ -9,6 +9,8 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: Ent_O365
+f1.keywords:
+- CSH
 ms.custom: Ent_Solutions
 ms.assetid: 0f1dbf52-5bff-44cc-a264-1b48641af98f
 description: "Summary: Configure Azure AD Connect for your high availability federated authentication for Office 365 in Microsoft Azure."

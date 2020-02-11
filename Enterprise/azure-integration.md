@@ -11,6 +11,8 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-identity-device-management
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 search.appverid:
 - MET150

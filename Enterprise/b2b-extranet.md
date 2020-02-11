@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 description: "Learn how to create a B2B extranet site or team with managed guest users from a partner organization."
 ---
 
