@@ -25,9 +25,7 @@ Tenants in Office 365 operated by 21Vianet are subject to a unique set of perfor
 
 China has a private internet that is distinct from the global public internet. This private internet is dominated by three carriers (China Telecom, China Unicom and China Mobile). Each carrier operates a collection of semi-independent provincial-level ISPs. This creates a complex routing hierarchy and decentralized management of the ISPs in China.
 
-China’s main carriers have offshore connection to the global public Internet. These offshore connections go through a set of network gear commonly referred to as the Great Firewall (GFW).
-
-The GFW provides the Chinese government with an inspection and censorship platform aimed at consumer traffic. In connection with DNS blocking the GFW provides IP address blocking and connection termination. This further strengthens the China government’s ability to manage and censor content available from the China private internet.
+China’s main carriers have offshore connection to the global public Internet. These offshore connections go through a set of network gear commonly referred to as the Great Firewall (GFW). The GFW provides the Chinese government with an inspection and censorship platform aimed at consumer traffic. In connection with DNS blocking the GFW provides IP address blocking and connection termination. This further strengthens the China government’s ability to manage and censor content available from the China private internet.
 
 China carriers have a wide array of offshore interconnects with global ISPs outside of China. However, these interconnects are often saturated and cause high packet loss. This causes poor performance for many users in smaller countries or cities who access services hosted in China.
 
@@ -127,4 +125,14 @@ We cannot give customers any legal advice. However, businesses commonly purchase
 
 ### Cross-border network links are expensive, what can customer do to minimize their usage?
 
-In the URL and IP guides, customers can start by just routing the items flagged as &quot;Optimize&quot;, they should see improved performance and minimize bandwidth consumption.
+In the URL and IP guides, customers can start by just routing the items flagged as **Optimize**, they should see improved performance and minimize bandwidth consumption.
+
+## Related topics
+
+[Network planning and performance tuning for Office 365](https://aka.ms/tune)
+
+[Office 365 network connectivity principles](office-365-network-connectivity-principles.md)
+
+[Office 365 operated by 21Vianet O365 URLs & IPs](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges-21vianet)
+
+[Yammer group for Office 365 operated by 21Vianet](https://aka.ms/China)
