@@ -1,11 +1,14 @@
 ---
 title: "Create an Office 365 Group with a specific PDL"
+ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority

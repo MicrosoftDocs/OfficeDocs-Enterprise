@@ -11,6 +11,8 @@ localization_priority: Priority
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 ms.reviewer: pandrew
 search.appverid:

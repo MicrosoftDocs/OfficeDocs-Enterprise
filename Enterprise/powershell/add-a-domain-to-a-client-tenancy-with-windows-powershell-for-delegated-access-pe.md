@@ -10,6 +10,8 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - M365-subscription-management
+f1.keywords:
+- NOCSH
 ms.custom: 
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
 description: "Summary: Use Windows PowerShell for Office 365 to add an alternate domain name to an existing customer tenant."

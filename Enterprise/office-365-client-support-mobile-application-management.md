@@ -12,6 +12,8 @@ ms.collection:
 - M365-subscription-management
 search.appverid:
 - MET150
+f1.keywords:
+- NOCSH
 description: "Understand Office 365 client app support for mobile application management"
 ---
 

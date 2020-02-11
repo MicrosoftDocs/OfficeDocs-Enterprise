@@ -12,6 +12,8 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+f1.keywords:
+- NOCSH
 description: "Summary: A brief summary about Yammer Enterprise Access Controls in the production environment."
 ---
 

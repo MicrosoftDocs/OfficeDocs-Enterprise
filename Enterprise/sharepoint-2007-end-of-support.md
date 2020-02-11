@@ -6,7 +6,9 @@ manager: laurawi
 ms.date: 01/28/2019
 audience: ITPro
 ms.topic: conceptual
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
 - 'vsemail'
 - 'MS_WSS_DirectoryManagement'
 - 'MS_WSS_ConfigEmail'

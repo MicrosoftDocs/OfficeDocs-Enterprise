@@ -1,11 +1,14 @@
 ---
 title: "Administering Exchange Online mailboxes in a multi-geo environment"
+ms.reviewer: adwood
 ms.author: chrisda
 author: chrisda
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
+f1.keywords:
+- NOCSH
 ms.custom: 
 localization_priority: Priority
 description: "Learn how to administer Exchange Online multi-geo setting with Microsoft PowerShell."

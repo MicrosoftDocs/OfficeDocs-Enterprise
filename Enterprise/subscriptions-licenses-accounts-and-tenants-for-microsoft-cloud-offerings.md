@@ -13,6 +13,8 @@ search.appverid:
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
+f1.keywords:
+- CSH
 ms.custom:
 - Ent_Architecture
 ms.assetid: c720cffc-f9b5-4f43-9100-422f86a1027c

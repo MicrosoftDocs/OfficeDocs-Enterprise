@@ -5,11 +5,13 @@ author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
-f1_keywords:
-- 'O365E_SetupDirSyncLocalDir'
 ms.service: o365-administration
 localization_priority: Normal
-ms.custom: Adm_O365
+f1.keywords:
+- CSH
+ms.custom: 
+- Adm_O365
+- 'O365E_SetupDirSyncLocalDir'
 ms.collection:
 - Ent_O365
 - M365-identity-device-management

@@ -11,6 +11,8 @@ localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - SPO_Content
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 search.appverid: SPO160
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86

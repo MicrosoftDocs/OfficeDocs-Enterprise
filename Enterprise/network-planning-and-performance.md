@@ -9,6 +9,8 @@ ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Strat_O365_Enterprise
+f1.keywords:
+- CSH
 ms.custom: Adm_O365
 search.appverid: 
 - MET150
