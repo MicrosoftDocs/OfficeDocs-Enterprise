@@ -36,48 +36,42 @@ Enterprise users in China who connect to global Office 365 tenants from remote l
 
 ## Best practices for global Office 365 connectivity from China
 
-There are several best practices that network administrators and users can follow to address performance issues related to the China private internet. 
+There are several best practices that network administrators and users can follow to address performance issues related to the China private internet.
 
 ### Corporate network best practices
 
 - It is crucial that all tenants first follow our public network guidance [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from China's private internet if possible.
-
 - Implement a private network or SD-WAN that carries corporate network traffic between China branch office locations and offshore egress locations such as Hong Kong and Singapore.
-
+- Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
 - Optimize the routing of Office 365 traffic to route [global Office 365 URLs & IPs](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges), particularly in the **Optimize** category, across private offshore links that egress at the nearest peering point outside China.
 
 ### User best practices
 
-- Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
-- Utilize rich Office clients that support caching (e.g. Outlook, Teams, OneDrive, etc.), and avoid web-based clients. The caching and offline behavior can dramatically reduce the impact of network congestion and latency.
+If cross-border private networks and/or VPN access into the corporate network are not an option, you can still mitigate performance issues by training your China-based users to follow these best practices.
+
+- Utilize rich Office clients that support caching (e.g. Outlook, Teams, OneDrive, etc.), and avoid web-based clients. Office client caching and offline access features can dramatically reduce the impact of network congestion and latency.
 - For Teams users:
   - Use mobile clients as they are best suited for network performance issues.
-  - Switch to PSTN for audio calls when needed.
+  - Switch to PSTN for audio calls when needed. Fore more information, see [Quick start guide: Configuring Calling Plans in Microsoft Teams](https://docs.microsoft.com/microsoftteams/configuring-teams-calling-quickstartguide).
 - If users experience network performance issues, they should report to their IT department for troubleshooting, and escalate to Microsoft support if trouble with Office 365 services is suspected. Not all issues are caused by cross-border network performance.
 
 ## FAQ
 
-### Not all customers have cross-border networks, what should they do?
+### Cross-border private networks bypass the Great Firewall. Isn't that illegal in China?
 
-Leverage rich Office clients that support caching and avoid web-based clients.
+China-based businesses commonly purchase legal cross-border network links for legitimate business purposes.
 
-### Not all customers have VPN access into their corporate network, what should they do?
+### Cross-border network link usage is expensive. What can I do to minimize their usage?
 
-Leverage rich Office clients that support caching and avoid web-based clients.
-
-### These practices avoid the Great Firewall, isn't that illegal in China?
-
-We cannot give customers any legal advice. However, businesses commonly purchase legal cross-border network links for legitimate business purposes.
-
-### Cross-border network links are expensive, what can customer do to minimize their usage?
-
-In the URL and IP guides, customers can start by just routing the items flagged as **Optimize**, they should see improved performance and minimize bandwidth consumption.
+Follow the guidance in [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md) to configure your network to only route traffic to endpoints categorized as **Optimize**. This will improve performance and minimize bandwidth consumption by limiting optimized traffic to critical services that are most sensitive to high latency and packet loss.
 
 ## Related topics
 
 [Network planning and performance tuning for Office 365](https://aka.ms/tune)
 
 [Office 365 network connectivity principles](office-365-network-connectivity-principles.md)
+
+[Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
 
 [Office 365 operated by 21Vianet Office 365 URLs & IPs](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges-21vianet)
 
