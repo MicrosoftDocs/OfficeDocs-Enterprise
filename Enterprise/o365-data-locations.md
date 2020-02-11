@@ -103,6 +103,7 @@ For country/region specific data centers, the following defines the cities where
 | --- | --- |
 | Australia | New South Wales, Victoria |
 | Canada | Québec City, Toronto |
+| European Union | Austria, Finland, France, Germany, Ireland, Netherlands, United Kingdom |
 | France | Paris, Marseille |
 | Germany | Frankfurt, Berlin |
 | India | Chennai, Mumbai, Pune |
@@ -136,6 +137,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Aland Islands
@@ -158,6 +160,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Albania
@@ -180,6 +183,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Algeria
@@ -202,6 +206,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## American Samoa
@@ -224,6 +229,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Andorra
@@ -246,6 +252,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Angola
@@ -268,6 +275,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Anguilla
@@ -290,6 +298,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Antarctica
@@ -312,6 +321,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Antigua and Barbuda
@@ -334,6 +344,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Argentina
@@ -356,6 +367,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Armenia
@@ -378,6 +390,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Aruba
@@ -400,6 +413,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Australia
@@ -422,6 +436,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Australia |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Austria
@@ -429,21 +444,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA  |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Azerbaijan
@@ -466,6 +482,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bahamas
@@ -488,6 +505,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bahrain
@@ -510,6 +528,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bangladesh
@@ -532,6 +551,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Barbados
@@ -554,6 +574,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Belarus
@@ -576,6 +597,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Belgium
@@ -583,21 +605,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Belize
@@ -620,6 +643,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Benin
@@ -642,6 +666,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bermuda
@@ -664,6 +689,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bhutan
@@ -686,6 +712,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Boliva
@@ -708,6 +735,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bonaire
@@ -730,6 +758,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bosnia
@@ -752,6 +781,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Botswana
@@ -774,6 +804,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bouvet Island
@@ -796,6 +827,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Brazil
@@ -818,6 +850,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## British Indian Ocean Territory
@@ -840,6 +873,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## British Virgin Islands
@@ -862,6 +896,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Brunei
@@ -884,6 +919,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Bulgaria
@@ -891,21 +927,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Burkina Faso
@@ -928,6 +965,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Burundi
@@ -950,6 +988,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cambodia
@@ -972,6 +1011,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cameroon
@@ -994,6 +1034,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Canada
@@ -1016,6 +1057,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Canada |
 | Whiteboard | Canada |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cape Verde
@@ -1038,6 +1080,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cayman Islands
@@ -1060,6 +1103,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Central African Republic
@@ -1082,6 +1126,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Chad
@@ -1104,6 +1149,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Chile
@@ -1126,6 +1172,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## China
@@ -1148,6 +1195,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Christmas Island
@@ -1170,6 +1218,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cocos (Keeling) Islands
@@ -1192,6 +1241,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Colombia
@@ -1214,6 +1264,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Comoros
@@ -1236,6 +1287,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Congo (Brazzaville)
@@ -1258,6 +1310,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Congo, (Kinshasa)
@@ -1280,6 +1333,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cook Islands
@@ -1302,6 +1356,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Costa Rica
@@ -1324,6 +1379,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cote D'Ivoire
@@ -1346,6 +1402,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Croatia
@@ -1353,21 +1410,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Curacao
@@ -1390,6 +1448,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Cyprus
@@ -1397,21 +1456,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Czech Republic
@@ -1419,21 +1479,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Denmark
@@ -1441,21 +1502,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Djibouti
@@ -1478,6 +1540,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Dominica
@@ -1500,6 +1563,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Dominican Republic
@@ -1522,6 +1586,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Ecuador
@@ -1544,6 +1609,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Egypt
@@ -1566,6 +1632,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## El Salvador
@@ -1588,6 +1655,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Equatorial Guinea
@@ -1610,6 +1678,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Eritrea
@@ -1632,6 +1701,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Estonia
@@ -1639,21 +1709,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Ethiopia
@@ -1676,6 +1747,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Falkland Islands (Malvinas)
@@ -1698,6 +1770,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Faroe Islands
@@ -1720,6 +1793,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Federated States of Micronesia
@@ -1742,6 +1816,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Federated States of Micronesia
@@ -1764,6 +1839,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Fiji
@@ -1786,6 +1862,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Australia |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Finland
@@ -1793,21 +1870,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## France
@@ -1818,18 +1896,19 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Exchange Online | France |
 | OneDrive for Business | France |
 | SharePoint Online | France |
-| Skype for Business | Global Geography 1 – EMEA |
+| Skype for Business | European Union |
 | Microsoft Teams | France |
 | Office Online &amp; Mobile | France |
 | EOP | France |
 | MyAnalytics | France |
-| Planner | Global Geography 1 – EMEA |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
+| Yammer | European Union |
 | OneNote Services | France |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## French Guiana
@@ -1852,6 +1931,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## French Polynesia
@@ -1874,6 +1954,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## French Southern Territories
@@ -1896,6 +1977,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Gabon
@@ -1918,6 +2000,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Gambia
@@ -1940,6 +2023,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Georgia
@@ -1962,6 +2046,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Germany
@@ -1972,18 +2057,19 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Exchange Online | Germany |
 | OneDrive for Business | Germany |
 | SharePoint Online | Germany |
-| Skype for Business | Global Geography 1 – EMEA |
+| Skype for Business | European Union |
 | Microsoft Teams | Germany |
 | Office Online &amp; Mobile | Germany |
 | EOP | Germany |
 | MyAnalytics | Germany |
-| Planner | Global Geography 1 – EMEA |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
+| Yammer | European Union |
 | OneNote Services | Germany |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Ghana
@@ -2006,6 +2092,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Gibraltar
@@ -2028,6 +2115,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Greece
@@ -2035,21 +2123,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Greenland
@@ -2072,6 +2161,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Grenada
@@ -2094,6 +2184,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guadeloupe
@@ -2116,6 +2207,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guam
@@ -2138,6 +2230,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guatemala
@@ -2160,6 +2253,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guernsey
@@ -2182,6 +2276,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guinea
@@ -2204,6 +2299,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guinea-Bissau
@@ -2226,6 +2322,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Guyana
@@ -2248,6 +2345,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Haiti
@@ -2270,6 +2368,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Heard and Mcdonald Islands
@@ -2292,6 +2391,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Herzegovina
@@ -2314,6 +2414,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Holy See (Vatican City State)
@@ -2336,6 +2437,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Honduras
@@ -2358,6 +2460,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Hong Kong SAR
@@ -2380,6 +2483,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Hungary
@@ -2387,21 +2491,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Iceland
@@ -2424,6 +2529,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## India
@@ -2446,6 +2552,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | India |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Indonesia
@@ -2468,6 +2575,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Iraq
@@ -2490,6 +2598,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Ireland
@@ -2497,21 +2606,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Isle of Man
@@ -2534,6 +2644,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Israel
@@ -2556,6 +2667,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Italy
@@ -2563,21 +2675,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Jamaica
@@ -2600,6 +2713,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Japan
@@ -2622,6 +2736,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Japan |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Jersey
@@ -2644,6 +2759,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Jordan
@@ -2666,6 +2782,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Kazakhstan
@@ -2688,6 +2805,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Kenya
@@ -2710,6 +2828,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Kiribati
@@ -2732,6 +2851,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Korea
@@ -2754,6 +2874,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Kosovo
@@ -2776,6 +2897,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Kuwait
@@ -2798,6 +2920,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Kyrgyzstan
@@ -2820,6 +2943,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Laos
@@ -2842,6 +2966,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Latvia
@@ -2849,21 +2974,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Lebanon
@@ -2886,6 +3012,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Lesotho
@@ -2908,6 +3035,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Liberia
@@ -2930,6 +3058,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Libya
@@ -2952,6 +3081,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Liechtenstein
@@ -2962,18 +3092,19 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Exchange Online | Switzerland |
 | OneDrive for Business | Switzerland |
 | SharePoint Online | Switzerland |
-| Skype for Business | Global Geography 1 – EMEA |
+| Skype for Business | European Union |
 | Microsoft Teams | Switzerland |
 | Office Online &amp; Mobile | Switzerland |
 | EOP | Switzerland |
 | MyAnalytics | Switzerland |
-| Planner | Global Geography 1 – EMEA |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
+| Yammer | European Union |
 | OneNote Services | Switzerland |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | –United States |
-| Forms | Global Geography 1 – EMEA |
+| Stream | European Union |
+| Whiteboard | United States |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Lithuania
@@ -2981,21 +3112,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Luxembourg
@@ -3003,21 +3135,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Madagascar
@@ -3040,6 +3173,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Malawi
@@ -3062,6 +3196,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Malaysia
@@ -3084,6 +3219,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Maldives
@@ -3106,6 +3242,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mali
@@ -3128,6 +3265,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Malta
@@ -3135,21 +3273,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Marshall Islands
@@ -3172,6 +3311,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Martinique
@@ -3194,6 +3334,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mauritania
@@ -3216,6 +3357,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mauritius
@@ -3238,6 +3380,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mayotte
@@ -3260,6 +3403,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mexico
@@ -3282,6 +3426,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Moldova
@@ -3304,6 +3449,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Monaco
@@ -3326,6 +3472,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mongolia
@@ -3348,6 +3495,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Montenegro
@@ -3370,6 +3518,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Montserrat
@@ -3392,6 +3541,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Morocco
@@ -3414,6 +3564,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Mozambique
@@ -3436,6 +3587,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Myanmar
@@ -3458,6 +3610,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Namibia
@@ -3479,7 +3632,8 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | OneNote Services | Global Geography 1 – EMEA |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
-| Forms | United States+ |
+| Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Nauru
@@ -3502,6 +3656,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Nepal
@@ -3524,6 +3679,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Netherlands
@@ -3531,21 +3687,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Netherlands Antilles
@@ -3568,6 +3725,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## New Caledonia
@@ -3590,6 +3748,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## New Zealand
@@ -3612,6 +3771,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Australia |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Nicaragua
@@ -3634,6 +3794,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Niger
@@ -3656,6 +3817,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Nigeria
@@ -3678,6 +3840,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Niue
@@ -3700,6 +3863,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Norfolk Island
@@ -3722,6 +3886,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Northern Mariana Islands
@@ -3744,6 +3909,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Norway
@@ -3766,6 +3932,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Oman
@@ -3788,6 +3955,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Pakistan
@@ -3810,6 +3978,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Palau
@@ -3832,6 +4001,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Palestinian Authority
@@ -3854,6 +4024,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Panama
@@ -3876,6 +4047,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Papaua New Guinea
@@ -3898,6 +4070,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Paraguay
@@ -3920,6 +4093,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Peru
@@ -3942,6 +4116,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Philippines
@@ -3964,6 +4139,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Pitcairn
@@ -3986,6 +4162,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Poland
@@ -3993,21 +4170,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Portugal
@@ -4015,21 +4193,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Puerto Rico
@@ -4052,6 +4231,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Qatar
@@ -4074,6 +4254,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Republic of Macedonia
@@ -4096,6 +4277,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Réunion
@@ -4118,6 +4300,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Romania
@@ -4125,21 +4308,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Russian Federation
@@ -4162,6 +4346,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Rwanda
@@ -4184,6 +4369,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint Helena
@@ -4206,6 +4392,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint Kitts and Nevis
@@ -4228,6 +4415,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint Lucia
@@ -4250,6 +4438,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint Martin
@@ -4272,6 +4461,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint Pierre and Miquelon
@@ -4294,6 +4484,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint Vincent and the Grenadines
@@ -4316,6 +4507,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saint-Barthélemy
@@ -4338,6 +4530,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Samoa
@@ -4360,6 +4553,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## San Marino
@@ -4382,6 +4576,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Sao Tome and Principe
@@ -4404,6 +4599,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Saudi Arabia
@@ -4426,6 +4622,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Senegal
@@ -4448,6 +4645,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Serbia
@@ -4470,6 +4668,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Seychelles
@@ -4492,6 +4691,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Sierra Leone
@@ -4514,6 +4714,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Singapore
@@ -4536,6 +4737,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Sint Maarten
@@ -4558,6 +4760,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Slovakia
@@ -4565,21 +4768,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Slovenia
@@ -4587,21 +4791,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Solomon Islands
@@ -4624,6 +4829,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Somalia
@@ -4646,6 +4852,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## South Africa
@@ -4668,6 +4875,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## South Georgia and the South Sandwich Islands
@@ -4690,6 +4898,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Spain
@@ -4697,21 +4906,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Sri Lanka
@@ -4734,6 +4944,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Suriname
@@ -4756,6 +4967,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Svalbard and Jan Mayen Islands
@@ -4778,6 +4990,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Swaziland
@@ -4800,6 +5013,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Sweden
@@ -4807,21 +5021,22 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
+| Exchange Online | European Union |
+| OneDrive for Business | European Union |
+| SharePoint Online | European Union |
+| Skype for Business | European Union |
+| Microsoft Teams | European Union |
+| Office Online &amp; Mobile | European Union |
+| EOP | European Union |
+| MyAnalytics | European Union |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Yammer | European Union  |
+| OneNote Services | European Union |
+| Stream | European Union |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Switzerland
@@ -4832,18 +5047,19 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Exchange Online | Switzerland |
 | OneDrive for Business | Switzerland |
 | SharePoint Online | Switzerland |
-| Skype for Business | Global Geography 1 – EMEA |
+| Skype for Business | European Union |
 | Microsoft Teams | Switzerland |
 | Office Online &amp; Mobile | Switzerland |
 | EOP | Switzerland |
 | MyAnalytics | Switzerland |
-| Planner | Global Geography 1 – EMEA |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
+| Yammer | European Union |
 | OneNote Services | Switzerland |
-| Stream | Global Geography 1 – EMEA |
+| Stream | European Union |
 | Whiteboard | United States |
-| Forms | Global Geography 1 – EMEA |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Taiwan
@@ -4866,6 +5082,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Tajikistan
@@ -4888,6 +5105,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## United Republic of Tanzania
@@ -4910,6 +5128,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Thailand
@@ -4932,6 +5151,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Timor-Leste
@@ -4954,6 +5174,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Togo
@@ -4976,6 +5197,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Tokelau
@@ -4998,6 +5220,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Tonga
@@ -5020,6 +5243,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Trinidad and Tobago
@@ -5042,6 +5266,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Tunisia
@@ -5064,6 +5289,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Turkey
@@ -5086,6 +5312,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Turkmenistan
@@ -5108,6 +5335,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Turks and Caicos Islands
@@ -5130,6 +5358,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Tuvalu
@@ -5152,6 +5381,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## U.S. Virgin Islands
@@ -5174,6 +5404,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Uganda
@@ -5196,6 +5427,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Ukraine
@@ -5218,6 +5450,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## United Arab Emirates
@@ -5240,6 +5473,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## United Kingdom
@@ -5255,13 +5489,14 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Office Online &amp; Mobile | United Kingdom |
 | EOP | United Kingdom |
 | MyAnalytics | United Kingdom |
-| Planner | Global Geography 1 – EMEA |
+| Planner | European Union |
 | Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
+| Yammer | European Union |
 | OneNote Services | United Kingdom |
 | Stream | United Kingdom |
-| Whiteboard | Global Geography 1 – EMEA |
-| Forms | Global Geography 1 – EMEA |
+| Whiteboard | European Union |
+| Forms | European Union |
+| Workplace Analytics | United States |
 </p></details>
 
 ## United States
@@ -5284,6 +5519,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Uruguay
@@ -5306,6 +5542,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## US Minor Outlying Islands
@@ -5328,6 +5565,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Uzbekistan
@@ -5350,6 +5588,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Vanuatu
@@ -5372,6 +5611,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Venezuela
@@ -5394,6 +5634,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | United States |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Vietnam
@@ -5416,6 +5657,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Wallis and Futuna Islands
@@ -5438,6 +5680,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 2 – Asia Pacific |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Western Sahara
@@ -5460,6 +5703,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Yemen
@@ -5482,6 +5726,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Zambia
@@ -5504,6 +5749,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
 
 ## Zimbabwe
@@ -5526,4 +5772,5 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | United States |
+| Workplace Analytics | United States |
 </p></details>
