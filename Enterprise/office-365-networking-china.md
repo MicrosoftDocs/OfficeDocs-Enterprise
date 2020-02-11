@@ -43,7 +43,7 @@ There are several best practices that network administrators and users can follo
 - It is crucial that all tenants first follow our public network guidance [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from China's private internet if possible.
 - Implement a private network or SD-WAN that carries corporate network traffic between China branch office locations and offshore egress locations such as Hong Kong and Singapore.
 - Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
-- Optimize the routing of Office 365 traffic to route [global Office 365 URLs & IPs](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges), particularly in the **Optimize** category, across private offshore links that egress at the nearest peering point outside China.
+- Optimize the routing of Office 365 traffic to route [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges), particularly in the **Optimize** category, across private offshore links that egress at the nearest peering point outside China. 
 
 ### User best practices
 
