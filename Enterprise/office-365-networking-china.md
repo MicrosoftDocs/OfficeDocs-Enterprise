@@ -24,36 +24,34 @@ description: "This article provides guidance for optimizing network performance 
 
 For enterprises with global Office 365 tenants and a corporate presence in China, Office 365 client performance for China-based users can be complicated by factors unique to China's internet architecture and regulatory policies.
 
-China has a private internet that is distinct from the global public internet. China ISPs have offshore connections to the global public Internet that go through perimeter devices which commonly introduce cross-border network congestion. This can have a detrimental effect on the performance of network services that are sensitive to latency and packet loss, including Office 365 services such as Teams, Skype for Business and client features such as collaborative editing.
+China has a sovereign Internet that is quite distinct from the public Internet. China ISPs have offshore connections to the global public Internet that go through perimeter devices which are prone to high-levels of cross-border network congestion.  This congestion creates packet loss and latency for all Internet traffic going into and out of China.
 
-Many enterprises with global Office 365 tenants and users in China have implemented private networks or SD-WANs that carry corporate network traffic between China branch office locations and offshore interconnects in locations such as Hong Kong and Singapore. This kind of private network mitigates the bandwidth, latency and packet loss issues that can be caused by transiting China's internet edge.
+Packet loss and latency is detrimental to the performance of network services, especially services that require large data exchanges (such as large file transfers) or requiring near real-time performance (audio and video applications).
 
-Enterprise users in China who connect to global Office 365 tenants from remote locations such as homes, coffee shops and hotels may therefore experience relatively poor performance if their Office 365 connectivity must transit China's internet edge. These users face several issues:
-
-- The primary issue is high network congestion/packet loss on common offshore networks
-- The secondary issue is the high packet latency due to complex routing within China carriers
-- Finally, last mile ISP performance can increase congestion/packet loss as well as packet latency
+The goal of this topic is to provide best practices for mitigating the impact of China cross-border congestion on Office 365 services. This topic does not address other common last-mile performance issues such as issues of high packet latency due to complex routing within China carriers.
 
 ## Best practices for global Office 365 connectivity from China
 
-There are several best practices that network administrators and users can follow to address performance issues related to the China private internet.
+There are several best practices that network administrators and users can follow to address performance issues related to China cross-border congestion.
 
 ### Corporate network best practices
 
-It is crucial that all tenants first follow our public network guidance [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from China's private internet if possible.
+Many enterprises with global Office 365 tenants and users in China have previously implemented private networks that carry corporate network traffic between China office locations and offshore locations around the world. These enterprises can leverage this network infrastructure to optimize the their Office 365 service performance in China.
 
-- Implement a private network or SD-WAN that carries Office 365 network traffic between China branch office locations and offshore ISPs that egress at the nearest peering point outside China.
+As a first step, it is crucial that you follow our benchmark network guidance at [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from China's private internet if possible.
+
+- Leverage existing private network to carry Office 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Network administrators can further optimize by egressing in areas with low-latency interconnect with the [Microsoft global network](https://docs.microsoft.com/azure/networking/microsoft-global-network).
 - Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
 - Optimize the routing of Office 365 traffic to route traffic to [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) in the **Optimize** category across private offshore links. This will improve performance and minimize bandwidth consumption by limiting optimized traffic to critical services that are most sensitive to high latency and packet loss.
 
 ### User best practices
 
-If cross-border private networks and/or VPN access into the corporate network are not an option, you can still mitigate performance issues by training your China-based users to follow these best practices.
+Users in China who connect to global Office 365 tenants from remote locations such as homes, coffee shops, hotels and branch offices with no connection to enterprise networks can experience poor network performance because traffic between their devices and Office 365 must transit China's congested cross-border links.
+
+If cross-border private networks and/or VPN access into the corporate network are not an option, you can still mitigate per-user performance issues by training your China-based users to follow these best practices.
 
 - Utilize rich Office clients that support caching (e.g. Outlook, Teams, OneDrive, etc.), and avoid web-based clients. Office client caching and offline access features can dramatically reduce the impact of network congestion and latency.
-- For Teams users:
-  - Use mobile clients as they are best suited for network performance issues.
-  - Switch to PSTN for audio calls when needed. Fore more information, see [Quick start guide: Configuring Calling Plans in Microsoft Teams](https://docs.microsoft.com/microsoftteams/configuring-teams-calling-quickstartguide).
+- If your Office 365 tenant has been configured with the _Calling Plans_ feature, Teams users can make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN). For more information, see [Quick start guide: Configuring Calling Plans in Microsoft Teams](https://docs.microsoft.com/microsoftteams/configuring-teams-calling-quickstartguide).
 - If users experience network performance issues, they should report to their IT department for troubleshooting, and escalate to Microsoft support if trouble with Office 365 services is suspected. Not all issues are caused by cross-border network performance.
 
 ## Related topics
@@ -64,6 +62,6 @@ If cross-border private networks and/or VPN access into the corporate network ar
 
 [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md)
 
-[Office 365 operated by 21Vianet Office 365 URLs & IPs](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges-21vianet)
-
 [Yammer group for Office 365 operated by 21Vianet](https://aka.ms/China)
+
+[Microsoft global network](https://docs.microsoft.com/azure/networking/microsoft-global-network)
