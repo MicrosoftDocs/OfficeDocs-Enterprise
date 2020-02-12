@@ -30,11 +30,7 @@ Packet loss and latency is detrimental to the performance of network services, e
 
 The goal of this topic is to provide best practices for mitigating the impact of China cross-border congestion on Office 365 services. This topic does not address other common last-mile performance issues such as issues of high packet latency due to complex routing within China carriers.
 
-## Best practices for global Office 365 connectivity from China
-
-There are several best practices that network administrators and users can follow to address performance issues related to China cross-border congestion.
-
-### Corporate network best practices
+## Corporate network best practices
 
 Many enterprises with global Office 365 tenants and users in China have previously implemented private networks that carry corporate network traffic between China office locations and offshore locations around the world. These enterprises can leverage this network infrastructure to optimize the their Office 365 service performance in China.
 
@@ -44,7 +40,7 @@ As a first step, it is crucial that you follow our benchmark network guidance at
 - Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
 - Optimize the routing of Office 365 traffic to route traffic to [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) in the **Optimize** category across private offshore links. This will improve performance and minimize bandwidth consumption by limiting optimized traffic to critical services that are most sensitive to high latency and packet loss.
 
-### User best practices
+## User best practices
 
 Users in China who connect to global Office 365 tenants from remote locations such as homes, coffee shops, hotels and branch offices with no connection to enterprise networks can experience poor network performance because traffic between their devices and Office 365 must transit China's congested cross-border links.
 
