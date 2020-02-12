@@ -26,6 +26,8 @@ For enterprises with global Office 365 tenants and a corporate presence in China
 
 China has a sovereign Internet that is quite distinct from the public Internet. China ISPs have offshore connections to the global public Internet that go through perimeter devices which are prone to high-levels of cross-border network congestion.  This congestion creates packet loss and latency for all Internet traffic going into and out of China.
 
+![Office 365 traffic unoptimized](media/O365-networking/China-O365-unoptimized.png)
+
 Packet loss and latency is detrimental to the performance of network services, especially services that require large data exchanges (such as large file transfers) or requiring near real-time performance (audio and video applications).
 
 The goal of this topic is to provide best practices for mitigating the impact of China cross-border congestion on Office 365 services. This topic does not address other common last-mile performance issues such as issues of high packet latency due to complex routing within China carriers.
@@ -39,6 +41,8 @@ As a first step, it is crucial that you follow our benchmark network guidance at
 - Leverage existing private network to carry Office 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Network administrators can further optimize by egressing in areas with low-latency interconnect with the [Microsoft global network](https://docs.microsoft.com/azure/networking/microsoft-global-network).
 - Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
 - Optimize the routing of Office 365 traffic to route traffic to [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) in the **Optimize** category across private offshore links. This will improve performance and minimize bandwidth consumption by limiting optimized traffic to critical services that are most sensitive to high latency and packet loss.
+
+![Office 365 traffic optimized](media/O365-networking/China-O365-optimized.png)
 
 ## User best practices
 
