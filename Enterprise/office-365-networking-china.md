@@ -34,7 +34,7 @@ The goal of this topic is to provide best practices for mitigating the impact of
 
 ## Corporate network best practices
 
-Many enterprises with global Office 365 tenants and users in China have previously implemented private networks that carry corporate network traffic between China office locations and offshore locations around the world. These enterprises can leverage this network infrastructure to optimize the their Office 365 service performance in China.
+Many enterprises with global Office 365 tenants and users in China have implemented private networks that carry corporate network traffic between China office locations and offshore locations around the world. These enterprises can leverage this network infrastructure to optimize the their Office 365 service performance in China.
 
 As a first step, it is crucial that you follow our benchmark network guidance at [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from China's private internet if possible.
 
