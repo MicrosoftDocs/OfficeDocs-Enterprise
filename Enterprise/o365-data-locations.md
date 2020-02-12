@@ -3092,18 +3092,18 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Exchange Online | Switzerland |
 | OneDrive for Business | Switzerland |
 | SharePoint Online | Switzerland |
-| Skype for Business | European Union |
+| Skype for Business | Global Geography 1 – EMEA |
 | Microsoft Teams | Switzerland |
 | Office Online &amp; Mobile | Switzerland |
 | EOP | Switzerland |
 | MyAnalytics | Switzerland |
-| Planner | European Union |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | European Union |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Switzerland |
-| Stream | European Union |
+| Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
-| Forms | European Union |
+| Forms | Global Geography 1 – EMEA |
 | Workplace Analytics | United States |
 </p></details>
 
@@ -5047,18 +5047,18 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Exchange Online | Switzerland |
 | OneDrive for Business | Switzerland |
 | SharePoint Online | Switzerland |
-| Skype for Business | European Union |
+| Skype for Business | Global Geography 1 – EMEA |
 | Microsoft Teams | Switzerland |
 | Office Online &amp; Mobile | Switzerland |
 | EOP | Switzerland |
 | MyAnalytics | Switzerland |
-| Planner | European Union |
+| Planner | Global Geography 1 – EMEA |
 | Sway | United States |
-| Yammer | European Union |
+| Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Switzerland |
-| Stream | European Union |
+| Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
-| Forms | European Union |
+| Forms | Global Geography 1 – EMEA |
 | Workplace Analytics | United States |
 </p></details>
 
