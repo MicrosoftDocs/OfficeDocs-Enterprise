@@ -3,7 +3,7 @@ title: "Office 365 global tenant performance optimization for China users"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 2/11/2020
+ms.date: 2/12/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -26,7 +26,7 @@ For enterprises with global Office 365 tenants and a corporate presence in China
 
 China has a sovereign Internet that is quite distinct from the public Internet. China ISPs have offshore connections to the global public Internet that go through perimeter devices which are prone to high-levels of cross-border network congestion.  This congestion creates packet loss and latency for all Internet traffic going into and out of China.
 
-![Office 365 traffic unoptimized](media/O365-networking/China-O365-unoptimized.png)
+![Office 365 traffic - unoptimized](media/O365-networking/China-O365-unoptimized.png)
 
 Packet loss and latency is detrimental to the performance of network services, especially services that require large data exchanges (such as large file transfers) or requiring near real-time performance (audio and video applications).
 
@@ -39,10 +39,10 @@ Many enterprises with global Office 365 tenants and users in China have previous
 As a first step, it is crucial that you follow our benchmark network guidance at [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from China's private internet if possible.
 
 - Leverage existing private network to carry Office 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Network administrators can further optimize by egressing in areas with low-latency interconnect with the [Microsoft global network](https://docs.microsoft.com/azure/networking/microsoft-global-network).
-- Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link.
+- Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link. Ensure that VPN clients are either not configured to use split tunneling, or that user devices are configured to ignore split tunneling for Office 365 traffic.
 - Optimize the routing of Office 365 traffic to route traffic to [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) in the **Optimize** category across private offshore links. This will improve performance and minimize bandwidth consumption by limiting optimized traffic to critical services that are most sensitive to high latency and packet loss.
 
-![Office 365 traffic optimized](media/O365-networking/China-O365-optimized.png)
+![Office 365 traffic - optimized](media/O365-networking/China-O365-optimized.png)
 
 ## User best practices
 
