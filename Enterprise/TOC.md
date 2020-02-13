@@ -80,6 +80,7 @@
 #### [Office 365 Germany endpoints](office-365-germany-endpoints.md)
 #### [Network requests in Office for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
+#### [Office 365 performance optimization for China users](office-365-networking-china.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
