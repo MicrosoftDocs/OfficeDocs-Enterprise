@@ -57,8 +57,7 @@ Users in China who connect to global Office 365 tenants from remote locations su
 If cross-border private networks and/or VPN access into the corporate network are not an option, per-user performance issues can still be mitigated by training your China-based users to follow these best practices.
 
 - Utilize rich Office clients that support caching (e.g. Outlook, Teams, OneDrive, etc.), and avoid web-based clients. Office client caching and offline access features can dramatically reduce the impact of network congestion and latency.
-- If your Office 365 tenant has been configured with _Phone System Direct Routing_, Teams users can make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN). For more information, see [Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
-- Use audio conferencing dial-in instead of video conferencing.
+- If your Office 365 tenant has been configured with the _Audio Conferencing_ feature, Teams users can join meetings via the public switched telephone network (PSTN). For more information, see [Audio Conferencing in Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365).
 - If users experience network performance issues, they should report to their IT department for troubleshooting, and escalate to Microsoft support if trouble with Office 365 services is suspected. Not all issues are caused by cross-border network performance.
 
 Microsoft is continually working to improve the Office 365 user experience and the performance of clients over the widest possible range of network architectures and characteristics. Visit the [Office 365 Tech Community](https://techcommunity.microsoft.com/t5/office-365/bd-p/Office365General) to start or join a conversation, find resources, and submit feature requests and suggestions.
