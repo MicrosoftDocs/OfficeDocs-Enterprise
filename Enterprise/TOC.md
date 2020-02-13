@@ -154,6 +154,7 @@
 #### [Data move general FAQ](data-move-faq.md)
 #### [Microsoft Cloud Deutschland: Office 365 migration program](ms-cloud-germany-transition.md)
 #### [Microsoft Cloud Deutschland: Opt-in for migration](ms-cloud-germany-migration-opt-in.md)
+#### [Your customer data in Office 365 datacenters](o365-data-locations.md)
 
 ### Hybrid solutions
 #### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
