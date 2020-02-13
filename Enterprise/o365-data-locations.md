@@ -3,7 +3,7 @@ title: "Office 365 data locations"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/04/2020
+ms.date: 02/13/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
