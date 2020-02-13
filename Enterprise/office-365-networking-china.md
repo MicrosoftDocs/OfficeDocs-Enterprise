@@ -3,7 +3,7 @@ title: "Office 365 global tenant performance optimization for China users"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 2/12/2020
+ms.date: 2/13/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -36,11 +36,15 @@ The goal of this topic is to provide best practices for mitigating the impact of
 
 Many enterprises with global Office 365 tenants and users in China have implemented private networks that carry corporate network traffic between China office locations and offshore locations around the world. These enterprises can leverage this network infrastructure to avoid cross-border network congestion and optimize their Office 365 service performance in China.
 
+>[!IMPORTANT]
+>As with all private WAN implementations, you should always consult regulatory requirements for your country and/or region to ensure that your network configuration is in compliance.
+
 As a first step, it is crucial that you follow our benchmark network guidance at [Network planning and performance tuning for Office 365](https://aka.ms/tune). The primary goal should be to avoid accessing global Office 365 services from the Internet in China if possible.
 
-- Leverage existing private network to carry Office 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Network administrators can further optimize by egressing in areas with low-latency interconnect with the [Microsoft global network](https://docs.microsoft.com/azure/networking/microsoft-global-network). Hong Kong, Japan, and South Korea are examples.
+- Leverage your existing private network to carry Office 365 network traffic between China office networks and offshore locations that egress on the public Internet outside China. Almost any location outside China will provide a clear benefit. Network administrators can further optimize by egressing in areas with low-latency interconnect with the [Microsoft global network](https://docs.microsoft.com/azure/networking/microsoft-global-network). Hong Kong, Japan, and South Korea are examples.
 - Configure user devices to access the corporate network over a VPN connection to allow Office 365 traffic to transit the corporate network's private offshore link. Ensure that VPN clients are either not configured to use split tunneling, or that user devices are configured to ignore split tunneling for Office 365 traffic.
 - Configure your network to route all Office 365 traffic across your private offshore link. If you must minimize the volume of traffic on your private link, you can choose to only route endpoints in the **Optimize** category, and allow requests to **Allow** and **Default** endpoints to transit the Internet. This will improve performance and minimize bandwidth consumption by limiting optimized traffic to critical services that are most sensitive to high latency and packet loss.
+- If possible, use UDP instead of TCP for live media streaming traffic, such as for Teams. UDP offers better live media streaming performance than TCP.
 
 For information about how to selectively route Office 365 traffic, see [Managing Office 365 endpoints](managing-office-365-endpoints.md). For a list of all worldwide Office 365 URLs and IP addresses, see [Office 365 URLs and IP address ranges](urls-and-ip-address-ranges.md).
 
@@ -53,8 +57,11 @@ Users in China who connect to global Office 365 tenants from remote locations su
 If cross-border private networks and/or VPN access into the corporate network are not an option, per-user performance issues can still be mitigated by training your China-based users to follow these best practices.
 
 - Utilize rich Office clients that support caching (e.g. Outlook, Teams, OneDrive, etc.), and avoid web-based clients. Office client caching and offline access features can dramatically reduce the impact of network congestion and latency.
-- If your Office 365 tenant has been configured with the _Calling Plans_ feature, Teams users can make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN). For more information, see [Quick start guide: Configuring Calling Plans in Microsoft Teams](https://docs.microsoft.com/microsoftteams/configuring-teams-calling-quickstartguide).
+- If your Office 365 tenant has been configured with _Phone System Direct Routing_, Teams users can make and receive phone calls to or from land lines and mobile phones via the public switched telephone network (PSTN). For more information, see [Phone System Direct Routing](https://docs.microsoft.com/MicrosoftTeams/direct-routing-landing-page).
+- Use audio conferencing dial-in instead of video conferencing.
 - If users experience network performance issues, they should report to their IT department for troubleshooting, and escalate to Microsoft support if trouble with Office 365 services is suspected. Not all issues are caused by cross-border network performance.
+
+Microsoft is continually working to improve the Office 365 user experience and the performance of clients over the widest possible range of network architectures and characteristics. Visit the [Office 365 Tech Community](https://techcommunity.microsoft.com/t5/office-365/bd-p/Office365General) to start or join a conversation, find resources, and submit feature requests and suggestions.
 
 ## Related topics
 
