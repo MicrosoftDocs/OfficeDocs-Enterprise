@@ -72,6 +72,6 @@ Read [User experience in a mult-geo environment](multi-geo-user-experience.md) f
 
 To get started configuring Office 365 Multi-Geo, see [Configure Office 365 Multi-Geo](multi-geo-tenant-configuration.md).
 
-For details about Teams experience in an Office 365 Multi-Geo tenancy, please see [Teams experience in an Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy](https://docs.microsoft.com/en-us/microsoftteams/teams-experience-o365odb-spo-multi-geo)
+For details about the Teams experience in an Office 365 Multi-Geo tenancy, please see [Teams experience in an Office 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 
 Once you've completed the configuration, remember to [migrate your users' OneDrive libraries](move-onedrive-between-geo-locations.md) as needed to get your users working from their preferred data locations.
