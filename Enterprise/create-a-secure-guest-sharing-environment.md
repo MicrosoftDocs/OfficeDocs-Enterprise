@@ -320,3 +320,5 @@ You can use the tools described in this article in various combinations to help 
 [Limit accidental exposure to files when sharing with guests](sharing-limit-accidental-exposure.md)
 
 [Best practices for sharing files and folders with unauthenticated users](best-practices-anonymous-sharing.md)
+
+[Create a B2B extranet with managed guests](b2b-extranet.md)
