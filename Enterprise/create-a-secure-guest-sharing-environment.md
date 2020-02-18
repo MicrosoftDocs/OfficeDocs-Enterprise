@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Create a secure guest sharing environment"
 ms.author: mikeplum
 author: MikePlumleyMSFT
