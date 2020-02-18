@@ -68,7 +68,10 @@ Select **Start** to begin collecting data for analysis.
 
 ## What you'll see in the Page Diagnostics for SharePoint tool
 
-1. The **About** link, which resembles ellipses (...) in the top right corner will provide general guidance and details regarding the tool including a link back to this article. It also includes a direct link to SharePoint performance recommendations, a third party notice and an option to provide feedback about the tool.  
+1. Click the ellipses (...) in the top right corner of the tool to find the following links:
+   1. The **Additional resources** link provides general guidance and details regarding the tool including a link back to this article.
+   1. The **Give feedback** link provides a link to the _SharePoint Sites and Collaboration User Voice_ site.
+   1. The **About** link includes the currently installed version of the tool and a direct link to the tool's third party notice.  
 1. The **Correlation ID, SPRequestDuration, SPIISLatency**, **Page load time**, and **URL** details are informational and can be used for a few purposes.
 
     ![Page diagnostics details](media/page-diagnostics-for-spo/pagediag-details.PNG)
@@ -111,12 +114,12 @@ Red or yellow results may also indicate web parts that refresh data too frequent
 
 The **Network Trace** tab provides detailed information about both requests to build the page and the responses received from SharePoint.
 
-1. **Look for item load times flagged as red**. The performance of each request and response are color coded, based on their impact on the overall page performance as follows:
+1. **Look for item load times flagged as red**. Each request and response is color coded to indicate its impact on overall page performance using the following latency metrics:
     - Green: \< 500ms
     - Yellow: 500-1000ms
     - Red: \> 1000ms
 
-    ![Network Trace](media/page-diagnostics-for-spo/pagediag-networktrace.png)
+    ![Network Trace](media/page-diagnostics-for-spo/pagediag-networktrace-red.png)
 
     In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
 
