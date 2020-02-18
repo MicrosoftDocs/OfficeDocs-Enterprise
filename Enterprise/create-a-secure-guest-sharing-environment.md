@@ -319,7 +319,7 @@ You can use the tools described in this article in various combinations to help 
 There are some additional options in Microsoft 365 and Azure Active Directory that can help secure your guest sharing environment.
 
 - You can create a list of allowed or denied sharing domains to limit who users can share with. See [Restrict sharing of SharePoint and OneDrive content by domain](https://docs.microsoft.com/sharepoint/restricted-domains-sharing) and [Allow or block invitations to B2B users from specific organizations](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list) for more information.
-- You can limit which other Azure Active Directory tenants your users can connect to. See [Use tenant restrictions to manage access to SaaS cloud applications](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/tenant-restrictions) for information.
+- You can limit which other Azure Active Directory tenants your users can connect to. See [Use tenant restrictions to manage access to SaaS cloud applications](https://docs.microsoft.com/azure/active-directory/manage-apps/tenant-restrictions) for information.
 - You can create a managed environment where partners can help manage guest accounts. See [Create a B2B extranet with managed guests](https://docs.microsoft.com/Office365/Enterprise/b2b-extranet) for information.
 
 ## See Also
