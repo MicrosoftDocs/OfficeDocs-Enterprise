@@ -7,8 +7,7 @@ audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 ms.collection: SPO_Content
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.custom: 
 localization_priority: Priority
 description: "Learn about the guest sharing settings available in  Microsoft 365."
@@ -233,6 +232,9 @@ The table below shows the default sharing setting for each site type.
 |Group-connected sites (including Teams)|**New and existing guests** if the Office 365 Groups setting **Let group owners add people outside the organization to groups** is **On**; otherwise **Existing guests only**|
 |Communication|**Only people in your organization**|
 |Modern sites with no group (#STS3 TeamSite)|**Only people in your organization**|
+
+> [!NOTE]
+> The root communication site (tenant-name.sharepoint.com) has a default sharing setting of **Anyone**.
 
 ## See also
 
