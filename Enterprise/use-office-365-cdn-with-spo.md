@@ -862,8 +862,9 @@ This section will help you understand how to use CDN URLs in your SharePoint pag
 + [Using assets in private origins](use-office-365-cdn-with-spo.md#using-assets-in-private-origins)
 
 For information on how to use the CDN for hosting client-side web parts, see the topic [Host your client-side web part from Office 365 CDN (Hello World part 4)](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/hosting-webpart-from-office-365-cdn).
-[!NOTE]
-If you add the _ClientSideAssets_ folder to the **private** CDN origins list, CDN-hosted custom web parts will fail to render. Files used by SPFX web parts can only utilize the public CDN and the ClientSideAssets folder is a default origin for public CDN. 
+
+> [!NOTE]
+> If you add the _ClientSideAssets_ folder to the **private** CDN origins list, CDN-hosted custom web parts will fail to render. Files used by SPFX web parts can only utilize the public CDN and the ClientSideAssets folder is a default origin for public CDN. 
 
 ### Updating links to CDN assets
 
