@@ -110,7 +110,7 @@ When you save the file, you'll probably get a prompt that some features in your 
     
 |**User data column label**|**Maximum character length**|
 |:-----|:-----|
-|User Name (Required)  <br/> |79 including the at sign (@), in the format name@domain.\<extension\>. The user's alias cannot exceed 30 characters, and the domain name cannot exceed 48 characters.  <br/> |
+|User Name (Required)  <br/> |79 including the at sign (@), in the format name@domain.\<extension\>. The user's alias cannot exceed 50 characters, and the domain name cannot exceed 48 characters.  <br/> |
 |First Name  <br/> |64  <br/> |
 |Last Name  <br/> |64  <br/> |
 |Display Name (required)  <br/> |256  <br/> |
