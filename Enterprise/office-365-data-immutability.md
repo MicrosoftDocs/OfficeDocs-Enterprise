@@ -23,7 +23,7 @@ Regulatory compliance, internal governance requirements, or litigation risks req
 
 Traditional methods for immutability typically worked by moving email messages to a separate, read-only storage location. While such systems serve the purpose of preserving mailbox items for discovery, they often affect the user experience by removing preserved items from the customary daily workflow. For IT professionals, this immutability approach requires the deployment and ongoing maintenance of a separate server and storage infrastructure. Discovery is performed with tools external to the mail system and includes associated deployment and maintenance costs.
 
-Through in-place retention and preservation policy features of archiving in Office 365 and its services, you can preserve and retain many classes of incoming, internal, and outgoing data. THis includes:
+Through in-place retention and preservation policy features of archiving in Office 365 and its services, you can preserve and retain many classes of incoming, internal, and outgoing data. This includes:
 
 - Inbound and outbound email communications
 - Books and records contained in email form or in shared online documents
