@@ -18,11 +18,7 @@ description: "Office 365 Network Insights (preview)"
 
 # Office 365 Network Insights (preview)
 
-**Network Insights** are live performance metrics collected from your Office 365 tenant, and available to view only by administrative users in your tenant. Insights are displayed in the Microsoft 365 Admin Center at the following URL:
-
-```http
-https://portal.\<yourtenant\>.com/adminportal/home#/networkperformance
-```
+**Network Insights** are live performance metrics collected from your Office 365 tenant, and available to view only by administrative users in your tenant. Insights are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>.
 
 Insights are intended to help in designing network perimeters for your office locations. Each Insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant.
 
