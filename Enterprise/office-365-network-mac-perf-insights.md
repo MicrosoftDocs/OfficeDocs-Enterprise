@@ -28,7 +28,8 @@ The Microsoft 365 Admin Center network performance pages show Office 365 network
 ### Insight content
 
 ``` text
-The distance from the user location to the network egress is greater than 500 miles (800 kilometers) and this is expected to be impacting performance. Local egress closer to the user is recommended.
+The distance from the user location to the network egress is greater than 500 miles (800 kilometers)
+and this is expected to be impacting performance. Local egress closer to the user is recommended.
 ```
 
 This identifies that the distance between the office location and the network egress is more than 500 miles. The office location is identified by an obfuscated client machine location and the network egress location is identified by using reverse IP Address to location databases. The office location may be inaccurate if Windows Location Services is disabled on machines. The network egress location may be inaccurate if the reverse IP Address database information is inaccurate.
@@ -46,7 +47,8 @@ This insight is abbreviated as "Egress" in some summary views.
 ### Insight content
 
 ``` text
-Since a significant number of customers in your metro area have better performance than users in your organization at this office location.
+Since a significant number of customers in your metro area have better performance than users in your
+organization at this office location.
 ```
 
 This looks at the aggregate performance of Office 365 customers in the same city as this office location.
@@ -74,7 +76,8 @@ This insight is abbreviated as "Routing" in some summary views.
 ### Insight content
 
 ``` text
-The user is not connecting to the closest SharePoint Online service front door. This is expected to be impacting performance.
+The user is not connecting to the closest SharePoint Online service front door. This is expected
+to be impacting performance.
 ```
 
 We identify the SharePoint Online service front door that the test client is connecting to. Then for the office location city we compare that to the expected SharePoint Online service front door for that city. If it doesn't match, then we make this recommendation.
@@ -86,7 +89,8 @@ This insight is abbreviated as "Afd" in some summary views.
 ### Insight content
 
 ``` text
-Sub optimal network download speed detected which impacts how long it takes to load documents from OneDrive for Business.
+Sub-optimal network download speed detected which impacts how long it takes to load documents
+from OneDrive for Business.
 ```
 
 The download speed that a user can get from SharePoint Online and OneDrive for Business service front doors is measured in megabytes per second (MBps). If this value is less than 1 MBps then we provide this insight.
