@@ -3,7 +3,7 @@ title: "Office 365 Network Insights Privacy and Terms of Use (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/03/2020
+ms.date: 03/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration

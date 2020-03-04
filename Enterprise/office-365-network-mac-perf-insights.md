@@ -3,7 +3,7 @@ title: "Office 365 Network Insights (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/03/2020
+ms.date: 03/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -18,11 +18,11 @@ description: "Office 365 Network Insights (preview)"
 
 # Office 365 Network Insights (preview)
 
-**Network Insights** are live performance metrics collected from your Office 365 tenant, and available to view only by administrative users in your tenant. Insights are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>.
+**Network insights** are live performance metrics collected from your Office 365 tenant, and available to view only by administrative users in your tenant. Insights are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>.
 
-Insights are intended to help in designing network perimeters for your office locations. Each Insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant.
+Insights are intended to help in designing network perimeters for your office locations. Each insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant.
 
-There are five specific Network Insights that may be shown for each office location:
+There are five specific network insights that may be shown for each office location:
 
 - [Backhauled network egress](#backhauled-network-egress)
 - [Better performance detected for customers near you](#better-performance-detected-for-customers-near-you)
@@ -31,13 +31,13 @@ There are five specific Network Insights that may be shown for each office locat
 - [Low download speed from SharePoint front door](#low-download-speed-from-sharepoint-front-door)
 
 >[!IMPORTANT]
->Network performance recommendations, insights and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+>Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
 
 ## Backhauled network egress
 
-This Insight will be displayed if the Network Insights service detects that the distance from a given user location to the network egress is greater than 500 miles (800 kilometers), indicating that Office 365 traffic is being backhauled to a common Internet edge device or proxy.
+This insight will be displayed if the network insights service detects that the distance from a given user location to the network egress is greater than 500 miles (800 kilometers), indicating that Office 365 traffic is being backhauled to a common Internet edge device or proxy.
 
-This Insight is abbreviated as "Egress" in some summary views.
+This insight is abbreviated as "Egress" in some summary views.
 
 ![Backhauled network egress](Media/m365-mac-perf/m365-mac-perf-insights-detail-backhauled.png)
 
@@ -45,25 +45,25 @@ This Insight is abbreviated as "Egress" in some summary views.
 
 This identifies that the distance between the office location and the network egress is more than 500 miles (800 kilometers). The office location is identified by an obfuscated client machine location and the network egress location is identified by using reverse IP Address to location databases. The office location may be inaccurate if Windows Location Services is disabled on machines. The network egress location may be inaccurate if the reverse IP Address database information is inaccurate.
 
-Details for this Insight include the office location, estimated percentage of total tenant user at the location, the current network egress location, relevance of the egress location, the distance between the location and the current egress point, the date the condition was first detected, and the date the condition was resolved.
+Details for this insight include the office location, estimated percentage of total tenant user at the location, the current network egress location, relevance of the egress location, the distance between the location and the current egress point, the date the condition was first detected, and the date the condition was resolved.
 
 ### What should I do?
 
-For this Insight, we would recommend network egress closer to the office location so that connectivity can route optimally to Microsoft's global network and to the nearest Office 365 service front door. Having close network egress to users office locations also allows for improved performance in the future as Microsoft expands both network points of presence and Office 365 service front doors in the future.
+For this insight, we would recommend network egress closer to the office location so that connectivity can route optimally to Microsoft's global network and to the nearest Office 365 service front door. Having close network egress to users office locations also allows for improved performance in the future as Microsoft expands both network points of presence and Office 365 service front doors in the future.
 
 For more information about how to resolve this issue, see [Egress network connections locally](office-365-network-connectivity-principles.md#egress-network-connections-locally) in [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md).
 
 ## Better performance detected for customers near you
 
-This Insight will be displayed if the Network Insights service detects that a significant number of customers in your metro area have better performance than users in your organization at this office location.
+This insight will be displayed if the network insights service detects that a significant number of customers in your metro area have better performance than users in your organization at this office location.
 
-This Insight is abbreviated as "Peers" in some summary views.
+This insight is abbreviated as "Peers" in some summary views.
 
 ![Relative network performance](Media/m365-mac-perf/m365-mac-perf-insights-detail-cust-near-you.png)
 
 ### What does this mean?
 
-This Insight examines the aggregate performance of Office 365 customers in the same city as this office location. This Insight is displayed if the average latency of your users is 10% greater than the average latency of neighboring tenants.
+This insight examines the aggregate performance of Office 365 customers in the same city as this office location. This insight is displayed if the average latency of your users is 10% greater than the average latency of neighboring tenants.
 
 ### What should I do?
 
@@ -71,9 +71,9 @@ There could be many reasons for this condition, including latency in your corpor
 
 ## Use of a non-optimal Exchange Online service front door
 
-This Insight will be displayed if the Network Insights service detects that users in a specific location are not connecting to an optimal Exchange Online service front door.
+This insight will be displayed if the network insights service detects that users in a specific location are not connecting to an optimal Exchange Online service front door.
 
-This Insight is abbreviated as "Routing" in some summary views.
+This insight is abbreviated as "Routing" in some summary views.
 
 ![Non-optimal front door](Media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-exo.png)
 
@@ -87,9 +87,9 @@ Use of a non-optimal Exchange Online service front door could be caused by netwo
 
 ## Use of non-optimal SharePoint Online service front door
 
-This Insight will be displayed if the Network Insights service detects that users in a specific location are not connecting to the closest SharePoint Online service front door.
+This insight will be displayed if the network insights service detects that users in a specific location are not connecting to the closest SharePoint Online service front door.
 
-This Insight is abbreviated as "Afd" in some summary views.
+This insight is abbreviated as "Afd" in some summary views.
 
 ![Non-optimal front door](Media/m365-mac-perf/m365-mac-perf-insights-detail-front-door-spo.png)
 
@@ -103,13 +103,13 @@ Use of a non-optimal SharePoint Online service front door could be caused by net
 
 ## Low download speed from SharePoint front door
 
-This Insight will be displayed if the Network Insights service detects that bandwidth between the specific office location and SharePoint Online is less than 1 MBps.
+This insight will be displayed if the network insights service detects that bandwidth between the specific office location and SharePoint Online is less than 1 MBps.
 
-This Insight is abbreviated as "Throughput" in some summary views.
+This insight is abbreviated as "Throughput" in some summary views.
 
 ### What does this mean?
 
-The download speed that a user can get from SharePoint Online and OneDrive for Business service front doors is measured in megabytes per second (MBps). If this value is less than 1 MBps then we provide this Insight.
+The download speed that a user can get from SharePoint Online and OneDrive for Business service front doors is measured in megabytes per second (MBps). If this value is less than 1 MBps then we provide this insight.
 
 ### What should I do?
 

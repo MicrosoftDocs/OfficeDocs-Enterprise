@@ -3,7 +3,7 @@ title: "Network performance recommendations in the Microsoft 365 Admin Center (p
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/03/2020
+ms.date: 03/04/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -18,22 +18,22 @@ description: "Overview of network performance recommendations in the Microsoft 3
 
 # Network performance recommendations in the Microsoft 365 Admin Center (preview)
 
-The Microsoft 365 Admin Center now shows **Network Insights and performance recommendations**, which are live performance metrics collected from your Office 365 tenant and available to view only by administrative users in your tenant. Insights and recommendations are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>. You can find the page in the navigation pane under **Health | Network performance**.
+The Microsoft 365 Admin Center now includes live performance metrics collected from your Office 365 tenant and available to view only by administrative users in your tenant. **network insights and performance recommendations** and **network assessments** are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>. You can find the page in the navigation pane under **Health | Network performance**.
 
 ![Network performance page](Media/m365-mac-perf/m365-mac-perf-page-nav.png)
 
-When you first navigate to the network performance page, you will see an overview pane containing a map of global network performance, a network assessment score scoped to the entire tenant, and a list of current issues. From the overview, you can drill down to view specific network performance metrics and issues by location. For more information, see [Network performance overview in the Microsoft 365 Admin Center](#network-performance-overview-in-the-microsoft-365-admin-center).
+When you first navigate to the network performance page, you will see an overview pane containing a map of global network performance, a network assessment scoped to the entire tenant, and a list of current issues. From the overview, you can drill down to view specific network performance metrics and issues by location. For more information, see [Network performance overview in the Microsoft 365 Admin Center](#network-performance-overview-in-the-microsoft-365-admin-center).
 
 ### How do I use this information?
 
-Network Insights and their related performance recommendations are intended to help in designing network perimeters for your office locations. Each Insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant.
+**Network insights**, their related performance recommendations and network assessments are intended to help in designing network perimeters for your office locations. Each insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant. **Performance recommendations** for each network insight offer specific network architecture design changes you can make to improve user experience related to Office 365 network connectivity. The network assessment shows how network connectivity impacts user experience, allowing for comparison of different user location network connections.
 
-Recommendations for each Network Insight offer specific network architecture design changes you can make to improve user experience related to Office 365 network connectivity. The network score shows how network connectivity impacts user experience, allowing for comparison of different user location network connections.
+**Network assessments** distill an aggregate of many network performance metrics into a snapshot of your enterprise network health, represented by a points value from 1 - 100. Network assessments are scoped to both the entire tenant and for each geographic location from which users connect to your tenant, providing Office 365 administrators with an easy way to instantly grasp a gestalt of the enterprise's network health and quickly drill down into a detailed report for any global office location.
 
 Complex enterprises with multiple office locations and non-trivial network perimeter architectures can benefit from this information either during their initial onboarding to Office 365 or to remediate network performance issues discovered with usage growth. This is usually not necessary for small businesses using Office 365, or any enterprises who already have simple and direct network connectivity. Enterprises with over 500 users and multiple office locations are expected to benefit the most.
 
 >[!IMPORTANT]
->Network performance recommendations, Insights and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+>Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
 
 ## Enterprise network connectivity challenges
 
@@ -45,35 +45,35 @@ Many enterprises have network perimeter configurations which have grown over tim
 
 Enterprises can improve general user experience and secure their environment by following [Office 365 connectivity principles](https://aka.ms/pnc) and by using the Microsoft 365 Admin Center network performance feature. In most cases, following these general principles will have a significant positive impact on end user latency, service reliability and overall performance of Office 365.
 
-Microsoft is sometimes asked to investigate network performance issues with Office 365 for large enterprise customers, and these frequently have a root cause related to the customers network egress infrastructure. When a common root cause of a customer network perimeter issue is found we seek to identify simple test measurements that identifies it. A test with a measurement threshold that identifies a specific problem is valuable because we can test the same measurement at any location, tell whether this root cause is present there and share it as a Network Insight with the administrator.
+Microsoft is sometimes asked to investigate network performance issues with Office 365 for large enterprise customers, and these frequently have a root cause related to the customers network egress infrastructure. When a common root cause of a customer network perimeter issue is found we seek to identify simple test measurements that identifies it. A test with a measurement threshold that identifies a specific problem is valuable because we can test the same measurement at any location, tell whether this root cause is present there and share it as a network insight with the administrator.
 
-Some Network Insights will merely indicate a problem that needs further investigation. A Network Insight where we have enough tests to show a specific remediation action to correct the root cause is listed as a **recommended action**. These recommendations, based on live metrics that reveal values that fall outside a predetermined threshold, are much more valuable than general best practice advice since they are specific to your environment and will show the actual improvement once the recommended changes have been made.
+Some network insights will merely indicate a problem that needs further investigation. A network insight where we have enough tests to show a specific remediation action to correct the root cause is listed as a **recommended action**. These recommendations, based on live metrics that reveal values that fall outside a predetermined threshold, are much more valuable than general best practice advice since they are specific to your environment and will show the actual improvement once the recommended changes have been made.
 
 ## Network performance overview in the Microsoft 365 Admin Center
 
-Microsoft has existing network measurements from several Office desktop and web clients which support the operation of Office 365. These measurements are now being used to provide network architecture design insights and a network performance score which are shown in the **Network performance** page in the Microsoft 365 Admin Center.
+Microsoft has existing network measurements from several Office desktop and web clients which support the operation of Office 365. These measurements are now being used to provide network architecture design insights and a network performance assessment which are shown in the **Network performance** page in the Microsoft 365 Admin Center.
 
-By default, approximate location information associated with the network measurements identify the city where client devices are located. The network score at each location is shown with color and the relative number of users at each location is represented by the size of the circle.
+By default, approximate location information associated with the network measurements identify the city where client devices are located. The network assessment at each location is shown with color and the relative number of users at each location is represented by the size of the circle.
 
-![Network Insights overview map](Media/m365-mac-perf/m365-mac-perf-overview-map.png)
+![Network insights overview map](Media/m365-mac-perf/m365-mac-perf-overview-map.png)
 
-The overview page also shows the network score for the customer as a weighted average across all office locations.
+The overview page also shows the network assessment for the customer as a weighted average across all office locations.
 
-![Network score](Media/m365-mac-perf/m365-mac-perf-overview-score.png)
+![Network assessment](Media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
-## Specific office location network performance summary and Insights
+## Specific office location network performance summary and insights
 
-Selecting an office location opens a location-specific summary page. We show details of the network egress that has been identified from measurements for that office location.
+Selecting an office location opens a location-specific summary page showing details of the network egress that has been identified from measurements for that office location.
 
-![Network Insights details by location](Media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
+![Network insights details by location](Media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
 
-The office location summary page additionally shows the location's network assessment score, network score history, a comparison of this location's score to other customers in the same city, and a list of specific Insights and recommendations that you can undertake to improve network performance and reliability. Locations with specific recommendations may also include an estimated potential latency improvement.
+The office location summary page additionally shows the location's network assessment, network assessment history, a comparison of this location's assessment to other customers in the same city, and a list of specific insights and recommendations that you can undertake to improve network performance and reliability. Locations with specific recommendations may also include an estimated potential latency improvement.
 
 Comparisons between customers in the same city are based on the expectation that all customers have equal access to network service providers, telecommunications infrastructure, and nearby Microsoft network points of presence.
 
-![Network Insights locations](Media/m365-mac-perf/m365-mac-perf-locations.png)
+![Network insights locations](Media/m365-mac-perf/m365-mac-perf-locations.png)
 
-The details tab on the office location page shows the specific measurement results that were used to come up with any Insights, recommendations, and the network assessment score. This is provided so that network engineers can validate the recommendations and factor in any constraints or specifics in their environment.
+The details tab on the office location page shows the specific measurement results that were used to come up with any insights, recommendations, and the network assessment. This is provided so that network engineers can validate the recommendations and factor in any constraints or specifics in their environment.
 
 ![Location-specific details](Media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
 
@@ -98,7 +98,7 @@ The internet egress location is the location where your network traffic exits yo
 
 ## Related topics
 
-[Office 365 Network Insights (preview)](office-365-network-mac-perf-insights.md)
+[Office 365 Network insights (preview)](office-365-network-mac-perf-insights.md)
 
 [Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
 

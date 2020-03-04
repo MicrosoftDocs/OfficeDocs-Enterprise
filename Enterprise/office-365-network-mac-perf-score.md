@@ -18,32 +18,32 @@ description: "Office 365 network assessment (preview)"
 
 # Office 365 network assessment (preview)
 
-The Office 365 Network Insights service uses the network performance data it collects to compile network assessment scores for the tenant and for each location from which users connect to your tenant. The network assessment score value is an average that indicates the relative user experience in terms of latency, bandwidth and other metrics. The performance impact of any Microsoft owned network connectivity is excluded from this to enable customers to optimize network designs for which they are responsible.
+In the Microsoft 365 Admin Center's Connectivity to Microsoft 365 page, **network assessments** distill an aggregate of many network performance metrics into a snapshot of your enterprise network health, represented by a points value from 1 - 100. Network assessments are scoped to both the entire tenant and for each geographic location from which users connect to your tenant, providing Office 365 administrators with an easy way to instantly grasp a gestalt of the enterprise's network health and quickly drill down into a detailed report for any global office location.
 
-It is calculated from measurements that impact user experience in key Office 365 workloads and shown as a percentage with a range of 0 to 100.
+The network assessment points value is an average measurement of latency, bandwidth, download speed and connection quality metrics compiled live at the time they are viewed. Performance metrics for Microsoft-owned networks are excluded from these measurements to ensure that assessment results are unambiguous and specific to the corporate network.
 
-![Network assessment score](Media/m365-mac-perf/m365-mac-perf-overview-score-top.png)
+![Network assessment value](Media/m365-mac-perf/m365-mac-perf-overview-score-top.png)
 
-A very low network assessment score suggests that Office 365 clients will have significant problems connecting to the tenant or maintaining a responsive user experience, while a high score indicates a properly configured network with few ongoing performance issues. A score of 80% represents a baseline where you should not expect to receive regular user complaints about Office 365 connectivity or responsiveness due to network performance. As iterative network connectivity improvements are made, this score will increase along with user experience.
+A very low network assessment value suggests that Office 365 clients will have significant problems connecting to the tenant or maintaining a responsive user experience, while a high value indicates a properly configured network with few ongoing performance issues. A value of 80% represents a healthy baseline where you should not expect to receive regular user complaints about Office 365 connectivity or responsiveness due to network performance. As iterative network connectivity improvements are made, this value will increase along with user experience.
 
 >[!IMPORTANT]
->Network performance recommendations, insights and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+>Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
 
-## Network assessment score panel
+## Network assessment panel
 
-Each network assessment score, whether for the tenant or for a specific office location, shows a panel with details about the score. This panel shows a bar chart of the score both as a percentage and as the total points for each component workload including only workloads where measurement data was received. For an office location network score we also show a benchmark which is the median of all Office 365 clients that reported data in the same city as your office location.
+Each network assessment, whether scoped to the tenant or to a specific office location, shows a panel with details about the assessment. This panel shows a bar chart of the assessment both as a percentage and as the total points for each component workload including only workloads where measurement data was received. For an office location network assessment, we also show a benchmark which is the median of all Office 365 clients that reported data in the same city as your office location.
 
-![Example network assessment score](Media/m365-mac-perf/m365-mac-perf-overview-score.png)
+![Example network assessment value](Media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
-The **Score breakdown** in the panel shows the score for each of the component workloads.
+The **Assessment breakdown** in the panel shows the assessment for each of the component workloads.
 
-The **Score history** shows the past 30 days of the score and the benchmark.
+The **Assessment history** shows the past 30 days of the assessment and the benchmark.
 
-## Tenant network score and office location network score
+## Tenant network assessments and office location network assessments
 
-A network score measures the design of the network perimeter of an office location to Microsoft’s network. Improvements to the network perimeter is best done at each office location, or where network connectivity is aggregated there may be improvements that impact multiple locations.
+A network assessment measures the design of the network perimeter of an office location to Microsoft’s network. Improvements to the network perimeter is best done at each office location, or where network connectivity is aggregated there may be improvements that impact multiple locations.
 
-We show a network score for the whole Office 365 tenant on the network performance overview page and a specific network score for each detected office location on that location’s summary page.
+We show a network assessment value for the whole Office 365 tenant on the network performance overview page and a specific value for each detected office location on that location’s summary page.
 
 ## Exchange Online
 
