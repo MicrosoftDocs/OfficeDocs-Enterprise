@@ -47,13 +47,13 @@ Enterprises can improve general user experience and secure their environment by 
 
 Microsoft is sometimes asked to investigate network performance issues with Office 365 for large enterprise customers, and these frequently have a root cause related to the customers network egress infrastructure. When a common root cause of a customer network perimeter issue is found we seek to identify simple test measurements that identifies it. A test with a measurement threshold that identifies a specific problem is valuable because we can test the same measurement at any location, tell whether this root cause is present there and share it as a Network Insight with the administrator.
 
-Some Network Insights will merely indicate a problem that needs further investigation. A Network Insight where we have enough tests to show a specific remediation action to correct the root cause is listed as a recommended action. These recommendations, based on live metrics that reveal values that fall outside a predetermined threshold, are much more valuable than general best practice advice since they are specific to your environment and will show the actual improvement once the recommended changes have been made.
+Some Network Insights will merely indicate a problem that needs further investigation. A Network Insight where we have enough tests to show a specific remediation action to correct the root cause is listed as a **recommended action**. These recommendations, based on live metrics that reveal values that fall outside a predetermined threshold, are much more valuable than general best practice advice since they are specific to your environment and will show the actual improvement once the recommended changes have been made.
 
 ## Network performance overview in the Microsoft 365 Admin Center
 
-Microsoft has existing network measurements from several Office desktop and web clients which support the operation of Office 365. These measurements are now being used to provide network architecture design insights and a network performance score which are shown in the **Connectivity to Microsoft 365** page in the Microsoft 365 Admin Center.
+Microsoft has existing network measurements from several Office desktop and web clients which support the operation of Office 365. These measurements are now being used to provide network architecture design insights and a network performance score which are shown in the **Network performance** page in the Microsoft 365 Admin Center.
 
-Approximate location information associated with the network measurements can identify the city where client devices are located. This is used to show the customers office locations and network measurements are grouped to provide network Insights for that office location. The network score at each location is shown with color and the relative number of users at each location is represented by the size of the circle.
+By default, approximate location information associated with the network measurements identify the city where client devices are located. The network score at each location is shown with color and the relative number of users at each location is represented by the size of the circle.
 
 ![Network Insights overview map](Media/m365-mac-perf/m365-mac-perf-overview-map.png)
 
@@ -63,36 +63,38 @@ The overview page also shows the network score for the customer as a weighted av
 
 ## Specific office location network performance summary and Insights
 
-Selecting an office location opens a location specific summary page. We show details of the network egress that has been identified from measurements for that office location.
+Selecting an office location opens a location-specific summary page. We show details of the network egress that has been identified from measurements for that office location.
 
 ![Network Insights details by location](Media/m365-mac-perf/m365-mac-perf-locations-plan-overview.png)
 
-The office location summary page additionally shows the locations network score, network score history, a comparison of this locations score to other customers in the same city, and a list of specific Insights and recommendations that the customer can undertake to improve their network connectivity. Locations with specific recommendations may also include the potential latency improvement in milliseconds.
+The office location summary page additionally shows the location's network assessment score, network score history, a comparison of this location's score to other customers in the same city, and a list of specific Insights and recommendations that you can undertake to improve network performance and reliability. Locations with specific recommendations may also include an estimated potential latency improvement.
 
 Comparisons between customers in the same city are based on the expectation that all customers have equal access to network service providers, telecommunications infrastructure, and nearby Microsoft network points of presence.
 
 ![Network Insights locations](Media/m365-mac-perf/m365-mac-perf-locations.png)
 
-The details tab on the office location page shows the specific measurement results that were used to come up with any Insights, recommendations, and the network score. This is provided so that network engineers can validate the recommendations and factor in any constraints or specifics in their environment.
+The details tab on the office location page shows the specific measurement results that were used to come up with any Insights, recommendations, and the network assessment score. This is provided so that network engineers can validate the recommendations and factor in any constraints or specifics in their environment.
 
 ![Location-specific details](Media/m365-mac-perf/m365-mac-perf-locations-plan-details-all.png)
 
-For customers who want to improve the accuracy of office locations and recommendations provided we allow for more specific information to be entered. This is done by editing the discovered location information and can reduce the approximations that are inherent in the location information available for network measurements.
+For customers who want to improve the accuracy of location-specific metrics and recommendations, we allow for more specific information to be entered. This can reduce the approximations that are inherent in the location information available for network measurements. To edit the address of a specific office location, <functionality not there yet>.
 
 ## FAQ
 
 ### What is an Office 365 service front door?
 
 The Office 365 service front door is an entry point on Microsoft's global network where Office clients and services terminate their network connection. For an optimal network connection to Office 365, it is recommended that your network connection is terminated into the closest Office 365 front door in your city or metro.
-Note: Office 365 service front door has no direct relationship to the “Azure Front Door Service” product available in the Azure marketplace.
+
+>[!NOTE]
+>Office 365 service front door has no direct relationship to the Azure Front Door Service product available in the Azure marketplace.
 
 ### What is an optimal Office 365 service front door?
 
-An optimal Office 365 service front door is one that is closest to your network egress, generally in your city or metro area. Use the Office 365 network performance tool to determine location of your in-use Office 365 service front door and optimal service front door. If the tool determines your in-use front door is optimal, then you are optimally connecting into Microsoft's global network.
+An optimal Office 365 service front door is one that is closest to your network egress, generally in your city or metro area. Use the [Office 365 Network Onboarding Tool](office-365-network-mac-perf-onboarding-tool.md) to determine location of your in-use Office 365 service front door and optimal service front door. If the tool determines your in-use front door is optimal, then you are optimally connecting into Microsoft's global network.
 
 ### What is an internet egress location?
 
-The internet egress location is the location where your network traffic exits your enterprise network and connects to the Internet. This is also identified as the location where you have a Network Address Translation (NAT) device and usually where you connect with an Internet Service Provider (ISP). If you see a long distance between your location and your internet egress location, then this may identify a significant WAN backhaul.
+The internet egress location is the location where your network traffic exits your enterprise network and connects to the Internet. This is also identified as the location where you have a Network Address Translation (NAT) device and usually where you connect with an Internet Service Provider (ISP). If you see a long distance between your location and your internet egress location, then this may indicate a significant WAN backhaul.
 
 ## Related topics
 
@@ -101,3 +103,5 @@ The internet egress location is the location where your network traffic exits yo
 [Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
 
 [Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
+
+[Office 365 Network Insights Privacy and Terms of Use (preview)](office-365-network-mac-perf-privacy.md)
