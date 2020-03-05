@@ -28,19 +28,19 @@ Core customer data is a term that refers to a subset of customer data including:
   
 Existing customers that have their core customer data stored in an already existing datacenter geo are not impacted by the launch of a new datacenter geo. We introduce no unique capabilities, features or compliance certifications with the new datacenter geo. As a customer in any of those two geos, you will experience the same quality of service, performance and security controls as you did before. We offer existing customers listed in the table below an option to request early migration of their organization's core customer data at rest to their new datacenter geo.
   
-|****Customers with tenant signup country in****|****Previous datacenter geo****|****New datacenter geo****|****Geo available since****|
+|**Customers with tenant signup country in**|**Previous datacenter geo**|**New datacenter geo**|**Geo available since**|
 |:-----|:-----|:-----|:-----|
-|****Japan****| Asia/Pacific | Japan | December 2014 |
-|****Australia, New Zealand, Fiji****| Asia/Pacific | Australia | March 2015 |
-|****India****| Asia/Pacific | India | October 2015 |
-|****Canada****| North America | Canada | May 2016 |
-|****United Kingdom****| Europe | United Kingdom | September 2016 |
-|****South Korea****| Asia/Pacific | South Korea | April 2017 |
-|****France****| Europe | France | March 2018 |
-|****United Arab Emirates****| Europe | United Arab Emirates | June 2019 |
-|****South Africa****| Europe | South Africa | July 2019 |
-|****Switzerland, Liechtenstein****| Europe | Switzerland | December 2019 |
-|****Germany****| Europe | Germany | December 2019 |
+|**Japan**| Asia/Pacific | Japan | December 2014 |
+|**Australia, New Zealand, Fiji**| Asia/Pacific | Australia | March 2015 |
+|**India**| Asia/Pacific | India | October 2015 |
+|**Canada**| North America | Canada | May 2016 |
+|**United Kingdom**| Europe | United Kingdom | September 2016 |
+|**South Korea**| Asia/Pacific | South Korea | April 2017 |
+|**France**| Europe | France | March 2018 |
+|**United Arab Emirates**| Europe | United Arab Emirates | June 2019 |
+|**South Africa**| Europe | South Africa | July 2019 |
+|**Switzerland, Liechtenstein**| Europe | Switzerland | December 2019 |
+|**Germany**| Europe | Germany | December 2019 |
   
 New customers or Office 365 tenants created after the availability of the new datacenter geo will have their core customer data stored at rest in the new datacenter geo automatically.
 
