@@ -7,8 +7,7 @@ audience: ITPro
 ms.topic: article
 ms.service: sharepoint-online
 localization_priority: Priority
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 description: "Learn best practices for sharing files and folders with unauthenticated users."
 ---
 

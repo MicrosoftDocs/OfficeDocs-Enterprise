@@ -187,13 +187,13 @@
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
 ### Collaborate with guests
 #### [Guest sharing reference](microsoft-365-guest-settings.md)
-#### Guest sharing solutions
+#### Guest sharing scenarios
 ##### [Guest collaboration overview](collaborating-with-people-outside-your-organization.md)
 ##### [Collaborate on documents](collaborate-on-documents.md)
 ##### [Collaborate in a site](collaborate-in-a-site.md)
 ##### [Collaborate as a team](collaborate-as-a-team.md)
 #### Guest sharing security
-##### [unauthenticated sharing](best-practices-anonymous-sharing.md)
+##### [Unauthenticated sharing](best-practices-anonymous-sharing.md)
 ##### [Limit accidental exposure](sharing-limit-accidental-exposure.md)
 ##### [Secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
 #### [Create a B2B extranet](b2b-extranet.md)
