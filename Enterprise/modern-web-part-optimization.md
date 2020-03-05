@@ -29,16 +29,15 @@ SharePoint Online modern site pages contain web parts that can contribute to ove
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance).
 
 ## Use the Page Diagnostics for SharePoint tool to analyze web parts
-
-The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The **Page Diagnostics for SharePoint tool** is a browser extension for the new [Microsoft Edge](https://www.microsoft.com/edge) and Chrome browsers. For more information see [Page Diagnostics Tool for SharePoint Online](https://aka.ms/perftool)
 
 When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane.
 
 Possible results include:
 
-- **Attention required** (red): Any _custom_ web part that takes longer than **two** seconds to load. Total load time as displayed in test results is broken down by module load, lazy load, init and render.
+- **Attention required** (red): Any _custom_ web part that takes longer than **two** seconds to load that is visible in the viewport (screen visible portion of the page which is loaded first). Any _custom_ web parts outside of the viewport that take longer than **four** seconds to load. Total load time is displayed in test results and is broken down by module load, lazy load, init and render.
 - **Improvement opportunities** (yellow): Items that may be impacting page load time are shown in this section and should be reviewed and monitored. This may include "out of the box" (OOTB) Microsoft web parts. Results for any Microsoft web parts shown in this section are automatically reported to Microsoft, so **no action is required**. You should only log a support ticket for investigation if you are experiencing very slow performance on the page and **all Microsoft web parts** on the page appear in the results in the **Improvement opportunities** section. Note that a future Page Diagnostics tool update will further break down the results based on the specific configuration of the Microsoft web part.
-- **No action required** (green): No web part is taking longer than **two** seconds to return data.
+- **No action required** (green): No web part in the viewport is taking longer than **two** seconds to return data. No web part outside the viewport is taking longer than **four** seconds to return data.
 
 If the **Web parts are impacting page load time** result appears in either the **Attention required** or **Improvement opportunities** section of the results, click the result to see details about which web parts are loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
