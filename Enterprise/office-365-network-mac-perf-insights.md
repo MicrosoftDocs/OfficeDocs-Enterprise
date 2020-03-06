@@ -115,6 +115,27 @@ The download speed that a user can get from SharePoint Online and OneDrive for B
 
 To improve download speeds, bandwidth may need to be increased. Alternatively, there may be network congestion between user machines at the office location and the SharePoint Online service front door. This is sometimes called congestive loss and it restricts the download speed available to users even if sufficient bandwidth is available.
 
+## China user optimal network egress
+
+This insight will be displayed if your organization has users in China connecting to your Office 365 tenant in other geographic locations. 
+
+### What does this mean?
+
+If your organization has private WAN connectivity, we recommend configuring a network WAN circuit from your office locations in China that has network egress to the Internet in any of the following locations:
+
+- Hong Kong
+- Japan
+- Taiwan
+- South Korea
+- Singapore
+- Malaysia
+
+Internet egress further away from users than these locations will reduce performance, and egress in China may cause high latency and connectivity issues due to cross-border congestion.
+
+### What should I do?
+
+For more information about how to mitigate performance issues related to this insight, see [Office 365 global tenant performance optimization for China users](https://docs.microsoft.com/office365/enterprise/office-365-networking-china).
+
 ## Related topics
 
 [Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
