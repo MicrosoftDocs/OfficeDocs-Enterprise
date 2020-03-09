@@ -3,7 +3,7 @@ title: "Use the Page Diagnostics tool for SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/19/2019
+ms.date: 2/18/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -26,9 +26,9 @@ description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint
 This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze SharePoint Online modern and classic site pages against a pre-defined set of performance criteria.  
 
 >[!TIP]
->**Version 2.0.1 of the tool has been released**. Version **2.0.0** and later includes support for modern pages in addition to classic site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version.
+>**Version 2.0.2 of the tool has been released**. Version **2.0.0** and later includes support for modern pages in addition to classic site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version. Always update to the latest version when using the tool.
 
-The Page Diagnostics for SharePoint tool is a browser extension for Chrome and [Microsoft Edge version 77 and later](https://www.microsoftedgeinsider.com/download?form=MI13E8&OCID=MI13E8) that analyzes both SharePoint Online modern portal and classic publishing site pages. This tool only works for SharePoint Online, and will fail with an error if used on a SharePoint Server site page.
+The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages. This tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
 
 The tool generates a report for each analyzed page showing how the page performs against a pre-defined set of rules and displays detailed information when results for a test fall outside the baseline value. SharePoint Online administrators and designers can use the tool to troubleshoot performance issues and to ensure that new pages are optimized prior to publishing.
 
@@ -47,9 +47,9 @@ To provide feedback about the tool, select the ellipsis at the top right corner 
 The installation procedure in this section will work for both the Chrome and Microsoft Edge browsers.
 
 > [!IMPORTANT]
-> Microsoft does not read data or page content that is analyzed by the Page Diagnostics for SharePoint tool, and we do not capture any personal information, website or download information. The only information logged by the tool is the tenant name, rule count and whether the support logging option has been enabled when the tool is run. This information is used by Microsoft to understand modern portal and publishing site usage trends and common performance issues to inform product improvements.
+> Microsoft does not read data or page content that is analyzed by the Page Diagnostics for SharePoint tool, and we do not capture any personal information, website or download information. The only identifiable information logged to Microsoft by the tool is the tenant name, counts of rules that have failed and the date and time the tool was run. This information is used by Microsoft to better understand modern portal and publishing site usage trends and common performance issues.
 
-1. Using the _Chrome_ or _Microsoft Edge version 77 or later_ browser, open the [link to the tool](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi) directly or open the Search in the [Chrome Browser WebStore](https://chrome.google.com/webstore/search/page%20diagnostics%20for%20sharepoint) and install the browser extension. Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.
+1. Install the Page Diagnostics for SharePoint tool for **Microsoft Edge** [(Edge extension)](https://microsoftedge.microsoft.com/addons/detail/ocemkolpnamjcacndljdfmhlpcaoipji) or **Chrome** [(Chrome extension)](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi). Please review the User Privacy Policy provided on the description page in the store. When adding the tool to your browser, you will see the following permissions notice.
 
     ![Extension permissions](media/page-diagnostics-for-spo/pagediag-add-to-edge.png)
 
@@ -68,7 +68,10 @@ Select **Start** to begin collecting data for analysis.
 
 ## What you'll see in the Page Diagnostics for SharePoint tool
 
-1. The **About** link, which resembles ellipses (...) in the top right corner will provide general guidance and details regarding the tool including a link back to this article. It also includes a direct link to SharePoint performance recommendations, a third party notice and an option to provide feedback about the tool.  
+1. Click the ellipses (...) in the top right corner of the tool to find the following links:
+   1. The **Additional resources** link provides general guidance and details regarding the tool including a link back to this article.
+   1. The **Give feedback** link provides a link to the _SharePoint Sites and Collaboration User Voice_ site.
+   1. The **About** link includes the currently installed version of the tool and a direct link to the tool's third party notice.  
 1. The **Correlation ID, SPRequestDuration, SPIISLatency**, **Page load time**, and **URL** details are informational and can be used for a few purposes.
 
     ![Page diagnostics details](media/page-diagnostics-for-spo/pagediag-details.PNG)
@@ -111,12 +114,12 @@ Red or yellow results may also indicate web parts that refresh data too frequent
 
 The **Network Trace** tab provides detailed information about both requests to build the page and the responses received from SharePoint.
 
-1. **Look for item load times flagged as red**. The performance of each request and response are color coded, based on their impact on the overall page performance as follows:
+1. **Look for item load times flagged as red**. Each request and response is color coded to indicate its impact on overall page performance using the following latency metrics:
     - Green: \< 500ms
     - Yellow: 500-1000ms
     - Red: \> 1000ms
 
-    ![Network Trace](media/page-diagnostics-for-spo/pagediag-networktrace.png)
+    ![Network Trace](media/page-diagnostics-for-spo/pagediag-networktrace-red.png)
 
     In the image shown above, the red item pertains to the default page. It will always show red unless the page loads in \< 1000ms (less than 1 second).
 

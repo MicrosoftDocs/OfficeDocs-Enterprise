@@ -81,6 +81,7 @@
 #### [Network requests in Office for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
+### [Office 365 performance optimization for China users](office-365-networking-china.md)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
@@ -186,13 +187,13 @@
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
 ### Collaborate with guests
 #### [Guest sharing reference](microsoft-365-guest-settings.md)
-#### Guest sharing solutions
+#### Guest sharing scenarios
 ##### [Guest collaboration overview](collaborating-with-people-outside-your-organization.md)
 ##### [Collaborate on documents](collaborate-on-documents.md)
 ##### [Collaborate in a site](collaborate-in-a-site.md)
 ##### [Collaborate as a team](collaborate-as-a-team.md)
 #### Guest sharing security
-##### [unauthenticated sharing](best-practices-anonymous-sharing.md)
+##### [Unauthenticated sharing](best-practices-anonymous-sharing.md)
 ##### [Limit accidental exposure](sharing-limit-accidental-exposure.md)
 ##### [Secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
 #### [Create a B2B extranet](b2b-extranet.md)
