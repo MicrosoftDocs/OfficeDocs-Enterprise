@@ -29,7 +29,7 @@ SharePoint Online modern site pages contain web parts that can contribute to ove
 >For more information about performance in SharePoint Online modern portals, see [Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance).
 
 ## Use the Page Diagnostics for SharePoint tool to analyze web parts
-The **Page Diagnostics for SharePoint tool** is a browser extension for the new [Microsoft Edge](https://www.microsoft.com/edge) and Chrome browsers. For more information see [Page Diagnostics Tool for SharePoint Online](https://aka.ms/perftool)
+The **Page Diagnostics for SharePoint tool** is a browser extension for the new [Microsoft Edge](https://www.microsoft.com/edge) and Chrome browsers. For more information, see [Page Diagnostics Tool for SharePoint Online](https://aka.ms/perftool).
 
 When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about web parts that exceed the baseline metric in the **Web parts are impacting page load time** result in the _Diagnostic tests_ pane.
 
