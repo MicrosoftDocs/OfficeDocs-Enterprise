@@ -36,6 +36,8 @@ Possible results include:
 
 If an **extension is impacting page load time** the result appears in the **Attention required** section of the results, click the results to see details about which extension is loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
+![Page load time results](media/page-diagnostics-for-spo/pagediag-extensions-load-time.png)
+
 Information available in the results includes:
 
 - **Name and ID** shows identifying information that can help you find the extension on the page
