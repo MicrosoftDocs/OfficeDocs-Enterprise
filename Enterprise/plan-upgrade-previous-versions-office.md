@@ -105,9 +105,3 @@ or
 ## Related topics
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
-
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
-
-
-
-

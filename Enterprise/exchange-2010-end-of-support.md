@@ -44,10 +44,10 @@ With Exchange 2010 reaching its end of support, this is a great time to explore 
 - Migrate your Exchange 2010 servers to Exchange 2016 on your on-premises servers.
 
 > [!IMPORTANT]
-> If your organization chooses to migrate mailboxes to Office 365 but intends to keep DirSync or Azure AD Connect in place to continue managing user accounts from on-premises Active Directory, you need to keep at least one Exchange server on-premises. If the last Exchange server is removed, you won’t be able to make changes to Exchange recipients in Exchange Online. This is because the source of authority remains in your on-premises Active Directory and changes need to be made there. In this scenario, you have the following options:
+> If your organization chooses to migrate mailboxes to Office 365 but intends to keep DirSync or Azure AD Connect in place to continue managing user accounts from on-premises Active Directory, you need to keep at least one Exchange server on-premises. If the last Exchange server is removed, you won't be able to make changes to Exchange recipients in Exchange Online. This is because the source of authority remains in your on-premises Active Directory and changes need to be made there. In this scenario, you have the following options:
 
 - (**Recommended**) If you can migrate your mailboxes to Office 365 and upgrade your servers by October 13, 2020, use Exchange 2010 to connect to Office 365 and migrate mailboxes. Next, migrate Exchange 2010 to Exchange 2016 and decommission any remaining Exchange 2010 servers.
-- If you can’t complete the mailbox migration and on-premises server upgrade by October 13, 2020, upgrade your on-premises Exchange 2010 servers to Exchange 2016 first, then use Exchange 2016 to connect to Office 365 and migrate mailboxes.
+- If you can't complete the mailbox migration and on-premises server upgrade by October 13, 2020, upgrade your on-premises Exchange 2010 servers to Exchange 2016 first, then use Exchange 2016 to connect to Office 365 and migrate mailboxes.
 
 > [!NOTE]
 > While a little more complicated, you may also migrate mailboxes to Office 365 while migrating your on-premises Exchange 2010 servers to Exchange 2016.
@@ -236,7 +236,7 @@ consider:
 > If your organization chooses to migrate mailboxes to Office 365
 but intends to keep DirSync or Azure AD Connect in place to continue managing
 user accounts from on-premises Active Directory, you need to keep at least one
-Exchange server on-premises. If the last Exchange server is removed, you won’t
+Exchange server on-premises. If the last Exchange server is removed, you won't
 be able to make changes to Exchange recipients in Exchange Online. This is
 because the source of authority remains in your on-premises Active Directory and
 changes need to be made there.
@@ -257,7 +257,7 @@ experience by migrating fully to Office 365, we also understand that some
 organizations need to keep some Exchange Servers on-premises. This could be
 because of regulatory requirements, to guarantee data isn't stored in a
 datacenter located in another country, or it might be because you have unique
-settings or requirements that can’t be met in the cloud, or it could simply be
+settings or requirements that can't be met in the cloud, or it could simply be
 that you need Exchange to manage cloud mailboxes because you still use Active
 Directory on-premises. In any case for which you choose or need to keep Exchange
 on-premises, you should ensure your Exchange 2010 environment is upgraded to at
@@ -265,7 +265,7 @@ least Exchange 2013 or Exchange 2016 and Exchange 2010 is removed before the End
 of Support date.
 
 For the best experience, we recommend that you upgrade your remaining
-on-premises environment to Exchange 2016. You don’t need to install Exchange
+on-premises environment to Exchange 2016. You don't need to install Exchange
 Server 2013 if you want to go straight from Exchange Server 2010 to Exchange
 Server 2016.
 
@@ -348,5 +348,3 @@ here to help. Here are some resources you can use:
 ## Related topics
 
 [Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/office365/enterprise/upgrade-from-office-2010-servers-and-products)
-
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)

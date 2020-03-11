@@ -61,8 +61,6 @@ If you're using Office 2010 products and applications at home, see [this informa
 
 ## Related topics
 
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
-  
 [Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
