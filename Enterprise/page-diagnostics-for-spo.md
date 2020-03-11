@@ -3,7 +3,7 @@ title: "Use the Page Diagnostics tool for SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 2/18/2020
+ms.date: 03/11/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -156,4 +156,8 @@ No change is visible except that you will be notified that you have enabled it a
 
 [Tune Office 365 performance](tune-office-365-performance.md)
 
+[Performance in the modern SharePoint experience](https://docs.microsoft.com/sharepoint/modern-experience-performance)
+
 [Content delivery networks](content-delivery-networks.md)
+
+[Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](use-office-365-cdn-with-spo.md)
