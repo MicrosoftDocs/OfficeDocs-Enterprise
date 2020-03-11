@@ -34,7 +34,8 @@ For information about optimizing images in classic publishing sites, see [Image 
 
 The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
->[!NOTE] The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
+>[!NOTE]
+>The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
 
 When you analyze a SharePoint modern site with the Page Diagnostics for SharePoint tool, you can see information about large images in the _Diagnostic tests_ pane.
 
