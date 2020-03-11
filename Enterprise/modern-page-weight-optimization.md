@@ -34,7 +34,8 @@ This article will help you understand how to reduce page weight in your modern s
 
 The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
 
->[!NOTE] The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
+>[!NOTE]
+>The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
 
 When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about page in the **Page weight under 500KB** result of the _Diagnostic tests_ pane. The result will appear in green if the page weight is under the baseline value, and red if the page weight exceeds the baseline value.
 
