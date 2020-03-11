@@ -3,7 +3,7 @@ title: "Optimize custom extensions in SharePoint Online modern site pages"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/10/2020
+ms.date: 03/11/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -27,14 +27,18 @@ This article will help you understand how to determine how custom extensions aff
 
 ## Use the Page Diagnostics for SharePoint tool to analyze custom extensions
 
-The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages. This tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
+The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+
+>[!NOTE] The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
+
+When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about custom extensions that exceed the baseline metric in the **Extensions are impacting load time** result in the _Diagnostic tests_ pane.
 
 Possible results include:
 
 - **Attention required** (red): Any _custom_ extension that takes longer than **one** second to load. Total load time as displayed in test results is broken down by module load and init.
 - **No action required** (green): No extension is taking longer than **one** seconds to load.
 
-If an **extension is impacting page load time** the result appears in the **Attention required** section of the results, click the results to see details about which extension is loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
+If an extension is impacting page load time, the result appears in the **Attention required** section of the results. Click the result to see details about which extension is loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
 ![Page load time results](media/page-diagnostics-for-spo/pagediag-extensions-load-time.png)
 
@@ -48,19 +52,23 @@ Information available in the results includes:
 This information is provided to help designers and developers troubleshoot issues. This information should be provided to your design and development team.
 
 ## Overview of extensions
+
 SharePoint Framework (SPFx) Extensions can be used to extend the SharePoint user experience. With SharePoint Framework Extensions, you can customize more facets of the SharePoint experience, including notification areas, toolbars, and list data views.
+
 Extensions can have a bad influence on the performance of a SharePoint page as it also takes CPU and network resources to do required work.
 
 There are four types of extensions:
+
 - **Application Customizers** adds scripts to the page, and accesses well-known HTML element placeholders and extends them with custom renderings.
 - **Field Customizers** provides modified views to data for fields within a list.
 - **Command Sets** extend the SharePoint command surfaces to add new actions, and provides client-side code that you can use to implement behaviors.
-- **Search Query Modifier (preview only)** it will be invoked just before the search query is executed.
+- **Search Query Modifier (preview only)** are invoked just before the search query is executed.
+
 ## Remediate extension performance issues
 
-Follow the guidance in this section to identify and remediate performance issues with extensions listed in the **extensions are impacting page load time** results.
+Follow the guidance in this section to identify and remediate performance issues with extensions listed in the **Extensions are impacting page load time** results.
 
->[!NOTE] Application Customizers may be executed in the early stage during the lifecycle of a page and it may influence the performance of other extensions on the page.
+>[!NOTE] Application customizers may be executed in the early stage during the lifecycle of a page and it may influence the performance of other extensions on the page.
 
 The audit results in the Page Diagnostic Tool will display two stages of executing an extension in order to help identify the potential performance impact.
 
@@ -69,22 +77,21 @@ The audit results in the Page Diagnostic Tool will display two stages of executi
 
 Page authors can also use the audit result to see whether a page has too many extensions as too many extensions will negatively impact the performance of a page.
 
-- Extension size and dependencies
+- **Extension size and dependencies**
   - Use of the Office 365 CDN is required for optimal static resource download. Public CDN origins are preferable for _js/css_ files. For more information about using the Office 365 CDN, see [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](use-office-365-cdn-with-spo.md).
   - Reuse frameworks like _React_ and _Fabric imports_ that come as part of the SharePoint Framework (SPFx). For more information, see [Overview of the SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview).
   - Ensure that you are using the latest version of the SharePoint Framework, and upgrade to new versions as they become available.
-- Data fetching/caching
+- **Data fetching/caching**
   - If the extension relies on extra server calls to fetch data for display, ensure those server APIs are fast and/or implement client side caching (such as using _localStorage_ or _IndexDB_ for larger sets).
   - If multiple calls are required to render critical data, consider batching on the server or other methods of consolidating requests to a single call.
   - Alternatively, if some elements of data require a slower API, but are not critical to initial rendering, decouple these to a separate call that is executed after critical data is rendered.
   - If multiple parts use the same data, utilize a common data layer to avoid duplicate calls.
-- Rendering time
+- **Rendering time**
   - Any media sources like images and videos should be sized to the limits of the container, device and/or network to avoid downloading unnecessary large assets. For more information about content dependencies, see [Use the Office 365 Content Delivery Network (CDN) with SharePoint Online](use-office-365-cdn-with-spo.md).
   - Avoid API calls that cause re-flow, complex CSS rules or complicated animations. For more information, see [Minimizing browser reflow](https://developers.google.com/speed/docs/insights/browser-reflow).
   - Avoid use of chained long running tasks. Instead, break long running tasks apart into separate queues. For more information, see [Optimize JavaScript Execution](https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution).
   - Reserve corresponding space for asynchronously rendering media or visual elements to avoid skipped frames and stuttering (also known as _jank_).
-  - If a certain browser doesn't support a feature used in rendering, either load a polyfill or exclude running dependent code. If the feature is not critical,
-dispose resources such as event handlers to avoid memory leaks.
+  - If a certain browser doesn't support a feature used in rendering, either load a polyfill or exclude running dependent code. If the feature is not critical, dispose resources such as event handlers to avoid memory leaks.
 
 Before you make page revisions to remediate performance issues, make a note of the page load time in the analysis results. Run the tool again after your revision to see if the new result is within the baseline standard, and check the new page load time to see if there was an improvement.
 
