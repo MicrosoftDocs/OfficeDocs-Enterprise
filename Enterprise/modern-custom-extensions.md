@@ -37,7 +37,7 @@ When you analyze a SharePoint site page with the Page Diagnostics for SharePoint
 Possible results include:
 
 - **Attention required** (red): Any _custom_ extension that takes longer than **one** second to load. Total load time as displayed in test results is broken down by module load and init.
-- **No action required** (green): No extension is taking longer than **one** seconds to load.
+- **No action required** (green): No extension is taking longer than one second to load.
 
 If an extension is impacting page load time, the result appears in the **Attention required** section of the results. Click the result to see details about which extension is loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
