@@ -647,6 +647,106 @@
     
  },
 
+ {
+
+  "source_path": "microsoft-365-guest-settings.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "collaborating-with-people-outside-your-organization.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "collaborate-on-documents.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-on-documents",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "collaborate-in-a-site.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "collaborate-as-a-team.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "best-practices-anonymous-sharing.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/best-practices-anonymous-sharing",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "sharing-limit-accidental-exposure.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "create-a-secure-guest-sharing-environment.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "b2b-extranet.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet",
+
+  "redirect_document_id": false
+  
+},
+
+{
+
+  "source_path": "microsoft-365-limit-sharing.md",
+
+  "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-limit-sharing",
+
+  "redirect_document_id": false
+  
+},
+
 {
 
       "source_path": "enterprise/network-connectivity.md",
