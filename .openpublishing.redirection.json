@@ -649,7 +649,7 @@
 
  {
 
-  "source_path": "microsoft-365-guest-settings.md",
+  "source_path": "enterprise/microsoft-365-guest-settings.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings",
 
@@ -659,7 +659,7 @@
 
 {
 
-  "source_path": "collaborating-with-people-outside-your-organization.md",
+  "source_path": "enterprise/collaborating-with-people-outside-your-organization.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization",
 
@@ -669,7 +669,7 @@
 
 {
 
-  "source_path": "collaborate-on-documents.md",
+  "source_path": "enterprise/collaborate-on-documents.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-on-documents",
 
@@ -679,7 +679,7 @@
 
 {
 
-  "source_path": "collaborate-in-a-site.md",
+  "source_path": "enterprise/collaborate-in-a-site.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site",
 
@@ -689,7 +689,7 @@
 
 {
 
-  "source_path": "collaborate-as-a-team.md",
+  "source_path": "enterprise/collaborate-as-a-team.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team",
 
@@ -699,7 +699,7 @@
 
 {
 
-  "source_path": "best-practices-anonymous-sharing.md",
+  "source_path": "enterprise/best-practices-anonymous-sharing.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/best-practices-anonymous-sharing",
 
@@ -709,7 +709,7 @@
 
 {
 
-  "source_path": "sharing-limit-accidental-exposure.md",
+  "source_path": "enterprise/sharing-limit-accidental-exposure.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure",
 
@@ -719,7 +719,7 @@
 
 {
 
-  "source_path": "create-a-secure-guest-sharing-environment.md",
+  "source_path": "enterprise/create-a-secure-guest-sharing-environment.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment",
 
@@ -729,7 +729,7 @@
 
 {
 
-  "source_path": "b2b-extranet.md",
+  "source_path": "enterprise/b2b-extranet.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet",
 
@@ -739,7 +739,7 @@
 
 {
 
-  "source_path": "microsoft-365-limit-sharing.md",
+  "source_path": "enterprise/microsoft-365-limit-sharing.md",
 
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-limit-sharing",
 
