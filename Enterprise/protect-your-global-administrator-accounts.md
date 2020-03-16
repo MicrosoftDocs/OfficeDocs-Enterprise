@@ -23,6 +23,9 @@ description: "Protect global administrator access to your Office 365 subscriptio
 
 # Protect your Office 365 global administrator accounts
 
+> [!NOTE]
+> The Global admin account can be created without any adding any license.
+
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
 Security breaches of an Office 365 subscription, including information harvesting and phishing attacks, are typically done by compromising the credentials of an Office 365 global administrator account. Security in the cloud is a partnership between you and Microsoft:
