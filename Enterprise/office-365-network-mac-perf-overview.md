@@ -3,7 +3,7 @@ title: "Network performance recommendations in the Microsoft 365 Admin Center (p
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/04/2020
+ms.date: 03/17/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -24,7 +24,17 @@ The Microsoft 365 Admin Center now includes live performance metrics collected f
 
 When you first navigate to the network performance page, you will see an overview pane containing a map of global network performance, a network assessment scoped to the entire tenant, and a list of current issues. From the overview, you can drill down to view specific network performance metrics and issues by location. For more information, see [Network performance overview in the Microsoft 365 Admin Center](#network-performance-overview-in-the-microsoft-365-admin-center).
 
-### How do I use this information?
+## Pre-requisites for connectivity measurements to appear
+
+In order for connectivity measurements to appear, you must have at least two computers running at each office location that support the pre-requisites. OneDrive for Business Sync Client version 19.232 or above must be installed on each computer. For more information, see the [OneDrive release notes](https://support.office.com/article/onedrive-release-notes-845dcf18-f921-435e-bf28-4e24b95e5fc0).
+
+Windows Location Service must be consented on the machines. You can test this by running the **Maps** app and locating yourself. It can be enabled on a single machine with **Settings** -> **Privacy** -> **Location** where the setting "Allow apps to access your location" must be enabled. Windows Location Services consent can be deployed to PCs using MDM or Group Policy with the setting _LetAppsAccessLocation_.
+
+The machines should have Wi-Fi networking rather than an Ethernet cable. Machines with an Ethernet cable do not have accurate location information.
+
+Measurement samples and office locations should start to appear 24 hours after these pre-requisites have been met.
+
+## How do I use this information?
 
 **Network insights**, their related performance recommendations and network assessments are intended to help in designing network perimeters for your office locations. Each insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant. **Performance recommendations** for each network insight offer specific network architecture design changes you can make to improve user experience related to Office 365 network connectivity. The network assessment shows how network connectivity impacts user experience, allowing for comparison of different user location network connections.
 
