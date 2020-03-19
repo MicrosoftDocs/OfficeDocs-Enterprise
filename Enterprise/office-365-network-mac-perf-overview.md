@@ -3,7 +3,7 @@ title: "Network performance recommendations in the Microsoft 365 Admin Center (p
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/17/2020
+ms.date: 03/19/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
