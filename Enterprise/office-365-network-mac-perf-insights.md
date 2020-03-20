@@ -3,7 +3,7 @@ title: "Office 365 Network Insights (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/04/2020
+ms.date: 03/20/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -85,7 +85,7 @@ We list Exchange Online service front doors which are suitable for use from the 
 
 Use of a non-optimal Exchange Online service front door could be caused by network backhaul before the corporate network egress in which case we recommend local and direct network egress. It could also be caused by use of a remote DNS Recursive Resolver server in which case we recommend aligning the DNS Recursive Resolver server with the network egress.
 
-## Use of non-optimal SharePoint Online service front door
+## Use of a non-optimal SharePoint Online service front door
 
 This insight will be displayed if the network insights service detects that users in a specific location are not connecting to the closest SharePoint Online service front door.
 
