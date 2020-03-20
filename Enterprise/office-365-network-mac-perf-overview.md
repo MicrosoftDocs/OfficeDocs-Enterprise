@@ -91,21 +91,21 @@ For customers who want to improve the accuracy of location-specific metrics and 
 
 ## Import undiscovered office locations
 
-The network performance **Locations** tab shows a list of office locations automatically discovered from network telemetry. You can manually add locations if they do not automatically appear in the list by importing them from a CSV file. You can also update the **address** value of existing office locations.
+The network performance **Locations** tab shows a list of office locations automatically discovered from network telemetry. These office locations are discovered cities. You can manually add more specific locations within those cities if they do not automatically appear in the list by importing them from a CSV file. If office locations do not show up at all you should troubleshoot why their network measurements are not appearing rather than just adding the location here. You can also update the address value of existing office locations.
 
-A discovered location is labeled **City**, and a manually added location is labeled **Location**.
+In the CSV file aA discovered city location is labeled **City**, and a manually added office location is labeled **Location**.
 
 1. In the main _Connectivity to Microsoft 365_ window, click the **Locations** tab.
 1. Click the **Import** button just above the locations list. The **Import office locations** flyout will appear.
 
    ![CSV import error message](Media/m365-mac-perf/m365-mac-perf-import.png)
 
-1. Click the **Download current office locations (.csv)** link to export the current locations list to a CSV file, and save it to your local hard disk. This will provide you with a correctly formatted CSV to which you can add locations. You can leave the exported locations as they are; they will not be duplicated when you import the updated CSV. If you wish to change the address of an existing location, it will be updated when you import the CSV.
+1. Click the **Download current office locations (.csv)** link to export the current locations list to a CSV file, and save it to your local hard disk. This will provide you with a correctly formatted CSV to which you can add locations. You can leave the exported locations as they are; they will not be duplicated when you import the updated CSV. If you wish to change the address of an existing location, it will be updated when you import the CSV. You cannot change the address of a discovered city.
 1. Open the CSV and add your locations by filling out the following fields on a new line for each location you want to add. Leave all other fields blank; values you enter in other fields will be ignored.
    1. **Address** (required): The physical address of the office
    1. **Latitude** (optional): Populated from Bing maps lookup if blank
    1. **Longitude** (optional): Populated from Bing maps lookup if blank
-   1. **Egress IP Address ranges 1-5** (optional): For each range, enter the circuit name followed by a space separated list of valid IPv4 or IPv6 CIDR addresses
+   1. **Egress IP Address ranges 1-5** (optional): For each range, enter the circuit name followed by a space separated list of valid IPv4 or IPv6 CIDR addresses. These values are only used when you have enabled SDWAN integration for a given office location.
 1. When you have added your office locations and saved the file, click the **Browse** button next to the **Upload the completed** field and select the saved CSV file.
 1. The file will be automatically validated. If there are validation errors, you will see the error message _There are some errors in the import file. Review the errors, correct the import file, and then try again._ Click the link **Open error details** for a list of specific field validation errors.
 
