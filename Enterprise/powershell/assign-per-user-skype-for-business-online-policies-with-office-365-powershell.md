@@ -105,7 +105,7 @@ To disable a user account using Windows PowerShell, use the Azure Active Directo
 
 ## Managing large numbers of users
 
-To manage large numbers of users (1000 or more), you will want to batch the commands via a script block using the [Invoke-Command](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet.  In previous examples, each time a cmdlet is executed, it must set up the call and then wait for the result, before sending it back.  When using a script block, this allows the cmdlets to be executed remotely, and once completed, send the data back. 
+To manage large numbers of users (1000 or more), you need to batch the commands via a script block using the [Invoke-Command](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/invoke-command?view=powershell-7) cmdlet.  In previous examples, each time a cmdlet is executed, it must set up the call and then wait for the result before sending it back.  When using a script block, this allows the cmdlets to be executed remotely, and once completed, send the data back. 
 
 ```powershell
 Import-Module LyncOnlineConnector
@@ -143,4 +143,3 @@ This will find 500 users at a time who do not have a client policy, it will gran
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
 [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
-
