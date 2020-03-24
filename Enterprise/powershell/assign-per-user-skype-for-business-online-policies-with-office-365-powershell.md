@@ -134,7 +134,7 @@ $count = 0
 }
 ```
 
-This will find 500 users at a time who do not have a client policy, it will grant them the client policy "ClientPolicyNoIMURL", and the external access policy "FederationAndPicDefault".  It batches it into groups of 50, and will send each batch of 50 to the remote machine.
+This will find 500 users at a time who do not have a client policy. It will grant them the client policy "ClientPolicyNoIMURL" and the external access policy "FederationAndPicDefault". The results are batched into groups of 50 and each batch of 50 is then sent to the remote machine.
   
 ## See also
 
