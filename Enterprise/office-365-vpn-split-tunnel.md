@@ -1,5 +1,5 @@
 ---
-title: "Using VPN Split Tunnelling with Office 365"
+title: "Using VPN Split Tunneling with Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,7 +15,7 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - NOCSH
-description: "Guidance for how to securely configure VPN split tunnelling for Office 365."
+description: "Guidance for how to securely configure VPN split tunneling for Office 365."
 ---
 
-# Using VPN Split Tunnelling with Office 365
+# Using VPN Split Tunneling with Office 365
