@@ -110,7 +110,7 @@ To manage large numbers of users (1000 or more), you need to batch the commands 
 ```powershell
 Import-Module LyncOnlineConnector
 $sfbSession = New-CsOnlineSession
-$users = Get-CsOnlineUsers -Filter { ClientPolicy -eq $null } -ResultSize 500
+$users = Get-CsOnlineUser -Filter { ClientPolicy -eq $null } -ResultSize 500
 
 $batch = 50
 $filter = ''
@@ -123,7 +123,7 @@ $count = 0
     $count++
     if (($batch -eq 0) -or ($count -eq $total)) {
         $filterSB=[ScriptBlock]::Create($filter)
-        Invoke-Command -Session $s -ScriptBlock {param($f) Get-CSOnlineUser -filter $f | Grant-CsClientPolicy -PolicyName "ClientPolicyNoIMURL" -Passthru | Grant-CsExternalAccessPolicy -PolicyName "FederationAndPICDefault"} -ArgumentList $filterSB
+        Invoke-Command -Session $s -ScriptBlock {param($f) Get-CsOnlineUser-filter $f | Grant-CsClientPolicy -PolicyName "ClientPolicyNoIMURL" -Passthru | Grant-CsExternalAccessPolicy -PolicyName "FederationAndPICDefault"} -ArgumentList $filterSB
 
         # Reset
         $batch = 50
