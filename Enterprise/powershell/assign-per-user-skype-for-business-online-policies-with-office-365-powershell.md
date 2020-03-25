@@ -123,7 +123,7 @@ $count = 0
     $count++
     if (($batch -eq 0) -or ($count -eq $total)) {
         $filterSB=[ScriptBlock]::Create($filter)
-        Invoke-Command -Session $s -ScriptBlock {param($f) Get-CsOnlineUser-filter $f | Grant-CsClientPolicy -PolicyName "ClientPolicyNoIMURL" -Passthru | Grant-CsExternalAccessPolicy -PolicyName "FederationAndPICDefault"} -ArgumentList $filterSB
+        Invoke-Command -Session $s -ScriptBlock {param($f) Get-CsOnlineUser -filter $f | Grant-CsClientPolicy -PolicyName "ClientPolicyNoIMURL" -Passthru | Grant-CsExternalAccessPolicy -PolicyName "FederationAndPICDefault"} -ArgumentList $filterSB
 
         # Reset
         $batch = 50
