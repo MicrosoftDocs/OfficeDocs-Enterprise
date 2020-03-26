@@ -75,47 +75,45 @@ Microsoft's recommended strategy for optimizing remote worker's connectivity is 
 
 ### Common Types of VPN scenarios
 
-In the list below you'll see the most common VPN scenarios seen in enterprise environment.
-
-Most customers will traditionally operate model number 1 (forced tunnel), and this document aims to help you to quickly and securely transition to model number 2, which is achievable with relatively little effort, but which has enormous benefits.
-
-#### 1. VPN Forced Tunnel
-
-This is the most common starting scenario for most enterprise customers. A forced VPN is used which means 100% of traffic is directed into the corporate network regardless of the fact the endpoint resides within the corporate network or not. Any external (internet) bound traffic such as Office 365 or internet browsing is then hairpinned back out of the on premises security equipment such as proxies. In the current climate with nearly 100% of users working remotely, this model therefore puts extremely high load on the VPN infrastructure and is likely to significantly hinder performance of all corporate traffic and thus the enterprise to operate efficiently at a time of crisis.
-
-![Split Tunnel VPN configuration 1](media/vpn-split-tunneling/vpn-model-1.png)
-
-#### 2. VPN Forced Tunnel with a small number of trusted exceptions
-
-This model is significantly more efficient for an enterprise to operate under as it allows a small number of controlled and defined endpoints which are very high load and latency sensitive to bypass the VPN tunnel and go direct to the Office 365 service in this example. This significantly improves the performance for the offloaded services, and also decreases the load on the VPN infrastructure, thus allowing elements which still require it to operate with lower contention for resources.  It is this model which this article concentrates on assisting with the transition to as it allows for simple, defined actions to be taken very quickly with numerous positive outcomes.
-
-![Split Tunnel VPN configuration 2](media/vpn-split-tunneling/vpn-model-2.png)
-
-#### 3. VPN Forced Tunnel with broad exceptions
-
-This third model broadens the scope of model two as rather than just send a small group of defined endpoints direct, it instead sends all traffic to trusted service like Office 365, SalesForce etc direct. This further reduces the load on the corporate VPN infrastructure and improves the performance of the services defined. As this model is likely to take more time to assess the feasibility of and implement, it is likely a step which can be taken at a later date once model two is successfully in place.
-
-![Split Tunnel VPN configuration 3](media/vpn-split-tunneling/vpn-model-3.png)
-
-#### 4. VPN selective Tunnel
-
-This Model reverses the above model in that only traffic identified as having a corporate IP address is sent down the VPN tunnel and thus the internet path is the default route for anything else. This model requires an organization to be well on the path to [Zero Trust](https://www.microsoft.com/security/zero-trust?rtc=1) in able to safely implement this model.  However it should be noted that this model or some variation thereof will likely become the necessary default over time as more and more services move away from the corporate network and into the cloud. Microsoft uses this model internally and you can read more as to how, [in this article](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/).
-
-![Split Tunnel VPN configuration 4](media/vpn-split-tunneling/vpn-model-4.png)
-
-#### 5. No VPN
-
-A more advanced version of model number two, whereby any internal services are published through a modern security approach such as Azure AD Proxy, MCAS, Zscaler ZPA etc.
-
-![Split Tunnel VPN configuration 5](media/vpn-split-tunneling/vpn-model-5.png)
+In the list below you'll see the most common VPN scenarios seen in enterprise environments. Most customers traditionally operate model 1 (VPN Forced Tunnel). This section will help you to quickly and securely transition to **model 2**, which is achievable with relatively little effort, and which has enormous benefits to network performance and user experience.
 
 | **Model** | **Description** |
 | --- | --- |
-| 1. VPN Forced Tunnel | 100% of traffic goes into VPN tunnel, including on-premise, Internet and all O365/M365 |
-| 2. VPN Forced Tunnel with few exceptions | VPN tunnel is used by default (default route points to VPN), with few, most important exempt scenarios that are allowed to go direct |
-| 3. VPN Forced Tunnel with broad exceptions | VPN tunnel is used by default (default route points to VPN), with broad exceptions that are allowed to go direct (such as all Office 365, All Salesforce, All Zoom) |
-| 4. VPN Selective Tunnel | VPN tunnel is used only for corpnet based services. Default route (Internet and all Internet based services) goes direct. |
-| 5. No VPN | A variation of #2, where instead of legacy VPN, all corpnet services are published through modern security approaches (like Zscaler ZPA, AAD Proxy/MCAS, etc) |
+| [1. VPN Forced Tunnel](#1-vpn-forced-tunnel) | 100% of traffic goes into VPN tunnel, including on-premise, Internet and all O365/M365 |
+| [2. VPN Forced Tunnel with few exceptions](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions) | VPN tunnel is used by default (default route points to VPN), with few, most important exempt scenarios that are allowed to go direct |
+| [3. VPN Forced Tunnel with broad exceptions](#3-vpn-forced-tunnel-with-broad-exceptions) | VPN tunnel is used by default (default route points to VPN), with broad exceptions that are allowed to go direct (such as all Office 365, All Salesforce, All Zoom) |
+| [4. VPN Selective Tunnel](#4-vpn-selective-tunnel) | VPN tunnel is used only for corpnet based services. Default route (Internet and all Internet based services) goes direct. |
+| [5. No VPN](#5-no-vpn) | A variation of #2, where instead of legacy VPN, all corpnet services are published through modern security approaches (like Zscaler ZPA, AAD Proxy/MCAS, etc) |
+
+#### 1. VPN Forced Tunnel
+
+This is the most common starting scenario for most enterprise customers. A forced VPN is used which means 100% of traffic is directed into the corporate network regardless of the fact the endpoint resides within the corporate network or not. Any external (Internet) bound traffic such as Office 365 or Internet browsing is then hairpinned back out of the on premises security equipment such as proxies. In the current climate with nearly 100% of users working remotely, this model therefore puts extremely high load on the VPN infrastructure and is likely to significantly hinder performance of all corporate traffic and thus the enterprise to operate efficiently at a time of crisis.
+
+![VPN Forced Tunnel model 1](media/vpn-split-tunneling/vpn-model-1.png)
+
+#### 2. VPN Forced Tunnel with a small number of trusted exceptions
+
+This model is significantly more efficient for an enterprise to operate under as it allows a small number of controlled and defined endpoints which are very high load and latency sensitive to bypass the VPN tunnel and go direct to the Office 365 service in this example. This significantly improves the performance for the offloaded services, and also decreases the load on the VPN infrastructure, thus allowing elements which still require it to operate with lower contention for resources. It is this model which this article concentrates on assisting with the transition to as it allows for simple, defined actions to be taken very quickly with numerous positive outcomes.
+
+![Split Tunnel VPN model 2](media/vpn-split-tunneling/vpn-model-2.png)
+
+#### 3. VPN Forced Tunnel with broad exceptions
+
+The third model broadens the scope of model two as rather than just sending a small group of defined endpoints direct, it instead sends all traffic to trusted services such Office 365, SalesForce etc. direct. This further reduces the load on the corporate VPN infrastructure and improves the performance of the services defined. As this model is likely to take more time to assess the feasibility of and implement, it is likely a step which can be taken iteratively at a later date once model two is successfully in place.
+
+![Split Tunnel VPN model 3](media/vpn-split-tunneling/vpn-model-3.png)
+
+#### 4. VPN selective Tunnel
+
+This model reverses the third model in that only traffic identified as having a corporate IP address is sent down the VPN tunnel and thus the Internet path is the default route for everything else. This model requires an organization to be well on the path to [Zero Trust](https://www.microsoft.com/security/zero-trust?rtc=1) in able to safely implement this model. It should be noted that this model or some variation thereof will likely become the necessary default over time as more and more services move away from the corporate network and into the cloud. Microsoft uses this model internally; you can find more information [in this article](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/).
+
+![Split Tunnel VPN model 4](media/vpn-split-tunneling/vpn-model-4.png)
+
+#### 5. No VPN
+
+A more advanced version of model number two, whereby any internal services are published through a modern security approach or SDWAN solution such as Azure AD Proxy, MCAS, Zscaler ZPA etc.
+
+![Split Tunnel VPN model 5](media/vpn-split-tunneling/vpn-model-5.png)
 
 ## Recommended Strategy and Approach
 
@@ -128,23 +126,15 @@ A more advanced version of model number two, whereby any internal services are p
 
  Below you'll find the simple steps required to move to a VPN forced tunnel with key focused exceptions for Office 365.
 
-### 1. Identify the Endpoints we need to Optimize
+### 1. Identify the endpoints to optimize
 
-Microsoft clearly identifiesthe key endpoints we need to optimize and marks them as such. In [the URL/IP list for the service](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) these endpoints are marked as &quot;Optimize&quot;. There are just four URLS which need to be optimized and twenty IP subnets. In just this small group of endpoints we can account for around 80% of the volume of traffic to theOffice 365 service and it also includes the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths.
+Microsoft clearly identifies the key endpoints you need to optimize and marks them as such. In the [URL/IP list for Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges), these endpoints are marked as **Optimize**. There are just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths.
 
-URLs in this category have the following characteristics:
+#### Optimize URLs
 
-- Are Microsoft owned and managed endpoints hosted on Microsoft infrastructure.
-- Have IPs provided
-- Low rate of change to URLs/IPs compare to other two categories
-- Expected to remain low in number of URLs
-- Are High volume and/or latency sensitive
+The current Optimize URLs can be found in the table below. Under most circumstances, you should only need to use URL endpoints in a [browser PAC file](managing-office-365-endpoints.md#use-a-pac-file-for-direct-routing-of-vital-office-365-traffic) where the endpoints are configured to be sent direct, rather than to the proxy.
 
-Microsoft also commits that the URLs/IPs/Port requirements for these endpoints will not change until at least June 30 2020.
-
-The current Optimize marked URLs can be found in the table below, these should only be required in most circumstances for use in a PAC file where the endpoints are configured to be sent direct, rather than to the proxy.
-
-| Endpoint to Optimize | Port/s | Use |
+| Optimize URLs | Port/Protocol | Purpose |
 | --- | --- | --- |
 | <https://outlook.office365.com> | TCP 443 | This is one of the Core URLs Outlook uses to connect to its Exchange Online server and has high volume of bandwidth usage and connection count. Low network latency is required for online features including: Instant search, Other mailbox calendars, Free / busy lookup, manage rules and alerts, Exchange online archive, Emails departing the outbox. |
 | <https://outlook.office.com> | TCP 443 | This is use for Outlook Online web access to connect to its Exchange Online server and network latency. Connectivity is particularly required for large file upload and download with SharePoint Online. |
@@ -154,8 +144,11 @@ The current Optimize marked URLs can be found in the table below, these should o
 
 In the above examples, **tenant** should be replaced with your Office 365 tenant name. For example **contoso.onmicrosoft.com** would use _contoso.sharepoint.com_ and _constoso-my.sharepoint.com_.
 
+#### Optimize IP address ranges
+
 At the time of writing the IP ranges which these endpoints correspond to are as follows. It is **very strongly** advised you use a [script such as this](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category) example, the [Web Service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) or the [URL/IP page](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) to check for any updates when applying the configuration, and put a policy in place to do so on a regular basis.
 
+```
 104.146.128.0/17
 
 13.107.128.0/22
@@ -195,10 +188,11 @@ At the time of writing the IP ranges which these endpoints correspond to are as 
 52.96.0.0/14
 
 52.120.0.0/14
+```
 
 ### 2. Optimize access to these endpoints via the VPN
 
-Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic. Some examples of how to achieve this with some of the most common VPN solutions can be found later in this document.
+Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic. Some examples of how to achieve this with some of the most common VPN solutions can be found later in this document.
 
 //Insert example here (working on this)
 
@@ -220,29 +214,27 @@ A current requirement for this to work in 100% of scenarios is to also add the I
 
 This should not be necessary very shortly due to an update in the latest Teams client due for release w/c March 30 2020.
 
-Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and thus is marked as &quot;Allow&quot; in the URL/IP data and thus can safely be routed through the VPN client if desired.
+Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and thus is marked as **Allow** in the URL/IP data and thus can safely be routed through the VPN client if desired.
 
 **Security:**
 
-One common argument for avoiding split tunnels is that it is less secure to do so, i.e any traffic that does not go through the VPN tunnel will not benefit from whatever encryption scheme the VPN tunnel likely has, and therefore, is less secure.
+One common argument for avoiding split tunnels is that it is less secure to do so, i.e any traffic that does not go through the VPN tunnel will not benefit from whatever encryption scheme is applied to the VPN tunnel, and is therefore less secure.
 
-The main counter argument to this is that media traffic is already encrypted via SRTP. SRTP itself relies on a randomly generated session key, which is exchanged via the TLS secured signaling channel. This is covered in great detail within [this security guide](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/security-guide-for-skype-for-business-online,) but the primary section of interest is:
+The main counter-argument to this is that media traffic is already encrypted via _Secure Real-Time Transport Protocol (SRTP)_, a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP itself relies on a randomly generated session key, which is exchanged via the TLS secured signaling channel. This is covered in great detail within [this security guide](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/security-guide-for-skype-for-business-online), but the primary section of interest is:
 
 ### Media Encryption
 
-Media traffic is encrypted using Secure RTP (SRTP), a profile of Real-Time Transport Protocol (RTP) that provides confidentiality, authentication, and replay attack protection to RTP traffic. SRTP uses a session key generated by using a secure random number generator and exchanged using the signaling TLS channel. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP.
+Media traffic is encrypted using SRTP, which uses a session key generated by a secure random number generator and exchanged using the signaling TLS channel. In addition, media flowing in both directions between the Mediation Server and its internal next hop is also encrypted using SRTP.
 
-SfBO generates username/passwords for secure access to media relays over TURN. Media relays exchange the username/password over a TLS-secured SIP channel.
+Skype for Business Online generates username/passwords for secure access to media relays over _Traversal Using Relays around NAT (TURN)_. Media relays exchange the username/password over a TLS-secured SIP channel. It is worth noting that even though a VPN tunnel may be used to connect the client to the corporate network, the traffic still needs to flow in its SRTP form when it leaves the corporate network to reach the service.
 
-Also it is worth noting that even though a VPN tunnel may be used to connect the client to the corporate network, the traffic still needs to flow in it's SRTP form when it leaves the corporate network to reach the service.
-
-Information on how Teams mitigates common security concerns such as voice or STUN amplification attacks can be [found in this article](https://docs.microsoft.com/openspecs/office_protocols/ms-ice2/69525351-8c68-4864-b8a6-04bfbc87785c).
+Information on how Teams mitigates common security concerns such as voice or _Session Traversal Utilities for NAT (STUN)_ amplification attacks can be [found in this article](https://docs.microsoft.com/openspecs/office_protocols/ms-ice2/69525351-8c68-4864-b8a6-04bfbc87785c).
 
 ### Testing
 
 Once the policy is in place how do you test to confirm it is working as expected?
 
-There are multiple ways of testing the path is correctly set to use the local internet connection such as:
+There are multiple ways of testing the path is correctly set to use the local Internet connection such as:
 
 - A simple tracert to an endpoint within scope of the split tunnel should show the path taken, for example:
 
@@ -308,7 +300,7 @@ For the Exchange endpoints listed above, [Exchange Online Protection](https://do
 
 A. Priority should be given to the Optimize marked endpoints as these will give maximum benefit for a low level of work. However, if you wish, the Allow marked endpoints are required for the service to work and have IPs provided for the endpoints which can be used if required.
 
-There are also various vendors who offer cloud based proxy/security solutions called secure web gateways which provide central security, control and corporate policy application for general web browsing. These solutions can work well in a cloud first world, if highly available, performant, and provisioned close to your users by allowing secure internet access to be delivered from a cloud based location close to the user. This removes the need for a hairpin through the VPN/corporate network for general browsing traffic, whilst still allowing central security control.
+There are also various vendors who offer cloud based proxy/security solutions called secure web gateways which provide central security, control and corporate policy application for general web browsing. These solutions can work well in a cloud first world, if highly available, performant, and provisioned close to your users by allowing secure Internet access to be delivered from a cloud based location close to the user. This removes the need for a hairpin through the VPN/corporate network for general browsing traffic, whilst still allowing central security control.
 
 Even with these solutions in place however, Microsoft still strongly recommends the Optimize marked Office 365 traffic is sent direct to the service.
 
@@ -320,6 +312,6 @@ A. Port 80 is only used for things like redirect to a port 443 session, no custo
 
 ### Does this advice apply to users in China using a worldwide instance of Office 365?
 
-A. No it does not. The one caveat to the above advice is users in the PRC who are connecting to a worldwide instance of Office 365. Due to the common occurrence of cross border network congestion in the region, direct internet egress performance can be variable. Most customers in the region operate using a VPN to bring the traffic into the corporate network and utilize their authorized MPLS circuit or similar to egress outside the country via an optimized path. This is outlined further in this article [https://docs.microsoft.com/office365/enterprise/office-365-networking-china](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+A. No it does not. The one caveat to the above advice is users in the PRC who are connecting to a worldwide instance of Office 365. Due to the common occurrence of cross border network congestion in the region, direct Internet egress performance can be variable. Most customers in the region operate using a VPN to bring the traffic into the corporate network and utilize their authorized MPLS circuit or similar to egress outside the country via an optimized path. This is outlined further in this article [https://docs.microsoft.com/office365/enterprise/office-365-networking-china](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
 
 ## Related topics
