@@ -170,7 +170,7 @@ Skype for Business Online generates username/passwords for secure access to medi
 
 Information on how Teams mitigates common security concerns such as voice or _Session Traversal Utilities for NAT (STUN)_ amplification attacks can be [found in this article](https://docs.microsoft.com/openspecs/office_protocols/ms-ice2/69525351-8c68-4864-b8a6-04bfbc87785c).
 
-### Testing
+## Testing
 
 Once the policy is in place, you should confirm it is working as expected. There are multiple ways of testing the path is correctly set to use the local Internet connection:
 
@@ -184,7 +184,7 @@ Once the policy is in place, you should confirm it is working as expected. There
 
   You should then see a path via the local ISP to this endpoint which should resolve to an IP in the Teams ranges we have configured for split tunnelling.
 
-- Take a network capture using a tool such as Wireshark. Filter on UDP during a call and you should see traffic flowing to an IP in the Teams Optimize range. If the VPN tunnel is being used for this traffic, then the media traffic will not be visible in the trace.
+- Take a network capture using a tool such as Wireshark. Filter on UDP during a call and you should see traffic flowing to an IP in the Teams **Optimize** range. If the VPN tunnel is being used for this traffic, then the media traffic will not be visible in the trace.
 
 ### Additional support logs
 
