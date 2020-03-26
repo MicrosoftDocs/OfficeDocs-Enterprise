@@ -86,3 +86,11 @@ A more advanced version of model number two, whereby any internal services are p
 [Using VPN Split Tunneling with Office 365](office-365-vpn-split-tunnel.md)
 
 [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+[Office 365 performance optimization for China users](office-365-networking-china.md)
+
+[Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
+
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+
+[Office 365 network and performance tuning](network-planning-and-performance.md)
