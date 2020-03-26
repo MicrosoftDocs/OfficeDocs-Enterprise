@@ -15,7 +15,7 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - NOCSH
-description: "Guidance for how to securely configure VPN split tunneling for Office 365."
+description: "Guidance for using VPN split tunneling with Office 365 to optimize Office 365 connectivity for remote users."
 ---
 
 # Using VPN split tunneling with Office 365 to optimize Office 365 connectivity for remote users
@@ -32,14 +32,14 @@ The recent COVID-19 crisis has accelerated this problem to require immediate sol
 
 For the Office 365 service, Microsoft has designed the connectivity requirements for the service with this problem squarely in mind, where a focused, tightly controlled and relatively static set of service endpoints can be Optimized very simply and quickly so as to deliver high performance for users accessing the service, and removing the burden on the VPN infrastructure so it can be used by traffic which still requires it.
 
-Office 365 categorizes the required endpoints for the service into three categories &#39;Optimize&#39;, &#39;Allow&#39; &amp; &#39;Default&#39;. The Optimize endpoints are our focus here and have the following characteristics.
+Office 365 categorizes the required endpoints for the service into three categories: **Optimize**, **Allow** &amp; **Default**. The Optimize endpoints are our focus here and have the following characteristics:
 
 - Are Microsoft owned and managed endpoints, hosted on Microsoft infrastructure.
 - Have IPs provided
 - Low rate of change and are expected to remain small in number(currently 20 IP subnets)
-- Are High volume and/or latency sensitive
+- Are high volume and/or latency sensitive
 - Are able to have required security elements provided in the service rather than inline on the network
-- Account for around 70-80% of the volume of traffic seen to the Office 365 service
+- Account for around 70-80% of the volume of traffic to the Office 365 service
 
 Microsoft can also commit that the Optimize endpoint set for the service will not change until at least June 30 2020 allowing customers to focus on other challenges rather than maintaining the configuration once initially implemented.
 
