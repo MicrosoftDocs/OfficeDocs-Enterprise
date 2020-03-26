@@ -1,7 +1,7 @@
 ---
 title: "Resources to help you upgrade from Office 2007 servers and clients"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/01/2018
 audience: ITPro
