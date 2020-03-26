@@ -136,17 +136,17 @@ The current Optimize URLs can be found in the table below. Under most circumstan
 
 | Optimize URLs | Port/Protocol | Purpose |
 | --- | --- | --- |
-| <https://outlook.office365.com> | TCP 443 | This is one of the Core URLs Outlook uses to connect to its Exchange Online server and has high volume of bandwidth usage and connection count. Low network latency is required for online features including: Instant search, Other mailbox calendars, Free / busy lookup, manage rules and alerts, Exchange online archive, Emails departing the outbox. |
-| <https://outlook.office.com> | TCP 443 | This is use for Outlook Online web access to connect to its Exchange Online server and network latency. Connectivity is particularly required for large file upload and download with SharePoint Online. |
-| <https://\&lt;tenant\&gt;.sharepoint.com> | TCP 443 | This is the primary URL for SharePoint Online and has high volume of bandwidth usage. |
-| <https://\&lt;tenant\&gt;-my.sharepoint.com> | TCP 443 | This is the primary URL for OneDrive for Business and has high volume of bandwidth and possibly high connection count from the OneDrive for Business Sync tool. |
-| Teams Media IPs (no URL) | UDP 3478, 3479, 3480, and 3481 | Relay Discovery allocation and real time traffic (3478), Audio (3479), Video (3480), and Video Screen Sharing (3481). These are the endpoints used for Skype for Business and Microsoft Teams Media traffic (Calls, meetings etc). Most endpoints are provided when the Microsoft Teams client establishes a call (and are contained within the required IPs listed for the service).UDP is required for optimal media quality.   |
+| <https://outlook.office365.com> | TCP 443 | This is one of the primary URLs Outlook uses to connect to its Exchange Online server and has a high volume of bandwidth usage and connection count. Low network latency is required for online features including: instant search, other mailbox calendars, free / busy lookup, manage rules and alerts, Exchange online archive, emails departing the outbox. |
+| <https://outlook.office.com> | TCP 443 | This URL is used for Outlook Online Web Access to connect to Exchange Online server, and is sensitive to network latency. Connectivity is particularly required for large file upload and download with SharePoint Online. |
+| <https://\&lt;tenant\&gt;.sharepoint.com> | TCP 443 | This is the primary URL for SharePoint Online and has high bandwidth usage. |
+| <https://\&lt;tenant\&gt;-my.sharepoint.com> | TCP 443 | This is the primary URL for OneDrive for Business and has high bandwidth usage and possibly high connection count from the OneDrive for Business Sync tool. |
+| Teams Media IPs (no URL) | UDP 3478, 3479, 3480, and 3481 | Relay Discovery allocation and real time traffic (3478), Audio (3479), Video (3480), and Video Screen Sharing (3481). These are the endpoints used for Skype for Business and Microsoft Teams Media traffic (calls, meetings etc). Most endpoints are provided when the Microsoft Teams client establishes a call (and are contained within the required IPs listed for the service). Use of the UDP protocol is required for optimal media quality.   |
 
-In the above examples, **tenant** should be replaced with your Office 365 tenant name. For example **contoso.onmicrosoft.com** would use _contoso.sharepoint.com_ and _constoso-my.sharepoint.com_.
+In the above examples, **tenant** should be replaced with your Office 365 tenant name. For example, **contoso.onmicrosoft.com** would use _contoso.sharepoint.com_ and _constoso-my.sharepoint.com_.
 
 #### Optimize IP address ranges
 
-At the time of writing the IP ranges which these endpoints correspond to are as follows. It is **very strongly** advised you use a [script such as this](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category) example, the [Web Service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) or the [URL/IP page](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) to check for any updates when applying the configuration, and put a policy in place to do so on a regular basis.
+At the time of writing the IP ranges which these endpoints correspond to are as follows. It is **very strongly** advised you use a [script such as this](https://github.com/microsoft/Office365NetworkTools/tree/master/Scripts/Display%20URL-IPs-Ports%20per%20Category) example, the [Office 365 IP and URL web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) or the [URL/IP page](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) to check for any updates when applying the configuration, and put a policy in place to do so on a regular basis.
 
 ```
 104.146.128.0/17
@@ -196,27 +196,25 @@ Now that we have identified these critical endpoints, we need to divert them awa
 
 //Insert example here (working on this)
 
-The VPN client should therefore be configured so that traffic to the above, Optimize marked IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as AFD as one example,](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity points as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world. There is also [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/) which is very likely within  a small number of milliseconds of your users direct egress, and is designed to take your traffic securely to Microsoft resources wherever they may be in the world, as efficiently as possible.
+The VPN client should be configured so that traffic to the **Optimize** IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as the Azure Front Door](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity endpoints as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world. There is also [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/) which is very likely within a small number of milliseconds of your users' direct egress, and is designed to take your traffic securely to Microsoft resources wherever they may be in the world as efficiently as possible.
 
-The solution would look something like that below.
+The solution would look something like the diagram below.
 
 ![Split Tunnel VPN configuration detail](media/vpn-split-tunneling/vpn-split-detail.png)
 
 ## Configuring and securing Teams media traffic
 
-Some administrators prefer some more detailed information on how call flows operate in Teams and how we secure connectivity.
+Some administrators may require more detailed information on how call flows operate in Teams using a split tunneling model and how connections are secured.
 
-**Configuration:**
+### Configuration
 
-For both 1:1 calls and also meetings, as long as the required Optimize marked IP subnets for Teams media are correctly in place in the route table, when Teams calls GetBestRoute to determine which interface it should use for a particular destination, the local interface will be returned for Microsoft destinations in the Microsoft IP blocks listed above.
+For both calls and meetings, as long as the required Optimize IP subnets for Teams media are correctly in place in the route table, when Teams calls the _GetBestRoute_ method to determine which interface it should use for a particular destination, the local interface will be returned for Microsoft destinations in the Microsoft IP blocks listed above.
 
-A current requirement for this to work in 100% of scenarios is to also add the IP range 13.107.60.1/32
+A current requirement for this to work in 100% of scenarios is to also add the IP range **13.107.60.1/32**. This should not be necessary very shortly due to an update in the latest Teams client due for release w/c **March 30 2020**.
 
-This should not be necessary very shortly due to an update in the latest Teams client due for release w/c March 30 2020.
+Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and is marked as **Allow** in the URL/IP data and thus can safely be routed through the VPN client if desired.
 
-Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and thus is marked as **Allow** in the URL/IP data and thus can safely be routed through the VPN client if desired.
-
-**Security:**
+### Security
 
 One common argument for avoiding split tunnels is that it is less secure to do so, i.e any traffic that does not go through the VPN tunnel will not benefit from whatever encryption scheme is applied to the VPN tunnel, and is therefore less secure.
 
