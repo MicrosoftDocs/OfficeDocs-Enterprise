@@ -21,7 +21,7 @@ description: "Guidance for using VPN split tunneling with Office 365 to optimize
 # Optimize Office 365 connectivity for remote users using VPN split tunneling
 
 >[!NOTE]
->This topic is part of a set of topics that address VPN optimization for remote users.
+>This topic is part of a set of topics that address Office 365 optimization for remote users.
 >- For VPN split tunnel implementation guidance, see [Implementing VPN split tunneling for Office 365](office-365-vpn-implement-split-tunnel.md).
 >- For information about optimizing Office 365 worldwide tenant performance for users in China, see [Office 365 performance optimization for China users](office-365-networking-china.md).
 
