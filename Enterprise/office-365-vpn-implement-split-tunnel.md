@@ -33,7 +33,7 @@ The use of forced tunneled VPNs for connecting to distributed and performance se
 
 ![Split Tunnel VPN configuration](media/vpn-split-tunneling/vpn-ent-challenge.png)
 
-This problem has been growing for a number of years, with many customers reporting a significant shift of network traffic patterns. Traffic which used to stay on premises now connects to external cloud endpoints.
+This problem has been growing for a number of years, with many customers reporting a significant shift of network traffic patterns. Traffic which used to stay on premises now connects to external cloud endpoints. Numerous Microsoft customers report that previously, around 80% of their network traffic was to some internal source (represented by the dotted line in the above diagram). In 2020 that number is now around 20% or lower as they have shifted major workloads to the cloud, these trends are not uncommon with other enterprises. Over time, as the cloud journey progresses, the above model becomes increasingly cumbersome and unsustainable, preventing an organization from being agile as they move into a cloud first world.
 
 The worldwide COVID-19 pandemic has escalated this problem to require immediate remediation. The COVID-19 situation and the need to ensure employee safety has generated unprecedented demands on enterprise IT to support work-from-home productivity at a massive scale. Microsoft Office 365 is well positioned to help customers fulfil that demand, but high concurrency of users working from home generates a large volume of Office 365 traffic which, if routed through forced tunnel VPN and on-premises network perimeters, causes rapid saturation and runs VPN infrastructure out of capacity. In this new reality, using VPN to access Office 365 is no longer just a performance impediment, but a hard wall which not only impacts Office 365 but critical business operations which still have to rely on the VPN to operate.
 
@@ -236,17 +236,17 @@ For the Exchange endpoints listed above, [Exchange Online Protection](https://do
 
 ### Can I send more than just the Optimize traffic direct?
 
-Priority should be given to the Optimize marked endpoints as these will give maximum benefit for a low level of work. However, if you wish, the Allow marked endpoints are required for the service to work and have IPs provided for the endpoints which can be used if required.
+Priority should be given to the **Optimize** marked endpoints as these will give maximum benefit for a low level of work. However, if you wish, the Allow marked endpoints are required for the service to work and have IPs provided for the endpoints which can be used if required.
 
 There are also various vendors who offer cloud based proxy/security solutions called secure web gateways which provide central security, control and corporate policy application for general web browsing. These solutions can work well in a cloud first world, if highly available, performant, and provisioned close to your users by allowing secure Internet access to be delivered from a cloud based location close to the user. This removes the need for a hairpin through the VPN/corporate network for general browsing traffic, whilst still allowing central security control.
 
-Even with these solutions in place however, Microsoft still strongly recommends the Optimize marked Office 365 traffic is sent direct to the service.
+Even with these solutions in place however, Microsoft still strongly recommends that Optimize marked Office 365 traffic is sent direct to the service.
 
-For allowing direct access to an Azure Virtual Network, the Azure team have published a guide on how to accomplish this [here](https://docs.microsoft.com/azure/vpn-gateway/work-remotely-support).
+For guidance on allowing direct access to an Azure Virtual Network, see the article [Remote work using Azure VPN Gateway Point-to-site](https://docs.microsoft.com/azure/vpn-gateway/work-remotely-support).
 
 ### Why is port 80 required? Is traffic sent in the clear?
 
-Port 80 is only used for things like redirect to a port 443 session, no customer data is sent or is accessible over port 80. [This article](https://docs.microsoft.com/microsoft-365/compliance/encryption?view=o365-worldwide) outlines encryption for data in transit, and at rest for Office 365 and [this article](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic) outlines how we use SRTP to protect Teams media traffic.
+Port 80 is only used for things like redirect to a port 443 session, no customer data is sent or is accessible over port 80. [This article](https://docs.microsoft.com/microsoft-365/compliance/encryption?view=o365-worldwide) outlines encryption for data in transit and at rest for Office 365, and [this article](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows#types-of-traffic) outlines how we use SRTP to protect Teams media traffic.
 
 ### Does this advice apply to users in China using a worldwide instance of Office 365?
 
