@@ -82,6 +82,8 @@
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
 ### [Office 365 performance optimization for China users](office-365-networking-china.md)
+### [Using VPN Split Tunneling with Office 365](office-365-vpn-split-tunnel.md)
+#### [The VPN problem for remote workers in a cloud-first world](office-365-vpn-models.md)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
