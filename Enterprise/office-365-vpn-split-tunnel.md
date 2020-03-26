@@ -175,7 +175,7 @@ Information on how Teams mitigates common security concerns such as voice or _Se
 
 Once the policy is in place, you should confirm it is working as expected. There are multiple ways of testing the path is correctly set to use the local Internet connection:
 
-- Run the tool at [https://connectivity.office.com/](https://connectivity.office.com/) which will run connectivity tests for you including trace routes as above. We're also adding in VPN tests into this tooling which should also provide some additional insight.
+- Run the [Office 365 Network Onboarding tool](https://aka.ms/netonboard) which will run connectivity tests for you including trace routes as above. We're also adding in VPN tests into this tooling which should also provide some additional insight.
 
 - A simple tracert to an endpoint within scope of the split tunnel should show the path taken, for example:
 
@@ -251,10 +251,18 @@ Port 80 is only used for things like redirect to a port 443 session, no customer
 
 ### Does this advice apply to users in China using a worldwide instance of Office 365?
 
-**No**. The one caveat to the above advice is users in the PRC who are connecting to a worldwide instance of Office 365. Due to the common occurrence of cross border network congestion in the region, direct Internet egress performance can be variable. Most customers in the region operate using a VPN to bring the traffic into the corporate network and utilize their authorized MPLS circuit or similar to egress outside the country via an optimized path. This is outlined further in this article [https://docs.microsoft.com/office365/enterprise/office-365-networking-china](https://docs.microsoft.com/office365/enterprise/office-365-networking-china)
+**No**. The one caveat to the above advice is users in the PRC who are connecting to a worldwide instance of Office 365. Due to the common occurrence of cross border network congestion in the region, direct Internet egress performance can be variable. Most customers in the region operate using a VPN to bring the traffic into the corporate network and utilize their authorized MPLS circuit or similar to egress outside the country via an optimized path. This is outlined further in the article [Office 365 performance optimization for China users](office-365-networking-china.md).
 
 ## Related topics
 
+[The VPN problem for remote workers in a cloud-first world](office-365-vpn-models.md)
+
 [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
-[The VPN problem for remote workers in a cloud-first world](office-365-vpn-models.md)
+[Office 365 performance optimization for China users](office-365-networking-china.md)
+
+[Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
+
+[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+
+[Office 365 Network Onboarding tool](https://aka.ms/netonboard)

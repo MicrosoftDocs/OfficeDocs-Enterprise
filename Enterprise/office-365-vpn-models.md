@@ -20,6 +20,9 @@ description: "The VPN problem for remote workers in a cloud-first world"
 
 # The VPN problem for remote workers in a cloud-first world
 
+>[!NOTE]
+>This topic is part of a set of topics that address VPN optimization for remote users. To read the main topic, see [Using VPN Split Tunneling with Office 365](office-365-vpn-split-tunnel.md).
+
 For many years enterprises have been using VPNs to support remote experiences for their users. Whilst core workloads remained on-premises, a VPN from the remote client routed through a datacenter on the corporate network was the primary method for remote users to access corporate resources. To safeguard these connections, enterprises build layers of network security solutions along the VPN paths. This was done to protect internal infrastructure as well as to safeguard mobile browsing of external web sites by rerouting traffic into the VPN and then out through the on-premises Internet perimeter. VPNs, network perimeters and associated security infrastructure were often purpose built and scaled for a defined volume of traffic, typically with the majority of connectivity being initiated from within the corporate network, and most of it staying withing the internal network boundaries.
 
 For quite some time, VPN models where all connections from the remote user device are routed back into the on-premises network (known as **forced tunneling**) were largely sustainable as long as the concurrent scale of remote users was modest and the traffic volumes traversing VPN were low.  Some customers continued to use VPN force tunneling as the status quo even after their applications moved from inside the corporate perimeter to public SaaS clouds, Office 365 being a prime example.
@@ -77,3 +80,9 @@ This model reverses the third model in that only traffic identified as having a 
 A more advanced version of model number two, whereby any internal services are published through a modern security approach or SDWAN solution such as Azure AD Proxy, MCAS, Zscaler ZPA etc.
 
 ![Split Tunnel VPN model 5](media/vpn-split-tunneling/vpn-model-5.png)
+
+## Related topics
+
+[Using VPN Split Tunneling with Office 365](office-365-vpn-split-tunnel.md)
+
+[Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
