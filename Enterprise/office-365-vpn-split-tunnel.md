@@ -3,7 +3,7 @@ title: "Overview: VPN split tunneling with Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/26/2020
+ms.date: 3/27/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration

@@ -3,7 +3,7 @@ title: "Implementing VPN split tunneling for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/26/2020
+ms.date: 3/27/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -41,7 +41,7 @@ Microsoft has been working closely with customers and the wider industry for man
 
 Microsoft's recommended strategy for optimizing remote worker's connectivity is focused on rapidly alleviating the problems with the traditional approach and also providing high performance with a few simple steps. These steps adjust the legacy VPN approach for a small number of defined endpoints which bypass bottlenecked VPN servers. An equivalent or even superior security model can be applied at different layers to remove the need to secure all traffic at the egress of the corporate network. In most cases this can be effectively achieved within hours and is then scalable to other workloads as requirements demand and time allows.
 
-## Common Types of VPN scenarios
+## Common VPN scenarios
 
 In the list below you'll see the most common VPN scenarios seen in enterprise environments. Most customers traditionally operate model 1 (VPN Forced Tunnel). This section will help you to quickly and securely transition to **model 2**, which is achievable with relatively little effort, and which has enormous benefits to network performance and user experience.
 
