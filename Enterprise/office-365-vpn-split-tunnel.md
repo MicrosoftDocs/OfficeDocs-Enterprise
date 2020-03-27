@@ -46,7 +46,8 @@ The essence of this approach is to provide a simple process by which enterprises
 
   The recommended configuration allows customers to implement split tunnel VPN without exposing users or infrastructure to additional security risks. Network traffic routed directly to Office 365 endpoints in the Optimize category is encrypted, initiated by clients using secure application stacks and scoped to dedicated Office 365 services which are hardened at both application and network level. For more information, see [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/).
 
-It is important to note that FQDN or App-ID based split tunnel configurations may be possible on certain VPN client platforms, but may not fully cover key Office 365 scenarios and conflict with IP based rules.  For that reason Microsoft does not recommend using FQDNs for Office 365 split tunnel configuration.
+>[!TIP]
+>FQDN or AppID-based split tunnel configurations may be possible on certain VPN client platforms, but may not fully cover key Office 365 scenarios and may conflict with IP based VPN routing rules. For this reason, Microsoft does not recommend using FQDNs for Office 365 split tunnel configurations.
 
 For full implementation guidance, see [Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md).
 
