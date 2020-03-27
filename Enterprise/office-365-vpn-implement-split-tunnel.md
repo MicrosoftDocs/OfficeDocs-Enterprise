@@ -158,6 +158,7 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 
 Where _$intIndex_ is the index of the interface connected to the internet (find by running **get-netadapter** in PowerShell; look for the value of _ifIndex_) and _$gateway_ is the default gateway of that interface (find by running **ipconfig** in a command prompt or **(Get-NetIPConfiguration | Foreach IPv4DefaultGateway).NextHop** in PowerShell).
 
+<!--- remmed until verified
 #### Example script to add Teams Media subnets to the route table
 
 ```powershell
@@ -168,6 +169,7 @@ $gateway = (Get-NetIPConfiguration | Foreach IPv4DefaultGateway).NextHop
 $destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18"
 foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
+-->
 
 The VPN client should be configured so that traffic to the **Optimize** IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as the Azure Front Door](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity endpoints as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world. There is also [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/) which is very likely within a small number of milliseconds of your users' direct egress, and is designed to take your traffic securely to Microsoft resources wherever they may be in the world as efficiently as possible.
 
