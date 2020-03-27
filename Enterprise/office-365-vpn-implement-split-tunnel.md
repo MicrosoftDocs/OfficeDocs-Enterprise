@@ -35,7 +35,7 @@ The use of forced tunneled VPNs for connecting to distributed and performance se
 
 This problem has been growing for a number of years, with many customers reporting a significant shift of network traffic patterns. Traffic which used to stay on premises now connects to external cloud endpoints. Numerous Microsoft customers report that previously, around 80% of their network traffic was to some internal source (represented by the dotted line in the above diagram). In 2020 that number is now around 20% or lower as they have shifted major workloads to the cloud, these trends are not uncommon with other enterprises. Over time, as the cloud journey progresses, the above model becomes increasingly cumbersome and unsustainable, preventing an organization from being agile as they move into a cloud first world.
 
-The worldwide COVID-19 pandemic has escalated this problem to require immediate remediation. The COVID-19 situation and the need to ensure employee safety has generated unprecedented demands on enterprise IT to support work-from-home productivity at a massive scale. Microsoft Office 365 is well positioned to help customers fulfil that demand, but high concurrency of users working from home generates a large volume of Office 365 traffic which, if routed through forced tunnel VPN and on-premises network perimeters, causes rapid saturation and runs VPN infrastructure out of capacity. In this new reality, using VPN to access Office 365 is no longer just a performance impediment, but a hard wall which not only impacts Office 365 but critical business operations which still have to rely on the VPN to operate.
+The worldwide COVID-19 pandemic has escalated this problem to require immediate remediation. The need to ensure employee safety has generated unprecedented demands on enterprise IT to support work-from-home productivity at a massive scale. Microsoft Office 365 is well positioned to help customers fulfil that demand, but high concurrency of users working from home generates a large volume of Office 365 traffic which, if routed through forced tunnel VPN and on-premises network perimeters, causes rapid saturation and runs VPN infrastructure out of capacity. In this new reality, using VPN to access Office 365 is no longer just a performance impediment, but a hard wall which not only impacts Office 365 but critical business operations which still have to rely on the VPN to operate.
 
 Microsoft has been working closely with customers and the wider industry for many years to provide effective, modern solutions to these problems from within our own services, and to align with industry best practice. [Connectivity principles](https://aka.ms/pnc) for the Office 365 service have been designed to work efficiently for remote users whilst still allowing an organization to maintain security and control over their connectivity. These solutions can also be implemented very quickly with limited work yet achieve a significant positive impact on the problems outlined above.
 
@@ -89,7 +89,18 @@ Below you'll find the simple steps required to move to a VPN forced tunnel with 
 
 ### 1. Identify the endpoints to optimize
 
-Microsoft clearly identifies the key endpoints you need to optimize and marks them as such. In the [URL/IP list for Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges), these endpoints are marked as **Optimize**. There are just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths.
+Microsoft clearly identifies the key endpoints you need to optimize and marks them as such. In the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) topic, these endpoints are marked as **Optimize**. There are just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths and VPN infrastructure.
+
+URLs in this category have the following characteristics:
+
+- Are Microsoft owned and managed endpoints, hosted on Microsoft infrastructure
+- Have IPs provided
+- Low rate of change and are expected to remain small in number (currently 20 IP subnets)
+- Are High volume and/or latency sensitive
+- Are able to have required security elements provided in the service rather than inline on the network
+- Account for around 70-80% of the volume of traffic seen to the Office 365 service
+
+Microsoft has committed that the URLs/IPs/Port requirements for these endpoints will not change until at least **June 30th 2020**.
 
 #### Optimize URLs
 
