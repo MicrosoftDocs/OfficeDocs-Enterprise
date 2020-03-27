@@ -239,7 +239,7 @@ If you need further data to troubleshoot, or are requesting assistance from Micr
 
 This section provides links to detailed guides for implementing split tunnelling for Office 365 traffic from the most common partners in this space. We'll add additional guides as they become available.
 
-[Optimize Anyconnect Split Tunnel for Office365](https://www.cisco.com/c/en/us/support/docs/security/anyconnect-secure-mobility-client/215343-optimize-anyconnect-split-tunnel-for-off.html)
+- **Cisco Anyconnect**: [Optimize Anyconnect Split Tunnel for Office365](https://www.cisco.com/c/en/us/support/docs/security/anyconnect-secure-mobility-client/215343-optimize-anyconnect-split-tunnel-for-off.html)
 
 ## FAQ
 
