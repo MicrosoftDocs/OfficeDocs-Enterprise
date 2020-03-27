@@ -13,6 +13,7 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- remotework
 f1.keywords:
 - NOCSH
 description: "How to implement VPN split tunnelling for Office 365"
@@ -249,7 +250,7 @@ Once the policy is in place, you should confirm it is working as expected. There
 
 If you need further data to troubleshoot, or are requesting assistance from Microsoft support, obtaining the following information should allow you to expedite finding a solution. Microsoft support's **TSS Windows CMD based universal TroubleShooting Script toolset** can help you to collect the relevant logs in a simple manner. The tool and instructions on use can be found at <https://aka.ms/TssTools.>
 
-## HOWTO guides for common VPN solutions
+## HOWTO guides for common VPN platforms
 
 This section provides links to detailed guides for implementing split tunnelling for Office 365 traffic from the most common partners in this space. We'll add additional guides as they become available.
 
