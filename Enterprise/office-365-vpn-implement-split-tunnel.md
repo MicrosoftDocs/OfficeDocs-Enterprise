@@ -139,14 +139,15 @@ Now that we have identified these critical endpoints, we need to divert them awa
 If you wish to do this manually for testing you would perform something like the following in PowerShell, which would add a route for the Teams Media IP subnets into the route table.
 
 ```powershell
-$intIndex = ""
+$intIndex = "" # index of the interface connected to the internet
+$gateway = "" # default gateway of that interface
 $destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18"
-foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop 192.168.1.1}
+foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
-Where _interfaceindex_ is the index of the interface connected to the internet (find by running **get-netadapter** in PowerShell) and _NextHop_ is the default gateway of that interface (find by running **ipconfig** in a command prompt or _(Get-NetIPConfiguration | Foreach IPv4DefaultGateway).NextHop_ in PowerShell).
+Where _$intIndex_ is the index of the interface connected to the internet (find by running **get-netadapter** in PowerShell; look for the value of _ifIndex_) and _$gateway_ is the default gateway of that interface (find by running **ipconfig** in a command prompt or **(Get-NetIPConfiguration | Foreach IPv4DefaultGateway).NextHop** in PowerShell).
 
-#### Example script to add Teams Media routes to the local computer
+#### Example script to add Teams Media subnets to the route table
 
 ```powershell
 $adapter = get-netadapter | ? {$_.Status -eq "Up"}
