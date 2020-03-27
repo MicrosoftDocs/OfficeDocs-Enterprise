@@ -136,13 +136,34 @@ At the time of writing the IP ranges which these endpoints correspond to are as 
 
 Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic. Some examples of how to achieve this with some of the most common VPN solutions can be found later in this document.
 
-//Insert example here (working on this)
+If you wish to do this manually for testing you would perform something like the following in PowerShell, which would add a route for the Teams Media IP subnets into the route table.
+
+```powershell
+$intIndex = ""
+$destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18"
+foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop 192.168.1.1}
+```
+
+Where _interfaceindex_ is the index of the interface connected to the internet (find by running **get-netadapter** in PowerShell) and _NextHop_ is the default gateway of that interface (find by running **ipconfig** in a command prompt or _(Get-NetIPConfiguration | Foreach IPv4DefaultGateway).NextHop_ in PowerShell).
+
+#### Example script to add Teams Media routes to the local computer
+
+```powershell
+$adapter = get-netadapter | ? {$_.Status -eq "Up"}
+$adapterIndex = $adapter.ifIndex
+$gateway = (Get-NetIPConfiguration | Foreach IPv4DefaultGateway).NextHop
+
+$destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18"
+foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
+```
 
 The VPN client should be configured so that traffic to the **Optimize** IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as the Azure Front Door](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity endpoints as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world. There is also [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/) which is very likely within a small number of milliseconds of your users' direct egress, and is designed to take your traffic securely to Microsoft resources wherever they may be in the world as efficiently as possible.
 
 The solution would look something like the diagram below.
 
 ![Split Tunnel VPN configuration detail](media/vpn-split-tunneling/vpn-split-detail.png)
+
+_Figure B: A client's VPN connection with split tunneling enabled_
 
 ## Configuring and securing Teams media traffic
 
