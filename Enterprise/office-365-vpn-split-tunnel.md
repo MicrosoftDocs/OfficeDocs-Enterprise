@@ -27,7 +27,7 @@ description: "Guidance for using VPN split tunneling with Office 365 to optimize
 
 Traditional corporate networks are often designed to work securely for a pre-cloud world where most important data, services, applications are hosted on premises and are directly connected to the internal corporate network, as are the majority of users. Thus network infrastructure is built around these elements in that branch offices are connected to the head office via _Multiprotocol Label Switching (MPLS)_ networks, and remote users must connect to the corporate network over a VPN to access both on premises endpoints and the Internet. In this model, all traffic from remote users traverses the corporate network and is routed to the cloud service through a common egress point.
 
-![Forced VPN configuration](media/vpn-split-tunneling/vpn-common-backhaul.png)
+![Forced VPN configuration](media/vpn-split-tunneling/vpn-model-1.png)
 
 _Figure 1: A common VPN solution for remote users where all traffic is forced back into the corporate network regardless of destination_
 
