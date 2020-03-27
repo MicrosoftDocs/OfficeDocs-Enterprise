@@ -171,9 +171,9 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 ```
 -->
 
-The VPN client should be configured so that traffic to the **Optimize** IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as the Azure Front Door](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity endpoints as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world. There is also [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/) which is very likely within a small number of milliseconds of your users' direct egress, and is designed to take your traffic securely to Microsoft resources wherever they may be in the world as efficiently as possible.
+The VPN client should be configured so that traffic to the **Optimize** IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as the Azure Front Door](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity endpoints as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world and takes full advantage of [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/), which is very likely within a small number of milliseconds of your users' direct egress.
 
-The solution would look something like the diagram below.
+This split tunnel solution would look something like the diagram below:
 
 ![Split tunnel VPN solution detail](media/vpn-split-tunneling/vpn-split-detail.png)
 
