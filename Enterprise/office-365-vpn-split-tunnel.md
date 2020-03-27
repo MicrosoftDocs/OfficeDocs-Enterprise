@@ -36,7 +36,7 @@ The essence of this approach is to provide a simple process by which enterprises
 
 - Natively supported by most enterprise VPN platforms
 
-  Microsoft continues to collaborate with industry partners producing commercial VPN solutions to help partners develop targeted guidance and configuration templates for their solutions in alignment with the above recommendations. For more information, see [HOWTO guides for common VPN platforms](office-365-vpn-implement-split-tunnel.md##howto-guides-for-common-vpn-platforms).
+  Microsoft continues to collaborate with industry partners producing commercial VPN solutions to help partners develop targeted guidance and configuration templates for their solutions in alignment with the above recommendations. For more information, see [HOWTO guides for common VPN platforms](office-365-vpn-implement-split-tunnel.md#howto-guides-for-common-vpn-platforms).
 
 - Can be implemented rapidly and with no additional infrastructure or application requirements
 
