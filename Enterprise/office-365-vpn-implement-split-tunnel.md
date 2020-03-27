@@ -174,6 +174,8 @@ Some administrators may require more detailed information on how call flows oper
 
 For both calls and meetings, as long as the required Optimize IP subnets for Teams media are correctly in place in the route table, when Teams calls the _GetBestRoute_ method to determine which interface it should use for a particular destination, the local interface will be returned for Microsoft destinations in the Microsoft IP blocks listed above.
 
+In certain scenarios, often outside of the control of Teams, media traffic still traverses the VPN tunnel even with the correct routes in place. If you encounter this scenario then using a firewall rule to block the Teams IP subnets or ports from using the VPN should suffice.
+
 A current requirement for this to work in 100% of scenarios is to also add the IP range **13.107.60.1/32**. This should not be necessary very shortly due to an update in the latest Teams client due for release w/c **March 30 2020**.
 
 Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and is marked as **Allow** in the URL/IP data and thus can safely be routed through the VPN client if desired.
@@ -210,13 +212,7 @@ Once the policy is in place, you should confirm it is working as expected. There
 
 ### Additional support logs
 
-If you need further data to troubleshoot, or are requesting assistance from Microsoft support, obtaining the following information should allow you to expediate finding a solution
-
-- Concise set of steps.  Largely a port from relevant sections from PaulC blog.  Needs to reflect not just IP ranges, position on FQDN, .pac files, FW blocks (for media), etc
-- List of additional features that may need reconfiguration in connection to VPN change (e.g. AAD CA, EXO and SPO IP lists, etc)
-- Concise guidance how to ensure/test that the right setup is achieved
-- Concise recommendation on how to raise support questions for most rapid response (what info to collect, logs)
-- Third party links (for partners who have published similar implementation guidance for O365 for their products)
+If you need further data to troubleshoot, or are requesting assistance from Microsoft support, obtaining the following information should allow you to expedite finding a solution. Microsoft support's **TSS Windows CMD based universal TroubleShooting Script toolset** can help you to collect the relevant logs in a simple manner. The tool and instructions on use can be found at <http://aka.ms/TssTools.>
 
 ## HOWTO guides for common VPN solutions
 
@@ -224,7 +220,7 @@ This section provides links to detailed guides for implementing split tunneling 
 
 ## FAQ
 
-The Microsoft Security Team have published [an article](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) which outlines key ways for security professionals and IT can achieve modern security controls in today's unique remote work scenarios. In addition, below are some of the common customer questions and answers.
+The Microsoft Security Team have published [an article](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) which outlines key ways for security professionals and IT can achieve modern security controls in today's unique remote work scenarios. In addition, below are some of the common customer questions and answers on this subject.
 
 ### How do I stop users accessing other tenants I do not trust where they could exfiltrate data?
 
