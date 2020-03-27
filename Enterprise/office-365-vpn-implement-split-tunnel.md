@@ -169,7 +169,7 @@ If you inadvertently added the routes with incorrect parameters, you can remove 
 foreach ($prefix in $destPrefix) {Remove-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
-To add routes for all current IP addresses in the Optimize category, you can use the following script variation to query the web service for Optimize IPs:
+To add routes for all current IP addresses in the Optimize category, you can use the following script variation to query the [Office 365 IP and URL web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) for the current set of Optimize IPs:
 
 ```powershell
 $intIndex = "" # index of the interface connected to the internet
