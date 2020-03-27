@@ -147,12 +147,12 @@ At the time of writing the IP ranges which these endpoints correspond to are as 
 
 Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic.
 
-If you wish to do this manually for testing you would perform something like the following in PowerShell, which would add a route for each of the Teams Media IP subnets into the route table.
+If you wish to test this manually, you can perform something like the following PowerShell example which adds a route for each of the Teams Media IP subnets into the route table.
 
 ```powershell
 $intIndex = "" # index of the interface connected to the internet
 $gateway = "" # default gateway of that interface
-$destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18"
+$destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18" # Teams Media endpoints
 foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
