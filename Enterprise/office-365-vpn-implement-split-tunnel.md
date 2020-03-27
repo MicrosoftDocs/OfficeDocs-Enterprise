@@ -153,6 +153,7 @@ If you wish to test this manually, you can perform something like the following 
 $intIndex = "" # index of the interface connected to the internet
 $gateway = "" # default gateway of that interface
 $destPrefix = "52.120.0.0/14", "52.112.0.0/14", "13.107.64.0/18" # Teams Media endpoints
+# Add routes to the route table
 foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
@@ -166,6 +167,19 @@ If you inadvertently added the routes with incorrect parameters, you can remove 
 
 ```powershell
 foreach ($prefix in $destPrefix) {Remove-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
+```
+
+To add routes for all current IP addresses in the Optimize category, you can use the following script variation to query the web service for Optimize IPs:
+
+```powershell
+$intIndex = "" # index of the interface connected to the internet
+$gateway = "" # default gateway of that interface
+# Query the web service for IPs in the Optimize category
+$ep = Invoke-RestMethod ("https://endpoints.office.com/endpoints/worldwide?clientrequestid=" + ([GUID]::NewGuid()).Guid)
+# Output only IPv4 Optimize IPs to $optimizeIps
+$destPrefix = $ep | where {$_.category -eq "Optimize"} | Select-Object -ExpandProperty ips | Where-Object { $_ -like '*.*' }
+# Add routes to the route table
+foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
 <!--- remmed until verified
