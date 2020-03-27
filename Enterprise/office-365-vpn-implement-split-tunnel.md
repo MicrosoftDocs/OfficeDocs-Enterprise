@@ -86,11 +86,15 @@ A more advanced version of model number two, whereby any internal services are p
 
 ## Implement VPN split tunnelling
 
-Below you'll find the simple steps required to move to a VPN forced tunnel with key focused exceptions for Office 365.
+In this section, you'll find the simple steps required to migrate your VPN client architecture from a _VPN forced tunnel_ to a _VPN forced tunnel with a small number of trusted exceptions_, [VPN split tunnel model #2](#2-vpn-forced-tunnel-with-a-small-number-of-trusted-exceptions) in the [Common VPN scenarios](#common-vpn-scenarios) section.
+
+The diagram below illustrates how the recommended VPN split tunnel solution works:
+
+![Split tunnel VPN solution detail](media/vpn-split-tunnelling/vpn-split-detail.png)
 
 ### 1. Identify the endpoints to optimize
 
-Microsoft clearly identifies the key endpoints you need to optimize and marks them as such. In the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) topic, these endpoints are marked as **Optimize**. There are currently just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths and VPN infrastructure.
+In the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) topic, Microsoft clearly identifies the key endpoints you need to optimize and categorizes them as **Optimize**. There are currently just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 70% - 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths and VPN infrastructure.
 
 URLs in this category have the following characteristics:
 
@@ -103,6 +107,8 @@ URLs in this category have the following characteristics:
 
 >[!NOTE]
 >Microsoft has committed to suspending changes to **Optimize** endpoints for Office 365 until at least **June 30 2020**, allowing customers to focus on other challenges rather than maintaining the endpoint whitelist once initially implemented. This article will be updated to reflect any future changes.
+
+For more information about Office 365 endpoints and how they are categorized and managed, see the article [Managing Office 365 endpoints](managing-office-365-endpoints.md).
 
 #### Optimize URLs
 
@@ -147,9 +153,11 @@ At the time of writing the IP ranges which these endpoints correspond to are as 
 
 ### 2. Optimize access to these endpoints via the VPN
 
-Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic.
+Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic. For information VPN platform-specific split tunnel guidance, see [HOWTO guides for common VPN platforms](#howto-guides-for-common-vpn-platforms).
 
-If you wish to test this manually, you can perform something like the following PowerShell example which adds a route for each of the Teams Media IP subnets into the route table.
+If you wish to test the solution manually, you can execute the following PowerShell example to emulate the solution at the route table level. This example adds a route for each of the Teams Media IP subnets into the route table. You can test Teams media performance before and after, and observe the difference in routes for the specified endpoints.
+
+#### Example: Add Teams Media IP subnets into the route table
 
 ```powershell
 $intIndex = "" # index of the interface connected to the internet
@@ -165,13 +173,9 @@ Once you have added the routes, you can confirm that the route table is correct 
 
 ![Route print output](media/vpn-split-tunnelling/vpn-route-print.png)
 
-If you inadvertently added the routes with incorrect parameters, you can remove the routes with the following command:
+To add routes for **all** current IP address ranges in the Optimize category, you can use the following script variation to query the [Office 365 IP and URL web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) for the current set of Optimize IP subnets and add them to the route table.
 
-```powershell
-foreach ($prefix in $destPrefix) {Remove-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
-```
-
-To add routes for all current IP addresses in the Optimize category, you can use the following script variation to query the [Office 365 IP and URL web service](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service) for the current set of Optimize IPs:
+#### Example: Add all Optimize subnets into the route table
 
 ```powershell
 $intIndex = "" # index of the interface connected to the internet
@@ -184,7 +188,13 @@ $destPrefix = $ep | where {$_.category -eq "Optimize"} | Select-Object -ExpandPr
 foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
 ```
 
-<!--- remmed until verified
+If you inadvertently added routes with incorrect parameters or simply wish to revert your changes, you can remove the routes you just added with the following command:
+
+```powershell
+foreach ($prefix in $destPrefix) {Remove-NetRoute -DestinationPrefix $prefix -InterfaceIndex $intIndex -NextHop $gateway}
+```
+
+<!--- remmed until we add more reliable interface selection logic
 #### Example script to add Teams Media subnets to the route table
 
 ```powershell
@@ -198,10 +208,6 @@ foreach ($prefix in $destPrefix) {New-NetRoute -DestinationPrefix $prefix -Inter
 -->
 
 The VPN client should be configured so that traffic to the **Optimize** IPs are routed in this way. This allows the traffic to utilize local Microsoft resources such as Office 365 Service Front Doors [such as the Azure Front Door](https://azure.microsoft.com/blog/azure-front-door-service-is-now-generally-available/) which deliver Office 365 services and connectivity endpoints as close to your users as possible. This allows us to deliver extremely high performance levels to users wherever they are in the world and takes full advantage of [Microsoft's world class global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/), which is very likely within a small number of milliseconds of your users' direct egress.
-
-This split tunnel solution would look something like the diagram below:
-
-![Split tunnel VPN solution detail](media/vpn-split-tunnelling/vpn-split-detail.png)
 
 ## Configuring and securing Teams media traffic
 
