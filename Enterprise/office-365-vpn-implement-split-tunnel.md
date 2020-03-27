@@ -97,11 +97,12 @@ URLs in this category have the following characteristics:
 - Are Microsoft owned and managed endpoints, hosted on Microsoft infrastructure
 - Have IPs provided
 - Low rate of change and are expected to remain small in number (currently 20 IP subnets)
-- Are High volume and/or latency sensitive
+- Are bandwidth and/or latency sensitive
 - Are able to have required security elements provided in the service rather than inline on the network
-- Account for around 70-80% of the volume of traffic seen to the Office 365 service
+- Account for around 70-80% of the volume of traffic to the Office 365 service
 
-Microsoft has committed that the URLs/IPs/Port requirements for these endpoints will not change until at least **June 30th 2020**. This article will be updated to reflect any future changes.
+>[!NOTE]
+>Microsoft has committed to suspending changes to **Optimize** endpoints for Office 365 until at least **June 30 2020**, allowing customers to focus on other challenges rather than maintaining the endpoint whitelist once initially implemented. This article will be updated to reflect any future changes.
 
 #### Optimize URLs
 
