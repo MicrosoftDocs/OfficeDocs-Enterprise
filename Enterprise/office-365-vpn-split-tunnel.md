@@ -48,6 +48,8 @@ The essence of this approach is to provide a simple process by which enterprises
 
 It is important to note that FQDN or App-ID based split tunnel configurations may be possible on certain VPN client platforms, but may not fully cover key Office 365 scenarios and conflict with IP based rules.  For that reason Microsoft does not recommend using FQDNs for Office 365 split tunnel configuration.
 
+For full implementation guidance, see [Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md).
+
 ## The VPN split tunnel strategy
 
 Traditional corporate networks are often designed to work securely for a pre-cloud world where most important data, services, applications are hosted on premises and are directly connected to the internal corporate network, as are the majority of users. Thus network infrastructure is built around these elements in that branch offices are connected to the head office via _Multiprotocol Label Switching (MPLS)_ networks, and remote users must connect to the corporate network over a VPN to access both on premises endpoints and the Internet. In this model, all traffic from remote users traverses the corporate network and is routed to the cloud service through a common egress point.
