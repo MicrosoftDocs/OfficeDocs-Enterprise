@@ -1,5 +1,5 @@
 ---
-title: "Overview: VPN split tunneling with Office 365"
+title: "Overview: VPN split tunnelling with Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - NOCSH
-description: "Guidance for using VPN split tunneling with Office 365 to optimize Office 365 connectivity for remote users."
+description: "Guidance for using VPN split tunnelling with Office 365 to optimize Office 365 connectivity for remote users."
 ---
 
-# Optimize Office 365 connectivity for remote users using VPN split tunneling
+# Optimize Office 365 connectivity for remote users using VPN split tunnelling
 
 >[!NOTE]
 >This topic is part of a set of topics that address Office 365 optimization for remote users.
->- For VPN split tunnel implementation guidance, see [Implementing VPN split tunneling for Office 365](office-365-vpn-implement-split-tunnel.md).
+>- For VPN split tunnel implementation guidance, see [Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md).
 >- For information about optimizing Office 365 worldwide tenant performance for users in China, see [Office 365 performance optimization for China users](office-365-networking-china.md).
 
 Traditional corporate networks are often designed to work securely for a pre-cloud world where most important data, services, applications are hosted on premises and are directly connected to the internal corporate network, as are the majority of users. Thus network infrastructure is built around these elements in that branch offices are connected to the head office via _Multiprotocol Label Switching (MPLS)_ networks, and remote users must connect to the corporate network over a VPN to access both on premises endpoints and the Internet. In this model, all traffic from remote users traverses the corporate network and is routed to the cloud service through a common egress point.
 
-![Forced VPN configuration](media/vpn-split-tunneling/vpn-model-1.png)
+![Forced VPN configuration](media/vpn-split-tunnelling/vpn-model-1.png)
 
 _Figure 1: A common VPN solution for remote users where all traffic is forced back into the corporate network regardless of destination_
 
@@ -52,17 +52,17 @@ This tightly scoped set of endpoints can be split out of the forced VPN tunnel a
 
  Security elements such as DLP, AV protection, authentication and access control can all be delivered much more efficiently against these endpoints at different layers within the service. As we also divert the bulk of the traffic volume away from the VPN solution, this frees the VPN capacity up for business critical traffic which still relies on it. It also should remove the need in many cases to go through a lengthy and costly upgrade program to deal with this new way of operating.
 
-![Split Tunnel VPN configuration](media/vpn-split-tunneling/vpn-model-2.png)
+![Split Tunnel VPN configuration](media/vpn-split-tunnelling/vpn-model-2.png)
 
 _Figure 2: A split VPN solution with defined Office 365 exceptions sent direct to the service. All other traffic is forced back into the corporate network regardless of destination._
 
-From a security perspective, Microsoft has an array of security features which can be used to provide similar, or even enhanced security than that delivered by inline inspection by on premises security stacks. The Microsoft Security team's blog post [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) has a clear summary of features available and you'll find more detailed guidance within this article. You can also read about Microsoft's implementation of VPN split tunneling at [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv).
+From a security perspective, Microsoft has an array of security features which can be used to provide similar, or even enhanced security than that delivered by inline inspection by on premises security stacks. The Microsoft Security team's blog post [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/) has a clear summary of features available and you'll find more detailed guidance within this article. You can also read about Microsoft's implementation of VPN split tunnelling at [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv).
 
-In many cases, this implementation can be achieved in a matter of hours, allowing rapid resolution to one of the most pressing problems facing organizations as they rapidly shift to full scale remote working. For VPN split tunnel implementation guidance, see [Implementing VPN split tunneling for Office 365](office-365-vpn-implement-split-tunnel.md).
+In many cases, this implementation can be achieved in a matter of hours, allowing rapid resolution to one of the most pressing problems facing organizations as they rapidly shift to full scale remote working. For VPN split tunnel implementation guidance, see [Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md).
 
 ## Related topics
 
-[Implementing VPN split tunneling for Office 365](office-365-vpn-implement-split-tunnel.md)
+[Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md)
 
 [Office 365 performance optimization for China users](office-365-networking-china.md)
 
