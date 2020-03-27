@@ -89,7 +89,7 @@ Below you'll find the simple steps required to move to a VPN forced tunnel with 
 
 ### 1. Identify the endpoints to optimize
 
-Microsoft clearly identifies the key endpoints you need to optimize and marks them as such. In the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) topic, these endpoints are marked as **Optimize**. There are just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths and VPN infrastructure.
+Microsoft clearly identifies the key endpoints you need to optimize and marks them as such. In the [Office 365 URLs and IP address ranges](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) topic, these endpoints are marked as **Optimize**. There are currently just four URLS which need to be optimized and twenty IP subnets. This small group of endpoints accounts for around 80% of the volume of traffic to the Office 365 service including the latency sensitive endpoints such as those for Teams media. Essentially this is the traffic that we need to take special care of and is also the traffic which will put incredible pressure on traditional network paths and VPN infrastructure.
 
 URLs in this category have the following characteristics:
 
@@ -100,7 +100,7 @@ URLs in this category have the following characteristics:
 - Are able to have required security elements provided in the service rather than inline on the network
 - Account for around 70-80% of the volume of traffic seen to the Office 365 service
 
-Microsoft has committed that the URLs/IPs/Port requirements for these endpoints will not change until at least **June 30th 2020**.
+Microsoft has committed that the URLs/IPs/Port requirements for these endpoints will not change until at least **June 30th 2020**. This article will be updated to reflect any future changes.
 
 #### Optimize URLs
 
@@ -145,7 +145,7 @@ At the time of writing the IP ranges which these endpoints correspond to are as 
 
 ### 2. Optimize access to these endpoints via the VPN
 
-Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic. Some examples of how to achieve this with some of the most common VPN solutions can be found later in this document.
+Now that we have identified these critical endpoints, we need to divert them away from the VPN tunnel and allow them to use the user's local Internet connection to connect directly to the service. The manner in which this is accomplished will vary depending on the VPN product and machine platform used but most VPN solutions will allow some simple configuration of policy to apply this logic.
 
 If you wish to do this manually for testing you would perform something like the following in PowerShell, which would add a route for each of the Teams Media IP subnets into the route table.
 
@@ -185,7 +185,9 @@ Some administrators may require more detailed information on how call flows oper
 
 For both calls and meetings, as long as the required Optimize IP subnets for Teams media are correctly in place in the route table, when Teams calls the _GetBestRoute_ method to determine which interface it should use for a particular destination, the local interface will be returned for Microsoft destinations in the Microsoft IP blocks listed above.
 
-In certain scenarios, often outside of the control of Teams, media traffic still traverses the VPN tunnel even with the correct routes in place. If you encounter this scenario then using a firewall rule to block the Teams IP subnets or ports from using the VPN should suffice.
+Some VPN client software allows routing manipulation based on URL. However, Teams media traffic has no URL associated with it, so control of routing for this traffic must be done using IP subnets.
+
+In certain scenarios, often unrelated to Teams client configuration, media traffic still traverses the VPN tunnel even with the correct routes in place. If you encounter this scenario then using a firewall rule to block the Teams IP subnets or ports from using the VPN should suffice.
 
 A current requirement for this to work in 100% of scenarios is to also add the IP range **13.107.60.1/32**. This should not be necessary very shortly due to an update in the latest Teams client due for release w/c **March 30 2020**.
 
@@ -223,9 +225,11 @@ Once the policy is in place, you should confirm it is working as expected. There
 
 If you need further data to troubleshoot, or are requesting assistance from Microsoft support, obtaining the following information should allow you to expedite finding a solution. Microsoft support's **TSS Windows CMD based universal TroubleShooting Script toolset** can help you to collect the relevant logs in a simple manner. The tool and instructions on use can be found at <http://aka.ms/TssTools.>
 
+<!--- remmed until content available
 ## HOWTO guides for common VPN solutions
 
 This section provides links to detailed guides for implementing split tunneling for Office 365 traffic from the most common partners in this space. We'll add additional guides as they become available.
+-->
 
 ## FAQ
 
