@@ -19,7 +19,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: "Learn what tools to use to manage your Office 365 users, and how what you can use depends on how you manage user identities. "
+description: "In this article, you'll learn about what tools to use and how to manage Office 365 accounts."
 ---
 
 # Tools to manage Office 365 accounts
