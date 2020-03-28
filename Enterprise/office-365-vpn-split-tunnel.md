@@ -20,34 +20,37 @@ description: "Guidance for using VPN split tunnelling with Office 365 to optimiz
 ---
 
 # Optimize Office 365 connectivity for remote users using VPN split tunnelling
-
+<!---
 >[!NOTE]
 >This topic is part of a set of topics that address Office 365 optimization for remote users.
 >- For VPN split tunnel implementation guidance, see [Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md).
 >- For information about optimizing Office 365 worldwide tenant performance for users in China, see [Office 365 performance optimization for China users](office-365-networking-china.md).
+-->
 
-As a first line strategy to facilitate continued employee productivity during large-scale work-from-home situations, Microsoft recommends implementing a **split tunnel VPN solution** for key Office 365 scenarios: **Microsoft Teams**, **SharePoint Online** and **Exchange Online**. This is a rapid deployment solution to maximize performance for enterprise customers who use a VPN to connect their remote worker devices to the corporate network.
+For customers who connect their remote worker devices to the corporate network or cloud infrastructure over VPN, Microsoft recommends that the key Office 365 scenarios **Microsoft Teams**, **SharePoint Online** and **Exchange Online** are routed over a VPN split tunnel configuration. This becomes especially important as the first line strategy to facilitate continued employee productivity during large scale work-from-home events such as the COVID-19 pandemic.
 
-The essence of this approach is to provide a simple process by which enterprises can dramatically improve Office 365 performance and concurrent use capacity in the shortest timeframe possible. Configuring VPN clients to allow critical Office 365 traffic to bypass the VPN tunnel achieves the following benefits:
+![Split Tunnel VPN configuration](media/vpn-split-tunnelling/vpn-model-2.png)
 
-- Immediately mitigates the root cause of a majority of customer-reported Office 365 performance issues in enterprise VPN architectures
+The essence of this approach is to provide a simple way by which enterprises can mitigate the risk of VPN infrastructure saturation and dramatically improve Office 365 performance in the shortest timeframe possible. Configuring VPN clients to allow the most critical, high volume Office 365 traffic to bypass the VPN tunnel achieves the following benefits:
+
+- Immediately mitigates the root cause of a majority of customer-reported performance and network capacity issues in enterprise VPN architectures impacting Office 365 user experience
   
   The recommended solution specifically targets Office 365 service endpoints categorized as **Optimize** in the topic [Office 365 URLs and IP address ranges](https://aka.ms/o365ips). Traffic to these endpoints is highly sensitive to latency and bandwidth throttling, and enabling it to bypass the VPN tunnel can dramatically improve the end user experience as well as reduce the corporate network load. Office 365 connections that do not constitute the majority of bandwidth or user experience footprint can continue to be routed inside the tunnel along with the rest of the Internet bound traffic. For more information, see [The VPN split tunnel strategy](#the-vpn-split-tunnel-strategy).
 
-- Natively supported by most enterprise VPN platforms
-
-  Microsoft continues to collaborate with industry partners producing commercial VPN solutions to help partners develop targeted guidance and configuration templates for their solutions in alignment with the above recommendations. For more information, see [HOWTO guides for common VPN platforms](office-365-vpn-implement-split-tunnel.md#howto-guides-for-common-vpn-platforms).
-
-- Can be implemented rapidly and with no additional infrastructure or application requirements
+- Can be configured, tested and implemented rapidly by customers and with no additional infrastructure or application requirements
 
   Depending on the VPN platform and network architecture, implementation can take as little as a few hours. For more information, see [Implement VPN split tunnelling](office-365-vpn-implement-split-tunnel.md#implement-vpn-split-tunnelling).
 
-- Leverages built-in Office 365 security features and data encryption
+- Preserves the security posture of customer VPN implementations by not changing how other connections are routed, including traffic to the Internet
 
-  The recommended configuration allows customers to implement split tunnel VPN without exposing users or infrastructure to additional security risks. Network traffic routed directly to Office 365 endpoints in the Optimize category is encrypted, initiated by clients using secure application stacks and scoped to dedicated Office 365 services which are hardened at both application and network level. For more information, see [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/).
+  The recommended configuration follows the **least privilege** principle for VPN traffic exceptions and allows customers to implement split tunnel VPN without exposing users or infrastructure to additional security risks. Network traffic routed directly to Office 365 endpoints is encrypted, validated for integrity by Office client application stacks and scoped to IP addresses dedicated to Office 365 services which are hardened at both the application and network level. For more information, see [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/).
+
+- Is natively supported by most enterprise VPN platforms
+
+  Microsoft continues to collaborate with industry partners producing commercial VPN solutions to help partners develop targeted guidance and configuration templates for their solutions in alignment with the above recommendations. For more information, see [HOWTO guides for common VPN platforms](office-365-vpn-implement-split-tunnel.md#howto-guides-for-common-vpn-platforms).
 
 >[!TIP]
->FQDN or AppID-based split tunnel configurations may be possible on certain VPN client platforms, but may not fully cover key Office 365 scenarios and may conflict with IP based VPN routing rules. For this reason, Microsoft does not recommend using FQDNs for Office 365 split tunnel configurations.
+>Microsoft recommends focusing split tunnel VPN configuration on documented dedicated IP ranges for Office 365 services. FQDN or AppID-based split tunnel configurations, while possible on certain VPN client platforms, may not fully cover key Office 365 scenarios and may conflict with IP based VPN routing rules. For this reason, Microsoft does not recommend using Office 365 FQDNs to configure split tunnel VPN. The use of FQDN configuration may be useful in other related scenarios, such as .pac file customizations or to implement proxy bypass.
 
 For full implementation guidance, see [Implementing VPN split tunnelling for Office 365](office-365-vpn-implement-split-tunnel.md).
 
