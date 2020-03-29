@@ -86,7 +86,7 @@ What IT architects need to know about designing identity for organizations using
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for Microsoft cloud identity model](media/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| [Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| [More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft’s cloud </li><li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li><li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul><br/>|
+|[![Thumb image for Microsoft cloud identity model](media/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| [Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| [More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft's cloud </li><li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li><li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul><br/>|
    
 <a name="security"></a>
 ### Microsoft cloud security for enterprise architects
@@ -152,8 +152,24 @@ The logical architecture of productivity services in Microsoft 365, leading with
 |[![Thumb image for Teams logical architecture poster](downloads/msft-teams-logical-architecture-thumb.png)](downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> <br/>This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
 
 
+### Security and Information Protection for Multi-Region Organizations
+Security and information protection for multi-region organizations with a single microsoft 365 tenant
+
+|**Item**|**Description**|
+|:-----|:-----|
+|[![Thumb image for groups infographic](..media/multi-region-single-tenant-security-thumb.png)](downloads/msft-m365-groups.pdf) <br/> [PDF](downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |Using a single Microsoft 365 tenant for your global organization is the best choice and experience for many reasons. However, many architects wrestle with how to meet security and information protection objectives across different regions. This set of topics provides recommendations. |
+
+
+
 ### Groups in Microsoft 365 for IT Architects
 What IT architects need to know about groups in Microsoft 365
+
+|**Item**|**Description**|
+|:-----|:-----|
+|[![Thumb image for groups infographic](downloads/msft-m365-groups-architecture-thumb.png)](downloads/msft-m365-groups.pdf) <br/> [PDF](downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
+### Groups in Microsoft 365 for IT Architects
+What IT architects need to know about groups in Microsoft 365
+
 
 |**Item**|**Description**|
 |:-----|:-----|
