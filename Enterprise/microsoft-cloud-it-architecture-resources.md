@@ -42,6 +42,7 @@ These architecture tools and posters give you information about Microsoft cloud 
 - **[Microsoft 365 enterprise solution series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
     - [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)
     - [Groups in Microsoft 365 for IT architects](#groups-in-microsoft-365-for-it-architects)
+    - [Security and Information Protection for Multi-Region Organizations](#security-and-information-protection-for-multi-region-organizations)
     - [Identity and device protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP)
     - [File protection solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect)
     - [Office 365 Information Protection for GDPR](#office-365-information-protection-for-gdpr)
@@ -152,28 +153,20 @@ The logical architecture of productivity services in Microsoft 365, leading with
 |[![Thumb image for Teams logical architecture poster](downloads/msft-teams-logical-architecture-thumb.png)](downloads/msft-m365-teams-logical-architecture.pdf) <br/> [PDF](downloads/msft-m365-teams-logical-architecture.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)     |Microsoft provides a suite of productivity services that work together to provide collaboration experiences with data governance, security, and compliance capabilities. <br/> <br/>This series of illustrations provides a view into the logical architecture of productivity services for enterprise architects, leading with Microsoft Teams.|
 
 
+### Groups in Microsoft 365 for IT Architects
+What IT architects need to know about groups in Microsoft 365
+
+|**Item**|**Description**|
+|:-----|:-----|
+|[![Thumb image for groups infographic](downloads/msft-m365-groups-architecture-thumb.png)](downloads/msft-m365-groups.pdf) <br/> [PDF](downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
+
 ### Security and Information Protection for Multi-Region Organizations
 Security and information protection for multi-region organizations with a single microsoft 365 tenant
 
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for groups infographic](media/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx) |Using a single Microsoft 365 tenant for your global organization is the best choice and experience for many reasons. However, many architects wrestle with how to meet security and information protection objectives across different regions. This set of topics provides recommendations. |
+|[![Thumb image for multi-region infographic](media/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx) |Using a single Microsoft 365 tenant for your global organization is the best choice and experience for many reasons. However, many architects wrestle with how to meet security and information protection objectives across different regions. This set of topics provides recommendations. |
 
-
-
-### Groups in Microsoft 365 for IT Architects
-What IT architects need to know about groups in Microsoft 365
-
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Thumb image for groups infographic](downloads/msft-m365-groups-architecture-thumb.png)](downloads/msft-m365-groups.pdf) <br/> [PDF](downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
-### Groups in Microsoft 365 for IT Architects
-What IT architects need to know about groups in Microsoft 365
-
-
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Thumb image for groups infographic](downloads/msft-m365-groups-architecture-thumb.png)](downloads/msft-m365-groups.pdf) <br/> [PDF](downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
 
    
 <a name="BKMK_O365IDP"></a>
