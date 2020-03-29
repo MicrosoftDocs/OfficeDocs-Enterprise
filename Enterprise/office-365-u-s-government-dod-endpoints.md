@@ -1,9 +1,9 @@
 ---
 title: "Office 365 U.S. Government DoD endpoints"
-ms.author: laurawi
-author: LauraWi
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/28/2020
+ms.date: 03/04/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration

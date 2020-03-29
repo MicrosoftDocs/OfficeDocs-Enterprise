@@ -3,7 +3,7 @@ title: "Office 365 data locations"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/13/2020
+ms.date: 03/09/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -110,7 +110,7 @@ For country/region specific data centers, the following defines the cities where
 | Japan | Osaka, Tokyo, Saitama |
 | Korea | Busan, Seoul |
 | South Africa | Capetown, Johannesburg |
-| Switzerland | Geneva, Zurick |
+| Switzerland | Geneva, Zurich |
 | United Arab Emirates | Dubai, Abu Dhabi |
 | United Kingdom | Durham, London, Cardiff |
 | United States |  Boydton, Cheyenne, Chicago, Des Moines, Quincy, San Antonio, Santa Clara, San Jose |
