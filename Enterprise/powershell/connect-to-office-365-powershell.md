@@ -3,7 +3,7 @@ title: "Connect to Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/26/2020
+ms.date: 03/31/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,7 +16,7 @@ ms.custom:
 - O365ITProTrain
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
-description: "Summary: Connect to your Office 365 organization using Office 365 PowerShell to perform admin center tasks from the command line."
+description: "Connect to your Office 365 organization using Office 365 PowerShell to perform admin center tasks from the command line."
 ---
 
 # Connect to Office 365 PowerShell
@@ -153,9 +153,15 @@ If you receive errors, check the following requirements:
   ```
 
     If the version number returned is lower than the value 1.0.8070.2, uninstall the Microsoft Azure Active Directory Module for Windows PowerShell and install the latest version from the link in Step 1.
-    
+
 - **If you receive a connection error, see this topic:** ["Connect-MsolService: Exception of type was thrown" error](https://go.microsoft.com/fwlink/p/?LinkId=532377).
     
+- **If you receive a "Get-Item : Cannot find path" error, use this command:** 
+
+  ```powershell
+  (dir "C:\Program Files\WindowsPowerShell\Modules\MSOnline").Name
+ 
+```
 
 ## See also
 
