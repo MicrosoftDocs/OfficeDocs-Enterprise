@@ -3,7 +3,7 @@ title: "Office 365 Network Onboarding Tool in the M365 Admin Center (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/04/2020
+ms.date: 03/31/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -122,3 +122,5 @@ This section shows the results of an ICMP traceroute to the Exchange Online serv
 [Office 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
 
 [Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
+
+[Office 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)
