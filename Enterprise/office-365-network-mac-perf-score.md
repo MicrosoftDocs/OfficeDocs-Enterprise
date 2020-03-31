@@ -3,7 +3,7 @@ title: "Office 365 network assessment (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/04/2020
+ms.date: 03/31/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -41,9 +41,9 @@ The **Assessment history** shows the past 30 days of the assessment and the benc
 
 ## Tenant network assessments and office location network assessments
 
-A network assessment measures the design of the network perimeter of an office location to Microsoft’s network. Improvements to the network perimeter is best done at each office location, or where network connectivity is aggregated there may be improvements that impact multiple locations.
+A network assessment measures the design of the network perimeter of an office location to Microsoft's network. Improvements to the network perimeter is best done at each office location, or where network connectivity is aggregated there may be improvements that impact multiple locations.
 
-We show a network assessment value for the whole Office 365 tenant on the network performance overview page and a specific value for each detected office location on that location’s summary page.
+We show a network assessment value for the whole Office 365 tenant on the network performance overview page and a specific value for each detected office location on that location's summary page.
 
 ## Exchange Online
 
@@ -51,11 +51,11 @@ For Exchange Online the TCP latency from the client machine to the Exchange fron
 
 ## SharePoint Online
 
-For SharePoint Online the download speed available for a user to access a document is measured. This can be impacted by the bandwidth available on network circuits between the client machine and Microsoft’s network. It is also often impacted by network congestion that exists in bottlenecks in complex network devices or in poor coverage Wi-Fi areas.
+For SharePoint Online the download speed available for a user to access a document is measured. This can be impacted by the bandwidth available on network circuits between the client machine and Microsoft's network. It is also often impacted by network congestion that exists in bottlenecks in complex network devices or in poor coverage Wi-Fi areas.
 
 ## Microsoft Teams
 
-For Microsoft Teams the Network quality is measured as UDP latency, UDP jitter, and UDP packet loss. UDP is used for call and conferencing audio and video media connectivity for Microsoft Teams. This can be impacted by the same factors as for latency and download speed in addition to connectivity gaps in a network’s UDP support since UDP is configured separately to the more common TCP protocol.
+For Microsoft Teams the Network quality is measured as UDP latency, UDP jitter, and UDP packet loss. UDP is used for call and conferencing audio and video media connectivity for Microsoft Teams. This can be impacted by the same factors as for latency and download speed in addition to connectivity gaps in a network's UDP support since UDP is configured separately to the more common TCP protocol.
 
 ## Related topics
 
@@ -65,4 +65,4 @@ For Microsoft Teams the Network quality is measured as UDP latency, UDP jitter, 
 
 [Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
-[Office 365 Network Insights Privacy and Terms of Use (preview)](office-365-network-mac-perf-privacy.md)
+[Office 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)

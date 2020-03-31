@@ -3,7 +3,7 @@ title: "Office 365 Network Insights (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/20/2020
+ms.date: 03/31/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -143,3 +143,5 @@ For more information about how to mitigate performance issues related to this in
 [Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
 
 [Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
+
+[Office 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)

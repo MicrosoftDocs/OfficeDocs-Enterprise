@@ -3,7 +3,7 @@ title: "Network performance recommendations in the Microsoft 365 Admin Center (p
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/20/2020
+ms.date: 03/31/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -140,4 +140,4 @@ The internet egress location is the location where your network traffic exits yo
 
 [Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
-[Office 365 Network Insights Privacy and Terms of Use (preview)](office-365-network-mac-perf-privacy.md)
+[Office 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)
