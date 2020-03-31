@@ -19,7 +19,7 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: 98ca5b3f-f720-4d8e-91be-fe656548a25a
-description: "In this article, you'll learn about what tools to use and how to manage Office 365 accounts."
+description: "Learn about what tools to use and how to manage Office 365 accounts."
 ---
 
 # Tools to manage Office 365 accounts
@@ -79,4 +79,3 @@ When deciding which way your organization will create and manage accounts, consi
 
 [Manage user accounts in Office 365](https://support.office.com/article/3204162b-0b6c-4838-8a11-394b9bfd31de.aspx)
   
-
