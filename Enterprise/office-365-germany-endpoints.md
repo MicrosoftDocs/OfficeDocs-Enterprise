@@ -18,8 +18,9 @@ ms.custom:
  - seo-marvel-mar2020
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
-description: "If your organization uses Office 365 and restricts computers on your network from connecting to the Internet, below you'll find the endpoints (FQDNs, Ports, URLs, and IPv4 and IPv6 address ranges) that you should include in your outbound allow lists to ensure your computers can successfully use Office 365."
+description: Germany endpoints for Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business Online, Teams, Microsoft 365 Common, and Office Online.
 hideEdit: true
+ms.custom: seo-marvel-mar2020
 ---
 
 # Office 365 Germany endpoints
