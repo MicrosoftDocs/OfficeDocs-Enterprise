@@ -13,9 +13,11 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Ent_Solutions
+ms.custom: 
+ - Ent_Solutions
+ - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: "Summary: Use these articles to deploy Office Server workloads in Microsoft Azure."
+description: Provides a list of links to useful information for deploying Office Server workloads in Microsoft Azure.
 ---
 
 # Hybrid solutions

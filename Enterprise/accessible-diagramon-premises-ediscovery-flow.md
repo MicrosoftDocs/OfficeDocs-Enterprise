@@ -12,7 +12,8 @@ localization_priority: Normal
 ms.assetid: b9dcd692-0485-4eec-870d-87ab6b89d97b
 f1.keywords:
 - NOCSH
-description: "This article is an accessible text version of the diagram named On-premises eDiscovery Flow."
+description: This article is an accessible text version of the diagram named On-premises eDiscovery Flow, including detailed descriptions of the features in the diagram.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Accessible diagram - On-premises eDiscovery Flow

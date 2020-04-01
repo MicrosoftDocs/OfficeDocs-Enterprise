@@ -14,11 +14,13 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn how to optimize images in SharePoint Online modern site pages."
+description: Learn how to use the tools included in SharePoint Online to optimize images in SharePoint Online modern site pages.
 ---
 
 # Optimize images in SharePoint Online modern site pages
