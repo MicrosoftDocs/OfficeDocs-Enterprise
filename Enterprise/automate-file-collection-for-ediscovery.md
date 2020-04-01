@@ -12,11 +12,11 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: 
+ms.custom: seo-marvel-mar2020
 ms.assetid: 8d751419-d81b-4eb7-a2e5-8b03ccbf670c
 search.appverid:
 - MET150
-description: "Summary: Learn how to automate file collection from user computers for eDiscovery."
+description: Learn how to automate file collection to locate, inventory, and collect content from user computers for eDiscovery.
 ---
 
 # Automate file collection for eDiscovery

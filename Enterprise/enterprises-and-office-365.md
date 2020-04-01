@@ -10,14 +10,16 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - MED150
 - BCS160
 ms.assetid: 6e18d402-f35e-415a-83b1-56620d4074ff
-description: "Resources to plan and manage Office 365 for your enterprise organization."
+description: This article provides a list of resources to plan and manage Office 365 for your enterprise organization.
 ---
 
 # Enterprise organizations and Office 365

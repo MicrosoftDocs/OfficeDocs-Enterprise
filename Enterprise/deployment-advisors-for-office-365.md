@@ -14,13 +14,15 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365_Setup
+ms.custom: 
+ - Adm_O365_Setup
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: "Accelerate your planning and configuration of Office 365 or Microsoft 365 with deployment advisors."
+description: Learn how to accelerate your planning and configuration of Office 365 or Microsoft 365 with deployment advisors.
 ---
 
 # Deployment advisors for Office 365 or Microsoft 365 services

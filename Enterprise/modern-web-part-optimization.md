@@ -14,11 +14,13 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn how to optimize the performance of web parts in SharePoint Online modern site pages."
+description: Learn how to use Page Diagnostics to optimize the performance of web parts in SharePoint Online modern site pages.
 ---
 
 # Optimize web part performance in SharePoint Online modern site pages

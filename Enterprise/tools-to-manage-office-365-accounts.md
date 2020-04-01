@@ -1,5 +1,5 @@
 ---
-title: Tools to manage Office 365 accounts
+title: Managing Office 365 accounts
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
