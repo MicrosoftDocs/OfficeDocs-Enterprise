@@ -11,7 +11,9 @@ localization_priority: Normal
 ms.assetid: 2ab00633-0f6e-4e4f-b706-2342eb77e539
 f1.keywords:
 - NOCSH
-description: "This article is an accessible text version of the diagram named Microsoft Exchange 2013 Platform Options, which is available at Technical Diagrams."
+ms.custom:
+- seo-marvel-apr2020
+description: "An accessible text version of the diagram showing detailed layout of the application & mobile browser-based landscape for SharePoint Server, Lync, Exchange Server, & Office Web Apps."
 ---
 
 # Accessible diagram - SharePoint Server, Exchange, Lync, Office Web Apps - The Mobile Landscape
