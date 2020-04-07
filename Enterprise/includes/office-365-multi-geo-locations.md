@@ -11,6 +11,6 @@
 |Korea                        |KOR     |Southeast or East Asia datacenters|
 |North America                |NAM     |US datacenters                    |
 |South Africa                 |ZAF     |(Coming soon)                     |
-|Switzerland                  |SWE     |(Coming soon)                     |
+|Switzerland                  |CHE     |(Coming soon)                     |
 |United Arab Emirates         |ARE     |(Coming soon)                     |
 |United Kingdom               |GBR     |Europe datacenters                |
