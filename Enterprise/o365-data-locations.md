@@ -109,7 +109,7 @@ For country/region specific data centers, the following defines the cities where
 | --- | --- |
 | Australia | New South Wales, Victoria |
 | Canada | Québec City, Toronto |
-| European Union | Austria, Finland, France, Germany, Ireland, Netherlands, United Kingdom |
+| European Union | Austria, Finland, France, Ireland, Netherlands |
 | France | Paris, Marseille |
 | Germany | Frankfurt, Berlin |
 | India | Chennai, Mumbai, Pune |
