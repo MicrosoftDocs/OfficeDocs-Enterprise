@@ -30,7 +30,7 @@ This article describes navigation options sites with SharePoint Publishing enabl
 
 Navigation provider configuration can significantly impact performance for the entire site, and careful consideration must be taken to pick a navigation provider and configuration that scales effectively for the requirements of a SharePoint site. There are two out-of-the-box navigation providers, as well as custom navigation implementations.
 
-The first option, [**Structural navigation**](#using-structural-navigation-in-sharepoint-online), is the recommended navigation option in SharePoint Online for classic Sharepoint sites, if you turn on structural navigation caching for your site. This navigation provider displays the navigation items below the current site, and optionally the current site and its siblings. It provides additional capabilities such as security trimming and site structure enumeration. If caching is disabled, this will negatively impact performance and scalability, and may be subject to throttling.
+The first option, [**Structural navigation**](#using-structural-navigation-in-sharepoint-online), is the recommended navigation option in SharePoint Online for classic Sharepoint sites, **if you turn on structural navigation caching for your site**. This navigation provider displays the navigation items below the current site, and optionally the current site and its siblings. It provides additional capabilities such as security trimming and site structure enumeration. If caching is disabled, this will negatively impact performance and scalability, and may be subject to throttling.
 
 The second option, [**Managed (Metadata) navigation**](#using-managed-navigation-and-metadata-in-sharepoint-online), represents navigation items using a Managed Metadata term set. We recommend that security trimming be disabled unless required. Security trimming is enabled as a secure-by-default setting for this navigation provider; however, many sites do not require the overhead of security trimming since navigation elements often are consistent for all users of the site. With the recommended configuration to disable security trimming, this navigation provider does not require enumerating site structure and is highly scalable with acceptable performance impact.
 
@@ -56,7 +56,7 @@ The [Page Diagnostics for SharePoint tool](https://aka.ms/perftool) is a browser
 
 The tool generates a report for each analyzed page showing how the page performs against a pre-defined set of rules and displays detailed information when results for a test fall outside the baseline value. SharePoint Online administrators and designers can use the tool to troubleshoot performance issues to ensure that new pages are optimized prior to publishing.
 
-**SPRequestDuration** in particular is the time it takes for SharePoint to process the page. Heavy navigation (like including pages in navigation), complex site hierarchies, and other configuration and topology options can all dramatically 
+**SPRequestDuration** in particular is the time it takes for SharePoint to process the page. Heavy navigation (like including pages in navigation), complex site hierarchies, and other configuration and topology options can all dramatically contribute to longer durations.
 
 ## Using structural navigation in SharePoint Online
 
@@ -64,18 +64,17 @@ This is the out-of-the-box navigation used by default and is the most straightfo
 
 ### How to implement structural navigation caching
 
-Under **Site Settings** > **Look and Feel** > **Navigation**, you can validate if structural navigation is selected for either global navigation or current navigation. Selecting Show pages will have negative impact on performance.
+Under **Site Settings** > **Look and Feel** > **Navigation**, you can validate if structural navigation is selected for either global navigation or current navigation. Selecting **Show pages** will have negative impact on performance.
 
 ![Structural navigation with Show Subsites selected](media/SPONavOptionsStructuredShowSubsites.png)
 
-Caching can be enabled at the site level and at the site collection level.
+Caching can be enabled or disabled at the site collection level and at the site level, and is enabled for both by default. To enable at the site collection level, under **Site Settings** > **Site Collection Administration** > **Site Collection Navigation**, check the box for **Enable caching**.
+
+![Enable caching at site level](media/structural-nav/structural-nav-caching-site-coll.png)
+
 To enable at the site level, under **Site Settings** > **Navigation**, check the box for **Enable caching**.
 
 ![Enable caching at site level](media/structural-nav/structural-nav-caching-site.png)
-
-To enable at the site collection level, under **Site Settings** > **Site Collection Administration** > **Site Collection Navigation**, check the box for **Enable caching**.
-
-![Enable caching at site level](media/structural-nav/structural-nav-caching-site-coll.png)
 
 ## Using managed navigation and metadata in SharePoint Online
 
