@@ -11,8 +11,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Priority
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 description: "Learn how to move a SharePoint site to a different geo location."
 ---
 
@@ -187,6 +186,17 @@ OneNote win32 client and UWP (Universal) App will automatically detect and seaml
 ### Teams (applicable to Office 365 Group connected sites)
 
 When the SharePoint site geo move completes, users will have access to their Office 365 Group site files on the Teams app. Additionally, files shared via Teams chat from their site prior to geo move will continue to work after move is complete.
+
+Known issues:
+
+|Issue|Workaround|
+|:----|:---------|
+|Files present in the Files tab before the geo move can’t be open from within Teams.|Open the file from SharePoint.|
+|Files that have been shared in conversations prior to the geo move won't open in Teams desktop.|Open the file from the Files tab.|
+|Channel Files tab may not open on first visit after the geo move.|Visit the Files tab again.|
+|File upload in channel conversation may not work after site move.|Upload files via the Files tab.|
+|File search in Teams will not show results after the geo move.|Browse for files via the Files tab.|
+|The Microsoft Teams view within the Files App (left navigation) may not show files until the geo moved site’s Files tab is refreshed.|Visit the Files tab for the site that was moved.|
 
 ### SharePoint Mobile App (iOS/Android)
 
