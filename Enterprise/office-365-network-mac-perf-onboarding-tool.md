@@ -3,7 +3,7 @@ title: "Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/31/2020
+ms.date: 04/08/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -114,6 +114,28 @@ Where an SSL certificate is found that isn't provided by Microsoft, we show the 
 ## Network path diagnostics
 
 This section shows the results of an ICMP traceroute to the Exchange Online service front door, the SharePoint Online service front door, and the Microsoft Teams service front door. It is provided for information only and there is no associated network insight.
+
+## FAQ
+
+Here are answers to some of our frequently asked questions.
+
+### Is this tool released and supported by Microsoft?
+
+It is currently a proof of concept and we plan to provide updates regularly until we reach general availability release status with support from Microsoft. Please provide feedback to help us improve. We are planning to publish a more detailed Office 365 Network Onboarding guide as part of this tool which is customized for the organization by its test results.
+
+### What is Microsoft 365 service front door?
+
+The Microsoft 365 service front door is an entry point on Microsoft's global network where Office clients and services terminate their network connection. For an optimal network connection to Microsoft 365, it is recommended that your network connection is terminated into the closest Microsoft 365 front door in your city or metro.
+
+Note: Microsoft 365 service front door has no direct relationship to the "Azure Front Door Service" product available in the Azure marketplace.
+
+### What is an optimal Microsoft 365 service front door?
+
+An optimal Microsoft 365 service front door is one that is closest to your network egress, generally in your city or metro area. Use the Microsoft 365 network performance tool to determine location of your in-use Microsoft 365 service front door and optimal service front door. If the tool determines your in-use front door is optimal, then you are optimally connecting into Microsoft's global network.
+
+### What is an internet egress location?
+
+The internet egress Location is the location where your network traffic exits your enterprise network and connects to the Internet. This is also identified as the location where you have a Network Address Translation (NAT) device and usually where you connect with an Internet Service Provider (ISP). If you see a long distance between your location and your internet egress Location, then this may identify a significant WAN backhaul.
 
 ## Related topics
 
