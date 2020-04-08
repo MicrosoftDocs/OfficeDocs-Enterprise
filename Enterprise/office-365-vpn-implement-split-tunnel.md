@@ -3,7 +3,7 @@ title: "Implementing VPN split tunnelling for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 3/27/2020
+ms.date: 4/3/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -221,7 +221,7 @@ Some VPN client software allows routing manipulation based on URL. However, Team
 
 In certain scenarios, often unrelated to Teams client configuration, media traffic still traverses the VPN tunnel even with the correct routes in place. If you encounter this scenario then using a firewall rule to block the Teams IP subnets or ports from using the VPN should suffice.
 
-A current requirement for this to work in 100% of scenarios is to also add the IP range **13.107.60.1/32**. This should not be necessary very shortly due to an update in the latest Teams client due for release w/c **March 30 2020**.
+A current requirement for this to work in 100% of scenarios is to also add the IP range **13.107.60.1/32**. This should not be necessary very shortly due to an update in the latest Teams client due for release in early **April 2020**. We will update this article with the build details as soon as this information is available.
 
 Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and is marked as **Allow** in the URL/IP data and thus can safely be routed through the VPN client if desired.
 
@@ -264,6 +264,8 @@ If you need further data to troubleshoot, or are requesting assistance from Micr
 This section provides links to detailed guides for implementing split tunnelling for Office 365 traffic from the most common partners in this space. We'll add additional guides as they become available.
 
 - **Cisco Anyconnect**: [Optimize Anyconnect Split Tunnel for Office365](https://www.cisco.com/c/en/us/support/docs/security/anyconnect-secure-mobility-client/215343-optimize-anyconnect-split-tunnel-for-off.html)
+- **Palo Alto GlobalProtect**: [Optimizing Office 365 Traffic via VPN Split Tunnel Exclude Access Route](https://live.paloaltonetworks.com/t5/Prisma-Access-Articles/GlobalProtect-Optimizing-Office-365-Traffic/ta-p/319669)
+- **F5 Networks BIG-IP APM**: [Optimizing Office 365 traffic on Remote Access through VPNs when using BIG-IP APM](https://devcentral.f5.com/s/articles/SSL-VPN-Split-Tunneling-and-Office-365)
 
 ## FAQ
 
@@ -324,6 +326,8 @@ Port 80 is only used for things like redirect to a port 443 session, no customer
 [Office 365 performance optimization for China users](office-365-networking-china.md)
 
 [Alternative ways for security professionals and IT to achieve modern security controls in today's unique remote work scenarios (Microsoft Security Team blog)](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
+
+[Enhancing VPN performance at Microsoft: using Windows 10 VPN profiles to allow auto-on connections](https://www.microsoft.com/itshowcase/enhancing-remote-access-in-windows-10-with-an-automatic-vpn-profile)
 
 [Running on VPN: How Microsoft is keeping its remote workforce connected](https://www.microsoft.com/itshowcase/blog/running-on-vpn-how-microsoft-is-keeping-its-remote-workforce-connected/?elevate-lv)
 
