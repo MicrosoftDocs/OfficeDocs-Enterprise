@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Network Connectivity Location Services (preview)"
+title: "Microsoft 365 Network Connectivity Location Services (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 Network Connectivity Location Services (preview)"
+description: "Microsoft 365 Network Connectivity Location Services (preview)"
 ---
 
-# Office 365 Network Connectivity Location Services (preview)
+# Microsoft 365 Network Connectivity Location Services (preview)
 
-The Microsoft 365 Admin Center now shows **Network Insights and performance recommendations**, which are live performance metrics collected from your Office 365 tenant and available to view only by administrative users in your tenant. Organizational network connectivity is designed per office location through a network egress location to the Internet. Office 365 client connectivity uses that route and then across the Internet to Microsoft service front door servers. Identifying office locations is key to being able to show these network insights.
+The Microsoft 365 Admin Center now shows **Network Insights and performance recommendations**, which are live performance metrics collected from your Microsoft 365 tenant and available to view only by administrative users in your tenant. Organizational network connectivity is designed per office location through a network egress location to the Internet. Microsoft 365 client connectivity uses that route and then across the Internet to Microsoft service front door servers. Identifying office locations is key to being able to show these network insights.
 
 ## Location in network measurements
 
