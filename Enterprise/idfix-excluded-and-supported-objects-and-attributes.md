@@ -12,12 +12,14 @@ search.appverid:
 - MOE150
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection:
 - Ent_O365
 - M365-identity-device-management
 ms.assetid: cc453ae5-fa9b-4836-b0ce-c7e824b1e36d
-description: "Lists the attributes that are excluded and supported by IdFix tool."
+description: This article lists the objects, attributes, and values that are excluded and supported by IdFix tool.
 ---
 
 # IdFix excluded and supported objects and attributes

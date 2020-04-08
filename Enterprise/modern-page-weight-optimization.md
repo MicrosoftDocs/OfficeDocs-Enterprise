@@ -14,11 +14,13 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.reviewer: sstewart
 search.appverid:
 - MET150
-description: "Learn how to optimize page weight in SharePoint Online modern site pages."
+description: Learn how to use the Page Diagnostics tool to optimize page weight in SharePoint Online modern site pages.
 ---
 
 # Optimize page weight in SharePoint Online modern site pages
