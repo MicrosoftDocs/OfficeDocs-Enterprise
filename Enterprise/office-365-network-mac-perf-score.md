@@ -1,5 +1,5 @@
 ---
-title: "Office 365 network assessment (preview)"
+title: "Microsoft 365 network assessment (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,25 +13,25 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 network assessment (preview)"
+description: "Microsoft 365 network assessment (preview)"
 ---
 
-# Office 365 network assessment (preview)
+# Microsoft 365 network assessment (preview)
 
-In the Microsoft 365 Admin Center's Connectivity to Microsoft 365 page, **network assessments** distill an aggregate of many network performance metrics into a snapshot of your enterprise network health, represented by a points value from 1 - 100. Network assessments are scoped to both the entire tenant and for each geographic location from which users connect to your tenant, providing Office 365 administrators with an easy way to instantly grasp a gestalt of the enterprise's network health and quickly drill down into a detailed report for any global office location.
+In the Microsoft 365 Admin Center's Connectivity to Microsoft 365 page, **network assessments** distill an aggregate of many network performance metrics into a snapshot of your enterprise network health, represented by a points value from 1 - 100. Network assessments are scoped to both the entire tenant and for each geographic location from which users connect to your tenant, providing Microsoft 365 administrators with an easy way to instantly grasp a gestalt of the enterprise's network health and quickly drill down into a detailed report for any global office location.
 
 The network assessment points value is an average measurement of latency, bandwidth, download speed and connection quality metrics compiled live at the time they are viewed. Performance metrics for Microsoft-owned networks are excluded from these measurements to ensure that assessment results are unambiguous and specific to the corporate network.
 
 ![Network assessment value](Media/m365-mac-perf/m365-mac-perf-overview-score-top.png)
 
-A very low network assessment value suggests that Office 365 clients will have significant problems connecting to the tenant or maintaining a responsive user experience, while a high value indicates a properly configured network with few ongoing performance issues. A value of 80% represents a healthy baseline where you should not expect to receive regular user complaints about Office 365 connectivity or responsiveness due to network performance. As iterative network connectivity improvements are made, this value will increase along with user experience.
+A very low network assessment value suggests that Microsoft 365 clients will have significant problems connecting to the tenant or maintaining a responsive user experience, while a high value indicates a properly configured network with few ongoing performance issues. A value of 80% represents a healthy baseline where you should not expect to receive regular user complaints about Microsoft 365 connectivity or responsiveness due to network performance. As iterative network connectivity improvements are made, this value will increase along with user experience.
 
 >[!IMPORTANT]
->Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+>Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Microsoft 365 tenants that have been enrolled in the feature preview program.
 
 ## Network assessment panel
 
-Each network assessment, whether scoped to the tenant or to a specific office location, shows a panel with details about the assessment. This panel shows a bar chart of the assessment both as a percentage and as the total points for each component workload including only workloads where measurement data was received. For an office location network assessment, we also show a benchmark which is the median of all Office 365 clients that reported data in the same city as your office location.
+Each network assessment, whether scoped to the tenant or to a specific office location, shows a panel with details about the assessment. This panel shows a bar chart of the assessment both as a percentage and as the total points for each component workload including only workloads where measurement data was received. For an office location network assessment, we also show a benchmark which is the median of all Microsoft 365 clients that reported data in the same city as your office location.
 
 ![Example network assessment value](Media/m365-mac-perf/m365-mac-perf-overview-score.png)
 
@@ -43,7 +43,7 @@ The **Assessment history** shows the past 30 days of the assessment and the benc
 
 A network assessment measures the design of the network perimeter of an office location to Microsoft's network. Improvements to the network perimeter is best done at each office location, or where network connectivity is aggregated there may be improvements that impact multiple locations.
 
-We show a network assessment value for the whole Office 365 tenant on the network performance overview page and a specific value for each detected office location on that location's summary page.
+We show a network assessment value for the whole Microsoft 365 tenant on the network performance overview page and a specific value for each detected office location on that location's summary page.
 
 ## Exchange Online
 
@@ -61,8 +61,8 @@ For Microsoft Teams the Network quality is measured as UDP latency, UDP jitter, 
 
 [Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
 
-[Office 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
+[Microsoft 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
 
-[Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
-[Office 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)
+[Microsoft 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)
