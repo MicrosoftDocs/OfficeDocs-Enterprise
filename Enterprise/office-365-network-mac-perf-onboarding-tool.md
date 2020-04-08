@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Network Onboarding Tool in the M365 Admin Center (preview)"
+title: "Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,23 +13,23 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 Network Onboarding Tool in the M365 Admin Center (preview)"
+description: "Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)"
 ---
 
-# Office 365 Network Onboarding Tool in the M365 Admin Center (preview)
+# Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)
 
-The Office 365 network onboarding tool is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
+The Microsoft 365 network onboarding tool is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
 
-The network insights in the Microsoft 365 Admin Center are based on in-product measurements for your Office 365 tenant. In comparison, the network insights from the Office 365 network onboarding tool are run locally in the tool. Testing that can be done in-product is limited and by running tests local to the user more data can be gathered resulting in deeper insights. Consider then that the network insights in the Microsoft 365 Admin Center will show that there is a networking problem for use of Office 365 at a specific office location. The Office 365 network onboarding tool can help to identify the root cause of that problem leading to a recommended network performance improvement action.
+The network insights in the Microsoft 365 Admin Center are based on in-product measurements for your Microsoft 365 tenant. In comparison, the network insights from the Microsoft 365 network onboarding tool are run locally in the tool. Testing that can be done in-product is limited and by running tests local to the user more data can be gathered resulting in deeper insights. Consider then that the network insights in the Microsoft 365 Admin Center will show that there is a networking problem for use of Microsoft 365 at a specific office location. The Microsoft 365 network onboarding tool can help to identify the root cause of that problem leading to a recommended network performance improvement action.
 
-We recommend that these be used together where networking quality status can be assessed for each office location in the Microsoft 365 Admin Center and more specifics can be found after deployment of testing based on the Office 365 network onboarding tool.
+We recommend that these be used together where networking quality status can be assessed for each office location in the Microsoft 365 Admin Center and more specifics can be found after deployment of testing based on the Microsoft 365 network onboarding tool.
 
 >[!IMPORTANT]
->Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+>Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Microsoft 365 tenants that have been enrolled in the feature preview program.
 
 ## The advanced tests client application
 
-There are two parts to the Office 365 network onboarding tool. There is the web site <https://connectivity.office.com> and there is a downloadable Windows client application. The downloadable client runs advanced network connectivity tests and most of the tests require this to be run.
+There are two parts to the Microsoft 365 network onboarding tool. There is the web site <https://connectivity.office.com> and there is a downloadable Windows client application. The downloadable client runs advanced network connectivity tests and most of the tests require this to be run.
 
 You can run the advanced client test from the web site, and it will populate results back into the web page as it runs.
 
@@ -49,7 +49,7 @@ The network egress location is shown on the map view and connected to the user o
 
 The location looked up from the network egress IP Address may not be accurate and this would lead to a false result from this test. To validate if this error is occurring for a specific IP Address you can use publicly accessible network IP Address location web sites.
 
-Implementing local and direct network egress from user office locations to the Internet is recommended for Office 365 network connectivity. Improvements to local and direct egress are the best way to address this network insight.
+Implementing local and direct network egress from user office locations to the Internet is recommended for Microsoft 365 network connectivity. Improvements to local and direct egress are the best way to address this network insight.
 
 ## Exchange Online service front door
 
@@ -61,7 +61,7 @@ We calculate a potential improvement in TCP latency to the Exchange Online servi
 
 ## Comparison of performance of customers in the area
 
-The network TCP latency of the user office location to the Exchange Online service front door is compared to other Office 365 customers in the same metro area. A network insight is shown if 10% or more of customers in the same metro area have better performance.
+The network TCP latency of the user office location to the Exchange Online service front door is compared to other Microsoft 365 customers in the same metro area. A network insight is shown if 10% or more of customers in the same metro area have better performance.
 
 This network insight is generated on the basis that all users in a city have access to the same telecommunications infrastructure and the same proximity to Internet circuits and Microsoft's network.
 
@@ -87,11 +87,11 @@ This network insight will specifically impact the selection of the Exchange Onli
 
 ## DNS lookup of Exchange Online front end server and SharePoint Online front end server
 
-These show the DNS record for the service front door for these two Office 365 workloads. They are provided for information only and there is no associated network insight.
+These show the DNS record for the service front door for these two Microsoft 365 workloads. They are provided for information only and there is no associated network insight.
 
 ## Proxy server identification
 
-We identify proxy server(s) configured on the local machine. We identify if any of these are configured in the network path for optimize category Office 365 network traffic. We identify the distance from the user office location to the proxy servers. The distance is tested first by ICMP ping and if that fails we test with TCP ping and finally if that fails we look up the proxy server IP Address in an IP Address location database. We show a network insight if the proxy server is further than 500 miles (800 kilometers) away from the user office location.
+We identify proxy server(s) configured on the local machine. We identify if any of these are configured in the network path for optimize category Microsoft 365 network traffic. We identify the distance from the user office location to the proxy servers. The distance is tested first by ICMP ping and if that fails we test with TCP ping and finally if that fails we look up the proxy server IP Address in an IP Address location database. We show a network insight if the proxy server is further than 500 miles (800 kilometers) away from the user office location.
 
 ## Media quality checks
 
@@ -101,13 +101,13 @@ These are UDP protocol tests as is used by Microsoft Teams audio and video call 
 
 ## TCP Connectivity tests
 
-We test for HTTP connectivity from the user office location to all of the required Office 365 network endpoints. These are published at [https://aka.ms/o365ip](https://aka.ms/o365ip). A network insight is shown for any required network endpoints which cannot be connected to.
+We test for HTTP connectivity from the user office location to all of the required Microsoft 365 network endpoints. These are published at [https://aka.ms/o365ip](https://aka.ms/o365ip). A network insight is shown for any required network endpoints which cannot be connected to.
 
 Connectivity ay be blocked by a proxy server, a firewall, or another network security device on the enterprise network perimeter or in use as a cloud proxy.
 
 ## SSL interception tests
 
-We test the SSL certificate at each required Office 365 network endpoint that is in the optimize or allow category as defined at [https://aka.ms/o365ip](https://aka.ms/o365ip). If any tests do not find a Microsoft SSL certificate, then the encrypted network connected must have been intercepted by an intermediary network device. A network insight is shown on any intercepted encrypted network endpoints.
+We test the SSL certificate at each required Microsoft 365 network endpoint that is in the optimize or allow category as defined at [https://aka.ms/o365ip](https://aka.ms/o365ip). If any tests do not find a Microsoft SSL certificate, then the encrypted network connected must have been intercepted by an intermediary network device. A network insight is shown on any intercepted encrypted network endpoints.
 
 Where an SSL certificate is found that isn't provided by Microsoft, we show the FQDN for the test and the in-use SSL certificate owner. This SSL certificate owner may be a proxy server vendor, or it may be an enterprise self-signed certificate.
 
@@ -119,8 +119,8 @@ This section shows the results of an ICMP traceroute to the Exchange Online serv
 
 [Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
 
-[Office 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
+[Microsoft 365 network performance insights (preview)](office-365-network-mac-perf-insights.md)
 
-[Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
+[Microsoft 365 network assessment (preview)](office-365-network-mac-perf-score.md)
 
-[Office 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)
+[Microsoft 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)
