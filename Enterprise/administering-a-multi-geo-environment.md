@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Priority
-description: Learn about administering the different SharePoint and OneDrive services in a multi-geo environment.
+description: "In this article, you'll learn about administering SharePoint and OneDrive services in a multi-geo environment."
 ---
 
 # Administering a multi-geo environment
