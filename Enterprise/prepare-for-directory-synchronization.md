@@ -108,7 +108,7 @@ The attributes that you need to prepare are listed here:
   - The attribute value must be unique within the directory.
   
     > [!NOTE]
-    > Underscores ("_") in the synchronized name indicates that the original value of this attribute contains invalid characters. The original value can contain letters, numbers, and the characters !, #, $, %, &, ', \*, +, -, /, =, ?, ^, _, `, {, |, } and ~. For more information on this attribute, see [Exchange alias attribute](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps).
+    > Underscores ("_") in the synchronized name indicates that the original value of this attribute contains invalid characters. For more information on this attribute, see [Exchange alias attribute](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps).
     >
       
 - **proxyAddresses**

@@ -35,6 +35,12 @@ Find information about the contractual commitments for the storage location of c
 
 For Azure Active Directory data locations, please visit [AAD Data Map](https://go.microsoft.com/fwlink/p/?linkid=2092972).
 
+
+Due to the unprecedented circumstances around COVID-19 and the need to manage online services demand in Europe, if your organization is an educational institution, we may provision your Office 365 tenant in the European Union (EU), European Free Trade Association (EFTA), the United Kingdom (UK), United States (US), or Canada (CA), or transfer your data to any data centers in the EU, EFTA, UK, US, or CA.  This means that your data may be stored at rest within the EU, EFTA, UK, US, or CA.  Our commitment to compliance, privacy, and security remains unchanged while we implement necessary and prudent measures to maintain service availability.  We will comply with all applicable laws with respect to data transfers.
+
+
+
+
 ## FAQ
 
 ### How does Microsoft define data?
@@ -91,8 +97,8 @@ The following global geographies can store data at rest. The locations where cus
 
 | Global Geographies | Locations where customer data may be stored |
 | --- | --- |
-| Global Geography 1 – EMEA (Europe, Middle East and Africa) | Austria, Finland, France, Germany, Ireland, Netherlands, United Kingdom |
-| Global Geography 2 – Asia Pacific | Australia, Hong Kong, India, Japan, Malaysia, Singapore, South Korea |
+| Global Geography 1 – EMEA (Europe, Middle East and Africa) | Austria, Finland, France, Ireland, Netherlands |
+| Global Geography 2 – Asia Pacific | Hong Kong, Japan, Malaysia, Singapore, South Korea |
 | Global Geography 3 - Americas | Brazil, Chile, United States |
 
 ## Country/Region specific Data Center city locations
@@ -103,7 +109,7 @@ For country/region specific data centers, the following defines the cities where
 | --- | --- |
 | Australia | New South Wales, Victoria |
 | Canada | Québec City, Toronto |
-| European Union | Austria, Finland, France, Germany, Ireland, Netherlands, United Kingdom |
+| European Union | Austria, Finland, France, Ireland, Netherlands |
 | France | Paris, Marseille |
 | Germany | Frankfurt, Berlin |
 | India | Chennai, Mumbai, Pune |

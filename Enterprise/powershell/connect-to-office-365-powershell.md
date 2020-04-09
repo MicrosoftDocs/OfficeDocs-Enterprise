@@ -158,9 +158,8 @@ If you receive errors, check the following requirements:
     
 - **If you receive a "Get-Item : Cannot find path" error, use this command:** 
 
-  ```powershell
+```powershell
   (dir "C:\Program Files\WindowsPowerShell\Modules\MSOnline").Name
- 
 ```
 
 ## See also
