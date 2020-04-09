@@ -100,7 +100,7 @@ The following table shows the Office 365 service plans and their friendly names 
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |Azure Rights Management (RMS)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |Office Professional Plus  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |Office 365 ProPlus  <br/> |
 | `MCOSTANDARD` <br/> |Skype for Business Online  <br/> |
 | `SHAREPOINTWAC` <br/> |Office   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
