@@ -1061,7 +1061,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Yammer | United States |
 | OneNote Services | Canada |
 | Stream | Canada |
-| Whiteboard | Canada |
+| Whiteboard | United States |
 | Forms | United States |
 | Workplace Analytics | United States |
 </p></details>
