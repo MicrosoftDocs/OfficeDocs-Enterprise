@@ -14,8 +14,9 @@ f1.keywords:
 ms.custom: 
 - Ent_Office_Other
 - PowerShell
+- seo-marvel-apr2020
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
-description: "Explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts."
+description: This article explains how to use Office 365 PowerShell to block and unblock access to Office 365 accounts.
 ---
 
 # Block user accounts with Office 365 PowerShell

@@ -9,10 +9,10 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 localization_priority: Priority
 ms.collection: Strat_SP_gtc
-description: "Learn how to configure eDiscovery in Office 365 Multi-Geo."
+description: Learn how to use the Region parameter to configure eDiscovery for use in satellite locations in Office 365 Multi-Geo.
 ---
 
 # Office 365 Multi-Geo eDiscovery configuration

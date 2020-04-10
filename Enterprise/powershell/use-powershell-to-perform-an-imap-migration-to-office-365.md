@@ -11,9 +11,9 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: c28de4a5-1e8e-4491-9421-af066cde7cdd
-description: "Summary: Learn how to use Windows PowerShell to perform an IMAP migration to Office 365."
+description: Learn how to use Windows PowerShell to perform an Internet Mail Access Protocol (IMAP) migration to Office 365.
 ---
 
 # Use PowerShell to perform an IMAP migration to Office 365

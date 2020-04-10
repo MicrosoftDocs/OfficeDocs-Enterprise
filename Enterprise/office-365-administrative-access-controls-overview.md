@@ -14,7 +14,8 @@ f1.keywords:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: "Summary: An overview of Office 365's Administrative Access Controls and data categorization."
+description: This article provides an overview of Office 365's Administrative Access Controls and data categorization.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Administrative Access Controls in Office 365 

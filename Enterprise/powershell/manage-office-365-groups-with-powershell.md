@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
@@ -18,7 +20,7 @@ search.appverid:
 - BSA160
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
-description: "Learn how to do common management tasks for Office 365 Groups in Microsoft PowerShell."
+description: In this article, learn how to do common management tasks for Office 365 Groups in Microsoft PowerShell.
 ---
 
 # Manage Office 365 Groups with PowerShell

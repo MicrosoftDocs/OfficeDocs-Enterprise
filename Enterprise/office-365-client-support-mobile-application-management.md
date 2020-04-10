@@ -14,7 +14,8 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: "Understand Office 365 client app support for mobile application management"
+description: In this article, learn which platforms, clients, and Powershell modules support mobile application management for Office 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Office 365 Client App Support — Mobile Application Management
