@@ -10,10 +10,10 @@ ms.service: o365-solutions
 ms.collection: SPO_Content
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
-description: "Learn about the SharePoint, OneDrive, and Exchange user experience in a multi-geo environment."
+description: Learn about the SharePoint, OneDrive, and Exchange user experience in a multi-geo environment for Office 365.
 ---
 
 # User experience in a multi-geo environment

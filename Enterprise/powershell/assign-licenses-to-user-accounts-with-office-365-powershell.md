@@ -16,11 +16,12 @@ ms.custom:
 - LIL_Placement
 - PowerShell
 - O365ITProTrain
+- seo-marvel-apr2020
 ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 
-description: "How to use Office 365 PowerShell to assign an Office 365 license to unlicensed users."
+description: In this article, learn how to use Office 365 PowerShell to assign an Office 365 license to unlicensed users.
 ---
 
 # Assign licenses to user accounts with Office 365 PowerShell

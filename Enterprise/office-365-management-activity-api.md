@@ -14,7 +14,8 @@ ms.collection:
 - M365-analytics
 f1.keywords:
 - NOCSH
-description: "A brief summary about the Office 365 Management Activity API."
+description: In this article, you can find a brief summary about the Office 365 Management Activity API and the information it provides from activity logs.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Office 365 Management Activity API

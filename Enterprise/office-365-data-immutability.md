@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Defines and explains data immutability in Office 365."
+description: Learn how Office 365 preserves data in discoverable form to address regulatory compliance, internal governance requirements, and litigation risks.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Immutability in Office 365
