@@ -78,15 +78,15 @@ If you are using Project Professional 2010 or Project Standard 2010 and want to 
  
 #### Moving to a newer version of Project client
 
-If you are migrating from Project Standard 2010, you can migrate to a newer version of Project Standard (Project Standard 2013, Project Standard 2016, or Project Standard 2019).  We recommend moving to the newest version to take advantage of the latest features and functionality. Also, migrating to less current version (Project Standard 2013 and Project Standard 2016) means that you will need to migrate from of those versions sooner as their end of support dates come up.
+If you are migrating from Project Standard 2010, you can migrate to a newer version of Project Standard (Project Standard 2016 or Project Standard 2019).  We recommend moving to the newest version to take advantage of the latest features and functionality. Also, migrating to a less current version (Project Standard 2016) means that you will need to migrate from this version sooner as its end of support date comes up.
 
-Similarly, if you are migrating from Project Professional 2010, you can choose to migrate to a newer version (Project Professional 2013, Project Professional 2016, or Project Professional 2019). We recommend moving to the newest version if possible.  If you are using Project Professional to connect to Project Server, make sure that you migrate to a version of Project Professional that is supported to connect with the version of Project Server that you are using.
+Similarly, if you are migrating from Project Professional 2010, you can choose to migrate to a newer version (Project Professional 2019 or Project Professional 2016). We recommend moving to the newest version if possible.  If you are using Project Professional to connect to Project Server, make sure that you migrate to a version of Project Professional that is supported to connect with the version of Project Server that you are using.
 
-Project Professional 2010 users can also choose to migrate to the Project Online Desktop client. It is a subscription based version of Project Professional 2019, and is included in Project Plan 3 and Project Plan 5 subscriptions. 
+Project Professional 2010 users can also choose to migrate to the Project Online Desktop client. It is a subscription-based version of Project Professional 2019, and is included in Project Plan 3 and Project Plan 5 subscriptions. 
 
 #### Moving to an online solution
 
-You can also choose to migrate from Project Professional 2010 or Project Standard 2010 to Project's subscription- based online solutions, such as Project Online and the newer [Project for the web](https://support.office.com/article/what-can-you-do-with-project-for-the-web-b30f5442-be5f-43d2-9072-c95bff778ea1). While you can't save your project plans to MPP files with either, both offer a number new features and benefits that are worth exploring.
+You can also choose to migrate from Project Professional 2010 or Project Standard 2010 to Project's subscription-based online solutions. Both Project Plan 3 and Plan 5 include Project Online and the latest cloud offering, [Project for the web](https://support.office.com/article/what-can-you-do-with-project-for-the-web-b30f5442-be5f-43d2-9072-c95bff778ea1). Both offer a number of new features and benefits that are worth exploring.
 
 For more information about features included in both, as well as Project Plan licenses they are included in, see the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
 
