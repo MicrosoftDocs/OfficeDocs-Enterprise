@@ -80,7 +80,7 @@ If you are using Project Professional 2010 or Project Standard 2010 and want to 
 
 If you are migrating from Project Standard 2010, you can migrate to a newer version of Project Standard (Project Standard 2013, Project Standard 2016, or Project Standard 2019).  We recommend moving to the newest version to take advantage of the latest features and functionality. Also, migrating to less current version (Project Standard 2013 and Project Standard 2016) means that you will need to migrate from of those versions sooner as their end of support dates come up.
 
-Similarly, if you are migrating from Project Professional 2019, you can choose to migrate to a newer version (Project Professional 2013, Project Professional 2016, or Project Professional 2019). We recommend moving to the newest version if possible.  If you are using Project Professional to connect to Project Server, make sure that you migrate to a version of Project Professional that is supported to connect with the version of Project Server that you are using.
+Similarly, if you are migrating from Project Professional 2010, you can choose to migrate to a newer version (Project Professional 2013, Project Professional 2016, or Project Professional 2019). We recommend moving to the newest version if possible.  If you are using Project Professional to connect to Project Server, make sure that you migrate to a version of Project Professional that is supported to connect with the version of Project Server that you are using.
 
 Project Professional 2010 users can also choose to migrate to the Project Online Desktop client. It is a subscription based version of Project Professional 2019, and is included in Project Plan 3 and Project Plan 5 subscriptions. 
 
