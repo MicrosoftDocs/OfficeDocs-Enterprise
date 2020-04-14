@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: An explanation of isolation controls within Office 365."
+description: Learn how isolation controls work within Office 365, allowing services to inter-operate or remain autonomous as needed.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Office 365 Isolation Controls 

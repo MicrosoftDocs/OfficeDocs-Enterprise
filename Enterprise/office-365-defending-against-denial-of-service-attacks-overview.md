@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An overview of Denial-of-Service (DoS) attacks."
+description: In this article, find an overview with the definition and symptoms of Denial-of-Service (DoS) attacks.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Defend Against Denial-of-Service Attacks in Office 365
