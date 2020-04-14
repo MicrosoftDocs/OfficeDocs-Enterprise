@@ -3,7 +3,7 @@ title: "Implementing VPN split tunnelling for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/9/2020
+ms.date: 4/14/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -268,6 +268,7 @@ This section provides links to detailed guides for implementing split tunnelling
 - **Palo Alto GlobalProtect**: [Optimizing Office 365 Traffic via VPN Split Tunnel Exclude Access Route](https://live.paloaltonetworks.com/t5/Prisma-Access-Articles/GlobalProtect-Optimizing-Office-365-Traffic/ta-p/319669)
 - **F5 Networks BIG-IP APM**: [Optimizing Office 365 traffic on Remote Access through VPNs when using BIG-IP APM](https://devcentral.f5.com/s/articles/SSL-VPN-Split-Tunneling-and-Office-365)
 - **Citrix Gateway**: [Optimizing Citrix Gateway VPN split tunnel for Office365](https://docs.citrix.com/en-us/citrix-gateway/13/optimizing-citrix-gateway-vpn-split-tunnel-for-office365.html)
+- **Pulse Secure**: [VPN Tunneling: How to configure split tunneling to exclude Office365 applications](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44417)
 
 ## FAQ
 
