@@ -3,7 +3,7 @@ title: "Upgrading from SharePoint 2010"
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 08/21/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -18,14 +18,14 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: "Support ends for SharePoint 2010 and SharePoint Server 2010 ends on October 13, 2020. Use this article as a guide to upgrade to SharePoint Online or a newer version of SharePoint Server on-premises."
+description: "Support ends for SharePoint 2010 and SharePoint Server 2010 on April 13, 2021. Use this article as a guide to upgrade to SharePoint Online or a newer version of SharePoint Server on-premises."
 ---
 
 # Upgrading from SharePoint 2010
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **October 13, 2020**. This article details resources to help you migrate your existing SharePoint Server 2010 data to SharePoint Online in Office 365, or upgrade your on-premises SharePoint Server 2010 environment.
+Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **April 13, 2021**. This article details resources to help you migrate your existing SharePoint Server 2010 data to SharePoint Online in Office 365, or upgrade your on-premises SharePoint Server 2010 environment.
   
 ## What is end of support?
 
