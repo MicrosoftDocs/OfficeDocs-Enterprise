@@ -13,15 +13,15 @@ search.appverid:
 ms.assetid: 5bb64310-36fc-473d-b791-a0176f21707f
 f1.keywords:
 - NOCSH
-description: "Existing Office 365 customers will need to submit a request before the deadline for their country in order to have the customer data of their participating Office 365 services moved to their new geo."
+description: "Existing Office 365 customers will need to submit a request before the deadline for their country in order to have the customer data of their participating Microsoft 365 services moved to their new geo."
 ---
 
 # How to request your data move
 
 > [!NOTE]
-> The information on this page only applies to customers who had existing Office 365 tenants before the new datacenters in their geo launched. 
+> The information on this page only applies to customers who had existing Microsoft 365 tenants before the new datacenters in their geo launched. 
   
-Existing Office 365 customers are eligible to request early migration for their entire organization’s core customer data at rest.  
+Existing Microsoft 365 customers are eligible to request migration for their entire organization’s core customer data at rest.  
   
 ## When can I request a move?
 
@@ -38,6 +38,7 @@ Existing Office 365 customers are eligible to request early migration for their 
 |South Africa  <br/> |July 25, 2019  <br/> |June 30, 2020  <br/> |
 |Switzerland, Liechtenstein  <br/> |December 10, 2019  <br/> |June 30, 2020  <br/> |
 |Germany  <br/> |Planned  <br/> |Planned  <br/> |
+|Norway  <br/> |April 15, 2020  <br/> |October 31, 2020  <br/> |
    
 ## How to request a move
 
@@ -50,7 +51,7 @@ Select the tab **Organisation profile**, then select the option **Data residency
 - Your tenant is not eligible for the Office 365 Move Program.  Eligibility is determined by tenant signup country.
 - All of your core customer data at rest is already located in the new geo (see Data Location section of the page). 
   
-If your organization has data residency requirements and you need to request early migration, click **Opt-in** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the Office 365 Move Program. Select the toggle button next to the text that says **I want my organization's core customer data at rest to migrate**. Then, click **Save**.
+If your organization has data residency requirements and you need to request migration, click **Opt-in** on the top right of the section. A new section will appear on the right side of your screen explaining the details of the Microsoft 365 Move Program. Select the toggle button next to the text that says **I want my organization's core customer data at rest to migrate**. Then, click **Save**.
   
 ![Datacenter opt-in action screen](media/dataresidencyflyoutae.jpg)
   
@@ -66,35 +67,7 @@ Moves may take up to 24 months from the request deadline for your country to com
   
 ## Microsoft Teams
 
-As of January 2020, customers in eligible Office 365 countries can opt-in for migration of Microsoft Teams chat service data.  Opt-in timelines have been reopened or extended for all eligible countries to give customers an opportunity to consider the early migration program with Microsoft Teams in scope.   
-
-## Optional actions before you request a move
-
-Perform the following steps as appropriate.
-  
-### If you use an IP-based firewall, add allow rules for the new IP addresses
-
-We recommend using DNS filtering for firewalls instead of IP addresses. There are no new DNS entries required.
-  
-If you use an IP-based firewall for Internet connectivity, you must add allow rules for the new IP addresses for the destination datacenter geo. IP addresses for new datacenter geos in addition to new servers are continuously added to [Office 365 URLs and IP Address Ranges](https://go.microsoft.com/fwlink/p/?LinkId=229631).
-  
-Consult your firewall documentation for information about how to add allow rules (also known as whitelisting.)
-  
-After adding IP addresses, you may want to test connectivity to the new datacenter geo. To do this, we recommend creating a [new free 30-day trial](https://go.microsoft.com/fwlink/?LinkId=522463) tenant as soon as the new datacenter geo is available. 
-  
-### Test using a new tenant
-
-If you'd like to test connectivity prior to the move, you can set up a [new free 30-day trial tenant](https://go.microsoft.com/fwlink/?LinkId=522463) after the new datacenter geo is available, and use it to experience Office 365 hosted in the new datacenter geo. 
-  
-The trial tenant can't be combined with your existing tenant:
-  
-- Users must use a separate trial account for their testing.
-    
-- There is no way to move data between tenants.
-    
-### Notify users to update out-of-date Exchange settings on mobile devices
-
-If users have a mobile device with the Exchange Server set to **m.outlook.com** or **podxxxxx.outlook.com**, we recommend that they switch to **outlook.office365.com**, following the instructions in [Set up a mobile device to synchronize with your account](https://support.office.com/article/c9139caf-01ab-41a0-827c-3c06ee569ed3).
+As of January 2020, customers in eligible Office 365 countries can opt-in for migration of Microsoft Teams chat service data.  Opt-in timelines have been reopened or extended for all eligible countries to give customers an opportunity to consider the migration program with Microsoft Teams in scope. Customers that previously opted-in for a Data Residency move will also have Teams move to their local datacenter geo.
 
 ## Related topics
 
