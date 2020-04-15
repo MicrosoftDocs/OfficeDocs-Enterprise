@@ -60,7 +60,7 @@ Online/OneDrive for Business are migrated to the same datacenter geo.
   
 Yes. Once a new datacenter geo is available, new Microsoft 365 customers who select a country eligible for the new geo as their country during sign-up will have their core customer data stored at rest in the new datacenter geo.
   
- ## Where is my core customer data is located?
+ ## Where is my core customer data located?
 
 Tenant admins can view the data location card in the Admin Center at any time to confirm the core customer data at rest location for 
 each service, specifically for their tenant.  We also publish the location of datacenter geos, datacenters, and location of Office 
