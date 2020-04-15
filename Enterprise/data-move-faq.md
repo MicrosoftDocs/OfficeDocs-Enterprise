@@ -85,7 +85,7 @@ contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) t
 
 ## What if I want to move my data in order to get better network performance?
   
-Physical proximity to a Microsoft 365 datacenter is not a guarantee for a better networking performance. There are many factors and components that impact the network performance between the end user and the Microsoft 365 service. For more information about this and performance tuning see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
+Physical proximity to a Microsoft 365 datacenter is not a guarantee for a better networking performance. There are many factors and components that impact the network performance between the end-user and the Microsoft 365 service. For more information about this and performance tuning see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
   
  ## Do all the services move their data on the same day?
  
