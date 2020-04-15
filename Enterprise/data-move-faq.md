@@ -133,7 +133,7 @@ No, this is not possible. Customers who have been moved to new geo datacenters c
   
 Yes. Microsoft maintains a large global network with public Internet connections in more than 130 locations in 35 countries around the world with peering agreements with more than 2,700 Internet Service Providers (ISPs). Users will be able to access the datacenters from wherever they are on the Internet.
 
-## My tenant has configured the [Multi Geo add-on](https://aka.ms/multi-geo).  Can I still enroll in my tenant in the Microsoft 365 Move Program to change my default geo and move any user not in a satellite region to the new default geo?
+## My tenant has configured the [Multi Geo add-on](https://aka.ms/multi-geo). Can I still enroll in my tenant in the Microsoft 365 Move Program to change my default geo and move any user not in a satellite region to the new default geo?
 
 Yes, your tenant is eligible to enroll. We will move all EXO mailboxes from your current default geo to your new local datacenter geo.  We will not move any EXO mailboxes configured in Multi Geo satellite regions to continue to respect satellite region data residency as you’ve intended.  
 
