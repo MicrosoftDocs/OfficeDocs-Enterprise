@@ -107,7 +107,7 @@ See [During and after your data move](during-and-after-your-data-move.md) for a 
   
 Watch the Office 365 Message Center for confirmation that the move of each service's data is complete. When each service's data is moved, we'll post a completion notice so you'll get three completion notices: one each for Exchange Online, SharePoint Online, and Skype for Business Online.  You can also verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Microsoft 365 Admin Center.  
   
-## I am an Microsoft 365 customer in one of the new datacenter geos, but when I signed up, I selected a different country. How can I be moved to the new datacenter geo?
+## I am a Microsoft 365 customer in one of the new datacenter geos, but when I signed up, I selected a different country. How can I be moved to the new datacenter geo?
 
 It is not possible to change the signup country associated with your tenant. Instead, you need to create a new Office 365 tenant with a new subscription and manually move your users and data to the new tenant.
   
