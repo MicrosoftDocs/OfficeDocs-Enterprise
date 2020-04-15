@@ -104,7 +104,7 @@ The following search features are affected:
 
 ## Microsoft Teams
 
-In addition to Exchange Online, SharePoint Online, and OneDrive for Business; Microsoft will migrate Teams data to the local datacenter.
+In addition to Exchange Online, SharePoint Online, and OneDrive for Business, Microsoft will migrate Teams data to the local datacenter.
 
 - Teams chat messages, including private messages and channel messages.
 - Teams images used in chats.
@@ -137,4 +137,3 @@ Third-party Audio Conferencing Provider add-on services for Skype for Business a
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   
 [Azure services by region](https://azure.microsoft.com/regions/)
-
