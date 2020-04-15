@@ -80,7 +80,7 @@ It is not possible for us to remove you from the process after you submit your r
   
 ## What happens if I do not request a move before the deadline?
   
-We may be able to accept request on an exception basis to grant your tenant a committed deadline to complete the move.  Please  
+We may be able to accept requests on an exception basis to grant your tenant a committed deadline to complete the move. Please 
 contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to make the request.
 
 ## What if I want to move my data in order to get better network performance?
