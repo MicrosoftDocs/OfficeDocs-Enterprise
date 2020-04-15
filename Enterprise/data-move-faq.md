@@ -58,7 +58,7 @@ Online/OneDrive for Business are migrated to the same datacenter geo.
   
 ## Will new Microsoft 365 customers be automatically provisioned in the new datacenter geos?
   
-Yes. Once a new datacenter geo is available, new Microsoft 365 who select a country eligible for the new geo as their country during sign-up will have their core customer data stored at rest in the new datacenter geo.
+Yes. Once a new datacenter geo is available, new Microsoft 365 customers who select a country eligible for the new geo as their country during sign-up will have their core customer data stored at rest in the new datacenter geo.
   
  ## Where is my core customer data is located?
 
