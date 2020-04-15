@@ -53,7 +53,7 @@ Teams files are stored in SharePoint Online and Teams chat files are stored in O
   
 ## What is the impact of having different services located in different geos?
 
-Some of the Microsoft 365 services may be located in different geos for some existing customers and for customers that are in the middle of the move process.  Our services run independently of each other and there is no impact to the user experience if this is the case.  However, for data residency purposes, a tenant migration cannot be considered as complete until both Exchange Online and SharePoint 
+Some of the Microsoft 365 services may be located in different geos for some existing customers and for customers that are in the middle of the move process. Our services run independently of each other and there is no impact on the user experience if this is the case. However, for data residency purposes, a tenant migration cannot be considered as complete until both Exchange Online and SharePoint 
 Online/OneDrive for Business are migrated to the same datacenter geo.
   
 ## Will new Microsoft 365 customers be automatically provisioned in the new datacenter geos?
