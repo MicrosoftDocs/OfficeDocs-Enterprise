@@ -36,7 +36,7 @@ For more information about Office 2010 servers reaching end of support, see [Upg
   
 ## What does end of support mean?
 
-Project Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, and security updates. This lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support. When Project Server 2010 reaches its end of support on October 13, 2020, Microsoft will no longer provide:
+Project Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, and security updates. This lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support. When Project Server 2010 reaches its end of support on April 13, 2021, Microsoft will no longer provide:
   
 - Technical support for problems that may occur.
     
