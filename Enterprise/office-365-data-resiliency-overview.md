@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Understand data resiliency in Microsoft Office 365."
+description: In this article, learn about the design and principles of data resiliency and recovery in Microsoft Office 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Data Resiliency in Office 365

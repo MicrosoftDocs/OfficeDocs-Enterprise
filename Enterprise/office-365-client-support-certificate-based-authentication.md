@@ -14,7 +14,8 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: "Office 365 Client App support for certificate-based authentication."
+description: In this article, find details about Office 365 Client App support for certificate-based authentication..
+ms.custom: seo-marvel-apr2020
 ---
 
 # Office 365 Client App Support — Certificate-based Authentication

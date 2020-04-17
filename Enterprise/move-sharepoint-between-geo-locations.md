@@ -13,7 +13,8 @@ ms.collection:
 localization_priority: Priority
 f1.keywords:
 - NOCSH
-description: "Learn how to move a SharePoint site to a different geo location."
+description: Learn how to move a SharePoint site to a different geo location within your multi-geo environment and communicate expectations of the changes to your users.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Move a SharePoint site to a different geo location
@@ -78,8 +79,8 @@ For example, if the site URL is https://contosohealthcare.sharepoint.com/sites/T
 We recommend that before scheduling any site move, you perform a validation to ensure that the site can be moved.
 
 We do not support moving sites with:
--	Business Connectivity Services
--	InfoPath forms 
+-    Business Connectivity Services
+-    InfoPath forms 
 - Information Rights Management (IRM) templates applied
 
 To ensure all geo locations are compatible, run `Get-SPOGeoMoveCrossCompatibilityStatus`. This will display all your geo locations and whether the environment is compatible with the destination geo location.

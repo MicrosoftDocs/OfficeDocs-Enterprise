@@ -13,7 +13,8 @@ search.appverid:
 ms.assetid: a6d6ba01-2562-4c3d-a8f1-78748dd506cf
 f1.keywords:
 - NOCSH
-description: "This article contains information for improving message download performance in Outlook on the web."
+description: This article contains information for using lean popouts to improve message download performance in Outlook on the web.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Use lean popouts to reduce memory used when reading mail messages

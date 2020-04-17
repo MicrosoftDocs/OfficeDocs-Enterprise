@@ -11,10 +11,10 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: a20f9dbd-6102-4ffa-b72c-ff813e700930
 
-description: "Summary: Learn how to use Windows PowerShell to perform a staged migration to Office 365."
+description: Learn how to use Windows PowerShell to move content from a source email system over time using a staged migration to Office 365.
 ---
 
 # Use PowerShell to perform a staged migration to Office 365
