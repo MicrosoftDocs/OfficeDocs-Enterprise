@@ -17,7 +17,9 @@ search.appverid:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 f1.keywords:
 - NOCSH
-description: "Use the Centralized Deployment PowerShell cmdlets to help you deploy and manage Office add-ins for your Office 365 organization."
+ms.custom:
+- seo-marvel-apr2020
+description: "Learn how to use centralized deployment powerShell cmdlets to deploy and manage Office add-ins for your Office 365 organization."
 ---
 
 # Use the Centralized Deployment PowerShell cmdlets to manage add-ins
