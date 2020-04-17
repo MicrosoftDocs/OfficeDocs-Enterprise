@@ -1,5 +1,5 @@
 ---
-title: "Tools to manage Office 365 accounts"
+title: Managing Office 365 accounts
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-mar2020
 ms.collection:
 - Ent_O365
 - M365-subscription-management

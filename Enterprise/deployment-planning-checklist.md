@@ -13,14 +13,16 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 5fa4f6ef-35ad-4840-91c1-4834df3df5a0
 
-description: "This checklist will help your organization as you plan and prepare for a migration to Office 365."
+description: Use this checklist to help your enterprise organization as you plan and prepare for a migration to Office 365.
 ---
 
 # Deployment planning checklist for Office 365

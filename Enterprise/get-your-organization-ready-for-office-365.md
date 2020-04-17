@@ -13,14 +13,16 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 712fced7-f9d0-4fde-8b79-286262a5d0bc
 
-description: "Get access to the resources to plan for your Office 365 Enterprise deployment."
+description: This article provides checklists and other resources to plan for your Office 365 Enterprise deployment.
 ---
 
 # Plan for Office 365 Enterprise

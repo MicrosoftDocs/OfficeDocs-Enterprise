@@ -1,5 +1,5 @@
 ---
-title: "Use the Centralized Deployment PowerShell cmdlets to manage add-ins"
+title: Managing add-ins - Centralized Deployment PowerShell cmdlets
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -204,7 +204,7 @@ Set-OrganizationAddInOverrides -ProductId 5b31b349-2c41-4f94-b720-6ee40349d391 -
 
 | Tag                  | Description          |
 | :------------------- | :------------------- |
-| \<IconURL>   </br>| The URL of the image used as the add-in’s icon (in admin center). </br> |
+| \<IconURL>   </br>| The URL of the image used as the add-in's icon (in admin center). </br> |
 | \<DisplayName>| The title of the add-in  (in admin center).|
 | \<Hosts>| List of apps that will support the add-in.|
 | \<SourceLocation> | The source URL that the add-in will connect to.| 
@@ -219,16 +219,16 @@ Any element in the <Resources> tag of the manifest can be customized dynamically
 ```
 <Resources>  
     <bt:Images> 
-          <bt:Image id=”img16icon” DefaultValue=”https://site.com/img.jpg” 
+          <bt:Image id="img16icon" DefaultValue="https://site.com/img.jpg" 
     </bt:Images> 
 </Resources> 
 ``` 
-In this case, the element id for the image is “img16icon” and the value associated with it is “http:<i></i>//site.<i></i>com/img.jpg.”
+In this case, the element id for the image is "img16icon" and the value associated with it is "http:<i></i>//site.<i></i>com/img.jpg."
 
 Once you have identified the elements you want to customize, use the following command in Powershell to assign new values to the elements:
 
 ```powershell
-Set-OrganizationAddInOverrides -Resources @{“ElementID” = “New Value”; “NextElementID” = “Next New Value”} 
+Set-OrganizationAddInOverrides -Resources @{"ElementID" = "New Value"; "NextElementID" = "Next New Value"} 
 ```
 
 You can customize as many elements with the command as you need to.
@@ -258,7 +258,7 @@ Get-OrganizationAddInOverrides -ProductId 5b31b349-2c41-4f94-b720-6ee40349d391
 
 If an add-in has been deployed, it has to be removed from the cache in each computer before it can be customized. To remive an add-in from cache:
 
-1. Navigate to the “Users” folder in C:\ 
+1. Navigate to the "Users" folder in C:\ 
 1. Go to your user folder
 1. Navigate to AppData\Local\Microsoft\Office and select the folder associated with your version of Office
 1. In the *Wef* folder delete the *Manifests* folder.

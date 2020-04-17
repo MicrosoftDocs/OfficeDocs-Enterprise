@@ -14,13 +14,15 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-mar2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
-description: "Learn how user identity is managed in Office 365."
+description: Learn how to manage the Azure AD user identity service in Office 365 using cloud-only or hybrid identity models.
 ---
 
 # Office 365 identity models and Azure Active Directory
@@ -85,7 +87,7 @@ The Azure AD tenant has a copy of the AD DS accounts. In this configuration, bot
 
 Because the original and authoritative user accounts are stored in the on-premises AD DS, you manage your identities with the same tools as AD DS, such as the Active Directory Users and Computers tool. 
 
-You don’t use the Microsoft 365 admin center or Windows PowerShell to manage synchronized user accounts in Azure AD.
+You don't use the Microsoft 365 admin center or Windows PowerShell to manage synchronized user accounts in Azure AD.
 
 ## Next step
 

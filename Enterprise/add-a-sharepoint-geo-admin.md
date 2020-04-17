@@ -11,7 +11,8 @@ ms.collection: SPO_Content
 localization_priority: Priority
 f1.keywords:
 - NOCSH
-description: "Learn how to add or remove a geo administrator in Office 365 Multi-Geo."
+description: Need to configure separate administrators for each geo location? Learn how to add or remove a geo administrator in Office 365 Multi-Geo.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Add or remove a geo administrator in Office 365 Multi-Geo
