@@ -17,7 +17,8 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
-description: "Once you've deployed Office 365, you can maintain Office 365 connectivity using some of the tools and techniques below. You'll want to understand the official Service Health and Continuity guidelines as well as our Best practices for using Office 365 on a slow network. You'll also want to grab the Office 365 admin app and bookmark our Office 365 for business - Admin Help."
+ms.custom: seo-marvel-apr2020
+description: "In this article, you will learn about the tools and techniques you can use to monitor and maintain Office 365 connectivity."
 ---
 
 # Monitor Office 365 connectivity

@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Modern Authentication is a method of identity management that offers more secure user authentication and authorization. It's available for hybrid deployments of Skype for Business server on-premises and Exchange server on-premises, as well as split-domain Skype for Business hybrids. This article links to related docs about prerequisites, setup/disabling modern authentication, and to some of the related client (ex. Outlook and Skype clients) information."
+ms.custom: seo-marvel-apr2020
+description: "In this article, you will learn about Hybrid Modern Authentication and the prerequisites for use with on-premises Skype for Business and Exchange servers."
 ---
 
 # Hybrid modern authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers

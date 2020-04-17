@@ -18,7 +18,8 @@ ms.custom:
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
 search.appverid:
 - MET150
-description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Office ProPlus."
+ms.custom: seo-marvel-apr2020
+description: "In this article, you will find resources to learn about the core Microsoft cloud IT architecture, related recommendations for protection & deployment procedures."
 ---
 
 # Microsoft cloud IT architecture resources

@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An explanation of data corruption in Office 365, and Microsoft's efforts of prevention and recovery."
+ms.custom: seo-marvel-apr2020
+description: "This article explans data corruption in Office 365, and efforts taken by Microsoft to prevent and recover data."
 ---
 
 # Dealing with Data Corruption in Office 365
