@@ -13,7 +13,9 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Ent_Solutions
+ms.custom: 
+ - Ent_Solutions
+ - seo-marvel-apr2020
 ms.assetid: 75fa293a-b51c-42d0-ad90-5b3d9c9b0cd4
 ms.custom:
 - seo-marvel-apr2020

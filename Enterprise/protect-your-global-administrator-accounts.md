@@ -18,7 +18,8 @@ search.appverid:
 f1.keywords:
 - NOCSH
 ms.assetid: 6b4ded77-ac8d-42ed-8606-c014fd947560
-description: "Protect global administrator access to your Office 365 subscription."
+description: This article provides information about protecting global administrator access to your Office 365 subscription.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Protect your Office 365 global administrator accounts

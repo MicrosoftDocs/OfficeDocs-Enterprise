@@ -17,8 +17,9 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: 
-description: "Summary: See these articles to understand networking for Office 365."
+description: Find links to articles with information to help you set up your network for Office 365, including a network connectivity overview and list of endpoints.
 ---
 
 # Set up your network for Office 365

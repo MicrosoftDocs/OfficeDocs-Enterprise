@@ -14,7 +14,8 @@ ms.collection:
 - M365-analytics
 f1.keywords:
 - NOCSH
-description: "An explanation of reporting features within Office 365."
+description: Learn about various reporting features within Office 365, including Azure Active Directory and Exchange Online.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Office 365 Reporting Features 

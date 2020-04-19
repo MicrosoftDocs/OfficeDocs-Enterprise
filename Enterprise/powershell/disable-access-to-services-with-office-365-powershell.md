@@ -15,9 +15,10 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 - LIL_Placement
+- seo-marvel-apr2020
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
 
-description: "Use Office 365 PowerShell to disable access to Office 365 services for users."
+description: In this article, learn how to use Office 365 PowerShell to disable access to Office 365 services for users.
 ---
 
 # Disable access to services with Office 365 PowerShell
