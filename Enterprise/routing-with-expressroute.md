@@ -19,7 +19,9 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: e1da26c6-2d39-4379-af6f-4da213218408
-description: "To properly understand routing traffic to Office 365 using Azure ExpressRoute, you'll need a firm grasp of the core ExpressRoute routing requirements and the ExpressRoute circuits and routing domains. These lay out the fundamentals for using ExpressRoute that Office 365 customers will rely on."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you will learn about how to route traffic to Office 365 using Microsoft Azure ExpressRoute."
 ---
 
 # Routing with ExpressRoute for Office 365

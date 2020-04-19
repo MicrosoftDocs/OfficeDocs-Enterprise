@@ -16,7 +16,9 @@ f1.keywords:
 ms.custom: Adm_O365
 search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
-description: "If your organization uses Office 365 and restricts computers on your network from connecting to the Internet, below you'll find the endpoints (FQDNs, Ports, URLs, IPv4, and IPv6 address ranges) that you should include in your outbound allow lists to ensure your computers can successfully use Office 365."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article, you will find endpoints reachable for customers using Office 365 U.S. Government GCC High plans."
 hideEdit: true
 ---
 

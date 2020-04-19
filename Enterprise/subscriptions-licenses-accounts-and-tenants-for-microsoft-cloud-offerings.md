@@ -18,7 +18,9 @@ f1.keywords:
 ms.custom:
 - Ent_Architecture
 ms.assetid: c720cffc-f9b5-4f43-9100-422f86a1027c
-description: "Summary: Understand the relationships of organizations, subscriptions, licenses, user accounts, and tenants across Microsoft's cloud offerings."
+ms.custom:
+- seo-marvel-apr2020
+description: "Understand the relationships of organizations, subscriptions, licenses, user accounts, and tenants across Microsoft cloud offerings."
 ---
 
 # Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings

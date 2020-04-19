@@ -15,7 +15,9 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 75fa293a-b51c-42d0-ad90-5b3d9c9b0cd4
-description: "Summary: Use these articles to deploy security solutions with Microsoft's cloud offerings."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains a list of topics that can help you deploy security solutions with Microsoft cloud offerings."
 ---
 
 # Security solutions

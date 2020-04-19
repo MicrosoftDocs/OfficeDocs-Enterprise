@@ -14,7 +14,9 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Information about Office 365's monitoring and self-healing capabilities."
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article you will, learn about the monitoring and self-healing capabilities of Microsoft Office 365."
 ---
 
 # Office 365 Monitoring and Self-Healing
