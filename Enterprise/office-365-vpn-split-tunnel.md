@@ -70,7 +70,7 @@ The COVID-19 crisis has aggravated this problem to require immediate solutions f
 
 For the Office 365 service, Microsoft has designed the connectivity requirements for the service with this problem squarely in mind, where a focused, tightly controlled and relatively static set of service endpoints can be optimized very simply and quickly so as to deliver high performance for users accessing the service, and reducing the burden on the VPN infrastructure so it can be used by traffic which still requires it.
 
-Office 365 categorizes the required endpoints for Office 365 into three categories: **Optimize**, **Allow** and **Default**. **Optimize** endpoints are our focus here and have the following characteristics:
+Office 365 categorizes the required endpoints for Office 365 into three categories: **Optimize**, **Allow**, and **Default**. **Optimize** endpoints are our focus here and have the following characteristics:
 
 - Are Microsoft owned and managed endpoints, hosted on Microsoft infrastructure
 - Are dedicated to core Office 365 workloads such as Exchange Online, SharePoint Online, Skype for Business Online and Microsoft Teams
