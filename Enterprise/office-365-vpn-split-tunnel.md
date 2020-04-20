@@ -75,7 +75,7 @@ Office 365 categorizes the required endpoints for Office 365 into three categori
 - Are Microsoft owned and managed endpoints, hosted on Microsoft infrastructure
 - Are dedicated to core Office 365 workloads such as Exchange Online, SharePoint Online, Skype for Business Online and Microsoft Teams
 - Have IPs provided
-- Low rate of change and are expected to remain small in number(currently 20 IP subnets)
+- Low rate of change and are expected to remain small in number (currently 20 IP subnets)
 - Are high volume and/or latency sensitive
 - Are able to have required security elements provided in the service rather than inline on the network
 - Account for around 70-80% of the volume of traffic to the Office 365 service
