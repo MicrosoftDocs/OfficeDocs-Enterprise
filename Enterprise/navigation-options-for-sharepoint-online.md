@@ -12,10 +12,12 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid: SPO160
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
-description: "This article describes navigation options sites with SharePoint Publishing enabled in SharePoint Online. The choice and configuration of navigation significantly impacts the performance and scalability of sites in SharePoint Online. This article is not applicable to classic team sites."
+description: This article describes navigation options sites with SharePoint Publishing enabled in SharePoint Online.
 ---
 
 # Navigation options for SharePoint Online

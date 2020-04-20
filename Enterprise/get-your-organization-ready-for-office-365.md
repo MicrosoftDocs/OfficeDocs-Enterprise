@@ -43,19 +43,19 @@ To plan for Office 365 on your own, step through the planning and design decisio
 
 - Your Office 365 tenant
 
-  Includes planning for your network connections to the Internet, your Office 365 identities, and integration with apps, on-premises, Azure, and other elements. Start [here](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
+  Includes planning for your network connections to the Internet, your Office 365 identities, and integration with apps, on-premises, Azure, and other elements. Go to [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md) for more information.
 
 - Support for your clients
 
-  Includes certificate-based authentication, mobile device management, authentication options, and inter-tenant collaboration. Start [here](office-365-client-support-certificate-based-authentication.md).
+  Includes certificate-based authentication, mobile device management, authentication options, and inter-tenant collaboration. Go to [Certificate-based Authentication](office-365-client-support-certificate-based-authentication.md) for more information.
 
 - Support for hybrid modern authentication
 
-  Includes planning for modern authentication when using hybrid configurations of key Office 365 workloads. Start [here](hybrid-modern-auth-overview.md).
+  Includes planning for modern authentication when using hybrid configurations of key Office 365 workloads. Go to [Hybrid modern authentication overview and prerequisites](hybrid-modern-auth-overview.md) for more information.
 
 - Older Office clients and servers
 
-  Includes migration information for Office 2007 and Office 2010 client and server products. Start [here](plan-upgrade-previous-versions-office.md).
+  Includes migration information for Office 2007 and Office 2010 client and server products. Go to [Plan your upgrade](plan-upgrade-previous-versions-office.md) for more information.
 
 >[!Note]
 >You can use this process for your [Microsoft 365 Enterprise](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview) subscription as well.
