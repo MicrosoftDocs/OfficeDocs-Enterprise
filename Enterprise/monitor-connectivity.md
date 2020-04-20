@@ -11,13 +11,14 @@ localization_priority: Priority
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
-ms.custom: seo-marvel-apr2020
 description: "In this article, you will learn about the tools and techniques you can use to monitor and maintain Office 365 connectivity."
 ---
 

@@ -11,12 +11,14 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - BCS160
 ms.assetid: 170e96ea-d65d-4e51-acac-1de56abe39b9
-description: "Summary: Provides details about how to approximate the correct number of clients you can use per IP address within your organization using Network Address Translation (NAT)."
+description: This article provides details about how to approximate the number of clients you can use per IP address in your organization using NAT.
 ---
 
 # NAT support with Office 365

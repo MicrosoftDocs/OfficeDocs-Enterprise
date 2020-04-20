@@ -13,11 +13,11 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid: MET150
 ms.assetid: cbd2369c-fd96-464c-bf48-c99826b459ee
-ms.custom:
-- seo-marvel-apr2020
 description: "In this article, you will find endpoints reachable for customers using Office 365 U.S. Government GCC High plans."
 hideEdit: true
 ---

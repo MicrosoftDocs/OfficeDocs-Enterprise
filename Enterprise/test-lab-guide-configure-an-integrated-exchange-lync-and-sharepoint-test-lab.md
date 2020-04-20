@@ -14,7 +14,8 @@ search.appverid:
 ms.assetid: 48e16935-3429-456a-8fe6-50afa257924c
 f1.keywords:
 - NOCSH
-description: "Summary: Learn how to create an integrated test lab that contains a server that runs Exchange Server 2013, a server that runs Lync Server 2013, and a server that runs SharePoint Server 2013."
+description: Create an integrated test lab that contains a server that runs Exchange Server 2013, one that runs Lync Server 2013, and one that runs SharePoint Server 2013.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Test Lab Guide: Configure an integrated Exchange, Lync, and SharePoint test lab

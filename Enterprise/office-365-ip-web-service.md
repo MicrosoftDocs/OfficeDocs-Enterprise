@@ -13,13 +13,15 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.reviewer: pandrew
 search.appverid:
 - MET150
 - MOE150
 - BCS160
-description: "The Office 365 IP Address and URL web service helps you better identify and differentiate Office 365 network traffic, making it easier for you to evaluate, configure, and stay up to date with changes."
+description: Learn how to use the Office 365 IP Address and URL web service to help you better identify and differentiate Office 365 network traffic.
 ---
 
 # Office 365 IP Address and URL web service

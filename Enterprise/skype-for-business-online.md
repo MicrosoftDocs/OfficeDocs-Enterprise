@@ -13,6 +13,7 @@ f1.keywords:
 ms.custom: 
 - Adm_O365
 - 'ms.lync.lac.ProviderManagedFeature'
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
@@ -20,7 +21,7 @@ search.appverid:
 - MSO150
 - BCS160
 ms.assetid: 4307bdbf-6097-458d-9a6a-048112695c59
-description: "Get admin help for Skype for Business - set up Skype for business, your network, meetings and IM, and external access for users. configure settings, troubleshoot, and view usage reports."
+description: As an admin, find help to set up parts of Skype for Business Online, including your network, meetings and IM, and external access for users.
 ---
 
 # Skype for Business Online in Office 365 - Admin Help

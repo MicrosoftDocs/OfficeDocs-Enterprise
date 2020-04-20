@@ -13,12 +13,14 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
-description: "Describes how to use the Office 365 Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets to all of your users no matter where they are located or how they access your content."
+description: Learn how to use the Office 365 Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets.
 ---
 
 # Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
