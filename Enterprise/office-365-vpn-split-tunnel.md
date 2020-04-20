@@ -73,7 +73,7 @@ For the Office 365 service, Microsoft has designed the connectivity requirements
 Office 365 categorizes the required endpoints for Office 365 into three categories: **Optimize**, **Allow**, and **Default**. **Optimize** endpoints are our focus here and have the following characteristics:
 
 - Are Microsoft owned and managed endpoints, hosted on Microsoft infrastructure
-- Are dedicated to core Office 365 workloads such as Exchange Online, SharePoint Online, Skype for Business Online and Microsoft Teams
+- Are dedicated to core Office 365 workloads such as Exchange Online, SharePoint Online, Skype for Business Online, and Microsoft Teams
 - Have IPs provided
 - Low rate of change and are expected to remain small in number (currently 20 IP subnets)
 - Are high volume and/or latency sensitive
