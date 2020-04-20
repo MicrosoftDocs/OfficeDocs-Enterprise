@@ -15,7 +15,9 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "If you've enabled Hybrid Modern Authentication (HMA) only to find it's unsuitable for your current environment, you can disable HMA. This article explains how."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article explains how to remove or disable Hybrid Modern Authentication from Skype for Business and Exchange."
 ---
 
 # Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange

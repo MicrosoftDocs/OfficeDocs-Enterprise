@@ -14,8 +14,9 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: Learn how Office 365's built-in monitoring and self-healing capabilities keep your data safe from malware.
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+description: "In this article you will, learn about the monitoring and self-healing capabilities of Microsoft Office 365."
 ---
 
 # Office 365 Monitoring and Self-Healing
