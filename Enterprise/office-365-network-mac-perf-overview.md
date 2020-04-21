@@ -3,7 +3,7 @@ title: "Network performance recommendations in the Microsoft 365 Admin Center (p
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/31/2020
+ms.date: 04/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -126,7 +126,7 @@ The Microsoft 365 service front door is an entry point on Microsoft's global net
 
 ### What is an optimal Microsoft 365 service front door?
 
-An optimal Microsoft 365 service front door is one that is closest to your network egress, generally in your city or metro area. Use the [Microsoft 365 Network Onboarding Tool](office-365-network-mac-perf-onboarding-tool.md) to determine location of your in-use Microsoft 365 service front door and optimal service front door. If the tool determines your in-use front door is optimal, then you are optimally connecting into Microsoft's global network.
+An optimal Microsoft 365 service front door is one that is closest to your network egress, generally in your city or metro area. Use the [Microsoft 365 connectivity test](office-365-network-mac-perf-onboarding-tool.md) to determine location of your in-use Microsoft 365 service front door and optimal service front door. If the tool determines your in-use front door is optimal, then you are optimally connecting into Microsoft's global network.
 
 ### What is an internet egress location?
 
@@ -138,6 +138,6 @@ The internet egress location is the location where your network traffic exits yo
 
 [Microsoft 365 network assessment (preview)](office-365-network-mac-perf-score.md)
 
-[Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Microsoft 365 connectivity test in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
 
 [Microsoft 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)

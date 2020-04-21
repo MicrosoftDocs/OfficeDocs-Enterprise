@@ -110,4 +110,4 @@ In many cases, this implementation can be achieved in a matter of hours, allowin
 
 [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
 
-[Office 365 Network Onboarding tool](https://aka.ms/netonboard)
+[Microsoft 365 connectivity test](https://aka.ms/netonboard)

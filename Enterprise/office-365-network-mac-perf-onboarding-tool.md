@@ -1,9 +1,9 @@
 ---
-title: "Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)"
+title: "Microsoft 365 connectivity test in the M365 Admin Center (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 04/10/2020
+ms.date: 04/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,26 +13,26 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)"
+description: "Microsoft 365 connectivity test in the M365 Admin Center (preview)"
 ---
 
-# Microsoft 365 Network Onboarding Tool in the M365 Admin Center (preview)
+# Microsoft 365 connectivity test in the M365 Admin Center (preview)
 
-The Microsoft 365 network onboarding tool is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
+The Microsoft 365 connectivity test is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
 
 >[!NOTE]
 >The onboarding tool supports tenants in WW Commercial and GCC Moderate but not GCC High, DoD, Germany or China.
 
-The network insights in the Microsoft 365 Admin Center are based on in-product measurements for your Microsoft 365 tenant. In comparison, the network insights from the Microsoft 365 network onboarding tool are run locally in the tool. Testing that can be done in-product is limited and by running tests local to the user more data can be gathered resulting in deeper insights. Consider then that the network insights in the Microsoft 365 Admin Center will show that there is a networking problem for use of Microsoft 365 at a specific office location. The Microsoft 365 network onboarding tool can help to identify the root cause of that problem leading to a recommended network performance improvement action.
+The network insights in the Microsoft 365 Admin Center are based on in-product measurements for your Microsoft 365 tenant. In comparison, the network insights from the Microsoft 365 connectivity test are run locally in the tool. Testing that can be done in-product is limited and by running tests local to the user more data can be gathered resulting in deeper insights. Consider then that the network insights in the Microsoft 365 Admin Center will show that there is a networking problem for use of Microsoft 365 at a specific office location. The Microsoft 365 connectivity test can help to identify the root cause of that problem leading to a recommended network performance improvement action.
 
-We recommend that these be used together where networking quality status can be assessed for each office location in the Microsoft 365 Admin Center and more specifics can be found after deployment of testing based on the Microsoft 365 network onboarding tool.
+We recommend that these be used together where networking quality status can be assessed for each office location in the Microsoft 365 Admin Center and more specifics can be found after deployment of testing based on the Microsoft 365 connectivity test.
 
 >[!IMPORTANT]
 >Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Microsoft 365 tenants that have been enrolled in the feature preview program.
 
 ## The advanced tests client application
 
-There are two parts to the Microsoft 365 network onboarding tool. There is the web site <https://connectivity.office.com> and there is a downloadable Windows client application. The downloadable client runs advanced network connectivity tests and most of the tests require this to be run.
+There are two parts to the Microsoft 365 connectivity test. There is the web site <https://connectivity.office.com> and there is a downloadable Windows client application. The downloadable client runs advanced network connectivity tests and most of the tests require this to be run.
 
 You can run the advanced client test from the web site, and it will populate results back into the web page as it runs.
 
