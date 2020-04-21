@@ -36,7 +36,7 @@ In this article, you will learn about:
 - [New Office 365 endpoint categories](office-365-network-connectivity-principles.md#BKMK_Categories) and optimization guidance
 - [Comparing network perimeter security with endpoint security](office-365-network-connectivity-principles.md#BKMK_SecurityComparison)
 - [Incremental optimization](office-365-network-connectivity-principles.md#BKMK_IncOpt) options for Office 365 traffic
-- The [Office 365 Network Onboarding tool](https://aka.ms/netonboard), a new tool for testing basic connectivity to Office 365
+- The [Microsoft 365 connectivity test](https://aka.ms/netonboard), a new tool for testing basic connectivity to Office 365
 
 ## Office 365 architecture
 <a name="BKMK_Architecture"> </a>
@@ -268,7 +268,7 @@ You can approach optimization as an incremental process, applying each method su
 
 [Content Delivery Networks](content-delivery-networks.md)
 
-[Office 365 Network Onboarding tool](https://aka.ms/netonboard)
+[Microsoft 365 connectivity test](https://aka.ms/netonboard)
 
 [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 

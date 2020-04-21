@@ -243,7 +243,7 @@ You can also read about modern security controls in remote work scenarios at [Al
 
 Once the policy is in place, you should confirm it is working as expected. There are multiple ways of testing the path is correctly set to use the local Internet connection:
 
-- Run the [Office 365 Network Onboarding tool](https://aka.ms/netonboard) which will run connectivity tests for you including trace routes as above. We're also adding in VPN tests into this tooling which should also provide some additional insight.
+- Run the [Microsoft 365 connectivity test](https://aka.ms/netonboard) which will run connectivity tests for you including trace routes as above. We're also adding in VPN tests into this tooling which should also provide some additional insight.
 
 - A simple tracert to an endpoint within scope of the split tunnel should show the path taken, for example:
 
