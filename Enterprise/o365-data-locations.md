@@ -36,7 +36,7 @@ Find information about the contractual commitments for the storage location of c
 For Azure Active Directory data locations, please visit [AAD Data Map](https://go.microsoft.com/fwlink/p/?linkid=2092972).
 
 
-Due to the unprecedented circumstances around COVID-19 and the need to manage online services demand in Europe, if your organization is an educational institution, we may provision your Office 365 tenant in the European Union (EU), European Free Trade Association (EFTA), the United Kingdom (UK), United States (US), or Canada (CA), or transfer your data to any data centers in the EU, EFTA, UK, US, or CA.  This means that your data may be stored at rest within the EU, EFTA, UK, US, or CA.  Our commitment to compliance, privacy, and security remains unchanged while we implement necessary and prudent measures to maintain service availability.  We will comply with all applicable laws with respect to data transfers.
+Due to the unprecedented circumstances around the COVID-19 crisis and the need to manage online services demand in Europe, if your organization is an educational institution, we may provision your Office 365 tenant in the European Union (EU), European Free Trade Association (EFTA), the United Kingdom (UK), United States (US), or Canada (CA), or transfer your data to any data centers in the EU, EFTA, UK, US, or CA.  This means that your data may be stored at rest within the EU, EFTA, UK, US, or CA.  Our commitment to compliance, privacy, and security remains unchanged while we implement necessary and prudent measures to maintain service availability.  We will comply with all applicable laws with respect to data transfers.
 
 
 
@@ -115,6 +115,7 @@ For country/region specific data centers, the following defines the cities where
 | India | Chennai, Mumbai, Pune |
 | Japan | Osaka, Tokyo, Saitama |
 | Korea | Busan, Seoul |
+| Norway | Oslo, Stavanger |
 | South Africa | Capetown, Johannesburg |
 | Switzerland | Geneva, Zurich |
 | United Arab Emirates | Dubai, Abu Dhabi |
@@ -3923,18 +3924,18 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 
 | Service | Location |
 | --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
+| Exchange Online | Norway |
+| OneDrive for Business | Norway |
+| SharePoint Online | Norway |
 | Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
+| Microsoft Teams | Norway |
+| Office Online &amp; Mobile | Norway |
+| EOP | Norway |
+| MyAnalytics | Norway |
 | Planner | Global Geography 1 – EMEA |
 | Sway | United States |
 | Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
+| OneNote Services | Norway |
 | Stream | Global Geography 1 – EMEA |
 | Whiteboard | United States |
 | Forms | Global Geography 1 – EMEA |
