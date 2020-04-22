@@ -1,7 +1,7 @@
 ---
 title: "Office 365 data locations"
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: andyber
+author: andybergen
 manager: laurawi
 ms.date: 03/09/2020
 audience: ITPro
