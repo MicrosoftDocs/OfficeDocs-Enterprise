@@ -1826,29 +1826,6 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Workplace Analytics | United States |
 </p></details>
 
-## Federated States of Micronesia
-<details><summary>Click to expand</summary><p>
-
-| Service | Location |
-| --- | --- |
-| Exchange Online | Global Geography 1 – EMEA |
-| OneDrive for Business | Global Geography 1 – EMEA |
-| SharePoint Online | Global Geography 1 – EMEA |
-| Skype for Business | Global Geography 1 – EMEA |
-| Microsoft Teams | Global Geography 1 – EMEA |
-| Office Online &amp; Mobile | Global Geography 1 – EMEA |
-| EOP | Global Geography 1 – EMEA |
-| MyAnalytics | Global Geography 1 – EMEA |
-| Planner | Global Geography 1 – EMEA |
-| Sway | United States |
-| Yammer | Global Geography 1 – EMEA |
-| OneNote Services | Global Geography 1 – EMEA |
-| Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States |
-| Forms | Global Geography 1 – EMEA |
-| Workplace Analytics | United States |
-</p></details>
-
 ## Fiji
 <details><summary>Click to expand</summary><p>
 
