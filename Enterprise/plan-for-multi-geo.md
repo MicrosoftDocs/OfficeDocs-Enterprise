@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020 
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content

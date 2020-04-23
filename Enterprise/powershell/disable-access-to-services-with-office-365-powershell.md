@@ -154,7 +154,7 @@ If you want to disable access to services for multiple licensing plans, repeat t
 To disable Office 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
 
 
-## See also
+## Related topic
 
 [Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
