@@ -16,9 +16,10 @@ search.appverid:
 - GPA150
 - GEA150
 ms.assetid: 5c47c07d-f9b6-4b78-a329-bfdc1b6da7a0
+ms.custom: seo-marvel-apr2020
 f1.keywords:
 - NOCSH
-description: "This article applies to Office 365 operated by 21Vianet in China. This article lists the URLs and IP address ranges used by Office 365 operated by 21Vianet."
+description: This article lists the URLs and IP address ranges for Office 365 when operated by 21Vianet in China.
 hideEdit: true
 ---
 

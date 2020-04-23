@@ -16,9 +16,11 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
-description: "These overview steps are designed to help you set up your network, create your identities, deploy Office 365 ProPlus, migrate your data, and help the people in your organization begin using Office 365."
+description: These overview steps are designed to help you set up your network, create your identities, deploy Office 365 ProPlus, and migrate your data.
 ---
 
 # Deploy Office 365 Enterprise for your organization
@@ -39,7 +41,7 @@ To access a series of setup guides, sign in to your Office 365 subscription, and
 
 ## Do-it-yourself guided deployment of Office 365 Enterprise
 
-Deploying Office 365 Enterprise on your own requires that you perform detailed research to make the design decisions that streamline Office 365 service configuration and user adoption. Start your planning [here](get-your-organization-ready-for-office-365.md).
+Deploying Office 365 Enterprise on your own requires that you perform detailed research to make the design decisions that streamline Office 365 service configuration and user adoption. Go to [Plan for Office 365 Enterprise](get-your-organization-ready-for-office-365.md) to start planning your deployment.
 
 To deploy Office 365 Enterprise on your own after completing your planning, these are the recommended steps.
 
@@ -76,4 +78,4 @@ To deploy Office 365 Enterprise on your own after completing your planning, thes
 >These steps are also for businesses and [nonprofits](https://go.microsoft.com/fwlink/?LinkId=627221) that want to start with a custom deployment of Office 365 Enterprise. 
 >
 
-If you have a Microsoft 365 Enterprise subscription, start [here](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise).
+If you have a Microsoft 365 Enterprise subscription, go to [Deploy Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise).

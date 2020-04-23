@@ -13,10 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom: Adm_O365_Setup
+ms.custom: 
+ - Adm_O365_Setup
+ - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 99cab9d4-ef59-4207-9f2b-3728eb46bf9a
-description: "Some enterprise networks restrict access to generic internet locations or include substantial backhaul or processing of network traffic. To ensure computers on networks like these can access Office 365, network and proxy administrators need to manage the list of FQDNs, URLs, and IP addresses that make up the list of Office 365 endpoints. These need to be added to direct route, proxy bypass, and/or firewall rules and PAC files to ensure network requests are able to reach Office 365."
+description: Learn how to manage Office 365 endpoints so that they work with your enterprise organization network architecture.
 ---
 
 # Managing Office 365 endpoints

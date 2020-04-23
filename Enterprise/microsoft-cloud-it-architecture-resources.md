@@ -15,10 +15,10 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_Architecture
+- seo-marvel-apr2020
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
 search.appverid:
 - MET150
-ms.custom: seo-marvel-apr2020
 description: "In this article, you will find resources to learn about the core Microsoft cloud IT architecture, related recommendations for protection & deployment procedures."
 ---
 

@@ -13,7 +13,7 @@ ms.assetid: c3024358-326b-404e-9fe6-b618e54d977d
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-description: "Learn about your options after the Exchange Server 2007 reached end of support and start planning migration from Exchange 2007 to Office 365 or Exchange 2016."
+description: "Learn about your options after Exchange Server 2007 reached end of support and start planning migration to Office 365 or Exchange 2016."
 ---
 
 # Exchange 2007 end of support roadmap

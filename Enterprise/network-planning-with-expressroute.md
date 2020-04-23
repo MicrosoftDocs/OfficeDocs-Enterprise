@@ -11,13 +11,14 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 103208f1-e788-4601-aa45-504f896511cd
-ms.custom: seo-marvel-apr2020
 description: "In this article, you will learn about Azure ExpressRoute for Office 365 and how to utilize it for Network planning."
 ---
 

@@ -15,7 +15,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Hybrid Modern Authentication (HMA), is a method of identity management that offers more secure user authentication and authorization, and is available for Exchange server on-premises hybrid deployments."
+description: Learn how to configure an Exchange Server on-premises to use Hybrid Modern Authentication (HMA), offering you more secure user authentication and authorization.
+ms.custom: seo-marvel-apr2020
 ---
 
 # How to configure Exchange Server on-premises to use Hybrid Modern Authentication

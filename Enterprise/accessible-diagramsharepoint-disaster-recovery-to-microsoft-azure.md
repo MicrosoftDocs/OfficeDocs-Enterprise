@@ -13,6 +13,7 @@ ms.assetid: 4b855224-8e67-4efa-a3a4-908ee0ca6412
 f1.keywords:
 - NOCSH
 description: "This article is an accessible text version of the diagram named SharePoint Disaster Recovery to Microsoft Azure."
+ms.custom: seo-marvel-apr2020
 ---
 
 # Accessible diagram - SharePoint Disaster Recovery to Microsoft Azure
@@ -191,7 +192,7 @@ There are three cloud services in the Azure virtual network:
 
 The configuration of AD DS for this solution constitutes a hybrid deployment scenario in which AD DS is partly deployed on-premises and partly deployed on Azure virtual machines. 
   
-Important — Before you deploy AD DS in Azure, read Guidelines for Deploying Windows Server Active Directory on Microsoft Azure Virtual Machines (https://docs.microsoft.com/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100). 
+Important — Before you deploy AD DS in Azure, read [Safely virtualizing Active Directory Domain Services (AD DS)](https://docs.microsoft.com/windows-server/identity/ad-ds/introduction-to-active-directory-domain-services-ad-ds-virtualization-level-100). 
   
  
 This reference architecture includes two virtual machines configured as domain controllers. Each is configured as follows: 

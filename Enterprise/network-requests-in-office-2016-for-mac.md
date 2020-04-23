@@ -11,10 +11,12 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365_Setup
+ms.custom: 
+ - Adm_O365_Setup
+ - seo-marvel-apr2020
 search.appverid: MOM160
 ms.assetid: afdae969-4046-44b9-9adb-f1bab216414b
-description: "Office for Mac applications provide a native app experience on the macOS platform. Each app is designed to work in a variety of scenarios, including states when no network access is available. When a machine is connected to a network, the applications automatically connect to a series of web-based services to provide enhanced functionality. This paper describes which endpoints and URLs the applications try to reach, and the services provided. This information is useful when troubleshooting network configuration issues, and setting a policy for network proxy servers. The details in this article are intended to compliment the Office 365 URL and address ranges article."
+description: This article describes which endpoints and URLs Office for Mac applications try to reach, and the services provided.
 ---
 
 # Network requests in Office for Mac

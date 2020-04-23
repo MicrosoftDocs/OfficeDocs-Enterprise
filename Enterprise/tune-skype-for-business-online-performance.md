@@ -11,14 +11,16 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - MSO150
 - BCS160
 ms.assetid: beec23c2-c5d6-4e84-a8af-e82aefca7802
-description: "This article provides links for system administrators who want to plan for network bandwidth requirements, or who need to improve the performance of Skype for Business Online."
+description: This article provides links for system administrators planning for network bandwidth requirements or improving the performance of Skype for Business Online.
 ---
 
 # Tune Skype for Business Online performance

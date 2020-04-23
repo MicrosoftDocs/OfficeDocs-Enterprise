@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
@@ -20,7 +22,7 @@ ms.collection:
 - M365-security-compliance
 - Ent_O365
 - SPO_Content
-description: "There are some simple ways to check the connection performance between Office 365 and your business that will let you establish a rough baseline of your connectivity. Knowing the performance history of your client computer connections can help you detect emerging issues early, identify, and predict problems."
+description: Learn how to check the history of your client computer connections to help you detect emerging issues early.
 ---
 
 # Office 365 performance tuning using baselines and performance history
