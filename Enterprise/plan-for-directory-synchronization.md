@@ -5,7 +5,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 04/20/2010
 ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
@@ -64,7 +64,7 @@ With password hash synchronization (PHS), you synchronize your AD DS user accoun
 
 When passwords are changed or reset on-premises, the new password hashes are synchronized to Azure AD so that your users can always use the same password for cloud resources and on-premises resources. The user passwords are never sent to Azure AD or stored in Azure AD in clear text. Some premium features of Azure AD, such as Identity Protection, require PHS regardless of which authentication method is selected.
   
-See [choosing PHS](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) to learn more.
+See [choosing PHS](https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn) to learn more.
   
 #### Pass-through authentication
 
@@ -76,7 +76,7 @@ PTA allows your users to sign in to both on-premises and Office 365 resources an
 
 PTA is also for organizations with a security requirement to immediately enforce on-premises user account states, password policies, and logon hours. 
   
-See [choosing PTA](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) to learn more.
+See [choosing PTA](https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn) to learn more.
   
 ### Federated authentication
 
@@ -84,7 +84,7 @@ Federated authentication is primarily for large enterprise organizations with mo
 
 Federated authentication can support additional authentication requirements, such as smartcard-based authentication or a third-party multi-factor authentication and is typically required when organizations have an authentication requirement not natively supported by Azure AD.
  
-See [choosing federated authentication](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) to learn more.
+See [choosing federated authentication](https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn) to learn more.
   
 #### Third-party authentication and identity providers
 

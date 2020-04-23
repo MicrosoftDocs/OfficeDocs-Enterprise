@@ -42,6 +42,7 @@ These architecture tools and posters give you information about Microsoft cloud 
 - **[Microsoft 365 enterprise solution series](microsoft-cloud-it-architecture-resources.md#BKMK_o365solutions)**:
     - [Microsoft Teams and related productivity services in Microsoft 365 for IT architects](#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)
     - [Groups in Microsoft 365 for IT architects](#groups-in-microsoft-365-for-it-architects)
+    - [Security and Information Protection for Multi-Region Organizations](#security-and-information-protection-for-multi-region-organizations)
     - [Identity and device protection for Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365IDP)
     - [File protection solutions in Office 365](microsoft-cloud-it-architecture-resources.md#BKMK_O365fileprotect)
     - [Office 365 Information Protection for GDPR](#office-365-information-protection-for-gdpr)
@@ -86,7 +87,7 @@ What IT architects need to know about designing identity for organizations using
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for Microsoft cloud identity model](media/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| [Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| [More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft’s cloud </li><li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li><li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul><br/>|
+|[![Thumb image for Microsoft cloud identity model](media/ffa145a1-97e6-4c36-b08b-01c4a4ae8b9b.png)          ](https://www.microsoft.com/download/details.aspx?id=54431) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524586)  \| [Visio](https://download.microsoft.com/download/2/3/8/238228E6-9017-4F6C-BD3C-5559E6708F82/MSFT_cloud_architecture_identity.vsd)           \| [More languages](https://www.microsoft.com/download/details.aspx?id=54431) <br/> | This model contains: <ul><li>Introduction to identity with Microsoft's cloud </li><li>Azure AD IDaaS capabilities </li><li>Integrating on-premises Active Directory Domain Services accounts with Microsoft Azure Active Directory </li><li>Putting directory components in Azure </li><li>Domain services options for workloads in Azure IaaS </li></ul><br/>|
    
 <a name="security"></a>
 ### Microsoft cloud security for enterprise architects
@@ -130,7 +131,7 @@ Get an at-a-glance view of the [foundation infrastructure](https://docs.microsof
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumbnail image of the Microsoft 365 Enterprise Foundation Infrastructure poster](media/Microsoft365EnterpriseFoundInfra-thumb.png)](https://aka.ms/m365efoundinfraposter) <br/> [View online](https://aka.ms/m365efoundinfraposter) \| [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf) <br/> | This poster summarizes each phase of the foundation infrastructure in terms of goals, features and tools, design decisions, configuration results, onboarding, and ongoing monitoring and updates. <br/>| 
+|[![Thumbnail image of the Microsoft 365 Enterprise Foundation Infrastructure poster](media/Microsoft365EnterpriseFoundInfra-thumb.png)](https://aka.ms/m365efoundinfraposter) <br/> [View online](https://aka.ms/m365efoundinfraposter) \| [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf) <br/> | This poster summarizes each phase of the foundation infrastructure in terms of goals, features and tools, design decisions, configuration results, onboarding, and ongoing monitoring and updates. <br/>| 
 
 ### Architecture approaches for Microsoft cloud tenant-to-tenant migrations 
 This series of topics illustrates several architecture approaches for mergers, acquisitions, divestitures, and other scenarios that might lead you to migrate to a new cloud tenant. These topics provide starting-point guidance for planning.
@@ -158,6 +159,14 @@ What IT architects need to know about groups in Microsoft 365
 |**Item**|**Description**|
 |:-----|:-----|
 |[![Thumb image for groups infographic](downloads/msft-m365-groups-architecture-thumb.png)](downloads/msft-m365-groups.pdf) <br/> [PDF](downloads/msft-m365-groups.pdf) \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx) |These illustrations detail the different types of groups, how these are created and managed, and a few governance recommendations.|
+
+### Security and Information Protection for Multi-Region Organizations
+Security and information protection for multi-region organizations with a single microsoft 365 tenant
+
+|**Item**|**Description**|
+|:-----|:-----|
+|[![Thumb image for multi-region infographic](media/multi-region-single-tenant-security-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.pdf) \| [Visio](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/msft-security-info-protect-multi-region.vsdx) |Using a single Microsoft 365 tenant for your global organization is the best choice and experience for many reasons. However, many architects wrestle with how to meet security and information protection objectives across different regions. This set of topics provides recommendations. |
+
 
    
 <a name="BKMK_O365IDP"></a>
