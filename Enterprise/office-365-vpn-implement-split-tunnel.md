@@ -3,7 +3,7 @@ title: "Implementing VPN split tunneling for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 4/14/2020
+ms.date: 4/24/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -221,7 +221,8 @@ Some VPN client software allows routing manipulation based on URL. However, Team
 
 In certain scenarios, often unrelated to Teams client configuration, media traffic still traverses the VPN tunnel even with the correct routes in place. If you encounter this scenario then using a firewall rule to block the Teams IP subnets or ports from using the VPN should suffice.
 
-A current requirement for this to work in 100% of scenarios is to also add the IP range **13.107.60.1/32**. This should not be necessary very shortly due to an update in the latest Teams client due for release in early **April 2020**. We will update this article with the build details as soon as this information is available.
+>[!IMPORTANT]
+>To ensure Teams media traffic is routed via the desired method in all VPN scenarios please ensure you are running at least the following client version number or greater, as these versions have improvements in how the client detects available network paths.<br>Windows version number:  **1.3.00.9267**<br>Mac version number: **1.3.00.9221**
 
 Signalling traffic is performed over HTTPS and is not as latency sensitive as the media traffic and is marked as **Allow** in the URL/IP data and thus can safely be routed through the VPN client if desired.
 
