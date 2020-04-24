@@ -24,7 +24,9 @@ search.appverid:
 ms.assetid: 66325a43-5816-4f8e-81ba-c11b71345b7c
 f1.keywords:
 - NOCSH
-description: "SharePoint Server 2007 has reached end of support, and it's time to upgrade. Use this article to help you create your plan."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains information for users using SharePoint Server 2007 to help them plan their upgrade."
 ---
 
 # SharePoint 2007 migration options to consider

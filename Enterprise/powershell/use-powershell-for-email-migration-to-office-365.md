@@ -32,9 +32,7 @@ Use Windows PowerShell to migrate email to Office 365.
     
 - [Use PowerShell to perform a staged migration to Office 365](use-powershell-to-perform-a-staged-migration-to-office-365.md)
     
-## See also
-
-#### 
+## Related topics
 
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
@@ -43,7 +41,6 @@ Use Windows PowerShell to migrate email to Office 365.
 [Manage SharePoint Online with Office 365 PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
   
 [Use Windows PowerShell to create reports in Office 365](use-windows-powershell-to-create-reports-in-office-365.md)
-#### 
 
 [Advantages of using Windows PowerShell to manage Office 365](https://technet.microsoft.com/library/15144a50-453e-4cd5-befd-bc6736697967.aspx)
   

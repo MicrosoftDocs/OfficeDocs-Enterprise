@@ -13,9 +13,11 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Ent_Deployment
+ms.custom: 
+- Ent_Deployment
+- seo-marvel-apr2020
 ms.assetid: e9d14cb2-ff28-4a18-a444-cebf891880ea
-description: "Summary: Using Azure, you can create a disaster-recovery environment for your on-premises SharePoint farm. This article describes how to design and implement this solution."
+description: This article describes how to use Azure to create a disaster-recovery environment for your on-premises SharePoint farm.
 ---
 
 # SharePoint Server 2013 Disaster Recovery in Microsoft Azure

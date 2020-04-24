@@ -17,7 +17,9 @@ ms.custom:
  - Ent_Solutions
  - seo-marvel-apr2020
 ms.assetid: 75fa293a-b51c-42d0-ad90-5b3d9c9b0cd4
-description: Use the information in these articles to deploy security solutions with Microsoft's cloud offerings.
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains a list of topics that can help you deploy security solutions with Microsoft cloud offerings."
 ---
 
 # Security solutions

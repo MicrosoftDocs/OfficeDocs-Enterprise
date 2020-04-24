@@ -15,12 +15,11 @@ f1.keywords:
 - CSH
 ms.custom: 
  - Adm_O365_Setup
- - seo-marvel-mar2020
+ - seo-marvel-apr2020
 search.appverid: MOE150
 ms.assetid: 8a113a50-0071-4155-bb8e-eba5a8dbd4c8
-description: Germany endpoints for Exchange Online, SharePoint Online, OneDrive for Business, Skype for Business Online, Teams, Microsoft 365 Common, and Office Online.
+description: In this article you will find endpoints that are reachable for customers using Office 365 in Germany.
 hideEdit: true
-ms.custom: seo-marvel-mar2020
 ---
 
 # Office 365 Germany endpoints

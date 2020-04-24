@@ -11,12 +11,14 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365_Setup
+ms.custom: 
+ - Adm_O365_Setup
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - BCS160
 ms.assetid: e4468915-15e1-4530-9361-cd18ce82e231
-description: "ExpressRoute for Office 365 offers an alternative routing path to reach many Office 365 services without needing all traffic to egress to the internet. Although the internet connection to Office 365 is still needed, the specific routes that Microsoft advertises through BGP to your network make the direct ExpressRoute circuit preferred unless there are other configurations in your network. The three common areas you may want to configure to manage this routing include prefix filtering, security, and compliance."
+description: Learn how manage ExpressRoute for Office 365, including common areas to configure like prefix filtering, security, and compliance.
 ---
 
 # Managing ExpressRoute for Office 365 connectivity

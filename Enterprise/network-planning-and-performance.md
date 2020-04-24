@@ -15,7 +15,8 @@ ms.custom: Adm_O365
 search.appverid: 
 - MET150
 ms.assetid: e5f1228c-da3c-4654-bf16-d163daee8848
-description: "Helps you plan your network bandwidth requirements for Microsoft Office 365. Once you're deployed, return here to fine tune and troubleshoot Office 365 performance."
+ms.custom: seo-marvel-apr2020
+description: "This article will help you plan your network bandwidth requirements for Microsoft Office 365, and fine tune & troubleshoot performance."
 ---
 
 # Network planning and performance tuning for Office 365
