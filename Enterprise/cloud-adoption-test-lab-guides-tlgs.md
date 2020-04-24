@@ -46,7 +46,7 @@ Use these articles to build your Office 365 dev/test environment:
     
 For additional TLGs that apply to both Office 365 and Microsoft 365, go to [Test Lab Guides](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).  
     
-## See also
+## Related topics
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   

@@ -12,7 +12,7 @@ localization_priority: Priority
 f1.keywords:
 - NOCSH
 description: Need to configure separate administrators for each geo location? Learn how to add or remove a geo administrator in Office 365 Multi-Geo.
-ms.custom: seo-marvel-mar2020
+ms.custom: seo-marvel-apr2020
 ---
 
 # Add or remove a geo administrator in Office 365 Multi-Geo
@@ -51,7 +51,7 @@ Note that not all security groups have a group alias. If you want to add a secur
 
 To remove a group by using the ObjectID, run `Remove-SPOGeoAdministrator -ObjectID <ObjectID>`
 
-## See Also
+## Related topics
 
 [Add-SPOGeoAdministrator](https://docs.microsoft.com/powershell/module/sharepoint-online/add-spogeoadministrator)
 

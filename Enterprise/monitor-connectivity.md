@@ -38,7 +38,7 @@ Once you've deployed Office 365, you can maintain Office 365 connectivity using 
 
 Here's a short link you can use to come back: [https://aka.ms/monitorconnectivity365](https://aka.ms/monitorconnectivity365)
   
-## See also
+## Related topics
 
 [Configure Office 365 Enterprise services and applications](configure-services-and-applications.md)
   
