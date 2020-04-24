@@ -1,5 +1,5 @@
 ---
-title: "Manage Office 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners"
+title: Manage Office 365 tenants with Windows PowerShell for DAP
 ms.author: chrfox
 author: chrfox
 manager: laurawi

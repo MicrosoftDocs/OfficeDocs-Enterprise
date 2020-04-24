@@ -14,7 +14,7 @@ ms.collection:
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Priority
-description: "In this article, you'll learn about administering SharePoint and OneDrive services in a multi-geo environment."
+description: Admin can learn about how to administer SharePoint and OneDrive services in a multi-geo environment.
 ---
 
 # Administering a multi-geo environment

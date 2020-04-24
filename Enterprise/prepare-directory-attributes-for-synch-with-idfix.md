@@ -1,5 +1,5 @@
 ---
-title: "Prepare directory attributes for synchronization with Office 365 by using the IdFix tool"
+title: Prepare directory attributes for synchronization with Office 365 using the IdFix tool
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection:
 - Ent_O365
 - M365-identity-device-management

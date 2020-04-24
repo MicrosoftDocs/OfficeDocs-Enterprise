@@ -1,5 +1,5 @@
 ---
-title: "Test Lab Guide Configure an integrated Exchange, Lync, and SharePoint test lab"
+title: Test Lab Guide - Configure an integrated Exchange, Lync, and SharePoint test lab
 ms.author: jhendr
 author: JoanneHendrickson
 manager: laurawi
