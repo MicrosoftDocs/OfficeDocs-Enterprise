@@ -100,7 +100,7 @@ We don't rely on the routing path you use for any of our compliance controls. Re
   
 Here's a short link you can use to come back: [https://aka.ms/manageexpressroute365](https://aka.ms/manageexpressroute365)
   
-## Related Topics
+## Related topics
 
 [Content delivery networks](content-delivery-networks.md)
   
