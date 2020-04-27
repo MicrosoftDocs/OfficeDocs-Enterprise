@@ -64,11 +64,11 @@ Email customers who are using Exchange Federation will also need the additional 
 ||||
 |:-----|:-----|:-----|
 |**DNS record** <br/> |**Purpose** <br/> |**Value to use** <br/> |
-|**CNAME** <br/> **(Exchange Online)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for users.  <br/> |**Alias:** Autodiscover  <br/> **Target:**autodiscover.outlook.com  <br/> |
+|**CNAME** <br/> **(Exchange Online)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for users.  <br/> |**Alias:** Autodiscover  <br/> **Target:** autodiscover.outlook.com  <br/> |
 |**MX** <br/> **(Exchange Online)** <br/> |Sends incoming mail for your domain to the Exchange Online service in Office 365.  <br/> [!NOTE] Once email is flowing to Exchange Online, you should remove the MX records that are pointing to your old system.   |**Domain:** For example, contoso.com  <br/> **Target email server:**\<MX token\>.mail.protection.outlook.com  <br/> **Preference/Priority:** Lower than any other MX records (this ensures mail is delivered to Exchange Online) - for example 1 or 'low'  <br/>  Find your \<MX token\> by following these steps:  <br/>  Sign in to Office 365, go to Office 365 admin \> Domains.  <br/>  In the Action column for your domain, choose Fix issues.  <br/>  In the MX records section, choose What do I fix?  <br/>  Follow the directions on this page to update your MX record.  <br/> [What is MX priority?](https://go.microsoft.com/fwlink/p/?LinkId=396471) <br/> |
 |**SPF (TXT)** <br/> **(Exchange Online)**  <br/> |Helps to prevent other people from using your domain to send spam or other malicious email. Sender policy framework (SPF) records work by identifying the servers that are authorized to send email from your domain.  <br/> |[External DNS records required for SPF](external-domain-name-system-records.md#BKMK_SPFrecords) <br/> |
 |**TXT** <br/> **(Exchange federation)** <br/> |Used for Exchange federation for hybrid deployment.  <br/> |**TXT record 1:** For example, contoso.com and associated custom-generated, domain-proof hash text (for example, Y96nu89138789315669824)  <br/> **TXT record 2:** For example, exchangedelegation.contoso.com and associated custom-generated, domain-proof hash text (for example, Y3259071352452626169)  <br/> |
-|**CNAME** <br/> **(Exchange federation)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service when your company is using Exchange federation. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for your users.  <br/> |**Alias:** For example, Autodiscover.service.contoso.com  <br/> **Target:**autodiscover.outlook.com  <br/> |
+|**CNAME** <br/> **(Exchange federation)** <br/> |Helps Outlook clients to easily connect to the Exchange Online service by using the Autodiscover service when your company is using Exchange federation. Autodiscover automatically finds the correct Exchange Server host and configures Outlook for your users.  <br/> |**Alias:** For example, Autodiscover.service.contoso.com  <br/> **Target:** autodiscover.outlook.com  <br/> |
 
 
 ## External DNS records required for Skype for Business Online
@@ -133,10 +133,9 @@ For scenarios where you're not just using Exchange Online email for Office 365 (
 ||If you're using…  <br/> |Purpose  <br/> |Add these includes  <br/> |
 |1  <br/> |All email systems (required)  <br/> |All SPF records start with this value  <br/> |v=spf1  <br/> |
 |2  <br/> |Exchange Online (common)  <br/> |Use with just Exchange Online  <br/> |include:spf.protection.outlook.com  <br/> |
-|3  <br/> |SharePoint Online and Exchange Online (common)  <br/> |Use with Exchange Online and SharePoint Online  <br/> |include:sharepointonline.com  <br/> |
-|4  <br/> |Third-party email system (less common)  <br/> ||include:\<email system like mail.contoso.com\>  <br/> |
-|5  <br/> |On-premises mail system (less common)  <br/> |Use if you're using Exchange Online Protection or Exchange Online plus another mail system  <br/> |ip4:\<0.0.0.0\>  <br/> ip6:\< : : \>  <br/> include:\<mail.contoso.com\>  <br/> The value in brackets (\<\>) should be other mail systems that will send email for your domain.  <br/> |
-|6  <br/> |All email systems (required)  <br/> ||-all  <br/> |
+|3  <br/> |Third-party email system (less common)  <br/> ||include:\<email system like mail.contoso.com\>  <br/> |
+|4  <br/> |On-premises mail system (less common)  <br/> |Use if you're using Exchange Online Protection or Exchange Online plus another mail system  <br/> |ip4:\<0.0.0.0\>  <br/> ip6:\< : : \>  <br/> include:\<mail.contoso.com\>  <br/> The value in brackets (\<\>) should be other mail systems that will send email for your domain.  <br/> |
+|5  <br/> |All email systems (required)  <br/> ||-all  <br/> |
 
 ### Example: Adding to an existing SPF record
 <a name="bkmk_addtospf"> </a>
