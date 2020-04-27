@@ -133,10 +133,9 @@ For scenarios where you're not just using Exchange Online email for Office 365 (
 ||If you're using…  <br/> |Purpose  <br/> |Add these includes  <br/> |
 |1  <br/> |All email systems (required)  <br/> |All SPF records start with this value  <br/> |v=spf1  <br/> |
 |2  <br/> |Exchange Online (common)  <br/> |Use with just Exchange Online  <br/> |include:spf.protection.outlook.com  <br/> |
-|3  <br/> |SharePoint Online and Exchange Online (common)  <br/> |Use with Exchange Online and SharePoint Online  <br/> |include:sharepointonline.com  <br/> |
-|4  <br/> |Third-party email system (less common)  <br/> ||include:\<email system like mail.contoso.com\>  <br/> |
-|5  <br/> |On-premises mail system (less common)  <br/> |Use if you're using Exchange Online Protection or Exchange Online plus another mail system  <br/> |ip4:\<0.0.0.0\>  <br/> ip6:\< : : \>  <br/> include:\<mail.contoso.com\>  <br/> The value in brackets (\<\>) should be other mail systems that will send email for your domain.  <br/> |
-|6  <br/> |All email systems (required)  <br/> ||-all  <br/> |
+|3  <br/> |Third-party email system (less common)  <br/> ||include:\<email system like mail.contoso.com\>  <br/> |
+|4  <br/> |On-premises mail system (less common)  <br/> |Use if you're using Exchange Online Protection or Exchange Online plus another mail system  <br/> |ip4:\<0.0.0.0\>  <br/> ip6:\< : : \>  <br/> include:\<mail.contoso.com\>  <br/> The value in brackets (\<\>) should be other mail systems that will send email for your domain.  <br/> |
+|5  <br/> |All email systems (required)  <br/> ||-all  <br/> |
 
 ### Example: Adding to an existing SPF record
 <a name="bkmk_addtospf"> </a>
