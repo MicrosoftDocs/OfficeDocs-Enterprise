@@ -32,6 +32,7 @@ Learn more about [multi-factor authentication](https://docs.microsoft.com/azure/
  - Web browsers<sup>1</sup>
  - Android<sup>2</sup>
  - iOS
+ - iPadOS
  - macOS
 
 For more information about platform support in Office 365, see [System requirements for Office 365](https://products.office.com/office-system-requirements).
