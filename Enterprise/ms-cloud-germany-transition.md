@@ -1,7 +1,7 @@
 ---
 title: "Migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions"
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: andyber
+author: andybergen
 manager: laurawi
 ms.date: 12/09/2019
 audience: ITPro

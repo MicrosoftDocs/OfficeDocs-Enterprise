@@ -44,8 +44,7 @@ There are a number of reasons to avoid the use of the [Office 365 URLs and IP ad
 |:-----|:-----|:-----|
 |Accept all Microsoft routes  <br/> |**Low:** Customer relies upon Microsoft controls to ensure all routes are properly owned.  <br/> |None  <br/> |
 |Filter Microsoft owned supernets  <br/> |**Medium:** Customer implements summarized prefix filter lists to allow only Microsoft owned routes.  <br/> |Customers must ensure the infrequent updates are reflected in route filters.  <br/> |
-|Filter Office 365 IP ranges  <br/> [!CAUTION] Not-Recommended
-|**High:** Customer filters routes based on defined Office 365 IP prefixes.  <br/> |Customers must implement a robust change management process for the monthly updates.  <br/> [!CAUTION] This solution requires significant on-going changes. Changes not implemented in time will likely result in a service outage.   |
+|Filter Office 365 IP ranges  <br/> [!CAUTION] Not-Recommended |**High:** Customer filters routes based on defined Office 365 IP prefixes.  <br/> |Customers must implement a robust change management process for the monthly updates.  <br/> [!CAUTION] This solution requires significant on-going changes. Changes not implemented in time will likely result in a service outage.   |
 
 Connecting to Office 365 using Azure ExpressRoute is based on BGP advertisements of specific IP subnets that represent networks where Office 365 endpoints are deployed. Due to the global nature of Office 365 and the number of services that make up Office 365, customers often have a need to manage the advertisements they accept on their network. If you're concerned with number of prefixes advertised into your environment, the [BGP community](https://support.office.com/article/Using-BGP-communities-in-ExpressRoute-for-Office-365-scenarios-preview-9ac4d7d4-d9f8-40a8-8c78-2a6d7fe96099) feature allows you to filter the advertisements to a specific set of Office 365 services. This feature is now in preview.
   

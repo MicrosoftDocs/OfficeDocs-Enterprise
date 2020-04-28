@@ -160,7 +160,7 @@ You can now use this environment to create new policies and further experiment w
   
 [Office 365 dev/test environment](office-365-dev-test-environment.md)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
 
 [Overview of Cloud App Security in Office 365](https://support.office.com/article/Overview-of-Advanced-Security-Management-in-Office-365-81f0ee9a-9645-45ab-ba56-de9cbccab475)
 

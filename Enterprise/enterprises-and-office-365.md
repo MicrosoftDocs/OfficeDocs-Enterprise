@@ -1,7 +1,7 @@
 ---
 title: "Enterprise organizations and Office 365"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/8/2017
 audience: ITPro
