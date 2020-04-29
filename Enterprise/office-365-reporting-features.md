@@ -18,9 +18,7 @@ description: Learn about various reporting features within Office 365, including
 ms.custom: seo-marvel-apr2020
 ---
 
-# Office 365 Reporting Features 
-
-## Introduction
+# Office 365 Reporting Features
 
 The Reports feature in Office 365 provides various audit reports for Azure Active Directory (AD), Exchange Online, device management, supervisory review, and data loss prevention (DLP). These reports are different and separate from the Office 365 Activity Reports.
 

@@ -45,7 +45,7 @@ For SharePoint Server 2013 workloads in Azure:
 - [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
   
   
-## See Also
+## Related topics
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
