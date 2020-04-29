@@ -36,5 +36,4 @@ The Office 365 Networking Partner Program designates qualified networking soluti
 
 If you are an Office 365 customer, you can make your network solution provider aware of this program through this page at [https://aka.ms/Office365NPP](https://aka.ms/Office365NPP).
 
-For network solution providers who want to inquire about the Office 365 Networking Partner Program, please reach out to John Mighell ([jomigh@microsoft.com](mailto:jomigh@microsoft.com)). Thank you for your interest and we look forward to a beautiful partnership.
-
+For network solution providers who want to inquire about the Office 365 Networking Partner Program, please fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbRyMNEapKtzJHu98R0YXYz1RUN0QxSUVEWTdRVTdIV1RTWjIzOVk0QkE4US4u). Thank you for your interest and we look forward to a beautiful partnership.
