@@ -14,6 +14,7 @@ f1.keywords:
 ms.custom: 
 - Ent_Office_Other
 - PowerShell
+- sem-marvel-apr2020
 ms.assetid: b23dda88-f137-4051-9c2c-84035ad63f5e
 description: "Summary: Use Office 365 PowerShell to manage Microsoft Exchange Online, including displaying mailbox configuration and advanced reporting."
 ---
@@ -26,7 +27,7 @@ One of the primary tasks of any Microsoft Exchange Online administrator is manag
     
 - [Find the permissions required to run any Exchange cmdlet](https://docs.microsoft.com/powershell/exchange/exchange-server/find-exchange-cmdlet-permissions)
     
-## See also
+## Related topics
 
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
   
