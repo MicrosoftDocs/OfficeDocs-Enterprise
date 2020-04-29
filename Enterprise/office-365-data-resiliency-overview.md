@@ -20,8 +20,6 @@ ms.custom: seo-marvel-apr2020
 
 # Data Resiliency in Office 365
 
-## Introduction
-
 Given the complex nature of cloud computing, Microsoft is mindful that it's not a case of if things will go wrong, but rather when. We design our cloud services to maximize reliability and minimize the negative effects on customers when things do go wrong. We have moved beyond the traditional strategy of relying on complex physical infrastructure, and we have built redundancy directly into our cloud services. We use a combination of less complex physical infrastructure and more intelligent software that builds data resiliency into our services and delivers high availability to our customers. 
 
 ## Resiliency and Recoverability Are Built-in 

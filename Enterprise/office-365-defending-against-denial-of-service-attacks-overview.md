@@ -20,8 +20,6 @@ ms.custom: seo-marvel-apr2020
 
 # Defend Against Denial-of-Service Attacks in Office 365
 
-## Introduction
-
 Microsoft delivers a trustworthy infrastructure for more than 200 cloud services hosted in a global cloud infrastructure of more than 100 datacenters. These include:
 
 - Microsoft Azure
