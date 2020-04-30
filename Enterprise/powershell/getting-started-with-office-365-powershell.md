@@ -14,6 +14,7 @@ f1.keywords:
 ms.custom: 
 - PowerShell
 - Ent_Office_Other
+- seo-marvel-apr2020
 ms.assetid: 4712d6fd-d9c7-4ec2-88c1-3ad9201cbb7f
 description: "Summary: Understand the importance of Office 365 PowerShell, get connected to your Office 365 tenant, and get help."
 ---
@@ -48,7 +49,7 @@ Select the article based on your needs:
     
     Start here to connect to the PowerShell community venues and get help or ongoing information about using Office 365 PowerShell .
     
-## See also
+## Related topics
 
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
 

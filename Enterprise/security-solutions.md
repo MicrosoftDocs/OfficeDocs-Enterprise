@@ -37,7 +37,7 @@ Here are solutions for secure access, collaboration, and data with Microsoft Off
 - [Isolated SharePoint Online team sites](isolated-sharepoint-online-team-sites.md)
 <br/><br/>
     
-## See Also
+## Related topics
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
   
