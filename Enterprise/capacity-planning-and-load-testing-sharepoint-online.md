@@ -14,7 +14,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 ms.assetid: c932bd9b-fb9a-47ab-a330-6979d03688c0
 description: "This article describes how you can deploy to SharePoint Online without performing traditional load testing since it is not permitted."
 ---
