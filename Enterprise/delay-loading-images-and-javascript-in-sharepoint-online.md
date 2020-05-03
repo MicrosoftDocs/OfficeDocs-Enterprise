@@ -25,7 +25,7 @@ description: "This article describes how you can decrease the load time for Shar
 
 This article describes how you can decrease the load time for SharePoint Online pages by using JavaScript to delay loading images and also by waiting to load non-essential JavaScript until after the page loads.
   
-Images can negatively affect page load speeds on SharePoint Online. By default, most modern Internet browsers pre-fetch images when loading an HTML page. This can cause the page to be unnecessarily slow to load if the images are not visible on the screen until the user scrolls down. The images can block the browser from loading the visible part of the page. To work around this problem, you can use JavaScript to skip loading the images first. Also, loading non-essential JavaScript can slow down load times on your SharePoint pages too. This topic describes some methods you can use to improve page load times with JavaScript in SharePoint Online.
+Images can negatively affect page load speeds on SharePoint Online. By default, most modern Internet browsers pre-fetch images when loading an HTML page. This can cause the page to be unnecessarily slow to load if the images are not visible on the screen until the user scrolls down. The images can block the browser from loading the visible part of the page. To work around this problem, you can use JavaScript to skip loading the images first. Also, loading non-essential JavaScript can slow download times on your SharePoint pages too. This topic describes some methods you can use to improve page load times with JavaScript in SharePoint Online.
   
 ## Improve page load times by delaying image loading in SharePoint Online pages by using JavaScript
 
@@ -104,7 +104,7 @@ In order for this to work, you also need to reference jQuery in the master page.
   
 ![Screenshot showing one image loaded on page](media/3d177ddb-67e5-43a7-b327-c9f9566ca937.png)
   
-The following screen shot shows the rest of the images that are downloaded after they scroll into view.
+The following screenshot shows the rest of the images that are downloaded after they scroll into view.
   
 ![Screenshot showing several images loaded on page](media/95eb2b14-f6a1-4eac-a5cb-96097e49514c.png)
   
