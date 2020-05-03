@@ -27,7 +27,7 @@ landingContent:
           - text: Migrate your organization data to Office 365 Enterprise
             url: migrate-data-to-office-365.md
           - text: Deployment guide for Microsoft 365 Apps for enterprise
-            url: https://docs.microsoft.com/DeployOffice/deployment-guide-for-microsoft-365-apps
+            url: https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps
           - text: Deploy Office 365 Enterprise for your organization
             url: setup-overview-for-enterprises.md
           - text: Hybrid deployments

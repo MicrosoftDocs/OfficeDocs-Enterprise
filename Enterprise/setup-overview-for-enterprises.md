@@ -55,7 +55,7 @@ To deploy Office 365 Enterprise on your own after completing your planning, thes
 
    Includes configuring and rolling out basic and enhanced security, threat, and information protections for your tenant and identities in the first 30 days, 90 days, and beyond.
  
-4. [Deploy client software](https://docs.microsoft.com/DeployOffice/deployment-guide-for-microsoft-365-apps)
+4. [Deploy client software](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
    Includes deploying Office 365 ProPlus, the cloud-updated and always-current version of the Office suite (Word, Excel, PowerPoint, and others) on your devices. Every Office 365 client license includes a license for Office 365 ProPlus.
  
