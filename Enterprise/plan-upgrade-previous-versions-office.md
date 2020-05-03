@@ -83,7 +83,7 @@ You can also choose not to upgrade at this time. Your Office apps will continue 
 
 [Microsoft 365](https://www.microsoft.com/microsoft-365) is the combination of Office 365, Windows 10, and Enterprise Mobility + Security (EMS) that provides a complete, intelligent solution to empower everyone to be creative and work together, securely. 
   
-Although you can migrate your Office 2007 or Office 2010 servers and clients to Office 365, Microsoft 365 includes the licenses and capabilities to help ensure that your organization is working on the latest Windows operating system and that your devices—including Windows, iOS, and Android—are enrolled and kept secured with policies that require authentication and data protection. In addition, Windows 10 and your Office 365 ProPlus client software is updated on a continuing basis to include the latest features and security updates.
+Although you can migrate your Office 2007 or Office 2010 servers and clients to Office 365, Microsoft 365 includes the licenses and capabilities to help ensure that your organization is working on the latest Windows operating system and that your devices—including Windows, iOS, and Android—are enrolled and kept secured with policies that require authentication and data protection. In addition, Windows 10 and your Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus) client software is updated on a continuing basis to include the latest features and security updates.
   
 Microsoft 365 is the way to digitally transform your business with constantly-improving devices and productivity experiences, enabled and secured by the Microsoft cloud.
   

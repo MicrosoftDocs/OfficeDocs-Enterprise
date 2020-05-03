@@ -52,6 +52,6 @@ For automatic license assignment, see [group-based licensing in Azure AD](https:
 With the full set of user accounts that have been assigned licenses, you are now ready to:
 
 - [Implement security](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
-- [Deploy client software, such as Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+- [Deploy client software, such as Microsoft 365 Apps](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 - [Set up Mobile Device Management in Office 365](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 - [Configure services and applications](configure-services-and-applications.md)

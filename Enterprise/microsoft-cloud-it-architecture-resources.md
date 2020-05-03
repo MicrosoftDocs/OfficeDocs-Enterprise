@@ -18,12 +18,12 @@ ms.custom:
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
 search.appverid:
 - MET150
-description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Office ProPlus."
+description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Microsoft 365 Apps for enterprise."
 ---
 
 # Microsoft cloud IT architecture resources
 
- **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Office ProPlus.
+ **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Microsoft 365 Apps for enterprise.
   
 These architecture tools and posters give you information about Microsoft cloud services, including Office 365, Windows 10, Azure Active Directory, Microsoft Intune, Microsoft Dynamics 365, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security. 
   
@@ -204,7 +204,7 @@ This guidance describes how to implement a secure cloud environment. The solutio
 |**Item**|**Description**|
 |:-----|:-----|
 |**Microsoft Security Guidance for Political Campaigns** <br/> [![Thumb nail for mini poster set.](media/d370ce28-ca40-4930-9a2c-907312aa06c8.png)          ](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf) <br/> [PDF](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.pdf)  \| [Visio](https://download.microsoft.com/download/B/4/D/B4D520C3-4D0C-4B4D-BFB9-09F0651C2775/MSFT_Cloud_architecture_security%20for%20political%20campaigns.vsdx) <br/> |This guidance uses a political campaign organization as an example. Use this guidance as a starting point for any environment.  <br/> |
-|**Microsoft Security Guidance for Nonprofits** <br/> [![Thumnail image for downloadable file](media/e4784889-1c69-4067-9a8f-31d31d1eceea.png)          ](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) <br/> [PDF](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf)  \| [Visio](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.vsdx) <br/> |This guide is slightly revised for nonprofit organizations. For example, it references Office 365 Nonprofit plans. The technical guidance is the same as the political campaign solution guide.  <br/> |
+|**Microsoft Security Guidance for Nonprofits** <br/> [![Thumbnail image for downloadable file](media/e4784889-1c69-4067-9a8f-31d31d1eceea.png)          ](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf) <br/> [PDF](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.pdf)  \| [Visio](https://download.microsoft.com/download/9/4/3/94389612-C679-4061-8DF2-D9A15D72B65F/Microsoft_Cloud%20Architecture_Security%20for%20Nonprofits.vsdx) <br/> |This guide is slightly revised for nonprofit organizations. For example, it references Office 365 Nonprofit plans. The technical guidance is the same as the political campaign solution guide.  <br/> |
 
 This guidance includes Test Lab Guides. For more information, see [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](https://docs.microsoft.com/Office365/SecurityCompliance/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o).
 
@@ -220,11 +220,11 @@ For more information, see the article for this poster: [Microsoft Telephony Solu
 <a name="msd"></a>
 ### Deploy a modern and secure desktop with Microsoft
 
-What IT architects need to know about deploying and managing updates for Office 365 ProPlus on Windows 10.
+What IT architects need to know about deploying and managing updates for Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus) on Windows 10.
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumbnail for the Deploy a modern and secure desktop with Microsoft model](media/321dd59c-d992-4c7a-a7b6-c23a783858bd.png)          ](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/> | This model contains: <ul><li>  Deploying Windows 10 and Office ProPlus from the Microsoft cloud </li><li>  Deploying Windows 10 and Office ProPlus with Microsoft Endpoint Configuration Manager </li><li>  Managing updates for Windows 10 and Office ProPlus from the Microsoft cloud </li><li>  Managing updates for Windows 10 and Office ProPlus with Microsoft Endpoint Configuration Manager </li><li>  Out-of-the-box and additional protection capabilities of Windows 10 </li></ul><br/> |
+|[![Thumbnail for the Deploy a modern and secure desktop with Microsoft model](media/321dd59c-d992-4c7a-a7b6-c23a783858bd.png)          ](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/> | This model contains: <ul><li>  Deploying Windows 10 and Microsoft 365 Apps for enterprise from the Microsoft cloud </li><li>  Deploying Windows 10 and Microsoft 365 Apps for enterprise with Microsoft Endpoint Configuration Manager </li><li>  Managing updates for Windows 10 and Microsoft 365 Apps for enterprise from the Microsoft cloud </li><li>  Managing updates for Windows 10 and Microsoft 365 Apps for enterprise with Microsoft Endpoint Configuration Manager </li><li>  Out-of-the-box and additional protection capabilities of Windows 10 </li></ul><br/> |
    
 ## See Also
 
