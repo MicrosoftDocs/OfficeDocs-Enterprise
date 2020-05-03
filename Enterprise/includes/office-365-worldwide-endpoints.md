@@ -136,4 +136,4 @@ ID | Category | ER | Addresses | Ports
 147 | Default<BR>Required | No | `*.office.com` | **TCP:** 443, 80
 148 | Default<BR>Required | No | `cdnprod.myanalytics.microsoft.com, myanalytics.microsoft.com, myanalytics-gcc.microsoft.com` | **TCP:** 443, 80
 149 | Default<BR>Required | No | `workplaceanalytics.cdn.office.net, workplaceanalytics.office.com` | **TCP:** 443, 80
-150 | Default<BR>Optional<BR>**Notes:** Blocking these endpoints will affect the ability to access the Office 365 ProPlus deployment and management features via the portal. | No | `*.officeconfig.msocdn.com, config.office.com` | **TCP:** 443
+150 | Default<BR>Optional<BR>**Notes:** Blocking these endpoints will affect the ability to access the Microsoft 365 Apps for enterprise deployment and management features via the portal. | No | `*.officeconfig.msocdn.com, config.office.com` | **TCP:** 443

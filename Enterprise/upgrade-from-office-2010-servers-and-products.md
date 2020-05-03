@@ -37,7 +37,7 @@ While you're planning your upgrade, this is a great time to consider moving to O
 
 - Office 365 has cloud-based services for Office 2010 server products such as Exchange Server and SharePoint Server and services such as Teams and OneDrive for Business. 
 
-- Office 365 ProPlus, included with Office 365 E3 and E5 and Microsoft 365 Enterprise, is the set of Office client apps that you install on your local device. They are updated with new productivity and security features on an ongoing basis from the Microsoft cloud.
+- Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus), included with Office 365 E3 and E5 and Microsoft 365 Enterprise, is the set of Office client apps that you install on your local device. They are updated with new productivity and security features on an ongoing basis from the Microsoft cloud.
 
 For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
 
