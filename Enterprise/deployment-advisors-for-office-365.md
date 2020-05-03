@@ -170,7 +170,7 @@ The Office deployment advisor walks through the steps for helping users install 
 |||
 |:-------|:-----|
 | **Run:** | [Office deployment advisor ](https://aka.ms/o365proplusdeploy) | 
-| **Watch:** | [Office experience as a subscription service](https://aka.ms/qo45jf) <BR> [Overview of https://aka.ms/r359zr](https://aka.ms/r359zr) | 
+| **Watch:** | [Office experience as a subscription service](https://aka.ms/qo45jf) <BR> [Overview of Microsoft 365 Apps for enterprise](https://aka.ms/r359zr) | 
 |||
 
 
