@@ -116,7 +116,7 @@ Don't miss the article and code sample on [JavaScript injection](https://go.micr
   
 ## See also
 
-[Supported browsers in Office 2013 and Office 365 ProPlus](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
+[Supported browsers in Office 2013 and Microsoft 365 Apps for enterprise](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
   
 [How to: Apply a master page to a site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=525627)
   

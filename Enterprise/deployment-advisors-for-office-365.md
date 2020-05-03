@@ -154,23 +154,23 @@ If you have Gmail, you'll need to migrate your Gmail contacts and Google Calenda
 
 ## File creation, storage, and sharing
 
-### Office 365 ProPlus
+### Microsoft 365 Apps for enterprise
 
-Office 365 ProPlus gets your users up and running on the latest versions of Office and keeps them updated.
+Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus) gets your users up and running on the latest versions of Office and keeps them updated.
 
 See this guide for the steps to install Office on either a PC or a Mac for your company, including tips for getting everyone started with Office.
 
 |||
 |:-------|:-----|
-| **Run:** |  [Office 365 ProPlus quick start guide](https://aka.ms/OPPquickstartguide) <BR> |
+| **Run:** |  [Microsoft 365 Apps for enterprise quick start guide](https://aka.ms/OPPquickstartguide) <BR> |
 |||
 
-The Office 365 ProPlus deployment advisor walks through the steps for helping users install Office 365 ProPlus directly from the Office 365 portal online or for deploying Office 365 ProPlus to your users from an on-premises location. Included are instructions for using Microsoft Endpoint Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
+The Office deployment advisor walks through the steps for helping users install Microsoft 365 Apps for enterprise directly from the Office 365 portal online or for deploying Microsoft 365 Apps for enterprise to your users from an on-premises location. Included are instructions for using Microsoft Endpoint Configuration Manager, a Group Policy startup script, an operating system disk image, or Remote Desktop Services (RDS) shared activation.
 
 |||
 |:-------|:-----|
-| **Run:** | [Office 365 ProPlus deployment advisor ](https://aka.ms/o365proplusdeploy) | 
-| **Watch:** | [Office experience as a subscription service](https://aka.ms/qo45jf) <BR> [Overview of Office 365 ProPlus](https://aka.ms/r359zr) | 
+| **Run:** | [Office deployment advisor ](https://aka.ms/o365proplusdeploy) | 
+| **Watch:** | [Office experience as a subscription service](https://aka.ms/qo45jf) <BR> [Overview of https://aka.ms/r359zr](https://aka.ms/r359zr) | 
 |||
 
 
@@ -182,7 +182,7 @@ To get started quickly with OneDrive for Business for file storage, sharing, and
 
 |||
 |:-------|:-----|
-| **Run:** | [Office 365 ProPlus deployment advisor ](https://aka.ms/o365proplusdeploy) | 
+| **Run:** | [Office deployment advisor ](https://aka.ms/o365proplusdeploy) | 
 | **Watch:** | [OneDrive for Business Integrated Advantage](https://aka.ms/f66hqa) <BR> [Welcome to OneDrive: Coming from another cloud storage provider](https://videoplayercdn.osi.office.net/embed/6b11f30b-725a-4145-8b72-45a41793a432) | 
 |||
 
