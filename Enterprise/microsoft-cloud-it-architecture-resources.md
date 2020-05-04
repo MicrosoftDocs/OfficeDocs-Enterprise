@@ -18,12 +18,12 @@ ms.custom:
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
 search.appverid:
 - MET150
-description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Microsoft 365 Apps for enterprise."
+description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud."
 ---
 
 # Microsoft cloud IT architecture resources
 
- **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud. Learn how to deploy a modern and secure desktop with Windows 10 and Microsoft 365 Apps for enterprise.
+ **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud.
   
 These architecture tools and posters give you information about Microsoft cloud services, including Office 365, Windows 10, Azure Active Directory, Microsoft Intune, Microsoft Dynamics 365, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security. 
   
@@ -48,7 +48,6 @@ These architecture tools and posters give you information about Microsoft cloud 
     - [Office 365 Information Protection for GDPR](#office-365-information-protection-for-gdpr)
     - [Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations](#microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations)
     - [Microsoft Telephony Solutions](#microsoft-telephony-solutions) 
-    - [Deploy a modern and secure desktop with Microsoft](microsoft-cloud-it-architecture-resources.md#msd)
     
 Let us know what you think! Send us email at [cloudadopt@microsoft.com](mailto:cloudadopt@microsoft.com). 
 
@@ -216,11 +215,6 @@ Microsoft supports several options as you begin your journey to Teams in the Mic
 [PDF](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/telephony-solutions/microsoft-telephony-solutions-12-18.vsdx) 
 
 For more information, see the article for this poster: [Microsoft Telephony Solutions](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
-  
-<a name="msd"></a>
-### Deploy a modern and secure desktop with Microsoft
-
-What IT architects need to know about deploying and managing updates for Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus) on Windows 10.
   
 ## See Also
 
