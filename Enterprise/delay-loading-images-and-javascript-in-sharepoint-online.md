@@ -16,7 +16,9 @@ f1.keywords:
 ms.custom: 
  - Adm_O365
  - seo-marvel-apr2020
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
 description: Learn how to decrease the load time for SharePoint Online pages by using JavaScript to delay loading images and and non-essential JavaScript.
 ---
@@ -25,7 +27,7 @@ description: Learn how to decrease the load time for SharePoint Online pages by 
 
 This article describes how you can decrease the load time for SharePoint Online pages by using JavaScript to delay loading images and also by waiting to load non-essential JavaScript until after the page loads.
   
-Images can negatively affect page load speeds on SharePoint Online. By default, most modern Internet browsers pre-fetch images when loading an HTML page. This can cause the page to be unnecessarily slow to load if the images are not visible on the screen until the user scrolls down. The images can block the browser from loading the visible part of the page. To work around this problem, you can use JavaScript to skip loading the images first. Also, loading non-essential JavaScript can slow down load times on your SharePoint pages too. This topic describes some methods you can use to improve page load times with JavaScript in SharePoint Online.
+Images can negatively affect page load speeds on SharePoint Online. By default, most modern Internet browsers pre-fetch images when loading an HTML page. This can cause the page to be unnecessarily slow to load if the images are not visible on the screen until the user scrolls down. The images can block the browser from loading the visible part of the page. To work around this problem, you can use JavaScript to skip loading the images first. Also, loading non-essential JavaScript can slow download times on your SharePoint pages too. This topic describes some methods you can use to improve page load times with JavaScript in SharePoint Online.
   
 ## Improve page load times by delaying image loading in SharePoint Online pages by using JavaScript
 
@@ -104,7 +106,7 @@ In order for this to work, you also need to reference jQuery in the master page.
   
 ![Screenshot showing one image loaded on page](media/3d177ddb-67e5-43a7-b327-c9f9566ca937.png)
   
-The following screen shot shows the rest of the images that are downloaded after they scroll into view.
+The following screenshot shows the rest of the images that are downloaded after they scroll into view.
   
 ![Screenshot showing several images loaded on page](media/95eb2b14-f6a1-4eac-a5cb-96097e49514c.png)
   
@@ -116,7 +118,7 @@ Don't miss the article and code sample on [JavaScript injection](https://go.micr
   
 ## See also
 
-[Supported browsers in Office 2013 and Office 365 ProPlus](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
+[Supported browsers in Office 2013 and Microsoft 365 Apps for enterprise](https://support.office.com/article/57342811-0dc4-4316-b773-20082ced8a82)
   
 [How to: Apply a master page to a site in SharePoint 2013](https://go.microsoft.com/fwlink/p/?LinkId=525627)
   

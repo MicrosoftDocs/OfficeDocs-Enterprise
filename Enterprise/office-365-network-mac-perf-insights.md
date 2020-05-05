@@ -1,9 +1,9 @@
 ---
-title: "Office 365 Network Insights (preview)"
+title: "Microsoft 365 Network Insights (preview)"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/20/2020
+ms.date: 04/21/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
-description: "Office 365 Network Insights (preview)"
+description: "Microsoft 365 Network Insights (preview)"
 ---
 
-# Office 365 Network Insights (preview)
+# Microsoft 365 Network Insights (preview)
 
-**Network insights** are live performance metrics collected from your Office 365 tenant, and available to view only by administrative users in your tenant. Insights are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>.
+**Network insights** are live performance metrics collected from your Microsoft 365 tenant, and available to view only by administrative users in your tenant. Insights are displayed in the Microsoft 365 Admin Center at <https://portal.microsoft.com/adminportal/home#/networkperformance>.
 
 Insights are intended to help in designing network perimeters for your office locations. Each insight provides live details about the performance characteristics for a specific common issue for each geographic location where users are accessing your tenant.
 
@@ -31,11 +31,11 @@ There are five specific network insights that may be shown for each office locat
 - [Low download speed from SharePoint front door](#low-download-speed-from-sharepoint-front-door)
 
 >[!IMPORTANT]
->Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Office 365 tenants that have been enrolled in the feature preview program.
+>Network insights, performance recommendations and assessments in the Microsoft 365 Admin Center is currently in preview status, and is only available for Microsoft 365 tenants that have been enrolled in the feature preview program.
 
 ## Backhauled network egress
 
-This insight will be displayed if the network insights service detects that the distance from a given user location to the network egress is greater than 500 miles (800 kilometers), indicating that Office 365 traffic is being backhauled to a common Internet edge device or proxy.
+This insight will be displayed if the network insights service detects that the distance from a given user location to the network egress is greater than 500 miles (800 kilometers), indicating that Microsoft 365 traffic is being backhauled to a common Internet edge device or proxy.
 
 This insight is abbreviated as "Egress" in some summary views.
 
@@ -49,7 +49,7 @@ Details for this insight include the office location, estimated percentage of to
 
 ### What should I do?
 
-For this insight, we would recommend network egress closer to the office location so that connectivity can route optimally to Microsoft's global network and to the nearest Office 365 service front door. Having close network egress to users office locations also allows for improved performance in the future as Microsoft expands both network points of presence and Office 365 service front doors in the future.
+For this insight, we would recommend network egress closer to the office location so that connectivity can route optimally to Microsoft's global network and to the nearest Microsoft 365 service front door. Having close network egress to users office locations also allows for improved performance in the future as Microsoft expands both network points of presence and Microsoft 365 service front doors in the future.
 
 For more information about how to resolve this issue, see [Egress network connections locally](office-365-network-connectivity-principles.md#egress-network-connections-locally) in [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md).
 
@@ -63,11 +63,11 @@ This insight is abbreviated as "Peers" in some summary views.
 
 ### What does this mean?
 
-This insight examines the aggregate performance of Office 365 customers in the same city as this office location. This insight is displayed if the average latency of your users is 10% greater than the average latency of neighboring tenants.
+This insight examines the aggregate performance of Microsoft 365 customers in the same city as this office location. This insight is displayed if the average latency of your users is 10% greater than the average latency of neighboring tenants.
 
 ### What should I do?
 
-There could be many reasons for this condition, including latency in your corporate network or ISP, bottlenecks, or architecture design issues. Examine the latency between each hop in the route between your office network and the current Office 365 front door. For more information, see [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md).
+There could be many reasons for this condition, including latency in your corporate network or ISP, bottlenecks, or architecture design issues. Examine the latency between each hop in the route between your office network and the current Microsoft 365 front door. For more information, see [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md).
 
 ## Use of a non-optimal Exchange Online service front door
 
@@ -117,7 +117,7 @@ To improve download speeds, bandwidth may need to be increased. Alternatively, t
 
 ## China user optimal network egress
 
-This insight will be displayed if your organization has users in China connecting to your Office 365 tenant in other geographic locations. 
+This insight will be displayed if your organization has users in China connecting to your Microsoft 365 tenant in other geographic locations. 
 
 ### What does this mean?
 
@@ -140,6 +140,8 @@ For more information about how to mitigate performance issues related to this in
 
 [Network performance recommendations in the Microsoft 365 Admin Center (preview)](office-365-network-mac-perf-overview.md)
 
-[Office 365 network assessment (preview)](office-365-network-mac-perf-score.md)
+[Microsoft 365 network assessment (preview)](office-365-network-mac-perf-score.md)
 
-[Office 365 Network Onboarding Tool in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
+[Microsoft 365 connectivity test in the M365 Admin Center (preview)](office-365-network-mac-perf-onboarding-tool.md)
+
+[Microsoft 365 Network Connectivity Location Services (preview)](office-365-network-mac-location-services.md)

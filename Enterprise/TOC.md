@@ -1,4 +1,5 @@
 ﻿# [Cloud architecture models](microsoft-cloud-it-architecture-resources.md)
+# [Enterprise Cloud Solutions](cloud-adoption-and-hybrid-solutions.yml)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # [Plan for Office 365](get-your-organization-ready-for-office-365.md)
@@ -81,7 +82,10 @@
 #### [Network requests in Office for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
-### [Office 365 performance optimization for China users](office-365-networking-china.md)
+### Optimize Office 365 connectivity for remote users
+#### [Overview: VPN Split Tunneling](office-365-vpn-split-tunnel.md)
+#### [Implementing VPN Split Tunneling](office-365-vpn-implement-split-tunnel.md)
+#### [Office 365 optimization for China users](office-365-networking-china.md)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
@@ -107,7 +111,7 @@
 ## [3. Implement security](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 
 ## 4. Deploy client software
-### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+### [Deploy Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 ### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 

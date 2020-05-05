@@ -111,7 +111,7 @@ Optimizing Office 365 network performance really comes down to removing unnecess
 
 [Content Delivery Networks](content-delivery-networks.md)
 
-[Office 365 Network Onboarding tool](https://aka.ms/netonboard)
+[Microsoft 365 connectivity test](https://aka.ms/netonboard)
 
 [How Microsoft builds its fast and reliable global network](https://azure.microsoft.com/blog/how-microsoft-builds-its-fast-and-reliable-global-network/)
 

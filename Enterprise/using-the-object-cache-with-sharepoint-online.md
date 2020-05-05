@@ -14,7 +14,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 ms.assetid: 38bc9c14-3826-449c-beb6-b1003bcbeaaf
 description: "This article explains the difference between using the object cache in SharePoint Server 2013 on-premises and SharePoint Online."
 ---

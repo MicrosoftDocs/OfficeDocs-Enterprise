@@ -39,7 +39,7 @@ Here are solutions for secure access, collaboration, and data with Microsoft Off
     
 ## Related topics
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   
