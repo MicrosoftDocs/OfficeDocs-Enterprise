@@ -79,7 +79,7 @@ Office 365 uses service-side technologies that encrypt customer data at rest and
 
 Please review the [Products available by region](https://go.microsoft.com/fwlink/p/?linkid=2093451) page to find data residency information for Microsoft Azure.
 
-### What are Multi-Geo Capabilities in Office 365?
+### What are Multi-Geo Capabilities in Microsoft 365?
 
 [Multi-Geo](https://go.microsoft.com/fwlink/p/?linkid=872033) enables a single Office 365 tenant to span across multiple Office 365 data center regions and gives customers the ability to store their Office 365 core customer data, on a per-user basis, in select regions.
 
@@ -108,7 +108,7 @@ For country/region specific data centers, the following defines the cities where
 | Country | City |
 | --- | --- |
 | Australia | New South Wales, Victoria |
-| Canada | Québec City, Toronto |
+| Canada | Quebec City, Toronto |
 | European Union | Austria, Finland, France, Ireland, Netherlands |
 | France | Paris, Marseille |
 | Germany | Frankfurt, Berlin |
@@ -116,7 +116,7 @@ For country/region specific data centers, the following defines the cities where
 | Japan | Osaka, Tokyo, Saitama |
 | Korea | Busan, Seoul |
 | Norway | Oslo, Stavanger |
-| South Africa | Capetown, Johannesburg |
+| South Africa | Cape Town, Johannesburg |
 | Switzerland | Geneva, Zurich |
 | United Arab Emirates | Dubai, Abu Dhabi |
 | United Kingdom | Durham, London, Cardiff |
@@ -722,7 +722,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Workplace Analytics | United States |
 </p></details>
 
-## Boliva
+## Bolivia
 <details><summary>Click to expand</summary><p>
 
 | Service | Location |
@@ -2355,7 +2355,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Workplace Analytics | United States |
 </p></details>
 
-## Heard and Mcdonald Islands
+## Heard and McDonald Islands
 <details><summary>Click to expand</summary><p>
 
 | Service | Location |
@@ -4034,7 +4034,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Workplace Analytics | United States |
 </p></details>
 
-## Papaua New Guinea
+## Papua New Guinea
 <details><summary>Click to expand</summary><p>
 
 | Service | Location |

@@ -11,10 +11,10 @@ ms.collection: SPO_Content
 localization_priority: Priority
 f1.keywords:
 - NOCSH
-description: "Learn how to add or remove a geo administrator in Office 365 Multi-Geo."
+description: "Learn how to add or remove a geo administrator in Microsoft 365 Multi-Geo."
 ---
 
-# Add or remove a geo administrator in Office 365 Multi-Geo
+# Add or remove a geo administrator in Microsoft 365 Multi-Geo
 
 You can configure separate administrators for each geo location that you have in your tenant. These administrators will have access to the SharePoint Online and OneDrive settings that are specific to their geo location.
 
@@ -38,7 +38,7 @@ To remove a user as a Geo Admin of a location, run  `Remove-SPOGeoAdministrator 
 
 ### Adding a group as a geo admin
 
-You can add a security group or a mail-enabled security group as a geo admin. (Distribution groups and Office 365 Groups are not supported.)
+You can add a security group or a mail-enabled security group as a geo admin. (Distribution groups and Microsoft 365 Groups are not supported.)
 
 To add a group as a geo administrator, run `Add-SPOGeoAdministrator -GroupAlias <alias>`
 

@@ -28,7 +28,7 @@ A user's Exchange mailbox is provisioned to their preferred data location, and i
 
 SharePoint Hub sites enhances the discovery and engagement with content for employees, while creating a complete and consistent representation of projects, departments or regions. In a multi-geo environment, sites from satellite locations can easily be associated with a hub site regardless the hub site's geo location. Users can search and get results across the hub through a single search experience, regardless of the geo location of the sites.
 
-## Office 365 app launcher
+## Microsoft 365 app launcher
 
 The app launcher is multi-geo aware and will direct each tile to the appropriate geo location of the workload. The SharePoint and OneDrive tiles will point the user to the location corresponding to the user's provisioned geo location. This means that is the user has a OneDrive in the central location, their SharePoint tile will point them to SP Home in the central location but their group site will be provisioned in the location corresponding to their PDL. 
 
