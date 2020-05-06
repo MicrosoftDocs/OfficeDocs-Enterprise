@@ -67,9 +67,6 @@ Follow these steps to get started with multi-geo:
 
 5. [Set up search](configure-search-for-multi-geo.md).
 
-> [!NOTE]
-> For more details on licensing and pricing, visit [Multi-Geo licensing and Pricing](https://techcommunity.microsoft.com/t5/blogs/blogarticleprintpage/blog-id/Office365Blog/article-id/2176).
-
 ## See also
 
 [Multi-Geo in Exchange Online and OneDrive](https://Aka.ms/GoMultiGeo)
