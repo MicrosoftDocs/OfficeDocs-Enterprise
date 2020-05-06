@@ -132,7 +132,7 @@
 
 ## Advanced deployment
 
-### [Office 365 Multi-Geo](office-365-multi-geo.md)
+### [Microsoft 365 Multi-Geo](office-365-multi-geo.md)
 #### [OneDrive and SharePoint multi-geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Exchange Multi-Geo](multi-geo-capabilities-in-exchange-online.md)
 #### [Plan for multi-geo](plan-for-multi-geo.md)
@@ -147,7 +147,7 @@
 ##### [Move a SharePoint site](move-sharepoint-between-geo-locations.md)
 ##### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
 ##### [Restrict content to a geo location](restrict-content-to-geo-location.md)
-##### [Configure Office 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md)
+##### [Configure Microsoft 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md)
 ##### [Create a group with a specific PDL](multi-geo-add-group-with-pdl.md)
 ##### [Delete a geo location](delete-a-geo-location.md)
 ##### [Enabling SharePoint Multi-Geo in your satellite geo location](enabling-SP-multigeo-satellite-geolocation.md)
@@ -189,20 +189,6 @@
 ### [Tools to manage user accounts](manage-office-365-accounts.md)
 ### [Add several users at the same time](add-several-users-at-the-same-time.md)
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
-
-### Collaborate with guests
-#### [Guest sharing reference](/microsoft-365/solutions/microsoft-365-guest-settings?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-#### Guest sharing scenarios
-##### [Guest collaboration overview](/microsoft-365/solutions/collaborate-with-people-outside-your-organization?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-##### [Collaborate on documents](/microsoft-365/solutions/collaborate-on-documents?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-##### [Collaborate in a site](/microsoft-365/solutions/collaborate-in-site?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-##### [Collaborate as a team](/microsoft-365/solutions/collaborate-as-team?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-#### Guest sharing security
-##### [Unauthenticated sharing](/microsoft-365/solutions/best-practices-anonymous-sharing?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-##### [Limit accidental exposure](/microsoft-365/solutions/share-limit-accidental-exposure?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-##### [Secure guest sharing environment](/microsoft-365/solutions/create-secure-guest-sharing-environment?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-#### [Create a B2B extranet](/microsoft-365/solutions/b2b-extranet?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
-### [Limit sharing](/microsoft-365/solutions/microsoft-365-limit-sharing?toc=/Office365/Enterprise/toc.json&bc=/office365/enterprise/breadcrumb/toc.json)
 
 ## Devices
 ### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
