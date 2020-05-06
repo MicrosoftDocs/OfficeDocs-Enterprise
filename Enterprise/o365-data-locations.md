@@ -79,7 +79,7 @@ Office 365 uses service-side technologies that encrypt customer data at rest and
 
 Please review the [Products available by region](https://go.microsoft.com/fwlink/p/?linkid=2093451) page to find data residency information for Microsoft Azure.
 
-### What are Multi-Geo Capabilities in Office 365?
+### What are Multi-Geo Capabilities in Microsoft 365?
 
 [Multi-Geo](https://go.microsoft.com/fwlink/p/?linkid=872033) enables a single Office 365 tenant to span across multiple Office 365 data center regions and gives customers the ability to store their Office 365 core customer data, on a per-user basis, in select regions.
 

@@ -19,11 +19,11 @@ description: "Learn about administering SharePoint and OneDrive services in a mu
 
 # Administering a multi-geo environment
 
-Here's a look at how Office 365 services work in a multi-geo environment.
+Here's a look at how Microsoft 365 services work in a multi-geo environment.
 
 ## Audit log search
 
-A unified [Audit log](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) for all your satellite locations is available from the Office 365 audit log search page. You can see all the audit log entries from across geo locations, for example, NAM & EUR users' activities will show up in one org view and then you can apply existing filters to see specific user's activities.
+A unified [Audit log](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) for all your satellite locations is available from the Microsoft 365 audit log search page. You can see all the audit log entries from across geo locations, for example, NAM & EUR users' activities will show up in one org view and then you can apply existing filters to see specific user's activities.
 
 ## BCS, Secure Store, Apps
 
@@ -31,7 +31,7 @@ BCS, Secure Store, and Apps all have separate instances in each satellite locati
 
 ## eDiscovery 
 
-By default, an eDiscovery Manager or Administrator of a multi-geo tenant will be able to conduct eDiscovery only in the central location of that tenant. The Office 365 global administrator must assign eDiscovery Manager permissions to allow others to perform eDiscovery and assign a “Region” parameter in their applicable Compliance Security Filter to specify the region for conducting eDiscovery as satellite location, otherwise no eDiscovery will be carried out for the satellite location. To configure the Compliance Security Filter for a Region, see [Configure Office 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md).
+By default, an eDiscovery Manager or Administrator of a multi-geo tenant will be able to conduct eDiscovery only in the central location of that tenant. The Microsoft 365 global administrator must assign eDiscovery Manager permissions to allow others to perform eDiscovery and assign a “Region” parameter in their applicable Compliance Security Filter to specify the region for conducting eDiscovery as satellite location, otherwise no eDiscovery will be carried out for the satellite location. To configure the Compliance Security Filter for a Region, see [Configure Microsoft 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md).
 
 ## Exchange mailboxes
 
@@ -59,7 +59,7 @@ The [OneDrive admin center](https://admin.onedrive.com) has a **Geo locations** 
 
 ## Security and Compliance Admin Center
 
-There is one central compliance center for a multi-geo tenant: [Office 365 Security & Compliance Center](https://protection.office.com/?rfr=AdminCenter\#/homepage).
+There is one central compliance center for a multi-geo tenant: [Microsoft 365 Security & Compliance Center](https://protection.office.com/?rfr=AdminCenter\#/homepage).
 
 ## SharePoint storage quota
 
@@ -93,7 +93,7 @@ Stream is currently available in the following regions:
 - Europe
 - Asia Pacific
 
-However, Stream is not yet available in the following regions that are currently supported for Office 365 Video, therefore for these local instances, we will use the RMS that is in the closest supported region.
+However, Stream is not yet available in the following regions that are currently supported for Microsoft 365 Video, therefore for these local instances, we will use the RMS that is in the closest supported region.
 
 - Australia
 - Canada
