@@ -25,7 +25,7 @@ To create an Microsoft 365 Group with the PDL that you specify, go to the ShareP
 
 For example:
 
-If you wan to create a group site in your Australtia location, you can go to https://ContosoAUS-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/siteManagement
+If you want to create a group site in your Australia location, you can go to https://ContosoAUS-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/siteManagement
 
 1. Select **+ Create**.
 2. Follow the process to create a group site.
