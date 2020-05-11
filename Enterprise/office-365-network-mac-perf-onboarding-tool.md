@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 connectivity test in the M365 Admin Center (preview)"
+title: "Microsoft 365 connectivity test (preview) in the Microsoft 365 admin center"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -16,9 +16,9 @@ ms.collection:
 description: "Microsoft 365 connectivity test in the M365 Admin Center (preview)"
 ---
 
-# Microsoft 365 connectivity test in the M365 Admin Center (preview)
+# Microsoft 365 connectivity test in the Microsoft 365 admin center (preview)
 
-The Microsoft 365 connectivity test is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 Admin Center under the **Health | Network Performance** menu.
+The Microsoft 365 connectivity test is located at <https://connectivity.office.com>. It is an adjunct tool to the network insights and network score information available in the Microsoft 365 admin center under the **Health | Network Performance** menu.
 
 >[!NOTE]
 >The onboarding tool supports tenants in WW Commercial and GCC Moderate but not GCC High, DoD, Germany or China.
