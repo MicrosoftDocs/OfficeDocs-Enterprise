@@ -22,7 +22,7 @@ You can manage Microsoft Teams with Office 365 PowerShell.
   
 First, install the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/).
     
-## Signing in to manage Teams with PowerShell with a user name and password
+## Sign in with a user name and password
 
 For the Office 365 Worldwide (+GCC) cloud:
 
@@ -45,7 +45,7 @@ $cred=Get-Credential
 Connect-MicrosoftTeams -Credential $cred -TeamsEnvironmentName TeamsGCCH
 ```
 
-## Signing in to manage Teams with PowerShell with multi-factor authentication (MFA)
+## Sign in with multi-factor authentication (MFA)
 
 For the Office 365 Worldwide (+GCC) cloud:
 
@@ -65,7 +65,7 @@ For the Office 365 U.S. Government GCC High cloud:
 Connect-MicrosoftTeams -TeamsEnvironmentName TeamsGCCH
 ```
 
-## Disconnecting from Microsoft Teams
+## Disconnect from Microsoft Teams
 
 Use this command:
 

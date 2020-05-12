@@ -58,7 +58,7 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
     
     You need to use a 64-bit version of Windows because of the requirements for the Skype for Business Online module and one of the Office 365 modules.
     
-- You need to install the modules that are required for Azure AD, Exchange Online, SharePoint Online, Skype for Business Online and Teams:
+- You need to install the modules that are required for Azure Active Directory (Azure AD), Exchange Online, SharePoint Online, Skype for Business Online and Teams:
     
    - [Azure Active Directory V2](connect-to-office-365-powershell.md##connect-with-the-azure-active-directory-powershell-for-graph-module)
    - [SharePoint Online Management Shell](https://go.microsoft.com/fwlink/p/?LinkId=255251)
@@ -84,7 +84,7 @@ Here are the steps to connect to all the services in a single PowerShell window.
   $credential = Get-Credential
   ```
 
-3. Run this command to connect to Azure Active Directory (AD) using the Azure Active Directory PowerShell for Graph module.
+3. Run this command to connect to Azure AD using the Azure Active Directory PowerShell for Graph module.
     
   ```powershell
   Connect-AzureAD -Credential $credential
