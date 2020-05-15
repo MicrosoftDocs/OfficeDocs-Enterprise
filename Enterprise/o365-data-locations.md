@@ -1,7 +1,7 @@
 ---
 title: "Office 365 data locations"
-ms.author: andyber
-author: andybergen
+ms.author: deanw
+author: dmwmsft
 manager: laurawi
 ms.date: 03/09/2020
 audience: ITPro
@@ -49,7 +49,7 @@ Review our [definitions for different types of data](https://go.microsoft.com/fw
 
 ### Where are the exact addresses of the data centers?
 
-Microsoft does not disclose the exact addresses of its data centers. We established this policy to help secure our data center facilities.
+Microsoft does not disclose the exact addresses of its data centers. We established this policy to help secure our data center facilities.  However, we do list city locations. Please see [Data Center Locations](https://docs.microsoft.com/office365/enterprise/o365-data-locations#data-center-locations) to learn more.
 
 ### Does the location of your customer data have a direct impact on your end users' experience?
 
