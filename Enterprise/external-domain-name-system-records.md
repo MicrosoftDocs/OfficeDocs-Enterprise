@@ -87,11 +87,6 @@ There are specific steps to take when you use  [Office 365 URLs and IP address r
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Used by the Lync client to help find the Skype for Business Online service and sign in.  <br/> |**Alias:** sip  <br/> **Target:** sipdir.online.lync.com  <br/> For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO).  <br/> |
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Used by the Lync mobile client to help find the Skype for Business Online service and sign in.  <br/> |**Alias:** lyncdiscover  <br/> **Target:** webdir.online.lync.com  <br/> |
 
-## External DNS records required for SharePoint Online
-<a name="BKMK_ReqdCore"> </a>
-
-SharePoint Online only requires a DNS record if your organization usesSharePoint Online to send email to people externally. In this case, make sure you've set up [External DNS records required for SPF](external-domain-name-system-records.md#BKMK_SPFrecords) so the mail can be delivered.
-  
 ## External DNS records required for Office 365 Single Sign-On
 <a name="BKMK_ReqdCore"> </a>
 
@@ -144,16 +139,16 @@ If you already have an SPF record, you'll need to add or update values for Offic
   
 ``` dns
 TXT Name @
-Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com -all
+Values: v=spf1 ip4:60.200.100.30 include:smtp.adatum.com -all
 ```
 
-Now you're updating your SPF record for Office 365, for example, to include email that originates from SharePoint Online. You'll edit your current record so you have a single SPF record that includes the values that you need. For Office 365, "sharepointonline.com" in an SPF record includes email from both Exchange Online (Outlook) and SharePoint Online, so you replace the original "spf.protection.outlook.com" value.
+Now you're updating your SPF record for Office 365. You'll edit your current record so you have an SPF record that includes the values that you need. For Office 365, "spf.protection.outlook.com".
   
 Correct:
   
 ``` dns
 TXT Name @
-Values: v=spf1 ip4:60.200.100.30 include:sharepointonline.com -all
+Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com include:smtp.adatum.com -all
 ```
 
 Incorrect:
@@ -161,26 +156,26 @@ Incorrect:
 ``` dns
 Record 1:
 TXT Name @
-Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com -all
+Values: v=spf1 ip4:60.200.100.30 include:smtp.adatum.com -all
 Record 2:
-Values: v=spf1 include:sharepointonline.com -all
+Values: v=spf1 include:spf.protection.outlook.com -all
 ```
 
 ### More examples of common SPF values
 <a name="bkmk_addtospf"> </a>
 
-If you are using the full Office 365 suite and are using MailChimp to send marketing emails on your behalf, your SPF record at contoso.com might look like the following, which uses rows 1, 3, 4, and 6 from the table above. Remember, rows 1 and 6 are required, and "sharepointonline.com" includes both Exchange (Outlook) and SharePoint email.
+If you are using the full Office 365 suite and are using MailChimp to send marketing emails on your behalf, your SPF record at contoso.com might look like the following, which uses rows 1, 3, and 5 from the table above. Remember, rows 1 and 5 are required.
   
 ``` dns
 TXT Name @
-Values: v=spf1 include:sharepointonline.com include:servers.mcsv.net -all
+Values: v=spf1 include:spf.protection.outlook.com include:servers.mcsv.net -all
 ```
 
 Alternatively, if you have an Exchange Hybrid configuration where email will be sent from both Office 365 and your on-premises mail system, your SPF record at contoso.com might look like this:
   
 ``` dns
 TXT Name @
-Values: v=spf1 include:sharepointonline.com include:mail.contoso.com -all
+Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
 These are some common examples that can help you adapt your existing SPF record when you add your domain to Office 365 for email. If you have a complicated scenario that includes, for example, edge email servers for managing email traffic across your firewall, you'll have a more detailed SPF record to set up. Learn how: [Set up SPF records in Office 365 to help prevent spoofing](https://go.microsoft.com/fwlink/?LinkId=787656).
