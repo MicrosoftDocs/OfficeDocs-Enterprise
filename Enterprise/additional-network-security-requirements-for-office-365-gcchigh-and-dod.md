@@ -50,7 +50,7 @@ The body of your message should include the following data:
 * Your Microsoft Online Services tenant name (i.e. contoso.onmicrosoft.com, fabrikam.onmicrosoft.us)
 * An email distribution list that Microsoft will communicate with for on-going communications related to network changes and/or follow up for invalid subnets
 * Indicate whether you plan to use Microsoft Teams hybrid co-existence with your on-premises deployments
-* Federated identity system externally accessible URL and IP address range in CIDR notation (e.g. sts.contoso.com)
+* Federated identity system externally accessible URL (e.g. sts.contoso.com) and IP address range in CIDR notation (e.g. 10.1.1.0/28)
 * On-Premises PKI Certificate Revocation List URL and IP address range in CIDR notation
 * Externally accessible URL and IP address range for Exchange Server on-premises deployment in CIDR notation
 * Externally accessible URL and IP address range for Skype for Business on-premises deployment in CIDR notation
@@ -58,7 +58,7 @@ The body of your message should include the following data:
 For security and compliance reasons, please keep in mind the following restrictions on your request:
 
 * There is a four subnet limitation per tenant
-* Subnets must be in CIDR Notation
+* Subnets must be in CIDR Notation (e.g. 10.1.1.0/28)
 * Subnet ranges cannot be larger than /24
 * We **cannot** accommodate requests to allow access to commercial cloud services (commercial Office 365, Google G-Suite, Amazon Web Services, etc.)
 
