@@ -30,7 +30,6 @@
 ## Office 365 client support
 ### [Certificate-based authentication](office-365-client-support-certificate-based-authentication.md)
 ### [Conditional Access](office-365-client-support-conditional-access.md)
-### [Choose between MDM and Intune](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune)
 ### [Mobile application management](office-365-client-support-mobile-application-management.md)
 ### [Modern authentication](office-365-client-support-modern-authentication.md)
 ### [Single sign-on](office-365-client-support-single-sign-on.md)
@@ -198,7 +197,6 @@
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
 
 ## Devices
-### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
 ### [Manage device access settings](https://support.office.com/article/28dd276b-beeb-4c5b-8b22-7551186127fe)
 
 ## Workloads

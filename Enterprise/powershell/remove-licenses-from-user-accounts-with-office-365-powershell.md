@@ -3,7 +3,7 @@ title: "Remove licenses from user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/20/2020
+ms.date: 05/26/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -50,6 +50,36 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
 $Licenses.AddLicenses = @()
 $Licenses.RemoveLicenses =  (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value $planName -EQ).SkuID
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+```
+
+To remove all of the licenses for a specific user account, specify the user sign-in name, remove the "<" and ">" characters, and run these commands.
+
+```powershell
+$userUPN="<user sign-in name (UPN)>"
+$licensePlanList = Get-AzureADSubscribedSku
+$userList = Get-AzureADUser -ObjectID $userUPN | Select -ExpandProperty AssignedLicenses | Select SkuID
+if($userList.Count -ne 0) {
+if($userList -is [array]) {
+for ($i=0; $i -lt $userList.Count; $i++) {
+$license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$license.SkuId = $userList[$i].SkuId
+$licenses.AddLicenses = $license
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+$Licenses.AddLicenses = @()
+$Licenses.RemoveLicenses =  (Get-AzureADSubscribedSku | Where-Object -Property SkuID -Value $userList[$i].SkuId -EQ).SkuID
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+}
+} else {
+$license = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$licenses = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$license.SkuId = $userList.SkuId
+$licenses.AddLicenses = $license
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+$Licenses.AddLicenses = @()
+$Licenses.RemoveLicenses =  (Get-AzureADSubscribedSku | Where-Object -Property SkuID -Value $userList.SkuId -EQ).SkuID
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $licenses
+}}
 ```
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
