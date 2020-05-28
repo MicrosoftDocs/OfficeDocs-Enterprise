@@ -3,7 +3,7 @@ title: "Manage Skype for Business Online with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 05/28/2018
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -22,7 +22,7 @@ One of the primary tasks of any Skype for Business Online administrator is manag
 
 ## Before you start
 
-Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer if prompted.
+Download and install the [Skype for Business Online Connector module](https://www.microsoft.com/download/details.aspx?id=39366), and then restart your computer.
 
 
 ## Connect using a Skype for Business Online administrator account name and password
