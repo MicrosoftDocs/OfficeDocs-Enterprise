@@ -107,7 +107,7 @@ These topics contain detailed Office 365 network reference information.
     
 - [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
     
-- [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+- [Setup guides for Office 365 services](setup-guides-for-office-365.md)
  
 ## See also
 

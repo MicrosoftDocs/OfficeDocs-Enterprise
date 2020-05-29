@@ -69,6 +69,6 @@ For more details on configuring firewalls and proxies to connect to Office 365, 
   
 ## See also
 
-[Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+[Setup guides for Office 365 services](setup-guides-for-office-365.md)
 
 [Microsoft 365 Enterprise overview](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview)

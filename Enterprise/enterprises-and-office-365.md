@@ -105,7 +105,7 @@ Self-paced online learning experiences for Office 365 IT Pros.
   
 [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
   
-[Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+[Setup guides for Office 365 services](setup-guides-for-office-365.md)
   
  **Training for end users**
   
