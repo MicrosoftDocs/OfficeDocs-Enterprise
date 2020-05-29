@@ -181,7 +181,6 @@
 # Manage Office 365
 
 ## Network
-### [Client connectivity](client-connectivity.md)
 ### [Monitor connectivity](monitor-connectivity.md)
 
 ## Directory synchronization
