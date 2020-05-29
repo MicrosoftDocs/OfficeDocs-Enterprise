@@ -26,7 +26,7 @@ description: "Configure Office 365 Enterprise services and applications"
 
 Our [basic set up instructions](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) help you get everyone using your Office 365 services and applications in the shortest time possible. Sometimes getting things configured before everyone starts using them is preferred. For example if you want to configure mail routing , file storage, or sharing policies. 
   
-If you want help getting Office 365 set up, use **[FastTrack](https://fasttrack.microsoft.com/office)** or the [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md).
+If you want help getting Office 365 set up, use **[FastTrack](https://fasttrack.microsoft.com/office)** or the [Setup guides for Office 365 services](setup-guides-for-office-365.md).
   
 |**Services & applications**|**Resources**|
 |:-----|:-----|
