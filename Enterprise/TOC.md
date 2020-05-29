@@ -17,7 +17,7 @@
 #### [Hybrid identity](plan-for-directory-synchronization.md)
 
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
-### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+### [Setup guides for Office 365 and Microsoft 365 services](setup-guides-for-office-365.md)
 ### [Integrated Apps and Azure AD](integrated-apps-and-azure-ads.md)
 
 ### Office 365 integration
