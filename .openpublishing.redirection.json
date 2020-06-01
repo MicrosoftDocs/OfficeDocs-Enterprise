@@ -749,23 +749,13 @@
 
 {
 
-      "source_path": "deployment-advisors-for-office-365.md",
+      "source_path": "enterprise/deployment-advisors-for-office-365.md",
 
       "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-guides-for-office-365",
 
       "redirect_document_id": true
       
    },
-
-   {
-
-    "source_path": "enterprise/network-connectivity.md",
-
-    "redirect_url": "https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity",
-
-    "redirect_document_id": true
-    
- },
 
  {
    
