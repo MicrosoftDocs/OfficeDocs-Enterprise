@@ -5041,7 +5041,7 @@ New Office 365 tenants are defaulted to Geo based on the country of the billing 
 | Yammer | Global Geography 1 – EMEA |
 | OneNote Services | Switzerland |
 | Stream | Global Geography 1 – EMEA |
-| Whiteboard | United States |
+| Whiteboard | Global Geography 1 – EMEA |
 | Forms | Global Geography 1 – EMEA |
 | Workplace Analytics | United States |
 </p></details>
