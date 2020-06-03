@@ -10,7 +10,7 @@
 |Japan                        |JPN     |Southeast or East Asia datacenters|
 |Korea                        |KOR     |Southeast or East Asia datacenters|
 |North America                |NAM     |US datacenters                    |
-|South Africa                 |ZAF     |(Coming soon)                     |
-|Switzerland                  |SWE     |(Coming soon)                     |
-|United Arab Emirates         |ARE     |(Coming soon)                     |
+|South Africa                 |ZAF     |(eDiscovery data location coming soon)|
+|Switzerland                  |CHE     |(eDiscovery data location coming soon)|
+|United Arab Emirates         |ARE     |(eDiscovery data location coming soon)|
 |United Kingdom               |GBR     |Europe datacenters                |

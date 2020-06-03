@@ -25,7 +25,7 @@ The Reports feature in Office 365 provides various audit reports for Azure Activ
 
 ## Office 365 Reports Dashboard
 
-The Reports dashboard in the Microsoft 365 admin center preview displays usage activity across Office 365. Office 365 global administrators, or an Exchange Online, SharePoint Online, or Skype for Business administrator, can get granular insight into the usage of that service. For example, the number of users in a particular Office 365 service, the number of users that have activated Office Professional Plus, and how much mail is flowing through the organization. Reports are available for the last 7, 30, 90, and 180 days.
+The Reports dashboard in the Microsoft 365 admin center preview displays usage activity across Office 365. Office 365 global administrators, or an Exchange Online, SharePoint Online, or Skype for Business administrator, can get granular insight into the usage of that service. For example, the number of users in a particular Office 365 service, the number of users that have activated Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus), and how much mail is flowing through the organization. Reports are available for the last 7, 30, 90, and 180 days.
 
 The following reports are available:
 

@@ -69,15 +69,15 @@ Follow these instructions.
   
 1. Sign in to the computer where you want to run the IdFix tool.
     
-2. Go to the Microsoft download site for the [IdFix DirSync Error Remediation Tool](https://go.microsoft.com/fwlink/?linkid=867219).
+2. Go to the [IdFix DirSync Error Remediation Tool](https://github.com/microsoft/idfix) site.
     
-3. Download and open the zip file.
+3. Click **launch** in the **ClickOnce Launch** section to download the zip file. Open the zip file.
     
-3. In the **IdFix** window, choose **Extract**, and then **Extract all**. By default, IdFix is extracted to `C:\Users\<your user name>\Documents\IdFix`. 
+4. In the **IdFix** window, choose **Extract**, and then **Extract all**. By default, IdFix is extracted to `C:\Users\<your user name>\Documents\IdFix`. 
     
-6. Choose **Extract**.
+5. Choose **Extract**.
 
-These instructions were done with Internet Explorer on a server running Windows Server 2016. If you're using a different version of Windows or a different browser, your steps might vary.
+Your steps might vary based on your version of Windows and your Internet browser.
     
 ## Run the IdFix tool
 

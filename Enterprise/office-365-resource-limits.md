@@ -21,7 +21,7 @@ description: "Summary: Information about resource limits for the various applica
 
 Resource limits are enforced using quotas (limits) and throttling. Azure Active Directory and the individual Office 365 services use both. Limits are service-specific and change over time as new capabilities are added. For details on the current limits for the various services, see the following topics:
 
-- [Azure Active Directory service limits and restrictions](https://msdn.microsoft.com/library/azure/dn764971.aspx)
+- [Azure Active Directory service limits and restrictions](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits)
 - [Exchange Online Limits](https://technet.microsoft.com/library/exchange-online-limits.aspx)
 - [Exchange Online Protection Limits](https://technet.microsoft.com/library/exchange-online-protection-limits.aspx)
 - [SharePoint Online software boundaries and limits](https://support.office.com/article/SharePoint-Online-software-boundaries-and-limits-8F34FF47-B749-408B-ABC0-B605E1F6D498)

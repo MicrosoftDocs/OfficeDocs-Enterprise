@@ -45,7 +45,7 @@ For SharePoint Server 2013 workloads in Azure:
   
 ## See Also
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   

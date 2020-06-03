@@ -22,7 +22,7 @@ Here are answers to general questions about moving core data to a new datacenter
   
 ## What customers are eligible to request a move?
   
-Existing Office 365 commercial customers who selected a country eligible for the new datacenter geo will be able to request a move.  The program exists only for tenants with an eligible country code assigned to the Office 365 tenant to migrate core customer data at rest for eligible workloads to the corresponding Office 365 datacenter geo.  Please refer to the [How to request your data move](request-your-data-move.md) page to confirm country eligibility.   
+Existing Microsoft 365 commercial customers who selected a country eligible for the new datacenter geo will be able to request a move.  The program exists only for tenants with an eligible country code assigned to the Microsoft 365 tenant to migrate core customer data at rest for eligible workloads to the corresponding Microsoft 365 datacenter geo.  Please refer to the [How to request your data move](request-your-data-move.md) page to confirm country eligibility.   
 
 ## How do we define Core Customer Data?
  
@@ -37,21 +37,11 @@ Due to shared dependencies between Exchange Online and SharePoint Online/OneDriv
 completed until both services are migrated.  Exchange Online and SharePoint Online/OneDrive for Business often migrate at separate times and independently from one another.  Tenant admins receive confirmation in Message Center when each service migration is completed and can view the data location card in the Admin Center at any time to confirm the core customer data at rest location for 
 each service.
 
-## Will my tenant automatically be moved to the new datacenter geo?
- 
-There are two actions that you can take as a tenant administrator.
-
-- Opt-in.  Enroll in the Office 365 Move Program and receive a committed deadline for your services to migrate core customer 
-	data at rest to the new datacenter geo.  See the [How to request your data move](request-your-data-move.md) page for instructions on how to opt-in to the program.
-- Do nothing.  Take no action, which results in Microsoft being able to move your core customer data at rest to your new datacenter 
-	geo over time as part of service management and optimization.  Your data can only potentially move to your new datacenter geo, 
-	not to any other geo.  We notify via Message Center when such a service management move has completed.
-
 ## How do you make sure my customer data is safe during the move and that I won't experience downtime?
   
 Data moves are a back-end service operation with minimal impact to end-users. Features that can be impacted are listed in [During and after your data move](during-and-after-your-data-move.md). We adhere to the [Microsoft Online Services Service Level Agreement (SLA)](https://go.microsoft.com/fwlink/p/?LinkId=523897) for availability so there is nothing that customers need to prepare for or to monitor during the move. 
   
-All Office 365 services run the same versions in the datacenters, so you can be assured of consistent functionality. Your service is fully supported throughout the process.
+All Microsoft 365 services run the same versions in the datacenters, so you can be assured of consistent functionality. Your service is fully supported throughout the process.
 
 ## What is in scope for Teams migration?
 
@@ -63,14 +53,14 @@ Teams files are stored in SharePoint Online and Teams chat files are stored in O
   
 ## What is the impact of having different services located in different geos?
 
-Some of the Office 365 services may be located in different geos for some existing customers and for customers that are in the middle of the move process.  Our services run independently of each other and there is no impact to the user experience if this is the case.  However, for data residency purposes, a tenant migration cannot be considered as complete until both Exchange Online and SharePoint 
+Some of the Microsoft 365 services may be located in different geos for some existing customers and for customers that are in the middle of the move process. Our services run independently of each other and there is no impact on the user experience if this is the case. However, for data residency purposes, a tenant migration cannot be considered as complete until both Exchange Online and SharePoint 
 Online/OneDrive for Business are migrated to the same datacenter geo.
   
-## Will new Office 365 customers be automatically provisioned in the new datacenter geos?
+## Will new Microsoft 365 customers be automatically provisioned in the new datacenter geos?
   
-Yes. Once a new datacenter geo is available, new Office 365 for Business customers who select a country eligible for the new geo as their country during sign-up will have their core customer data stored at rest in the new datacenter geo.
+Yes. Once a new datacenter geo is available, new Microsoft 365 customers who select a country eligible for the new geo as their country during sign-up will have their core customer data stored at rest in the new datacenter geo.
   
- ## Where is my core customer data is located?
+ ## Where is my core customer data located?
 
 Tenant admins can view the data location card in the Admin Center at any time to confirm the core customer data at rest location for 
 each service, specifically for their tenant.  We also publish the location of datacenter geos, datacenters, and location of Office 
@@ -90,15 +80,12 @@ It is not possible for us to remove you from the process after you submit your r
   
 ## What happens if I do not request a move before the deadline?
   
- We may be able to accept request on an exception basis to grant your tenant a committed deadline to complete the move.  Please  
-contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to make the request.  Recall that some workloads may move to your new geo even without an opt-in request 
-as taking no action results in Microsoft being able to move your core customer data at rest to your new datacenter geo over time as 
-part of service management and optimization.  Your data can only potentially move to your new datacenter geo, not to any other geo.  
-We notify via Message Center when such a service management move has completed.
+We may be able to accept requests on an exception basis to grant your tenant a committed deadline to complete the move. Please 
+contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to make the request.
+
+## What if I want to move my data in order to get better network performance?
   
- ## What if I want to move my data in order to get better network performance?
-  
-Being close to an Office 365 datacenter is not a guarantee for a better networking performance. There are many factors and components that impact the network performance between the end user and the Office 365 service. For more information about this and performance tuning see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
+Physical proximity to a Microsoft 365 datacenter is not a guarantee for a better networking performance. There are many factors and components that impact the network performance between the end-user and the Microsoft 365 service. For more information about this and performance tuning see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
   
  ## Do all the services move their data on the same day?
  
@@ -106,7 +93,7 @@ Each service moves independently and will likely move their data at different ti
   
  ## Can I choose when I want my data to be moved?
  
- Customers are not able to select a specific date, they cannot delay their move, and we cannot share a specific date or timeframe for the moves.
+Customers are not able to select a specific date, they cannot delay their move, and we cannot share a specific date or timeframe for the moves.
   
  ## Can you share when my data will be be moved?
   
@@ -120,11 +107,11 @@ See [During and after your data move](during-and-after-your-data-move.md) for a 
   
 Watch the Office 365 Message Center for confirmation that the move of each service's data is complete. When each service's data is moved, we'll post a completion notice so you'll get three completion notices: one each for Exchange Online, SharePoint Online, and Skype for Business Online.  You can also verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Microsoft 365 Admin Center.  
   
-## I am an Office 365 customer in one of the new datacenter geos, but when I signed up, I selected a different country. How can I be moved to the new datacenter geo?
+## I am a Microsoft 365 customer in one of the new datacenter geos, but when I signed up, I selected a different country. How can I be moved to the new datacenter geo?
 
 It is not possible to change the signup country associated with your tenant. Instead, you need to create a new Office 365 tenant with a new subscription and manually move your users and data to the new tenant.
   
-## What happens if we are in process of email data migration to Office 365 during the Exchange Online move?
+## What happens if we are in process of email data migration to Microsoft 365 during the Exchange Online move?
 
 This is a very common scenario and is fully supported.  Cloud migration between datacenter geos does not interfere with any on-premisis to cloud mailbox migrations.
   
@@ -138,37 +125,31 @@ Yes, however the process will not be as seamless as if Microsoft were to perform
   
 If you create a new tenant after the new datacenter geo is available, the new tenant will be hosted in the new geo. This new tenant is completely separate from your previous tenant and you would be responsible for moving all user mailboxes, site content, domain names, and any other data. Note that you can't move the tenant name from one tenant to another. We recommend that you wait for the move program provided by Microsoft as we'll take care of moving all settings, data, and subscriptions for your users.
   
- ## I'm not ready to be moved, can I pick a specific move date?
-  
-No, it is not possible for you to change when each service's core customer data will be moved.
-  
- ## My customer data has already been moved to a new datacenter geo. Can I move back?
+## My customer data has already been moved to a new datacenter geo. Can I move back?
  
 No, this is not possible. Customers who have been moved to new geo datacenters cannot be moved back. As a customer in any geo, you will experience the same quality of service, performance, and security controls as you did before.  [Office 365 Multi Geo](https://aka.ms/multi-geo) is available to some customers as an add-on and lets a single tenant create multiple satellite geos and move user data to those geos with data residency commitments.
   
- ## Do the new datacenter geos use the same versions of Office 365 services as the current datacenter geos?
-
-Yes.
+## Will Microsoft 365 tenants hosted in the new datacenters be available to users outside of the country?
   
-## Will Office 365 tenants hosted in the new datacenters be available to users outside of the country?
-  
-A. Yes. Microsoft maintains a large global network with public Internet connections in more than 130 locations in 35 countries around the world with peering agreements with more than 2,700 Internet Service Providers (ISPs). Users will be able to access the datacenters from wherever they are on the Internet.
+Yes. Microsoft maintains a large global network with public Internet connections in more than 130 locations in 35 countries around the world with peering agreements with more than 2,700 Internet Service Providers (ISPs). Users will be able to access the datacenters from wherever they are on the Internet.
 
-## My tenant is configured for [Office 365 Multi Geo](https://aka.ms/multi-geo).  Can I still enroll in my tenant in the Office 365 Move Program to change my default geo and move any user not in a satellite region to the new default geo?
+## My tenant has configured the [Multi Geo add-on](https://aka.ms/multi-geo). Can I still enroll in my tenant in the Microsoft 365 Move Program to change my default geo and move any user not in a satellite region to the new default geo?
 
-Yes, your tenant is eligible to enroll.  We will move all EXO mailboxes from your current default geo to your new local datacenter geo.  We will not move any EXO mailboxes configured in Multi Geo satellite regions to continue to respect satellite region data residency as you’ve intended.  SharePoint Online and OneDrive for Business cannot migrate to the new datacenter geo as part of the Move Program, though you can configure OneDrive for Business shares to move to any region you wish via the Multi Geo program.
+Yes, your tenant is eligible to enroll. We will move all EXO mailboxes from your current default geo to your new local datacenter geo.  We will not move any EXO mailboxes configured in Multi Geo satellite regions to continue to respect satellite region data residency as you’ve intended.  
+
+SharePoint Online and OneDrive for Business cannot migrate to the new datacenter geo as part of the Move Program, though you can configure OneDrive for Business shares to move to any region you wish via the Multi Geo program.
   
 ## Related topics
 
-[Moving core data to new Office 365 datacenter geos](moving-data-to-new-datacenter-geos.md)
+[Moving core data to new Microsoft 365 datacenter geos](moving-data-to-new-datacenter-geos.md)
 
 [How to request your data move](request-your-data-move.md)
 
 [Office 365 Multi Geo](https://aka.ms/multi-geo)
 
-[Office 365 interactive datacenter map](https://office.com/datamaps)
+[Microsoft 365 interactive datacenter map](https://office.com/datamaps)
 
-[Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459)
+[Microsoft 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459)
 
 [New datacenter geos for Microsoft Dynamics CRM Online](https://go.microsoft.com/fwlink/p/?Linkid=615924)
   

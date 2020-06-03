@@ -14,7 +14,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 ms.assetid: 87a52468-994e-43a2-b155-7229ed659291
 description: "This article describes how to use minification and bundling techniques with Web Essentials to reduce the number of HTTP requests and to reduce the time it takes to load pages in SharePoint Online."
 ---

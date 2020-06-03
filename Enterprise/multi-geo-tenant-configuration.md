@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Multi-Geo tenant configuration"
+title: "Microsoft 365 Multi-Geo tenant configuration"
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -13,26 +13,26 @@ f1.keywords:
 ms.custom: 
 localization_priority: Priority
 ms.collection: Strat_SP_gtc
-description: "Learn how to configure Office 365 Multi-Geo."
+description: "Learn how to configure Microsoft 365 Multi-Geo."
 ---
 
-# Office 365 Multi-Geo tenant configuration
+# Microsoft 365 Multi-Geo tenant configuration
 
-Before you configure your tenant for Office 365 Multi-Geo, be sure you have read [Plan for Office 365 Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you'll need a list of the geo locations that you want to enable as satellite locations, and the test users that you want to provision for those locations.
+Before you configure your tenant for Microsoft 365 Multi-Geo, be sure you have read [Plan for Microsoft 365 Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you'll need a list of the geo locations that you want to enable as satellite locations, and the test users that you want to provision for those locations.
 
-## Add the Multi-Geo Capabilities in Office 365 plan to your tenant
+## Add the Multi-Geo Capabilities in Microsoft 365 plan to your tenant
 
-To use Office 365 Multi-Geo, you need the _Multi-Geo Capabilities in Office 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
+To use Microsoft 365 Multi-Geo, you need the _Multi-Geo Capabilities in Microsoft 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
 
-Note that the _Multi-Geo Capabilities in Office 365_ plan is a user-level service plan. You need a license for each user that you want to host in a satellite location. You can add more licenses over time as you add users in satellite locations.
+Note that the _Multi-Geo Capabilities in Microsoft 365_ plan is a user-level service plan. You need a license for each user that you want to host in a satellite location. You can add more licenses over time as you add users in satellite locations.
 
-Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Office 365_ plan, the **Geo locations** tab will become available in the OneDrive and SharePoint admin centers.
+Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Microsoft 365_ plan, the **Geo locations** tab will become available in the OneDrive and SharePoint admin centers.
 
 ## Add satellite locations to your tenant
 
 You must add a satellite location for each geo location where you want to store data. Available geo locations are shown in the following table:
 
-[!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
+[!INCLUDE [Microsoft 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
 ![Screenshot of geo locations page in the SharePoint admin center](media/sharepoint-multi-geo-admin-center.png)
 
@@ -71,7 +71,7 @@ In Azure Active Directory there are two types of user objects: cloud only users 
 ### Synchronize user's Preferred Data Location using Azure Active Directory Connect 
 
 If your company’s users are synchronized from an on-premises Active Directory system to Azure Active Directory, their PreferredDataLocation must be populated in AD and synchronized to AAD.
-Follow the process in [Azure Active Directory Connect sync: Configure preferred data location for Office 365 resources](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
+Follow the process in [Azure Active Directory Connect sync: Configure preferred data location for Microsoft 365 resources](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) to configure Preferred Data Location sync from on-premises Active Directory to Azure Active Directory.
 
 We recommend that you include setting the user's Preferred Data Location as a part of your standard user creation workflow.
 
@@ -80,7 +80,7 @@ We recommend that you include setting the user's Preferred Data Location as a pa
 
 ### Setting Preferred Data Location for cloud only users 
 
-If your company's users are not synchronized from an on-premises Active Directory system to Azure Active Directory, meaning they are created in Office 365 or Azure Active Directory, then the PDL must be set using Azure Active Directory PowerShell.
+If your company's users are not synchronized from an on-premises Active Directory system to Azure Active Directory, meaning they are created in Microsoft 365 or Azure Active Directory, then the PDL must be set using Azure Active Directory PowerShell.
 
 The procedures in this section require the [Microsoft Azure Active Directory Module for Windows PowerShell Module](https://www.powershellgallery.com/packages/MSOnline/1.1.166.0). If you already have Azure Active Directory PowerShell installed, please ensure you update to the latest version.
 
@@ -127,13 +127,13 @@ Additionally, multi-geo search capabilities can be configured for your custom se
 
 Please review [Configure Search for OneDrive for Business Multi-Geo](configure-search-for-multi-geo.md) for instructions including any limitations and differences.
 
-## Validating the Office 365 Multi-Geo configuration
+## Validating the Microsoft 365 Multi-Geo configuration
 
-Below are some basic use cases you may wish to include in your validation plan before broadly rolling out Office 365 Multi-Geo to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
+Below are some basic use cases you may wish to include in your validation plan before broadly rolling out Microsoft 365 Multi-Geo to your company. Once you have completed these tests and any additional use cases that are relevant to your company, you may choose to move on to adding the users in your initial pilot group.
 
 **OneDrive for Business**
 
-Select OneDrive from the Office 365 app launcher and confirm that you are automatically directed to the appropriate geo location for the user, based on the user's PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
+Select OneDrive from the Microsoft 365 app launcher and confirm that you are automatically directed to the appropriate geo location for the user, based on the user's PDL. OneDrive for Business should now begin provisioning at that location. Once provisioned, try uploading and downloading some documents.
 
 **OneDrive Mobile App**
 

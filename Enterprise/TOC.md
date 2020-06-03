@@ -1,4 +1,5 @@
 ﻿# [Cloud architecture models](microsoft-cloud-it-architecture-resources.md)
+# [Enterprise Cloud Solutions](cloud-adoption-and-hybrid-solutions.yml)
 ## [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
 
 # [Plan for Office 365](get-your-organization-ready-for-office-365.md)
@@ -16,7 +17,7 @@
 #### [Hybrid identity](plan-for-directory-synchronization.md)
 
 ### [Plan for third-party SSL certificates for Office 365](plan-for-third-party-ssl-certificates.md)
-### [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+### [Setup guides for Office 365 and Microsoft 365 services](setup-guides-for-office-365.md)
 ### [Integrated Apps and Azure AD](integrated-apps-and-azure-ads.md)
 
 ### Office 365 integration
@@ -29,7 +30,6 @@
 ## Office 365 client support
 ### [Certificate-based authentication](office-365-client-support-certificate-based-authentication.md)
 ### [Conditional Access](office-365-client-support-conditional-access.md)
-### [Choose between MDM and Intune](https://docs.microsoft.com/office365/securitycompliance/choose-between-mdm-and-intune)
 ### [Mobile application management](office-365-client-support-mobile-application-management.md)
 ### [Modern authentication](office-365-client-support-modern-authentication.md)
 ### [Single sign-on](office-365-client-support-single-sign-on.md)
@@ -81,7 +81,17 @@
 #### [Network requests in Office for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
-### [Office 365 performance optimization for China users](office-365-networking-china.md)
+### Optimize Office 365 connectivity for remote users
+#### [Overview: VPN Split Tunneling](office-365-vpn-split-tunnel.md)
+#### [Implementing VPN Split Tunneling](office-365-vpn-implement-split-tunnel.md)
+#### [Office 365 optimization for China users](office-365-networking-china.md)
+### Networking for GCC High and DOD tenants
+#### [Additional network security requirements for GCC High and DoD](additional-network-security-requirements-for-office-365-gcchigh-and-dod.md)
+#### [DNS records for Office 365 DoD](dns-records-for-office-365-dod.md)
+#### [DNS records for Office 365 GCC High](dns-records-for-office-365-gcc-high.md)
+#### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
+#### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
+#### [Office 365 encryption chains - DOD and GCC High](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains-itar)
 ### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
@@ -107,7 +117,7 @@
 ## [3. Implement security](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap)
 
 ## 4. Deploy client software
-### [Deploy Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+### [Deploy Microsoft 365 Apps for enterprise](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 ### [Deploy the Skype for Business client](https://docs.microsoft.com/skypeforbusiness/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365)
 ### [Deploy and manage mobile apps](https://support.office.com/article/d35db652-629d-4087-8dc0-1e0ed922307c)
 
@@ -128,7 +138,7 @@
 
 ## Advanced deployment
 
-### [Office 365 Multi-Geo](office-365-multi-geo.md)
+### [Microsoft 365 Multi-Geo](office-365-multi-geo.md)
 #### [OneDrive and SharePoint multi-geo](multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365.md)
 #### [Exchange Multi-Geo](multi-geo-capabilities-in-exchange-online.md)
 #### [Plan for multi-geo](plan-for-multi-geo.md)
@@ -143,7 +153,7 @@
 ##### [Move a SharePoint site](move-sharepoint-between-geo-locations.md)
 ##### [Add or remove a geo administrator](add-a-sharepoint-geo-admin.md)
 ##### [Restrict content to a geo location](restrict-content-to-geo-location.md)
-##### [Configure Office 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md)
+##### [Configure Microsoft 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md)
 ##### [Create a group with a specific PDL](multi-geo-add-group-with-pdl.md)
 ##### [Delete a geo location](delete-a-geo-location.md)
 ##### [Enabling SharePoint Multi-Geo in your satellite geo location](enabling-SP-multigeo-satellite-geolocation.md)
@@ -171,7 +181,6 @@
 # Manage Office 365
 
 ## Network
-### [Client connectivity](client-connectivity.md)
 ### [Monitor connectivity](monitor-connectivity.md)
 
 ## Directory synchronization
@@ -185,22 +194,8 @@
 ### [Tools to manage user accounts](manage-office-365-accounts.md)
 ### [Add several users at the same time](add-several-users-at-the-same-time.md)
 ### [Recover deleted items in a user mailbox](recover-deleted-items-in-a-mailbox.md)
-### Collaborate with guests
-#### [Guest sharing reference](microsoft-365-guest-settings.md)
-#### Guest sharing scenarios
-##### [Guest collaboration overview](collaborating-with-people-outside-your-organization.md)
-##### [Collaborate on documents](collaborate-on-documents.md)
-##### [Collaborate in a site](collaborate-in-a-site.md)
-##### [Collaborate as a team](collaborate-as-a-team.md)
-#### Guest sharing security
-##### [Unauthenticated sharing](best-practices-anonymous-sharing.md)
-##### [Limit accidental exposure](sharing-limit-accidental-exposure.md)
-##### [Secure guest sharing environment](create-a-secure-guest-sharing-environment.md)
-#### [Create a B2B extranet](b2b-extranet.md)
-### [Limit sharing](microsoft-365-limit-sharing.md)
 
 ## Devices
-### [Choose between MDM and Intune](https://support.office.com/article/c93d9ab9-efb2-4349-9b93-30c30562ee22)
 ### [Manage device access settings](https://support.office.com/article/28dd276b-beeb-4c5b-8b22-7551186127fe)
 
 ## Workloads

@@ -13,7 +13,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 description: "This article describes how you can plan your portal launch in SharePoint Online and what steps to take for a successful launch"
 ---
 
