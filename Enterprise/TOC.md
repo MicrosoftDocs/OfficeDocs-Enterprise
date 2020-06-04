@@ -97,7 +97,6 @@
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
 #### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
 #### [Office 365 encryption chains - DOD and GCC High](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains-itar)
-### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
 ### Working with ExpressRoute for Office 365
