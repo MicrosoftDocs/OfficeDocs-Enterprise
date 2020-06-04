@@ -81,6 +81,11 @@
 #### [Network requests in Office for Mac](network-requests-in-office-2016-for-mac.md)
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
+### [Office 365 performance optimization for China users](office-365-networking-china.md)
+### Content Delivery Networks (CDNs)
+#### [Office 365 CDN Quickstart](office-365-cdn-quickstart.md)
+#### [Use the Office 365 CDN with SharePoint Online](use-office-365-cdn-with-spo.md)
+#### [Content delivery networks](content-delivery-networks.md)
 ### Optimize Office 365 connectivity for remote users
 #### [Overview: VPN Split Tunneling](office-365-vpn-split-tunnel.md)
 #### [Implementing VPN Split Tunneling](office-365-vpn-implement-split-tunnel.md)
@@ -92,7 +97,6 @@
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
 #### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
 #### [Office 365 encryption chains - DOD and GCC High](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains-itar)
-### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
 ### Working with ExpressRoute for Office 365

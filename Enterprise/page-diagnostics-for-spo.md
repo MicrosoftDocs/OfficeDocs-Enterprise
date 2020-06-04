@@ -3,7 +3,7 @@ title: "Use the Page Diagnostics tool for SharePoint Online"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 03/11/2020
+ms.date: 06/03/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -23,7 +23,12 @@ description: "Use the Page Diagnostics for SharePoint tool to analyze SharePoint
 
 # Use the Page Diagnostics for SharePoint tool
 
-This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze SharePoint Online modern and classic site pages against a pre-defined set of performance criteria.  
+This article describes how to use the **Page Diagnostics for SharePoint tool** to analyze SharePoint Online modern and classic site pages against a pre-defined set of performance criteria.
+
+The Page Diagnostics for SharePoint tool can be installed for:
+
+- **Microsoft Edge** [(Edge extension)](https://microsoftedge.microsoft.com/addons/detail/ocemkolpnamjcacndljdfmhlpcaoipji)
+- **Chrome** [(Chrome extension)](https://chrome.google.com/webstore/detail/inahogkhlkbkjkkaleonemeijihmfagi)
 
 >[!TIP]
 >Version **2.0.0** and later includes support for modern pages in addition to classic site pages. If you are unsure which version of the tool you are using, you can select the **About** link or the ellipses (...) to verify your version. **Always update to the latest version** when using the tool.
