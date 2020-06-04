@@ -82,7 +82,10 @@
 #### [Office 365 IP Address and URL Web service](office-365-ip-web-service.md)
 #### [Additional endpoints not included in the Web service](additional-office365-ip-addresses-and-urls.md)
 ### [Office 365 performance optimization for China users](office-365-networking-china.md)
-### [Content delivery networks](content-delivery-networks.md)
+### Content Delivery Networks (CDNs)
+#### [Office 365 CDN Quickstart](office-365-cdn-quickstart.md)
+#### [Use the Office 365 CDN with SharePoint Online](use-office-365-cdn-with-spo.md)
+#### [Content delivery networks](content-delivery-networks.md)
 ### [IPv6 support in Office 365 services](ipv6-support.md)
 ### [NAT support with Office 365](nat-support-with-office-365.md)
 ### Working with ExpressRoute for Office 365
