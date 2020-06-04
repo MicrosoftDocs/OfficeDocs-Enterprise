@@ -1,7 +1,7 @@
 ---
 title: "Enterprise organizations and Office 365"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/8/2017
 audience: ITPro
@@ -105,7 +105,7 @@ Self-paced online learning experiences for Office 365 IT Pros.
   
 [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md)
   
-[Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+[Setup guides for Office 365 services](setup-guides-for-office-365.md)
   
  **Training for end users**
   

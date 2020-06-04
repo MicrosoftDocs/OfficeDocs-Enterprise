@@ -3,7 +3,7 @@ title: "Project Server 2010 end-of-support roadmap"
 ms.author: efrene
 author: efrene
 manager: pamg
-ms.date: 08/21/2019
+ms.date: 04/14/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -17,26 +17,26 @@ search.appverid:
 - ZPJ120
 - PJU120
 - PJW120
-description: "Support ends for Project Server 2010 ends on October 13, 2020. Use this article as a guide to upgrade to Project Online or a newer version of Project Server on-premises."
+description: "Support ends for Project Server 2010 ends on April 13, 2021. Use this article as a guide to upgrade to Project Online or a newer version of Project Server on-premises."
 ---
 
 # Project Server 2010 end of support roadmap
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Project Server 2010 will reach end of support on **October 13, 2020**. If you are currently using Project Server 2010, note that these other related products have the following end of support dates:
+Project Server 2010 will reach end of support on **April 13, 2021**. This date has been extended from the previous end-of-support date of October 13, 2020. If you are currently using Project Server 2010, note that these other related products have the following end of support dates:
   
-|**Product**|**end of support date**|
+|**Product**|**End of support date**|
 |:-----|:-----|
-|Project Portfolio Server 2010  <br/> |October 13, 2020  <br/> |
-|Project 2010 Standard  <br/> |October 13, 2020  <br/> |
+|Project 2010 Standard <br/> |October 13, 2020  <br/> |
 |Project 2010 Professional  <br/> |October 13, 2020  <br/> |
+
    
 For more information about Office 2010 servers reaching end of support, see [Upgrade from Office 2010 servers and client products](https://docs.microsoft.com/office365/enterprise/plan-upgrade-previous-versions-office).
   
 ## What does end of support mean?
 
-Project Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, and security updates. This lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support. When Project Server 2010 reaches its end of support on October 13, 2020, Microsoft will no longer provide:
+Project Server, like almost all Microsoft products, has a support lifecycle during which we provide new features, bug fixes, and security updates. This lifecycle typically lasts for 10 years from the date of the product's initial release, and the end of this lifecycle is known as the product's end of support. When Project Server 2010 reaches its end of support on April 13, 2021, Microsoft will no longer provide:
   
 - Technical support for problems that may occur.
     
@@ -61,12 +61,37 @@ Here are the two paths you can take to avoid the end of support for Project Serv
 ![Project Server 2010 upgrade paths](./media/project-server-2010-end-of-support/project-server-2010-end-of-support-timeline.png)
 
     
-|**Why would I prefer to migrate to Project Online?**|**Why would I prefer to migrate to Project Server 2019?**|
+
+
+|**Why would I prefer to migrate to Project Server 2019?**|**Why would I prefer to migrate to Project Online?**|
 |:-----|:-----|
-| I have mobile or remote users.  <br/>  Costs to migrate on-premises servers are a big concern (hardware, software, hours and effort to implement, etc.).  <br/>  After migration, costs to maintain my environment are a big concern (for example, automatic updates, guaranteed uptime, etc.).  <br/> | Business rules restrict me from operating my business in the cloud.  <br/>  I need control of updates to my environment.  <br/> |
+|Business rules restrict me from operating my business in the cloud.  <br/>  I need control of updates to my environment.  <br/> | I have mobile or remote users.  <br/>  Costs to migrate on-premises servers are a big concern (hardware, software, hours and effort to implement, etc.).  <br/>  After migration, costs to maintain my environment are a big concern (for example, automatic updates, guaranteed uptime, etc.).  <br/>  |
+
    
 > [!NOTE]
 > For more information about options for moving from your Office 2010 servers, see [Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/office365/enterprise/upgrade-from-office-2010-servers-and-products). Note that Project Server does not support a hybrid configuration since Project Server and Project Online cannot share the same resource pool. 
+
+### What are my options for Project client?
+If you are using Project Professional 2010 or Project Standard 2010 and want to explore your migration options, you have the choice of:
+- Moving to a newer version of Project Professional or Project Standard.
+- Moving to an online solution such as Project Online or Project for the web.
+ 
+#### Moving to a newer version of Project client
+
+If you are migrating from Project Standard 2010, you can migrate to a newer version of Project Standard (Project Standard 2016 or Project Standard 2019).  We recommend moving to the newest version to take advantage of the latest features and functionality. Also, migrating to a less current version (Project Standard 2016) means that you will need to migrate from this version sooner as its end of support date comes up.
+
+Similarly, if you are migrating from Project Professional 2010, you can choose to migrate to a newer version (Project Professional 2019 or Project Professional 2016). We recommend moving to the newest version if possible.  If you are using Project Professional to connect to Project Server, make sure that you migrate to a version of Project Professional that is supported to connect with the version of Project Server that you are using.
+
+Project Professional 2010 users can also choose to migrate to the Project Online Desktop client. It is a subscription-based version of Project Professional 2019, and is included in Project Plan 3 and Project Plan 5 subscriptions. 
+
+#### Moving to an online solution
+
+You can also choose to migrate from Project Professional 2010 or Project Standard 2010 to Project's subscription-based online solutions. Both Project Plan 3 and Plan 5 include Project Online and the latest cloud offering, [Project for the web](https://support.office.com/article/what-can-you-do-with-project-for-the-web-b30f5442-be5f-43d2-9072-c95bff778ea1). Both offer a number of new features and benefits that are worth exploring.
+
+For more information about features included in both, as well as Project Plan licenses they are included in, see the [Microsoft Project service description](https://docs.microsoft.com/office365/servicedescriptions/project-online-service-description/project-online-service-description).
+
+
+
   
 ## Important considerations you need to make when planning to migrate from Project Server 2010
 
@@ -201,11 +226,11 @@ Other resources:
 
 For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
 
-![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+[![Image for the end of support for Office 2010 clients and servers and Windows 7 poster](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf)
 
 This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
 
-You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
    
 ## Related topics
 

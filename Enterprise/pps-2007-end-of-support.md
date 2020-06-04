@@ -1,7 +1,7 @@
 ---
 title: "PerformancePoint Server 2007 end of support roadmap"
-ms.author: deniseb
-author: denisebmsft
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: conceptual
@@ -149,9 +149,3 @@ Whether you're upgrading on-premises or moving to Office 365, we recommend that 
 ## Related topics
 
 [Resources to help you upgrade from Office 2007 servers and clients](upgrade-from-office-2007-servers-and-products.md)
-  
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
-
-
-  
-

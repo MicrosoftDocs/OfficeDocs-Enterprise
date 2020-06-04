@@ -14,7 +14,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 ms.assetid: c7edb02a-fdab-4f91-9a20-cba01dad28ef
 description: "Learn how to use renditions and sprites to improve image performance on your SharePoint Online classic publishing sites."
 ---

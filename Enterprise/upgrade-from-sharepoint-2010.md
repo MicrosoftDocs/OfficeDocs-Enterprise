@@ -3,7 +3,7 @@ title: "Upgrading from SharePoint 2010"
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
-ms.date: 08/21/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: conceptual
 ms.prod: office-online-server
@@ -18,14 +18,14 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: "Support ends for SharePoint 2010 and SharePoint Server 2010 ends on October 13, 2020. Use this article as a guide to upgrade to SharePoint Online or a newer version of SharePoint Server on-premises."
+description: "Support ends for SharePoint 2010 and SharePoint Server 2010 on April 13, 2021. Use this article as a guide to upgrade to SharePoint Online or a newer version of SharePoint Server on-premises."
 ---
 
 # Upgrading from SharePoint 2010
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **October 13, 2020**. This article details resources to help you migrate your existing SharePoint Server 2010 data to SharePoint Online in Office 365, or upgrade your on-premises SharePoint Server 2010 environment.
+Microsoft SharePoint 2010 and SharePoint Server 2010 will reach end of support on **April 13, 2021**. This article details resources to help you migrate your existing SharePoint Server 2010 data to SharePoint Online in Office 365, or upgrade your on-premises SharePoint Server 2010 environment.
   
 ## What is end of support?
 
@@ -58,12 +58,12 @@ This matrix helps plot a course when it comes to migrating product features and 
    
 If you choose options on the low end of the scale (good options), you'll need to start planning for another upgrade soon after migration from SharePoint Server 2010 completes. 
 
-Here are the three  paths you can take to avoid the end of support for SharePoint Server 2010.
+Here are the three paths you can take to avoid the end of support for SharePoint Server 2010.
 
 ![SharePoint Server 2010 upgrade paths](./media/upgrade-from-sharepoint-2010/upgrade-from-sharepoint-2010-paths.png)
 
 >[!Note]
->End of support for SharePoint Server 2010 and SharePoint Foundation 2010 are scheduled for Oct 13, 2020, but *please be aware* that you should always check the [Product Lifecycle site](https://support.microsoft.com/lifecycle) for the most current dates.
+>End of support for SharePoint Server 2010 and SharePoint Foundation 2010 are scheduled for April 13, 2021, but *please be aware* that you should always check the [Product Lifecycle site](https://support.microsoft.com/lifecycle) for the most current dates.
 >
 
   
@@ -184,11 +184,11 @@ One good way to see how a hybrid SharePoint farm works is by creating an [Office
 
 For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
 
-![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+[![Image for the end of support for Office 2010 clients and servers and Windows 7 poster](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf)
 
 This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
 
-You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
         
 ## Related topics
 

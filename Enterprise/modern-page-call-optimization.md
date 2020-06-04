@@ -3,7 +3,7 @@ title: "Optimize page calls in SharePoint Online modern and classic publishing s
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 9/18/2019
+ms.date: 03/11/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -32,7 +32,10 @@ This article will help you understand how to determine the number and impact of 
 
 ## Use the Page Diagnostics for SharePoint tool to analyze page calls
 
-The **Page Diagnostics for SharePoint tool** is a browser extension for Chrome and [Microsoft Edge version 77 or later](https://www.microsoftedgeinsider.com/download?form=MI13E8&OCID=MI13E8) you can use to analyze SharePoint both modern and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+The Page Diagnostics for SharePoint tool is a browser extension for the new Microsoft Edge (https://www.microsoft.com/edge) and Chrome browsers that analyzes both SharePoint Online modern portal and classic publishing site pages. The tool provides a report for each analyzed page showing how the page performs against a defined set of performance criteria. To install and learn about the Page Diagnostics for SharePoint tool, visit [Use the Page Diagnostics tool for SharePoint Online](page-diagnostics-for-spo.md).
+
+>[!NOTE]
+>The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
 
 When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about external calls in the **Requests to SharePoint** result in the _Diagnostic tests_ pane. The line will appear in green if the site page contains fewer than the baseline number of calls, and red if the page exceeds the baseline number. The baseline number is different for modern and classic pages because classic site pages use HTTP1.1 and modern pages use HTTP2.0:
 

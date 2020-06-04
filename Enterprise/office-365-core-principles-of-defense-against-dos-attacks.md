@@ -31,7 +31,7 @@ To successfully defend against a DoS attack, early detection is essential. By de
 
 The following formula helps approximate the time to impact of a DoS attack:
 
-   **Maximum Capacity (in bytes/sec) / Growth Rate (in bytes/sec) = Time to Impact (in bytes/sec)**
+   **Maximum Capacity (in bytes/sec) / Growth Rate (in bytes/sec) = Time to Impact (in sec)**
 
 If the time-to-detection occurs after time-to-impact, it is likely the DoS attack will be successful. If the time-to-detection occurs before time-to-impact, the attacked services should remain online and accessible if mitigation strategies are used. Thus, there are only two things that can be done to defend against DoS attacks:
 

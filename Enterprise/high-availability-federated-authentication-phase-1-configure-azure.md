@@ -309,7 +309,7 @@ Use [Phase 2: Configure domain controllers](high-availability-federated-authenti
   
 [Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
 
 [Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
 

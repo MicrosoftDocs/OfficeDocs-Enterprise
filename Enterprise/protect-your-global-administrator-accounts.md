@@ -3,7 +3,7 @@ title: "Protect your Office 365 global administrator accounts"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/03/2019
+ms.date: 05/15/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -37,8 +37,8 @@ Microsoft provides capabilities to help protect your organization, but they are 
     
 2. Configure multi-factor authentication for your dedicated Office 365 global administrator accounts and use the strongest form of secondary authentication.
     
-> [!NOTE]
-> Although this article is focused on global administrator accounts, you should consider whether additional accounts with wide-ranging permissions to access the data in your subscription, such as eDiscovery administrator or security or compliance administrator accounts, should be protected in the same way. 
+> [!NOTES]
+> Although this article is focused on global administrator accounts, you should consider whether additional accounts with wide-ranging permissions to access the data in your subscription, such as eDiscovery administrator or security or compliance administrator accounts, should be protected in the same way. <br > A global administrator account can be created without adding any licenses.
   
 ## Step 1. Create dedicated Office 365 global administrator accounts and use them only when necessary
 
@@ -52,7 +52,7 @@ There are relatively few administrative tasks, such as assigning roles to user a
 
 2. Sign into your Office 365 subscription with a user account that has been assigned the global admin role.
     
-3. Create at least one and up to a maximum of five dedicated global administrator user accounts. **Use strong passwords at least 12 characters long.** See [Create a strong password](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) for more information. Store the passwords for the new accounts in a secure location. 
+3. Create up to a maximum of four dedicated global administrator user accounts. **Use strong passwords at least 12 characters long.** See [Create a strong password](https://support.microsoft.com/help/4026406/microsoft-account-create-a-strong-password) for more information. Store the passwords for the new accounts in a secure location. 
     
 4. Assign the global admin role to each of the new dedicated global administrator user accounts.
     
@@ -83,29 +83,35 @@ From this moment onward, you sign in with the dedicated global administrator acc
 > [!NOTE]
 > This does require additional steps to sign out as your everyday user account and sign in with a dedicated global administrator account. But this only needs to be done occasionally for global administrator operations. Consider that recovering your Office 365 subscription after a global administrator account breach requires a lot more steps.
   
-## Step 2. Configure multi-factor authentication for your dedicated Office 365 global administrator accounts and use the strongest form of secondary authentication
+## Step 2. Configure multi-factor authentication for your dedicated Office 365 global administrator accounts and use the strongest form of additional verification
 
-Multi-factor authentication (MFA) requires additional information beyond the account name and password. Office 365 supports these verification methods:
+Multi-factor authentication (MFA) requires additional information beyond the account name and password. Office 365 supports these additional verification methods:
   
+- The Microsoft Authenticator app
+
 - A phone call
     
-- A randomly generated pass code
+- A randomly generated verification code sent through a text message
     
 - A smart card (virtual or physical)
     
 - A biometric device
     
+>[!Note]
+>For organizations that must adhere to National Institute of Standards and Technology (NIST) standards, the use of a phone call or text message-based additional verification methods are restricted. Click [here](https://pages.nist.gov/800-63-FAQ/#q-b01) for the details.
+>
+
 If you are a small business that is using user accounts stored only in the cloud (the cloud-only identity model), use these steps to configure MFA using a phone call or a text message verification code sent to a smart phone:
   
 1. [Set up MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
     
-2. [Set up 2-step verification for Office 365](https://support.office.com/article/Set-up-2-step-verification-for-Office-365-ace1d096-61e5-449b-a875-58eb3d74de14) to configure each dedicated global administrator account for phone call or text message as the verification method. 
+2. [Set up MFA for Office 365](https://support.office.com/article/Set-up-2-step-verification-for-Office-365-ace1d096-61e5-449b-a875-58eb3d74de14) to configure each dedicated global administrator account for phone call or text message as the verification method. 
     
 If you are a larger organization that is using an Office 365 hybrid identity model, you have more verification options. If you have the security infrastructure already in place for a stronger secondary authentication method, use these steps:
   
 1. [Set up MFA](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication).
     
-2. [Set up 2-step verification for Office 365](https://support.office.com/article/Set-up-2-step-verification-for-Office-365-ace1d096-61e5-449b-a875-58eb3d74de14) to configure each dedicated global administrator account for the appropriate verification method. 
+2. [Set up MFA for Office 365](https://support.office.com/article/Set-up-2-step-verification-for-Office-365-ace1d096-61e5-449b-a875-58eb3d74de14) to configure each dedicated global administrator account for the appropriate verification method. 
     
 If the security infrastructure for the desired stronger verification method is not in place and functioning for Office 365 MFA, we strongly recommend that you configure dedicated global administrator accounts with MFA using a phone call or a text message verification code sent to a smart phone for your global administrator accounts as an interim security measure. Do not leave your dedicated global administrator accounts without the additional protection provided by MFA.
   
@@ -135,11 +141,10 @@ Rather than having your global administrator accounts be permanently assigned th
 Instead of your global administrator accounts being a permanent admin, they become eligible administrators. The global administrator role is inactive until someone needs it. You then complete an activation process to add the global administrator role to the global administrator account for a predetermined amount of time. When the time expires, PIM removes the global administrator role from the global administrator account.
   
 Using PIM and this process significantly reduces the amount of time that your global administrator accounts are vulnerable to attack and use by malicious users.
+
+PIM is available with Azure AD Premium P2, which is included with Microsoft 365 Enterprise E5 or Enterprise Mobility + Security (EMS) E5, or you can purchase individual licenses for your global administrator accounts.
   
 For more information, see [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure).
-  
-> [!NOTE]
-> PIM is available with Azure AD Premium P2, which is included with Microsoft 365 Enterprise E5 or Enterprise Mobility + Security (EMS) E5, or you can purchase individual licenses for your global administrator accounts. 
   
 ### Security information and event management (SIEM) software for Office 365 logging
 
