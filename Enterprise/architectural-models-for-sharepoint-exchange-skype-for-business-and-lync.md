@@ -191,7 +191,7 @@ These IT posters show Azure-based solutions using SharePoint Server 2013 in a la
 <a name="Lync2013_Options"> </a>
 ## See Also
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   

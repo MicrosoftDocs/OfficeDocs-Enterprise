@@ -3,7 +3,7 @@ title: "Additional endpoints not included in the Office 365 IP Address and URL W
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/18/2019
+ms.date: 04/29/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -59,8 +59,10 @@ Apart from DNS, these are all optional for most customers unless you need the sp
 | 16  |  **SharePoint Online and OneDrive for Business FQDNs** <br> All '.sharepoint.com' FQDNs with '\<tenant>' in the FQDN need to be in your client's IE or Edge Trusted Sites Zone to function. In addition to the suite-wide FQDNs, CDNs, and telemetry listed in row 14, you'll need to also add these endpoints. |  | Trusted Sites |
 | 17  | **Yammer**  <br> Yammer is only available in the browser and requires the authenticated user to be passed through a proxy. All Yammer FQDNs need to be in your client's IE or Edge Trusted Sites Zone to function. |  | Trusted Sites |
 | 18  | Use [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/) to sync on-premises user accounts to Azure AD. | See [Hybrid Identity Required Ports and Protocols](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports), [Troubleshoot Azure AD connectivity](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity), and [Azure AD Connect Health Agent Installation](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-agent-install#outbound-connectivity-to-the-azure-service-endpoints). | Outbound server only traffic |
-| 19  | Microsoft Stream (needs the Azure AD user token). <BR> Office 365 Worldwide (including GCC) | *.cloudapp.net <BR> *.api.microsoftstream.com <BR> *.notification.api.microsoftstream.com <BR> amp.azure.net <BR> api.microsoftstream.com <BR> az416426.vo.msecnd.net <BR> s0.assets-yammer.com <BR> vortex.data.microsoft.com <BR> web.microsoftstream.com <BR> TCP port 443  | Inbound server traffic |
-| 20  | Use MFA server for multifactor authentication requests, both new installations of the server and setting it up with Active Directory Domain Services (AD DS). | See [Getting started with the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy#plan-your-deployment).  | Outbound server only traffic |
+| 19  | [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/) with 21 ViaNet in China to sync on-premises user accounts to Azure AD. | \*.digicert.com:80 <BR> \*.entrust.net:80 <BR> \*.chinacloudapi.cn:443 <BR> secure.aadcdn.partner.microsoftonline-p.cn:443 <BR>*.partner.microsoftonline.cn:443 <BR> <BR>Also see [Troubleshoot ingress with Azure AD connectivity issues](https://docs.azure.cn/zh-cn/active-directory/hybrid/tshoot-connect-connectivity). | Outbound server only traffic |
+| 20  | Microsoft Stream (needs the Azure AD user token). <BR> Office 365 Worldwide (including GCC) | \*.cloudapp.net <BR> \*.api.microsoftstream.com <BR> \*.notification.api.microsoftstream.com <BR> amp.azure.net <BR> api.microsoftstream.com <BR> az416426.vo.msecnd.net <BR> s0.assets-yammer.com <BR> vortex.data.microsoft.com <BR> web.microsoftstream.com <BR> TCP port 443  | Inbound server traffic |
+| 21  | Use MFA server for multifactor authentication requests, both new installations of the server and setting it up with Active Directory Domain Services (AD DS). | See [Getting started with the Azure Multi-Factor Authentication Server](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy#plan-your-deployment).  | Outbound server only traffic |
+| 22  | Microsoft Graph Change Notifications | Developers can leverage [change notifications](https://docs.microsoft.com/graph/webhooks?context=graph%2Fapi%2F1.0&view=graph-rest-1.0) to subscribe to events in the Microsoft Graph. | *.cloudapp.net<BR> 104.43.130.21, 137.116.169.230, 13.79.38.63, 104.214.39.228, Public Cloud: 168.63.250.205, 52.161.9.202, 40.68.103.62, 13.89.60.223, 23.100.95.104, 40.113.95.219, 104.214.32.10, 168.63.237.145, 52.161.110.176, 52.174.177.183 <BR> Microsoft Cloud for US Government: 52.244.231.173, 52.238.76.151, 52.244.250.211, 52.238.78.108 <BR> Microsoft Cloud Germany: 51.4.231.136, 51.5.243.223, 51.4.226.154, 51.5.244.215 <BR> Microsoft Cloud China operated by 21Vianet: 139.219.15.33, 42.159.154.223, 42.159.88.79, 42.159.155.77<BR> TCP port 443 <BR> Note: Developers can specify different ports when creating the subscriptions.  | Inbound server traffic |
 |||||
 
 ## Related Topics
@@ -76,4 +78,3 @@ Apart from DNS, these are all optional for most customers unless you need the sp
 [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653)
   
 [Microsoft Public IP Space](https://www.microsoft.com/download/details.aspx?id=53602)
-

@@ -3,7 +3,7 @@ title: "Plan your upgrade from Office 2007 or 2010 servers and clients"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/16/2019
+ms.date: 04/14/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -21,7 +21,7 @@ description: "If you are using Office 2007 or Office 2010, it's time to plan you
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. Office 2007 products and services have reached their [end of support](upgrade-from-office-2007-servers-and-products.md). Office 2010 products and services (including Office 2010, Exchange 2010, SharePoint 2010, and Project Server 2010), will reach their end of support on **October 13, 2020**. Use the resources in this section to get started.
+If your organization is using older versions of Office products and servers, this is a great time to start planning your upgrade. Office 2007 products and services have reached their [end of support](upgrade-from-office-2007-servers-and-products.md). Office 2010 and Exchange 2010 will reach their end of support on **October 13, 2020**. SharePoint 2010 and Project Server 2010 will reach their end of support on **April 13, 2021**. Use the resources in this section to get started.
 
 See [Upgrade from Office 2010 servers and clients](upgrade-from-office-2010-servers-and-products.md) for more details.
 
@@ -83,7 +83,7 @@ You can also choose not to upgrade at this time. Your Office apps will continue 
 
 [Microsoft 365](https://www.microsoft.com/microsoft-365) is the combination of Office 365, Windows 10, and Enterprise Mobility + Security (EMS) that provides a complete, intelligent solution to empower everyone to be creative and work together, securely. 
   
-Although you can migrate your Office 2007 or Office 2010 servers and clients to Office 365, Microsoft 365 includes the licenses and capabilities to help ensure that your organization is working on the latest Windows operating system and that your devices—including Windows, iOS, and Android—are enrolled and kept secured with policies that require authentication and data protection. In addition, Windows 10 and your Office 365 ProPlus client software is updated on a continuing basis to include the latest features and security updates.
+Although you can migrate your Office 2007 or Office 2010 servers and clients to Office 365, Microsoft 365 includes the licenses and capabilities to help ensure that your organization is working on the latest Windows operating system and that your devices—including Windows, iOS, and Android—are enrolled and kept secured with policies that require authentication and data protection. In addition, Windows 10 and your Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus) client software is updated on a continuing basis to include the latest features and security updates.
   
 Microsoft 365 is the way to digitally transform your business with constantly-improving devices and productivity experiences, enabled and secured by the Microsoft cloud.
   
@@ -105,9 +105,3 @@ or
 ## Related topics
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
-
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
-
-
-
-

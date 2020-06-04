@@ -18,7 +18,7 @@ f1.keywords:
 - CSH
 ms.custom: Adm_O365
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
-description: "These overview steps are designed to help you set up your network, create your identities, deploy Office 365 ProPlus, migrate your data, and help the people in your organization begin using Office 365."
+description: "These overview steps are designed to help you set up your network, create your identities, deploy Microsoft 365 Apps for enterprise, migrate your data, and help the people in your organization begin using Office 365."
 ---
 
 # Deploy Office 365 Enterprise for your organization
@@ -55,9 +55,9 @@ To deploy Office 365 Enterprise on your own after completing your planning, thes
 
    Includes configuring and rolling out basic and enhanced security, threat, and information protections for your tenant and identities in the first 30 days, 90 days, and beyond.
  
-4. [Deploy client software](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+4. [Deploy client software](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
-   Includes deploying Office 365 ProPlus, the cloud-updated and always-current version of the Office suite (Word, Excel, PowerPoint, and others) on your devices. Every Office 365 client license includes a license for Office 365 ProPlus.
+   Includes deploying Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus), the cloud-updated and always-current version of the Office suite (Word, Excel, PowerPoint, and others) on your devices. Every Office 365 client license includes a license for Microsoft 365 Apps for enterprise.
  
 5. [Set up mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 

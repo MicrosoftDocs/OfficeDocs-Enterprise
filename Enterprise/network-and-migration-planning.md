@@ -93,8 +93,6 @@ These topics contain detailed Office 365 network reference information.
   
 - [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
     
-- [Client connectivity](client-connectivity.md)
-    
 - [Content delivery networks](content-delivery-networks.md)
     
 - [External Domain Name System records for Office 365](external-domain-name-system-records.md)
@@ -107,7 +105,7 @@ These topics contain detailed Office 365 network reference information.
     
 - [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
     
-- [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+- [Setup guides for Office 365 services](setup-guides-for-office-365.md)
  
 ## See also
 

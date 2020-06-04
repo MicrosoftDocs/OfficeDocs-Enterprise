@@ -14,7 +14,9 @@ ms.collection:
 f1.keywords:
 - CSH
 ms.custom: Adm_O365
-search.appverid: SPO160
+search.appverid: 
+- SPO160
+- MET150
 ms.assetid: 3c364f9e-b9f6-4da4-a792-c8e8c8cd2e86
 description: "This article shows you how you can diagnose common issues with your SharePoint Online site using Internet Explorer developer tools."
 ---

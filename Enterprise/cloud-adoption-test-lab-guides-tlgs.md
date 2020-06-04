@@ -47,6 +47,6 @@ For additional TLGs that apply to both Office 365 and Microsoft 365, click [here
     
 ## See also
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   
 [Hybrid solutions](hybrid-solutions.md)

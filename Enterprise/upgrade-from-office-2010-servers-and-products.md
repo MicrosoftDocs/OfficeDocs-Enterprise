@@ -3,7 +3,7 @@ title: "Resources to help you upgrade from Office 2010 servers and clients"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/16/2019
+ms.date: 04/14/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -29,21 +29,23 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Office 2010, Exchange Server 2010, SharePoint 2010, and Project Server 2010 will reach their end of support on **October 13, 2020**. 
+Office 2010 and Exchange 2010 will reach their end of support on **October 13, 2020**. 
+
+SharePoint 2010 and Project Server 2010 will reach their end of support on **April 13, 2021**.
 
 While you're planning your upgrade, this is a great time to consider moving to Office 365 or Microsoft 365. 
 
 - Office 365 has cloud-based services for Office 2010 server products such as Exchange Server and SharePoint Server and services such as Teams and OneDrive for Business. 
 
-- Office 365 ProPlus, included with Office 365 E3 and E5 and Microsoft 365 Enterprise, is the set of Office client apps that you install on your local device. They are updated with new productivity and security features on an ongoing basis from the Microsoft cloud.
+- Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus), included with Office 365 E3 and E5 and Microsoft 365 Enterprise, is the set of Office client apps that you install on your local device. They are updated with new productivity and security features on an ongoing basis from the Microsoft cloud.
 
 For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
 
-![Office 2010 clients and servers and Windows 7 end of support poster](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+[![Image for the end of support for Office 2010 clients and servers and Windows 7 poster](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf)
 
 This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
 
-You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
       
 ## Office 2010 client and server upgrade planning
   
@@ -51,8 +53,8 @@ You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/
 |:-----|:-----|:-----|
 |Office 2010 (including Word 2010, Excel 2010, PowerPoint 2010, and Outlook 2010)  <br/> | October 13, 2020 |[Office 2010 end of support roadmap](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap) <br/> |
 |Exchange Server 2010  <br/> | October 13, 2020  |[Exchange 2010 end of support roadmap](exchange-2010-end-of-support.md) <br/> |
-|SharePoint 2010 or SharePoint Server 2010  <br/> | October 13, 2020 |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
-|Project Server 2010 <br/> | October 13, 2020 | [Project Server 2010 end of support roadmap](project-server-2010-end-of-support.md) <br/> |
+|SharePoint 2010 or SharePoint Server 2010  <br/> | April 13, 2021 |[Upgrading from SharePoint 2010](upgrade-from-sharepoint-2010.md) <br/> |
+|Project Server 2010 <br/> | April 13, 2021 | [Project Server 2010 end of support roadmap](project-server-2010-end-of-support.md) <br/> |
 |Lync Server 2010 <br/> | April 13, 2021 | [Plan to upgrade to Skype for Business Server](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade) <br/> |
     
 ## I'm a home user. What do I do?
@@ -61,8 +63,6 @@ If you're using Office 2010 products and applications at home, see [this informa
 
 ## Related topics
 
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)
-  
 [Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
