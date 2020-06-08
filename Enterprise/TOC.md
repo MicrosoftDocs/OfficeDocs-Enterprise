@@ -30,7 +30,6 @@
 ## Office 365 client support
 ### [Certificate-based authentication](office-365-client-support-certificate-based-authentication.md)
 ### [Conditional Access](office-365-client-support-conditional-access.md)
-### [Mobile application management](office-365-client-support-mobile-application-management.md)
 ### [Modern authentication](office-365-client-support-modern-authentication.md)
 ### [Single sign-on](office-365-client-support-single-sign-on.md)
 
