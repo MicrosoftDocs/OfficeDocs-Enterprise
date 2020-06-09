@@ -1,5 +1,5 @@
 ---
-title: "Office 365 cloud-only identities"
+title: "Office 365 cloud-only identity"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,10 +25,10 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: "Describes how to create users and groups when your Office 365 subscription is using cloud-only identities."
+description: "Describes how to create users and groups when your Office 365 subscription is using cloud-only identity."
 ---
 
-# Office 365 cloud-only identities
+# Office 365 cloud-only identity
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 

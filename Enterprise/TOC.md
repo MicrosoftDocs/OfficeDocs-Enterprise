@@ -107,7 +107,7 @@
 
 ## 2. Set up your identities
 ### [Protect your global administrator accounts](protect-your-global-administrator-accounts.md)
-### [Cloud-only identities](cloud-only-identities.md)
+### [Cloud-only identity](cloud-only-identities.md)
 ### Hybrid identities
 #### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
 #### Use the IdFix tool
