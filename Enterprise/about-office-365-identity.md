@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
-ms.date: 05/20/2019
+ms.date: 06/09/2020
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
