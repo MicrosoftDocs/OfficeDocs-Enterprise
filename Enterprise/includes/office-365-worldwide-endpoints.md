@@ -89,7 +89,7 @@ ID | Category | ER | Addresses | Ports
 80 | Default<BR>Required | No | `ocws.officeapps.live.com` | **TCP:** 443
 81 | Default<BR>Required | No | `odc.officeapps.live.com` | **TCP:** 443, 80
 82 | Default<BR>Required | No | `roaming.officeapps.live.com` | **TCP:** 443, 80
-83 | Default<BR>Required | No | `activation.sls.microsoft.com` | **TCP:** 443
+83 | Default<BR>Required | No | `activation.sls.microsoft.com, sls.microsoft.com` | **TCP:** 443
 84 | Default<BR>Required | No | `crl.microsoft.com` | **TCP:** 443, 80
 85 | Default<BR>Required | No | `ols.officeapps.live.com` | **TCP:** 443
 86 | Default<BR>Required | No | `office15client.microsoft.com, officeclient.microsoft.com` | **TCP:** 443
