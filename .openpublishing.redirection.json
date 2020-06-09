@@ -765,7 +765,17 @@
    
      "redirect_document_id": true
      
-   }
+   },
+   
+   {
+   
+    "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
+  
+    "redirect_url": "https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps",
+  
+    "redirect_document_id": false
+    
+  }
   ]
 
 }
