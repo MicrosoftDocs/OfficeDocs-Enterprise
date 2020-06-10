@@ -194,4 +194,8 @@ Upon OneDrive geo move completion, the user would need to sign out and sign in a
 
 ### Existing followed groups and sites
 
-Followed sites and groups will show up in the user's OneDrive for business regardless of their geo location. Sites and Groups hosted in another geo location will open in a separate tab.
+Followed sites and groups will show up in the user's OneDrive regardless of their geo location. Sites and groups hosted in another geo location will open in a separate tab.
+
+### Delve Geo URL updates
+
+Users will be sent to the Delve geo corresponding to their PDL only after their OneDrive has been moved to the new geo.
