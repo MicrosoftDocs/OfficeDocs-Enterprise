@@ -198,4 +198,4 @@ Followed sites and groups will show up in the user's OneDrive regardless of thei
 
 ### Delve Geo URL updates
 
-Users will be sent to the Delve geo corresponding to their PDL only after their OneDrive has been moved to the new geo
+Users will be sent to the Delve geo corresponding to their PDL only after their OneDrive has been moved to the new geo.
