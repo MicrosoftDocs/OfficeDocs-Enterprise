@@ -24,7 +24,7 @@ search.appverid:
 - GEA150
 - BCS160
 ms.assetid: 1f5767ed-e717-4f24-969c-6ea9d412ca88
-description: "Learn how to add multiple users to Microsoft 365 for business from a list in a spreadsheet or other CSV formatted file. Watch a video on YouTube that explains how to add accounts to Microsoft 365. At the end of this process, each user with an account will have an Microsoft 365 mailbox. "
+description: "Learn how to add multiple users to Microsoft 365 for business from a list in a spreadsheet or other CSV formatted file. Watch a video on YouTube that explains how to add accounts to Microsoft 365. At the end of this process, each user with an account will have a Microsoft 365 mailbox. "
 ---
 
 # Add several users at the same time to Microsoft 365 - Admin Help

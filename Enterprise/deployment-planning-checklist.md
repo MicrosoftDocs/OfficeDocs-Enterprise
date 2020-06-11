@@ -1,5 +1,5 @@
 ---
-title: "Deployment planning checklist for Office 365"
+title: "Deployment planning checklist for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,23 +20,23 @@ search.appverid:
 - BCS160
 ms.assetid: 5fa4f6ef-35ad-4840-91c1-4834df3df5a0
 
-description: "This checklist will help your organization as you plan and prepare for a migration to Office 365."
+description: "This checklist will help your organization as you plan and prepare for a migration to Microsoft 365."
 ---
 
-# Deployment planning checklist for Office 365
+# Deployment planning checklist for Microsoft 365
 
-When you move an enterprise organization to Office 365, it's important to plan exactly what steps you want to take, when to perform them, and who will perform them. This checklist will help your organization as you plan and prepare for a migration to Office 365. The phases and steps in the checklist are aligned with the guidance provided by the [Onboarding Center](https://go.microsoft.com/fwlink/?LinkId=517115). Feel free to adapt this checklist to your organization's needs.
+When you move an enterprise organization to Microsoft 365, it's important to plan exactly what steps you want to take, when to perform them, and who will perform them. This checklist will help your organization as you plan and prepare for a migration to Microsoft 365. Feel free to adapt this checklist to your organization's needs.
 
 ## Need help with your deployment?
-Do you want help getting Office 365 set up? Consider using [FastTrack](https://fasttrack.microsoft.com/office) or the [Setup guides for Office 365 services](setup-guides-for-office-365.md).
+Do you want help getting Microsoft 365 set up? Consider using [FastTrack](https://fasttrack.microsoft.com/microsoft-365) or the [Setup guides for Microsoft 365 services](setup-guides-for-office-365.md).
 
-## Sample checklist for an Office 365 Enterprise deployment
+## Sample checklist for a Microsoft 365 Enterprise deployment
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Deployment Tasks /Events** <br/> |**Start Date** <br/> |**Finish Date** <br/> |**Resources** <br/> |**Dependencies** <br/> |
 |**Determine your deployment goals** <br/> |||||
-| With your internal and external stakeholders:<br>  - Agree on scope and timeline <br>  - Agree on project tracking mechanism  <br>  - Develop success criteria and a [communication](https://fasttrack.microsoft.com/office) / [Get started with Office 365](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)|||||
+| With your internal and external stakeholders:<br>  - Agree on scope and timeline <br>  - Agree on project tracking mechanism  <br>  - Develop success criteria and a [communication](https://fasttrack.microsoft.com/microsoft-365) / [Get started with Microsoft 365](https://support.office.com/article/396b8d9e-e118-42d0-8a0d-87d1f2f055fb)|||||
 |**Inventory your current environment and make key deployment decisions** |||||
 |Inventory your current environment |||||
 | Collect the number of user accounts (login names, email addresses) |||||
@@ -60,8 +60,8 @@ Do you want help getting Office 365 set up? Consider using [FastTrack](https://f
 | Get your network ready ( [guidance and tools](https://aka.ms/tune)) |||||
 | Update client software versions ( [guidance](https://go.microsoft.com/fwlink/?LinkId=534827)) |||||
 | If you have Active Directory Rights Management Services: Prepare your environment ( [guidance](https://go.microsoft.com/fwlink/?linkid=844967))  <br/> |||||
-|**Set up Office 365 services to work for your organization** |||||
-|Configure your Office 365 subscription |||||
+|**Set up Microsoft 365 services to work for your organization** |||||
+|Configure your Microsoft 365 subscription |||||
 |[Verify the domains you want to use with your subscription](https://go.microsoft.com/fwlink/?LinkId=534828) |||||
 | Configure [application settings](https://go.microsoft.com/fwlink/?LinkId=534829) (email, instant messaging, online meetings, web collaboration, file storage, Yammer) |||||
 | Optionally [prepare for directory synchronization](https://go.microsoft.com/fwlink/?LinkId=534830) |||||
@@ -72,9 +72,9 @@ Do you want help getting Office 365 set up? Consider using [FastTrack](https://f
 | Tell your users about the [upcoming changes and how it will affect them](https://fasttrack.microsoft.com/office) |||||
 |**Roll out to users** |||||
 |Setup accounts and mailboxes |||||
-| Add your users and [Assign licenses to users in Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) |||||
+| Add your users and [Assign licenses to users in Microsoft 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) |||||
 | Optionally migrate data ( [email](https://go.microsoft.com/fwlink/?LinkId=534823), and [files](https://go.microsoft.com/fwlink/?LinkId=534824), and so on) |||||
 |Validate functionality then complete final steps |||||
-| Migrate [DNS settings to point to Office 365](https://go.microsoft.com/fwlink/?LinkId=534835) |||||
-| Tell your users when they can [start using Office 365](https://support.office.com/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?ui=en-US&amp;rs=en-US&amp;ad=US) |||||
-| Reconfigure client systems to connect to Office 365 ( [Office](https://go.microsoft.com/fwlink/?LinkId=534836), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837), [Outlook for Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840))  |||||
+| Migrate [DNS settings to point to Microsoft 365](https://go.microsoft.com/fwlink/?LinkId=534835) |||||
+| Tell your users when they can [start using Microsoft 365](https://support.office.com/article/office-365-basics-video-training-396b8d9e-e118-42d0-8a0d-87d1f2f055fb?ui=en-US&amp;rs=en-US&amp;ad=US) |||||
+| Reconfigure client systems to connect to Microsoft 365 ( [Office](https://go.microsoft.com/fwlink/?LinkId=534836), [Outlook](https://go.microsoft.com/fwlink/?LinkId=534837), [Outlook for Mac](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b#PickTab=Outlook_for_Mac), [Mobile Devices](https://go.microsoft.com/fwlink/?LinkId=534840))  |||||

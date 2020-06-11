@@ -39,7 +39,7 @@ Here are solutions for secure access, collaboration, and data with Microsoft Off
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   
-[Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
+[Microsoft 365 for enterprise Test Lab Guides](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides)
   
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
   

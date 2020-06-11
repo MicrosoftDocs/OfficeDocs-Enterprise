@@ -22,7 +22,7 @@ description: "Lists the attributes that are excluded and supported by IdFix tool
 
 # IdFix excluded and supported objects and attributes
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 There are two sets of rules maintained by IdFix; Multi-tenant and Dedicated/ITAR. At this time, the two rule sets exclude the same objects, attributes, and attribute values from its search. This may change in future releases.
   
@@ -51,6 +51,6 @@ This section lists the objects, attributes, and values that IdFix excludes from 
 |Object contains the IsCriticalSystemObject attribute |See [Attribute isCriticalSystemObject](https://go.microsoft.com/fwlink/p/?LinkId=401169). |
    
 ## Multi-Tenant and Dedicated objects and attributes checked by IdFix
-The attributes that are checked for errors by IdFix are described in the section "Directory object and attribute preparation" in [Prepare directory attributes for synchronization with Office 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md).
+The attributes that are checked for errors by IdFix are described in the section "Directory object and attribute preparation" in [Prepare directory attributes for synchronization with Microsoft 365 by using the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md).
   
 

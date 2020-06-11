@@ -40,9 +40,9 @@ This solution requires connectivity between your on-premises network and your Az
   
 ## Overview of deploying Microsoft 365 directory synchronization in Azure
 
-The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises AD DS forest to an Microsoft 365 subscription.
+The following diagram shows Azure AD Connect running on a virtual machine in Azure (the directory sync server) that synchronizes an on-premises AD DS forest to a Microsoft 365 subscription.
   
-![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of an Microsoft 365 subscription with traffic flow](media/CP-DirSyncOverview.png)
+![Azure AD Connect tool on a virtual machine in Azure synchronizing on-premises accounts to the Azure AD tenant of a Microsoft 365 subscription with traffic flow](media/CP-DirSyncOverview.png)
   
 In the diagram, there are two networks connected by a site-to-site VPN or ExpressRoute connection. There is an on-premises network where AD DS domain controllers are located, and there is an Azure virtual network with a directory sync server, which is a virtual machine running [Azure AD Connect](https://www.microsoft.com/download/details.aspx?id=47594). There are two main traffic flows originating from the directory sync server:
   
@@ -83,7 +83,7 @@ Before you begin, review the following prerequisites for this solution:
     
 - Ensure that you meet all [Prerequisites](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md#prerequisites) for configuring the Azure virtual network.
     
-- Have an Microsoft 365 subscription that includes the Active Directory integration feature. For information about Microsoft 365 subscriptions, go to the [Microsoft 365 subscription page](https://products.office.com/compare-all-microsoft-office-products?tab=2).
+- Have a Microsoft 365 subscription that includes the Active Directory integration feature. For information about Microsoft 365 subscriptions, go to the [Microsoft 365 subscription page](https://products.office.com/compare-all-microsoft-office-products?tab=2).
     
 - Provision one Azure Virtual Machine that runs Azure AD Connect to synchronize your on-premises AD DS forest with Microsoft 365.
     
