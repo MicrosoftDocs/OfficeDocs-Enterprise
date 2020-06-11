@@ -1,5 +1,5 @@
 ---
-title: "Migrate your organization data to Office 365 Enterprise"
+title: "Migrate your organization data to Microsoft 365 Enterprise"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,20 +15,20 @@ search.appverid:
 ms.assetid: e2fdfc8d-547e-4419-8628-2738ed4e0f46
 f1.keywords:
 - NOCSH
-description: "If you've opted out of FastTrack deployment and you are ready to migrate data to Office 365, this is the place to start."
+description: "If you've opted out of FastTrack deployment and you are ready to migrate data to Microsoft 365, this is the place to start."
 ---
 
-# Migrate your organization data to Office 365 Enterprise
+# Migrate your organization data to Microsoft 365 Enterprise
 
-## Ready to migrate your data to Office 365?
+## Ready to migrate your data to Microsoft 365?
 
-Our [basic set up instructions](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) help you get everyone using your Office 365 services and applications in the shortest time possible. This skips the hybrid scenarios and the more advanced methods for migrating to Office 365. 
+Our [basic set up instructions](https://support.office.com/article/Set-up-Office-365-for-business-6a3a29a0-e616-4713-99d1-15eda62d04fa) help you get everyone using your Microsoft 365 services and applications in the shortest time possible. This skips the hybrid scenarios and the more advanced methods for migrating to Microsoft 365. 
   
-If you want help getting Office 365 set up, [FastTrack](https://fasttrack.microsoft.com/office) is the easiest way to deploy Office 365, you can also sign in and use the [Setup guides for Office 365 services](setup-guides-for-office-365.md).
+If you want help getting Microsoft 365 set up, [FastTrack](https://fasttrack.microsoft.com/office) is the easiest way to deploy Microsoft 365, you can also sign in and use the [Setup guides for Microsoft 365 services](setup-guides-for-office-365.md).
 
-## Migrate email to Office 365
+## Migrate email to Microsoft 365
 - Migrate with Exchange Hybrid using the [Exchange Deployment Assistant](https://technet.microsoft.com/exdeploy2013). (Administrator)
-- Learn more about the different [ways to migrate email to Office 365](https://support.office.com/article/Ways-to-migrate-multiple-email-accounts-to-Office-365-0a4913fe-60fb-498f-9155-a86516418842).
+- Learn more about the different [ways to migrate email to Microsoft 365](https://support.office.com/article/Ways-to-migrate-multiple-email-accounts-to-Office-365-0a4913fe-60fb-498f-9155-a86516418842).
 - Find alternative ways [people in your organization can migrate their own email, contacts, and calendars](https://support.office.com/article/Migrate-email-and-contacts-to-Office-365-for-business-a3e3bddb-582e-4133-8670-e61b9f58627e).
 
 ## Migrate files and folders

@@ -27,7 +27,7 @@ Here are some key multi-geo terms to help you understand the basic concepts of t
 
 -   **Tenant** – An organization's representation in Microsoft 365 which typically has one or more domains associated with it (for example, https://contoso.sharepoint.com). 
 
--   **Geo locations** – The geographic locations available to host data in an Microsoft 365 tenant.
+-   **Geo locations** – The geographic locations available to host data in a Microsoft 365 tenant.
 
 -   **Satellite locations** – The additional geo locations that you have configured to host data in your Microsoft 365 tenant. Multi-geo tenants span more than one geo location, for example, North America and Europe.
 
@@ -70,7 +70,7 @@ The administration of a multi-geo tenant can differ from a non-multi-geo tenant,
 
 Read [User experience in a mult-geo environment](multi-geo-user-experience.md) for details about your end users' experience in a multi-geo environment.
 
-For details about the Teams experience in an Microsoft 365 Multi-Geo tenancy, see [Teams experience in an Microsoft 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
+For details about the Teams experience in a Microsoft 365 Multi-Geo tenancy, see [Teams experience in a Microsoft 365 OneDrive and SharePoint Online Multi-Geo-enabled tenancy](https://docs.microsoft.com/microsoftteams/teams-experience-o365odb-spo-multi-geo).
 
 To get started configuring Microsoft 365 Multi-Geo, see [Configure Microsoft 365 Multi-Geo](multi-geo-tenant-configuration.md).
 

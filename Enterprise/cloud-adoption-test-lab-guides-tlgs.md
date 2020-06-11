@@ -35,11 +35,11 @@ Use these articles to build your Microsoft 365 dev/test environment:
   
 - [The lightweight base configuration](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
     
-    Create an Microsoft 365 Enterprise E5 trial subscription.
+    Create a Microsoft 365 Enterprise E5 trial subscription.
 
 - [The simulated enterprise base configuration](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
     
-    Create a simplified intranet running in Microsoft Azure infrastructure services and an Microsoft 365 Enterprise E5 trial subscription. 
+    Create a simplified intranet running in Microsoft Azure infrastructure services and a Microsoft 365 Enterprise E5 trial subscription. 
 
     This is optional and needed if you want to build a simulated enterprise configuration for hybrid identity.
     
