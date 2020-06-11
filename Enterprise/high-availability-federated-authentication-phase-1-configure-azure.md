@@ -13,12 +13,12 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 91266aac-4d00-4b5f-b424-86a1a837792c
-description: "Summary: Configure the Microsoft Azure infrastructure to host high availability federated authentication for Office 365."
+description: "Summary: Configure the Microsoft Azure infrastructure to host high availability federated authentication for Microsoft 365."
 ---
 
 # High availability federated authentication Phase 1: Configure Azure
 
-In this phase, you create the resource groups, virtual network (VNet), and availability sets in Azure that will host the virtual machines in phases 2, 3, and 4. You must complete this phase before moving on to [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
+In this phase, you create the resource groups, virtual network (VNet), and availability sets in Azure that will host the virtual machines in phases 2, 3, and 4. You must complete this phase before moving on to [Phase 2: Configure domain controllers](high-availability-federated-authentication-phase-2-configure-domain-controllers.md). See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
 Azure must be provisioned with these basic components:
   
@@ -101,7 +101,7 @@ For the set of local network address spaces, fill in Table L. Note that three bl
    
  **Table L: Address prefixes for the local network**
   
-Now let's begin building the Azure infrastructure to host your federated authentication for Office 365.
+Now let's begin building the Azure infrastructure to host your federated authentication for Microsoft 365.
   
 > [!NOTE]
 > The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell](https://docs.microsoft.com/powershell/azure/get-started-azureps). 
@@ -295,9 +295,9 @@ New-AzAvailabilitySet -ResourceGroupName $rgName -Name $avName -Location $locNam
 
 This is the configuration resulting from the successful completion of this phase.
   
-**Phase 1: The Azure infrastructure for high availability federated authentication for Office 365**
+**Phase 1: The Azure infrastructure for high availability federated authentication for Microsoft 365**
 
-![Phase 1 of the high availability Office 365 federated authentication in Azure with the Azure infrastructure](media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
+![Phase 1 of the high availability Microsoft 365 federated authentication in Azure with the Azure infrastructure](media/4e7ba678-07df-40ce-b372-021bf7fc91fa.png)
   
 ## Next step
 
@@ -305,12 +305,12 @@ Use [Phase 2: Configure domain controllers](high-availability-federated-authenti
   
 ## See Also
 
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
+[Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
-[Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+[Federated identity for your Microsoft 365 dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/federated-identity-for-your-office-365-dev-test-environment)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
 
-[Understanding Office 365 identity and Azure Active Directory](about-office-365-identity.md)
+[Understanding Microsoft 365 identity and Azure Active Directory](about-office-365-identity.md)
 
 

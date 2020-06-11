@@ -22,7 +22,7 @@ With SharePoint site geo move, you can move SharePoint sites to other geo locati
 The following types of site can be moved between geo locations:
 
 - Microsoft 365 Group-connected sites
-- Modern sites without an Microsoft 365 Group association
+- Modern sites without a Microsoft 365 Group association
 - Classic SharePoint sites
 - Communication sites
 
@@ -108,11 +108,11 @@ To start the site move, run:
 
 ![Screenshot of PowerShell window showing Start-SPOSiteContentMove cmdlet](media/multi-geo-sharepoint-site-move-powershell.png)
 
-### Start a SharePoint site geo move for an Microsoft 365 Group-connected site
+### Start a SharePoint site geo move for a Microsoft 365 Group-connected site
 
-To move an Microsoft 365 Group-connected site, the global administrator must first change the Preferred Data Location (PDL) attribute for the Microsoft 365 Group.
+To move a Microsoft 365 Group-connected site, the global administrator must first change the Preferred Data Location (PDL) attribute for the Microsoft 365 Group.
 
-To set the PDL for an Microsoft 365 Group:
+To set the PDL for a Microsoft 365 Group:
 
 ```PowerShell
 Set-SPOUnifiedGroup -PreferredDataLocation <PDL> -GroupAlias <GroupAlias>

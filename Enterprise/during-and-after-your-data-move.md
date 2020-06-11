@@ -25,7 +25,7 @@ Data moves are a back-end operation with minimal impact to end-users. No action 
 > [!NOTE]
 > Moves occur at different times for each service. As a result, you'll see the described reduced functionality for each service at a different time. 
   
-Watch the Microsoft 365 Message Center for confirmation when moves for each of Exchange Online, SharePoint Online, Teams, and Skype for Business are complete. As shown in the table below, it can take up to 24 months, after the end of the enrollment period, to complete all the requested data moves for all customers in a specific geo. If you see any issues with your tenant after the move, contact [Office 365 Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to get assistance. 
+Watch the Microsoft 365 Message Center for confirmation when moves for each of Exchange Online, SharePoint Online, Teams, and Skype for Business are complete. As shown in the table below, it can take up to 24 months, after the end of the enrollment period, to complete all the requested data moves for all customers in a specific geo. If you see any issues with your tenant after the move, contact [Support](https://go.microsoft.com/fwlink/p/?LinkID=522459) to get assistance. 
   
 
 |**Customers with signup country in**|**All moves completed by**|
