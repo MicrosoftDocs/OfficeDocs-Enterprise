@@ -25,7 +25,7 @@ ms.collection:
 description: "Learn how Office 365 modern authentication works differently for Office 2013 and 2016 client apps."
 ---
 
-# How modern authentication works for Office 2013, Office 2016 and Office 2019 client apps
+# How modern authentication works for Office 2013, Office 2016, and Office 2019 client apps
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
