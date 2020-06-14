@@ -77,7 +77,7 @@ Check out the [Ignite breakout session on Microsoft Teams architecture](https://
 If your tenant is provisioned in Australia, Canada, the European Union, France, Germany, India, Japan, South Africa, South Korea, Switzerland (which includes Liechtenstein), the United Arab Emirates, the United Kingdom, or the United States, Microsoft stores the following customer data at rest only within that location:
 
 - Teams chats, team and channel conversations, images, voicemail messages, and contacts
-- SharePoint Online site content and the files stored within that site
+- SharePoint Online site content and the files stored within that site.
 - Files uploaded to OneDrive for work or school.
 
 #### Chat, channel messages, team structure
