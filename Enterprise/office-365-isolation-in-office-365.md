@@ -86,7 +86,7 @@ Every team in Teams is backed by a Microsoft 365 Group and its SharePoint site a
 
 #### Voicemail and contacts
 
-Voicemails are stored in Exchange. Contacts are stored in Exchange-based cloud data store. Exchange and the Exchange-based cloud store already provide data residency in each of the worldwide datacenter geos. For all teams, voicemail and contacts are stored in-country for Australia, Canada, France, Germany, India, Japan, the United Arab Emirates, the United Kingdom, South Africa, South Korea, Switzerland (includes Liechtenstein), and the United States. For all other countries, files are stored in the US, Europe, or Asia-Pacific location based on tenant affinity.
+Voicemails are stored in Exchange. Contacts are stored in Exchange-based cloud data store. Exchange and the Exchange-based cloud store already provide data residency in each of the worldwide datacenter geos. For all teams, voicemail and contacts are stored in-country for Australia, Canada, France, Germany, India, Japan, the United Arab Emirates, the United Kingdom, South Africa, South Korea, Switzerland (which includes Liechtenstein), and the United States. For all other countries, files are stored in the US, Europe, or Asia-Pacific location based on tenant affinity.
 
 #### Images and media
 
