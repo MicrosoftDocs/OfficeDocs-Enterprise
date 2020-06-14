@@ -78,7 +78,7 @@ If your tenant is provisioned in Australia, Canada, the European Union, France, 
 
 - Teams chats, team and channel conversations, images, voicemail messages, and contacts
 - SharePoint Online site content and the files stored within that site
-- Files uploaded to OneDrive for Business
+- Files uploaded to OneDrive for work or school.
 
 #### Chat, channel messages, team structure
 
