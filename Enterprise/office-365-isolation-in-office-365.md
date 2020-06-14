@@ -68,7 +68,7 @@ SharePoint Online stores encrypted file content in Microsoft Azure blobs. Each S
 
 ## Teams
 
-Your Teams data is stored differently depending on the content type. 
+Your Teams data is stored differently, depending on the content type. 
 
 Check out the [Ignite breakout session on Microsoft Teams architecture](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3071) for an in-depth discussion.
 
