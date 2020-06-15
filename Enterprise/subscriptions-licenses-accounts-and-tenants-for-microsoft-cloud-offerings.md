@@ -29,7 +29,7 @@ Microsoft provides a hierarchy of organizations, subscriptions, licenses, and us
   
 - Microsoft Office 365
 - Microsoft Azure
-- Microsoft Intune and the Enterprise Mobility + Security (EMS)
+- Microsoft Intune and Enterprise Mobility + Security (EMS)
 - Microsoft Dynamics 365
 
 [Microsoft 365](https://docs.microsoft.com/microsoft-365/) combines Office 365, EMS, and Windows 10 Enterprise into a single subscription and set of integrated services.
