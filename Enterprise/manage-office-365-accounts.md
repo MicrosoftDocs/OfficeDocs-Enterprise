@@ -69,7 +69,7 @@ When deciding which way your organization will create and manage accounts, consi
     If you choose to add and manage all your users through the admin center, you will specify the location and assign licenses at the same time as creating the Office 365 account. As a result, not much planning is required.
     
     > [!IMPORTANT]
-    > Creating accounts in Office 365 without assigning a license (to SharePoint Online, for example) means that the account owner can view the Office 365 portal but can't access any of the services within your company's subscription. After you assign a location and the license, the account is replicated to the service or services that you assigned. The user can sign in to their account and use the services that you assigned to them. 
+    > Creating accounts in Office 365 without assigning a license (to SharePoint Online, for example) means that the account owner can view the Microsoft 365 admin center but can't access any of the services within your company's subscription. After you assign a location and the license, the account is replicated to the service or services that you assigned. The user can sign in to their account and use the services that you assigned to them. 
   
 ## Next steps
 

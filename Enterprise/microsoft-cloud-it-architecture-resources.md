@@ -222,7 +222,5 @@ For more information, see the article for this poster: [Microsoft Telephony Solu
   
 [Microsoft 365 for enterprise Test Lab Guides](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides)
   
-[Security solutions](security-solutions.md)
-  
 [Hybrid solutions](hybrid-solutions.md)
 
