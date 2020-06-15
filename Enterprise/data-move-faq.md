@@ -64,7 +64,7 @@ Yes. Once a new datacenter geo is available, new Microsoft 365 customers who sel
 
 Tenant admins can view the data location card in the Admin Center at any time to confirm the core customer data at rest location for 
 each service, specifically for their tenant.  We also publish the location of datacenter geos, datacenters, and location of Office 
-365 customer data on the [ Office 365 interactive datacenter maps ](https://office.com/datamaps) as a reference for the current default core customer data at rest locations for new tenants.  You can verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Microsoft 365 Admin Center.  
+365 customer data on the [Office 365 interactive datacenter maps ](https://office.com/datamaps) as a reference for the current default core customer data at rest locations for new tenants.  You can verify the location of your customer data at rest via the Data Location section under your Organization Profile in the Microsoft 365 Admin Center.  
  
 ## When will I be able to request a move?
   
@@ -72,7 +72,7 @@ Please refer to the [How to request your data move](request-your-data-move.md) p
   
 ## How can I request to be moved?
   
-Eligible customers will see a page in their [Office 365 Admin Portal](https://portal.office.com/). Please see [How to request your data move](request-your-data-move.md) for instructions on how to request a move. 
+Eligible customers will see a page in their [Microsoft 365 admin center](https://admin.microsoft.com/). Please see [How to request your data move](request-your-data-move.md) for instructions on how to request a move. 
   
 ## Can I change my selection after requesting a move?
   

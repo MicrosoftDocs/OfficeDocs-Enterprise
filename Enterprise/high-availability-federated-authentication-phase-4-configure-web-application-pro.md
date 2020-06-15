@@ -13,14 +13,14 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 1c903173-67cd-47da-86d9-d333972dda80
-description: "Summary: Configure the web application proxy servers for your high availability federated authentication for Office 365 in Microsoft Azure."
+description: "Summary: Configure the web application proxy servers for your high availability federated authentication for Microsoft 365 in Microsoft Azure."
 ---
 
 # High availability federated authentication Phase 4: Configure web application proxies
 
-In this phase of deploying high availability for Office 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.
+In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.
   
-You must complete this phase before moving on to [Phase 5: Configure federated authentication for Office 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
+You must complete this phase before moving on to [Phase 5: Configure federated authentication for Microsoft 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md). See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
 ## Create the Internet-facing load balancer in Azure
 
@@ -55,7 +55,7 @@ Write-Host (Get-AzPublicIpaddress -Name "WebProxyPublicIP" -ResourceGroup $rgNam
 
 ## Determine your federation service FQDN and create DNS records
 
-You need to determine the DNS name to identify your federation service name on the Internet. Azure AD Connect will configure Office 365 with this name in Phase 5, which will become part of the URL that Office 365 sends to connecting clients to get a security token. An example is fs.contoso.com (fs stands for federation service).
+You need to determine the DNS name to identify your federation service name on the Internet. Azure AD Connect will configure Microsoft 365 with this name in Phase 5, which will become part of the URL that Microsoft 365 sends to connecting clients to get a security token. An example is fs.contoso.com (fs stands for federation service).
   
 Once you have your federation service FDQN, create a public DNS domain A record for the federation service FDQN that resolves to the public IP address of the Azure Internet-facing load balancer.
   
@@ -151,17 +151,17 @@ Here is the configuration resulting from the successful completion of this phase
   
 **Phase 4: The Internet-facing load balancer and web application proxy servers for your high availability federated authentication infrastructure in Azure**
 
-![Phase 4 of the high availability Office 365 federated authentication infrastructure in Azure with the web application proxy servers](media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
+![Phase 4 of the high availability Microsoft 365 federated authentication infrastructure in Azure with the web application proxy servers](media/7e03183f-3b3b-4cbe-9028-89cc3f195a63.png)
   
 ## Next step
 
-Use [Phase 5: Configure federated authentication for Office 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) to continue configuring this workload.
+Use [Phase 5: Configure federated authentication for Microsoft 365](high-availability-federated-authentication-phase-5-configure-federated-authentic.md) to continue configuring this workload.
   
 ## See Also
 
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
+[Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
-[Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+[Federated identity for your Microsoft 365 dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/federated-identity-for-your-office-365-dev-test-environment)
   
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
 
