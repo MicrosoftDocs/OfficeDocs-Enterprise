@@ -30,7 +30,7 @@ description: "Describes how to assign Microsoft 365 licenses to user accounts, e
 
 # Assign Microsoft 365 licenses to user accounts
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 For the cloud-only identity model, you can assign Microsoft 365 licenses to user accounts as they are created, depending on how you create them.
 
