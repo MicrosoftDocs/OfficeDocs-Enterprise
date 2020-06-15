@@ -3,7 +3,7 @@ title: "Implementing VPN split tunneling for Office 365"
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 6/11/2020
+ms.date: 6/15/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
@@ -270,6 +270,7 @@ This section provides links to detailed guides for implementing split tunneling 
 - **F5 Networks BIG-IP APM**: [Optimizing Office 365 traffic on Remote Access through VPNs when using BIG-IP APM](https://devcentral.f5.com/s/articles/SSL-VPN-Split-Tunneling-and-Office-365)
 - **Citrix Gateway**: [Optimizing Citrix Gateway VPN split tunnel for Office365](https://docs.citrix.com/en-us/citrix-gateway/13/optimizing-citrix-gateway-vpn-split-tunnel-for-office365.html)
 - **Pulse Secure**: [VPN Tunneling: How to configure split tunneling to exclude Office365 applications](https://kb.pulsesecure.net/articles/Pulse_Secure_Article/KB44417)
+- **Check Point VPN**: [How to configure Split Tunnel for Office 365 and other SaaS Applications](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk167000)
 
 ## FAQ
 
