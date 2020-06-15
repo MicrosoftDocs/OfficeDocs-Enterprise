@@ -1,9 +1,9 @@
 ---
-title: "Setup guides for Office 365 and Microsoft 365 services"
+title: "Setup guides for Microsoft 365 and Office 365 services"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/29/2020
+ms.date: 06/15/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-administration
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - BCS160
 ms.assetid: 165f46e8-3533-4d76-be57-97f81ebd40f2
-description: "Accelerate your planning and configuration of Office 365 or Microsoft 365 with setup guides."
+description: "Accelerate your planning and configuration of Microsoft 365 or Office 365 with setup guides."
 ---
 
-# Setup guides for Office 365 and Microsoft 365 services
+# Setup guides for Microsoft 365 and Office 365 services
 
-Office 365 and Microsoft 365 setup guides give admins tailored guidance and resources for deploying apps and services. These guides are created using the same best practices that FastTrack onboarding specialists share in individual interactions, and they're available to all admins within the Microsoft 365 admin center. They give information on product setup, enabling security features, deploying collaboration tools, and provide scripts to speed up advanced deployments.
+Microsoft 365 and Office 365 setup guides give admins tailored guidance and resources for deploying apps and services. These guides are created using the same best practices that FastTrack onboarding specialists share in individual interactions, and they're available to all admins within the Microsoft 365 admin center. They give information on product setup, enabling security features, deploying collaboration tools, and provide scripts to speed up advanced deployments.
 
 ## How to access setup guides in the Microsoft 365 admin center
 
@@ -49,13 +49,13 @@ Each guide provides you with step-by-step instructions, resources, articles, and
 
 ![Example of a setup guide](./media/setup-guides-for-office-365/m365-setupguide-example.png)
 
-You can use the guides to learn more about specific Office 365 and Microsoft 365 features during the planning phase or revisit them after you've completed a deployment to modify a setting.
+You can use the guides to learn more about specific Microsoft 365 and Office 365 features during the planning phase or revisit them after you've completed a deployment to modify a setting.
 
 ## Guides for initial setup
 
 ### Prepare your environment
 
-The **Prepare your environment** guide helps you prepare your org's environment for Office 365 and Microsoft 365 services. Regardless of your goals, there are tasks you'll need to complete to ensure a successful deployment. To avoid any errors while preparing your environment, you're provided with step-by-step instructions to connect your domain, add users, assign licenses, set up email with Exchange Online, and install or deploy Office apps. 
+The **Prepare your environment** guide helps you prepare your org's environment for Microsoft 365 and Office 365 services. Regardless of your goals, there are tasks you'll need to complete to ensure a successful deployment. To avoid any errors while preparing your environment, you're provided with step-by-step instructions to connect your domain, add users, assign licenses, set up email with Exchange Online, and install or deploy Office apps. 
 
 |||
 |:-------|:-----|
@@ -73,7 +73,7 @@ The **Email setup advisor** provides you with the step-by-step guidance needed f
 
 ### Gmail contacts and calendar advisor
 
-When you migrate a Gmail user's mailbox to Office 365, email messages are migrated, but contacts and calendar items are not. This advisor provides steps for importing Google contacts and Google calendar items to Office 365 using import and export methods with Outlook.com, the Outlook client, or PowerShell.
+When you migrate a Gmail user's mailbox to Microsoft 365, email messages are migrated, but contacts and calendar items are not. This advisor provides steps for importing Google contacts and Google calendar items to Microsoft 365 using import and export methods with Outlook.com, the Outlook client, or PowerShell.
 
 |||
 |:-------|:-----|
@@ -141,7 +141,7 @@ The Office 365 Advanced Threat Protection advisor safeguards your organization a
 
 ### Active Directory Federation Services (AD FS) deployment advisor
 
-The **AD FS deployment advisor** provides you with step-by-step guidance on deploying an on-premises AD FS infrastructure that authenticates users for Office 365 and Microsoft 365 services. With this guide your org can review AD FS components and requirements, acquire and install SSL certificates that are necessary for deployment, and install a required web application proxy server. 
+The **AD FS deployment advisor** provides you with step-by-step guidance on deploying an on-premises AD FS infrastructure that authenticates users for Microsoft 365 and Office 365 services. With this guide your org can review AD FS components and requirements, acquire and install SSL certificates that are necessary for deployment, and install a required web application proxy server. 
 
 |||
 |:-------|:-----|
@@ -161,7 +161,7 @@ The **Microsoft 365 Apps for enterprise deployment advisor** helps you get your 
 
 ### Mobile apps setup assistant
 
-This setup assistant provides instructions for the download and installation of Office apps on your Windows, iOS, and Android mobile devices. This guide provides you with step-by-step information to download and install Office 365 and Microsoft 365 apps on your phone and tablet devices.
+This setup assistant provides instructions for the download and installation of Office apps on your Windows, iOS, and Android mobile devices. This guide provides you with step-by-step information to download and install Microsoft 365 and Office 365 apps on your phone and tablet devices.
 
 |||
 |:-------|:-----|
