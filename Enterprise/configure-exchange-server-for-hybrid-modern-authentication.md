@@ -22,41 +22,41 @@ description: "Hybrid Modern Authentication (HMA), is a method of identity manage
 
 *This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
 
-Hybrid Modern Authentication (HMA), is a method of identity management that offers more secure user authentication and authorization, and is available for Exchange server on-premises hybrid deployments.
+Hybrid Modern Authentication (HMA) is a method of identity management that offers more secure user authentication and authorization, and is available for Exchange server on-premises hybrid deployments.
   
 ## FYI
 
 Before we begin, I call:
   
 - Hybrid Modern Authentication \> HMA
-    
+
 - Exchange on-premises \> EXCH
-    
+
 - Exchange Online \> EXO
-    
-Also,  *if a graphic in this article has an object that's 'grayed-out' or 'dimmed' that means the element shown in gray is not included in HMA-specific configuration*  . 
+
+Also, *if a graphic in this article has an object that's 'grayed-out' or 'dimmed' that means the element shown in gray is not included in HMA-specific configuration* .
   
 ## Enabling Hybrid Modern Authentication
 
 Turning HMA on means:
   
 1. Being sure you meet the prereqs before you begin.
-    
+
 1. Since many **prerequisites** are common for both Skype for Business and Exchange, [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md). Do this before you begin any of the steps in this article.
-    
-2. Adding on-premises web service URLs as Service Principal Names (SPNs) in Azure AD.
-    
-3. Ensuring all Virtual Directories are enabled for HMA
-    
-4. ﻿Checking for the EvoSTS Auth Server object
-    
-5. Enabling HMA in EXCH.
-    
+
+1. Adding on-premises web service URLs as **Service Principal Names (SPNs)** in Azure AD.
+
+1. Ensuring all Virtual Directories are enabled for HMA
+
+1. Checking for the EvoSTS Auth Server object
+
+1. Enabling HMA in EXCH.
+
  **Note** Does your version of Office support MA? See [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md).
   
 ## Make sure you meet all the prerequisites
 
-Since many prerequisites are common for both Skype for Business and Exchange, review [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md). Do this  *before*  you begin any of the steps in this article. 
+Since many prerequisites are common for both Skype for Business and Exchange, review [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md). Do this  *before*  you begin any of the steps in this article.
   
 ## Add on-premises web service URLs as SPNs in Azure AD
 
@@ -73,26 +73,26 @@ Get-OABVirtualDirectory | FL server,*url*
     
 Ensure the URLs clients may connect to are listed as HTTPS service principal names in AAD.
   
-1. First, connect to AAD with [these instructions](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell). 
+1. First, connect to AAD with [these instructions](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell).
 
- **Note** You need to use the Connect-MsolService option from this page to be able to use the command below. 
-    
+ **Note** You need to use the _Connect-MsolService_ option from this page to be able to use the command below.
+
 2. For your Exchange related URLs, type the following command:
-    
+
 ```powershell
 Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 | select -ExpandProperty ServicePrincipalNames
 ```
 
-Take note of (and screenshot for later comparison) the output of this command, which should include an https://  *autodiscover.yourdomain.com*  and https://  *mail.yourdomain.com*  URL, but mostly consist of SPNs that begin with 00000002-0000-0ff1-ce00-000000000000/. If there are https:// URLs from your on-premises that are missing we will need to add those specific records to this list. 
+Take note of (and screenshot for later comparison) the output of this command, which should include an https://  *autodiscover.yourdomain.com*  and https://  *mail.yourdomain.com* URL, but mostly consist of SPNs that begin with 00000002-0000-0ff1-ce00-000000000000/. If there are https:// URLs from your on-premises that are missing we will need to add those specific records to this list.
   
 3. If you don't see your internal and external MAPI/HTTP, EWS, ActiveSync, OAB and Autodiscover records in this list, you must add them using the command below (the example URLs are '`mail.corp.contoso.com`' and '`owa.contoso.com`', but you'd **replace the example URLs with your own** ): <br/>
 ```powershell
-$x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000   
+$x= Get-MsolServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000
 $x.ServicePrincipalnames.Add("https://mail.corp.contoso.com/")
 $x.ServicePrincipalnames.Add("https://owa.contoso.com/")
 Set-MSOLServicePrincipal -AppPrincipalId 00000002-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $x.ServicePrincipalNames
 ```
- 
+
 4. Verify your new records were added by running the Get-MsolServicePrincipal command from step 2 again, and looking through the output. Compare the list / screenshot from before to the new list of SPNs (you may also screenshot the new list for your records). If you were successful, you will see the two new URLs in the list. Going by our example, the list of SPNs will now include the specific URLs  `https://mail.corp.contoso.com`  and  `https://owa.contoso.com`. 
   
 ## Verify Virtual Directories are Properly Configured
@@ -106,13 +106,11 @@ Get-OABVirtualDirectory | FL server,*url*,*oauth*
 Get-AutoDiscoverVirtualDirectory | FL server,*oauth*
 ```
 
-Check the output to make sure **OAuth** is enabled on each of these VDirs, it will look something like this (and the key thing to look at is 'OAuth'); 
+Check the output to make sure **OAuth** is enabled on each of these VDirs, it will look something like this (and the key thing to look at is 'OAuth'):
 
 ```powershell
 Get-MapiVirtualDirectory | fl server,*url*,*auth*
-```
 
-```
 Server                        : EX1
 InternalUrl                   : https://mail.contoso.com/mapi
 ExternalUrl                   : https://mail.contoso.com/mapi
@@ -160,6 +158,5 @@ If you are an on-premises customer using Exchange server on TCP 443, please whit
 ## Related topics
 
 [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md)
-  
-Force Outlook users to Modern Authentication  
+
 [Modern Authentication configuration requirements for transition from Office 365 dedicated/ITAR to vNext](https://docs.microsoft.com/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)
