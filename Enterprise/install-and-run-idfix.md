@@ -24,7 +24,7 @@ description: "How to download and run the Microsoft 365 IdFix tool to help clean
 
 # Download and run the Microsoft 365 IdFix tool
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 IdFix identifies errors such as duplicates and formatting problems in your Active Directory Domain Services (AD DS) domain before you synchronize to Microsoft 365. 
   

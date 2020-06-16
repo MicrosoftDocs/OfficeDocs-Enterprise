@@ -40,7 +40,7 @@ description: "On October 10, 2017, support ended for SharePoint Server 2007. Rea
 
 # SharePoint Server 2007 end of support roadmap
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 On **October 10, 2017**, Microsoft Office SharePoint Server 2007 reached end of support. If you haven't begun your migration from SharePoint Server 2007 to Office 365 or a newer version of SharePoint Server on-premises, now's the time to start planning. This article details resources to help people migrate data to SharePoint Online, or upgrade your SharePoint Server on-premises. 
   
@@ -103,9 +103,7 @@ When you migrate to Office 365, the one-time move will have a heavier cost up-fr
   
 ### Migrate to SharePoint Online
 
-Make sure that SharePoint Online has all the features you need by reviewing the associated service description. Here's the link to all Office 365 Service Descriptions:
-  
-[Office 365 Service Descriptions](https://go.microsoft.com/fwlink/?linkid=272060)
+Make sure that SharePoint Online has all the features you need by reviewing the associated service description. See [Microsoft 365 and Office 365 service descriptions](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library).
   
 There is no direct way to migrate from SharePoint 2007 to SharePoint Online; your move to SharePoint Online would be done manually. If you upgrade to SharePoint Server 2013 or SharePoint Server 2016, your move might also involve using the SharePoint Migration API (to migrate information into OneDrive for Business, for example).
   
