@@ -120,8 +120,3 @@ After you download and extract IdFix, run it to search for problems in your AD D
 - [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)  
 - [Microsoft 365 IdFix transaction log](idfix-transaction-log.md)
     
-## Video training
-
-For more information, see the lesson [Install and use the IdFix tool](https://support.office.com/article/install-and-use-the-idfix-tool-4d81d73c-f172-4fd5-8542-f601c0c96aa9?ui=en-US&rs=en-US&ad=US), brought to you by LinkedIn Learning.
-  
-
