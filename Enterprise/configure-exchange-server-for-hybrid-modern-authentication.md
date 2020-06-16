@@ -3,7 +3,7 @@ title: "How to configure Exchange Server on-premises to use Hybrid Modern Authen
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
-ms.date: 11/16/2018
+ms.date: 06/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -54,7 +54,7 @@ Turning HMA on means:
     
  **Note** Does your version of Office support MA? See [How modern authentication works for Office 2013 and Office 2016 client apps](modern-auth-for-office-2013-and-2016.md).
   
-## Make sure you meet all the pre-reqs
+## Make sure you meet all the prerequisites
 
 Since many prerequisites are common for both Skype for Business and Exchange, review [Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md). Do this  *before*  you begin any of the steps in this article. 
   
@@ -123,7 +123,7 @@ ExternalAuthenticationMethods : {Ntlm, OAuth, Negotiate}
   
 If OAuth is missing from any server and any of the four virtual directories then you need to add it using the relevant commands before proceeding ([Set-MapiVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/client-access-servers/set-mapivirtualdirectory?view=exchange-ps), [Set-WebServicesVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/client-access-servers/set-webservicesvirtualdirectory?view=exchange-ps), [Set-OABVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/email-addresses-and-address-books/set-oabvirtualdirectory?view=exchange-ps), and [Set-AutodiscoverVirtualDirectory](https://docs.microsoft.com/powershell/module/exchange/client-access-servers/set-autodiscovervirtualdirectory?view=exchange-ps)).
   
-## ﻿Confirm the EvoSTS Auth Server Object is Present
+## Confirm the EvoSTS Auth Server Object is Present
 
 Return to the on-premises Exchange Management Shell for this last command. Now you can validate that your on-premises has an entry for the evoSTS authentication provider:
   
@@ -143,7 +143,7 @@ Run the following command in the Exchange Management Shell, on-premises:
 Set-AuthServer -Identity EvoSTS -IsDefaultAuthorizationEndpoint $true  
 Set-OrganizationConfig -OAuth2ClientProfileEnabled $true
 ```
-    
+
 ## Verify
 
 Once you enable HMA, a client's next login will use the new auth flow. Note that just turning on HMA won't trigger a re-authentication for any client. The clients re-authenticate based on the lifetime of the auth tokens and/or certs they have.
@@ -155,12 +155,11 @@ You should also hold down the CTRL key at the same time you right click the icon
 ## Using hybrid Modern Authentication with Outlook for iOS and Android
 
 If you are an on-premises customer using Exchange server on TCP 443, please whitelist the following IP ranges:
- <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR> 
-  
+ <BR> ```52.125.128.0/20``` <BR> ```52.127.96.0/23``` <BR>
 
 ## Related topics
 
-[Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md) 
+[Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md)
   
 Force Outlook users to Modern Authentication  
-[Modern Authentication configuration requirements for transition from Office 365 dedicated/ITAR to vNext](modern-authentication-configuration.md)
+[Modern Authentication configuration requirements for transition from Office 365 dedicated/ITAR to vNext](https://docs.microsoft.com/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)
