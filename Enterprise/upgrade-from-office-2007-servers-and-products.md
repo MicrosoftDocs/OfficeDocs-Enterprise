@@ -27,7 +27,7 @@ description: Support is ending soon for Office 2007 servers and client applicati
 
 # Resources to help you upgrade from Office 2007 servers and clients
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 If you're using Office 2007 products and services, support for these applications has ended. While you're planning your upgrade, this is a great time to consider moving to the Microsoft Cloud, starting with Office 365. Use this article as a starting point to review your options and plan your upgrade.
       

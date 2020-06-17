@@ -157,6 +157,4 @@ If you are an on-premises customer using Exchange server on TCP 443, please whit
 
 ## Related topics
 
-[Hybrid Modern Authentication overview and prerequisites for using it with on-premises Skype for Business and Exchange servers](hybrid-modern-auth-overview.md)
-
 [Modern Authentication configuration requirements for transition from Office 365 dedicated/ITAR to vNext](https://docs.microsoft.com/exchange/troubleshoot/modern-authentication/modern-authentication-configuration)

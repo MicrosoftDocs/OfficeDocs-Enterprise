@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Mailbox Migrations"
-ms.author: robmazz
-author: robmazz
+title: "Microsoft 365 mailbox migrations"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,10 +14,10 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "A brief summary of the cmdlets used for Office 365 mailbox migrations."
+description: "A brief summary of the cmdlets used for Microsoft 365 mailbox migrations."
 ---
 
-# Office 365 Mailbox Migrations
+# Microsoft 365 mailbox migrations
 
 With an Exchange-based hybrid deployment, customers can choose to either move on-premises Exchange mailboxes to an [Exchange Online](https://docs.microsoft.com/Exchange/exchange-online) organization or move Exchange Online mailboxes to an [Exchange on-premises](https://docs.microsoft.com/Exchange/exchange-server) organization. Migration batches are used when moving mailboxes between on-premises and Exchange Online organizations.
 
