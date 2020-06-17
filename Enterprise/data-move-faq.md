@@ -3,7 +3,7 @@ title: "Data move general FAQ"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2019
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -138,6 +138,25 @@ Yes. Microsoft maintains a large global network with public Internet connections
 Yes, your tenant is eligible to enroll. We will move all EXO mailboxes from your current default geo to your new local datacenter geo.  We will not move any EXO mailboxes configured in Multi Geo satellite regions to continue to respect satellite region data residency as you’ve intended.  
 
 SharePoint Online and OneDrive for Business cannot migrate to the new datacenter geo as part of the Move Program, though you can configure OneDrive for Business shares to move to any region you wish via the Multi Geo program.
+
+## What are the exceptions for Intune data locations?
+
+
+Microsoft will not store Intune customer data at rest outside the stated Geo. except if:
+
+- It is necessary for Microsoft to provide customer support, troubleshoot the service, or comply with legal requirements.
+- The customer configures an account to enable such storage of customer data, including through the use of the following:
+
+  - Features that are designed to operate globally, such as Content Delivery Network (CDN), which provides a global caching service and stores customer data at edge locations around the world.
+
+  - Azure Active Directory (Azure AD), which may store directory data globally. This does not apply to Azure AD deployments in the United States (where Azure AD data is stored solely in the United States) or in Europe (where Azure AD data is stored in Europe or the United States).
+   
+  - Preview, beta, or other prerelease services, which typically store customer data in the United States but may store it globally.
+
+Regardless, Microsoft does not control or limit the Geo from which customers or their end users may access customer data. 
+
+
+
   
 ## Related topics
 
