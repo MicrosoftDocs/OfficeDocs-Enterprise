@@ -27,7 +27,7 @@ description: Support is ending soon for Office 2010 servers and client applicati
 
 # Resources to help you upgrade from Office 2010 servers and clients
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Office 2010 and Exchange 2010 will reach their end of support on **October 13, 2020**. 
 

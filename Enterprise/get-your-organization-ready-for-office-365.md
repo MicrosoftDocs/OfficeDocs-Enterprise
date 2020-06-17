@@ -29,7 +29,7 @@ When you move an enterprise organization to Microsoft 365, it's important to pla
 
 ## Planning with Microsoft 365 FastTrack
 
-[FastTrack for Microsoft 365](https://www.microsoft.com/en-us/fasttrack/microsoft-365) is the best method for getting help from Microsoft for planning your Microsoft 365 deployment. FastTrack can help you through the most common design considerations and can answer questions along the way. 
+[FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) is the best method for getting help from Microsoft for planning your Microsoft 365 deployment. FastTrack can help you through the most common design considerations and can answer questions along the way. 
 
 >[!Note]
 >You can also get help from a [Microsoft partner](https://www.microsoft.com/solution-providers/home).
