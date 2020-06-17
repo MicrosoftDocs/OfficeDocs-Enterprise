@@ -3,7 +3,7 @@ title: "Microsoft 365 data locations"
 ms.author: deanw
 author: dmwmsft
 manager: laurawi
-ms.date: 06/15/2020
+ms.date: 06/17/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -86,6 +86,21 @@ Please review the [Products available by region](https://go.microsoft.com/fwlink
 ### What services support Multi-Geo?
 
 [Multi-Geo](https://go.microsoft.com/fwlink/p/?linkid=872033) is available for Exchange Online, OneDrive and SharePoint Online. Microsoft is investigating Multi-Geo for other Microsoft 365 services.
+
+### What are the exceptions for Intune data locations?
+
+Microsoft will not store Intune customer data at rest outside the stated Geo. except if:
+
+- It is necessary for Microsoft to provide customer support, troubleshoot the service, or comply with legal requirements.
+- The customer configures an account to enable such storage of customer data, including through the use of the following:
+
+  - Features that are designed to operate globally, such as Content Delivery Network (CDN), which provides a global caching service and stores customer data at edge locations around the world.
+
+  - Azure Active Directory (Azure AD), which may store directory data globally. This does not apply to Azure AD deployments in the United States (where Azure AD data is stored solely in the United States) or in Europe (where Azure AD data is stored in Europe or the United States).
+   
+  - Preview, beta, or other prerelease services, which typically store customer data in the United States but may store it globally.
+
+Regardless, Microsoft does not control or limit the Geo from which customers or their end users may access customer data. 
 
 ## Data Center Locations
 
