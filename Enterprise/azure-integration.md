@@ -35,7 +35,7 @@ You can use the Azure AD deployment advisors for a guided setup and configuratio
 
  - [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync)
  - [AD FS deployment advisor](https://aka.ms/adfsguidance)
- - [Azure AD Premium setup guide](https://aka.ms/aadpguidance)
+ - [Azure AD setup guide](https://aka.ms/aadpguidance)
   
 ## Azure AD editions and Microsoft 365 identity management
 
