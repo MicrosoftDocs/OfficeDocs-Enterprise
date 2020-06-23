@@ -258,7 +258,7 @@ You can approach optimization as an incremental process, applying each method su
 
 [Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
 
-[Office 365 network and performance tuning](network-planning-and-performance.md)
+[Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md)
 
 [Office 365 performance tuning using baselines and performance history](performance-tuning-using-baselines-and-history.md)
 
