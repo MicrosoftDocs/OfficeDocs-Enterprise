@@ -22,14 +22,14 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: Support is ending soon for Office 2007 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now.
+description: Support has endedn for Office 2007 servers and client applications and custom support agreements are not available. Use this article to start planning your upgrade now.
 ---
 
 # Resources to help you upgrade from Office 2007 servers and clients
 
 *This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-If you're using Office 2007 products and services, support for these applications has ended. While you're planning your upgrade, this is a great time to consider moving to the Microsoft Cloud, starting with Office 365. Use this article as a starting point to review your options and plan your upgrade.
+If you're using Office 2007 products and services, support for these applications has ended. While you're planning your upgrade, this is a great time to consider moving to the Microsoft Cloud, starting with Microsoft 365. Use this article as a starting point to review your options and plan your upgrade.
       
 ## Office 2007 planning roadmaps
   
@@ -52,7 +52,7 @@ If you're using Office 2007 products and applications at home, see [this informa
      
 ## Related topics
 
-[Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
+[Video: What is Microsoft 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
 
