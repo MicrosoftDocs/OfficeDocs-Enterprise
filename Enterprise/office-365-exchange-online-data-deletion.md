@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Exchange Online Data Deletion"
+title: "Microsoft 365 Exchange Online Data Deletion"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -17,7 +17,8 @@ f1.keywords:
 description: "How soft and hard data deletions are handled within Exchange Online."
 ---
 
-# Exchange Online Data Deletion in Office 365
+# Exchange Online Data Deletion in Microsoft 365
+
 Within Exchange Online, there are two kinds of deletions: soft deletions and hard deletions. This applies to both mailboxes and items within a mailbox.
 
 ## Soft-Deleted and Hard-Deleted Mailboxes

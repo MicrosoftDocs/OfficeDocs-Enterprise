@@ -1,5 +1,5 @@
 ---
-title: "Office 365 SharePoint Online Data Deletion"
+title: "Microsoft 365 SharePoint Online Data Deletion"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -18,7 +18,7 @@ f1.keywords:
 description: "An explanation of data deletion in SharePoint Online."
 ---
 
-# SharePoint Online Data Deletion in Office 365
+# SharePoint Online Data Deletion in Microsoft 365
 
 SharePoint Online stores objects as abstracted code within application databases. When a user uploads a file to SharePoint Online, that file is disassembled and translated into application code and stored in multiple tables across multiple databases. In SharePoint Online, all content that a customer uploads is broken into chunks, encrypted (potentially with multiple AES 256-bit keys), and distributed across the datacenter. For specific details about the chunking and encryption process, see [Encryption in the Microsoft Cloud](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview). 
 

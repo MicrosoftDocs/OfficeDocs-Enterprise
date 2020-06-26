@@ -1,5 +1,5 @@
 ---
-title: "Office 365 Core Principles of Defense Against Denial-of-Service Attacks"
+title: "Microsoft 365 Core Principles of Defense Against Denial-of-Service Attacks"
 ms.author: robmazz
 author: robmazz
 manager: laurawi

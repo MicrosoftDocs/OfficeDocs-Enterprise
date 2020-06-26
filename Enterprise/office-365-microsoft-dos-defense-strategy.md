@@ -1,5 +1,5 @@
 ---
-title: "Office 365 DoS Defense Strategy"
+title: "Microsoft 365 DoS Defense Strategy"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -17,7 +17,7 @@ f1.keywords:
 description: "An overview of Microsoft defense strategy for denial-of-service (DoS) attacks."
 ---
 
-# Office 365 Denial-of-Service Defense Strategy
+# Microsoft 365 Denial-of-Service Defense Strategy
 
 Microsoft's strategy to defend against network-based denial-of-service (DoS) attacks is unique due to our scale and global footprint. This scale allows Microsoft to utilize strategies and techniques few organizations, providers, or customer organizations can match. The cornerstone of the DoS strategy is our global presence. Microsoft engages with Internet providers, peering providers (public and private), and private corporations all over the world. This gives Microsoft a significant Internet presence and enables Microsoft to absorb attacks across a large surface area.
 

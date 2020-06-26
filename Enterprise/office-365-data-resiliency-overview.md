@@ -1,5 +1,5 @@
 ---
-title: "Data Resiliency in Office 365"
+title: "Data Resiliency in Microsoft 365"
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -14,10 +14,10 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Understand data resiliency in Microsoft Office 365."
+description: "Understand data resiliency in Microsoft Microsoft 365."
 ---
 
-# Data Resiliency in Office 365
+# Data Resiliency in Microsoft 365
 
 ## Introduction
 
@@ -34,9 +34,9 @@ Building in resiliency and recovery starts with the assumption that the underlyi
 
 Today, customers expect continuous innovation from Microsoft without compromising quality, and this is one of the reasons why Microsoft's services and software are built with resiliency and recoverability in mind. 
 
-## Office 365 Data Resiliency Principles
+## Microsoft 365 Data Resiliency Principles
 
-Resiliency refers to the ability of a cloud-based service to withstand certain types of failures and yet remain fully-functional from the customers' perspective. Data resiliency means that no matter what failures occur within Office 365, critical customer data remains intact and unaffected. To that end, Office 365 services have been designed around five specific resiliency principles:
+Resiliency refers to the ability of a cloud-based service to withstand certain types of failures and yet remain fully-functional from the customers' perspective. Data resiliency means that no matter what failures occur within Microsoft 365, critical customer data remains intact and unaffected. To that end, Microsoft 365 services have been designed around five specific resiliency principles:
 
 - There is critical and non-critical data. Non-critical data (for example, whether a message was read) can be dropped in rare failure scenarios. Critical data (for example, customer data such as email messages) should be protected at extreme cost. As a design goal, delivered mail messages are always critical, and things like whether a message has been read is non-critical. 
 - Copies of customer data must be separated into different fault zones or as many fault domains as possible (e.g., datacenters, accessible by single credentials (process, server, or operator)) to provide failure isolation. 
@@ -44,7 +44,7 @@ Resiliency refers to the ability of a cloud-based service to withstand certain t
 - Customer data must be protected from corruption. It must be actively scanned or monitored, repairable, and recoverable. 
 - Most data loss results from customer actions, so allow customers to recover on their own using a GUI that enables them to restore accidentally deleted items. 
  
-Through the building of our cloud services to these principles, coupled with robust testing and validation, Office 365 is able to meet and exceed the requirements of customers while ensuring a platform for continuous innovation and improvement. 
+Through the building of our cloud services to these principles, coupled with robust testing and validation, Microsoft 365 is able to meet and exceed the requirements of customers while ensuring a platform for continuous innovation and improvement. 
 
 ## Related Links
 
