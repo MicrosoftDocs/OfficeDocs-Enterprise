@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Monitoring and Self-Healing"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -39,7 +39,7 @@ Managed availability provides a native health checking and recovery solution tha
 - **Latency** - How is the experience for users? 
 - **Errors** - Are users able to accomplish what they want? 
 
-Managed availability is an internal feature that runs on every Microsoft 365 server running Exchange Online. It polls and analyzes hundreds of health metrics every second. If something is found to be wrong, most of the time it is fixed automatically. But there will always be issues that managed availability will not be able to fix on its own. In those cases, managed availability will escalate the issue to an Microsoft 365 support team by means of event logging.
+Managed availability is an internal feature that runs on every Microsoft 365 server running Exchange Online. It polls and analyzes hundreds of health metrics every second. If something is found to be wrong, most of the time it is fixed automatically. But there will always be issues that managed availability will not be able to fix on its own. In those cases, managed availability will escalate the issue to a Microsoft 365 support team by means of event logging.
 
 ## AutoReseed
 

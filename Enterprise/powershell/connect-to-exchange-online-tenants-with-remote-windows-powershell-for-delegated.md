@@ -1,7 +1,7 @@
 ---
 title: "Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners"
-ms.author: chrfox
-author: chrfox
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date:
 audience: Admin
@@ -20,14 +20,12 @@ description: "Summary: Use remote Windows PowerShell to connect to Exchange Onli
 
 # Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners
 
- **Summary:** Use remote PowerShell to connect to Exchange Online by using the `DelegatedOrg` value.
-
-> [!IMPORTANT]
+  [!IMPORTANT]
 > The procedures in this topic are only for Delegated Access Permission (DAP) partners. If you aren't a DAP partner, don't use the procedures in this topic. 
   
-DAP partners are Syndication and Cloud Solution Providers (CSP) partners. They are frequently network or telecom providers to other companies. They bundle subscriptions into their service offerings to their customers. They own a partner tenancy that is automatically granted Administer On Behalf Of (AOBO) permissions to their Office 365 customer tenancies so they can administer and report on all of their customer tenancies.
+DAP partners are Syndication and Cloud Solution Providers (CSP) partners. They are frequently network or telecom providers to other companies. They bundle subscriptions into their service offerings to their customers. They own a partner tenancy that is automatically granted Administer On Behalf Of (AOBO) permissions to their Microsoft 365 customer tenancies so they can administer and report on all of their customer tenancies.
 
-DAP partners can use Exchange Online PowerShell to manage customer Exchange Online settings and get Office 365 reports from the command line. You use Windows PowerShell on your local computer to create a remote PowerShell session to Exchange Online. It's a simple three-step process where you enter your credentials, provide the required connection settings, and then import the Exchange Online cmdlets into your local Windows PowerShell session so that you can use them.
+DAP partners can use Exchange Online PowerShell to manage customer Exchange Online settings and get Microsoft 365 reports from the command line. You use Windows PowerShell on your local computer to create a remote PowerShell session to Exchange Online. It's a simple three-step process where you enter your credentials, provide the required connection settings, and then import the Exchange Online cmdlets into your local Windows PowerShell session so that you can use them.
 
 > [!NOTE]
 > DAP partners can't use the procedures in [Connect to Exchange Online PowerShell using multi-factor authentication](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell) to connect to their customer tenant organizations in Exchange Online PowerShell. MFA and the Exchange Online Remote PowerShell Module don't work with delegated authentication.
@@ -82,7 +80,7 @@ DAP partners can use Exchange Online PowerShell to manage customer Exchange Onli
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid?DelegatedOrg=<customer tenant domain name> -Credential $UserCredential -Authentication Basic -AllowRedirection
     ```
 
-    The key step in this command is specifying which customer to access for the reporting information. You do this in the  _ConnectionURI_ parameter, where you provide the FQDN of the initial domain name as the value for `?DelegatedOrg=`. This value indicates the correct Exchange Online PowerShell endpoint to connect to. Remote PowerShell must connect to Office 365 reporting in the context of a specific customer each time a report is run. After you connect to Exchange Online PowerShell, all subsequent commands are run in the context of the customer, which gives you access to all of the available reports for the customer.
+    The key step in this command is specifying which customer to access for the reporting information. You do this in the  _ConnectionURI_ parameter, where you provide the FQDN of the initial domain name as the value for `?DelegatedOrg=`. This value indicates the correct Exchange Online PowerShell endpoint to connect to. Remote PowerShell must connect to Microsoft 365 reporting in the context of a specific customer each time a report is run. After you connect to Exchange Online PowerShell, all subsequent commands are run in the context of the customer, which gives you access to all of the available reports for the customer.
     
 3. Run the following command.
     

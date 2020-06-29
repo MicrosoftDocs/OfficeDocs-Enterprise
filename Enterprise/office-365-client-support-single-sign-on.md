@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Client App Support — Single Sign-On"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article

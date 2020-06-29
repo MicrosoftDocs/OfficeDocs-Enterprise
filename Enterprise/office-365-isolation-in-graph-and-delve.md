@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Tenant Isolation in the Microsoft Graph and Delve"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -36,4 +36,4 @@ Analytics within each workload deduce insights relevant to the tenant-wide calcu
 ## Tenant Isolation in Delve
 
 As mentioned previously, the Microsoft Graph powers experiences that help people discover and collaborate on current activities in their enterprise, and provides an entity-centric platform for analytics to reason over content and activity across workloads and beyond Microsoft 365. Delve is the first such experience powered by the Microsoft Graph.
-Delve is an Microsoft 365 web experience that surfaces content from Microsoft 365 and Yammer Enterprise to Microsoft 365 users via the Microsoft Graph. The web experience displays data as different boards, each with a certain topic, such as *Trending around me* or *Modified by me*. Each board consists of several document cards that display summary text and a picture from the document. The card lets users do things like open the document or a Yammer page for the document. There is a page for each person in an Microsoft 365 tenant that displays the most relevant documents for this person, and icons that can invoke Exchange Online or Skype for Business for interacting with that person. Because Delve is based on the Microsoft Graph API, it is bound by the tenant-based isolation of that API.
+Delve is a Microsoft 365 web experience that surfaces content from Microsoft 365 and Yammer Enterprise to Microsoft 365 users via the Microsoft Graph. The web experience displays data as different boards, each with a certain topic, such as *Trending around me* or *Modified by me*. Each board consists of several document cards that display summary text and a picture from the document. The card lets users do things like open the document or a Yammer page for the document. There is a page for each person in a Microsoft 365 tenant that displays the most relevant documents for this person, and icons that can invoke Exchange Online or Skype for Business for interacting with that person. Because Delve is based on the Microsoft Graph API, it is bound by the tenant-based isolation of that API.

@@ -1,7 +1,7 @@
 ---
 title: "Defending Microsoft 365 Cloud Services Against Denial-of-Service Attacks"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article

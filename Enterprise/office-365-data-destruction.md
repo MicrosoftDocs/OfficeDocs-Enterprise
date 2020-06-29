@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Data Destruction"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article

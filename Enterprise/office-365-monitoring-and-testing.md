@@ -1,7 +1,7 @@
 ---
 title: "Microsoft 365 Monitoring and Testing Tenant Boundaries"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -25,7 +25,7 @@ Microsoft 365 has internal monitoring systems that continuously monitor for any 
 
 While Microsoft 365 has automated recovery actions where possible, Microsoft on-call engineers are available 24x7 to investigate all Severity 1 security escalations, and post-mortem reviews of every service incident contributes to continuous learning and improvement. This team includes support engineers, product developers, program managers, product managers, and senior leadership. Our on-call professionals provide timely backup and often can automate recovery actions, so that next time an event occurs, it can be self-healed.
 
-Microsoft performs a thorough post-incident review each time an Microsoft 365 security incident occurs regardless of the magnitude of impact. A post-incident review consists of an analysis of what happened, how we responded and how we prevent similar incidents in the future. In the interest of transparency and accountability, we share post-incident review for any major service incidents with affected customers. For specific details, see [Office 365 Security Incident Management](https://aka.ms/Office365SIM).
+Microsoft performs a thorough post-incident review each time a Microsoft 365 security incident occurs regardless of the magnitude of impact. A post-incident review consists of an analysis of what happened, how we responded and how we prevent similar incidents in the future. In the interest of transparency and accountability, we share post-incident review for any major service incidents with affected customers. For specific details, see [Office 365 Security Incident Management](https://aka.ms/Office365SIM).
 
 ## Assume Breach Methodology
 

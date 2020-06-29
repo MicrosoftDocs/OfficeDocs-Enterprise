@@ -1,7 +1,7 @@
 ---
 title: "Defend Against Denial-of-Service Attacks in Microsoft 365"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article

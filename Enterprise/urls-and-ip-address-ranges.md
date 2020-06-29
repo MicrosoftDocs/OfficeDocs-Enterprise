@@ -28,7 +28,7 @@ hideEdit: true
 
 # Office 365 URLs and IP address ranges
 
- **Summary:** Office 365 requires connectivity to the Internet. The endpoints below should be reachable for customers using Office 365 plans, including Government Community Cloud (GCC).
+Office 365 requires connectivity to the Internet. The endpoints below should be reachable for customers using Office 365 plans, including Government Community Cloud (GCC).
   
 > [!NOTE]
 > As part of Microsoft's response to the COVID-19 crisis, Microsoft has declared a temporary moratorium on some planned URL and IP address changes. This moratorium is intended to provide customer IT teams with confidence and simplicity in implementing recommended network optimizations for work-from-home Office 365 scenarios. From March 24, 2020 through June 30, 2020 this moratorium will halt changes for key Office 365 services (Exchange Online, SharePoint Online, and Microsoft Teams) to IP ranges and URLs included in the Optimize category. Changes within other endpoint categories will occur as usual. During this period, customers can use Office 365 Optimize category service endpoint definitions in a static manner to perform targeted network optimizations (such as bandwidth reservations or split tunnel VPN configuration) with minimal risk to Office 365 connectivity due to cloud-side network changes. To ensure that no service interruptions occur at the end of the moratorium period, Microsoft strongly recommends that customers implement change management and/or automation processes for Office 365 service endpoints using the guidance provided at [Managing Office 365 Endpoints](managing-office-365-endpoints.md).
