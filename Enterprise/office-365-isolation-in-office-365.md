@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Isolation and Access Control in Office 365"
-ms.author: robmazz
-author: robmazz
+title: "Isolation and Access Control in Microsoft 365"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - NOCSH
-description: "Summary: An explanation of isolation and access control within the various applications of Office 365."
+description: "Summary: An explanation of isolation and access control within the various applications of Microsoft 365."
 ---
 
-# Isolation and Access Control in Office 365
+# Isolation and Access Control in Microsoft 365
 
-Azure Active Directory and Office 365 use a highly complex data model that includes tens of services, hundreds of entities, thousands of relationships, and tens of thousands of attributes. At a high level, Azure Active Directory and the service directories are the containers of tenants and recipients kept in sync using state-based replication protocols. In addition to the directory information held within Azure Active Directory, each of the service workloads have their own directory services infrastructure.
+Azure Active Directo ry (Azure AD) and Microsoft 365 use a highly complex data model that includes tens of services, hundreds of entities, thousands of relationships, and tens of thousands of attributes. At a high level, Azure AD and the service directories are the containers of tenants and recipients kept in sync using state-based replication protocols. In addition to the directory information held within Azure AD, each of the service workloads have their own directory services infrastructure.
  
-![Office 365 tenant data sync](media/office-365-isolation-tenant-data-sync.png)
+![Microsoft 365 tenant data sync](media/office-365-isolation-tenant-data-sync.png)
 
-Within this model, there is no single source of directory data. Specific systems own individual pieces of data, but no single system holds all the data. Office 365 services cooperate with Azure Active Directory in this data model. Azure Active Directory is the "system of truth" for shared data, which is typically small and static data used by every service. The federated model used within Office 365 and Azure Active Directory provides the shared view of the data.
+Within this model, there is no single source of directory data. Specific systems own individual pieces of data, but no single system holds all the data. Microsoft 365 services cooperate with Azure AD in this data model. Azure AD is the "system of truth" for shared data, which is typically small and static data used by every service. The federated model used within Microsoft 365 and Azure AD provides the shared view of the data.
 
-Office 365 uses both physical storage and Azure cloud storage. Exchange Online (including Exchange Online Protection) and Skype for Business use their own storage for customer data. SharePoint Online uses both SQL Server storage and Azure Storage, hence the need for additional isolation of customer data at the storage level.
+Microsoft 365 uses both physical storage and Azure cloud storage. Exchange Online (including Exchange Online Protection) and Skype for Business use their own storage for customer data. SharePoint Online uses both SQL Server storage and Azure Storage, hence the need for additional isolation of customer data at the storage level.
 
 ## Exchange Online
 
@@ -42,7 +42,7 @@ User mailbox content includes:
 - Groups
 - Inference data
 
-Each mailbox database within Exchange Online contains mailboxes from multiple tenants. An authorization code secures each mailbox, including within a tenancy. By default, only the assigned user has access to a mailbox. The access control list (ACL) that secures a mailbox contains an identity authenticated by Azure Active Directory at the tenant level. The mailboxes for each tenant are limited to identities authenticated against the tenant's authentication provider, which includes only users from that tenant. Content in tenant A cannot in any way be obtained by users in tenant B, unless explicitly approved by tenant A.
+Each mailbox database within Exchange Online contains mailboxes from multiple tenants. An authorization code secures each mailbox, including within a tenancy. By default, only the assigned user has access to a mailbox. The access control list (ACL) that secures a mailbox contains an identity authenticated by Azure AD at the tenant level. The mailboxes for each tenant are limited to identities authenticated against the tenant's authentication provider, which includes only users from that tenant. Content in tenant A cannot in any way be obtained by users in tenant B, unless explicitly approved by tenant A.
 
 ## Skype for Business
 
@@ -58,7 +58,7 @@ SharePoint Online has several independent mechanisms that provide data isolation
 
 If a user could gain direct access to the storage containing the data, the content is not interpretable to a human or any system other than SharePoint Online. These mechanisms include security access control and properties. All SharePoint Online resources are secured by the authorization code and RBAC policy, including within a tenancy. The access control list (ACL) that secures a resource contains an identity authenticated at the tenant level. SharePoint Online data for a tenant is limited to identities authenticated by the authentication provider for the tenant.
 
-In addition to the ACLs, a tenant level property that specifies the authentication provider (which is the tenant-specific Azure Active Directory), is written once and cannot be changed once set. Once the authentication provider tenant property has been set for a tenant, it cannot be changed using any APIs exposed to a tenant.
+In addition to the ACLs, a tenant level property that specifies the authentication provider (which is the tenant-specific Azure AD), is written once and cannot be changed once set. Once the authentication provider tenant property has been set for a tenant, it cannot be changed using any APIs exposed to a tenant.
 
 A unique *SubscriptionId* is used for each tenant. All customer sites are owned by a tenant and assigned a *SubscriptionId* unique to the tenant. The *SubscriptionId* property on a site is written once and is permanent. Once assigned to a tenant, a site cannot be moved to a different tenant. The *SubscriptionId* is the key used to create the security scope for the authentication provider and is tied to the tenant.
 

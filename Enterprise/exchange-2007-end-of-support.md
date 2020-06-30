@@ -17,7 +17,7 @@ description: "On April 11, 2017 , Exchange Server 2007 reached end of support. I
 
 # Exchange 2007 end of support roadmap
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 On **April 11, 2017**, Exchange Server 2007 reached end of support. If you haven't already begun your migration from Exchange 2007 to Office 365 or Exchange 2016, now's the time to start your planning. 
   
@@ -175,9 +175,9 @@ If you're thinking about doing a full hybrid migration, here are a few things to
     
 - Office 365 will need to connect to the "hybrid server" using Outlook Anywhere over TCP port 443;
     
-- You'll need to set up directory synchronization using Azure Active Directory Connect (AADConnect) between your on-premises Active Directory servers and Office 365;
+- You'll need to set up directory synchronization using Azure Active Directory (Azure AD) Connect between your on-premises Active Directory servers and Office 365;
     
-- Users will be able to log in to their Office 365 mailbox using the same username and password they use when they log into the local network (requires Azure Active Directory Connect with password synchronization and/or Active Directory Federation Services);
+- Users will be able to log in to their Office 365 mailbox using the same username and password they use when they log into the local network (requires Azure AD Connect with password synchronization and/or Active Directory Federation Services);
     
 - You'll need an Office 365 license that includes Exchange Online for each user mailbox you migrate;
     

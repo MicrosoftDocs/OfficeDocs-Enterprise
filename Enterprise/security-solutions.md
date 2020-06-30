@@ -20,8 +20,6 @@ description: "Summary: Use these articles to deploy security solutions with Micr
 
 # Security solutions
 
- **Summary:** Use these articles to deploy security solutions with Microsoft's cloud offerings.
-  
 Here are solutions for secure access, collaboration, and data with Microsoft Office 365, Microsoft Azure, Microsoft Dynamics 365, and the Microsoft Enterprise Mobility + Security (EMS) suite:
 
 - [Office 365 Information Protection for GDPR](office-365-information-protection-for-gdpr.md)

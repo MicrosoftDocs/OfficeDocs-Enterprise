@@ -20,8 +20,6 @@ description: "Summary: Use these articles to deploy Office Server workloads in M
 
 # Hybrid solutions
 
- **Summary:** Use these articles to deploy Office Server workloads in Microsoft Azure.
-  
 With Microsoft Azure, you can now deploy some Office Server workloads that were typically deployed on-premises in Azure infrastructure services.
   
 For Microsoft 365 identity infrastructure in Azure:

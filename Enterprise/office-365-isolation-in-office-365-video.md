@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Tenant Isolation in Office 365 Video"
-ms.author: robmazz
-author: robmazz
+title: "Tenant Isolation in Office 365 Video"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -20,7 +20,7 @@ description: "Summary: An explanation of tenant isolation in Office 365 Video."
 # Tenant Isolation in Office 365 Video
 
 > [!NOTE]
-> Office 365 Video will be replaced by Microsoft Stream. To learn more about the new enterprise video service that adds intelligence to video collaboration and learn about the transition plans for current Office 365 Video customers, see [Migrate to Stream from Office 365 Video](https://docs.microsoft.com/stream/).
+> Office 365 Video will be replaced by Microsoft Stream. To learn more about the new enterprise video service that adds intelligence to video collaboration and learn about the transition plans for current Microsoft 365 Video customers, see [Office 365 Video transition to Microsoft Stream overview](https://docs.microsoft.com/stream/migrate-from-office-365).
 
 ## Introduction
 

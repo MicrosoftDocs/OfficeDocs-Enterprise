@@ -23,7 +23,7 @@ description: "Contains links to information about network planning and testing, 
 
 # Network and migration planning for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 This article contains links to information about network planning and testing, and migration to Office 365.
   
