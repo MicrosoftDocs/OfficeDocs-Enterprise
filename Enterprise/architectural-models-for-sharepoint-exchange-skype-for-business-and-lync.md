@@ -24,8 +24,6 @@ description: "Summary: Get the IT posters that describe the architectural models
 
 # Architectural models for SharePoint, Exchange, Skype for Business, and Lync
 
- **Summary:** Get the IT posters that describe the architectural models, deployment, and platform options for SharePoint, Exchange, Skype for Business, and Lync.
-  
 These IT posters describe the architectural models and deployment options for SharePoint, Exchange, Skype for Business, and Lync, and they provide design information for deploying SharePoint in Microsoft Azure.
   
 With Microsoft 365, you can provide the collaboration and communication services your users are familiar with as a cloud-based service. With a few exceptions, the user experience remains the same whether you are maintaining an on-premises deployment or using Microsoft 365. This unified user experience makes it less straightforward to decide where to place each workload and raises questions such as:

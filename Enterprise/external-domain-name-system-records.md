@@ -25,8 +25,6 @@ description: "Summary: Reference list of DNS records to use when planning an Off
 
 # External Domain Name System records for Office 365
 
- **Summary:** Reference list of DNS records to use when planning an Office 365 deployment.
-  
 |||
 |:-----|:-----|
 |![Domain](media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Want to see a customized list of DNS records for your Office 365 organization?** You can [find the info you need to create Office 365 DNS records](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) for your domain in Office 365.  <br/> **Need step-by-step help to add these records at your domain's DNS host, such as GoDaddy or eNom?** [Find links to step-by-step instructions for many popular DNS hosts](https://go.microsoft.com/fwlink/?LinkId=286745). <br/>  **Sticking around to use the reference list for your own custom deployment?** The below list should be used as a reference for your custom Office 365 deployment. You will need to select which records apply to your organization and fill in the appropriate values. <br/> **Go back to** [Network planning and performance tuning for Office 365](https://aka.ms/tune).  <br/> |

@@ -20,7 +20,7 @@ description: "Hybrid Modern Authentication (HMA), is a method of identity manage
 
 # How to configure Exchange Server on-premises to use Hybrid Modern Authentication
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Hybrid Modern Authentication (HMA) is a method of identity management that offers more secure user authentication and authorization, and is available for Exchange server on-premises hybrid deployments.
   
@@ -60,7 +60,7 @@ Since many prerequisites are common for both Skype for Business and Exchange, re
   
 ## Add on-premises web service URLs as SPNs in Azure AD
 
-Run the commands that assign your on-premises web service URLs as Azure AD SPNs. SPNs are used by client machines and devices during authentication and authorization. All the URLs that might be used to connect from on-premises to Azure Active Directory (AAD) must be registered in AAD (this includes both internal and external namespaces).
+Run the commands that assign your on-premises web service URLs as Azure AD SPNs. SPNs are used by client machines and devices during authentication and authorization. All the URLs that might be used to connect from on-premises to Azure Active Directory (Azure AD) must be registered in Azure AD (this includes both internal and external namespaces).
   
 First, gather all the URLs that you need to add in AAD. Run these commands on-premises:
   
