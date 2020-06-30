@@ -246,7 +246,7 @@
 ### [Monitoring and Self-Healing](office-365-monitoring-and-self-healing.md)
 ## [Data Retention, Deletion, and Destruction in Microsoft 365](office-365-data-retention-deletion-and-destruction-overview.md)
 ### [Data Destruction](office-365-data-destruction.md)
-### [Immutability in Office Microsoft](office-365-data-immutability.md)
+### [Immutability in Microsoft 365](office-365-data-immutability.md)
 ### [Exchange Online Data Deletion](office-365-exchange-online-data-deletion.md)
 ### [SharePoint Online Data Deletion](office-365-sharepoint-online-data-deletion.md)
 ### [Skype for Business Data Deletion](office-365-skype-data-deletion.md)

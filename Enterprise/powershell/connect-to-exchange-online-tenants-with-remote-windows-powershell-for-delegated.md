@@ -20,7 +20,7 @@ description: "Summary: Use remote Windows PowerShell to connect to Exchange Onli
 
 # Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners
 
-  [!IMPORTANT]
+> [!IMPORTANT]
 > The procedures in this topic are only for Delegated Access Permission (DAP) partners. If you aren't a DAP partner, don't use the procedures in this topic. 
   
 DAP partners are Syndication and Cloud Solution Providers (CSP) partners. They are frequently network or telecom providers to other companies. They bundle subscriptions into their service offerings to their customers. They own a partner tenancy that is automatically granted Administer On Behalf Of (AOBO) permissions to their Microsoft 365 customer tenancies so they can administer and report on all of their customer tenancies.
