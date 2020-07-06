@@ -152,8 +152,8 @@ Verify and check these items off your list before you continue:
 
 - **General prerequisites**
   - If you use ADFS, you should have Windows 2012 R2 ADFS 3.0 and above for federation
-  - Your identity configurations are any of the types supported by AAD Connect (such as password hash sync, pass-through authentication, on-premises STS supported by Office 365, et cetera.)
-  - You have AAD Connect configured and functioning for user replication and sync.
+  - Your identity configurations are any of the types supported by Azure AD Connect (such as password hash sync, pass-through authentication, on-premises STS supported by Office 365, et cetera.)
+  - You have Azure AD Connect configured and functioning for user replication and sync.
   - You have verified that hybrid is configured using Exchange Classic Hybrid Topology mode between your on-premises and Office 365 environment. Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
     > [!NOTE]
     > Hybrid modern authentication is not supported with the [Hybrid Agent](https://docs.microsoft.com/exchange/hybrid-deployment/hybrid-agent).
@@ -163,7 +163,7 @@ Verify and check these items off your list before you continue:
 ## What else do I need to know before I begin?
 <a name="BKMK_Whatelse"> </a>
 
-- All the scenarios for on-premises servers involve setting up modern authentication on-premises (in fact, for Skype for Business there is a list of supported topologies) so that the server responsible for authentication and authorization is in the Microsoft Cloud (AAD's security token service, called 'evoSTS'), and updating Azure AD about the URLs or namespaces used by your on-premises installation of either Skype for Business or Exchange. Therefore, on-premises servers take on a Microsoft Cloud dependency. Taking this action could be considered configuring 'hybrid auth'.
+- All the scenarios for on-premises servers involve setting up modern authentication on-premises (in fact, for Skype for Business there is a list of supported topologies) so that the server responsible for authentication and authorization is in the Microsoft Cloud (Azure AD's security token service, called 'evoSTS'), and updating Azure AD about the URLs or namespaces used by your on-premises installation of either Skype for Business or Exchange. Therefore, on-premises servers take on a Microsoft Cloud dependency. Taking this action could be considered configuring 'hybrid auth'.
 - This article links out to others that will help you choose supported modern authentication topologies (necessary only for Skype for Business), and how-to articles that outline the setup steps, or steps to disable modern authentication, for Exchange on-premises and Skype for Business on-premises. Favorite this page in your browser if you're going to need a home-base for using modern authentication in your server environment.
 
 ## Related Topics

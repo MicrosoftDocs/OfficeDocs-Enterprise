@@ -110,13 +110,13 @@ Follow the instructions here: [How to configure Exchange Server on-premises to u
   
 ## Turn on Hybrid Modern Authentication for Skype for Business on-premises
 
-### Add on-premises web service URLs as SPNs in Azure AD
+### Add on-premises web service URLs as SPNs in Azure Active Directory
 
 Now you'll need to run commands to add the URLs (collected earlier) as Service Principals in SFBO.
   
  **Note** Service principal names (SPNs) identify web services and associate them with a security principal (such as an account name or group) so that the service can act on the behalf of an authorized user. Clients authenticating to a server make use of information that's contained in SPNs.
   
-1. First, connect to AAD with [these instructions](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
+1. First, connect to Azure Active Directory (Azure AD) with [these instructions](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
 2. Run this command, on-premises, to get a list of SFB web service URLs.
 

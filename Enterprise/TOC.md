@@ -274,4 +274,4 @@
 # [Microsoft 365 Compliance](https://docs.microsoft.com/microsoft-365/compliance/)
 # [Microsoft 365 Security](https://docs.microsoft.com/microsoft-365/security/)
 # [Microsoft 365 for Business](https://www.microsoft.com/microsoft-365/business)
-# [Microsoft 365](https://docs.microsoft.com/microsoft-365)
+# [Microsoft 365 help center](https://docs.microsoft.com/microsoft-365)
