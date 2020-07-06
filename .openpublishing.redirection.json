@@ -6,7 +6,7 @@
 
         "source_path": "enterprise/using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md",
 
-        "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
 
         "redirect_document_id": true
 
@@ -16,7 +16,7 @@
 
         "source_path": "enterprise/obsolete-article.md",
 
-        "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/cloud-adoption-and-hybrid-solutions",
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions",
 
         "redirect_document_id": false
 
@@ -453,7 +453,7 @@
 
       "source_path": "Enterprise/federated-identity-for-your-office-365-dev-test-environment.md",
 
-      "redirect_url": "https://docs.microsoft.com/en-us/microsoft-365/enterprise/m365-enterprise-test-lab-guides#identity",
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides#identity",
 
       "redirect_document_id": false
       
@@ -761,13 +761,53 @@
    
      "source_path": "enterprise/client-connectivity.md",
    
-     "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/office-365-networking-overview",
+     "redirect_url": "https://docs.microsoft.com/office365/enterprise/office-365-networking-overview",
    
      "redirect_document_id": true
      
    },
    
    {
+   
+    "source_path": "enterprise/deployment-planning-checklist.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-overview-for-enterprises",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/test-lab-guide-configure-an-integrated-exchange-lync-and-sharepoint-test-lab.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/enterprises-and-office-365.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/security-solutions.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/security",
+  
+    "redirect_document_id": true
+    
+  },
+  
+{
    
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
   

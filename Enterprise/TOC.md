@@ -97,13 +97,13 @@
 #### [U.S. Government DoD endpoints](office-365-u-s-government-dod-endpoints.md)
 #### [U.S. Government GCC High endpoints](office-365-u-s-government-gcc-high-endpoints.md)
 #### [Office 365 encryption chains - DOD and GCC High](https://docs.microsoft.com/microsoft-365/compliance/encryption-office-365-certificate-chains-itar)
-### [IPv6 support in Microsoft 365 services](ipv6-support.md)
-### [NAT support with Microsoft 365](nat-support-with-office-365.md)
+### [IPv6 support in Office 365 services](ipv6-support.md)
+### [NAT support with Office 365](nat-support-with-office-365.md)
 ### Working with ExpressRoute for Microsoft 365
-#### [ExpressRoute for Microsoft 365](azure-expressroute.md)
-#### [Implementing ExpressRoute for Microsoft 365](implementing-expressroute.md)
-#### [Network planning with ExpressRoute for Microsoft 365](network-planning-with-expressroute.md)
-#### [Routing with ExpressRoute for Microsoft 365](routing-with-expressroute.md)
+#### [ExpressRoute for Office 365](azure-expressroute.md)
+#### [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
+#### [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
+#### [Routing with ExpressRoute for Office 365](routing-with-expressroute.md)
 
 ## 2. Set up your identities
 ### [Protect your global administrator accounts](protect-your-global-administrator-accounts.md)
