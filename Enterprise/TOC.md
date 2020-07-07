@@ -69,7 +69,7 @@
 ### [Microsoft 365 Network Connectivity Principles](office-365-network-connectivity-principles.md)
 ### [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md)
 ### [Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
-### [Office 365 Networking Partner Program](office-365-networking-partner-program.md)
+### [Microsoft 365 Networking Partner Program](office-365-networking-partner-program.md)
 ### Office 365 IP addresses and URLs
 #### [Office 365 endpoints](office-365-endpoints.md)
 #### [Managing Office 365 endpoints](managing-office-365-endpoints.md)
