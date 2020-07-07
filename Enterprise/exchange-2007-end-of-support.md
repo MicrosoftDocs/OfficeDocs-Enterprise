@@ -12,7 +12,7 @@ ms.collection: Ent_O365
 ms.assetid: c3024358-326b-404e-9fe6-b618e54d977d
 f1.keywords:
 - NOCSH
-description: "On April 11, 2017 , Exchange Server 2007 reached end of support. If you haven't already begun your migration from Exchange 2007 to Microsoft 365, Office 365, or Exchange 2016, now's the time to start your planning."
+description: "On April 11, 2017, Exchange Server 2007 reached end of support. If you haven't already begun your migration from Exchange 2007 to Microsoft 365, Office 365, or Exchange 2016, now's the time to start your planning."
 ---
 
 # Exchange 2007 end of support roadmap
@@ -49,7 +49,7 @@ The following sections explore each option in more detail.
   
 ### Migrate to Microsoft 365
 
-Migrating your email to Microsoft 365 is your best and simplest option to help you retire your Exchange 2007 deployment. With a migration to Microsoft 365, you can make a single hop from 10-year-old technology to state of the art features, like:
+Migrating your email to Microsoft 365 is your best and simplest option to help you retire your Exchange 2007 deployment. With a migration to Microsoft 365, you can make a single hop from 10-year-old technology to state-of-the-art features, like:
   
 - Compliance capabilities such as Retention Policies, In-Place and Litigation Hold, in-place eDiscovery, and more;
     
@@ -57,7 +57,7 @@ Migrating your email to Microsoft 365 is your best and simplest option to help y
     
 - Focused Inbox;
     
-- Delve Analytics;
+- MyAnalytics;
     
 - REST APIs for programmatic access to email, calendars, contacts, and so on.
     
@@ -75,7 +75,7 @@ Microsoft 365 also gets new features and experiences first and you and your user
     
 #### How should I migrate to Microsoft 365?
 
-Depending on your organization, you have a few options that'll help you get to Microsoft 365. When choosing a migration option, you need to consider a few things like the number of seats or mailboxes you need to move, how long you want the migration to last, and whether you need a seamless integration between your on-premises installation and Microsoft 365 during the migration. This table shows your migration options and the most important factors that'll determine which method you'll use.
+Depending on your organization, you have a few options that will help you get to Microsoft 365. When choosing a migration option, you need to consider a few things like the number of seats or mailboxes you need to move, how long you want the migration to last, and whether you need a seamless integration between your on-premises installation and Microsoft 365 during the migration. This table shows your migration options and the most important factors that will determine which method you'll use.
   
 |
 |
@@ -93,7 +93,7 @@ A cutover migration is one where, at a pre-selected date and time, you'll migrat
   
 The cutover migration method is great for small organizations that don't have very many mailboxes, want to get to Microsoft 365 quickly, and don't want to deal with some of the complexities of the other methods. But it's also somewhat limited because it should be completed in a week or less and because it requires users to reconfigure their Outlook profiles. While cutover migration can handle up to 2,000 mailboxes, we strongly recommend you migrate a maximum of 150 mailboxes with this method. If you try to migrate more than 150 mailboxes, you could run out of time to transfer all the mailboxes before your deadline, and your IT support staff may get overwhelmed helping users reconfigure Outlook.
   
-If you're thinking about doing a cutover migration, here are a few things to think consider:
+If you're thinking about doing a cutover migration, here are a few things to consider:
   
 - Microsoft 365 will need to connect to your Exchange 2007 servers using Outlook Anywhere over TCP port 443;
     
@@ -155,7 +155,7 @@ A full hybrid migration is one where your organization has many hundreds, up to 
     
 - See a unified global address list that contains recipients in both on-premises and Microsoft 365;
     
-- View full Outlook recipient cards for all users, regardless of whether they're on-premises or in Microsoft 365;
+- View full Outlook recipient properties for all users, regardless of whether they're on-premises or in Microsoft 365;
     
 - Secure email communication between on-premises Exchange servers and Microsoft 365 using TLS and certificates;
     
@@ -199,11 +199,11 @@ If a full hybrid migration sounds right for you, take a look at the following re
 
 While we strongly believe that you can achieve the best value and user experience by migrating to Microsoft 365, we also understand that some organizations need to keep their email on-premises. This could be because of regulatory requirements, to guarantee data isn't stored in a datacenter located in another country, and so on. If you choose to keep your email on-premises, you can migrate your Exchange 2007 environment to Exchange 2010, Exchange 2013, or Exchange 2016.
   
-We recommend that you migrate to Exchange 2016 if you can't migrate to Microsoft 365. Exchange 2016 includes all the features and advancements included with previous releases of Exchange, and it most closely matches the experience available with Microsoft 365 (although some features are available only in Microsoft 365). Check out just a few of the things you've been missing out on:
+We recommend that you migrate to Exchange 2016 if you can't migrate to Microsoft 365. Exchange 2016 includes all the features and advancements included with previous releases of Exchange, and it most closely matches the experience available with Microsoft 365 (although some features are available only in Microsoft 365). Check out just a few of the things you've been missing:
   
 |**Exchange release**|**Features**|
 |:-----|:-----|
-|Exchange 2010  <br/> | Role Based Access Control (permissions without ACLs)  <br/>  Outlook Web Access mailbox policies  <br/>  Ability to share free/busy and delegate calendars between organizations  <br/> |
+|Exchange 2010  <br/> | Role-Based Access Control (permissions without ACLs)  <br/>  Outlook Web App mailbox policies  <br/>  Ability to share free/busy and delegate calendars between organizations  <br/> |
 |Exchange 2013  <br/> | *Features from Exchange 2010 and…*  <br/>  Simplified architecture reducing the number of server roles to three (Mailbox, Client Access, Edge Transport)  <br/>  Data loss prevention policies (DLP) that help keep sensitive information from leaking  <br/>  Significantly improved Outlook Web App Experience  <br/> |
 |Exchange 2016  <br/> | *Features from Exchange 2013 and…*  <br/>  Further simplified server roles to just Mailbox and Edge Transport  <br/>  Improved DLP along with integration with SharePoint  <br/>  Improved database resilience  <br/>  Online document collaboration  <br/> |
    

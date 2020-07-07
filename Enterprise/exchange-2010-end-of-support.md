@@ -67,7 +67,7 @@ make a single hop from old technology to state-of-the-art features, like:
 - Microsoft Teams;
 - Power BI;
 - Focused Inbox;
-- Delve Analytics;
+- MyAnalytics;
 
 Microsoft 365 also gets new features and experiences first and you and your users
 can usually start using them right away. In addition to new features, you won't
@@ -82,12 +82,12 @@ have to worry about:
 
 ### How should I migrate to Microsoft 365?
 
-Depending on your organization, you have a few options that'll help you get to
+Depending on your organization, you have a few options that will help you get to
 Microsoft 365. When choosing a migration option, you need to consider a few things
 like the number of seats or mailboxes you need to move, how long you want the
 migration to last, and whether you need a seamless integration between your
 on-premises installation and Microsoft 365 during the migration. This table shows
-your migration options and the most important factors that'll determine which
+your migration options and the most important factors that will determine which
 method you'll use.
 
 | **Migration option**     | **Organization size** | **Duration**        |
@@ -118,8 +118,7 @@ mailboxes with this method. If you try to migrate more than 150 mailboxes, you
 could run out of time to transfer all the mailboxes before your deadline, and
 your IT support staff may get overwhelmed helping users reconfigure Outlook.
 
-If you're thinking about doing a cutover migration, here are a few things to
-think consider:
+If you're thinking about doing a cutover migration, here are a few things to consider:
 
 - Microsoft 365 will need to connect to your Exchange 2010 servers using Outlook
     Anywhere over TCP port 443;
@@ -193,7 +192,7 @@ migrations make it possible to:
     Microsoft 365, and vice versa;
 - See a unified global address list that contains recipients in both
     on-premises and Microsoft 365;
-- View full Outlook recipient cards for all users, regardless of whether
+- View full Outlook recipient recipient properties for all users, regardless of whether
     they're on-premises or in Microsoft 365;
 - Secure email communication between on-premises Exchange servers and Office
     365 using TLS and certificates;
@@ -272,7 +271,7 @@ Server 2016.
 Exchange 2016 includes all the features and advancements included with previous
 releases of Exchange, and it most closely matches the experience available with
 Microsoft 365 (although some features are available only in Microsoft 365). Check out
-just a few of the things you've been missing out on:
+just a few of the things you've been missing:
 
 | **Exchange release**                     | **Features**                                                                                                                                                                                                                                         |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

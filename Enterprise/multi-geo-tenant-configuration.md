@@ -20,11 +20,11 @@ description: "Learn how to configure Microsoft 365 Multi-Geo."
 
 Before you configure your tenant for Microsoft 365 Multi-Geo, be sure you have read [Plan for Microsoft 365 Multi-Geo](plan-for-multi-geo.md). To follow the steps in this article, you'll need a list of the geo locations that you want to enable as satellite locations, and the test users that you want to provision for those locations.
 
-## Add the Multi-Geo Capabilities in Microsoft 365 plan to your tenant
+## Add the Multi-Geo Capabilities in your Microsoft 365 plan to your tenant
 
 To use Microsoft 365 Multi-Geo, you need the _Multi-Geo Capabilities in Microsoft 365_ plan. Work with your account team to add this plan to your tenant. Your account team will connect you with the appropriate licensing specialist and get your tenant configured.
 
-Note that the _Multi-Geo Capabilities in Microsoft 365_ plan is a user-level service plan. You need a license for each user that you want to host in a satellite location. You can add more licenses over time as you add users in satellite locations.
+Note that the _Multi-Geo Capabilities in Microsoft 365_ plan are a user-level service plan. You need a license for each user that you want to host in a satellite location. You can add more licenses over time as you add users in satellite locations.
 
 Once your tenant has been provisioned with the  _Multi-Geo Capabilities in Microsoft 365_ plan, the **Geo locations** tab will become available in the OneDrive and SharePoint admin centers.
 
@@ -114,7 +114,7 @@ Your multi-geo tenant will have aggregate search capabilities allowing a search 
 
 By default, searches from these entry points will return aggregate results, even though each search index is located within its relevant geo location:
 
-- OneDrive for business
+- OneDrive for Business
 
 - Delve
 
@@ -136,7 +136,7 @@ Select OneDrive from the Microsoft 365 app launcher and confirm that you are aut
 
 **OneDrive Mobile App**
 
-Log into your OneDrive mobile App with your test account credentials. Confirm that you can see your OneDrive for business files and can interact with them from your mobile device.
+Log into your OneDrive mobile App with your test account credentials. Confirm that you can see your OneDrive for Business files and can interact with them from your mobile device.
 
 **OneDrive sync client**
 
