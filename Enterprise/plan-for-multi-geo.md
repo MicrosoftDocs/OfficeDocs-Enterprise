@@ -21,7 +21,7 @@ description: "Learn about Microsoft 365 Multi-Geo, how multi-geo works, and what
 
 This guidance is designed for administrators of multi-national companies (MNCs) who are preparing their Microsoft 365 tenant to be expanded to additional geographies in accordance with the company’s presence to meet data residency requirements.
 
-In a multi-geo configuration, your Microsoft 365 tenant consists of a central location and one or more satellite locations. This is a single tenant that spans across multiple geo locations. Your tenant information, including geo locations, is mastered in Azure Active Directory (AAD).
+In a multi-geo configuration, your Microsoft 365 tenant consists of a central location and one or more satellite locations. This is a single tenant that spans across multiple geo locations. Your tenant information, including geo locations, is mastered in Azure Active Directory (Azure AD).
 
 Here are some key multi-geo terms to help you understand the basic concepts of the configuration:
 
