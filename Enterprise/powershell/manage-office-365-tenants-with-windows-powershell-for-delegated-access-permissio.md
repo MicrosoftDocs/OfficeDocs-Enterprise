@@ -1,7 +1,7 @@
 ---
-title: "Manage Office 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners"
-ms.author: chrfox
-author: chrfox
+title: "Manage Microsoft 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -16,16 +16,14 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
-description: "Summary: Use Windows PowerShell for Office 365 to manage your customer tenancies."
+description: "Summary: Use Windows PowerShell for Microsoft 365 to manage your customer tenancies."
 ---
 
-# Manage Office 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners
+# Manage Microsoft 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners
 
- **Summary:** Use Windows PowerShell for Office 365 to manage your customer tenancies.
-  
 Windows PowerShell allows Syndication and Cloud Solution Provider (CSP) partners to easily administer and report on customer tenancy settings that are not available in the Microsoft 365 admin center. Note that Administer on Behalf Of (AOBO) permissions are required for the partner administrator account to connect to its customer tenancies.
   
-Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners. They are frequently network or telecom providers to other companies. They bundle Office 365 subscriptions into their service offerings to their customers. When they sell an Office 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.
+Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners. They are frequently network or telecom providers to other companies. They bundle Microsoft 365 subscriptions into their service offerings to their customers. When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.
 ## What do you need to know before you begin?
 
 The procedures in this topic require you to connect to Windows PowerShell for Office 365. For instructions, see [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md).
@@ -95,7 +93,7 @@ Get-MsolUser -TenantId <customer TenantId value> -UserPrincipalName <user princi
 
 ### Add users, set options, and assign licenses
 
-The bulk creation, configuration, and licensing of Office 365 users is particularly efficient by using Windows PowerShell for Office 365. In this two-step process, you first create entries for all the users you want to add in a comma-separated value (CSV) file and then import that file by using Windows PowerShell for Office 365. 
+The bulk creation, configuration, and licensing of Microsoft 365 users is particularly efficient by using Windows PowerShell for Office 365. In this two-step process, you first create entries for all the users you want to add in a comma-separated value (CSV) file and then import that file by using Windows PowerShell for Office 365. 
   
 #### Create a CSV file
 

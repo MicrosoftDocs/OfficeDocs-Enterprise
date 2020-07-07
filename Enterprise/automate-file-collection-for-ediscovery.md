@@ -1,7 +1,7 @@
 ---
 title: "Automate file collection for eDiscovery"
-ms.author: chrfox
-author: chrfox
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -21,8 +21,6 @@ description: "Summary: Learn how to automate file collection from user computers
 
 # Automate file collection for eDiscovery
 
- **Summary:** Learn how to automate file collection from user computers for eDiscovery.
-  
 All companies face the potential of lawsuits or other types of legal action. While legal departments work to reduce that exposure, litigation is a fact of business life. When a company faces legal action, they are required, through the process of legal discovery, to provide all relevant documentary materials to the court and to opposing counsel. 
   
 eDiscovery is the process by which companies inventory, search, identify, preserve, filter, and make available the relevant documentary materials that exist in electronic form. SharePoint 2013, Exchange Server 2013, Lync Server 2013, SharePoint Online, and Exchange Online can hold large amounts of documentary content. Depending on the version, these products may support eDiscovery and in place holds (Lync via Exchange Server), making it easier for the legal teams to index, identify, hold, and filter the most relevant content for a given case.
@@ -48,11 +46,11 @@ The following diagram walks you through all the steps and elements of the soluti
 |![magenta callout 4](media/6f269d84-2559-49e3-b18e-af6ac94d0419.png)|The collection logon script inventories all locally attached drives on the Custodians computer, searching for the files you want, and recording their location.  <br/> |
 |![magenta callout 5](media/4bf8898c-44ad-4524-b983-70175804eb85.png)|The collection logon script copies the inventoried files to a hidden file share on the staging server.  <br/> |
 |![magenta call out 6](media/99589726-0c7e-406b-a276-44301a135768.png)| (Option A) Manually run the PST import script to import the collected PST files into Exchange Server 2013. <br/> |
-|![magenta callout 7](media/ff15e89c-d2fd-4614-9838-5e18287d578b.png)|(Option B) Using the Office 365 Import tool and process, import the collected PST files into Exchange Online.  <br/> |
+|![magenta callout 7](media/ff15e89c-d2fd-4614-9838-5e18287d578b.png)|(Option B) Using the Microsoft 365 Import tool and process, import the collected PST files into Exchange Online.  <br/> |
 |![magenta callout 8](media/aaf3bd3d-9508-4aaf-a3af-44ba501da63a.png)|Move all collected files to an Azure file share for long term storage with the MoveToColdStorage System Center Orchestrator 2012 R2 runbook. <br/> |
 |![magenta callout 9](media/b354642e-445e-4723-a84a-b41f7ac6e774.png)|Index the files in the cold storage file share with SharePoint 2013.  <br/> |
 |![magenta callout 10](media/cebf7de5-7525-413b-9e52-638a4f8b2f74.png)|Perform eDiscovery on content in cold storage and in the on-premises Exchange Server 2013.  <br/> |
-|![magenta callout 11](media/e59ab403-2f19-497a-92a5-549846dded66.png)|Perform eDiscovery on content in Office 365.  <br/> |
+|![magenta callout 11](media/e59ab403-2f19-497a-92a5-549846dded66.png)|Perform eDiscovery on content in Microsoft 365.  <br/> |
    
 ## Prerequisites
 
@@ -69,11 +67,11 @@ The configuration of this solution requires many elements, most of which you lik
 |On-premises file share server for staging  <br/> ||
 |On-premises Exchange Server 2013 for Option A PST import  <br/> |CU5 (15.913.22) is available at [CU5](https://go.microsoft.com/fwlink/p/?LinkId=613426).  <br/> |
 |System Center Orchestrator 2012 R2  <br/> |[Deploying System Center Orchestrator - 2012](https://go.microsoft.com/fwlink/p/?LinkId=613503) <br/> |
-|Office 365 (E3 Plan) with Exchange Online and SharePoint Online (required for Option B)  <br/> |To sign up for an Office 365 E3 subscription, see [Office 365 E3 subscription](https://go.microsoft.com/fwlink/p/?LinkId=613504).  <br/> |
+|Microsoft 365 E3 with Exchange Online and SharePoint Online (required for Option B)  <br/> |To sign up for a Microsoft 365 E3 subscription, see [Microsoft 365 E3 subscription](https://www.microsoft.com/microsoft-365/enterprise-e3-business-software?activetab=pivot%3aoverviewtab).  <br/> |
 |Azure subscription with a virtual machine  <br/> |To sign up for a Azure, see [Subscribe to Windows Azure](https://go.microsoft.com/fwlink/p/?LinkId=512010) <br/> |
 |A VPN connection between your on-premises network and your Azure subscription  <br/> |To set up a VPN tunnel between your Azure subscription and your on-premises network, see [Connect an on-premises network to a Microsoft Azure virtual network](https://go.microsoft.com/fwlink/p/?LinkId=613507).  <br/> |
 |SharePoint 2013 eDiscovery configured to search across SharePoint and Exchange Server 2013 and optionally Lync Server 2013  <br/> |To configure eDiscovery in this fashion, see [Configure eDiscovery in SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=613508) and[Test Lab Guide: Configure eDiscovery for an Exchange, Lync, SharePoint and Windows File Shares Test Lab](https://go.microsoft.com/fwlink/p/?LinkId=393130).  <br/> |
-|eDiscovery in Office 365 for SharePoint Online and Exchange Online  <br/> |To configure eDiscovery in Office 365, see [Set up an eDiscovery Center in SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=613628).  <br/> |
+|eDiscovery in Microsoft 365 for SharePoint Online and Exchange Online  <br/> |To configure eDiscovery in Microsoft 365, see [Set up an eDiscovery Center in SharePoint Online](https://go.microsoft.com/fwlink/p/?LinkId=613628).  <br/> |
    
 ## Configure the environment
 
@@ -390,7 +388,7 @@ There are five major steps in using this solution, assuming you don't want to im
     
 4. Moving the collection files to cold storage.
     
-All the other steps are not specific to this solution. They are standard administrative tasks that you perform in SharePoint 2013, and Office 365 and Azure. There are items that this solution does not provide any guidance that you will need to work out based on your company's needs, such as:
+All the other steps are not specific to this solution. They are standard administrative tasks that you perform in SharePoint 2013, Microsoft 365, and Azure. There are items that this solution does not provide any guidance that you will need to work out based on your company's needs, such as:
   
 1. Tracking your eDiscovery cases, and which Custodians are associated with which case.
     
@@ -435,11 +433,11 @@ All the other steps are not specific to this solution. They are standard adminis
     
 ### PST import option B, for Exchange Online
 
-- To place the collected PST files into Exchange Online, follow the procedures in the Import files into Office 365 through the network upload section of [Office 365 Import Service](https://go.microsoft.com/fwlink/p/?LinkId=614938).
+- To place the collected PST files into Exchange Online, follow the procedures in the Import files into Microsoft 365 through [network upload](https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files).
     
 ### Move to cold storage
 
-1. Run the **MoveToColdStorage** runbook using the procedures in[Running Runbooks](https://go.microsoft.com/fwlink/p/?LinkId=615123).
+1. Run the **MoveToColdStorage** runbook using the procedures in [Running Runbooks](https://go.microsoft.com/fwlink/p/?LinkId=615123).
     
 2. Watch the Azure file share you are using for long term storage, for example \\\\AZFile1\\ContentColdStorage and the on-premises collection file share, for example \\\\Staging\\cases$. You should see the files and folders appear in the cold storage file share and disappear from the collection file share.
     

@@ -24,7 +24,7 @@ description: "Use this information to learn about how Office 365 uses Content De
 
 # Content Delivery Networks (CDNs)
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 CDNs help keep Office 365 fast and reliable for end users. Cloud services like Office 365 use CDNs to cache static assets closer to the browsers requesting them to speed up downloads and reduce perceived end user latency. The information in this topic will help you learn about Content Delivery Networks (CDNs) and how they are used by Office 365.
 
