@@ -1,9 +1,24 @@
 {:allowed-branchname-matches ["master"]
 :allowed-filename-matches ["Enterprise/"]
 
+ :targets 
+   {
+     :counts {
+              ;;:spelling 10
+              ;;:grammar 3
+              ;;:total 15 ;; absolute flag count but i don't know the difference between this and issues
+              ;;:issues 15 ;; coming from the platform, will need to be tested.
+              }
+     :scores {
+              ;;:terminology 100
+              :min-score 30
+              ;;:spelling 40
+              }
+    }
+  
  :guidance-profile "d2b6c2c8-00ee-47f1-8d10-b280cc3434c1" ;; Profile ID for "M365-specific"
- 
- :acrolinx-check-settings
+
+ ;;:acrolinx-check-settings ;; classic API only
  {
   "languageId" "en"
   "ruleSetName" "Standard"
@@ -20,7 +35,7 @@
  "
 ## Acrolinx Scorecards
  
-**A minimum Acrolinx score of 20 is required.**
+**A minimum Acrolinx score of 30 is required.**
  
 Click the scorecard links for each article to review the Acrolinx feedback on grammar, spelling, punctuation, writing style, and terminology:
 
@@ -36,6 +51,6 @@ Click the scorecard links for each article to review the Acrolinx feedback on gr
  "
 **More info about Acrolinx**
  
-We have set the minimum score to 20. This is effectively *not* setting a minimum score. If you need to bypass this score, please contact MARVEL PubOps.
+We have set the minimum score to 30. This is effectively *not* setting a minimum score. If you need to bypass this score, please contact MARVEL PubOps.
 "
 }
