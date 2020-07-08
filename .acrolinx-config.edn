@@ -8,17 +8,17 @@
               ;;:grammar 3
               ;;:total 15 ;; absolute flag count but i don't know the difference between this and issues
               ;;:issues 15 ;; coming from the platform, will need to be tested.
-              }
+             }
      :scores {
               ;;:terminology 100
               :min-score 30
               ;;:spelling 40
-              }
-    }
+             }
+   }
   
  :guidance-profile "d2b6c2c8-00ee-47f1-8d10-b280cc3434c1" ;; Profile ID for "M365-specific"
 
- ;;:acrolinx-check-settings ;; classic API only
+ :acrolinx-check-settings ;; classic API only
  {
   "languageId" "en"
   "ruleSetName" "Standard"
@@ -27,7 +27,7 @@
                         "TERMINOLOGY_VALID"
                         "VOICE_GUIDANCE"
                         ]
-  "termSetNames" ["M365"]
+  "termSetNames" ["M365" "Products" "Microsoft"]
  }
  
  :template-header
@@ -44,13 +44,13 @@ Click the scorecard links for each article to review the Acrolinx feedback on gr
 "
 
  :template-change
- "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/flags/issues} | [link](${acrolinx/scorecard}) | ${s/status} |
+ "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/scores/min-score} |${acrolinx/flags/issues} | [link](${acrolinx/scorecard}) | ${s/status} |
 "
  
  :template-footer
  "
 **More info about Acrolinx**
  
-We have set the minimum score to 30. This is effectively *not* setting a minimum score. If you need to bypass this score, please contact MARVEL PubOps.
+We have set the minimum score to 30. Contact krowley for assistance.
 "
 }
