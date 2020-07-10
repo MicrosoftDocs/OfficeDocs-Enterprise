@@ -3,7 +3,7 @@ title: "Connect to all Office 365 services in a single Windows PowerShell window
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/17/2020
+ms.date: 07/10/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -72,9 +72,9 @@ Before you can manage all of Office 365 from a single instance of Windows PowerS
   Set-ExecutionPolicy RemoteSigned
   ```
 
-## Connection steps when using a password
+## Connection steps when using just a password
 
-Here are the steps to connect to all the services in a single PowerShell window.
+Here are the steps to connect to all the services in a single PowerShell window when you are using just a password for sign-in.
   
 1. Open Windows PowerShell.
     
@@ -100,11 +100,11 @@ Here are the steps to connect to all the services in a single PowerShell window.
 >PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
 >
 
-4. Run these commands to connect to SharePoint Online. Replace  _\<domainhost>_ with the actual value for your domain. For example, for "litwareinc.onmicrosoft.com", the  _\<domainhost>_ value is "litwareinc".
+4. Run these commands to connect to SharePoint Online. Specify the organization name for your domain. For example, for "litwareinc.onmicrosoft.com", the  organization name value is "litwareinc".
     
   ```powershell
-  Import-Module Microsoft.Online.SharePoint.PowerShell -DisableNameChecking
-  Connect-SPOService -Url https://<domainhost>-admin.sharepoint.com -credential $credential
+  $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+  Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
   ```
 
 5. Run these commands to connect to Skype for Business Online. A warning about increasing the `WSMan NetworkDelayms` value is expected the first time you connect and should be ignored.

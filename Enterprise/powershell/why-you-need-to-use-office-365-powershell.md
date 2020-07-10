@@ -3,7 +3,7 @@ title: "Why you need to use Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/13/2019
+ms.date: 07/10/2019
 audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -77,7 +77,7 @@ For many purposes, this displays the information you need to know. However, ther
 You must repeat this procedure for each user. For many users, this can be a tedious task. With Office 365 PowerShell, you can display this information for all of your users with the following command:
   
 ```powershell
-Get-MsolUser | Select DisplayName, UsageLocation
+Get-AzureADUser | Select DisplayName, UsageLocation
 ```
 
 
@@ -99,12 +99,12 @@ David Longmuir                            BR
 ```
 
 > [!TIP]
->  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription ( **Get-MsolUser** ), but only display the name and location for each user ( **Select DisplayName, UsageLocation** ).
+>  The interpretation of this Office 365 PowerShell command is: Get all of the users in the current Office 365 subscription ( **Get-AzureADUser** ), but only display the name and location for each user ( **Select DisplayName, UsageLocation** ).
   
-Because Office 365 PowerShell supports a command shell language, you can further manipulate the information obtained from the **Get-MSolUser** command. For example, maybe you'd like to sort these users by their location, grouping all the Brazilian users together, all the United States users together, etc. Here is the command:
+Because Office 365 PowerShell supports a command shell language, you can further manipulate the information obtained from the **Get-AzureADUser** command. For example, maybe you'd like to sort these users by their location, grouping all the Brazilian users together, all the United States users together, etc. Here is the command:
   
 ```powershell
-Get-MsolUser | Select DisplayName, UsageLocation | Sort UsageLocation, DisplayName
+Get-AzureADUser | Select DisplayName, UsageLocation | Sort UsageLocation, DisplayName
 ```
 
 Here is an example of the display:
@@ -126,7 +126,7 @@ Brian Johnson (TAILSPIN)                    US
 You can also employ additional filtering. For example, if you only want to see information about users based in Brazil, use this command:
   
 ```powershell
-Get-MsolUser | Where {$_.UsageLocation -eq "BR"} | Select DisplayName, UsageLocation 
+Get-AzureADUser | Where {$_.UsageLocation -eq "BR"} | Select DisplayName, UsageLocation 
 ```
 
 Here is an example of the display:
@@ -146,18 +146,18 @@ Fabrice Canel                                         BR
 If you have a very large domain with tens of thousands of users, trying some of the examples we show in this article could lead to "throttling." That means that, based on things like computing power and available network bandwidth, you're trying to do a little too much at one time. Because of that, larger organizations might want to split some of these Office 365 PowerShell commands into two commands. For example, this one command returns all the user accounts and shows the name and location for each:
   
 ```powershell
-Get-MsolUser | Select DisplayName, UsageLocation
+Get-AzureADUser | Select DisplayName, UsageLocation
 ```
 
 That works great for smaller domains. In a large organization, however, you might need to split that into two commands: one command to store the user account information in a variable and another command to display the needed information. Here is an example:
   
 ```powershell
-$x = Get-MsolUser
+$x = Get-AzureADUser
 $x | Select DisplayName, UsageLocation
 ```
 
 The interpretation of this set of Office 365 PowerShell commands is:
-- Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).
+- Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-AzureADUser** ).
 - Display the contents of the variable $x, but only include the name and location for each user ( **$x | Select DisplayName, UsageLocation** ).
   
 ## Office 365 has features that you can only configure with Office 365 PowerShell
@@ -381,7 +381,7 @@ The alternative is to use an Office 365 PowerShell script to compile that report
 The following example script is more complicated than the commands you have seen so far in this article. But, it shows the potential of using Office 365 PowerShell to create views of information that are very difficult to do otherwise. Here is the script that can compile and display the needed list:
   
 ```powershell
-$x = Get-MsolUser
+$x = Get-AzureADUser
 
 foreach ($i in $x)
     {
@@ -411,7 +411,7 @@ Molly Dempsey           False        True               False
 ```
 
 The interpretation of this Office 365 PowerShell script is:  
-- Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-MsolUser** ).
+- Get all of the users in the current Office 365 subscription and store the information in a variable named $x ( **$x = Get-AzureADUser** ).
 - Start a loop that runs over all the users in the variable named $x ( **foreach ($i in $x)** ).  
 - Define a variable named $y and store the user's mailbox information in it ( **$y = Get-Mailbox -Identity $i.UserPrincipalName** ).
 - Add a new property to the user information named IsMailBoxEnabled and set it to the value of the IsMailBoxEnabled property of the user's mailbox ( **$i | Add-Member -MemberType NoteProperty -Name IsMailboxEnabled -Value $y.IsMailboxEnabled** ).
