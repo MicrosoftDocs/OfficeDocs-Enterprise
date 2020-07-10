@@ -64,19 +64,19 @@ When SharePoint Online is moved, data for the following services is also moved:
     
 - Project Online
     
-- Project for Office 365
+- Project for Microsoft 365
     
-- Office 365 Video services
+- Microsoft 365 Video services
     
 - Office in s browser
     
 - Microsoft 365 Apps for enterprise
     
-- Visio Pro for Office 365
+- Visio Pro for Microsoft 365
     
 After we've completed moving your SharePoint Online data, you might see the some of the following effects.
   
-### Office 365 Video Services
+### Microsoft 365 Video Services
 
 - The data move for video takes longer than the moves for the rest of your content in SharePoint Online.
     

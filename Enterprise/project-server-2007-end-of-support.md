@@ -23,7 +23,7 @@ description: "On October 10, 2017, support ended for Project Server 2007, Projec
 
 # Project Server 2007 end of support roadmap
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Support ended for Office 2007 servers and applications in 2017, and you need to consider plans for migration. If you are currently using Project Server 2007, note that it and these other related products had the following end-of-support dates:
   

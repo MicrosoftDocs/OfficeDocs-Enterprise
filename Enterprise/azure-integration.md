@@ -25,7 +25,7 @@ description: "Your Microsoft 365 subscription includes a subscription to Azure A
 
 # Azure integration with Microsoft 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Microsoft 365 uses Azure Active Directory (Azure AD) to manage user identities behind the scenes. Your Microsoft 365 subscription includes a free subscription to Azure AD so that you can integrate Microsoft 365 with Azure AD if you want to sync passwords or set up single sign-on with your on-premises environment. You can also buy advanced features to better manage your accounts.
   
@@ -35,7 +35,7 @@ You can use the Azure AD deployment advisors for a guided setup and configuratio
 
  - [Azure AD Connect advisor](https://aka.ms/aadconnectpwsync)
  - [AD FS deployment advisor](https://aka.ms/adfsguidance)
- - [Azure AD Premium setup guide](https://aka.ms/aadpguidance)
+ - [Azure AD setup guide](https://aka.ms/aadpguidance)
   
 ## Azure AD editions and Microsoft 365 identity management
 

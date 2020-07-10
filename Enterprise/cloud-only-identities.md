@@ -30,7 +30,7 @@ description: "Describes how to create users and groups when your Microsoft 365 s
 
 # Microsoft 365 cloud-only identity
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 With cloud-only identity, all your users, groups, and contacts are stored in the Azure Active Directory (Azure AD) tenant of your Microsoft 365 subscription. Here are the basic components of cloud-only identity.
  

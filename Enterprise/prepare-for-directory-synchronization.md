@@ -1,5 +1,5 @@
 ---
-title: "Prepare for directory synchronization to Office 365"
+title: "Prepare for directory synchronization to Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -25,22 +25,22 @@ search.appverid:
 - MOE150
 - MBS150
 ms.assetid: 01920974-9e6f-4331-a370-13aea4e82b3e
-description: "Describes how to prepare to provision users to Office 365 by using directory synchronization and the long-term benefits of using this method."
+description: "Describes how to prepare to provision users to Microsoft 365 by using directory synchronization and the long-term benefits of using this method."
 ---
 
-# Prepare for directory synchronization to Office 365
+# Prepare for directory synchronization to Microsoft 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Microsoft 365 Enterprise.*
 
 The benefits to hybrid identity and directory synchronization your organization include:
   
 - Reducing the administrative programs in your organization
 - Optionally enabling single sign-on scenario
-- Automating account changes in Office 365
+- Automating account changes in Microsoft 365
     
-For more information about the advantages of using directory synchronization, see [Directory synchronization roadmap]( https://go.microsoft.com/fwlink/p/?LinkId=525398) and [Hybrid identity for Office 365](plan-for-directory-synchronization.md).
+For more information about the advantages of using directory synchronization, see [Directory synchronization roadmap]( https://go.microsoft.com/fwlink/p/?LinkId=525398) and [Hybrid identity for Microsoft 365](plan-for-directory-synchronization.md).
 
-However, directory synchronization requires planning and preparation to ensure that your Active Directory Domain Services (AD DS) synchronizes to the Azure Active Directory (Azure AD) tenant of your Office 365 subscription with a minimum of errors. 
+However, directory synchronization requires planning and preparation to ensure that your Active Directory Domain Services (AD DS) synchronizes to the Azure Active Directory (Azure AD) tenant of your Microsoft 365 subscription with a minimum of errors. 
 
 Follow these steps in order for the best results.
   
@@ -51,7 +51,7 @@ Before you synchronize your AD DS to your Azure AD tenant, you need to clean up 
 > [!IMPORTANT]
 > If you don't perform AD DS cleanup before you synchronize, there can be a significant negative effect on the deployment process. It might take days, or even weeks, to go through the cycle of directory synchronization, identifying errors, and re-synchronization. 
   
-In your AD DS, complete the following clean-up tasks for each user account that will be assigned an Office 365 license:
+In your AD DS, complete the following clean-up tasks for each user account that will be assigned a Microsoft 365 license:
   
 1. Ensure a valid and unique email address in the **proxyAddresses** attribute. 
   
@@ -78,7 +78,7 @@ In your AD DS, complete the following clean-up tasks for each user account that 
     
 ## 2. Directory object and attribute preparation
 
-Successful directory synchronization between your AD DS and Office 365 requires that your AD DS attributes are properly prepared. For example, you need to ensure that specific characters aren't used in certain attributes that are synchronized with the Office 365 environment. Unexpected characters do not cause directory synchronization to fail but might return a warning. Invalid characters will cause directory synchronization to fail.
+Successful directory synchronization between your AD DS and Microsoft 365 requires that your AD DS attributes are properly prepared. For example, you need to ensure that specific characters aren't used in certain attributes that are synchronized with the Microsoft 365 environment. Unexpected characters do not cause directory synchronization to fail but might return a warning. Invalid characters will cause directory synchronization to fail.
   
 Directory synchronization will also fail if some of your AD DS users have one or more duplicate attributes. Each user must have unique attributes.
   
@@ -86,13 +86,13 @@ The attributes that you need to prepare are listed here:
   
 - **displayName**
     
-  - If the attribute exists in the user object, it will be synchronized with Office 365.
+  - If the attribute exists in the user object, it will be synchronized with Microsoft 365.
   - If this attribute exists in the user object, there must be a value for it. That is, the attribute must not be blank.
   - Maximum number of characters: 256
     
 - **givenName**
     
-  - If the attribute exists in the user object, it will be synchronized with Office 365, but Office 365 does not require or use it.
+  - If the attribute exists in the user object, it will be synchronized with Microsoft 365, but Microsoft 365 does not require or use it.
   - Maximum number of characters: 64
     
 - **mail**
@@ -100,7 +100,7 @@ The attributes that you need to prepare are listed here:
   - The attribute value must be unique within the directory.
     
     > [!NOTE]
-    > If there are duplicate values, the first user with the value is synchronized. Subsequent users will not appear in Office 365. You must modify either the value in Office 365 or modify both of the values in AD DS in order for both users to appear in Office 365. 
+    > If there are duplicate values, the first user with the value is synchronized. Subsequent users will not appear in Microsoft 365. You must modify either the value in Microsoft 365 or modify both of the values in AD DS in order for both users to appear in Microsoft 365. 
   
 - **mailNickname** (Exchange alias) 
     
@@ -129,16 +129,16 @@ The attributes that you need to prepare are listed here:
   - Maximum number of characters: 20
   - The attribute value must be unique within the directory.
   - Invalid characters: [ \ " | , / : \< \> + = ; ? \* ']
-  - If a user has an invalid **sAMAccountName** attribute but has a valid **userPrincipalName** attribute, the user account is created in Office 365. 
+  - If a user has an invalid **sAMAccountName** attribute but has a valid **userPrincipalName** attribute, the user account is created in Microsoft 365. 
   - If both **sAMAccountName** and **userPrincipalName** are invalid, the AD DS **userPrincipalName** attribute must be updated. 
     
 - **sn** (surname) 
     
-  - If the attribute exists in the user object, it will be synchronized with Office 365, but Office 365 does not require or use it.
+  - If the attribute exists in the user object, it will be synchronized with Microsoft 365, but Microsoft 365 does not require or use it.
     
 - **targetAddress**
     
-    It's required that the **targetAddress** attribute (for example, SMTP:tom@contoso.com) that's populated for the user must appear in the Office 365 GAL. In third-party messaging migration scenarios, this would require the Office 365 schema extension for the AD DS. The Office 365 schema extension would also add other useful attributes to manage Office 365 objects that are populated by using a directory synchronization tool from AD DS. For example, the **msExchHideFromAddressLists** attribute to manage hidden mailboxes or distribution groups would be added. 
+    It's required that the **targetAddress** attribute (for example, SMTP:tom@contoso.com) that's populated for the user must appear in the Microsoft 365 GAL. In third-party messaging migration scenarios, this would require the Microsoft 365 schema extension for the AD DS. The Microsoft 365 schema extension would also add other useful attributes to manage Microsoft 365 objects that are populated by using a directory synchronization tool from AD DS. For example, the **msExchHideFromAddressLists** attribute to manage hidden mailboxes or distribution groups would be added. 
    
   - Maximum number of characters: 256
   - The attribute value must not contain a space.
@@ -166,21 +166,21 @@ See [Prepare directory attributes with the IdFix tool](prepare-directory-attribu
     
 ## 3. Prepare the userPrincipalName attribute
 
-Active Directory is designed to allow the end users in your organization to sign in to your directory by using either **sAMAccountName** or **userPrincipalName**. Similarly, end users can sign in to Office 365 by using the user principal name (UPN) of their work or school account. Directory synchronization attempts to create new users in Azure Active Directory by using the same UPN that's in your AD DS. The UPN is formatted like an email address. 
+Active Directory is designed to allow the end users in your organization to sign in to your directory by using either **sAMAccountName** or **userPrincipalName**. Similarly, end users can sign in to Microsoft 365 by using the user principal name (UPN) of their work or school account. Directory synchronization attempts to create new users in Azure Active Directory by using the same UPN that's in your AD DS. The UPN is formatted like an email address. 
 
-In Office 365, the UPN is the default attribute that's used to generate the email address. It's easy to get **userPrincipalName** (in AD DS and in Azure AD) and the primary email address in **proxyAddresses** set to different values. When they are set to different values, there can be confusion for administrators and end users. 
+In Microsoft 365, the UPN is the default attribute that's used to generate the email address. It's easy to get **userPrincipalName** (in AD DS and in Azure AD) and the primary email address in **proxyAddresses** set to different values. When they are set to different values, there can be confusion for administrators and end users. 
   
 It's best to align these attributes to reduce confusion. To meet the requirements of single sign-on with Active Directory Federation Services (AD FS) 2.0, you need to ensure that the UPNs in Azure Active Directory and your AD DS match and are using a valid domain namespace.
   
 ## 4. Add an alternative UPN suffix to AD DS
 
-You may need to add an alternative UPN suffix to associate the user's corporate credentials with the Office 365 environment. A UPN suffix is the part of a UPN to the right of the @ character. UPNs that are used for single sign-on can contain letters, numbers, periods, dashes, and underscores, but no other types of characters.
+You may need to add an alternative UPN suffix to associate the user's corporate credentials with the Microsoft 365 environment. A UPN suffix is the part of a UPN to the right of the @ character. UPNs that are used for single sign-on can contain letters, numbers, periods, dashes, and underscores, but no other types of characters.
   
 For more information on how to add an alternative UPN suffix to Active Directory, see [Prepare for directory synchronization]( https://go.microsoft.com/fwlink/p/?LinkId=525430).
   
-## 5. Match the AD DS UPN with the Office 365 UPN
+## 5. Match the AD DS UPN with the Microsoft 365 UPN
 
-If you've already set up directory synchronization, the user's UPN for Office 365 may not match the user's AD DS UPN that's defined in your AD DS. This can occur when a user was assigned a license before the domain was verified. To fix this, use [PowerShell to fix duplicate UPN](https://go.microsoft.com/fwlink/p/?LinkId=396730) to update the user's UPN to ensure that the Office 365 UPN matches the corporate user name and domain. If you are updating the UPN in the AD DS and would like it to synchronize with the Azure Active Directory identity, you need to remove the user's license in Office 365 prior to making the changes in AD DS. 
+If you've already set up directory synchronization, the user's UPN for Microsoft 365 may not match the user's AD DS UPN that's defined in your AD DS. This can occur when a user was assigned a license before the domain was verified. To fix this, use [PowerShell to fix duplicate UPN](https://go.microsoft.com/fwlink/p/?LinkId=396730) to update the user's UPN to ensure that the Microsoft 365 UPN matches the corporate user name and domain. If you are updating the UPN in the AD DS and would like it to synchronize with the Azure Active Directory identity, you need to remove the user's license in Microsoft 365 prior to making the changes in AD DS. 
   
 Also see [How to prepare a non-routable domain (such as .local domain) for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md).
 

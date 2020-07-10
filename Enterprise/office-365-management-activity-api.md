@@ -1,7 +1,7 @@
 ---
 title: "Office 365 Management Activity API"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -19,7 +19,7 @@ description: "A brief summary about the Office 365 Management Activity API."
 
 # Office 365 Management Activity API
 
-Microsoft provides reporting services you can use to obtain aggregated transactional information about your Office 365 tenant. The [Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview) uses an industry-standard RESTful design and OAuth v2 for authentication. This makes it easy to start experimenting with retrieving data and ingesting it into visualization tools and applications. The API provides a data feed with information about user, administrator, operations, and security activity in Office 365. The data can be kept for regulatory purposes, or combined with log data procured from an on-premises infrastructure or other sources. This helps build a monitoring solution for operations, security, and compliance across the enterprise.
+Microsoft provides reporting services you can use to obtain aggregated transactional information about your Office 365 tenant. The [Office 365 Management Activity API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-apis-overview#office-365-management-activity-api) uses an industry-standard RESTful design and OAuth v2 for authentication. This makes it easy to start experimenting with retrieving data and ingesting it into visualization tools and applications. The API provides a data feed with information about user, administrator, operations, and security activity in Office 365. The data can be kept for regulatory purposes, or combined with log data procured from an on-premises infrastructure or other sources. This helps build a monitoring solution for operations, security, and compliance across the enterprise.
 
 The Office 365 Management Activity API provides information about various user, admin, system, and policy actions and events from Office 365 and Azure Active Directory activity logs. The API provides a consistent audit schema with over 10 fields common across all the services. The API allows organizations to make easy connections between events, and enables new ways to reason over the data.
 

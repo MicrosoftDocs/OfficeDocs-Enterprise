@@ -22,7 +22,7 @@ description: "Provides an example and describes the naming convention and defaul
 
 # Microsoft 365 IdFix transaction log
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Provides an example and describes the naming convention and default log level of the Microsoft 365 IdFix transaction log.
   

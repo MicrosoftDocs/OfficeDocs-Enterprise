@@ -21,29 +21,29 @@ search.appverid:
 - MED150
 - BCS160
 ms.assetid: e7968303-c234-46c4-b8b0-b5c93c6d57a7
-description: "Learn what to do if you have a non-routale domain associated with your on-premises users before you synchronize with Office 365."
+description: "Learn what to do if you have a non-routale domain associated with your on-premises users before you synchronize with Microsoft 365."
 ---
 
 # Prepare a non-routable domain for directory synchronization
-When you synchronize your on-premises directory with Office 365 you have to have a verified domain in Azure Active Directory (Azure AD). Only the User Principal Names (UPN) that are associated with the on-premises domain are synchronized. However, any UPN that contains an non-routable domain, for example .local (like billa@contoso.local), will be synchronized to an .onmicrosoft.com domain (like billa@contoso.onmicrosoft.com). 
+When you synchronize your on-premises directory with Microsoft 365 you have to have a verified domain in Azure Active Directory (Azure AD). Only the User Principal Names (UPN) that are associated with the on-premises domain are synchronized. However, any UPN that contains an non-routable domain, for example .local (like billa@contoso.local), will be synchronized to an .onmicrosoft.com domain (like billa@contoso.onmicrosoft.com). 
 
-If you currently use a .local domain for your user accounts in Active Directory Domain Services (AD DS) it's recommended that you change them to use a verified domain (like billa@contoso.com) in order to properly sync with your Office 365 domain.
+If you currently use a .local domain for your user accounts in Active Directory Domain Services (AD DS) it's recommended that you change them to use a verified domain (like billa@contoso.com) in order to properly sync with your Microsoft 365 domain.
   
 ## What if I only have a .local on-premises domain?
 
 The most recent tool you can use for synchronizing your AD DS to Azure AD is named Azure AD Connect. For more information, see [Integrating your on-premises identities with Azure AD](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/azure-ad).
   
-Azure AD Connect synchronizes your users' UPN and password so that users can sign in with the same credentials they use on-premises. However, Azure AD Connect only synchronizes users to domains that are verified by Office 365. This means that the domain also is verified by Azure AD because Office 365 identities are managed by Azure AD. In other words, the domain has to be a valid Internet domain (for example, .com, .org, .net, .us, etc.). If your internal AD DS only uses a non-routable domain (for example, .local), this can't possibly match the verified domain you have on Office 365. You can fix this issue by either changing your primary domain in your on premises AD DS, or by adding one or more UPN suffixes.
+Azure AD Connect synchronizes your users' UPN and password so that users can sign in with the same credentials they use on-premises. However, Azure AD Connect only synchronizes users to domains that are verified by Microsoft 365. This means that the domain also is verified by Azure AD because Microsoft 365 identities are managed by Azure AD. In other words, the domain has to be a valid Internet domain (for example, .com, .org, .net, .us, etc.). If your internal AD DS only uses a non-routable domain (for example, .local), this can't possibly match the verified domain you have on Microsoft 365. You can fix this issue by either changing your primary domain in your on premises AD DS, or by adding one or more UPN suffixes.
   
 ### **Change your primary domain**
 
-Change your primary domain to a domain you have verified in Office 365, for example, contoso.com. Every user that has the domain contoso.local is then updated to contoso.com. For instructions, see [How Domain Rename Works](https://go.microsoft.com/fwlink/p/?LinkId=624174). This is a very involved process, however, and an easier solution is described in the following section.
+Change your primary domain to a domain you have verified in Microsoft 365, for example, contoso.com. Every user that has the domain contoso.local is then updated to contoso.com. For instructions, see [How Domain Rename Works](https://go.microsoft.com/fwlink/p/?LinkId=624174). This is a very involved process, however, and an easier solution is described in the following section.
   
 ### **Add UPN suffixes and update your users to them**
 
-You can solve the .local problem by registering new UPN suffix or suffixes in AD DS to match the domain (or domains) you verified in Office 365. After you register the new suffix, you update the user UPNs to replace the .local with the new domain name for example so that a user account looks like billa@contoso.com.
+You can solve the .local problem by registering new UPN suffix or suffixes in AD DS to match the domain (or domains) you verified in Microsoft 365. After you register the new suffix, you update the user UPNs to replace the .local with the new domain name for example so that a user account looks like billa@contoso.com.
   
-After you have updated the UPNs to use the verified domain,you are ready to synchronize your on-premises AD DS with Office 365.
+After you have updated the UPNs to use the verified domain,you are ready to synchronize your on-premises AD DS with Microsoft 365.
   
  **Step 1: Add the new UPN suffix**
   

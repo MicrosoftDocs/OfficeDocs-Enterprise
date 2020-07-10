@@ -22,7 +22,7 @@ description: "Support ends for Project Server 2010 ends on April 13, 2021. Use t
 
 # Project Server 2010 end of support roadmap
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Project Server 2010 will reach end of support on **April 13, 2021**. This date has been extended from the previous end-of-support date of October 13, 2020. If you are currently using Project Server 2010, note that these other related products have the following end of support dates:
   

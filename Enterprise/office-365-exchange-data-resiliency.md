@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Exchange Data Resiliency"
-ms.author: robmazz
-author: robmazz
+title: "Exchange Online Data Resiliency in Microsoft 365"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,10 +14,10 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An explanation of the various aspects of data resiliency within Exchange Online and Office 365."
+description: "An explanation of the various aspects of data resiliency within Exchange Online and Microsoft 365."
 ---
 
-# Exchange Online Data Resiliency in Office 365
+# Exchange Online Data Resiliency in Microsoft 365
 
 ## Introduction
 There are two types of corruption that can affect an Exchange database: physical corruption, which is typically caused by hardware (in particular, storage hardware) problems, and logical corruption, which occurs due to other factors. Generally, there are two types of logical corruption that can occur within an Exchange database: 
@@ -43,7 +43,7 @@ For more information on the native features listed above, click on the above hyp
 - [Deleted Item Retention and Soft-Deleted Mailboxes (both enabled by default)](https://docs.microsoft.com/exchange/recipients-in-exchange-online/delete-or-restore-mailboxes) 
 
 ## Database Availability Groups 
-Every mailbox database in Office 365 is hosted in a [database availability group (DAG)](https://docs.microsoft.com/exchange/back-up-email) and replicated to geographically-separate datacenters within the same region. The most common configuration is four database copies in four datacenters; however, some regions have fewer datacenters (databases are replicated to three datacenters in India, and two datacenters in Australia and Japan). But in all cases, every mailbox database has four copies that are distributed across multiple datacenters, thereby ensuring that mailbox data is protected from software, hardware, and even datacenter failures. 
+Every mailbox database in Microsoft 365 is hosted in a [database availability group (DAG)](https://docs.microsoft.com/exchange/back-up-email) and replicated to geographically-separate datacenters within the same region. The most common configuration is four database copies in four datacenters; however, some regions have fewer datacenters (databases are replicated to three datacenters in India, and two datacenters in Australia and Japan). But in all cases, every mailbox database has four copies that are distributed across multiple datacenters, thereby ensuring that mailbox data is protected from software, hardware, and even datacenter failures. 
 
 Out of these four copies, three of them are configured as highly available. The fourth copy is configured as a [lagged database copy](https://docs.microsoft.com/Exchange/high-availability/manage-ha/activate-lagged-db-copies). The lagged database copy is not intended for individual mailbox recovery or mailbox item recovery. Its purpose is to provide a recovery mechanism for the rare event of system-wide, catastrophic logical corruption. 
 
@@ -92,5 +92,5 @@ Exchange Online takes advantage of several ReFS benefits:
 - Support for other features used by Exchange Online, such as BitLocker encryption. 
 
 Exchange Online also benefits from other ReFS features: 
-- **Integrity (Integrity Streams)** - ReFS stores data in a way that protects it from many of the common errors that can normally cause data loss. Office 365 Search uses Integrity Streams to help with early disk corruption detection and checksums of file content. The feature also reduces corruption incidents caused by “Torn Writes” (when a write operation does not complete due to power outages, etc.). 
+- **Integrity (Integrity Streams)** - ReFS stores data in a way that protects it from many of the common errors that can normally cause data loss. Microsoft 365 Search uses Integrity Streams to help with early disk corruption detection and checksums of file content. The feature also reduces corruption incidents caused by “Torn Writes” (when a write operation does not complete due to power outages, etc.). 
 - **Availability (Salvage)** - ReFS prioritizes the availability of data. Historically, file systems were often susceptible to data corruption that would require the system to be taken offline for repair. Although rare, if corruption does occur, ReFS implements salvage, a feature that removes the corrupt data from the namespace on a live volume and ensures that good data is not adversely affected by non-repairable corrupt data. Applying the Salvage feature and isolating data corruption to Exchange Online database volumes means that we can keep non-affected databases on a corrupted volume healthy between the time of corruption and repair action. This increases the availability of databases that would normally be affected by such disk corruption issues. 
