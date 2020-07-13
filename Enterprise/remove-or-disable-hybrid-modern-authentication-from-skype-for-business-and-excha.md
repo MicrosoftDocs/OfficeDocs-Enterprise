@@ -20,7 +20,7 @@ description: "If you've enabled Hybrid Modern Authentication (HMA) only to find 
 
 # Removing or disabling Hybrid Modern Authentication from Skype for Business and Exchange
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 If you've enabled Hybrid Modern Authentication (HMA) only to find it's unsuitable for your current environment, you can disable HMA. This article explains how.
   

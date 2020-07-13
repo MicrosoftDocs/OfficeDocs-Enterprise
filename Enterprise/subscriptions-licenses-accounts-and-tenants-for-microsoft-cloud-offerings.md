@@ -3,7 +3,7 @@ title: "Subscriptions, licenses, accounts, and tenants for Microsoft's cloud off
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/08/2019
+ms.date: 06/25/2020
 audience: ITPro
 ms.topic: conceptual
 ms.service: o365-solutions
@@ -23,16 +23,11 @@ description: "Summary: Understand the relationships of organizations, subscripti
 
 # Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings
 
- **Summary:** Understand the relationships of organizations, subscriptions, licenses, user accounts, and tenants across Microsoft's cloud offerings.
-  
 Microsoft provides a hierarchy of organizations, subscriptions, licenses, and user accounts for consistent use of identities and billing across its cloud offerings:
   
-- Microsoft Office 365
+- Microsoft 365 and Microsoft Office 365
 - Microsoft Azure
-- Microsoft Intune and Enterprise Mobility + Security (EMS)
 - Microsoft Dynamics 365
-
-[Microsoft 365](https://docs.microsoft.com/microsoft-365/) combines Office 365, EMS, and Windows 10 Enterprise into a single subscription and set of integrated services.
 
 ## Elements of the hierarchy
 
@@ -46,21 +41,20 @@ An organization represents a business entity that is using Microsoft cloud offer
 
 A subscription is an agreement with Microsoft to use one or more Microsoft cloud platforms or services, for which charges accrue based on either a per-user license fee or on cloud-based resource consumption. 
 
-- Microsoft's Software as a Service (SaaS)-based cloud offerings (Office 365, Intune/EMS, and Dynamics 365) charge per-user license fees. 
+- Microsoft's Software as a Service (SaaS)-based cloud offerings (Microsoft 365 and Dynamics 365) charge per-user license fees. 
 - Microsoft's Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) cloud offerings (Azure) charge based on cloud resource consumption.
  
 You can also use a trial subscription, but the subscription expires after a specific amount of time or consumption charges. You can convert a trial subscription to a paid subscription.
   
-Organizations can have multiple subscriptions for Microsoft's cloud offerings. Figure 1 shows a single organization that has multiple Office 365 subscriptions, an Intune subscription, a Dynamics 365 subscription, and multiple Azure subscriptions.
+Organizations can have multiple subscriptions for Microsoft's cloud offerings. Figure 1 shows a single organization that has multiple Microsoft 365 subscriptions, a Dynamics 365 subscription, and multiple Azure subscriptions.
 
 **Figure 1: Example of multiple subscriptions for an organization**
 
 ![An example organization with multiple subscriptions for Microsoft's cloud offerings.](media/Subscriptions/Subscriptions-Fig1.png)
-
   
 ### Licenses
 
-For Microsoft's SaaS cloud offerings, a license allows a specific user account to use the services of the cloud offering. You are charged a fixed monthly fee as part of your subscription. Administrators assign licenses to individual user accounts in the subscription. For the example in Figure 2, the Contoso Corporation has an Office 365 Enterprise E5 subscription with 100 licenses, which allows to up to 100 individual user accounts to use Office 365 Enterprise E5 features and services.
+For Microsoft's SaaS cloud offerings, a license allows a specific user account to use the services of the cloud offering. You are charged a fixed monthly fee as part of your subscription. Administrators assign licenses to individual user accounts in the subscription. For the example in Figure 2, the Contoso Corporation has a Microsoft 365 E5 subscription with 100 licenses, which allows to up to 100 individual user accounts to use Microsoft 365 E5 features and services.
   
 **Figure 2: Licenses within the SaaS-based subscriptions for an organization**
 
@@ -84,11 +78,11 @@ Figure 3 shows an example of multiple subscriptions of an organization using a c
   
 ### Tenants
 
-For SaaS cloud offerings, the tenant is the regional location that houses the servers providing cloud services. For example, the Contoso Corporation chose the European region to host its Office 365, EMS, and Dynamics 365 tenants for the 15,000 workers in their Paris headquarters.
+For SaaS cloud offerings, the tenant is the regional location that houses the servers providing cloud services. For example, the Contoso Corporation chose the European region to host its Microsoft 365, EMS, and Dynamics 365 tenants for the 15,000 workers in their Paris headquarters.
   
 Azure PaaS services and virtual machine-based workloads hosted in Azure IaaS can have tenancy in any Azure datacenter across the world. You specify the Azure datacenter, known as the location, when you create the Azure PaaS app or service or element of an IaaS workload.
   
-An Azure AD tenant is a specific instance of Azure AD containing accounts and groups. Paid or trial subscriptions of Office 365, Dynamics 365, or Intune/EMS include a free Azure AD tenant. This Azure AD tenant does not include other Azure services and is not the same as an Azure trial or paid subscription.
+An Azure AD tenant is a specific instance of Azure AD containing accounts and groups. Paid or trial subscriptions of Microsoft 365 or Dynamics 365 include a free Azure AD tenant. This Azure AD tenant does not include other Azure services and is not the same as an Azure trial or paid subscription.
   
 ### Summary of the hierarchy
 
@@ -106,11 +100,9 @@ Here is an example of the relationship of organizations, subscriptions, licenses
   
 - An organization identified by its public domain name.
     
-  - An Office 365 Enterprise E3 subscription with user licenses.
+  - A Microsoft 365 E3 subscription with user licenses.
     
-    An Office 365 Enterprise E5 subscription with user licenses.
-    
-    An EMS subscription with user licenses.
+    A Microsoft 365 E5 subscription with user licenses.
     
     A Dynamics 365 subscription with user licenses.
     
@@ -130,12 +122,11 @@ Figure 4 shows how a common Azure AD tenant is used by Microsoft's SaaS cloud of
 
 The following table describes how you can combine multiple Microsoft cloud offerings based on already having a subscription for one type of cloud offering (the labels going down the first column) and adding a subscription for a different cloud offering (going across the columns).
   
-||**Office 365**|**Azure**|**Intune/EMS**|**Dynamics 365**|
+||**Microsoft 365**|**Azure**|**Dynamics 365**|
 |:-----|:-----|:-----|:-----|:-----|
-|**Office 365** <br/> |NA  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization from the Microsoft 365 admin center.  <br/> |You add a Dynamics 365 subscription to your organization from the Microsoft 365 admin center.  <br/> |
-|**Azure** <br/> |You add an Office 365 subscription to your organization.  <br/> |NA  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
-|**Intune/EMS** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |NA  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
-|**Dynamics 365** <br/> |You add an Office 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add an Intune/EMS subscription to your organization.  <br/> |NA  <br/> |
+|**Microsoft 365** <br/> |NA  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |You add a Dynamics 365 subscription to your organization from the Microsoft 365 admin center.  <br/> |
+|**Azure** <br/> |You add a Microsoft 365 subscription to your organization.  <br/> |NA  <br/> |You add a Dynamics 365 subscription to your organization.  <br/> |
+|**Dynamics 365** <br/> |You add a Microsoft 365 subscription to your organization.  <br/> |You add an Azure subscription to your organization from the Azure portal.  <br/> |NA  <br/> |
    
 An easy way to add subscriptions to your organization for Microsoft SaaS-based services is through the admin center:
   
@@ -145,17 +136,17 @@ An easy way to add subscriptions to your organization for Microsoft SaaS-based s
     
 3. On the **Purchase services** page, purchase your new subscriptions.
     
-The admin center assigns the organization and Azure AD tenant of your Office 365 subscription to the new subscriptions for SaaS-based cloud offerings.
+The admin center assigns the organization and Azure AD tenant of your Microsoft 365 subscription to the new subscriptions for SaaS-based cloud offerings.
   
-To add an Azure subscription with the same organization and Azure AD tenant as your Office 365 subscription:
+To add an Azure subscription with the same organization and Azure AD tenant as your Microsoft 365 subscription:
   
-1. Sign in to the Azure portal ([https://portal.azure.com](https://portal.azure.com)) with your Office 365 global administrator account.
+1. Sign in to the Azure portal ([https://portal.azure.com](https://portal.azure.com)) with your Microsoft 365 global administrator account.
     
 2. In the left navigation, click **Subscriptions**, and then click **Add**.
     
 3. On the **Add subscription** page, select an offer and complete the payment information and agreement.
     
-If you purchased Azure and Office 365 subscriptions separately and want to access the Office 365 Azure AD tenant from your Azure subscription, see the instructions in [Add an existing Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
+If you purchased Azure and Microsoft 365 subscriptions separately and want to access the Microsoft 365 Azure AD tenant from your Azure subscription, see the instructions in [Add an existing Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory).
  
 ## See also
 
@@ -167,5 +158,5 @@ If you purchased Azure and Office 365 subscriptions separately and want to acces
 
 ## Next step
 
-[Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+[Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
   

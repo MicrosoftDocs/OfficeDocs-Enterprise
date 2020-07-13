@@ -23,9 +23,7 @@ description: "Summary: Deploy Azure AD Connect on a virtual machine in Azure to 
 
 # Deploy Microsoft 365 Directory Synchronization in Microsoft Azure
 
- **Summary:** Deploy Azure AD Connect on a virtual machine in Azure infrastructure services to synchronize accounts between your on-premises directory and the Azure AD tenant of your Microsoft 365 subscription.
-  
-Azure Active Directory (AD) Connect (formerly known as the Directory Synchronization tool, Directory Sync tool, or the DirSync.exe tool) is an application that you install on a domain-joined server to synchronize your on-premises Active Directory Domain Services (AD DS) users to the Azure AD tenant of your Microsoft 365 subscription. Microsoft 365 uses Azure Active Directory (Azure AD) for its directory service. Your Microsoft 365 subscription includes an Azure AD tenant. This tenant can also be used for management of your organization's identities with other cloud workloads, including other SaaS applications and apps in Azure.
+Azure Active Directory (Azure AD) Connect (formerly known as the Directory Synchronization tool, Directory Sync tool, or the DirSync.exe tool) is an application that you install on a domain-joined server to synchronize your on-premises Active Directory Domain Services (AD DS) users to the Azure AD tenant of your Microsoft 365 subscription. Microsoft 365 uses Azure AD for its directory service. Your Microsoft 365 subscription includes an Azure AD tenant. This tenant can also be used for management of your organization's identities with other cloud workloads, including other SaaS applications and apps in Azure.
 
 You can install Azure AD Connect on a on-premises server, but you can also install it on a virtual machine in Azure for these reasons:
   

@@ -22,7 +22,7 @@ description: "ExpressRoute for Office 365 provides layer 3 connectivity between 
 
 # Network planning with ExpressRoute for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 ExpressRoute for Office 365 provides layer 3 connectivity between the your network and Microsoft's datacenters. The circuits use Border Gateway Protocol (BGP) route advertisements of Office 365's front end servers. From the perspective of your on-premises devices, when they need to select the correct TCP/IP path to Office 365, Azure ExpressRoute is seen as an alternative to the Internet.
   

@@ -1,7 +1,7 @@
 ---
 title: "Office 365 Management Activity API"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article

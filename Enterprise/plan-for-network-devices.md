@@ -22,10 +22,8 @@ description: "Summary: Describes considerations for network capacity, WAN accele
 
 # Plan for network devices that connect to Office 365 services
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
   
-**Summary**: Describes considerations for network capacity, WAN accelerators, and load balancing devices that are used to connect to Office 365.
-
 Some network hardware may have limitations on the number of concurrent sessions that are supported. For organizations having more than 2,000 users, we recommend that they monitor their network devices to ensure they are capable of handling the additional Office 365 service traffic. Simple Network Management Protocol (SNMP) monitoring software can help you do this.
 
 ||

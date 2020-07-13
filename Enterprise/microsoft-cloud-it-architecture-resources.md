@@ -23,9 +23,7 @@ description: "Summary: Learn core cloud architecture concepts for Microsoft iden
 
 # Microsoft cloud IT architecture resources
 
- **Summary:** Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud.
-  
-These architecture tools and posters give you information about Microsoft cloud services, including Office 365, Windows 10, Azure Active Directory, Microsoft Intune, Microsoft Dynamics 365, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security. 
+These architecture tools and posters give you information about Microsoft cloud services, including Microsoft 365, Windows 10, Azure Active Directory, Microsoft Intune, Microsoft Dynamics 365, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security. 
   
 <!--**[Microsoft's Enterprise Cloud Roadmap](microsoft-cloud-it-architecture-resources.md#roadmap)** (Sway) -->
     
@@ -65,7 +63,7 @@ See the posters, icon sets, community venues, and other resources that describe 
 <a name="cloudarch"></a>
 ## Microsoft cloud for enterprise architects series
 
-These cloud architecture posters give you information about Microsoft cloud services, including Office 365, Azure Active Directory, Microsoft Intune, Microsoft Dynamics CRM Online, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security.
+These cloud architecture posters give you information about Microsoft cloud services, including Microsoft 365, Azure Active Directory, Microsoft Intune, Microsoft Dynamics CRM Online, and hybrid on-premises and cloud solutions. IT decision makers and architects can use these resources to determine the ideal solutions for their workloads and to make decisions about core infrastructure components such as identity and security.
 
 <!--  
 <a name="platformoptions"></a>
@@ -75,7 +73,7 @@ Learn key differences between Microsoft cloud services and platform offerings. F
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image of cloud architecture model with service options](media/ff5c74e2-afc6-40c1-9292-cc4cb128cdd1.png)          ](https://www.microsoft.com/download/details.aspx?id=54432) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524731)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=524732)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=54432) <br/> | This model describes: <ul><li>  Software as a Service (SaaS) offerings, including Office 365 </li><li>  Platform as a Service (PaaS) features in Microsoft Azure </li><li>  Infrastructure as a Service (IaaS) features in Microsoft Azure </li><li>  Private cloud datacenter capabilities using Windows Server and System Center </li><li>  Learn how Microsoft's own IT department is migrating to these cloud services and building its hybrid cloud. </li></ul><br/>|
+|[![Thumb image of cloud architecture model with service options](media/ff5c74e2-afc6-40c1-9292-cc4cb128cdd1.png)          ](https://www.microsoft.com/download/details.aspx?id=54432) <br/> [PDF](https://go.microsoft.com/fwlink/p/?LinkId=524731)  \| [Visio](https://go.microsoft.com/fwlink/p/?LinkId=524732)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=54432) <br/> | This model describes: <ul><li>  Software as a Service (SaaS) offerings, including Microsoft 365 </li><li>  Platform as a Service (PaaS) features in Microsoft Azure </li><li>  Infrastructure as a Service (IaaS) features in Microsoft Azure </li><li>  Private cloud datacenter capabilities using Windows Server and System Center </li><li>  Learn how Microsoft's own IT department is migrating to these cloud services and building its hybrid cloud. </li></ul><br/>|
 -->
 
    
@@ -104,7 +102,7 @@ What IT architects need to know about networking for Microsoft cloud services an
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for Microsoft cloud networking model](media/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)](media/Network-Poster/MSFT_cloud_architecture_networking.pdf) <br/> [PDF](media/Network-Poster/MSFT_cloud_architecture_networking.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Network-Poster/MSFT_cloud_architecture_networking.vsdx) <br/> | This model contains: <ul><li> Evolving your network for cloud connectivity </li><li> Common elements of Microsoft cloud connectivity </li><li> ExpressRoute for Microsoft cloud connectivity </li><li> Designing networking for Microsoft SaaS, Azure PaaS, and  Azure IaaS </li></ul><br/>  <br/>|
+|[![Thumb image for Microsoft cloud networking model](media/95e8ab6a-b4d0-4836-acc1-b0b77ebf46e6.png)](downloads/MSFT_cloud_architecture_networking.pdf) <br/> [PDF](downloads/MSFT_cloud_architecture_networking.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/MSFT_cloud_architecture_networking.vsdx) <br/> | This model contains: <ul><li> Evolving your network for cloud connectivity </li><li> Common elements of Microsoft cloud connectivity </li><li> ExpressRoute for Microsoft cloud connectivity </li><li> Designing networking for Microsoft SaaS, Azure PaaS, and  Azure IaaS </li></ul><br/>  <br/>|
 
 <a name="hybrid"></a>
 ### Microsoft hybrid cloud for enterprise architects
@@ -113,7 +111,7 @@ What IT architects need to know about hybrid cloud for Microsoft services and pl
   
 |**Item**|**Description**|
 |:-----|:-----|
-|[![Thumb image for the Microsoft hybrid cloud model](media/9989c71e-f6a0-4dbe-906c-43e67b3ce537.png)](media/Hybrid-Poster/MSFT_cloud_architecture_hybrid.pdf) <br/> [PDF](media/Hybrid-Poster/MSFT_cloud_architecture_hybrid.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Hybrid-Poster/MSFT_cloud_architecture_hybrid.vsdx)  | This model contains: <ul><li> Microsoft's cloud offerings (SaaS, Azure PaaS, and Azure IaaS) and their common elements </li><li> Hybrid cloud architecture for Microsoft's cloud offerings </li><li> Hybrid cloud scenarios for Microsoft SaaS (Office 365), Azure PaaS, and Azure IaaS </li></ul><br/>|
+|[![Thumb image for the Microsoft hybrid cloud model](media/9989c71e-f6a0-4dbe-906c-43e67b3ce537.png)](downloads/MSFT_cloud_architecture_hybrid.pdf) <br/> [PDF](downloads/MSFT_cloud_architecture_hybrid.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/MSFT_cloud_architecture_hybrid.vsdx)  | This model contains: <ul><li> Microsoft's cloud offerings (SaaS, Azure PaaS, and Azure IaaS) and their common elements </li><li> Hybrid cloud architecture for Microsoft's cloud offerings </li><li> Hybrid cloud scenarios for Microsoft SaaS (Microsoft 365), Azure PaaS, and Azure IaaS </li></ul><br/>|
    
 <a name="attacks"></a>
 ### Common attacks and Microsoft capabilities that protect your organization
