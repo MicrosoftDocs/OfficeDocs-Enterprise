@@ -24,8 +24,6 @@ description: "Summary: Get the IT posters that describe the architectural models
 
 # Architectural models for SharePoint, Exchange, Skype for Business, and Lync
 
- **Summary:** Get the IT posters that describe the architectural models, deployment, and platform options for SharePoint, Exchange, Skype for Business, and Lync.
-  
 These IT posters describe the architectural models and deployment options for SharePoint, Exchange, Skype for Business, and Lync, and they provide design information for deploying SharePoint in Microsoft Azure.
   
 With Microsoft 365, you can provide the collaboration and communication services your users are familiar with as a cloud-based service. With a few exceptions, the user experience remains the same whether you are maintaining an on-premises deployment or using Microsoft 365. This unified user experience makes it less straightforward to decide where to place each workload and raises questions such as:
@@ -50,8 +48,6 @@ This page links you to the following posters:
 - **Architectural models posters** You can use these resources to determine your ideal platform and configuration for SharePoint 2016 and Skype for Business 2015.
     
   - [Microsoft SharePoint 2016 Architectural Models](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#SP2016_ArchModel)
-    
-  - [Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#MultiGeoO365ODB)
     
   - [SharePoint Server 2016 Databases](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md#SP2016_Databases)
     
@@ -93,13 +89,6 @@ These new IT posters for SharePoint 2016 and Skype for Business 2015 provide a w
 |**Item**|**Description**|
 |:-----|:-----|
 |[![Thumbnail for the SharePoint 2016 Architectural Models poster](media/7d3e590c-1f3b-42cf-920d-9edac8fa3e04.png)          ](https://www.microsoft.com/download/details.aspx?id=52650) <br/> [PDF](https://download.microsoft.com/download/4/F/A/4FA0F94B-EE2F-41DB-A047-D9864FEF41E9/SharePoint2016ArchitecturalModels.pdf)  \| [Visio](https://download.microsoft.com/download/4/F/A/4FA0F94B-EE2F-41DB-A047-D9864FEF41E9/SharePoint2016ArchitecturalModels.vsdx)  \| [More languages](https://www.microsoft.com/download/details.aspx?id=52650) <br/> | This IT poster describes the SharePoint Online, Microsoft Azure, and SharePoint on-premises configurations that business decision makers and solutions architects need to know about. <br/><br/> - **SharePoint Online (SaaS)** - Consume SharePoint through a Software as a Service (SaaS) subscription model. <br/> - **SharePoint Hybrid** - Move your SharePoint sites and apps to the cloud at your own pace. <br/> - **SharePoint in Azure (IaaS)** - You extend your on-premises environment into Microsoft Azure and deploy SharePoint 2016 Servers there. (This is recommended for High Availability/Disaster Recovery and dev/test environments.) <br/> - **SharePoint On-premises** - You plan, deploy, maintain and customize your SharePoint environment in a datacenter that you maintain. <br/> |
-   
-<a name="MultiGeoO365ODB"> </a>
-### Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365
-
-|**Item**|**Description**|
-|:-----|:-----|
-|[![Multi-Geo OneDrive in Microsoft 365 model](media/c6c1b7cd-7833-46fb-9eec-c12150c260d9.png)          ](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Multi-Geo-ODB.pdf) <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Multi-Geo-ODB.pdf)  \| [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/Multi-Geo-ODB.vsdx) <br/> | This poster is a one-page overview of Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365. This model includes: <br/><br/> - Benefits <br/> - Steps for deployment <br/> - An example configuration <br/><br/>  For more information about Multi-Geo Capabilities in OneDrive and SharePoint Online in Microsoft 365, click [here](https://aka.ms/onedrivemultigeo).  <br/> |
    
 <a name="SP2016_Databases"> </a>
 ### SharePoint Server 2016 Databases

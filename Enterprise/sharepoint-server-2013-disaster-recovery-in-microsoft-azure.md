@@ -20,7 +20,7 @@ description: "Summary: Using Azure, you can create a disaster-recovery environme
 
 # SharePoint Server 2013 Disaster Recovery in Microsoft Azure
 
- **Summary:** Using Azure, you can create a disaster-recovery environment for your on-premises SharePoint farm. This article describes how to design and implement this solution.
+ Using Azure, you can create a disaster-recovery environment for your on-premises SharePoint farm. This article describes how to design and implement this solution.
 
  **Watch the SharePoint Server 2013 disaster recovery overview video**
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/1b73ec8f-29bd-44eb-aa3a-f7932784bfd9?autoplay=false]

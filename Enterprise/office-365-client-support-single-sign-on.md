@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Client App Support — Single Sign-On"
-ms.author: robmazz
-author: robmazz
+title: "Microsoft 365 Client App Support — Single Sign-On"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: "Office 365 Client App support for single sign-on."
+description: "Microsoft 365 Client App support for single sign-on."
 ---
 
-# Office 365 Client App Support — Single Sign-On
+# Microsoft 365 Client App Support — Single Sign-On
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Single sign-on (SSO) adds security and convenience when your users sign on to applications in Azure Active Directory (Azure AD). With single sign-on, users sign in once with one account to access domain-joined devices, company resources, software as a service (SaaS) applications, and web applications.
 
@@ -34,7 +34,7 @@ Learn more about [single sign-on](https://docs.microsoft.com/azure/active-direct
  - iOS<sup>1</sup>
  - macOS<sup>4</sup>
 
-For more information about platform support in Office 365, see [System requirements for Office 365](https://products.office.com/office-system-requirements).
+For more information about platform support in Microsoft 365, see [System requirements for Microsoft 365](https://products.office.com/office-system-requirements).
 
 ## Supported clients
 
