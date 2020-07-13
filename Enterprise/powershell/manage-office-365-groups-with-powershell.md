@@ -1,5 +1,5 @@
 ---
-title: "Manage Office 365 Groups with PowerShell"
+title: "Manage Microsoft 365 Groups with PowerShell"
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -17,28 +17,28 @@ search.appverid:
 - BSA160
 - BCS160
 ms.assetid: aeb669aa-1770-4537-9de2-a82ac11b0540
-description: "Learn how to do common management tasks for Office 365 groups in Microsoft PowerShell."
+description: "Learn how to do common management tasks for Microsoft 365 groups in Microsoft PowerShell."
 ---
 
-# Manage Office 365 Groups with PowerShell
+# Manage Microsoft 365 Groups with PowerShell
  
 This article provides the steps for doing common management tasks for Groups in Microsoft PowerShell. It also lists the PowerShell cmdlets for Groups. For info about managing SharePoint sites, see [Manage SharePoint Online sites using PowerShell](https://docs.microsoft.com/sharepoint/manage-team-and-communication-sites-in-powershell).
 
-## Link to your Office 365 Groups usage guidelines
+## Link to your Microsoft 365 Groups usage guidelines
 <a name="BK_LinkToGuideLines"> </a>
 
 When users [create or edit a group in Outlook](https://support.office.com/article/04d0c9cf-6864-423c-a380-4fa858f27102.aspx), you can show them a link to your organization's usage guidelines. For example, if you require a specific prefix or suffix to be added to a group name.
   
-Use the Azure Active Directory (Azure AD) PowerShell to point your users to your organization's usage guidelines for Office 365 groups. Check out [Azure Active Directory cmdlets for configuring group settings](https://go.microsoft.com/fwlink/?LinkID=827484) and follow the steps in the **Create settings at the directory level** to define the usage guideline hyperlink. Once you run the Azure AD cmdlet, user's will see the link to your guidelines when they create or edit a group in Outlook. 
+Use the Azure Active Directory (Azure AD) PowerShell to point your users to your organization's usage guidelines for Microsoft 365 groups. Check out [Azure Active Directory cmdlets for configuring group settings](https://go.microsoft.com/fwlink/?LinkID=827484) and follow the steps in the **Create settings at the directory level** to define the usage guideline hyperlink. Once you run the AAD cmdlet, user's will see the link to your guidelines when they create or edit a group in Outlook. 
   
 ![Create a new group with usage guidelines link](../media/3f74463f-3448-4f24-a0ec-086d9aa95caa.png)
   
 ![Click Group usage guidelines to see your organizations Office 365 groups guidelines](../media/d0d54ace-f0ec-4946-b2de-50ce23f17765.png)
   
-## Allow users to Send as the Office 365 Group
+## Allow users to Send as the Microsoft 365 Group
 <a name="BK_LinkToGuideLines"> </a>
   
-If you want to enable your Office 365 groups to "Send As", use the [Add-RecipientPermission](https://docs.microsoft.com/powershell/module/exchange/Add-RecipientPermission) and the [Get-RecipientPermission](https://docs.microsoft.com/powershell/module/exchange/Get-Recipient) cmdlets to configure this. Once you enable this setting, Office 365 group users can use Outlook or Outlook on the web to send and reply to email as the Office 365 group. Users can go to the group, create a new email, and change the "Send As" field to the group's email address. 
+If you want to enable your Microsoft 365 groups to "Send As", use the [Add-RecipientPermission](https://docs.microsoft.com/powershell/module/exchange/Add-RecipientPermission) and the [Get-RecipientPermission](https://docs.microsoft.com/powershell/module/exchange/Get-Recipient) cmdlets to configure this. Once you enable this setting, Microsoft 365 group users can use Outlook or Outlook on the web to send and reply to email as the Microsoft 365 group. Users can go to the group, create a new email, and change the "Send As" field to the group's email address. 
 
 ([You can also do this in the Exchange Admin Center](https://docs.microsoft.com/office365/admin/create-groups/allow-members-to-send-as-or-send-on-behalf-of-group).)
   
