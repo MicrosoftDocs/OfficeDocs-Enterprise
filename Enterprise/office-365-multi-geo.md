@@ -45,6 +45,15 @@ Here are the key terms used in describing Microsoft 365 Multi-Geo:
 - **Satellite location** – The geo locations where the geo-aware Microsoft 365 workloads (SharePoint, OneDrive, and Exchange) are enabled in a multi-geo tenant.
 - **Tenant** – An organization's representation in Microsoft 365 which typically has one or more domains associated with it (for example, contoso.com).
 
+## Licensing
+
+Microsoft 365 Multi-Geo is available as an add-on to the following Microsoft 365 subscription plans for EA customers with a minimum of 250 Microsoft 365 seats in their tenant, and a minimum of 5% of those seats using multi-geo. Please contact your Microsoft account team for details.
+
+- Microsoft 365 F1, E1, E3, or E5
+- Exchange Online Plan 1 or Plan 2
+- OneDrive for Business Plan 1 or Plan 2
+- SharePoint Online Plan 1 or Plan 2
+
 ## Microsoft 365 Multi-Geo availability
 
 Microsoft 365 Multi-Geo is currently offered in these regions and countries:
