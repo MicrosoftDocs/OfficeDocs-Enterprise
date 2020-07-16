@@ -98,6 +98,15 @@ The **Remote work setup guide** provides organizations with the tips and resourc
 | **Run:** | [Remote work setup guide](https://aka.ms/remoteworksetup) |
 |||
 
+### Windows Virtual Desktop setup guide
+
+Windows Virtual Desktop is a comprehensive desktop and app virtualization service running in the cloud. It's the only virtual desktop infrastructure (VDI) that delivers simplified management, multi-session Windows 10, optimizations for Microsoft 365 Apps, and support for Remote Desktop Services (RDS) environments. Deploy and scale your Windows desktops and apps to Azure in minutes and get built-in security and compliance features. The **Windows Virtual Desktop setup guide** provides administrators with planning resources and the prerequisites for deployment, setup guidance, and additional resources. 
+
+|||
+|:-------|:-----|
+| **Run:** | [Windows Virtual Desktop setup guide](https://aka.ms/wvdsetupguide) |
+|||
+
 ## Guides for security
 
 ### Azure AD setup guide
@@ -107,6 +116,15 @@ The **Azure AD setup guide** provides information to ensure your org has a stron
 |||
 |:-------|:-----|
 | **Run:** | [Azure AD setup guide](https://aka.ms/aadpguidance) |
+|||
+
+### Plan your passwordless deployment
+
+Upgrade to an alternative sign-in approach that allows users to access their devices securely with one of the following passwordless authentication methods: Windows Hello for Business, Microsoft Authenticator app, or security keys. Use this wizard to discover the best passwordless authentication methods to use and receive guidance on how to deploy them.
+
+|||
+|:-------|:-----|
+| **Run:** | [Plan your passwordless deployment](https://aka.ms/passwordlesssetup) |
 |||
 
 ### Microsoft Defender Advanced Threat Protection (ATP) advisor
