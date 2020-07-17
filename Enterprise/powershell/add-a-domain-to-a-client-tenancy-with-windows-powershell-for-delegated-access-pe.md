@@ -21,6 +21,8 @@ description: "Summary: Use PowerShell for Microsoft 365 to add an alternate doma
 
 # Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners
 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
 You can create and associate new domains with your customer's tenancy with PowerShell for Microsoft 365 faster than using the Microsoft 365 admin center.
   
 Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners. They are frequently network or telecom providers to other companies. They bundle Microsoft 365 subscriptions into their service offerings to their customers. When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.

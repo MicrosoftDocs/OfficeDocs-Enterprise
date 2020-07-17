@@ -1,9 +1,9 @@
 ---
-title: "Maintain group membership with PowerShell for Microsoft 365"
+title: "Maintain Microsoft 365 group membership with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/06/2019
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,10 +18,12 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: "Learn how to use PowerShell for Microsoft 365 to maintain membership in groups for Microsoft 365."
+description: "Learn how to use PowerShell to maintain membership in Microsoft 365 groups."
 ---
 
-# Maintain group membership with PowerShell for Microsoft 365
+# Maintain Microsoft 365 group membership with PowerShell
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 You can use PowerShell for Microsoft 365 as an alternative to the Microsoft 365 admin center to maintain group membership in Microsoft 365. 
 
@@ -146,7 +148,7 @@ Remove-MsolGroupMember -GroupMemberObjectId (Get-MsolGroup | Where { $_.DisplayN
 
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

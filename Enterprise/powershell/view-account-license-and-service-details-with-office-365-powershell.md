@@ -1,9 +1,9 @@
 ---
-title: "View account license and service details with PowerShell for Microsoft 365"
+title: "View Microsoft 365 account license and service details with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/17/2019
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -19,14 +19,16 @@ ms.custom:
 - LIL_Placement
 ms.assetid: ace07d8a-15ca-4b89-87f0-abbce809b519
 
-description: "Explains how to use PowerShell for Microsoft 365 to determine the Office 365 services that have been assigned to users."
+description: "Explains how to use PowerShell to determine the Microsoft 365 services that have been assigned to users."
 ---
 
-# View account license and service details with PowerShell for Microsoft 365
+# View Microsoft 365 account license and service details with PowerShell
 
-In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use PowerShell for Microsoft 365 to view the status of services on user accounts. 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-For more information about licensing plans, license, and services, see [View licenses and services with PowerShell for Microsoft 365](view-licenses-and-services-with-office-365-powershell.md).
+In Microsoft 365, licenses from licensing plans (also called SKUs or Microsoft 365 plans) give users access to the Microsoft 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use PowerShell for Microsoft 365 to view the status of services on user accounts. 
+
+For more information about licensing plans, license, and services, see [View licenses and services with PowerShell](view-licenses-and-services-with-office-365-powershell.md).
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -88,7 +90,7 @@ Get-MsolUser -UserPrincipalName <user account UPN> | Format-List DisplayName,Lic
 
 ### To view services for a user account
 
-To view all the Office 365 services that a user has access to, use the following syntax:
+To view all the Microsoft 365 services that a user has access to, use the following syntax:
   
 ```powershell
 (Get-MsolUser -UserPrincipalName <user account UPN>).Licenses[<LicenseIndexNumber>].ServiceStatus
@@ -123,7 +125,7 @@ $licArray
  
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

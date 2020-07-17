@@ -1,9 +1,9 @@
 ---
-title: "Manage Skype for Business Online with PowerShell for Microsoft 365"
+title: "Manage Skype for Business Online with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/28/2018
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -16,9 +16,11 @@ ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
 description: "Summary: Use PowerShell for Microsoft 365 to manage Skype for Business Online policies, per-user policies, and meeting settings."
 ---
 
-# Manage Skype for Business Online with PowerShell for Microsoft 365
+# Manage Skype for Business Online with PowerShell
 
-One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in PowerShell for Microsoft 365. 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in PowerShell. 
 
 ## Before you start
 
@@ -57,9 +59,9 @@ Download and install the [Skype for Business Online Connector module](https://ww
 
 For more information, see the following topics:
   
-- [Manage Skype for Business Online policies with PowerShell for Microsoft 365](manage-skype-for-business-online-policies-with-office-365-powershell.md)
+- [Manage Skype for Business Online policies with PowerShell](manage-skype-for-business-online-policies-with-office-365-powershell.md)
     
-- [Assign per-user Skype for Business Online policies with PowerShell for Microsoft 365](assign-per-user-skype-for-business-online-policies-with-office-365-powershell.md)
+- [Assign per-user Skype for Business Online policies with PowerShell](assign-per-user-skype-for-business-online-policies-with-office-365-powershell.md)
     
 ## See also
 

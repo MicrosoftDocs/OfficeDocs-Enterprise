@@ -3,7 +3,7 @@ title: "Manage Exchange Online with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/17/2019
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -21,6 +21,8 @@ description: "Summary: Use PowerShell for Microsoft 365 to manage Microsoft Exch
 ---
 
 # Manage Exchange Online with PowerShell for Microsoft 365
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 One of the primary tasks of any Microsoft Exchange Online administrator is managing mailboxes and getting reports on them. Although you can accomplish some of these tasks in the Exchange admin center, other tasks are much quicker and easier in PowerShell for Microsoft 365. For more information, see the following topics:
   

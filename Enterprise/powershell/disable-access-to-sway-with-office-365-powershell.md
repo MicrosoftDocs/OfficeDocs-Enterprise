@@ -3,7 +3,7 @@ title: "Disable access to Sway with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -22,11 +22,13 @@ description: "Learn where to download the ManageSway.ps1 PowerShell script that 
 
 # Disable access to Sway with PowerShell for Microsoft 365
 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
 The ManageSway.ps1 PowerShell script lets you view and disable services in your Microsoft 365 organization, including Sway. This script automates the procedures that are described in the following topics:
   
-- [View licenses and services with PowerShell for Microsoft 365](view-licenses-and-services-with-office-365-powershell.md)
+- [View licenses and services with PowerShell](view-licenses-and-services-with-office-365-powershell.md)
     
-- [Disable access to services with PowerShell for Microsoft 365](disable-access-to-services-with-office-365-powershell.md)
+- [Disable access to services with PowerShell](disable-access-to-services-with-office-365-powershell.md)
     
 You need to download the two files that are associated with the script:
   

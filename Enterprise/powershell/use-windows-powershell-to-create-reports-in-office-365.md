@@ -3,7 +3,7 @@ title: "Use PowerShell to create reports in Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -17,6 +17,8 @@ description: "Summary: Use PowerShell for Microsoft 365 to create reports that y
 ---
 
 # Use PowerShell to create reports in Microsoft 365
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 There are many different reports available in the Microsoft 365 admin center. However, these reports only provide so much information and sometimes you need more. That's when you need PowerShell for Microsoft 365
   
@@ -32,25 +34,25 @@ These articles that describe how to use PowerShell for Microsoft 365 to obtain i
     
 - Reports for user accounts and licenses:
     
-  - [View licenses and services with PowerShell for Microsoft 365](view-licenses-and-services-with-office-365-powershell.md)
+  - [View Microsoft 365 licenses and services with PowerShell](view-licenses-and-services-with-office-365-powershell.md)
     
-  - [View licensed and unlicensed users with PowerShell for Microsoft 365](view-licensed-and-unlicensed-users-with-office-365-powershell.md)
+  - [View Microsoft 365 licensed and unlicensed users with PowerShell](view-licensed-and-unlicensed-users-with-office-365-powershell.md)
     
-  - [View account license and service details with PowerShell for Microsoft 365](view-account-license-and-service-details-with-office-365-powershell.md)
+  - [View Microsoft 365 account license and service details with PowerShell](view-account-license-and-service-details-with-office-365-powershell.md)
     
-  - [View user accounts with PowerShell for Microsoft 365](view-user-accounts-with-office-365-powershell.md)
+  - [View Microsoft 365 user accounts with PowerShell](view-user-accounts-with-office-365-powershell.md)
     
 - Reports for SharePoint Online:
     
-  - [Manage SharePoint Online users and groups with PowerShell for Microsoft 365](https://technet.microsoft.com/library/9680af2e-a965-4e62-92ee-da72105c7800.aspx)
+  - [Get started with SharePoint Online Management Shell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
     
-  - [Manage SharePoint Online site groups with PowerShell for Microsoft 365](https://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
+  - [Manage SharePoint Online site groups with PowerShell](https://technet.microsoft.com/library/122f4099-c78d-4cce-bab0-4343b04596ae.aspx)
     
 - Reports for Exchange Online:
     
-  - [Display Exchange Online mailbox information with PowerShell for Microsoft 365](https://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
+  - [Display Exchange Online mailbox information with PowerShell](https://technet.microsoft.com/library/13843002-56ca-4b75-81c5-84386522b01b.aspx)
     
-  - [Display Exchange Online reports with PowerShell for Microsoft 365](https://technet.microsoft.com/library/4873a063-9fc4-4ed9-826a-6e935fef61d4.aspx)
+  - [Display Exchange Online reports with PowerShell](https://technet.microsoft.com/library/4873a063-9fc4-4ed9-826a-6e935fef61d4.aspx)
     
 ## See also
 
@@ -58,7 +60,7 @@ These articles that describe how to use PowerShell for Microsoft 365 to obtain i
   
 [Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
   
-[Manage SharePoint Online with PowerShell for Microsoft 365](manage-sharepoint-online-with-office-365-powershell.md)
+[Manage SharePoint Online with PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
   
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   

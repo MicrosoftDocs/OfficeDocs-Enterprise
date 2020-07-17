@@ -1,5 +1,5 @@
 ---
-title: "Create SharePoint Online sites and add users with PowerShell for Microsoft 365"
+title: "Create SharePoint Online sites and add users with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,10 +17,12 @@ ms.custom:
 - Ent_Office_Other
 - SPO_Content
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: "Summary: Use PowerShell for Microsoft 365 to create new SharePoint Online sites, and then add users and groups to those sites."
+description: "Summary: Use PowerShell to create new SharePoint Online sites and then add users and groups to those sites."
 ---
 
-# Create SharePoint Online sites and add users with PowerShell for Microsoft 365
+# Create SharePoint Online sites and add users with PowerShell
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 When you use PowerShell for Microsoft 365 to create SharePoint Online sites and add users, you can quickly and repeatedly perform tasks much faster than you can in the Microsoft 365 admin center. You can also perform tasks that are not possible to perform in the Microsoft 365 admin center. 
 
@@ -28,11 +30,11 @@ When you use PowerShell for Microsoft 365 to create SharePoint Online sites and 
 
 The procedures in this topic require you to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-## Step 1: Create new site collections using PowerShell for Microsoft 365
+## Step 1: Create new site collections using PowerShell
 
-Create multiple sites using PowerShell for Microsoft 365 and a .csv file that you create using the example code provided and Notepad. For this procedure, you’ll be replacing the placeholder information shown in brackets with your own site- and tenant-specific information. This process lets you create a single file and run a single PowerShell for Microsoft 365 command that uses that file. This makes the actions taken both repeatable and portable and eliminates many, if not all, errors that can come from typing long commands into the SharePoint Online Management Shell. There are two parts to this procedure. First you’ll create a .csv file, and then you’ll reference that .csv file using PowerShell for Microsoft 365, which will use its contents to create the sites.
+Create multiple sites using PowerShell and a .csv file that you create using the example code provided and Notepad. For this procedure, you’ll be replacing the placeholder information shown in brackets with your own site- and tenant-specific information. This process lets you create a single file and run a single PowerShell command that uses that file. This makes the actions taken both repeatable and portable and eliminates many, if not all, errors that can come from typing long commands into the SharePoint Online Management Shell. There are two parts to this procedure. First you’ll create a .csv file, and then you’ll reference that .csv file using PowerShell, which will use its contents to create the sites.
 
-The PowerShell for Microsoft 365 cmdlet imports the .csv file and pipes it to a loop inside the curly brackets that reads the first line of the file as column headers. The PowerShell for Microsoft 365 cmdlet then iterates through the remaining records, creates a new site collection for each record, and assigns properties of the site collection according to the column headers.
+The PowerShell cmdlet imports the .csv file and pipes it to a loop inside the curly brackets that reads the first line of the file as column headers. The PowerShell cmdlet then iterates through the remaining records, creates a new site collection for each record, and assigns properties of the site collection according to the column headers.
 
 ### Create a .csv file
 
@@ -151,7 +153,7 @@ c:\users\MyAlias\desktop\UsersAndGroups.ps1
 
 [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-[Manage SharePoint Online site groups with PowerShell for Microsoft 365](manage-sharepoint-site-groups-with-powershell.md)
+[Manage SharePoint Online site groups with PowerShell](manage-sharepoint-site-groups-with-powershell.md)
 
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

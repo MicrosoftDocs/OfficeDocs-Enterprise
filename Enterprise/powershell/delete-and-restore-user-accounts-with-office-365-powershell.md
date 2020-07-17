@@ -1,9 +1,9 @@
 ---
-title: "Delete user accounts with PowerShell for Microsoft 365"
+title: "Delete Microsoft 365 user accounts with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/16/2019
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -21,7 +21,7 @@ ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
 description: "Learn how to use PowerShell for Microsoft 365 to delete user accounts."
 ---
 
-# Delete user accounts with PowerShell for Microsoft 365
+# Delete Microsoft 365 user accounts with PowerShell
 
 You can use PowerShell for Microsoft 365 to delete a user account.
    
@@ -112,7 +112,7 @@ Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

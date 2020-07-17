@@ -1,9 +1,9 @@
 ---
-title: "View licensed and unlicensed users with PowerShell for Microsoft 365"
+title: "View licensed and unlicensed Microsoft 365 users with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/18/2019
+ms.date: 07/21/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,14 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: e4ee53ed-ed36-4993-89f4-5bec11031435
-description: "Explains how to use PowerShell for Microsoft 365 to view licensed and unlicensed user accounts."
+description: "Explains how to use PowerShell to view licensed and unlicensed Microsoft 365 user accounts."
 ---
 
-# View licensed and unlicensed users with PowerShell for Microsoft 365
+# View licensed and unlicensed Microsoft 365 users with PowerShell
 
-User accounts in your Office 365 organization may have some, all, or none of the available licenses assigned to them from the licensing plans that are available in your organization. You can use PowerShell for Microsoft 365 to quickly find the licensed and unlicensed users in your organization.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+User accounts in your Microsoft 365 organization may have some, all, or none of the available licenses assigned to them from the licensing plans that are available in your organization. You can use PowerShell for Microsoft 365 to quickly find the licensed and unlicensed users in your organization.
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -73,7 +75,7 @@ Get-MsolUser -All | where {$_.isLicensed -eq $true}
 
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

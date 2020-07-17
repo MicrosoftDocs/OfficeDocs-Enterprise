@@ -1,5 +1,5 @@
 ---
-title: "PowerShell for Microsoft 365 community resources"
+title: "Microsoft 365 community resources for PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ ms.assetid: ebe0f5ff-fd17-487f-bbb6-271b5ea270bb
 description: "Summary: Get help with PowerShell for Microsoft 365 from these community venues."
 ---
 
-# PowerShell for Microsoft 365 community resources
+# Microsoft 365 community resources for PowerShell
 
 Use these communities to get you connected to your peers and get your PowerShell for Microsoft 365 questions answered quickly and correctly. 
   

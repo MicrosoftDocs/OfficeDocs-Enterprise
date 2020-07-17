@@ -1,5 +1,5 @@
 ---
-title: "Disable access to services while assigning user licenses"
+title: "Disable access to Microsoft 365 services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -20,9 +20,11 @@ ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
 description: "Learn how to assign licenses to user accounts and disable specific service plans at the same time using PowerShell for Microsoft 365."
 ---
 
-# Disable access to services while assigning user licenses
+# Disable access to Microsoft 365 services while assigning user licenses
 
-Microsoft 365 subscriptions come with service plans for individual services. Microsoft 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign an Microsoft 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Microsoft 365 subscriptions come with service plans for individual services. Microsoft 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign a Microsoft 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -179,10 +181,10 @@ This PowerShell command block:
     
 ## See also
 
-[Disable access to services with PowerShell for Microsoft 365](disable-access-to-services-with-office-365-powershell.md)
+[Disable access to Microsoft 365 services with PowerShell](disable-access-to-services-with-office-365-powershell.md)
   
-[Disable access to Sway with PowerShell for Microsoft 365](disable-access-to-sway-with-office-365-powershell.md)
+[Disable access to Sway with PowerShell](disable-access-to-sway-with-office-365-powershell.md)
   
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)

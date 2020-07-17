@@ -1,9 +1,9 @@
 ---
-title: "Manage Skype for Business Online policies with PowerShell for Microsoft 365"
+title: "Manage Skype for Business Online policies with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/26/2019
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,10 +13,12 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
-description: "Summary: Use PowerShell for Microsoft 365 to manage your Skype for Business Online user account properties with policies."
+description: "Summary: Use PowerShell to manage your Skype for Business Online user account properties with policies."
 ---
 
-# Manage Skype for Business Online policies with PowerShell for Microsoft 365
+# Manage Skype for Business Online policies with PowerShell
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 To manage many properties of user account for Skype for Business Online, you must specify them as properties of policies with PowerShell for Microsoft 365.
   
@@ -117,7 +119,7 @@ Get-CsClientPolicy -Identity "Global"
 
 ## See also
 
-[Manage Skype for Business Online with PowerShell for Microsoft 365](manage-skype-for-business-online-with-office-365-powershell.md)
+[Manage Skype for Business Online with PowerShell](manage-skype-for-business-online-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

@@ -20,10 +20,12 @@ ms.assetid: ba235f4f-e640-4360-81ea-04507a3a70be
 search.appverid:
 - MET150
 
-description: "How to use PowerShell to assign an Microsoft 365 license to unlicensed users."
+description: "How to use PowerShell to assign a Microsoft 365 license to unlicensed users."
 ---
 
 # Assign Microsoft 365 licenses to user accounts with PowerShell
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 Users can't use any Microsoft 365 services until their account has been assigned a license from a licensing plan. You can use PowerShell to quickly assign licenses to unlicensed accounts. 
 

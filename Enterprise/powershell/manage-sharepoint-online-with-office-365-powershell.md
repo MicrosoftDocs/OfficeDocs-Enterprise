@@ -1,9 +1,9 @@
 ---
-title: "Manage SharePoint Online with PowerShell for Microsoft 365"
+title: "Manage SharePoint Online with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/17/2019
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -23,15 +23,17 @@ description: "Summary: Use PowerShell for Microsoft 365 to manage SharePoint Onl
 
 # Manage SharePoint Online with PowerShell for Microsoft 365
 
-One of the primary tasks of any SharePoint Online administrator is managing sites, site groups, and users. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in PowerShell for Microsoft 365. For more information, see these topics:
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+One of the primary tasks of any SharePoint Online administrator is managing sites, site groups, and users. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in PowerShell. For more information, see these topics:
 
 - [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
   
-- [Create SharePoint Online sites and add users with PowerShell for Microsoft 365](create-sharepoint-sites-and-add-users-with-powershell.md)
+- [Create SharePoint Online sites and add users with PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
     
-- [Manage SharePoint Online users and groups with PowerShell for Microsoft 365](manage-sharepoint-users-and-groups-with-powershell.md)
+- [Manage SharePoint Online users and groups with PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
     
-- [Manage SharePoint Online site groups with PowerShell for Microsoft 365](manage-sharepoint-site-groups-with-powershell.md)
+- [Manage SharePoint Online site groups with PowerShell](manage-sharepoint-site-groups-with-powershell.md)
     
 ## See also
 

@@ -3,7 +3,7 @@ title: "Connect to Microsoft 365 with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/30/2020
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -21,14 +21,16 @@ description: "Connect to your Microsoft 365 tenant using PowerShell for Microsof
 
 # Connect to Microsoft 365 with PowerShell
 
-PowerShell for Microsoft 365 lets you manage your Microsoft 365 settings from the command line. Connecting to PowerShell for Microsoft 365 is a simple process where you install the required software and then connect to your Microsoft 365 organization. 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+PowerShell for Microsoft 365 lets you manage your Microsoft 365 settings from the command line. Connecting to PowerShell is a simple process where you install the required software and then connect to your Microsoft 365 organization. 
 
 There are two versions of the PowerShell module that you use to connect to Microsoft 365 and administer user accounts, groups, and licenses:
 
 - Azure Active Directory PowerShell for Graph (cmdlets include **AzureAD** in their name)
 - Microsoft Azure Active Directory Module for Windows PowerShell (cmdlets include **MSol** in their name) 
 
-As of the date of this article, the Azure Active Directory PowerShell for Graph module does not completely replace the functionality in the cmdlets of Microsoft Azure Active Directory Module for Windows PowerShell module for user, group, and license administration. In many cases, you need to use both versions. You can safely install both versions on the same computer.
+As of the date of this article, the Azure Active Directory PowerShell for Graph module does not completely replace the functionality in the cmdlets of Microsoft Azure Active Directory Module for Windows PowerShell module for user, group, and license administration. In some cases, you need to use both versions. You can safely install both versions on the same computer.
 
 ## What do you need to know before you begin?
 
@@ -44,7 +46,7 @@ You can use the following versions of Windows:
     > [!NOTE]
     > Use a 64-bit version of Windows. Support for the 32-bit version the Microsoft Azure Active Directory Module for Windows PowerShell was discontinued in October of 2014.
     
-These procedures are intended for users who are members of an Microsoft 365 admin role. For more information, see [About admin roles](https://go.microsoft.com/fwlink/p/?LinkId=532367).
+These procedures are intended for users who are members of a Microsoft 365 admin role. For more information, see [About admin roles](https://go.microsoft.com/fwlink/p/?LinkId=532367).
 
 
 ## Connect with the Azure Active Directory PowerShell for Graph module
@@ -131,7 +133,7 @@ If you are using MFA, follow the instructions in the additional dialog boxes to 
 
 ### How do you know this worked?
 
-If you don't receive any errors, you connected successfully. A quick test is to run an Microsoft 365 cmdlet—for example, **Get-MsolUser** —and see the results.
+If you don't receive any errors, you connected successfully. A quick test is to run a Microsoft 365 cmdlet—for example, **Get-MsolUser** —and see the results.
   
 If you receive errors, check the following requirements:
   

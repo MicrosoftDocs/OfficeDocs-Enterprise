@@ -1,5 +1,5 @@
 ---
-title: "Block user accounts with PowerShell for Microsoft 365"
+title: "Block Microsoft 365 user accounts with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,12 +17,14 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 04e58c2a-400b-496a-acd4-8ec5d37236dc
-description: "Explains how to use PowerShell for Microsoft 365 to block and unblock access to Microsoft 365 accounts."
+description: "Explains how to use PowerShell to block and unblock access to Microsoft 365 accounts."
 ---
 
-# Block user accounts with PowerShell for Microsoft 365
+# Block Microsoft 365 user accounts with PowerShell
 
-Blocking access to a Microsoft 365 account prevents anyone from using the account to sign in and access the services and data in your Microsoft 365 organization. You can use PowerShell for Microsoft 365 to block access to individual and multiple user accounts.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Blocking access to a Microsoft 365 account prevents anyone from using the account to sign in and access the services and data in your Microsoft 365 organization. You can use PowerShell to block access to individual and multiple user accounts.
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -163,7 +165,7 @@ To unblock the accounts listed in the text file, run the following command:
 
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

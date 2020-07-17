@@ -21,6 +21,8 @@ description: "Summary: Syndication and Cloud Solution Provider (CSP) partners ca
 
 # Manage Microsoft 365 with Windows PowerShell for Delegated Access Permissions (DAP) partners
 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
 Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners. They are frequently network or telecom providers to other companies. They bundle Microsoft 365 subscriptions into their service offerings to their customers. When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies. At best, this is difficult and time consuming to do in the Microsoft 365 admin center. It is much easier to do administrative tasks like listing all the customer **TenantIds** and their domains or identifying all users in a customer tenancy and what licenses they are assigned by using PowerShell for Microsoft 365. In some cases, it is possible to do these administrative tasks only in PowerShell for Microsoft 365. Here are samples of scenarios that Syndication and CSP partners most frequently use to administer their customer tenancies:
   
 ## 

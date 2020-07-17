@@ -4,11 +4,11 @@
 ### [Why you need to use PowerShell for Microsoft 365](why-you-need-to-use-office-365-powershell.md)
 ### [Connect to Microsoft 365 with PowerShell](connect-to-office-365-powershell.md)
 ### [Connect to all Microsoft 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md)
-### [Use Windows PowerShell to create reports in Microsoft 365](use-windows-powershell-to-create-reports-in-office-365.md)
+### [Use PowerShell to create reports for Microsoft 365](use-windows-powershell-to-create-reports-in-office-365.md)
 ### [Cmdlet references for Microsoft 365 services](cmdlet-references-for-office-365-services.md)
-### [PowerShell for Microsoft 365 community resources](office-365-powershell-community-resources.md)
+### [Microsoft 365 community resources for PowerShell](office-365-powershell-community-resources.md)
 
-## [Manage user accounts, licenses, and groups](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+## [Manage Microsoft 365 user accounts, licenses, and groups](manage-user-accounts-and-licenses-with-office-365-powershell.md)
 
 ### User accounts
 #### [Create user accounts](create-user-accounts-with-office-365-powershell.md)

@@ -3,7 +3,7 @@ title: "Getting started with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/13/2019
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-administration
@@ -19,6 +19,8 @@ description: "Summary: Understand the importance of PowerShell for Microsoft 365
 ---
 
 # Getting started with PowerShell for Microsoft 365
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 With PowerShell for Microsoft 365, you can manage Microsoft 365 with commands and scripts to streamline your daily work. Learn why PowerShell for Microsoft 365 skills are crucial to managing Microsoft 365, how to connect to your Microsoft 365 subscription, create reports, and get additional information and help from the Microsoft 365 community.
   

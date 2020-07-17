@@ -36,7 +36,7 @@ This is not optimal for managing Microsoft 365 because you can't exchange data a
 
 Before you can manage all of Microsoft 365 from a single instance of Windows PowerShell, consider the following prerequisites:
   
-- The Microsoft 365 work or school account that you use for these procedures needs to be a member of an Microsoft 365 admin role. For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). This a requirement for PowerShell for Microsoft 365, not necessarily for all other Microsoft 365 services.
+- The Microsoft 365 work or school account that you use for these procedures needs to be a member of a Microsoft 365 admin role. For more information, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide). This a requirement for PowerShell for Microsoft 365, not necessarily for all other Microsoft 365 services.
     
 - You can use the following 64-bit versions of Windows:
     
@@ -235,5 +235,5 @@ For the Security &amp; Compliance Center, see [Connect to Security & Compliance 
 
 - [Connect to Microsoft 365 with PowerShell](connect-to-office-365-powershell.md)
 - [Manage SharePoint Online with PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
-- [Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+- [Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
 - [Use Windows PowerShell to create reports in Microsoft 365](use-windows-powershell-to-create-reports-in-office-365.md)

@@ -3,7 +3,7 @@ title: "Why you need to use PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/16/2020
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-administration
@@ -18,13 +18,15 @@ description: "Summary: Understand why you must use PowerShell to manage Microsof
 
 # Why you need to use PowerShell for Microsoft 365
 
-With the Microsoft 365 admin center, you can not only manage your Microsoft 365 user accounts and licenses, but you can also manage your Microsoft 365 services such as Exchange Online, Teams, and SharePoint Online. However, you can also manage these elements with PowerShell for Microsoft 365 commands, taking advantage of a command-line and scripting language environment for speed, automation, and additional capability.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+With the Microsoft 365 admin center, you can not only manage your Microsoft 365 user accounts and licenses, but you can also manage your Microsoft 365 services such as Exchange Online, Teams, and SharePoint Online. However, you can also manage these elements with PowerShell commands, taking advantage of a command-line and scripting language environment for speed, automation, and additional capability.
   
-In this article, we'll show you these ways in which you can use PowerShell for Microsoft 365 to manage Microsoft 365:
+In this article, we'll show you these ways in which you can use PowerShell to manage Microsoft 365:
   
 - Reveal additional information that you cannot see with the Microsoft 365 admin center
     
-- Configure features and settings only possible with PowerShell for Microsoft 365
+- Configure features and settings only possible with PowerShell
     
 - Perform bulk operations
     
@@ -424,7 +426,7 @@ The interpretation of this PowerShell script is:
 
 [Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
   
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Use Windows PowerShell to create reports in Microsoft 365](use-windows-powershell-to-create-reports-in-office-365.md)
 

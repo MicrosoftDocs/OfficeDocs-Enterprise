@@ -1,5 +1,5 @@
 ---
-title: "Configure user account properties with PowerShell for Microsoft 365"
+title: "Configure Microsoft 365 user account properties with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,9 +21,11 @@ ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
 description: "Summary: Use PowerShell for Microsoft 365 to configure properties of individual or multiple user accounts in your Microsoft 365 tenant."
 ---
 
-# Configure user account properties with PowerShell for Microsoft 365
+# Configure Microsoft 365 user account properties with PowerShell
 
-Although you can use the Microsoft 365 admin center to configure properties for the user accounts of your Microsoft 365 tenant, you can also use PowerShell for Microsoft 365 and do some things that the admin center cannot.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Although you can use the Microsoft 365 admin center to configure properties for the user accounts of your Microsoft 365 tenant, you can also use PowerShell and do some things that the Microsoft 365 admin center cannot.
   
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -261,7 +263,7 @@ This command instructs PowerShell to:
 
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

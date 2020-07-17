@@ -1,5 +1,5 @@
 ---
-title: "Assign roles to user accounts with PowerShell for Microsoft 365"
+title: "Assign roles to Microsoft 365 user accounts with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -21,7 +21,9 @@ ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
 description: "Summary: Use PowerShell for Microsoft 365 to assign roles to user accounts."
 ---
 
-# Assign roles to user accounts with PowerShell for Microsoft 365
+# Assign roles to Microsoft 365 user accounts with PowerShell
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 You can quickly and easily assign roles to user accounts using PowerShell for Microsoft 365.
 
@@ -230,6 +232,6 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ## See also
 
-- [Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+- [Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
 - [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
 - [Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)

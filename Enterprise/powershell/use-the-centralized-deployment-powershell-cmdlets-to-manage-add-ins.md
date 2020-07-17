@@ -3,7 +3,7 @@ title: "Use the Centralized Deployment PowerShell cmdlets to manage add-ins"
 ms.author: twerner
 author: twernermsft
 manager: scotv
-ms.date: 5/31/2017
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -17,12 +17,14 @@ search.appverid:
 f1.keywords:
 - NOCSH
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
-description: "Use the Centralized Deployment PowerShell cmdlets to help you deploy and manage Office add-ins for your Office 365 organization."
+description: "Use the Centralized Deployment PowerShell cmdlets to help you deploy and manage Office add-ins for your Microsoft 365 organization."
 ---
 
 # Use the Centralized Deployment PowerShell cmdlets to manage add-ins
 
-As an Office 365 admin, you can deploy Office add-ins to users via the Centralized Deployment feature (see [Manage deployment of Office 365 add-ins in the admin center](https://support.office.com/article/737e8c86-be63-44d7-bf02-492fa7cd9c3f)). In addition to deploying Office add-ins via the admin center, you can also use Microsoft PowerShell. [Download](https://go.microsoft.com/fwlink/p/?linkid=850850) the Centralized Deployment PowerShell cmdlets from the Microsoft Download Center. 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+As a Microsoft 365 admin, you can deploy Office add-ins to users via the Centralized Deployment feature (see [Manage deployment of Microsoft 365 add-ins in the admin center](https://support.office.com/article/737e8c86-be63-44d7-bf02-492fa7cd9c3f)). In addition to deploying Office add-ins via the admin center, you can also use Microsoft PowerShell. [Download](https://go.microsoft.com/fwlink/p/?linkid=850850) the Centralized Deployment PowerShell cmdlets from the Microsoft Download Center. 
   
 ## What do you want to do?
 
@@ -57,7 +59,7 @@ Before you can use the Centralized Deployment cmdlets, you need to sign in.
   Connect-OrganizationAddInService
   ```
 
-3. In the **Enter Credentials** page, enter your Office 365 global admin credentials. Alternately, you can enter your credentials directly into the cmdlet. 
+3. In the **Enter Credentials** page, enter your Microsoft 365 global admin credentials. Alternately, you can enter your credentials directly into the cmdlet. 
     
     Run the following cmdlet specifying your company admin credentials as a PSCredential object.
     

@@ -1,9 +1,9 @@
 ---
-title: "Remove licenses from user accounts with PowerShell for Microsoft 365"
+title: "Remove Microsoft 365 licenses from user accounts with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/30/2020
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,10 +20,12 @@ ms.custom:
 - O365ITProTrain
 ms.assetid: e7e4dc5e-e299-482c-9414-c265e145134f
 
-description: "Explains how to use PowerShell for Microsoft 365 to remove Microsoft 365 licenses that were previously assigned to users."
+description: "Explains how to use PowerShell to remove Microsoft 365 licenses that were previously assigned to users."
 ---
 
-# Remove licenses from user accounts with PowerShell for Microsoft 365
+# Remove Microsoft 365 licenses from user accounts with PowerShell
+
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
@@ -83,9 +85,9 @@ First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.m
    
 To view the licensing plan (**AccountSkuID**) information in your organization, see the following topics:
     
-  - [View licenses and services with PowerShell for Microsoft 365](view-licenses-and-services-with-office-365-powershell.md)
+  - [View licenses and services with PowerShell](view-licenses-and-services-with-office-365-powershell.md)
     
-  - [View account license and service details with PowerShell for Microsoft 365](view-account-license-and-service-details-with-office-365-powershell.md)
+  - [View account license and service details with PowerShell](view-account-license-and-service-details-with-office-365-powershell.md)
     
 If you use the **Get-MsolUser** cmdlet without using the _-All_ parameter, only the first 500 accounts are returned.
     
@@ -172,11 +174,11 @@ Set-MsolUserLicense -UserPrincipalName $userArray[$i].UserPrincipalName -RemoveL
 }
 ```
 
-Another way to free up a license is by deleting the user account. For more information, see [Delete and restore user accounts with PowerShell for Microsoft 365](delete-and-restore-user-accounts-with-office-365-powershell.md).
+Another way to free up a license is by deleting the user account. For more information, see [Delete and restore user accounts with PowerShell](delete-and-restore-user-accounts-with-office-365-powershell.md).
   
 ## See also
 
-[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
