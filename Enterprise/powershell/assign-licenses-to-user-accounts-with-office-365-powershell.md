@@ -3,7 +3,7 @@ title: "Assign Microsoft 365 licenses to user accounts with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/10/2019
+ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -200,6 +200,6 @@ $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq
 
 [Manage user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)

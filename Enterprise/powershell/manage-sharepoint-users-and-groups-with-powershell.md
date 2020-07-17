@@ -1,5 +1,5 @@
 ---
-title: "Manage SharePoint Online users and groups with Office 365 PowerShell"
+title: "Manage SharePoint Online users and groups with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +18,12 @@ ms.custom:
 - Ent_Office_Other
 - SPO_Content
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: "Summary: Use Office 365 PowerShell to manage SharePoint Online users, groups, and sites."
+description: "Summary: Use PowerShell for Microsoft 365 to manage SharePoint Online users, groups, and sites."
 ---
 
-# Manage SharePoint Online users and groups with Office 365 PowerShell
+# Manage SharePoint Online users and groups with PowerShell for Microsoft 365
 
-If you are a SharePoint Online administrator who works with large lists of user accounts or groups and wants an easier way to manage them, you can use Office 365 PowerShell. 
+If you are a SharePoint Online administrator who works with large lists of user accounts or groups and wants an easier way to manage them, you can use PowerShell for Microsoft 365. 
 
 Before you begin, the procedures in this topic require you to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
@@ -125,7 +125,7 @@ Sometimes you have to remove a user from a site or even all sites. Perhaps the e
 
 However by using the SharePoint Online Management Shell and CSV files, this is fast and easy. In this task, you'll use Windows PowerShell to remove a user from a site collection security group. Then you'll use a CSV file and remove lots of users from different sites. 
 
-We'll be using the 'Remove-SPOUser' cmdlet to remove a single Office 365 user from a site collection group just so we can see the command syntax. Here is how the syntax looks:
+We'll be using the 'Remove-SPOUser' cmdlet to remove a single Microsoft 365 user from a site collection group just so we can see the command syntax. Here is how the syntax looks:
 
 ```powershell
 $tenant = "<tenant name, such as litwareinc for litwareinc.com>"
@@ -272,9 +272,9 @@ This report is fairly simple, and you can add more code to create more specific 
 
 [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-[Manage SharePoint Online with Office 365 PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+[Manage SharePoint Online with PowerShell for Microsoft 365](create-sharepoint-sites-and-add-users-with-powershell.md)
 
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
 

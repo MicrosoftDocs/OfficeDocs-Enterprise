@@ -16,17 +16,17 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
-description: "Summary: Use Windows PowerShell for Microsoft 365 to add an alternate domain name to an existing customer tenant."
+description: "Summary: Use PowerShell for Microsoft 365 to add an alternate domain name to an existing customer tenant."
 ---
 
 # Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners
 
-You can create and associate new domains with your customer's tenancy with Windows PowerShell for Microsoft 365 faster than using the Microsoft 365 admin center.
+You can create and associate new domains with your customer's tenancy with PowerShell for Microsoft 365 faster than using the Microsoft 365 admin center.
   
 Delegated Access Permission (DAP) partners are Syndication and Cloud Solution Providers (CSP) Partners. They are frequently network or telecom providers to other companies. They bundle Microsoft 365 subscriptions into their service offerings to their customers. When they sell a Microsoft 365 subscription, they are automatically granted Administer On Behalf Of (AOBO) permissions to the customer tenancies so they can administer and report on the customer tenancies.
 ## What do you need to know before you begin?
 
-The procedures in this topic require you to connect to Windows PowerShell for Office 365. For instructions, see [Connect to Office 365 PowerShell](connect-to-office-365-powershell.md).
+The procedures in this topic require you to connect to [Connect to Microsoft 365 with PowerShell](connect-to-office-365-powershell.md).
   
 You also need your partner tenant administrator credentials.
   

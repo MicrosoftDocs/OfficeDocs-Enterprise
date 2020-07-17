@@ -1,5 +1,5 @@
 ---
-title: "Manage user accounts and licenses with Office 365 PowerShell"
+title: "Manage user accounts and licenses with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +15,12 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: "Summary: Learn how to manage user accounts, licenses, and groups with Office 365 PowerShell."
+description: "Summary: Learn how to manage user accounts, licenses, and groups with PowerShell for Microsoft 365."
 ---
 
-# Manage user accounts, licenses, and groups with Office 365 PowerShell
+# Manage user accounts, licenses, and groups with PowerShell for Microsoft 365
 
-One of the primary tasks of any Office 365 administrator is managing user accounts, licenses, and group. Although you can accomplish most aspects of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier with Office 365 PowerShell. 
+One of the primary tasks of any Microsoft 365 administrator is managing user accounts, licenses, and group. Although you can accomplish most aspects of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier with PowerShell for Microsoft 365. 
 
 For more information, see these topics.
 
@@ -45,5 +45,5 @@ For more information, see these topics.
 
 ## Groups
 - [Maintain group membership](maintain-group-membership-with-office-365-powershell.md)
-- [Manage Office 365 groups](manage-office-365-groups-with-powershell.md)
+- [Manage Microsoft 365 groups](manage-office-365-groups-with-powershell.md)
 

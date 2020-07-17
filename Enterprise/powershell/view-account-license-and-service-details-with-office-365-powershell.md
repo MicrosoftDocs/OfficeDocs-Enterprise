@@ -1,5 +1,5 @@
 ---
-title: "View account license and service details with Office 365 PowerShell"
+title: "View account license and service details with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,18 +19,18 @@ ms.custom:
 - LIL_Placement
 ms.assetid: ace07d8a-15ca-4b89-87f0-abbce809b519
 
-description: "Explains how to use Office 365 PowerShell to determine the Office 365 services that have been assigned to users."
+description: "Explains how to use PowerShell for Microsoft 365 to determine the Office 365 services that have been assigned to users."
 ---
 
-# View account license and service details with Office 365 PowerShell
+# View account license and service details with PowerShell for Microsoft 365
 
-In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use Office 365 PowerShell to view the status of services on user accounts. 
+In Office 365, licenses from licensing plans (also called SKUs or Office 365 plans) give users access to the Office 365 services that are defined for those plans. However, a user might not have access to all the services that are available in a license that's currently assigned to them. You can use PowerShell for Microsoft 365 to view the status of services on user accounts. 
 
-For more information about licensing plans, license, and services, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
+For more information about licensing plans, license, and services, see [View licenses and services with PowerShell for Microsoft 365](view-licenses-and-services-with-office-365-powershell.md).
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 Next, list the license plans for your tenant with this command.
 
@@ -63,7 +63,7 @@ $userList | ForEach { $sku=$_.SkuId ; $licensePlanList | ForEach { If ( $sku -eq
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 Next, run this command to list the licensing plans that are available in your organization. 
 
@@ -123,8 +123,8 @@ $licArray
  
 ## See also
 
-[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)

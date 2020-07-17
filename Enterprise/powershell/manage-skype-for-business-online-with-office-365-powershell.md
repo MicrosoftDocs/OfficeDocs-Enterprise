@@ -1,5 +1,5 @@
 ---
-title: "Manage Skype for Business Online with Office 365 PowerShell"
+title: "Manage Skype for Business Online with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: 054c16e6-9fd1-4e85-a0e6-81788b8410ea
-description: "Summary: Use Office 365 PowerShell to manage Skype for Business Online policies, per-user policies, and meeting settings."
+description: "Summary: Use PowerShell for Microsoft 365 to manage Skype for Business Online policies, per-user policies, and meeting settings."
 ---
 
-# Manage Skype for Business Online with Office 365 PowerShell
+# Manage Skype for Business Online with PowerShell for Microsoft 365
 
-One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in Office 365 PowerShell. 
+One of the primary tasks of any Skype for Business Online administrator is managing policies. Although you can accomplish some of these tasks in the Microsoft 365 admin center, other tasks are much quicker and easier in PowerShell for Microsoft 365. 
 
 ## Before you start
 
@@ -57,15 +57,15 @@ Download and install the [Skype for Business Online Connector module](https://ww
 
 For more information, see the following topics:
   
-- [Manage Skype for Business Online policies with Office 365 PowerShell](manage-skype-for-business-online-policies-with-office-365-powershell.md)
+- [Manage Skype for Business Online policies with PowerShell for Microsoft 365](manage-skype-for-business-online-policies-with-office-365-powershell.md)
     
-- [Assign per-user Skype for Business Online policies with Office 365 PowerShell](assign-per-user-skype-for-business-online-policies-with-office-365-powershell.md)
+- [Assign per-user Skype for Business Online policies with PowerShell for Microsoft 365](assign-per-user-skype-for-business-online-policies-with-office-365-powershell.md)
     
 ## See also
 
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
 
 [Skype for Business PowerShell cmdlet references](https://docs.microsoft.com/powershell/module/skype/?view=skype-ps)
 

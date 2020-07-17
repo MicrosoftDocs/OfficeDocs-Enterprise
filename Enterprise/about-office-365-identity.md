@@ -85,7 +85,7 @@ The Azure AD tenant has a copy of the AD DS accounts. In this configuration, bot
 
 Because the original and authoritative user accounts are stored in the on-premises AD DS, you manage your identities with the same tools as AD DS, such as the Active Directory Users and Computers tool. 
 
-You don’t use the Microsoft 365 admin center or Office 365 PowerShell to manage synchronized user accounts in Azure AD.
+You don’t use the Microsoft 365 admin center or PowerShell for Microsoft 365 to manage synchronized user accounts in Azure AD.
 
 ## Next step
 

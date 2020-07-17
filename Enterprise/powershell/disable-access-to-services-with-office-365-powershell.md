@@ -1,5 +1,5 @@
 ---
-title: "Disable access to services with Office 365 PowerShell"
+title: "Disable access to services with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,24 +19,24 @@ ms.custom:
 - LIL_Placement
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
 
-description: "Use Office 365 PowerShell to disable access to Office 365 services for users."
+description: "Use PowerShell for Microsoft 365 to disable access to Microsoft 365 services for users."
 ---
 
-# Disable access to services with Office 365 PowerShell
+# Disable access to services with PowerShell for Microsoft 365
 
-When an Office 365 account is assigned a license from a licensing plan, Office 365 services are made available to the user from that license. However, you can control the Office 365 services that the user can access. For example, even though the license allows access to the SharePoint Online service, you can disable access to it. You can use PowerShell to disable access to any number of services for a specific licensing plan for:
+When an Microsoft 365 account is assigned a license from a licensing plan, Microsoft 365 services are made available to the user from that license. However, you can control the Microsoft 365 services that the user can access. For example, even though the license allows access to the SharePoint Online service, you can disable access to it. You can use PowerShell to disable access to any number of services for a specific licensing plan for:
 
 - An individual account.
 - A group of accounts.
 - All accounts in your organization.
 
 >[!Note]
->There are Office 365 service dependencies that can prevent you from disabling a specified service when other services depend on it.
+>There are Microsoft 365 service dependencies that can prevent you from disabling a specified service when other services depend on it.
 >
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 Next, use this command to view your available licensing plans, also known as AccountSkuIds:
 
@@ -48,16 +48,16 @@ Get-MsolAccountSku | Select AccountSkuId | Sort AccountSkuId
 >PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
 >
 
-For more information, see [View licenses and services with Office 365 PowerShell](view-licenses-and-services-with-office-365-powershell.md).
+For more information, see [View licenses and services with PowerShell for Microsoft 365](view-licenses-and-services-with-office-365-powershell.md).
     
-To see the before and after results of the procedures in this topic, see [View account license and service details with Office 365 PowerShell](view-account-license-and-service-details-with-office-365-powershell.md).
+To see the before and after results of the procedures in this topic, see [View account license and service details with PowerShell for Microsoft 365](view-account-license-and-service-details-with-office-365-powershell.md).
     
-A PowerShell script is available that automates the procedures described in this topic. Specifically, the script lets you view and disable services in your Office 365 organization, including Sway. For more information, see [Disable access to Sway with Office 365 PowerShell](disable-access-to-sway-with-office-365-powershell.md).
+A PowerShell script is available that automates the procedures described in this topic. Specifically, the script lets you view and disable services in your Microsoft 365 organization, including Sway. For more information, see [Disable access to Sway with PowerShell for Microsoft 365](disable-access-to-sway-with-office-365-powershell.md).
     
     
-### Disable specific Office 365 services for specific users for a specific licensing plan
+### Disable specific Microsoft 365 services for specific users for a specific licensing plan
   
-To disable a specific set of Office 365 services for users for a specific licensing plan, perform the following steps:
+To disable a specific set of Microsoft 365 services for users for a specific licensing plan, perform the following steps:
   
 #### Step 1: Identify the undesirable services in the licensing plan by using the following syntax:
     
@@ -85,7 +85,7 @@ The following example creates a new account for Allie Bellew that assigns the li
 New-MsolUser -UserPrincipalName allieb@litwareinc.com -DisplayName "Allie Bellew" -FirstName Allie -LastName Bellew -LicenseAssignment litwareinc:ENTERPRISEPACK -LicenseOptions $LO -UsageLocation US
 ```
 
-For more information about creating user accounts in Office 365 PowerShell, see [Create user accounts with Office 365 PowerShell](create-user-accounts-with-office-365-powershell.md).
+For more information about creating user accounts in PowerShell for Microsoft 365, see [Create user accounts with PowerShell for Microsoft 365](create-user-accounts-with-office-365-powershell.md).
     
 To disable the services for an existing licensed user, use the following syntax:
     
@@ -99,7 +99,7 @@ This example disables the services for the user BelindaN@litwareinc.com.
 Set-MsolUserLicense -UserPrincipalName belindan@litwareinc.com -LicenseOptions $LO
 ```
 
-To disable the services described in Step 1 for all existing licensed users, specify the name of your Office 365 plan from the display of the **Get-MsolAccountSku** cmdlet (such as **litwareinc:ENTERPRISEPACK**), and then run the following commands:
+To disable the services described in Step 1 for all existing licensed users, specify the name of your Microsoft 365 plan from the display of the **Get-MsolAccountSku** cmdlet (such as **litwareinc:ENTERPRISEPACK**), and then run the following commands:
     
 ```powershell
 $acctSKU="<AccountSkuId>"
@@ -152,13 +152,13 @@ If you want to disable access to services for multiple licensing plans, repeat t
 - The user accounts have been assigned the licensing plan.
 - The services to disable are available in the licensing plan.
 
-To disable Office 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
+To disable Microsoft 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
 
 
 ## See also
 
-[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)

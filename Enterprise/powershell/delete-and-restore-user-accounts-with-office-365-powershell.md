@@ -1,5 +1,5 @@
 ---
-title: "Delete user accounts with Office 365 PowerShell"
+title: "Delete user accounts with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,16 +18,16 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: "Learn how to use Office 365 PowerShell to delete Office 365 user accounts."
+description: "Learn how to use PowerShell for Microsoft 365 to delete user accounts."
 ---
 
-# Delete user accounts with Office 365 PowerShell
+# Delete user accounts with PowerShell for Microsoft 365
 
-You can use Office 365 PowerShell to delete a user account.
+You can use PowerShell for Microsoft 365 to delete a user account.
    
 ## Use the Azure Active Directory PowerShell for Graph module
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
 After you have connected, use the following syntax to remove an individual user account:
   
@@ -69,7 +69,7 @@ Remove-AzureADUser -ObjectID (Get-AzureADUser | where {$_.DisplayName -eq $userN
 
 When you delete a user account with the Microsoft Azure Active Directory Module for Windows PowerShell, the account isn't permanently deleted. You can restore the deleted user account within 30 days.
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 To delete a user account, use the following syntax:
   
@@ -112,8 +112,8 @@ Restore-MsolUser -UserPrincipalName BelindaN@litwareinc.com
 
 ## See also
 
-[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)

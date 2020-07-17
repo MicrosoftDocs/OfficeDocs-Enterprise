@@ -68,7 +68,7 @@ Before you can use the Centralized Deployment cmdlets, you need to sign in.
   ```
 
 > [!NOTE]
-> For more information about using PowerShell, see [Connect to Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585). 
+> For more information about using PowerShell, see [Connect to Microsoft 365 with PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585). 
   
 ## Upload an add-in manifest
 <a name="BKMK_UploadManifest"> </a>

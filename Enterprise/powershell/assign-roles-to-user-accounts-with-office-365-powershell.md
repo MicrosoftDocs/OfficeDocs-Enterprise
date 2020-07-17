@@ -1,9 +1,9 @@
 ---
-title: "Assign roles to user accounts with Office 365 PowerShell"
+title: "Assign roles to user accounts with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/09/2020
+ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,12 +18,12 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
-description: "Summary: Use Office 365 PowerShell to assign roles to user accounts."
+description: "Summary: Use PowerShell for Microsoft 365 to assign roles to user accounts."
 ---
 
-# Assign roles to user accounts with Office 365 PowerShell
+# Assign roles to user accounts with PowerShell for Microsoft 365
 
-You can quickly and easily assign roles to user accounts using Office 365 PowerShell.
+You can quickly and easily assign roles to user accounts using PowerShell for Microsoft 365.
 
 >[!Note]
 >To assign roles to user accounts with the Microsoft 365 admin center, see [these instructions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
@@ -31,7 +31,7 @@ You can quickly and easily assign roles to user accounts using Office 365 PowerS
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) using a global administrator account.
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module) using a global administrator account.
   
 Next, determine the sign-in name of the user account that you want to add to a role (example: fredsm@contoso.com). This is also known as the user principal name (UPN).
 
@@ -78,7 +78,7 @@ Get-AzureADDirectoryRole | Where { $_.DisplayName -eq $roleName } | Get-AzureADD
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) using a global administrator account.
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell) using a global administrator account.
   
 ### For a single role change
 
@@ -230,6 +230,6 @@ $roleChanges=Import-Csv $fileName | ForEach { Add-MsolRoleMember -RoleMemberEmai
 
 ## See also
 
-- [Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
-- [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-- [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+- [Manage user accounts, licenses, and groups with PowerShell for Microsoft 365](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+- [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
+- [Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
