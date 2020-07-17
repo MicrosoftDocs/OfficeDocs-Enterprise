@@ -51,7 +51,7 @@ Get-AzureAdUser | ForEach { $licensed=$False ; For ($i=0; $i -le ($_.AssignedLic
 
 First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
-To view the list of all user accounts and their licensing status in your organization, run the following command in PowerShell for Microsoft 365:
+To view the list of all user accounts and their licensing status in your organization, run the following command in PowerShell:
   
 ```powershell
 Get-MsolUser -All

@@ -21,7 +21,7 @@ ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
 description: "Summary: Use PowerShell for Microsoft 365 to manage SharePoint Online users, groups, and site groups."
 ---
 
-# Manage SharePoint Online with PowerShell for Microsoft 365
+# Manage SharePoint Online with PowerShell
 
 *This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 

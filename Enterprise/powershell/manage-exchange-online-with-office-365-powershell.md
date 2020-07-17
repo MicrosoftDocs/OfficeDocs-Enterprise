@@ -1,5 +1,5 @@
 ---
-title: "Manage Exchange Online with PowerShell for Microsoft 365"
+title: "Manage Exchange Online with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,10 +17,10 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: b23dda88-f137-4051-9c2c-84035ad63f5e
-description: "Summary: Use PowerShell for Microsoft 365 to manage Microsoft Exchange Online, including displaying mailbox configuration and advanced reporting."
+description: "Summary: Use PowerShell to manage Microsoft Exchange Online, including displaying mailbox configuration and advanced reporting."
 ---
 
-# Manage Exchange Online with PowerShell for Microsoft 365
+# Manage Exchange Online with PowerShell
 
 *This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 

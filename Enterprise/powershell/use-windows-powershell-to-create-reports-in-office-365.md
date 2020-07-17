@@ -1,5 +1,5 @@
 ---
-title: "Use PowerShell to create reports in Microsoft 365"
+title: "Use PowerShell to create reports for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,7 +16,7 @@ ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: "Summary: Use PowerShell for Microsoft 365 to create reports that you cannot produce in the Microsoft 365 admin center."
 ---
 
-# Use PowerShell to create reports in Microsoft 365
+# Use PowerShell to create reports for Microsoft 365
 
 *This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
