@@ -15,6 +15,7 @@
 ### Plan for your identities
 #### [Identity models](about-office-365-identity.md)
 #### [Hybrid identity](plan-for-directory-synchronization.md)
+#### [Tools to manage Microsoft 365 accounts](tools-to-manage-office-365-accounts.md)
 
 ### [Plan for third-party SSL certificates for Microsoft 365](plan-for-third-party-ssl-certificates.md)
 ### [Setup guides for Microsoft 365 and Office 365 services](setup-guides-for-office-365.md)
@@ -110,6 +111,7 @@
 ### [Cloud-only identity](cloud-only-identities.md)
 ### Hybrid identities
 #### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
+#### [Prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
 #### Use the IdFix tool
 ##### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
 ##### [Download and run the IdFix tool](install-and-run-idfix.md)
@@ -172,6 +174,7 @@
 #### [Your customer data in Office 365 datacenters](o365-data-locations.md)
 
 ### Hybrid solutions
+#### [Overview](hybrid-solutions.md)
 #### [Use Azure Active Directory for SharePoint Server 2016 authentication](using-azure-ad-for-sharepoint-server-authentication.md)
 #### [Connect an on-premises network to an Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
 #### [Deploy a directory synchronization server in Azure IaaS](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)

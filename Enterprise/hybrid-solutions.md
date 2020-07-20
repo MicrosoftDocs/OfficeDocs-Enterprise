@@ -3,7 +3,7 @@ title: "Hybrid solutions"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/30/2018
+ms.date: 07/20/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -20,7 +20,7 @@ description: "Summary: Use these articles to deploy Office Server workloads in M
 
 # Hybrid solutions
 
-With Microsoft Azure, you can now deploy some Office Server workloads that were typically deployed on-premises in Azure infrastructure services.
+With Microsoft Azure, you can deploy some Office Server workloads that were typically deployed on-premises in Azure infrastructure services.
   
 For Microsoft 365 identity infrastructure in Azure:
 
