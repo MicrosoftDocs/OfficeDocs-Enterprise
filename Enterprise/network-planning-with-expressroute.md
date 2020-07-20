@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 103208f1-e788-4601-aa45-504f896511cd
-description: "ExpressRoute for Office 365 provides layer 3 connectivity between the your network and Microsoft's datacenters. The circuits use Border Gateway Protocol (BGP) route advertisements of Office 365's front end servers. From the perspective of your on-premises devices, when they need to select the correct TCP/IP path to Office 365, Azure ExpressRoute is seen as an alternative to the Internet."
+description: "ExpressRoute for Office 365 provides layer 3 connectivity between your network and Microsoft's datacenters. The circuits use Border Gateway Protocol (BGP) route advertisements of Office 365's front-end servers. From the perspective of your on-premises devices, when they need to select the correct TCP/IP path to Office 365, Azure ExpressRoute is seen as an alternative to the Internet."
 ---
 
 # Network planning with ExpressRoute for Office 365
 
 *This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-ExpressRoute for Office 365 provides layer 3 connectivity between the your network and Microsoft's datacenters. The circuits use Border Gateway Protocol (BGP) route advertisements of Office 365's front end servers. From the perspective of your on-premises devices, when they need to select the correct TCP/IP path to Office 365, Azure ExpressRoute is seen as an alternative to the Internet.
+ExpressRoute for Office 365 provides layer 3 connectivity between your network and Microsoft's datacenters. The circuits use Border Gateway Protocol (BGP) route advertisements of Office 365's front-end servers. From the perspective of your on-premises devices, when they need to select the correct TCP/IP path to Office 365, Azure ExpressRoute is seen as an alternative to the Internet.
   
 Azure ExpressRoute adds a direct path to a specific set of supported features and services that are offered by Office 365 servers within Microsoft's datacenters. Azure ExpressRoute doesn't replace Internet connectivity to Microsoft datacenters or basic Internet services such as domain name resolution. Azure ExpressRoute and your Internet circuits should be secured and redundant.
   
@@ -32,7 +32,7 @@ The following table highlights a few differences between the internet and Azure 
 
 |**Differences in network planning**|**Internet network connection**|**ExpressRoute network connection**|
 |:-----|:-----|:-----|
-| Access to required internet services, including;  <br/>  DNS name resolution  <br/>  Certificate revocation verification  <br/>  Content delivery networks  <br/> |Yes  <br/> |Requests to Microsoft owned DNS and/or CDN infrastructure may use the ExpressRoute network.  <br/> |
+| Access to required internet services, including;  <br/>  DNS name resolution  <br/>  Certificate revocation verification  <br/>  Content Delivery Networks (CDNs)  <br/> |Yes  <br/> |Requests to Microsoft owned DNS and/or CDN infrastructure may use the ExpressRoute network.  <br/> |
 | Access to Office 365 services, including;  <br/>  Exchange Online  <br/>  SharePoint Online  <br/>  Skype for Business Online  <br/>  Office in a browser  <br/>  Office 365 Portal and Authentication  <br/> |Yes, all applications and features  <br/> |Yes, [specific applications and features](https://aka.ms/o365endpoints) <br/> |
 |On-premises security at perimeter.  <br/> |Yes  <br/> |Yes  <br/> |
 |High availability planning.  <br/> |Failover to an alternate internet network connection  <br/> |Failover to an alternate ExpressRoute connection  <br/> |
@@ -47,7 +47,7 @@ If you're using an existing Azure ExpressRoute circuit and would like to add Off
   
 To enable access to Office 365 over your existing Azure ExpressRoute circuits, [configure the route filters](https://docs.microsoft.com/azure/expressroute/how-to-routefilter-portal) to ensure the Office 365 services are accessible.
   
-The Azure ExpressRoute subscription is customer centric, meaning subscriptions are tied to customers. As a customer, you can have multiple Azure ExpressRoute circuits and can access many Microsoft cloud resources over those circuits. For example, you can choose to access an Azure hosted virtual machine, an Office 365 test tenant, and an Office 365 production tenant over a pair of redundant Azure ExpressRoute circuits.
+The Azure ExpressRoute subscription is customer-centric, meaning subscriptions are tied to customers. As a customer, you can have multiple Azure ExpressRoute circuits and can access many Microsoft cloud resources over those circuits. For example, you can choose to access an Azure hosted virtual machine, an Office 365 test tenant, and an Office 365 production tenant over a pair of redundant Azure ExpressRoute circuits.
   
 This table outlines the two types of peering relationships you can choose to implement over your circuits.
 
