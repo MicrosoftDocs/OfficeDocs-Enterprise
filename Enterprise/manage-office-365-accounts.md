@@ -34,7 +34,7 @@ Where and how you can manage your user accounts depends on the identity model yo
 
 - Cloud authentication - create and manage users in the admin center, you can also use Windows PowerShell, or Azure AD to manage your users. 
     
-- Password hash sync with seamless single sign-on - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory Domain Services (AD DS)user account objects with Microsoft 365 and manage your users on-premises. 
+- Password hash sync with seamless single sign-on - The simplest way to enable authentication for on-premises directory objects in Azure AD. With password hash sync (PHS), you synchronize your on-premises Active Directory Domain Services (AD DS) user account objects with Microsoft 365 and manage your users on-premises. 
     
 - Pass-through authentication with seamless single sign-on - Provides a simple password validation for Azure AD authentication services using a software agent running on one or more on-premises servers to validate the users directly with your on-premises AD DS. 
     
