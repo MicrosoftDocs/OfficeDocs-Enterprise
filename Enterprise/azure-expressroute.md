@@ -107,7 +107,7 @@ Ready to sign-up for [ExpressRoute for Office 365](https://aka.ms/ert)?
 
 [Implementing ExpressRoute for Office 365](implementing-expressroute.md)
 
-[Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
+[Using BGP communities in ExpressRoute for Office 365 scenarios](bgp-communities-in-expressroute.md)
 
 [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
 

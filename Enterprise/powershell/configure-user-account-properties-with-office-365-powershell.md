@@ -80,13 +80,13 @@ Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName | More
 
 This command instructs PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
+- Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).
     
-- Sort the list of User Principal Names alphabetically ( **Sort UserPrincipalName** ) and send it to the next command ( **|** ).
+- Sort the list of User Principal Names alphabetically (**Sort UserPrincipalName**) and send it to the next command (**|**).
     
-- Display just the User Principal Name property for each account ( **Select UserPrincipalName** ).
+- Display just the User Principal Name property for each account (**Select UserPrincipalName**).
 
-- Display them one screen at a time ( **More** ).
+- Display them one screen at a time (**More**).
     
 This command will list all of your accounts. If you want to display the User Principal Name for an account based on its display name (first and last name), fill in the **$userName** variable below (removing the \< and > characters), and then run the following commands:
   
@@ -120,9 +120,9 @@ Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
 
 This command instructs PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
+- Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).
     
-- Set the user location to France ( **Set-AzureADUser -UsageLocation "FR"** ).
+- Set the user location to France (**Set-AzureADUser -UsageLocation "FR"**).
     
 ### Change properties for a specific set of user accounts
 
@@ -134,11 +134,11 @@ Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -Usag
 
 This command instructs PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-AzureADUser** ) and send it to the next command ( **|** ).
+- Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).
     
-- Find all of the user accounts that have their Department property set to "Accounting" ( **Where {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( **|** ).
+- Find all of the user accounts that have their Department property set to "Accounting" (**Where {$_.Department -eq "Accounting"}**) and send the resulting information to the next command (**|**).
     
-- Set the user location to France ( **Set-AzureADUser -UsageLocation "FR"** ).
+- Set the user location to France (**Set-AzureADUser -UsageLocation "FR"**).
     
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
@@ -200,13 +200,13 @@ Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName | More
 
 This command instructs PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
+- Get all of the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).
     
-- Sort the list of User Principal Names alphabetically ( **Sort UserPrincipalName** ) and send it to the next command ( **|** ).
+- Sort the list of User Principal Names alphabetically (**Sort UserPrincipalName**) and send it to the next command (**|**).
     
-- Display just the User Principal Name property for each account ( **Select UserPrincipalName** ).
+- Display just the User Principal Name property for each account (**Select UserPrincipalName**).
     
-- Display them one screen at a time ( **More** ).
+- Display them one screen at a time (**More**).
     
 This command will list all of your accounts. If you want to display the User Principal Name for an account based on its display name (first and last name), fill in the **$userName** variable below (removing the \< and > characters), and then run the following commands:
   
@@ -240,9 +240,9 @@ Get-MsolUser | Set-MsolUser -UsageLocation "FR"
 
 This command instructs PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
+- Get all of the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).
     
-- Set the user location to France ( **Set-MsolUser -UsageLocation "FR"** ).
+- Set the user location to France (**Set-MsolUser -UsageLocation "FR"**).
     
 ### Change properties for a specific set of user accounts
 
@@ -254,11 +254,11 @@ Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocat
 
 This command instructs PowerShell to:
   
-- Get all of the information on the user accounts ( **Get-MsolUser** ) and send it to the next command ( **|** ).
+- Get all of the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).
     
-- Find all of the user accounts that have their Department property set to "Accounting" ( **Where {$_.Department -eq "Accounting"}** ) and send the resulting information to the next command ( **|** ).
+- Find all of the user accounts that have their Department property set to "Accounting" (**Where {$_.Department -eq "Accounting"}**) and send the resulting information to the next command (**|**).
     
-- Set the user location to France ( **Set-MsolUser -UsageLocation "FR"** ).
+- Set the user location to France (**Set-MsolUser -UsageLocation "FR"**).
     
 
 ## See also

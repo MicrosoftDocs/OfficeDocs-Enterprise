@@ -50,3 +50,4 @@
 ## [Manage Skype for Business Online](manage-skype-for-business-online-with-office-365-powershell.md)
 ### [Manage Skype for Business Online policies](manage-skype-for-business-online-policies-with-office-365-powershell.md)
 ### [Assign per-user Skype for Business Online policies](assign-per-user-skype-for-business-online-policies-with-office-365-powershell.md)
+## [Manage add-ins with Centralized Deployment PowerShell](use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md)
