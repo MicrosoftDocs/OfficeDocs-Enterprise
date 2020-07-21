@@ -8,6 +8,8 @@ audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
@@ -18,8 +20,6 @@ description: "Summary: Learn how to migrate email to Office 365 using Windows Po
 
 # Use PowerShell for email migration to Office 365
 
- **Summary:** Learn how to migrate email to Office 365 using Windows PowerShell.
-  
 When administrators first set up Office 365, many of them migrate email from existing systems. You can also do this by using the Office 365 administration user interface. You can also use Windows PowerShell to migrate email.
   
 ## Office 365 licensing and Windows PowerShell

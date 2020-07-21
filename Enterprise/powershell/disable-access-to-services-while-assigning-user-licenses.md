@@ -3,12 +3,14 @@ title: "Disable access to services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/27/2019
+ms.date: 04/24/2020
 audience: Admin
 ms.topic: article
 ms.collection: Ent_O365
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
 f1.keywords:
 - CSH
 ms.custom: 
@@ -100,7 +102,7 @@ The following table shows the Office 365 service plans and their friendly names 
 | `TEAMS1` <br/> |Microsoft Teams  <br/> |
 | `YAMMER_ENTERPRISE` <br/> |Yammer  <br/> |
 | `RMS_S_ENTERPRISE` <br/> |Azure Rights Management (RMS)  <br/> |
-| `OFFICESUBSCRIPTION` <br/> |Office Professional Plus  <br/> |
+| `OFFICESUBSCRIPTION` <br/> |Microsoft 365 Apps for enterprise *(previously named Office 365 ProPlus)*  <br/> |
 | `MCOSTANDARD` <br/> |Skype for Business Online  <br/> |
 | `SHAREPOINTWAC` <br/> |Office   <br/> |
 | `SHAREPOINTENTERPRISE` <br/> |SharePoint Online  <br/> |
@@ -119,12 +121,9 @@ $userUPN="<the user's account name in email format>"
 $accountSkuId="<the AccountSkuId from the Get-MsolAccountSku command>"
 $planList=@( <comma-separated, double-quote enclosed list of the service plans to disable> )
 $licenseOptions=New-MsolLicenseOptions -AccountSkuId $accountSkuId -DisabledPlans $planList
-$user=Get-MsolUser -UserPrincipalName $userUPN
-$usageLocation=$user.Usagelocation
 Set-MsolUserLicense -UserPrincipalName $userUpn -AddLicenses $accountSkuId -ErrorAction SilentlyContinue
 Sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
-Set-MsolUser -UserPrincipalName $userUpn -UsageLocation $usageLocation
 ```
 
 Here is an example command block for the account named belindan@contoso.com, for the contoso:ENTERPRISEPACK license, and the service plans to disable are RMS_S_ENTERPRISE, SWAY, INTUNE_O365, and YAMMER_ENTERPRISE:
@@ -134,12 +133,9 @@ $userUPN="belindan@contoso.com"
 $accountSkuId="contoso:ENTERPRISEPACK"
 $planList=@( "RMS_S_ENTERPRISE","SWAY","INTUNE_O365","YAMMER_ENTERPRISE" )
 $licenseOptions=New-MsolLicenseOptions -AccountSkuId $accountSkuId -DisabledPlans $planList
-$user=Get-MsolUser -UserPrincipalName $userUPN
-$usageLocation=$user.Usagelocation
 Set-MsolUserLicense -UserPrincipalName $userUpn -AddLicenses $accountSkuId -ErrorAction SilentlyContinue
 Sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $userUpn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
-Set-MsolUser -UserPrincipalName $userUpn -UsageLocation $UsageLocation
 ```
 
 ### For multiple users
@@ -166,11 +162,9 @@ ForEach ($user in $users)
 {
 $user.Userprincipalname
 $upn=$user.UserPrincipalName
-$usageLocation=$user.UsageLocation
 Set-MsolUserLicense -UserPrincipalName $upn -AddLicenses $accountSkuId -ErrorAction SilentlyContinue
 sleep -Seconds 5
 Set-MsolUserLicense -UserPrincipalName $upn -LicenseOptions $licenseOptions -ErrorAction SilentlyContinue
-Set-MsolUser -UserPrincipalName $upn -UsageLocation $usageLocation
 $users | Get-MsolUser | Select UserPrincipalName, Islicensed,Usagelocation | Export-Csv $outFileName
 }
 ```
@@ -192,4 +186,3 @@ This PowerShell command block:
 [Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
 [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-

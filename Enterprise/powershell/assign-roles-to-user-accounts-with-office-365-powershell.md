@@ -3,11 +3,13 @@ title: "Assign roles to user accounts with Office 365 PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/16/2019
+ms.date: 06/09/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid: 
+- MET150
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -22,6 +24,10 @@ description: "Summary: Use Office 365 PowerShell to assign roles to user account
 # Assign roles to user accounts with Office 365 PowerShell
 
 You can quickly and easily assign roles to user accounts using Office 365 PowerShell.
+
+>[!Note]
+>To assign roles to user accounts with the Microsoft 365 admin center, see [these instructions](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles).
+>
 
 ## Use the Azure Active Directory PowerShell for Graph module
 

@@ -17,9 +17,9 @@ description: "Exchange 2010 is nearing end of support. Use this planning roadmap
 
 # Exchange 2010 end of support roadmap
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-On **October 13, 2020**, Exchange Server 2010 will reach end of support. If you haven't already begun your migration from Exchange 2010 to Office 365 or Exchange 2016, now's the time to start your planning.
+On **October 13, 2020**, Exchange Server 2010 will reach end of support. If you haven't already begun your migration from Exchange 2010 to Microsoft 365, Office 365, or Exchange 2016, now's the time to start your planning.
 
 ## What does end of support mean?
 
@@ -40,17 +40,17 @@ For more information about Office 2010 servers nearing the end of support, see [
 
 With Exchange 2010 reaching its end of support, this is a great time to explore your options and prepare a migration plan. You can:
 
-- Migrate fully to Office 365. Migrate mailboxes using cutover, minimal hybrid, or full hybrid migration, then remove on-premises Exchange servers and Active Directory.
+- Migrate fully to Microsoft 365. Migrate mailboxes using cutover, minimal hybrid, or full hybrid migration, then remove on-premises Exchange servers and Active Directory.
 - Migrate your Exchange 2010 servers to Exchange 2016 on your on-premises servers.
 
 > [!IMPORTANT]
-> If your organization chooses to migrate mailboxes to Office 365 but intends to keep DirSync or Azure AD Connect in place to continue managing user accounts from on-premises Active Directory, you need to keep at least one Exchange server on-premises. If the last Exchange server is removed, you won’t be able to make changes to Exchange recipients in Exchange Online. This is because the source of authority remains in your on-premises Active Directory and changes need to be made there. In this scenario, you have the following options:
+> If your organization chooses to migrate mailboxes to Microsoft 365 but intends to keep DirSync or Azure AD Connect in place to continue managing user accounts from on-premises Active Directory, you need to keep at least one Exchange server on-premises. If the last Exchange server is removed, you won't be able to make changes to Exchange recipients in Exchange Online. This is because the source of authority remains in your on-premises Active Directory and changes need to be made there. In this scenario, you have the following options:
 
-- (**Recommended**) If you can migrate your mailboxes to Office 365 and upgrade your servers by October 13, 2020, use Exchange 2010 to connect to Office 365 and migrate mailboxes. Next, migrate Exchange 2010 to Exchange 2016 and decommission any remaining Exchange 2010 servers.
-- If you can’t complete the mailbox migration and on-premises server upgrade by October 13, 2020, upgrade your on-premises Exchange 2010 servers to Exchange 2016 first, then use Exchange 2016 to connect to Office 365 and migrate mailboxes.
+- (**Recommended**) If you can migrate your mailboxes to Microsoft 365 and upgrade your servers by October 13, 2020, use Exchange 2010 to connect to Microsoft 365 and migrate mailboxes. Next, migrate Exchange 2010 to Exchange 2016 and decommission any remaining Exchange 2010 servers.
+- If you can't complete the mailbox migration and on-premises server upgrade by October 13, 2020, upgrade your on-premises Exchange 2010 servers to Exchange 2016 first, then use Exchange 2016 to connect to Microsoft 365 and migrate mailboxes.
 
 > [!NOTE]
-> While a little more complicated, you may also migrate mailboxes to Office 365 while migrating your on-premises Exchange 2010 servers to Exchange 2016.
+> While a little more complicated, you may also migrate mailboxes to Microsoft 365 while migrating your on-premises Exchange 2010 servers to Exchange 2016.
 
 Here are the three paths you can take to avoid the end of support for Exchange Server 2010.
 
@@ -58,18 +58,18 @@ Here are the three paths you can take to avoid the end of support for Exchange S
 
 The following sections explore each option in more detail.
 
-## Migrate to Office 365
+## Migrate to Microsoft 365
 
-Migrating your email to Office 365 is your best and simplest option to help you retire your Exchange 2010 deployment. With a migration to Office 365, you can
+Migrating your email to Microsoft 365 is your best and simplest option to help you retire your Exchange 2010 deployment. With a migration to Microsoft 365, you can
 make a single hop from old technology to state-of-the-art features, like:
 
 - Compliance capabilities such as Retention Policies, In-Place and Litigation Hold, in-place eDiscovery, and more;
 - Microsoft Teams;
 - Power BI;
 - Focused Inbox;
-- Delve Analytics;
+- MyAnalytics;
 
-Office 365 also gets new features and experiences first and you and your users
+Microsoft 365 also gets new features and experiences first and you and your users
 can usually start using them right away. In addition to new features, you won't
 have to worry about:
 
@@ -78,16 +78,16 @@ have to worry about:
 - Keeping up to date on security, product, and time zone fixes;
 - Maintaining storage and software to support compliance requirements;
 - Upgrading to a new version of Exchange - you're always on the latest version
-    of Exchange in Office 365.
+    of Exchange in Microsoft 365.
 
-### How should I migrate to Office 365?
+### How should I migrate to Microsoft 365?
 
-Depending on your organization, you have a few options that'll help you get to
-Office 365. When choosing a migration option, you need to consider a few things
+Depending on your organization, you have a few options that will help you get to
+Microsoft 365. When choosing a migration option, you need to consider a few things
 like the number of seats or mailboxes you need to move, how long you want the
 migration to last, and whether you need a seamless integration between your
-on-premises installation and Office 365 during the migration. This table shows
-your migration options and the most important factors that'll determine which
+on-premises installation and Microsoft 365 during the migration. This table shows
+your migration options and the most important factors that will determine which
 method you'll use.
 
 | **Migration option**     | **Organization size** | **Duration**        |
@@ -106,10 +106,10 @@ to learn the details of each method.
 A cutover migration is one where, at a pre-selected date and time, you'll
 migrate all your mailboxes, distribution groups, contacts, and so on, to Office
 365; when you've finished, you'll shut down your on-premises Exchange servers
-and start using Office 365 exclusively.
+and start using Microsoft 365 exclusively.
 
 The cutover migration method is great for small organizations that don't have
-very many mailboxes, want to get to Office 365 quickly, and don't want to deal
+very many mailboxes, want to get to Microsoft 365 quickly, and don't want to deal
 with some of the complexities of the other methods. But it's also somewhat
 limited because it should be completed in a week or less and because it requires
 users to reconfigure their Outlook profiles. While cutover migration can handle
@@ -118,24 +118,23 @@ mailboxes with this method. If you try to migrate more than 150 mailboxes, you
 could run out of time to transfer all the mailboxes before your deadline, and
 your IT support staff may get overwhelmed helping users reconfigure Outlook.
 
-If you're thinking about doing a cutover migration, here are a few things to
-think consider:
+If you're thinking about doing a cutover migration, here are a few things to consider:
 
-- Office 365 will need to connect to your Exchange 2010 servers using Outlook
+- Microsoft 365 will need to connect to your Exchange 2010 servers using Outlook
     Anywhere over TCP port 443;
-- All on-premises mailboxes will be moved to Office 365;
+- All on-premises mailboxes will be moved to Microsoft 365;
 - You'll need an on-premises administrator account that has access to read the
     contents of your users' mailboxes;
-- The Exchange 2010 accepted domains that you want to use in Office 365 need
+- The Exchange 2010 accepted domains that you want to use in Microsoft 365 need
     to be added as verified domains in the service;
 - Between the time you start the migration and when you begin the completion
-    phase, Office 365 will periodically synchronize the Office 365 and
+    phase, Microsoft 365 will periodically synchronize the Microsoft 365 and
     on-premises mailboxes. This lets you complete the migration without worrying
     about email being left behind in your on-premises mailboxes;
-- Users will receive new temporary passwords for their Office 365 account that
+- Users will receive new temporary passwords for their Microsoft 365 account that
     they'll need to change when they log in to their mailboxes for the first
     time;
-- You'll need an Office 365 license that includes Exchange Online for each
+- You'll need a Microsoft 365 license that includes Exchange Online for each
     user mailbox you migrate;
 - Users will need to set up a new Outlook profile on each of their devices and
     download their email again. The amount of email that Outlook will download
@@ -152,15 +151,15 @@ To learn more about cutover migration, take a look at:
 ### Minimal hybrid migration
 
 A minimal hybrid, or express, migration is one where you have a few hundred
-mailboxes that you want to migrate to Office 365, can complete the migration
+mailboxes that you want to migrate to Microsoft 365, can complete the migration
 within a few weeks, and don't need any of the advanced hybrid migration features
 like shared Free/Busy calendar information.
 
 Minimal hybrid migration is great for organizations that need to take more time
-to migrate their mailboxes to Office 365, but still plan to complete the
+to migrate their mailboxes to Microsoft 365, but still plan to complete the
 migration within a few weeks. You get some benefits of the more advanced full
 hybrid migration without many of the complexities. You can control how many, and
-which, mailboxes are migrated at a given time; Office 365 mailboxes will be
+which, mailboxes are migrated at a given time; Microsoft 365 mailboxes will be
 created with the username and passwords of their on-premises accounts; and,
 unlike cutover migrations, your users won't need to recreate their Outlook
 profiles.
@@ -169,10 +168,10 @@ If you're thinking about doing minimal hybrid migration, here are a few things
 to consider:
 
 - You'll need to perform a one-time directory synchronization between your
-    on-premises Active Directory servers and Office 365;
-- Users will be able to log in to their Office 365 mailbox using the same
+    on-premises Active Directory servers and Microsoft 365;
+- Users will be able to log in to their Microsoft 365 mailbox using the same
     username and password they were using when their mailbox was migrated;
-- You'll need an Office 365 license that includes Exchange Online for each
+- You'll need a Microsoft 365 license that includes Exchange Online for each
     user mailbox you migrate;
 - Users don't need to set up a new Outlook profile on most of their devices
     (some older Android phones might need a new profile) and won't need to
@@ -186,18 +185,18 @@ to quickly migrate Exchange mailboxes to Office
 
 A full hybrid migration is one where your organization has many hundreds, up to
 tens of thousands, of mailboxes and you want to move some or all of them to
-Office 365. Because these migrations are typically longer-term, hybrid
+Microsoft 365. Because these migrations are typically longer-term, hybrid
 migrations make it possible to:
 
 - Show on-premises users the free/busy calendar information for users in
-    Office 365, and vice versa;
+    Microsoft 365, and vice versa;
 - See a unified global address list that contains recipients in both
-    on-premises and Office 365;
-- View full Outlook recipient cards for all users, regardless of whether
-    they're on-premises or in Office 365;
+    on-premises and Microsoft 365;
+- View full Outlook recipient recipient properties for all users, regardless of whether
+    they're on-premises or in Microsoft 365;
 - Secure email communication between on-premises Exchange servers and Office
     365 using TLS and certificates;
-- Treat messages sent between on-premises Exchange servers and Office 365 as
+- Treat messages sent between on-premises Exchange servers and Microsoft 365 as
     internal, enabling them to:
 - Be properly evaluated and processed by transport and compliance agents
     targeting internal messages;
@@ -206,8 +205,8 @@ migrations make it possible to:
 Full hybrid migrations are best for organizations that expect to stay in a
 hybrid configuration for many months or more. You'll get the features listed
 earlier in this section, plus directory synchronization, better integrated
-compliance features, and the ability to move mailboxes to and from Office 365
-using online mailbox moves. Office 365 becomes an extension of your on-premises
+compliance features, and the ability to move mailboxes to and from Microsoft 365
+using online mailbox moves. Microsoft 365 becomes an extension of your on-premises
 organization.
 
 If you're thinking about doing a full hybrid migration, here are a few things to
@@ -220,23 +219,23 @@ consider:
     strongly recommend that you consider Cutover or Minimal hybrid migrations
     instead;
 - You'll need to set up directory synchronization using Azure Active Directory
-    Connect (AADConnect) between your on-premises Active Directory servers and
-    Office 365;
-- Users will be able to log in to their Office 365 mailbox using the same
+    (Azure AD) Connect between your on-premises Active Directory servers and
+    Microsoft 365;
+- Users will be able to log in to their Microsoft 365 mailbox using the same
     username and password they use when they log into the local network
-    (requires Azure Active Directory Connect with password synchronization
+    (requires Azure AD Connect with password synchronization
     and/or Active Directory Federation Services);
-- You'll need an Office 365 license that includes Exchange Online for each
+- You'll need a Microsoft 365 license that includes Exchange Online for each
     user mailbox you migrate;
 - Users don't need to set up a new Outlook profile on most of their devices
     (some older Android phones might need a new profile) and won't need to
     re-download their email.
 
 > [!IMPORTANT]
-> If your organization chooses to migrate mailboxes to Office 365
+> If your organization chooses to migrate mailboxes to Microsoft 365
 but intends to keep DirSync or Azure AD Connect in place to continue managing
 user accounts from on-premises Active Directory, you need to keep at least one
-Exchange server on-premises. If the last Exchange server is removed, you won’t
+Exchange server on-premises. If the last Exchange server is removed, you won't
 be able to make changes to Exchange recipients in Exchange Online. This is
 because the source of authority remains in your on-premises Active Directory and
 changes need to be made there.
@@ -253,11 +252,11 @@ resources to help you with your migration:
 ## Upgrade to a newer version of Exchange Server On-Premises
 
 While we strongly believe that you can achieve the best value and user
-experience by migrating fully to Office 365, we also understand that some
+experience by migrating fully to Microsoft 365, we also understand that some
 organizations need to keep some Exchange Servers on-premises. This could be
 because of regulatory requirements, to guarantee data isn't stored in a
 datacenter located in another country, or it might be because you have unique
-settings or requirements that can’t be met in the cloud, or it could simply be
+settings or requirements that can't be met in the cloud, or it could simply be
 that you need Exchange to manage cloud mailboxes because you still use Active
 Directory on-premises. In any case for which you choose or need to keep Exchange
 on-premises, you should ensure your Exchange 2010 environment is upgraded to at
@@ -265,14 +264,14 @@ least Exchange 2013 or Exchange 2016 and Exchange 2010 is removed before the End
 of Support date.
 
 For the best experience, we recommend that you upgrade your remaining
-on-premises environment to Exchange 2016. You don’t need to install Exchange
+on-premises environment to Exchange 2016. You don't need to install Exchange
 Server 2013 if you want to go straight from Exchange Server 2010 to Exchange
 Server 2016.
 
 Exchange 2016 includes all the features and advancements included with previous
 releases of Exchange, and it most closely matches the experience available with
-Office 365 (although some features are available only in Office 365). Check out
-just a few of the things you've been missing out on:
+Microsoft 365 (although some features are available only in Microsoft 365). Check out
+just a few of the things you've been missing:
 
 | **Exchange release**                     | **Features**                                                                                                                                                                                                                                         |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -320,25 +319,25 @@ You can use the following resources to help you with your migration:
 
 ## Summary of options for Office 2010 client and servers and Windows 7
 
-For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./media/upgrade-from-office-2010-servers-and-products/Office2010Windows7EndOfSupport.pdf).
+For a visual summary of the upgrade, migrate, and move-to-the-cloud options for Office 2010 clients and servers and Windows 7, see the [end of support poster](./downloads/Office2010Windows7EndOfSupport.pdf).
 
-![](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)
+[![Image for the end of support for Office 2010 clients and servers and Windows 7 poster](./media/upgrade-from-office-2010-servers-and-products/office2010-windows7-end-of-support.png)](./downloads/Office2010Windows7EndOfSupport.pdf)
 
 This one-page poster is a quick way to understand the various paths you can take to prevent Office 2010 client and server products and Windows 7 from reaching end of support, with preferred paths and option support in Microsoft 365 Enterprise highlighted.
 
-You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
+You can also [download](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) this poster and print it in letter, legal, or tabloid (11 x 17) formats.
       
 ## What if I need help?
 
-If you're migrating to Office 365, you might be eligible to use our Microsoft
+If you're migrating to Microsoft 365, you might be eligible to use our Microsoft
 FastTrack service. FastTrack provides best practices, tools, and resources to
-make your migration to Office 365 as seamless as possible. Best of all, you'll
+make your migration to Microsoft 365 as seamless as possible. Best of all, you'll
 have a real support engineer that will walk you through your migration, from
 planning and design all the way to migrating your last mailbox. If you want to
 know more about FastTrack, take a look at [Microsoft
 FastTrack](https://fasttrack.microsoft.com/).
 
-If you run into any problems during your migration to Office 365 and you aren't
+If you run into any problems during your migration to Microsoft 365 and you aren't
 using FastTrack, or your migration to a newer version of Exchange Server, we're
 here to help. Here are some resources you can use:
 
@@ -348,5 +347,3 @@ here to help. Here are some resources you can use:
 ## Related topics
 
 [Resources to help you upgrade from Office 2010 servers and clients](https://docs.microsoft.com/office365/enterprise/upgrade-from-office-2010-servers-and-products)
-
-[Office Retirement Group (Microsoft Tech Community)](https://go.microsoft.com/fwlink/?linkid=842065)

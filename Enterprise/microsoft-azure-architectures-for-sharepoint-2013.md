@@ -18,9 +18,7 @@ description: "Summary: SharePoint 2013 solutions can be hosted in Microsoft Azur
 
 # Microsoft Azure Architectures for SharePoint 2013
 
- **Summary:** SharePoint 2013 solutions can be hosted in Microsoft Azure virtual machines. Learn which type of solutions are a good fit and how to set up Microsoft Azure to host one.
-  
-Azure is a good environment for hosting a SharePoint Server 2013 solution. In most cases, we recommend Office 365, but a SharePoint Server farm hosted in Azure can be a good option for specific solutions. This article describes how to architect SharePoint solutions so they are a good fit in the Azure platform. The following two specific solutions are used as examples:
+Azure is a good environment for hosting a SharePoint Server 2013 solution. In most cases, we recommend Microsoft 365, but a SharePoint Server farm hosted in Azure can be a good option for specific solutions. This article describes how to architect SharePoint solutions so they are a good fit in the Azure platform. The following two specific solutions are used as examples:
   
 - [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
     
@@ -34,14 +32,14 @@ Azure infrastructure services is a compelling option for hosting SharePoint solu
 |:-----|:-----|
 |Development and test environments  <br/> |It's easy to create and manage these environments.  <br/> |
 |Disaster recovery of on-premises SharePoint farms to Azure  <br/> |**Hosted secondary datacenter** Use Azure instead of investing in a secondary datacenter in a different region. <br/> **Lower-cost disaster-recovery environments** Maintain and pay for fewer resources than an on-premises disaster recovery environment. The number of resources depends on the disaster recovery environment you choose: cold standby, warm standby, or hot standby. <br/> **More elastic platform** In the event of a disaster, easily scale-out your recovery SharePoint farm to meet load requirements. Scale in when you no longer need the resources. <br/> See [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md).  <br/> |
-|Internet-facing sites that use features and scale not available in Office 365  <br/> |**Focus your efforts** Concentrate on building a great site rather than building infrastructure. <br/> **Take advantage of elasticity in Azure** Size the farm for the demand by adding new servers, and pay only for resources you need. Dynamic machine allocation is not supported (auto scale). <br/> **Use Azure Active Directory (AD)** Take advantage of Azure AD for customer accounts. <br/> **Add SharePoint functionality not available in Office 365** Add deep reporting and web analytics. <br/> See [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md).  <br/> |
-|App farms to support Office 365 or on-premises environments  <br/> |**Build, test, and host apps** in Azure to support both on-premises and cloud environments. <br/> **Host this role** in Azure instead of buying new hardware for on-premises environments. <br/> |
+|Internet-facing sites that use features and scale not available in Microsoft 365  <br/> |**Focus your efforts** Concentrate on building a great site rather than building infrastructure. <br/> **Take advantage of elasticity in Azure** Size the farm for the demand by adding new servers, and pay only for resources you need. Dynamic machine allocation is not supported (auto scale). <br/> **Use Azure Active Directory (AD)** Take advantage of Azure AD for customer accounts. <br/> **Add SharePoint functionality not available in Microsoft 365** Add deep reporting and web analytics. <br/> See [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md).  <br/> |
+|App farms to support Microsoft 365 or on-premises environments  <br/> |**Build, test, and host apps** in Azure to support both on-premises and cloud environments. <br/> **Host this role** in Azure instead of buying new hardware for on-premises environments. <br/> |
    
 For intranet and collaboration solutions and workloads, consider the following options:
   
-- Determine if Office 365 meets your business requirements or can be part of the solution. Office 365 provides a rich feature set that is always up to date.
+- Determine if Microsoft 365 meets your business requirements or can be part of the solution. Microsoft 365 provides a rich feature set that is always up to date.
     
-- If Office 365 does not meet all your business requirements, consider a standard implementation of SharePoint 2013 on premises from Microsoft Consulting Services (MCS). A standard architecture can be a quicker, cheaper, and easier solution for you to support than a customized one. 
+- If Microsoft 365 does not meet all your business requirements, consider a standard implementation of SharePoint 2013 on premises from Microsoft Consulting Services (MCS). A standard architecture can be a quicker, cheaper, and easier solution for you to support than a customized one. 
     
 - If a standard implementation doesn't meet your business requirements, consider a customized on-premises solution.
     
@@ -214,7 +212,7 @@ This diagram shows the SharePoint farm implemented in Azure infrastructure servi
   
 ## See Also
 
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   
 [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
   

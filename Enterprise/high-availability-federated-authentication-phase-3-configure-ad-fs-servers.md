@@ -13,14 +13,14 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: "Summary: Create and configure the Active Directory Federation Services (AD FS) servers for your high availability federated authentication for Office 365 in Microsoft Azure."
+description: "Summary: Create and configure the Active Directory Federation Services (AD FS) servers for your high availability federated authentication for Microsoft 365 in Microsoft Azure."
 ---
 
 # High availability federated authentication Phase 3: Configure AD FS servers
 
-In this phase of deploying high availability for Office 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.
+In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you create an internal load balancer and two AD FS servers.
   
-You must complete this phase before moving on to [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
+You must complete this phase before moving on to [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md). See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
 ## Create the AD FS server virtual machines in Azure
 
@@ -46,7 +46,7 @@ Recall that you defined Table M in [Phase 2: Configure domain controllers](high-
 First, you create an Azure internal load balancer for the two AD FS servers. Specify the values for the variables, removing the \< and > characters. When you have supplied all the proper values, run the resulting block at the Azure PowerShell command prompt or in the PowerShell ISE.
   
 > [!TIP]
-> To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/deploy-high-availability-federated-authentication-for-office-365-in-azure/O365FedAuthInAzure_Config.xlsx). 
+> To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
 
 ```powershell
 # Set up key variables
@@ -141,7 +141,7 @@ Here is the configuration resulting from the successful completion of this phase
   
 **Phase 3: The AD FS servers and internal load balancer for your high availability federated authentication infrastructure in Azure**
 
-![Phase 3 of the high availability Office 365 federated authentication infrastructure in Azure with the AD FS servers](media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
+![Phase 3 of the high availability Microsoft 365 federated authentication infrastructure in Azure with the AD FS servers](media/f39b2d2f-8a5b-44da-b763-e1f943fcdbc4.png)
   
 ## Next step
 
@@ -149,8 +149,8 @@ Use [Phase 4: Configure web application proxies](high-availability-federated-aut
   
 ## See Also
 
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
+[Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
-[Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+[Federated identity for your Microsoft 365 dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/federated-identity-for-your-office-365-dev-test-environment)
 
 

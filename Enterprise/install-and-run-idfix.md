@@ -1,5 +1,5 @@
 ---
-title: "Download and run the Office 365 IdFix tool"
+title: "Download and run the Microsoft 365 IdFix tool"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: f4bd2439-3e41-4169-99f6-3fabdfa326ac
-description: "How to download and run the Office 365 IdFix tool to help clean up your Active Directory Domain Services (AD DS) before you synchronize it to Office 365."
+description: "How to download and run the Microsoft 365 IdFix tool to help clean up your Active Directory Domain Services (AD DS) before you synchronize it to Microsoft 365."
 ---
 
-# Download and run the Office 365 IdFix tool
+# Download and run the Microsoft 365 IdFix tool
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-IdFix identifies errors such as duplicates and formatting problems in your Active Directory Domain Services (AD DS) domain before you synchronize to Office 365. 
+IdFix identifies errors such as duplicates and formatting problems in your Active Directory Domain Services (AD DS) domain before you synchronize to Microsoft 365. 
   
 To finish this task successfully, you should be comfortable working with user, group, and contact objects in AD DS.
   
@@ -53,7 +53,7 @@ The computer where you download IdFix needs to meet these minimum hardware requi
    
 ### IdFix software requirements
 
-The computer where you download IdFix needs to be joined to the same AD DS domain from which you want to synchronize users to Office 365. 
+The computer where you download IdFix needs to be joined to the same AD DS domain from which you want to synchronize users to Microsoft 365. 
 
 The computer also needs to have .NET Framework 4.0 installed. If you are running Windows Server 2008 or later, the .NET Framework is probably already installed. If not, you can [download .NET 4.0 from the download center](https://go.microsoft.com/fwlink/p/?LinkId=400475) or with Windows Update. 
   
@@ -69,15 +69,15 @@ Follow these instructions.
   
 1. Sign in to the computer where you want to run the IdFix tool.
     
-2. Go to the Microsoft download site for the [IdFix DirSync Error Remediation Tool](https://go.microsoft.com/fwlink/?linkid=867219).
+2. Go to the [IdFix DirSync Error Remediation Tool](https://github.com/microsoft/idfix) site.
     
-3. Download and open the zip file.
+3. Click **launch** in the **ClickOnce Launch** section to download the zip file. Open the zip file.
     
-3. In the **IdFix** window, choose **Extract**, and then **Extract all**. By default, IdFix is extracted to `C:\Users\<your user name>\Documents\IdFix`. 
+4. In the **IdFix** window, choose **Extract**, and then **Extract all**. By default, IdFix is extracted to `C:\Users\<your user name>\Documents\IdFix`. 
     
-6. Choose **Extract**.
+5. Choose **Extract**.
 
-These instructions were done with Internet Explorer on a server running Windows Server 2016. If you're using a different version of Windows or a different browser, your steps might vary.
+Your steps might vary based on your version of Windows and your Internet browser.
     
 ## Run the IdFix tool
 
@@ -89,7 +89,7 @@ After you download and extract IdFix, run it to search for problems in your AD D
     
 3. Double-click **IdFix.exe**. 
   
-4. By default, IdFix uses the Multi-Tenant rule set to test the entries in your directory. This is the right rule set for most Office 365 customers. However, if you are an Office 365 Dedicated or International Traffic in Arms Regulations (ITAR)) customer, you can configure IdFix to use the Dedicated rule set instead. If you aren't sure what type of customer you are, you can safely skip this step. To set the rule set to Dedicated, click the gear icon in the menu bar, and then choose **Dedicated**.
+4. By default, IdFix uses the Multi-Tenant rule set to test the entries in your directory. This is the right rule set for most Microsoft 365 customers. However, if you are a Microsoft 365 Dedicated or International Traffic in Arms Regulations (ITAR)) customer, you can configure IdFix to use the Dedicated rule set instead. If you aren't sure what type of customer you are, you can safely skip this step. To set the rule set to Dedicated, click the gear icon in the menu bar, and then choose **Dedicated**.
     
 5. Choose **Query**.
     
@@ -99,7 +99,7 @@ After you download and extract IdFix, run it to search for problems in your AD D
     
     Depending on the size of your directory, running the query can take a while. You can watch the progress at the bottom of the tool's main window. If you click **Cancel**, you'll need to restart from the beginning.
   
-7. After IdFix completes the query, you can synchronize your directory if there are no errors. If there are errors in your directory, it is recommended that you fix them before you synchronize. See [prepare directory attributes for synchronization with Office 365](prepare-directory-attributes-for-synch-with-idfix.md) for more information.
+7. After IdFix completes the query, you can synchronize your directory if there are no errors. If there are errors in your directory, it is recommended that you fix them before you synchronize. See [prepare directory attributes for synchronization with Microsoft 365](prepare-directory-attributes-for-synch-with-idfix.md) for more information.
     
     While it is not mandatory to fix the errors before you synchronize, we strongly recommend that you at least review all the errors returned by IdFix.
     
@@ -118,10 +118,5 @@ After you download and extract IdFix, run it to search for problems in your AD D
 ## Additional resources on IdFix 
 
 - [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)  
-- [Office 365 IdFix transaction log](idfix-transaction-log.md)
+- [Microsoft 365 IdFix transaction log](idfix-transaction-log.md)
     
-## Video training
-
-For more information, see the lesson [Install and use the IdFix tool](https://support.office.com/article/install-and-use-the-idfix-tool-4d81d73c-f172-4fd5-8542-f601c0c96aa9?ui=en-US&rs=en-US&ad=US), brought to you by LinkedIn Learning.
-  
-

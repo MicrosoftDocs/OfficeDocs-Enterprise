@@ -1,5 +1,5 @@
 ---
-title: "Create an Office 365 Group with a specific PDL"
+title: "Create a Microsoft 365 Group with a specific PDL"
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -12,20 +12,20 @@ f1.keywords:
 ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Priority
-description: "Learn how to create an Office 365 group with a specified preferred data location in a multi-geo environment."
+description: "Learn how to create a Microsoft 365 group with a specified preferred data location in a multi-geo environment."
 ---
 
-# Create an Office 365 Group with a specific PDL
+# Create a Microsoft 365 Group with a specific PDL
 
-When users in a multi-geo environment create an Office 365 Group, the group preferred data location is automatically set to that of the user. Global, SharePoint, and Exchange Administrators can create groups in any region they select. 
+When users in a multi-geo environment create a Microsoft 365 Group, the group preferred data location is automatically set to that of the user. Global, SharePoint, and Exchange Administrators can create groups in any region they select. 
 
 If you need to create a group with a specific PDL, you can do that using from the SharePoint admin center or through the Exchange Online New-UnifiedGroup Microsoft PowerShell cmdlet. When you do this, both the group mailbox and SharePoint site associated with the group will be provisioned in the specified PDL.
 
-To create an Office 365 Group with the PDL that you specify, go to the SharePoint admin center in the geo location where you want to create the group site.
+To create a Microsoft 365 Group with the PDL that you specify, go to the SharePoint admin center in the geo location where you want to create the group site.
 
 For example:
 
-If you wan to create a group site in your Australtia location, you can go to https://ContosoAUS-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/siteManagement
+If you want to create a group site in your Australia location, you can go to https://ContosoAUS-admin.sharepoint.com/_layouts/15/online/AdminHome.aspx#/siteManagement
 
 1. Select **+ Create**.
 2. Follow the process to create a group site.
@@ -48,7 +48,7 @@ Note that SharePoint group site provisioning is on-demand. The site will be prov
 
 ## Geo location codes
 
-[!INCLUDE [Office 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
+[!INCLUDE [Microsoft 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
 ## See also
 

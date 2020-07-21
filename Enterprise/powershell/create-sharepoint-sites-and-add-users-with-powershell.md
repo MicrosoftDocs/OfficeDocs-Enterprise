@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -20,7 +22,7 @@ description: "Summary: Use Office 365 PowerShell to create new SharePoint Online
 
 # Create SharePoint Online sites and add users with Office 365 PowerShell
 
-When you use Office 365 PowerShell to create SharePoint Online sites and add users, you can quickly and repeatedly perform tasks much faster than you can in the Microsoft 356 admin center. You can also perform tasks that are not possible to perform in the Office 356 admin center. 
+When you use Office 365 PowerShell to create SharePoint Online sites and add users, you can quickly and repeatedly perform tasks much faster than you can in the Microsoft 365 admin center. You can also perform tasks that are not possible to perform in the Office 365 admin center. 
 
 ## Before you begin
 

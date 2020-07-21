@@ -1,7 +1,7 @@
 ---
-title: "Defend Against Denial-of-Service Attacks in Office 365"
-ms.author: robmazz
-author: robmazz
+title: "Defend Against Denial-of-Service Attacks in Microsoft 365"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -17,7 +17,7 @@ f1.keywords:
 description: "An overview of Denial-of-Service (DoS) attacks."
 ---
 
-# Defend Against Denial-of-Service Attacks in Office 365
+# Defend Against Denial-of-Service Attacks in Microsoft 365
 
 ## Introduction
 
@@ -26,7 +26,7 @@ Microsoft delivers a trustworthy infrastructure for more than 200 cloud services
 - Microsoft Azure
 - Microsoft Bing
 - Microsoft Dynamics 365
-- Microsoft Office 365
+- Microsoft 365 and Office 365
 - Microsoft OneDrive
 - Skype
 - Xbox Live

@@ -1,9 +1,9 @@
 ---
 title: "Migration from Microsoft Cloud Germany (Microsoft Cloud Deutschland) to Office 365 services in the new German datacenter regions"
-ms.author: josephd
-author: JoeDavies-MSFT
+ms.author: andyber
+author: andybergen
 manager: laurawi
-ms.date: 12/09/2019
+ms.date: 07/09/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -56,6 +56,8 @@ During the migration from Microsoft Cloud Germany to the German datacenter regio
 
 Prerequisites and impact of migration for these services are described in the [Dynamics 365 Customer engagement](https://aka.ms/d365ceoptin) article.
 
+Office 365 Video is being retired on March 1, 2021. If you choose to migrate your Office 365 tenant to the new German datacenter regions, Office 365 Video will not be supported after the SharePoint Online migration is completed. [Learn more](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline)
+
 ## How to prepare for migration to Office 365 services in the new German datacenter regions
 
 The first step is to notify Microsoft so that we have your permission to migrate your subscription and data from Microsoft Cloud Germany/Deutschland to Office 365 services in the new German datacenter regions.  Please refer to the [opt-in process](ms-cloud-germany-migration-opt-in.md) for instructions.
@@ -98,6 +100,11 @@ Upon completion of the OneDrive for Business migration to the German region, dat
 
 Existing Skype for Business Online customers will transition to Microsoft Teams. See [https://aka.ms/SkypeToTeams-Home](https://aka.ms/SkypeToTeams-Home) for more information.
 
+### Office 365 Video
+Content from Office 365 Video will be migrated as part of the SharePoint Online migration. However, Office 365 Video is being retired and Office 365 Video will not be supported after the SharePoint Online migration to the new German datacenter regions is completed. Videos in Office 365 Video will not play back in the Office 365 Video UI after the SharePoint migration.
+
+Microsoft Stream is not going to be deployed to Microsoft Deutschland, and we currently do not have a timeline for deploying Microsoft Stream in the new German datacenter regions. As a result, there will not be any migration tooling provided in this region for Office 365 Video to Microsoft Stream. To preserve your content, you will need to manually download or move content before March 1, 2021. [Learn more](https://docs.microsoft.com/stream/migrate-from-office-365#microsoft-cloud-deutschland-timeline)
+
 
 ## Key differences between Microsoft Cloud Germany (Microsoft Cloud Deutschland) and Office 365 services in the new German datacenter regions
 
@@ -123,7 +130,7 @@ Office 365 services in the new German datacenter regions have additional benefit
 - Offer market competitive pricing for [Azure](https://azure.microsoft.com/pricing/calculator/), [Office 365](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans), [Dynamics 365 Customer Engagement](https://dynamics.microsoft.com/pricing/), and [Power BI](https://powerbi.microsoft.com/pricing/). 
 - Are connected to Microsoft global network, offering hundreds of network edge sites, peering locations, and egress points to deliver a robust user experience anywhere in the world. 
 - Help you meet local customer data residency requirements within Germany. 
-- Deliver our full featured global cloud offering, including the latest version of our services and new capabilities including Microsoft Teams and Multi-Geo in Office 365. Compare products by region for [Azure](https://azure.microsoft.com/global-infrastructure/services/?products=all&regions=germany-non-regional,germany-central,germany-north,germany-northeast,germany-west-central), [Office 365](https://products.office.com/en-us/where-is-your-data-located), and [Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability).
+- Deliver our full featured global cloud offering, including the latest version of our services and new capabilities including Microsoft Teams and Multi-Geo in Office 365. Compare products by region for [Azure](https://azure.microsoft.com/global-infrastructure/services/?products=all&regions=germany-non-regional,germany-central,germany-north,germany-northeast,germany-west-central), [Office 365](https://docs.microsoft.com/office365/enterprise/o365-data-locations), and [Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability).
 - Offer full functionality, enterprise-grade security, and comprehensive features to help customers meet compliance and regulatory requirements. 
 - Are accessible through existing online services contracts.
 

@@ -1,15 +1,33 @@
 {:allowed-branchname-matches ["master"]
 :allowed-filename-matches ["Enterprise/"]
-:acrolinx-check-settings
+
+ :targets 
+   {
+     :counts {
+              ;;:spelling 10
+              ;;:grammar 3
+              ;;:total 15 ;; absolute flag count but i don't know the difference between this and issues
+              ;;:issues 15 ;; coming from the platform, will need to be tested.
+             }
+     :scores {
+              ;;:terminology 100
+              :min-score 40
+              ;;:spelling 40
+             }
+   }
+  
+ :guidance-profile "d2b6c2c8-00ee-47f1-8d10-b280cc3434c1" ;; Profile ID for "M365-specific"
+
+ :acrolinx-check-settings ;; classic API only
  {
   "languageId" "en"
-  "ruleSetName" "Standard Commercial"
+  "ruleSetName" "Standard"
   "requestedFlagTypes" ["SPELLING" "GRAMMAR" "STYLE"
                         "TERMINOLOGY_DEPRECATED"
                         "TERMINOLOGY_VALID"
                         "VOICE_GUIDANCE"
                         ]
-  "termSetNames" ["M365"]
+  "termSetNames" ["M365" "Products" "Microsoft"]
  }
  
  :template-header
@@ -17,22 +35,22 @@
  "
 ## Acrolinx Scorecards
  
-**A minimum Acrolinx score of 20 is required.**
+**A minimum Acrolinx score of 40 is required.**
  
 Click the scorecard links for each article to review the Acrolinx feedback on grammar, spelling, punctuation, writing style, and terminology:
 
-| Article | Score | Issues | Scorecard | Processed |
-| ------- | ----- | ------ | --------- | --------- |
+| Article | Score | Required Minimum Score | Issues | Scorecard | Processed |
+| ------- | ----- | ------ | ------ | --------- | --------- |
 "
 
  :template-change
- "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/flags/issues} | [link](${acrolinx/scorecard}) | ${s/status} |
+ "| ${s/file} | ${acrolinx/qualityscore} | ${acrolinx/scores/min-score} |${acrolinx/flags/issues} | [link](${acrolinx/scorecard}) | ${s/status} |
 "
  
  :template-footer
  "
 **More info about Acrolinx**
  
-You are helping M365 test Acrolinx while we merge to the Microsoft instance. We have set the minimum score to 20 to test that the minimum score script works. This is effectively *not* setting a minimum score. If you need to bypass this score, please contact krowley or go directly to the marveldocs-admins. Thanks for your patience while we continue with roll out!
+Contact krowley for assistance.
 "
 }

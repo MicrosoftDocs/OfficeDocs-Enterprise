@@ -1,5 +1,5 @@
 ---
-title: "Office 365 IdFix transaction log"
+title: "Microsoft 365 IdFix transaction log"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d58b7d45-7947-4193-9456-82ba76f42d89
-description: "Provides an example and describes the naming convention and default log level of the Office 365 IdFix transaction log."
+description: "Provides an example and describes the naming convention and default log level of the Microsoft 365 IdFix transaction log."
 ---
 
-# Office 365 IdFix transaction log
+# Microsoft 365 IdFix transaction log
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-Provides an example and describes the naming convention and default log level of the Office 365 IdFix transaction log.
+Provides an example and describes the naming convention and default log level of the Microsoft 365 IdFix transaction log.
   
 ## IdFix transaction log location
 
-The Office 365 IdFix tool creates a new transaction log each time you click **Apply** in IdFix and apply changes to the Active Directory forest. The transaction log is saved in the same folder where you installed IdFix. By default, this folder is C:\Deployment Tools\IDFix. The transaction log file name uses a date and time stamp format, for example, Verbose 6-1-2018 6-17-22 PM indicates a file that was generated at June 1, 2018 at 6:17:22 PM. Verbose indicates the logging level. 
+The Microsoft 365 IdFix tool creates a new transaction log each time you click **Apply** in IdFix and apply changes to the Active Directory forest. The transaction log is saved in the same folder where you installed IdFix. By default, this folder is C:\Deployment Tools\IDFix. The transaction log file name uses a date and time stamp format, for example, Verbose 6-1-2018 6-17-22 PM indicates a file that was generated at June 1, 2018 at 6:17:22 PM. Verbose indicates the logging level. 
   
 ## IdFix transaction log logging level
 

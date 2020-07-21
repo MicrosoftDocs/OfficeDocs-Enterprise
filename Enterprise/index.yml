@@ -1,0 +1,75 @@
+### YamlMime:Landing
+
+title: Microsoft 365 and Office 365 Enterprise documentation # < 60 chars
+summary: This page provides links to guidance for admins and IT Professionals who are deploying, configuring, and managing Microsoft 365 and Office 365 services in enterprise organizations. # < 160 chars
+
+metadata:
+  title: Microsoft 365 and Office 365 Enterprise documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: This page provides links to guidance for admins and IT Professionals who are deploying, configuring, and managing Microsoft 365 and Office 365 services in enterprise organizations. # Required; article description that is displayed in search results. < 160 chars.
+  ms.service: o365-solutions #Required; service per approved list. service slug assigned to your service by ACOM.
+  ms.topic: landing-page # Required
+  author: wingtofree #Required; your GitHub user alias, with correct capitalization.
+  ms.author: v-qingao #Required; microsoft alias of author; optional team alias.
+  ms.date: 03/12/2020 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Microsoft 365 and Office 365 Enterprise
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Adopt Microsoft 365 with FastTrack
+            url: https://www.microsoft.com/fasttrack/microsoft-365
+          - text: Adopt Office 365 with FastTrack
+            url: https://www.microsoft.com/fasttrack/microsoft-365/office-365
+          - text: Deploy Microsoft 365 for your organization
+            url: setup-overview-for-enterprises.md
+          - text: Migrate your organization data to Microsoft 365
+            url: migrate-data-to-office-365.md
+          - text: Deployment guide for Microsoft 365 Apps for enterprise
+            url: https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps
+      - linkListType: learn
+        links:
+          - text: Get started with Microsoft 365
+            url: https://support.office.com/article/office-365-admin-and-it-pro-courses-68cc9b95-0bdc-491e-a81f-ee70b3ec63c5
+  # Card (optional)
+  - title: Deploy Microsoft 365 and Office 365 Workloads
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Exchange Online
+            url: https://docs.microsoft.com/Exchange/exchange-online
+          - text: SharePoint
+            url: https://docs.microsoft.com/sharepoint/introduction
+          - text: Skype for Business Online
+            url: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online
+          - text: Microsoft Teams
+            url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+          - text: Power BI
+            url: https://docs.microsoft.com/power-bi
+          - text: Yammer
+            url: https://microsoft.office.com/yammer
+
+  # Card
+  - title: More Resources
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Microsoft 365 Tech Community
+            url: https://techcommunity.microsoft.com/t5/microsoft-365/ct-p/microsoft365
+          - text: Office 365 Tech Community
+            url: https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365
+          - text: Get support
+            url: https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
+      - linkListType: learn
+        links:
+          - text: Microsoft 365 help center
+            url: https://docs.microsoft.com/microsoft-365
+          - text: Microsoft 365 compliance
+            url: https://docs.microsoft.com/microsoft-365/compliance/
+          - text: Microsoft 365 security
+            url: https://docs.microsoft.com/microsoft-365/security/

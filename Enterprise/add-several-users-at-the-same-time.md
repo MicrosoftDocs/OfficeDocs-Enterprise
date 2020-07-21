@@ -1,5 +1,5 @@
 ---
-title: "Add several users at the same time to Office 365 - Admin Help"
+title: "Add several users at the same time to Microsoft 365 - Admin Help"
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -24,19 +24,19 @@ search.appverid:
 - GEA150
 - BCS160
 ms.assetid: 1f5767ed-e717-4f24-969c-6ea9d412ca88
-description: "Learn how to add multiple users to Office 365 for business from a list in a spreadsheet or other CSV formatted file. Watch a video on YouTube that explains how to add accounts to Office 365. At the end of this process, each user with an account will have an Office 365 mailbox. "
+description: "Learn how to add multiple users to Microsoft 365 for business from a list in a spreadsheet or other CSV formatted file. Watch a video on YouTube that explains how to add accounts to Microsoft 365. At the end of this process, each user with an account will have a Microsoft 365 mailbox. "
 ---
 
-# Add several users at the same time to Office 365 - Admin Help
+# Add several users at the same time to Microsoft 365 - Admin Help
 
-Each person on your team needs a user account before they can sign in and access Office 365 services, such as email and Office. If you have a lot of people, you can add their accounts all at once from an Excel spreadsheet or other file saved in CSV format. [Not sure what CSV format is?](add-several-users-at-the-same-time.md#__toc316652088)
+Each person on your team needs a user account before they can sign in and access Microsoft 365 services, such as email and Office. If you have a lot of people, you can add their accounts all at once from an Excel spreadsheet or other file saved in CSV format. [Not sure what CSV format is?](add-several-users-at-the-same-time.md#__toc316652088)
   
 > [!NOTE] 
 > If you're not using the new Microsoft 365 admin center, you can turn it on by selecting the **Try the new admin center** toggle located at the top of the Home page.
 
-## Add multiple users to Office 365 in the Microsoft 365 admin center
+## Add multiple users in the Microsoft 365 admin center
 
-1. Sign in to Office 365 with your work or school account. 
+1. Sign in to Microsoft 365 with your work or school account. 
     
 2. In the admin center, choose **Users** \> **Active users**.
 
@@ -69,13 +69,13 @@ Each person on your team needs a user account before they can sign in and access
 ## Next steps
 <a name="bk_preview"> </a>
 
-- Now that these people have accounts, they need to [Download and install or reinstall Office 365 or Office 2016 on a PC or Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658). Each person on your team can install Office 365 on up to 5 PCs or Macs. 
+- Now that these people have accounts, they need to [Download and install or reinstall Microsoft 365 or Office 2016 on a PC or Mac](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658). Each person on your team can install Microsoft 365 on up to 5 PCs or Macs. 
     
 - Each person can also [Set up Office apps and email on a mobile device](https://support.office.com/article/7dabb6cb-0046-40b6-81fe-767e0b1f014f) on up to 5 tablets and 5 phones, such as iPhones, iPads, and Android phones and tablets. This way they can edit Office files from anywhere. 
     
-    See [Set up Office 365 for business](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) for an end-to-end list of the setup steps. 
+    See [Set up Microsoft 365 for business](https://support.office.com/article/6a3a29a0-e616-4713-99d1-15eda62d04fa) for an end-to-end list of the setup steps. 
     
-## More information about how to add users to Office 365
+## More information about how to add users to Microsoft 365
 <a name="bk_preview"> </a>
 
 ### Not sure what CSV format is?
@@ -83,7 +83,7 @@ Each person on your team needs a user account before they can sign in and access
 
 A CSV file is a file with comma separated values. You can create or edit a file like this with any text editor or spreadsheet program, such as Excel.
   
-You can download [this sample spreadsheet](https://www.microsoft.com/download/details.aspx?id=45485) as a starting point. Remember that Office 365 requires column headings in the first row so don't replace them with something else. 
+You can download [this sample spreadsheet](https://www.microsoft.com/download/details.aspx?id=45485) as a starting point. Remember that Microsoft 365 requires column headings in the first row so don't replace them with something else. 
   
 Save the file with a new name, and specify CSV format.
   
@@ -96,13 +96,13 @@ When you save the file, you'll probably get a prompt that some features in your 
 ### Tips for formatting your spreadsheet
 <a name="__toc314595848"> </a>
 
-- **Do I need the same column headings as in the sample spreadsheet?** Yes. The sample spreadsheet contains column headings in the first row. These headings are required. For each user you want to add to Office 365, create a row under the heading. If you add, change, or delete any of the column headings, Office 365 might not be able to create users from the information in the file. 
+- **Do I need the same column headings as in the sample spreadsheet?** Yes. The sample spreadsheet contains column headings in the first row. These headings are required. For each user you want to add to Microsoft 365, create a row under the heading. If you add, change, or delete any of the column headings, Microsoft 365 might not be able to create users from the information in the file. 
     
 - **What if I don't have all the information required for each user?** The user name and display name are required, and you cannot add a new user without this information. If you don't have some of the other information, such as the fax, you can use a space plus a comma to indicate that the field should remain blank. 
     
-- ** How small or large can the spreadsheet be? ** The spreadsheet must have at least two rows. One is for the column headings (the user data column label) and one for the user. You cannot have more than 251 rows. If you need to import more than 250 users, you can create more than one spreadsheet. 
+- **How small or large can the spreadsheet be?** The spreadsheet must have at least two rows. One is for the column headings (the user data column label) and one for the user. You cannot have more than 251 rows. If you need to import more than 250 users, you can create more than one spreadsheet. 
     
-- ** What languages can I use? ** When you create your spreadsheet, you can enter user data column labels in any language or characters, but you must not change the order of the labels, as shown in the sample. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format. 
+- **What languages can I use?** When you create your spreadsheet, you can enter user data column labels in any language or characters, but you must not change the order of the labels, as shown in the sample. You can then make entries into the fields, using any language or characters, and save your file in a Unicode or UTF-8 format. 
     
 - **What if I'm adding users from different countries or regions?** Create a separate spreadsheet for each area. You'll need to step through the Bulk add users wizard which each spreadsheet, giving a single location of all users included in the file that you're working with. 
     
@@ -126,15 +126,15 @@ When you save the file, you'll probably get a prompt that some features in your 
 |ZIP or Postal Code  <br/> |40  <br/> |
 |Country or Region  <br/> |128  <br/> |
    
-### Still having problems when adding users to Office 365?
+### Still having problems when adding users to Microsoft 365?
 
 - **Double-check that the spreadsheet is formatted correctly.** Check the column headings to make sure they match the headings in the sample file. Make sure you're following the rules for character lengths and that each field is separated by a comma. 
     
-- **If you don't see the new users in Office 365 right away, wait a few minutes.** It can take a little while for changes to go across all the services in Office 365. 
+- **If you don't see the new users in Microsoft 365 right away, wait a few minutes.** It can take a little while for changes to go across all the services in Microsoft 365. 
     
 ## Related articles
 
-[Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+[Add users individually or in bulk to Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
 
 
 

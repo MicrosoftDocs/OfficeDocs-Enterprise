@@ -1,5 +1,5 @@
 ---
-title: "Prepare directory attributes for synchronization with Office 365 by using the IdFix tool"
+title: "Prepare directory attributes for synchronization with Microsoft 365 by using the IdFix tool"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,18 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 497593cf-24c6-491c-940b-7c86dcde9de0
-description: "Provides instructions on using IdFix to prepare and clean up your on-premises directory before synchronizing to Office 365."
+description: "Provides instructions on using IdFix to prepare and clean up your on-premises directory before synchronizing to Microsoft 365."
 ---
 
-# Prepare directory attributes for synchronization with Office 365 by using the IdFix tool
+# Prepare directory attributes for synchronization with Microsoft 365 by using the IdFix tool
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 This topic contains detailed instructions about running the IdFix tool, some common errors you may encounter, suggested fixes, examples, and best practices for what to do if you have a large number of errors.
   
 ## Fixing errors in your directory by using the IdFix GUI
 
-[Run the Office 365 IdFix tool](install-and-run-idfix.md) to search for problems in your directory and then fix the errors in the GUI as described in this topic. If a blank table is returned by the tool, then no errors were discovered. If there are a lot of problems in your directory, it can be overwhelming when the tool returns the errors. One way to tackle this is to fix all errors of one type first and then move on to the next type. 
+[Run the Microsoft 365 IdFix tool](install-and-run-idfix.md) to search for problems in your directory and then fix the errors in the GUI as described in this topic. If a blank table is returned by the tool, then no errors were discovered. If there are a lot of problems in your directory, it can be overwhelming when the tool returns the errors. One way to tackle this is to fix all errors of one type first and then move on to the next type. 
   
 1. Before you start making changes, take a look at the recommendations presented by IdFix.
     
@@ -51,13 +51,13 @@ The following table describes the errors that are detected by IdFix, provides th
 |:-----|:-----|:-----|:-----|
 |**character** | Illegal characters. The value contains a character which is invalid. | The suggested fix for the error shown in the **UPDATE** column shows the value with the invalid character removed.  <br/> | A trailing space at the end of a valid mail address is an illegal character, for example:  <br/> " `user@contoso.com` "  <br/> A leading space at the beginning of a valid mail address is an illegal character, for example:  <br/> " ` user@contoso.com `"  <br/>  The  `ú` character is an illegal character. |
 |**duplicate** | Duplicate entry. The value has a duplicate within the scope of the query. All duplicate values will be displayed as errors. | Edit or remove values to eliminate duplication. The tool will not provide a suggested fix for duplicates. Instead, you must choose which of the two or more duplicates is the correct one and delete the duplicate entry or entries. ||
-|**format** | Formatting error. The value violates the format requirements for the attribute usage. | The suggested Update will show the value with any invalid characters removed. If there are no invalid characters the Update and Value will appear the same. You need to determine what you really want in the Update. The tool will not provide a suggested fix for all formatting errors. | For example SMTP addresses must comply with RFC 2822 and mailNickName cannot start or end with a period. For more information about format requirements for directory attributes, see "Directory object and attribute preparation" in [Prepare to provision users through directory synchronization to Office 365](prepare-for-directory-synchronization.md). |
+|**format** | Formatting error. The value violates the format requirements for the attribute usage. | The suggested Update will show the value with any invalid characters removed. If there are no invalid characters the Update and Value will appear the same. You need to determine what you really want in the Update. The tool will not provide a suggested fix for all formatting errors. | For example SMTP addresses must comply with RFC 2822 and mailNickName cannot start or end with a period. For more information about format requirements for directory attributes, see "Directory object and attribute preparation" in [Prepare to provision users through directory synchronization to Microsoft 365](prepare-for-directory-synchronization.md). |
 |topleveldomain  <br/> |Top level domain. This applies to values subject to [RFC 2822](https://go.microsoft.com/fwlink/p/?LinkId=401464) formatting. If the top level domain is not internet routable then this will be identified as an error. For example an SMTP address ending in .local is not internet routable and would cause this error. |Change the value to an internet routable domain such as  `.com` or  `.net`. | Change  `myaddress@fourthcoffee.local` to  `fourthcoffee.com` or another internet routable domain.  <br/> For instructions, see [How to prepare a non-routable domain (such as .local domain) for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md). |
 |**domainpart** | Domain part error. This applies to values subject to RFC 2822 formatting. If the domain portion of the value is invalid and does not comply with RFC 2822 this will be generated. | Change the value to one that complies with RFC 2822. For example, make sure that it doesn't contain any spaces or illegal characters. | Change  `myaddress@fourth coffee.com` to  `myaddress@fourthcoffee.com`. |
 |**domainpart_localpart** | Local-part error. This applies to values subject to RFC 2822 formatting. If the local-part of the value is invalid and does not comply with RFC 2822 this will be generated. |Change the value to one that complies with RFC 2822. For example, make sure that it doesn't contain any spaces or illegal characters. |Change  `my"work"address@fourthcoffee.com` to  `myworkaddress@fourthcoffee.com`. |
 |**length** | Length error. The value violates the length limit for the attribute. This is most commonly encountered when the directory schema has been altered.  | The update suggested by IdFix will truncate the value to the acceptable length.  <br/> Be aware that this may produce undesired results. You should review the suggested fix and change it if necessary before you click **Apply**. ||
 |**blank**  | Blank or null error. The value violates the null restriction for attributes to be synchronized. Only a few attributes must contain a value. | If possible, the suggested update will leverage other attribute values in order to generate a likely substitute. ||
-|**mailmatch** | This applies to Office 365 Dedicated only. The value does not match the mail attribute. | The suggested update will be the mail attribute value prefixed by "SMTP:". ||
+|**mailmatch** | This applies to Microsoft 365 Dedicated only. The value does not match the mail attribute. | The suggested update will be the mail attribute value prefixed by "SMTP:". ||
     
 ## Operations you can perform by using IdFix
 To fix an error, you select an option from the **ACTION** drop-down list. The following table describes the **ACTION** operations you can perform on attributes using the IdFix tool. If you leave the **ACTION** column empty, the IdFix tool will not take any action on that specific error in the directory. 
@@ -75,13 +75,13 @@ After choosing an **ACTION** for an error or a batch of errors, click **Apply**.
 Run IdFix again to ensure that the fixes you made didn't introduce new errors. You can repeat these steps as many times as you need to. It's a good idea to go through the process a few times before you synchronize.
     
 ## Changing the rule set used by IdFix
-By default, IdFix uses the Multi-Tenant rule set to test the entries in your directory. This is the right rule set for most Office 365= customers. However, if you are an Office 365 Dedicated or ITAR (International Traffic in Arms Regulations) customer, you can configure IdFix to use the Dedicated rule set instead. If you aren't sure what type of customer you are, you can safely skip this step. To set the rule set to Dedicated, click the gear icon in the menu bar and then click **Dedicated**.
+By default, IdFix uses the Multi-Tenant rule set to test the entries in your directory. This is the right rule set for most Microsoft 365 customers. However, if you are a Microsoft 365 Dedicated or ITAR (International Traffic in Arms Regulations) customer, you can configure IdFix to use the Dedicated rule set instead. If you aren't sure what type of customer you are, you can safely skip this step. To set the rule set to Dedicated, click the gear icon in the menu bar and then click **Dedicated**.
   
 ## Changing the scope of the search used by IdFix
 By default, IdFix searches the entire directory. If you want, you can configure the tool to search a specific subtree instead. To do this, in the menu bar, click the Filter icon and enter a valid subtree.
   
 ## Rolling back your changes by using the IdFix GUI
-Each time you click **Apply** to apply changes, the IdFix tool creates a separate file called a transaction log that lists the changes you just made. You can use the transaction log to roll back just those changes that are in the most recent log in case you make a mistake. If you make a mistake while you are updating, you can undo the most recently applied changes by clicking **Undo**. When you click **Undo**, IdFix uses the transaction log to roll back just those changes that are in the most recent transaction log. For more information about using the transaction log, see [Reference: Office 365 IdFix transaction log](idfix-transaction-log.md).
+Each time you click **Apply** to apply changes, the IdFix tool creates a separate file called a transaction log that lists the changes you just made. You can use the transaction log to roll back just those changes that are in the most recent log in case you make a mistake. If you make a mistake while you are updating, you can undo the most recently applied changes by clicking **Undo**. When you click **Undo**, IdFix uses the transaction log to roll back just those changes that are in the most recent transaction log. For more information about using the transaction log, see [Microsoft 365 IdFix transaction log](idfix-transaction-log.md).
 
 ## Next step
 

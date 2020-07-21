@@ -13,17 +13,17 @@ f1.keywords:
 - CSH
 ms.custom: Ent_Solutions
 ms.assetid: 6b0eff4c-2c5e-4581-8393-a36f7b36a72f
-description: "Summary: Configure the domain controllers and directory synchronization server for your high availability federated authentication for Office 365 in Microsoft Azure."
+description: "Summary: Configure the domain controllers and directory synchronization server for your high availability federated authentication for Microsoft 365 in Microsoft Azure."
 ---
 
 # High availability federated authentication Phase 2: Configure domain controllers
 
-In this phase of deploying high availability for Office 365 federated authentication in Azure infrastructure services, you configure two domain controllers and the directory synchronization server in the Azure virtual network. Client web requests for authentication can then be authenticated in the Azure virtual network, rather than sending that authentication traffic across the site-to-site VPN connection to your on-premises network.
+In this phase of deploying high availability for Microsoft 365 federated authentication in Azure infrastructure services, you configure two domain controllers and the directory synchronization server in the Azure virtual network. Client web requests for authentication can then be authenticated in the Azure virtual network, rather than sending that authentication traffic across the site-to-site VPN connection to your on-premises network.
   
 > [!NOTE]
-> Active Directory Federation Services (AD FS) cannot use Azure Active Directory Domain Services as a substitute for Active Directory Domain Services domain controllers. 
+> Active Directory Federation Services (AD FS) cannot use Azure Active Directory (Azure AD) as a substitute for Active Directory Domain Services (AD DS) domain controllers. 
   
-You must complete this phase before moving on to [Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). See [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
+You must complete this phase before moving on to [Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md). See [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md) for all of the phases.
   
 ## Create the domain controller virtual machines in Azure
 
@@ -39,7 +39,7 @@ First, you need to fill out the **Virtual machine name** column of Table M and m
 |6.  <br/> |![line](./media/Common-Images/TableLine.png) (first web application proxy server, example WEB1)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
 |7.  <br/> |![line](./media/Common-Images/TableLine.png) (second web application proxy server, example WEB2)  <br/> |Windows Server 2016 Datacenter  <br/> |Standard_LRS  <br/> |Standard_D2  <br/> |
    
- **Table M - Virtual machines for the high availability federated authentication for Office 365 in Azure**
+ **Table M - Virtual machines for the high availability federated authentication for Microsoft 365 in Azure**
   
 For the complete list of virtual machine sizes, see [Sizes for virtual machines](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-sizes).
   
@@ -65,7 +65,7 @@ Recall that you defined Tables R, V, S, I, and A in [Phase 1: Configure Azure](h
 When you have supplied all the correct values, run the resulting block at the Azure PowerShell prompt or in the PowerShell Integrated Script Environment (ISE) on your local computer.
   
 > [!TIP]
-> To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/deploy-high-availability-federated-authentication-for-office-365-in-azure/O365FedAuthInAzure_Config.xlsx). 
+> To generate ready-to-run PowerShell command blocks based on your custom settings, use this [Microsoft Excel configuration workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/O365FedAuthInAzure_Config.xlsx). 
 
 ```powershell
 # Set up variables common to both virtual machines
@@ -240,7 +240,7 @@ Here is the configuration resulting from the successful completion of this phase
   
 **Phase 2: The domain controllers and directory synchronization server for your high availability federated authentication infrastructure in Azure**
 
-![Phase 2 of the high availability Office 365 federated authentication infrastructure in Azure with domain controllers](media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
+![Phase 2 of the high availability Microsoft 365 federated authentication infrastructure in Azure with domain controllers](media/b0c1013b-3fb4-499e-93c1-bf310d8f4c32.png)
   
 ## Next step
 
@@ -248,10 +248,10 @@ Use [Phase 3: Configure AD FS servers](high-availability-federated-authenticatio
   
 ## See Also
 
-[Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
+[Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
   
-[Federated identity for your Office 365 dev/test environment](federated-identity-for-your-office-365-dev-test-environment.md)
+[Federated identity for your Microsoft 365 dev/test environment](https://docs.microsoft.com/microsoft-365/enterprise/federated-identity-for-your-office-365-dev-test-environment)
   
-[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.md)
+[Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
 
 
