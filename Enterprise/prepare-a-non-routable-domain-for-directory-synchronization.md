@@ -43,7 +43,7 @@ Change your primary domain to a domain you have verified in Microsoft 365, for e
 
 You can solve the .local problem by registering new UPN suffix or suffixes in AD DS to match the domain (or domains) you verified in Microsoft 365. After you register the new suffix, you update the user UPNs to replace the .local with the new domain name for example so that a user account looks like billa@contoso.com.
   
-After you have updated the UPNs to use the verified domain,you are ready to synchronize your on-premises AD DS with Microsoft 365.
+After you have updated the UPNs to use the verified domain, you are ready to synchronize your on-premises AD DS with Microsoft 365.
   
  **Step 1: Add the new UPN suffix**
   
