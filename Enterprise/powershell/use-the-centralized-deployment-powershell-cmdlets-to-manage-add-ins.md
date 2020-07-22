@@ -17,7 +17,7 @@ search.appverid:
 ms.assetid: 94f4e86d-b8e5-42dd-b558-e6092f830ec9
 f1.keywords:
 - NOCSH
-description: "Use the Centralized Deployment PowerShell cmdlets to help you deploy and manage Office add-ins for your Office 365 organization."
+description: "Use the Centralized Deployment PowerShell cmdlets to help you deploy and manage Office add-ins for your Microsoft 365 organization."
 ---
 
 # Use the Centralized Deployment PowerShell cmdlets to manage add-ins
@@ -42,7 +42,7 @@ Before you can use the Centralized Deployment cmdlets, you need to sign in.
   Connect-OrganizationAddInService
   ```
 
-3. In the **Enter Credentials** page, enter your Office 365 global admin credentials. Alternately, you can enter your credentials directly into the cmdlet. 
+3. In the **Enter Credentials** page, enter your Microsoft 365 global admin credentials. Alternately, you can enter your credentials directly into the cmdlet. 
     
     Run the following cmdlet specifying your company admin credentials as a PSCredential object.
     
@@ -53,7 +53,7 @@ Before you can use the Centralized Deployment cmdlets, you need to sign in.
   ```
 
 > [!NOTE]
-> For more information about using PowerShell, see [Connect to Office 365 PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585). 
+> For more information about using PowerShell, see [Connect to Microsoft 365 with PowerShell](https://go.microsoft.com/fwlink/p/?linkid=848585). 
   
 ## Upload an add-in manifest
 

@@ -1,5 +1,5 @@
 ---
-title: "Manage SharePoint Online site groups with Office 365 PowerShell"
+title: "Manage SharePoint Online site groups with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,18 +18,20 @@ ms.custom:
 - Ent_Office_Other
 - SPO_Content
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: "Summary: Use Office 365 PowerShell to manage SharePoint Online site groups."
+description: "Summary: Use PowerShell to manage SharePoint Online site groups."
 ---
 
-# Manage SharePoint Online site groups with Office 365 PowerShell
+# Manage SharePoint Online site groups with PowerShell
 
-Although you can use the Microsoft 365 admin center, you can also use Office 365 PowerShell to manage your SharePoint Online site groups.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Although you can use the Microsoft 365 admin center, you can also use PowerShell for Microsoft 365 to manage your SharePoint Online site groups.
 
 ## Before you begin
 
 The procedures in this article require you to connect to SharePoint Online. For instructions, see [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps).
 
-## View SharePoint Online with Office 365 PowerShell
+## View SharePoint Online with PowerShell for Microsoft 365
 
 The SharePoint Online admin center has some easy-to-use methods for managing site groups. For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site. Here’s what you have to do to:
 
@@ -38,7 +40,7 @@ The SharePoint Online admin center has some easy-to-use methods for managing sit
 
 And then repeat the process for the next site you want to look at.
 
-To get a list of the groups with Office 365 PowerShell, you can use the following commands:
+To get a list of the groups with PowerShell for Microsoft 365, you can use the following commands:
 
 ```powershell
 $siteURL = "https://litwareinc.sharepoint.com/sites/finance"
@@ -88,11 +90,11 @@ foreach ($y in $x)
 
 [Connect to SharePoint Online PowerShell](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-[Create SharePoint Online sites and add users with Office 365 PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
+[Create SharePoint Online sites and add users with PowerShell](create-sharepoint-sites-and-add-users-with-powershell.md)
 
-[Manage SharePoint Online users and groups with Office 365 PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
+[Manage SharePoint Online users and groups with PowerShell](manage-sharepoint-users-and-groups-with-powershell.md)
 
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
 

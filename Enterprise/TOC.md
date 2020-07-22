@@ -273,7 +273,7 @@
 ### [Tenant Isolation in Microsoft 365 Video](office-365-isolation-in-office-365-video.md)
 ### [Tenant Isolation in the Microsoft Graph and Delve](office-365-isolation-in-graph-and-delve.md)
 
-# [Office 365 PowerShell](powershell/manage-office-365-with-office-365-powershell.md)
+# [PowerShell for Microsoft 365](powershell/manage-office-365-with-office-365-powershell.md)
 # [Microsoft 365 Compliance](https://docs.microsoft.com/microsoft-365/compliance/)
 # [Microsoft 365 Security](https://docs.microsoft.com/microsoft-365/security/)
 # [Microsoft 365 for Business](https://www.microsoft.com/microsoft-365/business)

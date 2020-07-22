@@ -1,9 +1,9 @@
 ---
-title: "Configure user account properties with Office 365 PowerShell"
+title: "Configure Microsoft 365 user account properties with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/16/2019
+ms.date: 07/16/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,20 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 ms.assetid: 30813f8d-b08d-444b-98c1-53df7c29b4d7
-description: "Summary: Use Office 365 PowerShell to configure properties of individual or multiple user accounts in your Office 365 tenant."
+description: "Summary: Use PowerShell for Microsoft 365 to configure properties of individual or multiple user accounts in your Microsoft 365 tenant."
 ---
 
-# Configure user account properties with Office 365 PowerShell
+# Configure Microsoft 365 user account properties with PowerShell
 
-Although you can use the Microsoft 365 admin center to configure properties for the user accounts of your Office 365 tenant, you can also use Office 365 PowerShell and do some things that the admin center cannot.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Although you can use the Microsoft 365 admin center to configure properties for the user accounts of your Microsoft 365 tenant, you can also use PowerShell and do some things that the Microsoft 365 admin center cannot.
   
 ## Use the Azure Active Directory PowerShell for Graph module
 
 To configure properties for user accounts with the Azure Active Directory PowerShell for Graph module, you use the [Set-AzureADUser](https://docs.microsoft.com/powershell/module/azuread/set-azureaduser?view=azureadps-2.0) cmdlet and specify the properties to set or change. 
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
    
 ### Change properties for a specific user account
 
@@ -76,7 +78,7 @@ To display the User Principal Name for your user accounts, run the following com
 Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName | More
 ```
 
-This command instructs Office 365 PowerShell to:
+This command instructs PowerShell to:
   
 - Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).
     
@@ -116,7 +118,7 @@ To change properties for all users, you can use the combination of the **Get-Azu
 Get-AzureADUser | Set-AzureADUser -UsageLocation "FR"
 ```
 
-This command instructs Office 365 PowerShell to:
+This command instructs PowerShell to:
   
 - Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).
     
@@ -130,7 +132,7 @@ To change properties for a specific set of user account, you can use the combina
 Get-AzureADUser | Where {$_.Department -eq "Accounting"} | Set-AzureADUser -UsageLocation "FR"
 ```
 
-This command instructs Office 365 PowerShell to:
+This command instructs PowerShell to:
   
 - Get all of the information on the user accounts (**Get-AzureADUser**) and send it to the next command (**|**).
     
@@ -142,7 +144,7 @@ This command instructs Office 365 PowerShell to:
 
 To configure properties for user accounts with the Microsoft Azure Active Directory Module for Windows PowerShell, you use the **Set-MsolUser** cmdlet and specify the properties to set or change. 
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
   
 >[!Note]
 >PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
@@ -196,7 +198,7 @@ To see the User Principal Names of all your users, run the following command.
 Get-MSolUser | Sort UserPrincipalName | Select UserPrincipalName | More
 ```
 
-This command instructs Office 365 PowerShell to:
+This command instructs PowerShell to:
   
 - Get all of the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).
     
@@ -236,7 +238,7 @@ To change properties for all users, you can use the combination of the **Get-Mso
 Get-MsolUser | Set-MsolUser -UsageLocation "FR"
 ```
 
-This command instructs Office 365 PowerShell to:
+This command instructs PowerShell to:
   
 - Get all of the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).
     
@@ -250,7 +252,7 @@ To change properties for a specific set of user account, you can use the combina
 Get-MsolUser | Where {$_.Department -eq "Accounting"} | Set-MsolUser -UsageLocation "FR"
 ```
 
-This command instructs Office 365 PowerShell to:
+This command instructs PowerShell to:
   
 - Get all of the information on the user accounts (**Get-MsolUser**) and send it to the next command (**|**).
     
@@ -261,8 +263,8 @@ This command instructs Office 365 PowerShell to:
 
 ## See also
 
-[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
