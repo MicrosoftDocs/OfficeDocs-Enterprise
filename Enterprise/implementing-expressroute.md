@@ -577,7 +577,7 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
   
-[Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
+[Using BGP communities in ExpressRoute for Office 365 scenarios](bgp-communities-in-expressroute.md)
   
 [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
   

@@ -20,6 +20,8 @@ description: "Summary: Use remote Windows PowerShell to connect to Exchange Onli
 
 # Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners
 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
 > [!IMPORTANT]
 > The procedures in this topic are only for Delegated Access Permission (DAP) partners. If you aren't a DAP partner, don't use the procedures in this topic. 
   

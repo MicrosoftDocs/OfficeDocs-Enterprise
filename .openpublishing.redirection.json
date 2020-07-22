@@ -66,11 +66,102 @@
 
         "source_path": "enterprise/accessible-diagramyammer-features-on-mobile-devices.md",
 
-        "redirect_url": "https://support.office.com/article/1bbd7c52-0207-4b50-a1b7-c0184c75a66a",
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
 
         "redirect_document_id": false
 
       },
+
+      {
+
+        "source_path": "enterprise/accessible-diagrammicrosoft-exchange-2013-platform-options.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagrammicrosoft-sharepoint-2013-platform-options.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramon-premises-ediscovery-flow.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramfeature-integration-across-microsoft-office-server-products.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagrammicrosoft-lync-2013-platform-options.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramdesign-sample-internet-sites-in-microsoft-azure-for-sharepoint.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramnetwork-integration-of-microsoft-office-server-products.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramsharepoint-server-exchange-lync-office-web-apps-the-mobile-l.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramsharepoint-disaster-recovery-to-microsoft-azure.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
       {
 
         "source_path": "enterprise/office-365-information-protection-for-gdpr.md",
@@ -802,6 +893,26 @@
     "source_path": "enterprise/security-solutions.md",
   
     "redirect_url": "https://docs.microsoft.com/microsoft-365/security",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/automate-file-collection-for-ediscovery.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/ediscovery",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/cloud-app-security-for-your-office-365-dev-test-environment.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs",
   
     "redirect_document_id": true
     

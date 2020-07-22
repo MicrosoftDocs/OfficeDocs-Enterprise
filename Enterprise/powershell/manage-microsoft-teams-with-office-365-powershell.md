@@ -1,9 +1,9 @@
 ---
-title: "Manage Microsoft Teams with Office 365 PowerShell"
+title: "Manage Microsoft Teams with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/12/2020
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,14 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
-description: "Summary: Use Office 365 PowerShell to manage your Microsoft Teams."
+description: "Summary: Use PowerShell to manage Microsoft Teams."
 ---
 
-# Manage Microsoft Teams with Office 365 PowerShell
+# Manage Microsoft Teams with PowerShell
 
-You can manage Microsoft Teams with Office 365 PowerShell.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+You can manage Microsoft Teams with PowerShell.
   
 First, install the [Microsoft Teams module](https://www.powershellgallery.com/packages/MicrosoftTeams/).
     
@@ -78,7 +80,7 @@ Disconnect-MicrosoftTeams
 
 [Teams PowerShell Overview](https://docs.microsoft.com/microsoftteams/teams-powershell-overview)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
 
