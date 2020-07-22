@@ -29,7 +29,7 @@ description: "Learn how Microsoft 365 modern authentication works differently fo
 
 *This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-Read this article to learn how Office 2013 and Office 2016 client apps use modern authentication features based on the authentication configuration on the Microsoft 365 tenant for Exchange Online, SharePoint Online, and Skype for Business Online.
+Read this article to learn how Office 2013, Office 2016 and Office 2019 client apps use modern authentication features based on the authentication configuration on the Microsoft 365 tenant for Exchange Online, SharePoint Online, and Skype for Business Online.
 
 > [!NOTE]
 > Legacy client apps, such as Office 2010 and Office for Mac 2011, do not support modern authentication and can only be used with basic authentication.
@@ -62,7 +62,7 @@ Read [How to use Modern Authentication (ADAL) with Skype for Business](https://g
   
 Office 2016 and Office 2019  clients support modern authentication by default, and no action is needed for the client to use these new flows. However, explicit action is needed to use legacy authentication.
   
-Click the links below to see how Office 2013 and Office 2016 client authentication works with the Microsoft 365 services depending on whether or not modern authentication is turned on.
+Click the links below to see how Office 2013, Office 2016 and Office 2019 client authentication works with the Microsoft 365 services depending on whether or not modern authentication is turned on.
   
 - [Exchange Online](modern-auth-for-office-2013-and-2016.md#BK_EchangeOnline)
     
@@ -73,15 +73,15 @@ Click the links below to see how Office 2013 and Office 2016 client authenticati
 <a name="BK_EchangeOnline"> </a>
 ### Exchange Online
 
-The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to Exchange Online with or without modern authentication.
+The following table describes the authentication behavior for Office 2013. Office 2016 and Office 2019 client apps when they connect to Exchange Online with or without modern authentication.
   
 |****Office client app version****|****Registry key present?****|****Modern authentication on?****|****Authentication behavior with modern authentication turned on for the tenant (default)****|****Authentication behavior with modern authentication turned off for the tenant****|
 |:-----|:-----|:-----|:-----|:-----|
-|Office 2019  <br/> |No, <br> AlwaysUseMSOAuthForAutoDiscover = 1 <br/> |Yes  <br/> |Forces modern authentication on Outlook 2010, 2013, or 2019 <br/> [More info](https://support.microsoft.com/help/3126599/outlook-prompts-for-password-when-modern-authentication-is-enabled)|Forces modern authentication within the Outlook client.<br/> |
+|Office 2019  <br/> |No, <br> AlwaysUseMSOAuthForAutoDiscover = 1 <br/> |Yes  <br/> |Forces modern authentication on Outlook 2013, 2016, or 2019 <br/> [More info](https://support.microsoft.com/help/3126599/outlook-prompts-for-password-when-modern-authentication-is-enabled)|Forces modern authentication within the Outlook client.<br/> |
 |Office 2019  <br/> |No, or EnableADAL = 1  <br/> |Yes  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |
 |Office 2019  <br/> |Yes, EnableADAL = 1  <br/> |Yes  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |
 |Office 2019  <br/> |Yes, EnableADAL=0  <br/> |No  <br/> |Basic authentication  <br/> |Basic authentication  <br/> |
-|Office 2016  <br/> |No, <br> AlwaysUseMSOAuthForAutoDiscover = 1 <br/> |Yes  <br/> |Forces modern authentication on Outlook 2010, 2013, or 2016 <br/> [More info](https://support.microsoft.com/help/3126599/outlook-prompts-for-password-when-modern-authentication-is-enabled)|Forces modern authentication within the Outlook client.<br/> |
+|Office 2016  <br/> |No, <br> AlwaysUseMSOAuthForAutoDiscover = 1 <br/> |Yes  <br/> |Forces modern authentication on 2013, 2016, or 2019 <br/> [More info](https://support.microsoft.com/help/3126599/outlook-prompts-for-password-when-modern-authentication-is-enabled)|Forces modern authentication within the Outlook client.<br/> |
 |Office 2016  <br/> |No, or EnableADAL = 1  <br/> |Yes  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |
 |Office 2016  <br/> |Yes, EnableADAL = 1  <br/> |Yes  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |Modern authentication is attempted first. If the server refuses a modern authentication connection, then basic authentication is used. Server refuses modern authentication when the tenant is not enabled.  <br/> |
 |Office 2016  <br/> |Yes, EnableADAL=0  <br/> |No  <br/> |Basic authentication  <br/> |Basic authentication  <br/> |
@@ -91,7 +91,7 @@ The following table describes the authentication behavior for Office 2013 or Off
 <a name="BK_SharePointOnline"> </a>
 ### SharePoint Online
 
-The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to SharePoint Online with or without modern authentication.
+The following table describes the authentication behavior for Office 2013, Office 2016 and Office 2019 client apps when they connect to SharePoint Online with or without modern authentication.
   
 |****Office client app version****|****Registry key present?****|****Modern authentication on?****|****Authentication behavior with modern authentication turned on for the tenant (default)****|****Authentication behavior with modern authentication turned off for the tenant****|
 |:-----|:-----|:-----|:-----|:-----|
@@ -107,7 +107,7 @@ The following table describes the authentication behavior for Office 2013 or Off
 ### Skype for Business Online
 <a name="BK_SFBO"> </a>
 
-The following table describes the authentication behavior for Office 2013 or Office 2016 client apps when they connect to Skype for Business Online with or without modern authentication.
+The following table describes the authentication behavior for Office 2013, Office 2016 and Office 2019 client apps when they connect to Skype for Business Online with or without modern authentication.
   
 |****Office client app version****|****Registry key present?****|****Modern authentication on?****|****Authentication behavior with modern authentication turned on for the tenant****|****Authentication behavior with modern authentication turned off for the tenant (default)****|
 |:-----|:-----|:-----|:-----|:-----|
