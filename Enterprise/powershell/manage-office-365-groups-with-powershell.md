@@ -22,6 +22,8 @@ description: "Learn how to do common management tasks for Microsoft 365 groups i
 
 # Manage Microsoft 365 Groups with PowerShell
  
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
 This article provides the steps for doing common management tasks for Groups in Microsoft PowerShell. It also lists the PowerShell cmdlets for Groups. For info about managing SharePoint sites, see [Manage SharePoint Online sites using PowerShell](https://docs.microsoft.com/sharepoint/manage-team-and-communication-sites-in-powershell).
 
 ## Link to your Microsoft 365 Groups usage guidelines

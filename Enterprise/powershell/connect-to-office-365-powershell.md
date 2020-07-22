@@ -1,9 +1,9 @@
 ---
-title: "Connect to Office 365 PowerShell"
+title: "Connect to Microsoft 365 with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/30/2020
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -16,19 +16,21 @@ ms.custom:
 - O365ITProTrain
 - Ent_Office_Other
 ms.assetid: 5ebc0e21-b72d-46d8-96fa-00643b18eaec
-description: "Connect to your Office 365 organization using Office 365 PowerShell to perform admin center tasks from the command line."
+description: "Connect to your Microsoft 365 tenant using PowerShell for Microsoft 365 to perform admin center tasks from the command line."
 ---
 
-# Connect to Office 365 PowerShell
+# Connect to Microsoft 365 with PowerShell
 
-Office 365 PowerShell lets you manage your Office 365 settings from the command line. Connecting to Office 365 PowerShell is a simple process where you install the required software and then connect to your Office 365 organization. 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-There are two versions of the PowerShell module that you use to connect to Office 365 and administer user accounts, groups, and licenses:
+PowerShell for Microsoft 365 lets you manage your Microsoft 365 settings from the command line. Connecting to PowerShell is a simple process where you install the required software and then connect to your Microsoft 365 organization. 
+
+There are two versions of the PowerShell module that you use to connect to Microsoft 365 and administer user accounts, groups, and licenses:
 
 - Azure Active Directory PowerShell for Graph (cmdlets include **AzureAD** in their name)
 - Microsoft Azure Active Directory Module for Windows PowerShell (cmdlets include **MSol** in their name) 
 
-As of the date of this article, the Azure Active Directory PowerShell for Graph module does not completely replace the functionality in the cmdlets of Microsoft Azure Active Directory Module for Windows PowerShell module for user, group, and license administration. In many cases, you need to use both versions. You can safely install both versions on the same computer.
+As of the date of this article, the Azure Active Directory PowerShell for Graph module does not completely replace the functionality in the cmdlets of Microsoft Azure Active Directory Module for Windows PowerShell module for user, group, and license administration. In some cases, you need to use both versions. You can safely install both versions on the same computer.
 
 ## What do you need to know before you begin?
 
@@ -44,14 +46,14 @@ You can use the following versions of Windows:
     > [!NOTE]
     > Use a 64-bit version of Windows. Support for the 32-bit version the Microsoft Azure Active Directory Module for Windows PowerShell was discontinued in October of 2014.
     
-These procedures are intended for users who are members of an Office 365 admin role. For more information, see [About Office 365 admin roles](https://go.microsoft.com/fwlink/p/?LinkId=532367).
+These procedures are intended for users who are members of a Microsoft 365 admin role. For more information, see [About admin roles](https://go.microsoft.com/fwlink/p/?LinkId=532367).
 
 
 ## Connect with the Azure Active Directory PowerShell for Graph module
 
 Commands in the Azure Active Directory PowerShell for Graph module have **AzureAD** in their cmdlet name. You can install the [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) module or [Azure PowerShell](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-3.6.1).
 
-For procedures that require the new cmdlets in the Azure Active Directory PowerShell for Graph module, use these steps to install the module and connect to your Office 365 subscription.
+For procedures that require the new cmdlets in the Azure Active Directory PowerShell for Graph module, use these steps to install the module and connect to your Microsoft 365 subscription.
 
 >[!Note]
 >See [Azure Active Directory PowerShell for Graph module](https://docs.microsoft.com/powershell/azuread/v2/azureactivedirectory) for information about the support for different versions of Microsoft Windows.
@@ -71,9 +73,9 @@ These steps are required once on your computer, not every time you connect. Howe
 
 If prompted about installing a module from an untrusted repository, type **Y** and press ENTER.
 
-### Step 2: Connect to Azure AD for your Office 365 subscription
+### Step 2: Connect to Azure AD for your Microsoft 365 subscription
 
-To connect to Azure AD for your Office 365 subscription with an account name and password or with multi-factor authentication (MFA), run one of these commands from a Windows PowerShell command prompt (it does not have to be elevated).
+To connect to Azure AD for your Microsoft 365 subscription with an account name and password or with multi-factor authentication (MFA), run one of these commands from a Windows PowerShell command prompt (it does not have to be elevated).
 
 |||
 |:-------|:-----|
@@ -84,7 +86,7 @@ To connect to Azure AD for your Office 365 subscription with an account name and
 | Office 365 U.S. Government DoD and Office 365 U.S. Government GCC High | `Connect-AzureAD -AzureEnvironmentName AzureUSGovernment` |
 |||
 
-In the **Sign into your account** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
+In the **Sign into your account** dialog box, type your Microsoft 365 work or school account user name and password, and then click **OK**.
 
 If you are using MFA, follow the instructions in the additional dialog boxes to provide more authentication information, such as a verification code.
 
@@ -112,9 +114,9 @@ These steps are required once on your computer, not every time you connect. Howe
   - If prompted to install the NuGet provider, type **Y** and press ENTER.
   - If prompted to install the module from PSGallery, type **Y** and press ENTER.
     
-### Step 2: Connect to Azure AD for your Office 365 subscription
+### Step 2: Connect to Azure AD for your Microsoft 365 subscription
 
-To connect to Azure AD for your Office 365 subscription with an account name and password or with multi-factor authentication (MFA), run one of these commands from a Windows PowerShell command prompt (it does not have to be elevated).
+To connect to Azure AD for your Microsoft 365 subscription with an account name and password or with multi-factor authentication (MFA), run one of these commands from a Windows PowerShell command prompt (it does not have to be elevated).
 
 |||
 |:-------|:-----|
@@ -125,13 +127,13 @@ To connect to Azure AD for your Office 365 subscription with an account name and
 | Office 365 U.S. Government DoD and Office 365 U.S. Government GCC High | `Connect-MsolService -AzureEnvironment USGovernment` |
 |||
 
-In the **Sign into your account** dialog box, type your Office 365 work or school account user name and password, and then click **OK**.
+In the **Sign into your account** dialog box, type your Microsoft 365 work or school account user name and password, and then click **OK**.
 
 If you are using MFA, follow the instructions in the additional dialog boxes to provide more authentication information, such as a verification code.
 
 ### How do you know this worked?
 
-If you don't receive any errors, you connected successfully. A quick test is to run an Office 365 cmdlet—for example, **Get-MsolUser** —and see the results.
+If you don't receive any errors, you connected successfully. A quick test is to run a Microsoft 365 cmdlet—for example, **Get-MsolUser** —and see the results.
   
 If you receive errors, check the following requirements:
   
@@ -146,7 +148,7 @@ If you receive errors, check the following requirements:
   - For Windows 10, Windows 8.1, and Windows 8, see [Install the .NET Framework 3.5 on Windows 10, Windows 8.1, and Windows 8](https://docs.microsoft.com/dotnet/framework/install/dotnet-35-windows-10)
 
   
-- **Your version of the Microsoft Azure Active Directory Module for Windows PowerShell might be out of date.** To check, run the following command in Office 365 PowerShell or the Microsoft Azure Active Directory Module for Windows PowerShell:
+- **Your version of the Microsoft Azure Active Directory Module for Windows PowerShell might be out of date.** To check, run the following command in PowerShell for Microsoft 365 or the Microsoft Azure Active Directory Module for Windows PowerShell:
     
   ```powershell
   (Get-Item C:\Windows\System32\WindowsPowerShell\v1.0\Modules\MSOnline\Microsoft.Online.Administration.Automation.PSModule.dll).VersionInfo.FileVersion
@@ -164,6 +166,6 @@ If you receive errors, check the following requirements:
 
 ## See also
 
-- [Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
-- [Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
-- [Connect to all Office 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md)
+- [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
+- [Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
+- [Connect to all Microsoft 365 services in a single Windows PowerShell window](connect-to-all-office-365-services-in-a-single-windows-powershell-window.md)

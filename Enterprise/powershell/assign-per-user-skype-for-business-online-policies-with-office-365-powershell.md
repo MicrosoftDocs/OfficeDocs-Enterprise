@@ -1,9 +1,9 @@
 ---
-title: "Assign per-user Skype for Business Online policies with Office 365 PowerShell"
+title: "Assign per-user Skype for Business Online policies with PowerShell for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/15/2017
+ms.date: 07/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,14 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
-description: "Summary: Use Office 365 PowerShell to assign per-user communication settings with Skype for Business Online policies."
+description: "Summary: Use PowerShell for Microsoft 365 to assign per-user communication settings with Skype for Business Online policies."
 ---
 
-# Assign per-user Skype for Business Online policies with Office 365 PowerShell
+# Assign per-user Skype for Business Online policies with PowerShell for Microsoft 365
 
-Using Office 365 PowerShell is an efficient way to assign per-user communication settings with Skype for Business Online policies.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Using PowerShell for Microsoft 365 is an efficient way to assign per-user communication settings with Skype for Business Online policies.
   
 ## Before you begin
 
@@ -131,8 +133,8 @@ This will find 500 users at a time who do not have a client policy. It will gran
   
 ## See also
 
-[Manage Skype for Business Online with Office 365 PowerShell](manage-skype-for-business-online-with-office-365-powershell.md)
+[Manage Skype for Business Online with PowerShell](manage-skype-for-business-online-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
