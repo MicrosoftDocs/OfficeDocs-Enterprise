@@ -14,16 +14,18 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: 893e5275-30b3-433f-8ecd-644f78f513e2
-description: "Summary: Use remoteWindows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants."
+description: "Summary: Use remote Windows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants."
 ---
 
 # Retrieve customer tenant reporting data with Windows PowerShell for Delegated Access Permissions (DAP) partners
 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
 Use remote Windows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants.
   
-Syndication and Cloud Solution Provider (CSP) partners can access the data that makes up customer tenant reports directly via remoteWindows PowerShell for Exchange Online PowerShell. This lets partners collect and save the reporting data and then perform other operations on it. After you open a remote connection, retrieving reporting data about a customer tenancy is identical to running any cmdlet against a customer tenancy.
+Syndication and Cloud Solution Provider (CSP) partners can access the data that makes up customer tenant reports directly via remote Windows PowerShell for Exchange Online PowerShell. This lets partners collect and save the reporting data and then perform other operations on it. After you open a remote connection, retrieving reporting data about a customer tenancy is identical to running any cmdlet against a customer tenancy.
   
-In this article, you use remoteWindows PowerShell for Exchange Online to connect to a single customer tenancy and retrieve a report. By default, Windows PowerShell does not support aggregating reporting data from multiple customer tenancies. The reports you retrieve with this procedure are only for the  _DelegatedOrg_ that you connect to.
+In this article, you use remote Windows PowerShell for Exchange Online to connect to a single customer tenancy and retrieve a report. By default, Windows PowerShell does not support aggregating reporting data from multiple customer tenancies. The reports you retrieve with this procedure are only for the  _DelegatedOrg_ that you connect to.
   
  
 ## Before you begin

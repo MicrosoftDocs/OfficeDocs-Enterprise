@@ -36,3 +36,8 @@ To turn off Directory synchronization:
   ```powershell
   Set-MsolDirSyncEnabled -EnableDirSync $false
   ```
+
+>[!Note]
+>If you use this command, you must wait 72 hours before you can turn directory synchronization back on.
+>
+ 

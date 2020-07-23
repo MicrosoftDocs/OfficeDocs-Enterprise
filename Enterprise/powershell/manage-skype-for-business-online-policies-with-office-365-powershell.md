@@ -1,9 +1,9 @@
 ---
-title: "Manage Skype for Business Online policies with Office 365 PowerShell"
+title: "Manage Skype for Business Online policies with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/26/2019
+ms.date: 07/17/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
@@ -13,12 +13,14 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.assetid: ff93a341-6f0f-4f06-9690-726052e1be64
-description: "Summary: Use Office 365 PowerShell to manage your Skype for Business Online user account properties with policies."
+description: "Summary: Use PowerShell to manage your Skype for Business Online user account properties with policies."
 ---
 
-# Manage Skype for Business Online policies with Office 365 PowerShell
+# Manage Skype for Business Online policies with PowerShell
 
-To manage many properties of user account for Skype for Business Online, you must specify them as properties of policies with Office 365 PowerShell.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+To manage many properties of user account for Skype for Business Online, you must specify them as properties of policies with PowerShell for Microsoft 365.
   
 ## Before you begin
 
@@ -107,7 +109,7 @@ Get-CsExternalAccessPolicy -ApplicableTo "Alex Darrow"
 
 The ApplicableTo parameter limits the returned data to policies that can be assigned to the specified user (for example, Alex Darrow). Depending on licensing and usage location restrictions, that might represent a subset of all the available policies. 
   
-In some cases, properties of policies are not used with Office 365, while others can only be managed by Microsoft support personnel. 
+In some cases, properties of policies are not used with Microsoft 365, while others can only be managed by Microsoft support personnel. 
   
 With Skype for Business Online, users must be managed by a policy of some kind. If a valid policy-related property is blank, that means that the user in question is being managed by a global policy, which is a policy that is automatically applied to a user unless he or she is specifically assigned a per-user policy. Because we don't see a client policy listed for a user account, it is managed by the global policy. You can determine the global client policy with this command:
   
@@ -117,9 +119,9 @@ Get-CsClientPolicy -Identity "Global"
 
 ## See also
 
-[Manage Skype for Business Online with Office 365 PowerShell](manage-skype-for-business-online-with-office-365-powershell.md)
+[Manage Skype for Business Online with PowerShell](manage-skype-for-business-online-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
 

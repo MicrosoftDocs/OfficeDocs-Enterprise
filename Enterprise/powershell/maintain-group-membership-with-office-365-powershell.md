@@ -1,9 +1,9 @@
 ---
-title: "Maintain group membership with Office 365 PowerShell"
+title: "Maintain Microsoft 365 group membership with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/06/2019
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -18,18 +18,20 @@ ms.custom:
 - Ent_Office_Other
 - O365ITProTrain
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: "Learn how to use Office 365 PowerShell to maintain membership in groups for Office 365."
+description: "Learn how to use PowerShell to maintain membership in Microsoft 365 groups."
 ---
 
-# Maintain group membership with Office 365 PowerShell
+# Maintain Microsoft 365 group membership with PowerShell
 
-You can use Office 365 PowerShell as an alternative to the Microsoft 365 admin center to maintain group membership in Office 365. 
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+You can use PowerShell for Microsoft 365 as an alternative to the Microsoft 365 admin center to maintain group membership in Microsoft 365. 
 
 > [!TIP]
 > To generate ready-to-run PowerShell commands by specifying user account and group names, use this [group maintenance Microsoft Excel workbook](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/media/maintain-group-membership-with-office-365-powershell/GroupMaintPowerShellGenerator.xlsx). 
 
 ## Use the Azure Active Directory PowerShell for Graph module
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
 ### Add or remove user accounts as members of a group
 
@@ -67,7 +69,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
 
 ### Add or remove groups as members of a group
 
-Security groups can contain other groups as members. Office 365 groups, however, cannot. This section contains PowerShell commands to add or remove groups only for a security group.
+Security groups can contain other groups as members. Microsoft 365 groups, however, cannot. This section contains PowerShell commands to add or remove groups only for a security group.
 
 **To add a group by its display name**, fill in the display name of the group you’re going to add and the display name of the group that will contain the member group and run these commands in the PowerShell window or the PowerShell ISE.
 
@@ -87,7 +89,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 ### Add or remove user accounts as members of a group
@@ -126,7 +128,7 @@ Remove-MsolGroupMember -GroupMemberObjectId (Get-MsolUser | Where { $_.DisplayNa
 
 ### Add or remove groups as members of a group
 
-Security groups can contain other groups as members. Office 365 groups, however, cannot. This section contains PowerShell commands to add or remove groups only for a security group.
+Security groups can contain other groups as members. Microsoft 365 groups, however, cannot. This section contains PowerShell commands to add or remove groups only for a security group.
 
 **To add a group by its display name**, fill in the display name of the group you’re going to add and the display name of the group that will contain the member group and run these commands in the PowerShell window or the PowerShell ISE.
 
@@ -146,9 +148,9 @@ Remove-MsolGroupMember -GroupMemberObjectId (Get-MsolGroup | Where { $_.DisplayN
 
 ## See also
 
-[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
 
