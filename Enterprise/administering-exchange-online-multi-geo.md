@@ -10,7 +10,7 @@ ms.service: o365-solutions
 f1.keywords:
 - NOCSH
 ms.custom: 
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn how to administer Exchange Online multi-geo setting with Microsoft PowerShell."
 ---
 

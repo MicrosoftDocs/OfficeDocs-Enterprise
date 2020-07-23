@@ -11,7 +11,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.collection: Strat_SP_gtc
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn how to restrict SharePoint sites to a specified geo location in a multi-geo environment."
 ---
 

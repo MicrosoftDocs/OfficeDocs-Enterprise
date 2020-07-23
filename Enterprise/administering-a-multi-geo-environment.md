@@ -13,7 +13,7 @@ ms.custom:
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn about administering SharePoint and OneDrive services in a multi-geo environment."
 ---
 
