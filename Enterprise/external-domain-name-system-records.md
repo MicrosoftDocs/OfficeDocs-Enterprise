@@ -41,7 +41,7 @@ Every Office 365 customer needs to add two records to their external DNS. The fi
 ||||
 |:-----|:-----|:-----|
 |**DNS record** <br/> |**Purpose** <br/> |**Value to use** <br/> |
-|**CNAME** <br/> **(Suite)** <br/> |Used by Office 365 to direct authentication to the correct identity platform. [More information](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **Note:** This CNAME only applies to Office 365 operated by 21Vianet.   |**Alias:** msoid  <br/> **Target:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
+|**CNAME** <br/> **(Suite)** <br/> |Used by Office 365 to direct authentication to the correct identity platform. [More information](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **Note:** This CNAME only applies to Office 365 operated by 21Vianet. [More information](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**Alias:** msoid  <br/> **Target:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
 |**TXT** <br/> **(Domain verification)** <br/> |Used by Office 365 to verify only that you own your domain. It doesn't affect anything else.  <br/> |**Host:** @ (or, for some DNS hosting providers, your domain name)  <br/> **TXT Value:** _A text string provided by_ Office 365  <br/> The Office 365 **domain setup wizard** provides the values that you use to create this record.  <br/> |
 
 
