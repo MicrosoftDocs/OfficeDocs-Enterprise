@@ -2,10 +2,12 @@ log/
 obj/
 _site/
 .optemp/
-_themes*/
+_themes/
 .vs/
 common/
 .vscode/
 *.ini
-.openpublishing.buildcore.ps1
+.DS_Store
+*.db
 
+.openpublishing.buildcore.ps1
