@@ -73,7 +73,7 @@ Click the links below to see how Office 2013, Office 2016 and Office 2019 client
 <a name="BK_EchangeOnline"> </a>
 ### Exchange Online
 
-The following table describes the authentication behavior for Office 2013. Office 2016 and Office 2019 client apps when they connect to Exchange Online with or without modern authentication.
+The following table describes the authentication behavior for Office 2013, Office 2016, and Office 2019 client apps when they connect to Exchange Online with or without modern authentication.
   
 |****Office client app version****|****Registry key present?****|****Modern authentication on?****|****Authentication behavior with modern authentication turned on for the tenant (default)****|****Authentication behavior with modern authentication turned off for the tenant****|
 |:-----|:-----|:-----|:-----|:-----|
