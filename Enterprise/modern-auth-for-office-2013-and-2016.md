@@ -107,7 +107,7 @@ The following table describes the authentication behavior for Office 2013, Offic
 ### Skype for Business Online
 <a name="BK_SFBO"> </a>
 
-The following table describes the authentication behavior for Office 2013, Office 2016 and Office 2019 client apps when they connect to Skype for Business Online with or without modern authentication.
+The following table describes the authentication behavior for Office 2013, Office 2016, and Office 2019 client apps when they connect to Skype for Business Online with or without modern authentication.
   
 |****Office client app version****|****Registry key present?****|****Modern authentication on?****|****Authentication behavior with modern authentication turned on for the tenant****|****Authentication behavior with modern authentication turned off for the tenant (default)****|
 |:-----|:-----|:-----|:-----|:-----|
