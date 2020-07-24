@@ -62,7 +62,7 @@ Read [How to use Modern Authentication (ADAL) with Skype for Business](https://g
   
 Office 2016 and Office 2019 clients support modern authentication by default, and no action is needed for the client to use these new flows. However, explicit action is needed to use legacy authentication.
   
-Click the links below to see how Office 2013, Office 2016 and Office 2019 client authentication works with the Microsoft 365 services depending on whether or not modern authentication is turned on.
+Click the links below to see how Office 2013, Office 2016, and Office 2019 client authentication works with the Microsoft 365 services depending on whether or not modern authentication is turned on.
   
 - [Exchange Online](modern-auth-for-office-2013-and-2016.md#BK_EchangeOnline)
     
