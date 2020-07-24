@@ -102,4 +102,4 @@ However, Stream is not yet available in the following regions that are currently
 
 ## Yammer
 
-Yammer created for the satellite location will use the end point located in the central location for the tenant. Yammer is not a Multi-Geo service.
+Yammer created for the satellite location will use the endpoint located in the central location for the tenant. Yammer is not a Multi-Geo service.
