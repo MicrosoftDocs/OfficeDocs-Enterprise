@@ -3,7 +3,7 @@ title: "Disable access to Microsoft 365 services with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 07/27/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -156,6 +156,16 @@ If you want to disable access to services for multiple licensing plans, repeat t
 
 To disable Microsoft 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
 
+### Assign all services in a licensing plan to a user account
+
+For user accounts that have had services disabled, you can enable all services for a specific licensing plan with these commands:
+
+```powershell
+$userUPN="<user account UPN>"
+$acctSKU="<AccountSkuId>"
+$LO = New-MsolLicenseOptions -AccountSkuId $acctSKU
+Set-MsolUserLicense -UserPrincipalName $userUPN -LicenseOptions $LO
+```
 
 ## See also
 
