@@ -113,11 +113,13 @@ Get-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
 This will return something like this
-  
-||||
-|:-----|:-----|:-----|
-| `Name` <br/> | `Status` <br/> | `Authentication` <br/> |
-| `FQDN of new domain` <br/> | `Verified` <br/> | `Managed` <br/> |
+
+```
+Name                   Status      Authentication
+--------------------   ---------   --------------
+FQDN of new domain     Verified    Managed
+```
+
    
 ## See also
 
