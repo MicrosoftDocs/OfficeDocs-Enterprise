@@ -144,3 +144,4 @@ For more information about our commitment to uptime, see [Transparent operations
 ## See also
 
 [Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Message center Preferences]9https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide#preferences11)
