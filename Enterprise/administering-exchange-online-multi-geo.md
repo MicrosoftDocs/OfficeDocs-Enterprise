@@ -98,7 +98,7 @@ MailboxRegion               : EUR
 MailboxRegionLastUpdateTime : 2/6/2018 8:21:01 PM
 ```
 
-> **Note:**
+> [!NOTE]
 > If the geo location code in the database name doesn't match **MailboxRegion** value, the mailbox will be automatically be put into a relocation queue and moved to the geo location specified by the **MailboxRegion** value (Exchange Online looks for a mismatch between these property values).
 
 ## Move an existing cloud-only mailbox to a specific geo location
@@ -129,17 +129,16 @@ For example, to set the **PreferredDataLocation** value to the European Union (E
 Set-MsolUser -UserPrincipalName michelle@contoso.onmicrosoft.com -PreferredDataLocation EUR
 ```
 
-**Notes**:
-
-- As mentioned previously you cannot use this procedure for synchronized user objects from on-premises Active Directory. You need to change the **PreferredDataLocation** value in Active Directory and synchronize it using AAD Connect. For more information, see [Azure Active Directory Connect sync: Configure preferred data location for Microsoft 365 resources](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
-
-- How long it takes to relocate a mailbox to a new geo location depends on several factors:
-
-  - The size and type of mailbox.
-
-  - The number of mailboxes being moved.
-
-  - The availability of move resources.
+> [!NOTE]
+> - As mentioned previously, you cannot use this procedure for synchronized user objects from on-premises Active Directory. You need to change the **PreferredDataLocation** value in Active Directory and synchronize it using AAD Connect. For more information, see [Azure Active Directory Connect sync: Configure preferred data location for Microsoft 365 resources](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-feature-preferreddatalocation).
+> 
+> - How long it takes to relocate a mailbox to a new geo location depends on several factors:
+> 
+>   - The size and type of mailbox.
+> 
+>   - The number of mailboxes being moved.
+> 
+>   - The availability of move resources.
 
 ### Move disabled mailboxes that are on Litigation Hold
 
