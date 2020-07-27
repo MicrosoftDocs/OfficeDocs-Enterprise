@@ -10,7 +10,7 @@ ms.service: o365-solutions
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords: NOCSH
 description: "Learn how to move a SharePoint site to a different geo location."
 ---

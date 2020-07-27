@@ -11,7 +11,7 @@ f1.keywords:
 - CSH
 ms.custom: 
 ms.collection: Strat_SP_gtc
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: "Expand your Microsoft 365 presence to multiple geographic regions with Microsoft 365 Multi-Geo."

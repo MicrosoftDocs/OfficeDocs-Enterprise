@@ -13,7 +13,7 @@ ms.custom:
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 description: "Enabling SharePoint Multi-Geo in your satellite geo location."
 ---
 

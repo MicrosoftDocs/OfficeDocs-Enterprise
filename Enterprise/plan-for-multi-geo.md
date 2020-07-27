@@ -13,7 +13,7 @@ ms.custom:
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn about Microsoft 365 Multi-Geo, how multi-geo works, and what geo-locations are available for data storage."
 ---
 

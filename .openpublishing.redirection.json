@@ -918,6 +918,26 @@
     
   },
   
+  {
+   
+    "source_path": "enterprise/powershell/manage-microsoft-teams-with-office-365-powershell.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-powershell-install",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/powershell/manage-exchange-online-with-office-365-powershell.md",
+  
+    "redirect_url": "https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell",
+  
+    "redirect_document_id": true
+    
+  },
+  
 {
    
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
