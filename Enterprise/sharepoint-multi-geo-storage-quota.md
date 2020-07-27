@@ -13,7 +13,7 @@ ms.custom:
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn about SharePoint storage quotas in multi-geo environments."
 ---
 

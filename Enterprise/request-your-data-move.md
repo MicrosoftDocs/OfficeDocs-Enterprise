@@ -19,7 +19,7 @@ description: "Existing Office 365 customers will need to submit a request before
 # How to request your data move
 
 > [!NOTE]
-> The information on this page only applies to customers who had existing Microsoft 365 tenants before the new datacenters in their geo launched. 
+> The information on this page only applies to customers who had existing Microsoft 365 tenants before the new datacenters in their geo launched. Migration eligibility also depends on the specific workload provisioning date, so tenant creation date may not always be the single date that matters.
   
 Existing Microsoft 365 customers are eligible to request migration for their entire organization’s core customer data at rest.  
   

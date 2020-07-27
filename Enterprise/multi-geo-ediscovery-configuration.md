@@ -10,7 +10,7 @@ ms.service: o365-solutions
 f1.keywords:
 - NOCSH
 ms.custom: 
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: "Learn how to configure eDiscovery in Microsoft 365 Multi-Geo."
 ---

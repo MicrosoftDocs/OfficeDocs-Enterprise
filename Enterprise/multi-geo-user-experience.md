@@ -12,7 +12,7 @@ f1.keywords:
 - NOCSH
 ms.custom: 
 ms.collection: Strat_SP_gtc
-localization_priority: Priority
+localization_priority: Normal
 description: "Learn about the SharePoint, OneDrive, and Exchange user experience in a multi-geo environment."
 ---
 

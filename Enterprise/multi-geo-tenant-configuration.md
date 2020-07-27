@@ -11,7 +11,7 @@ ms.collection: SPO_Content
 f1.keywords:
 - NOCSH
 ms.custom: 
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: Strat_SP_gtc
 description: "Learn how to configure Microsoft 365 Multi-Geo."
 ---
