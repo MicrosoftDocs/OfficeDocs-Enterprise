@@ -53,7 +53,7 @@ You also need the following information:
 
 This command creates the domain in Azure Active Directory but does not associate it with the publicly registered domain. That comes when you prove that you own the publicly registered domain to Microsoft Microsoft 365 for enterprises.
   
-```
+```powershell
 New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
 ```
 
@@ -65,7 +65,7 @@ New-MsolDomain -TenantId <customer TenantId> -Name <FQDN of new domain>
 
  Microsoft 365 will generate the specific data that you need to place into the DNS TXT verification record. To get the data, run this command.
   
-```
+```powershell
 Get-MsolDomainVerificationDNS -TenantId <customer TenantId> -DomainName <FQDN of new domain> -Mode DnsTxtRecord
 ```
 
@@ -86,7 +86,7 @@ Before Microsoft 365 will start accepting traffic that is directed to the public
   
 Confirm the successful creation of the TXT record via nslookup. Follow this syntax.
   
-```
+```console
 nslookup -type=TXT <FQDN of registered domain>
 ```
 
@@ -102,19 +102,19 @@ This will give you output like:
 
 In this last step, you validate to Microsoft 365 that you own the publically registered domain. After this step, Microsoft 365 will begin accepting traffic routed to the new domain name. To complete the domain creation and registration process, run this command. 
   
-```
+```powershell
 Confirm-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
 This command won't return any output, so to confirm that this worked, run this command.
   
-```
+```powershell
 Get-MsolDomain -TenantId <customer TenantId> -DomainName <FQDN of new domain>
 ```
 
 This will return something like this
 
-```
+```console
 Name                   Status      Authentication
 --------------------   ---------   --------------
 FQDN of new domain     Verified    Managed
