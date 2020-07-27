@@ -32,13 +32,14 @@ Microsoft 365 and Office 365 setup guides give admins tailored guidance and reso
 The setup guides are accessible from the [Setup guidance](https://aka.ms/setupguidance) page in the Microsoft 365 admin center. You can keep track of the status of your progress and you have the option to return at any time to complete a guide. To reach the **Setup guidance** page:
 
 1. In the [admin center](https://admin.microsoft.com/), go to the **Home** page.
+
 2. Find the **Training & guides** card. 
 
-  ![Training & guides card in the Microsoft 365 admin center](./media/setup-guides-for-office-365/adminportal-trainingandguides.png)
+   ![Training & guides card in the Microsoft 365 admin center](./media/setup-guides-for-office-365/adminportal-trainingandguides.png)
 
 3. Select **Customized setup guidance**.
 
-  ![Screenshot of the Setup guidance page in the Microsoft 365 admin center](./media/setup-guides-for-office-365/adminportal-setupguidance.png)
+   ![Screenshot of the Setup guidance page in the Microsoft 365 admin center](./media/setup-guides-for-office-365/adminportal-setupguidance.png)
 
 >[!NOTE]
 >Tenant administrator permissions are required to access the Microsoft 365 admin center.
