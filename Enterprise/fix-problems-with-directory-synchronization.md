@@ -43,29 +43,29 @@ To update from Azure AD Sync to Azure AD Connect, see [the upgrade instructions]
   
 ## Resolving common causes of problems with directory synchronization in Microsoft 365
 
-### **Synchronized objects aren't appearing or updating online, or I'm getting synchronization error reports from the Service.**
+### Synchronized objects aren't appearing or updating online, or I'm getting synchronization error reports from the Service.
 
 - [Identity synchronization and duplicate attribute resiliency](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-syncservice-duplicate-attribute-resiliency)
 
-### **I have an alert in the admin center, or am receiving automated emails that there hasn't been a recent synchronization event**
+### I have an alert in the admin center, or am receiving automated emails that there hasn't been a recent synchronization event
 - [Troubleshoot connectivity issues with Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-connectivity)
 - [Azure AD Connect Accounts and permissions](https://go.microsoft.com/fwlink/p/?LinkId=820598)
 - [Azure AD Connect sync: How to manage the Azure AD service account](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-azureadaccount)
 - [Directory synchronization to Azure Active Directory stops or you're warned that sync hasn't registered in more than a day](https://support.microsoft.com/help/2882421/directory-synchronization-to-azure-active-directory-stops-or-you-re-warned-that-sync-hasn-t-registered-in-more-than-a-day)
 
-### **Password hashes aren't synchronizing, or I'm seeing an alert in the admin center that there hasn't been a recent password hash synchronization**
+### Password hashes aren't synchronizing, or I'm seeing an alert in the admin center that there hasn't been a recent password hash synchronization
 - [Implementing password hash synchronization with Azure AD Connect sync](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization)
 
-### **I'm seeing an alert that Object quota exceeded**
+### I'm seeing an alert that Object quota exceeded
 - We have a built-in object quota to help protect the service. If you have too many objects in your directory that need to sync to Microsoft 365, you'll have to [Contact support for business products](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) to increase your quota.
 
-### **I need to know which attributes are synchronized**
+### I need to know which attributes are synchronized
 - You can find a list of all the attributes that are synced between on-premises and the cloud [right here](https://go.microsoft.com/fwlink/p/?LinkId=396719).
 
-### **I can't manage or remove objects that were synchronized to the cloud**
+### I can't manage or remove objects that were synchronized to the cloud
 - Are you ready to manage objects in the cloud only? Or is there an object that was deleted on-premises, but is stuck in the cloud? Take a look at this [Troubleshooting Errors during synchronization](https://go.microsoft.com/fwlink/p/?linkid=842044) and [support article](https://go.microsoft.com/fwlink/p/?LinkId=396720) for guidance on how to resolve these issues.
 
-### **I got an error message that my company has exceeded the number of objects that can be synchronized**
+### I got an error message that my company has exceeded the number of objects that can be synchronized
 - You can read more about this issue [here](https://go.microsoft.com/fwlink/p/?LinkId=396721).
    
 ## Other resources
