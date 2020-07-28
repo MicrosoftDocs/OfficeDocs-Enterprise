@@ -938,6 +938,16 @@
     
   },
   
+  {
+   
+    "source_path": "enterprise/office-365-defending-against-denial-of-service-attacks-overview.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/office-365-defending-against-denial-of-service-attacks",
+  
+    "redirect_document_id": true
+    
+  },
+  
 {
    
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",

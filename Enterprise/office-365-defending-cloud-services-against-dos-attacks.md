@@ -19,7 +19,6 @@ description: "How Microsoft defends its cloud services against denial-of-service
 
 # Defending Microsoft 365 Cloud Services Against Denial-of-Service Attacks
 
-## Introduction
 Microsoft datacenters are protected by defense-in-depth security that includes perimeter fencing, video cameras, security personnel, and secure entrances that use biometrics, smartcard, and multi-factor authentication. The defense-in-depth security continues through every area of the facility and to each physical server unit. The [Microsoft Cloud Infrastructure and Operations Group](https://www.microsoft.com/cloud-platform/global-datacenters) delivers the core infrastructure and foundational technologies for our cloud services. Our datacenters comply with industry standards for physical security and reliability and are managed, monitored, and administered by Microsoft operations personnel.
 
 To further protect our cloud services, Microsoft provides a DDoS defense system that is part of the Microsoft Azure continuous monitoring and penetration-testing processes. The Azure DDoS defense system is designed not only to withstand attacks from the outside, but also from other Azure tenants. Azure uses standard detection and mitigation techniques such as SYN cookies, rate limiting, and connection limits to protect against DDoS attacks.
