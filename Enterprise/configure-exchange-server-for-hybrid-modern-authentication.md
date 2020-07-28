@@ -69,6 +69,8 @@ Get-MapiVirtualDirectory | FL server,*url*
 Get-WebServicesVirtualDirectory | FL server,*url*
 Get-ActiveSyncVirtualDirectory | FL server,*url*
 Get-OABVirtualDirectory | FL server,*url*
+Get-AutodiscoverVirtualDirectory | FL server,*url*
+Get-OutlookAnywhere | FL server,*url*
 ```
     
 Ensure the URLs clients may connect to are listed as HTTPS service principal names in AAD.
