@@ -7,7 +7,7 @@ ms.date: 07/10/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
@@ -68,9 +68,9 @@ Before you can manage all of Microsoft 365 from a single instance of Windows Pow
     
 -  Windows PowerShell needs to be configured to run signed scripts for Skype for Business Online and the Security &amp; Compliance Center. To do this, run the following command in an elevated Windows PowerShell session (a Windows PowerShell window you open by selecting **Run as administrator**).
     
-  ```powershell
-  Set-ExecutionPolicy RemoteSigned
-  ```
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned
+   ```
 
 ## Connection steps when using just a password
 
@@ -80,72 +80,68 @@ Here are the steps to connect to all the services in a single PowerShell window 
     
 2. Run this command and enter your Microsoft 365 work or school account credentials.
     
-  ```powershell
-  $credential = Get-Credential
-  ```
+   ```powershell
+   $credential = Get-Credential
+   ```
 
 3. Run this command to connect to Azure AD using the Azure Active Directory PowerShell for Graph module.
     
-  ```powershell
-  Connect-AzureAD -Credential $credential
-  ```
+   ```powershell
+   Connect-AzureAD -Credential $credential
+   ```
   
-  Alternately, if you are using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.
+   Alternately, if you are using the Microsoft Azure Active Directory Module for Windows PowerShell module, run this command.
       
-  ```powershell
-  Connect-MsolService -Credential $credential
- ```
+   ```powershell
+   Connect-MsolService -Credential $credential
+   ```
 
->[!Note]
->PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
->
+   > [!Note]
+   > PowerShell Core does not support the Microsoft Azure Active Directory Module for Windows PowerShell module and cmdlets with **Msol** in their name. To continue using these cmdlets, you must run them from Windows PowerShell.
 
 4. Run these commands to connect to SharePoint Online. Specify the organization name for your domain. For example, for "litwareinc.onmicrosoft.com", the  organization name value is "litwareinc".
     
-  ```powershell
-  $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
-  Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
-  ```
+   ```powershell
+   $orgName="<for example, litwareinc for litwareinc.onmicrosoft.com>"
+   Connect-SPOService -Url https://$orgName-admin.sharepoint.com -Credential $userCredential
+   ```
 
 5. Run these commands to connect to Skype for Business Online. A warning about increasing the `WSMan NetworkDelayms` value is expected the first time you connect and should be ignored.
-    
-  ```powershell
-  Import-Module SkypeOnlineConnector
-  $sfboSession = New-CsOnlineSession -Credential $credential
-  Import-PSSession $sfboSession
-  ```
+     
+   ```powershell
+   Import-Module SkypeOnlineConnector
+   $sfboSession = New-CsOnlineSession -Credential $credential
+   Import-PSSession $sfboSession
+   ```
 
 6. Run this command to connect to Exchange Online.
     
-  ```powershell
-  Connect-ExchangeOnline -Credential $credential -ShowProgress $true
-  ```
+   ```powershell
+   Connect-ExchangeOnline -Credential $credential -ShowProgress $true
+   ```
 
->[!Note]
->To connect to Exchange Online for Microsoft 365 clouds other than Worldwide, use the **-ExchangeEnvironmentName** parameter. See [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/powershell-v2-module/connect-exchangeonline?view=exchange-ps) for more information.
->
+   > [!Note]
+   > To connect to Exchange Online for Microsoft 365 clouds other than Worldwide, use the **-ExchangeEnvironmentName** parameter. See [Connect-ExchangeOnline](https://docs.microsoft.com/powershell/module/exchange/powershell-v2-module/connect-exchangeonline?view=exchange-ps) for more information.
 
 7. Run these commands to connect to Teams PowerShell.
     
-  ```powershell
-  Import-Module MicrosoftTeams
-  Connect-MicrosoftTeams -Credential $credential
-  ```
+   ```powershell
+   Import-Module MicrosoftTeams
+   Connect-MicrosoftTeams -Credential $credential
+   ```
   
->[!Note]
->To connect to Microsoft Teams clouds other than Worldwide, see [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps).
->
+   > [!Note]
+   > To connect to Microsoft Teams clouds other than Worldwide, see [Connect-MicrosoftTeams](https://docs.microsoft.com/powershell/module/teams/connect-microsoftteams?view=teams-ps).
 
 8. Run these commands to connect to the Security &amp; Compliance Center.
     
-  ```powershell
-  $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
-  Import-PSSession $SccSession -Prefix cc
-  ```
+   ```powershell
+   $SccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $credential -Authentication "Basic" -AllowRedirection
+   Import-PSSession $SccSession -Prefix cc
+   ```
 
->[!Note]
->To connect to the Security &amp; Compliance Center for Microsoft 365 clouds other than Worldwide, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
->
+   > [!Note]
+   > To connect to the Security &amp; Compliance Center for Microsoft 365 clouds other than Worldwide, see [Connect to Security & Compliance Center PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell).
 
 Here are all the commands in a single block when using the Azure Active Directory PowerShell for Graph module. Specify the name of your domain host, and then run them all at one time.
   
