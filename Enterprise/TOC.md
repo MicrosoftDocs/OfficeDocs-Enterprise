@@ -254,7 +254,7 @@
 ### [Exchange Online Data Deletion](office-365-exchange-online-data-deletion.md)
 ### [SharePoint Online Data Deletion](office-365-sharepoint-online-data-deletion.md)
 ### [Skype for Business Data Deletion](office-365-skype-data-deletion.md)
-## [Defending against denial-of-service attacks in Microsoft 365](office-365-defending-against-denial-of-service-attacks.md)
+## [Defending against denial-of-service attacks in Microsoft 365](office-365-defending-against-dos-attacks.md)
 ### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
 ### [Core Principles of Defense Against Denial-of-Service Attacks](office-365-core-principles-of-defense-against-dos-attacks.md)
 ## [Encryption in the Microsoft Cloud](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview)
