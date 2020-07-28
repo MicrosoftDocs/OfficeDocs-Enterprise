@@ -5,7 +5,7 @@ author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 07/17/2020
 audience: ITPro
-ms.topic: hub-page
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: Ent_O365
@@ -31,12 +31,12 @@ Download and install the [Skype for Business Online Connector module](https://ww
 
 1. Open a Windows PowerShell command prompt and run the following commands: 
     
-  ```powershell
-  Import-Module SkypeOnlineConnector
-  $userCredential = Get-Credential
-  $sfbSession = New-CsOnlineSession -Credential $userCredential
-  Import-PSSession $sfbSession
-  ```
+   ```powershell
+   Import-Module SkypeOnlineConnector
+   $userCredential = Get-Credential
+   $sfbSession = New-CsOnlineSession -Credential $userCredential
+   Import-PSSession $sfbSession
+   ```
 
 2. In the **Windows PowerShell Credential Request** dialog box, type your Skype for Business Online administrator account name and password, and then click **OK**.
 
@@ -45,11 +45,11 @@ Download and install the [Skype for Business Online Connector module](https://ww
 
 1. Open a Windows PowerShell command prompt and run the following commands:
 
-  ```powershell
-  Import-Module SkypeOnlineConnector
-  $sfbSession = New-CsOnlineSession
-  Import-PSSession $sfbSession
-  ```
+   ```powershell
+   Import-Module SkypeOnlineConnector
+   $sfbSession = New-CsOnlineSession
+   Import-PSSession $sfbSession
+   ```
 
 2. When prompted by the **New-CsOnlineSession** command, enter your Skype for Business Online administrator account name.
 

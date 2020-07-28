@@ -7,7 +7,7 @@ ms.date: 04/14/2020
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
-localization_priority: Normal
+localization_priority: Priority
 ms.collection: Ent_O365
 search.appverid:
 - MET150

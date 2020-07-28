@@ -3,7 +3,7 @@ title: "Disable access to Microsoft 365 services with PowerShell"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/17/2020
+ms.date: 07/27/2020
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -135,19 +135,19 @@ To do this, perform the following steps:
     
 1. Create a text file that contains one account on each line like this:
     
-  ```powershell
-  akol@contoso.com
-  tjohnston@contoso.com
-  kakers@contoso.com
-  ```
+   ```powershell
+   akol@contoso.com
+   tjohnston@contoso.com
+   kakers@contoso.com
+   ```
 
-  In this example, the text file is C:\\My Documents\\Accounts.txt.
+   In this example, the text file is C:\\My Documents\\Accounts.txt.
     
 2. Run the following command:
     
-  ```powershell
-  Get-Content "C:\My Documents\Accounts.txt" | foreach {Set-MsolUserLicense -UserPrincipalName $_ -LicenseOptions $LO}
-  ```
+   ```powershell
+   Get-Content "C:\My Documents\Accounts.txt" | foreach {Set-MsolUserLicense -UserPrincipalName $_ -LicenseOptions $LO}
+   ```
 
 If you want to disable access to services for multiple licensing plans, repeat the above instructions for each licensing plan, ensuring that:
 
@@ -156,6 +156,16 @@ If you want to disable access to services for multiple licensing plans, repeat t
 
 To disable Microsoft 365 services for users while you are assigning them to a licensing plan, see [Disable access to services while assigning user licenses](disable-access-to-services-while-assigning-user-licenses.md).
 
+### Assign all services in a licensing plan to a user account
+
+For user accounts that have had services disabled, you can enable all services for a specific licensing plan with these commands:
+
+```powershell
+$userUPN="<user account UPN>"
+$acctSKU="<AccountSkuId>"
+$LO = New-MsolLicenseOptions -AccountSkuId $acctSKU
+Set-MsolUserLicense -UserPrincipalName $userUPN -LicenseOptions $LO
+```
 
 ## See also
 
