@@ -151,8 +151,8 @@ Verify and check these items off your list before you continue:
   |Exchange ActiveSync clients (e.g., iOS11 Mail)  <br/> |Exchange ActiveSync  <br/> |For Exchange ActiveSync clients that support modern authentication, you must recreate the profile in order to switch from basic authentication to modern authentication.  <br/> |
 
 - **General prerequisites**
-  - If you use ADFS, you should have Windows 2012 R2 ADFS 3.0 and above for federation
-  - Your identity configurations are any of the types supported by Azure AD Connect (such as password hash sync, pass-through authentication, on-premises STS supported by Office 365, et cetera.)
+  - If you use AD FS, you should have Windows 2012 R2 AD FS 3.0 and above for federation.
+  - Your identity configurations are any of the types supported by Azure AD Connect, such as password hash sync, pass-through authentication, and on-premises STS supported by Office 365.
   - You have Azure AD Connect configured and functioning for user replication and sync.
   - You have verified that hybrid is configured using Exchange Classic Hybrid Topology mode between your on-premises and Office 365 environment. Official support statement for Exchange hybrid says you must have either current CU or current CU - 1.
     > [!NOTE]
