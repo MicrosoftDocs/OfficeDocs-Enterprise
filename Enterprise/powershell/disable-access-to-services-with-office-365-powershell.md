@@ -135,19 +135,19 @@ To do this, perform the following steps:
     
 1. Create a text file that contains one account on each line like this:
     
-  ```powershell
-  akol@contoso.com
-  tjohnston@contoso.com
-  kakers@contoso.com
-  ```
+   ```powershell
+   akol@contoso.com
+   tjohnston@contoso.com
+   kakers@contoso.com
+   ```
 
-  In this example, the text file is C:\\My Documents\\Accounts.txt.
+   In this example, the text file is C:\\My Documents\\Accounts.txt.
     
 2. Run the following command:
     
-  ```powershell
-  Get-Content "C:\My Documents\Accounts.txt" | foreach {Set-MsolUserLicense -UserPrincipalName $_ -LicenseOptions $LO}
-  ```
+   ```powershell
+   Get-Content "C:\My Documents\Accounts.txt" | foreach {Set-MsolUserLicense -UserPrincipalName $_ -LicenseOptions $LO}
+   ```
 
 If you want to disable access to services for multiple licensing plans, repeat the above instructions for each licensing plan, ensuring that:
 
