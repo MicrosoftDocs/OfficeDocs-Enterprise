@@ -948,6 +948,26 @@
     
   },
   
+  {
+   
+    "source_path": "enterprise/internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/hybrid-solutions",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/microsoft-azure-architectures-for-sharepoint-2013.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/hybrid-solutions",
+  
+    "redirect_document_id": true
+    
+  },
+  
 {
    
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",

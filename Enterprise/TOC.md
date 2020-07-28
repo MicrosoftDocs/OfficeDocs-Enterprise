@@ -184,6 +184,7 @@
 ##### [Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)
 ##### [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)
 ##### [Phase 5: Configure federated authentication](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)
+#### [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
 
 # Manage Microsoft 365
 
