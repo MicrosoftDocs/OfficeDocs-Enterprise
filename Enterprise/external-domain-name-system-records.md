@@ -75,7 +75,7 @@ Email customers who are using Exchange Federation will also need the additional 
 There are specific steps to take when you use  [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO) to make sure your network is configured correctly.
 
 > [!NOTE]
-> These DNS records also apply to Teams, especially in a hybrid Teams and Skype for Business Online scenario, where certain federation issues could arise.
+> These DNS records also apply to Teams, especially in a hybrid Teams and Skype for Business scenario, where certain federation issues could arise.
   
 ||||
 |:-----|:-----|:-----|
