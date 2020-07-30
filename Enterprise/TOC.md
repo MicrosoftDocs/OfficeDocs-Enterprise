@@ -184,6 +184,7 @@
 ##### [Phase 3: Configure AD FS servers](high-availability-federated-authentication-phase-3-configure-ad-fs-servers.md)
 ##### [Phase 4: Configure web application proxies](high-availability-federated-authentication-phase-4-configure-web-application-pro.md)
 ##### [Phase 5: Configure federated authentication](high-availability-federated-authentication-phase-5-configure-federated-authentic.md)
+#### [SharePoint Server 2013 Disaster Recovery in Microsoft Azure](sharepoint-server-2013-disaster-recovery-in-microsoft-azure.md)
 
 # Manage Microsoft 365
 
@@ -253,7 +254,7 @@
 ### [Exchange Online Data Deletion](office-365-exchange-online-data-deletion.md)
 ### [SharePoint Online Data Deletion](office-365-sharepoint-online-data-deletion.md)
 ### [Skype for Business Data Deletion](office-365-skype-data-deletion.md)
-## [Defending against denial-of-service attacks in Microsoft 365](office-365-defending-against-denial-of-service-attacks-overview.md)
+## [Defending against denial-of-service attacks in Microsoft 365](office-365-defending-cloud-services-against-dos-attacks.md)
 ### [Microsoft's Denial-of-Services Defense Strategy](office-365-microsoft-dos-defense-strategy.md)
 ### [Core Principles of Defense Against Denial-of-Service Attacks](office-365-core-principles-of-defense-against-dos-attacks.md)
 ## [Encryption in the Microsoft Cloud](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview)
