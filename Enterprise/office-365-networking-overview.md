@@ -76,7 +76,7 @@ Shortening the network path to Microsoft 365 entry points by allowing client tra
 
 The local egress architecture has the following benefits for Microsoft 365 network traffic over the traditional model:
   
-- Provides optimal Microsoft 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Microsoft 365 entry point by the Microsoft Global Network's _Distributed Service Front Door_ infrastructure, and traffic is then routed internally to data and service endpoints over Microsoft's ultra-low latency high availability dark fiber.
+- Provides optimal Microsoft 365 performance by optimizing route length. End user connections are dynamically routed to the nearest Microsoft 365 entry point by the Microsoft Global Network's _Distributed Service Front Door_ infrastructure, and traffic is then routed internally to data and service endpoints over Microsoft's ultra-low latency high availability fiber.
 - Reduces the load on corporate network infrastructure by allowing local egress for Microsoft 365 traffic, bypassing proxies and traffic inspection devices.
 - Secures connections on both ends by leveraging client endpoint security and cloud security features, avoiding application of redundant network security technologies.
 
