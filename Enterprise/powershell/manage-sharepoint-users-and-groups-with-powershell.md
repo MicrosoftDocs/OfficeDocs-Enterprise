@@ -62,7 +62,7 @@ $user = "<user account name, such as opalc>"
 Set-SPOUser -Site https://$tenant.sharepoint.com/sites/$site -LoginName $user@$tenant.com -IsSiteCollectionAdmin $true
  ```
 
-To use these commands, replace replace everything within the quotes, including the < and > characters, with the correct names.
+To use these commands, replace everything within the quotes, including the < and > characters, with the correct names.
 
 For example, this set of commands adds Opal Castillo (user name opalc) the list of Site Collection Administrators on the ContosoTest site collection in the contoso tenancy:
 
