@@ -62,9 +62,9 @@ $user = "<user account name, such as opalc>"
 Set-SPOUser -Site https://$tenant.sharepoint.com/sites/$site -LoginName $user@$tenant.com -IsSiteCollectionAdmin $true
  ```
 
-To use these commands, replace replace everything within the quotes, including the < and > characters, with the correct names.
+To use these commands, replace everything within the quotes, including the < and > characters, with the correct names.
 
-For example, this set of commands adds Opal Castillo (user name opalc) the list of Site Collection Administrators on the ContosoTest site collection in the contoso tenancy:
+For example, this set of commands adds Opal Castillo (user name opalc) to the list of Site Collection Administrators on the ContosoTest site collection in the Contoso tenancy:
 
 ```powershell
 $tenant = "contoso"
@@ -279,4 +279,3 @@ This report is fairly simple, and you can add more code to create more specific 
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
 [Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
-
