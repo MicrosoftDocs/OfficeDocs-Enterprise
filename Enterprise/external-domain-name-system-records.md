@@ -7,7 +7,7 @@ ms.date: 10/21/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise

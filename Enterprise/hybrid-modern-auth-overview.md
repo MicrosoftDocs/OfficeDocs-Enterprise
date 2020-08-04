@@ -8,7 +8,7 @@ ms.date: 04/15/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-administration
-localization_priority: Priority
+localization_priority: Normal
 ms.assetid: ef753b32-7251-4c9e-b442-1a5aec14e58d
 ms.collection:
 - M365-security-compliance
