@@ -112,11 +112,6 @@
 ### Hybrid identities
 #### [Prepare for directory synchronization](prepare-for-directory-synchronization.md)
 #### [Prepare a non-routable domain for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md)
-#### Use the IdFix tool
-##### [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md)
-##### [Download and run the IdFix tool](install-and-run-idfix.md)
-##### [IdFix excluded and supported objects and attributes](idfix-excluded-and-supported-objects-and-attributes.md)
-##### [IdFix transaction log](idfix-transaction-log.md)
 #### [Set up directory synchronization](set-up-directory-synchronization.md)
 ### [Assign licenses to user accounts](assign-licenses-to-user-accounts.md)
 

@@ -161,8 +161,6 @@ The attributes that you need to prepare are listed here:
   - Routable domains must be used; for example, local or internal domains cannot be used.
   - Unicode is converted to underscore characters.
   - **userPrincipalName** cannot contain any duplicate values in the directory. 
-
-See [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md) to use the IdFIx tool to identify errors in the attributes of your AD DS.
     
 ## 3. Prepare the userPrincipalName attribute
 
@@ -184,9 +182,6 @@ If you've already set up directory synchronization, the user's UPN for Microsoft
   
 Also see [How to prepare a non-routable domain (such as .local domain) for directory synchronization](prepare-a-non-routable-domain-for-directory-synchronization.md).
 
-
 ## Next steps
 
-See [Prepare directory attributes with the IdFix tool](prepare-directory-attributes-for-synch-with-idfix.md) to help you correct errors in the attributes of your AD DS prior to directory synchronization.
-
-If you have corrected all the attribute errors identified with the IdFix tool and have done steps 1 through 5 above, see [Set up directory synchronization](set-up-directory-synchronization.md).
+If you have done steps 1 through 5 above, see [Set up directory synchronization](set-up-directory-synchronization.md).
