@@ -92,11 +92,11 @@ On-premises directory objects may be synchronized to Microsoft 365 and cloud res
   
 See the [Azure AD federation compatibility list](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility) to learn more.
   
-## AD DS Preperation
+## AD DS Preparation
 
 To help ensure a seamless transition to Microsoft 365 by using synchronization, you must prepare your AD DS forest before you begin your Microsoft 365 directory synchronization deployment.
   
-Your directory preperation should focus on the following tasks:
+Your directory preparation should focus on the following tasks:
 
 - Remove duplicate **proxyAddress** and **userPrincipalName** attributes.
 - Update blank and invalid **userPrincipalName** attributes with valid **userPrincipalName** attributes.
