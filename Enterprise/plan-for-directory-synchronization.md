@@ -92,13 +92,11 @@ On-premises directory objects may be synchronized to Microsoft 365 and cloud res
   
 See the [Azure AD federation compatibility list](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-federation-compatibility) to learn more.
   
-## AD DS Cleanup
+## AD DS Preperation
 
 To help ensure a seamless transition to Microsoft 365 by using synchronization, you must prepare your AD DS forest before you begin your Microsoft 365 directory synchronization deployment.
   
-When you [set up directory synchronization](set-up-directory-synchronization.md), one of the steps is to [download and run the IdFix tool](install-and-run-idfix.md). You can use the IdFix tool to help with [directory cleanup](prepare-directory-attributes-for-synch-with-idfix.md).
-  
-Your directory cleanup should focus on the following tasks:
+Your directory preperation should focus on the following tasks:
 
 - Remove duplicate **proxyAddress** and **userPrincipalName** attributes.
 - Update blank and invalid **userPrincipalName** attributes with valid **userPrincipalName** attributes.
