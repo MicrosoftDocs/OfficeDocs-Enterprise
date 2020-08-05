@@ -52,7 +52,7 @@ When deciding which way your organization will create and manage accounts, consi
   
 - The directory synchronization software needs to be installed on servers within your on-premises environment to connect the identities between Microsoft 365 and your AD DS.
     
-- Any directory synchronization option, including SSO options, requires your AD DS attributes meet standards. The specifics of what attributes are used in your directory and what cleanup (if any) is needed are described in [Prepare to provision users through directory synchronization to Microsoft 365](prepare-for-directory-synchronization.md). See [Download and run the Microsoft 365 Id Fix tool](install-and-run-idfix.md) for instruction on how to use Id Fix to automate directory cleanup. 
+- Any directory synchronization option, including SSO options, requires your AD DS attributes meet standards. The specifics of what attributes are used in your directory and what cleanup (if any) is needed are described in [Prepare to provision users through directory synchronization to Microsoft 365](prepare-for-directory-synchronization.md). 
     
 - Plan how you are going to create Microsoft 365 accounts.
     
@@ -71,7 +71,7 @@ When deciding which way your organization will create and manage accounts, consi
     If you choose to add and manage all your users through the admin center, you will specify the location and assign licenses at the same time as creating the Microsoft 365 account. As a result, not much planning is required.
     
     > [!IMPORTANT]
-    > Creating accounts in Microsoft 365 without assigning a license (to SharePoint Online, for example) means that the account owner can view the Microsoft 365 admin center but can't access any of the services within your company's subscription. After you assign a location and the license, the account is replicated to the service or services that you assigned. The user can sign in to their account and use the services that you assigned to them. 
+    > Creating accounts in Microsoft 365 without assigning a license (to SharePoint Online, for example) means that the account owner can view the Microsoft 365 center but can't access any of the services within your company's subscription. After you assign a location and the license, the account is replicated to the service or services that you assigned. The user can sign in to their account and use the services that you assigned to them. 
   
 ## Next steps
 

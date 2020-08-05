@@ -874,7 +874,7 @@
   
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides",
   
-    "redirect_document_id": true
+    "redirect_document_id": false
     
   },
   
@@ -884,7 +884,7 @@
   
     "redirect_url": "https://docs.microsoft.com/microsoft-365",
   
-    "redirect_document_id": true
+    "redirect_document_id": false
     
   },
   
@@ -894,7 +894,7 @@
   
     "redirect_url": "https://docs.microsoft.com/microsoft-365/security",
   
-    "redirect_document_id": true
+    "redirect_document_id": false
     
   },
   
@@ -904,7 +904,7 @@
   
     "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/ediscovery",
   
-    "redirect_document_id": true
+    "redirect_document_id": false
     
   },
   
@@ -924,7 +924,7 @@
   
     "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-powershell-install",
   
-    "redirect_document_id": true
+    "redirect_document_id": false
     
   },
   
@@ -934,12 +934,61 @@
   
     "redirect_url": "https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell",
   
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/tools-to-manage-office-365-accounts.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/manage-office-365-accounts",
+  
     "redirect_document_id": true
     
   },
   
-{
+  {
    
+    "source_path": "enterprise/prepare-directory-attributes-for-synch-with-idfix.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/install-and-run-idfix.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/idfix-excluded-and-supported-objects-and-attributes.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/idfix-transaction-log.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  { 
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
   
     "redirect_url": "https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps",

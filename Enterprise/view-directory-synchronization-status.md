@@ -45,5 +45,4 @@ If there is a problem with your directory synchronization, the errors are listed
 |**Password sync enabled** | True or False. Specifies whether you have password hash sync between our on-premises and your Microsoft 365 tenant. |
 |**Last Password Sync** | Last time password hash sync ran. Will display a warning and a link to a troubleshooting tool if the last sync was more than three days ago. |
 |**Directory sync client version** | Contains a download link if a new version of Azure AD Connect has been released. |
-|**IDFix Tool** | Download link to [IDFix](install-and-run-idfix.md), a tool you can use to check you local Active Directory. |
 |**Directory sync service account** | Displays the name of your Microsoft 365 directory sync service account. |

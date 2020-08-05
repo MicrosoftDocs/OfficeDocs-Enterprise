@@ -7,7 +7,7 @@ ms.date: 10/21/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
@@ -121,9 +121,8 @@ For scenarios where you're not just using Exchange Online email for Office 365 (
 > [!NOTE]
 > If you have a complicated scenario that includes, for example, edge email servers for managing email traffic across your firewall, you'll have a more detailed SPF record to set up. Learn how: [Set up SPF records in Office 365 to help prevent spoofing](https://go.microsoft.com/fwlink/?LinkId=787656). You can also learn much more about how SPF works with Office 365 by reading [How Office 365 uses Sender Policy Framework (SPF) to help prevent spoofing](https://go.microsoft.com/fwlink/?LinkId=787065).
   
-|||||
+| Number|If you're using…  <br/> |Purpose  <br/> |Add these includes  <br/> |
 |:-----|:-----|:-----|:-----|
-||If you're using…  <br/> |Purpose  <br/> |Add these includes  <br/> |
 |1  <br/> |All email systems (required)  <br/> |All SPF records start with this value  <br/> |v=spf1  <br/> |
 |2  <br/> |Exchange Online (common)  <br/> |Use with just Exchange Online  <br/> |include:spf.protection.outlook.com  <br/> |
 |3  <br/> |Third-party email system (less common)  <br/> ||include:\<email system like mail.contoso.com\>  <br/> |
