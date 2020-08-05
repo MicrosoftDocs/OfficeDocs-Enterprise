@@ -84,8 +84,3 @@ To update from Azure AD Sync to Azure AD Connect, see [the upgrade instructions]
     
 - [Use PowerShell to fix duplicate email addresses](https://go.microsoft.com/fwlink/p/?LinkId=396731)
     
-## Diagnostic tools
-
-[IDFix tool](prepare-directory-attributes-for-synch-with-idfix.md) is used to perform discovery and remediation of identity objects and their attributes in an on-premises Active Directory environment in preparation for migration to Microsoft 365. IDFix is intended for the Active Directory administrators responsible for directory synchronization with the Microsoft 365 service. 
-
-[Download the IDFix tool](https://go.microsoft.com/fwlink/p/?LinkId=396718) from the Microsoft download center.
