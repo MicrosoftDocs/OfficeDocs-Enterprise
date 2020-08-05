@@ -938,8 +938,57 @@
     
   },
   
-{
+  {
    
+    "source_path": "enterprise/tools-to-manage-office-365-accounts.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/manage-office-365-accounts",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/prepare-directory-attributes-for-synch-with-idfix.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/install-and-run-idfix.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/idfix-excluded-and-supported-objects-and-attributes.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/idfix-transaction-log.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  { 
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
   
     "redirect_url": "https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps",
