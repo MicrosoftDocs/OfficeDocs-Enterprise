@@ -42,11 +42,7 @@ To plan for Microsoft 365 on your own, step through the planning and design deci
 
 - Your Microsoft 365 tenant
 
-<<<<<<< HEAD
-  Includes planning for your network connections to the Internet, your Office 365 identities, and integration with apps, on-premises, Azure, and other elements. Go to [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md) for more information.
-=======
-  Includes planning for your network connections to the Internet, your Microsoft 365 identities, and integration with apps, on-premises, Azure, and other elements. Start [here](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md).
->>>>>>> master
+  Includes planning for your network connections to the Internet, your Microsoft 365 identities, and integration with apps, on-premises, Azure, and other elements. Go to [Subscriptions, licenses, accounts, and tenants for Microsoft's cloud offerings](subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md) for more information.
 
 - Support for your clients
 
@@ -54,11 +50,7 @@ To plan for Microsoft 365 on your own, step through the planning and design deci
 
 - Support for hybrid modern authentication
 
-<<<<<<< HEAD
-  Includes planning for modern authentication when using hybrid configurations of key Office 365 workloads. Go to [Hybrid modern authentication overview and prerequisites](hybrid-modern-auth-overview.md) for more information.
-=======
-  Includes planning for modern authentication when using hybrid configurations of key Microsoft 365 productivity apps. Start [here](hybrid-modern-auth-overview.md).
->>>>>>> master
+  Includes planning for modern authentication when using hybrid configurations of key Microsoft 365 productivity apps. Go to [Hybrid modern authentication overview and prerequisites](hybrid-modern-auth-overview.md) for more information.
 
 - Older Office clients and servers
 

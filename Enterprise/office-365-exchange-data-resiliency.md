@@ -92,9 +92,5 @@ Exchange Online takes advantage of several ReFS benefits:
 - Support for other features used by Exchange Online, such as BitLocker encryption. 
 
 Exchange Online also benefits from other ReFS features: 
-<<<<<<< HEAD
-- **Integrity (Integrity Streams)** - ReFS stores data in a way that protects it from many of the common errors that can normally cause data loss. Office 365 Search uses Integrity Streams to help with early disk corruption detection and checksums of file content. The feature also reduces corruption incidents caused by "Torn Writes" (when a write operation does not complete due to power outages, etc.). 
-=======
 - **Integrity (Integrity Streams)** - ReFS stores data in a way that protects it from many of the common errors that can normally cause data loss. Microsoft 365 Search uses Integrity Streams to help with early disk corruption detection and checksums of file content. The feature also reduces corruption incidents caused by “Torn Writes” (when a write operation does not complete due to power outages, etc.). 
->>>>>>> master
 - **Availability (Salvage)** - ReFS prioritizes the availability of data. Historically, file systems were often susceptible to data corruption that would require the system to be taken offline for repair. Although rare, if corruption does occur, ReFS implements salvage, a feature that removes the corrupt data from the namespace on a live volume and ensures that good data is not adversely affected by non-repairable corrupt data. Applying the Salvage feature and isolating data corruption to Exchange Online database volumes means that we can keep non-affected databases on a corrupted volume healthy between the time of corruption and repair action. This increases the availability of databases that would normally be affected by such disk corruption issues. 

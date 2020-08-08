@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD
-title: Manage Office 365 with Windows PowerShell for DAP
-ms.author: chrfox
-author: chrfox
-=======
-title: "Manage Microsoft 365 with Windows PowerShell for Delegated Access Permissions (DAP) partners"
+title: "Manage Microsoft 365 with Windows PowerShell for DAP partners"
 ms.author: josephd
 author: JoeDavies-MSFT
->>>>>>> master
 manager: laurawi
 audience: Admin
 ms.topic: hub-page
