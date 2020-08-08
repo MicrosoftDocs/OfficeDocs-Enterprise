@@ -20,7 +20,7 @@ search.appverid:
 - SPO160
 - MET150
 ms.assetid: 74d327e5-755f-4135-b9a5-7b79578c1bf9
-description: Learn how to decrease the load time for SharePoint Online pages by using JavaScript to delay loading images and and non-essential JavaScript.
+description: Learn how to decrease the load time for SharePoint Online pages by using JavaScript to delay loading images and non-essential JavaScript.
 ---
 
 # Delay loading images and JavaScript in SharePoint Online
