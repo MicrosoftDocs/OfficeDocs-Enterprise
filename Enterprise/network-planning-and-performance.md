@@ -11,11 +11,12 @@ localization_priority: Normal
 ms.collection: Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
 search.appverid: 
 - MET150
 ms.assetid: e5f1228c-da3c-4654-bf16-d163daee8848
-ms.custom: seo-marvel-apr2020
+ms.custom:
+- seo-marvel-apr2020
+- Adm_O365
 description: "This article will help you plan your network bandwidth requirements for Microsoft 365, and fine tune and troubleshoot performance."
 ---
 

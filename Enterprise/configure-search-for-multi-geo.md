@@ -7,8 +7,6 @@ manager: arnek
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-f1.keywords:
-- CSH
 ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal

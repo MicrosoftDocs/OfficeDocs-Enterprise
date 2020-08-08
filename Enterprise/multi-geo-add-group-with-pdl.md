@@ -9,7 +9,6 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
 description: "Learn how to create a Microsoft 365 group with a specified preferred data location in a multi-geo environment."

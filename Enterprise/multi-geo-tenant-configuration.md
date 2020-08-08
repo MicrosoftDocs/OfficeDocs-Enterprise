@@ -7,12 +7,13 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.collection: SPO_Content
+ms.collection: 
+- SPO_Content
+- Strat_SP_gtc
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 localization_priority: Priority
-ms.collection: Strat_SP_gtc
 description: In this article, learn how to add satellite locations and configure your tenant for Microsoft 365 Multi-Geo.
 ---
 

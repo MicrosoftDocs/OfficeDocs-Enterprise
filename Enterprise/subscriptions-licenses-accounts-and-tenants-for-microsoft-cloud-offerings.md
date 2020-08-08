@@ -15,11 +15,10 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom:
-- Ent_Architecture
 ms.assetid: c720cffc-f9b5-4f43-9100-422f86a1027c
 ms.custom:
 - seo-marvel-apr2020
+- Ent_Architecture
 description: "Understand the relationships of organizations, subscriptions, licenses, user accounts, and tenants across Microsoft cloud offerings."
 ---
 

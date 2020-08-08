@@ -7,11 +7,12 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.collection: SPO_Content
+ms.collection:
+- SPO_Content
+- Strat_SP_gtc
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
-ms.collection: Strat_SP_gtc
 localization_priority: Priority
 description: Learn about the SharePoint, OneDrive, and Exchange user experience in a multi-geo environment for Microsoft 365.
 ---
