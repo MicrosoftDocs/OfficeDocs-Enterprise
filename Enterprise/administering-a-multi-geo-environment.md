@@ -13,17 +13,17 @@ ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
-localization_priority: Priority
-description: Admin can learn about how to administer SharePoint and OneDrive services in a multi-geo environment.
+localization_priority: Normal
+description: Admins can learn about how to administer SharePoint and OneDrive services in a multi-geo environment.
 ---
 
 # Administering a multi-geo environment
 
-Here's a look at how Office 365 services work in a multi-geo environment.
+Here's a look at how Microsoft 365 services work in a multi-geo environment.
 
 ## Audit log search
 
-A unified [Audit log](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) for all your satellite locations is available from the Office 365 audit log search page. You can see all the audit log entries from across geo locations, for example, NAM & EUR users' activities will show up in one org view and then you can apply existing filters to see specific user's activities.
+A unified [Audit log](https://support.office.com/article/0d4d0f35-390b-4518-800e-0c7ec95e946c) for all your satellite locations is available from the Microsoft 365 audit log search page. You can see all the audit log entries from across geo locations, for example, NAM & EUR users' activities will show up in one org view and then you can apply existing filters to see specific user's activities.
 
 ## BCS, Secure Store, Apps
 
@@ -59,7 +59,7 @@ The [OneDrive admin center](https://admin.onedrive.com) has a **Geo locations** 
 
 ## Security and Compliance Admin Center
 
-There is one central compliance center for a multi-geo tenant: [Office 365 Security & Compliance Center](https://protection.office.com/?rfr=AdminCenter\#/homepage).
+There is one central compliance center for a multi-geo tenant: [Microsoft 365 Security & Compliance Center](https://protection.office.com/?rfr=AdminCenter\#/homepage).
 
 ## SharePoint storage quota
 
@@ -93,9 +93,13 @@ Stream is currently available in the following regions:
 - Europe
 - Asia Pacific
 
-However, Stream is not yet available in the following regions that are currently supported for Office 365 Video, therefore for these local instances, we will use the RMS that is in the closest supported region.
+However, Stream is not yet available in the following regions that are currently supported for Microsoft 365 Video, therefore for these local instances, we will use the RMS that is in the closest supported region.
 
 - Australia
 - Canada
 - India
 - United Kingdom
+
+## Yammer
+
+Yammer is not a Multi-Geo workload. Yammer threads stored in Yammer will be placed in the tenant’s central location. Yammer is rolling out a file storage change which will store Yammer files within SharePoint. Yammer files stored in SharePoint will be placed the SharePoint site associated with the Yammer group. SharePoint group sites are based on PDL logic as outlined in [SharePoint Sites and Groups](https://docs.microsoft.com/office365/enterprise/multi-geo-capabilities-in-onedrive-and-sharepoint-online-in-office-365#sharepoint-sites-and-groups).

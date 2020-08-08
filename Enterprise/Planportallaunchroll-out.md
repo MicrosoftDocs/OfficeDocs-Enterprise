@@ -30,14 +30,14 @@ To help in creating a successful portal, follow the basic principles, practices 
 The deployment approach is highlighted below.
 
 ## Overview of capacity planning in SharePoint Online
-In order to efficiently use capacity and deal with unexpected growth, in any farm, we have automation that tracks certain usage scenarios. While exact growth is unpredictable for any one tenant in any one farm, the aggregated sum of requests is predictable over time. By identifying the growth trends in SharePoint Online, we can plan for future expansion. For more information on [Capacity planning and load testing SharePoint Online](https://docs.microsoft.com/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online).
+In order to efficiently use capacity and deal with unexpected growth, in any farm, we have automation that tracks certain usage scenarios. While exact growth is unpredictable for any one tenant in any one farm, the aggregated sum of requests is predictable over time. By identifying the growth trends in SharePoint Online, we can plan for future expansion. For more information on [Capacity planning and load testing SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md).
 
 A key part of a successful launch is the "wave" or "phased roll-out" approach detailed below. 
 
 ## Can I load test SharePoint Online?
 SharePoint Online is a shared multi-tenanted environment which is balanced across farms and scale is adjusted in an on-going basis. Load testing an environment, like SharePoint Online, whose scale changes continuously will not only  give you unexpected results but it is not permitted. 
 
-Learn more:  [Capacity planning and load testing SharePoint Online](https://docs.microsoft.com/office365/enterprise/capacity-planning-and-load-testing-sharepoint-online)
+Learn more:  [Capacity planning and load testing SharePoint Online](capacity-planning-and-load-testing-sharepoint-online.md)
 
 ## Optimize pages by following recommended guidelines
 Pages from an on-Premise deployment should not simply be moved as they are onto SharePoint Online without reviewing them against recommended guidelines for SharePoint Online. The best approach is to always optimize any home page for any site or portal in SharePoint, as this is where most users in your organization will access as the starting point for your site(s).

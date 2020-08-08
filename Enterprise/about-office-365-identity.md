@@ -1,10 +1,10 @@
 ---
-title: "Office 365 identity models and Azure Active Directory"
+title: "Microsoft 365 identity models and Azure Active Directory"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 audience: Admin
-ms.date: 05/20/2019
+ms.date: 06/09/2020
 ms.topic: overview
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,31 +22,30 @@ search.appverid:
 - MOE150
 - BCS160
 ms.assetid: 06a189e7-5ec6-4af2-94bf-a22ea225a7a9
-description: Learn how to manage the Azure AD user identity service in Office 365 using cloud-only or hybrid identity models.
+description: Learn how to manage the Azure AD user identity service in Microsoft 365 using cloud-only or hybrid identity models.
 ---
 
-# Office 365 identity models and Azure Active Directory
+# Microsoft 365 identity models and Azure Active Directory
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-Office 365 uses Azure Active Directory (Azure AD), a cloud-based user identity and authentication service that is included with your Office 365 subscription, to manage identities and authentication for Office 365. Getting your identity infrastructure configured correctly is vital to managing Office 365 user access and permissions for your organization.
+Microsoft 365 uses Azure Active Directory (Azure AD), a cloud-based user identity and authentication service that is included with your Microsoft 365 subscription, to manage identities and authentication for Microsoft 365. Getting your identity infrastructure configured correctly is vital to managing Microsoft 365 user access and permissions for your organization.
 
-Before you begin, watch this video for an overview of identity models and authentication for both Office 365 and Microsoft 365.
+Before you begin, watch this video for an overview of identity models and authentication for Microsoft 365.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
-Your first planning choice is the Office 365 identity model.
+Your first planning choice is the Microsoft 365 identity model.
 
-## Office 365 identity models
+## Microsoft 365 identity models
 
 To plan for user accounts, you first need to understand the two identity models in Microsoft 365. You can maintain your organization's identities only in the cloud, or you can maintain your on-premises Active Directory Domain Services (AD DS) identities and use them for authentication when users access Microsoft 365 cloud services.  
 
 Here are the two types of identity and their best fit and benefits.
 
-|||
+| | Cloud-only identity | Hybrid identity |
 |:-------|:-----|:-----|
-|  | **Cloud-only identity** | **Hybrid identity** |
-| **Definition** | User account only exists in the Azure Active Directory (Azure AD) tenant for your Microsoft 365 subscription. | User account exists in AD DS and a copy is also in the Azure AD tenant for your Microsoft 365 subscription. The user account in Azure AD might also include a hashed version of the user account password. |
+| **Definition** | User account only exists in the Azure AD tenant for your Microsoft 365 subscription. | User account exists in AD DS and a copy is also in the Azure AD tenant for your Microsoft 365 subscription. The user account in Azure AD might also include a hashed version of the already hashed AD DS user account password. |
 | **How Microsoft 365 authenticates user credentials** | The Azure AD tenant for your Microsoft 365 subscription performs the authentication with the cloud identity account. | The Azure AD tenant for your Microsoft 365 subscription either handles the authentication process or redirects the user to another identity provider. |
 | **Best for** | Organizations that do not have or need an on-premises AD DS. | Organizations using AD DS or another identity provider. |
 | **Greatest benefit** | Simple to use. No extra directory tools or servers required. | Users can use the same credentials when accessing on-premises or cloud-based resources. |
@@ -60,10 +59,10 @@ Here are the basic components of cloud-only identity.
  
 ![Basic components of cloud-only identity](./media/about-office-365-identity/cloud-only-identity.png)
 
-Both on-premises and remote (online) users use their Azure AD user accounts and passwords to access Office 365 cloud services. Azure AD authenticates user credentials based on its stored user accounts and passwords.
+Both on-premises and remote (online) users use their Azure AD user accounts and passwords to access Microsoft 365 cloud services. Azure AD authenticates user credentials based on its stored user accounts and passwords.
 
 ### Administration
-Because user accounts are only stored in Azure AD, you manage cloud identities with tools such as the [Microsoft 365 admin center](https://admin.microsoft.com) and Windows PowerShell with the Azure Active Directory PowerShell for Graph module. 
+Because user accounts are only stored in Azure AD, you manage cloud identities with tools such as the [Microsoft 365 admin center](https://admin.microsoft.com) and [Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-user-accounts-and-licenses-with-office-365-powershell). 
 
 ## Hybrid identity
 
@@ -87,18 +86,18 @@ The Azure AD tenant has a copy of the AD DS accounts. In this configuration, bot
 
 Because the original and authoritative user accounts are stored in the on-premises AD DS, you manage your identities with the same tools as AD DS, such as the Active Directory Users and Computers tool. 
 
+<<<<<<< HEAD
 You don't use the Microsoft 365 admin center or Windows PowerShell to manage synchronized user accounts in Azure AD.
+=======
+You don’t use the Microsoft 365 admin center or PowerShell for Microsoft 365 to manage synchronized user accounts in Azure AD.
+>>>>>>> master
 
 ## Next step
 
-If you need the cloud-only identity model, see [Cloud-only identities](cloud-only-identities.md).
+If you need the cloud-only identity model, see [Cloud-only identity](cloud-only-identities.md).
 
-If you need the hybrid identity model, see [directory synchronization](plan-for-directory-synchronization.md).
-  
+If you need the hybrid identity model, see [Hybrid identity](plan-for-directory-synchronization.md).
 
-## Video training
-
-See the video course [Office 365: Manage Identities Using Azure AD Connect](https://support.office.com/article/90991a1d-c0ab-479a-b413-35c9706f6fed.aspx), brought to you by LinkedIn Learning.
 
 ## See also
 

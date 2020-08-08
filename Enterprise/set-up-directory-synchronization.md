@@ -1,9 +1,9 @@
 ---
-title: "Set up directory synchronization for Office 365"
+title: "Set up directory synchronization for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 12/03/2019
+ms.date: 06/15/2020
 audience: Admin
 ms.topic: get-started-article
 ms.service: o365-administration
@@ -21,18 +21,18 @@ search.appverid:
 - MBS150
 - BCS160
 ms.assetid: 1b3b5318-6977-42ed-b5c7-96fa74b08846
-description: "Learn how to set up directory synchronization between Office 365 and your on-premises Active Directory."
+description: "Learn how to set up directory synchronization between Microsoft 365 and your on-premises Active Directory."
 ---
 
-# Set up directory synchronization for Office 365
+# Set up directory synchronization for Microsoft 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-Office 365 uses an Azure Active Directory (Azure AD) tenant to store and manage identities for authentication and permissions to access cloud-based resources. 
+Microsoft 365 uses an Azure Active Directory (Azure AD) tenant to store and manage identities for authentication and permissions to access cloud-based resources. 
 
-If you have an on-premises Active Directory Domain Services (AD DS), you can synchronize your AD DS user accounts, groups, and contacts with the Azure AD tenant of your Office 365 subscription. This is hybrid identity for Office 365. Here are its components.
+If you have an on-premises Active Directory Domain Services (AD DS), you can synchronize your AD DS user accounts, groups, and contacts with the Azure AD tenant of your Microsoft 365 subscription. This is hybrid identity for Microsoft 365. Here are its components.
 
-![Components of directory synchronization for Office 365](./media/about-office-365-identity/hybrid-identity.png)
+![Components of directory synchronization for Microsoft 365](./media/about-office-365-identity/hybrid-identity.png)
 
 Azure AD Connect runs on an on-premises server and synchronizes your AD DS with the Azure AD tenant. Along with directory synchronization, you can also specify these authentication options:
 
@@ -52,12 +52,12 @@ See [Hybrid identities](plan-for-directory-synchronization.md) for more informat
   
 ## 1. Review prerequisites for Azure AD Connect
 
-You get a free Azure AD subscription with your Office 365 subscription. When you set up directory synchronization, you will install Azure AD Connect on one of your on-premises servers.
+You get a free Azure AD subscription with your Microsoft 365 subscription. When you set up directory synchronization, you will install Azure AD Connect on one of your on-premises servers.
   
-For Office 365 you'll need to:
+For Microsoft 365 you'll need to:
   
 - Verify your on-premises domain. The Azure AD Connect wizard guides you through this.
-- Obtain the user names and passwords for the admin accounts of your Office 365 tenant and AD DS.
+- Obtain the user names and passwords for the admin accounts of your Microsoft 365 tenant and AD DS.
 
 For your on-premises server on which you install Azure AD Connect, you'll need:
   
@@ -75,7 +75,7 @@ You can also review the Azure AD Connect [version release history](https://docs.
 
 Before you begin, make sure you have:
 
-- The user name and password of an Office 365 global admin
+- The user name and password of a Microsoft 365 global admin
 - The user name and password of an AD DS domain administrator
 - Which authentication method (PHS, PTA, federated)
 - Whether you want to use [Azure AD Seamless Single Sign-on (SSO)](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)
@@ -90,7 +90,7 @@ Follow these steps:
 
 ## 3. Finish setting up domains
 
-Follow the steps in [Create DNS records for Office 365 when you manage your DNS records](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) to finish setting up your domains.
+Follow the steps in [Create DNS records for Microsoft 365 when you manage your DNS records](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) to finish setting up your domains.
 
 ## Next step
 

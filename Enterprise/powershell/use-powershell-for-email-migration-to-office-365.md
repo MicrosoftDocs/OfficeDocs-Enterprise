@@ -1,9 +1,9 @@
 ---
-title: "Use PowerShell for email migration to Office 365"
+title: "Use PowerShell for email migration to Microsoft 365"
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.date: 12/15/2017
+ms.date: 07/17/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
@@ -15,38 +15,33 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 ms.assetid: 795158e1-7dfc-4d9e-b805-373dd576c4e7
-description: In this article, learn how to migrate email from your existing system to Office 365 using Windows PowerShell.
+description: In this article, learn how to migrate email from your existing system to Microsoft 365 using PowerShell.
 ---
 
-# Use PowerShell for email migration to Office 365
+# Use PowerShell for email migration to Microsoft 365
 
- **Summary:** Learn how to migrate email to Office 365 using Windows PowerShell.
-  
-When administrators first set up Office 365, many of them migrate email from existing systems. You can also do this by using the Office 365 administration user interface. You can also use Windows PowerShell to migrate email.
-  
-## Office 365 licensing and Windows PowerShell
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-Use Windows PowerShell to migrate email to Office 365. 
+When administrators first set up Microsoft 365, many of them migrate email from existing systems. You can also do this by using the Microsoft 365 admin center. You can also use Windows PowerShell to migrate email.
   
-- [Use PowerShell to perform a cutover migration to Office 365](use-powershell-to-perform-a-cutover-migration-to-office-365.md)
+Use Windows PowerShell to migrate email to Microsoft 365. 
+  
+- [Use PowerShell to perform a cutover migration to Microsoft 365](use-powershell-to-perform-a-cutover-migration-to-office-365.md)
     
-- [Use PowerShell to perform an IMAP migration to Office 365](use-powershell-to-perform-an-imap-migration-to-office-365.md)
+- [Use PowerShell to perform an IMAP migration to Microsoft 365](use-powershell-to-perform-an-imap-migration-to-office-365.md)
     
-- [Use PowerShell to perform a staged migration to Office 365](use-powershell-to-perform-a-staged-migration-to-office-365.md)
+- [Use PowerShell to perform a staged migration to Microsoft 365](use-powershell-to-perform-a-staged-migration-to-office-365.md)
     
 ## Related topics
 
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   
-[Getting started with Office 365 PowerShell](getting-started-with-office-365-powershell.md)
+[Getting started with PowerShell for Microsoft 365](getting-started-with-office-365-powershell.md)
   
-[Manage SharePoint Online with Office 365 PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
+[Manage SharePoint Online with PowerShell](manage-sharepoint-online-with-office-365-powershell.md)
   
-[Use Windows PowerShell to create reports in Office 365](use-windows-powershell-to-create-reports-in-office-365.md)
-
-[Advantages of using Windows PowerShell to manage Office 365](https://technet.microsoft.com/library/15144a50-453e-4cd5-befd-bc6736697967.aspx)
+[Use Windows PowerShell to create reports in Microsoft 365](use-windows-powershell-to-create-reports-in-office-365.md)
+[Why you need to use Microsoft 365 PowerShell](why-you-need-to-use-office-365-powershell.md)
   
-[Windows PowerShell in Office 365 technical reference](https://technet.microsoft.com/library/10d5c66a-7579-4319-aaa5-7a5e21d49cea.aspx)
-  
-[Office 365 Licensing and Windows PowerShell](https://technet.microsoft.com/library/6ca0e430-f7ba-4184-becf-14c6c5c8dde5.aspx)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
 

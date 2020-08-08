@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Monitoring and Testing Tenant Boundaries"
-ms.author: robmazz
-author: robmazz
+title: "Microsoft 365 Monitoring and Testing Tenant Boundaries"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,7 +14,7 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: In this article, learn how Microsoft continuously monitors and tests tenant boundaries for Office 365.
+description: In this article, learn how Microsoft continuously monitors and tests tenant boundaries for Microsoft 365.
 ms.custom: seo-marvel-apr2020
 ---
 
@@ -22,11 +22,11 @@ ms.custom: seo-marvel-apr2020
 
 Microsoft continuously monitors and explicitly tests for weaknesses and vulnerabilities in tenant boundaries, including monitoring for intrusion, permission violation attempts, and resource starvation. We also use multiple internal systems to continuously monitor for inappropriate resource utilization, which if detected, triggers built-in throttling.
 
-Office 365 has internal monitoring systems that continuously monitor for any failure and drive automated recovery when failure is detected. Office 365 systems analyze deviations in service behavior and initiate self-healing processes that are built into the system. Office 365 also uses outside-in monitoring in which monitoring is performed from multiple locations both from trusted third-party services (for independent SLA verification) and our own datacenters to raise alerts. For diagnostics, we have extensive logging, auditing, and tracing. Granular tracing and monitoring helps us isolate issues and perform fast and effective root cause analysis.
+Microsoft 365 has internal monitoring systems that continuously monitor for any failure and drive automated recovery when failure is detected. Microsoft 365 systems analyze deviations in service behavior and initiate self-healing processes that are built into the system. Microsoft 365 also uses outside-in monitoring in which monitoring is performed from multiple locations both from trusted third-party services (for independent SLA verification) and our own datacenters to raise alerts. For diagnostics, we have extensive logging, auditing, and tracing. Granular tracing and monitoring helps us isolate issues and perform fast and effective root cause analysis.
 
-While Office 365 has automated recovery actions where possible, Microsoft on-call engineers are available 24x7 to investigate all Severity 1 security escalations, and post-mortem reviews of every service incident contributes to continuous learning and improvement. This team includes support engineers, product developers, program managers, product managers, and senior leadership. Our on-call professionals provide timely backup and often can automate recovery actions, so that next time an event occurs, it can be self-healed.
+While Microsoft 365 has automated recovery actions where possible, Microsoft on-call engineers are available 24x7 to investigate all Severity 1 security escalations, and post-mortem reviews of every service incident contributes to continuous learning and improvement. This team includes support engineers, product developers, program managers, product managers, and senior leadership. Our on-call professionals provide timely backup and often can automate recovery actions, so that next time an event occurs, it can be self-healed.
 
-Microsoft performs a thorough post-incident review each time an Office 365 security incident occurs regardless of the magnitude of impact. A post-incident review consists of an analysis of what happened, how we responded and how we prevent similar incidents in the future. In the interest of transparency and accountability, we share post-incident review for any major service incidents with affected customers. For specific details, see [Office 365 Security Incident Management](https://aka.ms/Office365SIM).
+Microsoft performs a thorough post-incident review each time a Microsoft 365 security incident occurs regardless of the magnitude of impact. A post-incident review consists of an analysis of what happened, how we responded and how we prevent similar incidents in the future. In the interest of transparency and accountability, we share post-incident review for any major service incidents with affected customers. For specific details, see [Office 365 Security Incident Management](https://aka.ms/Office365SIM).
 
 ## Assume Breach Methodology
 
@@ -36,17 +36,21 @@ While Microsoft's [Assume Breach](https://www.microsoft.com/TrustCenter/Security
 
 While Prevent Breach security processes, such as threat modeling, code reviews, and security testing are very useful as part of the [Security Development Lifecycle](https://www.microsoft.com/securityengineering/sdl/), Assume Breach provides numerous advantages that help account for overall security by exercising and measuring reactive capabilities in the event of a breach.
 
-At Microsoft, we set out to accomplish this through ongoing war-games exercises and live site penetration testing of our security response plans with the goal of improving our detection and response capability. Microsoft regularly simulates real-world breaches, conducts continuous security monitoring, and practices security incident management to validate and improve the security of Office 365, Azure, and other Microsoft cloud services.
+At Microsoft, we set out to accomplish this through ongoing war-games exercises and live site penetration testing of our security response plans with the goal of improving our detection and response capability. Microsoft regularly simulates real-world breaches, conducts continuous security monitoring, and practices security incident management to validate and improve the security of Microsoft 365, Azure, and other Microsoft cloud services.
 
 Microsoft executes its Assume Breach security strategy using two core groups:
 - Red Teams (attackers)
 - Blue Teams (defenders)
 
-Both Microsoft Azure and Office 365 staff separate full-time red teams and blue teams.
+Both Microsoft Azure and Microsoft 365 staff separate full-time red teams and blue teams.
 
+<<<<<<< HEAD
 Referred to as "[Red Teaming](https://go.microsoft.com/fwlink/?linkid=518599)", the approach is to test Azure and Office 365 systems and operations using the same tactics, techniques and procedures as real adversaries, against the live production infrastructure, without the foreknowledge of the Engineering or Operations teams. This tests Microsoft's security detection and response capabilities, and helps identify production vulnerabilities, configuration errors, invalid assumptions, and other security issues in a controlled manner. Every red team breach is followed by full disclosure between both teams to identify gaps, address findings, and improve breach response.
+=======
+Referred to as "[Red Teaming](https://go.microsoft.com/fwlink/?linkid=518599)", the approach is to test Azure and Microsoft 365 systems and operations using the same tactics, techniques and procedures as real adversaries, against the live production infrastructure, without the foreknowledge of the Engineering or Operations teams. This tests Microsoft’s security detection and response capabilities, and helps identify production vulnerabilities, configuration errors, invalid assumptions, and other security issues in a controlled manner. Every red team breach is followed by full disclosure between both teams to identify gaps, address findings, and improve breach response.
+>>>>>>> master
 
-**NOTE**: No customer data is deliberately targeted during Red Teaming or live site penetration testing. The tests are against Office 365 and Azure infrastructure and platforms, as well as Microsoft's own tenants, applications, and data. Customer tenants, applications, and content hosted in Office 365 or Azure are never targeted.
+**NOTE**: No customer data is deliberately targeted during Red Teaming or live site penetration testing. The tests are against Microsoft 365 and Azure infrastructure and platforms, as well as Microsoft's own tenants, applications, and data. Customer tenants, applications, and content hosted in Microsoft 365 or Azure are never targeted.
 
 ## Red Teams
 

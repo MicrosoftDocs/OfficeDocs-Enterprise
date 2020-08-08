@@ -6,7 +6,7 @@
 
         "source_path": "enterprise/using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md",
 
-        "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
 
         "redirect_document_id": true
 
@@ -16,7 +16,7 @@
 
         "source_path": "enterprise/obsolete-article.md",
 
-        "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/cloud-adoption-and-hybrid-solutions",
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions",
 
         "redirect_document_id": false
 
@@ -66,11 +66,102 @@
 
         "source_path": "enterprise/accessible-diagramyammer-features-on-mobile-devices.md",
 
-        "redirect_url": "https://support.office.com/article/1bbd7c52-0207-4b50-a1b7-c0184c75a66a",
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
 
         "redirect_document_id": false
 
       },
+
+      {
+
+        "source_path": "enterprise/accessible-diagrammicrosoft-exchange-2013-platform-options.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagrammicrosoft-sharepoint-2013-platform-options.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramon-premises-ediscovery-flow.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramfeature-integration-across-microsoft-office-server-products.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagrammicrosoft-lync-2013-platform-options.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramdesign-sample-internet-sites-in-microsoft-azure-for-sharepoint.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramnetwork-integration-of-microsoft-office-server-products.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramsharepoint-server-exchange-lync-office-web-apps-the-mobile-l.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
+      {
+
+        "source_path": "enterprise/accessible-diagramsharepoint-disaster-recovery-to-microsoft-azure.md",
+
+        "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+
+        "redirect_document_id": false
+
+      },
+
       {
 
         "source_path": "enterprise/office-365-information-protection-for-gdpr.md",
@@ -453,7 +544,7 @@
 
       "source_path": "Enterprise/federated-identity-for-your-office-365-dev-test-environment.md",
 
-      "redirect_url": "https://docs.microsoft.com/en-us/microsoft-365/enterprise/m365-enterprise-test-lab-guides#identity",
+      "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides#identity",
 
       "redirect_document_id": false
       
@@ -749,23 +840,162 @@
 
 {
 
-      "source_path": "enterprise/network-connectivity.md",
+      "source_path": "enterprise/deployment-advisors-for-office-365.md",
 
-      "redirect_url": "https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity",
+      "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-guides-for-office-365",
 
       "redirect_document_id": true
       
    },
 
-   {
+ {
    
      "source_path": "enterprise/client-connectivity.md",
    
-     "redirect_url": "https://docs.microsoft.com/en-us/office365/enterprise/office-365-networking-overview",
+     "redirect_url": "https://docs.microsoft.com/office365/enterprise/office-365-networking-overview",
    
      "redirect_document_id": true
      
-   }
+   },
+   
+   {
+   
+    "source_path": "enterprise/deployment-planning-checklist.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-overview-for-enterprises",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/test-lab-guide-configure-an-integrated-exchange-lync-and-sharepoint-test-lab.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/enterprises-and-office-365.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/security-solutions.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/security",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/automate-file-collection-for-ediscovery.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/ediscovery",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/cloud-app-security-for-your-office-365-dev-test-environment.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/powershell/manage-microsoft-teams-with-office-365-powershell.md",
+  
+    "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-powershell-install",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/powershell/manage-exchange-online-with-office-365-powershell.md",
+  
+    "redirect_url": "https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/tools-to-manage-office-365-accounts.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/manage-office-365-accounts",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/prepare-directory-attributes-for-synch-with-idfix.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": true
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/install-and-run-idfix.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/idfix-excluded-and-supported-objects-and-attributes.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  {
+   
+    "source_path": "enterprise/idfix-transaction-log.md",
+  
+    "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
+  
+    "redirect_document_id": false
+    
+  },
+  
+  { 
+    "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
+  
+    "redirect_url": "https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps",
+  
+    "redirect_document_id": false
+    
+  }
   ]
 
 }

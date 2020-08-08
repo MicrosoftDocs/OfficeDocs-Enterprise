@@ -1,7 +1,7 @@
 ---
 title: "Recover deleted items in a user mailbox - Admin Help"
-ms.author: markjjo
-author: markjjo
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 6/29/2018
 audience: Admin
@@ -35,16 +35,16 @@ Did a user permanently delete items from their Outlook mailbox? The user wants t
 Here are the steps for recovering deleted items in a user's mailbox. How long will this take? The first time might take 20 or 30 minutes to complete all the steps, depending on how many items you're trying to recover.
   
 > [!NOTE]
-> You have to be an **Exchange administrator** or **Global administrator** in Office 365 or be a member of the Organization Management role group in Exchange Online to perform the steps in this article. For more information, see [About Office 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d). 
+> You have to be an **Exchange administrator** or **Global administrator** in Microsoft 365 or be a member of the Organization Management role group in Exchange Online to perform the steps in this article. For more information, see [About Microsoft 365 admin roles](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d). 
   
 ## Step 1: Assign yourself eDiscovery permissions
 <a name="step1"> </a>
 
 The first step is to assign yourself the necessary permissions in Exchange Online so you can use the In-Place eDiscovery tool to search a user's mailbox. You only have to do this once. If you have to search another mailbox in the future, you can skip this step.
   
-1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Where to sign in to Microsoft 365 for business](https://support.microsoft.com/office/where-to-sign-into-microsoft-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
+2. Select the app launcher icon ![The app launcher icon in Microsoft 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
 3. In the left navigation in the Microsoft 365 admin center, expand **Admin centers**, and then click **Exchange**.
     
@@ -65,7 +65,7 @@ The first step is to assign yourself the necessary permissions in Exchange Onlin
   
 8. In **Role Group**, click **Save**.
     
-9. Sign out of Office 365.
+9. Sign out of Microsoft 365.
     
     You have to sign out before you start the next step so the new permissions will take effect.
     
@@ -79,9 +79,9 @@ The first step is to assign yourself the necessary permissions in Exchange Onlin
 
 When you run an In-Place eDiscovery search, the Recoverable Items folder in the mailbox that you search is automatically included in the search. The Recoverable Items folder is where permanently deleted items are stored until they're purged (permanently removed) from the mailbox. So, if an item hasn't been purged, you should be able to find it by using the In-Place eDiscovery tool.
   
-1. [Where to sign in to Office 365 for business](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
+1. [Where to sign in to Microsoft 365 for business](https://support.microsoft.com/office/where-to-sign-into-microsoft-365-for-business-e9eb7d51-5430-4929-91ab-6157c5a050b4) with your work or school account. 
     
-2. Select the app launcher icon ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
+2. Select the app launcher icon ![The app launcher icon in Microsoft 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) in the upper-left and click **Admin**.
     
 3. In the left navigation in the Microsoft 365 admin center, expand **Admin**, and then click **Exchange**.
     
@@ -158,7 +158,7 @@ If you can't find an items by previewing the search results or if you want to se
     ![Copy the search results to the default Discovery Search Mailbox](media/36e8ef47-0035-4982-9ed6-426719c5f9ec.png)
   
     > [!NOTE]
-    > The Discovery Search Mailbox is a default discovery mailbox that is automatically created in your Office 365 organization. 
+    > The Discovery Search Mailbox is a default discovery mailbox that is automatically created in your Microsoft 365 organization. 
   
 6. Back on the **Copy Search Results** page, click **Copy** to start the process to copy the search results to the Discovery Search Mailbox. 
     

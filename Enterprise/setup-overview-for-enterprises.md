@@ -1,5 +1,5 @@
 ---
-title: "Deploy Office 365 Enterprise for your organization"
+title: "Deploy Microsoft 365 Enterprise for your organization"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -23,27 +23,27 @@ ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
 description: These overview steps are designed to help you set up your network, create your identities, deploy Microsoft 365 Apps, and migrate your data.
 ---
 
-# Deploy Office 365 Enterprise for your organization
+# Deploy Microsoft 365 Enterprise for your organization
 
-Are you ready to deploy Office 365 Enterprise, integrate it with your on-premises infrastructure, and enable your employees to take advantage of cloud-based productivity and collaboration?
+Are you ready to deploy Microsoft 365 Enterprise, integrate it with your on-premises infrastructure, and enable your employees to take advantage of cloud-based productivity and collaboration?
 
 This article describes two deployment options, whether you want help or are doing it on your own. In each case, Microsoft provides a guided path for you to follow for deployment success.
 
-## Guided Office 365 Enterprise setup process with FastTrack
+## Guided Microsoft 365 Enterprise setup process with FastTrack
 
-**[FastTrack for Office 365](https://docs.microsoft.com/fasttrack/O365-fasttrack-benefit-for-office-365)** is the best method for deploying Office 365. FastTrack guides you through the most common deployment configurations and can answer questions along the way. 
+**[FastTrack for Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365)** is the best method for deploying Microsoft 365. FastTrack guides you through the most common deployment configurations and can answer questions along the way. 
 
-To access a series of setup guides, sign in to your Office 365 subscription, and then go to [Setting up Office 365](https://aka.ms/o365fasttrack).
+To access a series of setup guides, sign in to your Microsoft 365 subscription, and then go to [Setup guidance](https://aka.ms/o365fasttrack).
 
 >[!Note]
 >You can also get help from a [Microsoft partner](https://www.microsoft.com/solution-providers/home).
 >
 
-## Do-it-yourself guided deployment of Office 365 Enterprise
+## Do-it-yourself guided deployment of Microsoft 365 Enterprise
 
-Deploying Office 365 Enterprise on your own requires that you perform detailed research to make the design decisions that streamline Office 365 service configuration and user adoption. Go to [Plan for Office 365 Enterprise](get-your-organization-ready-for-office-365.md) to start planning your deployment.
+Deploying Microsoft 365 Enterprise on your own requires that you perform detailed research to make the design decisions that streamline Microsoft 365 service configuration and user adoption. Start your planning [here](get-your-organization-ready-for-office-365.md).
 
-To deploy Office 365 Enterprise on your own after completing your planning, these are the recommended steps.
+To deploy Microsoft 365 Enterprise on your own after completing your planning, these are the recommended steps.
 
 1. [Set up your network](set-up-network-for-office-365.md)
 
@@ -51,7 +51,7 @@ To deploy Office 365 Enterprise on your own after completing your planning, thes
  
 2. [Set up your identities](protect-your-global-administrator-accounts.md)
 
-   Includes determining an identity model (cloud-only or hybrid), and for hybrid identity, setting up directory synchronization between your on-premises Active Directory Domain Services (AD DS) and your Office 365 subscription.
+   Includes determining an identity model (cloud-only or hybrid), and for hybrid identity, setting up directory synchronization between your on-premises Active Directory Domain Services (AD DS) and your Microsoft 365 subscription.
 
 3. [Implement security](https://docs.microsoft.com/office365/securitycompliance/security-roadmap)
 
@@ -59,23 +59,21 @@ To deploy Office 365 Enterprise on your own after completing your planning, thes
  
 4. [Deploy client software](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
-   Includes deploying Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus), the cloud-updated and always-current version of the Office suite (Word, Excel, PowerPoint, and others) on your devices. Every Office 365 client license includes a license for Microsoft 365 Apps for enterprise.
+   Includes deploying Microsoft 365 Apps for enterprise (previously named Office 365 ProPlus), the cloud-updated and always-current version of the Office suite (Word, Excel, PowerPoint, and others) on your devices. Every Microsoft 365 client license includes a license for Microsoft 365 Apps for enterprise.
  
 5. [Set up mobile device management](https://support.office.com/article/set-up-mobile-device-management-mdm-in-office-365-dd892318-bc44-4eb1-af00-9db5430be3cd)
 
-   Office 365 Enterprise includes mobile device management capabilities that help you secure and manage your users' mobile devices.
+   Microsoft 365 Enterprise includes mobile device management capabilities that help you secure and manage your users' mobile devices.
  
 6. [Configure services and applications](configure-services-and-applications.md)
 
-   Includes information on migration of your data and links to articles that get you started on key Office 365 services such as Exchange Online, SharePoint Online, and Teams.
+   Includes information on migration of your data and links to articles that get you started on key Microsoft 365 productivity apps such as Exchange Online, SharePoint Online, and Teams.
  
 7. [Train your users](https://docs.microsoft.com/office365/admin/admin-overview/get-started-with-office-365#training-resources-for-your-users)
 
-   Includes short videos that help your users get the most out of Office 365 quickly.
+   Includes short videos that help your users get the most out of Microsoft 365 quickly.
  
 
 >[!Note]
->These steps are also for businesses and [nonprofits](https://go.microsoft.com/fwlink/?LinkId=627221) that want to start with a custom deployment of Office 365 Enterprise. 
+>These steps are also for businesses and [nonprofits](https://go.microsoft.com/fwlink/?LinkId=627221) that want to start with a custom deployment of Microsoft 365 Enterprise. 
 >
-
-If you have a Microsoft 365 Enterprise subscription, go to [Deploy Microsoft 365](https://docs.microsoft.com/microsoft-365/enterprise/deploy-microsoft-365-enterprise).

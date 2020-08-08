@@ -25,7 +25,7 @@ description: This article contains links to information about network planning, 
 
 # Network and migration planning for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 This article contains links to information about network planning and testing, and migration to Office 365.
   
@@ -50,7 +50,7 @@ To estimate the bandwidth, use the following steps:
     
 2. Determine which Office 365 services and features will be available for clients to use. You will likely have groups of people with different services or usage profiles.
     
-3. Measure the network use for a pilot group of clients. Ensure the pilot clients are representative of the different profiles of people in the organization as well as the different geographic locations. You can cross-check your results against our old calculators for [Exchange ](https://go.microsoft.com/fwlink/p/?LinkId=321550)and [Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=321551) or the [case study](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) we performed on our own network. 
+3. Measure the network use for a pilot group of clients. Ensure the pilot clients are representative of the different profiles of people in the organization as well as the different geographic locations. You can cross-check your results against our old calculators for [Exchange](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-the-exchange-client-network-bandwidth-calculator-beta/ba-p/601744) and [Skype for Business](https://go.microsoft.com/fwlink/p/?LinkId=321551) or the [case study](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365) we performed on our own network. 
     
 4. Use the measurements from the pilot group to extrapolate the entire organization's needs and re-test to validate the estimations before making any changes to your network.
     
@@ -95,8 +95,6 @@ These topics contain detailed Office 365 network reference information.
   
 - [Managing Office 365 endpoints](https://support.office.com/article/99cab9d4-ef59-4207-9f2b-3728eb46bf9a)
     
-- [Client connectivity](client-connectivity.md)
-    
 - [Content delivery networks](content-delivery-networks.md)
     
 - [External Domain Name System records for Office 365](external-domain-name-system-records.md)
@@ -109,7 +107,7 @@ These topics contain detailed Office 365 network reference information.
     
 - [Plan for network devices that connect to Office 365 services](plan-for-network-devices.md)
     
-- [Deployment advisors for Office 365 services](deployment-advisors-for-office-365.md)
+- [Setup guides for Office 365 services](setup-guides-for-office-365.md)
  
 ## See also
 

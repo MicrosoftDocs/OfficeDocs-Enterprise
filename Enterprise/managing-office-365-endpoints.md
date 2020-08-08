@@ -23,7 +23,7 @@ description: Learn how to manage Office 365 endpoints so that they work with you
 
 # Managing Office 365 endpoints
 
-Most enterprise organizations that have multiple office locations and a connecting WAN will need to need configuration for Office 365 network connectivity. You can optimize your network by sending all trusted Office 365 network requests directly through your firewall, bypassing all additional packet level inspection or processing. This reduces latency and your perimeter capacity requirements. Identifying Office 365 network traffic is the first step in providing optimal performance for your users. For more information about Office 365 network connectivity, see [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md).
+Most enterprise organizations that have multiple office locations and a connecting WAN will need configuration for Office 365 network connectivity. You can optimize your network by sending all trusted Office 365 network requests directly through your firewall, bypassing all additional packet level inspection or processing. This reduces latency and your perimeter capacity requirements. Identifying Office 365 network traffic is the first step in providing optimal performance for your users. For more information about Office 365 network connectivity, see [Office 365 Network Connectivity Principles](office-365-network-connectivity-principles.md).
 
 Microsoft recommends you access the Office 365 network endpoints and changes to them using the [Office 365 IP Address and URL Web Service](office-365-ip-web-service.md).
 
@@ -56,7 +56,7 @@ The common configuration is to permit without processing all outbound traffic fr
 
 There are two types of PAC files that the Get-PacFile script will generate.
 
-|**Type**|**Description**|
+| Type | Description |
 |:-----|:-----|
 |**1** <br/> |Send Optimize endpoint traffic direct and everything else to the proxy server. <br/> |
 |**2** <br/> |Send Optimize and Allow endpoint traffic direct and everything else to the proxy server. This type can also be used to send all supported ExpressRoute for Office 365 traffic to ExpressRoute network segments and everything else to the proxy server. <br/> |
@@ -69,7 +69,7 @@ Get-PacFile -ClientRequestId b10c5ed1-bad1-445f-b386-b919946339a7
 
 There are a number of parameters you can pass to the script:
 
-|**Parameter**|**Description**|
+| Parameter | Description |
 |:-----|:-----|
 |**ClientRequestId** <br/> |This is required and is a GUID passed to the web service that represents the client machine making the call. <br/> |
 |**Instance** <br/> |The Office 365 service instance which defaults to Worldwide. Also passed to the web service. <br/> |
@@ -149,7 +149,7 @@ See an IP associated with Office 365 that you want more information on?
 
 Client computers need a DNS A or AAAA record that includes one or more IP Address(s) to connect to a cloud service. Some URLs included in Office 365 show CNAME records instead of A or AAAA records. These CNAME records are intermediary and there may be several in a chain. They will always eventually resolve to an A or AAAA record for an IP Address. For example, consider the following series of DNS records, which ultimately resolves to the IP address _IP_1_:
 
-```
+```console
 serviceA.office.com -> CNAME: serviceA.domainA.com -> CNAME: serviceA.domainB.com -> A: IP_1
 ```
 
@@ -170,7 +170,7 @@ Office 365 and other Microsoft services use several third-party services such as
   
 [Akamai](https://www.akamai.com/) is in use when you see requests that include one of the following FQDNs. This service offers geo-DNS and content delivery network services.
   
-```
+```console
 *.akadns.net
 *.akam.net
 *.akamai.com
@@ -189,7 +189,7 @@ As Office 365 is a suite of services built to function over the internet, the re
 
 The Office 365 suite is broken down into major service areas. These can be selectively enabled for connectivity and there is a Common area which is a dependency for all and is always required.
 
-|**Service Area**|**Description**|
+| Service Area | Description |
 |:-----|:-----|
 |**Exchange** <br/> |Exchange Online and Exchange Online Protection <br/> |
 |**SharePoint** <br/> |SharePoint Online and OneDrive for Business <br/> |

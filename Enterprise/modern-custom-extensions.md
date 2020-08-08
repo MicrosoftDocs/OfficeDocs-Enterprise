@@ -7,7 +7,7 @@ ms.date: 03/11/2020
 audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: 
 - Ent_O365
 - Strat_O365_Enterprise
@@ -32,14 +32,16 @@ The Page Diagnostics for SharePoint tool is a browser extension for the new Micr
 >[!NOTE]
 >The Page Diagnostics tool only works for SharePoint Online, and cannot be used on a SharePoint system page.
 
-When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about custom extensions that exceed the baseline metric in the **Extensions are impacting load time** result in the _Diagnostic tests_ pane.
+When you analyze a SharePoint site page with the Page Diagnostics for SharePoint tool, you can see information about custom extensions that exceed the baseline metric in the **Extensions are impacting load time** and/or the **Too many extensions used** result in the _Diagnostic tests_ pane 
 
 Possible results include:
 
-- **Attention required** (red): Any _custom_ extension that takes longer than **one** second to load. Total load time as displayed in test results is broken down by module load and init.
+- **Attention required** (red): Any _custom_ extension that takes longer than **one** second to load. Total load time as displayed in test results is broken down by module load and init. 
+Additionally, if there are too many extensions on a page they can impact the page load time and this will be highlighted if **seven** or more extensions are used on the page.
+- **Improvement Opportunities** (yellow) If **five** or more extensions are used they will be highlighted in this section as a warning until seven or more are used which will then be highlighted as Attention Required.
 - **No action required** (green): No extension is taking longer than one second to load.
 
-If an extension is impacting page load time, the result appears in the **Attention required** section of the results. Click the result to see details about which extension is loading slowly. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
+If an extension is impacting page load time or there are too many extsnions on the page, the result appears in the **Attention required** section of the results. Click the result to see details about which extension is loading slowly or too many extensions has been highlighted. Future updates to the Page Diagnostics for SharePoint tool may include updates to analysis rules, so please ensure you always have the latest version of the tool.
 
 ![Page load time results](media/page-diagnostics-for-spo/pagediag-extensions-load-time.png)
 

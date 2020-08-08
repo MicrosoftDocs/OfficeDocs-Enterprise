@@ -27,8 +27,6 @@ description: A reference list of external Domain Name System records to use when
 
 # External Domain Name System records for Office 365
 
- **Summary:** Reference list of DNS records to use when planning an Office 365 deployment.
-  
 |||
 |:-----|:-----|
 |![Domain](media/e05b1c78-1df0-4200-ba40-6e26b7ead68f.png)|**Want to see a customized list of DNS records for your Office 365 organization?** You can [find the info you need to create Office 365 DNS records](https://support.office.microsoft.com/article/Gather-the-information-you-need-to-create-Office-365-DNS-records-77f90d4a-dc7f-4f09-8972-c1b03ea85a67) for your domain in Office 365.  <br/> **Need step-by-step help to add these records at your domain's DNS host, such as GoDaddy or eNom?** [Find links to step-by-step instructions for many popular DNS hosts](https://go.microsoft.com/fwlink/?LinkId=286745). <br/>  **Sticking around to use the reference list for your own custom deployment?** The below list should be used as a reference for your custom Office 365 deployment. You will need to select which records apply to your organization and fill in the appropriate values. <br/> **Go back to** [Network planning and performance tuning for Office 365](https://aka.ms/tune).  <br/> |
@@ -45,7 +43,7 @@ Every Office 365 customer needs to add two records to their external DNS. The fi
 ||||
 |:-----|:-----|:-----|
 |**DNS record** <br/> |**Purpose** <br/> |**Value to use** <br/> |
-|**CNAME** <br/> **(Suite)** <br/> |Used by Office 365 to direct authentication to the correct identity platform. [More information](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **Note:** This CNAME only applies to Office 365 operated by 21Vianet.   |**Alias:** msoid  <br/> **Target:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
+|**CNAME** <br/> **(Suite)** <br/> |Used by Office 365 to direct authentication to the correct identity platform. [More information](https://go.microsoft.com/fwlink/p/?LinkId=322005) <br/> **Note:** This CNAME only applies to Office 365 operated by 21Vianet. [More information](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-operated-by-21vianet)  |**Alias:** msoid  <br/> **Target:** clientconfig.partner.microsoftonline-p.net.cn  <br/> |
 |**TXT** <br/> **(Domain verification)** <br/> |Used by Office 365 to verify only that you own your domain. It doesn't affect anything else.  <br/> |**Host:** @ (or, for some DNS hosting providers, your domain name)  <br/> **TXT Value:** _A text string provided by_ Office 365  <br/> The Office 365 **domain setup wizard** provides the values that you use to create this record.  <br/> |
 
 
@@ -79,7 +77,7 @@ Email customers who are using Exchange Federation will also need the additional 
 There are specific steps to take when you use  [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO) to make sure your network is configured correctly.
 
 > [!NOTE]
-> These DNS records also apply to Teams, especially in a hybrid Teams and Skype for Business Online scenario, where certain federation issues could arise.
+> These DNS records also apply to Teams, especially in a hybrid Teams and Skype for Business scenario, where certain federation issues could arise.
   
 ||||
 |:-----|:-----|:-----|
@@ -89,11 +87,6 @@ There are specific steps to take when you use  [Office 365 URLs and IP address r
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Used by the Lync client to help find the Skype for Business Online service and sign in.  <br/> |**Alias:** sip  <br/> **Target:** sipdir.online.lync.com  <br/> For more information, see [Office 365 URLs and IP address ranges](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO).  <br/> |
 |**CNAME** <br/> **(Skype for Business Online)** <br/> |Used by the Lync mobile client to help find the Skype for Business Online service and sign in.  <br/> |**Alias:** lyncdiscover  <br/> **Target:** webdir.online.lync.com  <br/> |
 
-## External DNS records required for SharePoint Online
-<a name="BKMK_ReqdCore"> </a>
-
-SharePoint Online only requires a DNS record if your organization usesSharePoint Online to send email to people externally. In this case, make sure you've set up [External DNS records required for SPF](external-domain-name-system-records.md#BKMK_SPFrecords) so the mail can be delivered.
-  
 ## External DNS records required for Office 365 Single Sign-On
 <a name="BKMK_ReqdCore"> </a>
 
@@ -130,9 +123,8 @@ For scenarios where you're not just using Exchange Online email for Office 365 (
 > [!NOTE]
 > If you have a complicated scenario that includes, for example, edge email servers for managing email traffic across your firewall, you'll have a more detailed SPF record to set up. Learn how: [Set up SPF records in Office 365 to help prevent spoofing](https://go.microsoft.com/fwlink/?LinkId=787656). You can also learn much more about how SPF works with Office 365 by reading [How Office 365 uses Sender Policy Framework (SPF) to help prevent spoofing](https://go.microsoft.com/fwlink/?LinkId=787065).
   
-|||||
+| Number|If you're using…  <br/> |Purpose  <br/> |Add these includes  <br/> |
 |:-----|:-----|:-----|:-----|
-||If you're using…  <br/> |Purpose  <br/> |Add these includes  <br/> |
 |1  <br/> |All email systems (required)  <br/> |All SPF records start with this value  <br/> |v=spf1  <br/> |
 |2  <br/> |Exchange Online (common)  <br/> |Use with just Exchange Online  <br/> |include:spf.protection.outlook.com  <br/> |
 |3  <br/> |Third-party email system (less common)  <br/> ||include:\<email system like mail.contoso.com\>  <br/> |
@@ -146,16 +138,16 @@ If you already have an SPF record, you'll need to add or update values for Offic
   
 ``` dns
 TXT Name @
-Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com -all
+Values: v=spf1 ip4:60.200.100.30 include:smtp.adatum.com -all
 ```
 
-Now you're updating your SPF record for Office 365, for example, to include email that originates from SharePoint Online. You'll edit your current record so you have a single SPF record that includes the values that you need. For Office 365, "sharepointonline.com" in an SPF record includes email from both Exchange Online (Outlook) and SharePoint Online, so you replace the original "spf.protection.outlook.com" value.
+Now you're updating your SPF record for Office 365. You'll edit your current record so you have an SPF record that includes the values that you need. For Office 365, "spf.protection.outlook.com".
   
 Correct:
   
 ``` dns
 TXT Name @
-Values: v=spf1 ip4:60.200.100.30 include:sharepointonline.com -all
+Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com include:smtp.adatum.com -all
 ```
 
 Incorrect:
@@ -163,26 +155,26 @@ Incorrect:
 ``` dns
 Record 1:
 TXT Name @
-Values: v=spf1 ip4:60.200.100.30 include:spf.protection.outlook.com -all
+Values: v=spf1 ip4:60.200.100.30 include:smtp.adatum.com -all
 Record 2:
-Values: v=spf1 include:sharepointonline.com -all
+Values: v=spf1 include:spf.protection.outlook.com -all
 ```
 
 ### More examples of common SPF values
 <a name="bkmk_addtospf"> </a>
 
-If you are using the full Office 365 suite and are using MailChimp to send marketing emails on your behalf, your SPF record at contoso.com might look like the following, which uses rows 1, 3, 4, and 6 from the table above. Remember, rows 1 and 6 are required, and "sharepointonline.com" includes both Exchange (Outlook) and SharePoint email.
+If you are using the full Office 365 suite and are using MailChimp to send marketing emails on your behalf, your SPF record at contoso.com might look like the following, which uses rows 1, 3, and 5 from the table above. Remember, rows 1 and 5 are required.
   
 ``` dns
 TXT Name @
-Values: v=spf1 include:sharepointonline.com include:servers.mcsv.net -all
+Values: v=spf1 include:spf.protection.outlook.com include:servers.mcsv.net -all
 ```
 
 Alternatively, if you have an Exchange Hybrid configuration where email will be sent from both Office 365 and your on-premises mail system, your SPF record at contoso.com might look like this:
   
 ``` dns
 TXT Name @
-Values: v=spf1 include:sharepointonline.com include:mail.contoso.com -all
+Values: v=spf1 include:spf.protection.outlook.com include:mail.contoso.com -all
 ```
 
 These are some common examples that can help you adapt your existing SPF record when you add your domain to Office 365 for email. If you have a complicated scenario that includes, for example, edge email servers for managing email traffic across your firewall, you'll have a more detailed SPF record to set up. Learn how: [Set up SPF records in Office 365 to help prevent spoofing](https://go.microsoft.com/fwlink/?LinkId=787656).

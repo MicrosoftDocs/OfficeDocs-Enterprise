@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Tenant Isolation in Office 365 Search"
-ms.author: robmazz
-author: robmazz
+title: "Tenant Isolation in Microsoft 365 Search"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,11 +14,11 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: In this article, find an explanation of how tenant isolation works to separate tenant data in Office 365 Search.
+description: In this article, find an explanation of how tenant isolation works to separate tenant data in Microsoft 365 Search.
 ms.custom: seo-marvel-apr2020
 ---
 
-# Tenant Isolation in Office 365 Search
+# Tenant Isolation in Microsoft 365 Search
 
 SharePoint Online search uses a tenant separation model that balances the efficiency of shared data structures with protection against information leaking between tenants. With this model, we prevent the Search features from:
 

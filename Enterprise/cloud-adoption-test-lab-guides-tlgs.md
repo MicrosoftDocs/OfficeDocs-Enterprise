@@ -1,5 +1,5 @@
 ---
-title: "Test Office 365 with Test Lab Guides (TLGs)"
+title: "Test Microsoft 365 with Test Lab Guides (TLGs)"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -7,7 +7,7 @@ ms.date: 11/14/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: 
@@ -19,10 +19,10 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
-description: "Summary: Use these Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Office 365."
+description: "Summary: Use these Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Microsoft 365."
 ---
 
-# Test Office 365 with Test Lab Guides (TLGs)
+# Test Microsoft 365 with Test Lab Guides (TLGs)
 
 TLGs help you quickly learn about Microsoft products. They're great for situations where you need to evaluate a technology or configuration before you decide whether it's right for you and before you begin the design, planning, and rollout to users. The "I built it out myself and it works" hands-on experience helps you understand the deployment requirements of a new product or solution so you can better plan for hosting it in production.
   
@@ -30,17 +30,17 @@ TLGs also create representative environments for development and testing of appl
   
 ![Test Lab Guides in the Microsoft Cloud](media/24ad0d1b-3274-40fb-972a-b8188b7268d1.png)
   
-## Office 365 dev/test environment
+## Microsoft 365 dev/test environment
 
-Use these articles to build your Office 365 dev/test environment:
+Use these articles to build your Microsoft 365 dev/test environment:
   
 - [The lightweight base configuration](https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise)
     
-    Create an Office 365 Enterprise E5 trial subscription.
+    Create a Microsoft 365 Enterprise E5 trial subscription.
 
 - [The simulated enterprise base configuration](https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise)
     
-    Create a simplified intranet running in Microsoft Azure infrastructure services and an Office 365 Enterprise E5 trial subscription. 
+    Create a simplified intranet running in Microsoft Azure infrastructure services and a Microsoft 365 Enterprise E5 trial subscription. 
 
     This is optional and needed if you want to build a simulated enterprise configuration for hybrid identity.
     

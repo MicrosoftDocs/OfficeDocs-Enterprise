@@ -28,9 +28,9 @@ ms.custom: seo-marvel-apr2020
 
 # Resources to help you upgrade from Office 2007 servers and clients
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-If you're using Office 2007 products and services, support for these applications has ended. While you're planning your upgrade, this is a great time to consider moving to the Microsoft Cloud, starting with Office 365. Use this article as a starting point to review your options and plan your upgrade.
+If you're using Office 2007 products and services, support for these applications has ended. While you're planning your upgrade, this is a great time to consider moving to the Microsoft Cloud, starting with Microsoft 365. Use this article as a starting point to review your options and plan your upgrade.
       
 ## Office 2007 planning roadmaps
   
@@ -53,7 +53,7 @@ If you're using Office 2007 products and applications at home, see [this informa
      
 ## Related topics
 
-[Video: What is Office 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
+[Video: What is Microsoft 365?](https://support.office.com/article/847caf12-2589-452c-8aca-1c009797678b.aspx)
   
 [Microsoft Lifecycle Policy](https://go.microsoft.com/fwlink/?linkid=865200)
 

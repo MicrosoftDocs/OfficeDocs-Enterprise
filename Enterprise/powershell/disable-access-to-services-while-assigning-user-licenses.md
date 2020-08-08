@@ -1,5 +1,5 @@
 ---
-title: "Disable access to services while assigning user licenses"
+title: "Disable access to Microsoft 365 services while assigning user licenses"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,16 +17,18 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 ms.assetid: bb003bdb-3c22-4141-ae3b-f0656fc23b9c
-description: "Learn how to assign licenses to user accounts and disable specific service plans at the same time using Office 365 PowerShell."
+description: "Learn how to assign licenses to user accounts and disable specific service plans at the same time using PowerShell for Microsoft 365."
 ---
 
-# Disable access to services while assigning user licenses
+# Disable access to Microsoft 365 services while assigning user licenses
 
-Office 365 subscriptions come with service plans for individual services. Office 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign an Office 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
+
+Microsoft 365 subscriptions come with service plans for individual services. Microsoft 365 administrators often need to disable certain plans when assigning licenses to users. With the instructions in this article, you can assign a Microsoft 365 license while disabling specific service plans using PowerShell for an individual user account or multiple user accounts.
 
 ## Use the Azure Active Directory PowerShell for Graph module
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-azure-active-directory-powershell-for-graph-module).
   
 
 Next, list the license plans for your tenant with this command.
@@ -60,7 +62,7 @@ Set-AzureADUserLicense -ObjectId $user.ObjectId -AssignedLicenses $LicensesToAss
 
 ## Use the Microsoft Azure Active Directory Module for Windows PowerShell
 
-First, [connect to your Office 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
+First, [connect to your Microsoft 365 tenant](connect-to-office-365-powershell.md#connect-with-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 Next, run this command to see your current subscriptions:
   
@@ -74,7 +76,7 @@ Get-MsolAccountSku
 
 In the display of the  `Get-MsolAccountSku` command:
   
-- **AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format. The \<OrganizationName> is the value that you provided when you enrolled in Office 365, and is unique for your organization. The \<Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).
+- **AccountSkuId** is a subscription for your organization in \<OrganizationName>:\<Subscription> format. The \<OrganizationName> is the value that you provided when you enrolled in Microsoft 365, and is unique for your organization. The \<Subscription> value is for a specific subscription. For example, for litwareinc:ENTERPRISEPACK, the organization name is litwareinc, and the subscription name is ENTERPRISEPACK (Office 365 Enterprise E3).
     
 - **ActiveUnits** is the number of licenses that you've purchased for the subscription.
     
@@ -82,9 +84,9 @@ In the display of the  `Get-MsolAccountSku` command:
     
 - **ConsumedUnits** is the number of licenses that you've assigned to users for the subscription.
     
-Note the AccountSkuId for your Office 365 subscription that contains the users you want to license. Also, ensure that there are enough licenses to assign (subtract **ConsumedUnits** from **ActiveUnits** ).
+Note the AccountSkuId for your Microsoft 365 subscription that contains the users you want to license. Also, ensure that there are enough licenses to assign (subtract **ConsumedUnits** from **ActiveUnits** ).
   
-Next, run this command to see the details about the Office 365 service plans that are available in all your subscriptions:
+Next, run this command to see the details about the Microsoft 365 service plans that are available in all your subscriptions:
   
 ```powershell
 Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
@@ -92,9 +94,9 @@ Get-MsolAccountSku | Select -ExpandProperty ServiceStatus
 
 From the display of this command, determine which service plans you would like to disable when you assign licenses to users.
   
-Here is a partial list of service plans and their corresponding Office 365 services.
+Here is a partial list of service plans and their corresponding Microsoft 365 services.
 
-The following table shows the Office 365 service plans and their friendly names for the most common services. Your list of service plans might be different. 
+The following table shows the Microsoft 365 service plans and their friendly names for the most common services. Your list of service plans might be different. 
   
 |**Service plan**|**Description**|
 |:-----|:-----|
@@ -179,10 +181,10 @@ This PowerShell command block:
     
 ## See also
 
-[Disable access to services with Office 365 PowerShell](disable-access-to-services-with-office-365-powershell.md)
+[Disable access to Microsoft 365 services with PowerShell](disable-access-to-services-with-office-365-powershell.md)
   
-[Disable access to Sway with Office 365 PowerShell](disable-access-to-sway-with-office-365-powershell.md)
+[Disable access to Sway with PowerShell](disable-access-to-sway-with-office-365-powershell.md)
   
-[Manage user accounts, licenses, and groups with Office 365 PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
+[Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   
-[Manage Office 365 with Office 365 PowerShell](manage-office-365-with-office-365-powershell.md)
+[Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)

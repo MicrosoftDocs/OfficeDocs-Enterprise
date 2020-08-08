@@ -41,7 +41,7 @@ To assist customers with these goals, Office 365 IP prefixes that are advertised
 |:-----|:-----|:-----|
 |Exchange Online\*  <br/> |12076:5010  <br/> |Includes Exchange and EOP services\*  <br/> |
 |SharePoint Online\*  <br/> |12076:5020  <br/> |SharePoint Online  <br/> |
-|Skype for Business\*  <br/> |12076:5030  <br/> |Skype for Business Online & Micorosoft Teams services  <br/> |
+|Skype for Business\*  <br/> |12076:5030  <br/> |Skype for Business Online & Microsoft Teams services  <br/> |
 |Other Office 365 services\*  <br/> |12076:5100  <br/> |Includes Azure Active Directory (Authentication and Directory Synchronization scenarios) as well as Office 365 Portal services  <br/> |
 |\* The scope of service scenarios included in ExpressRoute is documented in the [Office 365 endpoints](https://aka.ms/o365endpoints) article.  <br/> \*\*Additional services and BGP community values may be added in the future. [See the current list of BGP Communities](https://azure.microsoft.com/documentation/articles/expressroute-routing/).  <br/> |
 

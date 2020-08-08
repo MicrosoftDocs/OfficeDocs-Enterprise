@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Yammer Enterprise Access Controls"
-ms.author: robmazz
-author: robmazz
+title: "Microsoft 365 Yammer enterprise access controls"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -18,10 +18,10 @@ description: This article contains a brief summary about Yammer Enterprise Acces
 ms.custom: seo-marvel-apr2020
 ---
 
-# Yammer Enterprise Access Controls 
+# Yammer enterprise access controls 
 
-Physical and logical access to the Yammer production environment is restricted to a small set of people (infrastructure and operations). As with other Office 365 engineers, Yammer engineers have zero standing access to Customer Data. Access must be requested using an approval-based just-in-time access control system similar to Lockbox with a limited number of approvers. Approvers verify the request (for example, they verify whether the request is legitimate based on need, business case, time, etc.), and then approve or deny the request. If the request is approved, JIT access is granted for a defined and limited time. After access time is exceeded, the access automatically expires.
+Physical and logical access to the Yammer production environment is restricted to a small set of people (infrastructure and operations). As with other Microsoft 365 engineers, Yammer engineers have zero standing access to customer data. Access must be requested using an approval-based just-in-time access control system similar to Lockbox with a limited number of approvers. Approvers verify the request (for example, they verify whether the request is legitimate based on need, business case, time, etc.), and then approve or deny the request. If the request is approved, JIT access is granted for a defined and limited time. After access time is exceeded, the access automatically expires.
 
-As with other Office 365 services, all access to the Yammer production environment uses multi-factor authentication. All access and command history is attributed to a user, and logged and reviewed regularly by the Yammer security team.
+As with other Microsoft 365 services, all access to the Yammer production environment uses multi-factor authentication. All access and command history is attributed to a user, and logged and reviewed regularly by the Yammer security team.
 
-For more information about Yammer administration and management, see [Yammer Admin Help](https://support.office.com/article/yammer-–-admin-help-e1464355-1f97-49ac-b2aa-dd320b179dbe?ui=en-US&rs=en-US&ad=US).
+For more information about Yammer administration and management, see [Yammer admin help](https://docs.microsoft.com/yammer/yammer-landing-page).

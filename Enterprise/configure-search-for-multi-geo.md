@@ -1,5 +1,5 @@
 ---
-title: "Configure search for Office 365 Multi-Geo"
+title: "Configure search for Microsoft 365 Multi-Geo"
 ms.reviewer: adwood
 ms.author: tlarsen
 author: tklarsen
@@ -11,13 +11,13 @@ f1.keywords:
 - CSH
 ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
-localization_priority: Priority
+localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: Learn how to configure search in a multi-geo environment. Only some clients, such as OneDrive for Business, can return results in a multi-geo environment.
 ---
 
-# Configure Search for Office 365 Multi-Geo
+# Configure Search for Microsoft 365 Multi-Geo
 
 In a multi-geo environment, each geo location has its own search index and Search Center. When a user searches, the query is fanned out to all the indexes, and the returned results are merged.
 
@@ -100,7 +100,7 @@ Some search features you might be familiar with, work differently in a multi-geo
 </tr>
 <tr class="even">
 <td align="left">Hybrid search</td>
-<td align="left">In a hybrid SharePoint environment with <a href="https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">cloud hybrid search</a>,  on-premises content is added to the Office 365 index of the central location.</td>
+<td align="left">In a hybrid SharePoint environment with <a href="https://docs.microsoft.com/sharepoint/hybrid/learn-about-cloud-hybrid-search-for-sharepoint">cloud hybrid search</a>,  on-premises content is added to the Microsoft 365 index of the central location.</td>
 <td align="left"></td>
 </tr>
 </tbody>

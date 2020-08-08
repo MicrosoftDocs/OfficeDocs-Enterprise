@@ -49,7 +49,7 @@ The following network endpoints are used to download the Office for Mac installa
   
 |**URL**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|```https://go.microsoft.com/fwlink/```  <br/> |ST  <br/> |Office 365 Installation Portal forward link service to latest installation packages.  <br/> |
+|```https://go.microsoft.com/fwlink/```  <br/> |ST  <br/> |Microsoft 365 Installation Portal forward link service to latest installation packages.  <br/> |
 |```https://officecdn-microsoft-com.akamaized.net/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
 |```https://officecdn.microsoft.com/```  <br/> |SS  <br/> |Location of installation packages on the Content Delivery Network.  <br/> |
 |```https://officeci-mauservice.azurewebsites.net/```  <br/> |ST  <br/> |Management Control endpoint for Microsoft AutoUpdate  <br/> |
@@ -83,7 +83,7 @@ The following network endpoints are contacted on first launch of an Office app. 
 |```https://acompli.helpshift.com/```  <br/> |O  <br/> |ST  <br/> |In-app Support Service.  <br/> |
 |```https://prod-global-autodetect.acompli.net/```  <br/> |O  <br/> |ST  <br/> |Email Account Detection Service.  <br/> |
 |```https://autodiscover-s.outlook.com/```  <br/> |WXPO  <br/> |ST  <br/> |Outlook AutoDiscovery  <br/> |
-|```https://outlook.office365.com/```  <br/> |WXPO  <br/> |ST  <br/> |Outlook endpoint for Office 365 service.  <br/> |
+|```https://outlook.office365.com/```  <br/> |WXPO  <br/> |ST  <br/> |Outlook endpoint for Microsoft 365 service.  <br/> |
 |```https://r1.res.office365.com/```  <br/> |O  <br/> |ST  <br/> |Icons for Outlook add-ins.  <br/> |
    
 > [!NOTE]
@@ -100,10 +100,10 @@ The following network endpoints are contacted when signing in to cloud-based sto
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 |```https://login.windows.net/```  <br/> |WXPON  <br/> |ST  <br/> |Windows Authorization Service  <br/> |
-|```https://login.microsoftonline.com/```  <br/> |WXPON  <br/> |ST  <br/> |Office 365 Login Service (OrgID)  <br/> |
+|```https://login.microsoftonline.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft 365 Login Service (OrgID)  <br/> |
 |```https://login.live.com/```  <br/> |WXPON  <br/> |ST  <br/> |Microsoft Account Login Service (MSA)  <br/> |
 |```https://auth.gfx.ms/```  <br/> |WXPON  <br/> |CS  <br/> |Microsoft Account Login Service Helper (MSA)  <br/> |
-|```https://secure.aadcdn.microsoftonline-p.com/```  <br/> |WXPON  <br/> |SS  <br/> |Office 365 Login Branding (OrgID)  <br/> |
+|```https://secure.aadcdn.microsoftonline-p.com/```  <br/> |WXPON  <br/> |SS  <br/> |Microsoft 365 Login Branding (OrgID)  <br/> |
 |```https://ocws.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Document and Places Storage Locator  <br/> |
 |```https://roaming.officeapps.live.com/```  <br/> |WXPN  <br/> |CS  <br/> |Most Recently Used (MRU) document service  <br/> |
    
@@ -112,7 +112,7 @@ The following network endpoints are contacted when signing in to cloud-based sto
   
  **Product activation**
   
-The following network endpoints apply to Office 365 Subscription and Retail License activations. Specifically, this does NOT apply to Volume License installations.
+The following network endpoints apply to Microsoft 365 Subscription and Retail License activations. Specifically, this does NOT apply to Volume License installations.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -120,7 +120,7 @@ The following network endpoints apply to Office 365 Subscription and Retail Lice
    
  **What's New content**
   
-The following network endpoints apply to Office 365 Subscription only.
+The following network endpoints apply to Microsoft 365 Subscription only.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -128,7 +128,7 @@ The following network endpoints apply to Office 365 Subscription only.
    
  **Researcher**
   
-The following network endpoints apply to Office 365 Subscription only.
+The following network endpoints apply to Microsoft 365 Subscription only.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -138,7 +138,7 @@ The following network endpoints apply to Office 365 Subscription only.
    
  **Smart Lookup**
   
-The following network endpoints apply to both Office 365 Subscription and Retail/Volume License activations.
+The following network endpoints apply to both Microsoft 365 Subscription and Retail/Volume License activations.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -150,7 +150,7 @@ The following network endpoints apply to both Office 365 Subscription and Retail
    
  **PowerPoint Designer**
   
-The following network endpoints apply to Office 365 Subscription only.
+The following network endpoints apply to Microsoft 365 Subscription only.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -158,7 +158,7 @@ The following network endpoints apply to Office 365 Subscription only.
    
  **PowerPoint QuickStarter**
   
-The following network endpoints apply to Office 365 Subscription only.
+The following network endpoints apply to Microsoft 365 Subscription only.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -166,7 +166,7 @@ The following network endpoints apply to Office 365 Subscription only.
    
  **Send a Smile/Frown**
   
-The following network endpoints apply to both Office 365 Subscription and Retail/Volume License activations.
+The following network endpoints apply to both Microsoft 365 Subscription and Retail/Volume License activations.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -174,7 +174,7 @@ The following network endpoints apply to both Office 365 Subscription and Retail
    
  **Contact Support**
   
-The following network endpoints apply to both Office 365 Subscription and Retail/Volume License activations.
+The following network endpoints apply to both Microsoft 365 Subscription and Retail/Volume License activations.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -183,7 +183,7 @@ The following network endpoints apply to both Office 365 Subscription and Retail
    
  **Save As PDF**
   
-The following network endpoints apply to both Office 365 Subscription and Retail/Volume License activations.
+The following network endpoints apply to both Microsoft 365 Subscription and Retail/Volume License activations.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -191,7 +191,7 @@ The following network endpoints apply to both Office 365 Subscription and Retail
    
  **Office Apps (aka add-ins)**
   
-The following network endpoints apply to both Office 365 Subscription and Retail/Volume License activations when Office App add-ins are trusted.
+The following network endpoints apply to both Microsoft 365 Subscription and Retail/Volume License activations when Office App add-ins are trusted.
   
 |**URL**|**Apps**|**Type**|**Description**|
 |:-----|:-----|:-----|:-----|
@@ -221,7 +221,7 @@ The following network endpoints apply to both Office 365 Subscription and Retail
    
  **Safe Links**
   
-The following network endpoint applies to all Office applications for Office 365 Subscription only.
+The following network endpoint applies to all Office applications for Microsoft 365 Subscription only.
   
 |**URL**|**Type**|**Description**|
 |:-----|:-----|:-----|
@@ -229,7 +229,7 @@ The following network endpoint applies to all Office applications for Office 365
    
  **Crash reporting**
   
-The following network endpoint applies to all Office applications for both Office 365 Subscription and Retail/Volume License activations. When a process unexpectedly crashes, a report is generated and sent to the Watson service.
+The following network endpoint applies to all Office applications for both Microsoft 365 Subscription and Retail/Volume License activations. When a process unexpectedly crashes, a report is generated and sent to the Watson service.
   
 |**URL**|**Type**|**Description**|
 |:-----|:-----|:-----|

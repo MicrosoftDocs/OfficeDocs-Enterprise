@@ -1,5 +1,5 @@
 ---
-title: "Set up your network for Office 365"
+title: "Set up your network for Microsoft 365"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -7,7 +7,7 @@ ms.date: 11/19/2019
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: 
@@ -19,28 +19,28 @@ ms.custom:
 - Ent_TLGs
 - seo-marvel-apr2020
 ms.assetid: 
-description: Find links to articles with information to help you set up your network for Office 365, including a network connectivity overview and list of endpoints.
+description: Find links to articles with information to help you set up your network for Microsoft 365, including a network connectivity overview and list of endpoints.
 ---
 
-# Set up your network for Office 365
+# Set up your network for Microsoft 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
-An important part of your Office 365 onboarding is to ensure that your network and Internet connections are set up for optimized access. Configuring your on-premises network to access a globally distributed Software-as-a-Service (SaaS) cloud is different from a traditional network that is optimized for traffic to on-premises datacenters and a central Internet connection. 
+An important part of your Microsoft 365 onboarding is to ensure that your network and Internet connections are set up for optimized access. Configuring your on-premises network to access a globally distributed Software-as-a-Service (SaaS) cloud is different from a traditional network that is optimized for traffic to on-premises datacenters and a central Internet connection. 
 
 Use these articles to understand the key differences and to modify your edge devices, client computers, and on-premises network to get the best performance for your on-premises users.
 
-## How Office 365 networking works
+## How Microsoft 365 networking works
 
-See these articles for an overview of connectivity for Office 365:
+See these articles for an overview of connectivity for Microsoft 365:
 
-- [Office 365 networking connectivity overview](office-365-networking-overview.md)
-- [Office 365 network connectivity principles](office-365-network-connectivity-principles.md)
-- [Assessing Office 365 network connectivity](assessing-network-connectivity.md)
+- [Microsoft 365 networking connectivity overview](office-365-networking-overview.md)
+- [Microsoft 365 network connectivity principles](office-365-network-connectivity-principles.md)
+- [Assessing Microsoft 365 network connectivity](assessing-network-connectivity.md)
 
-For advice on enhancing performance, see [Network planning and performance tuning for Office 365](network-planning-and-performance.md).
+For advice on enhancing performance, see [Network planning and performance tuning for Microsoft 365](network-planning-and-performance.md).
 
-## Support Office 365 networking as a network equipment vendor
+## Support Microsoft 365 networking as a network equipment vendor
 
 If you are a network equipment vendor, join the [Office 365 Networking Partner Program](office-365-networking-partner-program.md). Enroll in the program to build Office 365 network connectivity principles into your products and solutions. 
 
@@ -71,15 +71,15 @@ For additional endpoints, see these articles:
 - [Network requests in Office 2016 for Mac](network-requests-in-office-2016-for-mac.md)
 
 
-## Additional topics for Office 365 networking
+## Additional topics for Microsoft 365 networking
 
-See these articles for specialized topics in Office 365 networking:
+See these articles for specialized topics in Microsoft 365 networking:
 
 - [Content delivery networks](content-delivery-networks.md)
 - [IPv6 support in Office 365 services](ipv6-support.md)
 - [NAT support with Office 365](nat-support-with-office-365.md)
 
-## ExpressRoute for Office 365
+## ExpressRoute for Microsoft 365
 
 See these articles for information on the use of ExpressRoute for Office 365 traffic:
 

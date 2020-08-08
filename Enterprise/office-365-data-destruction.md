@@ -1,7 +1,7 @@
 ---
-title: "Office 365 Data Destruction"
-ms.author: robmazz
-author: robmazz
+title: "Microsoft 365 Data Destruction"
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article
@@ -14,16 +14,16 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An overview of Microsoft policies about recycling, disposal, or destruction of Office 365 data center disk drives and servers."
+description: "An overview of Microsoft policies about recycling, disposal, or destruction of Microsoft 365 data center disk drives and servers."
 ---
 
-# Office 365 Data Destruction
+# Microsoft 365 Data Destruction
 
 ## Physical data destruction
 
-Microsoft has Data Handling Standard policies that addresses recycle and disposal of disk drives and failed or retiring servers. Before reusing any Office 365 disk drives, Microsoft performs a physical sanitization process consistent with National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)). Since all disk drives in Office 365 are encrypted using BitLocker volume level encryption, NIST SP 800-88-compliant erasure isn't technically necessary. Nonetheless, Microsoft performs this process.
+Microsoft has Data Handling Standard policies that addresses recycle and disposal of disk drives and failed or retiring servers. Before reusing any Microsoft 365 disk drives, Microsoft performs a physical sanitization process consistent with National Institute of Standards and Technology Special Publication 800-88 ([NIST SP 800-88 Guidelines for Media Sanitization](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r1.pdf)). Since all disk drives in Microsoft 365 are encrypted using BitLocker volume level encryption, NIST SP 800-88-compliant erasure isn't technically necessary. Nonetheless, Microsoft performs this process.
 
-Failed disks used within Office 365 datacenters are physically destroyed and audited through the ISO process. Asset type determines the appropriate means of disposal. For hard drives that can't be wiped, Microsoft uses a destruction process to destroy the media and render the recovery of information impossible. For example, disks are physically destroyed, pulverized, or incinerated. Microsoft retains all records of the destruction and performs a similar sanitization process on servers reused within Office 365. These guidelines encompass both electronic and physical sanitization.
+Failed disks used within Microsoft 365 datacenters are physically destroyed and audited through the ISO process. Asset type determines the appropriate means of disposal. For hard drives that can't be wiped, Microsoft uses a destruction process to destroy the media and render the recovery of information impossible. For example, disks are physically destroyed, pulverized, or incinerated. Microsoft retains all records of the destruction and performs a similar sanitization process on servers reused within Microsoft 365. These guidelines encompass both electronic and physical sanitization.
 
 Each datacenter uses an on-site physical destruction process to dispose of its disks. Secure bins for storage media designated for disk disposal are in each area of the datacenter. Each secure bin station has video monitoring surveillance. Once a disposal bin reaches approximately 50% capacity, the Site Services team contacts the Physical Security team to coordinate removal. Site Services personnel and a Security Office remove the secure disposal bin and place it in a designated secured storage area. Policies and procedures governing the handling of data bearing devices during disposal are routinely tested, including procedures to ensure the condition of machinery approved for destruction.
 

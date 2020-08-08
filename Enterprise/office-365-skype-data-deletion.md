@@ -1,7 +1,7 @@
 ---
 title: "Office 365 Skype for Business Data Deletion"
-ms.author: robmazz
-author: robmazz
+ms.author: josephd
+author: JoeDavies-MSFT
 manager: laurawi
 audience: ITPro
 ms.topic: article

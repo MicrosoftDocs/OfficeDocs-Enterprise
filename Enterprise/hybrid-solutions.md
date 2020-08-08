@@ -3,7 +3,7 @@ title: "Hybrid solutions"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/30/2018
+ms.date: 07/20/2020
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -22,19 +22,17 @@ description: Provides a list of links to useful information for deploying Office
 
 # Hybrid solutions
 
- **Summary:** Use these articles to deploy Office Server workloads in Microsoft Azure.
+With Microsoft Azure, you can deploy some Office Server workloads that were typically deployed on-premises in Azure infrastructure services.
   
-With Microsoft Azure, you can now deploy some Office Server workloads that were typically deployed on-premises in Azure infrastructure services.
-  
-For Office 365 identity infrastructure in Azure:
+For Microsoft 365 identity infrastructure in Azure:
 
 - [Using Azure AD for SharePoint Server Authentication](using-azure-ad-for-sharepoint-server-authentication.md)
 
-- [Deploy Office 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
+- [Deploy Microsoft 365 Directory Synchronization in Microsoft Azure](deploy-office-365-directory-synchronization-dirsync-in-microsoft-azure.md)
   
 - [Connect an on-premises network to a Microsoft Azure virtual network](connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md)
     
-- [Deploy high availability federated authentication for Office 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
+- [Deploy high availability federated authentication for Microsoft 365 in Azure](deploy-high-availability-federated-authentication-for-office-365-in-azure.md)
     
 For SharePoint Server 2013 workloads in Azure:
   
@@ -51,8 +49,6 @@ For SharePoint Server 2013 workloads in Azure:
   
 [Microsoft Cloud IT architecture resources](microsoft-cloud-it-architecture-resources.md)
   
-[Cloud adoption Test Lab Guides (TLGs)](cloud-adoption-test-lab-guides-tlgs.md)
+[Microsoft 365 for enterprise Test Lab Guides (TLGs)](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides)
   
 [Architectural models for SharePoint, Exchange, Skype for Business, and Lync](architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md)
-
-

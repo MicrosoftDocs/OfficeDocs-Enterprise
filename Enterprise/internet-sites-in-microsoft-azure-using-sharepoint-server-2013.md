@@ -20,7 +20,7 @@ description: This article provides resources for designing and implementing Shar
 
 # Internet Sites in Microsoft Azure using SharePoint Server 2013
 
- **Summary:** Internet sites that use SharePoint Server 2013 benefit by being hosted in Azure Infrastructure Services. This article provides resources for designing and implementing this solution.
+ Internet sites that use SharePoint Server 2013 benefit by being hosted in Azure Infrastructure Services. This article provides resources for designing and implementing this solution.
   
 ## Using Azure Infrastructure Services for Internet sites
 
@@ -34,7 +34,7 @@ Microsoft Azure provides a compelling option for hosting Internet sites based on
     
 - Take advantage of Azure Active Directory for customer accounts.
     
-- Add features that are not currently available in Office 365, such as deep reporting and analytics.
+- Add features that are not currently available in Microsoft 365, such as deep reporting and analytics.
     
 ## Resources
 

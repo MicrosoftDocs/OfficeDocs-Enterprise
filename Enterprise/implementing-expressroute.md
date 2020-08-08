@@ -24,7 +24,7 @@ description: Learn how to implement ExpressRoute for Office 365, which provides 
 
 # Implementing ExpressRoute for Office 365
 
-*This article applies to both Office 365 Enterprise and Microsoft 365 Enterprise.*
+*This article applies to both Microsoft 365 Enterprise and Office 365 Enterprise.*
 
 ExpressRoute for Office 365 provides an alternate routing path to many internet facing Office 365 services. The architecture of ExpressRoute for Office 365 is based on advertising public IP prefixes of Office 365 services that are already accessible over the Internet into your provisioned ExpressRoute circuits for subsequent redistribution of those IP prefixes into your network. With ExpressRoute you effectively enable several different routing paths, through the internet and through ExpressRoute, for many Office 365 services. This state of routing on your network may represent a significant change to how your internal network topology is designed.
   
@@ -579,7 +579,7 @@ Here's a short link you can use to come back: [https://aka.ms/implementexpressro
   
 [Network planning with ExpressRoute for Office 365](network-planning-with-expressroute.md)
   
-[Using BGP communities in ExpressRoute for Office 365 scenarios (preview)](bgp-communities-in-expressroute.md)
+[Using BGP communities in ExpressRoute for Office 365 scenarios](bgp-communities-in-expressroute.md)
   
 [Media Quality and Network Connectivity Performance in Skype for Business Online](https://support.office.com/article/5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
   
