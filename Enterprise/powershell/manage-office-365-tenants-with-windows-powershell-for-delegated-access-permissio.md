@@ -1,5 +1,5 @@
 ---
-title: "Manage Microsoft 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners"
+title: "Manage Microsoft 365 tenants with Windows PowerShell for DAP partners"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,9 +14,9 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: f92d5116-5b66-4150-ad20-1452fc3dd712
-description: "Summary: Use PowerShell for Microsoft 365 to manage your customer tenancies."
+description: In this article, learn how to use PowerShell for Microsoft 365 to manage your customer tenancies.
 ---
 
 # Manage Microsoft 365 tenants with Windows PowerShell for Delegated Access Permissions (DAP) partners

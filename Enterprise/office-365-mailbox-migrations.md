@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "A brief summary of the cmdlets used for Microsoft 365 mailbox migrations."
+description: This article contains a brief summary about Microsoft 365 Mailbox Migrations and a list of the cmdlets used for migrations.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 mailbox migrations

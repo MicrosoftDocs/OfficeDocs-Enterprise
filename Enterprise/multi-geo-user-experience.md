@@ -1,5 +1,5 @@
 ---
-title: "User experience in a multgeo environment"
+title: "User experience in a multi-geo environment"
 ms.reviewer: adwood
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -7,13 +7,14 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.collection: SPO_Content
+ms.collection:
+- SPO_Content
+- Strat_SP_gtc
 f1.keywords:
 - NOCSH
-ms.custom: 
-ms.collection: Strat_SP_gtc
-localization_priority: Normal
-description: "Learn about the SharePoint, OneDrive, and Exchange user experience in a multi-geo environment."
+ms.custom: seo-marvel-apr2020
+localization_priority: Priority
+description: Learn about the SharePoint, OneDrive, and Exchange user experience in a multi-geo environment for Microsoft 365.
 ---
 
 # User experience in a multi-geo environment

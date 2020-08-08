@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection:
 - Ent_O365
 search.appverid:
@@ -20,7 +22,7 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 263faf8d-aa21-428b-aed3-2021837a4b65
-description: "Learn how to integrate Microsoft 365 with your existing directory services."
+description: In this article, learn how to integrate Microsoft 365 with your existing directory services and on-premises environments.
 ---
 
 # Microsoft 365 integration with on-premises environments

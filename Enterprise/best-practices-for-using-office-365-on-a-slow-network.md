@@ -18,7 +18,8 @@ search.appverid:
 ms.assetid: fd16c8d2-4799-4c39-8fd7-045f06640166
 f1.keywords:
 - NOCSH
-description: "Wouldn't it be nice if your Internet connection was always fast and never down? Perhaps that day will come. But in the meantime, there are practical things you can do to work around a balky network and still get your day-to-day work done."
+ms.custom: seo-marvel-apr2020
+description: "This article guides you through the best practices that you can adopt for using Office 365 on a slow network."
 ---
 
 # Best practices for using Office 365 on a slow network

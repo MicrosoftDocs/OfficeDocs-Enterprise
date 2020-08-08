@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: "Learn about administering SharePoint and OneDrive services in a multi-geo environment."
+description: Admins can learn about how to administer SharePoint and OneDrive services in a multi-geo environment.
 ---
 
 # Administering a multi-geo environment
@@ -31,7 +31,7 @@ BCS, Secure Store, and Apps all have separate instances in each satellite locati
 
 ## eDiscovery 
 
-By default, an eDiscovery Manager or Administrator of a multi-geo tenant will be able to conduct eDiscovery only in the central location of that tenant. The Microsoft 365 global administrator must assign eDiscovery Manager permissions to allow others to perform eDiscovery and assign a “Region” parameter in their applicable Compliance Security Filter to specify the region for conducting eDiscovery as satellite location, otherwise no eDiscovery will be carried out for the satellite location. To configure the Compliance Security Filter for a Region, see [Configure Microsoft 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md).
+By default, an eDiscovery Manager or Administrator of a multi-geo tenant will be able to conduct eDiscovery only in the central location of that tenant. The Office 365 global administrator must assign eDiscovery Manager permissions to allow others to perform eDiscovery and assign a "Region" parameter in their applicable Compliance Security Filter to specify the region for conducting eDiscovery as satellite location, otherwise no eDiscovery will be carried out for the satellite location. To configure the Compliance Security Filter for a Region, see [Configure Office 365 Multi-Geo eDiscovery](multi-geo-ediscovery-configuration.md).
 
 ## Exchange mailboxes
 

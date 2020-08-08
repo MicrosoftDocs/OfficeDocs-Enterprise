@@ -13,12 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - BCS160
 ms.assetid: f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132
-description: "Contains links to information about network planning and testing, and migration to Office 365."
+description: This article contains links to information about network planning, testing, and migration to Office 365.
 ---
 
 # Network and migration planning for Office 365

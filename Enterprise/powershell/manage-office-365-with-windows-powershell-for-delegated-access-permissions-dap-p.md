@@ -1,5 +1,5 @@
 ---
-title: "Manage Microsoft 365 with Windows PowerShell for Delegated Access Permissions (DAP) partners"
+title: "Manage Microsoft 365 with Windows PowerShell for DAP partners"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,7 +14,7 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: be497751-596f-431d-b256-0a89d36a47ce
 description: "Summary: Syndication and Cloud Solution Provider (CSP) partners can use Windows PowerShell to manage Microsoft 365 customer tenants."
 ---

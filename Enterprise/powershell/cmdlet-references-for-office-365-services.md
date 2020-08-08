@@ -12,8 +12,10 @@ ms.collection: Ent_O365
 f1.keywords:
 - CSH
 ms.custom: 
+ - Ent_Office_Other
+ - seo-marvel-apr2020
 ms.assetid: 3a1ea1a6-edbd-4922-9ad3-0b075f7f9009
-description: "Summary: Find Microsoft 365 for PowerShell cmdlet reference topics for Azure Active Directory, Exchange Online, SharePoint Online, Skype for Business Online, and Security & Compliance."
+description: Find Microsoft 365 PowerShell cmdlet reference topics for Azure AD, Exchange Online, SharePoint Online, Skype for Business Online, and Security & Compliance.
 ---
 
 # Cmdlet references for Microsoft 365 services

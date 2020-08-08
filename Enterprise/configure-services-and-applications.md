@@ -17,7 +17,8 @@ search.appverid:
 ms.assetid: 7cec08a5-97fd-4761-b23b-ef3d66519e30
 f1.keywords:
 - NOCSH
-description: "Configure Microsoft 365 Enterprise services and applications"
+description: Configure Microsoft 365 Enterprise services and applications, such as SharePoint, Exchange, and Skype for Business.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Configure Microsoft 365 Enterprise services and applications

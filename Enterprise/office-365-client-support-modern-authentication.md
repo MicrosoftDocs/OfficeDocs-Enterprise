@@ -14,7 +14,8 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: "Microsoft 365 Client App support for modern authentication."
+description: In this article, learn which platforms, clients, and Powershell modules support modern authentication for Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Client App Support - Modern Authentication

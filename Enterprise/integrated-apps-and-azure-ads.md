@@ -9,14 +9,16 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection: M365-subscription-management
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: cb2250e3-451e-416f-bf4e-363549652c2a
-description: "Learn how O365 integrated Apps are registered and administered in Azure AD"
+description: Learn how to register and administer Office 365 integrated Apps in Azure AD, allowing for app authorizations at the global administrator level.
 ---
 
 # Integrated Apps and Azure AD for Microsoft 365 administrators

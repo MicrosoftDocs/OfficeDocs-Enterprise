@@ -12,8 +12,10 @@ ms.collection: Ent_O365
 f1.keywords:
 - CSH
 ms.custom: 
+ - Ent_Office_Other
+ - seo-marvel-apr2020
 ms.assetid: ebe0f5ff-fd17-487f-bbb6-271b5ea270bb
-description: "Summary: Get help with PowerShell for Microsoft 365 from these community venues."
+description: This article provides community resources to connect to your peers and get help for PowerShell for Microsoft 365.
 ---
 
 # Microsoft 365 community resources for PowerShell

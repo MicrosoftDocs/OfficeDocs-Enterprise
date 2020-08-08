@@ -9,19 +9,19 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: "Learn how to move a OneDrive site to a different geo location."
+description: Find information about moving a OneDrive site to a different geo location, including how to schedule site moves and communicating expectations to users.
 ---
 
 # Move a OneDrive site to a different geo location 
 
-With OneDrive geo move, you can move a user’s OneDrive to a different geo location. OneDrive geo move is performed by the SharePoint Online administrator or the Microsoft 365 global administrator. Before you start a OneDrive geo move, be sure to notify the user whose OneDrive is being moved and recommend they close all files for the duration of the move. (If the user has a document open using the Office client during the move, then upon move completion the document will need to be saved to the new location.) The move can be scheduled for a future time, if desired.
+With OneDrive geo move, you can move a user's OneDrive to a different geo location. OneDrive geo move is performed by the SharePoint Online administrator or the Microsoft 365 global administrator. Before you start a OneDrive geo move, be sure to notify the user whose OneDrive is being moved and recommend they close all files for the duration of the move. (If the user has a document open using the Office client during the move, then upon move completion the document will need to be saved to the new location.) The move can be scheduled for a future time, if desired.
 
-The OneDrive service uses Azure Blob Storage to store content. The Storage blob associated with the user’s OneDrive will be moved from the source to destination geo location within 40 days of destination OneDrive being available to the user. The access to the user’s OneDrive will be restored as soon as the destination OneDrive is available.
+The OneDrive service uses Azure Blob Storage to store content. The Storage blob associated with the user's OneDrive will be moved from the source to destination geo location within 40 days of destination OneDrive being available to the user. The access to the user's OneDrive will be restored as soon as the destination OneDrive is available.
 
 During OneDrive geo move window (about 2-6 hours) the user's OneDrive is set to read-only. The user can still access their files via the OneDrive sync client or their OneDrive site in SharePoint Online. After OneDrive geo move is complete, the user will be automatically connected to their OneDrive at the destination geo location when they navigate to OneDrive in the Microsoft 365 app launcher. The sync client will automatically begin syncing from the new location.
 
@@ -49,13 +49,13 @@ You can schedule OneDrive site moves in advance (described later in this article
 
 ## Moving a OneDrive site
 
-To perform a OneDrive geo move, the tenant administrator must first set the user’s Preferred Data Location (PDL) to the appropriate geo location. Once the PDL is set, wait for at least 24 hours for the PDL update to sync across the geo locations before starting the OneDrive geo move.
+To perform a OneDrive geo move, the tenant administrator must first set the user's Preferred Data Location (PDL) to the appropriate geo location. Once the PDL is set, wait for at least 24 hours for the PDL update to sync across the geo locations before starting the OneDrive geo move.
 
-When using the geo move cmdlets, connect to SPO Service at the user’s current OneDrive geo location, using the following syntax:
+When using the geo move cmdlets, connect to SPO Service at the user's current OneDrive geo location, using the following syntax:
 
 `Connect-SPOService -url https://<tenantName>-admin.sharepoint.com`
 
-For example: To move OneDrive of user ‘Matt@contosoenergy.onmicrosoft.com’, connect to EUR SharePoint Admin center as the user’s OneDrive is in EUR geo location:
+For example: To move OneDrive of user 'Matt@contosoenergy.onmicrosoft.com', connect to EUR SharePoint Admin center as the user's OneDrive is in EUR geo location:
 
 `Connect-SPOSservice -url https://contosoenergyeur-admin.sharepoint.com`
 
@@ -87,7 +87,7 @@ Using these parameters:
 
 -   _UserPrincipalName_ – UPN of the user whose OneDrive is being moved.
 
--   _DestinationDataLocation_ – Geo-Location where the OneDrive needs to be moved. This should be same as the user’s preferred data location.
+-   _DestinationDataLocation_ – Geo-Location where the OneDrive needs to be moved. This should be same as the user's preferred data location.
 
 For example, to move the OneDrive of matt@contosoenergy.onmicrosoft.com from EUR to AUS, run:
 
@@ -103,7 +103,7 @@ To schedule a geo move for a later time, use one of the following parameters:
 
 ## Cancel a OneDrive geo move 
 
-You can stop the geo move of a user’s OneDrive, provided the move is not in progress or completed by using the cmdlet:
+You can stop the geo move of a user's OneDrive, provided the move is not in progress or completed by using the cmdlet:
 
 `Stop-SPOUserAndContentMove – UserPrincipalName <UserPrincipalName>`
 
@@ -111,7 +111,7 @@ Where _UserPrincipalName_ is the UPN of the user whose OneDrive move you want to
 
 ## Determining current status
 
-You can check the status of a OneDrive geo move in or out of the geo that you’re connected to by using the Get-SPOUserAndContentMoveState cmdlet.
+You can check the status of a OneDrive geo move in or out of the geo that you're connected to by using the Get-SPOUserAndContentMoveState cmdlet.
 
 The move statuses are described in the following table.
 
@@ -142,11 +142,11 @@ The move statuses are described in the following table.
 </tbody>
 </table>
 
-To find the status of a specific user’s move, use the UserPrincipalName parameter:
+To find the status of a specific user's move, use the UserPrincipalName parameter:
 
 `Get-SPOUserAndContentMoveState -UserPrincipalName <UPN>`
 
-To find the status of all of the moves in or out of the geo location that you’re connected to, use the MoveState parameter with one of the following values: NotStarted, InProgress, Success, Failed, All.
+To find the status of all of the moves in or out of the geo location that you're connected to, use the MoveState parameter with one of the following values: NotStarted, InProgress, Success, Failed, All.
 
 `Get-SPOUserAndContentMoveState -MoveState <value>`
 
@@ -158,11 +158,11 @@ Users of OneDrive should notice minimal disruption if their OneDrive is moved to
 
 ### OneDrive for Business
 
-While the move is in progress the user’s OneDrive is set to read-only. Once the move is completed, the user is directed to their OneDrive in the new geo location when they navigate to OneDrive the Microsoft 365 app launcher or a web browser.
+While the move is in progress the user's OneDrive is set to read-only. Once the move is completed, the user is directed to their OneDrive in the new geo location when they navigate to OneDrive the Microsoft 365 app launcher or a web browser.
 
 ### Permissions on OneDrive content
 
-Users with permissions to OneDrive content will continue to have access to the content during the move and after it’s complete.
+Users with permissions to OneDrive content will continue to have access to the content during the move and after it's complete.
 
 ### OneDrive Sync Client 
 

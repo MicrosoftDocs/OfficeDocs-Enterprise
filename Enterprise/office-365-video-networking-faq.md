@@ -11,13 +11,15 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 2bed67a1-4052-49ff-a4ce-b7e6530eb98e
-description: "The Office 365 Video repository and streaming services make storing and streaming videos within your organization simple. There's a lot of great information about Office 365 Video; this networking FAQ is designed to answer the most common questions around bandwidth planning, encryption, and how the service leverages Content Delivery Networks (CDNs)."
+ms.custom:
+- Adm_O365
+- seo-marvel-apr2020
+description: "Find answers to some on the most frequently asked questions around bandwidth planning, encryption, & how the service leverages Content Delivery Networks (CDNs)."
 ---
 
 # Office 365 Video networking Frequently Asked Questions

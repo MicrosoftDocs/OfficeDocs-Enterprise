@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: 36743c86-46c2-46be-b9ed-ad9d4e85d186
 description: "Summary: Use PowerShell for Microsoft 365 to assign per-user communication settings with Skype for Business Online policies."
 ---
@@ -22,7 +22,7 @@ description: "Summary: Use PowerShell for Microsoft 365 to assign per-user commu
 
 Using PowerShell for Microsoft 365 is an efficient way to assign per-user communication settings with Skype for Business Online policies.
   
-## Before you begin
+## Prepare to run the PowerShell commands
 
 Use these instructions to get set up to run the commands (skip the steps you have already completed):
   

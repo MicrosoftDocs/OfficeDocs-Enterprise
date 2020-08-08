@@ -11,7 +11,9 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
@@ -102,7 +104,7 @@ You can read about the Microsoft 365 connectivity test and provide feedback at t
   
 Here's a short link you can use to come back: [https://aka.ms/o365networkconnectivity.](https://aka.ms/o365networkconnectivity)
   
-## See also
+## Related topics
 
 [Microsoft 365 Network Connectivity Overview](office-365-networking-overview.md)
 

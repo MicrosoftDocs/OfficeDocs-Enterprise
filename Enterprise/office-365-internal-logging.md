@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An explanation of how internal logging for Microsoft 365 engineering works."
+description: In this article, find an explanation of how internal logging for Microsoft 365 Engineering teams works.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Internal logging for Microsoft 365 engineering

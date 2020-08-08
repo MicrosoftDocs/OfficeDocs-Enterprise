@@ -22,7 +22,8 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: Support is ending soon for Office 2010 servers and client applications, and custom support agreements are not available. Use this article to start planning your upgrade now.
+description: Start planning your upgrade from Office 2010 servers and client applications, as support is ending soon and custom support agreements are not available.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Resources to help you upgrade from Office 2010 servers and clients

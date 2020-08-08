@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "How Microsoft defends its cloud services against denial-of-service (DoS) attacks."
+description: In this article, learn how Microsoft defends its cloud services against denial-of-service (DoS) attacks.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Defending Microsoft 365 Cloud Services Against Denial-of-Service Attacks

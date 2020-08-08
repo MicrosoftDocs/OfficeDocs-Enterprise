@@ -11,13 +11,15 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 53cdb60c-a6b2-4848-b3ff-e7b75dc3fd1f
-description: "Once you've deployed Microsoft 365, you can maintain Microsoft 365 connectivity using some of the tools and techniques below. You'll want to understand the official Service Health and Continuity guidelines as well as our Best practices for using Microsoft 365 on a slow network."
+description: "In this article, you will learn about the tools and techniques you can use to monitor and maintain Microsoft 365 connectivity."
 ---
 
 # Monitor Microsoft 365 connectivity
@@ -36,7 +38,7 @@ Once you've deployed Microsoft 365, you can maintain Microsoft 365 connectivity 
 
 Here's a short link you can use to come back: [https://aka.ms/monitorconnectivity365](https://aka.ms/monitorconnectivity365)
   
-## See also
+## Related topics
 
 [Configure Microsoft 365 Enterprise services and applications](configure-services-and-applications.md)
   

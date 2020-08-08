@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "A summary of how Microsoft enforces tenant isolation for Microsoft 365."
+description: This article contains a summary of how Microsoft enforces tenant isolation in cloud services like Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Tenant Isolation in Microsoft 365
@@ -25,8 +26,8 @@ Based upon the significant investments and experience gathered from [Trustworthy
 
 The two primary goals of maintaining tenant isolation in a multi-tenant environment are:
 
-1.	Preventing leakage of, or unauthorized access to, customer content across tenants; and
-2.	Preventing the actions of one tenant from adversely affecting the service for another tenant
+1.    Preventing leakage of, or unauthorized access to, customer content across tenants; and
+2.    Preventing the actions of one tenant from adversely affecting the service for another tenant
 
 Multiple forms of protection have been implemented throughout Microsoft 365 to prevent customers from compromising Microsoft 365 services or applications or gaining unauthorized access to the information of other tenants or the Microsoft 365 system itself, including:
 

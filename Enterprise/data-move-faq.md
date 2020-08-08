@@ -13,7 +13,8 @@ search.appverid:
 ms.assetid: 1f01bc6f-5d37-4d14-bdd3-9d94a1e23e14
 f1.keywords:
 - NOCSH
-description: "Here are answers to general questions about moving core data to a new datacenter geo."
+description: Find answers to frequently asked questions (FAQs) about moving core data to a new Office 365 datacenter geo.
+ms.custom: seo-marvel-mar2020
 ---
 
 # Data move general FAQ
@@ -31,7 +32,7 @@ Core customer data is a term that refers to a subset of customer data defined in
 - SharePoint Online site content and the files stored within that site
 - Files uploaded to OneDrive for Business 
 
-## At what point is my migration complete so that my tenant’s core customer data is being stored at rest in my new geo?
+## At what point is my migration complete so that my tenant's core customer data is being stored at rest in my new geo?
 
 Due to shared dependencies between Exchange Online and SharePoint Online/OneDrive for Business, any migration cannot be considered 
 completed until both services are migrated.  Exchange Online and SharePoint Online/OneDrive for Business often migrate at separate times and independently from one another.  Tenant admins receive confirmation in Message Center when each service migration is completed and can view the data location card in the Admin Center at any time to confirm the core customer data at rest location for 

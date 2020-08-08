@@ -14,7 +14,8 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - NOCSH
-description: "Understand Microsoft 365 client app support for Conditional Access"
+description: In this article, learn which platforms, clients, and Powershell modules support Conditional Access for Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Client App Support — Conditional Access

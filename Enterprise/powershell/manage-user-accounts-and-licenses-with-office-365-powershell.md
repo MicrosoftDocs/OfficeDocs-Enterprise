@@ -14,8 +14,9 @@ f1.keywords:
 ms.custom: 
 - PowerShell
 - Ent_Office_Other
+- seo-marvel-apr2020
 ms.assetid: 26b9ff81-93b0-4251-beaf-3c9f1d7c80c8
-description: "Summary: Learn how to manage Microsoft 365 user accounts, licenses, and groups with PowerShell."
+description: In this article, learn how to manage Microsoft 365 user accounts, licenses, and groups with PowerShell.
 ---
 
 # Manage Microsoft 365 user accounts, licenses, and groups with PowerShell

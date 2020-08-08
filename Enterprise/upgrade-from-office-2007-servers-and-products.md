@@ -22,7 +22,8 @@ search.appverid:
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: Support has ended for Office 2007 servers and client applications and custom support agreements are not available. Use this article to start planning your upgrade now.
+description: This article provides resources to help you upgrade from Office 2007 servers and clients, as support for Office 2007 has ended.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Resources to help you upgrade from Office 2007 servers and clients

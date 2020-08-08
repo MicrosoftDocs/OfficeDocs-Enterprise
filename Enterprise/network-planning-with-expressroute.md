@@ -11,13 +11,15 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 103208f1-e788-4601-aa45-504f896511cd
-description: "ExpressRoute for Office 365 provides layer 3 connectivity between your network and Microsoft's datacenters. The circuits use Border Gateway Protocol (BGP) route advertisements of Office 365's front-end servers. From the perspective of your on-premises devices, when they need to select the correct TCP/IP path to Office 365, Azure ExpressRoute is seen as an alternative to the Internet."
+description: "In this article, you will learn about Azure ExpressRoute for Office 365 and how to utilize it for Network planning."
 ---
 
 # Network planning with ExpressRoute for Office 365

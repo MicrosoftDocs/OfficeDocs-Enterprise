@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
@@ -22,7 +24,7 @@ search.appverid:
 ms.assetid: e4c45989-4b1a-462e-a81b-2a13191cf517
 ms.collection:
 - M365-security-compliance
-description: "Learn how Microsoft 365 modern authentication works differently for Office 2013 and 2016 client apps."
+description: Learn how Microsoft 365 modern authentication features work differently for Office 2013 and 2016 client apps.
 ---
 
 # How modern authentication works for Office 2013, Office 2016, and Office 2019 client apps

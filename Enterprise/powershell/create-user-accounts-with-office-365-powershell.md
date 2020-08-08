@@ -17,8 +17,9 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - O365ITProTrain
+- seo-marvel-apr2020
 ms.assetid: 6770c5fa-b886-4512-8c67-ffd53226589e
-description: "Learn how to use PowerShell for Microsoft 365 to create user accounts."
+description: In this article, learn how to use PowerShell to create user accounts or multiple Microsoft 365 user accounts.
 ---
 
 # Create Microsoft 365 user accounts with PowerShell

@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: "Summary: Use these Test Lab Guides (TLGs) to set up demonstration, proof of concept, or dev/test environments for Microsoft 365."
 ---
@@ -43,9 +44,9 @@ Use these articles to build your Microsoft 365 dev/test environment:
 
     This is optional and needed if you want to build a simulated enterprise configuration for hybrid identity.
     
-For additional TLGs that apply to both Office 365 and Microsoft 365, click [here](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).  
+For additional TLGs that apply to both Office 365 and Microsoft 365, go to [Test Lab Guides](https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides).  
     
-## See also
+## Related topics
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   

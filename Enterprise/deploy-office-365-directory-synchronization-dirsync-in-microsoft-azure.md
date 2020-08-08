@@ -17,8 +17,9 @@ f1.keywords:
 - CSH
 ms.custom: 
 - Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: b8464818-4325-4a56-b022-5af1dad2aa8b
-description: "Summary: Deploy Azure AD Connect on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant of your Microsoft 365 subscription."
+description: Learn how to deploy Azure AD Connect on a virtual machine in Azure to synchronize accounts between your on-premises directory and the Azure AD tenant.
 ---
 
 # Deploy Microsoft 365 Directory Synchronization in Microsoft Azure

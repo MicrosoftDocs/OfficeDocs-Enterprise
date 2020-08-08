@@ -9,10 +9,10 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: "Learn how to delete a satellite location in Microsoft 365 Multi-Geo."
+description: Learn how to delete a satellite location in Microsoft 365 Multi-Geo. When a satellite location is deleted, all user data is also permanently deleted.
 ---
 
 # Delete a satellite location in Microsoft 365 Multi-Geo

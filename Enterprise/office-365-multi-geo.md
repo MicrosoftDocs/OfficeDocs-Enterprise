@@ -7,14 +7,12 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-f1.keywords:
-- CSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: "Expand your Microsoft 365 presence to multiple geographic regions with Microsoft 365 Multi-Geo."
+description: In this article, learn how to expand your Microsoft 365 presence to multiple geographic regions with Microsoft 365 Multi-Geo.
 ---
 
 # Microsoft 365 Multi-Geo

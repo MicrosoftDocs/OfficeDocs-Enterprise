@@ -7,14 +7,12 @@ manager: arnek
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-f1.keywords:
-- CSH
-ms.custom: 
+ms.custom: seo-marvel-mar2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: "Learn about how to configure search in a multi geo environment."
+description: Learn how to configure search in a multi-geo environment. Only some clients, such as OneDrive for Business, can return results in a multi-geo environment.
 ---
 
 # Configure Search for Microsoft 365 Multi-Geo
@@ -86,12 +84,12 @@ Some search features you might be familiar with, work differently in a multi-geo
 <tr class="odd">
 <td align="left"></td>
 <td align="left">Multi-geo search doesn't support dynamic bucketing for numerical refiners.</td>
-<td align="left">Use the <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">“Discretize” parameter</a> for numerical refiners.</td>
+<td align="left">Use the <a href="https://docs.microsoft.com/sharepoint/dev/general-development/query-refinement-in-sharepoint">"Discretize" parameter</a> for numerical refiners.</td>
 </tr>
 <tr class="even">
 <td align="left">Document IDs</td>
 <td align="left">If you're developing a search-driven application that depends on document IDs, note that document IDs in a multi-geo environment aren't unique across geo locations, they are unique per geo location.</td>
-<td align="left">We've added a column that identifies the geo location. Use this column to achieve uniqueness. This column is named “GeoLocationSource”.</td>
+<td align="left">We've added a column that identifies the geo location. Use this column to achieve uniqueness. This column is named "GeoLocationSource".</td>
 </tr>
 <tr class="odd">
 <td align="left">Number of results</td>

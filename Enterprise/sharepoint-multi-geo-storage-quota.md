@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: "Learn about SharePoint storage quotas in multi-geo environments."
+description: Learn about SharePoint storage quotas in multi-geo environments and how quotas can be managed by the SharePoint Online admin.
 ---
 
 # SharePoint storage quotas in multi-geo environments

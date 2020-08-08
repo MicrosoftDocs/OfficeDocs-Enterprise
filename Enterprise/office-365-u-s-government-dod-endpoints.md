@@ -1,5 +1,5 @@
 ---
-title: "Office 365 U.S. Government DoD endpoints"
+title: Office 365 US Government DOD endpoints
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -19,8 +19,9 @@ search.appverid:
 ms.assetid: 5d7dce60-4892-4b58-b45e-ee42fe8a907f
 f1.keywords:
 - NOCSH
-description: "Summary: Office 365 requires connectivity to the Internet. The endpoints below should be reachable for customers using Office 365 U.S. Government DoD plans only."
+description: Office 365 requires connectivity to the Internet. The endpoints below should be reachable for customers using Office 365 U.S. Government DoD plans only.
 hideEdit: true
+ms.custom: seo-marvel-mar2020
 ---
 
 # Office 365 U.S. Government DoD endpoints
@@ -37,7 +38,7 @@ hideEdit: true
 
  Start with [Managing Office 365 endpoints](managing-office-365-endpoints.md) to understand our recommendations for managing network connectivity using this data. Endpoints data is updated at the beginning of each month with new IP Addresses and URLs published 30 days in advance of being active. This lets customers who do not yet have automated updates to complete their processes before new connectivity is required. Endpoints may also be updated during the month if needed to address support escalations, security incidents, or other immediate operational requirements. The data shown on this page below is all generated from the REST-based web services. If you are using a script or a network device to access this data, you should go to the [Web service](office-365-ip-web-service.md) directly.
 
-Endpoint data below lists requirements for connectivity from a user’s machine to Office 365. It does not include network connections from Microsoft into a customer network, sometimes called hybrid or inbound network connections. For more information, see [Additional endpoints not included in the web service](additional-office365-ip-addresses-and-urls.md). 
+Endpoint data below lists requirements for connectivity from a user's machine to Office 365. It does not include network connections from Microsoft into a customer network, sometimes called hybrid or inbound network connections. For more information, see [Additional endpoints not included in the web service](additional-office365-ip-addresses-and-urls.md). 
 
 The endpoints are grouped into four service areas. The first three service areas can be independently selected for connectivity. The fourth service area is a common dependency (called Microsoft 365 Common and Office) and must always have network connectivity.
 
@@ -45,7 +46,7 @@ Data columns shown are:
 
 - **ID**: The ID number of the row, also known as an endpoint set. This ID is the same as is returned by the web service for the endpoint set.
 
-- **Category**: Shows whether the endpoint set is categorized as “Optimize”, “Allow”, or “Default”. You can read about these categories and guidance for management of them at [https://aka.ms/pnc](https://aka.ms/pnc). This column also lists which endpoint sets are required to have network connectivity. For endpoint sets which are not required to have network connectivity, we provide notes in this field to indicate what functionality would be missing if the endpoint set is blocked. If you are excluding an entire service area, the endpoint sets listed as required do not require connectivity.
+- **Category**: Shows whether the endpoint set is categorized as "Optimize", "Allow", or "Default". You can read about these categories and guidance for management of them at [https://aka.ms/pnc](https://aka.ms/pnc). This column also lists which endpoint sets are required to have network connectivity. For endpoint sets which are not required to have network connectivity, we provide notes in this field to indicate what functionality would be missing if the endpoint set is blocked. If you are excluding an entire service area, the endpoint sets listed as required do not require connectivity.
 
 - **ER**: This is **Yes** if the endpoint set is supported over Azure ExpressRoute with Office 365 route prefixes. The BGP community that includes the route prefixes shown aligns with the service area listed. When ER is **No**, this means that ExpressRoute is not supported for this endpoint set. However, it should not be assumed that no routes are advertised for an endpoint set where ER is **No**. If you plan to use Azure AD Connect, read the [special considerations section](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-instances#microsoft-azure-government) to ensure you have the appropriate Azure AD Connect configuration.
 

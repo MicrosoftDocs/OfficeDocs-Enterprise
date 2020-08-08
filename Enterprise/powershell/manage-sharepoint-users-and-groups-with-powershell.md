@@ -17,8 +17,9 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - SPO_Content
+- seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: "Summary: Use PowerShell for Microsoft 365 to manage SharePoint Online users, groups, and sites."
+description: In this article, learn how to use PowerShell for Microsoft 365 to manage SharePoint Online users, groups, and sites.
 ---
 
 # Manage SharePoint Online users and groups with PowerShell
@@ -88,7 +89,7 @@ Add-SPOUser -Group $group -LoginName $user@$tenant.com -Site https://$tenant.sha
 
 ```
 
-For example, let’s add Glen Rife (user name glenr) to the Auditors group on the ContosoTest site collection in the contoso tenancy:
+For example, let's add Glen Rife (user name glenr) to the Auditors group on the ContosoTest site collection in the contoso tenancy:
 
 ```powershell
 $tenant = "contoso"
@@ -111,7 +112,7 @@ New-SPOSiteGroup -Group $group -PermissionLevels $level -Site https://$tenant.sh
 ```
 Group properties, such as permission levels, can be updated later by using the `Set-SPOSiteGroup` cmdlet.
 
-For example, let’s add the Auditors group with View Only permissions to the contosotest site collection in the contoso tenancy:
+For example, let's add the Auditors group with View Only permissions to the contosotest site collection in the contoso tenancy:
 
 ```powershell
 $tenant = "contoso"
@@ -136,7 +137,7 @@ $user = "<user account name, such as opalc>"
 $group = "<group name name, such as Auditors>"
 Remove-SPOUser -LoginName $user@$tenant.com -Site https://$tenant.sharepoint.com/sites/$site -Group $group
 ```
-For example, let’s remove Bobby Overby from the site collection Auditors group in the contosotest site collection in the contoso tenancy:
+For example, let's remove Bobby Overby from the site collection Auditors group in the contosotest site collection in the contoso tenancy:
 
 ```powershell
 $tenant = "contoso"
@@ -163,7 +164,7 @@ To add a large number of accounts to SharePoint sites and give them permissions,
 
 The basic process is to create a CSV file that has headers (columns) that correspond to the parameters that the Windows PowerShell script needs. You can easily create such a list in Excel and then export it as a CSV file. Then, you use a Windows PowerShell script to iterate through records (rows) in the CSV file, adding the users to groups and the groups to sites. 
 
-For example, let’s create a CSV file to define a group of site collections, groups, and permissions. Next, we will create a CSV file to populate the groups with users. Finally, we will create and run a simple Windows PowerShell script that creates and populates the groups.
+For example, let's create a CSV file to define a group of site collections, groups, and permissions. Next, we will create a CSV file to populate the groups with users. Finally, we will create and run a simple Windows PowerShell script that creates and populates the groups.
 
 The first CSV file will add one or more groups to one or more site collections and will have this structure:
 
@@ -230,7 +231,7 @@ Import-Csv C:\O365Admin\Users.csv | ForEach {Add-SPOUser -Group $_.Group –Logi
 
 The script imports the CSV file contents and uses the values in the columns to populate the parameters of the **New-SPOSiteGroup** and **Add-SPOUser** commands. In our example, we are saving this to theO365Admin folder on drive C, but you can save it wherever you want.
 
-Now, let’s remove a bunch of people for several groups in different sites using the same CSV file. Here is an example command:
+Now, let's remove a bunch of people for several groups in different sites using the same CSV file. Here is an example command:
 
 ```powershell
 Import-Csv C:\O365Admin\Users.csv | ForEach {Remove-SPOUser -LoginName $_.LoginName -Site $_.Site -Group $_.Group}

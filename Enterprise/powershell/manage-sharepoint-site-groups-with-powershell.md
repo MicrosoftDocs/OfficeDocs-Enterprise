@@ -17,8 +17,9 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - SPO_Content
+- seo-marvel-apr2020
 ms.assetid: d0d3877a-831f-4744-96b0-d8167f06cca2
-description: "Summary: Use PowerShell to manage SharePoint Online site groups."
+description: In this article, find procedures for using PowerShell for Microsoft 365 to manage SharePoint Online site groups.
 ---
 
 # Manage SharePoint Online site groups with PowerShell
@@ -33,7 +34,7 @@ The procedures in this article require you to connect to SharePoint Online. For 
 
 ## View SharePoint Online with PowerShell for Microsoft 365
 
-The SharePoint Online admin center has some easy-to-use methods for managing site groups. For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site. Here’s what you have to do to:
+The SharePoint Online admin center has some easy-to-use methods for managing site groups. For example, suppose you want to look at the groups, and the group members, for the `https://litwareinc.sharepoint.com/sites/finance` site. Here's what you have to do to:
 
 1. From the SharePoint admin center, click **Active sites**, and then click the URL of the site.
 2. On the site page, click the **Settings** icon (located in the upper right-hand corner of the page), and then click **Site permissions**.

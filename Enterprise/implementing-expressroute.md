@@ -11,13 +11,15 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 77735c9d-8b80-4d2f-890e-a8598547dea6
-description: "ExpressRoute for Office 365 provides an alternate routing path to many internet facing Office 365 services. The architecture of ExpressRoute for Office 365 is based on advertising public IP prefixes of Office 365 services that are already accessible over the Internet into your provisioned ExpressRoute circuits for subsequent redistribution of those IP prefixes into your network. With ExpressRoute you effectively enable several different routing paths, through the internet and through ExpressRoute, for many Office 365 services. This state of routing on your network may represent a significant change to how your internal network topology is designed."
+description: Learn how to implement ExpressRoute for Office 365, which provides an alternate routing path to many internet facing Office 365 services.
 ---
 
 # Implementing ExpressRoute for Office 365

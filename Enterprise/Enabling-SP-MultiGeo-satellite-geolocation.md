@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: 
 - Strat_SP_gtc
 - SPO_Content
 localization_priority: Normal
-description: "Enabling SharePoint Multi-Geo in your satellite geo location."
+description: This article provides information for Global or SharePoint admins about enabling SharePoint Multi-Geo in satellite geo locations.
 ---
 
 # Enabling SharePoint Multi-Geo in your satellite geo location
@@ -33,11 +33,11 @@ These instructions will allow you to enable SharePoint in your satellite locatio
 
 To set a geo location into SPO mode, connect to the geo location you want to set in SPO Mode:
 
-1.	Open your SharePoint Online Management Shell 
-2.	Connect-SPOService -URL "https://$tenantGeo-admin.sharepoint.com" -Credential $credential
-3.	Set-SPOMultiGeoExperience</br></br>
+1.    Open your SharePoint Online Management Shell 
+2.    Connect-SPOService -URL "https://$tenantGeo-admin.sharepoint.com" -Credential $credential
+3.    Set-SPOMultiGeoExperience</br></br>
 ![Set-SPOMultiGeoExperience](media/Set-SPO-MultiGeo.jpg)
-4.	This operation usually takes about an hour while we perform various publish backs in the service and re-stamp your tenant. After at least 1 hour, please perform a Get-SPOMultiGeoExperience.  This will show you whether this geo location is in SPO mode.</br></br>
+4.    This operation usually takes about an hour while we perform various publish backs in the service and re-stamp your tenant. After at least 1 hour, please perform a Get-SPOMultiGeoExperience.  This will show you whether this geo location is in SPO mode.</br></br>
 ![Set-SPOMultiGeoExperience](media/Get-SPO-MultiGeo.jpg)
 
  

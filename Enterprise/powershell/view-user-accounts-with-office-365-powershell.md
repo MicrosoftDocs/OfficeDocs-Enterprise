@@ -17,9 +17,10 @@ ms.custom:
 - LIL_Placement
 - PowerShell
 - Ent_Office_Other
+- seo-marvel-apr2020
 ms.assetid: bb12f49d-a85d-4f3b-ada2-5c4e33977b10
 
-description: "Summary: View, list, or display your Microsoft 365 user accounts in various ways with PowerShell."
+description: Learn how to view, list, or display your Microsoft 365 user accounts in different ways with PowerShell.
 ---
 
 # View Microsoft 365 user accounts with PowerShell

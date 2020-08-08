@@ -1,5 +1,5 @@
 ---
-title: "Connect to Exchange Online tenants with remote Windows PowerShell for Delegated Access Permissions (DAP) partners"
+title: "Connect to Exchange Online tenants with remote Windows PowerShell for DAP partners"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,7 +13,7 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: ae5f1a87-8b77-4f93-a1b8-56f800aeb283
 description: "Summary: Use remote Windows PowerShell to connect to Exchange Online by using the DelegatedOrg value."
 ---

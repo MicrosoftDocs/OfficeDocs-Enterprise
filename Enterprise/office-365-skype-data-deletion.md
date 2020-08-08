@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An explanation of data deletion in Skype for Business."
+description: In this article, you can find an explanation of data deletion in Skype for Business, including what types of content are not retained.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Skype for Business Data Deletion in Office 365

@@ -12,7 +12,8 @@ ms.collection: Ent_O365
 ms.assetid: c3024358-326b-404e-9fe6-b618e54d977d
 f1.keywords:
 - NOCSH
-description: "On April 11, 2017, Exchange Server 2007 reached end of support. If you haven't already begun your migration from Exchange 2007 to Microsoft 365, Office 365, or Exchange 2016, now's the time to start your planning."
+ms.custom: seo-marvel-apr2020
+description: "Learn about your options after Exchange Server 2007 reached end of support and start planning migration to Microsoft 365, Office 365 or Exchange 2016."
 ---
 
 # Exchange 2007 end of support roadmap

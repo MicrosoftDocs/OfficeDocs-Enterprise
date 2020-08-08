@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: A brief summary about Yammer enterprise access controls in the production environment."
+description: This article contains a brief summary about Yammer Enterprise Access Controls in the production environment.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Yammer enterprise access controls 

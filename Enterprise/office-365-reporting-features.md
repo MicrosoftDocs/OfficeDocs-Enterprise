@@ -14,10 +14,11 @@ ms.collection:
 - M365-analytics
 f1.keywords:
 - NOCSH
-description: "An explanation of reporting features within Microsoft 365."
+description: Learn about various reporting features within Microsoft 365, including Azure Active Directory and Exchange Online.
+ms.custom: seo-marvel-apr2020
 ---
 
-# Microsoft 365 reporting features 
+# Microsoft 365 reporting features
 
 Reporting features in Microsoft 365 provides various audit reports for Azure Active Directory (Azure AD), Exchange Online, device management, supervisory review, and data loss prevention (DLP). These reports are different and separate from the Microsoft 365 activity reports.
 

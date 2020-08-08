@@ -14,12 +14,12 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An explanation of the various aspects of data resiliency within Exchange Online and Microsoft 365."
+description: In this article, find an explanation of the various aspects of data resiliency within Exchange Online and Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Exchange Online Data Resiliency in Microsoft 365
 
-## Introduction
 There are two types of corruption that can affect an Exchange database: physical corruption, which is typically caused by hardware (in particular, storage hardware) problems, and logical corruption, which occurs due to other factors. Generally, there are two types of logical corruption that can occur within an Exchange database: 
 - **Database logical corruption** - The database page checksum matches, but the data on the page is wrong logically. This can occur when the database engine (the Extensible Storage Engine (ESE)) attempts to write a database page and even though the operating system returns a success message, the data is either never written to the disk or it's written to the wrong place. This is referred to as a *lost flush*. ESE includes numerous features and safeguards that are designed to prevent physical corruption of a database and other data loss scenarios. To prevent lost flushes from losing data, ESE includes a lost flush detection mechanism in the database along with a feature (single page restore) to correct it. 
 - **Store logical corruption** - Data is added, deleted, or manipulated in a way that the user doesn't expect. These cases are generally caused by third-party applications. It's generally only corruption in the sense that the user views it as corruption. The Exchange store considers the transaction that produced the logical corruption to be a series of valid MAPI operations. The [In-Place Hold](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds) features in Exchange Online provides protection from store logical corruption (because it prevents content from being permanently deleted by a user or an application). 

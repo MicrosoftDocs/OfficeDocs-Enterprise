@@ -1,5 +1,5 @@
 ---
-title: "Add a domain to a client tenancy with Windows PowerShell for Delegated Access Permission (DAP) partners"
+title: "Add a domain to a client tenancy with Windows PowerShell for DAP partners"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,7 +14,7 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: f49b4d24-9aa0-48a6-95dd-6bae9cf53d2c
 description: "Summary: Use PowerShell for Microsoft 365 to add an alternate domain name to an existing customer tenant."
 ---
