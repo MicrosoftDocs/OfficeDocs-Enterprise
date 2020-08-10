@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection:
 - Ent_O365
 - M365-identity-device-management
@@ -18,7 +20,7 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: 18be3b98-34ae-47be-9337-ab6c3fb372ac
-description: "Learn how to deactivate directory synchronization. You can also view its status."
+description: In this article, learn how you can check the status of your directory synchronization in Office 365.
 ---
 
 # View directory synchronization status in Microsoft 365

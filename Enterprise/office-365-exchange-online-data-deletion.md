@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "How soft and hard data deletions are handled within Exchange Online."
+description: Learn how soft and hard data deletions for mailboxes and items within mailboxes are handled in Exchange Online.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Exchange Online Data Deletion in Microsoft 365

@@ -9,10 +9,10 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
-description: "Learn how to restrict SharePoint sites to a specified geo location in a multi-geo environment."
+description: In this article, learn how to restrict SharePoint sites to a specified geo location in a multi-geo environment.
 ---
 
 # Restrict SharePoint site content to a geo location

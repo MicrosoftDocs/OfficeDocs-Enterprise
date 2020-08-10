@@ -14,7 +14,9 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: An overview of Microsoft's technology control practices for Microsoft 365."
+ms.custom:
+- seo-marvel-apr2020
+description: This article provides an overview of the tools and technologies used by Microsoft for technology control in Microsoft 365.
 ---
 
 # Microsoft 365 technology controls 

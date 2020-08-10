@@ -17,8 +17,9 @@ ms.custom:
 - O365ITProTrain
 - PowerShell
 - Ent_Office_Other
+- seo-marvel-apr2020
 ms.assetid: ede7598c-b5d5-4e3e-a488-195f02f26d93
-description: "Summary: Use PowerShell for Microsoft 365 to assign roles to user accounts."
+description: In this article, learn how quickly and easily use PowerShell for Microsoft 365 to assign roles to user accounts.
 ---
 
 # Assign roles to Microsoft 365 user accounts with PowerShell

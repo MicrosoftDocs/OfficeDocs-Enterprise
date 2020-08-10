@@ -15,7 +15,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Modern Authentication, is a method of identity management that offers more secure user authentication and authorization, is available for Skype for Business server on-premises and Exchange server on-premises, and split-domain Skype for Business hybrids."
+description: Learn how to configure Skype for Business on-premises to use Hybrid Modern Authentication (HMA), offering you more secure user authentication and authorization.
+ms.custom: seo-marvel-apr2020
 ---
 
 # How to configure Skype for Business on-premises to use Hybrid Modern Authentication
@@ -68,7 +69,7 @@ As you can see there are four different places to turn on MA! For the best user 
   
 See the [Supportability topic for Skype for Business with MA](https://technet.microsoft.com/library/mt803262.aspx) for supported topologies.
   
- **Important** Double-check that you've met all the prerequisites before you begin. You'll find that information [here](hybrid-modern-auth-overview.md).
+ **Important** Double-check that you've met all the prerequisites before you begin. You'll find that information in [Hybrid modern authentication overview and prerequisites](hybrid-modern-auth-overview.md).
   
 ## Collect all HMA-specific info you'll need
 

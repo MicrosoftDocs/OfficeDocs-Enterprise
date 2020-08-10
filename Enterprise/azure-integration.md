@@ -13,14 +13,16 @@ ms.collection:
 - M365-identity-device-management
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+- Adm_O365
+- seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - MED150
 - BCS160
 ms.assetid: a5efce5d-9c9c-4190-b61b-fd273c1d425f
-description: "Your Microsoft 365 subscription includes a subscription to Azure AD. Integrate Microsoft 365 with Azure AD if you want password sync or single sign-on with your on-premises environment."
+description: Integrate Microsoft 365 with Azure AD if you want password sync or single sign-on with your on-premises environment.
 ---
 
 # Azure integration with Microsoft 365

@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "An overview of Microsoft defense strategy for denial-of-service (DoS) attacks."
+description: In this article, you can find an overview of Microsoft defense strategy for denial-of-service (DoS) attacks.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Denial-of-Service Defense Strategy

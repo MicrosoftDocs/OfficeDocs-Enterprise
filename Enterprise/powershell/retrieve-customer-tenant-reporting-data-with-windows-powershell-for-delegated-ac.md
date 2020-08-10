@@ -1,5 +1,5 @@
 ---
-title: "Retrieve customer tenant reporting data with Windows PowerShell for Delegated Access Permissions (DAP) partners"
+title: "Retrieve customer tenant reporting data with Windows PowerShell for DAP partners"
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,7 +12,7 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: 893e5275-30b3-433f-8ecd-644f78f513e2
 description: "Summary: Use remote Windows PowerShell for Microsoft Exchange Online to retrieve reports from individual customer tenants."
 ---

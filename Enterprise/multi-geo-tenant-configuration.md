@@ -7,13 +7,14 @@ manager: pamgreen
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-ms.collection: SPO_Content
+ms.collection: 
+- SPO_Content
+- Strat_SP_gtc
 f1.keywords:
 - NOCSH
-ms.custom: 
-localization_priority: Normal
-ms.collection: Strat_SP_gtc
-description: "Learn how to configure Microsoft 365 Multi-Geo."
+ms.custom: seo-marvel-apr2020
+localization_priority: Priority
+description: In this article, learn how to add satellite locations and configure your tenant for Microsoft 365 Multi-Geo.
 ---
 
 # Microsoft 365 Multi-Geo tenant configuration
@@ -70,7 +71,7 @@ In Azure Active Directory (Azure AD) there are two types of user objects: cloud 
 
 ### Synchronize user's Preferred Data Location using Azure AD Connect 
 
-If your company’s users are synchronized from an on-premises Active Directory system to Azure AD, their PreferredDataLocation must be populated in AD and synchronized to Azure AD.
+If your company's users are synchronized from an on-premises Active Directory system to Azure AD, their PreferredDataLocation must be populated in AD and synchronized to Azure AD.
 
 Follow the process in [Azure Active Directory Connect sync: Configure preferred data location for Microsoft 365 resources](/azure/active-directory/hybrid/how-to-connect-sync-feature-preferreddatalocation) to configure Preferred Data Location sync from your on-premises Active Directory Domain Services (AD DS) to Azure AD.
 

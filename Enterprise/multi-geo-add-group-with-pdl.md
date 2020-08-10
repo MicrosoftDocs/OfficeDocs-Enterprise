@@ -9,10 +9,10 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
 ms.collection: Strat_SP_gtc
 localization_priority: Normal
 description: "Learn how to create a Microsoft 365 group with a specified preferred data location in a multi-geo environment."
+ms.custom: seo-marvel-apr2020
 ---
 
 # Create a Microsoft 365 Group with a specific PDL
@@ -50,6 +50,6 @@ Note that SharePoint group site provisioning is on-demand. The site will be prov
 
 [!INCLUDE [Microsoft 365 Multi-Geo locations](includes/office-365-multi-geo-locations.md)]
 
-## See also
+## Related topics
 
 [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)

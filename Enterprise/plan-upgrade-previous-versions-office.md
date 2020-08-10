@@ -14,7 +14,9 @@ ms.collection: Ent_O365
 ms.assetid: b2acaeca-4986-40f4-92b7-a1bdd06e549d
 f1.keywords:
 - NOCSH
-description: "If you are using Office 2007 or Office 2010, it's time to plan your upgrade. Don't be stuck with outdated and unsupported apps and servers. Use these resources to get started with your plan."
+ms.custom:
+- seo-marvel-apr2020
+description: "This article contains resources for users using Office 2007 or Office 2010 to help them plan their upgrade."
 ---
 
 # Plan your upgrade from Office 2007 or Office 2010 servers and clients

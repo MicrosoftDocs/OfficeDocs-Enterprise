@@ -12,6 +12,8 @@ ms.collection: Ent_O365
 f1.keywords:
 - CSH
 ms.custom: 
+- Ent_Office_Other
+- seo-marvel-apr2020
 ms.assetid: 1ea4d4ec-af89-496f-9678-701867f5a6fc
 description: "Summary: Use PowerShell for Microsoft 365 to create reports that you cannot produce in the Microsoft 365 admin center."
 ---
@@ -54,7 +56,7 @@ These articles that describe how to use PowerShell for Microsoft 365 to obtain i
     
   - [Display Exchange Online reports with PowerShell](https://technet.microsoft.com/library/4873a063-9fc4-4ed9-826a-6e935fef61d4.aspx)
     
-## See also
+## Related topics
 
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

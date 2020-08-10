@@ -16,9 +16,11 @@ ms.collection:
 - M365-subscription-management
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.assetid: ee73dafb-be54-492e-bcfd-0fbfb5f65e94
-description: "These overview steps are designed to help you set up your network, create your identities, deploy Microsoft 365 Apps for enterprise, migrate your data, and help the people in your organization begin using Microsoft 365."
+description: These overview steps are designed to help you set up your network, create your identities, deploy Microsoft 365 Apps, and migrate your data.
 ---
 
 # Deploy Microsoft 365 Enterprise for your organization

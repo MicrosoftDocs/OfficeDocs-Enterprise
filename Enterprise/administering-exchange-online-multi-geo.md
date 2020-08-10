@@ -9,9 +9,9 @@ ms.topic: article
 ms.service: o365-solutions
 f1.keywords:
 - NOCSH
-ms.custom: 
-localization_priority: Normal
-description: "Learn how to administer Exchange Online multi-geo setting with Microsoft PowerShell."
+ms.custom: seo-marvel-mar2020
+localization_priority: normal
+description: Learn how to administer Exchange Online multi-geo settings in your Microsoft 365 environment with PowerShell.
 ---
 
 # Administering Exchange Online mailboxes in a multi-geo environment

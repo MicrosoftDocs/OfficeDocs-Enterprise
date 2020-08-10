@@ -13,12 +13,14 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid: 
 - SPO160
 - MET150
 ms.assetid: adb92b80-b342-4ecb-99a1-da2a2b4782eb
-description: "This article describes navigation options sites with SharePoint Publishing enabled in SharePoint Online. The choice and configuration of navigation significantly impacts the performance and scalability of sites in SharePoint Online. This article is not applicable to classic team sites."
+description: This article describes navigation options sites with SharePoint Publishing enabled in SharePoint Online.
 ---
 
 # Navigation options for SharePoint Online
@@ -28,7 +30,7 @@ This article describes navigation options sites with SharePoint Publishing enabl
 >[!NOTE]
 >If you're using modern SharePoint navigation options like mega menu, cascading navigation, or hub navigation, this article does not apply to your site. Modern SharePoint site architectures leverage a more flattened site hierarchy and a hub-and-spoke model. This allows many scenarios to be achieved that do NOT require use of the SharePoint Publishing feature.
 
-## Overview
+## Overview of navigation options
 
 Navigation provider configuration can significantly impact performance for the entire site, and careful consideration must be taken to pick a navigation provider and configuration that scales effectively for the requirements of a SharePoint site. There are two out-of-the-box navigation providers, as well as custom navigation implementations.
 

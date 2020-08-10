@@ -14,7 +14,8 @@ search.appverid:
 - MET150
 f1.keywords:
 - NOCSH
-description: "Microsoft 365 Client App support for single sign-on."
+description: In this article, learn which platforms, clients, and Powershell modules support single sign-on for Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Client App Support — Single Sign-On

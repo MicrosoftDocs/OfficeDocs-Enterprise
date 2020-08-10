@@ -17,8 +17,9 @@ ms.custom:
 - PowerShell
 - O365ITProTrain
 - Ent_Office_Other
+- seo-marvel-apr2020
 ms.assetid: 932d57c0-1520-4f0f-8ec9-9966d646480f
-description: "Summary: Learn how to use PowerShell to manage Microsoft 365 users and licenses, Skype for Business Online, SharePoint Online, Exchange Online, and the Security & Compliance Center."
+description: "Learn how to manage Microsoft 365 users and licenses, and Microsoft 365 apps with PowerShell."
 ---
 
 # Manage Microsoft 365 with PowerShell

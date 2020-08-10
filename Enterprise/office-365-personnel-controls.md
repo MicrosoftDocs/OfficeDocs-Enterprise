@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: An overview of Microsoft personnel screening practices for Microsoft 365."
+description: In this article, you can find an overview of Microsoft personnel screening practices for Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 personnel controls
@@ -63,9 +64,9 @@ To the extent permissible by local law Supplier Screening checks include the fol
 - Confirmation of highest level of academic achievement
 - Global sanctions and enforcement check
 
-In the United States prior to each placement of each supplier staff member to perform for Microsoft, to the extent permissible by local law, Supplier will conduct a pre-placement, and for certain placements, periodic, background check utilizing Microsoft’s preferred background check screening service provider who will confirm to Microsoft that the screening meets the Microsoft standard. 
+In the United States prior to each placement of each supplier staff member to perform for Microsoft, to the extent permissible by local law, Supplier will conduct a pre-placement, and for certain placements, periodic, background check utilizing Microsoft's preferred background check screening service provider who will confirm to Microsoft that the screening meets the Microsoft standard. 
 
-Internationally, the foregoing requirement will be implemented in all countries by September 2020 and where not currently implemented, the contract with the third party specifies Microsoft’s requirements for screening that must be conducted and the Supplier is responsible for attesting to Microsoft in writing that the background check has been successfully completed.
+Internationally, the foregoing requirement will be implemented in all countries by September 2020 and where not currently implemented, the contract with the third party specifies Microsoft's requirements for screening that must be conducted and the Supplier is responsible for attesting to Microsoft in writing that the background check has been successfully completed.
 
 ## Microsoft cloud background check
 

@@ -3,7 +3,6 @@ title: "Microsoft cloud IT architecture resources"
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
-
 audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
@@ -15,10 +14,11 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_Architecture
+- seo-marvel-apr2020
 ms.assetid: 28986107-e2fb-4116-bfdd-f66d751a7c16
 search.appverid:
 - MET150
-description: "Summary: Learn core cloud architecture concepts for Microsoft identity, security, networking, and hybrid. Review prescriptive recommendations for protecting files, identities, and devices when using Microsoft's cloud."
+description: "In this article, you will find resources to learn about the core Microsoft cloud IT architecture, related recommendations for protection & deployment procedures."
 ---
 
 # Microsoft cloud IT architecture resources

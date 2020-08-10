@@ -13,7 +13,8 @@ search.appverid:
 ms.assetid: 0a35176a-e585-4dec-a90b-36be8314667f
 f1.keywords:
 - NOCSH
-description: "New datacenter geos add capacity and compute resources to support our ongoing customer demand and usage growth. Additionally, the new datacenter geos offer in-geo data residency for core customer data. Core customer data is a term that refers to a subset of customer data defined in the Microsoft Online Services Terms: Exchange Online mailbox content (email body, calendar entries, and the content of email attachments) and SharePoint Online site content and the files stored within that site, and files uploaded to OneDrive for Business."
+description: Learn about new Office 365 datacenter geos and how to use the data residency option to request a move of your core data to a new geo.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Moving core data to new Microsoft 365 datacenter geos

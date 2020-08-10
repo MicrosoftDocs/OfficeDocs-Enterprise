@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: An explanation of Microsoft 365 tenant isolation in the Microsoft Graph and in Delve."
+description: In this article, find an explanation of how Microsoft 365 tenant isolation works in the Office Graph and in Delve.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Tenant Isolation in the Microsoft Graph and Delve

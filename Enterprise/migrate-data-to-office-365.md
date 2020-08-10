@@ -15,7 +15,8 @@ search.appverid:
 ms.assetid: e2fdfc8d-547e-4419-8628-2738ed4e0f46
 f1.keywords:
 - NOCSH
-description: "If you've opted out of FastTrack deployment and you are ready to migrate data to Microsoft 365, this is the place to start."
+ms.custom: seo-marvel-apr2020
+description: "In this article, you will the resources to help you migrate your organization data to Microsoft 365."
 ---
 
 # Migrate your organization data to Microsoft 365 Enterprise

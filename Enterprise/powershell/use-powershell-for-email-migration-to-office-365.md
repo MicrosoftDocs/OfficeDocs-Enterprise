@@ -13,9 +13,9 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: 795158e1-7dfc-4d9e-b805-373dd576c4e7
-description: "Summary: Learn how to migrate email to Microsoft 365 using Windows PowerShell."
+description: In this article, learn how to migrate email from your existing system to Microsoft 365 using PowerShell.
 ---
 
 # Use PowerShell for email migration to Microsoft 365
@@ -32,7 +32,7 @@ Use Windows PowerShell to migrate email to Microsoft 365.
     
 - [Use PowerShell to perform a staged migration to Microsoft 365](use-powershell-to-perform-a-staged-migration-to-office-365.md)
     
-## See also
+## Related topics
 
 [Manage Microsoft 365 with PowerShell](manage-office-365-with-office-365-powershell.md)
   

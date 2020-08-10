@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: Information about resource limits for the various applications within Microsoft 365."
+description: In this article, you can find information about resource limits for the various applications within Microsoft 365.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Resource Limits

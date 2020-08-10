@@ -18,7 +18,8 @@ search.appverid:
 ms.assetid: 985a357f-6db7-401f-bf7a-1bafdf1f312c
 f1.keywords:
 - NOCSH
-description: "Support ends for SharePoint 2010 and SharePoint Server 2010 on April 13, 2021. Use this article as a guide to upgrade to SharePoint Online or a newer version of SharePoint Server on-premises."
+description: Find information and resources to upgrade from SharePoint 2010 and Sharepoint Server 2010, as support for both ends on October 13, 2020.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Upgrading from SharePoint 2010

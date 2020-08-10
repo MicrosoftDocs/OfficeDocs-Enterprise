@@ -13,14 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0
 
-description: "Summary: Reference list of DNS records to use when planning an Office 365 deployment."
+description: A reference list of external Domain Name System records to use when planning an Office 365 deployment.
 ---
 
 # External Domain Name System records for Office 365

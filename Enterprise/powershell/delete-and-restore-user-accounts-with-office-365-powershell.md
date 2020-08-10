@@ -17,8 +17,9 @@ ms.custom:
 - PowerShell
 - Ent_Office_Other
 - O365ITProTrain
+- seo-marvel-apr2020
 ms.assetid: 209c9868-448c-49bc-baae-11e28b923a39
-description: "Learn how to use PowerShell for Microsoft 365 to delete user accounts."
+description: In this article, learn how to use different modules in PowerShell to delete Microsoft 365 user accounts.
 ---
 
 # Delete Microsoft 365 user accounts with PowerShell

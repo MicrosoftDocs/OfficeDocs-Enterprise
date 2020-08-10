@@ -11,9 +11,11 @@ localization_priority: Normal
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Ent_Solutions
+ms.custom: 
+ - Ent_Solutions
+ - seo-marvel-apr2020
 ms.assetid: 202b76ff-74a6-4486-ada1-a9bf099dab8f
-description: "Summary: Create and configure the Active Directory Federation Services (AD FS) servers for your high availability federated authentication for Microsoft 365 in Microsoft Azure."
+description: Learn how to create and configure the AD FS servers for your high availability federated authentication for Microsoft 365 in Microsoft Azure.
 ---
 
 # High availability federated authentication Phase 3: Configure AD FS servers

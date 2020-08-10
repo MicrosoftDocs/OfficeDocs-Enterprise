@@ -17,8 +17,9 @@ ms.custom:
 - O365ITProTrain
 - Ent_Office_Other
 - PowerShell
+- seo-marvel-apr2020
 ms.assetid: e4ee53ed-ed36-4993-89f4-5bec11031435
-description: "Explains how to use PowerShell to view licensed and unlicensed Microsoft 365 user accounts."
+description: This article explains how to use PowerShell to view licensed and unlicensed Microsoft 365 user accounts.
 ---
 
 # View licensed and unlicensed Microsoft 365 users with PowerShell

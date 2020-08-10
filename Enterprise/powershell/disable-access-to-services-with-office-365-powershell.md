@@ -17,9 +17,9 @@ ms.custom:
 - Ent_Office_Other
 - PowerShell
 - LIL_Placement
+- seo-marvel-apr2020
 ms.assetid: 264f4f0d-e2cd-44da-a9d9-23bef250a720
-
-description: "Use PowerShell to disable access to Microsoft 365 services for users."
+description: In this article, learn how to use PowerShell to disable access to Microsoft 365 services for users.
 ---
 
 # Disable access to Microsoft 365 services with PowerShell
@@ -167,7 +167,7 @@ $LO = New-MsolLicenseOptions -AccountSkuId $acctSKU
 Set-MsolUserLicense -UserPrincipalName $userUPN -LicenseOptions $LO
 ```
 
-## See also
+## Related topic
 
 [Manage Microsoft 365 user accounts, licenses, and groups with PowerShell](manage-user-accounts-and-licenses-with-office-365-powershell.md)
   

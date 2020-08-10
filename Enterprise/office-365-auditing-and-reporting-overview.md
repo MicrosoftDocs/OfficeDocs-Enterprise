@@ -16,10 +16,11 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - NOCSH
-description: "An overview of auditing and reporting features within Microsoft 365 and service assurance."
+description: "An overview of auditing and reporting features within Office 365, Microsoft 365, and Service Assurance."
+ms.custom: seo-marvel-apr2020
 ---
 
-# Auditing and reporting in Microsoft cloud services
+# Auditing and Reporting in Microsoft cloud services
 
 Microsoft cloud services include several auditing and reporting features you can use to track user and administrative activity within their tenant, Examples include changes made to Exchange Online and SharePoint Online tenant configuration settings, and changes made by users to documents and other items. You can use audit information and reports available in Microsoft cloud services to more effectively manage user experience, mitigate risks, and fulfill compliance obligations.
 

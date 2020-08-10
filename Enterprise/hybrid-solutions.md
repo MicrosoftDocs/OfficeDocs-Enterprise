@@ -13,9 +13,11 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - CSH
-ms.custom: Ent_Solutions
+ms.custom: 
+ - Ent_Solutions
+ - seo-marvel-apr2020
 ms.assetid: e9b8e065-2750-4534-9d39-aafd51a2a4e2
-description: "Summary: Use these articles to deploy Office Server workloads in Microsoft Azure."
+description: Provides a list of links to useful information for deploying Office Server workloads in Microsoft Azure.
 ---
 
 # Hybrid solutions
@@ -41,7 +43,7 @@ For SharePoint Server 2013 workloads in Azure:
 - [Internet Sites in Microsoft Azure using SharePoint Server 2013](internet-sites-in-microsoft-azure-using-sharepoint-server-2013.md)
   
   
-## See Also
+## Related topics
 
 [Cloud adoption and hybrid solutions](cloud-adoption-and-hybrid-solutions.yml)
   

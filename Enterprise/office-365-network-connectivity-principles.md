@@ -15,7 +15,8 @@ search.appverid: MET150
 ms.assetid: 76e7f232-917a-4b13-8fe2-4f8dbccfe041
 f1.keywords:
 - NOCSH
-description: "Before you begin planning your network for Office 365 network connectivity, it is important to understand the connectivity principles for securely managing Office 365 traffic and getting the best possible performance. This article will help you understand the most recent guidance for securely optimizing Office 365 network connectivity."
+description: This article provides the most recent guidance for securely optimizing Office 365 network connectivity.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Network Connectivity Principles

@@ -17,8 +17,9 @@ f1.keywords:
 - CSH
 ms.custom:
 - Ent_TLGs
+- seo-marvel-apr2020
 ms.assetid: 
-description: "Summary: See these articles for the Internet endpoints of the different Microsoft 365 clouds."
+description: For destination IP addresses and URLs for Microsoft 365 traffic, use this list of articles for the Internet endpoints of the different Microsoft 365 clouds.
 ---
 
 # Microsoft 365 endpoints

@@ -15,6 +15,7 @@ ms.custom:
 - 'globalemailconfig'
 - 'configssc'
 - 'AppDefToBDC'
+- seo-marvel-apr2020
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: 
@@ -35,7 +36,7 @@ search.appverid:
 - BSA160
 - OSU160
 ms.assetid: ba124775-d5c0-4d68-b88d-8458ad4c3717
-description: "On October 10, 2017, support ended for SharePoint Server 2007. Read this article to learn about your upgrade options, troubleshooting, best practices, system requirements, upgrade steps, and how to get assistance from Microsoft Partners."
+description: On October 10, 2017, support ended for SharePoint Server 2007. In this article, learn about your upgrade, migration, and support options.
 ---
 
 # SharePoint Server 2007 end of support roadmap

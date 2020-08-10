@@ -17,6 +17,7 @@ f1.keywords:
 - CSH
 ms.custom: 
 - Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 81190961-5454-4a5c-8b0e-6ae75b9fb035
 description: "Summary: Learn how to configure a cross-premises Azure virtual network for Office server workloads with a site-to-site VPN connection."
 ---
@@ -27,7 +28,7 @@ A cross-premises Azure virtual network is connected to your on-premises network,
 
 For example, a directory synchronization server running on an Azure virtual machine needs to query your on-premises domain controllers for changes to accounts and synchronize those changes with your Microsoft 365 subscription. This article shows you how to set up a cross-premises Azure virtual network using a site-to-site virtual private network (VPN) connection that is ready to host Azure virtual machines.
 
-## Overview
+## Configure a cross-premises Azure virtual network
 
 Your virtual machines in Azure don't have to be isolated from your on-premises environment. To connect Azure virtual machines to your on-premises network resources, you must configure a cross-premises Azure virtual network. The following diagram shows the required components to deploy a cross-premises Azure virtual network with a virtual machine in Azure.
   

@@ -13,7 +13,8 @@ search.appverid:
 ms.assetid: 5bb64310-36fc-473d-b791-a0176f21707f
 f1.keywords:
 - NOCSH
-description: "Existing Office 365 customers will need to submit a request before the deadline for their country in order to have the customer data of their participating Microsoft 365 services moved to their new geo."
+description: Existing Office 365 customers must submit a request before the deadline for their country to have their Microsoft 365 services data moved to their new geo.
+ms.custom: seo-marvel-apr2020
 ---
 
 # How to request your data move

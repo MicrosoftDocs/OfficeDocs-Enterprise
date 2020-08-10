@@ -1,5 +1,5 @@
 ---
-title: "Use the Office 365 Content Delivery Network (CDN) with SharePoint Online"
+title: Use Office 365 Content Delivery Network (CDN) with SharePoint Online
 ms.author: kvice
 author: kelleyvice-msft
 manager: laurawi
@@ -13,12 +13,14 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - SPO160
 ms.assetid: bebb285f-1d54-4f79-90a5-94985afc6af8
-description: "Describes how to use the Office 365 Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets to all of your users no matter where they are located or how they access your content."
+description: Learn how to use the Office 365 Content Delivery Network (CDN) to speed up delivery of your SharePoint Online assets.
 ---
 
 # Use the Office 365 Content Delivery Network (CDN) with SharePoint Online
@@ -948,7 +950,7 @@ https://privatecdn.sharepointonline.com/contoso.sharepoint.com/sites/site1/libra
 ```
 
 > [!NOTE]
-> Anyone in possession of the token can access the resource in the CDN. However, URLs containing these access tokens are only shared over HTTPS, so unless the URL is explicitly shared by an end user before the token expires, the asset won’t be accessible to unauthorized users.
+> Anyone in possession of the token can access the resource in the CDN. However, URLs containing these access tokens are only shared over HTTPS, so unless the URL is explicitly shared by an end user before the token expires, the asset won't be accessible to unauthorized users.
 
 #### Item-level permissions are not supported for assets in private origins
 
@@ -972,7 +974,7 @@ Once you have added links to CDN assets to a page, you can confirm that the asse
 You can also use your browser's developer tools to view the URL for each asset on a page, or use a third party network trace tool.
 
 > [!NOTE]
-> If you use a network tool such as Fiddler to test your assets outside of rendering the asset from a SharePoint page, you must manually add the referer header “Referer: `https://yourdomain.sharepoint.com`” to the GET request where the URL is the root URL of your SharePoint Online tenant.
+> If you use a network tool such as Fiddler to test your assets outside of rendering the asset from a SharePoint page, you must manually add the referer header "Referer: `https://yourdomain.sharepoint.com`" to the GET request where the URL is the root URL of your SharePoint Online tenant.
 
 You cannot test CDN URLs directly in a web browser because you must have a referer coming from SharePoint Online. However, if you add the CDN asset URL to a SharePoint page and then open the page in a browser, you will see the CDN asset rendered on the page.
 

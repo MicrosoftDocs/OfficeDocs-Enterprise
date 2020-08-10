@@ -13,10 +13,12 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid: 
 - MET150
-description: "Learn about performance recommendations for modern sites in SharePoint Online."
+description: Learn about performance recommendations for modern sites in SharePoint Online, such as limiting calls to Sharepoint and external endpoints.
 ---
 
 # SharePoint Online modern portal site limits

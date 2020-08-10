@@ -15,6 +15,7 @@ ms.custom:
 - 'O365M_ServiceHealthModern'
 - 'O365E_ViewStatusServices'
 - 'O365E_ServiceHealthModern'
+- 'seo-marvel-apr2020'
 ms.collection:
 - Ent_O365
 - M365-subscription-management
@@ -141,7 +142,7 @@ Expand any row to view more details about the issue.
   
 For more information about our commitment to uptime, see [Transparent operations from Microsoft 365](https://go.microsoft.com/fwlink/?linkid=848695).
 
-## See also
+## Related topics
 
 [Activity Reports in the Microsoft 365 admin center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 [Message center Preferences](https://docs.microsoft.com/microsoft-365/admin/manage/message-center?view=o365-worldwide#preferences11)

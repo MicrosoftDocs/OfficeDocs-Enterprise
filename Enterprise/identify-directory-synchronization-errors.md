@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection:
 - Ent_O365
 - M365-identity-device-management
@@ -20,7 +22,7 @@ search.appverid:
 - MBS150
 - GPA150
 ms.assetid: b4fc07a5-97ea-4ca6-9692-108acab74067
-description: "Learn how to view directory synchronization errors in Microsoft 365 admin center."
+description: Learn how to view directory synchronization errors and possible fixes in Microsoft 365 admin center.
 ---
 
 # View directory synchronization errors in Microsoft 365

@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: How Isolation and Access Control work within Azure Active Directory."
+description: In this article, learn how Isolation and Access Control work to keep data for multiple tenants isolated from each other within Azure Active Directory.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Microsoft 365 Isolation and Access Control in Azure Active Directory

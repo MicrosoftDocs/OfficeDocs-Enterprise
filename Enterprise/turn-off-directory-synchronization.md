@@ -9,7 +9,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 ms.collection:
 - Ent_O365
 - M365-identity-device-management
@@ -18,7 +20,7 @@ search.appverid:
 - MOE150
 - MED150
 ms.assetid: ee5f861e-bd48-4267-83d1-a4ead4b4a00d
-description: "Learn how to use PowerShell to turn off directory synchronization for Microsoft 365"
+description: In this article, find information about using PowerShell to turn off directory synchronization for Microsoft 365.
 ---
 
 # Turn off directory synchronization for Microsoft 365

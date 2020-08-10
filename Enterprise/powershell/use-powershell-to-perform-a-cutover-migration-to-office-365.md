@@ -12,9 +12,9 @@ search.appverid:
 ms.collection: Ent_O365
 f1.keywords:
 - NOCSH
-ms.custom: 
+ms.custom: seo-marvel-apr2020
 ms.assetid: b468cb4b-a35c-43d3-85bf-65446998af40
-description: "Summary: Learn how to use Windows PowerShell to perform a cutover migration to Microsoft 365."
+description: Learn how to use PowerShell to move the contents from a source email system all at once by performing a cutover migration to Microsoft 365.
 ---
 
 # Use PowerShell to perform a cutover migration to Microsoft 365

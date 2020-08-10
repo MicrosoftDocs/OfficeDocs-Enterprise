@@ -13,13 +13,15 @@ ms.collection:
 - SPO_Content
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
 - BCS160
 ms.assetid: 9ac4d7d4-d9f8-40a8-8c78-2a6d7fe96099
-description: "Connecting to Office 365 using Azure ExpressRoute is based on BGP advertisements of specific IP subnets that represent networks where Office 365 endpoints are deployed. Due to the global nature of Office 365 and the number of services that constitute Office 365, customers often have a need to manage the advertisements they accept on their network. Reducing the number of IP subnets; referred to as IP prefixes throughout the remainder of this article, to align with the BGP network management terminology, serves the following end-goals for customers:"
+description: Learn how to use BGP communities in Azure ExpressRoute to manage the number of IP prefixes and required bandwidth for Office 365 scenarios.
 ---
 
 # Using BGP communities in ExpressRoute for Office 365 scenarios

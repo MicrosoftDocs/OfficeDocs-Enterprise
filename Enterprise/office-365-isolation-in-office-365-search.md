@@ -14,7 +14,8 @@ ms.collection:
 - M365-security-compliance
 f1.keywords:
 - NOCSH
-description: "Summary: An explanation of tenant isolation in Microsoft 365 Search."
+description: In this article, find an explanation of how tenant isolation works to separate tenant data in Microsoft 365 Search.
+ms.custom: seo-marvel-apr2020
 ---
 
 # Tenant Isolation in Microsoft 365 Search

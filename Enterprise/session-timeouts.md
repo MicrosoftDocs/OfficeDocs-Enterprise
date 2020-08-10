@@ -10,7 +10,9 @@ ms.service: o365-administration
 localization_priority: Normal
 f1.keywords:
 - CSH
-ms.custom: Adm_O365
+ms.custom: 
+ - Adm_O365
+ - seo-marvel-apr2020
 search.appverid:
 - MET150
 - MOE150
@@ -20,7 +22,7 @@ search.appverid:
 ms.assetid: 37a5c116-5b07-4f70-8333-5b86fd2c3c40
 ms.collection:
 - M365-security-compliance
-description: "Session timeouts are used to balance security and ease of access  in Microsoft 365 client apps."
+description: Learn how session timeouts are used to balance security and ease of access in Microsoft 365 client apps.
 ---
 
 # Session timeouts for Microsoft 365
