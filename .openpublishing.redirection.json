@@ -1,1001 +1,525 @@
 {
-
   "redirections": [
-
       {
-
         "source_path": "enterprise/using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
-
         "redirect_document_id": true
-
       },
-
       {
-
         "source_path": "enterprise/obsolete-article.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/obsolete-bi-article.md",
-
         "redirect_url": "https://docs.microsoft.com/SharePoint/administration/business-intelligence-0",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/the-microsoft-365-enterprise-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md",
-
         "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/mam-policies-for-your-microsoft-365-enterprise-dev-test-environment",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramyammer-features-on-mobile-devices.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagrammicrosoft-exchange-2013-platform-options.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagrammicrosoft-sharepoint-2013-platform-options.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramon-premises-ediscovery-flow.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramfeature-integration-across-microsoft-office-server-products.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagrammicrosoft-lync-2013-platform-options.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramdesign-sample-internet-sites-in-microsoft-azure-for-sharepoint.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramnetwork-integration-of-microsoft-office-server-products.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramsharepoint-server-exchange-lync-office-web-apps-the-mobile-l.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/accessible-diagramsharepoint-disaster-recovery-to-microsoft-azure.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
-
         "redirect_document_id": false
-
       },
-
       {
-
         "source_path": "enterprise/office-365-information-protection-for-gdpr.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/office-365-information-protection-for-gdpr",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/office-365-info-protection-for-gdpr-overview.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/office-365-info-protection-for-gdpr-overview",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/search-for-and-find-personal-data.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/search-for-and-find-personal-data",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/customize-or-create-a-new-sensitive-information-type.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/customize-or-create-a-new-sensitive-information-type",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/architect-a-classification-schema-for-personal-data.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/architect-a-classification-schema-for-personal-data",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/apply-labels-to-personal-data-in-office-365.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/apply-labels-to-personal-data-in-office-365",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/apply-protection-to-personal-data-in-office-365.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/apply-protection-to-personal-data-in-office-365",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/monitor-for-leaks-of-personal-data.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-discovery-protection-reporting-in-office365-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-discovery-protection-reporting-in-office365-dev-test-environment",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-sharepoint-server.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-sharepoint-server",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-exchange-server.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-exchange-server",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-skype-for-business-server.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-skype-for-business-server",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-project-server.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-project-server",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-office-online-server.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-office-online-server",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-on-premises-file-shares.md",
-
         "redirect_url": "https://docs.microsoft.com/Office365/SecurityCompliance/gdpr-for-on-premises-file-shares",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/gdpr-for-office-servers.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/gdpr-for-office-servers",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/privileged-access-management-in-office-365.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/create-team-sites-in-a-political-campaign-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/create-team-sites-in-a-political-campaign-dev-test-environment",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/configure-groups-and-users-for-a-political-campaign-dev-test-environment",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/secure-sharepoint-online-sites-and-files.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/protect-sharepoint-online-files-with-azure-information-protection.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/protect-sharepoint-online-files-with-azure-information-protection",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/secure-sharepoint-online-sites-in-a-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-in-a-dev-test-environment",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/isolated-sharepoint-online-team-sites.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/isolated-sharepoint-online-team-sites",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/design-an-isolated-sharepoint-online-team-site.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/design-an-isolated-sharepoint-online-team-site",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/deploy-an-isolated-sharepoint-online-team-site.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/deploy-an-isolated-sharepoint-online-team-site",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/manage-an-isolated-sharepoint-online-team-site.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/manage-an-isolated-sharepoint-online-team-site",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/isolated-sharepoint-online-team-site-dev-test-environment.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/securitycompliance/isolated-sharepoint-online-team-site-dev-test-environment",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/microsoft-cloud-storage-for-enterprise-architects.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
-
         "redirect_document_id": true
-
       },
       {
-
         "source_path": "enterprise/designing-storage-for-the-microsoft-cloud.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/move-in-ready.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/some-assembly-required.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/manage-office-365-groups-with-powershell.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-groups-with-powershell",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/build-from-the-ground-up.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
-
         "redirect_document_id": false
-
       },
       {
-
         "source_path": "enterprise/using-content-delivery-networks-with-sharepoint-online.md",
-
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/use-office-365-cdn-with-spo",
-
         "redirect_document_id": true
-        
      },
      {
-
        "source_path": "Enterprise/using-azure-ad-for-SharePoint-Server-authentication.md",
-
        "redirect_url": "https://docs.microsoft.com/azure/active-directory/saas-apps/sharepoint-on-premises-tutorial",
-
        "redirect_document_id": false
-       
     },
     {
-
       "source_path": "Enterprise/base-configuration-dev-test-environment.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/simulated-ent-base-configuration-microsoft-365-enterprise",
-
       "redirect_document_id": false
-      
    },
     {
-
       "source_path": "Enterprise/office-365-dev-test-environment.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/lightweight-base-configuration-microsoft-365-enterprise",
-
       "redirect_document_id": false
-      
    },
     {
-
       "source_path": "Enterprise/dirsync-for-your-office-365-dev-test-environment.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/password-hash-sync-m365-ent-test-environment",
-
       "redirect_document_id": false
-      
    },
     {
-
       "source_path": "Enterprise/multi-factor-authentication-for-your-office-365-dev-test-environment.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/multi-factor-authentication-microsoft-365-test-environment",
-
       "redirect_document_id": false
-      
    },
     {
-
       "source_path": "Enterprise/federated-identity-for-your-office-365-dev-test-environment.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides#identity",
-
       "redirect_document_id": false
-      
    },
     {
-
       "source_path": "Enterprise/advanced-threat-protection-for-your-office-365-dev-test-environment.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp",
-
       "redirect_document_id": false
    },
-
     {
-
       "source_path": "Enterprise/simulated-cross-premises-virtual-network-in-azure.md.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/simulated-cross-premises-microsoft-365-enterprise",
-
       "redirect_document_id": false
-      
    },
-
    {
-
        "source_path": "Enterprise/advanced-ediscovery-for-your-office-365-dev-test-environment.md",
-
        "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/office-365-advanced-ediscovery",
-
        "redirect_document_id": false
-       
     },
-
    {
-
        "source_path": "Enterprise/sensitive-file-protection-in-the-office-365-dev-test-environment.md",
-
        "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels",
-
        "redirect_document_id": false
-       
     },
-
    {
-
        "source_path": "Enterprise/data-classification-and-labeling-in-the-office-365-dev-test-environment.md",
-
        "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/protect-information",
-
        "redirect_document_id": false
-       
     },
-
     {
-
       "source_path": "Enterprise/simulated-cross-premises-virtual-network-in-azure.md",
-
       "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/simulated-cross-premises-microsoft-365-enterprise",
-
       "redirect_document_id": false
-      
    },
-
    {
-
     "source_path": "Enterprise/microsoft-cloud-networking-for-enterprise-architects.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
 
     "source_path": "Enterprise/evolving-your-network-for-cloud-connectivity.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/common-elements-of-microsoft-cloud-connectivity.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/expressroute-for-microsoft-cloud-connectivity.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/designing-networking-for-microsoft-saas.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/designing-networking-for-microsoft-azure-paas.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/designing-networking-for-microsoft-azure-iaas.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/microsoft-hybrid-cloud-for-enterprise-architects.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/hybrid-cloud-overview.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/architecture-of-microsoft-hybrid-cloud-scenarios.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/hybrid-cloud-scenarios-for-microsoft-saas-office-365.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/hybrid-cloud-scenarios-for-azure-paas.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
   {
-
     "source_path": "Enterprise/hybrid-cloud-scenarios-for-azure-iaas.md",
-
     "redirect_url": "https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources",
-
     "redirect_document_id": false
-    
  },
-
  {
-
   "source_path": "enterprise/microsoft-365-guest-settings.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-guest-settings",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/collaborating-with-people-outside-your-organization.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/collaborate-on-documents.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-on-documents",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/collaborate-in-a-site.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-in-site",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/collaborate-as-a-team.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/collaborate-as-team",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/best-practices-anonymous-sharing.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/best-practices-anonymous-sharing",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/sharing-limit-accidental-exposure.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/share-limit-accidental-exposure",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/create-a-secure-guest-sharing-environment.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/create-secure-guest-sharing-environment",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/b2b-extranet.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/b2b-extranet",
-
   "redirect_document_id": false
-  
 },
-
 {
-
   "source_path": "enterprise/microsoft-365-limit-sharing.md",
-
   "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/microsoft-365-limit-sharing",
-
   "redirect_document_id": false
-  
 },
-
 {
-
       "source_path": "enterprise/deployment-advisors-for-office-365.md",
-
       "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-guides-for-office-365",
-
       "redirect_document_id": true
-      
    },
-
  {
-   
      "source_path": "enterprise/client-connectivity.md",
-   
      "redirect_url": "https://docs.microsoft.com/office365/enterprise/office-365-networking-overview",
-   
      "redirect_document_id": true
-     
    },
-   
    {
-   
     "source_path": "enterprise/deployment-planning-checklist.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-overview-for-enterprises",
-  
     "redirect_document_id": true
-    
   },
-  
   {
-   
     "source_path": "enterprise/test-lab-guide-configure-an-integrated-exchange-lync-and-sharepoint-test-lab.md",
-  
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/m365-enterprise-test-lab-guides",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/enterprises-and-office-365.md",
-  
     "redirect_url": "https://docs.microsoft.com/microsoft-365",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/security-solutions.md",
-  
     "redirect_url": "https://docs.microsoft.com/microsoft-365/security",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/automate-file-collection-for-ediscovery.md",
-  
     "redirect_url": "https://docs.microsoft.com/microsoft-365/compliance/ediscovery",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/cloud-app-security-for-your-office-365-dev-test-environment.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs",
-  
     "redirect_document_id": true
-    
   },
-  
   {
-   
     "source_path": "enterprise/powershell/manage-microsoft-teams-with-office-365-powershell.md",
-  
     "redirect_url": "https://docs.microsoft.com/microsoftteams/teams-powershell-install",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/powershell/manage-exchange-online-with-office-365-powershell.md",
-  
     "redirect_url": "https://docs.microsoft.com/powershell/exchange/connect-to-exchange-online-powershell",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/tools-to-manage-office-365-accounts.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/manage-office-365-accounts",
-  
     "redirect_document_id": true
-    
   },
-  
   {
-   
     "source_path": "enterprise/prepare-directory-attributes-for-synch-with-idfix.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
-  
     "redirect_document_id": true
-    
   },
-  
   {
-   
     "source_path": "enterprise/install-and-run-idfix.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/idfix-excluded-and-supported-objects-and-attributes.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
-  
     "redirect_document_id": false
-    
   },
-  
   {
-   
     "source_path": "enterprise/idfix-transaction-log.md",
-  
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization",
-  
     "redirect_document_id": false
-    
   },
-  
   { 
     "source_path": "enterprise/office-365-client-support-mobile-application-management.md",
-  
     "redirect_url": "https://docs.microsoft.com/mem/intune/apps/apps-supported-intune-apps",
-  
     "redirect_document_id": false
-    
   }
   ]
-
 }
