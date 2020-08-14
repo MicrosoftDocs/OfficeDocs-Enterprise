@@ -1495,11 +1495,6 @@
     "source_path": "enterprise/powershell/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins",
     "redirect_document_id": false
-  },
-  {
-    "source_path": "https://docs.microsoft.com/Office365/Enterprise",
-    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/",
-    "redirect_document_id": false
   }
   ]
 }
