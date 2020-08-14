@@ -1187,11 +1187,6 @@
     "redirect_document_id": true
   },
   {
-    "source_path": "enterprise/manage-office-365-accounts.md",
-    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/manage-microsoft-365-accounts",
-    "redirect_document_id": true
-  },
-  {
     "source_path": "enterprise/add-several-users-at-the-same-time.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/add-several-users-at-the-same-time",
     "redirect_document_id": true
