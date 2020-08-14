@@ -3,7 +3,7 @@
       {
         "source_path": "enterprise/using-microsoft-azure-active-directory-for-sharepoint-2013-authentication.md",
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-azure-architectures-for-sharepoint-2013",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "enterprise/obsolete-article.md",
@@ -233,7 +233,7 @@
       {
         "source_path": "enterprise/microsoft-cloud-storage-for-enterprise-architects.md",
         "redirect_url": "https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources",
-        "redirect_document_id": true
+        "redirect_document_id": false
       },
       {
         "source_path": "enterprise/designing-storage-for-the-microsoft-cloud.md",
@@ -454,7 +454,7 @@
    {
     "source_path": "enterprise/deployment-planning-checklist.md",
     "redirect_url": "https://docs.microsoft.com/office365/enterprise/setup-overview-for-enterprises",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/test-lab-guide-configure-an-integrated-exchange-lync-and-sharepoint-test-lab.md",
@@ -534,172 +534,172 @@
   {
     "source_path": "enterprise/office-365-networking-overview.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-overview",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-network-connectivity-principles.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-network-connectivity-principles",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/assessing-network-connectivity.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/assessing-network-connectivity",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/network-planning-with-expressroute.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/network-planning-with-expressroute",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/plan-for-network-devices.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/plan-for-network-devices",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/network-and-migration-planning.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/network-and-migration-planning",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/set-up-network-for-office-365.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/set-up-network-for-microsoft-365",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-ip-web-service.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-ip-web-service",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/use-office-365-cdn-with-spo.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/use-microsoft-365-cdn-with-spo",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-vpn-split-tunnel.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-split-tunnel",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-vpn-implement-split-tunnel.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-vpn-implement-split-tunnel",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-networking-china.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-china",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/azure-expressroute.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/azure-expressroute",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/routing-with-expressroute.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/routing-with-expressroute",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-endpoints.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-endpoints",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/urls-and-ip-address-ranges.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-u-s-government-dod-endpoints.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-u-s-government-gcc-high-endpoints.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/urls-and-ip-address-ranges-21vianet.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges-21vianet",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-germany-endpoints.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-germany-endpoints",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/content-delivery-networks.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/content-delivery-networks",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/ipv6-support.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/ipv6-support",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/nat-support-with-office-365.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/nat-support-with-microsoft-365",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/network-requests-in-office-2016-for-mac.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/network-requests-in-office-2016-for-mac",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/network-planning-and-performance.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/network-planning-and-performance",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/monitor-connectivity.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/monitor-connectivity",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/managing-expressroute-for-connectivity.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/managing-expressroute-for-connectivity",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-networking-partner-program.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-networking-partner-program",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/plan-for-third-party-ssl-certificates.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/plan-for-third-party-ssl-certificates",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/setup-guides-for-office-365.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/setup-guides-for-microsoft-365",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/integrated-apps-and-azure-ads.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/integrated-apps-and-azure-ads",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/office-365-integration.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-integration",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/azure-integration.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/azure-integration",
-    "redirect_document_id": true
+    "redirect_document_id": false
   },
   {
     "source_path": "enterprise/modern-auth-for-office-2013-and-2016.md",
