@@ -1137,11 +1137,6 @@
     "redirect_document_id": true
   },
   {
-    "source_path": "enterprise/using-azure-ad-for-sharepoint-server-authentication.md",
-    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/using-azure-ad-for-sharepoint-server-authentication",
-    "redirect_document_id": true
-  },
-  {
     "source_path": "enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network",
     "redirect_document_id": true
