@@ -1497,7 +1497,7 @@
     "redirect_document_id": false
   },
   {
-    "source_path": "Office365/Enterprise",
+    "source_path": "enterprise/index.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/",
     "redirect_document_id": false
   }
