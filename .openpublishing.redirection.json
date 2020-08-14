@@ -1492,6 +1492,31 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "enterprise/office-365-network-mac-perf-overview.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/office-365-network-mac-perf-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "enterprise/office-365-network-mac-perf-score.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/office-365-network-mac-perf-score",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "enterprise/office-365-network-mac-perf-insights.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/office-365-network-mac-perf-insights",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "enterprise/office-365-network-mac-perf-onboarding-tool.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/office-365-network-mac-perf-onboarding-tool",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "enterprise/office-365-network-mac-location-services.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/office-365-network-mac-location-services",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "enterprise/powershell/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/use-the-centralized-deployment-powershell-cmdlets-to-manage-add-ins",
     "redirect_document_id": false
