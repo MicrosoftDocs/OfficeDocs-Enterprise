@@ -1500,6 +1500,142 @@
     "source_path": "enterprise/index.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/",
     "redirect_document_id": false
-  }
+  },
+  {
+    "source_path": "enterprise/best-practices-for-using-office-365-on-a-slow-network.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/best-practices-for-using-office-365-on-a-slow-network",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "enterprise/bgp-communities-in-expressroute.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/bgp-communities-in-expressroute",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "enterprise/external-domain-name-system-records.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/external-domain-name-system-records",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/capacity-planning-and-load-testing-sharepoint-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/capacity-planning-and-load-testing-sharepoint-online",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/delay-loading-images-and-javascript-in-sharepoint-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/delay-loading-images-and-javascript-in-sharepoint-online",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/image-optimization-for-sharepoint-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/image-optimization-for-sharepoint-online",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/minification-and-bundling-in-sharepoint-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/minification-and-bundling-in-sharepoint-online",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-page-weight-optimization.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-page-weight-optimization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-custom-extensions.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-custom-extensions",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-image-optimization.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-image-optimization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/navigation-options-for-sharepoint-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/navigation-options-for-sharepoint-online",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-iframe-optimization.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-iframe-optimization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-page-call-optimization.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-page-call-optimization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-portal-limits.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-portal-limits",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/office-365-network-mac-perf-benchmarks.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/office-365-network-mac-perf-benchmarks",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/office-365-video-networking-faq.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/office-365-video-networking-faq",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/office-365-network-mac-perf-cpe.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/office-365-network-mac-perf-cpe",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/page-diagnostics-for-spo.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/page-diagnostics-for-spo",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/Planportallaunchroll-out.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/Planportallaunchroll-out",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/modern-web-part-optimization.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/modern-web-part-optimization",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/session-timeouts.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/session-timeouts",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/use-lean-popouts-to-reduce-memory-used-when-reading-mail-messages.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/use-lean-popouts-to-reduce-memory-used-when-reading-mail-messages",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/sharepoint-2007-migration-options.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/sharepoint-2007-migration-options",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/skype-for-business-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/skype-for-business-online",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/office-365-network-mac-perf-measure.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/office-365-network-mac-perf-measure",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/using-content-search-web-part-instead-of-content-query-web-part-to-improve-perfo",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/using-the-object-cache-with-sharepoint-online.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/using-the-object-cache-with-sharepoint-online",
+    "redirect_document_id": false
+  },
+
   ]
 }
