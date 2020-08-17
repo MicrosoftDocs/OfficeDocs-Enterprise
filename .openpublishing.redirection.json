@@ -1672,10 +1672,49 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/architectural-models-for-sharepoint-exchange-skype-for-business-and-lync",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/get-your-organization-ready-for-office-365.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/additional-office365-ip-addresses-and-urls.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/additional-office365-ip-addresses-and-urls",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/office-365-cdn-quickstart.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/office-365-cdn-quickstart",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/additional-network-security-requirements-for-office-365-gcchigh-and-dod.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/additional-network-security-requirements-for-office-365-gcchigh-and-dod",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/dns-records-for-office-365-dod.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/dns-records-for-office-365-dod",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/dns-records-for-office-365-gcc-high.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/dns-records-for-office-365-gcc-high",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/implementing-expressroute.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/implementing-expressroute",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Enterprise/using-the-object-cache-with-sharepoint-online.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/using-the-object-cache-with-sharepoint-online",
     "redirect_document_id": false
-  },
-
+  }
   ]
 }
