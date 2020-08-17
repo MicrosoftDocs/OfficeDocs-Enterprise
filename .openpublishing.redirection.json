@@ -1657,6 +1657,21 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "Enterprise/managing-office-365-endpoints.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/managing-office-365-endpoints",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/microsoft-cloud-it-architecture-resources.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions/cloud-architecture-models",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "Enterprise/setup-overview-for-enterprises.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "Enterprise/using-the-object-cache-with-sharepoint-online.md",
     "redirect_url": "https://docs.microsoft.com/microsoft-365/Enterprise/using-the-object-cache-with-sharepoint-online",
     "redirect_document_id": false
