@@ -1720,6 +1720,11 @@
     "source_path": " admin/security-and-compliance/multi-factor-authentication-plan.md",
     "redirect_url": " https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365",
     "redirect_document_id": true
+  },
+  {
+    "source_path": "enterprise/cloud-adoption-and-hybrid-solutions.md",
+    "redirect_url": "https://docs.microsoft.com/microsoft-365/solutions",
+    "redirect_document_id": false
   }
   ]
 }
