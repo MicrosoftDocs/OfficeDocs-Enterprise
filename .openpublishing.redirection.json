@@ -1718,7 +1718,7 @@
   },
   {
     "source_path": " admin/security-and-compliance/multi-factor-authentication-plan.md",
-    "redirect_url": " https://docs.microsoft.com/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365",
+    "redirect_url": "/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365",
     "redirect_document_id": true
   },
   {
