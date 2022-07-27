@@ -1725,6 +1725,11 @@
     "source_path": "enterprise/cloud-adoption-and-hybrid-solutions.md",
     "redirect_url": "/microsoft-365/solutions",
     "redirect_document_id": false
-  }
+  },
+  {
+    "source_path": "enterprise/powershell/index.md",
+    "redirect_url": "/office365/enterprise/powershell/manage-office-365-with-office-365-powershell",
+    "redirect_document_id": true
+  }    
   ]
 }
